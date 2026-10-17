@@ -1,0 +1,37 @@
+id: cy-afelia
+title: Afelia
+native_name: {text: Αφέλια, lang: el, romanized: afélia}
+summary: Pork marinated in red wine and crushed coriander seeds, then braised until tender and glossy.
+origin:
+  country: CY
+course: main
+dish_types: [braise]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 90, inactive_min: 720}
+difficulty: 2
+techniques: [marinating, pan-frying, braising]
+ingredient_groups:
+  - items:
+      - {ingredient: pork-shoulder, qty: 1, unit: kg, prep: "cut into 4 cm cubes"}
+      - {ingredient: red-wine, qty: 400, unit: ml, note: "dry"}
+      - {ingredient: coriander-seeds, qty: 2, unit: tbsp, prep: "coarsely crushed"}
+      - {ingredient: olive-oil, qty: 4, unit: tbsp}
+      - {ingredient: cinnamon-stick, qty: 1}
+      - {ingredient: bay-leaf, qty: 2}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+steps:
+  - text: Marinate the pork in the wine with half the coriander overnight in the fridge.
+    timer_min: 720
+  - Lift out the pork (keep the marinade), pat dry and brown well in the oil.
+  - Add the marinade, cinnamon, bay, the rest of the coriander, salt and pepper.
+  - text: Cover and simmer gently, stirring now and then, until the pork is tender and the sauce reduced to a glaze.
+    timer_min: 80
+serving: With pourgouri (cracked wheat pilaf) or fried potatoes and village salad.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

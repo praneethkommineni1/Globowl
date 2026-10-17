@@ -1,0 +1,39 @@
+id: sk-bryndzove-halusky
+title: Bryndzové Halušky
+native_name: {text: Bryndzové halušky, lang: sk}
+summary: Slovakia's national dish — little potato dumplings tossed with tangy sheep's-cheese bryndza and topped with crispy bacon.
+origin:
+  country: SK
+course: main
+dish_types: [dumpling, cheese]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 20}
+difficulty: 3
+equipment: [Halušky board or spätzle press]
+techniques: [dough-making, boiling, pan-frying]
+ingredient_groups:
+  - name: Halušky
+    items:
+      - {ingredient: potato, qty: 800, unit: g, prep: "peeled and finely grated", note: "floury"}
+      - {ingredient: all-purpose-flour, qty: 250, unit: g, note: "approximately — enough for a thick, sticky dough"}
+      - {ingredient: egg, qty: 1}
+      - {ingredient: salt, qty: 1, unit: tsp}
+  - name: To finish
+    items:
+      - {ingredient: bryndza, qty: 250, unit: g}
+      - {ingredient: bacon, qty: 150, unit: g, prep: "diced"}
+      - {ingredient: chives, qty: 1, unit: handful, prep: "snipped", optional: true}
+steps:
+  - Mix the grated potato, egg, salt and enough flour to make a soft, sticky dough that holds on a spoon.
+  - Bring a large pot of salted water to a boil. Press the dough through the halušky board (or scrape small pieces off a board with a knife) into the water.
+  - When the dumplings rise, boil 1 minute more, lift out and drain.
+  - Fry the bacon until crisp.
+  - Toss the hot halušky with the bryndza (and a spoonful of bacon fat) until creamy. Serve topped with bacon and chives.
+serving: With a glass of žinčica (sheep's whey) or buttermilk.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

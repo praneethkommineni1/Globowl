@@ -1,0 +1,49 @@
+id: ps-musakhan
+title: Musakhan
+native_name: {text: مسخن, lang: ar, romanized: musakhkhan}
+summary: Roast chicken on flatbread soaked with olive oil, piled with slow-cooked onions and lots of tangy sumac.
+origin:
+  country: PS
+  also_claimed_by: [JO]
+course: main
+dish_types: [roast, flatbread]
+occasions: [Olive harvest]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 75, inactive_min: 30}
+difficulty: 2
+techniques: [marinating, roasting, sauteing, baking]
+ingredient_groups:
+  - name: Chicken
+    items:
+      - {ingredient: chicken-thigh, qty: 1.5, unit: kg, prep: "bone-in pieces"}
+      - {ingredient: sumac, qty: 2, unit: tbsp}
+      - {ingredient: allspice, qty: 1, unit: tsp}
+      - {ingredient: ground-cardamom, qty: 0.5, unit: tsp}
+      - {ingredient: salt, qty: 2, unit: tsp}
+      - {ingredient: olive-oil, qty: 3, unit: tbsp}
+  - name: Onions and bread
+    items:
+      - {ingredient: olive-oil, qty: 120, unit: ml, note: "the best you have"}
+      - {ingredient: onion, qty: 1, unit: kg, prep: "thinly sliced"}
+      - {ingredient: sumac, qty: 2, unit: tbsp}
+      - {ingredient: pita-bread, qty: 4, note: "large taboon or markook bread is traditional"}
+      - {ingredient: pine-nuts, qty: 40, unit: g, prep: "toasted", optional: true}
+steps:
+  - text: Rub the chicken with the spices, salt and oil and marinate.
+    timer_min: 30
+  - text: Roast at 200 °C until golden and cooked through.
+    timer_min: 45
+  - Meanwhile cook the onions slowly in the olive oil with a pinch of salt until very soft and sweet but not browned (about 30 minutes). Stir in the sumac.
+  - Lay the breads on a tray, brush with oil from the onions, spread with the onions, and top with the chicken.
+  - text: Bake until the bread edges crisp.
+    timer_min: 10
+  - Scatter with pine nuts and more sumac.
+serving: Eaten by hand, tearing the soaked bread, with yogurt and salad.
+culture: Traditionally made after the olive harvest to celebrate the fresh new oil.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

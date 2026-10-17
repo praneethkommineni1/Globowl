@@ -1,0 +1,36 @@
+id: bt-ema-datshi
+title: Ema Datshi
+native_name: {text: ཨེ་མ་དར་ཚིལ་, lang: dz, romanized: ema datshi}
+alternate_names: [Chili and cheese stew]
+summary: Bhutan's national dish — green chilies simmered with onion and tomato in a melting, tangy cheese sauce.
+origin:
+  country: BT
+course: main
+dish_types: [stew]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 20}
+difficulty: 1
+techniques: [simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: green-chili, qty: 250, unit: g, prep: "split lengthwise", note: "long green chilies; use milder ones unless you love heat"}
+      - {ingredient: onion, qty: 1, prep: "sliced"}
+      - {ingredient: tomato, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "sliced"}
+      - {ingredient: water, qty: 250, unit: ml}
+      - {ingredient: vegetable-oil, qty: 1, unit: tbsp}
+      - {ingredient: feta, qty: 150, unit: g, prep: "crumbled", note: "Bhutanese datshi is a soft cow's-milk cheese; feta mixed with farmer's cheese is a common substitute"}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - text: Simmer the chilies, onion, garlic and oil in the water.
+    timer_min: 10
+  - Add the tomato and cheese and simmer, stirring gently, until the cheese melts into a sauce (about 5 minutes). Don't boil hard.
+  - Season — the cheese is salty, so taste first.
+serving: With Bhutanese red rice.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

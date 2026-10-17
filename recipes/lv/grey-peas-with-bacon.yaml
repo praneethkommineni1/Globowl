@@ -1,0 +1,34 @@
+id: lv-grey-peas-with-bacon
+title: Grey Peas with Bacon
+native_name: {text: Pelēkie zirņi ar speķi, lang: lv}
+summary: Earthy grey peas tossed with crisp smoked bacon and onion — a Latvian national dish, essential at Christmas.
+origin:
+  country: LV
+course: main
+dish_types: [beans]
+occasions: [Christmas]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 75, inactive_min: 720}
+difficulty: 1
+techniques: [boiling, pan-frying]
+ingredient_groups:
+  - items:
+      - {ingredient: dried-grey-peas, qty: 400, unit: g, note: "soaked overnight"}
+      - {ingredient: water, qty: 2, unit: l}
+      - {ingredient: bacon, qty: 200, unit: g, prep: "diced", note: "smoked speķis"}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: salt, note: "to taste"}
+      - {ingredient: black-pepper, note: "to taste"}
+steps:
+  - text: Drain the peas, cover with fresh water and simmer until tender but not mushy. Drain.
+    timer_min: 60
+  - Fry the bacon until it renders and crisps. Add the onion and cook until golden.
+  - Toss the peas with the bacon, onion and fat, season and serve hot.
+serving: With a glass of kefir.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

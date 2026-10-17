@@ -1,0 +1,38 @@
+id: zm-ifisashi
+title: Ifisashi
+native_name: {text: Ifisashi, lang: bem}
+alternate_names: [Greens in peanut sauce]
+summary: Leafy greens and tomato simmered in a creamy sauce of ground peanuts, eaten with nshima.
+origin:
+  country: ZM
+  also_claimed_by: [MW]
+course: main
+dish_types: [greens, stew]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 25}
+difficulty: 1
+techniques: [simmering]
+ingredient_groups:
+  - name: Ifisashi
+    items:
+      - {ingredient: raw-peanuts, qty: 100, unit: g, prep: "finely ground", alt: [peanut-butter]}
+      - {ingredient: water, qty: 300, unit: ml}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: kale, qty: 500, unit: g, prep: "finely shredded", note: "or pumpkin leaves or rape greens"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+  - name: Nshima
+    items:
+      - {ingredient: maize-flour, qty: 300, unit: g, note: "cooked as for ugali (see the Kenyan recipe)"}
+steps:
+  - Simmer the ground peanuts in the water with the onion and tomato, stirring, until creamy (about 10 minutes).
+  - text: Add the greens and salt and simmer gently, stirring now and then, until tender and the sauce coats the leaves.
+    timer_min: 12
+  - Serve with nshima.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

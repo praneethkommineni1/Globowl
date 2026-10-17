@@ -55,6 +55,8 @@ bread-roll: {name: bread roll, category: grain, contains: [gluten], may_contain:
 pita-bread: {name: pita bread, category: grain, contains: [gluten], may_contain: [sesame], aliases: [somun, lepinja, flatbread]}
 chickpea-flour: {name: chickpea flour, category: legume, aliases: [gram flour, besan]}
 
+phyllo: {name: phyllo pastry, category: grain, contains: [gluten], aliases: [filo, yufka, kore]}
+
 # --- Legumes and soy --------------------------------------------------------
 red-lentils: {name: red lentils, category: legume, aliases: [masoor dal, split red lentils]}
 brown-lentils: {name: brown lentils, category: legume}
@@ -77,6 +79,9 @@ fava-beans-canned: {name: canned fava beans, category: legume, aliases: [ful, fo
 
 broad-beans-frozen: {name: frozen broad beans, category: legume, aliases: [fava beans, bagilla]}
 green-peas: {name: green peas, category: vegetable, aliases: [garden peas, frozen peas]}
+
+dried-borlotti-beans: {name: dried borlotti beans, category: legume, aliases: [cranberry beans, pinto beans]}
+dried-grey-peas: {name: dried grey peas, category: legume, aliases: [pelēkie zirņi, carlin peas, maple peas]}
 
 # --- Vegetables -------------------------------------------------------------
 onion: {name: onion, category: vegetable}
@@ -136,6 +141,8 @@ yam: {name: yam, category: vegetable, aliases: [ñame], note: "True yam (Dioscor
 lemongrass: {name: lemongrass, category: herb}
 watercress: {name: watercress, category: vegetable}
 paracress: {name: paracress, category: vegetable, aliases: [brèdes mafana, toothache plant, jambu]}
+
+sauerkraut: {name: sauerkraut, category: vegetable, may_contain: [sulphite], aliases: [kislo zelje, kapusta kiszona]}
 
 # --- Fruit ------------------------------------------------------------------
 lemon: {name: lemon, category: fruit}
@@ -222,6 +229,9 @@ caraway-seeds: {name: caraway seeds, category: spice}
 
 sumac: {name: sumac, category: spice}
 
+ground-fenugreek: {name: ground fenugreek, category: spice, aliases: [hulba, methi powder]}
+dried-savory: {name: dried savory, category: spice, aliases: [summer savory, Bounekraut]}
+
 # --- Condiments, sauces, pastes ---------------------------------------------
 soy-sauce: {name: soy sauce, category: condiment, contains: [soy, gluten], note: Tamari is usually wheat-free.}
 dark-soy-sauce: {name: dark soy sauce, category: condiment, contains: [soy, gluten]}
@@ -256,6 +266,8 @@ cider-vinegar: {name: cider vinegar, category: condiment, may_contain: [sulphite
 
 mayonnaise: {name: mayonnaise, category: condiment, contains: [egg], may_contain: [mustard]}
 ajvar: {name: ajvar, category: condiment, aliases: [roasted red pepper relish]}
+
+date-syrup: {name: date syrup, category: sweetener, aliases: [dibs, silan]}
 
 # --- Nuts and seeds ---------------------------------------------------------
 roasted-peanuts: {name: roasted peanuts, category: nut-seed, contains: [peanut]}
@@ -310,6 +322,9 @@ mozzarella: {name: mozzarella, category: dairy, animal: [dairy], contains: [milk
 
 kajmak: {name: kajmak, category: dairy, animal: [dairy], contains: [milk], aliases: [kaymak, clotted cream]}
 
+kefir: {name: kefir, category: dairy, animal: [dairy], contains: [milk]}
+bryndza: {name: bryndza, category: dairy, animal: [dairy], contains: [milk], may_contain: [animal-rennet], note: "Soft, tangy sheep's-milk cheese."}
+
 # --- Meat, poultry, seafood -------------------------------------------------
 chicken-thigh: {name: chicken thigh, category: poultry, animal: [poultry]}
 chicken-mince: {name: minced chicken, category: poultry, animal: [poultry], aliases: [ground chicken]}
@@ -340,6 +355,10 @@ ham: {name: ham, category: meat, animal: [meat], contains: [pork], may_contain: 
 bacon: {name: bacon, category: meat, animal: [meat], contains: [pork]}
 rabbit: {name: rabbit, category: meat, animal: [meat]}
 
+smoked-pork-collar: {name: smoked pork collar, category: meat, animal: [meat], contains: [pork], may_contain: [sulphite], aliases: [Judd, smoked pork neck]}
+tilapia: {name: tilapia, category: seafood, animal: [fish], contains: [fish], aliases: [chambo]}
+canned-tuna: {name: canned tuna, category: seafood, animal: [fish], contains: [fish]}
+
 # --- Sweeteners and baking --------------------------------------------------
 sugar: {name: sugar, category: sweetener, note: Some cane sugar is refined with bone char; strict vegans may prefer certified sugar.}
 brown-sugar: {name: brown sugar, category: sweetener}
@@ -350,6 +369,8 @@ baking-soda: {name: baking soda, category: baking, aliases: [bicarbonate of soda
 baking-powder: {name: baking powder, category: baking, may_contain: [gluten]}
 vanilla-extract: {name: vanilla extract, category: baking, contains: [alcohol]}
 vanilla-bean: {name: vanilla bean, category: baking, aliases: [vanilla pod]}
+
+instant-yeast: {name: instant yeast, category: baking}
 
 # --- Drinks and water -------------------------------------------------------
 dry-white-wine: {name: dry white wine, category: beverage, contains: [alcohol, sulphite]}

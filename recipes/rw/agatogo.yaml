@@ -1,0 +1,39 @@
+id: rw-agatogo
+title: Agatogo
+native_name: {text: Agatogo, lang: rw}
+summary: Green cooking bananas stewed with beef, tomato, palm oil and greens — a hearty Rwandan one-pot meal.
+origin:
+  country: RW
+  also_claimed_by: [UG, BI]
+course: main
+dish_types: [stew]
+authenticity: home-style
+yield: {servings: 5}
+time: {prep_min: 20, cook_min: 70}
+difficulty: 2
+techniques: [stewing]
+ingredient_groups:
+  - items:
+      - {ingredient: red-palm-oil, qty: 3, unit: tbsp, alt: [vegetable-oil]}
+      - {ingredient: beef-chuck, qty: 500, unit: g, prep: "cubed"}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: tomato, qty: 3, prep: "chopped"}
+      - {ingredient: green-pepper, qty: 1, prep: "chopped"}
+      - {ingredient: carrot, qty: 2, prep: "sliced"}
+      - {ingredient: water, qty: 750, unit: ml}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: green-plantain, qty: 6, prep: "peeled and halved", note: "green cooking bananas (matoke) if available"}
+      - {ingredient: spinach, qty: 150, unit: g, prep: "chopped"}
+steps:
+  - Brown the beef in the oil, then add the onion and cook until soft.
+  - text: Add the tomatoes, pepper, carrots, water and salt and simmer, covered, until the beef is nearly tender.
+    timer_min: 40
+  - text: Add the bananas and simmer until soft and the sauce thickens.
+    timer_min: 25
+  - Stir in the spinach for the last 5 minutes.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -1,0 +1,38 @@
+id: ee-mulgipuder
+title: Mulgipuder
+native_name: {text: Mulgipuder, lang: et}
+alternate_names: [Potato and barley porridge]
+summary: Potatoes and barley cooked together and mashed, topped with crispy bacon and onion — southern Estonian comfort food.
+origin:
+  country: EE
+  region: Mulgimaa (southern Estonia)
+course: main
+dish_types: [mash, porridge]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 50}
+difficulty: 1
+techniques: [boiling, pan-frying]
+ingredient_groups:
+  - items:
+      - {ingredient: pearl-barley, qty: 150, unit: g, prep: "rinsed"}
+      - {ingredient: water, qty: 1.5, unit: l}
+      - {ingredient: potato, qty: 1, unit: kg, prep: "peeled and chunked"}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: butter, qty: 2, unit: tbsp}
+      - {ingredient: bacon, qty: 150, unit: g, prep: "diced", optional: true}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+steps:
+  - text: Simmer the barley in the salted water.
+    timer_min: 20
+  - text: Add the potatoes and cook until both are soft.
+    timer_min: 25
+  - Drain off most of the water (keep a little) and mash together with the butter into a thick porridge.
+  - Fry the bacon until crisp, add the onion and cook until golden. Spoon over the porridge.
+serving: With a glass of buttermilk or kefir.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

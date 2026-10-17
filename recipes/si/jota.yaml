@@ -1,0 +1,43 @@
+id: si-jota
+title: Jota
+native_name: {text: Jota, lang: sl}
+alternate_names: [Bean and sauerkraut soup]
+summary: A thick, smoky soup of beans, potatoes and sauerkraut thickened with a paprika roux — from the Slovenian Karst and Trieste.
+origin:
+  country: SI
+  region: Primorska (Karst)
+  also_claimed_by: [IT]
+course: soup
+dish_types: [soup, stew]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 15, cook_min: 120, inactive_min: 720}
+difficulty: 2
+techniques: [simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: dried-borlotti-beans, qty: 250, unit: g, note: "soaked overnight"}
+      - {ingredient: water, qty: 2, unit: l}
+      - {ingredient: smoked-sausage, qty: 300, unit: g, note: "or smoked pork ribs", optional: true}
+      - {ingredient: bay-leaf, qty: 2}
+      - {ingredient: potato, qty: 2, prep: "cubed"}
+      - {ingredient: sauerkraut, qty: 500, unit: g, prep: "rinsed if very sour"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "minced"}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: all-purpose-flour, qty: 1, unit: tbsp}
+      - {ingredient: sweet-paprika, qty: 1, unit: tsp}
+      - {ingredient: salt, note: "to taste"}
+      - {ingredient: black-pepper, note: "to taste"}
+steps:
+  - text: Simmer the drained beans in the water with the bay leaves (and the smoked meat, if using) until the beans are tender.
+    timer_min: 75
+  - text: Add the potatoes and sauerkraut and simmer until the potatoes are soft.
+    timer_min: 25
+  - Mash some of the potatoes and beans against the side of the pot to thicken.
+  - Make a roux (prežganje) by frying the flour in the oil until golden; off the heat stir in the garlic and paprika, then stir it into the soup and simmer 5 minutes. Season.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

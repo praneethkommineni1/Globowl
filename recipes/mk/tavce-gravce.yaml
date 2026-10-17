@@ -1,0 +1,41 @@
+id: mk-tavce-gravce
+title: Tavče Gravče
+native_name: {text: Тавче гравче, lang: mk, romanized: tavče gravče}
+alternate_names: [Macedonian baked beans]
+summary: North Macedonia's national dish — white beans cooked with onion, paprika and dried chili, then baked in a clay dish until crusted.
+origin:
+  country: MK
+course: main
+dish_types: [beans, bake]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 15, cook_min: 120, inactive_min: 720}
+difficulty: 1
+equipment: [Clay or ovenproof dish]
+techniques: [simmering, baking]
+ingredient_groups:
+  - items:
+      - {ingredient: dried-white-beans, qty: 500, unit: g, note: "soaked overnight; Tetovo beans are the classic"}
+      - {ingredient: water, qty: 2, unit: l}
+      - {ingredient: vegetable-oil, qty: 4, unit: tbsp}
+      - {ingredient: onion, qty: 2, prep: "chopped"}
+      - {ingredient: all-purpose-flour, qty: 1, unit: tbsp}
+      - {ingredient: sweet-paprika, qty: 2, unit: tsp}
+      - {ingredient: dried-red-chili, qty: 2}
+      - {ingredient: dried-mint, qty: 1, unit: tsp}
+      - {ingredient: salt, qty: 2, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+steps:
+  - text: Simmer the drained beans in the water until tender, keeping them covered with liquid.
+    timer_min: 80
+  - Fry the onions in the oil until soft. Stir in the flour, then the paprika off the heat.
+  - Stir the onion mixture, chilies, mint, salt and pepper into the beans with enough liquid to keep them saucy, and pour into the dish.
+  - text: Bake at 200 °C until bubbling with a browned top.
+    timer_min: 35
+serving: With crusty bread and pickled peppers.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

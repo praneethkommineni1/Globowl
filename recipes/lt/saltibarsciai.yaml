@@ -1,0 +1,39 @@
+id: lt-saltibarsciai
+title: Šaltibarščiai
+native_name: {text: Šaltibarščiai, lang: lt}
+alternate_names: [Lithuanian cold beet soup, Pink soup]
+summary: A bright pink cold soup of kefir, beetroot, cucumber, dill and egg, served with hot boiled potatoes on the side.
+origin:
+  country: LT
+  also_claimed_by: [LV, BY]
+course: soup
+dish_types: [cold-soup]
+occasions: [Summer, Pink Soup Festival (Vilnius)]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 25}
+difficulty: 1
+techniques: [boiling]
+ingredient_groups:
+  - name: Soup
+    items:
+      - {ingredient: kefir, qty: 1, unit: l, note: "well chilled"}
+      - {ingredient: beetroot, qty: 400, unit: g, note: "cooked and peeled, then grated or cut into matchsticks"}
+      - {ingredient: cucumber, qty: 1, prep: "grated or diced"}
+      - {ingredient: dill, qty: 1, unit: bunch, prep: "chopped"}
+      - {ingredient: scallion, qty: 4, prep: "sliced"}
+      - {ingredient: egg, qty: 4, note: "hard-boiled"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+  - name: On the side
+    items:
+      - {ingredient: potato, qty: 800, unit: g, note: "boiled and sprinkled with dill"}
+steps:
+  - Mix the kefir, beetroot, cucumber, most of the dill, scallions and salt. Thin with a little cold water if very thick. Chill.
+  - Chop two eggs into the soup; halve the others for the top.
+  - Serve cold, garnished with egg and dill, with hot potatoes on the side.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

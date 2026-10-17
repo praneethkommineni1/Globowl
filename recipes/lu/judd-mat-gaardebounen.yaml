@@ -1,0 +1,48 @@
+id: lu-judd-mat-gaardebounen
+title: Judd mat Gaardebounen
+native_name: {text: Judd mat Gaardebounen, lang: lb}
+alternate_names: [Smoked pork collar with broad beans]
+summary: Luxembourg's national dish — smoked pork collar simmered until tender, with broad beans in a creamy savory-scented sauce.
+origin:
+  country: LU
+course: main
+dish_types: [boiled-meat]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 15, cook_min: 150, inactive_min: 720}
+difficulty: 2
+techniques: [simmering]
+ingredient_groups:
+  - name: Pork
+    items:
+      - {ingredient: smoked-pork-collar, qty: 1.5, unit: kg, note: "soaked overnight in cold water"}
+      - {ingredient: onion, qty: 1, prep: "halved"}
+      - {ingredient: carrot, qty: 1}
+      - {ingredient: leek, qty: 1}
+      - {ingredient: bay-leaf, qty: 2}
+      - {ingredient: whole-cloves, qty: 3}
+      - {ingredient: black-peppercorns, qty: 1, unit: tsp}
+  - name: Beans
+    items:
+      - {ingredient: broad-beans-frozen, qty: 1, unit: kg}
+      - {ingredient: butter, qty: 2, unit: tbsp}
+      - {ingredient: all-purpose-flour, qty: 2, unit: tbsp}
+      - {ingredient: heavy-cream, qty: 100, unit: ml}
+      - {ingredient: dried-savory, qty: 1, unit: tsp}
+      - {ingredient: salt, note: "to taste"}
+  - name: To serve
+    items:
+      - {ingredient: potato, qty: 1, unit: kg, note: "boiled"}
+steps:
+  - text: Drain the pork, cover with fresh water, add the vegetables and spices, and simmer very gently until tender.
+    timer_min: 150
+  - Boil the beans in salted water until tender (5–8 minutes). Drain, keeping 300 ml of the water.
+  - Melt the butter, stir in the flour, then whisk in the bean water and a ladle of the pork broth and simmer until thick. Add the cream, savory and beans and season.
+  - Slice the pork and serve with the beans and potatoes.
+serving: With a Luxembourg Moselle wine or local beer.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

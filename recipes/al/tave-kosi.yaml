@@ -1,0 +1,45 @@
+id: al-tave-kosi
+title: Tavë Kosi
+native_name: {text: Tavë kosi, lang: sq}
+alternate_names: [Elbasan lamb and yogurt bake]
+summary: Albania's national dish — tender lamb baked under a thick, tangy yogurt and egg custard until golden.
+origin:
+  country: AL
+  region: Elbasan
+course: main
+dish_types: [bake]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 90}
+difficulty: 3
+techniques: [roasting, whisking, baking]
+ingredient_groups:
+  - name: Lamb
+    items:
+      - {ingredient: lamb-shoulder, qty: 1, unit: kg, prep: "on the bone, in pieces"}
+      - {ingredient: butter, qty: 50, unit: g}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: dried-oregano, qty: 1, unit: tsp}
+      - {ingredient: long-grain-rice, qty: 3, unit: tbsp, optional: true}
+      - {ingredient: water, qty: 250, unit: ml}
+  - name: Yogurt topping
+    items:
+      - {ingredient: butter, qty: 50, unit: g}
+      - {ingredient: all-purpose-flour, qty: 3, unit: tbsp}
+      - {ingredient: yogurt, qty: 1, unit: kg, note: "thick, full-fat"}
+      - {ingredient: egg, qty: 4}
+      - {ingredient: nutmeg, qty: 1, unit: pinch}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+steps:
+  - Season the lamb with salt and oregano. Brown it in the butter in an ovenproof dish, add the water, cover and roast at 180 °C until tender (about 60 minutes). Stir in the rice for the last 20 minutes, if using.
+  - Melt the butter, stir in the flour and cook 1 minute. Cool slightly.
+  - Whisk the yogurt and eggs together, then whisk in the butter-flour mixture, nutmeg and salt.
+  - Pour the yogurt over the lamb.
+  - text: Bake uncovered at 200 °C until set and golden on top.
+    timer_min: 30
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

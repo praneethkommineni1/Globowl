@@ -1,0 +1,41 @@
+id: rs-gibanica
+title: Gibanica
+native_name: {text: Гибаница, lang: sr, romanized: gibanica}
+summary: A golden, layered pie of crumpled phyllo baked with eggs and soft white cheese — a fixture of Serbian holidays and breakfasts.
+origin:
+  country: RS
+  also_claimed_by: [BA, ME, MK]
+course: breakfast
+dish_types: [pie, pastry]
+occasions: [Christmas, Easter]
+authenticity: traditional
+yield: {servings: 8}
+time: {prep_min: 20, cook_min: 45}
+difficulty: 2
+equipment: [23 × 33 cm baking dish]
+techniques: [baking]
+ingredient_groups:
+  - items:
+      - {ingredient: phyllo, qty: 500, unit: g}
+      - {ingredient: egg, qty: 4}
+      - {ingredient: feta, qty: 300, unit: g, prep: "crumbled", note: "Serbian white cheese (sir)"}
+      - {ingredient: twarog, qty: 200, unit: g, note: "or cottage cheese"}
+      - {ingredient: milk, qty: 250, unit: ml}
+      - {ingredient: vegetable-oil, qty: 100, unit: ml}
+      - {ingredient: baking-powder, qty: 1, unit: tsp}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+steps:
+  - Heat the oven to 200 °C and oil the dish.
+  - Whisk the eggs, cheeses, milk, half the oil, baking powder and salt.
+  - Lay 2 sheets of phyllo in the dish and brush with oil. Dip the remaining sheets one by one in the egg mixture, crumple loosely and pack them in the dish. Top with 2 flat sheets brushed with oil.
+  - Pour over any remaining egg mixture.
+  - text: Bake until puffed and deep golden.
+    timer_min: 40
+  - Rest 10 minutes before cutting.
+serving: Warm, with plain yogurt.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

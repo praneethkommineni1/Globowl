@@ -309,6 +309,18 @@
    "besan"
   ]
  },
+ "phyllo": {
+  "name": "phyllo pastry",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ],
+  "aliases": [
+   "filo",
+   "yufka",
+   "kore"
+  ]
+ },
  "red-lentils": {
   "name": "red lentils",
   "category": "legume",
@@ -437,6 +449,23 @@
   "aliases": [
    "garden peas",
    "frozen peas"
+  ]
+ },
+ "dried-borlotti-beans": {
+  "name": "dried borlotti beans",
+  "category": "legume",
+  "aliases": [
+   "cranberry beans",
+   "pinto beans"
+  ]
+ },
+ "dried-grey-peas": {
+  "name": "dried grey peas",
+  "category": "legume",
+  "aliases": [
+   "pelēkie zirņi",
+   "carlin peas",
+   "maple peas"
   ]
  },
  "onion": {
@@ -767,6 +796,17 @@
    "brèdes mafana",
    "toothache plant",
    "jambu"
+  ]
+ },
+ "sauerkraut": {
+  "name": "sauerkraut",
+  "category": "vegetable",
+  "may_contain": [
+   "sulphite"
+  ],
+  "aliases": [
+   "kislo zelje",
+   "kapusta kiszona"
   ]
  },
  "lemon": {
@@ -1138,6 +1178,22 @@
   "name": "sumac",
   "category": "spice"
  },
+ "ground-fenugreek": {
+  "name": "ground fenugreek",
+  "category": "spice",
+  "aliases": [
+   "hulba",
+   "methi powder"
+  ]
+ },
+ "dried-savory": {
+  "name": "dried savory",
+  "category": "spice",
+  "aliases": [
+   "summer savory",
+   "Bounekraut"
+  ]
+ },
  "soy-sauce": {
   "name": "soy sauce",
   "category": "condiment",
@@ -1430,6 +1486,14 @@
   "category": "condiment",
   "aliases": [
    "roasted red pepper relish"
+  ]
+ },
+ "date-syrup": {
+  "name": "date syrup",
+  "category": "sweetener",
+  "aliases": [
+   "dibs",
+   "silan"
   ]
  },
  "roasted-peanuts": {
@@ -1810,6 +1874,30 @@
    "clotted cream"
   ]
  },
+ "kefir": {
+  "name": "kefir",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
+  ]
+ },
+ "bryndza": {
+  "name": "bryndza",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
+  ],
+  "may_contain": [
+   "animal-rennet"
+  ],
+  "note": "Soft, tangy sheep's-milk cheese."
+ },
  "chicken-thigh": {
   "name": "chicken thigh",
   "category": "poultry",
@@ -2078,6 +2166,46 @@
    "meat"
   ]
  },
+ "smoked-pork-collar": {
+  "name": "smoked pork collar",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "contains": [
+   "pork"
+  ],
+  "may_contain": [
+   "sulphite"
+  ],
+  "aliases": [
+   "Judd",
+   "smoked pork neck"
+  ]
+ },
+ "tilapia": {
+  "name": "tilapia",
+  "category": "seafood",
+  "animal": [
+   "fish"
+  ],
+  "contains": [
+   "fish"
+  ],
+  "aliases": [
+   "chambo"
+  ]
+ },
+ "canned-tuna": {
+  "name": "canned tuna",
+  "category": "seafood",
+  "animal": [
+   "fish"
+  ],
+  "contains": [
+   "fish"
+  ]
+ },
  "sugar": {
   "name": "sugar",
   "category": "sweetener",
@@ -2134,6 +2262,10 @@
   "aliases": [
    "vanilla pod"
   ]
+ },
+ "instant-yeast": {
+  "name": "instant yeast",
+  "category": "baking"
  },
  "dry-white-wine": {
   "name": "dry white wine",
