@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "count": 155,
+ "count": 171,
  "recipes": [
   {
    "id": "ae-luqaimat",
@@ -472,6 +472,255 @@
      "in_optional_ingredients": [
       "tree-nut"
      ]
+    }
+   }
+  },
+  {
+   "id": "ag-fungee-and-pepperpot",
+   "title": "Fungee and Pepperpot",
+   "summary": "Antigua's national dish — a thick vegetable and meat stew with greens, eggplant, squash and okra, served with fungee, a firm cornmeal and okra mash.",
+   "origin": {
+    "country": "AG",
+    "country_name": "Antigua and Barbuda",
+    "continent": "Americas",
+    "subregion": "Caribbean"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew",
+    "porridge"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 30,
+    "cook_min": 120,
+    "total_min": 150
+   },
+   "difficulty": 3,
+   "techniques": [
+    "stewing",
+    "boiling"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Pepperpot",
+     "items": [
+      {
+       "ingredient": "beef-chuck",
+       "qty": 600,
+       "unit": "g",
+       "prep": "cubed",
+       "name": "beef chuck"
+      },
+      {
+       "ingredient": "salt-pork",
+       "qty": 200,
+       "unit": "g",
+       "prep": "soaked, then cubed",
+       "optional": true,
+       "name": "salt pork"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1.5,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "thyme",
+       "qty": 3,
+       "unit": "sprig",
+       "name": "thyme"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 1,
+       "note": "whole",
+       "name": "Scotch bonnet chili"
+      },
+      {
+       "ingredient": "spinach",
+       "qty": 400,
+       "unit": "g",
+       "prep": "chopped",
+       "note": "or eddo / dasheen leaves",
+       "name": "spinach"
+      },
+      {
+       "ingredient": "eggplant",
+       "qty": 1,
+       "prep": "cubed",
+       "name": "eggplant"
+      },
+      {
+       "ingredient": "butternut-squash",
+       "qty": 300,
+       "unit": "g",
+       "prep": "cubed",
+       "name": "butternut squash"
+      },
+      {
+       "ingredient": "okra",
+       "qty": 150,
+       "unit": "g",
+       "prep": "sliced",
+       "name": "okra"
+      },
+      {
+       "ingredient": "green-peas",
+       "qty": 100,
+       "unit": "g",
+       "name": "green peas"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "Fungee",
+     "items": [
+      {
+       "ingredient": "okra",
+       "qty": 100,
+       "unit": "g",
+       "prep": "thinly sliced",
+       "name": "okra"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "cornmeal",
+       "qty": 250,
+       "unit": "g",
+       "note": "mixed with 250 ml cold water",
+       "name": "cornmeal"
+      },
+      {
+       "ingredient": "butter",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "butter"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Simmer the beef and salt pork with the water, onion, garlic, thyme and Scotch bonnet until tender.",
+     "timer_min": 70
+    },
+    {
+     "text": "Add the vegetables and simmer, stirring, until they break down into a thick stew. Remove the pepper and season.",
+     "timer_min": 35
+    },
+    {
+     "text": "For the fungee, boil the okra in the salted water until soft, then stir in the soaked cornmeal and keep turning with a wooden spoon over low heat until stiff and smooth (about 15 minutes). Stir in the butter and shape in a buttered bowl."
+    },
+    {
+     "text": "Serve the fungee turned out beside the pepperpot."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "egg-free",
+     "nut-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "beef chuck",
+       "butter"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "butter"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "adaptable",
+      "changes": [
+       "omit salt pork"
+      ]
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "milk"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
     }
    }
   },
@@ -3437,6 +3686,237 @@
    }
   },
   {
+   "id": "bn-nasi-katok",
+   "title": "Nasi Katok",
+   "native_name": {
+    "text": "Nasi katok",
+    "lang": "ms"
+   },
+   "summary": "Brunei's favourite cheap meal — plain rice with crisp turmeric fried chicken and a sweet-hot sambal.",
+   "origin": {
+    "country": "BN",
+    "country_name": "Brunei",
+    "continent": "Asia",
+    "subregion": "South-eastern Asia"
+   },
+   "course": "main",
+   "dish_types": [
+    "rice-dish",
+    "fried-chicken"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 3
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 40,
+    "inactive_min": 30,
+    "total_min": 90
+   },
+   "difficulty": 2,
+   "techniques": [
+    "marinating",
+    "deep-frying",
+    "sauteing"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Fried chicken",
+     "items": [
+      {
+       "ingredient": "chicken-thigh",
+       "qty": 600,
+       "unit": "g",
+       "prep": "bone-in pieces",
+       "name": "chicken thigh"
+      },
+      {
+       "ingredient": "ground-turmeric",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground turmeric"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 2,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "cornstarch",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "cornstarch"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 500,
+       "unit": "ml",
+       "note": "for frying",
+       "name": "vegetable oil"
+      }
+     ]
+    },
+    {
+     "name": "Sambal",
+     "items": [
+      {
+       "ingredient": "red-chili",
+       "qty": 6,
+       "name": "fresh red chili"
+      },
+      {
+       "ingredient": "shallot",
+       "qty": 4,
+       "name": "shallot"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 2,
+       "unit": "clove",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "shrimp-paste",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "shrimp paste"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "tamarind-paste",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "tamarind paste"
+      },
+      {
+       "ingredient": "sugar",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "sugar"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "Rice",
+     "items": [
+      {
+       "ingredient": "cooked-jasmine-rice",
+       "qty": 600,
+       "unit": "g",
+       "name": "cooked jasmine rice"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Rub the chicken with turmeric, garlic and salt and marinate.",
+     "timer_min": 30
+    },
+    {
+     "text": "Blend the chilies, shallots, garlic and shrimp paste. Fry in the oil until darkened, add tamarind, sugar and salt and cook to a thick sambal."
+    },
+    {
+     "text": "Toss the chicken in cornstarch and deep-fry at 170 °C until golden and cooked through (12–15 minutes)."
+    },
+    {
+     "text": "Serve each portion of rice with chicken and a spoonful of sambal."
+    }
+   ],
+   "culture": "\"Katok\" means \"knock\" in Malay — from the late-night customers who knocked on the cook's door for a meal.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "chicken thigh",
+       "shrimp paste"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh",
+       "shrimp paste"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "crustacean"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "bo-sopa-de-mani",
    "title": "Sopa de Maní",
    "native_name": {
@@ -3910,6 +4390,195 @@
    }
   },
   {
+   "id": "bs-peas-n-rice",
+   "title": "Peas 'n' Rice",
+   "summary": "Rice cooked with pigeon peas, salt pork or bacon, tomato paste and thyme — the side dish on every Bahamian table.",
+   "origin": {
+    "country": "BS",
+    "country_name": "Bahamas",
+    "continent": "Americas",
+    "subregion": "Caribbean"
+   },
+   "course": "side",
+   "dish_types": [
+    "rice-dish"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 10,
+    "cook_min": 35,
+    "total_min": 45
+   },
+   "difficulty": 1,
+   "techniques": [
+    "sauteing",
+    "rice-cooking"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "bacon",
+       "qty": 100,
+       "unit": "g",
+       "prep": "diced",
+       "note": "or salt pork",
+       "name": "bacon"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "green-pepper",
+       "qty": 0.5,
+       "prep": "chopped",
+       "name": "green pepper"
+      },
+      {
+       "ingredient": "celery",
+       "qty": 1,
+       "unit": "stalk",
+       "prep": "chopped",
+       "name": "celery"
+      },
+      {
+       "ingredient": "tomato-paste",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "tomato paste"
+      },
+      {
+       "ingredient": "thyme",
+       "qty": 2,
+       "unit": "sprig",
+       "name": "thyme"
+      },
+      {
+       "ingredient": "pigeon-peas-canned",
+       "qty": 1,
+       "unit": "can",
+       "note": "400 g can with its liquid",
+       "name": "canned pigeon peas"
+      },
+      {
+       "ingredient": "long-grain-rice",
+       "qty": 400,
+       "unit": "g",
+       "prep": "rinsed",
+       "name": "long-grain rice"
+      },
+      {
+       "ingredient": "water",
+       "qty": 650,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "black-pepper",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground black pepper"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Fry the bacon until it renders, then add the onion, pepper and celery and cook until soft."
+    },
+    {
+     "text": "Stir in the tomato paste and thyme for 1 minute, then add the peas with their liquid, the water, salt and pepper and bring to a boil."
+    },
+    {
+     "text": "Stir in the rice, cover tightly and cook on low until tender.",
+     "timer_min": 25
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "bacon"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "bacon"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "bacon"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "no",
+      "because": [
+       "bacon"
+      ]
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "celery"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "bt-ema-datshi",
    "title": "Ema Datshi",
    "native_name": {
@@ -4242,6 +4911,219 @@
     },
     "allergens": {
      "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "bz-stew-chicken",
+   "title": "Belizean Stew Chicken",
+   "summary": "Chicken marinated in red recado, browned in caramelised sugar and simmered with onion and peppers into a dark, savoury stew.",
+   "origin": {
+    "country": "BZ",
+    "country_name": "Belize",
+    "continent": "Americas",
+    "subregion": "Central America"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew"
+   ],
+   "occasions": [
+    "Sunday dinner"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 5
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 55,
+    "inactive_min": 60,
+    "total_min": 130
+   },
+   "difficulty": 2,
+   "techniques": [
+    "marinating",
+    "braising"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "chicken-thigh",
+       "qty": 1.2,
+       "unit": "kg",
+       "prep": "bone-in pieces",
+       "name": "chicken thigh"
+      },
+      {
+       "ingredient": "annatto",
+       "qty": 1,
+       "unit": "tbsp",
+       "note": "or 2 tbsp red recado paste",
+       "name": "annatto"
+      },
+      {
+       "ingredient": "white-vinegar",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "white vinegar"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "ground-cumin",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground cumin"
+      },
+      {
+       "ingredient": "dried-oregano",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "dried oregano"
+      },
+      {
+       "ingredient": "black-pepper",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground black pepper"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "brown-sugar",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "brown sugar"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "sliced",
+       "name": "onion"
+      },
+      {
+       "ingredient": "green-pepper",
+       "qty": 1,
+       "prep": "sliced",
+       "name": "green pepper"
+      },
+      {
+       "ingredient": "celery",
+       "qty": 1,
+       "unit": "stalk",
+       "prep": "sliced",
+       "name": "celery"
+      },
+      {
+       "ingredient": "water",
+       "qty": 500,
+       "unit": "ml",
+       "name": "water"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Rub the chicken with the annatto, vinegar, garlic, cumin, oregano, pepper and salt. Marinate.",
+     "timer_min": 60
+    },
+    {
+     "text": "Heat the oil and sugar in a heavy pot until the sugar turns dark amber, then add the chicken and brown it all over."
+    },
+    {
+     "text": "Add the onion, pepper and celery and cook for 3 minutes."
+    },
+    {
+     "text": "Add the water, cover and simmer until the chicken is tender and the sauce is rich.",
+     "timer_min": 40
+    }
+   ],
+   "serving": "With rice and beans, potato salad and fried plantain.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "celery"
+     ],
      "may_contain": [],
      "in_optional_ingredients": []
     }
@@ -7715,6 +8597,213 @@
    }
   },
   {
+   "id": "dm-callaloo-soup",
+   "title": "Callaloo Soup",
+   "alternate_names": [
+    "Kalalou"
+   ],
+   "summary": "A velvety green soup of callaloo leaves, okra and pumpkin cooked in coconut milk with thyme and Scotch bonnet.",
+   "origin": {
+    "country": "DM",
+    "also_claimed_by": [
+     "TT",
+     "GD"
+    ],
+    "country_name": "Dominica",
+    "continent": "Americas",
+    "subregion": "Caribbean"
+   },
+   "course": "soup",
+   "dish_types": [
+    "soup",
+    "greens"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 40,
+    "total_min": 55
+   },
+   "difficulty": 1,
+   "equipment": [
+    "Stick blender or swizzle stick"
+   ],
+   "techniques": [
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "chopped",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "scallion",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "scallion"
+      },
+      {
+       "ingredient": "thyme",
+       "qty": 3,
+       "unit": "sprig",
+       "name": "thyme"
+      },
+      {
+       "ingredient": "spinach",
+       "qty": 500,
+       "unit": "g",
+       "note": "dasheen (taro) leaves are traditional",
+       "name": "spinach"
+      },
+      {
+       "ingredient": "okra",
+       "qty": 150,
+       "unit": "g",
+       "prep": "sliced",
+       "name": "okra"
+      },
+      {
+       "ingredient": "butternut-squash",
+       "qty": 300,
+       "unit": "g",
+       "prep": "cubed",
+       "name": "butternut squash"
+      },
+      {
+       "ingredient": "coconut-milk",
+       "qty": 400,
+       "unit": "ml",
+       "name": "coconut milk"
+      },
+      {
+       "ingredient": "water",
+       "qty": 750,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 1,
+       "note": "whole",
+       "name": "Scotch bonnet chili"
+      },
+      {
+       "ingredient": "crab",
+       "qty": 200,
+       "unit": "g",
+       "note": "crab meat or claws",
+       "optional": true,
+       "name": "crab"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Soften the onion, garlic, scallion and thyme in the oil."
+    },
+    {
+     "text": "Add the greens, okra, squash, coconut milk, water and Scotch bonnet and simmer until everything is very soft.",
+     "timer_min": 30
+    },
+    {
+     "text": "Remove the pepper and thyme stems and blend (or swizzle) until smooth. Add the crab, if using, and heat through. Season."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "adaptable",
+      "changes": [
+       "omit crab"
+      ]
+     },
+     "vegetarian": {
+      "status": "adaptable",
+      "changes": [
+       "omit crab"
+      ]
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": [
+      "crustacean"
+     ]
+    }
+   }
+  },
+  {
    "id": "do-mangu",
    "title": "Mangú",
    "native_name": {
@@ -10391,6 +11480,244 @@
    }
   },
   {
+   "id": "gd-oil-down",
+   "title": "Oil Down",
+   "summary": "Grenada's national dish — breadfruit, salted meat, chicken, dumplings and callaloo steamed in coconut milk and turmeric until the milk is absorbed and only the \"oil\" remains.",
+   "origin": {
+    "country": "GD",
+    "country_name": "Grenada",
+    "continent": "Americas",
+    "subregion": "Caribbean"
+   },
+   "course": "main",
+   "dish_types": [
+    "one-pot",
+    "stew"
+   ],
+   "occasions": [
+    "Gatherings",
+    "Beach cooks"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 8
+   },
+   "time": {
+    "prep_min": 40,
+    "cook_min": 75,
+    "inactive_min": 720,
+    "total_min": 835
+   },
+   "difficulty": 3,
+   "techniques": [
+    "steaming",
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Pot",
+     "items": [
+      {
+       "ingredient": "salt-pork",
+       "qty": 400,
+       "unit": "g",
+       "note": "salted pigtail or salt beef, soaked overnight",
+       "name": "salt pork"
+      },
+      {
+       "ingredient": "chicken-thigh",
+       "qty": 500,
+       "unit": "g",
+       "prep": "bone-in pieces",
+       "optional": true,
+       "name": "chicken thigh"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "sliced",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "thyme",
+       "qty": 4,
+       "unit": "sprig",
+       "name": "thyme"
+      },
+      {
+       "ingredient": "chives",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "name": "chives"
+      },
+      {
+       "ingredient": "ground-turmeric",
+       "qty": 1,
+       "unit": "tsp",
+       "note": "Grenadians call it saffron",
+       "name": "ground turmeric"
+      },
+      {
+       "ingredient": "breadfruit",
+       "qty": 1,
+       "prep": "peeled, cored and cut into large chunks",
+       "name": "breadfruit"
+      },
+      {
+       "ingredient": "carrot",
+       "qty": 2,
+       "prep": "chunked",
+       "name": "carrot"
+      },
+      {
+       "ingredient": "spinach",
+       "qty": 300,
+       "unit": "g",
+       "note": "callaloo (dasheen) leaves are traditional",
+       "name": "spinach"
+      },
+      {
+       "ingredient": "coconut-milk",
+       "qty": 800,
+       "unit": "ml",
+       "name": "coconut milk"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 1,
+       "note": "whole",
+       "name": "Scotch bonnet chili"
+      }
+     ]
+    },
+    {
+     "name": "Dumplings",
+     "items": [
+      {
+       "ingredient": "all-purpose-flour",
+       "qty": 200,
+       "unit": "g",
+       "name": "all-purpose flour"
+      },
+      {
+       "ingredient": "water",
+       "qty": 100,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Drain the salted meat, boil it in fresh water for 15 minutes and drain again to remove excess salt."
+    },
+    {
+     "text": "Knead the dumpling ingredients into a firm dough and shape into small logs."
+    },
+    {
+     "text": "In a large heavy pot, layer the onion, garlic, herbs, meats, breadfruit, carrots and dumplings, with the callaloo leaves on top."
+    },
+    {
+     "text": "Stir the turmeric into the coconut milk and pour over. Add the Scotch bonnet."
+    },
+    {
+     "text": "Cover tightly and cook on medium-low without stirring until the breadfruit is tender and the coconut milk has been absorbed, leaving a little oil at the bottom.",
+     "timer_min": 60
+    },
+    {
+     "text": "Serve from the pot."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "salt pork"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "salt pork"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "salt pork"
+      ]
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "all-purpose flour"
+      ]
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "no",
+      "because": [
+       "salt pork"
+      ]
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "gluten"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "ge-lobio",
    "title": "Lobio",
    "native_name": {
@@ -11891,6 +13218,195 @@
      "contains": [
       "fish"
      ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "gy-pepperpot",
+   "title": "Guyanese Pepperpot",
+   "summary": "Beef slowly stewed in dark, bittersweet cassareep with cinnamon, cloves and hot peppers — Guyana's Christmas morning dish.",
+   "origin": {
+    "country": "GY",
+    "community": "Indigenous (Amerindian) origin",
+    "country_name": "Guyana",
+    "continent": "Americas",
+    "subregion": "South America"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew"
+   ],
+   "occasions": [
+    "Christmas"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 180,
+    "total_min": 195
+   },
+   "difficulty": 2,
+   "techniques": [
+    "stewing"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "beef-chuck",
+       "qty": 1,
+       "unit": "kg",
+       "prep": "cubed",
+       "note": "oxtail and cow heel are traditional additions",
+       "name": "beef chuck"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1.5,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "cassareep",
+       "qty": 120,
+       "unit": "ml",
+       "name": "cassareep"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "cinnamon-stick",
+       "qty": 2,
+       "name": "cinnamon stick"
+      },
+      {
+       "ingredient": "whole-cloves",
+       "qty": 4,
+       "name": "whole cloves"
+      },
+      {
+       "ingredient": "brown-sugar",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "brown sugar"
+      },
+      {
+       "ingredient": "thyme",
+       "qty": 4,
+       "unit": "sprig",
+       "name": "thyme"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 2,
+       "note": "whole; wiri wiri peppers are traditional",
+       "name": "Scotch bonnet chili"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1.5,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Put everything in a heavy pot and bring to a boil."
+    },
+    {
+     "text": "Simmer gently, partly covered, until the meat is falling apart and the sauce is dark and syrupy.",
+     "timer_min": 180
+    },
+    {
+     "text": "Remove the peppers and cinnamon and season."
+    }
+   ],
+   "tips": [
+    "Pepperpot keeps for days and improves each time it's reheated."
+   ],
+   "serving": "With plait bread or dense white bread.",
+   "culture": "Cassareep, a thick sauce made from boiled-down cassava juice, is an Indigenous Guyanese preservative — pepperpot was traditionally kept going for days.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
      "may_contain": [],
      "in_optional_ingredients": []
     }
@@ -15078,6 +16594,266 @@
    }
   },
   {
+   "id": "kg-lagman",
+   "title": "Lagman",
+   "native_name": {
+    "text": "Лагман",
+    "lang": "ky",
+    "romanized": "lagman"
+   },
+   "summary": "Thick, chewy wheat noodles under a stir-fried sauce of beef, peppers, tomato and garlic, scented with cumin.",
+   "origin": {
+    "country": "KG",
+    "community": "Uyghur and Dungan",
+    "also_claimed_by": [
+     "KZ",
+     "UZ"
+    ],
+    "country_name": "Kyrgyzstan",
+    "continent": "Asia",
+    "subregion": "Central Asia"
+   },
+   "course": "main",
+   "dish_types": [
+    "noodles"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 40,
+    "total_min": 60
+   },
+   "difficulty": 3,
+   "equipment": [
+    "Wok or wide pan"
+   ],
+   "techniques": [
+    "stir-frying",
+    "simmering",
+    "boiling"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Sauce",
+     "items": [
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "beef-steak",
+       "qty": 500,
+       "unit": "g",
+       "prep": "cut into thin strips",
+       "note": "or lamb",
+       "name": "beef steak"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "sliced",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "red-bell-pepper",
+       "qty": 1,
+       "prep": "sliced",
+       "name": "red bell pepper"
+      },
+      {
+       "ingredient": "green-pepper",
+       "qty": 1,
+       "prep": "sliced",
+       "name": "green pepper"
+      },
+      {
+       "ingredient": "carrot",
+       "qty": 1,
+       "prep": "cut into matchsticks",
+       "name": "carrot"
+      },
+      {
+       "ingredient": "celery",
+       "qty": 1,
+       "unit": "stalk",
+       "prep": "sliced",
+       "name": "celery"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "tomato-paste",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "tomato paste"
+      },
+      {
+       "ingredient": "ground-cumin",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground cumin"
+      },
+      {
+       "ingredient": "chili-flakes",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "chili flakes"
+      },
+      {
+       "ingredient": "soy-sauce",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "soy sauce"
+      },
+      {
+       "ingredient": "water",
+       "qty": 500,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "white-vinegar",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "white vinegar"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "Noodles",
+     "items": [
+      {
+       "ingredient": "wheat-noodles",
+       "qty": 500,
+       "unit": "g",
+       "note": "fresh thick noodles; hand-pulled is traditional",
+       "name": "thick wheat noodles"
+      },
+      {
+       "ingredient": "scallion",
+       "qty": 2,
+       "prep": "sliced",
+       "name": "scallion"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Stir-fry the beef in the very hot oil until browned. Add the onion and garlic, then the peppers, carrot and celery, and stir-fry for 3 minutes."
+    },
+    {
+     "text": "Add the tomatoes, paste, cumin and chili and cook until the tomatoes soften."
+    },
+    {
+     "text": "Add the soy sauce and water and simmer until the beef is tender and the sauce slightly thickened. Add the vinegar and season.",
+     "timer_min": 20
+    },
+    {
+     "text": "Boil the noodles until chewy-tender, drain and divide between bowls. Ladle the sauce over and top with scallion."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "dairy-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "beef steak"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "beef steak"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "beef steak"
+      ]
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "soy sauce",
+       "thick wheat noodles"
+      ]
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "check-labels",
+      "check": [
+       "thick wheat noodles"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "celery",
+      "gluten",
+      "soy"
+     ],
+     "may_contain": [
+      "egg"
+     ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "kh-lok-lak",
    "title": "Beef Lok Lak",
    "native_name": {
@@ -15521,6 +17297,427 @@
      ],
      "may_contain": [],
      "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "kn-stewed-saltfish",
+   "title": "Stewed Saltfish",
+   "summary": "Salt cod stewed with tomato, onion, peppers and thyme — the heart of the national dish of Saint Kitts and Nevis, with spicy plantains, coconut dumplings and breadfruit.",
+   "origin": {
+    "country": "KN",
+    "country_name": "Saint Kitts and Nevis",
+    "continent": "Americas",
+    "subregion": "Caribbean"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew",
+    "seafood"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 30,
+    "inactive_min": 720,
+    "total_min": 765
+   },
+   "difficulty": 1,
+   "techniques": [
+    "sauteing",
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "salt-cod",
+       "qty": 400,
+       "unit": "g",
+       "note": "soaked overnight in several changes of water",
+       "name": "salt cod"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "sliced",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "green-pepper",
+       "qty": 1,
+       "prep": "sliced",
+       "name": "green pepper"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "tomato-paste",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "tomato paste"
+      },
+      {
+       "ingredient": "thyme",
+       "qty": 3,
+       "unit": "sprig",
+       "name": "thyme"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 0.5,
+       "prep": "minced",
+       "name": "Scotch bonnet chili"
+      },
+      {
+       "ingredient": "water",
+       "qty": 150,
+       "unit": "ml",
+       "name": "water"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Simmer the soaked saltfish in fresh water for 10 minutes, drain and flake, removing skin and bones."
+    },
+    {
+     "text": "Soften the onion, garlic and pepper in the oil. Add the tomatoes, paste, thyme and chili and cook for 5 minutes."
+    },
+    {
+     "text": "Add the saltfish and water and simmer until saucy.",
+     "timer_min": 10
+    }
+   ],
+   "serving": "With spicy plantains, coconut dumplings and breadfruit.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "salt cod"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "salt cod"
+      ]
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "fish"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "kp-pyongyang-naengmyeon",
+   "title": "Pyongyang Naengmyeon",
+   "native_name": {
+    "text": "평양랭면",
+    "lang": "ko",
+    "romanized": "Pyeongyang raengmyeon"
+   },
+   "alternate_names": [
+    "Pyongyang cold noodles"
+   ],
+   "summary": "Chewy buckwheat noodles in an icy, clear beef broth with a tang of radish kimchi water, topped with sliced beef, pear, cucumber and egg.",
+   "origin": {
+    "country": "KP",
+    "region": "Pyongyang",
+    "also_claimed_by": [
+     "KR"
+    ],
+    "country_name": "North Korea",
+    "continent": "Asia",
+    "subregion": "Eastern Asia"
+   },
+   "course": "main",
+   "dish_types": [
+    "noodle-soup",
+    "cold-noodles"
+   ],
+   "occasions": [
+    "Summer"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 100,
+    "inactive_min": 240,
+    "total_min": 360
+   },
+   "difficulty": 3,
+   "techniques": [
+    "simmering",
+    "boiling"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Broth",
+     "items": [
+      {
+       "ingredient": "beef-shank",
+       "qty": 500,
+       "unit": "g",
+       "note": "brisket or shank",
+       "name": "beef shank"
+      },
+      {
+       "ingredient": "water",
+       "qty": 2.5,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "halved",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "ginger",
+       "qty": 2,
+       "unit": "cm",
+       "prep": "sliced",
+       "name": "fresh ginger"
+      },
+      {
+       "ingredient": "soy-sauce",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "soy sauce"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 2,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "white-vinegar",
+       "qty": 2,
+       "unit": "tbsp",
+       "note": "plus 1 tbsp sugar — stands in for dongchimi (radish water kimchi)",
+       "name": "white vinegar"
+      },
+      {
+       "ingredient": "sugar",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "sugar"
+      }
+     ]
+    },
+    {
+     "name": "Bowls",
+     "items": [
+      {
+       "ingredient": "buckwheat-noodles",
+       "qty": 400,
+       "unit": "g",
+       "name": "buckwheat noodles"
+      },
+      {
+       "ingredient": "asian-pear",
+       "qty": 0.5,
+       "prep": "thinly sliced",
+       "name": "Asian pear"
+      },
+      {
+       "ingredient": "cucumber",
+       "qty": 0.5,
+       "prep": "cut into matchsticks",
+       "name": "cucumber"
+      },
+      {
+       "ingredient": "egg",
+       "qty": 2,
+       "note": "hard-boiled and halved",
+       "name": "egg"
+      },
+      {
+       "ingredient": "dijon-mustard",
+       "note": "Korean mustard (gyeoja) to serve",
+       "optional": true,
+       "name": "Dijon mustard"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Simmer the beef with the onion, garlic and ginger, skimming, until tender.",
+     "timer_min": 90
+    },
+    {
+     "text": "Lift out the beef and chill it, then slice thinly. Strain the broth, season with soy, salt, vinegar and sugar, and chill until ice-cold (it can be partly frozen to a slush). Skim off the fat.",
+     "timer_min": 240
+    },
+    {
+     "text": "Boil the noodles briefly according to the packet, then rinse hard in iced water and drain."
+    },
+    {
+     "text": "Put the noodles in bowls, pour over the cold broth and top with beef, pear, cucumber and egg. Add mustard and vinegar at the table."
+    }
+   ],
+   "culture": "Pyongyang's Okryu-gwan restaurant is the most famous place to eat it; the dish became a symbol of the Korean peninsula's shared heritage.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "dairy-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "beef shank",
+       "egg"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "beef shank"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "beef shank"
+      ]
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "soy sauce"
+      ]
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "egg",
+      "gluten",
+      "soy"
+     ],
+     "may_contain": [
+      "sulphite"
+     ],
+     "in_optional_ingredients": [
+      "mustard"
+     ]
     }
    }
   },
@@ -16364,6 +18561,198 @@
     "allergens": {
      "contains": [
       "gluten"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "lc-green-fig-and-saltfish",
+   "title": "Green Fig and Saltfish",
+   "summary": "Saint Lucia's national dish — boiled green bananas (\"green figs\") with salt cod sautéed with onion, peppers and herbs.",
+   "origin": {
+    "country": "LC",
+    "country_name": "Saint Lucia",
+    "continent": "Americas",
+    "subregion": "Caribbean"
+   },
+   "course": "main",
+   "dish_types": [
+    "seafood"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 30,
+    "inactive_min": 720,
+    "total_min": 770
+   },
+   "difficulty": 1,
+   "techniques": [
+    "boiling",
+    "sauteing"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Green figs",
+     "items": [
+      {
+       "ingredient": "green-banana",
+       "qty": 8,
+       "note": "unripe",
+       "name": "green banana"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "Saltfish",
+     "items": [
+      {
+       "ingredient": "salt-cod",
+       "qty": 300,
+       "unit": "g",
+       "note": "soaked overnight",
+       "name": "salt cod"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "sliced",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 2,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "green-pepper",
+       "qty": 1,
+       "prep": "sliced",
+       "name": "green pepper"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "thyme",
+       "qty": 2,
+       "unit": "sprig",
+       "name": "thyme"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 0.5,
+       "prep": "minced",
+       "optional": true,
+       "name": "Scotch bonnet chili"
+      },
+      {
+       "ingredient": "scallion",
+       "qty": 2,
+       "prep": "sliced",
+       "name": "scallion"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Cut the ends off the bananas and slit the skins lengthwise. Boil in salted water until tender, then peel (oil your hands — the sap is sticky)."
+    },
+    {
+     "text": "Simmer the soaked saltfish in fresh water for 10 minutes, drain and flake."
+    },
+    {
+     "text": "Sauté the onion, garlic and pepper in the oil, add the tomato, thyme and chili, then the saltfish, and cook for 5 minutes. Finish with scallion."
+    },
+    {
+     "text": "Serve the green figs with the saltfish."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "salt cod"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "salt cod"
+      ]
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "fish"
      ],
      "may_contain": [],
      "in_optional_ingredients": []
@@ -21487,6 +23876,210 @@
      "in_optional_ingredients": [
       "milk"
      ]
+    }
+   }
+  },
+  {
+   "id": "ni-indio-viejo",
+   "title": "Indio Viejo",
+   "native_name": {
+    "text": "Indio viejo",
+    "lang": "es"
+   },
+   "summary": "Nicaragua's national dish — shredded beef in a thick, tangy stew of masa, sour orange, tomato and mint.",
+   "origin": {
+    "country": "NI",
+    "country_name": "Nicaragua",
+    "continent": "Americas",
+    "subregion": "Central America"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 110,
+    "total_min": 130
+   },
+   "difficulty": 2,
+   "techniques": [
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "beef-chuck",
+       "qty": 700,
+       "unit": "g",
+       "note": "flank or chuck",
+       "name": "beef chuck"
+      },
+      {
+       "ingredient": "water",
+       "qty": 2,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 2,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "masa-harina",
+       "qty": 150,
+       "unit": "g",
+       "name": "masa harina"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "green-pepper",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "green pepper"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "annatto",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "annatto"
+      },
+      {
+       "ingredient": "sour-orange-juice",
+       "qty": 120,
+       "unit": "ml",
+       "alt": [
+        "lime-juice"
+       ],
+       "name": "sour orange juice"
+      },
+      {
+       "ingredient": "mint",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "note": "hierbabuena",
+       "name": "mint"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Simmer the beef in the salted water until very tender. Shred it and keep the broth.",
+     "timer_min": 90
+    },
+    {
+     "text": "Soak the masa harina in 750 ml of the broth until smooth."
+    },
+    {
+     "text": "Fry the onion, garlic, pepper and tomato with the annatto in the oil until soft. Add the beef."
+    },
+    {
+     "text": "Stir in the masa mixture and cook, stirring constantly, until thick like porridge. Add more broth if needed.",
+     "timer_min": 15
+    },
+    {
+     "text": "Stir in the sour orange juice and mint and season."
+    }
+   ],
+   "serving": "With rice, fried ripe plantains and tortillas.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": []
     }
    }
   },
@@ -27181,6 +29774,245 @@
    }
   },
   {
+   "id": "sr-pom",
+   "title": "Pom",
+   "summary": "A festive Surinamese bake of grated pomtajer root layered with citrus-braised chicken — sweet, sour and savoury.",
+   "origin": {
+    "country": "SR",
+    "community": "Creole and Sephardic Jewish origin",
+    "country_name": "Suriname",
+    "continent": "Americas",
+    "subregion": "South America"
+   },
+   "course": "main",
+   "dish_types": [
+    "bake"
+   ],
+   "occasions": [
+    "Birthdays",
+    "Celebrations"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 8
+   },
+   "time": {
+    "prep_min": 30,
+    "cook_min": 105,
+    "total_min": 135
+   },
+   "difficulty": 3,
+   "equipment": [
+    "Large ovenproof dish"
+   ],
+   "techniques": [
+    "braising",
+    "baking"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Chicken",
+     "items": [
+      {
+       "ingredient": "chicken-thigh",
+       "qty": 1,
+       "unit": "kg",
+       "prep": "bone-in pieces",
+       "name": "chicken thigh"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "butter",
+       "qty": 50,
+       "unit": "g",
+       "name": "butter"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "celery",
+       "qty": 1,
+       "unit": "stalk",
+       "prep": "chopped",
+       "name": "celery"
+      },
+      {
+       "ingredient": "chicken-stock",
+       "qty": 250,
+       "unit": "ml",
+       "name": "chicken stock"
+      },
+      {
+       "ingredient": "nutmeg",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "nutmeg"
+      },
+      {
+       "ingredient": "black-pepper",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground black pepper"
+      }
+     ]
+    },
+    {
+     "name": "Pom layer",
+     "items": [
+      {
+       "ingredient": "pomtajer",
+       "qty": 1,
+       "unit": "kg",
+       "note": "grated; sold frozen in Surinamese shops",
+       "name": "pomtajer"
+      },
+      {
+       "ingredient": "orange-juice",
+       "qty": 120,
+       "unit": "ml",
+       "name": "orange juice"
+      },
+      {
+       "ingredient": "lime-juice",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "lime juice"
+      },
+      {
+       "ingredient": "sugar",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "sugar"
+      },
+      {
+       "ingredient": "butter",
+       "qty": 50,
+       "unit": "g",
+       "prep": "melted",
+       "name": "butter"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Season the chicken and brown it in the butter. Add the onions, tomatoes and celery and cook until soft."
+    },
+    {
+     "text": "Add the stock, nutmeg and pepper and simmer until the chicken is tender. Shred the meat and return it to the sauce.",
+     "timer_min": 40
+    },
+    {
+     "text": "Mix the pomtajer with the orange and lime juice, sugar, melted butter and salt. Heat the oven to 180 °C."
+    },
+    {
+     "text": "Spread half the pom in a buttered dish, add the chicken and its sauce, and cover with the remaining pom."
+    },
+    {
+     "text": "Bake until golden and crusty on top.",
+     "timer_min": 60
+    }
+   ],
+   "serving": "Warm, or in a sandwich (broodje pom).",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "butter",
+       "chicken stock",
+       "chicken thigh"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "chicken stock",
+       "chicken thigh"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "chicken stock",
+       "chicken thigh"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "butter"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "celery",
+      "milk"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "ss-kisra",
    "title": "Kisra",
    "alternate_names": [
@@ -28976,6 +31808,375 @@
      "may_contain": [
       "sesame"
      ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "tl-batar-daan",
+   "title": "Batar Daan",
+   "native_name": {
+    "text": "Batar da'an",
+    "lang": "tet"
+   },
+   "summary": "A simple, comforting Timorese stew of corn, mung beans and pumpkin.",
+   "origin": {
+    "country": "TL",
+    "country_name": "Timor-Leste",
+    "continent": "Asia",
+    "subregion": "South-eastern Asia"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 50,
+    "inactive_min": 240,
+    "total_min": 305
+   },
+   "difficulty": 1,
+   "techniques": [
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "mung-beans",
+       "qty": 150,
+       "unit": "g",
+       "note": "soaked 4 hours",
+       "name": "dried mung beans"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1.2,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "corn-on-the-cob",
+       "qty": 3,
+       "prep": "kernels cut off",
+       "name": "corn on the cob"
+      },
+      {
+       "ingredient": "butternut-squash",
+       "qty": 300,
+       "unit": "g",
+       "prep": "cubed",
+       "name": "butternut squash"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Simmer the drained mung beans in the water until soft.",
+     "timer_min": 25
+    },
+    {
+     "text": "Meanwhile, fry the onion and garlic in the oil until golden and add to the pot."
+    },
+    {
+     "text": "Add the corn, squash and salt and simmer until everything is tender and the stew is thick.",
+     "timer_min": 20
+    }
+   ],
+   "serving": "With rice.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegan",
+     "vegetarian",
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "yes"
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "tm-ishlekli",
+   "title": "Ishlekli",
+   "native_name": {
+    "text": "Işlekli",
+    "lang": "tk"
+   },
+   "summary": "Turkmenistan's national dish — a large, golden double-crusted pie packed with juicy minced lamb and onion.",
+   "origin": {
+    "country": "TM",
+    "country_name": "Turkmenistan",
+    "continent": "Asia",
+    "subregion": "Central Asia"
+   },
+   "course": "main",
+   "dish_types": [
+    "pie"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 30,
+    "cook_min": 45,
+    "inactive_min": 30,
+    "total_min": 105
+   },
+   "difficulty": 3,
+   "equipment": [
+    "Large baking tray"
+   ],
+   "techniques": [
+    "dough-making",
+    "baking"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Dough",
+     "items": [
+      {
+       "ingredient": "all-purpose-flour",
+       "qty": 400,
+       "unit": "g",
+       "name": "all-purpose flour"
+      },
+      {
+       "ingredient": "water",
+       "qty": 220,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "Filling",
+     "items": [
+      {
+       "ingredient": "lamb-mince",
+       "qty": 500,
+       "unit": "g",
+       "note": "fatty",
+       "name": "minced lamb"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "very finely chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "black-pepper",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground black pepper"
+      },
+      {
+       "ingredient": "water",
+       "qty": 60,
+       "unit": "ml",
+       "name": "water"
+      }
+     ]
+    },
+    {
+     "name": "To finish",
+     "items": [
+      {
+       "ingredient": "butter",
+       "qty": 50,
+       "unit": "g",
+       "prep": "melted",
+       "name": "butter"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Knead the dough until smooth and rest for 30 minutes. Mix the filling ingredients."
+    },
+    {
+     "text": "Heat the oven to 200 °C. Divide the dough in two and roll each into a 30 cm round."
+    },
+    {
+     "text": "Spread the filling over one round, leaving a border. Cover with the second round and pinch the edges tightly together. Prick the top a few times."
+    },
+    {
+     "text": "Bake until deep golden.",
+     "timer_min": 40
+    },
+    {
+     "text": "Brush generously with melted butter and rest 5 minutes before cutting."
+    }
+   ],
+   "culture": "Traditionally baked buried in hot desert sand under the embers of a fire.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "butter",
+       "minced lamb"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "minced lamb"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "minced lamb"
+      ]
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "all-purpose flour"
+      ]
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "butter"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "gluten",
+      "milk"
+     ],
+     "may_contain": [],
      "in_optional_ingredients": []
     }
    }
@@ -31147,6 +34348,210 @@
      "contains": [],
      "may_contain": [],
      "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "vc-breadfruit-and-jackfish",
+   "title": "Roasted Breadfruit and Fried Jackfish",
+   "summary": "The national dish of Saint Vincent and the Grenadines — whole breadfruit roasted until smoky and soft, with crisp, seasoned fried fish.",
+   "origin": {
+    "country": "VC",
+    "country_name": "Saint Vincent and the Grenadines",
+    "continent": "Americas",
+    "subregion": "Caribbean"
+   },
+   "course": "main",
+   "dish_types": [
+    "seafood"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 75,
+    "inactive_min": 30,
+    "total_min": 125
+   },
+   "difficulty": 2,
+   "techniques": [
+    "roasting",
+    "marinating",
+    "pan-frying"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Breadfruit",
+     "items": [
+      {
+       "ingredient": "breadfruit",
+       "qty": 1,
+       "note": "firm and mature",
+       "name": "breadfruit"
+      },
+      {
+       "ingredient": "butter",
+       "qty": 2,
+       "unit": "tbsp",
+       "optional": true,
+       "name": "butter"
+      }
+     ]
+    },
+    {
+     "name": "Fish",
+     "items": [
+      {
+       "ingredient": "white-fish",
+       "qty": 800,
+       "unit": "g",
+       "note": "small whole jackfish or fillets of any firm fish",
+       "name": "firm white fish"
+      },
+      {
+       "ingredient": "lime-juice",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "lime juice"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "thyme",
+       "qty": 2,
+       "unit": "sprig",
+       "prep": "leaves only",
+       "name": "thyme"
+      },
+      {
+       "ingredient": "scallion",
+       "qty": 2,
+       "prep": "finely chopped",
+       "name": "scallion"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "black-pepper",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground black pepper"
+      },
+      {
+       "ingredient": "all-purpose-flour",
+       "qty": 60,
+       "unit": "g",
+       "name": "all-purpose flour"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 200,
+       "unit": "ml",
+       "note": "for frying",
+       "name": "vegetable oil"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Roast the whole breadfruit directly over hot coals, turning, until the skin is charred all over and a skewer slides into the centre — or roast at 200 °C. Steam escaping from the stem means it's nearly done.",
+     "timer_min": 60
+    },
+    {
+     "text": "Rub the fish with lime, garlic, thyme, scallion, salt and pepper and leave to marinate.",
+     "timer_min": 30
+    },
+    {
+     "text": "Dredge the fish in flour and fry in the hot oil until golden and crisp on both sides."
+    },
+    {
+     "text": "Peel the breadfruit, remove the core and slice. Serve with butter and the fried fish."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "pescatarian",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "firm white fish"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "firm white fish"
+      ]
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "all-purpose flour"
+      ]
+     },
+     "dairy-free": {
+      "status": "adaptable",
+      "changes": [
+       "omit butter"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "fish",
+      "gluten"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": [
+      "milk"
+     ]
     }
    }
   },

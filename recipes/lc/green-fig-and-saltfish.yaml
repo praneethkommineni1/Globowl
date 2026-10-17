@@ -1,0 +1,39 @@
+id: lc-green-fig-and-saltfish
+title: Green Fig and Saltfish
+summary: Saint Lucia's national dish — boiled green bananas ("green figs") with salt cod sautéed with onion, peppers and herbs.
+origin:
+  country: LC
+course: main
+dish_types: [seafood]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 30, inactive_min: 720}
+difficulty: 1
+techniques: [boiling, sauteing]
+ingredient_groups:
+  - name: Green figs
+    items:
+      - {ingredient: green-banana, qty: 8, note: "unripe"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+  - name: Saltfish
+    items:
+      - {ingredient: salt-cod, qty: 300, unit: g, note: "soaked overnight"}
+      - {ingredient: vegetable-oil, qty: 3, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "sliced"}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "minced"}
+      - {ingredient: green-pepper, qty: 1, prep: "sliced"}
+      - {ingredient: tomato, qty: 1, prep: "chopped"}
+      - {ingredient: thyme, qty: 2, unit: sprig}
+      - {ingredient: scotch-bonnet, qty: 0.5, prep: "minced", optional: true}
+      - {ingredient: scallion, qty: 2, prep: "sliced"}
+steps:
+  - Cut the ends off the bananas and slit the skins lengthwise. Boil in salted water until tender, then peel (oil your hands — the sap is sticky).
+  - Simmer the soaked saltfish in fresh water for 10 minutes, drain and flake.
+  - Sauté the onion, garlic and pepper in the oil, add the tomato, thyme and chili, then the saltfish, and cook for 5 minutes. Finish with scallion.
+  - Serve the green figs with the saltfish.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

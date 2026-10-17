@@ -1,0 +1,48 @@
+id: ag-fungee-and-pepperpot
+title: Fungee and Pepperpot
+summary: Antigua's national dish — a thick vegetable and meat stew with greens, eggplant, squash and okra, served with fungee, a firm cornmeal and okra mash.
+origin:
+  country: AG
+course: main
+dish_types: [stew, porridge]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 30, cook_min: 120}
+difficulty: 3
+techniques: [stewing, boiling]
+ingredient_groups:
+  - name: Pepperpot
+    items:
+      - {ingredient: beef-chuck, qty: 600, unit: g, prep: "cubed"}
+      - {ingredient: salt-pork, qty: 200, unit: g, prep: "soaked, then cubed", optional: true}
+      - {ingredient: water, qty: 1.5, unit: l}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "crushed"}
+      - {ingredient: thyme, qty: 3, unit: sprig}
+      - {ingredient: scotch-bonnet, qty: 1, note: "whole"}
+      - {ingredient: spinach, qty: 400, unit: g, prep: "chopped", note: "or eddo / dasheen leaves"}
+      - {ingredient: eggplant, qty: 1, prep: "cubed"}
+      - {ingredient: butternut-squash, qty: 300, unit: g, prep: "cubed"}
+      - {ingredient: okra, qty: 150, unit: g, prep: "sliced"}
+      - {ingredient: green-peas, qty: 100, unit: g}
+      - {ingredient: salt, note: "to taste"}
+  - name: Fungee
+    items:
+      - {ingredient: okra, qty: 100, unit: g, prep: "thinly sliced"}
+      - {ingredient: water, qty: 1, unit: l}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: cornmeal, qty: 250, unit: g, note: "mixed with 250 ml cold water"}
+      - {ingredient: butter, qty: 1, unit: tbsp}
+steps:
+  - text: Simmer the beef and salt pork with the water, onion, garlic, thyme and Scotch bonnet until tender.
+    timer_min: 70
+  - text: Add the vegetables and simmer, stirring, until they break down into a thick stew. Remove the pepper and season.
+    timer_min: 35
+  - For the fungee, boil the okra in the salted water until soft, then stir in the soaked cornmeal and keep turning with a wooden spoon over low heat until stiff and smooth (about 15 minutes). Stir in the butter and shape in a buttered bowl.
+  - Serve the fungee turned out beside the pepperpot.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

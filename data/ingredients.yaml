@@ -61,6 +61,9 @@ fonio: {name: fonio, category: grain, aliases: [acha, findi]}
 rice-flour: {name: rice flour, category: grain, aliases: [cream of rice]}
 sorghum-flour: {name: sorghum flour, category: grain, aliases: [dura, jowar flour]}
 
+wheat-noodles: {name: thick wheat noodles, category: grain, contains: [gluten], may_contain: [egg], aliases: [lagman noodles, udon]}
+buckwheat-noodles: {name: buckwheat noodles, category: grain, may_contain: [gluten], aliases: [naengmyeon noodles, soba], note: Most contain some wheat.}
+
 # --- Legumes and soy --------------------------------------------------------
 red-lentils: {name: red lentils, category: legume, aliases: [masoor dal, split red lentils]}
 brown-lentils: {name: brown lentils, category: legume}
@@ -86,6 +89,8 @@ green-peas: {name: green peas, category: vegetable, aliases: [garden peas, froze
 
 dried-borlotti-beans: {name: dried borlotti beans, category: legume, aliases: [cranberry beans, pinto beans]}
 dried-grey-peas: {name: dried grey peas, category: legume, aliases: [pelēkie zirņi, carlin peas, maple peas]}
+
+mung-beans: {name: dried mung beans, category: legume, aliases: [green gram, moong]}
 
 # --- Vegetables -------------------------------------------------------------
 onion: {name: onion, category: vegetable}
@@ -150,6 +155,9 @@ sauerkraut: {name: sauerkraut, category: vegetable, may_contain: [sulphite], ali
 
 cassava-leaves: {name: cassava leaves, category: vegetable, aliases: [saka-saka, pondu, plasas, mpondu], note: Must be cooked thoroughly; usually sold frozen and pounded.}
 
+breadfruit: {name: breadfruit, category: vegetable, aliases: [ulu]}
+pomtajer: {name: pomtajer, category: vegetable, aliases: [tayer, malanga, tannia, pom root], note: Grated root of Xanthosoma; sold frozen in Surinamese shops.}
+
 # --- Fruit ------------------------------------------------------------------
 lemon: {name: lemon, category: fruit}
 lemon-juice: {name: lemon juice, category: fruit}
@@ -162,6 +170,11 @@ strawberries: {name: strawberry, category: fruit}
 
 banana: {name: banana, category: fruit}
 strawberry-jam: {name: strawberry jam, category: condiment}
+
+green-banana: {name: green banana, category: fruit, aliases: [green fig, matoke]}
+asian-pear: {name: Asian pear, category: fruit, aliases: [nashi, Korean pear]}
+orange-juice: {name: orange juice, category: fruit}
+sour-orange-juice: {name: sour orange juice, category: fruit, aliases: [naranja agria, Seville orange juice]}
 
 # --- Fresh herbs ------------------------------------------------------------
 cilantro: {name: cilantro, category: herb, aliases: [coriander leaves, fresh coriander]}
@@ -275,6 +288,8 @@ ajvar: {name: ajvar, category: condiment, aliases: [roasted red pepper relish]}
 
 date-syrup: {name: date syrup, category: sweetener, aliases: [dibs, silan]}
 
+cassareep: {name: cassareep, category: condiment, note: Thick black syrup made from cassava juice.}
+
 # --- Nuts and seeds ---------------------------------------------------------
 roasted-peanuts: {name: roasted peanuts, category: nut-seed, contains: [peanut]}
 peanut-butter: {name: peanut butter, category: nut-seed, contains: [peanut]}
@@ -369,6 +384,10 @@ canned-tuna: {name: canned tuna, category: seafood, animal: [fish], contains: [f
 
 lobster-tail: {name: lobster tail, category: seafood, animal: [shellfish], contains: [crustacean], aliases: [langouste, rock lobster]}
 octopus: {name: octopus, category: seafood, animal: [shellfish], contains: [mollusc], aliases: [zourit]}
+
+salt-pork: {name: salt pork, category: meat, animal: [meat], contains: [pork], aliases: [salted pigtail, salt meat]}
+salt-cod: {name: salt cod, category: seafood, animal: [fish], contains: [fish], aliases: [saltfish, bacalao, bacalhau]}
+crab: {name: crab, category: seafood, animal: [shellfish], contains: [crustacean]}
 
 # --- Sweeteners and baking --------------------------------------------------
 sugar: {name: sugar, category: sweetener, note: Some cane sugar is refined with bone char; strict vegans may prefer certified sugar.}

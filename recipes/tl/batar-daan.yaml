@@ -1,0 +1,36 @@
+id: tl-batar-daan
+title: Batar Daan
+native_name: {text: Batar da'an, lang: tet}
+summary: A simple, comforting Timorese stew of corn, mung beans and pumpkin.
+origin:
+  country: TL
+course: main
+dish_types: [stew]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 50, inactive_min: 240}
+difficulty: 1
+techniques: [simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: mung-beans, qty: 150, unit: g, note: "soaked 4 hours"}
+      - {ingredient: water, qty: 1.2, unit: l}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "minced"}
+      - {ingredient: corn-on-the-cob, qty: 3, prep: "kernels cut off"}
+      - {ingredient: butternut-squash, qty: 300, unit: g, prep: "cubed"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+steps:
+  - text: Simmer the drained mung beans in the water until soft.
+    timer_min: 25
+  - Meanwhile, fry the onion and garlic in the oil until golden and add to the pot.
+  - text: Add the corn, squash and salt and simmer until everything is tender and the stew is thick.
+    timer_min: 20
+serving: With rice.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

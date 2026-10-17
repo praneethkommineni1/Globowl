@@ -1,0 +1,44 @@
+id: tm-ishlekli
+title: Ishlekli
+native_name: {text: Işlekli, lang: tk}
+summary: Turkmenistan's national dish — a large, golden double-crusted pie packed with juicy minced lamb and onion.
+origin:
+  country: TM
+course: main
+dish_types: [pie]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 30, cook_min: 45, inactive_min: 30}
+difficulty: 3
+equipment: [Large baking tray]
+techniques: [dough-making, baking]
+ingredient_groups:
+  - name: Dough
+    items:
+      - {ingredient: all-purpose-flour, qty: 400, unit: g}
+      - {ingredient: water, qty: 220, unit: ml}
+      - {ingredient: salt, qty: 1, unit: tsp}
+  - name: Filling
+    items:
+      - {ingredient: lamb-mince, qty: 500, unit: g, note: "fatty"}
+      - {ingredient: onion, qty: 2, prep: "very finely chopped"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+      - {ingredient: water, qty: 60, unit: ml}
+  - name: To finish
+    items:
+      - {ingredient: butter, qty: 50, unit: g, prep: "melted"}
+steps:
+  - Knead the dough until smooth and rest for 30 minutes. Mix the filling ingredients.
+  - Heat the oven to 200 °C. Divide the dough in two and roll each into a 30 cm round.
+  - Spread the filling over one round, leaving a border. Cover with the second round and pinch the edges tightly together. Prick the top a few times.
+  - text: Bake until deep golden.
+    timer_min: 40
+  - Brush generously with melted butter and rest 5 minutes before cutting.
+culture: Traditionally baked buried in hot desert sand under the embers of a fire.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

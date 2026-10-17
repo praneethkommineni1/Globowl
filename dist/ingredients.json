@@ -344,6 +344,32 @@
    "jowar flour"
   ]
  },
+ "wheat-noodles": {
+  "name": "thick wheat noodles",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ],
+  "may_contain": [
+   "egg"
+  ],
+  "aliases": [
+   "lagman noodles",
+   "udon"
+  ]
+ },
+ "buckwheat-noodles": {
+  "name": "buckwheat noodles",
+  "category": "grain",
+  "may_contain": [
+   "gluten"
+  ],
+  "aliases": [
+   "naengmyeon noodles",
+   "soba"
+  ],
+  "note": "Most contain some wheat."
+ },
  "red-lentils": {
   "name": "red lentils",
   "category": "legume",
@@ -489,6 +515,14 @@
    "pelēkie zirņi",
    "carlin peas",
    "maple peas"
+  ]
+ },
+ "mung-beans": {
+  "name": "dried mung beans",
+  "category": "legume",
+  "aliases": [
+   "green gram",
+   "moong"
   ]
  },
  "onion": {
@@ -843,6 +877,24 @@
   ],
   "note": "Must be cooked thoroughly; usually sold frozen and pounded."
  },
+ "breadfruit": {
+  "name": "breadfruit",
+  "category": "vegetable",
+  "aliases": [
+   "ulu"
+  ]
+ },
+ "pomtajer": {
+  "name": "pomtajer",
+  "category": "vegetable",
+  "aliases": [
+   "tayer",
+   "malanga",
+   "tannia",
+   "pom root"
+  ],
+  "note": "Grated root of Xanthosoma; sold frozen in Surinamese shops."
+ },
  "lemon": {
   "name": "lemon",
   "category": "fruit"
@@ -888,6 +940,34 @@
  "strawberry-jam": {
   "name": "strawberry jam",
   "category": "condiment"
+ },
+ "green-banana": {
+  "name": "green banana",
+  "category": "fruit",
+  "aliases": [
+   "green fig",
+   "matoke"
+  ]
+ },
+ "asian-pear": {
+  "name": "Asian pear",
+  "category": "fruit",
+  "aliases": [
+   "nashi",
+   "Korean pear"
+  ]
+ },
+ "orange-juice": {
+  "name": "orange juice",
+  "category": "fruit"
+ },
+ "sour-orange-juice": {
+  "name": "sour orange juice",
+  "category": "fruit",
+  "aliases": [
+   "naranja agria",
+   "Seville orange juice"
+  ]
  },
  "cilantro": {
   "name": "cilantro",
@@ -1529,6 +1609,11 @@
    "dibs",
    "silan"
   ]
+ },
+ "cassareep": {
+  "name": "cassareep",
+  "category": "condiment",
+  "note": "Thick black syrup made from cassava juice."
  },
  "roasted-peanuts": {
   "name": "roasted peanuts",
@@ -2276,6 +2361,45 @@
   ],
   "aliases": [
    "zourit"
+  ]
+ },
+ "salt-pork": {
+  "name": "salt pork",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "contains": [
+   "pork"
+  ],
+  "aliases": [
+   "salted pigtail",
+   "salt meat"
+  ]
+ },
+ "salt-cod": {
+  "name": "salt cod",
+  "category": "seafood",
+  "animal": [
+   "fish"
+  ],
+  "contains": [
+   "fish"
+  ],
+  "aliases": [
+   "saltfish",
+   "bacalao",
+   "bacalhau"
+  ]
+ },
+ "crab": {
+  "name": "crab",
+  "category": "seafood",
+  "animal": [
+   "shellfish"
+  ],
+  "contains": [
+   "crustacean"
   ]
  },
  "sugar": {

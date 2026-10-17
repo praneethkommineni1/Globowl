@@ -1,0 +1,42 @@
+id: ni-indio-viejo
+title: Indio Viejo
+native_name: {text: Indio viejo, lang: es}
+summary: Nicaragua's national dish — shredded beef in a thick, tangy stew of masa, sour orange, tomato and mint.
+origin:
+  country: NI
+course: main
+dish_types: [stew]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 20, cook_min: 110}
+difficulty: 2
+techniques: [simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: beef-chuck, qty: 700, unit: g, note: "flank or chuck"}
+      - {ingredient: water, qty: 2, unit: l}
+      - {ingredient: salt, qty: 2, unit: tsp}
+      - {ingredient: masa-harina, qty: 150, unit: g}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "minced"}
+      - {ingredient: green-pepper, qty: 1, prep: "chopped"}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: annatto, qty: 1, unit: tsp}
+      - {ingredient: sour-orange-juice, qty: 120, unit: ml, alt: [lime-juice]}
+      - {ingredient: mint, qty: 1, unit: handful, prep: "chopped", note: "hierbabuena"}
+steps:
+  - text: Simmer the beef in the salted water until very tender. Shred it and keep the broth.
+    timer_min: 90
+  - Soak the masa harina in 750 ml of the broth until smooth.
+  - Fry the onion, garlic, pepper and tomato with the annatto in the oil until soft. Add the beef.
+  - text: Stir in the masa mixture and cook, stirring constantly, until thick like porridge. Add more broth if needed.
+    timer_min: 15
+  - Stir in the sour orange juice and mint and season.
+serving: With rice, fried ripe plantains and tortillas.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -1,0 +1,41 @@
+id: dm-callaloo-soup
+title: Callaloo Soup
+alternate_names: [Kalalou]
+summary: A velvety green soup of callaloo leaves, okra and pumpkin cooked in coconut milk with thyme and Scotch bonnet.
+origin:
+  country: DM
+  also_claimed_by: [TT, GD]
+course: soup
+dish_types: [soup, greens]
+authenticity: home-style
+yield: {servings: 6}
+time: {prep_min: 15, cook_min: 40}
+difficulty: 1
+equipment: [Stick blender or swizzle stick]
+techniques: [simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: vegetable-oil, qty: 1, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "chopped"}
+      - {ingredient: scallion, qty: 2, prep: "chopped"}
+      - {ingredient: thyme, qty: 3, unit: sprig}
+      - {ingredient: spinach, qty: 500, unit: g, note: "dasheen (taro) leaves are traditional"}
+      - {ingredient: okra, qty: 150, unit: g, prep: "sliced"}
+      - {ingredient: butternut-squash, qty: 300, unit: g, prep: "cubed"}
+      - {ingredient: coconut-milk, qty: 400, unit: ml}
+      - {ingredient: water, qty: 750, unit: ml}
+      - {ingredient: scotch-bonnet, qty: 1, note: "whole"}
+      - {ingredient: crab, qty: 200, unit: g, note: "crab meat or claws", optional: true}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - Soften the onion, garlic, scallion and thyme in the oil.
+  - text: Add the greens, okra, squash, coconut milk, water and Scotch bonnet and simmer until everything is very soft.
+    timer_min: 30
+  - Remove the pepper and thyme stems and blend (or swizzle) until smooth. Add the crab, if using, and heat through. Season.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

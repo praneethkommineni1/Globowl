@@ -1,0 +1,36 @@
+id: bs-peas-n-rice
+title: Peas 'n' Rice
+summary: Rice cooked with pigeon peas, salt pork or bacon, tomato paste and thyme — the side dish on every Bahamian table.
+origin:
+  country: BS
+course: side
+dish_types: [rice-dish]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 10, cook_min: 35}
+difficulty: 1
+techniques: [sauteing, rice-cooking]
+ingredient_groups:
+  - items:
+      - {ingredient: bacon, qty: 100, unit: g, prep: "diced", note: "or salt pork"}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: green-pepper, qty: 0.5, prep: "chopped"}
+      - {ingredient: celery, qty: 1, unit: stalk, prep: "chopped"}
+      - {ingredient: tomato-paste, qty: 2, unit: tbsp}
+      - {ingredient: thyme, qty: 2, unit: sprig}
+      - {ingredient: pigeon-peas-canned, qty: 1, unit: can, note: "400 g can with its liquid"}
+      - {ingredient: long-grain-rice, qty: 400, unit: g, prep: "rinsed"}
+      - {ingredient: water, qty: 650, unit: ml}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+steps:
+  - Fry the bacon until it renders, then add the onion, pepper and celery and cook until soft.
+  - Stir in the tomato paste and thyme for 1 minute, then add the peas with their liquid, the water, salt and pepper and bring to a boil.
+  - text: Stir in the rice, cover tightly and cook on low until tender.
+    timer_min: 25
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}
