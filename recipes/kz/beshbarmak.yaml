@@ -1,0 +1,50 @@
+id: kz-beshbarmak
+title: Beshbarmak
+native_name: {text: Бешбармақ, lang: kk, romanized: beshbarmaq}
+summary: Slow-simmered meat over sheets of fresh noodles, topped with onions softened in the rich broth, which is drunk alongside.
+origin:
+  country: KZ
+  also_claimed_by: [KG]
+course: main
+dish_types: [noodles, boiled-meat]
+occasions: [Celebrations, Welcoming guests]
+authenticity: home-style
+yield: {servings: 6}
+time: {prep_min: 40, cook_min: 150, inactive_min: 30}
+difficulty: 3
+equipment: [Large stockpot, Rolling pin]
+techniques: [simmering, dough-making, boiling]
+ingredient_groups:
+  - name: Meat and broth
+    items:
+      - {ingredient: beef-shank, qty: 1.5, unit: kg, note: "on the bone; horse meat or lamb are traditional too"}
+      - {ingredient: water, qty: 4, unit: l}
+      - {ingredient: onion, qty: 1, note: "whole"}
+      - {ingredient: bay-leaf, qty: 3}
+      - {ingredient: black-peppercorns, qty: 1, unit: tsp}
+      - {ingredient: salt, qty: 1, unit: tbsp}
+  - name: Noodles
+    items:
+      - {ingredient: all-purpose-flour, qty: 400, unit: g}
+      - {ingredient: egg, qty: 1}
+      - {ingredient: water, qty: 150, unit: ml}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+  - name: Onion topping (tuzdyk)
+    items:
+      - {ingredient: onion, qty: 2, prep: "sliced into rings"}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+steps:
+  - text: Cover the meat with the water, bring to a boil and skim well. Add the whole onion, bay, peppercorns and salt and simmer gently until the meat is very tender.
+    timer_min: 150
+  - Meanwhile mix the noodle ingredients into a stiff dough, knead until smooth and rest for 30 minutes.
+  - Roll the dough very thin (about 1 mm) and cut into 7 cm squares.
+  - Lift out the meat and cut it into pieces. Put the onion rings in a bowl with the pepper and pour over a ladle of hot fat-rich broth; cover.
+  - Boil the noodle squares in batches in the broth for 2–3 minutes and lift onto a large platter.
+  - Pile the meat on the noodles and top with the onions. Serve the remaining broth (sorpa) in bowls.
+culture: The name means "five fingers" — it was traditionally eaten by hand.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

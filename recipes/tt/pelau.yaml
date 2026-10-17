@@ -1,0 +1,49 @@
+id: tt-pelau
+title: Pelau
+summary: Chicken browned in caramelised sugar, then cooked with rice, pigeon peas and coconut milk in one pot — a Trinidad and Tobago favourite.
+origin:
+  country: TT
+course: main
+dish_types: [rice-dish, one-pot]
+occasions: [Beach limes, Sunday lunch]
+authenticity: home-style
+yield: {servings: 6}
+time: {prep_min: 20, cook_min: 50, inactive_min: 60}
+difficulty: 3
+techniques: [marinating, braising, rice-cooking]
+ingredient_groups:
+  - name: Green seasoning and chicken
+    items:
+      - {ingredient: cilantro, qty: 1, unit: handful, note: "Trinidadians use culantro (shado beni)"}
+      - {ingredient: scallion, qty: 2}
+      - {ingredient: garlic, qty: 4, unit: clove}
+      - {ingredient: thyme, qty: 4, unit: sprig, prep: "leaves only"}
+      - {ingredient: chicken-thigh, qty: 1, unit: kg, prep: "bone-in pieces"}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+  - name: Pelau
+    items:
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: brown-sugar, qty: 3, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: carrot, qty: 1, prep: "diced"}
+      - {ingredient: parboiled-rice, qty: 400, unit: g, prep: "rinsed"}
+      - {ingredient: pigeon-peas-canned, qty: 1, unit: can, note: "400 g can, drained"}
+      - {ingredient: coconut-milk, qty: 400, unit: ml}
+      - {ingredient: water, qty: 500, unit: ml}
+      - {ingredient: scotch-bonnet, qty: 1, note: "whole"}
+steps:
+  - Blend the cilantro, scallions, garlic and thyme with a splash of water. Rub it and the salt into the chicken.
+  - text: Marinate the chicken.
+    timer_min: 60
+  - Heat the oil and sugar in a heavy pot over medium heat until the sugar melts, froths and turns dark amber (watch closely — seconds separate dark from burnt).
+  - Immediately add the chicken, stirring to coat it in the caramel. Cook, covered, for 10 minutes until well coloured.
+  - Add the onion, carrot and rice and stir for 2 minutes. Add the peas, coconut milk, water and the whole pepper and bring to a boil.
+  - text: Cover and simmer on low until the rice is tender and the liquid absorbed. Remove the pepper.
+    timer_min: 30
+serving: With coleslaw, sliced cucumber and pepper sauce.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -211,6 +211,32 @@
    "egg"
   ]
  },
+ "masa-harina": {
+  "name": "masa harina",
+  "category": "grain",
+  "aliases": [
+   "nixtamalized corn flour",
+   "Maseca"
+  ]
+ },
+ "cornmeal": {
+  "name": "cornmeal",
+  "category": "grain",
+  "aliases": [
+   "polenta",
+   "mălai",
+   "harina de maíz"
+  ]
+ },
+ "glutinous-rice": {
+  "name": "glutinous rice",
+  "category": "grain",
+  "aliases": [
+   "sticky rice",
+   "sweet rice",
+   "khao niao"
+  ]
+ },
  "red-lentils": {
   "name": "red lentils",
   "category": "legume",
@@ -297,6 +323,23 @@
   ],
   "aliases": [
    "douchi"
+  ]
+ },
+ "refried-beans": {
+  "name": "refried beans",
+  "category": "legume",
+  "may_contain": [
+   "pork",
+   "animal-fat"
+  ],
+  "note": "Traditional refried beans are often made with lard; check the can."
+ },
+ "pigeon-peas-canned": {
+  "name": "canned pigeon peas",
+  "category": "legume",
+  "aliases": [
+   "gungo peas",
+   "gandules"
   ]
  },
  "onion": {
@@ -562,6 +605,10 @@
   "name": "capers",
   "category": "condiment"
  },
+ "leek": {
+  "name": "leek",
+  "category": "vegetable"
+ },
  "lemon": {
   "name": "lemon",
   "category": "fruit"
@@ -686,6 +733,15 @@
    "gallant soldier"
   ],
   "note": "Usually sold dried in Latin American shops."
+ },
+ "dried-lime": {
+  "name": "dried lime",
+  "category": "spice",
+  "aliases": [
+   "loomi",
+   "black lime",
+   "noomi basra"
+  ]
  },
  "salt": {
   "name": "salt",
@@ -894,6 +950,14 @@
   "name": "khmeli suneli",
   "category": "spice",
   "note": "Georgian blend of dried herbs and spices including blue fenugreek and coriander."
+ },
+ "dried-marjoram": {
+  "name": "dried marjoram",
+  "category": "spice"
+ },
+ "caraway-seeds": {
+  "name": "caraway seeds",
+  "category": "spice"
  },
  "soy-sauce": {
   "name": "soy sauce",
@@ -1144,6 +1208,32 @@
    "stock cube",
    "Maggi",
    "Knorr"
+  ]
+ },
+ "salsa-lizano": {
+  "name": "Salsa Lizano",
+  "category": "condiment",
+  "may_contain": [
+   "mustard"
+  ],
+  "note": "Costa Rican vegetable sauce; check the label for mustard."
+ },
+ "pomegranate-molasses": {
+  "name": "pomegranate molasses",
+  "category": "condiment",
+  "aliases": [
+   "dibs rumman",
+   "nar ekşisi"
+  ]
+ },
+ "cider-vinegar": {
+  "name": "cider vinegar",
+  "category": "condiment",
+  "may_contain": [
+   "sulphite"
+  ],
+  "aliases": [
+   "apple cider vinegar"
   ]
  },
  "roasted-peanuts": {
@@ -1447,6 +1537,40 @@
    "milk"
   ]
  },
+ "feta": {
+  "name": "feta",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
+  ],
+  "may_contain": [
+   "animal-rennet"
+  ],
+  "aliases": [
+   "sirene",
+   "telemea",
+   "white brined cheese"
+  ]
+ },
+ "mozzarella": {
+  "name": "mozzarella",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
+  ],
+  "may_contain": [
+   "animal-rennet"
+  ],
+  "aliases": [
+   "quesillo"
+  ]
+ },
  "chicken-thigh": {
   "name": "chicken thigh",
   "category": "poultry",
@@ -1664,6 +1788,16 @@
    "kielbasa"
   ]
  },
+ "salmon": {
+  "name": "salmon",
+  "category": "seafood",
+  "animal": [
+   "fish"
+  ],
+  "contains": [
+   "fish"
+  ]
+ },
  "sugar": {
   "name": "sugar",
   "category": "sweetener",
@@ -1727,6 +1861,19 @@
   "contains": [
    "alcohol",
    "sulphite"
+  ]
+ },
+ "brown-ale": {
+  "name": "brown ale",
+  "category": "beverage",
+  "contains": [
+   "alcohol",
+   "gluten"
+  ],
+  "aliases": [
+   "Flemish brown",
+   "oud bruin",
+   "dubbel"
   ]
  },
  "water": {

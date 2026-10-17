@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "count": 61,
+ "count": 78,
  "recipes": [
   {
    "id": "af-kabuli-palaw",
@@ -966,6 +966,426 @@
    }
   },
   {
+   "id": "be-carbonade-flamande",
+   "title": "Carbonade Flamande",
+   "native_name": {
+    "text": "Stoofvlees",
+    "lang": "nl"
+   },
+   "alternate_names": [
+    "Flemish beef and beer stew"
+   ],
+   "summary": "Beef slowly braised in dark Belgian beer with caramelised onions, thickened with a slice of mustard-spread bread.",
+   "origin": {
+    "country": "BE",
+    "region": "Flanders",
+    "country_name": "Belgium",
+    "continent": "Europe",
+    "subregion": "Western Europe"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 180,
+    "total_min": 200
+   },
+   "difficulty": 2,
+   "techniques": [
+    "pan-frying",
+    "braising"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "beef-chuck",
+       "qty": 1.2,
+       "unit": "kg",
+       "prep": "cut into 4 cm cubes",
+       "name": "beef chuck"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "black-pepper",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground black pepper"
+      },
+      {
+       "ingredient": "butter",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "butter"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 3,
+       "prep": "sliced",
+       "name": "onion"
+      },
+      {
+       "ingredient": "all-purpose-flour",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "all-purpose flour"
+      },
+      {
+       "ingredient": "brown-ale",
+       "qty": 500,
+       "unit": "ml",
+       "note": "Flemish brown or dubbel",
+       "name": "brown ale"
+      },
+      {
+       "ingredient": "beef-stock",
+       "qty": 250,
+       "unit": "ml",
+       "name": "beef stock"
+      },
+      {
+       "ingredient": "brown-sugar",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "brown sugar"
+      },
+      {
+       "ingredient": "cider-vinegar",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "cider vinegar"
+      },
+      {
+       "ingredient": "thyme",
+       "qty": 4,
+       "unit": "sprig",
+       "name": "thyme"
+      },
+      {
+       "ingredient": "bay-leaf",
+       "qty": 2,
+       "name": "bay leaf"
+      },
+      {
+       "ingredient": "white-bread",
+       "qty": 1,
+       "unit": "slice",
+       "name": "white bread"
+      },
+      {
+       "ingredient": "dijon-mustard",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "Dijon mustard"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Season the beef and brown it well in batches in the butter. Set aside."
+    },
+    {
+     "text": "Cook the onions in the same pot until soft and golden (15 minutes). Stir in the flour."
+    },
+    {
+     "text": "Return the beef, add the beer, stock, sugar, vinegar, thyme and bay, and bring to a simmer."
+    },
+    {
+     "text": "Spread the bread with mustard and lay it on top, mustard side down."
+    },
+    {
+     "text": "Cover and braise very gently, stirring occasionally, until the beef is tender and the bread has melted into the sauce.",
+     "timer_min": 150
+    },
+    {
+     "text": "Season to taste."
+    }
+   ],
+   "serving": "With Belgian fries and mayonnaise.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "egg-free",
+     "nut-free",
+     "pork-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "beef chuck",
+       "beef stock",
+       "butter"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "beef chuck",
+       "beef stock"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "beef chuck",
+       "beef stock"
+      ]
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "all-purpose flour",
+       "brown ale",
+       "white bread"
+      ]
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "butter"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "no",
+      "because": [
+       "brown ale"
+      ]
+     }
+    },
+    "allergens": {
+     "contains": [
+      "gluten",
+      "milk",
+      "mustard"
+     ],
+     "may_contain": [
+      "celery",
+      "sesame",
+      "soy",
+      "sulphite"
+     ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "bg-shopska-salad",
+   "title": "Shopska Salad",
+   "native_name": {
+    "text": "Шопска салата",
+    "lang": "bg",
+    "romanized": "shopska salata"
+   },
+   "summary": "Tomatoes, cucumber, peppers and onion under a snowy blanket of finely grated white brined cheese.",
+   "origin": {
+    "country": "BG",
+    "also_claimed_by": [
+     "MK",
+     "RS"
+    ],
+    "country_name": "Bulgaria",
+    "continent": "Europe",
+    "subregion": "Eastern Europe"
+   },
+   "course": "salad",
+   "dish_types": [
+    "salad"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 0,
+    "total_min": 15
+   },
+   "difficulty": 1,
+   "techniques": [],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "tomato",
+       "qty": 4,
+       "prep": "diced",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "cucumber",
+       "qty": 1,
+       "prep": "diced",
+       "name": "cucumber"
+      },
+      {
+       "ingredient": "green-pepper",
+       "qty": 2,
+       "prep": "diced",
+       "note": "raw or roasted and peeled",
+       "name": "green pepper"
+      },
+      {
+       "ingredient": "red-onion",
+       "qty": 1,
+       "prep": "finely chopped",
+       "note": "or 3 scallions",
+       "name": "red onion"
+      },
+      {
+       "ingredient": "parsley",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "name": "flat-leaf parsley"
+      },
+      {
+       "ingredient": "sunflower-oil",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "sunflower oil"
+      },
+      {
+       "ingredient": "red-wine-vinegar",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "red wine vinegar"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      },
+      {
+       "ingredient": "feta",
+       "qty": 150,
+       "unit": "g",
+       "prep": "finely grated",
+       "note": "Bulgarian sirene",
+       "name": "feta"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Combine the vegetables and parsley, dress with oil, vinegar and salt, and toss."
+    },
+    {
+     "text": "Pile into a bowl and grate the cheese thickly over the top so it covers the salad."
+    }
+   ],
+   "serving": "With a glass of rakia, as a starter.",
+   "culture": "Created in the 1950s for Bulgaria's tourism board; its white, green and red echo the Bulgarian flag.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "feta"
+      ]
+     },
+     "vegetarian": {
+      "status": "check-labels",
+      "check": [
+       "feta"
+      ]
+     },
+     "pescatarian": {
+      "status": "check-labels",
+      "check": [
+       "feta"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "feta"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "milk"
+     ],
+     "may_contain": [
+      "sulphite"
+     ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "br-moqueca-baiana",
    "title": "Moqueca Baiana",
    "native_name": {
@@ -1552,6 +1972,173 @@
      "contains": [
       "milk"
      ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "ci-alloco",
+   "title": "Alloco",
+   "native_name": {
+    "text": "Alloco",
+    "lang": "fr"
+   },
+   "summary": "Sweet ripe plantain cubes fried until caramelised and served with a spicy tomato, onion and chili relish.",
+   "origin": {
+    "country": "CI",
+    "country_name": "Côte d'Ivoire",
+    "continent": "Africa",
+    "subregion": "Western Africa"
+   },
+   "course": "snack",
+   "dish_types": [
+    "street-food",
+    "plantain"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 10,
+    "cook_min": 20,
+    "total_min": 30
+   },
+   "difficulty": 1,
+   "techniques": [
+    "deep-frying",
+    "sauteing"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Plantains",
+     "items": [
+      {
+       "ingredient": "plantain",
+       "qty": 4,
+       "prep": "very ripe, peeled and cut into 2 cm chunks",
+       "name": "plantain"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 500,
+       "unit": "ml",
+       "note": "for frying",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "pinch",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "Chili relish",
+     "items": [
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "finely chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "finely chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 1,
+       "prep": "minced",
+       "name": "Scotch bonnet chili"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Cook the onion in 2 tablespoons oil until soft, add the tomato, chili and salt and cook down to a thick relish (8 minutes)."
+    },
+    {
+     "text": "Heat the frying oil to about 170 °C. Fry the plantain in batches until deep golden and caramelised (3–4 minutes)."
+    },
+    {
+     "text": "Drain, sprinkle with salt and serve with the relish."
+    }
+   ],
+   "serving": "As a street snack, or with grilled fish (poisson braisé) and a boiled egg.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegan",
+     "vegetarian",
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "yes"
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
      "may_contain": [],
      "in_optional_ingredients": []
     }
@@ -2217,6 +2804,187 @@
    }
   },
   {
+   "id": "cr-gallo-pinto",
+   "title": "Gallo Pinto",
+   "native_name": {
+    "text": "Gallo pinto",
+    "lang": "es"
+   },
+   "summary": "Day-old rice fried with black beans, onion, pepper, cilantro and tangy Salsa Lizano — the speckled breakfast of Costa Rica.",
+   "origin": {
+    "country": "CR",
+    "also_claimed_by": [
+     "NI"
+    ],
+    "country_name": "Costa Rica",
+    "continent": "Americas",
+    "subregion": "Central America"
+   },
+   "course": "breakfast",
+   "dish_types": [
+    "rice-dish",
+    "beans"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 10,
+    "cook_min": 15,
+    "total_min": 25
+   },
+   "difficulty": 1,
+   "techniques": [
+    "sauteing"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "finely chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "red-bell-pepper",
+       "qty": 0.5,
+       "prep": "finely chopped",
+       "name": "red bell pepper"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 2,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "black-beans-canned",
+       "qty": 1,
+       "unit": "can",
+       "note": "400 g can with about half its liquid",
+       "name": "canned black beans"
+      },
+      {
+       "ingredient": "salsa-lizano",
+       "qty": 3,
+       "unit": "tbsp",
+       "alt": [
+        "worcestershire-sauce"
+       ],
+       "name": "Salsa Lizano"
+      },
+      {
+       "ingredient": "cooked-long-grain-rice",
+       "qty": 600,
+       "unit": "g",
+       "note": "cold, ideally a day old",
+       "name": "cooked long-grain rice"
+      },
+      {
+       "ingredient": "cilantro",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "name": "cilantro"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Soften the onion, pepper and garlic in the oil."
+    },
+    {
+     "text": "Add the beans with their liquid and the Salsa Lizano and simmer for 3–4 minutes until the liquid reduces slightly."
+    },
+    {
+     "text": "Add the rice and fold over medium heat until the rice is evenly speckled and heated through."
+    },
+    {
+     "text": "Stir in the cilantro and season."
+    }
+   ],
+   "serving": "With fried or scrambled eggs, sour cream (natilla), fried sweet plantains and tortillas.",
+   "culture": "The name means \"spotted rooster\". Costa Rica and Nicaragua both claim it as their own.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegan",
+     "vegetarian",
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "yes"
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [
+      "mustard"
+     ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "cu-frijoles-negros",
    "title": "Cuban Black Beans",
    "native_name": {
@@ -2430,6 +3198,205 @@
    }
   },
   {
+   "id": "cz-bramboraky",
+   "title": "Bramboráky",
+   "native_name": {
+    "text": "Bramboráky",
+    "lang": "cs"
+   },
+   "alternate_names": [
+    "Czech potato pancakes"
+   ],
+   "summary": "Crisp, lacy potato pancakes seasoned with garlic and marjoram, fried in lard until golden.",
+   "origin": {
+    "country": "CZ",
+    "country_name": "Czechia",
+    "continent": "Europe",
+    "subregion": "Eastern Europe"
+   },
+   "course": "snack",
+   "dish_types": [
+    "pancake",
+    "potato"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4,
+    "amount": "about 12 pancakes"
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 25,
+    "total_min": 45
+   },
+   "difficulty": 2,
+   "techniques": [
+    "pan-frying"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "potato",
+       "qty": 800,
+       "unit": "g",
+       "prep": "peeled and finely grated",
+       "note": "floury",
+       "name": "potato"
+      },
+      {
+       "ingredient": "egg",
+       "qty": 2,
+       "name": "egg"
+      },
+      {
+       "ingredient": "all-purpose-flour",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "all-purpose flour"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "dried-marjoram",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "dried marjoram"
+      },
+      {
+       "ingredient": "caraway-seeds",
+       "qty": 0.5,
+       "unit": "tsp",
+       "optional": true,
+       "name": "caraway seeds"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "black-pepper",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground black pepper"
+      },
+      {
+       "ingredient": "lard",
+       "qty": 100,
+       "unit": "g",
+       "note": "for frying",
+       "alt": [
+        "vegetable-oil"
+       ],
+       "name": "lard"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Squeeze the grated potatoes hard in a clean cloth to remove as much liquid as possible."
+    },
+    {
+     "text": "Mix with the eggs, flour, garlic, marjoram, caraway, salt and pepper."
+    },
+    {
+     "text": "Heat a thin layer of lard in a frying pan over medium-high heat. Spread spoonfuls of the mixture thinly into pancakes."
+    },
+    {
+     "text": "Fry until deep golden and crisp, then flip and fry the other side. Add more fat between batches.",
+     "timer_min": 6
+    },
+    {
+     "text": "Drain on paper and serve hot."
+    }
+   ],
+   "serving": "On their own with beer, or with sauerkraut and roast pork.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "dairy-free",
+     "nut-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "vegetarian": {
+      "status": "adaptable",
+      "changes": [
+       "use vegetable oil instead of lard"
+      ]
+     },
+     "pescatarian": {
+      "status": "adaptable",
+      "changes": [
+       "use vegetable oil instead of lard"
+      ]
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "all-purpose flour"
+      ]
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "adaptable",
+      "changes": [
+       "use vegetable oil instead of lard"
+      ]
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "egg",
+      "gluten"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "de-kasespatzle",
    "title": "Käsespätzle",
    "native_name": {
@@ -2629,6 +3596,211 @@
      },
      "pork-free": {
       "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "egg",
+      "gluten",
+      "milk"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "dk-frikadeller",
+   "title": "Frikadeller",
+   "native_name": {
+    "text": "Frikadeller",
+    "lang": "da"
+   },
+   "alternate_names": [
+    "Danish meatballs"
+   ],
+   "summary": "Juicy, flattened pork meatballs fried in butter, served with potatoes, brown gravy and sweet-sour red cabbage.",
+   "origin": {
+    "country": "DK",
+    "country_name": "Denmark",
+    "continent": "Europe",
+    "subregion": "Northern Europe"
+   },
+   "course": "main",
+   "dish_types": [
+    "meatballs"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 20,
+    "inactive_min": 30,
+    "total_min": 65
+   },
+   "difficulty": 2,
+   "techniques": [
+    "pan-frying"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "pork-mince",
+       "qty": 500,
+       "unit": "g",
+       "note": "or half pork and half veal",
+       "name": "minced pork"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "grated",
+       "name": "onion"
+      },
+      {
+       "ingredient": "egg",
+       "qty": 1,
+       "name": "egg"
+      },
+      {
+       "ingredient": "milk",
+       "qty": 150,
+       "unit": "ml",
+       "name": "milk"
+      },
+      {
+       "ingredient": "all-purpose-flour",
+       "qty": 3,
+       "unit": "tbsp",
+       "alt": [
+        "breadcrumbs"
+       ],
+       "name": "all-purpose flour"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "black-pepper",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground black pepper"
+      },
+      {
+       "ingredient": "allspice",
+       "qty": 1,
+       "unit": "pinch",
+       "name": "ground allspice"
+      },
+      {
+       "ingredient": "butter",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "butter"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Mix the pork, onion, egg, flour and seasonings, then work in the milk gradually until the mixture is soft but holds its shape."
+    },
+    {
+     "text": "Chill so the mixture firms up.",
+     "timer_min": 30
+    },
+    {
+     "text": "Heat the butter and oil in a frying pan over medium heat. Shape oval patties with a wet tablespoon and the palm of your hand."
+    },
+    {
+     "text": "Fry, turning once, until browned and cooked through.",
+     "timer_min": 12
+    }
+   ],
+   "serving": "With boiled potatoes, brown gravy, pickled red cabbage (rødkål) or pickled cucumber.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "nut-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "butter",
+       "egg",
+       "milk",
+       "minced pork"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "minced pork"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "minced pork"
+      ]
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "all-purpose flour"
+      ]
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "butter",
+       "milk"
+      ]
+     },
+     "egg-free": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "no",
+      "because": [
+       "minced pork"
+      ]
      },
      "alcohol-free": {
       "status": "yes"
@@ -3463,6 +4635,207 @@
     },
     "allergens": {
      "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "fi-lohikeitto",
+   "title": "Lohikeitto",
+   "native_name": {
+    "text": "Lohikeitto",
+    "lang": "fi"
+   },
+   "alternate_names": [
+    "Finnish creamy salmon soup"
+   ],
+   "summary": "A gentle, creamy soup of salmon, potatoes and leek, seasoned with allspice and plenty of dill.",
+   "origin": {
+    "country": "FI",
+    "country_name": "Finland",
+    "continent": "Europe",
+    "subregion": "Northern Europe"
+   },
+   "course": "soup",
+   "dish_types": [
+    "soup",
+    "seafood"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 30,
+    "total_min": 45
+   },
+   "difficulty": 1,
+   "techniques": [
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "butter",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "butter"
+      },
+      {
+       "ingredient": "leek",
+       "qty": 1,
+       "prep": "sliced",
+       "name": "leek"
+      },
+      {
+       "ingredient": "potato",
+       "qty": 600,
+       "unit": "g",
+       "prep": "peeled and cubed",
+       "name": "potato"
+      },
+      {
+       "ingredient": "carrot",
+       "qty": 1,
+       "prep": "sliced",
+       "optional": true,
+       "name": "carrot"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1,
+       "unit": "l",
+       "note": "or fish stock",
+       "name": "water"
+      },
+      {
+       "ingredient": "allspice-berries",
+       "qty": 5,
+       "name": "allspice berries"
+      },
+      {
+       "ingredient": "bay-leaf",
+       "qty": 1,
+       "name": "bay leaf"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "salmon",
+       "qty": 500,
+       "unit": "g",
+       "prep": "skinless, cut into 3 cm cubes",
+       "name": "salmon"
+      },
+      {
+       "ingredient": "heavy-cream",
+       "qty": 200,
+       "unit": "ml",
+       "name": "heavy cream"
+      },
+      {
+       "ingredient": "dill",
+       "qty": 1,
+       "unit": "bunch",
+       "prep": "chopped",
+       "name": "dill"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Soften the leek in the butter for 3 minutes."
+    },
+    {
+     "text": "Add the potatoes, carrot, water, allspice, bay and salt and simmer until the potatoes are just tender.",
+     "timer_min": 15
+    },
+    {
+     "text": "Add the cream and salmon and simmer very gently — don't boil — until the salmon is just cooked.",
+     "timer_min": 5
+    },
+    {
+     "text": "Stir in most of the dill and serve with the rest on top."
+    }
+   ],
+   "serving": "With rye bread and butter.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "pescatarian",
+     "gluten-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "butter",
+       "heavy cream",
+       "salmon"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "salmon"
+      ]
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "butter",
+       "heavy cream"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "fish",
+      "milk"
+     ],
      "may_contain": [],
      "in_optional_ingredients": []
     }
@@ -7097,6 +8470,442 @@
    }
   },
   {
+   "id": "kz-beshbarmak",
+   "title": "Beshbarmak",
+   "native_name": {
+    "text": "Бешбармақ",
+    "lang": "kk",
+    "romanized": "beshbarmaq"
+   },
+   "summary": "Slow-simmered meat over sheets of fresh noodles, topped with onions softened in the rich broth, which is drunk alongside.",
+   "origin": {
+    "country": "KZ",
+    "also_claimed_by": [
+     "KG"
+    ],
+    "country_name": "Kazakhstan",
+    "continent": "Asia",
+    "subregion": "Central Asia"
+   },
+   "course": "main",
+   "dish_types": [
+    "noodles",
+    "boiled-meat"
+   ],
+   "occasions": [
+    "Celebrations",
+    "Welcoming guests"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 40,
+    "cook_min": 150,
+    "inactive_min": 30,
+    "total_min": 220
+   },
+   "difficulty": 3,
+   "equipment": [
+    "Large stockpot",
+    "Rolling pin"
+   ],
+   "techniques": [
+    "simmering",
+    "dough-making",
+    "boiling"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Meat and broth",
+     "items": [
+      {
+       "ingredient": "beef-shank",
+       "qty": 1.5,
+       "unit": "kg",
+       "note": "on the bone; horse meat or lamb are traditional too",
+       "name": "beef shank"
+      },
+      {
+       "ingredient": "water",
+       "qty": 4,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "note": "whole",
+       "name": "onion"
+      },
+      {
+       "ingredient": "bay-leaf",
+       "qty": 3,
+       "name": "bay leaf"
+      },
+      {
+       "ingredient": "black-peppercorns",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "black peppercorns"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "Noodles",
+     "items": [
+      {
+       "ingredient": "all-purpose-flour",
+       "qty": 400,
+       "unit": "g",
+       "name": "all-purpose flour"
+      },
+      {
+       "ingredient": "egg",
+       "qty": 1,
+       "name": "egg"
+      },
+      {
+       "ingredient": "water",
+       "qty": 150,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "Onion topping (tuzdyk)",
+     "items": [
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "sliced into rings",
+       "name": "onion"
+      },
+      {
+       "ingredient": "black-pepper",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground black pepper"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Cover the meat with the water, bring to a boil and skim well. Add the whole onion, bay, peppercorns and salt and simmer gently until the meat is very tender.",
+     "timer_min": 150
+    },
+    {
+     "text": "Meanwhile mix the noodle ingredients into a stiff dough, knead until smooth and rest for 30 minutes."
+    },
+    {
+     "text": "Roll the dough very thin (about 1 mm) and cut into 7 cm squares."
+    },
+    {
+     "text": "Lift out the meat and cut it into pieces. Put the onion rings in a bowl with the pepper and pour over a ladle of hot fat-rich broth; cover."
+    },
+    {
+     "text": "Boil the noodle squares in batches in the broth for 2–3 minutes and lift onto a large platter."
+    },
+    {
+     "text": "Pile the meat on the noodles and top with the onions. Serve the remaining broth (sorpa) in bowls."
+    }
+   ],
+   "culture": "The name means \"five fingers\" — it was traditionally eaten by hand.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "dairy-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "beef shank",
+       "egg"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "beef shank"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "beef shank"
+      ]
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "all-purpose flour"
+      ]
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "egg",
+      "gluten"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "la-larb",
+   "title": "Larb",
+   "native_name": {
+    "text": "ລາບ",
+    "lang": "lo",
+    "romanized": "laap"
+   },
+   "summary": "Minced chicken tossed warm with lime, fish sauce, chili, toasted rice powder and lots of fresh herbs — Laos's national dish.",
+   "origin": {
+    "country": "LA",
+    "also_claimed_by": [
+     "TH"
+    ],
+    "country_name": "Laos",
+    "continent": "Asia",
+    "subregion": "South-eastern Asia"
+   },
+   "course": "main",
+   "dish_types": [
+    "salad",
+    "minced-meat"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 3
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 10,
+    "total_min": 30
+   },
+   "difficulty": 2,
+   "techniques": [
+    "roasting",
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Toasted rice powder",
+     "items": [
+      {
+       "ingredient": "glutinous-rice",
+       "qty": 2,
+       "unit": "tbsp",
+       "note": "uncooked",
+       "name": "glutinous rice"
+      }
+     ]
+    },
+    {
+     "name": "Larb",
+     "items": [
+      {
+       "ingredient": "chicken-mince",
+       "qty": 400,
+       "unit": "g",
+       "note": "or minced pork",
+       "name": "minced chicken"
+      },
+      {
+       "ingredient": "water",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "water"
+      },
+      {
+       "ingredient": "fish-sauce",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "fish sauce"
+      },
+      {
+       "ingredient": "lime-juice",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "lime juice"
+      },
+      {
+       "ingredient": "chili-flakes",
+       "qty": [
+        1,
+        2
+       ],
+       "unit": "tsp",
+       "name": "chili flakes"
+      },
+      {
+       "ingredient": "shallot",
+       "qty": 3,
+       "prep": "thinly sliced",
+       "name": "shallot"
+      },
+      {
+       "ingredient": "scallion",
+       "qty": 2,
+       "prep": "sliced",
+       "name": "scallion"
+      },
+      {
+       "ingredient": "mint",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "leaves picked",
+       "name": "mint"
+      },
+      {
+       "ingredient": "cilantro",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "name": "cilantro"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Toast the rice in a dry pan, shaking, until deep golden (about 5 minutes). Grind to a coarse powder."
+    },
+    {
+     "text": "Cook the chicken with the water in a pan over medium heat, breaking it up, until just cooked through. Take off the heat."
+    },
+    {
+     "text": "Stir in the fish sauce, lime juice and chili, then the shallots, scallion, herbs and 1 tablespoon of the rice powder."
+    },
+    {
+     "text": "Taste — it should be sour, salty and hot. Sprinkle with more rice powder and serve warm or at room temperature."
+    }
+   ],
+   "serving": "With sticky rice, eaten by hand, and raw vegetables such as cabbage wedges and long beans.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "fish sauce",
+       "minced chicken"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "fish sauce",
+       "minced chicken"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "minced chicken"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "fish"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "lb-tabbouleh",
    "title": "Tabbouleh",
    "native_name": {
@@ -10220,6 +12029,387 @@
    }
   },
   {
+   "id": "py-sopa-paraguaya",
+   "title": "Sopa Paraguaya",
+   "native_name": {
+    "text": "Sopa paraguaya",
+    "lang": "es"
+   },
+   "alternate_names": [
+    "Paraguayan cornbread"
+   ],
+   "summary": "A rich, savoury cornbread made with cheese, onions and milk — despite its name, a \"soup\" you cut into squares.",
+   "origin": {
+    "country": "PY",
+    "country_name": "Paraguay",
+    "continent": "Americas",
+    "subregion": "South America"
+   },
+   "course": "side",
+   "dish_types": [
+    "cornbread",
+    "bake"
+   ],
+   "occasions": [
+    "Christmas",
+    "Celebrations"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 8
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 45,
+    "total_min": 65
+   },
+   "difficulty": 2,
+   "equipment": [
+    "23 × 33 cm baking dish"
+   ],
+   "techniques": [
+    "sauteing",
+    "baking"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "butter",
+       "qty": 100,
+       "unit": "g",
+       "alt": [
+        "lard"
+       ],
+       "name": "butter"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "thinly sliced",
+       "name": "onion"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "milk",
+       "qty": 500,
+       "unit": "ml",
+       "name": "milk"
+      },
+      {
+       "ingredient": "egg",
+       "qty": 4,
+       "name": "egg"
+      },
+      {
+       "ingredient": "queso-fresco",
+       "qty": 250,
+       "unit": "g",
+       "prep": "crumbled or grated",
+       "note": "Paraguayan queso Paraguay or another fresh melting cheese",
+       "name": "queso fresco"
+      },
+      {
+       "ingredient": "cornmeal",
+       "qty": 350,
+       "unit": "g",
+       "note": "fine yellow cornmeal",
+       "name": "cornmeal"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Heat the oven to 200 °C and grease the dish."
+    },
+    {
+     "text": "Cook the onions slowly in the butter with the salt until very soft but not browned. Cool slightly.",
+     "timer_min": 12
+    },
+    {
+     "text": "Beat the eggs, then mix in the milk, cheese, onions with their butter, and finally the cornmeal. The batter should be thick but pourable; rest 5 minutes."
+    },
+    {
+     "text": "Pour into the dish and bake until golden and a skewer comes out clean.",
+     "timer_min": 40
+    },
+    {
+     "text": "Cool for 10 minutes before cutting into squares."
+    }
+   ],
+   "serving": "Alongside asado (grilled meat) and chipa guasu.",
+   "culture": "One popular story says a cook to the 19th-century president Carlos Antonio López added too much corn flour to his soup — and the \"solid soup\" was a hit.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "butter",
+       "egg",
+       "milk",
+       "queso fresco"
+      ]
+     },
+     "vegetarian": {
+      "status": "check-labels",
+      "check": [
+       "queso fresco"
+      ]
+     },
+     "pescatarian": {
+      "status": "check-labels",
+      "check": [
+       "queso fresco"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "milk",
+       "queso fresco"
+      ]
+     },
+     "egg-free": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "egg",
+      "milk"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "ro-mamaliga",
+   "title": "Mămăligă with Cheese and Sour Cream",
+   "native_name": {
+    "text": "Mămăligă cu brânză și smântână",
+    "lang": "ro"
+   },
+   "summary": "Soft, golden cornmeal porridge topped with salty crumbled sheep's cheese and cool sour cream.",
+   "origin": {
+    "country": "RO",
+    "also_claimed_by": [
+     "MD"
+    ],
+    "country_name": "Romania",
+    "continent": "Europe",
+    "subregion": "Eastern Europe"
+   },
+   "course": "main",
+   "dish_types": [
+    "porridge"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 5,
+    "cook_min": 30,
+    "total_min": 35
+   },
+   "difficulty": 2,
+   "techniques": [
+    "boiling"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "water",
+       "qty": 1,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "cornmeal",
+       "qty": 250,
+       "unit": "g",
+       "note": "medium-coarse yellow",
+       "name": "cornmeal"
+      },
+      {
+       "ingredient": "butter",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "butter"
+      },
+      {
+       "ingredient": "feta",
+       "qty": 200,
+       "unit": "g",
+       "prep": "crumbled",
+       "note": "Romanian telemea or brânză de burduf",
+       "name": "feta"
+      },
+      {
+       "ingredient": "sour-cream",
+       "qty": 200,
+       "unit": "ml",
+       "name": "sour cream"
+      },
+      {
+       "ingredient": "egg",
+       "qty": 4,
+       "note": "fried",
+       "optional": true,
+       "name": "egg"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Bring the salted water to a boil. Pour in the cornmeal in a thin stream, whisking constantly to prevent lumps."
+    },
+    {
+     "text": "Switch to a wooden spoon and cook over low heat, stirring often, until thick and it pulls away from the sides.",
+     "timer_min": 25
+    },
+    {
+     "text": "Stir in the butter."
+    },
+    {
+     "text": "Spoon onto plates and top with the cheese, sour cream and a fried egg if you like."
+    }
+   ],
+   "tips": [
+    "For a firm mămăligă that can be sliced (traditionally with a thread), cook it longer and turn it out onto a board."
+   ],
+   "serving": "Also as a side for sarmale (cabbage rolls) or tochitură (pork stew).",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "butter",
+       "feta",
+       "sour cream"
+      ]
+     },
+     "vegetarian": {
+      "status": "check-labels",
+      "check": [
+       "feta"
+      ]
+     },
+     "pescatarian": {
+      "status": "check-labels",
+      "check": [
+       "feta"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "butter",
+       "feta",
+       "sour cream"
+      ]
+     },
+     "egg-free": {
+      "status": "adaptable",
+      "changes": [
+       "omit egg"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "milk"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": [
+      "egg"
+     ]
+    }
+   }
+  },
+  {
    "id": "ru-blini",
    "title": "Blini",
    "native_name": {
@@ -10429,6 +12619,293 @@
      ],
      "may_contain": [],
      "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "sa-kabsa",
+   "title": "Chicken Kabsa",
+   "native_name": {
+    "text": "كبسة",
+    "lang": "ar",
+    "romanized": "kabsa"
+   },
+   "summary": "Chicken and basmati rice cooked together with tomato, dried lime and warm spices, topped with toasted almonds and raisins.",
+   "origin": {
+    "country": "SA",
+    "also_claimed_by": [
+     "KW",
+     "AE",
+     "QA",
+     "BH",
+     "OM",
+     "YE"
+    ],
+    "country_name": "Saudi Arabia",
+    "continent": "Asia",
+    "subregion": "Western Asia"
+   },
+   "course": "main",
+   "dish_types": [
+    "rice-dish",
+    "one-pot"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 5
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 75,
+    "inactive_min": 20,
+    "total_min": 115
+   },
+   "difficulty": 3,
+   "techniques": [
+    "braising",
+    "rice-cooking"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Chicken and rice",
+     "items": [
+      {
+       "ingredient": "basmati-rice",
+       "qty": 500,
+       "unit": "g",
+       "name": "basmati rice"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 3,
+       "unit": "tbsp",
+       "alt": [
+        "ghee"
+       ],
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "chicken-thigh",
+       "qty": 1.2,
+       "unit": "kg",
+       "prep": "bone-in pieces",
+       "name": "chicken thigh"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "tomato-paste",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "tomato paste"
+      },
+      {
+       "ingredient": "carrot",
+       "qty": 1,
+       "prep": "grated",
+       "name": "carrot"
+      },
+      {
+       "ingredient": "dried-lime",
+       "qty": 1,
+       "prep": "pierced",
+       "name": "dried lime"
+      },
+      {
+       "ingredient": "cinnamon-stick",
+       "qty": 1,
+       "name": "cinnamon stick"
+      },
+      {
+       "ingredient": "whole-cloves",
+       "qty": 4,
+       "name": "whole cloves"
+      },
+      {
+       "ingredient": "bay-leaf",
+       "qty": 2,
+       "name": "bay leaf"
+      },
+      {
+       "ingredient": "ground-cardamom",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground cardamom"
+      },
+      {
+       "ingredient": "ground-cumin",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground cumin"
+      },
+      {
+       "ingredient": "ground-coriander",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground coriander"
+      },
+      {
+       "ingredient": "black-pepper",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground black pepper"
+      },
+      {
+       "ingredient": "ground-turmeric",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground turmeric"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 2,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "Topping",
+     "items": [
+      {
+       "ingredient": "flaked-almonds",
+       "qty": 40,
+       "unit": "g",
+       "prep": "toasted",
+       "optional": true,
+       "name": "flaked almonds"
+      },
+      {
+       "ingredient": "raisins",
+       "qty": 40,
+       "unit": "g",
+       "optional": true,
+       "name": "raisins"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Rinse the rice and soak it in cold water.",
+     "timer_min": 20
+    },
+    {
+     "text": "Fry the onions in the oil until golden, then add garlic and the chicken and brown the chicken on all sides."
+    },
+    {
+     "text": "Add the tomato, tomato paste, carrot, dried lime and all the spices and fry for 2 minutes."
+    },
+    {
+     "text": "Add the water and salt, cover and simmer until the chicken is cooked.",
+     "timer_min": 35
+    },
+    {
+     "text": "Lift out the chicken and keep warm (traditionally it is browned under the grill). Measure about 750 ml of broth back into the pot."
+    },
+    {
+     "text": "Add the drained rice, bring to a boil, then cover tightly and cook on the lowest heat until tender.",
+     "timer_min": 20
+    },
+    {
+     "text": "Spread the rice on a platter, top with the chicken, almonds and raisins."
+    }
+   ],
+   "serving": "On a large shared platter, with daqqus (spiced tomato sauce) and salad.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "adaptable",
+      "changes": [
+       "omit flaked almonds"
+      ]
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [
+      "sulphite"
+     ],
+     "in_optional_ingredients": [
+      "tree-nut"
+     ]
     }
    }
   },
@@ -10698,6 +13175,284 @@
       "celery",
       "sesame"
      ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "sg-hainanese-chicken-rice",
+   "title": "Hainanese Chicken Rice",
+   "summary": "Silky poached chicken with rice cooked in its fragrant broth, served with chili-ginger sauce, dark soy and cucumber.",
+   "origin": {
+    "country": "SG",
+    "community": "Hainanese",
+    "also_claimed_by": [
+     "MY"
+    ],
+    "country_name": "Singapore",
+    "continent": "Asia",
+    "subregion": "South-eastern Asia"
+   },
+   "course": "main",
+   "dish_types": [
+    "rice-dish",
+    "poached-chicken"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 25,
+    "cook_min": 60,
+    "inactive_min": 15,
+    "total_min": 100
+   },
+   "difficulty": 3,
+   "techniques": [
+    "simmering",
+    "rice-cooking"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Chicken",
+     "items": [
+      {
+       "ingredient": "whole-chicken",
+       "qty": 1.5,
+       "unit": "kg",
+       "name": "whole chicken"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tbsp",
+       "note": "for rubbing",
+       "name": "salt"
+      },
+      {
+       "ingredient": "ginger",
+       "qty": 5,
+       "unit": "cm",
+       "prep": "sliced",
+       "name": "fresh ginger"
+      },
+      {
+       "ingredient": "scallion",
+       "qty": 3,
+       "name": "scallion"
+      },
+      {
+       "ingredient": "water",
+       "qty": 3,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "sesame-oil",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "toasted sesame oil"
+      }
+     ]
+    },
+    {
+     "name": "Rice",
+     "items": [
+      {
+       "ingredient": "jasmine-rice",
+       "qty": 400,
+       "unit": "g",
+       "prep": "rinsed and drained",
+       "name": "jasmine rice"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "note": "or rendered chicken fat",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "shallot",
+       "qty": 2,
+       "prep": "minced",
+       "name": "shallot"
+      },
+      {
+       "ingredient": "pandan-leaf",
+       "qty": 2,
+       "prep": "knotted",
+       "name": "pandan leaf"
+      }
+     ]
+    },
+    {
+     "name": "Chili sauce",
+     "items": [
+      {
+       "ingredient": "red-chili",
+       "qty": 4,
+       "name": "fresh red chili"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "ginger",
+       "qty": 3,
+       "unit": "cm",
+       "name": "fresh ginger"
+      },
+      {
+       "ingredient": "lime-juice",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "lime juice"
+      },
+      {
+       "ingredient": "sugar",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "sugar"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "To serve",
+     "items": [
+      {
+       "ingredient": "dark-soy-sauce",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "dark soy sauce"
+      },
+      {
+       "ingredient": "cucumber",
+       "qty": 1,
+       "prep": "sliced",
+       "name": "cucumber"
+      },
+      {
+       "ingredient": "cilantro",
+       "qty": 1,
+       "unit": "handful",
+       "name": "cilantro"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Rub the chicken all over with salt, rinse, and stuff the cavity with ginger and scallions."
+    },
+    {
+     "text": "Bring the water to a boil, lower in the chicken breast-side down, return to a bare simmer and cook gently."
+    },
+    {
+     "text": "Turn off the heat, cover and leave the chicken in the hot water until the thickest part of the thigh reaches 74 °C.",
+     "timer_min": 30
+    },
+    {
+     "text": "Plunge the chicken into iced water for 10 minutes to firm the skin, then rub with sesame oil. Keep the broth."
+    },
+    {
+     "text": "Fry the garlic and shallot in the oil until fragrant, add the rice and stir to coat. Add 550 ml of the chicken broth, the pandan and a pinch of salt, and cook as for plain rice (covered, low heat, 15 minutes, then rest 10)."
+    },
+    {
+     "text": "Blend the chili sauce ingredients with 3 tablespoons of broth."
+    },
+    {
+     "text": "Carve the chicken and serve with the rice, chili sauce, dark soy, cucumber, cilantro and a bowl of broth."
+    }
+   ],
+   "culture": "Brought by migrants from Hainan island in southern China and reinvented in Singapore, where it is often called the national dish.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "whole chicken"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "whole chicken"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "whole chicken"
+      ]
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "dark soy sauce"
+      ]
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "gluten",
+      "sesame",
+      "soy"
+     ],
+     "may_contain": [],
      "in_optional_ingredients": []
     }
    }
@@ -11186,6 +13941,452 @@
      "contains": [],
      "may_contain": [
       "sulphite"
+     ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "sv-pupusas",
+   "title": "Pupusas",
+   "native_name": {
+    "text": "Pupusas",
+    "lang": "es"
+   },
+   "summary": "Thick corn tortillas stuffed with refried beans and melting cheese, griddled and eaten with tangy cabbage curtido and tomato salsa.",
+   "origin": {
+    "country": "SV",
+    "also_claimed_by": [
+     "HN"
+    ],
+    "country_name": "El Salvador",
+    "continent": "Americas",
+    "subregion": "Central America"
+   },
+   "course": "main",
+   "dish_types": [
+    "flatbread",
+    "street-food"
+   ],
+   "occasions": [
+    "National Pupusa Day (second Sunday of November)"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4,
+    "amount": "8 pupusas"
+   },
+   "time": {
+    "prep_min": 30,
+    "cook_min": 30,
+    "inactive_min": 60,
+    "total_min": 120
+   },
+   "difficulty": 3,
+   "equipment": [
+    "Griddle or cast-iron pan"
+   ],
+   "techniques": [
+    "dough-making",
+    "pan-frying",
+    "curing"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Curtido",
+     "items": [
+      {
+       "ingredient": "white-cabbage",
+       "qty": 400,
+       "unit": "g",
+       "prep": "finely shredded",
+       "name": "white cabbage"
+      },
+      {
+       "ingredient": "carrot",
+       "qty": 1,
+       "prep": "grated",
+       "name": "carrot"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 0.5,
+       "prep": "thinly sliced",
+       "name": "onion"
+      },
+      {
+       "ingredient": "dried-oregano",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "dried oregano"
+      },
+      {
+       "ingredient": "white-vinegar",
+       "qty": 120,
+       "unit": "ml",
+       "name": "white vinegar"
+      },
+      {
+       "ingredient": "water",
+       "qty": 120,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "chili-flakes",
+       "qty": 1,
+       "unit": "pinch",
+       "optional": true,
+       "name": "chili flakes"
+      }
+     ]
+    },
+    {
+     "name": "Pupusas",
+     "items": [
+      {
+       "ingredient": "masa-harina",
+       "qty": 400,
+       "unit": "g",
+       "name": "masa harina"
+      },
+      {
+       "ingredient": "water",
+       "qty": 500,
+       "unit": "ml",
+       "note": "warm; add gradually",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "refried-beans",
+       "qty": 200,
+       "unit": "g",
+       "name": "refried beans"
+      },
+      {
+       "ingredient": "mozzarella",
+       "qty": 200,
+       "unit": "g",
+       "prep": "grated",
+       "note": "or Salvadoran quesillo",
+       "name": "mozzarella"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "note": "for your hands and the griddle",
+       "name": "vegetable oil"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Mix the curtido ingredients, pour over boiling water to cover for 1 minute, drain, then add the vinegar, water, oregano, salt and chili. Leave to pickle.",
+     "timer_min": 60
+    },
+    {
+     "text": "Mix the masa harina, salt and warm water into a soft dough that doesn't crack when pressed — like play dough. Divide into 8 balls."
+    },
+    {
+     "text": "With oiled hands, flatten a ball into a cup in your palm, add a spoonful each of beans and cheese, close the dough around it and pat gently into a 1 cm thick disc."
+    },
+    {
+     "text": "Cook on a medium-hot griddle until browned in spots on both sides and the cheese is melting.",
+     "timer_min": 8
+    },
+    {
+     "text": "Serve hot with curtido and tomato salsa."
+    }
+   ],
+   "serving": "Eaten by hand, torn and topped with curtido.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "egg-free",
+     "nut-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "mozzarella"
+      ]
+     },
+     "vegetarian": {
+      "status": "check-labels",
+      "check": [
+       "mozzarella",
+       "refried beans"
+      ]
+     },
+     "pescatarian": {
+      "status": "check-labels",
+      "check": [
+       "mozzarella",
+       "refried beans"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "mozzarella"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "check-labels",
+      "check": [
+       "refried beans"
+      ]
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "milk"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "sy-muhammara",
+   "title": "Muhammara",
+   "native_name": {
+    "text": "محمرة",
+    "lang": "ar",
+    "romanized": "muḥammara"
+   },
+   "summary": "A rich, sweet-smoky dip of roasted red peppers, toasted walnuts and pomegranate molasses from Aleppo.",
+   "origin": {
+    "country": "SY",
+    "region": "Aleppo",
+    "also_claimed_by": [
+     "TR",
+     "LB"
+    ],
+    "country_name": "Syria",
+    "continent": "Asia",
+    "subregion": "Western Asia"
+   },
+   "course": "starter",
+   "dish_types": [
+    "dip",
+    "mezze"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 25,
+    "total_min": 40
+   },
+   "difficulty": 1,
+   "equipment": [
+    "Food processor"
+   ],
+   "techniques": [
+    "roasting"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "red-bell-pepper",
+       "qty": 3,
+       "note": "or 300 g jarred roasted peppers",
+       "name": "red bell pepper"
+      },
+      {
+       "ingredient": "walnuts",
+       "qty": 100,
+       "unit": "g",
+       "prep": "toasted",
+       "name": "walnuts"
+      },
+      {
+       "ingredient": "breadcrumbs",
+       "qty": 30,
+       "unit": "g",
+       "name": "breadcrumbs"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 1,
+       "unit": "clove",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "pomegranate-molasses",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "pomegranate molasses"
+      },
+      {
+       "ingredient": "aleppo-pepper",
+       "qty": 2,
+       "unit": "tsp",
+       "note": "or 1 tbsp Turkish red pepper paste",
+       "name": "Aleppo pepper"
+      },
+      {
+       "ingredient": "ground-cumin",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground cumin"
+      },
+      {
+       "ingredient": "lemon-juice",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "lemon juice"
+      },
+      {
+       "ingredient": "olive-oil",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "olive oil"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Roast the peppers under a hot grill or over a flame, turning, until blackened all over.",
+     "timer_min": 20
+    },
+    {
+     "text": "Steam them in a covered bowl for 10 minutes, then peel and deseed."
+    },
+    {
+     "text": "Pulse the walnuts in the processor until coarsely ground. Add everything else and pulse to a textured paste — not completely smooth."
+    },
+    {
+     "text": "Taste and balance the sweet, sour and heat. Serve drizzled with olive oil and a few walnuts."
+    }
+   ],
+   "serving": "With warm flatbread, as part of a mezze spread or with grilled meats.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegan",
+     "vegetarian",
+     "pescatarian",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "yes"
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "breadcrumbs"
+      ]
+     },
+     "dairy-free": {
+      "status": "check-labels",
+      "check": [
+       "breadcrumbs"
+      ]
+     },
+     "egg-free": {
+      "status": "check-labels",
+      "check": [
+       "breadcrumbs"
+      ]
+     },
+     "nut-free": {
+      "status": "no",
+      "because": [
+       "walnuts"
+      ]
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "gluten",
+      "tree-nut"
+     ],
+     "may_contain": [
+      "egg",
+      "milk",
+      "sesame",
+      "soy"
      ],
      "in_optional_ingredients": []
     }
@@ -11879,6 +15080,238 @@
    }
   },
   {
+   "id": "tt-pelau",
+   "title": "Pelau",
+   "summary": "Chicken browned in caramelised sugar, then cooked with rice, pigeon peas and coconut milk in one pot — a Trinidad and Tobago favourite.",
+   "origin": {
+    "country": "TT",
+    "country_name": "Trinidad and Tobago",
+    "continent": "Americas",
+    "subregion": "Caribbean"
+   },
+   "course": "main",
+   "dish_types": [
+    "rice-dish",
+    "one-pot"
+   ],
+   "occasions": [
+    "Beach limes",
+    "Sunday lunch"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 50,
+    "inactive_min": 60,
+    "total_min": 130
+   },
+   "difficulty": 3,
+   "techniques": [
+    "marinating",
+    "braising",
+    "rice-cooking"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Green seasoning and chicken",
+     "items": [
+      {
+       "ingredient": "cilantro",
+       "qty": 1,
+       "unit": "handful",
+       "note": "Trinidadians use culantro (shado beni)",
+       "name": "cilantro"
+      },
+      {
+       "ingredient": "scallion",
+       "qty": 2,
+       "name": "scallion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "thyme",
+       "qty": 4,
+       "unit": "sprig",
+       "prep": "leaves only",
+       "name": "thyme"
+      },
+      {
+       "ingredient": "chicken-thigh",
+       "qty": 1,
+       "unit": "kg",
+       "prep": "bone-in pieces",
+       "name": "chicken thigh"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1.5,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "Pelau",
+     "items": [
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "brown-sugar",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "brown sugar"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "carrot",
+       "qty": 1,
+       "prep": "diced",
+       "name": "carrot"
+      },
+      {
+       "ingredient": "parboiled-rice",
+       "qty": 400,
+       "unit": "g",
+       "prep": "rinsed",
+       "name": "parboiled long-grain rice"
+      },
+      {
+       "ingredient": "pigeon-peas-canned",
+       "qty": 1,
+       "unit": "can",
+       "note": "400 g can, drained",
+       "name": "canned pigeon peas"
+      },
+      {
+       "ingredient": "coconut-milk",
+       "qty": 400,
+       "unit": "ml",
+       "name": "coconut milk"
+      },
+      {
+       "ingredient": "water",
+       "qty": 500,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 1,
+       "note": "whole",
+       "name": "Scotch bonnet chili"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Blend the cilantro, scallions, garlic and thyme with a splash of water. Rub it and the salt into the chicken."
+    },
+    {
+     "text": "Marinate the chicken.",
+     "timer_min": 60
+    },
+    {
+     "text": "Heat the oil and sugar in a heavy pot over medium heat until the sugar melts, froths and turns dark amber (watch closely — seconds separate dark from burnt)."
+    },
+    {
+     "text": "Immediately add the chicken, stirring to coat it in the caramel. Cook, covered, for 10 minutes until well coloured."
+    },
+    {
+     "text": "Add the onion, carrot and rice and stir for 2 minutes. Add the peas, coconut milk, water and the whole pepper and bring to a boil."
+    },
+    {
+     "text": "Cover and simmer on low until the rice is tender and the liquid absorbed. Remove the pepper.",
+     "timer_min": 30
+    }
+   ],
+   "serving": "With coleslaw, sliced cucumber and pepper sauce.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "ua-borshch",
    "title": "Borshch",
    "native_name": {
@@ -12127,6 +15560,209 @@
      "in_optional_ingredients": [
       "milk"
      ]
+    }
+   }
+  },
+  {
+   "id": "ug-rolex",
+   "title": "Rolex",
+   "alternate_names": [
+    "Rolled eggs"
+   ],
+   "summary": "Uganda's favourite street snack — a vegetable omelette rolled up in a soft, flaky chapati.",
+   "origin": {
+    "country": "UG",
+    "country_name": "Uganda",
+    "continent": "Africa",
+    "subregion": "Eastern Africa"
+   },
+   "course": "snack",
+   "dish_types": [
+    "street-food",
+    "wrap"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 2,
+    "amount": "2 rolexes"
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 20,
+    "inactive_min": 20,
+    "total_min": 60
+   },
+   "difficulty": 2,
+   "techniques": [
+    "dough-making",
+    "pan-frying"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Chapati",
+     "items": [
+      {
+       "ingredient": "all-purpose-flour",
+       "qty": 250,
+       "unit": "g",
+       "name": "all-purpose flour"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "water",
+       "qty": 150,
+       "unit": "ml",
+       "note": "warm",
+       "name": "water"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      }
+     ]
+    },
+    {
+     "name": "Omelette",
+     "items": [
+      {
+       "ingredient": "egg",
+       "qty": 4,
+       "name": "egg"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 1,
+       "prep": "finely diced",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 0.5,
+       "prep": "finely chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "white-cabbage",
+       "qty": 100,
+       "unit": "g",
+       "prep": "finely shredded",
+       "name": "white cabbage"
+      },
+      {
+       "ingredient": "green-pepper",
+       "qty": 0.25,
+       "prep": "finely chopped",
+       "name": "green pepper"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "pinch",
+       "name": "salt"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Mix the flour, salt, water and 1 tablespoon oil into a soft dough. Knead for 5 minutes and rest for 20 minutes."
+    },
+    {
+     "text": "Divide in two. Roll each thin, brush with oil, roll up into a rope, coil it and roll out again into a 22 cm round — this makes flaky layers."
+    },
+    {
+     "text": "Cook the chapatis on a hot dry pan, brushing with oil, until golden-spotted on both sides. Keep warm."
+    },
+    {
+     "text": "Beat 2 eggs with half the vegetables and salt. Pour into the oiled pan and cook until almost set."
+    },
+    {
+     "text": "Lay a chapati on top of the omelette, press, then flip together so the chapati warms. Roll up tightly. Repeat."
+    }
+   ],
+   "serving": "Wrapped in paper and eaten hot from street stalls, especially around Kampala.",
+   "culture": "The name is a play on \"rolled eggs\"; Uganda celebrates the snack with an annual Rolex Festival.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegetarian",
+     "pescatarian",
+     "dairy-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "all-purpose flour"
+      ]
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "egg",
+      "gluten"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
     }
    }
   },

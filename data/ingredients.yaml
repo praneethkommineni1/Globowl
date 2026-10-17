@@ -5,7 +5,8 @@
 #   name:        display name (singular)
 #   category:    data/taxonomy.yaml → ingredient_categories
 #   animal:      animal sources (taxonomy → animal_sources); omit for plant/mineral foods
-#   contains:    allergens it always contains, plus `pork` / `alcohol` / `animal-rennet` markers
+#   contains:    allergens it always contains, plus `pork` / `alcohol` / `animal-rennet` / `animal-fat` markers
+#                (`animal-fat` is for products that may hide lard or tallow, used in may_contain)
 #   may_contain: allergens commonly present depending on brand/recipe → "check labels"
 #   aliases:     other names, for search (UK/US/regional)
 #
@@ -41,6 +42,10 @@ prawn-crackers: {name: prawn crackers, category: grain, animal: [shellfish], con
 basmati-rice: {name: basmati rice, category: grain}
 rigatoni: {name: rigatoni, category: grain, contains: [gluten], may_contain: [egg]}
 
+masa-harina: {name: masa harina, category: grain, aliases: [nixtamalized corn flour, Maseca]}
+cornmeal: {name: cornmeal, category: grain, aliases: [polenta, mălai, harina de maíz]}
+glutinous-rice: {name: glutinous rice, category: grain, aliases: [sticky rice, sweet rice, khao niao]}
+
 # --- Legumes and soy --------------------------------------------------------
 red-lentils: {name: red lentils, category: legume, aliases: [masoor dal, split red lentils]}
 brown-lentils: {name: brown lentils, category: legume}
@@ -55,6 +60,9 @@ fresh-cranberry-beans: {name: fresh cranberry beans, category: legume, aliases: 
 soft-tofu: {name: soft tofu, category: legume, contains: [soy]}
 firm-tofu: {name: firm tofu, category: legume, contains: [soy]}
 fermented-black-beans: {name: fermented black beans, category: condiment, contains: [soy], aliases: [douchi]}
+
+refried-beans: {name: refried beans, category: legume, may_contain: [pork, animal-fat], note: Traditional refried beans are often made with lard; check the can.}
+pigeon-peas-canned: {name: canned pigeon peas, category: legume, aliases: [gungo peas, gandules]}
 
 # --- Vegetables -------------------------------------------------------------
 onion: {name: onion, category: vegetable}
@@ -102,6 +110,8 @@ yellow-potato: {name: yellow potato, category: vegetable, aliases: [papa criolla
 green-plantain: {name: green plantain, category: fruit, aliases: [unripe plantain, plátano verde]}
 capers: {name: capers, category: condiment}
 
+leek: {name: leek, category: vegetable}
+
 # --- Fruit ------------------------------------------------------------------
 lemon: {name: lemon, category: fruit}
 lemon-juice: {name: lemon juice, category: fruit}
@@ -131,6 +141,8 @@ pandan-leaf: {name: pandan leaf, category: herb, aliases: [screwpine leaf]}
 bay-leaf: {name: bay leaf, category: herb}
 
 guascas: {name: guascas, category: herb, aliases: [galinsoga, gallant soldier], note: Usually sold dried in Latin American shops.}
+
+dried-lime: {name: dried lime, category: spice, aliases: [loomi, black lime, noomi basra]}
 
 # --- Spices -----------------------------------------------------------------
 salt: {name: salt, category: water}
@@ -177,6 +189,9 @@ cinnamon-stick: {name: cinnamon stick, category: spice}
 whole-cloves: {name: whole cloves, category: spice}
 khmeli-suneli: {name: khmeli suneli, category: spice, note: Georgian blend of dried herbs and spices including blue fenugreek and coriander.}
 
+dried-marjoram: {name: dried marjoram, category: spice}
+caraway-seeds: {name: caraway seeds, category: spice}
+
 # --- Condiments, sauces, pastes ---------------------------------------------
 soy-sauce: {name: soy sauce, category: condiment, contains: [soy, gluten], note: Tamari is usually wheat-free.}
 dark-soy-sauce: {name: dark soy sauce, category: condiment, contains: [soy, gluten]}
@@ -204,6 +219,10 @@ chicken-stock: {name: chicken stock, category: stock, animal: [poultry], may_con
 beef-stock: {name: beef stock, category: stock, animal: [meat], may_contain: [celery]}
 vegetable-stock: {name: vegetable stock, category: stock, may_contain: [celery]}
 chicken-bouillon-cube: {name: chicken bouillon cube, category: stock, animal: [poultry], may_contain: [gluten, milk, celery, soy], aliases: [stock cube, Maggi, Knorr]}
+
+salsa-lizano: {name: Salsa Lizano, category: condiment, may_contain: [mustard], note: Costa Rican vegetable sauce; check the label for mustard.}
+pomegranate-molasses: {name: pomegranate molasses, category: condiment, aliases: [dibs rumman, nar ekşisi]}
+cider-vinegar: {name: cider vinegar, category: condiment, may_contain: [sulphite], aliases: [apple cider vinegar]}
 
 # --- Nuts and seeds ---------------------------------------------------------
 roasted-peanuts: {name: roasted peanuts, category: nut-seed, contains: [peanut]}
@@ -247,6 +266,9 @@ egg-white: {name: egg white, category: egg, animal: [egg], contains: [egg]}
 
 yogurt: {name: plain yogurt, category: dairy, animal: [dairy], contains: [milk]}
 
+feta: {name: feta, category: dairy, animal: [dairy], contains: [milk], may_contain: [animal-rennet], aliases: [sirene, telemea, white brined cheese]}
+mozzarella: {name: mozzarella, category: dairy, animal: [dairy], contains: [milk], may_contain: [animal-rennet], aliases: [quesillo]}
+
 # --- Meat, poultry, seafood -------------------------------------------------
 chicken-thigh: {name: chicken thigh, category: poultry, animal: [poultry]}
 chicken-mince: {name: minced chicken, category: poultry, animal: [poultry], aliases: [ground chicken]}
@@ -270,6 +292,8 @@ beef-chuck: {name: beef chuck, category: meat, animal: [meat], aliases: [stewing
 veal-cutlet: {name: veal cutlet, category: meat, animal: [meat], aliases: [veal escalope]}
 smoked-sausage: {name: smoked sausage, category: meat, animal: [meat], contains: [pork], may_contain: [milk, gluten, sulphite], aliases: [rookworst, kielbasa]}
 
+salmon: {name: salmon, category: seafood, animal: [fish], contains: [fish]}
+
 # --- Sweeteners and baking --------------------------------------------------
 sugar: {name: sugar, category: sweetener, note: Some cane sugar is refined with bone char; strict vegans may prefer certified sugar.}
 brown-sugar: {name: brown sugar, category: sweetener}
@@ -283,4 +307,5 @@ vanilla-bean: {name: vanilla bean, category: baking, aliases: [vanilla pod]}
 
 # --- Drinks and water -------------------------------------------------------
 dry-white-wine: {name: dry white wine, category: beverage, contains: [alcohol, sulphite]}
+brown-ale: {name: brown ale, category: beverage, contains: [alcohol, gluten], aliases: [Flemish brown, oud bruin, dubbel]}
 water: {name: water, category: water}

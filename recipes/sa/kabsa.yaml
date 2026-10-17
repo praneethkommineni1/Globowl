@@ -1,0 +1,58 @@
+id: sa-kabsa
+title: Chicken Kabsa
+native_name: {text: كبسة, lang: ar, romanized: kabsa}
+summary: Chicken and basmati rice cooked together with tomato, dried lime and warm spices, topped with toasted almonds and raisins.
+origin:
+  country: SA
+  also_claimed_by: [KW, AE, QA, BH, OM, YE]
+course: main
+dish_types: [rice-dish, one-pot]
+authenticity: home-style
+yield: {servings: 5}
+time: {prep_min: 20, cook_min: 75, inactive_min: 20}
+difficulty: 3
+techniques: [braising, rice-cooking]
+ingredient_groups:
+  - name: Chicken and rice
+    items:
+      - {ingredient: basmati-rice, qty: 500, unit: g}
+      - {ingredient: vegetable-oil, qty: 3, unit: tbsp, alt: [ghee]}
+      - {ingredient: onion, qty: 2, prep: "chopped"}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "minced"}
+      - {ingredient: chicken-thigh, qty: 1.2, unit: kg, prep: "bone-in pieces"}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: tomato-paste, qty: 2, unit: tbsp}
+      - {ingredient: carrot, qty: 1, prep: "grated"}
+      - {ingredient: dried-lime, qty: 1, prep: "pierced"}
+      - {ingredient: cinnamon-stick, qty: 1}
+      - {ingredient: whole-cloves, qty: 4}
+      - {ingredient: bay-leaf, qty: 2}
+      - {ingredient: ground-cardamom, qty: 1, unit: tsp}
+      - {ingredient: ground-cumin, qty: 1, unit: tsp}
+      - {ingredient: ground-coriander, qty: 1, unit: tsp}
+      - {ingredient: black-pepper, qty: 1, unit: tsp}
+      - {ingredient: ground-turmeric, qty: 0.5, unit: tsp}
+      - {ingredient: water, qty: 1, unit: l}
+      - {ingredient: salt, qty: 2, unit: tsp}
+  - name: Topping
+    items:
+      - {ingredient: flaked-almonds, qty: 40, unit: g, prep: "toasted", optional: true}
+      - {ingredient: raisins, qty: 40, unit: g, optional: true}
+steps:
+  - text: Rinse the rice and soak it in cold water.
+    timer_min: 20
+  - Fry the onions in the oil until golden, then add garlic and the chicken and brown the chicken on all sides.
+  - Add the tomato, tomato paste, carrot, dried lime and all the spices and fry for 2 minutes.
+  - text: Add the water and salt, cover and simmer until the chicken is cooked.
+    timer_min: 35
+  - Lift out the chicken and keep warm (traditionally it is browned under the grill). Measure about 750 ml of broth back into the pot.
+  - text: Add the drained rice, bring to a boil, then cover tightly and cook on the lowest heat until tender.
+    timer_min: 20
+  - Spread the rice on a platter, top with the chicken, almonds and raisins.
+serving: On a large shared platter, with daqqus (spiced tomato sauce) and salad.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

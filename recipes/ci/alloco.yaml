@@ -1,0 +1,37 @@
+id: ci-alloco
+title: Alloco
+native_name: {text: Alloco, lang: fr}
+summary: Sweet ripe plantain cubes fried until caramelised and served with a spicy tomato, onion and chili relish.
+origin:
+  country: CI
+course: snack
+dish_types: [street-food, plantain]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 20}
+difficulty: 1
+techniques: [deep-frying, sauteing]
+ingredient_groups:
+  - name: Plantains
+    items:
+      - {ingredient: plantain, qty: 4, prep: "very ripe, peeled and cut into 2 cm chunks"}
+      - {ingredient: vegetable-oil, qty: 500, unit: ml, note: "for frying"}
+      - {ingredient: salt, qty: 1, unit: pinch}
+  - name: Chili relish
+    items:
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "finely chopped"}
+      - {ingredient: tomato, qty: 2, prep: "finely chopped"}
+      - {ingredient: scotch-bonnet, qty: 1, prep: "minced"}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - Cook the onion in 2 tablespoons oil until soft, add the tomato, chili and salt and cook down to a thick relish (8 minutes).
+  - Heat the frying oil to about 170 °C. Fry the plantain in batches until deep golden and caramelised (3–4 minutes).
+  - Drain, sprinkle with salt and serve with the relish.
+serving: As a street snack, or with grilled fish (poisson braisé) and a boiled egg.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

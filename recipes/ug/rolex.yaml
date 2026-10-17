@@ -1,0 +1,43 @@
+id: ug-rolex
+title: Rolex
+alternate_names: [Rolled eggs]
+summary: Uganda's favourite street snack — a vegetable omelette rolled up in a soft, flaky chapati.
+origin:
+  country: UG
+course: snack
+dish_types: [street-food, wrap]
+authenticity: home-style
+yield: {servings: 2, amount: 2 rolexes}
+time: {prep_min: 20, cook_min: 20, inactive_min: 20}
+difficulty: 2
+techniques: [dough-making, pan-frying]
+ingredient_groups:
+  - name: Chapati
+    items:
+      - {ingredient: all-purpose-flour, qty: 250, unit: g}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+      - {ingredient: water, qty: 150, unit: ml, note: "warm"}
+      - {ingredient: vegetable-oil, qty: 3, unit: tbsp}
+  - name: Omelette
+    items:
+      - {ingredient: egg, qty: 4}
+      - {ingredient: tomato, qty: 1, prep: "finely diced"}
+      - {ingredient: onion, qty: 0.5, prep: "finely chopped"}
+      - {ingredient: white-cabbage, qty: 100, unit: g, prep: "finely shredded"}
+      - {ingredient: green-pepper, qty: 0.25, prep: "finely chopped"}
+      - {ingredient: salt, qty: 1, unit: pinch}
+      - {ingredient: vegetable-oil, qty: 1, unit: tbsp}
+steps:
+  - Mix the flour, salt, water and 1 tablespoon oil into a soft dough. Knead for 5 minutes and rest for 20 minutes.
+  - Divide in two. Roll each thin, brush with oil, roll up into a rope, coil it and roll out again into a 22 cm round — this makes flaky layers.
+  - Cook the chapatis on a hot dry pan, brushing with oil, until golden-spotted on both sides. Keep warm.
+  - Beat 2 eggs with half the vegetables and salt. Pour into the oiled pan and cook until almost set.
+  - Lay a chapati on top of the omelette, press, then flip together so the chapati warms. Roll up tightly. Repeat.
+serving: Wrapped in paper and eaten hot from street stalls, especially around Kampala.
+culture: The name is a play on "rolled eggs"; Uganda celebrates the snack with an annual Rolex Festival.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

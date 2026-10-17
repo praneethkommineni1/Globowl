@@ -1,0 +1,40 @@
+id: dk-frikadeller
+title: Frikadeller
+native_name: {text: Frikadeller, lang: da}
+alternate_names: [Danish meatballs]
+summary: Juicy, flattened pork meatballs fried in butter, served with potatoes, brown gravy and sweet-sour red cabbage.
+origin:
+  country: DK
+course: main
+dish_types: [meatballs]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 20, inactive_min: 30}
+difficulty: 2
+techniques: [pan-frying]
+ingredient_groups:
+  - items:
+      - {ingredient: pork-mince, qty: 500, unit: g, note: "or half pork and half veal"}
+      - {ingredient: onion, qty: 1, prep: "grated"}
+      - {ingredient: egg, qty: 1}
+      - {ingredient: milk, qty: 150, unit: ml}
+      - {ingredient: all-purpose-flour, qty: 3, unit: tbsp, alt: [breadcrumbs]}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+      - {ingredient: allspice, qty: 1, unit: pinch}
+      - {ingredient: butter, qty: 2, unit: tbsp}
+      - {ingredient: vegetable-oil, qty: 1, unit: tbsp}
+steps:
+  - Mix the pork, onion, egg, flour and seasonings, then work in the milk gradually until the mixture is soft but holds its shape.
+  - text: Chill so the mixture firms up.
+    timer_min: 30
+  - Heat the butter and oil in a frying pan over medium heat. Shape oval patties with a wet tablespoon and the palm of your hand.
+  - text: Fry, turning once, until browned and cooked through.
+    timer_min: 12
+serving: With boiled potatoes, brown gravy, pickled red cabbage (rødkål) or pickled cucumber.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

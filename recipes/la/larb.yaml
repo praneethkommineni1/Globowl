@@ -1,0 +1,41 @@
+id: la-larb
+title: Larb
+native_name: {text: ລາບ, lang: lo, romanized: laap}
+summary: Minced chicken tossed warm with lime, fish sauce, chili, toasted rice powder and lots of fresh herbs — Laos's national dish.
+origin:
+  country: LA
+  also_claimed_by: [TH]
+course: main
+dish_types: [salad, minced-meat]
+authenticity: traditional
+yield: {servings: 3}
+time: {prep_min: 20, cook_min: 10}
+difficulty: 2
+techniques: [roasting, simmering]
+ingredient_groups:
+  - name: Toasted rice powder
+    items:
+      - {ingredient: glutinous-rice, qty: 2, unit: tbsp, note: "uncooked"}
+  - name: Larb
+    items:
+      - {ingredient: chicken-mince, qty: 400, unit: g, note: "or minced pork"}
+      - {ingredient: water, qty: 3, unit: tbsp}
+      - {ingredient: fish-sauce, qty: 2, unit: tbsp}
+      - {ingredient: lime-juice, qty: 3, unit: tbsp}
+      - {ingredient: chili-flakes, qty: [1, 2], unit: tsp}
+      - {ingredient: shallot, qty: 3, prep: "thinly sliced"}
+      - {ingredient: scallion, qty: 2, prep: "sliced"}
+      - {ingredient: mint, qty: 1, unit: handful, prep: "leaves picked"}
+      - {ingredient: cilantro, qty: 1, unit: handful, prep: "chopped"}
+steps:
+  - Toast the rice in a dry pan, shaking, until deep golden (about 5 minutes). Grind to a coarse powder.
+  - Cook the chicken with the water in a pan over medium heat, breaking it up, until just cooked through. Take off the heat.
+  - Stir in the fish sauce, lime juice and chili, then the shallots, scallion, herbs and 1 tablespoon of the rice powder.
+  - Taste — it should be sour, salty and hot. Sprinkle with more rice powder and serve warm or at room temperature.
+serving: With sticky rice, eaten by hand, and raw vegetables such as cabbage wedges and long beans.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

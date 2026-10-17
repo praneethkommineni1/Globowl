@@ -1,0 +1,46 @@
+id: be-carbonade-flamande
+title: Carbonade Flamande
+native_name: {text: Stoofvlees, lang: nl}
+alternate_names: [Flemish beef and beer stew]
+summary: Beef slowly braised in dark Belgian beer with caramelised onions, thickened with a slice of mustard-spread bread.
+origin:
+  country: BE
+  region: Flanders
+course: main
+dish_types: [stew]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 20, cook_min: 180}
+difficulty: 2
+techniques: [pan-frying, braising]
+ingredient_groups:
+  - items:
+      - {ingredient: beef-chuck, qty: 1.2, unit: kg, prep: "cut into 4 cm cubes"}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+      - {ingredient: butter, qty: 3, unit: tbsp}
+      - {ingredient: onion, qty: 3, prep: "sliced"}
+      - {ingredient: all-purpose-flour, qty: 2, unit: tbsp}
+      - {ingredient: brown-ale, qty: 500, unit: ml, note: "Flemish brown or dubbel"}
+      - {ingredient: beef-stock, qty: 250, unit: ml}
+      - {ingredient: brown-sugar, qty: 1, unit: tbsp}
+      - {ingredient: cider-vinegar, qty: 1, unit: tbsp}
+      - {ingredient: thyme, qty: 4, unit: sprig}
+      - {ingredient: bay-leaf, qty: 2}
+      - {ingredient: white-bread, qty: 1, unit: slice}
+      - {ingredient: dijon-mustard, qty: 1, unit: tbsp}
+steps:
+  - Season the beef and brown it well in batches in the butter. Set aside.
+  - Cook the onions in the same pot until soft and golden (15 minutes). Stir in the flour.
+  - Return the beef, add the beer, stock, sugar, vinegar, thyme and bay, and bring to a simmer.
+  - Spread the bread with mustard and lay it on top, mustard side down.
+  - text: Cover and braise very gently, stirring occasionally, until the beef is tender and the bread has melted into the sauce.
+    timer_min: 150
+  - Season to taste.
+serving: With Belgian fries and mayonnaise.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

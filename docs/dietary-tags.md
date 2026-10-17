@@ -9,7 +9,7 @@ to a recipe; a derived one can't.
 Each ingredient in `data/ingredients.yaml` declares:
 
 - `animal` — animal sources: `meat`, `poultry`, `fish`, `shellfish`, `dairy`, `egg`, `honey`, `gelatin`
-- `contains` — allergens it always contains, plus the non-allergen markers `pork`, `alcohol`, `animal-rennet`
+- `contains` — allergens it always contains, plus the non-allergen markers `pork`, `alcohol`, `animal-rennet`, `animal-fat`
 - `may_contain` — things that depend on the brand or recipe (soy sauce and gluten, cheese and rennet, stock and celery)
 
 For each diet, every ingredient line in a recipe is checked:
@@ -43,9 +43,9 @@ Only `yes` diets appear in the flat `tags` list. Apps should still show `adaptab
 
 | Diet | Excludes |
 |---|---|
-| vegan | any animal source, including honey |
-| vegetarian | meat, poultry, fish, shellfish, gelatin, animal rennet |
-| pescatarian | meat, poultry, gelatin, animal rennet |
+| vegan | any animal source, including honey; products that may hide lard or tallow |
+| vegetarian | meat, poultry, fish, shellfish, gelatin, animal rennet, hidden animal fat |
+| pescatarian | meat, poultry, gelatin, animal rennet, hidden animal fat |
 | gluten-free | gluten-containing cereals |
 | dairy-free | milk and milk products (butter, ghee, cheese, yogurt) |
 | egg-free | eggs |
@@ -58,6 +58,9 @@ Only `yes` diets appear in the flat `tags` list. Apps should still show `adaptab
 - **Animal rennet.** Pecorino Romano and Parmigiano Reggiano require animal rennet under their
   PDO rules, so they make a dish not vegetarian. Most other cheeses are `may_contain`, which
   gives "check labels".
+- **Hidden lard.** Products such as canned refried beans are often made with lard. They carry
+  `may_contain: [pork, animal-fat]`, so a dish using them is "check labels" for vegetarians,
+  not "yes".
 - **No "halal" or "kosher" tag.** Those depend on certification and preparation (slaughter,
   separation of meat and dairy), not just ingredients. We provide the inputs people use to
   decide (`pork-free`, `alcohol-free`) and don't claim more than we know.

@@ -19,6 +19,7 @@ CATALOG = {
     "oats": {"name": "oats", "category": "grain", "may_contain": ["gluten"]},
     "bacon": {"name": "bacon", "category": "meat", "animal": ["meat"], "contains": ["pork"]},
     "pecorino": {"name": "pecorino", "category": "dairy", "animal": ["dairy"], "contains": ["milk", "animal-rennet"]},
+    "refried-beans": {"name": "refried beans", "category": "legume", "may_contain": ["pork", "animal-fat"]},
 }
 
 
@@ -127,3 +128,10 @@ def test_unquoted_comma_in_flow_mapping_is_caught(repo_copy):
     path.write_text(text.replace('prep: "very finely chopped"', "prep: peeled, very finely chopped"))
     _, errors, _ = build.build(repo_copy)
     assert any("Additional properties" in e for e in errors)
+
+
+def test_possible_hidden_lard_means_check_labels_not_yes():
+    d = build.derive_dietary(recipe({"ingredient": "refried-beans"}), CATALOG)
+    for diet in ("vegan", "vegetarian", "pescatarian", "pork-free"):
+        assert d["diets"][diet] == {"status": "check-labels", "check": ["refried beans"]}
+    assert d["allergens"]["may_contain"] == []

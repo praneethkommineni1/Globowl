@@ -1,0 +1,41 @@
+id: fi-lohikeitto
+title: Lohikeitto
+native_name: {text: Lohikeitto, lang: fi}
+alternate_names: [Finnish creamy salmon soup]
+summary: A gentle, creamy soup of salmon, potatoes and leek, seasoned with allspice and plenty of dill.
+origin:
+  country: FI
+course: soup
+dish_types: [soup, seafood]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 30}
+difficulty: 1
+techniques: [simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: butter, qty: 1, unit: tbsp}
+      - {ingredient: leek, qty: 1, prep: "sliced"}
+      - {ingredient: potato, qty: 600, unit: g, prep: "peeled and cubed"}
+      - {ingredient: carrot, qty: 1, prep: "sliced", optional: true}
+      - {ingredient: water, qty: 1, unit: l, note: "or fish stock"}
+      - {ingredient: allspice-berries, qty: 5}
+      - {ingredient: bay-leaf, qty: 1}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: salmon, qty: 500, unit: g, prep: "skinless, cut into 3 cm cubes"}
+      - {ingredient: heavy-cream, qty: 200, unit: ml}
+      - {ingredient: dill, qty: 1, unit: bunch, prep: "chopped"}
+steps:
+  - Soften the leek in the butter for 3 minutes.
+  - text: Add the potatoes, carrot, water, allspice, bay and salt and simmer until the potatoes are just tender.
+    timer_min: 15
+  - text: Add the cream and salmon and simmer very gently — don't boil — until the salmon is just cooked.
+    timer_min: 5
+  - Stir in most of the dill and serve with the rest on top.
+serving: With rye bread and butter.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

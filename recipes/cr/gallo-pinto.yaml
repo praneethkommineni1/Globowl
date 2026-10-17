@@ -1,0 +1,38 @@
+id: cr-gallo-pinto
+title: Gallo Pinto
+native_name: {text: Gallo pinto, lang: es}
+summary: Day-old rice fried with black beans, onion, pepper, cilantro and tangy Salsa Lizano — the speckled breakfast of Costa Rica.
+origin:
+  country: CR
+  also_claimed_by: [NI]
+course: breakfast
+dish_types: [rice-dish, beans]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 15}
+difficulty: 1
+techniques: [sauteing]
+ingredient_groups:
+  - items:
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "finely chopped"}
+      - {ingredient: red-bell-pepper, qty: 0.5, prep: "finely chopped"}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "minced"}
+      - {ingredient: black-beans-canned, qty: 1, unit: can, note: "400 g can with about half its liquid"}
+      - {ingredient: salsa-lizano, qty: 3, unit: tbsp, alt: [worcestershire-sauce]}
+      - {ingredient: cooked-long-grain-rice, qty: 600, unit: g, note: "cold, ideally a day old"}
+      - {ingredient: cilantro, qty: 1, unit: handful, prep: "chopped"}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - Soften the onion, pepper and garlic in the oil.
+  - Add the beans with their liquid and the Salsa Lizano and simmer for 3–4 minutes until the liquid reduces slightly.
+  - Add the rice and fold over medium heat until the rice is evenly speckled and heated through.
+  - Stir in the cilantro and season.
+serving: With fried or scrambled eggs, sour cream (natilla), fried sweet plantains and tortillas.
+culture: The name means "spotted rooster". Costa Rica and Nicaragua both claim it as their own.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

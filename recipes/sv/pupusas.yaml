@@ -1,0 +1,50 @@
+id: sv-pupusas
+title: Pupusas
+native_name: {text: Pupusas, lang: es}
+summary: Thick corn tortillas stuffed with refried beans and melting cheese, griddled and eaten with tangy cabbage curtido and tomato salsa.
+origin:
+  country: SV
+  also_claimed_by: [HN]
+course: main
+dish_types: [flatbread, street-food]
+occasions: [National Pupusa Day (second Sunday of November)]
+authenticity: traditional
+yield: {servings: 4, amount: 8 pupusas}
+time: {prep_min: 30, cook_min: 30, inactive_min: 60}
+difficulty: 3
+equipment: [Griddle or cast-iron pan]
+techniques: [dough-making, pan-frying, curing]
+ingredient_groups:
+  - name: Curtido
+    items:
+      - {ingredient: white-cabbage, qty: 400, unit: g, prep: "finely shredded"}
+      - {ingredient: carrot, qty: 1, prep: "grated"}
+      - {ingredient: onion, qty: 0.5, prep: "thinly sliced"}
+      - {ingredient: dried-oregano, qty: 1, unit: tsp}
+      - {ingredient: white-vinegar, qty: 120, unit: ml}
+      - {ingredient: water, qty: 120, unit: ml}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: chili-flakes, qty: 1, unit: pinch, optional: true}
+  - name: Pupusas
+    items:
+      - {ingredient: masa-harina, qty: 400, unit: g}
+      - {ingredient: water, qty: 500, unit: ml, note: "warm; add gradually"}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+      - {ingredient: refried-beans, qty: 200, unit: g}
+      - {ingredient: mozzarella, qty: 200, unit: g, prep: "grated", note: "or Salvadoran quesillo"}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp, note: "for your hands and the griddle"}
+steps:
+  - text: Mix the curtido ingredients, pour over boiling water to cover for 1 minute, drain, then add the vinegar, water, oregano, salt and chili. Leave to pickle.
+    timer_min: 60
+  - Mix the masa harina, salt and warm water into a soft dough that doesn't crack when pressed — like play dough. Divide into 8 balls.
+  - With oiled hands, flatten a ball into a cup in your palm, add a spoonful each of beans and cheese, close the dough around it and pat gently into a 1 cm thick disc.
+  - text: Cook on a medium-hot griddle until browned in spots on both sides and the cheese is melting.
+    timer_min: 8
+  - Serve hot with curtido and tomato salsa.
+serving: Eaten by hand, torn and topped with curtido.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}
