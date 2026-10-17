@@ -273,6 +273,42 @@
    "bean thread"
   ]
  },
+ "bread-roll": {
+  "name": "bread roll",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ],
+  "may_contain": [
+   "milk",
+   "egg",
+   "sesame",
+   "soy"
+  ]
+ },
+ "pita-bread": {
+  "name": "pita bread",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ],
+  "may_contain": [
+   "sesame"
+  ],
+  "aliases": [
+   "somun",
+   "lepinja",
+   "flatbread"
+  ]
+ },
+ "chickpea-flour": {
+  "name": "chickpea flour",
+  "category": "legume",
+  "aliases": [
+   "gram flour",
+   "besan"
+  ]
+ },
  "red-lentils": {
   "name": "red lentils",
   "category": "legume",
@@ -385,6 +421,22 @@
    "ful",
    "foul medames",
    "broad beans"
+  ]
+ },
+ "broad-beans-frozen": {
+  "name": "frozen broad beans",
+  "category": "legume",
+  "aliases": [
+   "fava beans",
+   "bagilla"
+  ]
+ },
+ "green-peas": {
+  "name": "green peas",
+  "category": "vegetable",
+  "aliases": [
+   "garden peas",
+   "frozen peas"
   ]
  },
  "onion": {
@@ -675,6 +727,48 @@
   "name": "spinach",
   "category": "vegetable"
  },
+ "tomatillo": {
+  "name": "tomatillo",
+  "category": "vegetable",
+  "aliases": [
+   "miltomate",
+   "tomate verde"
+  ]
+ },
+ "chayote": {
+  "name": "chayote",
+  "category": "vegetable",
+  "aliases": [
+   "güisquil",
+   "christophine",
+   "cho-cho"
+  ]
+ },
+ "yam": {
+  "name": "yam",
+  "category": "vegetable",
+  "aliases": [
+   "ñame"
+  ],
+  "note": "True yam (Dioscorea), not orange sweet potato."
+ },
+ "lemongrass": {
+  "name": "lemongrass",
+  "category": "herb"
+ },
+ "watercress": {
+  "name": "watercress",
+  "category": "vegetable"
+ },
+ "paracress": {
+  "name": "paracress",
+  "category": "vegetable",
+  "aliases": [
+   "brèdes mafana",
+   "toothache plant",
+   "jambu"
+  ]
+ },
  "lemon": {
   "name": "lemon",
   "category": "fruit"
@@ -807,6 +901,21 @@
    "loomi",
    "black lime",
    "noomi basra"
+  ]
+ },
+ "annatto": {
+  "name": "annatto",
+  "category": "spice",
+  "aliases": [
+   "achiote"
+  ]
+ },
+ "pasilla-chili": {
+  "name": "dried pasilla chili",
+  "category": "spice",
+  "aliases": [
+   "chile pasa",
+   "chile negro"
   ]
  },
  "salt": {
@@ -1306,6 +1415,23 @@
    "apple cider vinegar"
   ]
  },
+ "mayonnaise": {
+  "name": "mayonnaise",
+  "category": "condiment",
+  "contains": [
+   "egg"
+  ],
+  "may_contain": [
+   "mustard"
+  ]
+ },
+ "ajvar": {
+  "name": "ajvar",
+  "category": "condiment",
+  "aliases": [
+   "roasted red pepper relish"
+  ]
+ },
  "roasted-peanuts": {
   "name": "roasted peanuts",
   "category": "nut-seed",
@@ -1360,6 +1486,27 @@
    "tree-nut"
   ],
   "note": "Botanically seeds but treated as tree nuts for allergen labelling."
+ },
+ "raw-peanuts": {
+  "name": "raw peanuts",
+  "category": "nut-seed",
+  "contains": [
+   "peanut"
+  ]
+ },
+ "pumpkin-seeds": {
+  "name": "pumpkin seeds",
+  "category": "nut-seed",
+  "aliases": [
+   "pepitas"
+  ]
+ },
+ "sesame-seeds": {
+  "name": "sesame seeds",
+  "category": "nut-seed",
+  "contains": [
+   "sesame"
+  ]
  },
  "vegetable-oil": {
   "name": "vegetable oil",
@@ -1649,6 +1796,20 @@
    "quesillo"
   ]
  },
+ "kajmak": {
+  "name": "kajmak",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
+  ],
+  "aliases": [
+   "kaymak",
+   "clotted cream"
+  ]
+ },
  "chicken-thigh": {
   "name": "chicken thigh",
   "category": "poultry",
@@ -1876,6 +2037,47 @@
    "fish"
   ]
  },
+ "beef-steak": {
+  "name": "beef steak",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "aliases": [
+   "sirloin",
+   "tenderloin"
+  ]
+ },
+ "ham": {
+  "name": "ham",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "contains": [
+   "pork"
+  ],
+  "may_contain": [
+   "sulphite"
+  ]
+ },
+ "bacon": {
+  "name": "bacon",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "contains": [
+   "pork"
+  ]
+ },
+ "rabbit": {
+  "name": "rabbit",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ]
+ },
  "sugar": {
   "name": "sugar",
   "category": "sweetener",
@@ -1952,6 +2154,14 @@
    "Flemish brown",
    "oud bruin",
    "dubbel"
+  ]
+ },
+ "red-wine": {
+  "name": "red wine",
+  "category": "beverage",
+  "contains": [
+   "alcohol",
+   "sulphite"
   ]
  },
  "water": {

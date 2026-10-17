@@ -1,0 +1,49 @@
+id: ec-llapingachos
+title: Llapingachos
+native_name: {text: Llapingachos, lang: es}
+summary: Golden potato patties stuffed with melting cheese, served with a creamy peanut sauce, fried egg and avocado.
+origin:
+  country: EC
+  region: Ambato (Tungurahua)
+course: main
+dish_types: [potato, pancake]
+authenticity: traditional
+yield: {servings: 4, amount: 8 patties}
+time: {prep_min: 30, cook_min: 40, inactive_min: 30}
+difficulty: 3
+techniques: [boiling, pan-frying, simmering]
+ingredient_groups:
+  - name: Patties
+    items:
+      - {ingredient: potato, qty: 1, unit: kg, prep: "peeled", note: "floury"}
+      - {ingredient: butter, qty: 2, unit: tbsp}
+      - {ingredient: onion, qty: 0.5, prep: "finely chopped"}
+      - {ingredient: annatto, qty: 1, unit: tsp, note: "achiote powder; or paprika for colour"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: queso-fresco, qty: 200, unit: g, prep: "crumbled"}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+  - name: Peanut sauce
+    items:
+      - {ingredient: peanut-butter, qty: 80, unit: g}
+      - {ingredient: milk, qty: 150, unit: ml}
+      - {ingredient: onion, qty: 0.25, prep: "finely chopped"}
+  - name: To serve
+    items:
+      - {ingredient: egg, qty: 4, note: "fried"}
+      - {ingredient: avocado, qty: 1, prep: "sliced"}
+      - {ingredient: lettuce, qty: 4, unit: leaf}
+steps:
+  - Boil the potatoes until soft, drain and mash.
+  - Fry the onion in the butter with the annatto until soft, and mix into the potatoes with the salt.
+  - Divide into 8 balls, make a hollow in each, fill with cheese and seal. Flatten into thick patties and chill for 30 minutes.
+  - text: Fry in a lightly oiled pan over medium heat until golden on both sides.
+    timer_min: 10
+  - For the sauce, soften the onion in a little oil, add the milk and peanut butter and simmer, stirring, until smooth and thick.
+  - Serve the patties with the sauce, a fried egg, avocado and lettuce.
+serving: Often with chorizo and curtido (pickled onion and tomato salad).
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

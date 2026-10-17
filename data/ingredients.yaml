@@ -51,6 +51,10 @@ pearl-barley: {name: pearl barley, category: grain, contains: [gluten]}
 dried-hominy: {name: dried hominy, category: grain, aliases: [maize for cachupa, pozole corn, samp]}
 glass-noodles: {name: glass noodles, category: grain, aliases: [mung bean vermicelli, cellophane noodles, bean thread]}
 
+bread-roll: {name: bread roll, category: grain, contains: [gluten], may_contain: [milk, egg, sesame, soy]}
+pita-bread: {name: pita bread, category: grain, contains: [gluten], may_contain: [sesame], aliases: [somun, lepinja, flatbread]}
+chickpea-flour: {name: chickpea flour, category: legume, aliases: [gram flour, besan]}
+
 # --- Legumes and soy --------------------------------------------------------
 red-lentils: {name: red lentils, category: legume, aliases: [masoor dal, split red lentils]}
 brown-lentils: {name: brown lentils, category: legume}
@@ -70,6 +74,9 @@ refried-beans: {name: refried beans, category: legume, may_contain: [pork, anima
 pigeon-peas-canned: {name: canned pigeon peas, category: legume, aliases: [gungo peas, gandules]}
 
 fava-beans-canned: {name: canned fava beans, category: legume, aliases: [ful, foul medames, broad beans]}
+
+broad-beans-frozen: {name: frozen broad beans, category: legume, aliases: [fava beans, bagilla]}
+green-peas: {name: green peas, category: vegetable, aliases: [garden peas, frozen peas]}
 
 # --- Vegetables -------------------------------------------------------------
 onion: {name: onion, category: vegetable}
@@ -123,6 +130,13 @@ okra: {name: okra, category: vegetable, aliases: [lady's fingers, bamia, gombo]}
 green-beans: {name: green beans, category: vegetable, aliases: [string beans, haricots verts]}
 spinach: {name: spinach, category: vegetable}
 
+tomatillo: {name: tomatillo, category: vegetable, aliases: [miltomate, tomate verde]}
+chayote: {name: chayote, category: vegetable, aliases: [güisquil, christophine, cho-cho]}
+yam: {name: yam, category: vegetable, aliases: [ñame], note: "True yam (Dioscorea), not orange sweet potato."}
+lemongrass: {name: lemongrass, category: herb}
+watercress: {name: watercress, category: vegetable}
+paracress: {name: paracress, category: vegetable, aliases: [brèdes mafana, toothache plant, jambu]}
+
 # --- Fruit ------------------------------------------------------------------
 lemon: {name: lemon, category: fruit}
 lemon-juice: {name: lemon juice, category: fruit}
@@ -154,6 +168,9 @@ bay-leaf: {name: bay leaf, category: herb}
 guascas: {name: guascas, category: herb, aliases: [galinsoga, gallant soldier], note: Usually sold dried in Latin American shops.}
 
 dried-lime: {name: dried lime, category: spice, aliases: [loomi, black lime, noomi basra]}
+
+annatto: {name: annatto, category: spice, aliases: [achiote]}
+pasilla-chili: {name: dried pasilla chili, category: spice, aliases: [chile pasa, chile negro]}
 
 # --- Spices -----------------------------------------------------------------
 salt: {name: salt, category: water}
@@ -237,6 +254,9 @@ salsa-lizano: {name: Salsa Lizano, category: condiment, may_contain: [mustard], 
 pomegranate-molasses: {name: pomegranate molasses, category: condiment, aliases: [dibs rumman, nar ekşisi]}
 cider-vinegar: {name: cider vinegar, category: condiment, may_contain: [sulphite], aliases: [apple cider vinegar]}
 
+mayonnaise: {name: mayonnaise, category: condiment, contains: [egg], may_contain: [mustard]}
+ajvar: {name: ajvar, category: condiment, aliases: [roasted red pepper relish]}
+
 # --- Nuts and seeds ---------------------------------------------------------
 roasted-peanuts: {name: roasted peanuts, category: nut-seed, contains: [peanut]}
 peanut-butter: {name: peanut butter, category: nut-seed, contains: [peanut]}
@@ -249,6 +269,10 @@ coconut-cream: {name: coconut cream, category: nut-seed}
 pistachios: {name: pistachios, category: nut-seed, contains: [tree-nut]}
 
 pine-nuts: {name: pine nuts, category: nut-seed, contains: [tree-nut], note: Botanically seeds but treated as tree nuts for allergen labelling.}
+
+raw-peanuts: {name: raw peanuts, category: nut-seed, contains: [peanut]}
+pumpkin-seeds: {name: pumpkin seeds, category: nut-seed, aliases: [pepitas]}
+sesame-seeds: {name: sesame seeds, category: nut-seed, contains: [sesame]}
 
 # --- Fats -------------------------------------------------------------------
 vegetable-oil: {name: vegetable oil, category: fat}
@@ -284,6 +308,8 @@ yogurt: {name: plain yogurt, category: dairy, animal: [dairy], contains: [milk]}
 feta: {name: feta, category: dairy, animal: [dairy], contains: [milk], may_contain: [animal-rennet], aliases: [sirene, telemea, white brined cheese]}
 mozzarella: {name: mozzarella, category: dairy, animal: [dairy], contains: [milk], may_contain: [animal-rennet], aliases: [quesillo]}
 
+kajmak: {name: kajmak, category: dairy, animal: [dairy], contains: [milk], aliases: [kaymak, clotted cream]}
+
 # --- Meat, poultry, seafood -------------------------------------------------
 chicken-thigh: {name: chicken thigh, category: poultry, animal: [poultry]}
 chicken-mince: {name: minced chicken, category: poultry, animal: [poultry], aliases: [ground chicken]}
@@ -309,6 +335,11 @@ smoked-sausage: {name: smoked sausage, category: meat, animal: [meat], contains:
 
 salmon: {name: salmon, category: seafood, animal: [fish], contains: [fish]}
 
+beef-steak: {name: beef steak, category: meat, animal: [meat], aliases: [sirloin, tenderloin]}
+ham: {name: ham, category: meat, animal: [meat], contains: [pork], may_contain: [sulphite]}
+bacon: {name: bacon, category: meat, animal: [meat], contains: [pork]}
+rabbit: {name: rabbit, category: meat, animal: [meat]}
+
 # --- Sweeteners and baking --------------------------------------------------
 sugar: {name: sugar, category: sweetener, note: Some cane sugar is refined with bone char; strict vegans may prefer certified sugar.}
 brown-sugar: {name: brown sugar, category: sweetener}
@@ -323,4 +354,5 @@ vanilla-bean: {name: vanilla bean, category: baking, aliases: [vanilla pod]}
 # --- Drinks and water -------------------------------------------------------
 dry-white-wine: {name: dry white wine, category: beverage, contains: [alcohol, sulphite]}
 brown-ale: {name: brown ale, category: beverage, contains: [alcohol, gluten], aliases: [Flemish brown, oud bruin, dubbel]}
+red-wine: {name: red wine, category: beverage, contains: [alcohol, sulphite]}
 water: {name: water, category: water}

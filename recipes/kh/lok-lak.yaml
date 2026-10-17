@@ -1,0 +1,52 @@
+id: kh-lok-lak
+title: Beef Lok Lak
+native_name: {text: ឡុកឡាក់, lang: km, romanized: lok lak}
+summary: Seared marinated beef cubes on fresh lettuce, tomato and onion, with a punchy Kampot-pepper and lime dipping sauce.
+origin:
+  country: KH
+  also_claimed_by: [VN]
+course: main
+dish_types: [stir-fry]
+authenticity: home-style
+yield: {servings: 3}
+time: {prep_min: 15, cook_min: 10, inactive_min: 30}
+difficulty: 2
+equipment: [Wok]
+techniques: [marinating, stir-frying]
+ingredient_groups:
+  - name: Beef
+    items:
+      - {ingredient: beef-steak, qty: 500, unit: g, prep: "cut into 2 cm cubes", note: "sirloin or tenderloin"}
+      - {ingredient: oyster-sauce, qty: 2, unit: tbsp}
+      - {ingredient: soy-sauce, qty: 1, unit: tbsp}
+      - {ingredient: fish-sauce, qty: 1, unit: tsp}
+      - {ingredient: sugar, qty: 1, unit: tbsp}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "minced"}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+  - name: Dipping sauce (tuk meric)
+    items:
+      - {ingredient: black-peppercorns, qty: 1, unit: tsp, prep: "freshly and coarsely ground", note: "Kampot pepper if possible"}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+      - {ingredient: lime-juice, qty: 3, unit: tbsp}
+  - name: To serve
+    items:
+      - {ingredient: lettuce, qty: 1, note: "leaves separated"}
+      - {ingredient: tomato, qty: 2, prep: "sliced"}
+      - {ingredient: red-onion, qty: 0.5, prep: "sliced"}
+      - {ingredient: cucumber, qty: 1, prep: "sliced"}
+      - {ingredient: cooked-jasmine-rice, qty: 600, unit: g}
+      - {ingredient: egg, qty: 3, note: "fried", optional: true}
+steps:
+  - text: Toss the beef with the oyster sauce, soy, fish sauce, sugar, garlic and pepper and marinate.
+    timer_min: 30
+  - Arrange the lettuce, tomato, onion and cucumber on plates.
+  - Heat the oil in a wok until smoking and sear the beef in a single layer, tossing once, until browned outside and pink inside (2–3 minutes).
+  - Pile the beef onto the salad. Mix the pepper, salt and lime juice in small bowls for dipping.
+serving: With rice and a fried egg on top.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

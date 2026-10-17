@@ -1,0 +1,39 @@
+id: mg-romazava
+title: Romazava
+native_name: {text: Romazava, lang: mg}
+summary: Madagascar's national dish — a gingery beef and greens broth made tingly by brèdes mafana (paracress).
+origin:
+  country: MG
+course: main
+dish_types: [stew, soup]
+authenticity: traditional
+yield: {servings: 5}
+time: {prep_min: 20, cook_min: 90}
+difficulty: 2
+techniques: [sauteing, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: beef-chuck, qty: 700, unit: g, prep: "cut into 3 cm cubes"}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "crushed"}
+      - {ingredient: ginger, qty: 4, unit: cm, prep: "grated"}
+      - {ingredient: tomato, qty: 3, prep: "chopped"}
+      - {ingredient: water, qty: 1.5, unit: l}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: paracress, qty: 1, unit: bunch, alt: [watercress], note: "brèdes mafana; watercress plus a little extra ginger is the usual substitute"}
+      - {ingredient: spinach, qty: 200, unit: g}
+steps:
+  - Brown the beef in the oil. Add the onion, garlic and ginger and cook until soft.
+  - text: Add the tomatoes, water and salt and simmer until the beef is tender.
+    timer_min: 75
+  - text: Add the greens and simmer until wilted and tender.
+    timer_min: 8
+  - Taste for salt; the broth should be clear and gingery.
+serving: Spooned over plenty of white rice, with sakay (chili paste) on the side.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

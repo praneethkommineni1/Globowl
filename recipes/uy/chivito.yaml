@@ -1,0 +1,38 @@
+id: uy-chivito
+title: Chivito
+native_name: {text: Chivito, lang: es}
+summary: Uruguay's towering steak sandwich — thin beef, ham, bacon, melted mozzarella and a fried egg, with lettuce, tomato and mayonnaise.
+origin:
+  country: UY
+course: main
+dish_types: [sandwich]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 20}
+difficulty: 2
+techniques: [pan-frying, grilling]
+ingredient_groups:
+  - items:
+      - {ingredient: beef-steak, qty: 4, note: "thin slices of tenderloin, about 120 g each"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: bacon, qty: 4, unit: slice}
+      - {ingredient: ham, qty: 4, unit: slice}
+      - {ingredient: mozzarella, qty: 4, unit: slice}
+      - {ingredient: egg, qty: 4}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: bread-roll, qty: 4, prep: "split and toasted"}
+      - {ingredient: mayonnaise, qty: 4, unit: tbsp}
+      - {ingredient: lettuce, qty: 4, unit: leaf}
+      - {ingredient: tomato, qty: 1, prep: "sliced"}
+      - {ingredient: green-olives, qty: 8, optional: true}
+steps:
+  - Fry the bacon until crisp. Fry the eggs.
+  - Season the steaks and sear them on a very hot griddle for 1 minute per side. Top each with ham and mozzarella and cover briefly so the cheese melts.
+  - Spread the rolls with mayonnaise and layer lettuce, tomato, the steak stack, bacon and egg. Add olives if you like.
+serving: With fries or Russian salad (ensalada rusa).
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

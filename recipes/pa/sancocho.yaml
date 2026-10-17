@@ -1,0 +1,38 @@
+id: pa-sancocho
+title: Sancocho de Gallina
+native_name: {text: Sancocho panameño, lang: es}
+summary: Panama's national dish — a clear, restorative chicken soup with yam, culantro and oregano.
+origin:
+  country: PA
+course: soup
+dish_types: [soup]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 20, cook_min: 90}
+difficulty: 1
+techniques: [simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: whole-chicken, qty: 1.5, unit: kg, prep: "cut into pieces", note: "a stewing hen is traditional"}
+      - {ingredient: water, qty: 3, unit: l}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "crushed"}
+      - {ingredient: cilantro, qty: 1, unit: bunch, note: "culantro (long-leaf) is traditional"}
+      - {ingredient: dried-oregano, qty: 1, unit: tsp}
+      - {ingredient: salt, qty: 2, unit: tsp}
+      - {ingredient: yam, qty: 1, unit: kg, prep: "peeled and cut into chunks", note: "ñame"}
+      - {ingredient: corn-on-the-cob, qty: 2, prep: "cut into rounds", optional: true}
+steps:
+  - text: Simmer the chicken with the onion, garlic, half the cilantro, oregano and salt, skimming, until tender.
+    timer_min: 60
+  - text: Add the yam (and corn) and simmer until the yam is soft and some has dissolved to thicken the broth.
+    timer_min: 30
+  - Chop the remaining cilantro, stir it in, and season.
+serving: With white rice on the side, added to the bowl as you eat.
+culture: Known as "levanta muertos" (raise the dead) — the cure for a hangover or a cold.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

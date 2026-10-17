@@ -1,0 +1,58 @@
+id: np-momo
+title: Momo
+native_name: {text: मम, lang: ne, romanized: mamah}
+summary: Juicy steamed dumplings filled with spiced minced chicken, served with a fiery roasted tomato and sesame achar.
+origin:
+  country: NP
+course: snack
+dish_types: [dumpling]
+authenticity: home-style
+yield: {servings: 5, amount: about 30 momos}
+time: {prep_min: 60, cook_min: 30, inactive_min: 30}
+difficulty: 4
+equipment: [Steamer]
+techniques: [dough-making, dumpling-folding, steaming, roasting]
+ingredient_groups:
+  - name: Dough
+    items:
+      - {ingredient: all-purpose-flour, qty: 300, unit: g}
+      - {ingredient: water, qty: 150, unit: ml}
+      - {ingredient: salt, qty: 1, unit: pinch}
+  - name: Filling
+    items:
+      - {ingredient: chicken-mince, qty: 400, unit: g, note: "not too lean"}
+      - {ingredient: onion, qty: 1, prep: "very finely chopped"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "minced"}
+      - {ingredient: ginger, qty: 3, unit: cm, prep: "grated"}
+      - {ingredient: scallion, qty: 2, prep: "finely chopped"}
+      - {ingredient: cilantro, qty: 1, unit: handful, prep: "finely chopped"}
+      - {ingredient: ground-cumin, qty: 0.5, unit: tsp}
+      - {ingredient: ground-turmeric, qty: 1, unit: pinch}
+      - {ingredient: sichuan-peppercorn, qty: 0.25, unit: tsp, prep: "ground", note: "Nepali timur"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: butter, qty: 2, unit: tbsp, prep: "melted", alt: [vegetable-oil]}
+  - name: Tomato achar
+    items:
+      - {ingredient: tomato, qty: 3}
+      - {ingredient: sesame-seeds, qty: 2, unit: tbsp, prep: "toasted"}
+      - {ingredient: dried-red-chili, qty: 3}
+      - {ingredient: garlic, qty: 2, unit: clove}
+      - {ingredient: sichuan-peppercorn, qty: 0.25, unit: tsp}
+      - {ingredient: lemon-juice, qty: 1, unit: tbsp}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+steps:
+  - Knead the flour, water and salt into a firm, smooth dough. Cover and rest for 30 minutes.
+  - Mix the filling ingredients well with your hand until sticky.
+  - For the achar, char the tomatoes and chilies in a dry pan or over a flame, then blend with the rest of the achar ingredients.
+  - Roll the dough into a log, cut into 30 pieces and roll each into a thin 8 cm circle, thinner at the edges.
+  - Put a spoonful of filling in the centre and pleat the edges together, twisting to seal at the top.
+  - text: Steam on an oiled steamer tray, not touching, until the wrappers are translucent and the filling is cooked.
+    timer_min: 12
+serving: Hot, with the achar for dipping.
+culture: Brought to Nepal by Newar traders from Tibet, momo is now Nepal's most popular snack, sold everywhere from street stalls to restaurants.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -1,0 +1,59 @@
+id: mm-mohinga
+title: Mohinga
+native_name: {text: မုန့်ဟင်းခါး, lang: my, romanized: mont hin gar}
+summary: Rice noodles in a rich, lemongrass-scented fish broth thickened with toasted chickpea flour — Myanmar's national breakfast.
+origin:
+  country: MM
+course: breakfast
+dish_types: [noodle-soup]
+authenticity: home-style
+yield: {servings: 6}
+time: {prep_min: 30, cook_min: 60}
+difficulty: 3
+techniques: [simmering, sauteing]
+ingredient_groups:
+  - name: Broth
+    items:
+      - {ingredient: white-fish, qty: 500, unit: g, note: "catfish is traditional"}
+      - {ingredient: water, qty: 2, unit: l}
+      - {ingredient: lemongrass, qty: 3, unit: stalk, prep: "bruised"}
+      - {ingredient: ground-turmeric, qty: 1, unit: tsp}
+      - {ingredient: fish-sauce, qty: 3, unit: tbsp}
+  - name: Paste
+    items:
+      - {ingredient: shallot, qty: 6}
+      - {ingredient: garlic, qty: 4, unit: clove}
+      - {ingredient: ginger, qty: 5, unit: cm}
+      - {ingredient: lemongrass, qty: 1, unit: stalk, prep: "tender part only"}
+      - {ingredient: paprika, qty: 1, unit: tsp}
+      - {ingredient: chili-flakes, qty: 0.5, unit: tsp}
+      - {ingredient: vegetable-oil, qty: 4, unit: tbsp}
+  - name: Thickener
+    items:
+      - {ingredient: chickpea-flour, qty: 4, unit: tbsp, prep: "toasted in a dry pan until golden"}
+      - {ingredient: long-grain-rice, qty: 2, unit: tbsp, prep: "toasted and ground"}
+  - name: To serve
+    items:
+      - {ingredient: rice-vermicelli, qty: 400, unit: g, prep: "cooked"}
+      - {ingredient: egg, qty: 3, note: "hard-boiled and halved"}
+      - {ingredient: fried-shallots, qty: 4, unit: tbsp}
+      - {ingredient: cilantro, qty: 1, unit: handful}
+      - {ingredient: lime-juice, note: "wedges, to taste"}
+      - {ingredient: chili-flakes, note: "to taste"}
+steps:
+  - text: Simmer the fish in the water with the bruised lemongrass and turmeric until cooked. Lift out the fish and flake it, discarding bones. Keep the broth.
+    timer_min: 15
+  - Pound or blend the shallots, garlic, ginger and lemongrass to a paste. Fry it in the oil with the paprika and chili until fragrant and the oil separates.
+  - Add the flaked fish to the paste and fry for 5 minutes.
+  - Whisk the toasted chickpea flour and rice powder with a ladle of broth until smooth, then stir it into the broth.
+  - text: Add the fish mixture and fish sauce and simmer, stirring often, until thickened and rich.
+    timer_min: 25
+  - Put noodles in bowls, ladle over the soup and top with egg, fried shallots, cilantro, lime and chili.
+tips:
+  - Slices of banana stem are traditional in the broth if you can find them.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

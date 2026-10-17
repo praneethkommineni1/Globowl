@@ -1,0 +1,39 @@
+id: to-ota-ika
+title: ʻOta ʻIka
+native_name: {text: ʻOta ʻika, lang: to}
+alternate_names: [Tongan raw fish salad]
+summary: Raw fish cured in lime and bathed in plenty of coconut cream with crunchy vegetables and chili.
+origin:
+  country: TO
+course: starter
+dish_types: [raw-fish]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 0, inactive_min: 30}
+difficulty: 1
+techniques: [curing]
+ingredient_groups:
+  - items:
+      - {ingredient: white-fish, qty: 500, unit: g, prep: "cut into 1.5 cm cubes", note: "very fresh tuna or snapper"}
+      - {ingredient: lime-juice, qty: 120, unit: ml}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: coconut-cream, qty: 250, unit: ml}
+      - {ingredient: tomato, qty: 1, prep: "diced"}
+      - {ingredient: cucumber, qty: 0.5, prep: "diced"}
+      - {ingredient: carrot, qty: 1, prep: "grated"}
+      - {ingredient: red-bell-pepper, qty: 0.5, prep: "diced"}
+      - {ingredient: onion, qty: 0.5, prep: "finely diced"}
+      - {ingredient: red-chili, qty: 1, prep: "finely chopped", optional: true}
+steps:
+  - text: Toss the fish with the lime juice and salt, cover and chill until opaque around the edges.
+    timer_min: 30
+  - Drain off most of the juice and mix in the coconut cream and vegetables. Serve cold.
+tips:
+  - Use fish labelled for raw consumption or previously frozen fish.
+serving: With boiled taro, cassava or sweet potato.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -1,0 +1,51 @@
+id: hr-brudet
+title: Brudet
+native_name: {text: Brudet, lang: hr}
+alternate_names: [Dalmatian fish stew]
+summary: Mixed fish slowly simmered in olive oil, onion, tomato and wine — never stirred, only shaken — and served with polenta.
+origin:
+  country: HR
+  region: Dalmatia
+  also_claimed_by: [ME, IT]
+course: main
+dish_types: [stew, seafood]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 50}
+difficulty: 2
+techniques: [stewing]
+ingredient_groups:
+  - name: Brudet
+    items:
+      - {ingredient: olive-oil, qty: 100, unit: ml}
+      - {ingredient: onion, qty: 2, prep: "sliced"}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "sliced"}
+      - {ingredient: tomato-paste, qty: 2, unit: tbsp}
+      - {ingredient: canned-tomatoes, qty: 400, unit: g}
+      - {ingredient: dry-white-wine, qty: 200, unit: ml}
+      - {ingredient: red-wine-vinegar, qty: 1, unit: tbsp}
+      - {ingredient: bay-leaf, qty: 2}
+      - {ingredient: white-fish, qty: 1, unit: kg, note: "mixed steaks — e.g. monkfish, grouper, scorpion fish"}
+      - {ingredient: parsley, qty: 1, unit: handful, prep: "chopped"}
+      - {ingredient: salt, note: "to taste"}
+      - {ingredient: black-pepper, note: "to taste"}
+  - name: Polenta
+    items:
+      - {ingredient: cornmeal, qty: 250, unit: g}
+      - {ingredient: water, qty: 1, unit: l}
+      - {ingredient: salt, qty: 1, unit: tsp}
+steps:
+  - Soften the onions in the oil in a wide pot, add the garlic and tomato paste, then the tomatoes, wine, vinegar and bay.
+  - text: Simmer to a sauce.
+    timer_min: 15
+  - Lay the fish in the sauce in one layer, season and add water to almost cover.
+  - text: Simmer gently with the lid ajar. Don't stir — shake the pot from time to time so nothing sticks or breaks.
+    timer_min: 30
+  - Meanwhile, cook the polenta by whisking the cornmeal into the salted boiling water and stirring over low heat until thick.
+  - Scatter the brudet with parsley and serve with the polenta.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}
