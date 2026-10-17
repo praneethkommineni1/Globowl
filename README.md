@@ -3,9 +3,10 @@
 A structured, credited, diet-aware database of recipes from around the world, built to power
 the Globowl app ("cook your way across the globe").
 
-**Now:** 185 hand-written recipes covering 185 of the 195 sovereign states, plus a pipeline
-for importing CC BY-SA recipes from Wikibooks and a Wikidata-derived list of notable dishes per
-country. See [`dist/coverage.md`](dist/coverage.md).
+**Now:** 270 recipes — 185 hand-written (one per country, covering 185 of the 195 sovereign
+states) and 85 imported from the Wikibooks Cookbook (CC BY-SA). Another 1,764 Wikibooks recipes
+wait in `imports/wikibooks/review/` for missing facts to be filled in. See
+[`dist/coverage.md`](dist/coverage.md) and [`imports/wikibooks/report.md`](imports/wikibooks/report.md).
 
 ## For the app: consume `dist/`
 

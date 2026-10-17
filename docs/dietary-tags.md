@@ -61,6 +61,9 @@ Only `yes` diets appear in the flat `tags` list. Apps should still show `adaptab
 - **Hidden lard.** Products such as canned refried beans are often made with lard. They carry
   `may_contain: [pork, animal-fat]`, so a dish using them is "check labels" for vegetarians,
   not "yes".
+- **Unknown stock cubes.** A generic bouillon cube may or may not be meat-based. It carries
+  `may_contain: [animal-product, …]`, so dishes using it are "check labels" for vegans,
+  vegetarians and pescatarians.
 - **No "halal" or "kosher" tag.** Those depend on certification and preparation (slaughter,
   separation of meat and dairy), not just ingredients. We provide the inputs people use to
   decide (`pork-free`, `alcohol-free`) and don't claim more than we know.

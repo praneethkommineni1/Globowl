@@ -77,6 +77,10 @@ the counts grow.
     `imports/wikibooks/review/` with its issues listed.
   - `imports/wikibooks/report.md` ranks the unmapped ingredients, so the catalog can grow where
     it matters most.
+- **First Wikibooks run (2026-10-17):** of 1,850 pages, 85 were promoted and 1,764 queued.
+  The main blockers are facts missing from the source: about 1,170 pages give no time and
+  about 1,030 give no servings. Filling those in from the review queue is the cheapest way to
+  add recipes.
 - **Wikidata:** `tools/wikidata_dishes.py` writes `data/dish-candidates.yaml`: the best-known
   dishes per country, ranked by how many Wikipedia language editions cover them.
 - **TheMealDB:** not imported (see the licensing doc).
