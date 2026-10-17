@@ -1,7 +1,257 @@
 {
  "schema_version": 1,
- "count": 49,
+ "count": 61,
  "recipes": [
+  {
+   "id": "af-kabuli-palaw",
+   "title": "Kabuli Palaw",
+   "native_name": {
+    "text": "قابلی پلو",
+    "lang": "prs",
+    "romanized": "qābuli palaw"
+   },
+   "summary": "Afghanistan's national dish — lamb buried in spiced basmati rice, crowned with sweet caramelised carrots, raisins and nuts.",
+   "origin": {
+    "country": "AF",
+    "country_name": "Afghanistan",
+    "continent": "Asia",
+    "subregion": "Southern Asia"
+   },
+   "course": "main",
+   "dish_types": [
+    "rice-dish",
+    "pilaf"
+   ],
+   "occasions": [
+    "Weddings",
+    "Eid"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 30,
+    "cook_min": 120,
+    "inactive_min": 30,
+    "total_min": 180
+   },
+   "difficulty": 4,
+   "equipment": [
+    "Heavy ovenproof pot with a lid"
+   ],
+   "techniques": [
+    "braising",
+    "rice-cooking",
+    "pan-frying",
+    "baking"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Lamb and rice",
+     "items": [
+      {
+       "ingredient": "basmati-rice",
+       "qty": 600,
+       "unit": "g",
+       "name": "basmati rice"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 120,
+       "unit": "ml",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "finely chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "lamb-shoulder",
+       "qty": 1,
+       "unit": "kg",
+       "prep": "on the bone, in large pieces",
+       "name": "lamb shoulder"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1.5,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "ground-cumin",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground cumin"
+      },
+      {
+       "ingredient": "ground-cardamom",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground cardamom"
+      },
+      {
+       "ingredient": "garam-masala",
+       "qty": 1,
+       "unit": "tsp",
+       "note": "Afghans use char masala",
+       "name": "garam masala"
+      }
+     ]
+    },
+    {
+     "name": "Topping",
+     "items": [
+      {
+       "ingredient": "carrot",
+       "qty": 3,
+       "prep": "cut into thin matchsticks",
+       "name": "carrot"
+      },
+      {
+       "ingredient": "raisins",
+       "qty": 120,
+       "unit": "g",
+       "name": "raisins"
+      },
+      {
+       "ingredient": "sugar",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "sugar"
+      },
+      {
+       "ingredient": "flaked-almonds",
+       "qty": 50,
+       "unit": "g",
+       "optional": true,
+       "name": "flaked almonds"
+      },
+      {
+       "ingredient": "pistachios",
+       "qty": 30,
+       "unit": "g",
+       "prep": "slivered",
+       "optional": true,
+       "name": "pistachios"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Rinse the rice until the water runs clear, then soak it.",
+     "timer_min": 30
+    },
+    {
+     "text": "Fry the onions in the oil until deep brown — this colours the dish. Add the lamb and brown it all over."
+    },
+    {
+     "text": "Add the water and salt and simmer, covered, until the lamb is tender.",
+     "timer_min": 75
+    },
+    {
+     "text": "Lift out the lamb. Measure 750 ml of the broth (top up with water if needed) and stir in the spices."
+    },
+    {
+     "text": "Meanwhile fry the carrots in 3 tablespoons of oil from the pot until soft, add the sugar and raisins and cook until the raisins plump. Toast the nuts in the same pan. Heat the oven to 160 °C."
+    },
+    {
+     "text": "Parboil the drained rice in salted boiling water for 4 minutes and drain. Put it in the pot with the spiced broth, nestle in the lamb, and cook uncovered over medium heat until the broth is absorbed."
+    },
+    {
+     "text": "Cover tightly and bake (the \"dam\" stage) until the rice is fluffy and separate.",
+     "timer_min": 40
+    },
+    {
+     "text": "Pile the rice on a platter with the lamb, and top with the carrots, raisins and nuts."
+    }
+   ],
+   "serving": "On a large shared platter with salad and yogurt.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "lamb shoulder"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "lamb shoulder"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "lamb shoulder"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "adaptable",
+      "changes": [
+       "omit flaked almonds",
+       "omit pistachios"
+      ]
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [
+      "sulphite"
+     ],
+     "in_optional_ingredients": [
+      "tree-nut"
+     ]
+    }
+   }
+  },
   {
    "id": "ar-chimichurri",
    "title": "Chimichurri",
@@ -169,6 +419,195 @@
      "contains": [],
      "may_contain": [
       "sulphite"
+     ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "at-wiener-schnitzel",
+   "title": "Wiener Schnitzel",
+   "native_name": {
+    "text": "Wiener Schnitzel",
+    "lang": "de-AT"
+   },
+   "summary": "Thin veal cutlets in a puffy, golden breadcrumb coat, fried in plenty of fat and served with lemon.",
+   "origin": {
+    "country": "AT",
+    "region": "Vienna",
+    "country_name": "Austria",
+    "continent": "Europe",
+    "subregion": "Western Europe"
+   },
+   "course": "main",
+   "dish_types": [
+    "cutlet"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 15,
+    "total_min": 30
+   },
+   "difficulty": 2,
+   "techniques": [
+    "pan-frying"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "veal-cutlet",
+       "qty": 4,
+       "note": "about 140 g each, from the leg",
+       "name": "veal cutlet"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "all-purpose-flour",
+       "qty": 60,
+       "unit": "g",
+       "name": "all-purpose flour"
+      },
+      {
+       "ingredient": "egg",
+       "qty": 2,
+       "prep": "beaten with 1 tbsp milk or cream",
+       "name": "egg"
+      },
+      {
+       "ingredient": "breadcrumbs",
+       "qty": 120,
+       "unit": "g",
+       "note": "fine and dry",
+       "name": "breadcrumbs"
+      },
+      {
+       "ingredient": "lard",
+       "qty": 300,
+       "unit": "g",
+       "note": "or clarified butter or vegetable oil",
+       "alt": [
+        "vegetable-oil"
+       ],
+       "name": "lard"
+      },
+      {
+       "ingredient": "lemon",
+       "qty": 1,
+       "prep": "cut into wedges",
+       "name": "lemon"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Place each cutlet between sheets of plastic wrap and pound evenly to about 4 mm thick. Season with salt."
+    },
+    {
+     "text": "Dredge in flour, dip in the egg, then lay in the breadcrumbs and coat lightly without pressing (pressing stops the crust puffing)."
+    },
+    {
+     "text": "Heat the fat in a large frying pan to about 170 °C — it should be at least 1.5 cm deep."
+    },
+    {
+     "text": "Fry the schnitzels one or two at a time, swirling the pan so hot fat washes over the top, until the crust puffs and turns golden (2–3 minutes per side)."
+    },
+    {
+     "text": "Drain on paper and serve immediately with lemon."
+    }
+   ],
+   "serving": "With Viennese potato salad or parsley potatoes and lingonberry jam.",
+   "culture": "In Austria, \"Wiener Schnitzel\" must by law be made with veal; pork versions are called \"Schnitzel Wiener Art\".",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "nut-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "egg",
+       "veal cutlet"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "veal cutlet"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "veal cutlet"
+      ]
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "all-purpose flour",
+       "breadcrumbs"
+      ]
+     },
+     "dairy-free": {
+      "status": "check-labels",
+      "check": [
+       "breadcrumbs"
+      ]
+     },
+     "egg-free": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "adaptable",
+      "changes": [
+       "use vegetable oil instead of lard"
+      ]
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "egg",
+      "gluten"
+     ],
+     "may_contain": [
+      "milk",
+      "sesame",
+      "soy"
      ],
      "in_optional_ingredients": []
     }
@@ -349,6 +788,177 @@
      "contains": [
       "gluten",
       "milk"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "bd-begun-bhorta",
+   "title": "Begun Bhorta",
+   "native_name": {
+    "text": "বেগুন ভর্তা",
+    "lang": "bn",
+    "romanized": "begun bhôrta"
+   },
+   "alternate_names": [
+    "Smoky mashed eggplant"
+   ],
+   "summary": "Fire-charred eggplant mashed with pungent mustard oil, raw onion, green chili and cilantro — a smoky Bengali side for rice.",
+   "origin": {
+    "country": "BD",
+    "also_claimed_by": [
+     "IN"
+    ],
+    "country_name": "Bangladesh",
+    "continent": "Asia",
+    "subregion": "Southern Asia"
+   },
+   "course": "side",
+   "dish_types": [
+    "mash",
+    "vegetables"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 10,
+    "cook_min": 20,
+    "total_min": 30
+   },
+   "difficulty": 1,
+   "techniques": [
+    "roasting"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "eggplant",
+       "qty": 2,
+       "note": "large (about 600 g)",
+       "name": "eggplant"
+      },
+      {
+       "ingredient": "mustard-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "mustard oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 0.5,
+       "prep": "very finely chopped",
+       "note": "or 2 shallots",
+       "name": "onion"
+      },
+      {
+       "ingredient": "green-chili",
+       "qty": 2,
+       "prep": "finely chopped",
+       "name": "fresh green chili"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 2,
+       "unit": "clove",
+       "prep": "charred with the eggplant",
+       "optional": true,
+       "name": "garlic"
+      },
+      {
+       "ingredient": "cilantro",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "name": "cilantro"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.75,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Rub the eggplants with a little mustard oil and char them directly over a gas flame, on a grill or under a hot broiler, turning, until the skin is black and the flesh has collapsed.",
+     "timer_min": 20
+    },
+    {
+     "text": "Let them cool slightly, then peel off the skin and discard the stem. Mash the flesh with a fork or your hand."
+    },
+    {
+     "text": "Mash in the remaining mustard oil, onion, chili, garlic, cilantro and salt. Taste — it should be smoky, sharp and salty."
+    }
+   ],
+   "tips": [
+    "Raw mustard oil is the defining flavour; there is no real substitute."
+   ],
+   "serving": "Hot rice, dal and a selection of other bhortas (mashes) — a classic Bengali lunch.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegan",
+     "vegetarian",
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "yes"
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "mustard"
      ],
      "may_contain": [],
      "in_optional_ingredients": []
@@ -781,6 +1391,168 @@
      "may_contain": [
       "celery"
      ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "ch-rosti",
+   "title": "Rösti",
+   "native_name": {
+    "text": "Rösti",
+    "lang": "de-CH"
+   },
+   "summary": "A thick, golden potato cake made from coarsely grated parboiled potatoes fried slowly in butter until crisp on both sides.",
+   "origin": {
+    "country": "CH",
+    "region": "Bern",
+    "country_name": "Switzerland",
+    "continent": "Europe",
+    "subregion": "Western Europe"
+   },
+   "course": "side",
+   "dish_types": [
+    "potato"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 10,
+    "cook_min": 40,
+    "inactive_min": 720,
+    "total_min": 770
+   },
+   "difficulty": 2,
+   "equipment": [
+    "Box grater",
+    "24 cm non-stick or cast-iron pan"
+   ],
+   "techniques": [
+    "boiling",
+    "pan-frying"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "potato",
+       "qty": 800,
+       "unit": "g",
+       "note": "waxy, unpeeled",
+       "name": "potato"
+      },
+      {
+       "ingredient": "butter",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "butter"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Boil the potatoes in their skins until just tender at the edges but firm in the centre. Cool and refrigerate overnight.",
+     "timer_min": 15
+    },
+    {
+     "text": "Peel and coarsely grate the cold potatoes. Toss with the salt."
+    },
+    {
+     "text": "Heat half the butter and oil in the pan over medium heat. Add the potatoes and press lightly into a thick cake."
+    },
+    {
+     "text": "Cook without stirring until a golden crust forms underneath, shaking the pan now and then.",
+     "timer_min": 12
+    },
+    {
+     "text": "Slide the rösti onto a plate, invert another plate on top and flip. Add the rest of the fat to the pan and slide the rösti back in, uncooked side down."
+    },
+    {
+     "text": "Cook until crisp and golden.",
+     "timer_min": 12
+    }
+   ],
+   "serving": "As a side for Zürcher Geschnetzeltes (veal in cream sauce), or topped with a fried egg or melted cheese.",
+   "culture": "The \"Röstigraben\" (rösti ditch) is the jokey name for the cultural border between German- and French-speaking Switzerland.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegetarian",
+     "pescatarian",
+     "gluten-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "butter"
+      ]
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "butter"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "milk"
+     ],
+     "may_contain": [],
      "in_optional_ingredients": []
     }
    }
@@ -1220,6 +1992,231 @@
    }
   },
   {
+   "id": "co-ajiaco",
+   "title": "Ajiaco",
+   "native_name": {
+    "text": "Ajiaco santafereño",
+    "lang": "es"
+   },
+   "summary": "Bogotá's chicken and three-potato soup, thickened by melting yellow potatoes and scented with the herb guascas, served with cream, capers and avocado.",
+   "origin": {
+    "country": "CO",
+    "region": "Bogotá",
+    "country_name": "Colombia",
+    "continent": "Americas",
+    "subregion": "South America"
+   },
+   "course": "soup",
+   "dish_types": [
+    "soup"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 90,
+    "total_min": 110
+   },
+   "difficulty": 2,
+   "techniques": [
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Soup",
+     "items": [
+      {
+       "ingredient": "chicken-breast",
+       "qty": 1,
+       "unit": "kg",
+       "note": "bone-in",
+       "name": "chicken breast"
+      },
+      {
+       "ingredient": "water",
+       "qty": 3,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "scallion",
+       "qty": 2,
+       "name": "scallion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 2,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "cilantro",
+       "qty": 1,
+       "unit": "bunch",
+       "note": "tied with string",
+       "name": "cilantro"
+      },
+      {
+       "ingredient": "potato",
+       "qty": 1,
+       "unit": "kg",
+       "prep": "peeled and sliced",
+       "note": "half floury, half waxy (sabanera and pastusa)",
+       "name": "potato"
+      },
+      {
+       "ingredient": "yellow-potato",
+       "qty": 500,
+       "unit": "g",
+       "prep": "peeled",
+       "note": "papa criolla; or small Yukon Gold",
+       "name": "yellow potato"
+      },
+      {
+       "ingredient": "corn-on-the-cob",
+       "qty": 3,
+       "prep": "cut into thirds",
+       "name": "corn on the cob"
+      },
+      {
+       "ingredient": "guascas",
+       "qty": 2,
+       "unit": "tbsp",
+       "note": "dried; it gives ajiaco its signature flavour",
+       "name": "guascas"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "To serve",
+     "items": [
+      {
+       "ingredient": "heavy-cream",
+       "qty": 150,
+       "unit": "ml",
+       "name": "heavy cream"
+      },
+      {
+       "ingredient": "capers",
+       "qty": 4,
+       "unit": "tbsp",
+       "name": "capers"
+      },
+      {
+       "ingredient": "avocado",
+       "qty": 2,
+       "prep": "sliced",
+       "name": "avocado"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Simmer the chicken in the water with the scallions, garlic and cilantro bunch until cooked.",
+     "timer_min": 40
+    },
+    {
+     "text": "Lift out the chicken, shred the meat and discard skin and bones. Discard the scallions and cilantro."
+    },
+    {
+     "text": "Add the sliced potatoes and the corn to the broth and simmer until the floury potatoes start to fall apart.",
+     "timer_min": 30
+    },
+    {
+     "text": "Add the papas criollas and guascas and simmer, stirring occasionally, until the criollas dissolve and thicken the soup.",
+     "timer_min": 20
+    },
+    {
+     "text": "Return the chicken, season with salt and heat through."
+    },
+    {
+     "text": "Serve in bowls with a piece of corn in each, and cream, capers and avocado for everyone to add at the table."
+    }
+   ],
+   "serving": "With white rice and avocado on the side.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "chicken breast",
+       "heavy cream"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "chicken breast"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "chicken breast"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "heavy cream"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "milk"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "cu-frijoles-negros",
    "title": "Cuban Black Beans",
    "native_name": {
@@ -1641,6 +2638,186 @@
      "contains": [
       "egg",
       "gluten",
+      "milk"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "do-mangu",
+   "title": "Mangú",
+   "native_name": {
+    "text": "Mangú",
+    "lang": "es"
+   },
+   "summary": "Silky mashed green plantains topped with tangy vinegar-softened red onions — the Dominican breakfast.",
+   "origin": {
+    "country": "DO",
+    "country_name": "Dominican Republic",
+    "continent": "Americas",
+    "subregion": "Caribbean"
+   },
+   "course": "breakfast",
+   "dish_types": [
+    "mash"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 10,
+    "cook_min": 25,
+    "total_min": 35
+   },
+   "difficulty": 1,
+   "techniques": [
+    "boiling",
+    "sauteing"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Onions",
+     "items": [
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "red-onion",
+       "qty": 2,
+       "prep": "sliced into rings",
+       "name": "red onion"
+      },
+      {
+       "ingredient": "white-vinegar",
+       "qty": 60,
+       "unit": "ml",
+       "name": "white vinegar"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "pinch",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "Mangú",
+     "items": [
+      {
+       "ingredient": "green-plantain",
+       "qty": 4,
+       "prep": "peeled and cut into chunks",
+       "name": "green plantain"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "butter",
+       "qty": 3,
+       "unit": "tbsp",
+       "alt": [
+        "vegetable-oil"
+       ],
+       "name": "butter"
+      },
+      {
+       "ingredient": "water",
+       "qty": 250,
+       "unit": "ml",
+       "note": "ice-cold",
+       "name": "water"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Boil the plantains in salted water until very tender.",
+     "timer_min": 20
+    },
+    {
+     "text": "Meanwhile, cook the onions in the oil over medium heat for 2 minutes, add the vinegar and salt and simmer until just soft and pink."
+    },
+    {
+     "text": "Drain the plantains and immediately mash them with the butter, adding cold water a little at a time until smooth and creamy."
+    },
+    {
+     "text": "Serve the mangú topped with the onions."
+    }
+   ],
+   "serving": "As \"los tres golpes\" (the three hits) — with fried Dominican salami, fried cheese and fried eggs.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegetarian",
+     "pescatarian",
+     "gluten-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "adaptable",
+      "changes": [
+       "use vegetable oil instead of butter"
+      ]
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "adaptable",
+      "changes": [
+       "use vegetable oil instead of butter"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
       "milk"
      ],
      "may_contain": [],
@@ -2936,6 +4113,213 @@
    }
   },
   {
+   "id": "ge-lobio",
+   "title": "Lobio",
+   "native_name": {
+    "text": "ლობიო",
+    "lang": "ka",
+    "romanized": "lobio"
+   },
+   "summary": "Red kidney beans stewed until creamy and seasoned Georgian-style with onion, garlic, cilantro, coriander and khmeli suneli.",
+   "origin": {
+    "country": "GE",
+    "country_name": "Georgia",
+    "continent": "Asia",
+    "subregion": "Western Asia"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew",
+    "beans"
+   ],
+   "occasions": [
+    "Lent"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 90,
+    "inactive_min": 720,
+    "total_min": 825
+   },
+   "difficulty": 1,
+   "techniques": [
+    "simmering",
+    "sauteing"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "dried-red-kidney-beans",
+       "qty": 500,
+       "unit": "g",
+       "note": "soaked overnight",
+       "name": "dried red kidney beans"
+      },
+      {
+       "ingredient": "water",
+       "qty": 2,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "sunflower-oil",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "sunflower oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "finely chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "ground-coriander",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground coriander"
+      },
+      {
+       "ingredient": "khmeli-suneli",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "khmeli suneli"
+      },
+      {
+       "ingredient": "chili-flakes",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "chili flakes"
+      },
+      {
+       "ingredient": "walnuts",
+       "qty": 50,
+       "unit": "g",
+       "prep": "finely ground",
+       "optional": true,
+       "name": "walnuts"
+      },
+      {
+       "ingredient": "red-wine-vinegar",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "red wine vinegar"
+      },
+      {
+       "ingredient": "cilantro",
+       "qty": 1,
+       "unit": "bunch",
+       "prep": "chopped",
+       "name": "cilantro"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Drain the soaked beans, cover with fresh water and boil hard for 10 minutes, then simmer until very soft.",
+     "timer_min": 80
+    },
+    {
+     "text": "Meanwhile fry the onions in the oil until golden."
+    },
+    {
+     "text": "Mash about half of the beans in their pot with a potato masher, keeping the rest whole. It should be thick but loose; add water if needed."
+    },
+    {
+     "text": "Stir in the onions, garlic, spices, walnuts, vinegar and most of the cilantro. Season with salt and simmer 10 minutes."
+    },
+    {
+     "text": "Finish with the remaining cilantro."
+    }
+   ],
+   "serving": "Hot in a clay pot (lobio kotanshi) with mchadi (corn bread), pickled vegetables and fresh herbs.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegan",
+     "vegetarian",
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "yes"
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "adaptable",
+      "changes": [
+       "omit walnuts"
+      ]
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [
+      "sulphite"
+     ],
+     "in_optional_ingredients": [
+      "tree-nut"
+     ]
+    }
+   }
+  },
+  {
    "id": "gh-red-red",
    "title": "Red-Red",
    "summary": "Black-eyed peas stewed in red palm oil with tomato and chili, served with sweet fried ripe plantain.",
@@ -3356,6 +4740,296 @@
      ],
      "may_contain": [],
      "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "ht-soup-joumou",
+   "title": "Soup Joumou",
+   "native_name": {
+    "text": "Soup joumou",
+    "lang": "ht"
+   },
+   "alternate_names": [
+    "Haitian pumpkin soup",
+    "Freedom soup"
+   ],
+   "summary": "A rich squash soup with beef, vegetables and pasta, eaten by Haitians every 1 January to celebrate independence.",
+   "origin": {
+    "country": "HT",
+    "country_name": "Haiti",
+    "continent": "Americas",
+    "subregion": "Caribbean"
+   },
+   "course": "soup",
+   "dish_types": [
+    "soup"
+   ],
+   "occasions": [
+    "Haitian Independence Day (1 January)"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 8
+   },
+   "time": {
+    "prep_min": 30,
+    "cook_min": 150,
+    "inactive_min": 60,
+    "total_min": 240
+   },
+   "difficulty": 3,
+   "equipment": [
+    "Blender",
+    "Large soup pot"
+   ],
+   "techniques": [
+    "marinating",
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Epis (seasoning base)",
+     "items": [
+      {
+       "ingredient": "parsley",
+       "qty": 1,
+       "unit": "handful",
+       "name": "flat-leaf parsley"
+      },
+      {
+       "ingredient": "scallion",
+       "qty": 3,
+       "name": "scallion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 6,
+       "unit": "clove",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "green-pepper",
+       "qty": 0.5,
+       "name": "green pepper"
+      },
+      {
+       "ingredient": "thyme",
+       "qty": 4,
+       "unit": "sprig",
+       "prep": "leaves only",
+       "name": "thyme"
+      },
+      {
+       "ingredient": "lime-juice",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "lime juice"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      }
+     ]
+    },
+    {
+     "name": "Soup",
+     "items": [
+      {
+       "ingredient": "beef-chuck",
+       "qty": 700,
+       "unit": "g",
+       "prep": "cut into 3 cm pieces",
+       "name": "beef chuck"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 2,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "water",
+       "qty": 3,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "butternut-squash",
+       "qty": 1,
+       "unit": "kg",
+       "prep": "peeled and cubed",
+       "note": "or Caribbean calabaza (joumou)",
+       "name": "butternut squash"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "celery",
+       "qty": 1,
+       "unit": "stalk",
+       "prep": "sliced",
+       "name": "celery"
+      },
+      {
+       "ingredient": "carrot",
+       "qty": 2,
+       "prep": "sliced",
+       "name": "carrot"
+      },
+      {
+       "ingredient": "potato",
+       "qty": 2,
+       "prep": "cubed",
+       "name": "potato"
+      },
+      {
+       "ingredient": "white-cabbage",
+       "qty": 250,
+       "unit": "g",
+       "prep": "shredded",
+       "name": "white cabbage"
+      },
+      {
+       "ingredient": "whole-cloves",
+       "qty": 3,
+       "name": "whole cloves"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 1,
+       "note": "whole — don't burst it",
+       "name": "Scotch bonnet chili"
+      },
+      {
+       "ingredient": "rigatoni",
+       "qty": 150,
+       "unit": "g",
+       "name": "rigatoni"
+      },
+      {
+       "ingredient": "butter",
+       "qty": 2,
+       "unit": "tbsp",
+       "optional": true,
+       "name": "butter"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Blend the epis ingredients to a coarse paste."
+    },
+    {
+     "text": "Toss the beef with half the epis and 1 teaspoon salt and marinate.",
+     "timer_min": 60
+    },
+    {
+     "text": "Put the beef and 1 litre of water in the pot and simmer, covered, until the beef is nearly tender.",
+     "timer_min": 60
+    },
+    {
+     "text": "Meanwhile simmer the squash in 1 litre of water until soft, then blend it with its cooking water until smooth.",
+     "timer_min": 20
+    },
+    {
+     "text": "Add the squash purée, the remaining water and epis, onion, celery, carrot, potato, cabbage, cloves and Scotch bonnet to the beef."
+    },
+    {
+     "text": "Simmer until all the vegetables are tender.",
+     "timer_min": 40
+    },
+    {
+     "text": "Add the pasta and cook until tender, adding water if the soup is too thick. Remove the Scotch bonnet, season with salt and stir in the butter.",
+     "timer_min": 15
+    }
+   ],
+   "culture": "Under French colonial rule, enslaved Haitians grew squash but were forbidden to eat this soup. After independence on 1 January 1804, eating soup joumou became a celebration of freedom. It was inscribed on UNESCO's Intangible Cultural Heritage list in 2021.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "rigatoni"
+      ]
+     },
+     "dairy-free": {
+      "status": "adaptable",
+      "changes": [
+       "omit butter"
+      ]
+     },
+     "egg-free": {
+      "status": "check-labels",
+      "check": [
+       "rigatoni"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "celery",
+      "gluten"
+     ],
+     "may_contain": [
+      "egg"
+     ],
+     "in_optional_ingredients": [
+      "milk"
+     ]
     }
    }
   },
@@ -7054,6 +8728,205 @@
    }
   },
   {
+   "id": "nl-boerenkool-stamppot",
+   "title": "Boerenkool Stamppot",
+   "native_name": {
+    "text": "Boerenkoolstamppot",
+    "lang": "nl"
+   },
+   "alternate_names": [
+    "Kale and potato mash"
+   ],
+   "summary": "Buttery mashed potatoes with finely chopped kale, served with a smoked sausage — Dutch winter comfort food.",
+   "origin": {
+    "country": "NL",
+    "country_name": "Netherlands",
+    "continent": "Europe",
+    "subregion": "Western Europe"
+   },
+   "course": "main",
+   "dish_types": [
+    "mash"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 30,
+    "total_min": 45
+   },
+   "difficulty": 1,
+   "techniques": [
+    "boiling"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "potato",
+       "qty": 1,
+       "unit": "kg",
+       "prep": "peeled and quartered",
+       "note": "floury",
+       "name": "potato"
+      },
+      {
+       "ingredient": "kale",
+       "qty": 500,
+       "unit": "g",
+       "prep": "stems removed and very finely chopped",
+       "name": "kale"
+      },
+      {
+       "ingredient": "smoked-sausage",
+       "qty": 1,
+       "note": "Dutch rookworst (about 275 g)",
+       "name": "smoked sausage"
+      },
+      {
+       "ingredient": "milk",
+       "qty": 150,
+       "unit": "ml",
+       "prep": "warmed",
+       "name": "milk"
+      },
+      {
+       "ingredient": "butter",
+       "qty": 50,
+       "unit": "g",
+       "name": "butter"
+      },
+      {
+       "ingredient": "nutmeg",
+       "qty": 1,
+       "unit": "pinch",
+       "name": "nutmeg"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      },
+      {
+       "ingredient": "black-pepper",
+       "note": "to taste",
+       "name": "ground black pepper"
+      },
+      {
+       "ingredient": "dijon-mustard",
+       "note": "to serve",
+       "optional": true,
+       "name": "Dijon mustard"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Put the potatoes in a pot with salted water to just cover, and lay the kale on top. Bring to a boil."
+    },
+    {
+     "text": "Cover and simmer until the potatoes are soft. Heat the sausage in a pan of hot (not boiling) water at the same time.",
+     "timer_min": 20
+    },
+    {
+     "text": "Drain the potatoes and kale well, then mash them together with the butter and enough warm milk to make a coarse, fluffy mash."
+    },
+    {
+     "text": "Season with nutmeg, salt and pepper. Serve with the sliced sausage."
+    }
+   ],
+   "tips": [
+    "Make a hollow in each portion for a pool of gravy (a \"kuiltje jus\")."
+   ],
+   "serving": "With mustard and gravy.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "egg-free",
+     "nut-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "butter",
+       "milk",
+       "smoked sausage"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "smoked sausage"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "smoked sausage"
+      ]
+     },
+     "gluten-free": {
+      "status": "check-labels",
+      "check": [
+       "smoked sausage"
+      ]
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "butter",
+       "milk"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "no",
+      "because": [
+       "smoked sausage"
+      ]
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "milk"
+     ],
+     "may_contain": [
+      "gluten",
+      "sulphite"
+     ],
+     "in_optional_ingredients": [
+      "mustard"
+     ]
+    }
+   }
+  },
+  {
    "id": "nz-pavlova",
    "title": "Pavlova",
    "summary": "A meringue with a crisp shell and soft marshmallow centre, piled with whipped cream and fresh fruit.",
@@ -7663,6 +9536,251 @@
    }
   },
   {
+   "id": "pk-chicken-karahi",
+   "title": "Chicken Karahi",
+   "native_name": {
+    "text": "چکن کڑاہی",
+    "lang": "ur",
+    "romanized": "chicken karāhī"
+   },
+   "summary": "Chicken cooked fast and hot in a wok-like karahi with fresh tomatoes, ginger, garlic and green chilies until the sauce clings.",
+   "origin": {
+    "country": "PK",
+    "region": "Khyber Pakhtunkhwa and Punjab",
+    "also_claimed_by": [
+     "IN"
+    ],
+    "country_name": "Pakistan",
+    "continent": "Asia",
+    "subregion": "Southern Asia"
+   },
+   "course": "main",
+   "dish_types": [
+    "curry"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 35,
+    "total_min": 50
+   },
+   "difficulty": 2,
+   "equipment": [
+    "Karahi or wok"
+   ],
+   "techniques": [
+    "pan-frying",
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 80,
+       "unit": "ml",
+       "alt": [
+        "ghee"
+       ],
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "chicken-thigh",
+       "qty": 1,
+       "unit": "kg",
+       "prep": "bone-in, cut into small pieces",
+       "name": "chicken thigh"
+      },
+      {
+       "ingredient": "ginger",
+       "qty": 5,
+       "unit": "cm",
+       "note": "half grated, half cut into thin matchsticks",
+       "name": "fresh ginger"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 6,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 500,
+       "unit": "g",
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "kashmiri-chili-powder",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "Kashmiri chili powder"
+      },
+      {
+       "ingredient": "chili-flakes",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "chili flakes"
+      },
+      {
+       "ingredient": "ground-coriander",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground coriander"
+      },
+      {
+       "ingredient": "cumin-seeds",
+       "qty": 1,
+       "unit": "tsp",
+       "prep": "toasted and crushed",
+       "name": "cumin seeds"
+      },
+      {
+       "ingredient": "black-pepper",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground black pepper"
+      },
+      {
+       "ingredient": "yogurt",
+       "qty": 3,
+       "unit": "tbsp",
+       "optional": true,
+       "name": "plain yogurt"
+      },
+      {
+       "ingredient": "green-chili",
+       "qty": [
+        4,
+        6
+       ],
+       "prep": "slit",
+       "name": "fresh green chili"
+      },
+      {
+       "ingredient": "garam-masala",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "garam masala"
+      },
+      {
+       "ingredient": "cilantro",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "name": "cilantro"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Heat the oil in the karahi over high heat. Add the chicken and fry, turning, until it loses its raw colour (5 minutes)."
+    },
+    {
+     "text": "Add the grated ginger, garlic and salt and fry for 2 minutes."
+    },
+    {
+     "text": "Add the tomatoes, cover, and cook over medium-high heat until they have completely broken down. Remove any loose tomato skins.",
+     "timer_min": 10
+    },
+    {
+     "text": "Uncover, add the chili powder, chili flakes, coriander, cumin and pepper, and stir-fry over high heat — pressing and turning — until the oil separates from a thick masala that coats the chicken.",
+     "timer_min": 12
+    },
+    {
+     "text": "Stir in the yogurt if using and cook 2 minutes. Add the green chilies, ginger matchsticks and garam masala and toss for 1 minute."
+    },
+    {
+     "text": "Finish with cilantro and serve from the karahi."
+    }
+   ],
+   "serving": "With naan or roti, sliced onion and lemon.",
+   "culture": "Named after the cast-iron pan it's cooked and served in; roadside karahi restaurants on the Grand Trunk Road are famous for it.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "adaptable",
+      "changes": [
+       "omit plain yogurt"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": [
+      "milk"
+     ]
+    }
+   }
+  },
+  {
    "id": "pl-pierogi-ruskie",
    "title": "Pierogi Ruskie",
    "native_name": {
@@ -8097,6 +10215,219 @@
       "gluten",
       "sulphite"
      ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "ru-blini",
+   "title": "Blini",
+   "native_name": {
+    "text": "Блины",
+    "lang": "ru",
+    "romanized": "bliny"
+   },
+   "summary": "Thin, lacy pancakes brushed with butter and stacked high, served with sour cream, jam or caviar.",
+   "origin": {
+    "country": "RU",
+    "also_claimed_by": [
+     "UA",
+     "BY"
+    ],
+    "country_name": "Russia",
+    "continent": "Europe",
+    "subregion": "Eastern Europe"
+   },
+   "course": "breakfast",
+   "dish_types": [
+    "pancake"
+   ],
+   "occasions": [
+    "Maslenitsa"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 4,
+    "amount": "about 15 blini"
+   },
+   "time": {
+    "prep_min": 10,
+    "cook_min": 30,
+    "inactive_min": 30,
+    "total_min": 70
+   },
+   "difficulty": 2,
+   "equipment": [
+    "24 cm frying pan or crêpe pan"
+   ],
+   "techniques": [
+    "whisking",
+    "pan-frying"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "milk",
+       "qty": 500,
+       "unit": "ml",
+       "name": "milk"
+      },
+      {
+       "ingredient": "egg",
+       "qty": 2,
+       "name": "egg"
+      },
+      {
+       "ingredient": "sugar",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "sugar"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "all-purpose-flour",
+       "qty": 250,
+       "unit": "g",
+       "name": "all-purpose flour"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "butter",
+       "qty": 50,
+       "unit": "g",
+       "prep": "melted",
+       "note": "for brushing",
+       "name": "butter"
+      }
+     ]
+    },
+    {
+     "name": "To serve",
+     "items": [
+      {
+       "ingredient": "sour-cream",
+       "qty": 200,
+       "unit": "ml",
+       "optional": true,
+       "name": "sour cream"
+      },
+      {
+       "ingredient": "strawberry-jam",
+       "qty": 4,
+       "unit": "tbsp",
+       "optional": true,
+       "name": "strawberry jam"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Whisk the eggs, sugar and salt, then whisk in half the milk."
+    },
+    {
+     "text": "Add the flour and whisk to a thick, smooth batter, then whisk in the remaining milk and the oil."
+    },
+    {
+     "text": "Rest the batter.",
+     "timer_min": 30
+    },
+    {
+     "text": "Heat the lightly greased pan over medium-high heat. Pour in a small ladle of batter and swirl to coat the pan thinly."
+    },
+    {
+     "text": "Cook until the edges are lacy and golden underneath (about 1 minute), flip and cook 30 seconds more."
+    },
+    {
+     "text": "Stack the blini, brushing each with melted butter."
+    }
+   ],
+   "serving": "Folded into quarters, with smetana (sour cream), jam, honey, or salmon roe.",
+   "culture": "Round, golden blini symbolise the sun at Maslenitsa, the week-long festival that ends winter before Orthodox Lent.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegetarian",
+     "pescatarian",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "butter",
+       "egg",
+       "milk"
+      ]
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "all-purpose flour"
+      ]
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "butter",
+       "milk"
+      ]
+     },
+     "egg-free": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "egg",
+      "gluten",
+      "milk"
+     ],
+     "may_contain": [],
      "in_optional_ingredients": []
     }
    }
@@ -8583,6 +10914,277 @@
       "gluten",
       "milk",
       "soy",
+      "sulphite"
+     ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "so-bariis-iskukaris",
+   "title": "Bariis Iskukaris",
+   "native_name": {
+    "text": "Bariis iskukaris",
+    "lang": "so"
+   },
+   "alternate_names": [
+    "Somali spiced rice"
+   ],
+   "summary": "Basmati rice cooked with tender lamb, tomato and xawaash — Somalia's warm, cardamom-and-cinnamon spice blend.",
+   "origin": {
+    "country": "SO",
+    "country_name": "Somalia",
+    "continent": "Africa",
+    "subregion": "Eastern Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "rice-dish",
+    "one-pot"
+   ],
+   "occasions": [
+    "Eid",
+    "Weddings"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 5
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 75,
+    "inactive_min": 20,
+    "total_min": 110
+   },
+   "difficulty": 3,
+   "techniques": [
+    "braising",
+    "rice-cooking"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Xawaash",
+     "items": [
+      {
+       "ingredient": "ground-cumin",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground cumin"
+      },
+      {
+       "ingredient": "ground-coriander",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground coriander"
+      },
+      {
+       "ingredient": "ground-cardamom",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground cardamom"
+      },
+      {
+       "ingredient": "black-pepper",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground black pepper"
+      },
+      {
+       "ingredient": "ground-turmeric",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground turmeric"
+      }
+     ]
+    },
+    {
+     "name": "Rice",
+     "items": [
+      {
+       "ingredient": "basmati-rice",
+       "qty": 500,
+       "unit": "g",
+       "name": "basmati rice"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "lamb-shoulder",
+       "qty": 600,
+       "unit": "g",
+       "prep": "cut into 3 cm pieces",
+       "note": "or goat; chicken also works",
+       "name": "lamb shoulder"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "sliced",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "tomato-paste",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "tomato paste"
+      },
+      {
+       "ingredient": "cinnamon-stick",
+       "qty": 1,
+       "name": "cinnamon stick"
+      },
+      {
+       "ingredient": "whole-cloves",
+       "qty": 3,
+       "name": "whole cloves"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1.2,
+       "unit": "l",
+       "note": "for the meat, then the rice",
+       "name": "water"
+      },
+      {
+       "ingredient": "raisins",
+       "qty": 40,
+       "unit": "g",
+       "optional": true,
+       "name": "raisins"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 2,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "To serve",
+     "items": [
+      {
+       "ingredient": "banana",
+       "qty": 4,
+       "note": "eaten alongside",
+       "name": "banana"
+      },
+      {
+       "ingredient": "green-chili",
+       "qty": 2,
+       "note": "blended with lime and cilantro as basbaas",
+       "optional": true,
+       "name": "fresh green chili"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Rinse the rice and soak it in cold water.",
+     "timer_min": 20
+    },
+    {
+     "text": "Brown the lamb in the oil in a heavy pot. Add the onion and cook until golden, then the garlic, tomato, paste, xawaash, cinnamon and cloves. Fry for 2 minutes."
+    },
+    {
+     "text": "Add 500 ml water and 1 teaspoon salt, cover and simmer until the lamb is tender.",
+     "timer_min": 45
+    },
+    {
+     "text": "Drain the rice and add it with the raisins, 700 ml water and the rest of the salt. The liquid should sit about 1 cm above the rice."
+    },
+    {
+     "text": "Bring to a boil, then cover tightly and cook on the lowest heat until the rice is tender.",
+     "timer_min": 20
+    },
+    {
+     "text": "Rest 5 minutes, then fluff and serve."
+    }
+   ],
+   "serving": "Traditionally eaten with a banana on the side and a spicy green chili sauce (basbaas).",
+   "culture": "Bananas with rice are a legacy of Somalia's agricultural south; the spice trade along the Somali coast shaped xawaash.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "lamb shoulder"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "lamb shoulder"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "lamb shoulder"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [
       "sulphite"
      ],
      "in_optional_ingredients": []

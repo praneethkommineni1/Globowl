@@ -1,0 +1,40 @@
+id: nl-boerenkool-stamppot
+title: Boerenkool Stamppot
+native_name: {text: Boerenkoolstamppot, lang: nl}
+alternate_names: [Kale and potato mash]
+summary: Buttery mashed potatoes with finely chopped kale, served with a smoked sausage — Dutch winter comfort food.
+origin:
+  country: NL
+course: main
+dish_types: [mash]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 30}
+difficulty: 1
+techniques: [boiling]
+ingredient_groups:
+  - items:
+      - {ingredient: potato, qty: 1, unit: kg, prep: "peeled and quartered", note: "floury"}
+      - {ingredient: kale, qty: 500, unit: g, prep: "stems removed and very finely chopped"}
+      - {ingredient: smoked-sausage, qty: 1, note: "Dutch rookworst (about 275 g)"}
+      - {ingredient: milk, qty: 150, unit: ml, prep: "warmed"}
+      - {ingredient: butter, qty: 50, unit: g}
+      - {ingredient: nutmeg, qty: 1, unit: pinch}
+      - {ingredient: salt, note: "to taste"}
+      - {ingredient: black-pepper, note: "to taste"}
+      - {ingredient: dijon-mustard, note: "to serve", optional: true}
+steps:
+  - Put the potatoes in a pot with salted water to just cover, and lay the kale on top. Bring to a boil.
+  - text: Cover and simmer until the potatoes are soft. Heat the sausage in a pan of hot (not boiling) water at the same time.
+    timer_min: 20
+  - Drain the potatoes and kale well, then mash them together with the butter and enough warm milk to make a coarse, fluffy mash.
+  - Season with nutmeg, salt and pepper. Serve with the sliced sausage.
+tips:
+  - Make a hollow in each portion for a pool of gravy (a "kuiltje jus").
+serving: With mustard and gravy.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

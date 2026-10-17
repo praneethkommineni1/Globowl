@@ -1,0 +1,49 @@
+id: co-ajiaco
+title: Ajiaco
+native_name: {text: Ajiaco santafereño, lang: es}
+summary: Bogotá's chicken and three-potato soup, thickened by melting yellow potatoes and scented with the herb guascas, served with cream, capers and avocado.
+origin:
+  country: CO
+  region: Bogotá
+course: soup
+dish_types: [soup]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 20, cook_min: 90}
+difficulty: 2
+techniques: [simmering]
+ingredient_groups:
+  - name: Soup
+    items:
+      - {ingredient: chicken-breast, qty: 1, unit: kg, note: "bone-in"}
+      - {ingredient: water, qty: 3, unit: l}
+      - {ingredient: scallion, qty: 2}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "crushed"}
+      - {ingredient: cilantro, qty: 1, unit: bunch, note: "tied with string"}
+      - {ingredient: potato, qty: 1, unit: kg, prep: "peeled and sliced", note: "half floury, half waxy (sabanera and pastusa)"}
+      - {ingredient: yellow-potato, qty: 500, unit: g, prep: "peeled", note: "papa criolla; or small Yukon Gold"}
+      - {ingredient: corn-on-the-cob, qty: 3, prep: "cut into thirds"}
+      - {ingredient: guascas, qty: 2, unit: tbsp, note: "dried; it gives ajiaco its signature flavour"}
+      - {ingredient: salt, note: "to taste"}
+  - name: To serve
+    items:
+      - {ingredient: heavy-cream, qty: 150, unit: ml}
+      - {ingredient: capers, qty: 4, unit: tbsp}
+      - {ingredient: avocado, qty: 2, prep: "sliced"}
+steps:
+  - text: Simmer the chicken in the water with the scallions, garlic and cilantro bunch until cooked.
+    timer_min: 40
+  - Lift out the chicken, shred the meat and discard skin and bones. Discard the scallions and cilantro.
+  - text: Add the sliced potatoes and the corn to the broth and simmer until the floury potatoes start to fall apart.
+    timer_min: 30
+  - text: Add the papas criollas and guascas and simmer, stirring occasionally, until the criollas dissolve and thicken the soup.
+    timer_min: 20
+  - Return the chicken, season with salt and heat through.
+  - Serve in bowls with a piece of corn in each, and cream, capers and avocado for everyone to add at the table.
+serving: With white rice and avocado on the side.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

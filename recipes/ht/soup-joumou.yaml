@@ -1,0 +1,61 @@
+id: ht-soup-joumou
+title: Soup Joumou
+native_name: {text: Soup joumou, lang: ht}
+alternate_names: [Haitian pumpkin soup, Freedom soup]
+summary: A rich squash soup with beef, vegetables and pasta, eaten by Haitians every 1 January to celebrate independence.
+origin:
+  country: HT
+course: soup
+dish_types: [soup]
+occasions: [Haitian Independence Day (1 January)]
+authenticity: traditional
+yield: {servings: 8}
+time: {prep_min: 30, cook_min: 150, inactive_min: 60}
+difficulty: 3
+equipment: [Blender, Large soup pot]
+techniques: [marinating, simmering]
+ingredient_groups:
+  - name: Epis (seasoning base)
+    items:
+      - {ingredient: parsley, qty: 1, unit: handful}
+      - {ingredient: scallion, qty: 3}
+      - {ingredient: garlic, qty: 6, unit: clove}
+      - {ingredient: green-pepper, qty: 0.5}
+      - {ingredient: thyme, qty: 4, unit: sprig, prep: "leaves only"}
+      - {ingredient: lime-juice, qty: 3, unit: tbsp}
+      - {ingredient: vegetable-oil, qty: 3, unit: tbsp}
+  - name: Soup
+    items:
+      - {ingredient: beef-chuck, qty: 700, unit: g, prep: "cut into 3 cm pieces"}
+      - {ingredient: salt, qty: 2, unit: tsp}
+      - {ingredient: water, qty: 3, unit: l}
+      - {ingredient: butternut-squash, qty: 1, unit: kg, prep: "peeled and cubed", note: "or Caribbean calabaza (joumou)"}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: celery, qty: 1, unit: stalk, prep: "sliced"}
+      - {ingredient: carrot, qty: 2, prep: "sliced"}
+      - {ingredient: potato, qty: 2, prep: "cubed"}
+      - {ingredient: white-cabbage, qty: 250, unit: g, prep: "shredded"}
+      - {ingredient: whole-cloves, qty: 3}
+      - {ingredient: scotch-bonnet, qty: 1, note: "whole — don't burst it"}
+      - {ingredient: rigatoni, qty: 150, unit: g}
+      - {ingredient: butter, qty: 2, unit: tbsp, optional: true}
+steps:
+  - Blend the epis ingredients to a coarse paste.
+  - text: Toss the beef with half the epis and 1 teaspoon salt and marinate.
+    timer_min: 60
+  - text: Put the beef and 1 litre of water in the pot and simmer, covered, until the beef is nearly tender.
+    timer_min: 60
+  - text: Meanwhile simmer the squash in 1 litre of water until soft, then blend it with its cooking water until smooth.
+    timer_min: 20
+  - Add the squash purée, the remaining water and epis, onion, celery, carrot, potato, cabbage, cloves and Scotch bonnet to the beef.
+  - text: Simmer until all the vegetables are tender.
+    timer_min: 40
+  - text: Add the pasta and cook until tender, adding water if the soup is too thick. Remove the Scotch bonnet, season with salt and stir in the butter.
+    timer_min: 15
+culture: Under French colonial rule, enslaved Haitians grew squash but were forbidden to eat this soup. After independence on 1 January 1804, eating soup joumou became a celebration of freedom. It was inscribed on UNESCO's Intangible Cultural Heritage list in 2021.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

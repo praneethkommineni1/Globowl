@@ -38,6 +38,9 @@ corn-tortillas: {name: corn tortilla, category: grain}
 cornstarch: {name: cornstarch, category: baking, aliases: [cornflour (UK)]}
 prawn-crackers: {name: prawn crackers, category: grain, animal: [shellfish], contains: [crustacean], may_contain: [gluten], aliases: [krupuk, kerupuk udang]}
 
+basmati-rice: {name: basmati rice, category: grain}
+rigatoni: {name: rigatoni, category: grain, contains: [gluten], may_contain: [egg]}
+
 # --- Legumes and soy --------------------------------------------------------
 red-lentils: {name: red lentils, category: legume, aliases: [masoor dal, split red lentils]}
 brown-lentils: {name: brown lentils, category: legume}
@@ -95,6 +98,10 @@ vegan-kimchi: {name: vegan kimchi, category: condiment}
 preserved-lemon: {name: preserved lemon, category: condiment}
 green-olives: {name: green olives, category: condiment}
 
+yellow-potato: {name: yellow potato, category: vegetable, aliases: [papa criolla, papa amarilla]}
+green-plantain: {name: green plantain, category: fruit, aliases: [unripe plantain, plátano verde]}
+capers: {name: capers, category: condiment}
+
 # --- Fruit ------------------------------------------------------------------
 lemon: {name: lemon, category: fruit}
 lemon-juice: {name: lemon juice, category: fruit}
@@ -104,6 +111,9 @@ dried-barberries: {name: dried barberries, category: fruit, aliases: [zereshk]}
 kiwifruit: {name: kiwifruit, category: fruit}
 passion-fruit: {name: passion fruit, category: fruit}
 strawberries: {name: strawberry, category: fruit}
+
+banana: {name: banana, category: fruit}
+strawberry-jam: {name: strawberry jam, category: condiment}
 
 # --- Fresh herbs ------------------------------------------------------------
 cilantro: {name: cilantro, category: herb, aliases: [coriander leaves, fresh coriander]}
@@ -119,6 +129,8 @@ mitsuba: {name: mitsuba, category: herb, aliases: [Japanese parsley]}
 curry-leaves: {name: curry leaves, category: herb}
 pandan-leaf: {name: pandan leaf, category: herb, aliases: [screwpine leaf]}
 bay-leaf: {name: bay leaf, category: herb}
+
+guascas: {name: guascas, category: herb, aliases: [galinsoga, gallant soldier], note: Usually sold dried in Latin American shops.}
 
 # --- Spices -----------------------------------------------------------------
 salt: {name: salt, category: water}
@@ -160,6 +172,11 @@ garam-masala: {name: garam masala, category: spice}
 berbere: {name: berbere, category: spice, note: Ethiopian chili and spice blend.}
 harissa: {name: harissa, category: condiment}
 
+ground-cardamom: {name: ground cardamom, category: spice}
+cinnamon-stick: {name: cinnamon stick, category: spice}
+whole-cloves: {name: whole cloves, category: spice}
+khmeli-suneli: {name: khmeli suneli, category: spice, note: Georgian blend of dried herbs and spices including blue fenugreek and coriander.}
+
 # --- Condiments, sauces, pastes ---------------------------------------------
 soy-sauce: {name: soy sauce, category: condiment, contains: [soy, gluten], note: Tamari is usually wheat-free.}
 dark-soy-sauce: {name: dark soy sauce, category: condiment, contains: [soy, gluten]}
@@ -197,6 +214,8 @@ desiccated-coconut: {name: desiccated coconut, category: nut-seed}
 coconut-milk: {name: coconut milk, category: nut-seed}
 coconut-cream: {name: coconut cream, category: nut-seed}
 
+pistachios: {name: pistachios, category: nut-seed, contains: [tree-nut]}
+
 # --- Fats -------------------------------------------------------------------
 vegetable-oil: {name: vegetable oil, category: fat}
 sunflower-oil: {name: sunflower oil, category: fat}
@@ -208,6 +227,8 @@ lard: {name: lard, category: fat, animal: [meat], contains: [pork], aliases: [zs
 butter: {name: butter, category: dairy, animal: [dairy], contains: [milk]}
 ghee: {name: ghee, category: dairy, animal: [dairy], contains: [milk]}
 niter-kibbeh: {name: niter kibbeh, category: dairy, animal: [dairy], contains: [milk], note: Ethiopian spiced clarified butter.}
+
+mustard-oil: {name: mustard oil, category: fat, contains: [mustard], note: "Pungent; sold in some countries as 'for external use' — buy food-grade."}
 
 # --- Dairy and eggs ---------------------------------------------------------
 milk: {name: milk, category: dairy, animal: [dairy], contains: [milk]}
@@ -223,6 +244,8 @@ queso-fresco: {name: queso fresco, category: dairy, animal: [dairy], contains: [
 twarog: {name: twaróg, category: dairy, animal: [dairy], contains: [milk], aliases: [farmer's cheese, quark, tvorog]}
 egg: {name: egg, category: egg, animal: [egg], contains: [egg]}
 egg-white: {name: egg white, category: egg, animal: [egg], contains: [egg]}
+
+yogurt: {name: plain yogurt, category: dairy, animal: [dairy], contains: [milk]}
 
 # --- Meat, poultry, seafood -------------------------------------------------
 chicken-thigh: {name: chicken thigh, category: poultry, animal: [poultry]}
@@ -241,6 +264,11 @@ white-fish: {name: firm white fish, category: seafood, animal: [fish], contains:
 smoked-fish: {name: smoked fish, category: seafood, animal: [fish], contains: [fish], aliases: [koobi, smoked mackerel]}
 dried-anchovies: {name: dried anchovies, category: seafood, animal: [fish], contains: [fish], aliases: [ikan bilis]}
 shrimp: {name: shrimp, category: seafood, animal: [shellfish], contains: [crustacean], aliases: [prawns]}
+
+chicken-breast: {name: chicken breast, category: poultry, animal: [poultry]}
+beef-chuck: {name: beef chuck, category: meat, animal: [meat], aliases: [stewing beef]}
+veal-cutlet: {name: veal cutlet, category: meat, animal: [meat], aliases: [veal escalope]}
+smoked-sausage: {name: smoked sausage, category: meat, animal: [meat], contains: [pork], may_contain: [milk, gluten, sulphite], aliases: [rookworst, kielbasa]}
 
 # --- Sweeteners and baking --------------------------------------------------
 sugar: {name: sugar, category: sweetener, note: Some cane sugar is refined with bone char; strict vegans may prefer certified sugar.}

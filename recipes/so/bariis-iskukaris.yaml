@@ -1,0 +1,59 @@
+id: so-bariis-iskukaris
+title: Bariis Iskukaris
+native_name: {text: Bariis iskukaris, lang: so}
+alternate_names: [Somali spiced rice]
+summary: Basmati rice cooked with tender lamb, tomato and xawaash — Somalia's warm, cardamom-and-cinnamon spice blend.
+origin:
+  country: SO
+course: main
+dish_types: [rice-dish, one-pot]
+occasions: [Eid, Weddings]
+authenticity: home-style
+yield: {servings: 5}
+time: {prep_min: 15, cook_min: 75, inactive_min: 20}
+difficulty: 3
+techniques: [braising, rice-cooking]
+ingredient_groups:
+  - name: Xawaash
+    items:
+      - {ingredient: ground-cumin, qty: 1, unit: tsp}
+      - {ingredient: ground-coriander, qty: 1, unit: tsp}
+      - {ingredient: ground-cardamom, qty: 0.5, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+      - {ingredient: ground-turmeric, qty: 0.5, unit: tsp}
+  - name: Rice
+    items:
+      - {ingredient: basmati-rice, qty: 500, unit: g}
+      - {ingredient: vegetable-oil, qty: 3, unit: tbsp}
+      - {ingredient: lamb-shoulder, qty: 600, unit: g, prep: "cut into 3 cm pieces", note: "or goat; chicken also works"}
+      - {ingredient: onion, qty: 1, prep: "sliced"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "minced"}
+      - {ingredient: tomato, qty: 1, prep: "chopped"}
+      - {ingredient: tomato-paste, qty: 1, unit: tbsp}
+      - {ingredient: cinnamon-stick, qty: 1}
+      - {ingredient: whole-cloves, qty: 3}
+      - {ingredient: water, qty: 1.2, unit: l, note: "for the meat, then the rice"}
+      - {ingredient: raisins, qty: 40, unit: g, optional: true}
+      - {ingredient: salt, qty: 2, unit: tsp}
+  - name: To serve
+    items:
+      - {ingredient: banana, qty: 4, note: "eaten alongside"}
+      - {ingredient: green-chili, qty: 2, note: "blended with lime and cilantro as basbaas", optional: true}
+steps:
+  - text: Rinse the rice and soak it in cold water.
+    timer_min: 20
+  - Brown the lamb in the oil in a heavy pot. Add the onion and cook until golden, then the garlic, tomato, paste, xawaash, cinnamon and cloves. Fry for 2 minutes.
+  - text: Add 500 ml water and 1 teaspoon salt, cover and simmer until the lamb is tender.
+    timer_min: 45
+  - Drain the rice and add it with the raisins, 700 ml water and the rest of the salt. The liquid should sit about 1 cm above the rice.
+  - text: Bring to a boil, then cover tightly and cook on the lowest heat until the rice is tender.
+    timer_min: 20
+  - Rest 5 minutes, then fluff and serve.
+serving: Traditionally eaten with a banana on the side and a spicy green chili sauce (basbaas).
+culture: Bananas with rice are a legacy of Somalia's agricultural south; the spice trade along the Somali coast shaped xawaash.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

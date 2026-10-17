@@ -83,6 +83,7 @@ authenticity:
   diaspora: As made by the diaspora, adapted to ingredients available abroad
   fusion: Deliberately combines traditions
   modern: A contemporary creation by a named cook
+  unassessed: Not yet assessed (e.g. imported recipes awaiting review)
 
 techniques:
   baking: Baking

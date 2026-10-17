@@ -197,6 +197,20 @@
    "kerupuk udang"
   ]
  },
+ "basmati-rice": {
+  "name": "basmati rice",
+  "category": "grain"
+ },
+ "rigatoni": {
+  "name": "rigatoni",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ],
+  "may_contain": [
+   "egg"
+  ]
+ },
  "red-lentils": {
   "name": "red lentils",
   "category": "legume",
@@ -528,6 +542,26 @@
   "name": "green olives",
   "category": "condiment"
  },
+ "yellow-potato": {
+  "name": "yellow potato",
+  "category": "vegetable",
+  "aliases": [
+   "papa criolla",
+   "papa amarilla"
+  ]
+ },
+ "green-plantain": {
+  "name": "green plantain",
+  "category": "fruit",
+  "aliases": [
+   "unripe plantain",
+   "plátano verde"
+  ]
+ },
+ "capers": {
+  "name": "capers",
+  "category": "condiment"
+ },
  "lemon": {
   "name": "lemon",
   "category": "fruit"
@@ -565,6 +599,14 @@
  "strawberries": {
   "name": "strawberry",
   "category": "fruit"
+ },
+ "banana": {
+  "name": "banana",
+  "category": "fruit"
+ },
+ "strawberry-jam": {
+  "name": "strawberry jam",
+  "category": "condiment"
  },
  "cilantro": {
   "name": "cilantro",
@@ -635,6 +677,15 @@
  "bay-leaf": {
   "name": "bay leaf",
   "category": "herb"
+ },
+ "guascas": {
+  "name": "guascas",
+  "category": "herb",
+  "aliases": [
+   "galinsoga",
+   "gallant soldier"
+  ],
+  "note": "Usually sold dried in Latin American shops."
  },
  "salt": {
   "name": "salt",
@@ -826,6 +877,23 @@
  "harissa": {
   "name": "harissa",
   "category": "condiment"
+ },
+ "ground-cardamom": {
+  "name": "ground cardamom",
+  "category": "spice"
+ },
+ "cinnamon-stick": {
+  "name": "cinnamon stick",
+  "category": "spice"
+ },
+ "whole-cloves": {
+  "name": "whole cloves",
+  "category": "spice"
+ },
+ "khmeli-suneli": {
+  "name": "khmeli suneli",
+  "category": "spice",
+  "note": "Georgian blend of dried herbs and spices including blue fenugreek and coriander."
  },
  "soy-sauce": {
   "name": "soy sauce",
@@ -1118,6 +1186,13 @@
   "name": "coconut cream",
   "category": "nut-seed"
  },
+ "pistachios": {
+  "name": "pistachios",
+  "category": "nut-seed",
+  "contains": [
+   "tree-nut"
+  ]
+ },
  "vegetable-oil": {
   "name": "vegetable oil",
   "category": "fat"
@@ -1192,6 +1267,14 @@
    "milk"
   ],
   "note": "Ethiopian spiced clarified butter."
+ },
+ "mustard-oil": {
+  "name": "mustard oil",
+  "category": "fat",
+  "contains": [
+   "mustard"
+  ],
+  "note": "Pungent; sold in some countries as 'for external use' — buy food-grade."
  },
  "milk": {
   "name": "milk",
@@ -1352,6 +1435,16 @@
   ],
   "contains": [
    "egg"
+  ]
+ },
+ "yogurt": {
+  "name": "plain yogurt",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
   ]
  },
  "chicken-thigh": {
@@ -1523,6 +1616,52 @@
   ],
   "aliases": [
    "prawns"
+  ]
+ },
+ "chicken-breast": {
+  "name": "chicken breast",
+  "category": "poultry",
+  "animal": [
+   "poultry"
+  ]
+ },
+ "beef-chuck": {
+  "name": "beef chuck",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "aliases": [
+   "stewing beef"
+  ]
+ },
+ "veal-cutlet": {
+  "name": "veal cutlet",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "aliases": [
+   "veal escalope"
+  ]
+ },
+ "smoked-sausage": {
+  "name": "smoked sausage",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "contains": [
+   "pork"
+  ],
+  "may_contain": [
+   "milk",
+   "gluten",
+   "sulphite"
+  ],
+  "aliases": [
+   "rookworst",
+   "kielbasa"
   ]
  },
  "sugar": {

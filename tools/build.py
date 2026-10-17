@@ -234,7 +234,9 @@ def enrich(recipe: dict, ref) -> dict:
     out["origin"] = {**recipe["origin"], "country_name": c["name"],
                      "continent": c["continent"], "subregion": c["subregion"]}
     t = recipe["time"]
-    out["time"] = {**t, "total_min": t["prep_min"] + t["cook_min"] + t.get("inactive_min", 0)}
+    if "total_min" not in t:
+        t = {**t, "total_min": t["prep_min"] + t["cook_min"] + t.get("inactive_min", 0)}
+    out["time"] = t
     out["ingredient_groups"] = [
         {**g, "items": [{**ln, "name": ingredients[ln["ingredient"]]["name"]} for ln in g["items"]]}
         for g in recipe["ingredient_groups"]

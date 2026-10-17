@@ -1,0 +1,53 @@
+id: af-kabuli-palaw
+title: Kabuli Palaw
+native_name: {text: قابلی پلو, lang: prs, romanized: qābuli palaw}
+summary: Afghanistan's national dish — lamb buried in spiced basmati rice, crowned with sweet caramelised carrots, raisins and nuts.
+origin:
+  country: AF
+course: main
+dish_types: [rice-dish, pilaf]
+occasions: [Weddings, Eid]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 30, cook_min: 120, inactive_min: 30}
+difficulty: 4
+equipment: [Heavy ovenproof pot with a lid]
+techniques: [braising, rice-cooking, pan-frying, baking]
+ingredient_groups:
+  - name: Lamb and rice
+    items:
+      - {ingredient: basmati-rice, qty: 600, unit: g}
+      - {ingredient: vegetable-oil, qty: 120, unit: ml}
+      - {ingredient: onion, qty: 2, prep: "finely chopped"}
+      - {ingredient: lamb-shoulder, qty: 1, unit: kg, prep: "on the bone, in large pieces"}
+      - {ingredient: water, qty: 1.5, unit: l}
+      - {ingredient: salt, qty: 1, unit: tbsp}
+      - {ingredient: ground-cumin, qty: 1, unit: tsp}
+      - {ingredient: ground-cardamom, qty: 1, unit: tsp}
+      - {ingredient: garam-masala, qty: 1, unit: tsp, note: "Afghans use char masala"}
+  - name: Topping
+    items:
+      - {ingredient: carrot, qty: 3, prep: "cut into thin matchsticks"}
+      - {ingredient: raisins, qty: 120, unit: g}
+      - {ingredient: sugar, qty: 1, unit: tbsp}
+      - {ingredient: flaked-almonds, qty: 50, unit: g, optional: true}
+      - {ingredient: pistachios, qty: 30, unit: g, prep: "slivered", optional: true}
+steps:
+  - text: Rinse the rice until the water runs clear, then soak it.
+    timer_min: 30
+  - Fry the onions in the oil until deep brown — this colours the dish. Add the lamb and brown it all over.
+  - text: Add the water and salt and simmer, covered, until the lamb is tender.
+    timer_min: 75
+  - Lift out the lamb. Measure 750 ml of the broth (top up with water if needed) and stir in the spices.
+  - Meanwhile fry the carrots in 3 tablespoons of oil from the pot until soft, add the sugar and raisins and cook until the raisins plump. Toast the nuts in the same pan. Heat the oven to 160 °C.
+  - Parboil the drained rice in salted boiling water for 4 minutes and drain. Put it in the pot with the spiced broth, nestle in the lamb, and cook uncovered over medium heat until the broth is absorbed.
+  - text: Cover tightly and bake (the "dam" stage) until the rice is fluffy and separate.
+    timer_min: 40
+  - Pile the rice on a platter with the lamb, and top with the carrots, raisins and nuts.
+serving: On a large shared platter with salad and yogurt.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

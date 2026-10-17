@@ -1,0 +1,39 @@
+id: ch-rosti
+title: Rösti
+native_name: {text: Rösti, lang: de-CH}
+summary: A thick, golden potato cake made from coarsely grated parboiled potatoes fried slowly in butter until crisp on both sides.
+origin:
+  country: CH
+  region: Bern
+course: side
+dish_types: [potato]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 40, inactive_min: 720}
+difficulty: 2
+equipment: [Box grater, 24 cm non-stick or cast-iron pan]
+techniques: [boiling, pan-frying]
+ingredient_groups:
+  - items:
+      - {ingredient: potato, qty: 800, unit: g, note: "waxy, unpeeled"}
+      - {ingredient: butter, qty: 2, unit: tbsp}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: salt, qty: 1, unit: tsp}
+steps:
+  - text: Boil the potatoes in their skins until just tender at the edges but firm in the centre. Cool and refrigerate overnight.
+    timer_min: 15
+  - Peel and coarsely grate the cold potatoes. Toss with the salt.
+  - Heat half the butter and oil in the pan over medium heat. Add the potatoes and press lightly into a thick cake.
+  - text: Cook without stirring until a golden crust forms underneath, shaking the pan now and then.
+    timer_min: 12
+  - Slide the rösti onto a plate, invert another plate on top and flip. Add the rest of the fat to the pan and slide the rösti back in, uncooked side down.
+  - text: Cook until crisp and golden.
+    timer_min: 12
+serving: As a side for Zürcher Geschnetzeltes (veal in cream sauce), or topped with a fried egg or melted cheese.
+culture: The "Röstigraben" (rösti ditch) is the jokey name for the cultural border between German- and French-speaking Switzerland.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

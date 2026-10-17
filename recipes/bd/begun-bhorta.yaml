@@ -1,0 +1,38 @@
+id: bd-begun-bhorta
+title: Begun Bhorta
+native_name: {text: বেগুন ভর্তা, lang: bn, romanized: begun bhôrta}
+alternate_names: [Smoky mashed eggplant]
+summary: Fire-charred eggplant mashed with pungent mustard oil, raw onion, green chili and cilantro — a smoky Bengali side for rice.
+origin:
+  country: BD
+  also_claimed_by: [IN]
+course: side
+dish_types: [mash, vegetables]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 20}
+difficulty: 1
+techniques: [roasting]
+ingredient_groups:
+  - items:
+      - {ingredient: eggplant, qty: 2, note: "large (about 600 g)"}
+      - {ingredient: mustard-oil, qty: 2, unit: tbsp}
+      - {ingredient: onion, qty: 0.5, prep: "very finely chopped", note: "or 2 shallots"}
+      - {ingredient: green-chili, qty: 2, prep: "finely chopped"}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "charred with the eggplant", optional: true}
+      - {ingredient: cilantro, qty: 1, unit: handful, prep: "chopped"}
+      - {ingredient: salt, qty: 0.75, unit: tsp}
+steps:
+  - text: Rub the eggplants with a little mustard oil and char them directly over a gas flame, on a grill or under a hot broiler, turning, until the skin is black and the flesh has collapsed.
+    timer_min: 20
+  - Let them cool slightly, then peel off the skin and discard the stem. Mash the flesh with a fork or your hand.
+  - Mash in the remaining mustard oil, onion, chili, garlic, cilantro and salt. Taste — it should be smoky, sharp and salty.
+tips:
+  - Raw mustard oil is the defining flavour; there is no real substitute.
+serving: Hot rice, dal and a selection of other bhortas (mashes) — a classic Bengali lunch.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}
