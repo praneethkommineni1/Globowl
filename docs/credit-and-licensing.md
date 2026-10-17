@@ -66,15 +66,15 @@ Media (photos) carry their own `credit` and `license`, separate from the recipe 
 
 ## External sources — what's usable
 
-Verify current terms before importing anything. These change, and this session could not
-reach the sites to re-check them.
+Verify current terms before importing anything; they change. TheMealDB's terms were
+re-checked on 2026-10-17; the other rows are as last known.
 
 | Source | What it offers | Licence / terms (as last known) | Use it for |
 |---|---|---|---|
 | **Wikidata** | Dish items with country of origin, native names, images, links to Wikipedia in many languages | CC0 | The master list of dishes to cover; `wikidata` ids for dedup; native names. **Highest-value source.** |
 | **Wikibooks Cookbook** | Several thousand recipes, many by cuisine | CC BY-SA 4.0 | Importing, with attribution and share-alike. |
 | **Wikimedia Commons** | Food photos | Per file (CC BY, CC BY-SA, PD) | Images, with per-file credit. |
-| **TheMealDB** | Around 300 recipes tagged by "area" | Free test key for development; production use requires their paid supporter key | Seeding during development only; check terms. |
+| **TheMealDB** | Around 300 recipes tagged by "area" | Test key `1` for development and educational use only; a publicly released app needs their paid supporter key; reselling the API is prohibited (checked 2026-10-17) | **Not imported.** Copying its records into a shipped database counts as production use. Revisit only if you buy a production key and its terms allow storing records. |
 | **USDA FoodData Central** | Nutrition data | Public domain | Linking catalog ingredients for nutrition estimates. |
 | **Open Food Facts** | Product ingredients and allergens | ODbL (database), share-alike | Checking brand-dependent `may_contain` flags. |
 | **RecipeNLG / Food.com dumps** | Millions of scraped recipes | Non-commercial research only, or unclear | **Avoid** for a commercial product. |

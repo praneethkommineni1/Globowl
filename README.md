@@ -3,8 +3,9 @@
 A structured, credited, diet-aware database of recipes from around the world, built to power
 the Globowl app ("cook your way across the globe").
 
-**Now:** 49 recipes from 49 countries on every inhabited continent. See
-[`dist/coverage.md`](dist/coverage.md).
+**Now:** 185 hand-written recipes covering 185 of the 195 sovereign states, plus a pipeline
+for importing CC BY-SA recipes from Wikibooks and a Wikidata-derived list of notable dishes per
+country. See [`dist/coverage.md`](dist/coverage.md).
 
 ## For the app: consume `dist/`
 
@@ -35,6 +36,10 @@ data/taxonomy.yaml         controlled vocabularies (units, courses, techniques, 
 data/countries.yaml        ISO countries with UN M49 regions
 schema/recipe.schema.json  JSON Schema for authored recipes
 tools/build.py             validator and builder → dist/
+tools/import_wikibooks.py  Wikibooks Cookbook importer (fetch + convert)
+tools/wikidata_dishes.py   notable dishes per country from Wikidata → data/dish-candidates.yaml
+data/wikibooks-import.yaml cuisine/course/ingredient mappings for the importer
+imports/                   import caches (ignored), review queue and report
 templates/                 starting point for a new recipe
 docs/                      design docs (start here)
 ```
@@ -58,8 +63,14 @@ python3 -m pytest -q             # rules for dietary derivation and validation
 The build tells you exactly what's wrong (unknown ingredient, a missing credit field, a
 mismatched id). New ingredients go in `data/ingredients.yaml` with correct allergen flags.
 
+## Licensing of `dist/`
+
+`dist/recipes.json` mixes licences: Globowl-written recipes are CC BY 4.0, and anything imported
+from Wikibooks is CC BY-SA 4.0. Each recipe's `credit.license` governs that recipe. The app must
+show the credit line, with a link to the source revision for imports.
+
 ## Status of the seed data
 
-All 49 recipes have `credit.ai_assisted: true` and `review.status: draft`. They were written
+All hand-written recipes have `credit.ai_assisted: true` and `review.status: draft`. They were written
 from general culinary knowledge, not copied from any source, but nobody has cooked them yet.
 Review and test them before showing them as trusted.

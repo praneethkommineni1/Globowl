@@ -1,7 +1,14 @@
 # Expansion plan: from 49 countries to the whole world
 
-Current state: see [`dist/coverage.md`](../dist/coverage.md). The seed covers 49 of 195
-sovereign states with one dish each. Every seed recipe is an unreviewed AI draft.
+Current state: see [`dist/coverage.md`](../dist/coverage.md). Hand-written recipes cover
+185 of 195 sovereign states with one dish each. Every hand-written recipe is an unreviewed AI
+draft (`review.status: draft`).
+
+**Still missing (10):** Central African Republic, Equatorial Guinea, Vatican City, Solomon
+Islands, Kiribati, Marshall Islands, Federated States of Micronesia, Nauru, Palau and Tuvalu.
+These were left empty on purpose. Published information about their home cooking is thin, and a
+guessed recipe would be worse than none, so source them from people with first-hand knowledge.
+Vatican City has no distinct cuisine of its own; the app could show it as "see Italy".
 
 The goal isn't simply "more recipes". It's **every country well represented, with recipes
 people can actually cook and trust**. That needs several sources working together.
@@ -59,8 +66,24 @@ the counts grow.
 - **TheMealDB** for development seeding only, unless a production licence is bought.
 - Every importer must produce records that pass `tools/build.py`. Nothing goes around the gate.
 
-(Neither importer was written in this session: the environment's network policy blocks
-themealdb.com and wikibooks.org. Allow those domains in the environment settings to build them.)
+### Status of the importers
+
+- **Wikibooks:** `tools/import_wikibooks.py`.
+  - `fetch` crawls `Category:Recipes by origin` and caches page wikitext to
+    `imports/wikibooks/cache/`. It is resumable and deliberately slow: Wikimedia rate-limits
+    hard, and cloud egress IPs are shared.
+  - `convert` is offline. It promotes a page into `recipes/` only if every required fact is
+    present in the source and every ingredient maps to the catalog. Everything else goes to
+    `imports/wikibooks/review/` with its issues listed.
+  - `imports/wikibooks/report.md` ranks the unmapped ingredients, so the catalog can grow where
+    it matters most.
+- **Wikidata:** `tools/wikidata_dishes.py` writes `data/dish-candidates.yaml`: the best-known
+  dishes per country, ranked by how many Wikipedia language editions cover them.
+- **TheMealDB:** not imported (see the licensing doc).
+
+Wikibooks quality varies. Some recent pages look machine-generated and contain plainly wrong
+advice, e.g. "for a vegan version, omit the vegetable oil" on an already-vegan stew. Every
+imported recipe starts as `draft` and `authenticity: unassessed`.
 
 ## Catalog growth
 
