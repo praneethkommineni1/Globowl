@@ -1,0 +1,42 @@
+id: sc-kari-zourit
+title: Kari Zourit
+native_name: {text: Kari zourit, lang: crs}
+alternate_names: [Seychellois octopus curry]
+summary: Tender octopus simmered in a coconut milk curry with ginger, cinnamon and curry leaves — a Creole classic of the Seychelles.
+origin:
+  country: SC
+course: main
+dish_types: [curry, seafood]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 90}
+difficulty: 3
+techniques: [boiling, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: octopus, qty: 1, unit: kg, note: "cleaned; frozen octopus is often more tender"}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "minced"}
+      - {ingredient: ginger, qty: 2, unit: cm, prep: "grated"}
+      - {ingredient: curry-leaves, qty: 8}
+      - {ingredient: cinnamon-stick, qty: 1}
+      - {ingredient: curry-powder, qty: 2, unit: tbsp}
+      - {ingredient: ground-turmeric, qty: 0.5, unit: tsp}
+      - {ingredient: tomato, qty: 1, prep: "chopped"}
+      - {ingredient: coconut-milk, qty: 400, unit: ml}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - text: Simmer the octopus in unsalted water until tender when pierced. Drain and cut into pieces.
+    timer_min: 60
+  - Fry the onion, garlic, ginger, curry leaves and cinnamon in the oil until soft. Add the curry powder and turmeric and fry 1 minute.
+  - text: Add the tomato, octopus and coconut milk and simmer until the sauce thickens.
+    timer_min: 20
+  - Season with salt.
+serving: With rice and a green papaya or mango chutney.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

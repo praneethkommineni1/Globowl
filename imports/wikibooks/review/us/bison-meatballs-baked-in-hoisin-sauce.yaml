@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 lb ground bison meat
+id: us-bison-meatballs-baked-in-hoisin-sauce
+title: Bison Meatballs Baked in Hoisin Sauce
+alternate_names:
+- Marvin
+summary: Marvins are a quick and tasty variation on the meatball.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 1, note: large}
+  - {ingredient: garlic, qty: 2, prep: minced}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 0.25}
+  - {ingredient: coriander-seeds, unit: tsp, qty: 0.25}
+  - {ingredient: black-pepper, qty: 3}
+  - {ingredient: whole-cloves, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: long-grain-rice, unit: cup, qty: 0.5}
+  - {ingredient: basil, qty: 10, prep: julienned, note: large}
+  - {ingredient: vegetable-oil, unit: tsp, qty: 1}
+  - {ingredient: fish-sauce, unit: tsp, qty: 0.5}
+  - {ingredient: hoisin-sauce}
+steps:
+- Preheat oven to 425°F (220°C).
+- Oil the bottom of a 9x12-inch Pyrex baking dish.
+- Thinly slice the onion to create long thin slices.
+- Microwave the onion slices and garlic on high for 5 minutes.
+- Grind the cumin, coriander, peppercorns, cloves, and salt together using a mortar and pestle.
+- Roughly mix the softened onions and garlic, bison, rice, spice grind, fish sauce, and basil.
+- Shape the meat mixture into tapered cylinders (similar to small sweet potatoes) and place into the baking dish. The Marvins should be about 1¼ inch diameter in the middle and 5 inches long.
+- Coat the Marvins with hoisin sauce.
+- Bake for 20–25 minutes in the preheated oven.
+tips:
+- Roll up in a warmed mooshi pancake with fresh cilantro or serve with a coconut milk-based curry sauce and rice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABison_Meatballs_Baked_in_Hoisin_Sauce_%28Marvin%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bison Meatballs Baked in Hoisin Sauce (Marvin)@4523910
+    url: https://en.wikibooks.org/w/index.php?oldid=4523910
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

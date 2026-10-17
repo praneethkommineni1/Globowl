@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 refrigerated can of cinnamon rolls
+#  - unmapped ingredient: 1 cup caramel sauce
+#  - unmapped ingredient: 2–3 cups vanilla ice cream
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gb-banana-caramel-dessert
+title: Banana Caramel Dessert
+summary: This dessert appears to be loosely based on or derived from banoffee pie. It combines bananas and caramel sauce with pre-made dough for convenience. The ingredients are simple, the time it takes to prepare is short, and the dessert is simply delicious!
+origin:
+  country: GB
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: banana, qty: 2, prep: peeled and sliced}
+  - {ingredient: vanilla-extract, unit: tbsp, qty: 1}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+steps:
+- Preheat oven to 350°F (175°C).
+- In a small bowl, toss bananas, vanilla, and melted butter until bananas are well coated.
+- On a cookie sheet, unroll 2 cinnamon rolls, leaving the two triangles attached to form a square. Place ¼ of the banana mixture in the center of each pair of rolls.
+- Bake for 11 to 13 minutes, or until the pastry is golden brown.
+- Heat the caramel topping and drizzle over dessert. Serve warm, with ice cream if desired.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABanana_Caramel_Dessert&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Banana Caramel Dessert@4587279
+    url: https://en.wikibooks.org/w/index.php?oldid=4587279
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

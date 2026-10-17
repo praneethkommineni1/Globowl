@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: in-madras-filter-coffee
+title: Madras Filter Coffee
+summary: Traditional Madras filter coffee requires the use of specific fresh-roasted coffee beans and chicory roots, which are not always available outside India. This recipe uses Indian instant coffee that has chicory in it, which is available in some Indian stores and supermarkets.
+origin:
+  country: IN
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 0.25}
+  - {ingredient: coffee, unit: tsp, qty: [0.5, 2]}
+  - {ingredient: milk, unit: cup, qty: 0.75}
+  - {ingredient: sugar, optional: true}
+steps:
+- Bring the water to a boil, and stir in the coffee. Ensure there are no lumps.
+- Bring the milk to a boil.
+- Add the coffee mixture to the milk, and sweeten with sugar to taste.
+- While the coffee is still boiling hot, pour it into a mug or, preferably, a stainless steel tumbler. While pouring the coffee, slowly raise the saucepan so the coffee falls into the mug from a height of about 1–1½ ft. This will cause the coffee to froth like espresso.
+- If desired, you can dip a teaspoon in the coffee and lightly spread a few drops of it over the froth in the mug.
+- Serve piping hot.
+tips:
+- Filter coffee in India is actually made in a closed steel container called a coffee filter.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMadras_Filter_Coffee&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Madras Filter Coffee@4522456
+    url: https://en.wikibooks.org/w/index.php?oldid=4522456
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 350 grams sour cream around 40% fat
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: hu-potato-casserole
+title: Potato Casserole
+alternate_names:
+- Rakott Krumpli
+summary: Rakott krumpli is a popular Hungarian potato casserole.
+origin:
+  country: HU
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: potato, qty: 6, note: medium}
+  - {ingredient: egg, qty: 4}
+  - {ingredient: salt}
+  - {ingredient: sausage, qty: 1, optional: true}
+  - {ingredient: olive-oil, unit: tbsp, qty: 4}
+steps:
+- Cook the potatoes for about 15–20 minutes.
+- Peel the potatoes and the eggs.
+- Slice the potatoes, eggs, and sausage.
+- Put a little olive oil in a baking dish. Arrange alternating layers of potatoes, eggs, and salt or sausage in the dish.
+- Drizzle olive oil over the filling, and top with sour cream.
+- Bake in a preheated oven at 200°C for about 35 minutes.
+tips:
+- Traditionally most Hungarian cooking used lard (preferably home-made) but olive oil works just as well as a substitution.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APotato_Casserole_%28Rakott_Krumpli%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Potato Casserole (Rakott Krumpli)@4592334
+    url: https://en.wikibooks.org/w/index.php?oldid=4592334
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

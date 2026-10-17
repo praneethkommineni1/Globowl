@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 400 grams dried common beans
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ug-posho-and-beans
+title: Posho and Beans
+summary: Posho and beans is a Ugandan dish, mostly eaten as lunchtime meal.
+origin:
+  country: UG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- name: Beans
+  items:
+  - {ingredient: water}
+  - {ingredient: onion, qty: 2, prep: finely chopped}
+  - {ingredient: tomato, qty: 2, prep: finely chopped}
+  - {ingredient: curry-powder, unit: tsp, qty: 1}
+  - {ingredient: ground-ginger, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+- name: Posho
+  items:
+  - {ingredient: water, unit: l, qty: 1.5}
+  - {ingredient: corn-kernels, unit: kg, qty: 1}
+  - {ingredient: vegetable-oil}
+steps:
+- Place the beans in a large bowl, and add enough cold water to cover the beans by a few inches. Soak for 7–12 hours.
+- Drain the beans and transfer them to a pot. Add enough fresh water to cover the beans again. Leave to boil for about 1½ hours, adding some of the tomatoes and some of the onions partway through the cooking process. Remove from the heat and set aside.
+- Heat a good amount of oil in a fresh saucepan over high heat. Add the remaining onions, and cook until starting to brown.
+- Add the tomatoes, curry powder, dried ginger, and cumin. Continue to cook for about 2 minutes.
+- Add the entire contents of the pot of beans. Adjust the seasoning to taste, and cook for about 10 minutes over low heat, stirring to prevent the beans from sticking.
+- Remove from the heat and set aside.
+- Bring the water to a boil in a saucepan.
+- Gradually stir in the maize until the mixture has thickened to your desire. It might be hard to mix, but keep going. You can squash any lump that forms with the back of your wooden spoon.
+- Cook for 5 minutes, still stirring.
+- Serve immediately with the beans.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APosho_and_Beans&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Posho and Beans@4513301
+    url: https://en.wikibooks.org/w/index.php?oldid=4513301
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

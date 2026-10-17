@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 cup dry marsala wine
+#  - unmapped ingredient: 1/2 lb of fresh asparagus
+#  - no time in recipe summary
+id: it-marsala-chicken-scallopini
+title: Marsala Chicken Scallopini
+summary: Marsala chicken scallopini is a meal in the style of Italian cuisine, with mouthwatering flavors gotten from the fortified Marsala wine.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6, depending on serving size
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 2}
+  - {ingredient: butter, unit: tsp, qty: 4}
+  - {ingredient: olive-oil, unit: tsp, qty: 3}
+  - {ingredient: beef, unit: cup, qty: 0.5}
+  - {ingredient: parsley}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: all-purpose-flour}
+  - {ingredient: dried-oregano}
+  - {ingredient: basil}
+steps:
+- Put each chicken breast in a plastic bag and flatten with a meat tenderizer.
+- Coarsely chop the basil, and then throw it in a deep baking pan along with some flour, oregano. Toss the chicken with it.
+- Melt 2 tsp of butter in a medium frying pan on low-medium heat. When the butter stops bubbling, add the chicken and brown each section for approximately 3 minutes on each side. Once this is done, cover and set aside on a separate plate.
+- Drain off most of the liquid from the pan, and raise the heat. Pour a dollop of olive oil in, and sear the asparagus quickly. Remove this and set aside.
+- Keep at high heat, add the marsala and ¼ of the stock. Boil off for a few minutes. Lower the heat, and return the asparagus to the pan. Add the remaining stock and boil off to reduce. Add a tsp of butter, and cover chicken with sauce.
+- Sprinkle with parsley and serve.
+tips:
+- At various points during the cooking, you may want to grind some fresh pepper and sprinkle salt over top of the sauce or chicken; do so according to your tastes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMarsala_Chicken_Scallopini&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Marsala Chicken Scallopini@4512091
+    url: https://en.wikibooks.org/w/index.php?oldid=4512091
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

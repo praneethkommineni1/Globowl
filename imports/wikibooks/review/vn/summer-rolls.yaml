@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 4 rice wafers
+#  - unmapped ingredient: 2 leaves of Chinese cabbage, halved lengthways
+#  - course unknown from categories
+#  - possible duplicate of hand-written recipe vn-goi-cuon — merge or keep as a variant
+id: vn-summer-rolls
+title: Summer Rolls
+summary: Summer Rolls, or gỏi cuốn in Vietnamese, are wraps of various ingredients in rice wafers, and are often confused with nem or spring rolls (which, in turn, are often confused with egg rolls).
+origin:
+  country: VN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 15
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: shrimp, qty: [4, 8]}
+  - {ingredient: pork, unit: g, qty: 50}
+  - {ingredient: vermicelli, unit: g, qty: 50}
+  - {ingredient: cucumber, qty: 1, prep: sliced into fingers}
+  - {ingredient: lettuce, unit: leaf, qty: 4}
+  - {ingredient: cilantro, note: to taste}
+  - {ingredient: water}
+steps:
+- Dip a rice wafer into the warm water and remove immediately when it is completely wet—it only needs to be in the water for a few seconds.
+- Lay the rice wafer on a board or plate.
+- Arrange a portion of the ingredients near the edge of the rice wafer in a neat pile, with the fingers of cucumber roughly parallel to the edge of the wafer.
+- Fold the edge of the wafer over the pile of ingredients, and roll it over once.
+- Fold the sides of the wafer inwards, to close of the ends of the roll you just made.
+- Roll the wafer up the rest of the way, to enclose the roll completely.
+- Set aside for 5 minutes to dry a little before eating.
+- The above process for each summer roll.
+tips:
+- Summer rolls can easily be made vegetarian by omitting the prawns and meat, and adding more greens and vegetables like bean sprouts, snow pea sprouts, fingers of carrot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASummer_Rolls&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Summer Rolls@4630369
+    url: https://en.wikibooks.org/w/index.php?oldid=4630369
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

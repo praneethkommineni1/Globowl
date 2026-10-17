@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no procedure steps
+#  - course unknown from categories
+id: ng-ofada-rice
+title: Ofada rice
+summary: Ofada Rice is a traditional Nigerian rice variety commonly grown and eaten in southwestern Nigeria, especially among the Yoruba people. It is known for its natural aroma, slightly brown colour, and unique taste. It is often served with spicy stew called Ofada stew.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1-2 servings
+time:
+  total_min: 60
+difficulty: 3
+equipment:
+- Cooking pot or deep saucepan
+- Blender or food processor
+- Frying spoon (wooden or spatula)
+- Knife and chopping board
+- Sieve (optional, for draining meat stock)
+- Stove or gas cooker
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: water}
+  - {ingredient: salt, note: to taste}
+steps:
+- (missing)
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AOfada_rice&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ofada rice@4639039
+    url: https://en.wikibooks.org/w/index.php?oldid=4639039
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,58 @@
+id: gt-pepian
+title: Pepián de Pollo
+native_name: {text: Pepián, lang: es}
+summary: Chicken and vegetables in a thick, smoky sauce of toasted tomatoes, dried chilies, pumpkin and sesame seeds — Guatemala's national dish.
+origin:
+  country: GT
+course: main
+dish_types: [stew]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 30, cook_min: 90}
+difficulty: 4
+equipment: [Dry heavy pan or comal, Blender]
+techniques: [roasting, simmering]
+ingredient_groups:
+  - name: Chicken
+    items:
+      - {ingredient: chicken-thigh, qty: 1.2, unit: kg, prep: "bone-in pieces"}
+      - {ingredient: water, qty: 1.5, unit: l}
+      - {ingredient: salt, qty: 2, unit: tsp}
+  - name: Recado (sauce)
+    items:
+      - {ingredient: tomato, qty: 4}
+      - {ingredient: tomatillo, qty: 4, prep: "husked"}
+      - {ingredient: onion, qty: 0.5}
+      - {ingredient: garlic, qty: 2, unit: clove}
+      - {ingredient: red-bell-pepper, qty: 1}
+      - {ingredient: guajillo-chili, qty: 2, note: "chile guaque, seeded"}
+      - {ingredient: pasilla-chili, qty: 1, note: "chile pasa, seeded"}
+      - {ingredient: pumpkin-seeds, qty: 30, unit: g}
+      - {ingredient: sesame-seeds, qty: 30, unit: g}
+      - {ingredient: cinnamon-stick, qty: 1, note: "a 3 cm piece"}
+      - {ingredient: corn-tortillas, qty: 1, note: "toasted until dark, for thickening"}
+  - name: Vegetables
+    items:
+      - {ingredient: potato, qty: 2, prep: "cubed"}
+      - {ingredient: chayote, qty: 1, prep: "peeled and cubed"}
+      - {ingredient: green-beans, qty: 100, unit: g, prep: "cut in half"}
+      - {ingredient: cilantro, qty: 1, unit: handful, prep: "chopped"}
+steps:
+  - text: Simmer the chicken in the salted water until just cooked. Keep the broth.
+    timer_min: 30
+  - On a dry pan, char the tomatoes, tomatillos, onion, garlic and pepper until blackened in spots.
+  - Separately toast the chilies for a few seconds, then the pumpkin seeds, sesame seeds and cinnamon until golden — watch they don't burn.
+  - Blend everything for the recado with the tortilla and 500 ml of broth until smooth.
+  - text: Strain the sauce into a pot, add the potatoes and chayote and simmer until nearly tender, adding broth to keep it thick but pourable.
+    timer_min: 20
+  - text: Add the chicken and green beans and simmer until heated through and the beans are tender.
+    timer_min: 15
+  - Finish with cilantro and season.
+serving: With white rice and corn tortillas or tamalitos.
+culture: A Maya-Spanish mestizo dish; it was declared part of Guatemala's intangible cultural heritage in 2007.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

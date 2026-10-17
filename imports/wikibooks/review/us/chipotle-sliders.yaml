@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 16 mini potato buns, halved
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-chipotle-sliders
+title: Chipotle Sliders
+summary: Chipotles in the patties add a smoky heat, while additional chipotles in the mayo add even more great chipotle flavor.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 907}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: chipotle-in-adobo, unit: tbsp, qty: 1}
+  - {ingredient: garlic-powder, unit: tsp, qty: 2}
+  - {ingredient: chipotle-in-adobo, qty: [4, 5], prep: finely diced}
+  - {ingredient: mayonnaise, unit: cup, qty: 0.5}
+  - {ingredient: cheese, unit: slice, qty: 16}
+steps:
+- Line 2 large sheet pans with parchment paper. Put 1 pound meat on top of each and place a sheet of plastic wrap on top of that. Roll out until meat fills pans.
+- Fold each sheet of meat in half and trim edges and push into meat if required. Cut each sheet into 8 equal patties. Combine seasonings except for diced chipotles. Sprinkle patties with seasoning mixture.
+- Heat a griddle to 350°F. Cook patties on the griddle 2 minutes per side, adding 1 slice of cheese on top at last minute.
+- Meanwhile, toast buns. Combine mayonnaise and diced chipotles. Spread mayonnaise mixture on each bun.
+- Place 1 patty on bottom half of each bun. Top with upper half and serve warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChipotle_Sliders&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chipotle Sliders@4519271
+    url: https://en.wikibooks.org/w/index.php?oldid=4519271
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

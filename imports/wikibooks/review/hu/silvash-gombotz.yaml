@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: hu-silvash-gombotz
+title: Silvash Gombotz
+alternate_names:
+- Hungarian Plum Dumplings
+summary: 'Silvash gombotz (Hungarian spelling: Szilvás gombóc) is a traditional dessert recipe for plum dumplings from Hungary. During the freezing cold winters, warm filling desserts like these are very popular.'
+origin:
+  country: HU
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: g, qty: 907}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 3}
+  - {ingredient: all-purpose-flour, unit: g, qty: 302}
+  - {ingredient: jam, prep: plum jam or plum compote}
+steps:
+- Cook potatoes until very soft (at least an hour). Peel and mash with a fork.
+- Add the egg to the mixture, along with the little salt and oil. Mix well.
+- Gradually mix in the flour to make a smooth dough. You may need a little more or less than the listed quantity.
+- Knead the potato dough, then roll it out into a thin sheet (about 5 mm thick), and cut into squares.
+- Put half a plum or 1 tsp of plum jam on each square. Wrap the dough around the filling and seal the edges.
+- Cook in boiling water for 10–15 minutes until the dumplings are floating and cooked through.
+- Serve with bread crumbs fried in butter.
+tips:
+- When filled with apricot, the dumplings are called "barackos gombóc" or "Baratzkosh Gombotz".
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASilvash_Gombotz_%28Hungarian_Plum_Dumplings%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Silvash Gombotz (Hungarian Plum Dumplings)@4567794
+    url: https://en.wikibooks.org/w/index.php?oldid=4567794
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

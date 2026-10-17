@@ -1,0 +1,76 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-chereh-tamba
+title: Chereh Tamba
+alternate_names:
+- Gambian Groundnut Stew
+summary: Chereh tamba, also known as Gambian groundnut stew, is a flavorful and hearty stew that showcases the use of groundnuts (peanuts) as a key ingredient. It is a traditional Gambian recipe that highlights the rich flavors of the region.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large pot with a lid
+- Knife
+- Cutting board
+- Measuring spoons
+- Cooking spoon or spatula
+- Baking sheet
+- Food processor or blender
+techniques:
+- boiling
+- roasting
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: roasted-peanuts, unit: cup, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 2, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: minced}
+  - {ingredient: tomato, qty: 2, prep: diced}
+  - {ingredient: red-bell-pepper, qty: 1, prep: diced}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 1}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 2}
+  - {ingredient: chicken, unit: g, qty: 500, prep: cut into pieces}
+  - {ingredient: chicken-stock}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Preheat the oven to 180°C (350°F).
+- Spread the groundnuts evenly on a baking sheet. Roast the groundnuts in the preheated oven for about 10–15 minutes, or until they are golden brown and fragrant.
+- Remove the roasted groundnuts from the oven and allow them to cool.
+- Once cooled, transfer the roasted groundnuts to a food processor or blender and grind them into a smooth paste. Set aside.
+- In a large pot, heat the vegetable oil over medium heat. Add the chopped onions and minced garlic. Sauté until they become soft and translucent.
+- Add the diced tomatoes, diced bell pepper, ground ginger, ground paprika, and ground cayenne pepper (if using) to the pot. Stir well to combine.
+- Mix in the tomato paste and the groundnut paste, ensuring that they are evenly incorporated into the mixture.
+- Add the chicken pieces to the pot and stir to coat them with the sauce. Pour enough water or broth into the pot to cover the chicken and create a stew-like consistency. Bring the mixture to a boil, then reduce the heat to low and cover the pot with a lid.
+- Allow the chereh tamba to simmer for about 30–40 minutes, or until the chicken is cooked through and tender. Stir occasionally to prevent sticking.
+- Taste the chereh tamba and adjust the seasoning with salt, pepper, and additional spices if desired.
+- Serve hot with rice or couscous.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChereh_Tamba_%28Gambian_Groundnut_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chereh Tamba (Gambian Groundnut Stew)@4518584
+    url: https://en.wikibooks.org/w/index.php?oldid=4518584
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ch-swiss-pudding
+title: Swiss Pudding
+summary: Swiss Pudding.
+origin:
+  country: CH
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: butter}
+  - {ingredient: breadcrumbs}
+  - {ingredient: apple, qty: [4, 5], prep: 'peeled, cored, and sliced'}
+  - {ingredient: nutmeg}
+  - {ingredient: sugar}
+steps:
+- Butter a baking dish, and sprinkle with the breadcrumbs.
+- Combine the apples, a little butter, nutmeg, and sugar in a saucepan. Cook until softened.
+- Transfer the apples into the prepared dish.
+- Top apples with another layer of the crumbs, then add pieces of fresh butter on the top.
+- Bake in a slow oven for about 15 minutes, until it becomes a delicate brown.
+- Serve hot or cold.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASwiss_Pudding&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Swiss Pudding@4587241
+    url: https://en.wikibooks.org/w/index.php?oldid=4587241
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

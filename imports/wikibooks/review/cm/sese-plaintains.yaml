@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 tablespoons chicken-flavour bouillon cube or powder
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: cm-sese-plaintains
+title: Sese Plaintains
+alternate_names:
+- Cameroonian Plantain Stew
+summary: Sese plantains is a delicious and popular meal eaten in Cameroon. It is very easy to prepare.
+origin:
+  country: CM
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: goat, unit: g, qty: 1361}
+  - {ingredient: onion, qty: 2, prep: chopped}
+  - {ingredient: plantain, unit: g, qty: 2268}
+  - {ingredient: ground-crayfish, unit: cup, qty: 0.5}
+  - {ingredient: red-palm-oil, unit: cup, qty: 1}
+  - {ingredient: cayenne, unit: tbsp, qty: 1, optional: true}
+  - {ingredient: kale, unit: bunch, qty: 1, prep: chopped}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Cut the ends off the plantains. Make a shallow slit through the length of the peel, and remove it.
+- Slice the plantains into thick rounds.
+- Boil the meat in a saucepan with salt, cayenne pepper, half the onions, and bouillon cubes until tender.
+- Add the plantain, crayfish, red oil, and remaining onions. Simmer for about 15–20 minutes.
+- Stir in the kale, and cook for an additional 8 minutes.
+- Remove from the heat and serve warm.
+tips:
+- If you want to speed the cooking process, you can use a pressure cooker.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASese_Plaintains_%28Cameroonian_Plantain_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sese Plaintains (Cameroonian Plantain Stew)@4513658
+    url: https://en.wikibooks.org/w/index.php?oldid=4513658
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

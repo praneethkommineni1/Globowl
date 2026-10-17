@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 30 g sago flour
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: id-klepon
+title: Klepon
+alternate_names:
+- Indonesian Sweet Boiled Rice Cake
+summary: Klepon (pronounced Klê-pon) is a traditional Indonesian rice cake, from Javanese cuisine. It is a boiled rice cake, stuffed with liquid gula jawa (palm sugar), and rolled in grated coconut. Klepon is green due to its pandan content.
+origin:
+  country: ID
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: pandan-leaf, qty: [8, 10]}
+  - {ingredient: rice-flour, unit: g, qty: 300}
+  - {ingredient: palm-sugar, unit: g, qty: 150}
+  - {ingredient: coconut, unit: g, qty: 300}
+  - {ingredient: water}
+steps:
+- If using whole pandan leaves, grind them to a smooth paste with a little water if necessary.
+- Combine the glutinous rice flour and sago flour until well-mixed. Stir in the pandan paste, then gradually mix in water until it forms a soft green dough.
+- Shape the dough into small balls about 2–3 cm in diameter. Make a small hole in the balls with your finger. Fill the hole with palm sugar, and seal the dough to enclose the sugar. Gently reshape it into a ball if necessary.
+- Boil a lot of water in a large pot. Put the little balls one by one in the boiling water. Cook for about 5 minutes until they rise to the surface.
+- Drain the dumplings.
+- Roll the dumplings in the shredded coconut, and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKlepon_%28Indonesian_Sweet_Boiled_Rice_Cake%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Klepon (Indonesian Sweet Boiled Rice Cake)@4541090
+    url: https://en.wikibooks.org/w/index.php?oldid=4541090
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

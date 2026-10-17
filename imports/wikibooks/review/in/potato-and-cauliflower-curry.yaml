@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (IN, PK): confirm the country of origin
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: in-potato-and-cauliflower-curry
+title: Potato and Cauliflower Curry
+alternate_names:
+- Aloo Gobi
+summary: Aloo gobi (or gobhi) is a South Asian dish popular in both India and Pakistan. Aloo means potato and Gobi means cauliflower. This dish has a prominent role in the movie Bend It Like Beckham, and it can be prepared in a variety of ways.
+origin:
+  country: IN
+  also_claimed_by:
+  - PK
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- roasting
+ingredient_groups:
+- items:
+  - {ingredient: tomato, unit: g, qty: 800, prep: diced or puréed, note: medium}
+  - {ingredient: cauliflower, qty: 2, note: big}
+  - {ingredient: potato, qty: [4, 5], prep: peeled and cut into cubes}
+  - {ingredient: lemon, qty: 1, prep: juiced}
+  - {ingredient: ghee, unit: tbsp, qty: [3, 5]}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 5}
+  - {ingredient: ground-turmeric, unit: tbsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tbsp, qty: 2}
+  - {ingredient: red-chili, unit: tbsp, qty: [1, 2]}
+  - {ingredient: garam-masala, unit: tbsp, qty: [2, 4]}
+  - {ingredient: mint, unit: sprig, qty: 5}
+steps:
+- Heat the ghee/oil in frying pan, wok, or karahi (an Indian utensil specially used for frying purposes)
+- Add cumin seeds and wait until they turn a light brown color.
+- Add the spices (except for garam masala) and the tomatoes.
+- When the mixture turns oily, add the vegetables.
+- Roast the cauliflower and the potatoes until they turn soft. Stir occasionally.
+- Add the garam masala, mint, and lemon juice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APotato_and_Cauliflower_Curry_%28Aloo_Gobi%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Potato and Cauliflower Curry (Aloo Gobi)@4510216
+    url: https://en.wikibooks.org/w/index.php?oldid=4510216
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

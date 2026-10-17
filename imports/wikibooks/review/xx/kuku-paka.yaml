@@ -1,0 +1,83 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 tablespoons lemon or lime juice
+#  - unmapped ingredient: 1 teaspoon grated ginger
+#  - unmapped ingredient: 1 teaspoon grated ginger
+#  - unmapped ingredient: 1–2 green chilies, chopped
+#  - unmapped ingredient: Fresh coriander leaves for garnish
+#  - course unknown from categories
+id: xx-kuku-paka
+title: Kuku Paka
+summary: Kuku Paka is a traditional East African chicken dish made with grilled or roasted chicken cooked in a rich coconut curry sauce.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 45
+difficulty: 3
+equipment:
+- Grill or oven
+- Large cooking pot or pan
+- Knife
+- Cutting board
+- Mixing bowl
+- Wooden spoon
+ingredient_groups:
+- name: For the chicken
+  items:
+  - {ingredient: chicken, qty: 1, prep: cut into pieces}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: curry-powder, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+- name: For the sauce
+  items:
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: tomato, qty: 2, prep: chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: curry-powder, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: coconut-milk, unit: ml, qty: 400}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+steps:
+- In a bowl, combine the chicken with lemon juice, garlic, ginger, curry powder, turmeric, salt, black pepper, and oil.
+- Marinate for at least 30 minutes.
+- Grill the chicken over charcoal or roast in an oven until lightly charred and partly cooked.
+- Heat oil in a large pan over medium heat.
+- Add the onions and cook until soft.
+- Stir in the garlic, ginger, chilies, tomatoes, tomato paste, curry powder, cumin, and coriander.
+- Cook until the tomatoes soften and the mixture becomes fragrant.
+- Pour in the coconut milk and stir well.
+- Add the grilled chicken pieces to the sauce.
+- Simmer gently for 20–30 minutes until the chicken is fully cooked and the sauce thickens.
+- Garnish with fresh coriander leaves and serve hot.
+tips:
+- Charcoal grilling gives the dish its traditional smoky flavour.
+- Coconut cream creates a richer sauce than coconut milk.
+- Fresh ginger and garlic improve the aroma.
+- Marinating the chicken overnight enhances flavour.
+- The sauce should simmer gently to avoid separating the coconut milk.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKuku_Paka&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kuku Paka@4637544
+    url: https://en.wikibooks.org/w/index.php?oldid=4637544
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Fresh ata rodo chiles, diced
+#  - unmapped ingredient: Seasoning of your choice
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-yam-and-spicy-egg-sauce
+title: Yam and Spicy Egg Sauce
+summary: Yam and egg sauce is a Nigerian delicacy enjoyed by every tribe in Nigeria. It can be eaten as breakfast, lunch, or dinner. Egg sauce can be served with fried yam or the boiled one and is found to contain calcium and Vitamins (A and C)
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Large mixing bowl or punch bowl
+- Mixing spoon
+- Ladle
+- Cutting board
+- Large knife
+techniques:
+- boiling
+- pan-frying
+- whisking
+ingredient_groups:
+- name: Main ingredients
+  items:
+  - {ingredient: yam, prep: peeled}
+- name: Egg sauce
+  items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: tomato, prep: diced}
+  - {ingredient: onion, prep: diced}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: egg}
+steps:
+- Cut the yam to your desired shape. Please note the shape for boiled and fried are different. Fried has a more light cutting compared to boiling.
+- Either boil the yam in salted water until tender OR salt the yam and fry in groundnut oil until golden brown.
+- Heat a little oil in a saucepan.
+- Add the diced tomatoes, chile, and onions. Fry for about 5 minutes until softened.
+- Add salt and seasoning to taste.
+- Crack eggs in a clean bowl, and whisk until smooth.
+- Pour the eggs into the pan with the sauce. Cook, stirring, for about 2 minutes or until the egg is cooked.
+- Serve the sauce with the yams.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AYam_and_Spicy_Egg_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Yam and Spicy Egg Sauce@4521637
+    url: https://en.wikibooks.org/w/index.php?oldid=4521637
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

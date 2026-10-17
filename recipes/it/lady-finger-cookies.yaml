@@ -1,0 +1,56 @@
+id: it-lady-finger-cookies
+title: Lady Finger Cookies
+alternate_names:
+- Savoiardi
+summary: Savoiardi are a sponge-like cookie originally from the Aosta Valley of Italy in the Alps, once known as the Duchy of Savoy (whence its name is derived). They figure prominently in several desserts, including puddings and tiramisu, as they absorb liquids excellently.
+origin:
+  country: IT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 60
+  amount: 60 biscotti
+time:
+  total_min: 30
+difficulty: 4
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 400}
+  - {ingredient: baking-powder, unit: tsp, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: vegetable-oil, unit: cup, qty: 1}
+  - {ingredient: egg, qty: 4}
+  - {ingredient: lemon-juice}
+  - {ingredient: powdered-sugar}
+  - {ingredient: vanilla-extract}
+steps:
+- Whip the eggs until very thick. Add sugar, oil, vanilla, baking powder, and lemon juice, and stir until combined.
+- Slowly fold in flour with a wooden spoon, continually adding until you have a very thick batter (you may need more or less flour).
+- On a large flat surface, such as a cutting board or plate, sift the powdered sugar.
+- Using a teaspoon, scoop walnut-sized balls of batter onto the powdered sugar, and roll each into an oval.
+- Transfer cookies to a cookie sheet lined with parchment paper, and cover with a single layer of parchment.
+- Place pans into an oven preheated to 200°C (392°F).
+- Bake for 5–15 minutes, until biscotti begin to turn golden.
+- Cool completely.
+tips:
+- If you choose to buy savoiardi in a store rather than make them, be sure of the date they were made as they have a very short shelf life.
+- Properly made savoiardi should never be soft.
+- Savoiardi are often enjoyed dipped in brandy and espresso coffee.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALady_Finger_Cookies_%28Savoiardi%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lady Finger Cookies (Savoiardi)@4515289
+    url: https://en.wikibooks.org/w/index.php?oldid=4515289
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

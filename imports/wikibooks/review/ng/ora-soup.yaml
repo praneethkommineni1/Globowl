@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 bunch ora leaves, torn into small pieces and rinsed
+#  - unmapped ingredient: Uziza leaves, washed and minced
+#  - unmapped ingredient: Shaki
+id: ng-ora-soup
+title: Ora Soup
+summary: Ora Soup.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2-3
+time:
+  total_min: 45
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: taro, qty: 8, prep: washed}
+  - {ingredient: stockfish}
+  - {ingredient: stockfish}
+  - {ingredient: bouillon-cube}
+  - {ingredient: red-palm-oil, qty: 3}
+  - {ingredient: iru, qty: 1}
+  - {ingredient: beef}
+  - {ingredient: fish}
+  - {ingredient: ground-crayfish}
+  - {ingredient: red-chili}
+steps:
+- Boil the cocoyams until soft. Peel them, and use a mortar and pestle to pound them to a smooth paste.
+- Boil the shaki, stockfish, and dryfish in 1 liter of water for about 45 minutes over medium heat.
+- Add the beef and stock cubes and continue cooking until well done.
+tips:
+- Tearing the ora leaves prevents the vegetables from becoming darker in color, as they would when sliced with a knife.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AOra_Soup_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ora Soup II@4518475
+    url: https://en.wikibooks.org/w/index.php?oldid=4518475
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,76 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup dried beans
+#  - unmapped ingredient: 3 cups ewedu leaves
+id: ng-abula
+title: Abula
+alternate_names:
+- Nigerian Three Stews
+summary: 'Abula (literally "mixture") is a dish common amongst Yoruba people of Nigeria. It is a combination of three different soups/stews: gbegiri, ewedu, and pepper sauce.'
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–3
+time:
+  total_min: 20
+difficulty: 4
+equipment:
+- Blender
+- Stovetop
+- Pot
+- Knife
+- Bowl
+- Colander
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- name: Gbegiri
+  items:
+  - {ingredient: beef, qty: 2, prep: cut into pieces, note: large}
+  - {ingredient: red-palm-oil, unit: cup, qty: 0.5}
+  - {ingredient: onion, qty: 1}
+  - {ingredient: ground-crayfish, unit: tsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: stockfish, qty: 2}
+- name: Ewedu
+  items:
+  - {ingredient: potash, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: bouillon-cube, qty: 1}
+  - {ingredient: iru, qty: 2}
+- name: Pepper sauce
+  items:
+  - {ingredient: red-bell-pepper, qty: 2}
+  - {ingredient: tomato, qty: 3}
+steps:
+- Soak the beans in water overnight. Remove and discard the skins.
+- Boil the beans in fresh water until very soft. Drain well.
+- Blend the beans to a purée using a blender. Set aside.
+- Boil the meat in a pot of water with onions and spices. Remove the meat and set aside.
+- Heat a small amount of palm oil in a pot. Add the blended beans, crayfish, salt, boiled meat, and dryfish. Cook until the fish is softened.
+- Boil the ewedu for about 15 minutes.
+- Soften with potash, then add a pinch of salt and stock cube.
+- Blend the ewedu mixture until smooth, and stir in the locust beans.
+- Reduce the heat, and allow to simmer.
+- Blend the pepper and tomato together until smooth.
+- Heat a small amount of oil in a pot over medium heat. Add the blended mixture, and cook until it loses the raw flavor.
+- Serve the pepper sauce in one dish with the gbegiri and ewedu.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAbula_%28Nigerian_Three_Stews%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Abula (Nigerian Three Stews)@4638738
+    url: https://en.wikibooks.org/w/index.php?oldid=4638738
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

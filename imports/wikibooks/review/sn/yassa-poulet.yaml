@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: sn-yassa-poulet
+title: Yassa Poulet
+alternate_names:
+- Senegalese Chicken
+summary: Yassa poulet is a popular dish that can be found throughout West Africa, though it specifically originated from Senegal. It has a unique, sweet taste.
+origin:
+  country: SN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- marinating
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 6}
+  - {ingredient: onion, qty: 3, prep: thinly sliced, note: large}
+  - {ingredient: garlic, qty: 4, prep: neatly minced}
+  - {ingredient: dijon-mustard, unit: tbsp, qty: 3}
+  - {ingredient: chicken-stock, unit: cup, qty: 2}
+  - {ingredient: lemon, unit: cup, qty: 0.5}
+  - {ingredient: paprika, unit: tsp, qty: 2}
+  - {ingredient: cayenne, unit: tsp, qty: 1}
+  - {ingredient: bouillon-cube, unit: tsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: olive-oil, unit: tbsp, qty: 4}
+steps:
+- Wash the chicken and pat it dry with paper towels.
+- Put the chicken in a large bowl with the garlic, onions, dijon mustard, lemon juice, salt, bouillon powder, cayenne pepper and smoked paprika. Mix together well and place in the fridge to marinate for 2–12 hours.
+- Take the chicken out of the marinade, and scrape off the marinade and the onions. Reserve the marinade.
+- Heat the olive oil in the large Dutch oven over medium heat, and add the chicken. Let it brown on both sides for 5 minutes. Take out and set aside the chicken.
+- To the pot, add the onions and remaining marinade. Cook on medium heat for 5 minutes until browned.
+- Return the browned chicken pieces to the sweet caramelized onions.
+- Add the chicken broth, and simmer for 20 minutes over medium heat until the chicken is fully cooked.
+- Taste for salt and other ingredients and make any necessary adjustments.
+tips:
+- If you cannot eat it all at once, you can store it in the fridge for four days and in the deep freezer for up to 6 months.
+- You can reheat this dish in a skillet over medium heat—if you notice it is too dry you can add a splash of chicken broth to make it moist.
+- Try using a different type of mustard like whole grain or spicy brown if Dijon is not readily available.
+- You can adjust the spice level to your taste. You can add some extra spice such as black pepper to improve its flavour.
+- Try to brown the chicken well, as this improve the look and flavor.
+- Make sure you use fresh lemon to get a nice taste—if this is not available, you can make use of bottled lemon or lime juice.
+- It can be eaten with rice or cauliflower rice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AYassa_Poulet_%28Senegalese_Chicken%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Yassa Poulet (Senegalese Chicken)@4613409
+    url: https://en.wikibooks.org/w/index.php?oldid=4613409
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

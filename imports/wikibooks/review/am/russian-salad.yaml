@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (AM, RU): confirm the country of origin
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: am-russian-salad
+title: Russian Salad
+summary: In this Armenian version of Russian salad (Սալադ Րուս), there are equal amounts of peas, diced carrots, corn, diced potato, and about half that amount of diced cucumber pickles and mayonnaise.
+origin:
+  country: AM
+  also_claimed_by:
+  - RU
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: corn-kernels, unit: cup, qty: 1}
+  - {ingredient: carrot, unit: cup, qty: 1}
+  - {ingredient: green-peas, unit: cup, qty: 1}
+  - {ingredient: potato, unit: cup, qty: 1}
+  - {ingredient: cucumber, unit: cup, qty: 0.5}
+  - {ingredient: mayonnaise, unit: cup, qty: 2}
+  - {ingredient: salt}
+steps:
+- Boil together the vegetables, then drain and transfer to a bowl.
+- Add the diced pickles and cool to room temperature.
+- Add the mayonnaise, and stir until uniformly mixed.
+- Finish by seasoning with some salt to taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARussian_Salad&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Russian Salad@4518159
+    url: https://en.wikibooks.org/w/index.php?oldid=4518159
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

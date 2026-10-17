@@ -1,0 +1,50 @@
+id: pk-chicken-karahi
+title: Chicken Karahi
+native_name: {text: چکن کڑاہی, lang: ur, romanized: chicken karāhī}
+summary: Chicken cooked fast and hot in a wok-like karahi with fresh tomatoes, ginger, garlic and green chilies until the sauce clings.
+origin:
+  country: PK
+  region: Khyber Pakhtunkhwa and Punjab
+  also_claimed_by: [IN]
+course: main
+dish_types: [curry]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 35}
+difficulty: 2
+equipment: [Karahi or wok]
+techniques: [pan-frying, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: vegetable-oil, qty: 80, unit: ml, alt: [ghee]}
+      - {ingredient: chicken-thigh, qty: 1, unit: kg, prep: "bone-in, cut into small pieces"}
+      - {ingredient: ginger, qty: 5, unit: cm, note: "half grated, half cut into thin matchsticks"}
+      - {ingredient: garlic, qty: 6, unit: clove, prep: "crushed"}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: tomato, qty: 500, unit: g, prep: "chopped"}
+      - {ingredient: kashmiri-chili-powder, qty: 1, unit: tsp}
+      - {ingredient: chili-flakes, qty: 1, unit: tsp}
+      - {ingredient: ground-coriander, qty: 1, unit: tsp}
+      - {ingredient: cumin-seeds, qty: 1, unit: tsp, prep: "toasted and crushed"}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+      - {ingredient: yogurt, qty: 3, unit: tbsp, optional: true}
+      - {ingredient: green-chili, qty: [4, 6], prep: "slit"}
+      - {ingredient: garam-masala, qty: 0.5, unit: tsp}
+      - {ingredient: cilantro, qty: 1, unit: handful, prep: "chopped"}
+steps:
+  - Heat the oil in the karahi over high heat. Add the chicken and fry, turning, until it loses its raw colour (5 minutes).
+  - Add the grated ginger, garlic and salt and fry for 2 minutes.
+  - text: Add the tomatoes, cover, and cook over medium-high heat until they have completely broken down. Remove any loose tomato skins.
+    timer_min: 10
+  - text: Uncover, add the chili powder, chili flakes, coriander, cumin and pepper, and stir-fry over high heat — pressing and turning — until the oil separates from a thick masala that coats the chicken.
+    timer_min: 12
+  - Stir in the yogurt if using and cook 2 minutes. Add the green chilies, ginger matchsticks and garam masala and toss for 1 minute.
+  - Finish with cilantro and serve from the karahi.
+serving: With naan or roti, sliced onion and lemon.
+culture: Named after the cast-iron pan it's cooked and served in; roadside karahi restaurants on the Grand Trunk Road are famous for it.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

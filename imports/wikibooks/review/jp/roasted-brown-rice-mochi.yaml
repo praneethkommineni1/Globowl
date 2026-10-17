@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: jp-roasted-brown-rice-mochi
+title: Roasted Brown Rice Mochi
+summary: Roasted Brown Rice Mochi.
+origin:
+  country: JP
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pressure-cooking
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: [2, 2.5]}
+  - {ingredient: salt, unit: pinch, qty: 2}
+steps:
+- Wash the rice and soak for a couple of hours or overnight.
+- Cook the rice in a pressure cooker until the liquid is absorbed.
+- Grind the cooked rice in a mortar until the grain is completely fluid and sticky. This will take at least 30 minutes of grinding when done by hand.
+- Shape the mash into 2 cm squares. Place the rice squares on an oiled plate and allow to dry for 1–2 days.
+- Keep covered in a cold dry room or in the refrigerator.
+- After this, roast the squares for 5 minutes in a pan.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARoasted_Brown_Rice_Mochi&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Roasted Brown Rice Mochi@4513032
+    url: https://en.wikibooks.org/w/index.php?oldid=4513032
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

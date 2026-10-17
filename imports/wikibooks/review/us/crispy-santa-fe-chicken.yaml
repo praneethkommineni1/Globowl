@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-crispy-santa-fe-chicken
+title: Crispy Santa Fe Chicken
+summary: A lot of crispy baked chicken recipes use things like breadcrumbs or cracker crumbs. Here, the croûtons add a little flavor.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 4}
+  - {ingredient: croutons, unit: cup, qty: 0.5}
+  - {ingredient: butter, unit: cup, qty: 0.25, prep: melted}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: chili-powder, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: cayenne, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+  - {ingredient: monterey-jack, unit: cup, qty: 0.75}
+  - {ingredient: olive-oil}
+steps:
+- Preheat oven to 425°F.
+- Combine butter, seasonings, and salt in a pie plate or a large wide dish.
+- Dip chicken into egg mixture then dredge into croûton crumbs. Let rest 2–3 minutes.
+- Coat chicken pieces on olive oil then place on a greased baking pan.
+- Insert a probe thermometer into one of the pieces, and bake in the oven until internal temperature reaches 165°F.
+- Sprinkle chicken pieces evenly with cheese and bake until cheese is melted. Serve warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACrispy_Santa_Fe_Chicken&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Crispy Santa Fe Chicken@4515022
+    url: https://en.wikibooks.org/w/index.php?oldid=4515022
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,44 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 recipe of home-made Frito Pie Chili, hot
+#  - unmapped ingredient: 1 bag Fritos corn chips
+#  - no time in recipe summary
+#  - duplicate id us-frito-pie from another Wikibooks page
+id: us-frito-pie
+title: Frito Pie
+alternate_names:
+- No-bake
+summary: This recipe is based on the recipe for home-made Frito Pie Chili.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: monterey-jack, qty: 1}
+  - {ingredient: sour-cream, unit: tbsp, qty: 6}
+  - {ingredient: green-chili, qty: 1, note: small}
+steps:
+- Place a handful of the chips in each of 8 shallow bowls.
+- Spoon the Frito Pie Chili over the chips.
+- Garnish with the grated cheese, sour cream, and jalapeños.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrito_Pie_%28No-bake%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Frito Pie (No-bake)@4518552
+    url: https://en.wikibooks.org/w/index.php?oldid=4518552
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

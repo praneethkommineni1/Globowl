@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - course unknown from categories
+id: xx-cameroon-koki-corn
+title: Cameroon Koki Corn
+summary: Koki corn is a classic Cameroonian dish known for its vibrant yellow color derived from red palm oil, as well as its delightful sweet taste originating from fresh corn.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 40
+difficulty: 2
+techniques:
+- boiling
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: red-palm-oil, unit: cup, qty: 0.333}
+  - {ingredient: corn-kernels, unit: cup, qty: 4}
+  - {ingredient: onion, qty: 0.5}
+  - {ingredient: cornmeal, unit: cup, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: bouillon-cube, qty: 1}
+  - {ingredient: banana, qty: 5}
+steps:
+- Warm the palm oil in a skillet for 2–3 minutes without bleaching it.
+- Place the corn, onion, and hot pepper in a blender or food processor. Add ¼ cup water, then blend until you achieve a coarsely ground paste. Avoid blending it into a fine paste; small bits and pieces of corn should still be visible.
+- Transfer the blended mixture to a bowl and add the cornmeal. Pour in the heated oil and mix thoroughly. Add salt and stock cube, then continue mixing.
+- Incorporate the chopped leaves into the mixture and mix until well combined.
+- Prepare a pot by lining the bottom with stripped corn cobs. This creates an elevated base that prevents water from seeping into the koki corn. Pour approximately ½ cup water into the pot and bring it to a gentle boil while you proceed with wrapping the koki corn.
+- Wrap the corn mixture in banana leaves to make little bundles. Place them in the pot, then cover them with torn or unused banana leaves (or aluminum foil). This helps retain the steam during cooking.
+- Place the lid on the pot and steam for about 30 minutes. Every 5–10 minutes, open the pot and add ½ cup water to prevent it from drying out.
+- After cooking, allow it to rest for approximately 10 minutes. Unwrap the bundles and serve the koki corn warm.
+- Enjoy your delicious koki corn!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACameroon_Koki_Corn&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cameroon Koki Corn@4629673
+    url: https://en.wikibooks.org/w/index.php?oldid=4629673
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

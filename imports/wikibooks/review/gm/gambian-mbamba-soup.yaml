@@ -1,0 +1,69 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gm-gambian-mbamba-soup
+title: Gambian Mbamba Soup
+summary: Mbamba soup is a flavorful and aromatic Gambian dish made with dried fish and a variety of vegetables. It is a nutritious soup that is known for its rich taste and comforting qualities. Mbamba Soup is often enjoyed with rice or served as a side dish.
+origin:
+  country: GM
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large pot with a lid
+- Knife
+- Cutting board
+- Measuring spoons
+- Cooking spoon or spatula
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: tilapia, unit: g, qty: 200}
+  - {ingredient: red-palm-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: tomato, qty: 2, prep: diced}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 1}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 1}
+  - {ingredient: butternut-squash, unit: cup, qty: 2}
+  - {ingredient: okra, unit: cup, qty: 2}
+  - {ingredient: eggplant, unit: cup, qty: 2, prep: diced}
+  - {ingredient: water}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Soak the dried fish in water for at least 30 minutes to rehydrate it. Once rehydrated, remove the bones and break the fish into smaller pieces. Set aside.
+- In a large pot, heat the palm oil or vegetable oil over medium heat. Add the chopped onions and minced garlic. Sauté until they become soft and translucent.
+- Add the diced tomatoes, tomato paste, ground ginger, ground paprika, and ground cayenne pepper to the pot. Stir well to combine.
+- Mix in the diced pumpkin or squash, sliced okra, and diced eggplant. Ensure that the vegetables are evenly coated with the spice mixture.
+- Add enough water or broth to the pot to cover the vegetables and create a soupy consistency.
+- Bring the mixture to a boil, then reduce the heat to low and cover the pot with a lid. Allow the soup to simmer for about 30–40 minutes, or until the vegetables are tender and the flavors have melded together. Stir occasionally to prevent sticking.
+- Gently add the deboned and rehydrated dried fish pieces to the soup. Be careful not to break them apart.
+- Continue simmering the soup for an additional 10–15 minutes, or until the fish is heated through.
+- Taste the soup and adjust the seasoning with salt, pepper, and additional spices if desired.
+- Serve hot with rice or as a side dish to accompany other main dishes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGambian_Mbamba_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gambian Mbamba Soup@4629619
+    url: https://en.wikibooks.org/w/index.php?oldid=4629619
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

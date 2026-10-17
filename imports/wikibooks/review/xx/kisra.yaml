@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 cups sorghum or millet flour
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-kisra
+title: Kisra
+alternate_names:
+- Sudanese Bread
+summary: Kisra is a traditional Sudanese flatbread made from sorghum or millet flour. It is a staple food in Sudan and is enjoyed with a variety of dishes, such as stews, soups, and dips. Kisra has a thin and flexible texture, with a slightly tangy flavor due to the fermentation process.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Mixing bowl
+- Whisk or spoon
+- Stovetop
+- Non-stick frying pan or griddle
+- Spatula
+techniques:
+- fermenting
+ingredient_groups:
+- items:
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: yeast, unit: tsp, qty: 0.5}
+  - {ingredient: vegetable-oil}
+steps:
+- In a mixing bowl, combine the sorghum or millet flour and salt. Gradually add the warm water while whisking or stirring continuously to create a smooth batter. Ensure there are no lumps in the mixture.
+- If fermenting the batter, mix in the yeast. Cover the bowl with a clean kitchen towel and let it rest in a warm place for 8–12 hours. This allows the batter to ferment and develop flavor. If you prefer non-fermented kisra, skip this step.
+- Preheat a non-stick pan or griddle over medium heat. Make sure the pan is hot before pouring the batter.
+- Stir the batter thoroughly before pouring a ladleful onto the hot pan. Immediately tilt and rotate the pan in a circular motion to spread the batter evenly into a thin layer. Kisra should be thin and flexible.
+- Allow the kisra to cook on one side for a few minutes until the edges start to lift and the bottom is golden brown. Once the surface is dry and the edges are crisp, remove from the pan using a spatula (it should only be cooked on one side). Repeat the cooking process with the remaining batter.
+- Stack the cooked kisra on a plate or wrap them in a clean kitchen towel to keep them soft and pliable. They can be stored at room temperature for a few days or in the refrigerator for a longer shelf life.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKisra_%28Sudanese_Bread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kisra (Sudanese Bread)@4503456
+    url: https://en.wikibooks.org/w/index.php?oldid=4503456
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

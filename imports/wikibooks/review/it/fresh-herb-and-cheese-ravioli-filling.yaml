@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 oz blue cheese
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: it-fresh-herb-and-cheese-ravioli-filling
+title: Fresh Herb and Cheese Ravioli Filling
+summary: Fresh Herb and Cheese Ravioli Filling.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: ricotta, unit: g, qty: 113}
+  - {ingredient: mozzarella, unit: g, qty: 57}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: basil, unit: tbsp, qty: 4}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Beat eggs and place in a bowl.
+- Beat in the cheeses with a fork until well blended.
+- Mix in the herbs and seasoning.
+- Refrigerate until the pasta dough is rolled out.
+tips:
+- Serve ravioli with this filling accompanied by tomato sauce and spring vegetables.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFresh_Herb_and_Cheese_Ravioli_Filling&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fresh Herb and Cheese Ravioli Filling@4516646
+    url: https://en.wikibooks.org/w/index.php?oldid=4516646
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

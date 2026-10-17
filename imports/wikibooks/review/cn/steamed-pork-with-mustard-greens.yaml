@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: About 10.5 ounces mustard greens
+#  - unmapped ingredient: 1 tsp rice wine or water
+#  - unmapped ingredient: 2 tbsp black bean and garlic sauce
+#  - unmapped ingredient: About 2 tbsp water
+id: cn-steamed-pork-with-mustard-greens
+title: Steamed Pork With Mustard Greens
+summary: 'Steamed pork with mustard greens (梅菜扣肉, pinyin: Méicàikòuròu) or mei cai kou rou is a Chinese dish from the Hakka people. It is very popular and tasty but contains a lot of saturated fat.'
+origin:
+  country: CN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- boiling
+- marinating
+- simmering
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: cornstarch, unit: tsp, qty: 1}
+  - {ingredient: sugar, unit: tsp, qty: 0.5}
+  - {ingredient: soy-sauce, unit: tsp, qty: 2}
+  - {ingredient: pork, unit: g, qty: 340}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: black-pepper}
+steps:
+- Wash greens and discard tough stems.
+- Bring a large pot of water to a boil, add greens, and cook for 2 minutes.
+- Drain greens and rinse with cold water to stop the cooking. Drain again, then cut greens into long diagonal strips.
+- In a medium bowl, combine cornstarch and water. Stir in sugar, soy sauce and rice wine. Cut pork into thin slices and add to the mixture. Marinate about 20 minutes, stirring occasionally.
+- Heat oil in a preheated wok or large heavy skillet over medium heat. Add black bean sauce and stir-fry for 1 minute.
+- Add pork and stir-fry for 2 minutes.
+- Add mustard greens and water. Mix well and simmer gently about 4–5 minutes, until pork is cooked through and greens are tender.
+- Season with pepper and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASteamed_Pork_With_Mustard_Greens&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Steamed Pork With Mustard Greens@4615122
+    url: https://en.wikibooks.org/w/index.php?oldid=4615122
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

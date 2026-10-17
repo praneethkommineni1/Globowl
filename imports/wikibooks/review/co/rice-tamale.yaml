@@ -1,0 +1,70 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 6 small Vienna sausages
+#  - course unknown from categories
+id: co-rice-tamale
+title: Rice Tamale
+alternate_names:
+- Pastel de Arroz
+summary: El Pastel de Arroz (rice tamale) is typical dish from Cartagena, Colombia. It is very common to find it on Sundays at the beach or as a Christmas Eve favourite.
+origin:
+  country: CO
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 60
+difficulty: 4
+ingredient_groups:
+- name: Rice
+  items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 1.5}
+  - {ingredient: white-vinegar, unit: cup, qty: 0.5}
+  - {ingredient: ground-cumin, unit: tbsp, qty: 6}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: annatto, unit: tbsp, qty: 2}
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.5}
+  - {ingredient: garlic-powder, unit: tbsp, qty: 1}
+- name: Filling
+  items:
+  - {ingredient: pork, qty: 6}
+  - {ingredient: chicken, qty: 6}
+  - {ingredient: chorizo, qty: 6, note: small}
+  - {ingredient: bacon, unit: slice, qty: 6}
+  - {ingredient: carrot}
+  - {ingredient: chickpeas-canned, unit: can, qty: 1}
+  - {ingredient: potato, qty: 3, note: medium}
+  - {ingredient: tomato, qty: 3}
+  - {ingredient: white-cabbage, qty: 12, note: large}
+  - {ingredient: banana, qty: 24, note: large}
+  - {ingredient: capers, prep: 'olives, and pickled onions'}
+steps:
+- Mix all the ingredients well in a large Pyrex baking dish.
+- Let stand one day under the sun (this is called orear).
+- Place 1 leaf of cabbage on top of a clean working area.
+- Spread ⅛ cup of the rice mixture over the cabbage leaf.
+- Place one unit of each meat evenly through the pastel.
+- Place pickles, chickpeas, capers, pickled onions on top of the meats.
+- Place 2 slices of potato and 2 slices of tomato on top. Cover with another ⅛ cup of rice mixture.
+- Cover with one leaf of cabbage.
+- Place one washed lobster claw / banana leaf in a plain working area. Carefully put the pastel over the leaf and roll firmly. Cover with a second leaf and roll firmly. Tie with thread.
+- Cook in a large pan, covered with water, vinegar and salt, for 2 hours.
+tips:
+- 'Onoto substitutes: pinch of paprika (for color not flavor); an equal amount of saffron; yellow food coloring; hot paprika; or equal parts turmeric and paprika.'
+- 'You can prepare your own pickles: For 6 pastels boil 1½ cup water, ½ cup vinegar, 4 tbsp brown sugar and 1 large carrot cut into 6 sticks, 2 celery sticks cut in three pieces each, 6 green beans cut in half, 1 large red bell pepper cut into 12 sticks, and 1 small cauliflower. Let cool down and keep refrigerated overnight, before using it.'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARice_Tamale_%28Pastel_de_Arroz%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rice Tamale (Pastel de Arroz)@4525535
+    url: https://en.wikibooks.org/w/index.php?oldid=4525535
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

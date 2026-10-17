@@ -1,0 +1,44 @@
+id: mn-buuz
+title: Buuz
+native_name: {text: Бууз, lang: mn, romanized: buuz}
+summary: Steamed dumplings packed with juicy minced mutton, onion and garlic — Mongolia's essential Lunar New Year food.
+origin:
+  country: MN
+course: main
+dish_types: [dumpling]
+occasions: [Tsagaan Sar (Lunar New Year)]
+authenticity: traditional
+yield: {servings: 5, amount: about 30 buuz}
+time: {prep_min: 60, cook_min: 20, inactive_min: 20}
+difficulty: 4
+equipment: [Steamer]
+techniques: [dough-making, dumpling-folding, steaming]
+ingredient_groups:
+  - name: Dough
+    items:
+      - {ingredient: all-purpose-flour, qty: 400, unit: g}
+      - {ingredient: water, qty: 200, unit: ml}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+  - name: Filling
+    items:
+      - {ingredient: lamb-mince, qty: 500, unit: g, note: "fatty mutton is traditional; beef also works"}
+      - {ingredient: onion, qty: 1, note: "large, very finely chopped"}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "minced"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+      - {ingredient: water, qty: 60, unit: ml, note: "cold — keeps the filling juicy"}
+steps:
+  - Knead the dough ingredients until smooth; rest 20 minutes.
+  - Mix the filling ingredients thoroughly.
+  - Roll the dough into a log, cut into 30 pieces and roll each into a 7 cm round.
+  - Put a spoonful of filling in the centre and pleat the edges up around it, leaving a small opening at the top.
+  - text: Steam over boiling water until the filling is cooked through.
+    timer_min: 18
+serving: With pickled vegetables or salad, and milk tea (suutei tsai). Eat carefully — the juice inside is hot.
+culture: Families make hundreds or thousands of buuz together in the days before Tsagaan Sar and freeze them for guests.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

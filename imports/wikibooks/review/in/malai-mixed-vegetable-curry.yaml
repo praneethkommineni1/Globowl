@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup paneer cubes
+#  - course unknown from categories
+id: in-malai-mixed-vegetable-curry
+title: Malai Mixed Vegetable Curry
+summary: Malai mixed vegetable, is a creamy side dish for Indian bread.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 10
+time:
+  total_min: 30
+difficulty: 3
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: red-bell-pepper, qty: 3}
+  - {ingredient: orange, qty: 1, prep: 'yellow, and red capsicum'}
+  - {ingredient: cashews}
+  - {ingredient: tomato, qty: 4, note: large}
+  - {ingredient: carrot, unit: cup, qty: 1}
+  - {ingredient: green-peas, unit: cup, qty: 1}
+  - {ingredient: red-chili, qty: [3, 4], prep: finely chopped}
+  - {ingredient: parsley}
+  - {ingredient: butter, unit: tbsp, qty: 1}
+  - {ingredient: garam-masala}
+  - {ingredient: chili-powder}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: ground-turmeric}
+  - {ingredient: heavy-cream, qty: 1}
+  - {ingredient: sour-cream, unit: tbsp, qty: 1}
+  - {ingredient: cilantro}
+steps:
+- Cut the bell peppers into ½-inch pieces.
+- Sauté paneer until golden brown; set aside.
+- Soak a handful of cashew nuts in warm water.
+- Grind the tomatoes and the soaked cashew into a fine paste. Keep this paste aside.
+- Sauté the chopped vegetables, green chillies, and dried parsley in the butter/oil until they are cooked. You could also microwave the vegetables for ~10 minutes without water, and then sauté them in butter for a minute.
+- Add the tomato paste to the vegetables and cook for 5 minutes.
+- Add the garam masala, red chilli powder, salt, and turmeric according to taste; simmer for 2 minutes.
+- Add the whipping cream and the sour cream, and let it cook until the cream thickens.
+- Add the paneer and mix well.
+- Garnish with cilantro and cashew nuts.
+- Serve hot with naan or roti.
+tips:
+- You could choose other vegetables like zucchini or broccoli if you like.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMalai_Mixed_Vegetable_Curry&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Malai Mixed Vegetable Curry@4524805
+    url: https://en.wikibooks.org/w/index.php?oldid=4524805
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

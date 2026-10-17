@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 teaspoons powdered milk
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: ng-gurasa
+title: Gurasa
+alternate_names:
+- Hausa Flatbread with Vegetables
+summary: Gurasa or "light bread" is a traditional Hausa/Fulani Food in northern Nigeria and other parts of West Africa. It is eaten as a light dish for lunch or breakfast.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 90
+difficulty: 2
+equipment:
+- Mixing bowl
+- Knife
+- Skillet
+- Cooking spoon
+- Spatula
+- Stovetop
+ingredient_groups:
+- items:
+  - {ingredient: yeast, unit: tsp, qty: 1}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: vegetable-oil}
+  - {ingredient: tomato, prep: chopped}
+  - {ingredient: onion, prep: chopped}
+  - {ingredient: red-bell-pepper, prep: chopped}
+  - {ingredient: red-chili, note: to taste}
+  - {ingredient: salt, note: to taste}
+steps:
+- Combine the yeast and warm water. Let rest for 5 minutes to activate the yeast.
+- Combine the flour, milk powder, and salt in a bowl. Stir in the yeast mixture to get a very thick and smooth batter.
+- Cover the bowl, and let the mixture rise for 1 hour.
+- Heat a skillet over medium heat, and add a thin coating of oil.
+- Scoop some batter into the skillet, and use the scoop to spread it into a circle.
+- Cook the gurasa until golden on the bottom. Flip it and cook until golden on the other side.
+- Remove the gurasa, and repeat the cooking process until you use up the rest of the batter.
+- Toss together the tomatoes, onions, peppers, chile powder, and a dash of oil. Season to taste with salt if desired.
+- Cut or tear the gurasa into pieces, and serve with the vegetable salad.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGurasa_%28Hausa_Flatbread_with_Vegetables%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gurasa (Hausa Flatbread with Vegetables)@4540971
+    url: https://en.wikibooks.org/w/index.php?oldid=4540971
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

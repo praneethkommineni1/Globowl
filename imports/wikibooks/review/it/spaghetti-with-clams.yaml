@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 kg live clams
+#  - unmapped ingredient: 225 g canned, shelled clams, thoroughly rinsed
+#  - course unknown from categories
+id: it-spaghetti-with-clams
+title: Spaghetti with Clams
+summary: 'Spaghetti alle vongole (spaghetti with clams) originated in Naples and is very popular throughout the surrounding Campania region in addition to Rome. Italians prepare this dish two ways: with tomatoes (in rosso) and without (in bianco).'
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 30
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: l, qty: 4}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: spaghetti, unit: g, qty: 450}
+  - {ingredient: olive-oil}
+  - {ingredient: garlic, unit: g, qty: 20, prep: minced}
+  - {ingredient: tomato, unit: g, qty: 225}
+  - {ingredient: chicken-stock, unit: ml, qty: 120, optional: true}
+  - {ingredient: parsley, unit: handful, qty: 1, prep: minced}
+  - {ingredient: black-pepper, prep: 'less commonly, black pepper to taste', note: to taste}
+steps:
+- Boil the water in a large pot with a tablespoon of salt.
+- Add the spaghetti once the water starts boiling. Cook until the pasta is al dente. This should take 7–8 minutes.
+- Pour olive oil into a large, wide pan so that it barely covers the bottom and heat the oil.
+- Add the garlic, along with the peperoncino, and sauté until golden brown. This should take about a minute. Be careful not to burn the garlic.
+- Add the live clams and diced tomatoes.
+- Put the lid on the pan and cook for about eight minutes. Shake the pan every minute or so to help the clams open. Throw out those that don't.
+- Drain the spaghetti and put it in the pan with the live clams and tomatoes. Reduce the heat to low.
+- Add the canned clams and clam broth to the pan.
+- Season with salt (and pepper, if the peperoncino is not used) to taste and toss until the pasta is well coated with tomatoes and oil. Add another tablespoon of olive oil if you like.
+- Sprinkle with chopped parsley.
+- Serve hot.
+tips:
+- See more information on cooking with live clams on their ingredient page.
+- Resist the urge to add cheese. This recipe is intended as a light summer dish.
+- Omit the tomatoes to make spaghetti alle vongole in bianco.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASpaghetti_with_Clams&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Spaghetti with Clams@4630303
+    url: https://en.wikibooks.org/w/index.php?oldid=4630303
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

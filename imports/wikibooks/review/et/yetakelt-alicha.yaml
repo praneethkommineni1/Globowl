@@ -1,0 +1,75 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: et-yetakelt-alicha
+title: Yetakelt Alicha
+alternate_names:
+- Ethiopian Vegetable Stew
+summary: Yetakelt alicha is a flavorful and comforting Ethiopian vegetable stew made with a medley of vegetables cooked in a mild and aromatic sauce. This vegetarian stew is a popular part of Ethiopian cuisine and is enjoyed as a main course with injera (Ethiopian flatbread) or rice.
+origin:
+  country: ET
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Large saucepan or pot
+- Wooden spoon or spatula
+- Cutting board
+- Chef's knife
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: ginger, unit: tbsp, qty: 1, prep: grated}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 2}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 0.5}
+  - {ingredient: cayenne, unit: tsp, qty: 0.25, note: to taste}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: carrot, qty: 2, prep: peeled and sliced, note: medium}
+  - {ingredient: potato, qty: 2, prep: peeled and diced, note: medium}
+  - {ingredient: green-beans, unit: cup, qty: 1, prep: trimmed and cut into bite-sized pieces}
+  - {ingredient: cauliflower, unit: cup, qty: 1}
+  - {ingredient: broccoli, unit: cup, qty: 1}
+  - {ingredient: chicken-stock, unit: cup, qty: 1}
+  - {ingredient: cilantro, prep: 'chopped, for garnish'}
+steps:
+- Heat the olive oil in a large saucepan or pot over medium heat. Add the finely chopped onion and sauté until it becomes translucent.
+- Stir in the minced garlic and grated ginger, and cook for another minute until fragrant.
+- Add the turmeric, cumin, paprika, cayenne pepper, and salt. Mix well to coat the onions, garlic, and ginger with the spices.
+- Add the sliced carrots, diced potatoes, green beans, cauliflower florets, and broccoli florets to the saucepan. Stir to combine the vegetables with the spice mixture.
+- Pour in the vegetable broth or water, and bring the mixture to a simmer. Reduce the heat to low, cover the saucepan, and let the stew cook for about 20–25 minutes, or until the vegetables are tender.
+- Check the seasoning and adjust with salt or additional spices if desired.
+- Remove from heat and let the yetakelt alicha rest for a few minutes to allow the flavors to meld together.
+- Garnish the stew with freshly chopped cilantro or parsley.
+- Serve hot as a main course, accompanied by injera or rice.
+tips:
+- Adjust the spiciness of the stew by adding more or less cayenne pepper according to your taste preferences.
+- You can customize the vegetables used in the stew according to your preference and seasonal availability.
+- If you prefer a thicker sauce, you can mash some of the cooked vegetables using a fork or potato masher.
+- Some recipes include the addition of tomatoes or tomato paste for a tangy twist.
+- You can add other vegetables like zucchini, eggplant, or cabbage to the stew for added variety.
+- It is a flavorful and satisfying option for those following a vegetarian or vegan diet.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AYetakelt_Alicha_%28Ethiopian_Vegetable_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Yetakelt Alicha (Ethiopian Vegetable Stew)@4518697
+    url: https://en.wikibooks.org/w/index.php?oldid=4518697
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

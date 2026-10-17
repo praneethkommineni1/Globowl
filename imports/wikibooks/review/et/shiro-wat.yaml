@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: et-shiro-wat
+title: Shiro Wat
+alternate_names:
+- Ethiopian Pea Stew
+summary: Shiro wat, sometimes called shiro wet, is a traditional Ethiopian pea stew.
+origin:
+  country: ET
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: onion, unit: cup, qty: 0.5}
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.25}
+  - {ingredient: berbere, qty: 4}
+  - {ingredient: water, unit: cup, qty: 2.5}
+  - {ingredient: green-peas, qty: 4}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: butter, qty: 2, optional: true}
+steps:
+- Heat a medium-size skillet, add the onion, and cook for 1–2 minutes.
+- Add the oil, and after 1 minute add berberei. Cook it for 4–5 minutes, stirring regularly and adding a dash of water if it tries to stick on the pan.
+- Add the water.
+- When the water boils, add the shiro, carefully stirring it in the pan; it should not make lumps. Then cook it for 5 minutes, stirring it regularly.
+- Finally, add salt and the butter, and after 2–3 minutes, remove it from the heat.
+- Served hot or cold with injera.
+tips:
+- Shiro powder can be bought from Ethiopian grocers.
+- Alternatively, split green peas can be used—just extend the simmering period until the peas are tender and fall apart.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AShiro_Wat_%28Ethiopian_Pea_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Shiro Wat (Ethiopian Pea Stew)@4518682
+    url: https://en.wikibooks.org/w/index.php?oldid=4518682
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

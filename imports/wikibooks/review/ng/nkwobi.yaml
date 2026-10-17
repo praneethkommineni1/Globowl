@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Cow feet
+#  - unmapped ingredient: Ugba
+#  - unmapped ingredient: Ground Cameroon pepper, to taste
+#  - unmapped ingredient: Sliced utazi leaves
+#  - unmapped ingredient: Sliced onions
+id: ng-nkwobi
+title: Nkwobi
+alternate_names:
+- Nigerian Spicy Cow Foot
+summary: Nkwobi is a Nigerian delicacy usually ordered and enjoyed in exclusive restaurants, events and homes too. It is simply cooked cow foot mixed with spicy palm oil paste.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2-3
+time:
+  total_min: 60
+difficulty: 2
+equipment:
+- Stove
+- Pot
+- Knife
+- Wooden bowl/serving plate
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: salt, note: to taste}
+  - {ingredient: bouillon-cube}
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: potash}
+  - {ingredient: red-palm-oil}
+  - {ingredient: ground-crayfish}
+  - {ingredient: garlic-powder, unit: tsp, qty: 1}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+steps:
+- Cut the cow feet into small pieces, and remove all the bigger bones.
+- Place the cow feet in a pot, along with the salt, seasoning cubes, and chopped onions.
+- Add just enough water to cover the meat. Simmer until the meat is tender. Add small amounts of water as necessary, but there should be little to no liquid left in the pot once the meat is done.
+- In a separate pot, boil the ugba separately for just 3 minutes. Drain.
+- Dissolve the potash in a cup of water, and strain it into a separate pot. Add the palm oil to the potash water, and stir well until thick and yellow.
+- Add the crayfish, boiled ugba, Cameroon pepper, seasoning cube, and salt to the palm oil mixture. Stir well.
+- Add your cooked meat, and stir to coat with the palm oil mixture.
+- Serve in a wooden bowl with toppings of round-cut onions and sliced utazi leaves.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANkwobi_%28Nigerian_Spicy_Cow_Foot%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nkwobi (Nigerian Spicy Cow Foot)@4518470
+    url: https://en.wikibooks.org/w/index.php?oldid=4518470
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

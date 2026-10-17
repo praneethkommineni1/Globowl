@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+id: ca-potato-salad
+title: Potato Salad
+summary: The origins of potato salad can be traced to Germany before the turn of the 17th century, where it first became popular to use vinegar and spices on potatoes as a side dish. The salad has a bite to it and is served warm as often as not.
+origin:
+  country: CA
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 30
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: g, qty: 907}
+  - {ingredient: bacon, unit: slice, qty: 6}
+  - {ingredient: onion, unit: cup, qty: 0.5}
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: celery, unit: tsp, qty: 0.5}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 0.25}
+  - {ingredient: white-vinegar, unit: cup, qty: 0.5}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: parsley, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1.5}
+  - {ingredient: black-pepper}
+  - {ingredient: paprika}
+steps:
+- Cook bacon strips, cut into small pieces, and set aside for later.
+- Boil potatoes for 5–10 minutes or until softened; cut into small chunks or thick slices.
+- Place potatoes in a large bowl and let them come to room temperature.
+- In a bowl combine flour, celery seed, parsley, chopped onion, salt, and pepper.
+- Pour the water and vinegar into a pot, stir in sugar and bring to a boil. Add the dry mixture and stir until thickened.
+- In the original bowl place potatoes and bacon, pour on thickened mixture.
+- Break apart eggs and stir lightly into the bowl to combine.
+- Place in large serving bowl and sprinkle with paprika.
+- Serve
+tips:
+- Potatoes may be boiled whole in skins, cooled, and carefully peeled to leave the thin, yellow protein layer intact for improved nutritional value and flavour. Slice at room temperature or chilled.
+- Chopping the potatoes into small pieces allow more surface to be coated and improves the flavour.
+- You can omit salt and use a chicken-flavoured bouillon cube instead. Add chopped onion to bouillon and simmer for a few minutes to blend flavours.
+- Salad can be served chilled or warm to preference.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APotato_Salad&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Potato Salad@4525019
+    url: https://en.wikibooks.org/w/index.php?oldid=4525019
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

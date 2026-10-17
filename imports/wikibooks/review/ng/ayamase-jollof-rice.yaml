@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1.5 kg assorted meat, cut in small pieces
+#  - unmapped ingredient: Shaki
+#  - unmapped ingredient: Kpomo
+#  - unmapped ingredient: 2 fillets smoked mackerel, deboned
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: ng-ayamase-jollof-rice
+title: Ayamase Jollof Rice
+summary: Ayamase jollof rice is a dish of Nigerian rice made with green bell pepper and green habanero pepper.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 25
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: red-bell-pepper, qty: 8, prep: washed and seeded, note: medium}
+  - {ingredient: scotch-bonnet, qty: 12, prep: washed and seeded, note: small}
+  - {ingredient: onion, qty: 1, note: medium}
+  - {ingredient: red-palm-oil, unit: cup, qty: 1}
+  - {ingredient: iru, unit: tbsp, qty: 2}
+  - {ingredient: bouillon-cube, qty: 3}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tbsp, qty: 0.5}
+  - {ingredient: chicken-stock, unit: cup, qty: 1}
+  - {ingredient: long-grain-rice, unit: cup, qty: 2.5, prep: washed until the water runs clear}
+steps:
+- Cook the assorted meat pieces until tender. Fry them in oil to brown them. Set aside.
+- Blend the bell pepper, habanero, and onions to a rough paste.
+- Heat the bleached palm oil in a pot over high heat. Add the blended pepper mixture, and cook, stirring.
+- Stir in the iru, stock cubes, ground crayfish, and salt. Let cook for about 10 mins, stirring often.
+- Stir in the meat stock and enough extra water to cook the rice. Bring to a boil, and stir in the rice.
+- Stir in the shaki and kpomo. Cover, and cook until the rice is tender.
+- Stir in the smoked mackerel, and let it steam for a few minutes.
+- Stir in the fried meat, and remove from the heat.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAyamase_Jollof_Rice&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ayamase Jollof Rice@4513958
+    url: https://en.wikibooks.org/w/index.php?oldid=4513958
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

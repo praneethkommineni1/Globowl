@@ -1,0 +1,34 @@
+id: no-farikal
+title: Fårikål
+native_name: {text: Fårikål, lang: nb}
+alternate_names: [Mutton in cabbage]
+summary: Norway's national dish — mutton and cabbage layered with whole black peppercorns and simmered slowly until meltingly tender.
+origin:
+  country: "NO"  # quoted: bare NO is read as false in YAML
+course: main
+dish_types: [stew]
+occasions: [Fårikål Day (last Thursday of September)]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 15, cook_min: 150}
+difficulty: 1
+techniques: [stewing]
+ingredient_groups:
+  - items:
+      - {ingredient: lamb-shoulder, qty: 1.5, unit: kg, prep: "on the bone, cut into pieces", note: "mutton is traditional"}
+      - {ingredient: white-cabbage, qty: 1.5, unit: kg, prep: "cut into wedges with the core"}
+      - {ingredient: black-peppercorns, qty: 2, unit: tbsp, note: "whole"}
+      - {ingredient: salt, qty: 2, unit: tsp}
+      - {ingredient: all-purpose-flour, qty: 2, unit: tbsp, optional: true}
+      - {ingredient: water, qty: 500, unit: ml}
+steps:
+  - Layer the meat (fatty side down first) and cabbage in a heavy pot, sprinkling each layer with salt, peppercorns and a little flour.
+  - text: Pour in the water, bring to a boil, then cover and simmer very gently until the meat falls off the bone.
+    timer_min: 150
+serving: With boiled potatoes and lingonberry jam.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

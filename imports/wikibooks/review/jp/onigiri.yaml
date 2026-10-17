@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 100 ml uncooked Japanese-style short grain rice
+#  - unmapped ingredient: Filling of choice, such as any of the following:
+#  - unmapped ingredient: Umeboshi, stones removed
+#  - unmapped ingredient: Cooked egg
+#  - course unknown from categories
+id: jp-onigiri
+title: Onigiri
+summary: Onigiri (also called omusubi) is a ball or triangle of hot or cold rice, often with a filling, frequently wrapped in nori making it easier to eat. It is a popular snack food, and is also common as part of a packed lunch.
+origin:
+  country: JP
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1 or more
+time:
+  total_min: 45
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: mayonnaise, prep: 'mixed with mayonnaise and seasoned to taste with chopped leeks, soy sauce, or chilies; sour or salty flavours work well.', note: to taste}
+  - {ingredient: salmon}
+  - {ingredient: soy-sauce, prep: moistened with a small amount of soy sauce}
+  - {ingredient: nori}
+steps:
+- Cook the rice according to package or rice cooker directions. Let cool just enough to handle with your hands.
+- While the rice is cooking, prepare your fillings.
+- 'Fill a bowl with salt water to rinse your fingers and season the onigiri. You can fill and shape the onigiri using two different methods:'
+- 'Method 1: Wet your hands in the salt water. Take two large spoonfuls of rice into one hand (carefully; the rice is hot), and gently squeeze and flatten it with the other. Make an indentation in the middle, and put some of the filling into the center. Be a little careful to get the filling only in the center and not all over the ball; that can make the rice less sticky, and stickiness is good. "Fold" the rice over the filling so it becomes covered. Squeeze gently, and mold it into a triangular shape by folding both your hands along the palms while keeping the fingers straight. Squeeze like that, rotating the ball a few times, and you will soon have a very neat triangle—this really is much harder to explain than to do. Once the ball is done, put it down on a clean surface to cool down. Rinse your hands in the salt water and repeat.'
+- 'Method 2: Use a bowl and some plastic film. Place about ⅔ of the mixture into the centre of the cling wrap that has been draped into the bowl loosely. Then, add approximately 2 teaspoons of filling (this is working off of about 3–4 portions per cup of rice. Then, place the last ⅓ of the rice to the top. Then, mould the onigiri within the cling wrap. This drastically reduces mess and also is slightly more ''kid friendly''.'
+- Once the balls are reasonably cool, you need to protect them from drying out. The easiest way is to wrap them in cling wrap, or put them into an airtight plastic food container. When it is time to eat, take one rice ball, wrap it in a piece of nori, and eat away. If you don't mind soggy nori, you can wrap the balls in nori beforehand.
+tips:
+- You must use Japanese-style short grain rice; if the rice isn't sticky, the onigiri won't hold together.
+- A rice cooker is recommended since it will be far more 'hands-off' and will also free up more time to prepare the fillings.
+- There is wide latitude on what you can use as a filling. Try experimenting!
+- It is a good idea to have a moderately large, clear workspace that is easy to clean afterwards. The rice is sticky, and you will end up getting it everywhere in the area.
+- Do not use refrigerated, cold rice. Do not refrigerate the onigiri after assembling. Store in lunch cooler or thermos—otherwise the rice gets hard and doesn’t taste good. You can freeze onigiri, then microwave them to defrost.
+- Fillings for onigiri are only limited to your imagination. One point to remember is to choose fillings that are not overly hard/crunchy. If they are reasonably hard they become quite difficult to eat. Western fillings that can be quite delicious include such things as corned meats, avocado, even olives or semidried tomatoes. A recommendation is to use fillings with a lot of flavour and cut into small pieces.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AOnigiri&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Onigiri@4508978
+    url: https://en.wikibooks.org/w/index.php?oldid=4508978
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

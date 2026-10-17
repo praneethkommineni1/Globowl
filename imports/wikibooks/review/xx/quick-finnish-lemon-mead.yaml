@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-quick-finnish-lemon-mead
+title: Quick Finnish Lemon Mead
+alternate_names:
+- Sima
+summary: 'This recipe is quicker than traditional sima, optimized for simplicity and short preparation time, makes it easier to try making sima: the only equipment needed are a 3 litre open container (a saucepan or small bucket perhaps), a 2 litre soda bottle and a funnel.'
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: brown-sugar, unit: g, qty: 250}
+  - {ingredient: lemon, qty: 1, prep: juiced}
+  - {ingredient: yeast, note: small}
+  - {ingredient: raisins, optional: true}
+steps:
+- Boil 1–2 litres water.
+- While the water is boiling, wash a 3-liter container and squeeze the juice from the lemon into a glass.
+- Set aside 1 litre of hot water for the sima. Rinse the container with the rest to sterilize it.
+- Put sugar and lemon juice into the container.
+- Pour 1 litre hot water onto the sugar and lemon juice and mix until sugar dissolves.
+- Add 1 litre cold water.
+- Add a very small amount of yeast (up to ¼ teaspoon).
+- Let it stand overnight.
+- Wash a 2 litre soda bottle and rinse it with boiling water.
+- Add 1 teaspoon sugar into the bottle and a few raisins if you want to.
+- Pour the sima into the bottle with a funnel.
+- Leave in a dark place in room temperature for 2 days.
+- Move the bottle into the refrigerator; the sima is ready.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AQuick_Finnish_Lemon_Mead_%28Sima%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Quick Finnish Lemon Mead (Sima)@4510222
+    url: https://en.wikibooks.org/w/index.php?oldid=4510222
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: us-buttermilk-ranch-dressing
+title: Buttermilk Ranch Dressing
+summary: The all-American dressing, great for salads, sandwiches or as a dip with crudités. Tangy but not too sweet.
+origin:
+  country: US
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2¾ cups
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: lemon, unit: tbsp, qty: 2}
+  - {ingredient: buttermilk, unit: cup, qty: 1}
+  - {ingredient: mayonnaise, unit: cup, qty: 1}
+  - {ingredient: sour-cream, unit: cup, qty: 0.75}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: dried-oregano, unit: tsp, qty: 1}
+  - {ingredient: onion, unit: tsp, qty: 2}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+steps:
+- Mix ingredients until smooth.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AButtermilk_Ranch_Dressing&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Buttermilk Ranch Dressing@4516380
+    url: https://en.wikibooks.org/w/index.php?oldid=4516380
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

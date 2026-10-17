@@ -1,0 +1,31 @@
+id: mv-mas-huni
+title: Mas Huni
+native_name: {text: މަސްހުނި, lang: dv, romanized: mas huni}
+summary: Tuna mixed with fresh grated coconut, onion, chili and lime — the classic Maldivian breakfast, rolled up in warm roshi.
+origin:
+  country: MV
+course: breakfast
+dish_types: [salad]
+authenticity: traditional
+yield: {servings: 3}
+time: {prep_min: 15, cook_min: 0}
+difficulty: 1
+techniques: []
+ingredient_groups:
+  - items:
+      - {ingredient: canned-tuna, qty: 2, unit: can, note: "drained (about 300 g); smoked tuna is traditional"}
+      - {ingredient: desiccated-coconut, qty: 150, unit: g, note: "or freshly grated coconut; soak desiccated in 4 tbsp warm water"}
+      - {ingredient: red-onion, qty: 1, prep: "very finely chopped"}
+      - {ingredient: green-chili, qty: [1, 2], prep: "very finely chopped"}
+      - {ingredient: lime-juice, qty: 2, unit: tbsp}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+steps:
+  - Rub the onion, chili and salt together with your fingers to release their juices.
+  - Add the tuna, coconut and lime juice and mix by hand until evenly combined.
+serving: With roshi (thin flatbread) and sweet black tea.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -1,0 +1,59 @@
+id: sg-hainanese-chicken-rice
+title: Hainanese Chicken Rice
+summary: Silky poached chicken with rice cooked in its fragrant broth, served with chili-ginger sauce, dark soy and cucumber.
+origin:
+  country: SG
+  community: Hainanese
+  also_claimed_by: [MY]
+course: main
+dish_types: [rice-dish, poached-chicken]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 25, cook_min: 60, inactive_min: 15}
+difficulty: 3
+techniques: [simmering, rice-cooking]
+ingredient_groups:
+  - name: Chicken
+    items:
+      - {ingredient: whole-chicken, qty: 1.5, unit: kg}
+      - {ingredient: salt, qty: 1, unit: tbsp, note: "for rubbing"}
+      - {ingredient: ginger, qty: 5, unit: cm, prep: "sliced"}
+      - {ingredient: scallion, qty: 3}
+      - {ingredient: water, qty: 3, unit: l}
+      - {ingredient: sesame-oil, qty: 1, unit: tbsp}
+  - name: Rice
+    items:
+      - {ingredient: jasmine-rice, qty: 400, unit: g, prep: "rinsed and drained"}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp, note: "or rendered chicken fat"}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "minced"}
+      - {ingredient: shallot, qty: 2, prep: "minced"}
+      - {ingredient: pandan-leaf, qty: 2, prep: "knotted"}
+  - name: Chili sauce
+    items:
+      - {ingredient: red-chili, qty: 4}
+      - {ingredient: garlic, qty: 3, unit: clove}
+      - {ingredient: ginger, qty: 3, unit: cm}
+      - {ingredient: lime-juice, qty: 2, unit: tbsp}
+      - {ingredient: sugar, qty: 1, unit: tsp}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+  - name: To serve
+    items:
+      - {ingredient: dark-soy-sauce, qty: 2, unit: tbsp}
+      - {ingredient: cucumber, qty: 1, prep: "sliced"}
+      - {ingredient: cilantro, qty: 1, unit: handful}
+steps:
+  - Rub the chicken all over with salt, rinse, and stuff the cavity with ginger and scallions.
+  - Bring the water to a boil, lower in the chicken breast-side down, return to a bare simmer and cook gently.
+  - text: Turn off the heat, cover and leave the chicken in the hot water until the thickest part of the thigh reaches 74 °C.
+    timer_min: 30
+  - Plunge the chicken into iced water for 10 minutes to firm the skin, then rub with sesame oil. Keep the broth.
+  - Fry the garlic and shallot in the oil until fragrant, add the rice and stir to coat. Add 550 ml of the chicken broth, the pandan and a pinch of salt, and cook as for plain rice (covered, low heat, 15 minutes, then rest 10).
+  - Blend the chili sauce ingredients with 3 tablespoons of broth.
+  - Carve the chicken and serve with the rice, chili sauce, dark soy, cucumber, cilantro and a bowl of broth.
+culture: Brought by migrants from Hainan island in southern China and reinvented in Singapore, where it is often called the national dish.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

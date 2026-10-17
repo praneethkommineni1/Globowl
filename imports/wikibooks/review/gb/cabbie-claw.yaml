@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 kg whole spelding
+#  - unmapped ingredient: 2-3 slices fresh Horseradish
+#  - unmapped ingredient: 500 g Mashed potato, for serving
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: gb-cabbie-claw
+title: Cabbie Claw
+alternate_names:
+- Scottish Whitefish with Egg and Potato
+summary: Cabbie claw or cabelew is a traditional dish from the North-East of Scotland and Orkney. It is traditionally made using speldings, which are young fish of the Gadidae family, such as cod, haddock, or whiting. The obscure name is a derivative of the French name for cod, cabillaud.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: salt, unit: tbsp, qty: 2}
+  - {ingredient: parsley, qty: [2, 3]}
+  - {ingredient: butter, unit: g, qty: 50}
+  - {ingredient: all-purpose-flour, unit: g, qty: 40}
+  - {ingredient: milk, unit: ml, qty: 250}
+  - {ingredient: chicken-stock, unit: ml, qty: 250}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: nutmeg}
+  - {ingredient: salt, prep: to taste., note: to taste}
+  - {ingredient: cayenne, prep: for garnish}
+steps:
+- Clean the spelding, removing the eyes, splitting the fish, and wiping it down. Rub the fish with coarse salt and leave overnight.
+- The following day, hang the fish in a shaded, cool, drafty place for 24 hrs.
+- Cover the fish in a kettle with boiling water. Parsley and fresh horseradish may be added to the broth. Simmer until the fish is cooked.
+- Remove the fish from the broth, reserving the broth.
+- Skin and de-bone the fish, then flake the flesh roughly and keep warm in a slow oven.
+- Make a roux with the butter and flour, then slowly add the fish stock and milk, constantly stirring to avoid lumpiness.
+- Chop the whites of the eggs roughly (reserving the yolks). Mix the whites into the sauce, and season to taste.
+- Layer the flaked fish on top of the mashed potato. Pour the sauce over top, and garnish with chopped egg yolks, parsley, and cayenne.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACabbie_Claw_%28Scottish_Whitefish_with_Egg_and_Potato%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cabbie Claw (Scottish Whitefish with Egg and Potato)@4595666
+    url: https://en.wikibooks.org/w/index.php?oldid=4595666
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

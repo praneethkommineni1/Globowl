@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: es-mato-de-pedralbes
+title: Mató de Pedralbes
+alternate_names:
+- Spanish Maize Custard
+summary: Mató de pedralbes is a Spanish custard dessert.
+origin:
+  country: ES
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: l, qty: 1}
+  - {ingredient: sugar, qty: 0.25}
+  - {ingredient: corn-kernels, unit: g, qty: 100}
+  - {ingredient: egg-yolk, qty: 10}
+  - {ingredient: cinnamon-stick, qty: 2}
+steps:
+- Stir the maize flour into a glass of the cold milk.
+- Put the rest of milk in a saucepan, add sugar and yolks, and beat together until blended.
+- Add cinnamon sticks and heat the mixture. When it begins to boil, add the glass of milk and flour, and mix well. Cook until thickened.
+- Remove the saucepan from the heat and take out the cinnamon sticks. Pour it into four oval molds and refrigerate until cool.
+- To serve, unmold the custards and serve with jam or some rosemary honey.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMat%C3%B3_de_Pedralbes_%28Spanish_Maize_Custard%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mató de Pedralbes (Spanish Maize Custard)@4522411
+    url: https://en.wikibooks.org/w/index.php?oldid=4522411
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

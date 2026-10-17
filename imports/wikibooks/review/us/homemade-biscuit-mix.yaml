@@ -1,0 +1,40 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no ingredient lines parsed
+#  - course unknown from categories
+id: us-homemade-biscuit-mix
+title: Homemade Biscuit Mix
+summary: Homemade Biscuit Mix.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2½ cups biscuit mix
+time:
+  total_min: 10
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Blend together dry ingredients.
+- Cut in shortening with a pastry blender to make mixture as granular as possible.
+- Use in recipes like you would use Bisquick©.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHomemade_Biscuit_Mix&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Homemade Biscuit Mix@4658411
+    url: https://en.wikibooks.org/w/index.php?oldid=4658411
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

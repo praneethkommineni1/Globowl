@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Flavouring, to taste
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: th-tokyo-pancake
+title: Tokyo Pancake
+alternate_names:
+- Khanom Tokyo
+summary: 'Tokyo pancake (Thai: khanom Tokyo) is a Thai street food consisting of a thin pancake that is filled and rolled. It can be savory or sweet, with fillings such as custard cream, sausage, and quail eggs.'
+origin:
+  country: TH
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+ingredient_groups:
+- name: Pancake
+  items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: baking-soda, unit: tsp, qty: 0.5}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: milk, unit: cup, qty: 0.5}
+- name: Filling
+  items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: pork}
+  - {ingredient: soy-sauce, unit: tsp, qty: 1}
+- name: Assembly
+  items:
+  - {ingredient: vegetable-oil, unit: tsp, qty: 1}
+  - {ingredient: sausage}
+  - {ingredient: egg}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Combine flour and baking soda, then sift it together.
+- Beat the eggs and sugar together in a bowl. Then add milk, alternating it with the flour mixture.
+- Mix it enough to dissolve the sugar, but do not beat until fluffy.
+- Set aside to rest for 5 minutes.
+- Fry the minced pork in a pan with oil over high heat until cooked.
+- Season with soy sauce, and set aside.
+- Warm a pan, and brush butter or oil on it.
+- Pour some of the batter on the pan, and wait until the batter is cooked and makes a thin pancake.
+- Top the pancake with the sausage or egg. Add the minced pork on top.
+- Season the pancake with flavouring and pepper.
+- Roll the pancake up and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATokyo_Pancake_%28Khanom_Tokyo%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tokyo Pancake (Khanom Tokyo)@4522802
+    url: https://en.wikibooks.org/w/index.php?oldid=4522802
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

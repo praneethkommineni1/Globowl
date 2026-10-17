@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 cups wheat flour or sorghum flour
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-asida
+title: Asida
+alternate_names:
+- Sudanese Porridge
+summary: Asida is a traditional Sudanese porridge made from cooked wheat or sorghum flour. Often sweetened with honey or dates and flavored with spices, asida is a nourishing food that is enjoyed on various occasions, from family gatherings to festive celebrations.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Large saucepan or pot
+- Wooden spoon or spatula
+- Mixing bowl
+- Serving dish
+- Stovetop
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: honey}
+  - {ingredient: ground-cinnamon, optional: true}
+  - {ingredient: vegetable-oil}
+steps:
+- In a mixing bowl, combine the flour and salt. Mix well to ensure the salt is evenly distributed.
+- In a large saucepan or pot, bring the water to a boil. Gradually add the flour mixture to the boiling water, stirring constantly with a wooden spoon or spatula to prevent lumps from forming.
+- Reduce the heat to low and continue stirring the mixture until it thickens to a porridge-like consistency. This usually takes around 10–15 minutes. Be sure to scrape the sides and bottom of the pot while stirring to prevent sticking.
+- Once the porridge thickens, remove the pot from heat. Wet your hands with cold water to prevent sticking, then shape the hot asida into a smooth, round mound or ball. You can also shape it into individual portions if desired.
+- Make a small well in the center of the asida and fill it with honey or place a few dates. Sprinkle ground cinnamon or cardamom over the top for additional flavor, if desired.
+- Transfer the asida to a serving dish or individual plates. Drizzle a little clarified butter or vegetable oil over the top for added richness and shine. Asida is traditionally eaten by tearing off a piece of the porridge with your fingers, rolling it into a small ball, and dipping it into the honey or date filling. It can be enjoyed warm or at room temperature.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAsida_%28Sudanese_Porridge%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Asida (Sudanese Porridge)@4517851
+    url: https://en.wikibooks.org/w/index.php?oldid=4517851
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

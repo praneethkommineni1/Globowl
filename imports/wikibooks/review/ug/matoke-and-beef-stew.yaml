@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Curry spices to taste
+id: ug-matoke-and-beef-stew
+title: Matoke and Beef Stew
+summary: Matoke refers to a variety of East African plantain or banana, and it is a staple crop. This dish incorporates plantains into a stew. It can be made with or without meat depending on your preference.
+origin:
+  country: UG
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 90
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: plantain, qty: [8, 10]}
+  - {ingredient: lemon, qty: 1, prep: juiced, optional: true}
+  - {ingredient: vegetable-oil}
+  - {ingredient: tomato, qty: [2, 3], prep: chopped}
+  - {ingredient: onion, qty: 1, prep: chopped}
+  - {ingredient: red-bell-pepper, qty: 1, prep: chopped}
+  - {ingredient: red-chili, qty: 1, prep: chopped}
+  - {ingredient: garlic, qty: [2, 3], prep: crushed}
+  - {ingredient: beef, prep: cut in bite-size pieces, optional: true}
+  - {ingredient: chicken-stock, unit: cup, qty: 1, optional: true}
+  - {ingredient: salt}
+  - {ingredient: red-chili}
+steps:
+- Peel the plantains and cut into cubes. Toss with lemon juice and set aside.
+- Heat the oil in a large pan. Add the tomatoes, onions, peppers, and garlic. Fry together.
+- Stir in the curry spice to taste, then the meat and stock. Cook, stirring, until the meat is nearly done or the mixture is boiling.
+- Stir in the plantains. Cover and simmer over low heat until until the plantains are tender and the meat is fully cooked.
+- Season with salt and chili pepper to taste.
+- Serve and enjoy your delicious meal.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMatoke_and_Beef_Stew&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Matoke and Beef Stew@4637710
+    url: https://en.wikibooks.org/w/index.php?oldid=4637710
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-sweet-and-sour-pork-loin
+title: Sweet and Sour Pork Loin
+summary: Sweet and Sour Pork Loin.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: pork, qty: 1}
+  - {ingredient: salt, unit: cup, qty: 1}
+  - {ingredient: honey, unit: cup, qty: 0.75}
+  - {ingredient: coconut-milk, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: garlic, unit: tbsp, qty: 1}
+  - {ingredient: ginger, unit: tbsp, qty: 2}
+  - {ingredient: ketchup, unit: cup, qty: 1}
+  - {ingredient: sesame-oil, unit: tbsp, qty: 1}
+  - {ingredient: white-vinegar, unit: cup, qty: 0.25}
+  - {ingredient: brown-sugar, unit: cup, qty: 0.25}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: red-chili, qty: 1.5, prep: finely minced}
+steps:
+- Combine salt, honey, water, and coconut milk in a gallon-size zip-top bag. Add pork roast and toss to coat; refrigerate 2½–3 hours.
+- Drain pork and pat dry with paper towels. Discard remaining brine.
+- Combine ketchup, vinegar, oil, and soy sauce. Toss pork roast in mixture and place on a roasting rack in a roasting pan.
+- Combine remaining ingredients and press into all sides of pork. Insert a probe thermometer into the center and bake in a 425°F (220°C) oven until internal temperature reaches 140°F (60°C) for medium rare.
+- Move to a plate and let rest 7 minutes. Serve warm with sweet and sour sauce on the side.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASweet_and_Sour_Pork_Loin&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sweet and Sour Pork Loin@4519021
+    url: https://en.wikibooks.org/w/index.php?oldid=4519021
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

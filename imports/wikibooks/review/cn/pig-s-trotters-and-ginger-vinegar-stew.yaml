@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 4 pigs trotters
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: cn-pig-s-trotters-and-ginger-vinegar-stew
+title: Pig's Trotters and Ginger Vinegar Stew
+summary: Pig's trotters and ginger vinegar stew (豬腳薑) is a Cantonese Chinese dish traditionally prepared for new mothers, but which is now also a popular everyday dish.
+origin:
+  country: CN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- blanching
+- boiling
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 12, note: large}
+  - {ingredient: ginger, unit: g, qty: 500}
+  - {ingredient: white-vinegar}
+steps:
+- Hard boil the eggs, refresh and set aside to cool
+- Wash, peel and thickly slice the ginger, bruise with the flat of a knife.
+- Fry the ginger at high heat with oil and salt for about 5 minutes. Set aside.
+- Remove the hair from trotters (singe with an open flame and then scrape away with a knife, if you have a chef's blowtorch use that; otherwise carefully use a gas hob).
+- Bring a pan of hot water to the boil and blanche the trotters. Remove the trotters from the water once the skin has tightened and the exterior of the trotters has changed colour, refresh wth cold water until cooled, and put aside to drain.
+- Once mostly dry (help them along with a clean cloth) section the trotters first across the joints and then lengthwise.
+- Rub the trotters well with salt and heat up a frying pan or wok. Brown the trotters in their own fat.
+- Place the ginger and trotters into the earthernware pot, then add the sweet vinegar. Bring to a boil and lower the heat and simmer for about 20 minutes.
+- Peel the eggs and add them into the pot. Continue simmering for 10 more minutes.
+- Remove from heat and set aside for a day. Occasionally warm gently over low heat, then bring to a simmer and allow to cool again. The tradition is to heat and allow to cool three times over the course of a day. The stew will set into a jelly.
+tips:
+- The tradition is to cook this dish in a tall earthenware pot with a glazed interior. The acidic vinegar and cooking method will leach metals from iron pots into the stew, more so than with water based stews.
+- The stew will set into a jelly; reheat to serve. The stew is eaten over two to three days, as the trotters, ginger and eggs are consumed, more boiled eggs can be added to the heated stew, initially the liqueur is retained and consumed sparingly only when it has significantly reduced and thickened after a couple of days of heating, cooling and topping up is it at its best. The skin, tendons and cartilage of the trotters is eaten.
+- Avoid using metal utensils when eating and serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APig%27s_Trotters_and_Ginger_Vinegar_Stew&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pig's Trotters and Ginger Vinegar Stew@4518669
+    url: https://en.wikibooks.org/w/index.php?oldid=4518669
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

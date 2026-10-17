@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 teaspoon ground gheera
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-phulourie
+title: Phulourie
+alternate_names:
+- Split Pea Fritters
+summary: This is a side dish that may be eaten with spicy dhaal, or with spicy "sour" chutney (similar to mango chutney).
+origin:
+  country: IN
+course: snack
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: green-peas, qty: 0.5, prep: or 1 lb ground split pea flour}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 0.5}
+  - {ingredient: baking-powder, unit: tsp, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: [2, 3], prep: ground}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.25}
+  - {ingredient: vegetable-oil}
+steps:
+- If using whole split peas, soak overnight in lightly salted cold water, lightly salted. Drain and grind finely using a mill or food processor.
+- Mix all the ingredients, adding enough water to make a dropping consistency.
+- Drop dollops of batter into hot oil, squishing through thumb and forefinger to make balls about ¾ inch in diameter.
+- Fry until golden brown, remove from oil, and drain on brown paper or kitchen towel.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APhulourie_%28Split_Pea_Fritters%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Phulourie (Split Pea Fritters)@4517758
+    url: https://en.wikibooks.org/w/index.php?oldid=4517758
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

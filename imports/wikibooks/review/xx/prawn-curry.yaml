@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 black cardamom pod
+#  - course unknown from categories
+id: xx-prawn-curry
+title: Prawn Curry
+summary: Prawn Curry.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 40
+difficulty: 3
+techniques:
+- pan-frying
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: cup, qty: 1}
+  - {ingredient: shrimp, unit: kg, qty: 1, prep: cleaned with tails removed}
+  - {ingredient: tomato, unit: kg, qty: 0.5}
+  - {ingredient: onion, qty: 4, prep: cut in julienne}
+  - {ingredient: potato, qty: 3, prep: cut in small cubes}
+  - {ingredient: green-cardamom-pods, qty: 2}
+  - {ingredient: cinnamon-stick, qty: 2}
+  - {ingredient: whole-cloves, qty: 3}
+  - {ingredient: garlic, unit: tbsp, qty: 2}
+  - {ingredient: ground-ginger, unit: tbsp, qty: 1, optional: true}
+  - {ingredient: red-chili, unit: tbsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: garam-masala, unit: tsp, qty: 1}
+  - {ingredient: nutmeg, unit: tsp, qty: 0.25}
+  - {ingredient: cilantro}
+steps:
+- Heat a tablespoon of oil in a pan and sauté prawns over medium-high heat for 2 minutes only, just until that their water dries out and they turn pink in color. Don't try to cook prawns for more than that because they will become rubbery and hard to chew.
+- In a saucepan, heat the remaining oil and fry onions over high heat for 8–10 minutes, stirring constantly until they become light golden in color.
+- When onions have been fried, add tomato pieces, ginger garlic paste, red chili powder, turmeric powder, salt, cloves, cardamoms and cinnamon sticks. Cover the pan and cook them over medium heat until they all mix together and form a curry. It takes at least 10–15 minutes for the curry to be cooked.
+- When curry becomes red and the onions soften, mix in potato pieces and 1 cup water. Let them cook for 15 minutes until the potatoes are tender.
+- Uncover the pan and cook over high heat until the oil starts to separate from the gravy. Add the cumin powder, black pepper powder, garam masala, nutmeg, and mace powder.
+- Add fried prawn pieces and a sprinkle of coriander leaves. Mix them together and then cover the pan. Cook for just a minute over very low heat.
+- Serve with boiled rice or naan.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APrawn_Curry&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Prawn Curry@4517559
+    url: https://en.wikibooks.org/w/index.php?oldid=4517559
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

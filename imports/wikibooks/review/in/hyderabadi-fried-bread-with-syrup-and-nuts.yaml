@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-hyderabadi-fried-bread-with-syrup-and-nuts
+title: Hyderabadi Fried Bread with Syrup and Nuts
+alternate_names:
+- Double ka meetha
+summary: Double ka meetha is a popular dessert in Hyderabad, India.
+origin:
+  country: IN
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: white-bread, qty: 1}
+  - {ingredient: milk, unit: l, qty: 1}
+  - {ingredient: milk, unit: g, qty: 250}
+  - {ingredient: sugar, unit: g, qty: 500}
+  - {ingredient: almonds, unit: g, qty: 100}
+  - {ingredient: cashews, unit: g, qty: 100}
+  - {ingredient: pistachios, unit: g, qty: 100}
+  - {ingredient: raisins, unit: g, qty: 100}
+  - {ingredient: ghee, unit: g, qty: 250}
+  - {ingredient: ground-cardamom, unit: g, qty: 10}
+  - {ingredient: water, unit: ml, qty: 500}
+steps:
+- Trim the edges of the bread slices and cut each slice into four.
+- Fry them in ghee till golden brown.
+- Make a sugar syrup by adding half a litre of water to the sugar. Add the milk to the sugar syrup. Boil until the syrup starts thickening.
+- Grind the cardamom seeds to a powder.
+- Add the powdered cardamom seeds and khoa to the thickened milk. Stir the mixture well.
+- Arrange the fried bread pieces on a flat tray. Pour the syrup over the bread pieces while they are still hot. Garnish with the raisins and nuts.
+- Refrigerate and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHyderabadi_Fried_Bread_with_Syrup_and_Nuts_%28Double_ka_meetha%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Hyderabadi Fried Bread with Syrup and Nuts (Double ka meetha)@4541031
+    url: https://en.wikibooks.org/w/index.php?oldid=4541031
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

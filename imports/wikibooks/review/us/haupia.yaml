@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-haupia
+title: Haupia
+alternate_names:
+- Hawaiian Coconut Pudding
+summary: Haupia is a Hawaiian pudding made of coconut milk and cornstarch (originally Polynesian arrowroot starch).
+origin:
+  country: US
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: coconut-milk, unit: cup, qty: 3}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: salt, qty: 1}
+  - {ingredient: cornstarch, unit: cup, qty: 0.5}
+steps:
+- Mix coconut milk with sugar and salt over a medium heat.
+- Slowly add cornstarch and stir until thickened.
+- Pour into a pan or square form.
+- Cool for 1 hour or until fully set.
+- Unmold and cut into squares.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHaupia_%28Hawaiian_Coconut_Pudding%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Haupia (Hawaiian Coconut Pudding)@4517922
+    url: https://en.wikibooks.org/w/index.php?oldid=4517922
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

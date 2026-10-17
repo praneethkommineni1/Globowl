@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+id: us-indian-pudding
+title: Indian Pudding
+summary: Indian Pudding.
+origin:
+  country: US
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- baking
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: milk, qty: 1}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: cornmeal, unit: tbsp, qty: 6}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: molasses, unit: cup, qty: 1}
+  - {ingredient: baking-soda, unit: tsp, qty: 1}
+  - {ingredient: brown-sugar, unit: tbsp, qty: 3}
+  - {ingredient: nutmeg, unit: tsp, qty: 0.5}
+  - {ingredient: ground-ginger, unit: tbsp, qty: 1}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.5}
+  - {ingredient: egg, qty: 4, prep: beaten}
+  - {ingredient: egg-white, qty: 4, prep: whipped to stiff peaks}
+steps:
+- Set aside ½ cup of the milk. Boil the remaining milk.
+- Add cold water to cornmeal to wet it.
+- Slowly pour the cornmeal mixture into the boiling milk. Add salt.
+- Boil for 15 minutes, stirring constantly. If skin forms, remove it. Remove from heat, set aside.
+- In a small bowl, mix molasses with baking soda, the ½ cup cold milk, and brown sugar.
+- Add the spices and the beaten egg yolks to this mixture.
+- Slowly pour the molasses mixture into the cornmeal mixture.
+- Fold in the whipped egg whites.
+- Grease or butter a baking dish, add the batter, and bake for 1 hour at 350°F.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIndian_Pudding&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Indian Pudding@4587345
+    url: https://en.wikibooks.org/w/index.php?oldid=4587345
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

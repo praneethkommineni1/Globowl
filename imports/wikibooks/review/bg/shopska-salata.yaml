@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - possible duplicate of hand-written recipe bg-shopska-salad — merge or keep as a variant
+id: bg-shopska-salata
+title: Shopska Salata
+alternate_names:
+- Tomato, Cucumber, and Bell Pepper Salad
+summary: Shopska Salata.
+origin:
+  country: BG
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: tomato, qty: 4}
+  - {ingredient: cucumber, qty: 2}
+  - {ingredient: green-pepper, qty: 2}
+  - {ingredient: parsley, qty: 2}
+  - {ingredient: red-onion, qty: 2}
+  - {ingredient: feta, unit: g, qty: 227}
+  - {ingredient: olives, optional: true}
+  - {ingredient: salt, prep: 'vinegar, oil to taste', note: to taste}
+steps:
+- Cut the tomatoes, cucumbers and peppers in small pieces—cubes if possible.
+- Mix well with the parsley, onion, salt, and oil.
+- Serve with white cheese grated on top. Enjoy!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AShopska_Salata_%28Tomato%2C_Cucumber%2C_and_Bell_Pepper_Salad%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Shopska Salata (Tomato, Cucumber, and Bell Pepper Salad)@4518166
+    url: https://en.wikibooks.org/w/index.php?oldid=4518166
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

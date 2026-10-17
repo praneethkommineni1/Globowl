@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 3 tbsp cream of wheat
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-soji
+title: Soji
+alternate_names:
+- Indian Wheat Pudding
+summary: Soji.
+origin:
+  country: IN
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: cashews, unit: cup, qty: 0.5, prep: broken}
+  - {ingredient: raisins, unit: cup, qty: 0.5}
+  - {ingredient: green-cardamom-pods, qty: 4}
+  - {ingredient: sugar, unit: tsp, qty: 3}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: butter, unit: tbsp, qty: 1}
+  - {ingredient: milk, unit: cup, qty: 1}
+steps:
+- Wash the cashews and raisins and keep them ready.
+- Crush the cardamom pods to remove the contents and discard the husks. Pound the contents of the pods into a black powder, and mix with the cream of wheat.
+- Add the sugar and salt to the cream of wheat and mix thoroughly.
+- Melt the butter in a saucepan and gently fry the cream of wheat in it.
+- Add the cashews and raisins to the saucepan and continue to fry until the cream of wheat is light brown.
+- Add the milk to the saucepan and stir. The mixture will thicken and you will need to keep stirring to prevent it sticking to the bottom of the saucepan and burning.
+- When the mixture solidifies, turn off the heat and take the saucepan off the heat.
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASoji_%28Indian_Wheat_Pudding%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Soji (Indian Wheat Pudding)@4522807
+    url: https://en.wikibooks.org/w/index.php?oldid=4522807
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

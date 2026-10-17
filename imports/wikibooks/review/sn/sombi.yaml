@@ -1,0 +1,42 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no procedure steps
+#  - course unknown from categories
+id: sn-sombi
+title: Sombi
+summary: Sombi is a traditional West African dish, especially popular in Senegal. Made with rice and coconut milk, it is served as a creamy, mildly sweet porridge or dessert. This recipe is adapted from one by Saveur magazine.
+origin:
+  country: SN
+course: main
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 30
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: coconut-milk, unit: cup, qty: 4}
+  - {ingredient: coconut, unit: cup, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: vanilla-extract, qty: 1}
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: lime, unit: tbsp, qty: 2}
+steps:
+- (missing)
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASombi&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sombi@4527182
+    url: https://en.wikibooks.org/w/index.php?oldid=4527182
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

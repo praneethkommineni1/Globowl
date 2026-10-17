@@ -1,0 +1,45 @@
+id: dj-skoudehkaris
+title: Skoudehkaris
+alternate_names: [Djiboutian lamb and rice]
+summary: Djibouti's national dish — lamb and rice cooked together with tomato, cardamom, cumin and cinnamon.
+origin:
+  country: DJ
+course: main
+dish_types: [rice-dish, one-pot]
+authenticity: traditional
+yield: {servings: 5}
+time: {prep_min: 15, cook_min: 75, inactive_min: 20}
+difficulty: 3
+techniques: [braising, rice-cooking]
+ingredient_groups:
+  - items:
+      - {ingredient: basmati-rice, qty: 400, unit: g}
+      - {ingredient: vegetable-oil, qty: 3, unit: tbsp}
+      - {ingredient: lamb-shoulder, qty: 600, unit: g, prep: "cut into 3 cm pieces"}
+      - {ingredient: onion, qty: 2, prep: "chopped"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "minced"}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: tomato-paste, qty: 1, unit: tbsp}
+      - {ingredient: ground-cardamom, qty: 1, unit: tsp}
+      - {ingredient: ground-cumin, qty: 1, unit: tsp}
+      - {ingredient: cinnamon-stick, qty: 1}
+      - {ingredient: whole-cloves, qty: 3}
+      - {ingredient: green-chili, qty: 1, prep: "chopped", optional: true}
+      - {ingredient: water, qty: 1.1, unit: l}
+      - {ingredient: salt, qty: 2, unit: tsp}
+      - {ingredient: cilantro, qty: 1, unit: handful, prep: "chopped"}
+steps:
+  - text: Rinse and soak the rice.
+    timer_min: 20
+  - Brown the lamb in the oil, add the onions and cook until golden, then the garlic, tomato, paste, spices and chili for 3 minutes.
+  - text: Add 500 ml water and half the salt, cover and simmer until the lamb is tender.
+    timer_min: 45
+  - text: Add the drained rice, remaining water and salt, bring to a boil, then cover tightly and cook on low until tender.
+    timer_min: 20
+  - Fluff and serve topped with cilantro.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

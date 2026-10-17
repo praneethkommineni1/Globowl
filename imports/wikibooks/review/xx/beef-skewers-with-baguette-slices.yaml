@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 baguettes
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-beef-skewers-with-baguette-slices
+title: Beef Skewers with Baguette Slices
+summary: This dish is easy to prepare and it is usually as a treat during hangout with friends, families and the likes.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- grilling
+ingredient_groups:
+- items:
+  - {ingredient: white-bread, qty: 1}
+  - {ingredient: red-chili, qty: 2}
+  - {ingredient: shallot, qty: 2, prep: peeled and finely chopped}
+  - {ingredient: garlic, qty: 2, prep: minced}
+  - {ingredient: olive-oil, unit: tbsp, qty: 5}
+  - {ingredient: parsley}
+  - {ingredient: beef, unit: g, qty: 800, prep: cut into medium sizes}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: cayenne, note: to taste}
+  - {ingredient: tomato, qty: 4, prep: sliced}
+steps:
+- Soak the old bread in lukewarm water. Squeeze well to remove excess liquid.
+- Halve the chili peppers lengthwise. Remove the seeds and chop the peppers finely.
+- Heat a little oil in a pan, and add the shallots and garlic. Cook until translucent.
+- Add the parsley and chili pepper. Mix together and remove from the heat.
+- Combine the cooked mixture with the meat, then mix with the egg and bread. Season with salt and cayenne pepper to taste.
+- Form small oblong balls of the mixture and thread on wooden skewers.
+- Brush with the remaining oil and cook on a hot grill, turning frequently until golden brown on all sides.
+- Rinse the medium size tomatoes and remove any stems inside.
+- Cut the baguette along its length into 8–10 cm pieces.
+- Serve the skewers with the bread and tomato.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeef_Skewers_with_Baguette_Slices&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Beef Skewers with Baguette Slices@4505368
+    url: https://en.wikibooks.org/w/index.php?oldid=4505368
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

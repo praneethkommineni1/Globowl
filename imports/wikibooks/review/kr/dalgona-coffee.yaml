@@ -1,0 +1,42 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Ice cubes
+id: kr-dalgona-coffee
+title: Dalgona Coffee
+summary: Dalgona coffee () is a refreshing, cold drink originating from South Korea.
+origin:
+  country: KR
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 10
+difficulty: 1
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: coffee, unit: tbsp, qty: 2}
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: water, unit: tbsp, qty: 2}
+  - {ingredient: milk}
+steps:
+- Put instant coffee and sugar in a bowl.
+- Gradually add water while whipping with a hand mixer (highly recommended; if not available, manually whisk the mixture up to 400 times).
+- Pour milk in a cup, add ice cubes, and add the cream on top.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADalgona_Coffee&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dalgona Coffee@4595360
+    url: https://en.wikibooks.org/w/index.php?oldid=4595360
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Jam or custard sauce
+id: at-salzburger-nockerl
+title: Salzburger Nockerl
+alternate_names:
+- Sweet Austrian Soufflé
+summary: Salzburger nockerl is a sweet dish typical of Austrian cuisine that is especially popular in Salzburg, as its name implies. It has a subtle sweet taste; it is not too sugary but still delights the taste buds whenever you eat it.
+origin:
+  country: AT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 30
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: egg-white, qty: 7}
+  - {ingredient: egg-yolk, qty: 2}
+  - {ingredient: caster-sugar, unit: cup, qty: 0.5}
+  - {ingredient: vanilla-extract, unit: tbsp, qty: 1}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 1.5}
+  - {ingredient: lemon}
+steps:
+- Preheat oven to 200°C (~400°F).
+- Whip the egg whites, gradually adding the sugar, until they are very stiff.
+- Quickly beat in the 2 yolks, zest, and vanilla sugar without beating too hard.
+- Carefully fold in the flour.
+- Butter two oven-proof dishes (you may now line the bottom of the dish with jam or custard if desired).
+- Heap three large dollops of the egg mass into the dish, sitting alongside each other, slightly offset. "Mount" them to resemble three little mountains.
+- Bake in the oven for 10 minutes until your Nockerl have become slightly brown on top.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASalzburger_Nockerl_%28Sweet_Austrian_Souffl%C3%A9%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Salzburger Nockerl (Sweet Austrian Soufflé)@4587380
+    url: https://en.wikibooks.org/w/index.php?oldid=4587380
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-lentil-potato-and-tomato-curry
+title: Lentil, Potato, and Tomato Curry
+summary: This creates a healthy, inexpensive and easy stew with depths of flavor. This recipe is fairly low on the heat scale, but feel free to add more cayenne pepper to up its spiciness. It is excellent served with chapatis or rice.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: brown-lentils, unit: cup, qty: 1}
+  - {ingredient: water, unit: cup, qty: 4}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: margarine, unit: tbsp, qty: 1}
+  - {ingredient: olive-oil, unit: tbsp, qty: 1}
+  - {ingredient: potato, qty: 2, prep: cut into 1/2 inch cubes, note: large}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 0.5}
+  - {ingredient: tomato, unit: g, qty: 794}
+  - {ingredient: garam-masala, unit: tsp, qty: 2}
+  - {ingredient: honey, unit: tsp, qty: 1}
+steps:
+- In a large pot, combine and cook water, lentils, salt and bay leaf.
+- In a large frying pan, combine potatoes, turmeric, cayenne pepper, olive oil and margarine. Fry for 5–10 minutes.
+- Add potato mixture to the pot with the lentils along with all remaining ingredients. Cook until the potatoes are soft and tender.
+- Remove bay leaf before serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALentil%2C_Potato%2C_and_Tomato_Curry&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lentil, Potato, and Tomato Curry@4518639
+    url: https://en.wikibooks.org/w/index.php?oldid=4518639
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

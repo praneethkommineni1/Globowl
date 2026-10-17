@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2–3 tsp finely-chopped green garlic
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: in-maharashtrian-baingan-bartha
+title: Maharashtrian Baingan Bartha
+alternate_names:
+- South Indian Eggplant with Chili
+summary: Maharashtrian Baingan Bartha.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: eggplant, qty: [1, 2], note: large}
+  - {ingredient: scallion, unit: handful, qty: 1, prep: both white and green parts}
+  - {ingredient: green-peas, unit: cup, qty: 0.25}
+  - {ingredient: cumin-seeds}
+  - {ingredient: mustard-seeds}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: red-chili, qty: [1, 2]}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.25, optional: true}
+  - {ingredient: red-chili, unit: tsp, qty: 0.5, optional: true}
+steps:
+- Wash, then wipe dry eggplant. Apply some oil on the surface of each one of them.
+- Blacken eggplants over direct heat. Alternatively, char-roast in an oven or over a fire to infuse smoke.
+- Once the skin is blackened and comes away on touch, let them cool a bit and then peel the burnt skin. Reserve the drippings.
+- Mash the eggplant flesh by hand until smooth. Transfer flesh to a large bowl.
+- Mix in the green onion, green garlic (if using), peas, and salt to taste.
+- Heat some oil in a pan. Once heated sufficiently add rai, then cumin seeds, then green chilies. Let the chilies fry for 10–12 seconds.
+- Pour this spice mix onto the eggplant mixture in the bowl. Mix well and serve with bhakri and thecha/kharda below.
+- Follow steps 1 through 5 as directed above.
+- In the step 6 above add turmeric after chilies. Add the eggplant mixture to the pan of tadka. Sauté for about 1–2 minutes. If required add some of the reserved eggplant drippings to moisten the bharta.
+- Serve hot.
+- Wash and dry about 10–15 green chilies and half handful of fresh coriander. Peel 5–7 cloves of garlic; break the chilies in to 2–3 pieces each.
+- Heat about 1–1½ tbsp of oil on the griddle (tava).
+- Once heated sufficiently add chilies and garlic (make sure you have exhaust turned on and working).
+- Fry them for 30–40 seconds over low heat. Turn the heat off. Now add salt to taste. Put this mix in a blender along with chopped coriander and blend it roughly.
+- Thecha is ready to serve. While serving put some raw groundnut oil on each serving. This is very very hot dish depending the chilies used. Eat and handle carefully!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMaharashtrian_Baingan_Bartha_%28South_Indian_Eggplant_with_Chili%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Maharashtrian Baingan Bartha (South Indian Eggplant with Chili)@4615126
+    url: https://en.wikibooks.org/w/index.php?oldid=4615126
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

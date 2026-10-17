@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 5 kg fresh cassava tubers
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: xx-akpu
+title: Akpu
+summary: Akpu is a traditional swallow made from fermented cassava and widely consumed in southeastern Nigeria. It is a staple food among the Igbo people and is commonly served with soups such as onugbu soup, ora soup, oha soup, and egusi soup.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Peel the cassava tubers and wash thoroughly.
+- Place the cassava in a container and cover completely with water.
+- Allow it to ferment for 3–4 days or until softened.
+- Remove any fibres and hard portions from the fermented cassava.
+- Mash the cassava and sieve to obtain a smooth paste.
+- Suspend the paste in a clean cloth or sack and allow excess water to drain.
+- Transfer the fermented cassava paste into a pot.
+- Cook over medium heat while stirring continuously until a smooth, stretchy dough forms.
+- Shape into portions and serve hot with soup.
+tips:
+- The duration of fermentation may vary depending on temperature.
+- Akpu is traditionally wrapped in leaves or packaged in nylon before sale.
+- Proper fermentation helps reduce the natural cyanide content of cassava.
+- Similar cassava-based swallows are consumed in various parts of West and Central Africa.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAkpu&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Akpu@4655335
+    url: https://en.wikibooks.org/w/index.php?oldid=4655335
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

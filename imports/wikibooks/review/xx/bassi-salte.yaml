@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 500 g instant millet couscous
+#  - course unknown from categories
+id: xx-bassi-salte
+title: Bassi-Salté
+alternate_names:
+- Senegalese Couscous with Meat and Vegetables
+summary: Bassi salte is a treasured Senegalese delicacy known for its rich flavors. This traditional dish harmoniously combines millet couscous, tender meat, and vibrant greens. To elevate the taste, the addition of sweet ingredients like raisins adds a delightful touch.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: water}
+  - {ingredient: vegetable-oil, unit: ml, qty: 150}
+  - {ingredient: beef, unit: g, qty: 500, prep: cut into sizeable pieces}
+  - {ingredient: tomato, unit: g, qty: 250}
+  - {ingredient: onion, qty: 3, prep: chopped}
+  - {ingredient: tomato-paste, unit: g, qty: 100}
+  - {ingredient: salt}
+  - {ingredient: cassava, unit: g, qty: 150, prep: peeled and diced}
+  - {ingredient: carrot, qty: 3, prep: peeled and diced}
+  - {ingredient: red-chili, unit: tbsp, qty: 1}
+  - {ingredient: garlic, qty: 3, prep: minced}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+  - {ingredient: kidney-beans-canned, unit: g, qty: 100}
+  - {ingredient: raisins, unit: g, qty: 50}
+steps:
+- Bring 500 ml water to a boil, then pour it over the couscous in a bowl. Cover and let rest.
+- Heat the oil in a pan. Add the meat, and fry until golden brown.
+- Add the tomato, onions, salt, and tomato paste. Stir well.
+- Add 1 liter of water to the pot, and bring to a boil.
+- Add the cassava, carrots, chile pepper, and garlic. Season with black pepper. Cook over low heat, aiming to make a sauce with a consistent thickness.
+- Briskly boil the kidney beans until soft, then drain them.
+- Stir the raisins into the sauce. Season to taste with salt.
+- Fluff the couscous. Serve the couscous, beans, and sauce together.
+tips:
+- The sauce component holds utmost importance in the preparation of this dish as it imparts the essential flavors necessary for an authentic taste experience.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABassi-Salt%C3%A9_%28Senegalese_Couscous_with_Meat_and_Vegetables%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bassi-Salté (Senegalese Couscous with Meat and Vegetables)@4515469
+    url: https://en.wikibooks.org/w/index.php?oldid=4515469
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-balangu
+title: Balangu
+alternate_names:
+- Nigerian Spiced Ram Meat
+summary: Balangu is a meat delicacy commonly consumed in the northern part of Nigeria. It is similar to suya, but balangu is made from ram meat. It is also known as suya plus.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: lamb, qty: 2, note: large}
+  - {ingredient: green-pepper, qty: 2}
+  - {ingredient: cayenne, unit: tbsp, qty: 2, optional: true}
+  - {ingredient: garlic, unit: clove, qty: 3, optional: true}
+  - {ingredient: bouillon-cube, qty: 1, note: small}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 2}
+steps:
+- Boil the mutton for 2 minutes in a pot with a small amount of water. Drain.
+- Cut the cooked meat into pieces of your desired size.
+- Season the meat all over with pepper, cayenne, nutmeg, garlic, stock cube, and salt.
+- Brush the seasoned meat with oil, and roast in the oven.
+- Serve with onions.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABalangu_%28Nigerian_Spiced_Ram_Meat%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Balangu (Nigerian Spiced Ram Meat)@4582330
+    url: https://en.wikibooks.org/w/index.php?oldid=4582330
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Around 1/8–1/4 cup water
+#  - unmapped ingredient: 8–10 slices of sucuk
+#  - course unknown from categories
+id: tr-egg-with-cabbage-and-turkish-sausage
+title: Egg with Cabbage and Turkish Sausage
+summary: Eggs cooked with Turkish sausage (called sucuk) and spicy cabbage, can be served on its own or with rice. If the red pepper paste is already salted, there is no need for additional salt, but this can be adjusted according to need and the ingredients used.
+origin:
+  country: TR
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 25
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: white-cabbage, unit: cup, qty: [1, 2]}
+  - {ingredient: egg, qty: [2, 3]}
+  - {ingredient: gochujang, unit: tbsp, qty: 1}
+  - {ingredient: olive-oil, unit: tbsp, qty: [1, 2]}
+  - {ingredient: peanut-butter, qty: 1, note: large}
+  - {ingredient: hot-sauce, optional: true}
+  - {ingredient: parsley, optional: true}
+steps:
+- Heat olive oil in a medium-sized pot with lid.
+- Add sliced sucuk and quickly brown.
+- Mix in chopped cabbage and red pepper paste.
+- Mix in the water and peanut butter.
+- Cover lid and cook for around 5–10 minutes, depending on how crispy you want the cabbage.
+- Crack 2–3 eggs into the pot. Cover, and cook until the eggs are done.
+- Serve with rice or meat. If desired, garnish with a little tabasco and/or finely-chopped herbs.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgg_with_Cabbage_and_Turkish_Sausage&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egg with Cabbage and Turkish Sausage@4506363
+    url: https://en.wikibooks.org/w/index.php?oldid=4506363
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

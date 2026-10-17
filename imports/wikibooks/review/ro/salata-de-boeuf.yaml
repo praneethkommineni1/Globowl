@@ -1,0 +1,72 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 350 g pickled dill gherkins, diced in 1 cm cubes
+#  - unmapped ingredient: 1 fresh egg yolk
+#  - unmapped ingredient: Gherkins, sliced into long thin strips
+id: ro-salata-de-boeuf
+title: Salată de Boeuf
+alternate_names:
+- Romanian Beef Salad
+summary: This is a traditional Romanian dish, generally served during all festive and special occasions. It consists of a combination of finely chopped beef and root vegetables, folded in mayonnaise and finished with pickled vegetable garnishes.
+origin:
+  country: RO
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6-8
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- boiling
+- steaming
+ingredient_groups:
+- name: Salad
+  items:
+  - {ingredient: potato, unit: kg, qty: 1}
+  - {ingredient: carrot, unit: g, qty: 350, prep: peeled and diced in 1 cm cubes}
+  - {ingredient: beef, unit: g, qty: 350, prep: cut in 1 cm cubes}
+  - {ingredient: green-peas, unit: can, qty: 1}
+- name: Mayonnaise
+  items:
+  - {ingredient: egg, qty: 2, prep: yolks removed}
+  - {ingredient: vegetable-oil, unit: ml, qty: 250}
+  - {ingredient: lemon, qty: 1, prep: juiced}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 1}
+- name: Garnish
+  items:
+  - {ingredient: egg-white, prep: sliced into long thin strips}
+  - {ingredient: red-bell-pepper, prep: sliced into long thin strips}
+  - {ingredient: olives}
+steps:
+- Boil the potatoes gently in their skins until tender. Cool, then remove the skins.
+- Boil the carrots until tender.
+- Gently boil the beef for 1 hour.
+- If using fresh peas, boil or steam them well.
+- Cube the potatoes, carrots, and beef about 5 mm across—essentially, everything should be about the size of the peas.
+- Cut the gherkins very finely by cutting 3 mm (⅛ inch) thick slices and then cutting them at 3 mm intervals again along the length and width.
+- Fold everything together gently. Do not season.
+- Beat the cooked egg yolks and the raw yolk until well mixed.
+- Slowly add the oil while beating the eggs until they start to thicken and form a mayonnaise.
+- Add the juice of the lemon and the mustard.
+- Reserve a small quantity of mayonnaise for garnish.
+- Fold the rest of the mayonnaise into the cubed meat and vegetables, making a nice consistency where the ingredients are well covered in mayonnaise but not suspended in it.
+- Season with salt and pepper.
+- Place the salata de boeuf into one large or several smaller bowls.
+- Spread reserved mayonnaise over the top and garnish with the garnishes, arranging them in attractive shapes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASalat%C4%83_de_Boeuf_%28Romanian_Beef_Salad%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Salată de Boeuf (Romanian Beef Salad)@4613705
+    url: https://en.wikibooks.org/w/index.php?oldid=4613705
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

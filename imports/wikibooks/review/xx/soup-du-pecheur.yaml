@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 15 djansang seeds
+#  - unmapped ingredient: 4 lb tilapia fish
+#  - unmapped ingredient: 750 grams attieke
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-soup-du-pecheur
+title: Soup du Pecheur
+alternate_names:
+- Fisherman Soup
+summary: Soup du pecheur is a spicy and delicious dish eaten with attieke.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 5}
+  - {ingredient: crayfish, unit: g, qty: 907}
+  - {ingredient: onion, qty: 4, prep: finely chopped}
+  - {ingredient: tomato, qty: 4, prep: finely chopped}
+  - {ingredient: bay-leaf, qty: 5}
+  - {ingredient: shrimp, unit: g, qty: 454}
+  - {ingredient: crab, qty: 4, prep: slightly grated}
+  - {ingredient: garlic, qty: 1, prep: grated, note: large}
+  - {ingredient: lemongrass, qty: 2}
+  - {ingredient: red-chili, qty: 3, prep: neatly chopped}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 6}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: crayfish, unit: g, qty: 907}
+  - {ingredient: bouillon-cube, qty: 2, prep: crushed}
+steps:
+- Put 4 cups water in a saucepan, then add the crayfish, onions, tomatoes, djansang seeds, bay leaves, shrimp, crabs, garlic, lemongrass, habanero pepper, red palm oil, salt, and black pepper to your desired taste. Leave it to boil for about 30 minutes over medium heat. Make sure that the onions and tomatoes are soft at this point.
+- Remove and grind the tomatoes, onions, djansang seeds, and garlic. Return them to the pot along with the fish.
+- Reduce the heat to low and add the bouillon cubes. Let it cook for about 25 minutes.
+- In the meantime start preparing your attieke according to the package directions.
+- When the cassava couscous is hot, add the remaining red oil and salt to your desire taste. Mix it very well until the couscous turns orange.
+- Serve your soup with the attieke.
+tips:
+- When cooking the soup, avoid using high heat as this can make the soup to boil very quickly, resulting in breaking of the fish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASoup_du_Pecheur_%28Fisherman_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Soup du Pecheur (Fisherman Soup)@4518524
+    url: https://en.wikibooks.org/w/index.php?oldid=4518524
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

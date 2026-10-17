@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-chadian-salad
+title: Chadian Salad
+summary: Chadian salad is a colorful and flavorful salad that combines fresh vegetables with a zesty dressing. It is a healthy and refreshing dish, perfect for hot summer days or as a side dish to accompany grilled meats or fish.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+equipment:
+- Knife
+- Cutting board
+- Mixing bowl
+- Whisk or fork
+- Plastic wrap
+ingredient_groups:
+- items:
+  - {ingredient: tomato, qty: 2, prep: diced}
+  - {ingredient: cucumber, qty: 1, prep: diced}
+  - {ingredient: onion, qty: 1, prep: thinly sliced}
+  - {ingredient: red-bell-pepper, qty: 1, prep: diced}
+  - {ingredient: carrot, qty: 1, prep: peeled and grated}
+  - {ingredient: lemon, qty: 1, prep: juiced}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: parsley, prep: chopped}
+steps:
+- Combine the tomatoes, cucumber, bell pepper, red onion, and carrot in a mixing bowl.
+- In a separate small bowl, whisk together the lemon juice, olive oil, salt, and pepper to make a dressing. Adjust the seasoning according to your taste.
+- Pour the dressing over the vegetables in the mixing bowl. Gently toss the salad to ensure all the vegetables are coated with the dressing.
+- Cover the mixing bowl with plastic wrap or a lid and let the salad marinate in the refrigerator for at least 30 minutes. This allows the flavors to blend together and enhances the taste.
+- Remove the salad from the refrigerator. Give it a final toss to mix the flavors, and transfer it to a serving dish. If desired, sprinkle chopped parsley or mint leaves on top as a garnish.
+- Enjoy as a standalone dish or as a side salad alongside grilled meats, fish, or other main courses.
+tips:
+- Feel free to customize the salad by adding or substituting vegetables according to your preference and availability. You can also add a touch of heat by including chopped chili peppers or a sprinkle of paprika.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChadian_Salad&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chadian Salad@4518117
+    url: https://en.wikibooks.org/w/index.php?oldid=4518117
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

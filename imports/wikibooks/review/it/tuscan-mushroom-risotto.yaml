@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: ~1/2 cup dry porcini mushrooms
+#  - unmapped ingredient: 1 cup white mushrooms, diced
+id: it-tuscan-mushroom-risotto
+title: Tuscan Mushroom Risotto
+summary: Tuscan Mushroom Risotto.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: cup, qty: 0.25}
+  - {ingredient: garlic, qty: 2, prep: chopped}
+  - {ingredient: shallot, unit: tbsp, qty: 2, prep: chopped}
+  - {ingredient: long-grain-rice, unit: cup, qty: 1.5}
+  - {ingredient: dry-white-wine, unit: cup, qty: 0.5}
+  - {ingredient: chicken-stock, unit: cup, qty: 5}
+  - {ingredient: heavy-cream, unit: cup, qty: 0.25}
+  - {ingredient: parmesan, unit: cup, qty: 1, prep: 'Romano cheese, or Asiago cheese'}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: parsley, unit: tbsp, qty: 1, prep: chopped}
+steps:
+- Keep broth heated in a medium-size saucepan.
+- On medium heat in a large pan combine butter, garlic or garlic oil, shallots, mushrooms, and rice.
+- Heat for about 2 minutes, stirring well.
+- Add white wine and let simmer on low for 2 minutes.
+- With lid off, add chicken or vegetable broth, add cream, and let simmer on low until liquid is absorbed, approximately 25 minutes, stirring regularly.
+- Add cheese of choice and salt and pepper to taste.
+- Garnish with parsley and grated choice.
+tips:
+- May substitute vegetable broth for chicken broth.
+- Plump, medium grain rice that contains a lot of starch, like Arborio or Carnaroli, are traditionally best. Other rices that work well are Roma, Nano, Maratelli, and Vialone.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATuscan_Mushroom_Risotto&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tuscan Mushroom Risotto@4610459
+    url: https://en.wikibooks.org/w/index.php?oldid=4610459
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

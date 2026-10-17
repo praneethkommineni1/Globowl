@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 pounds ahi tuna loin, cut into 2 pieces
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-sweet-and-sour-grilled-tuna
+title: Sweet and Sour Grilled Tuna
+summary: You won't believe how well ahi tuna responds to vinegar and soy sauce. It's just like apple and pork. They were meant for each other.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: ketchup, unit: cup, qty: 0.25}
+  - {ingredient: white-vinegar, unit: cup, qty: 0.25}
+  - {ingredient: brown-sugar, unit: cup, qty: 0.25}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+steps:
+- Combine ketchup, vinegar, soy sauce, and sugar. Reserve ¼ cup and add tuna to larger amount of mixture and toss to coat. Drain tuna and set aside.
+- Coat a sheet of newspaper with 1–2 tsp oil. Wad up and place under a good chimneyful of natural chunk charcoal. Light and wait 15 minutes or until coals are coated with light gray ash.
+- Rub grate with remaining oil and place on heated chimney. Add tuna and cook 15–30 seconds or until desired doneness is achieved.
+- Remove to a plate and cover tightly with plastic wrap. Let rest 3 minutes.
+- Slice thinly across the grain and serve with reserved marinade, or wrap tightly with a new sheet of plastic wrap and refrigerate up to 3 days.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASweet_and_Sour_Grilled_Tuna&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sweet and Sour Grilled Tuna@4519020
+    url: https://en.wikibooks.org/w/index.php?oldid=4519020
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

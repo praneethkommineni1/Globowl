@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 can corned beef
+#  - course unknown from categories
+id: id-telur-dadar
+title: Telur Dadar
+summary: Telur dadar is an Indonesian dish made of eggs with some herbs and additional ingredients, with the word dadar referring to the method of spreading the egg mixture during cooking. This dish is better served with warm rice.
+origin:
+  country: ID
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3–4
+time:
+  total_min: 10
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: [2, 3]}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: black-pepper}
+  - {ingredient: bouillon-cube, unit: tsp, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 1, prep: minced}
+  - {ingredient: scallion, qty: 1, prep: chopped}
+  - {ingredient: celery, unit: stalk, qty: 1, prep: chopped, optional: true}
+  - {ingredient: red-chili, qty: [1, 2], prep: chopped, optional: true}
+  - {ingredient: firm-tofu, qty: 1, optional: true}
+  - {ingredient: vegetable-oil}
+  - {ingredient: soy-sauce, optional: true}
+  - {ingredient: shallot, optional: true}
+steps:
+- Beat the eggs, salt, pepper, and stock powder together in a bowl until well-combined.
+- Mix in the garlic, spring onion, celery, and chile.
+- Scoop the corned beef into the mixture, then use a spoon to break it into smaller pieces before mixing well again.
+- Add the tofu, but do not mix, as this would crush the soft tofu.
+- Heat a skillet over medium heat. Add a thin coat of oil, then spread the egg mixture evenly in the pan.
+- Let the egg cook until fully cooked on the bottom, then flip the egg and cook the other side until done.
+- Serve on a plate with soy sauce and fried shallots as desired.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATelur_Dadar&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Telur Dadar@4673515
+    url: https://en.wikibooks.org/w/index.php?oldid=4673515
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

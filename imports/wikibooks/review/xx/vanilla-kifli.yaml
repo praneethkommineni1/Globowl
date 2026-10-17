@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1/2 cup vanilla sugar
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-vanilla-kifli
+title: Vanilla Kifli
+summary: Vanilla kifli is the traditional Hungarian holiday cookie.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: cup, qty: 0.75, prep: softened}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: egg-yolk, qty: 2}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: chocolate, qty: 2, prep: chopped}
+steps:
+- Cream together the butter with the sugar in a large mixing bowl. Beat in egg yolks and vanilla. Gradually beat in flour to make a dough.
+- Shape into a ball, cover, and let stand at room temperature for 2 hours.
+- Preheat oven to 375°F (190°C).
+- To form the crescents, roll about 1 tbsp of the dough in the palms of your hands. Then continue rolling to form a rope about 3 inches long and ½ inch thick. Bend rope to form crescent. Repeat with remaining dough, placing crescents on ungreased cookie sheets about 1 inch apart.
+- Bake for about 10–12 minutes. Cookies should be white in color. Let cool on cookie sheets for 5 minutes to prevent breaking. Then, while cookies are still warm, carefully roll in vanilla sugar. Repeat with remaining cookies. Cool cookies completely.
+- Melt chocolate in a double boiler set over low heat. When cookies are cool, dip tips of each cookie in melted chocolate, then set on waxed paper to set.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AVanilla_Kifli&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Vanilla Kifli@4515345
+    url: https://en.wikibooks.org/w/index.php?oldid=4515345
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

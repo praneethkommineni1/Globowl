@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 can meat-flavored spaghetti sauce
+id: us-penne-with-hearty-meat-sauce
+title: Penne with Hearty Meat Sauce
+summary: Penne with Hearty Meat Sauce.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 30
+difficulty: 1
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: sausage, qty: 1}
+  - {ingredient: tomato-paste, unit: can, qty: 1}
+  - {ingredient: water, unit: cup, qty: 0.5}
+  - {ingredient: pasta, unit: g, qty: 227, prep: cooked according to package directions}
+  - {ingredient: parmesan, unit: tbsp, qty: 2}
+steps:
+- Remove casings from sausages.
+- Cook sausage in large skillet over medium heat until browned and crumbled; drain.
+- Stir in spaghetti sauce, tomato paste, and water.
+- Add pasta and stir until well coated.
+- Bring to a boil.
+- Reduce heat, simmer over low heat 10 minutes or until heated through.
+- Sprinkle with cheese.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APenne_with_Hearty_Meat_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Penne with Hearty Meat Sauce@4525011
+    url: https://en.wikibooks.org/w/index.php?oldid=4525011
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

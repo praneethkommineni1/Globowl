@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Hot pepper sauce
+#  - unmapped ingredient: French fries or bread
+#  - course unknown from categories
+id: xx-dibi
+title: Dibi
+alternate_names:
+- Senegalese Grilled Meat
+summary: Dibi is a popular Senegalese street food consisting of grilled meat, often lamb or goat, cooked with a flavorful marinade.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–3
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- grilling
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.25}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: minced}
+  - {ingredient: onion, qty: 1, prep: chopped}
+  - {ingredient: mustard-seeds, unit: tbsp, qty: 2}
+  - {ingredient: paprika, unit: tbsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tbsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: thyme, unit: tsp, qty: 1}
+  - {ingredient: white-vinegar, unit: cup, qty: 0.25}
+  - {ingredient: water, unit: cup, qty: 0.25}
+  - {ingredient: lamb, unit: g, qty: 680, prep: cut into large chunks or small pieces for skewering}
+  - {ingredient: onion, optional: true}
+  - {ingredient: tomato, optional: true}
+steps:
+- In a bowl, combine the vegetable oil, garlic, onion, mustard, paprika, coriander, cumin, turmeric, ginger, thyme, salt, and pepper. Mix well.
+- Add the vinegar or lemon juice and water to form a slightly thick marinade.
+- Taste and adjust seasoning as needed.
+- Place the chunks of lamb or goat meat into a large bowl or resealable bag.
+- Pour the marinade over the meat and toss to ensure all pieces are well-coated.
+- Let the meat marinate in the fridge for at least 2 hours (or overnight for better flavor).
+- Preheat a grill or barbecue to medium-high heat.
+- If using skewers, thread the marinated meat onto the skewers.
+- Grill the meat, turning occasionally, for about 10–15 minutes, or until cooked to your desired level of doneness. For extra flavor, baste the meat with some of the leftover marinade while grilling.
+- Remove the meat from the grill and let it rest for a few minutes before serving.
+- Optionally, serve the dibi with chopped onions, tomatoes, and a hot pepper sauce on the side. You can serve it with French fries or bread to complete the meal.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADibi_%28Senegalese_Grilled_Meat%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dibi (Senegalese Grilled Meat)@4637535
+    url: https://en.wikibooks.org/w/index.php?oldid=4637535
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

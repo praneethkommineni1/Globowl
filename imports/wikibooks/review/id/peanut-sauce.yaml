@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: id-peanut-sauce
+title: Peanut Sauce
+alternate_names:
+- Saus Kacang
+summary: Saus kacang is a spicy Indonesian peanut sauce.
+origin:
+  country: ID
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: peanut-butter, unit: can, qty: 2}
+  - {ingredient: water}
+  - {ingredient: chili-paste}
+  - {ingredient: lemon, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: soy-sauce}
+steps:
+- Mix the peanut butter with water, and stir gently until smooth.
+- Add some sambal oelek, some lemon juice, salt, and soy sauce. Keep stirring, adjusting the ingredients to get the taste right.
+tips:
+- If using stabilized peanut butter, mix in a small amount of peanut or vegetable oil.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APeanut_Sauce_%28Saus_Kacang%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Peanut Sauce (Saus Kacang)@4518994
+    url: https://en.wikibooks.org/w/index.php?oldid=4518994
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

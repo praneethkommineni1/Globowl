@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 kg palm fruits
+#  - unmapped ingredient: 1 teaspoon ground fresh pepper, or to taste
+#  - unmapped ingredient: 1 tablespoon ground ogiri
+#  - unmapped ingredient: Fresh scent leaves, shredded
+#  - course unknown from categories
+id: xx-ofe-aku
+title: Ofe Aku
+alternate_names:
+- Igbo palmnut soup
+summary: Ofe Akwu is a traditional soup from Southeastern Nigeria, particularly associated with the Igbo people. It is made from palm fruit extract and is commonly served with rice or boiled yam. Variations may include beef, fish, stockfish, and local seasonings.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6-8
+time:
+  total_min: 60
+difficulty: 2
+ingredient_groups:
+- name: For the palm extract
+  items:
+  - {ingredient: water, unit: l, qty: 2}
+- name: For the soup
+  items:
+  - {ingredient: beef, unit: g, qty: 500, prep: cut into pieces}
+  - {ingredient: stockfish, unit: g, qty: 200, prep: soaked}
+  - {ingredient: stockfish, unit: g, qty: 200, prep: cleaned}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 2}
+  - {ingredient: bouillon-cube, qty: 2}
+  - {ingredient: salt, note: to taste}
+steps:
+- Wash the palm fruits and boil them until soft.
+- Pound or mash the cooked fruits and mix with warm water to extract the palm j
+- Strain the mixture to remove fibres and kernels. Set the extract aside.
+- Wash the beef and cook with onion, seasoning cubes, and salt until tender.
+- Add the stockfish and continue cooking for several minutes.
+- Pour the palm fruit extract into the pot and bring to a boil.
+- Add the dried fish, crayfish, pepper, and ogiri if using.
+- Simmer for 20–30 minutes, stirring occasionally, until the soup thickens slightly and the oil rises to the surface.
+- Adjust seasoning with salt as needed.
+- Add the scent leaves and simmer for 2–3 minutes.
+- Remove from heat and serve hot.
+tips:
+- Freshly extracted palm fruit juice gives the most authentic flavour.
+- The quantity of pepper may be adjusted according to preference.
+- Ofe Akwu is traditionally served with white rice but may also accompany boiled yam or plantain.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AOfe_Aku_%28Igbo_palmnut_soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ofe Aku (Igbo palmnut soup)@4638528
+    url: https://en.wikibooks.org/w/index.php?oldid=4638528
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

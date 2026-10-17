@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (CZ, AT): confirm the country of origin
+#  - unmapped ingredient: Mineral water
+id: cz-palatschinken
+title: Palatschinken
+alternate_names:
+- Czech/Austrian Crepes
+summary: Palatschinken or palačinky are flat round cakes, similar to pancakes, but thinner and made with a different dough. They are similar to the French crêpes, though Palatschinken are slightly thicker.
+origin:
+  country: CZ
+  also_claimed_by:
+  - AT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 7
+  amount: About 7 pieces
+time:
+  total_min: 20
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: ml, qty: 250}
+  - {ingredient: all-purpose-flour, unit: g, qty: 150}
+  - {ingredient: egg, qty: 3}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: rum, optional: true}
+steps:
+- Mix the flour with the milk, stirring thoroughly. Mix in the eggs one-by-one, then stir in the salt and rum. If desired, thin the batter with a bit of mineral water.
+- Heat the pan well. Add a drop of oil and rub it over the pan with a kitchen towel.
+- Ladle a dipperful of the batter into the pan, tilting the pan so that the batter spreads as evenly as possible over the whole pan. Alternatively, you can accomplish this by using a special wooden tool used to spread crêpes.
+- Let cook about 45 seconds to 1 minute until the top of the palatschinke is dry.
+- Flip the pancake over, and allow it to brown for about 30 seconds on the other side. Remove from the pan, and set aside.
+- Repeat the cooking process until you have used up all the batter.
+tips:
+- If you want to keep the palatschinken warm, put them into the oven at 50°C.
+- Add spices and/or herbs to the batter, according to the intended filling.
+- Replace part of the milk with beetroot juice to produce bright pink palatschinken.
+- Add spinach to the batter to produce green palatschinken.
+- Add saffron to the batter to produce golden palatschinken.
+- Filled palatschinken can be covered with cheese and baked.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APalatschinken_%28Czech/Austrian_Crepes%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Palatschinken (Czech/Austrian Crepes)@4535125
+    url: https://en.wikibooks.org/w/index.php?oldid=4535125
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

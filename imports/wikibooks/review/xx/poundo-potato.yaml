@@ -1,0 +1,44 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Potato flour
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-poundo-potato
+title: Poundo Potato
+summary: Potato poundo is a Nigerian swallow made from potato flour.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Bring water to boil in a small pot.
+- Stir in potato flour until you get a thick mixture. Continue stirring to prevent lumps from forming.
+- Add some water, and cook for 5 minutes over low heat.
+- Stir again to ensure that it's smooth.
+- Remove from the fire and put in a wrapper.
+- Serve with any soup of your choice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APoundo_Potato&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Poundo Potato@4518765
+    url: https://en.wikibooks.org/w/index.php?oldid=4518765
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

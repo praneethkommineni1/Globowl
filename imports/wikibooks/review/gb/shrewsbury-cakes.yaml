@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gb-shrewsbury-cakes
+title: Shrewsbury Cakes
+summary: A Shrewsbury cake is a British dessert. The cakes are often served multiple at a time.
+origin:
+  country: GB
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- 2 cookie sheets
+- 2 oven mitts
+- Cooling rack
+- Baking spray/a little extra butter
+- Knife
+- Spatula
+- Large mixing bowl
+- Measuring spoons
+- Plate
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 0.5}
+  - {ingredient: egg-white, qty: 1}
+  - {ingredient: nutmeg, unit: tsp, qty: 0.25}
+  - {ingredient: butter, unit: cup, qty: 1, prep: softened}
+steps:
+- Preheat the oven to 350°F.
+- Place butter in mixing bowl along with sugar. Cream until the mixture is fluffy.
+- Break the egg into the mixture, and stir it in completely.
+- Add the nutmeg and flour to the mixture, and stir in completely.
+- Spray or butter the cookie sheets.
+- Place teaspoons of the batter onto the cookie sheets about two inches apart.
+- Place in the oven and bake at 350°F for 10 minutes.
+- Take the cakes out of the oven, if the cakes have stuck together, use a knife to cut them apart.
+- Use spatula to place the cakes onto a plate.
+- Enjoy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AShrewsbury_Cakes&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Shrewsbury Cakes@4587404
+    url: https://en.wikibooks.org/w/index.php?oldid=4587404
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

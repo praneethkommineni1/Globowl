@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 4 tubes of refrigerated Pillsbury Buttermilk Biscuits
+#  - unmapped ingredient: 2 cups cinnamon-sugar mixture
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-monkey-bread
+title: Monkey Bread
+summary: Monkey Bread.
+origin:
+  country: US
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: brown-sugar, unit: cup, qty: 0.5}
+  - {ingredient: butter, qty: 2}
+  - {ingredient: cooking-spray}
+steps:
+- Use cooking spray to fully grease inside of a bundt pan. Preheat oven to 350°F (175°C).
+- Take biscuits out of can. Notice that they're cut up into 8 sections. Use scissors to cut each section into quarters, so that you have 4 pieces with each section. This should be a total of 32 pieces per can.
+- Put pieces into bowl with cinnamon-sugar mixture. Roll pieces until they are fully covered in cinnamon sugar. Place pieces into the bundt pan.
+- Melt the sugar, brown sugar, and butter together, then bring to a boil. After glaze has thickened, pour glaze on top of biscuit pieces in the bundt pan.
+- Bake for 25–30 minutes. Invert onto plate and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMonkey_Bread_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Monkey Bread II@4587490
+    url: https://en.wikibooks.org/w/index.php?oldid=4587490
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

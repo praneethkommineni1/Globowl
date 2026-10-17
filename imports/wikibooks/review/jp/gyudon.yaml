@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tablespoon sake
+#  - unmapped ingredient: Steamed rice
+#  - unmapped ingredient: Shichimi seasoning
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: jp-gyudon
+title: Gyudon
+alternate_names:
+- Japanese Beef and Rice Bowl
+summary: Gyudon, often literally translated as 'beef bowl', is a Japanese dish consisting of rice topped with beef and onion simmered in a mildly sweet sauce flavored with dashi, soy sauce, and mirin. It also often includes shirataki noodles.
+origin:
+  country: JP
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 2}
+  - {ingredient: beef, unit: g, qty: 200}
+  - {ingredient: onion, qty: 0.5, prep: cut into wedges}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: mirin, unit: tbsp, qty: 1}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: water, unit: ml, qty: 100}
+  - {ingredient: dashi, unit: tsp, qty: 0.5}
+  - {ingredient: ginger, unit: g, qty: 5, prep: grated}
+  - {ingredient: ginger}
+  - {ingredient: scallion, prep: chopped}
+steps:
+- Cover the eggs in boiling water, and let them sit for 20 minutes so they are soft inside and not hard. Carefully peel off the shell.
+- Boil the beef and drain the water.
+- Combine sake, mirin, soy sauce, and sugar in a frying pan. Stir over at medium heat.
+- Add beef and cook. Before all the sauce evaporates, remove the beef.
+- Add water, dashi, grated ginger, and onions to the sauce. Cover and boil.
+- Mix in the beef.
+- Put the steamed rice in a bowl, and top with the sauced meat.
+- Arrange the soft egg and pickled ginger on top. Top with scallions and shichimi seasoning.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGyudon_%28Japanese_Beef_and_Rice_Bowl%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gyudon (Japanese Beef and Rice Bowl)@4536308
+    url: https://en.wikibooks.org/w/index.php?oldid=4536308
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

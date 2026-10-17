@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+id: xx-apple-brown-betty
+title: Apple Brown Betty
+summary: A brown betty is an American dessert of fruit and bread crumbs. This version uses apples.
+origin:
+  country: XX
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- baking
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: breadcrumbs, unit: cup, qty: 2}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: butter, unit: cup, qty: 0.25}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+  - {ingredient: apple, unit: cup, qty: 3, prep: sliced}
+  - {ingredient: water, unit: cup, qty: 0.75}
+steps:
+- Preheat oven to 375°F.
+- Sauté bread crumbs in butter.
+- Add apples, cinnamon, sugar, and water.
+- If the skillet is oven-proof, cover and place in the oven. If the skillet is not oven-proof, transfer to a greased casserole dish.
+- Cover and bake for 30 to 40 minutes, until apples are tender.
+- If mixture becomes too dry during baking, add another ¼ cup of water. (Apples vary as to moisture content.)
+tips:
+- Serve with milk or whipped cream.
+- If cooking in a Dutch oven, preheat with 15 charcoal briquettes, ⅓ on the bottom, and ⅔ on the top.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AApple_Brown_Betty&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Apple Brown Betty@4587370
+    url: https://en.wikibooks.org/w/index.php?oldid=4587370
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

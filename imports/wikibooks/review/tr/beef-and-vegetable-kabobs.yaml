@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1/4 cup balsamic vinegar
+#  - unmapped ingredient: 6 bamboo skewers, soaked in water 30 minutes
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+id: tr-beef-and-vegetable-kabobs
+title: Beef and Vegetable Kabobs
+summary: Beef and Vegetable Kabobs.
+origin:
+  country: TR
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- grilling
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 680, prep: cut into 1 1/2 inch cubes}
+  - {ingredient: paprika, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+  - {ingredient: cayenne, unit: tbsp, qty: 1.5}
+  - {ingredient: olive-oil, unit: cup, qty: 0.5}
+  - {ingredient: onion, qty: 1, prep: wedged, note: large}
+  - {ingredient: red-bell-pepper, prep: cut into 3-inch strips}
+  - {ingredient: zucchini, qty: 1}
+  - {ingredient: rosemary, unit: tsp, qty: 1.5, prep: finely chopped}
+  - {ingredient: thyme, unit: tbsp, qty: 1, prep: finely chopped}
+steps:
+- Combine paprika, salt, pepper, cayenne pepper, olive oil, rosemary, thyme and balsamic vinegar in a gallon (4 liter) size zip-top bag. Add beef and refrigerate for at least 1 hour.
+- Sort beef cubes into equal size rows. Skewer 1 onion wedge, 1 strip bell pepper, 1 slice zucchini from the side, and 3 cubes of meat across the grain in a pattern per skewer.
+- Grill over medium high heat, turning often, 11 minutes for medium. Serve warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeef_and_Vegetable_Kabobs&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Beef and Vegetable Kabobs@4514041
+    url: https://en.wikibooks.org/w/index.php?oldid=4514041
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

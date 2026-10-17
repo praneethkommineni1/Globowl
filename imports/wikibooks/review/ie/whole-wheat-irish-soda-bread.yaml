@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 cups whole-wheat
+id: ie-whole-wheat-irish-soda-bread
+title: Whole Wheat Irish Soda Bread
+summary: Whole Wheat Irish Soda Bread.
+origin:
+  country: IE
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 12
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: baking-soda, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: buttermilk, unit: cup, qty: 2}
+steps:
+- Preheat oven to 325°F (165°C / gasmark 3).
+- Use cooking spray or grease and then lightly flour a 9x5x3-inch baking pan.
+- Combine flour, baking soda, and salt in a large mixing bowl.
+- Form a cavity in the middle.
+- Pour in the buttermilk.
+- Mix until just moistened. Too much mixing will make it tough.
+- Gently shape the dough to fit pan.
+- Cut the top at least three times with a knife.
+- Bake for 65–70 minutes, or until a toothpick inserted in the bread comes out clean.
+- Cool on a wire rack.
+- Wrap in tea-towel or foil several hours or overnight for best flavor.
+tips:
+- If you're in a hurry, bake at 375°F for 35–40 minutes.
+- Buttermilk could be substituted with a tablespoon of lemon juice or vinegar in milk.
+- '"Baker''s Secret" is a brand of cooking spray that includes the flour.'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AWhole_Wheat_Irish_Soda_Bread&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Whole Wheat Irish Soda Bread@4512592
+    url: https://en.wikibooks.org/w/index.php?oldid=4512592
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

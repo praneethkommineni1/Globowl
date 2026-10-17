@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: at-table-point-boiled-beef-and-vegetables
+title: Table Point Boiled Beef and Vegetables
+alternate_names:
+- Tafelspitz
+summary: 'Cooked according to classic preparation rules, tafelspitz (literally translated: the point of the table) is known to have been Austrian Hungarian Emperor Francis Joseph''s favourite meal.'
+origin:
+  country: AT
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 1134, prep: 'silverside, or sirloin'}
+  - {ingredient: garlic, qty: 3, prep: slightly crushed and peeled}
+  - {ingredient: black-pepper, qty: 3}
+  - {ingredient: bay-leaf, qty: 2}
+  - {ingredient: carrot, qty: 3, prep: peeled and trimmed}
+  - {ingredient: onion, qty: 1, prep: 'unpeeled, trimmed, and halved'}
+  - {ingredient: parsley, unit: sprig, qty: 3}
+steps:
+- Fill a 5-quart (700 ml) Dutch oven with water, season it with salt, and bring to a rolling boil over medium heat.
+- When the water boils, add meat, garlic, peppercorns, and juniper berries, then cover the pot.
+- Bring the water to a boil again and add carrots, onion, and parsley. Cover and let everything simmer for 60 minutes.
+- Turn the meat over, add salt, and let everything cook, covered, for 90 additional minutes.
+- Switch off the heat, and let the meat steep for 20 minutes.
+- Remove the meat from the broth and cut meat across the grain when you serve it.
+- Serve tafelspitz with apfelkren (see notes) and your choice of raw and cooked vegetables.
+tips:
+- Keep the broth for soups.
+- Cut cold meat leftovers in thin strips and use like a meat salad mixed with raw sliced onions dressed with a simple oil, vinegar, salt, and pepper vinaigrette.
+- 'To make apfelkren: combine and blend 1 pound Golden Delicious apples, cored, peeled, grated and cooked until very mushy with 1 tablespoon wine vinegar, 1 tablespoon lemon juice, and 3 tablespoons prepared horseradish.'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATable_Point_Boiled_Beef_and_Vegetables_%28Tafelspitz%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Table Point Boiled Beef and Vegetables (Tafelspitz)@4494414
+    url: https://en.wikibooks.org/w/index.php?oldid=4494414
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

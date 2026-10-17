@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Ground pepper
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-agbugbu
+title: Agbugbu
+alternate_names:
+- Nigerian Pigeon Pea and Yam Porridge
+summary: Agbugbu is a typical igbo food made from pigeon peas and yam. It is tasty and easy to prepare.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: pigeon-peas-canned}
+  - {ingredient: yam, prep: cut into small pieces and rinsed}
+  - {ingredient: onion}
+  - {ingredient: ground-crayfish}
+  - {ingredient: red-palm-oil}
+  - {ingredient: salt, note: to taste}
+steps:
+- Pick any dirt or debris out of the pigeon peas, then wash them and soak in water overnight.
+- Drain away the soaking water.
+- Cover the pigeon peas in fresh water, and bring to a boil. Cook until tender, then drain.
+- Boil the yam in water until tender, then drain.
+- Fry the onions, ground crayfish, ground pepper in a pan with palm oil.
+- Add the drained yam and pigeon peas, and stir gently.
+- Season with salt to taste.
+- Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAgbugbu_%28Nigerian_Pigeon_Pea_and_Yam_Porridge%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Agbugbu (Nigerian Pigeon Pea and Yam Porridge)@4525806
+    url: https://en.wikibooks.org/w/index.php?oldid=4525806
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

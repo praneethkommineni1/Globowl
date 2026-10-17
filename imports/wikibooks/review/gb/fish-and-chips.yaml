@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Enough cold water to form a batter
+#  - unmapped ingredient: 4 cod/haddock/monkfish fillets
+#  - unmapped ingredient: Malt Vinegar
+#  - course unknown from categories
+id: gb-fish-and-chips
+title: Fish and Chips
+summary: Fish and chips is a popular dish in England, New Zealand and Australia. The traditional fish in England is cod, though this is likely to fall apart or fail to cook in the middle.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- deep-frying
+ingredient_groups:
+- name: Fish
+  items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 125}
+  - {ingredient: cornstarch, unit: g, qty: 125}
+  - {ingredient: salt}
+- name: Chips
+  items:
+  - {ingredient: potato, qty: 4, prep: Maris Piper preferably}
+  - {ingredient: vegetable-oil, unit: l, qty: 1}
+  - {ingredient: salt}
+- name: Serving
+  items:
+  - {ingredient: lemon, qty: 1, prep: wedged}
+  - {ingredient: parsley, prep: to garnish}
+  - {ingredient: salt}
+steps:
+- Preheat the vegetable oil in a deep fryer to 180°C (350°F), or until a cube of bread browns in 15 seconds when added to the oil.
+- Peel the potatoes and cut into thick wedges. Deep-fry the potatoes in batches for 6–8 minutes or until they are crisp and golden.
+- Remove from the oil, and drain on kitchen paper. Sprinkle with sea salt and keep warm.
+- In a bowl, whisk together the plain flour, corn flour, salt, and enough cold water to form a batter.
+- Cut the fish into thick slices, then coat in the batter.
+- Deep fry the fish in batches for 5–6 minutes, depending on the size of the fish. Remove and drain on kitchen paper.
+- Transfer the fish and chips to serving plates and garnish with lemon wedges and sprig of parsley. Or for a fun, traditional twist, place the fried fish and chips on brown paper or newsprint.
+- Top with salt and/or vinegar. Typically the lemon wedges are squeezed over the fish and the vinegar is sprinkled on the chips. Also can be served with pickles, pickled onions, tartar sauce, pickled eggs, and mushy peas.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFish_and_Chips&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fish and Chips@4524751
+    url: https://en.wikibooks.org/w/index.php?oldid=4524751
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 75 g young galangal
+#  - unmapped ingredient: 2 candlenuts
+id: id-rendang
+title: Rendang
+alternate_names:
+- Indonesian Beef and Coconut Stew
+summary: Rendang is made from beef or water buffalo meat slowly cooked in coconut milk and spices. The coconut milk used in cooking turns into a delicious spicy sauce that is more delicious than the meat itself.
+origin:
+  country: ID
+course: main
+authenticity: unassessed
+yield:
+  servings: 10
+time:
+  total_min: 180
+difficulty: 3
+techniques:
+- marinating
+ingredient_groups:
+- name: Spice paste
+  items:
+  - {ingredient: garlic, unit: clove, qty: 2}
+  - {ingredient: shallot, qty: 4}
+  - {ingredient: ginger, unit: g, qty: 25}
+  - {ingredient: ground-turmeric, unit: g, qty: 15}
+  - {ingredient: red-chili, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: nutmeg, qty: 0.5}
+  - {ingredient: salt, unit: tbsp, qty: 0.5}
+  - {ingredient: palm-sugar, unit: tbsp, qty: 1}
+- name: Stew
+  items:
+  - {ingredient: beef, unit: kg, qty: 1, prep: cut into big cubes to make 20 pieces}
+  - {ingredient: kaffir-lime-leaf, qty: 4}
+  - {ingredient: lemongrass, unit: stalk, qty: 1}
+  - {ingredient: coconut, unit: l, qty: 2}
+steps:
+- Using a food processor, grind together all the ingredients for the spice paste.
+- Marinate meat with the spice paste for at least 1 hour.
+- Heat the coconut milk over low heat until some oil rises to the surface (at least 20 minutes). Stir the coconut milk while it is cooking.
+- Transfer the meat and spice paste mixture to a large wok or pot. Cover with 300 ml of the hot coconut milk.
+- Stirring occasionally, cook over medium-low heat until half of the coconut milk has evaporated.
+- Add another 100 ml hot coconut milk, and stir until almost all of the coconut milk has evaporated.
+- Keep on adding coconut milk, 100 ml at a time, and cooking until the previous addition has evaporated.
+- Cook until the meat is tender (at least 1½ hours) and almost all the liquid from the coconut milk has reduced to a spicy sauce.
+tips:
+- When cooled, the coconut oil in the rendang may solidify. Reheat in a pan before serving. A reheated rendang often has better flavor.
+- Fresh coconut milk produces a better sauce.
+- Chicken or mutton can be used in place of beef.
+- Beef liver may be used but produces a darker sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARendang_%28Indonesian_Beef_and_Coconut_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rendang (Indonesian Beef and Coconut Stew)@4541096
+    url: https://en.wikibooks.org/w/index.php?oldid=4541096
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

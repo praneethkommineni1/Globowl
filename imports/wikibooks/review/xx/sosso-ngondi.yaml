@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Chopped nuts
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-sosso-ngondi
+title: Sosso-Ngondi
+alternate_names:
+- Ground Cassava Porridge
+summary: Sosso-ngondi is a traditional West African dish made from ground cassava. It is a smooth, thick, and creamy porridge that is often enjoyed as a breakfast or a filling snack.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Large bowl
+- Fine-mesh strainer or cheesecloth
+- Blender or food processor
+- Medium-sized saucepan
+- Wooden spoon or spatula
+ingredient_groups:
+- name: Base
+  items:
+  - {ingredient: cassava, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 4}
+  - {ingredient: coconut-milk, unit: cup, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 0.25}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: pinch, qty: 1}
+- name: Toppings
+  items:
+  - {ingredient: coconut}
+  - {ingredient: banana}
+  - {ingredient: honey}
+steps:
+- Place the grated cassava in a large bowl and add water. Use your hands to mix and squeeze the cassava to release the starch. Continue this process until the water becomes cloudy, and the cassava particles settle at the bottom of the bowl.
+- Pour the cassava mixture through a fine-mesh strainer or cheesecloth placed over another bowl, reserving the liquid. Let the mixture rest and allow the starch to settle at the bottom. This starch is what you'll use to make the porridge. Carefully pour off the water and keep the starch.
+- Transfer the cassava starch to a blender or food processor. Add the coconut milk, sugar, ground cinnamon, and a pinch of salt. Blend until you achieve a smooth and creamy consistency.
+- Pour the blended mixture into a medium-sized saucepan. Heat the mixture over medium heat, stirring constantly with a wooden spoon or spatula to prevent lumps and sticking.
+- As the porridge cooks, it will thicken. Continue stirring until it reaches your desired consistency. It should be smooth and creamy, similar to the texture of oatmeal or grits.
+- Remove it from the heat. Serve the warm porridge in bowls and top with shredded coconut, sliced bananas, chopped nuts, or a drizzle of honey.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASosso-Ngondi_%28Ground_Cassava_Porridge%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sosso-Ngondi (Ground Cassava Porridge)@4517864
+    url: https://en.wikibooks.org/w/index.php?oldid=4517864
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

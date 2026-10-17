@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Sugar for garnish
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-dharwad-pedha
+title: Dharwad Pedha
+alternate_names:
+- Sweetened Paneer Cheese
+summary: Dharwad pedha is a unique variety of peda (milk sweet) famous all over India. There are majorly 30 different ways to make pedha/khova sweets from milk, and Dharwad peda is one of its kind. It has received Government accreditation as Geographical indication of India.
+origin:
+  country: IN
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- name: Curds
+  items:
+  - {ingredient: milk}
+  - {ingredient: lime}
+- name: Pedha
+  items:
+  - {ingredient: ghee}
+  - {ingredient: milk, unit: cup, qty: 0.5}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: ground-cardamom}
+steps:
+- Bring milk to a boil, and reduce heat to low.
+- Gradually mix in lime juice, one tablespoon at a time, until the milk solidifies and the curds (solids) separate from the whey (greenish water).
+- Strain this mixture through cloth, and reserve the solid curds. This is paneer.
+- Heat ghee in a frying pan over low heat.
+- Add the curds to the pan, and press with a spoon to form small grains. Cook for 10–15 minutes over low flame, then remove curds from the heat.
+- Combine the curds with the milk and sugar. Make it into a paste, and return it to the frying pan.
+- Start cooking on medium heat very patiently with nonstop stirring. If you see it drying out, add a little more milk.
+- When the mixture becomes brown and granular, remove it from pan. It may take as long as 1.5 hours to reach this consistency.
+- Mix in cardamom, and let it cool down.
+- Once the pedha cools to normal temperature, mix it in a grinder until smooth. If it is too dry to shape, mix in 2–3 tablespoons of milk until it reaches the right consistency.
+- Roll into uneven oval-shaped pedha.
+- Garnish the shaped pedha with little sugar.
+- Serve immediately or store for up to a week in airtight containers.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADharwad_Pedha_%28Sweetened_Paneer_Cheese%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dharwad Pedha (Sweetened Paneer Cheese)@4523265
+    url: https://en.wikibooks.org/w/index.php?oldid=4523265
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 cups cassava flour
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-ifumbe
+title: Ifumbe
+alternate_names:
+- Rwandan Cassava Fritters
+summary: Ifumbe is a Rwandan snack made from cassava flour and other simple ingredients. These cassava fritters are crispy on the outside and soft on the inside, making them a perfect treat for any time of the day.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Mixing bowl
+- Whisk or fork
+- Frying pan
+- Slotted spoon
+- Paper towels
+- Stovetop
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: baking-powder, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: sugar, unit: cup, qty: 0.25}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.5, optional: true}
+  - {ingredient: milk, unit: cup, qty: 1}
+  - {ingredient: water, unit: cup, qty: 0.25}
+  - {ingredient: egg, qty: 1, prep: beaten}
+  - {ingredient: vegetable-oil, prep: for frying}
+steps:
+- In a mixing bowl, combine the cassava flour, baking powder, salt, sugar, and ground cinnamon (if using). Mix well to evenly distribute the dry ingredients.
+- Add the milk, water, and beaten egg to the dry ingredients. Stir until a smooth batter forms. The batter should have a slightly thick consistency.
+- In a frying pan, heat enough vegetable oil over medium heat for frying.
+- Once the oil is hot, drop spoonfuls of the batter into the hot oil, making small fritters. Be careful not to overcrowd the pan; fry in batches if needed.
+- Fry the fritters for about 2–3 minutes on each side, or until they turn golden brown and crispy.
+- Use a slotted spoon to remove the fried fritters from the oil and place them on a plate lined with paper towels to drain excess oil.
+- Serve the ifumbe warm as a tasty snack or dessert.
+tips:
+- You can add a touch of vanilla extract or grated citrus zest to the batter for additional flavor.
+- If you prefer a sweeter version, you can increase the amount of sugar in the batter.
+- Ifumbe can be served with a dusting of powdered sugar or a drizzle of honey for extra sweetness.
+- Cassava flour is a good source of carbohydrates and dietary fiber.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIfumbe_%28Rwandan_Cassava_Fritters%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ifumbe (Rwandan Cassava Fritters)@4522834
+    url: https://en.wikibooks.org/w/index.php?oldid=4522834
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

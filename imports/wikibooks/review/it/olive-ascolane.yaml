@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Tomato sauce or gravy
+#  - unmapped ingredient: 1/2 cup chopped green olives
+#  - no time in recipe summary
+id: it-olive-ascolane
+title: Olive Ascolane
+alternate_names:
+- Stuffed Fried Olives
+summary: Olive ascolane is an Italian starter from Ascoli Piceno made of fried green olives, stuffed with minced meat (beef, pork and chicken liver) and spices. This recipe was contributed to ItaliansRUs.com by Phil and Jackie Cicconi.
+origin:
+  country: IT
+course: starter
+authenticity: unassessed
+yield:
+  servings: 50
+  amount: 50 stuffed olives
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- name: Filling
+  items:
+  - {ingredient: pork, unit: g, qty: 680}
+  - {ingredient: chicken, unit: g, qty: 680}
+  - {ingredient: cheese, unit: cup, qty: 0.667}
+  - {ingredient: lemon, qty: 1, prep: grated}
+  - {ingredient: nutmeg, unit: tsp, qty: 1}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+  - {ingredient: allspice, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+- name: Base
+  items:
+  - {ingredient: olives, prep: halved}
+- name: Breading and frying
+  items:
+  - {ingredient: egg, qty: 2, prep: beaten}
+  - {ingredient: all-purpose-flour}
+  - {ingredient: breadcrumbs}
+  - {ingredient: vegetable-oil}
+steps:
+- Cook the pork and chicken breast in your favorite tomato gravy recipe.
+- Remove cooked, cooled meats from the sauce and grind them using a meat grinder or food processor.
+- Add the remaining filling ingredients to the ground meat mix (do not over-process). Mix the ingredients into the meat and put into the refrigerator to cool for at least one hour.
+- Remove the mixture from refrigerator and roll meat into balls about the size of a small walnut. Put half of an olive on each side of the rolled ball.
+- Flour each ball, dip in beaten egg, then dip in bread crumbs.
+- Arrange olive balls on a tray. Fry them quickly in about ½ inch of canola oil until golden brown.
+- Drain and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AOlive_Ascolane_%28Stuffed_Fried_Olives%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Olive Ascolane (Stuffed Fried Olives)@4514984
+    url: https://en.wikibooks.org/w/index.php?oldid=4514984
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

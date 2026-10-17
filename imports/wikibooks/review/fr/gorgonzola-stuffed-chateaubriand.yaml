@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 5 ounces crumbled Gorgonzola cheese
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: fr-gorgonzola-stuffed-chateaubriand
+title: Gorgonzola Stuffed Chateaubriand
+summary: Stuffing a steak with blue cheese is a great replacement for a pan sauce or steak sauce.
+origin:
+  country: FR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- name: Butter sauce
+  items:
+  - {ingredient: butter}
+  - {ingredient: shallot, prep: chopped}
+  - {ingredient: garlic, prep: minced}
+  - {ingredient: brandy}
+  - {ingredient: black-pepper}
+- name: Tenderloin
+  items:
+  - {ingredient: beef, qty: [1, 1.25]}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: olive-oil}
+steps:
+- Melt butter in a pan.
+- Add shallots and garlic, and cook until the shallots are translucent.
+- Add brandy off the heat, and cook until the taste of alcohol disappears.
+- Season to taste with black pepper.
+- Keep warm.
+- Make a slit in the center of the roast, but not all the way through.
+- Brush roast with olive oil and season liberally with kosher salt and freshly ground black pepper. Let sit at room temperature 30–60 minutes.
+- Heat a cast-iron grill pan over high heat 5–7 minutes. Add roast and cook until browned and slightly charred on all sides.
+- Move to a baking pan and fill the slit with cheese. Tie closed with kitchen twine and let rest 20 minutes while oven heats to 325°F.
+- Coat the outside of the roast with the prepared butter sauce.
+- Insert a probe thermometer at a 45° angle into the center of the roast. Place the pan into the oven and cook until internal temperature reaches 135°F.
+- Remove to a plate and cover with aluminum foil. Let rest 15 minutes before untying and carving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGorgonzola_Stuffed_Chateaubriand&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gorgonzola Stuffed Chateaubriand@4514815
+    url: https://en.wikibooks.org/w/index.php?oldid=4514815
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

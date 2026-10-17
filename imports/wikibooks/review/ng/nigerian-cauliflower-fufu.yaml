@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 teaspoon psyllium husk
+id: ng-nigerian-cauliflower-fufu
+title: Nigerian Cauliflower Fufu
+summary: Nigerian cauliflower fufu is swallow made with cauliflower, which is rich in fibre. Cauliflower fufu is similar to pounded yam, just like eggplant fufu is similar to amala.
+origin:
+  country: NG
+course: side
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 25
+difficulty: 2
+equipment:
+- Knife
+- Sieve cloth/chiffon cloth
+- Blender
+ingredient_groups:
+- items:
+  - {ingredient: cauliflower, qty: 6}
+  - {ingredient: red-palm-oil, unit: tbsp, qty: 3, optional: true}
+steps:
+- Cut cauliflower into small pieces, and blend with a blender to give a purée.
+- Strain the cauliflower mixture through a cloth, retaining the solids.
+- Squeeze the sieve cloth to drain more water until relatively dry and a dough is formed.
+- Transfer the dough to a saucepan over medium heat, and stir in the psyllium husk.
+- Stir and mold to form a paste, and shape into portions.
+tips:
+- Psyllium husk makes the cauliflower fufu moldable.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Cauliflower_Fufu&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Cauliflower Fufu@4518759
+    url: https://en.wikibooks.org/w/index.php?oldid=4518759
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

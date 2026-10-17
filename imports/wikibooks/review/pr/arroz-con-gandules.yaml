@@ -1,0 +1,78 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3–4 Italian frying peppers
+#  - unmapped ingredient: 10 leaves of culantro, or another handful of cilantro
+#  - unmapped ingredient: 3 cups sofrito
+#  - unmapped ingredient: 5 tablespoons chopped Mexican mint
+#  - unmapped ingredient: 2 green plantains or 3 green bananas grated
+#  - unmapped ingredient: 1–2 whole pieces of smoked ham hock or smoked turkey, depending how big just for flavor
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: pr-arroz-con-gandules
+title: Arroz con Gandules
+alternate_names:
+- Puerto Rican Rice and Pigeon Peas
+summary: Arroz con gandules is a Puerto Rican dish of rice, pigeon peas, smoked meat, and sofrito.
+origin:
+  country: PR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- name: Sofrito
+  items:
+  - {ingredient: onion, qty: 2, prep: cut into large chunks, note: medium}
+  - {ingredient: garlic, unit: clove, qty: [16, 20], prep: peeled}
+  - {ingredient: cilantro, qty: 1, prep: washed, note: large}
+  - {ingredient: red-chili, qty: [10, 12], prep: seeded}
+  - {ingredient: tomato, qty: [3, 4], prep: 'seeded, cored and cut into chunks or roasted then skin and seeds removed'}
+  - {ingredient: red-bell-pepper, qty: 1, prep: 'cored, seeded and cut into large chunks or roasted first then seeds and some skin removed', note: large}
+- name: Rice
+  items:
+  - {ingredient: olive-oil, unit: cup, qty: 0.5}
+  - {ingredient: annatto, unit: tbsp, qty: 1}
+  - {ingredient: olives, unit: cup, qty: 0.5}
+  - {ingredient: salt, unit: tbsp, qty: 3}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tbsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 2}
+  - {ingredient: ham, unit: g, qty: 680, prep: 'ham, or chorizo, diced'}
+  - {ingredient: long-grain-rice, unit: cup, qty: 6, note: medium}
+  - {ingredient: pigeon-peas-canned, qty: 1}
+  - {ingredient: chicken-stock, prep: 'chicken, turkey, or vegetable broth'}
+  - {ingredient: bay-leaf, qty: 6}
+  - {ingredient: banana, qty: 1, optional: true}
+steps:
+- Add chopped onions to blender, and blend until liquefied.
+- With the motor running, add the remaining sofrito ingredients one at a time and process until smooth.
+- Remove and reserve 3 cups of sofrito for rice.
+- Heat the oil and annatto seeds in a small skillet over medium heat just until the seeds give off a lively, steady sizzle. Don't overheat the mixture or the seeds will turn black and the oil green. Once they're sizzling, pull the pan from the heat and let stand until the sizzling stops. Strain as much of the oil as you can into a heavy 5-quart pot or Dutch oven and let it stand for at least 5 minutes.
+- Lightly toast the cumin and coriander seeds in a small skillet over low heat for a few minutes before grinding them releases flavor and aroma. Keep an eye on them, they turn dark fast. Grind in a little spice grinder, coffee mill, or mortar and pestle.
+- If using frozen pigeon peas, boil them for 10 minutes before using. If using from a can, drain the liquid and rinse the peas.
+- Re-heat oil over high heat until rippling. Stir in ham hock and salami and brown. Add sofrito, alcaparrado, grated plantain, and salt. Cook until sofrito stops boiling and sizzles, about 5 minutes.
+- Add cumin, coriander, orégano brujo, bay leaves or avocado leaves, and black pepper. Cook, stirring in the sofrito for an additional 30–45 seconds until the aroma release from spices.
+- Stir in the rice and peas until everything is mixed together and rice is coated with oil all over. Stir in enough broth or water to cover the rice by the width of two fingers. Top with banana leaf (or pan lid), folding it up as necessary to fit over rice or can cut what ever sticks out pot.
+- Bring to a boil, then boil without stirring until the level of liquid meets the rice. Remove the banana leaf, give the rice a big stir, and put leaf back on top.
+- Reduce the heat to low, cover the pot with lid, and cook until the water has been absorbed and the rice is tender (about 20 minutes).
+tips:
+- The remaining sofrito will keep in the refrigerator for up to 3 days or freeze in ice trays and it will last a month. Tomatoes can be roasted and passed threw a strainer, removing seeds and skin as an option. Red peppers are usually roasted on an open flame before blending into sofrito.
+- Homemade broth is best, but you can use store-bought or water.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AArroz_con_Gandules_%28Puerto_Rican_Rice_and_Pigeon_Peas%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Arroz con Gandules (Puerto Rican Rice and Pigeon Peas)@4515438
+    url: https://en.wikibooks.org/w/index.php?oldid=4515438
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

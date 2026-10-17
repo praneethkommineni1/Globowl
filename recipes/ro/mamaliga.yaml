@@ -1,0 +1,38 @@
+id: ro-mamaliga
+title: Mămăligă with Cheese and Sour Cream
+native_name: {text: Mămăligă cu brânză și smântână, lang: ro}
+summary: Soft, golden cornmeal porridge topped with salty crumbled sheep's cheese and cool sour cream.
+origin:
+  country: RO
+  also_claimed_by: [MD]
+course: main
+dish_types: [porridge]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 5, cook_min: 30}
+difficulty: 2
+techniques: [boiling]
+ingredient_groups:
+  - items:
+      - {ingredient: water, qty: 1, unit: l}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: cornmeal, qty: 250, unit: g, note: "medium-coarse yellow"}
+      - {ingredient: butter, qty: 1, unit: tbsp}
+      - {ingredient: feta, qty: 200, unit: g, prep: "crumbled", note: "Romanian telemea or brânză de burduf"}
+      - {ingredient: sour-cream, qty: 200, unit: ml}
+      - {ingredient: egg, qty: 4, note: "fried", optional: true}
+steps:
+  - Bring the salted water to a boil. Pour in the cornmeal in a thin stream, whisking constantly to prevent lumps.
+  - text: Switch to a wooden spoon and cook over low heat, stirring often, until thick and it pulls away from the sides.
+    timer_min: 25
+  - Stir in the butter.
+  - Spoon onto plates and top with the cheese, sour cream and a fried egg if you like.
+tips:
+  - For a firm mămăligă that can be sliced (traditionally with a thread), cook it longer and turn it out onto a board.
+serving: Also as a side for sarmale (cabbage rolls) or tochitură (pork stew).
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

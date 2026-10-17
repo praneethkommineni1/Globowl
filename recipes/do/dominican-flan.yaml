@@ -1,0 +1,53 @@
+id: do-dominican-flan
+title: Dominican Flan
+summary: Flan is a variety of custard dessert. This version is popular in the Dominican Republic, mostly made on important holidays celebrated by Dominican people, including Christmas Eve (also known as Nochebuena).
+origin:
+  country: DO
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 9
+time:
+  total_min: 45
+difficulty: 3
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 0.25}
+  - {ingredient: sugar, unit: cup, qty: 0.25}
+  - {ingredient: condensed-milk, unit: can, qty: 2}
+  - {ingredient: evaporated-milk, unit: can, qty: 0.5}
+  - {ingredient: egg, qty: 8}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1, optional: true}
+steps:
+- Combine the water and the sugar in a small, non-stick aluminum saucepan.
+- Cook over medium heat to dissolve sugar. Then, simmer until light brown, making sure it doesn't burn.
+- Once the caramel is ready, swirl the pot, making sure that the caramel is well-distributed in the pot. You may want to use a towel or oven mitts since it's very hot.
+- Set it aside, and let it cool.
+- Crack and beat the eggs in a large bowl.
+- Mix the sweetened condensed milk and the evaporated milk into the eggs. Make sure it's mixed thoroughly.
+- Pour the custard mixture through a strainer into the pot containing the caramel.
+- Cover the top of the pot with aluminum foil. Poke about 5 to 6 holes in the foil using a butter knife.
+- Partially fill a larger pot with water, and carefully place the smaller pot inside to make a bain-marie.
+- Cover the larger pot with a lid, and simmer over medium heat until the custard is fully cooked. When the flan is gently poked with a butter knife, there should be no residue on the knife.
+- Remove the flan from the stove and let it cool completely.
+- Take a large plate, put it on top of the pot, and flip the pot over. The flan should drop from the pot onto the plate. Carefully remove the pot, making sure that the flan stays in one piece.
+- Place the flan in the fridge and let it rest.
+- Cut the flan into slices and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADominican_Flan&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dominican Flan@4587449
+    url: https://en.wikibooks.org/w/index.php?oldid=4587449
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

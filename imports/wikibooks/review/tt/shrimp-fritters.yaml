@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no time in recipe summary
+id: tt-shrimp-fritters
+title: Shrimp Fritters
+alternate_names:
+- Accra
+summary: Shrimp Fritters.
+origin:
+  country: TT
+course: snack
+authenticity: unassessed
+yield:
+  servings: 8
+  amount: 8–10
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: green-pepper, unit: cup, qty: 0.25, prep: chopped}
+  - {ingredient: scallion, qty: 2, prep: chopped}
+  - {ingredient: onion, qty: 1, prep: chopped, note: small}
+  - {ingredient: scotch-bonnet, qty: 1, prep: minced}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: baking-powder, unit: tsp, qty: 2}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: shrimp, unit: g, qty: 227}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: minced}
+  - {ingredient: thyme, unit: tsp, qty: 1}
+  - {ingredient: parsley, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: water}
+  - {ingredient: vegetable-oil}
+steps:
+- Combine green pepper, spring onions, onions, and scotch bonnet in a bowl.
+- Add remaining ingredients except water, and mix thoroughly.
+- Stir in enough water to make a soft mixture using a spoon. Beat mixture until is smooth.
+- Using a pan or deep fryer, drop spoonfuls in to hot oil, and fry until all sides are brown.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AShrimp_Fritters_%28Accra%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Shrimp Fritters (Accra)@4517764
+    url: https://en.wikibooks.org/w/index.php?oldid=4517764
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

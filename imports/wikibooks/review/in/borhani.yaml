@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 500 mL full-fat plain yoghurt
+#  - no time in recipe summary
+id: in-borhani
+title: Borhani
+alternate_names:
+- Spiced Yogurt Drink
+summary: Borhani are yoghurt-based drinks popular in Bangladesh. It's traditionally served in wedding ceremonies around the country.
+origin:
+  country: IN
+course: drink
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- roasting
+ingredient_groups:
+- items:
+  - {ingredient: cumin-seeds, unit: tsp, qty: 3}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: red-chili, unit: tsp, qty: 0.5}
+  - {ingredient: mint, unit: tsp, qty: 0.5}
+  - {ingredient: ground-coriander, unit: tsp, qty: 0.5}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 0.75}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.75}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: sugar, unit: tsp, qty: 3}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+steps:
+- Dry-roast cumin seeds by cooking them over low heat in small pan until you can smell the seasoning, about 2 minutes. Cool and grind to a powder.
+- Beat yoghurt with water until it becomes smooth. Strain green chili, mint, leaf and coriander pastes with some water blend into the yoghurt. Combine all other ingredients and mix well.
+- Serve cold.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABorhani_%28Spiced_Yogurt_Drink%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Borhani (Spiced Yogurt Drink)@4615143
+    url: https://en.wikibooks.org/w/index.php?oldid=4615143
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

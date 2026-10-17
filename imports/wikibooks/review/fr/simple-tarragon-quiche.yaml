@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 teaspoon chopped fresh tarragon
+#  - unmapped ingredient: 1 prepared frozen pie crust
+#  - unmapped ingredient: 3/4 cup freshly-grated Swiss cheese
+id: fr-simple-tarragon-quiche
+title: Simple Tarragon Quiche
+summary: A quiche is a baked, unsweetened custard pie, often made with savory fillings. Originally served in Germany, quiche was adopted by neighboring France and is now considered a traditional French dish.
+origin:
+  country: FR
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 75
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 5}
+  - {ingredient: heavy-cream, unit: cup, qty: 1.333}
+  - {ingredient: nutmeg, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.125}
+steps:
+- Preheat oven to 375&deg;F (190&deg;C).
+- Place the eggs, cream, tarragon, nutmeg, salt, and pepper in a blender; blend as briefly as possible until they form a homogeneous mixture.
+- In the pie crust, create alternating layers of the shredded cheese and the mixture from the blender until the crust is full.
+- Bake the quiche for 35–40 minutes; a toothpick or fork inserted into its middle should come out "clean".
+- Remove the quiche from the oven, and let it cool for at least 20 minutes before serving.
+tips:
+- Use nutmeg sparingly.
+- Fresh tarragon will be better than dried tarragon.
+- Placing a very hot pan in under the quiche will give it greater volume.
+- Try making quiches with sautéed onions, sautéed broccoli, and shredded sharp cheddar cheese; feel free to experiment.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASimple_Tarragon_Quiche&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Simple Tarragon Quiche@4536098
+    url: https://en.wikibooks.org/w/index.php?oldid=4536098
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

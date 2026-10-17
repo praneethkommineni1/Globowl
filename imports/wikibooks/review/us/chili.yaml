@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 red or yellow bell pepper, chopped
+#  - unmapped ingredient: Chili garlic sauce
+#  - no time in recipe summary
+id: us-chili
+title: Chili
+alternate_names:
+- Vegan
+summary: Vegan chili is chili that uses no animal or meat products in its creation. Many variations of a vegetarian based chili have been created using meat substitutes, tofu and even vegetables.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: kidney-beans-canned, unit: can, qty: 2}
+  - {ingredient: black-beans-canned, unit: can, qty: 1}
+  - {ingredient: dried-white-beans, unit: can, qty: 1}
+  - {ingredient: corn-kernels, unit: can, qty: 1}
+  - {ingredient: tomato-paste, unit: can, qty: 1}
+  - {ingredient: tomato, qty: 1, prep: chopped, note: medium}
+  - {ingredient: green-chili, qty: 2}
+  - {ingredient: red-bell-pepper, qty: 1, prep: chopped}
+  - {ingredient: onion, qty: 2, prep: chopped, note: medium}
+  - {ingredient: garlic, qty: 4, prep: chopped or crushed, note: medium}
+  - {ingredient: chili-powder, unit: ml, qty: 10}
+  - {ingredient: salt, qty: 1, optional: true, note: large}
+  - {ingredient: dried-oregano}
+  - {ingredient: olive-oil, unit: ml, qty: 10}
+  - {ingredient: molasses, unit: ml, qty: 50}
+steps:
+- In a large pot, heat the olive oil with a few drops of water. When the water starts sizzling, add the onions and garlic. Stir until the onions are soft (optionally until they are slightly brown).
+- Add the chili peppers and fry for a few more seconds. Add the tomato paste and tomato, and the chili powder, salt, and oregano. Stir a few times then let boil and simmer.
+- Rinse the beans well and add them to the simmering vegetables. Drain the corn and add to the chili. Add the molasses.
+- Taste the chili; if it needs more seasoning, add it now (perhaps with the exception of salt, as people can add this at the table). It is probably better not to add more jalapeños at this point, but if the chili is not spicy enough, some chili sauce or chili garlic sauce can be added.
+- Let the pot simmer, covered, for at least 30 minutes—longer will distribute the flavor better. If the chili is too thick, add a little water; if it's too thin, uncover the pot to let water evaporate.
+- Add the bell peppers, stir, and simmer for a minute or two (peppers should stay crunchy).
+- Serve with bread; Keeps well, perhaps even better the second day.
+tips:
+- You may add 2 cups of vegetable broth along with the tomatoes before bringing to a boil.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChili_%28Vegan%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chili (Vegan)@4599150
+    url: https://en.wikibooks.org/w/index.php?oldid=4599150
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

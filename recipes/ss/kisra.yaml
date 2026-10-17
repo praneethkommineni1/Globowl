@@ -1,0 +1,33 @@
+id: ss-kisra
+title: Kisra
+alternate_names: [Sorghum flatbread]
+summary: Thin, tangy flatbread made from fermented sorghum batter, spread paper-thin on a hot griddle — eaten with stews across South Sudan and Sudan.
+origin:
+  country: SS
+  also_claimed_by: [SD]
+course: bread
+dish_types: [flatbread]
+authenticity: traditional
+yield: {servings: 4, amount: about 12 sheets}
+time: {prep_min: 10, cook_min: 40, inactive_min: 720}
+difficulty: 3
+equipment: [Large flat griddle, A flexible spatula or straight-edged scraper]
+techniques: [fermenting, pan-frying]
+ingredient_groups:
+  - items:
+      - {ingredient: sorghum-flour, qty: 300, unit: g}
+      - {ingredient: water, qty: 600, unit: ml, note: "lukewarm"}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+steps:
+  - text: Whisk the flour and water into a thin batter. Cover and leave at warm room temperature to ferment until bubbly and sour-smelling.
+    timer_min: 720
+  - Stir in the salt; the batter should be like thin crêpe batter.
+  - Heat the ungreased griddle until a drop of water dances. Pour a ladle of batter at one side and spread it across in one quick sweep with the scraper, as thin as possible.
+  - Cook until the edges lift and the top is dry and lacy (about 1 minute), on one side only. Peel off and stack.
+serving: With mullah (stew) — such as okra, lentils or meat sauce.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

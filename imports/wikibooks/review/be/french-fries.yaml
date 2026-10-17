@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no difficulty in recipe summary
+id: be-french-fries
+title: French Fries
+summary: French fries (or chips) are a well-known element of fast food.
+origin:
+  country: BE
+course: side
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 30
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: potato}
+  - {ingredient: vegetable-oil}
+  - {ingredient: salt}
+steps:
+- Peel potatoes, and cut into thin straw-like pieces.
+- Wash potatoes well with water to remove excess starch.
+- Place fries in a saucepan with water, and simmer or parboil on the stove for about 15 minutes.
+- Drain the fries, and dry them well.
+- Deep fry in 175°C vegetable oil, lard, or drippings for 4–5 minutes until light golden and crisp.
+- Remove from oil, and place on plate with paper towels to absorb the leftover cooking oil. Transfer to another plate if necessary.
+- Add salt and shake to ensure all French fries are evenly salted.
+tips:
+- You can vary the size of the potato slices. Thick wedge shapes are home-style fries or English-style chips, while thinly julienned potatoes make for shoestring potatoes. Cooking times will need to be adjusted accordingly.
+- Try adding other spices after cooking. Minced garlic is popular in California cuisine.
+- Instead of ketchup, serve with mayonnaise, gravy, barbecue sauce, or salt, hummus, and vinegar.
+- For poutine (a French-Canadian treat), toss cooked fries with cheese curds and smother with gravy.
+- Some cook the fries a single time in a generous amount of oil pre-heated to a temperature around 375 °F (190 °C) until they are golden and slightly crisp.
+- 'The method recommended by most cookbooks and used by many restaurants, is to cook them in two stages: first at around 350 °F (177 °C) until the fries are nearly cooked but limp and pale; after they have been removed from the oil and allowed to cool, they are briefly fried at a higher temperature of around 375 °F (190 °C) until golden and crisp.'
+- A method attributed to the celebrated French chef Joël Robuchon for the home cook says to put the sliced potatoes into a saucepan with just enough cold oil in it to cover the potatoes, then to cook them over high heat until golden, stirring occasionally.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrench_Fries&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:French Fries@4523449
+    url: https://en.wikibooks.org/w/index.php?oldid=4523449
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,73 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-suqaar
+title: Suqaar
+alternate_names:
+- Somali Spiced Meat Stir-fry
+summary: Suqaar is a flavorful and aromatic Somali meat stir-fry that is commonly served as a main course. This dish features tender pieces of meat cooked with a delightful blend of spices, onions, and bell peppers, creating a savory and satisfying meal.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large skillet or frying pan
+- Cutting board
+- Knife
+techniques:
+- sauteing
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 454, prep: thinly sliced}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: tomato, qty: 1, prep: diced}
+  - {ingredient: red-bell-pepper, qty: 1, prep: thinly sliced}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: cilantro, prep: 'chopped, for garnish'}
+steps:
+- In a large skillet or frying pan, heat the vegetable oil over medium-high heat.
+- Add the finely chopped onion to the hot oil and sauté until it becomes soft and translucent.
+- Stir in the minced garlic and cook for another minute until fragrant.
+- Add the thinly sliced beef to the pan and cook until it browns and develops a nice sear on both sides.
+- Toss in the diced tomato and thinly sliced bell pepper. Continue to stir-fry until the vegetables soften slightly.
+- Sprinkle the ground cumin, coriander, turmeric, and cayenne pepper over the meat and vegetables. Mix well to evenly coat everything with the spices.
+- Season with salt to taste, adjusting the seasoning according to your preference.
+- Lower the heat to medium-low, cover the skillet, and let the suqaar simmer for a few minutes to allow the flavors to meld and the meat to become tender.
+- Once the meat is fully cooked and tender, remove the skillet from the heat.
+- Garnish with freshly chopped cilantro or parsley before serving.
+tips:
+- Suqaar is typically enjoyed with Somali flatbread or rice, and it pairs well with a side of Somali salad or chutney.
+- Feel free to adjust the level of spiciness by adding more or less cayenne pepper to suit your taste.
+- You can also add additional vegetables, such as carrots or peas, to enhance the nutritional value and add color to the dish.
+- For a vegetarian version, you can substitute the beef with tofu or tempeh and adjust the cooking time accordingly.
+- Beef is a rich source of protein, iron, and various B-vitamins.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASuqaar_%28Somali_Spiced_Meat_Stir-fry%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Suqaar (Somali Spiced Meat Stir-fry)@4514135
+    url: https://en.wikibooks.org/w/index.php?oldid=4514135
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

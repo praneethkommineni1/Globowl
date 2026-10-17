@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 pieces of saba
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ph-nilagang-baka
+title: Nilagang Baka
+alternate_names:
+- Boiled Beef and Vegetables in Broth
+summary: Nilagang baka is a Philippine dish of boiled beef and vegetables in broth.
+origin:
+  country: PH
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: kg, qty: 2.5}
+  - {ingredient: black-peppercorns, unit: tsp, qty: 0.5}
+  - {ingredient: onion, qty: 1, prep: quartered}
+  - {ingredient: potato, qty: 1, prep: quartered}
+  - {ingredient: white-cabbage, qty: 1, prep: quartered}
+  - {ingredient: white-cabbage, qty: 2}
+  - {ingredient: corn-kernels, qty: 1, prep: quarter-sliced}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: chives, qty: 2}
+steps:
+- Boil beef, peppercorns, onion, salt, corn, and potato until tender.
+- Slice onion chives into 3-inch strips. Add to the boiling beef.
+- Slice saba into half. Add to the boiling beef.
+- Serve in one large bowl or individual serving bowls.
+- Serve with rice on the side.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANilagang_Baka_%28Boiled_Beef_and_Vegetables_in_Broth%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nilagang Baka (Boiled Beef and Vegetables in Broth)@4630367
+    url: https://en.wikibooks.org/w/index.php?oldid=4630367
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

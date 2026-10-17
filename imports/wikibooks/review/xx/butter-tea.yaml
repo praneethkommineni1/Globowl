@@ -1,0 +1,40 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 tablespoon regular black tea leaves
+id: xx-butter-tea
+title: Butter Tea
+summary: Butter tea, known as Po Cha, is a traditional drink of the Tibetans and is also consumed in Bhutan. Butter tea is an indispensable part of Tibetan life. Before work, a Tibetan will down several bowlfuls of this tangy beverage, and it is always served to guests.
+origin:
+  country: XX
+course: drink
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 20
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: cup, qty: 3}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+steps:
+- Boil tea with milk for 2–10 minutes, depending upon the strength of tea desired
+- Strain into tea cups.
+- Add butter and salt. Stir thoroughly, ideally by carefully using a blender, and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AButter_Tea&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Butter Tea@4522466
+    url: https://en.wikibooks.org/w/index.php?oldid=4522466
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

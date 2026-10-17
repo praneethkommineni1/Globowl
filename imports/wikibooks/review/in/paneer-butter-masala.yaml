@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 200 g paneer
+#  - unmapped ingredient: 1 tsp chilli powder
+#  - unmapped ingredient: 500 g natural yoghurt
+#  - course unknown from categories
+id: in-paneer-butter-masala
+title: Paneer Butter Masala
+summary: Paneer butter masala also known as paneer makhani is a vegetarian dish from India that is also popular in the west. The dish combines paneer in a sauce quite similar to that of butter chicken.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 25
+difficulty: 2
+techniques:
+- pan-frying
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: ghee}
+  - {ingredient: onion, qty: 1, prep: diced}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: garlic, unit: tsp, qty: 5}
+  - {ingredient: red-bell-pepper, qty: 1, prep: diced}
+  - {ingredient: tomato, qty: 2, prep: diced}
+  - {ingredient: ghee, unit: tsp, qty: 1}
+  - {ingredient: asafoetida, unit: tsp, qty: 5}
+  - {ingredient: ground-cardamom, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1}
+  - {ingredient: garam-masala, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: lemon-juice, unit: tsp, qty: 1}
+steps:
+- Fry paneer in ghee or oil, and set aside in a bowl.
+- Sauté onion in oil with garlic and ginger paste until golden brown.
+- Add diced capsicum and tomatoes.
+- In a separate pan combine ghee, hing, cardamom, turmeric, garam masala, chilli powder, lemon juice, and cumin.
+- Fry for 2 minutes, then add yoghurt.
+- Cook on medium heat for five minutes.
+- Add onions, capsicum, tomatoes, and paneer.
+- Cook on low heat for 15 minutes occasionally stirring.
+- Serve with rotis or naan and rice.
+tips:
+- For more of a gravy-like texture reduce the amount of yoghurt and add full-fat milk with a spoonful of cornstarch as desired.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APaneer_Butter_Masala&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Paneer Butter Masala@4525004
+    url: https://en.wikibooks.org/w/index.php?oldid=4525004
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

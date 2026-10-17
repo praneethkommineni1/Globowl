@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Baby milk, as necessary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-kids-vegetable-puree
+title: Kids' Vegetable Puree
+summary: Kids' vegetable purée is dish of cooked vegetables blended to a creamy paste. It is common to purée entire meals (without use of salt or other additives) to be served to toddlers, babies, and those unable to chew.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Blender
+- Bowl
+- Spoon
+- Pot
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: carrot, qty: 2, prep: peeled and diced}
+  - {ingredient: tomato, qty: 1, prep: 'peeled, seeded, and diced'}
+  - {ingredient: chicken-breast, unit: g, qty: 100, prep: cut into pieces}
+  - {ingredient: cucumber, prep: 'peeled, seeded, and diced'}
+  - {ingredient: olive-oil, qty: 4}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: water}
+steps:
+- Put the carrots, tomatoes, and chicken breast in a pot. Add water to the same level as the ingredients.
+- Cover, and cook on medium heat until the chicken is well done and the carrots are soft.
+- Add the diced cucumber, olive oil, and salt. At this point, you can top up the water to the same level as the ingredients if most of the water has dried.
+- Cover the pot and leave to boil until the cucumbers are soft.
+- Turn off the heat and leave to cool down completely.
+- Blend into a smooth purée using a kitchen blender. No need to add more water.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKids%27_Vegetable_Puree&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kids' Vegetable Puree@4497207
+    url: https://en.wikibooks.org/w/index.php?oldid=4497207
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - course unknown from categories
+id: xx-beurre-manie
+title: Beurre Manié
+summary: Beurre manié, meaning "kneaded butter", is a paste made from equal volumes of butter and flour. It acts a thickener for soups and sauces.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 90
+  amount: ⅓ cup (90 g)
+time:
+  total_min: 5
+difficulty: 1
+equipment:
+- Mixing bowl
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: cup, qty: 0.25}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 0.25}
+steps:
+- Combine the butter and flour in a mixing bowl.
+- Use your hands or a small utensil such as a fork/spoon to knead the flour into the butter until fully and evenly incorporated.
+- Use immediately or store as indicated in the notes.
+tips:
+- To use it to thicken soups and sauces, whisk 2 tablespoons of the beurre manié into soups or sauces, then simmer until thickened.
+- To freeze the beurre manié for long-term storage, portion it out into small balls (e.g. tablespoonfuls) and freeze until solid on a baking sheet. Transfer to an airtight ziplock bag, and store in the freezer for up to 3 months. Defrost completely before using.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeurre_Mani%C3%A9&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Beurre Manié@4502388
+    url: https://en.wikibooks.org/w/index.php?oldid=4502388
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

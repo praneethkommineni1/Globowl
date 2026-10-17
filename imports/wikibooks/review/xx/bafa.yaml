@@ -1,0 +1,77 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 500 g clams or mussels, cleaned
+#  - unmapped ingredient: 2 cups fish stock or water
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: xx-bafa
+title: Bafa
+alternate_names:
+- Cape Verdean Seafood Stew
+summary: Bafa is a traditional dish of Cape Verdean cuisine. It is typically prepared as a seafood stew using octopus, limpets, whelks, or other shellfish. One of the most popular variations is Bafa de Polvo (octopus bafa).
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: octopus, unit: kg, qty: 1, prep: cleaned and cut into pieces}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: minced}
+  - {ingredient: tomato, qty: 2, prep: diced, note: medium}
+  - {ingredient: black-pepper, qty: 1, prep: chopped}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: chili-flakes, unit: tsp, qty: 0.5, optional: true}
+  - {ingredient: dry-white-wine, unit: cup, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: parsley, unit: tbsp, qty: 2, prep: chopped}
+  - {ingredient: lemon, prep: for serving}
+steps:
+- Heat the olive oil in a large pot over medium heat.
+- Add the onion and cook until softened.
+- Stir in the garlic and cook for 1 minute.
+- Add the tomatoes and bell pepper and cook until tender.
+- Stir in the paprika, black pepper, and chili flakes.
+- Add the octopus pieces and cook for 5 minutes.
+- Pour in the white wine and allow it to simmer for 2–3 minutes.
+- Add the fish stock and bay leaf.
+- Bring to a boil, then reduce the heat and simmer for 45 minutes.
+- Add the clams or mussels.
+- Cover and cook until the shellfish open, about 5–10 minutes.
+- Discard any shellfish that do not open.
+- Season with salt to taste.
+- Stir in the chopped parsley.
+- Remove the bay leaf.
+- Serve hot with lemon wedges.
+tips:
+- Bafa de Polvo (octopus bafa)
+- Bafa with limpets
+- Bafa with whelks
+- Mixed seafood bafa
+- Spicy bafa with extra chili peppers
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABafa_%28Cape_Verdean_Seafood_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bafa (Cape Verdean Seafood Stew)@4638775
+    url: https://en.wikibooks.org/w/index.php?oldid=4638775
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

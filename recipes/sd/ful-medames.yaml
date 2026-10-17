@@ -1,0 +1,39 @@
+id: sd-ful-medames
+title: Ful Medames
+native_name: {text: فول مدمس, lang: ar, romanized: fūl midammis}
+alternate_names: [Ful]
+summary: Mashed fava beans dressed Sudanese-style with sesame oil, cumin and lime, topped with white cheese, tomato and onion.
+origin:
+  country: SD
+  also_claimed_by: [EG]
+course: breakfast
+dish_types: [beans]
+authenticity: home-style
+yield: {servings: 3}
+time: {prep_min: 10, cook_min: 10}
+difficulty: 1
+techniques: [simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: fava-beans-canned, qty: 2, unit: can, note: "400 g cans with their liquid"}
+      - {ingredient: ground-cumin, qty: 1, unit: tsp}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "crushed"}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+      - {ingredient: sesame-oil, qty: 2, unit: tbsp, note: "untoasted (light) sesame oil is traditional"}
+      - {ingredient: lime-juice, qty: 1, unit: tbsp}
+      - {ingredient: tomato, qty: 1, prep: "diced"}
+      - {ingredient: onion, qty: 0.5, prep: "finely chopped"}
+      - {ingredient: green-chili, qty: 1, prep: "chopped", optional: true}
+      - {ingredient: feta, qty: 80, unit: g, prep: "crumbled", note: "Sudanese gibna beyda", optional: true}
+steps:
+  - text: Simmer the beans with their liquid until hot and soft.
+    timer_min: 8
+  - Mash roughly with the cumin, garlic and salt.
+  - Spoon into a bowl, pour over the sesame oil and lime, and top with tomato, onion, chili and cheese.
+serving: Shared from one bowl with bread, often with ta'amiya (falafel) on top.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

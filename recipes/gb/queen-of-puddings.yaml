@@ -1,0 +1,51 @@
+id: gb-queen-of-puddings
+title: Queen of Puddings
+summary: Queen of puddings is a favourite English bread pudding served with an apricot glaze and a soft meringue topping.
+origin:
+  country: GB
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 80
+difficulty: 3
+techniques:
+- baking
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: cup, qty: 2}
+  - {ingredient: sugar, unit: g, qty: 85}
+  - {ingredient: lemon}
+  - {ingredient: butter, unit: g, qty: 57}
+  - {ingredient: breadcrumbs, unit: ml, qty: 177}
+  - {ingredient: egg, qty: 4, prep: separated}
+  - {ingredient: jam, unit: tbsp, qty: 4, prep: or jam of choice}
+  - {ingredient: vanilla-extract, unit: tbsp, qty: 2}
+steps:
+- Heat the milk, sugar, lemon zest and butter until just below the boil.
+- Pour onto the bread crumbs and allow the whole to cool slightly, about 10 minutes.
+- Beat the egg yolks and stir into the bread crumb and milk mixture.
+- Bake at 350°F (180°C) for 35 minutes.
+- Remove from the oven and let cool for 10 minutes.
+- Spread the top with the warmed jam, being careful not to break the surface of the pudding.
+- Whip the egg whites with the vanilla sugar and a few drops of lemon juice until the mixture reaches soft peaks.
+- Spread the meringue over the top of the pudding. Return to the oven and bake for 15 minutes until the meringue has browned.
+- Serve as is or with crème anglaise.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AQueen_of_Puddings&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Queen of Puddings@4587387
+    url: https://en.wikibooks.org/w/index.php?oldid=4587387
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 bottles Pinot Noir red wine
+#  - unmapped ingredient: 24–30 pearl onions, peeled but left whole
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - duplicate id fr-coq-au-vin from another Wikibooks page
+id: fr-coq-au-vin
+title: Coq au Vin
+summary: Coq au Vin.
+origin:
+  country: FR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 4
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 4, prep: 'or 1 stewing hen, cut into serving pieces'}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: bay-leaf, qty: 3}
+  - {ingredient: all-purpose-flour}
+  - {ingredient: egg, qty: 3, prep: beaten}
+  - {ingredient: water, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: quartered, note: medium}
+  - {ingredient: celery, unit: stalk, qty: 2, prep: quartered}
+  - {ingredient: carrot, qty: 2, prep: quartered}
+  - {ingredient: salt-pork, unit: g, qty: 170, prep: cubed}
+  - {ingredient: thyme, unit: sprig, qty: 12}
+  - {ingredient: rosemary, unit: sprig, qty: 5}
+  - {ingredient: garlic, unit: clove, qty: 7, prep: smashed}
+  - {ingredient: chicken-stock, unit: cup, qty: 2}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 2}
+  - {ingredient: egg, qty: 3, prep: beaten}
+steps:
+- Sprinkle both sides of chicken pieces very liberally with kosher salt and freshly ground black pepper. Dip into eggs. Set aside.
+- Place some flour into a gallon size zip-top bag. Add chicken pieces and toss to coat. It's fun for the whole family!
+- Place water in the bottom of a cast-iron skillet along with the salt pork, and heat over medium heat. Cook 8–10 minutes. Remove salt pork but leave fat in.
+- Add pearl onions to same pan and cook until deeply browned. Remove and add chicken pieces, working in batches if needed, into same pan and brown on both sides. Transfer to a 7–8 quart enameled Dutch oven. Keep onions in an airtight container with salt pork in the refrigerator.
+- Pour off remaining fat. Deglaze with 1 cup of wine. Pour this along with remaining ingredients into Dutch oven and refrigerate overnight.
+- The next day, preheat the oven to 325 °F.
+- Place the chicken in the oven and cook for 2–2½ hours, or until the chicken is tender. Maintain a very gentle simmer and stir occasionally.
+- Once the chicken is done, remove it to a heatproof container, cover, and place it in the oven to keep warm. Strain the sauce in a colander and remove the carrots, onion, celery, thyme, rosemary, garlic, and bay leaf. Discard. Return the sauce to the pot, place over medium heat, and reduce by half.
+- Once sauce has reduced, add salt pork and onion. Cook until heated through. Remove from heat, add chicken, and serve warm over hot cooked egg noodles, if desired.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACoq_au_Vin_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Coq au Vin II@4518795
+    url: https://en.wikibooks.org/w/index.php?oldid=4518795
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

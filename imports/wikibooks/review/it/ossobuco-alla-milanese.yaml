@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 240 ml dry white wine or white vermouth
+#  - course unknown from categories
+id: it-ossobuco-alla-milanese
+title: Ossobuco Alla Milanese
+summary: Ossobuco, when loosely translated from Italian, means hollowed bone; a reference to the large piece of marrow in the center of the veal shank bone. It's a Milanese speciality of veal shanks cooked in meat broth and flavored with white wine.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 165
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: veal, unit: slice, qty: 4, prep: about 2.5–4 centimeters thick}
+  - {ingredient: onion, qty: 1, prep: chopped fine, note: medium}
+  - {ingredient: celery, qty: 3, prep: chopped fine}
+  - {ingredient: carrot, qty: 1, prep: chopped fine, note: medium}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: butter, unit: tbsp, qty: 3}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 4}
+  - {ingredient: chicken-stock}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 3}
+  - {ingredient: anchovies, qty: 6, prep: mashed}
+  - {ingredient: thyme, unit: tsp, qty: 0.5}
+  - {ingredient: bay-leaf, qty: [2, 3]}
+  - {ingredient: lemon, qty: 2}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: all-purpose-flour}
+steps:
+- Preheat oven to .
+- If the butcher has not done so, tie the shanks around the middle with kitchen twine; this will keep them from falling apart during cooking.
+- Choose a heavy, covered roasting pan or Dutch oven which will just accommodate the veal shanks in one layer. Put the butter, two tablespoons of the oil, the onions, celery and carrots in the pan and sweat over medium heat until the vegetables have wilted—about 8 minutes. Add the garlic and lemon peel and sweat until they're fragrant, about 2 minutes more. Remove from the heat.
+- Meanwhile, heat the remaining oil in a skillet until it is near the smoking point. Lightly flour the veal shanks and slip them into the oil. Richly brown the shanks on both of the cut sides, then place them in the roasting pan on top of the vegetables.
+- Place the wine in the skillet and boil until reduced by one-half, deglazing the bottom of the pan. Pour this over the veal shanks.
+- Heat the beef broth to a boil in the skillet, whisking in the tomato paste and anchovies. Add this to the veal shanks, along with the herbs, several grindings of pepper, and a large pinch of salt. The liquid should cover three quarters of the shanks. If not, add extra water.
+- Bring the pot to a simmer, cover, and place in the oven. Cook for approximately 2 hours, turning and basting the shanks every half hour. If you notice that the cooking liquids have nearly evaporated, add hot water, about one half cup at a time. The veal is done when it is fork tender and falling from the bone.
+- Transfer the shanks to a platter, remove the strings, and cover to keep warm. If the sauce seems watery, as is probable, place the pan on the stove top over high heat and reduce the cooking liquid until the sauce has a thick, creamy consistency. Pour the sauce over the shanks and serve.
+tips:
+- There are variations to this dish that use other animal shanks including beef, turkey and venison.
+- The recipe calls for anchovies, which enrich the finished sauce without adding a fishy flavor. Don't omit them, even if you don't like anchovies.
+- Traditionally, the cooking sauce is finished with a mixture of garlic, lemon zest and parsley called gremolata. It adds a burst of freshness to the finished dish. Gremolata consists of the grated zest of one lemon, one finely minced clove of garlic, and one tablespoon of finely chopped parsley. Add this mixture to the sauce at the end of the cooking, as it's being reduced.
+- Ossobuco is almost always served with risotto. It's one of the few examples of Italian cooking where a starch is served with the main course. One may, for a change, substitute orzo or ancini de pepe cooked in meat broth and finished with butter and parmesan cheese.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AOssobuco_Alla_Milanese&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ossobuco Alla Milanese@4614652
+    url: https://en.wikibooks.org/w/index.php?oldid=4614652
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Red chile powder, to taste
+#  - no time in recipe summary
+id: in-indian-omelet
+title: Indian Omelet
+summary: The Indian omelet is called so since it has various Indian spices and vegetables added to it.
+origin:
+  country: IN
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 4, note: large}
+  - {ingredient: onion, unit: cup, qty: 1}
+  - {ingredient: tomato, unit: cup, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 0.5}
+  - {ingredient: cilantro, note: to taste}
+  - {ingredient: red-chili, note: to taste}
+  - {ingredient: vegetable-oil}
+steps:
+- In a small bowl, whisk the eggs lightly. Add in all the other ingredients and mix properly.
+- Set a skillet on stove, and smear its surface with a thin coat of oil.
+- Pour the contents of the bowl into the skillet.
+- Lightly brown on one side.
+- Turn over and lightly brown other side.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIndian_Omelet&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Indian Omelet@4517802
+    url: https://en.wikibooks.org/w/index.php?oldid=4517802
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

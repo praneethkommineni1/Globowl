@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: unripe bananas
+#  - unmapped ingredient: fresh peppers blended or chopped
+#  - unmapped ingredient: seasoning powder or cube
+#  - no procedure steps
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: xx-ator-mboro
+title: Ator mboro
+summary: Ator Mboro (also known as Oto Mboro) is a traditional Efik and Ibibio dish made from unripe bananas cooked in a rich palm-oil sauce with fish, crayfish, and spices. It is valued for its nutritional benefits and is commonly eaten as a main meal.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 120
+difficulty: 4
+equipment:
+- Knife
+- Chopping board
+- Grater
+- Mixing bowl
+- Mortar and pestle (optional)
+- Blender (optional)
+- Cooking spoon
+- Large cooking pot with lid
+- Basin for washing ingredients
+ingredient_groups:
+- items:
+  - {ingredient: fish}
+  - {ingredient: crayfish}
+  - {ingredient: onion, prep: chopped}
+  - {ingredient: red-palm-oil}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: water}
+  - {ingredient: butternut-squash, optional: true}
+steps:
+- (missing)
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAtor_mboro&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ator mboro@4639161
+    url: https://en.wikibooks.org/w/index.php?oldid=4639161
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

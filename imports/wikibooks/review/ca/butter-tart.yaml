@@ -1,0 +1,73 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 cup corn syrup
+id: ca-butter-tart
+title: Butter Tart
+summary: Butter tarts (tartes au sucre) are an extremely common dessert in Canada. Many versions are made; some are gooey while some are not, and different nuts, fruits, and other fillings can be used. Similar tarts can be found in the culinary traditions of Scotland and France.
+origin:
+  country: CA
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 24
+  amount: 24 tarts
+time:
+  total_min: 70
+difficulty: 2
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- name: Dough
+  items:
+  - {ingredient: shortening, unit: cup, qty: 1}
+  - {ingredient: butter, qty: 1, note: large}
+  - {ingredient: water, unit: cup, qty: 0.75}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 3.5}
+  - {ingredient: baking-powder, unit: tsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+- name: Filling
+  items:
+  - {ingredient: egg, qty: 2}
+  - {ingredient: brown-sugar, unit: cup, qty: 1.5}
+  - {ingredient: butter, unit: tbsp, qty: 3, prep: melted}
+  - {ingredient: raisins, unit: cup, qty: 1}
+  - {ingredient: walnuts, unit: cup, qty: 0.5}
+  - {ingredient: white-vinegar, unit: tsp, qty: 2}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 0.5}
+steps:
+- Beat the shortening, butter, and hot water together until creamy.
+- While still warm, sift in the flour, baking powder, and salt. Mix gently until a dough forms. Try not to knead it while forming it into a large ball.
+- Separate the dough into two equal portions and chill 20 to 40 minutes.
+- Divide the dough into two dozen equal balls. Roll each ball into a flat disc.
+- Preheat oven to 350°F (175˚C).
+- Beat the eggs well. Add sugar, syrup, and melted butter and beat again.
+- Add the currants, walnuts, vinegar, salt, and vanilla extract and mix vigorously.
+- Put a small amount of cornmeal into small tartlet pans, or count out 24 cupcake papers.
+- Fit the flat circles of pie crust into the pans, or fit them into cupcake papers and insert them into the pans.
+- Fill the shells ⅔ full with the prepared filling.
+- Bake until the pastry is light brown (about 20 minutes).
+- Remove from the oven and let cool.
+tips:
+- For runnier tarts, cook for 15 to 17 minutes. You can also adjust the filling ingredients to 1 cup of corn syrup and 1 cup of brown sugar.
+- Try replacing the currants with coconut, or omit entirely.
+- Try replacing the walnuts with pecans, or omit entirely.
+- Try drizzling 4 oz (120 g) melted chocolate over the cooked tarts.
+- This recipe (both the tarts and the pie crust) is a century-old recipe from rural North Western Ontario.
+- If the top of the tart hasn't frothed while baking and formed a cream coloured crunchy top it means there was too much time between when you beat the mixture and when it started baking. If you have to do multiple batches in the oven with the same mixture, be sure to keep the batter cool and keep stirring it to make sure the second batch has the traditional crispy top.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AButter_Tart&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Butter Tart@4587260
+    url: https://en.wikibooks.org/w/index.php?oldid=4587260
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

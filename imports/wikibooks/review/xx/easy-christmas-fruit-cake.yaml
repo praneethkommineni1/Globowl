@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-easy-christmas-fruit-cake
+title: Easy Christmas Fruit Cake
+summary: This Christmas fruit cake can be eaten a day after making, with no fuss no waiting around for it to age. The original contributor left the following anecdote:"This recipe was written out by my husband's sister who passed away at a very young age of 37, 12 Christmases ago.
+origin:
+  country: XX
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: raisins, unit: cup, qty: 1.5}
+  - {ingredient: orange, unit: cup, qty: 0.25}
+  - {ingredient: butter, unit: cup, qty: 1}
+  - {ingredient: cream-cheese, qty: 1}
+  - {ingredient: brown-sugar, unit: cup, qty: 1.5}
+  - {ingredient: egg, qty: 4}
+  - {ingredient: orange, unit: tsp, qty: 4}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: baking-powder, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: nutmeg, unit: tsp, qty: 0.5}
+steps:
+- In a saucepan on low heat warm raisins and orange juice until liquid is absorbed, then set aside.
+- In large bowl, beat butter cream cheese with sugar until fluffy. Beat in eggs one at a time, then stir in orange zest. Stir again.
+- In a separate bowl, mix flour, baking powder, salt, and nutmeg. Stir into batter, following with the raisin mixture.
+- Spoon batter into a greased and floured 9-inch tube pan or bundt pan.
+- Bake in 300°F (~160°C) oven for about 80 minutes. Check it at 60 minutes with a cake tester or skewer.
+- Let cool in pan for 5 minutes, then turn onto a rack to cool completely.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEasy_Christmas_Fruit_Cake&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Easy Christmas Fruit Cake@4516907
+    url: https://en.wikibooks.org/w/index.php?oldid=4516907
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

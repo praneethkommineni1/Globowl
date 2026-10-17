@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+id: xx-tahdiq
+title: Tahdiq
+alternate_names:
+- Crisped Persian Rice
+summary: Tahdiq, or tahdig is a popular Persian way of preparing rice.
+origin:
+  country: XX
+course: side
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: potato, qty: 2, note: medium}
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.333}
+  - {ingredient: salt}
+  - {ingredient: water}
+steps:
+- Peel and slice the raw potatoes into ½ inch thick slices.
+- Rinse and drain rice. Bring 4–5 cups of water to a boil in a 3-quart pot, adding salt if desired. Add rice, and continue to boil the water, stirring occasionally, for about 10 minutes. Check to be sure that the rice doesn't cook completely at this point.
+- When rice is roughly half cooked, drain into a colander.
+- Pour ¼ cup of cooking oil into the pot and lay the potato slices in the bottom close together in a single layer. Add a small amount of salt (if desired). Layer the half-cooked, drained rice loosely atop the potatoes.
+- Place pot on stove over medium high heat for 4–5 minutes or until rice begins to steam.
+- Lower heat and add 5 tbsp water and 2–3 tbsp oil on top of rice. Cover and let simmer for about ½ hour or until cooked and tender. The higher the heat, the crunchier the tahdig.
+- Scoop out the rice and use a soft spatula to remove tahdig at bottom, or try to make the contents of the pot come out as an entire cake of rice on the serving dish.
+tips:
+- Tahdig can also be made by substituting the potatoes with bread (e.g. pita or lavash) or with the rice alone. Other common additions include slices of onion, beet or other rootstock.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATahdiq_%28Crisped_Persian_Rice%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tahdiq (Crisped Persian Rice)@4513062
+    url: https://en.wikibooks.org/w/index.php?oldid=4513062
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

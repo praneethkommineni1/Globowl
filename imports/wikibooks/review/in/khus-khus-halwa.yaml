@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 tablespoon maida
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: in-khus-khus-halwa
+title: Khus Khus Halwa
+summary: Khus Khus Halwa.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: mango, qty: 1, prep: peeled and fleshed removed}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: milk, unit: cup, qty: 1.5}
+  - {ingredient: vanilla-extract, qty: 2, optional: true}
+  - {ingredient: ground-cinnamon, unit: pinch, qty: 1}
+  - {ingredient: white-bread, qty: 2}
+steps:
+- Blend together the mango flesh, sugar, milk, vanilla, and cinnamon powder until smooth.
+- Add a bit of maida to the batter and whisk it well.
+- Dip the bread slices in the batter and fry them in a oiled pan until brown on both sides.
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKhus_Khus_Halwa&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Khus Khus Halwa@4513383
+    url: https://en.wikibooks.org/w/index.php?oldid=4513383
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

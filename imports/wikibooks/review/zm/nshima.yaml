@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: zm-nshima
+title: Nshima
+summary: Nshima is a staple maize dish meal wisely consumed in Zambia and neighboring regions.
+origin:
+  country: ZM
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: cornmeal, unit: cup, qty: 3}
+  - {ingredient: water, unit: l, qty: 1}
+  - {ingredient: water, unit: cup, qty: 1.5}
+steps:
+- Boil 1 Litre of water in advance, in a Kettle or Sauce pan.
+- Once the water boils, combine 1 cup of Cornmeal or Meal as we call it, with 1 1/2 cups of cold water in a sauce pan, to make a smooth paste. A flat cooking stick is ideal for this.
+- Transfer the Cornmeal paste to the stove (set at medium high heat), and then slowly pour about 700ml of boiling water into the saucepan, stirring continuously, making sure the mixture is smooth and well combined.
+- This should lead to a smooth porridge, almost creamy. Allow this to boil for at least 10 minutes, covered.
+- Remove the cover after 10 minutes and begin to add the remaining Cornmeal to the porridge, a little at a time, making sure it is well combined, before adding some more.
+- The porridge should stiffen up quickly with each addition of Cornmeal, and you will need to exert a bit of muscle to mix this well, smoothing out any lumps that form in the process
+- Remove from the stove after the 10 minutes, and using a smooth serving spoon, scoop out the Nshima, one lump at a time and transfer into your serving dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANshima&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nshima@4640268
+    url: https://en.wikibooks.org/w/index.php?oldid=4640268
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

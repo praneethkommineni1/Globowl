@@ -1,0 +1,76 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: et-yemiser-selatta
+title: Yemiser Selatta
+alternate_names:
+- Ethiopian Lentil Salad
+summary: Yemiser selatta is a vibrant and refreshing Ethiopian salad made with cooked lentils, fresh vegetables, and a zesty dressing. This salad is a popular dish in Ethiopian cuisine and is enjoyed as a side dish or a light meal.
+origin:
+  country: ET
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Medium saucepan
+- Mixing bowl
+- Whisk
+- Knife
+- Cutting board
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: brown-lentils, unit: cup, qty: 1}
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: tomato, qty: 1, prep: diced, note: large}
+  - {ingredient: red-onion, qty: 1, prep: finely chopped, note: small}
+  - {ingredient: cucumber, qty: 1, prep: diced, note: small}
+  - {ingredient: parsley, unit: cup, qty: 0.5}
+  - {ingredient: mint, unit: cup, qty: 0.25}
+  - {ingredient: lemon}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: ground-coriander, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Rinse the lentils thoroughly to remove any impurities.
+- In a medium saucepan, bring the water to a boil. Add the rinsed lentils and salt. Reduce the heat to low, cover, and simmer for about 15–20 minutes, or until the lentils are tender but still hold their shape. Drain any excess water and let the lentils cool.
+- In a mixing bowl, combine the cooked lentils, diced tomato, chopped red onion, diced cucumber, chopped parsley, and chopped mint.
+- In a separate small bowl, whisk together the lemon juice, olive oil, cumin, coriander, salt, and pepper to make the dressing.
+- Pour the dressing over the lentil mixture and toss gently to combine, ensuring that the lentils and vegetables are evenly coated.
+- Taste and adjust the seasoning with salt and pepper if needed.
+- Refrigerate the salad for at least 30 minutes to allow the flavors to meld together.
+- Before serving, give the salad a gentle stir and adjust the seasoning if desired.
+- Serve chilled as a side dish or a light meal.
+tips:
+- If you prefer a softer texture, you can cook the lentils for a longer time until they are completely tender.
+- This salad can be made ahead of time and stored in the refrigerator for a day or two. Just give it a good stir before serving.
+- Be mindful not to overcook the lentils as they can become mushy and lose their shape.
+- You can add other vegetables like bell peppers, carrots, or radishes for additional crunch and flavor.
+- Feel free to customize the dressing by adding your favorite herbs or spices.
+- Yemiser selatta is a nutritious salad packed with protein, fiber, vitamins, and minerals from the lentils and fresh vegetables. It is a healthy and satisfying option for vegetarians and vegans.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AYemiser_Selatta_%28Ethiopian_Lentil_Salad%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Yemiser Selatta (Ethiopian Lentil Salad)@4531802
+    url: https://en.wikibooks.org/w/index.php?oldid=4531802
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

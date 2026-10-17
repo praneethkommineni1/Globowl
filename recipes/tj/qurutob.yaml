@@ -1,0 +1,41 @@
+id: tj-qurutob
+title: Qurutob
+native_name: {text: Қурутоб, lang: tg, romanized: qurutob}
+summary: Tajikistan's national dish — torn flaky flatbread soaked in a salty yogurt sauce, topped with onions fried in oil, tomatoes and herbs.
+origin:
+  country: TJ
+course: main
+dish_types: [bread, salad]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 15}
+difficulty: 1
+techniques: [pan-frying]
+ingredient_groups:
+  - name: Qurut sauce
+    items:
+      - {ingredient: yogurt, qty: 500, unit: ml}
+      - {ingredient: feta, qty: 100, unit: g}
+      - {ingredient: water, qty: 200, unit: ml}
+  - name: Assembly
+    items:
+      - {ingredient: pita-bread, qty: 2, note: "Tajik fatir or another flaky flatbread, torn into pieces"}
+      - {ingredient: vegetable-oil, qty: 4, unit: tbsp, alt: [ghee]}
+      - {ingredient: onion, qty: 2, prep: "sliced"}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: cucumber, qty: 1, prep: "chopped"}
+      - {ingredient: cilantro, qty: 1, unit: handful, prep: "chopped"}
+      - {ingredient: dill, qty: 1, unit: handful, prep: "chopped"}
+      - {ingredient: green-chili, qty: 1, prep: "chopped", optional: true}
+steps:
+  - Blend the yogurt, feta and water into a thin, salty, sour sauce. (Traditionally this is made by dissolving qurut — dried salted yogurt balls — in warm water.)
+  - Fry the onions in the oil until golden.
+  - Spread the bread pieces on a large platter and pour over the sauce. Let it soak in for a few minutes.
+  - Top with the onions and their hot oil, then the tomatoes, cucumber, herbs and chili.
+serving: Eaten by hand from a shared wooden platter (tabaq).
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

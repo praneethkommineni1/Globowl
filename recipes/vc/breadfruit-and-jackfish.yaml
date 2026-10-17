@@ -1,0 +1,41 @@
+id: vc-breadfruit-and-jackfish
+title: Roasted Breadfruit and Fried Jackfish
+summary: The national dish of Saint Vincent and the Grenadines — whole breadfruit roasted until smoky and soft, with crisp, seasoned fried fish.
+origin:
+  country: VC
+course: main
+dish_types: [seafood]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 75, inactive_min: 30}
+difficulty: 2
+techniques: [roasting, marinating, pan-frying]
+ingredient_groups:
+  - name: Breadfruit
+    items:
+      - {ingredient: breadfruit, qty: 1, note: "firm and mature"}
+      - {ingredient: butter, qty: 2, unit: tbsp, optional: true}
+  - name: Fish
+    items:
+      - {ingredient: white-fish, qty: 800, unit: g, note: "small whole jackfish or fillets of any firm fish"}
+      - {ingredient: lime-juice, qty: 2, unit: tbsp}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "crushed"}
+      - {ingredient: thyme, qty: 2, unit: sprig, prep: "leaves only"}
+      - {ingredient: scallion, qty: 2, prep: "finely chopped"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+      - {ingredient: all-purpose-flour, qty: 60, unit: g}
+      - {ingredient: vegetable-oil, qty: 200, unit: ml, note: "for frying"}
+steps:
+  - text: Roast the whole breadfruit directly over hot coals, turning, until the skin is charred all over and a skewer slides into the centre — or roast at 200 °C. Steam escaping from the stem means it's nearly done.
+    timer_min: 60
+  - text: Rub the fish with lime, garlic, thyme, scallion, salt and pepper and leave to marinate.
+    timer_min: 30
+  - Dredge the fish in flour and fry in the hot oil until golden and crisp on both sides.
+  - Peel the breadfruit, remove the core and slice. Serve with butter and the fried fish.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

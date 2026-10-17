@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1500 g rye flour
+#  - unmapped ingredient: 1000 g cracked rye seeds
+#  - unmapped ingredient: About 2 L water
+#  - unmapped ingredient: 300 ml sourdough starter
+#  - no time in recipe summary
+id: dk-rye-bread
+title: Rye Bread
+summary: 'Rye bread (Danish: rugbrød) is a type of bread common to Northern Europe in many varieties, but almost unknown in the south. This version is a typical Danish example. In Denmark, most people eat this type of bread on a daily basis.'
+origin:
+  country: DK
+course: bread
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3 loaves
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: salt, unit: tsp, qty: 5}
+steps:
+- Mix the salt with the rye flour in a big bowl.
+- Add 1.8 L of the water and mix it.
+- Mix in the sourdough starter. The result should be wet enough to flow very slowly.
+- Cover it with a cloth and let it rise for at 12–30 hours as convenient. Then add the cracked rye seeds.
+- If the resulting dough feels dry, add a bit of water. The result should be just dry enough to retain an approximate shape, but no drier.
+- Take out 300 ml of dough to act as the starter next time you make this recipe.
+- Butter 3 bread forms and put the dough into it, forcing it into all corners with a spoon. Then using a fork, make deep holes as close as you can all over the bread.
+- Let it rise for 5–10 hours, and then bake it for about 90 minutes at about 180°C.
+- Let the bread cool for 15 minutes, and then tip them out to cool further on a table.
+- The loaves can keep for about a week in a plastic bag. Do not refrigerate.
+tips:
+- The bread is very difficult to cut for 2 hours or so after baking. Allow to cool before slicing.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARye_Bread&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rye Bread@4501283
+    url: https://en.wikibooks.org/w/index.php?oldid=4501283
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

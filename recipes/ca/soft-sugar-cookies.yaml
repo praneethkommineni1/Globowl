@@ -1,0 +1,52 @@
+id: ca-soft-sugar-cookies
+title: Soft Sugar Cookies
+summary: This recipe for sugar cookies has been running with the Gilbert women of Ontario, Canada for more than 100 years. No one knows where the recipe started, but it's been that way as long as any can recall with no real change.
+origin:
+  country: CA
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 12
+  amount: 12–18 cookies
+time:
+  total_min: 20
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 3}
+  - {ingredient: shortening, unit: cup, qty: 1}
+  - {ingredient: vanilla-extract, note: to taste}
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: baking-powder, unit: tsp, qty: 2}
+  - {ingredient: all-purpose-flour, unit: cup, qty: [2, 3]}
+steps:
+- In a large bowl, beat eggs lightly to break the yolks as one would for scrambled eggs, then mix in the shortening. If using butter, soften it slightly beforehand by heating it a little. The shortening/egg mixture should be loose.
+- Mix in the sugar, then add the salt to the liquid mixture.
+- Add the baking powder, then slowly add the flour as needed to reach a proper doughy state (in essence, able to be shaped without sticking to one's hands too much). You may not need all of the flour, or you may even need a little more based on your eggs and how closely you measured.
+- Make balls and place onto a greased or parchment-lined pan then into an oven heated to 175°C (350°F), and let bake for between 15–20 minutes.
+tips:
+- Feel free to switch out half the sugar with another sweet item, like honey.
+- Using three tablespoons of cocoa powder one can get a slight chocolate flavour to the cookie, without being overtly chocolatey.
+- Try adding chocolate chips to the dough.
+- Approximately 1 teaspoon of vanilla extract works well for this recipe.
+- Adding some cinnamon and nutmeg gives a good flavor.
+- When heating up the butter, make sure that it's only barely solid when it's mixed into the eggs.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASoft_Sugar_Cookies&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Soft Sugar Cookies@4540927
+    url: https://en.wikibooks.org/w/index.php?oldid=4540927
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 3 finely-diced rocoto peppers or habanero peppers
+id: pe-white-fish-ceviche
+title: White Fish Ceviche
+alternate_names:
+- Cebiche de Pescado
+summary: White Fish Ceviche.
+origin:
+  country: PE
+course: starter
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- marinating
+ingredient_groups:
+- name: Ceviche
+  items:
+  - {ingredient: white-fish, unit: g, qty: 1814, prep: although most fish will work}
+  - {ingredient: lime}
+  - {ingredient: red-chili, qty: 3, prep: diced}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: onion, qty: 3, prep: julienned, note: large}
+  - {ingredient: cilantro, unit: bunch, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 1, prep: chopped}
+- name: Sides
+  items:
+  - {ingredient: lettuce, qty: 3}
+  - {ingredient: corn-kernels, qty: [16, 24], prep: cooked as usual}
+  - {ingredient: sweet-potato, qty: [5, 6], prep: boiled and peeled}
+steps:
+- Wash and debone the fish, and cut it into ½ x ½ inch (about 1 x 1 cm) chunks.
+- Season the fish with salt, pepper, ají limo, and rocoto. Marinate the fish for a few minutes to ”cold cook” them; leaving it for too long will "overcook" the fish. You should have enough lime juice to completely cover the fish.
+- Add the onion and mix gently.
+- Serve on a bed of lettuce, and add two pieces of corn on the cob and a portion of sweet potato.
+tips:
+- Ceviche can be eaten as an entrée as well. In this case, this will be enough for about two people.
+- More traditional recipes call for much less marinating. In fact, some will marinate it for as little as 10 minutes total (basically just the time it takes to get the sides ready). If marinating for a small amount of time be aware that the acidity of the lime is the only thing that "cooks" the fish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AWhite_Fish_Ceviche_%28Cebiche_de_Pescado%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:White Fish Ceviche (Cebiche de Pescado)@4509863
+    url: https://en.wikibooks.org/w/index.php?oldid=4509863
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

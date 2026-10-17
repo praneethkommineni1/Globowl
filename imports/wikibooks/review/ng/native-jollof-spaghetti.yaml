@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 500 g assorted meat, boiled
+#  - unmapped ingredient: Kpomo
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-native-jollof-spaghetti
+title: Native Jollof Spaghetti
+summary: Native jollof spaghetti is a Nigerian dish of pasta made with palm oil, meat, spicy peppers, and native Nigerian seasonings. It is similar to native jollof rice, with spaghetti substituted for the rice. It can be eaten at all times of the day.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: pasta, unit: g, qty: 300}
+  - {ingredient: red-palm-oil}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: iru, unit: tbsp, qty: 2}
+  - {ingredient: red-chili, unit: cup, qty: 1.5}
+  - {ingredient: bouillon-cube, qty: 2}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 1}
+  - {ingredient: stockfish, qty: 1, note: medium}
+  - {ingredient: salt}
+  - {ingredient: scent-leaf}
+steps:
+- In a medium-size pot, bring water to a boil. Add the spaghetti, and boil for 5 minutes. Drain in a sieve, and rinse with cold water.
+- Heat the palm oil in a pot over medium-high heat. Add the cooked meat, and fry for about 5 minutes to brown it. Remove the meat and set aside.
+- In the same pan, add the chopped onions, iru, and the fresh pepper mix. Stir and allow to cook for about 20 minutes.
+- Stir in the stock cube, ground crayfish, smoked catfish, kompo, and salt to taste. Continue to cook until the water is almost dried up.
+- Add some additional water, stir, and bring to a boil. Stir in the partially-cooked spaghetti. Cook until the spaghetti is soft and the water is almost evaporated.
+- Stir in the fried meat and scent leaf.
+- Remove from the heat, and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANative_Jollof_Spaghetti&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Native Jollof Spaghetti@4513630
+    url: https://en.wikibooks.org/w/index.php?oldid=4513630
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

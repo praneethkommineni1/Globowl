@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+id: in-kuddi
+title: Kuddi
+alternate_names:
+- Spiced Yogurt Sauce
+summary: Kuddi, also called kadhi, is a sort of gravy based on yogurt and chickpea flour. It can be served with pakora, rice, or roti.
+origin:
+  country: IN
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 15
+difficulty: 2
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: yogurt, unit: l, qty: 0.5}
+  - {ingredient: chickpea-flour, unit: tsp, qty: 1}
+  - {ingredient: sugar, unit: tsp, qty: [2, 3]}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: ginger, qty: 1, prep: grated}
+  - {ingredient: red-chili, qty: 1, prep: chopped}
+  - {ingredient: butter, unit: tbsp, qty: 1}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 0.5}
+steps:
+- Combine the yogurt, chickpea flour, sugar, salt, grated ginger, and chopped green chilli.
+- Heat and bring to a boil with continuous stirring.
+- Taste and add more sugar or salt as needed. It should be sour, salty, and sweet.
+- Fry the jeera seeds in butter, and mix them into the kuddi.
+- Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKuddi_%28Spiced_Yogurt_Sauce%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kuddi (Spiced Yogurt Sauce)@4518962
+    url: https://en.wikibooks.org/w/index.php?oldid=4518962
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

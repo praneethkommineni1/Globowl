@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - duplicate id it-risotto from another Wikibooks page
+id: it-risotto
+title: Risotto
+summary: This is a traditional Italian risotto.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil, unit: tbsp, qty: 5}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: long-grain-rice, unit: cup, qty: 2.5}
+  - {ingredient: dry-white-wine, unit: cup, qty: 0.75}
+  - {ingredient: chicken-stock, unit: cup, qty: 6}
+  - {ingredient: saffron, unit: tsp, qty: 0.5}
+  - {ingredient: parmesan, unit: cup, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+steps:
+- Bring the stock to a simmer in a saucepan. Keep the temperature as high as possible throughout the cooking process, without letting the stock boil. The surface of the stock should just be moving a little.
+- Sauté the onion until soft.
+- Add the rice and mix well until it is coated the oil.
+- Add the wine and stir constantly over medium heat until it evaporates.
+- Add enough hot broth to cover the rice and continue to stir until the liquid is absorbed.
+- Keep adding hot broth, a little at a time, while constantly stirring until the rice is done.
+- In a small bowl, dissolve the saffron in a little hot broth and add it to the rice.
+- Stir in the Parmesan cheese and season with salt to taste.
+- Serve immediately.
+tips:
+- Plump, medium-grain rice that contains a lot of starch is required. Arborio or Carnaroli types are traditionally best. Other rices that work well are Roma, Vialone, Nano, and Maratelli.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARisotto_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Risotto II@4525538
+    url: https://en.wikibooks.org/w/index.php?oldid=4525538
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

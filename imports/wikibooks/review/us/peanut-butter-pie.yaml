@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 12 ounces non-dairy whipped topping
+#  - unmapped ingredient: 1 prepared chocolate cookie pie shell
+#  - unmapped ingredient: 1 jar plus 2 tablespoons hot fudge topping
+id: us-peanut-butter-pie
+title: Peanut Butter Pie
+summary: Peanut Butter Pie.
+origin:
+  country: US
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 150
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: cream-cheese, unit: g, qty: 227, prep: at room temperature}
+  - {ingredient: peanut-butter, unit: cup, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+steps:
+- In a medium bowl, stir together cream cheese, peanut butter and sugar.
+- Carefully stir in 3 cups of the whipped topping.
+- Spoon into pie shell.
+- Softly spread mixture to edges of the pie shell.
+- Put all but 2 tablespoons of hot fudge topping in a microwave-safe container and microwave for 60 seconds.
+- Spread hot fudge topping over peanut butter mixture in pie shell to cover.
+- Place in refrigerator for 2 hours.
+- Spread remaining ~1½ cups whipped topping carefully over top of refrigerated pie.
+- Knead last 2 ounces of hot fudge topping in plastic bag and cut off a corner and drizzle over top of pie.
+- Knead last 2 ounces of peanut butter in plastic bag and cut off a corner and drizzle over top in an artful pattern.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APeanut_Butter_Pie&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Peanut Butter Pie@4525010
+    url: https://en.wikibooks.org/w/index.php?oldid=4525010
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

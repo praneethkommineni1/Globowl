@@ -1,0 +1,42 @@
+id: mu-rougaille
+title: Rougaille Saucisse
+native_name: {text: Rougaille, lang: mfe}
+summary: Sausages simmered in a fragrant Creole tomato sauce with ginger, garlic, thyme and green chili.
+origin:
+  country: MU
+  also_claimed_by: [SC]
+course: main
+dish_types: [stew]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 35}
+difficulty: 1
+techniques: [sauteing, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: smoked-sausage, qty: 400, unit: g, prep: "sliced", alt: [shrimp], note: "or salted fish or prawns"}
+      - {ingredient: vegetable-oil, qty: 3, unit: tbsp}
+      - {ingredient: onion, qty: 2, prep: "sliced"}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "crushed"}
+      - {ingredient: ginger, qty: 2, unit: cm, prep: "grated"}
+      - {ingredient: thyme, qty: 3, unit: sprig}
+      - {ingredient: tomato, qty: 800, unit: g, prep: "chopped"}
+      - {ingredient: green-chili, qty: 2, prep: "slit"}
+      - {ingredient: salt, note: "to taste"}
+      - {ingredient: scallion, qty: 2, prep: "sliced"}
+      - {ingredient: cilantro, qty: 1, unit: handful, prep: "chopped"}
+steps:
+  - Brown the sausages lightly in the oil; set aside.
+  - Cook the onions in the same pan until soft, then add garlic, ginger and thyme for 1 minute.
+  - text: Add the tomatoes and chilies and cook down until thick and jammy.
+    timer_min: 15
+  - text: Return the sausages, season and simmer to blend the flavours.
+    timer_min: 10
+  - Finish with scallion and cilantro.
+serving: With rice, lentils (dal) and chutneys.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

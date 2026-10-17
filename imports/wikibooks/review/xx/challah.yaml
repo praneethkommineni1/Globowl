@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no ingredient lines parsed
+#  - no difficulty in recipe summary
+id: xx-challah
+title: Challah
+summary: Challah.
+origin:
+  country: XX
+course: bread
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4 loaves
+time:
+  total_min: 300
+difficulty: 1
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Put bread flour in a bowl. Mix in the ½ cup of sugar and the salt.
+- In a small bowl or large measuring cup, add the 1 ½ cups of warm water. Mix in the 1 tablespoon of sugar. Sprinkle the yeast on top and wait 8 minutes. The yeast mixture should be foamy.
+- Briefly mix the yeast mixture, then mix it into the flour mixture.
+- Mix in the eggs and oil.
+- Add the remaining 1 cup warm water, and knead the dough for about 10 minutes.
+- Let the dough rise, covered, for two-four hours.
+- Divide the dough into four parts. These will make 4 challahs.
+- Take one part. Separate it into four pieces. Take each piece and roll it between your hands until it is a long strand. Attach the four strands together at one end by squeezing the ends together (see picture).
+- Place on a piece of foil or a pan.
+- Take the strand at the far left and braid by putting it over two strands to the right and then put it back under one strand to the left.
+- Take the strand at the far right and put it over two strands to the left and then put it back under one strand to the right.
+- Repeat the last two steps until you reach the end of the strands.
+- Do the same thing with the other three parts.
+- Brush each loaf with egg wash and sprinkle with sesame seeds.
+- Allow to rise for two hours.
+- Bake in preheated oven at 400°F (200°C) for 25 minutes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChallah&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Challah@4658455
+    url: https://en.wikibooks.org/w/index.php?oldid=4658455
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

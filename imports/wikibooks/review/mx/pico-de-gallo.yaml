@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (MX, US): confirm the country of origin
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: mx-pico-de-gallo
+title: Pico de Gallo
+summary: Pico de Gallo has two meanings in Mexican cuisine. The most familiar to North Americans is a fresh, tomato-based salad. It is what North Americans usually mean when talking about 'ensalada' or 'tomato ensalada'. This ensalada is never cooked.
+origin:
+  country: MX
+  also_claimed_by:
+  - US
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: tomato, unit: cup, qty: 2, prep: seeded tomato}
+  - {ingredient: onion, unit: cup, qty: 0.5}
+  - {ingredient: cilantro, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: lime, unit: tsp, qty: 2}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: green-chili, unit: tbsp, qty: 1.5, prep: 'seeded, and minced jalapeño or other chiles'}
+  - {ingredient: garlic, qty: 1, prep: minced, note: small}
+  - {ingredient: hot-sauce, note: to taste}
+steps:
+- Wash vegetables and cilantro.
+- Combine vegetables, mixing well.
+- Add salt, pepper, chiles, lime juice, and garlic.
+- Add hot sauce as desired.
+- Let stand 30 minutes to allow flavors to meld.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APico_de_Gallo&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pico de Gallo@4518154
+    url: https://en.wikibooks.org/w/index.php?oldid=4518154
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

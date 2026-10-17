@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 teaspoons sake
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: jp-inarizushi
+title: Inarizushi
+alternate_names:
+- Stuffed Sushi
+summary: Inarizushi (稲荷寿司, "stuffed sushi") encloses sushi rice and filling in a pocket made of paper-thin omelet, fried tofu, or a cabbage leaf.
+origin:
+  country: JP
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 4, note: extra-large}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.125}
+  - {ingredient: cornstarch, unit: tsp, qty: 1}
+  - {ingredient: water, unit: tbsp, qty: 1}
+  - {ingredient: cooked-short-grain-rice}
+steps:
+- Break the eggs into the bowl. Removing the egg white clinging to the yolk will make for a smoother and more uniform surface.
+- Add the sake, sugar, and salt.
+- Beat the mixture to produce a smooth, consistent texture, but not so much as to create a foam. If you accidentally get air bubbles, let the bowl sit for a few minutes while they pop.
+- Dissolve the cornstarch in the water&mdash;it will be closer to a paste than a fluid&mdash;and then add it to the egg mix.
+- Heat the pan over medium heat. If you are not using a non-stick pan, you will need to oil the surface.
+- Pour 3–4 tablespoons (40–50 ml) of the egg mixture all at once onto the pan.
+- Swirl the pan to spread the mixture thinly and evenly.
+- Allow the mixture to cook until the edges start to dry out. Remove the pan from the heat, and let the egg mixture continue to cook for 30 seconds from the heat in the pan.
+- Flip the omelet over and return the pan to the heat for 30 seconds.
+- Remove the omelet from the pan, and allow it to cool. You can store these omelets in the refrigerator for a few days.
+- Shape the sushi rice into oblong shapes.
+- Place a piece of sushi rice in the center of one of the egg wrappers.
+- Fold the edges of the wrapper over to enclose the rice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AInarizushi_%28Stuffed_Sushi%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Inarizushi (Stuffed Sushi)@4541053
+    url: https://en.wikibooks.org/w/index.php?oldid=4541053
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

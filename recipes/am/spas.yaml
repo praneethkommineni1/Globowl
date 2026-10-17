@@ -1,0 +1,40 @@
+id: am-spas
+title: Spas
+native_name: {text: Սպաս, lang: hy, romanized: spas}
+alternate_names: [Armenian yogurt soup]
+summary: A soothing soup of tangy yogurt and hulled wheat, stabilised with egg and finished with butter-fried onion and dried mint.
+origin:
+  country: AM
+course: soup
+dish_types: [soup]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 50}
+difficulty: 2
+techniques: [simmering, whisking, sauteing]
+ingredient_groups:
+  - items:
+      - {ingredient: pearl-barley, qty: 100, unit: g, note: "or hulled wheat (korkot)"}
+      - {ingredient: water, qty: 500, unit: ml}
+      - {ingredient: yogurt, qty: 1, unit: l, note: "Armenian matsoun or plain yogurt"}
+      - {ingredient: egg, qty: 1}
+      - {ingredient: all-purpose-flour, qty: 1, unit: tbsp}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: butter, qty: 2, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "finely chopped"}
+      - {ingredient: dried-mint, qty: 1, unit: tbsp}
+      - {ingredient: cilantro, qty: 1, unit: handful, prep: "chopped", optional: true}
+steps:
+  - text: Simmer the barley in the water until tender.
+    timer_min: 35
+  - Whisk the yogurt, egg, flour and salt until smooth in a pot.
+  - Heat the yogurt mixture over medium heat, stirring constantly in one direction, until it comes to a simmer — the egg and flour stop it curdling.
+  - Add the barley with its water and simmer 5 minutes.
+  - Fry the onion in the butter until golden, add the mint off the heat, and pour over the soup. Add the herbs.
+serving: Hot in winter or chilled in summer.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

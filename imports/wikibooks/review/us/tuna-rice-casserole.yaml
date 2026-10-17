@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 cans tuna
+id: us-tuna-rice-casserole
+title: Tuna Rice Casserole
+summary: Tuna rice casserole is a simple, quick-to-make meal that even kids can make!
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 40
+difficulty: 1
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: green-peas, qty: 1, prep: cooked}
+  - {ingredient: long-grain-rice, unit: cup, qty: 3}
+  - {ingredient: water, unit: cup, qty: 0.75}
+  - {ingredient: cheddar, unit: can, qty: 1}
+steps:
+- Preheat oven to 400°F (200°C).
+- In large bowl, combine tuna, peas, and rice, and mix well.
+- In another large bowl, combine cheddar cheese soup and water.
+- Place soup mixture in bowl with tuna mixture.
+- Place combined mixture in greased casserole dish.
+- Bake in a preheated 400°F (200°C) oven for 20 minutes.
+tips:
+- Try adding 2 tablespoons minced onion to first bowl before mixing.
+- Tastes great with a teaspoon or two of Texas Pete hot sauce!
+- May substitute chopped chicken or turkey for the tuna.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATuna_Rice_Casserole&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tuna Rice Casserole@4525572
+    url: https://en.wikibooks.org/w/index.php?oldid=4525572
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

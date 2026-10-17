@@ -1,0 +1,42 @@
+id: dz-loubia
+title: Loubia
+native_name: {text: لوبيا, lang: ar, romanized: lūbya}
+alternate_names: [Algerian white bean stew]
+summary: White beans stewed in a garlicky tomato sauce with cumin and paprika — a warming everyday Algerian dish.
+origin:
+  country: DZ
+  also_claimed_by: [MA]
+course: main
+dish_types: [stew, beans]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 90, inactive_min: 720}
+difficulty: 1
+techniques: [sauteing, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: dried-white-beans, qty: 400, unit: g, note: "soaked overnight"}
+      - {ingredient: olive-oil, qty: 3, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "crushed"}
+      - {ingredient: tomato-paste, qty: 2, unit: tbsp}
+      - {ingredient: tomato, qty: 1, prep: "grated"}
+      - {ingredient: sweet-paprika, qty: 1, unit: tsp}
+      - {ingredient: ground-cumin, qty: 1.5, unit: tsp}
+      - {ingredient: harissa, qty: 1, unit: tsp, optional: true}
+      - {ingredient: bay-leaf, qty: 1}
+      - {ingredient: water, qty: 1.5, unit: l}
+      - {ingredient: salt, note: "to taste"}
+      - {ingredient: cilantro, qty: 1, unit: handful, prep: "chopped"}
+steps:
+  - Soften the onion in the oil, then add the garlic, tomato paste, tomato, paprika, cumin and harissa and cook for 3 minutes.
+  - text: Add the drained beans, bay leaf and water and simmer, partly covered, until the beans are tender and the sauce is thick.
+    timer_min: 80
+  - Season with salt (add it near the end) and finish with cilantro.
+serving: With bread and a drizzle of olive oil; sometimes with a little extra cumin and a squeeze of lemon.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

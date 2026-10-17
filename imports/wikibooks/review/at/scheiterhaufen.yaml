@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 peaches
+id: at-scheiterhaufen
+title: Scheiterhaufen
+alternate_names:
+- Austrian Bread Pudding
+summary: Scheiterhaufen (literally "funeral pyre" or "stake") is a type of traditional sweet dish in Austria and Southern Germany. It was mentioned for the first time in a Roman cookbook in the 1st century AD by Marcus Gravius Apicius.
+origin:
+  country: AT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 60
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: white-bread, unit: g, qty: 496}
+  - {ingredient: apple, qty: 2}
+  - {ingredient: sugar, unit: tbsp, qty: 4}
+  - {ingredient: ground-cinnamon, unit: pinch, qty: 1}
+  - {ingredient: milk, unit: cup, qty: 2}
+  - {ingredient: egg, qty: 4}
+  - {ingredient: rum, unit: tsp, qty: 4}
+  - {ingredient: butter, unit: tbsp, qty: 1}
+steps:
+- Wash the apples and peaches, and peel them if desired. Cut them into slices approximately ¼ inch (1 cm) thick.
+- Cut the bread into slices about the same size as the fruit.
+- Pour the milk into a bowl and add the eggs. Mix well. Then take the slices of bread and let them soak in the mixture for a few seconds. This will take longer if you use stale rather than fresh bread.
+- Mix the refined sugar and the cinnamon in a cup or a small bowl.
+- Grease an ovenproof dish, then layer the slices, bread, and fruit alternately in the dish. Sprinkle a bit of the sugar-cinnamon mixture on top of every layer. For the best result, start and end with a layer of bread. You can decide whether you want an apple and a peach layer or whether you would like to mix the different kinds of fruit.
+- Scatter a few flakes of butter on top, and put the dish into the oven for 45 minutes at 180°C/350°F.
+- Enjoy!
+tips:
+- This recipe is rather a guideline; you can alter it according to your taste and wishes. Generally, there is not only one recipe for Scheiterhaufen, as people in former times were forced to use what they had available.
+- You can take any kind of white bread you like, stale or fresh. You can use any kind of white bread that you have on-hand, but for an extra soft Scheiterhaufen, something like the white bread used for toast yields the best result. One variation is to roast the bread in a pan with a bit of butter before layering it (in this case you would have to pour the milk-egg-rum mixture on top of your layers).
+- You can use other kinds of fruit to suit your taste, but the traditional Austrian Scheiterhaufen recipe uses only apples. Plums are also a good choice, but frankly, you can use any fruit of the season. The selection above is a summer variation.
+- Some cooks like to add nuts like almonds or hazelnuts to create a distinctive taste. You can also add raisins; they are often used together with apples in Austrian cuisine.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AScheiterhaufen_%28Austrian_Bread_Pudding%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Scheiterhaufen (Austrian Bread Pudding)@4522750
+    url: https://en.wikibooks.org/w/index.php?oldid=4522750
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

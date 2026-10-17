@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 cup dried barberries or dried cranberries
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-zereshk-palau-iranian-rice-with-barberries
+title: Zereshk Palau (Iranian Rice with Barberries)
+summary: Zereshk Palau (Iranian Rice with Barberries).
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 4}
+  - {ingredient: salt, unit: cup, qty: 0.25}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: chicken, qty: 2, prep: skin removed}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: butter, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: saffron, unit: tsp, qty: 0.25}
+steps:
+- Rinse rice 3 times, then soak in warm water with ¼ cup salt for 5 hours. Drain.
+- In a large (8 qt) pot, bring 8 cups water to a boil. Add rice and cook 8 to 10 minutes until slightly soft. Drain in a colander.
+- Heat 2 tbsp oil in a large skillet. Add onion and sauté until soft. Add chicken, ½ cup water, ½ tsp salt and ¼ tsp black pepper. Cover and simmer over low heat until chicken is cooked through. Remove from heat.
+- Pull meat off bones; cut into 2-inch pieces and return to leftover cooking broth. Cover to keep warm.
+- Rinse barberries (if using) 3 times. Melt butter in a small pot; add barberries and sauté 1 minute. Add sugar; sauté 1 minute more.
+- Dilute saffron in ½ cup hot water and stir into barberries.
+- In the large pot used to cook the rice, heat 3 Tbsp oil. Add rice, using a large spoon and fluffing rice. Pour barberry mixture over the rice.
+- Cover pot and cook over low heat about 30 minutes. For a crisp, golden layer on bottom of rice (called ‘ta-dig’), cook another 15 minutes.
+- Using a large serving spoon, place rice in a large flat serving dish, gently mixing the barberries with the rice. Top with the chicken and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AZereshk_Palau_%28Iranian_Rice_with_Barberries%29_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Zereshk Palau (Iranian Rice with Barberries) II@4509488
+    url: https://en.wikibooks.org/w/index.php?oldid=4509488
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

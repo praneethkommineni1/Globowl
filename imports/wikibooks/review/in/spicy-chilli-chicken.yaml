@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tbsp masala
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-spicy-chilli-chicken
+title: Spicy Chilli Chicken
+summary: Chile chicken, cooked Kerala style.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- marinating
+- pan-frying
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: g, qty: 454}
+  - {ingredient: lemon-juice, unit: cup, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 3}
+  - {ingredient: onion, qty: 1.5, prep: chopped}
+  - {ingredient: chili-powder, unit: tbsp, qty: 0.75}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.75}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: tomato, qty: 3, prep: chopped, note: medium}
+  - {ingredient: ginger, unit: tbsp, qty: 0.5}
+  - {ingredient: garlic, unit: tbsp, qty: 2}
+  - {ingredient: ketchup, unit: tbsp, qty: 6}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 8}
+  - {ingredient: red-chili, qty: 4, prep: chopped}
+  - {ingredient: red-bell-pepper, qty: 2, prep: sliced}
+steps:
+- Marinate the chicken with lemon juice, masala, and salt for 1 hour.
+- In a large pot, fry the marinated chicken in canola oil until golden brown (5–7 minutes).
+- Remove the chicken from the pot and cut into pieces.
+- Into the remaining oil, add the onions, red chili powder, turmeric, paprika, and coriander powder, and sauté until wilted.
+- Add the tomatoes, ginger, and garlic, and cook till the tomatoes are softened and breaking apart.
+- Put the ketchup, soy sauce, fried chicken pieces, green chiles, and green peppers in the pot, and simmer until peppers are soft and chicken is fully-cooked.
+- Serve over steamed rice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASpicy_Chilli_Chicken&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Spicy Chilli Chicken@4517565
+    url: https://en.wikibooks.org/w/index.php?oldid=4517565
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

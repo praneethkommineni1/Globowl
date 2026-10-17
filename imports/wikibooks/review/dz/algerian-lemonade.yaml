@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Ice cubes
+#  - unmapped ingredient: Slices of lemon
+#  - no servings in recipe summary
+id: dz-algerian-lemonade
+title: Algerian Lemonade
+summary: Algerian lemonade (Lemon Cherbet) is a refreshing Algerian drink. The drink's name differs depending on the various names for lemon throughout Algeria (Cherbet Elkarass, Cherbet Lim, Cherbet Laymoun).
+origin:
+  country: DZ
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 20
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: lemon, qty: [5, 6]}
+  - {ingredient: milk, unit: tbsp, qty: 3}
+  - {ingredient: orange-flower-water, unit: tbsp, qty: 4}
+  - {ingredient: sugar, unit: g, qty: 150}
+  - {ingredient: water, unit: l, qty: 1.5}
+  - {ingredient: mint, optional: true}
+steps:
+- Zest one lemon, stop before reaching the white part of the lemon and reserve for later.
+- Slice one lemon and reserve for later.
+- Press the rest of the lemons to obtain lemon juice and reserve for later.
+- Pour half a litre of water into a saucepan, add the lemon slices and sugar, and let it boil on medium heat. Turn off the heat and let it cool down completely.
+- In a jug, add water, lemon zest, orange blossom water, milk, and lemon juice. Mix well.
+- Add your mixture into a clean bottle, add the remaining water and cooled down lemon juice from the saucepan. Close the bottle and shake well.
+- Transfer the drink to a pitcher, and let it cool in the fridge.
+tips:
+- Vanilla extract is added to Boufarik's version of Cherbet.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAlgerian_Lemonade&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Algerian Lemonade@4525934
+    url: https://en.wikibooks.org/w/index.php?oldid=4525934
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

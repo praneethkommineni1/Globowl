@@ -1,0 +1,69 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3 ea. Chinese sweet sausages
+#  - unmapped ingredient: 4 tbsps dried small shrimps
+#  - unmapped ingredient: 400 g jicama, peeled and cut into matchsticks
+#  - unmapped ingredient: 1 tbsp minced garlic
+#  - unmapped ingredient: 5 tbsps pork broth or water
+#  - course unknown from categories
+id: vn-bo-bia
+title: Bò bía
+summary: Bò bía is the southern Vietnamese variant of popiah, a Fujianese/Teochew-style fresh spring roll filled with an assortment of fresh, dried, and cooked ingredients, eaten during the Qingming Festival and other celebratory occasions.
+origin:
+  country: VN
+course: main
+authenticity: unassessed
+yield:
+  servings: 9
+  amount: 9 pcs.
+time:
+  total_min: 60
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: rice-paper, qty: 9}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: garlic, unit: tsp, qty: 1, prep: minced}
+  - {ingredient: lettuce, prep: 'Thai basil, fresh chili'}
+  - {ingredient: roasted-peanuts, prep: fried shallot}
+  - {ingredient: salt, prep: 'pepper, sugar'}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: hoisin-sauce, qty: 5}
+  - {ingredient: peanut-butter, unit: tbsp, qty: 1}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: carrot}
+steps:
+- Roast the small dried shrimps without any oil in a pan by stirring constantly on medium heat for 2 to 3 minutes until fragrant.
+- Clean the pan, fill about half full with water and bring to a boil. Cook 2 Chinese sausages for about 10 minutes to soften and remove some of the fat. Rinse the sausages well, let them cool and slide them thinly on a diagonal.
+- Crack 2 eggs in a small bowl and beat them until fluffy. Season lightly with a pinch of salt and a pinch of sugar.
+- In a non-stick pan, add 1 tsp of vegetable oil. When it's hot enough, pour in half of the egg mixture and quickly tilt the pan in a circular motion to spread the egg thinly and evenly. When one side is golden, flip it over and fry the other side for 5 more seconds. Repeat until the egg mixture has been used up.
+- Let the omelettes cool completely. Roll them up and cut into half-inch strips.
+- In a saucepan, heat up some cooking oil and sauté 1 tbsp of garlic until fragrant.
+- Add in the jicama strips and stir-fry with some salt for about 10 to 15 minutes until it turns quite translucent and tastes naturally sweet.
+- Heat 1 tbsp vegetable oil in a small sauce pan on medium-high heat, then fry 1 tbsp minced garlic till golden brown.
+- Then add hoisin sauce, pork broth, peanut butter and sugar. Stir well and simmer on low heat for 1-2 minutes until thickened.
+- Transfer to condiment bowls and top up with minced fresh chili, pickled carrots and daikon and crushed peanuts.
+- Set up a rolling station with the prepared Chinese sausages, stir-fried jicama, omelette strips, fresh greens (e.g. lettuce and Thai basil), roasted small dried shrimps, some crushed peanuts and fried shallots ready on the plates.
+- Prepare a small bowl with pickled carrots and daikon.
+- Also prepare a large bowl of lukewarm water to soften rice paper, and a flat work surface (like a cutting board or a large plate) for the rolling job.
+- To soften the rice paper, quickly dip it into a bowl of warm water (the dipping motion should take no more than 2 seconds). Gently shake off excess water and lay it on the flat surface.
+- Place a piece of lettuce and a few basil leaves at one end of the paper, then continue to add some of the stir-fried jicama, few slices of the Chinese sausages, few omelette strips, some roasted small dried shrimps, some fried shallots and crushed peanuts.
+- Starting from the end with vegetables, roll 1-2 rounds first until you reach the center of the rice paper, then fold both sides inwards. Then continue rolling until reaching the other end of the paper.
+- Roll gently and tight enough, so that the ingredients do not fall out after one's first bite. A nice roll should show up all the colors of the ingredients inside.
+- To serve, dip the salad roll in the dipping sauce or spoon some of the sauce onto the roll and have a bite.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AB%C3%B2_b%C3%ADa&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bò bía@4632281
+    url: https://en.wikibooks.org/w/index.php?oldid=4632281
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

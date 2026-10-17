@@ -1,0 +1,69 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - course unknown from categories
+id: xx-groundnut-soup
+title: Groundnut Soup
+summary: Groundnut soup, also known as "ofe epa" in the Nigerian culinary tradition, is a delicious soup made with groundnuts (peanuts) and typically enjoyed with fufu or pounded yam. It is rich, flavorful, and slightly spicy.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–3
+time:
+  total_min: 40
+difficulty: 2
+equipment:
+- Stovetop
+- Pot
+- Knife
+- Turning stick
+techniques:
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: goat, unit: g, qty: 454}
+  - {ingredient: stockfish, unit: g, qty: 227}
+  - {ingredient: stockfish, unit: g, qty: 227, optional: true}
+  - {ingredient: bouillon-cube, unit: tsp, qty: [1, 2]}
+  - {ingredient: roasted-peanuts, unit: cup, qty: 2}
+  - {ingredient: red-palm-oil, unit: tbsp, qty: [1, 2]}
+  - {ingredient: onion, qty: 1, note: large}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 2}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+  - {ingredient: iru, unit: tbsp, qty: 2}
+  - {ingredient: salt}
+  - {ingredient: water}
+  - {ingredient: spinach, prep: 'ugu, or bitterleaf', optional: true}
+steps:
+- Wash and cut the goat meat, stockfish, and dried fish into bite-sized pieces.
+- Add the goat meat, stockfish, and dried fish to a pot. Season with a pinch of salt and seasoning cubes. Add enough water to yield enough liquid for the soup base.
+- Bring the pot to a simmer, and cook until the meats are tender (about 30–45 minutes). Add water as needed to maintain enough liquid for the soup base.
+- In another pot, heat the palm oil over medium heat. Once hot, add the chopped onions and fry until soft and fragrant.
+- Add the ground pepper and stir for about 2 minutes.
+- Gradually add the groundnut paste to the pot, stirring to avoid lumps. Add a little water to thin the paste into a soupy consistency. Stir well.
+- Pour the cooked meat and stock into the groundnut paste mixture. Stir everything well, adding more water if needed to adjust the soup’s thickness.
+- Add the ground crayfish, locust beans, and any additional seasoning cubes as desired. Let it simmer on medium heat for 10–15 minutes, stirring occasionally.
+- If using leafy vegetables, add them in the last few minutes of cooking.
+- Taste the soup and adjust for salt, seasoning cubes, and pepper. If you want the soup spicier, add more ground pepper.
+- Once the soup is thick and well-seasoned, it’s ready to be served with your favorite fufu, pounded yam, or rice.
+tips:
+- If using whole roasted peanuts, grind them into a smooth paste using a blender or food processor. If you’re using store-bought groundnut paste, make sure it's smooth and not too oily.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGroundnut_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Groundnut Soup@4521661
+    url: https://en.wikibooks.org/w/index.php?oldid=4521661
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

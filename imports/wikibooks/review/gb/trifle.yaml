@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 swiss roll or similar sponge cake
+#  - unmapped ingredient: 1 packet/sachet fruit-flavoured jelly
+#  - unmapped ingredient: 1 tin of peach segments
+#  - unmapped ingredient: Custard
+#  - unmapped ingredient: Hundreds and thousands, sprinkles, or other sweet topping
+id: gb-trifle
+title: Trifle
+summary: Trifle, also commonly known as sherry trifle, is a traditional layered dessert in many countries. It can be prepared with or without alcohol, and the nonalcoholic version is popular with children.
+origin:
+  country: GB
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 25
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: sherry, unit: ml, qty: [50, 100]}
+  - {ingredient: heavy-cream}
+steps:
+- Slice the Swiss roll approximately ¾-inch (2 cm) thick, and line the base of a Pyrex casserole dish with it.
+- Pour sherry over the swiss roll.
+- Drain the peaches, keeping the juice/syrup aside and then arrange the peaches over the swiss roll.
+- Prepare the jelly as per the instructions, you may wish to use the syrup from the peaches for this. Pour the jelly into the casserole dish and allow to set in the fridge.
+- Make the custard, again as per the instructions (use fresh or powdered as opposed to canned). Allow this to cool to lukewarm, and pour into the casserole. Allow this to set in the fridge.
+- Whip the cream for the top of the trifle and spread it over the custard. Garnish with hundreds and thousands, sprinkles, or other cake decorations.
+- Serve!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATrifle&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Trifle@4587330
+    url: https://en.wikibooks.org/w/index.php?oldid=4587330
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

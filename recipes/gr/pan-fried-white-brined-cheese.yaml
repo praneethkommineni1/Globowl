@@ -1,0 +1,46 @@
+id: gr-pan-fried-white-brined-cheese
+title: Pan-Fried White Brined Cheese
+alternate_names:
+- Saganaki
+summary: Saganaki is a Greek or Greek-American dish consisting of a hard, white, brined cheese cooked simply with olive oil in a hot pan (traditionally a two-handed vessel whence the name of the dish), usually served with lemon.
+origin:
+  country: GR
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 5
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: cheese, qty: 1, prep: brined white cheese, note: large}
+  - {ingredient: olive-oil, unit: tbsp, qty: 1}
+  - {ingredient: lemon, qty: 1, note: large}
+  - {ingredient: all-purpose-flour, optional: true}
+  - {ingredient: white-bread, optional: true}
+steps:
+- Heat a small frying pan over medium-high heat.
+- While the pan heats, cut the cheese into slices of the desired size and thickness. Thicker slices will take longer to melt through and may result in burning, while thinner ones will have less chance to brown.
+- Optionally, dredge the slices in flour—this will create a darker and slightly crispier crust, but is an optional step as the cheese will acquire a very slight crust on its own by virtue of the oil and high heat. It will also reduce the spitting somewhat.
+- Add the oil to the hot pan and swirl it around. When the oil shimmers and seems to become more fluid, it is ready. Add the cheese and step back—it will spit due to the brine-water on the cheese.
+- Flip the cheese after a minute or two. A slice of ¾ centimeter should get about 1–2 minutes per side.
+- Serve immediately, with lemon and (optionally) bread.
+tips:
+- The best and most traditional cheese to use is feta, kefalograviera, kasseri, or kefalotyri.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APan-Fried_White_Brined_Cheese_%28Saganaki%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pan-Fried White Brined Cheese (Saganaki)@4613881
+    url: https://en.wikibooks.org/w/index.php?oldid=4613881
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

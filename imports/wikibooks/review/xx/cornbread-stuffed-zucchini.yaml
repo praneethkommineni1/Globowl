@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 cups crumbled cornbread, divided
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-cornbread-stuffed-zucchini
+title: Cornbread Stuffed Zucchini
+summary: Cornbread Stuffed Zucchini.
+origin:
+  country: XX
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: zucchini, qty: 4, prep: halved lengthwise, note: small}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: cream-cheese, unit: cup, qty: 0.5}
+  - {ingredient: egg, qty: 4, prep: separated}
+  - {ingredient: monterey-jack, unit: cup, qty: 1.5}
+  - {ingredient: cream-of-tartar, unit: tsp, qty: 0.125}
+steps:
+- Scoop out the column of seeds in zucchini halves using a teaspoon or a grapefruit spoon. Set aside.
+- Combine 1 cup cornbread with salt, pepper, egg yolks, and cream cheese. Set aside.
+- Whip egg whites to stiff peaks with cream of tartar. Stir in ¼ of the egg whites.
+- Gently fold in remaining egg whites. Place enough mixture to fill the column in the zucchini.
+- Combine remaining cornbread and Monterrey Jack cheese. Sprinkle over top of each zucchini half.
+- Bake in a 400°F oven for 30–35 minutes or until browned and bubbly on top. Serve warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACornbread_Stuffed_Zucchini&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cornbread Stuffed Zucchini@4518720
+    url: https://en.wikibooks.org/w/index.php?oldid=4518720
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

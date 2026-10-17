@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 quarts shelled lima beans
+#  - no time in recipe summary
+id: xx-succotash
+title: Succotash
+summary: Succotash.
+origin:
+  country: XX
+course: side
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8 persons
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: corn-kernels, qty: 24}
+  - {ingredient: pork, unit: g, qty: 454, optional: true}
+  - {ingredient: sugar, unit: tbsp, qty: 2, optional: true}
+  - {ingredient: butter, unit: tbsp, qty: 2, optional: true}
+  - {ingredient: black-pepper}
+steps:
+- If using pork, cover pork with water, and parboil it.
+- Add beans, then corn, sugar, butter, and pepper to taste. After corn is added, watch carefully to keep from scorching.
+- Serve.
+tips:
+- A chopped red bell pepper can be added.
+- Note that lima beans that have not been cooked should be thoroughly boiled for at least 10 minutes to rid the beans of phytohemagglutinin, a toxin found in uncooked lima beans. Canned beans are safe to eat without cooking.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASuccotash&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Succotash@4515449
+    url: https://en.wikibooks.org/w/index.php?oldid=4515449
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

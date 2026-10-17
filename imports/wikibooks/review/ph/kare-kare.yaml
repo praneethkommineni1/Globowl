@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 pack oxtail
+#  - unmapped ingredient: 1 banana blossom
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ph-kare-kare
+title: Kare-Kare
+alternate_names:
+- Oxtail and Vegetables in Peanut Sauce
+summary: Kare-kare is a Philippine stew derived from curry with a savory peanut sauce.
+origin:
+  country: PH
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 6}
+  - {ingredient: annatto, unit: cup, qty: 0.5}
+  - {ingredient: eggplant, qty: 3}
+  - {ingredient: green-beans, unit: g, qty: 454}
+  - {ingredient: garlic, qty: 1, prep: chopped}
+  - {ingredient: onion, qty: 1, prep: sliced}
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.25}
+  - {ingredient: roasted-peanuts, unit: cup, qty: 1}
+  - {ingredient: long-grain-rice, unit: cup, qty: 1}
+steps:
+- Boil the oxtail in water until tender.
+- Soak annatto seeds in ½ cup water, set aside. Rub the seeds if necessary to bring out color.
+- Cut string beans in 3-inch lengths.
+- Cut eggplants diagonally, ½-inch thick.
+- Cut banana blossoms diagonally, ½-inch thick.
+- Parboil string beans, eggplants and banana blossoms, then set aside.
+- Sauté garlic and onions in cooking oil.
+- Take out the annatto seeds, add the water, and boil for 5 minutes.
+- Stir in ground peanuts and ground rice.
+- Bring to a boil, then add the oxtail and vegetables.
+- Add more water if needed to have enough sauce; it should be thick and not watery. Add fish sauce to taste.
+- Serve with steamed rice and shrimp paste (bagoong) on the side.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKare-Kare_%28Oxtail_and_Vegetables_in_Peanut_Sauce%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kare-Kare (Oxtail and Vegetables in Peanut Sauce)@4629624
+    url: https://en.wikibooks.org/w/index.php?oldid=4629624
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

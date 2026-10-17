@@ -1,0 +1,85 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 medium mace javitri
+#  - unmapped ingredient: 1 tsp red chile powder
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-murgh-musallam
+title: Murgh Musallam
+alternate_names:
+- Indian Stewed Spiced Chicken
+summary: Murgh Musallam.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- marinating
+- roasting
+- sauteing
+ingredient_groups:
+- name: Chicken
+  items:
+  - {ingredient: chicken, unit: g, qty: 600}
+  - {ingredient: ginger-garlic-paste, unit: tbsp, qty: 1}
+  - {ingredient: lemon, unit: tbsp, qty: 1}
+  - {ingredient: red-chili, unit: tsp, qty: 2}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+- name: Spice blend
+  items:
+  - {ingredient: coriander-seeds, unit: tbsp, qty: 1}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 1}
+  - {ingredient: cinnamon-stick, qty: 2}
+  - {ingredient: green-cardamom-pods, qty: 2}
+  - {ingredient: whole-cloves, qty: 4}
+  - {ingredient: nutmeg, unit: tsp, qty: 0.25}
+  - {ingredient: ground-cardamom, qty: 1}
+- name: Curry
+  items:
+  - {ingredient: almonds, qty: 8}
+  - {ingredient: cashews, qty: 10}
+  - {ingredient: onion, unit: cup, qty: 2}
+  - {ingredient: tomato, qty: 1, prep: puréed, note: large}
+  - {ingredient: red-chili, qty: 4}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 4}
+  - {ingredient: ginger-garlic-paste, unit: tsp, qty: 2}
+  - {ingredient: mint, unit: tbsp, qty: 2}
+  - {ingredient: water, unit: cup, qty: [2, 3]}
+  - {ingredient: salt, note: to taste}
+steps:
+- Cut chicken into bite-sized pieces and wash well.
+- Marinate chicken with remaining ingredients for 1–4 hours.
+- Dry roast all the ingredients until light brown and aromatic.
+- Allow to cool then grind into a coarse powder.
+- Soak almonds and cashews in water for 10–15 minutes. Peel almonds.
+- Grind the almonds and cashews into a smooth paste, adding 1–2 tbsp water if required.
+- Heat 2–3 tsp oil in a pan or wok. Add chopped onion, and sauté until golden brown. Allow to cool, then grind into a paste, trying not to add water.
+- Heat oil or ghee in a pan or wok. Add onion paste, green chili, and ginger-garlic paste, then sauté until onion paste leaves oil.
+- Add marinated chicken pieces, and mix well. Cover and cook for 5–6 minutes over medium-low heat, stirring occasionally.
+- Mix in the red chili powder, prepared spice blend, and tomato puree. Cover and cook, stirring occasionally, until oil starts to floats on the surface.
+- Add water, and cook for 3–4 minutes over medium heat.
+- Mix in the nut paste, mint, and salt. Cook until gravy becomes thick and oil starts to float.
+- Remove from the heat, and stir in the coriander leaves.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMurgh_Musallam_%28Indian_Stewed_Spiced_Chicken%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Murgh Musallam (Indian Stewed Spiced Chicken)@4531800
+    url: https://en.wikibooks.org/w/index.php?oldid=4531800
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

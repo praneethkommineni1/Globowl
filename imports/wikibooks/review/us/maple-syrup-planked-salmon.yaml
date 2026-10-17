@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 tsp pure maple syrup
+id: us-maple-syrup-planked-salmon
+title: Maple Syrup Planked Salmon
+summary: Maple syrup planked salmon mixes the hint of sweetness from the maple syrup with the rich smoky flavour imparted from the cedar plank. Using organic ingredients enhances taste.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 45
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: salmon, qty: 4}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 4, prep: divided}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: red-chili, unit: tsp, qty: 1.5}
+  - {ingredient: rosemary, unit: tsp, qty: 1}
+  - {ingredient: scallion, qty: 2, prep: thinly sliced for garnish}
+  - {ingredient: salt}
+steps:
+- Completely immerse cedar planks in water for several hours or overnight.
+- Heat grill to medium-high.
+- Mix 2 tablespoons (30 ml) lemon juice, the oil, rosemary, maple syrup, and half of the chipotle powder in a small bowl. Coat the salmon with the mixture and let rest at room temperature for 20 minutes.
+- Mix the remaining lemon juice with the remaining chipotle powder with a fork and set aside as a garnish.
+- Place plank(s) on grill and close lid. Allow plank to heat for a couple minutes.
+- Lightly sprinkle salt on plank(s).
+- Put salmon on plank, keeping fish at least an inch from the edge of the plank (in the case of fillets, place skin-side down). Reduce heat to low and close lid.
+- Grill for roughly 15 minutes without turning or moving salmon until desired "doneness" is reached. Generally, salmon should be cooked until the flesh loses its transparency and the meat can easily be broken with a fork. Spray with water to douse any flames that light on the sides of the plank.
+- When cooked, place the salmon on a serving platter and sprinkle with the scallions.
+- Immerse the cedar plank in water as a safety precaution.
+- Serve the salmon with the optional lemon juice/chipotle sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMaple_Syrup_Planked_Salmon&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Maple Syrup Planked Salmon@4510179
+    url: https://en.wikibooks.org/w/index.php?oldid=4510179
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

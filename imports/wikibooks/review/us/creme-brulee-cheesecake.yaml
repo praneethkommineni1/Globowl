@@ -1,0 +1,70 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 3 cups vanilla wafer crumbs
+id: us-creme-brulee-cheesecake
+title: Creme Brulee Cheesecake
+summary: Creme Brulee Cheesecake.
+origin:
+  country: US
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 20
+  amount: 20 slices
+time:
+  total_min: 270
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- name: Crust
+  items:
+  - {ingredient: butter, unit: cup, qty: 0.75, prep: melted}
+  - {ingredient: sugar, unit: tbsp, qty: 6, prep: light or dark}
+- name: Filling
+  items:
+  - {ingredient: cream-cheese, qty: 6, prep: softened}
+  - {ingredient: sour-cream, unit: tbsp, qty: 6}
+  - {ingredient: sugar, unit: cup, qty: 1.5}
+  - {ingredient: egg, qty: 6}
+  - {ingredient: heavy-cream, unit: cup, qty: 0.75}
+  - {ingredient: orange, unit: tsp, qty: 4}
+- name: Topping
+  items:
+  - {ingredient: sugar, unit: cup, qty: 0.75}
+steps:
+- Preheat oven to 325°F (160C).
+- In a bowl, mix vanilla wafer crumbs, butter and brown sugar until well-blended.
+- Press the wafer mixture into the bottom and sides of a 10-inch (25 cm) springform pan.
+- Set aside.
+- In a large bowl, mix cream cheese, sour cream and 1½ cups sugar on medium speed with electric mixer until smooth.
+- Add eggs, heavy cream and orange peel. Beat until all the mixture is smooth.
+- Pour cream cheese mixture into the springform pan.
+- Place the springform pan into a larger pan.
+- Add boiling water to the larger pan to come halfway up the sides of the springform pan.
+- Bake for 50 minutes or until set.
+- Carefully remove the springform pan from the water and cool at room temperature for 30 minutes.
+- Refrigerate for 3 hours.
+- Remove cake from the springform pan.
+- Sprinkle sugar on top of cheesecake.
+- Broil under the oven broiler until the sugar melts and browns (be careful not to burn the sugar).
+tips:
+- The sugar can also be melted with a cooking torch.
+- The cheesecake may be served with fresh or frozen strawberries or blueberries.
+- Just for a sugar jolt, put some sugar and some gummies.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACreme_Brulee_Cheesecake&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Creme Brulee Cheesecake@4587355
+    url: https://en.wikibooks.org/w/index.php?oldid=4587355
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

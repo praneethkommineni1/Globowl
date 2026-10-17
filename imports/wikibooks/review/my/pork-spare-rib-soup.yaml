@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 inches ginseng root, peeled and slightly crushed
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: my-pork-spare-rib-soup
+title: Pork Spare Rib Soup
+alternate_names:
+- Bah Kut Teh
+summary: Bah kut teh (literally, "spare rib tea") is a Hokkien specialty. It is an exotic herbal soup spiced with plenty of aromatic spices including star anise, cinnamon, cloves and lots of garlic. It is often served with Chinese doughnuts and goes well with white rice.
+origin:
+  country: MY
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: mushroom, qty: 6}
+  - {ingredient: pork, unit: g, qty: 680, prep: cut into 2-inch pieces}
+  - {ingredient: garlic, qty: 1, prep: unpeeled and slightly crushed}
+  - {ingredient: cinnamon-stick, qty: 3}
+  - {ingredient: star-anise, qty: 5}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+  - {ingredient: sugar, unit: tsp, qty: 2}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 1}
+  - {ingredient: shallot, qty: 6, prep: finely sliced and fried until golden brown, optional: true}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Soak dried shitake mushrooms in 240 ml boiling water to reconstitute. Slice into strips when soft; reserve liquid for cooking.
+- In a stockpot, cover spareribs with cold water, then parboil ribs until froth rises to the surface.
+- Drain, briefly rinse spareribs under cold running water, and drain again.
+- In a casserole pan add the parboiled spare ribs, garlic bulb, ginseng root, shitake mushrooms, reserved liquid and additional water (to cover the meat).
+- Wrap cinnamon, star anise, white and black peppercorns in cheesecloth, tie with string, and add to the pan.
+- Gradually bring to a boil, then cover and reduce heat to simmer until pork is very tender (about 45–60 minutes); occasionally skim off fat from the surface.
+- When the meat is almost falling off the bones; discard spice bag, season with salt and pepper and add dark soy sauce and sugar.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APork_Spare_Rib_Soup_%28Bah_Kut_Teh%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pork Spare Rib Soup (Bah Kut Teh)@4610521
+    url: https://en.wikibooks.org/w/index.php?oldid=4610521
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

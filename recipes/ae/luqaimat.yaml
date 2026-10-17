@@ -1,0 +1,45 @@
+id: ae-luqaimat
+title: Luqaimat
+native_name: {text: لقيمات, lang: ar, romanized: luqaimāt}
+summary: Crisp-shelled, fluffy fried dough balls scented with cardamom and saffron, drizzled with date syrup and sesame.
+origin:
+  country: AE
+  also_claimed_by: [SA, KW, QA, BH, OM]
+course: dessert
+dish_types: [fried-dough]
+occasions: [Ramadan, Eid]
+authenticity: traditional
+yield: {servings: 6, amount: about 30 pieces}
+time: {prep_min: 10, cook_min: 25, inactive_min: 60}
+difficulty: 2
+techniques: [dough-making, deep-frying]
+ingredient_groups:
+  - name: Batter
+    items:
+      - {ingredient: all-purpose-flour, qty: 250, unit: g}
+      - {ingredient: cornstarch, qty: 2, unit: tbsp}
+      - {ingredient: instant-yeast, qty: 1, unit: tsp}
+      - {ingredient: sugar, qty: 1, unit: tbsp}
+      - {ingredient: ground-cardamom, qty: 0.5, unit: tsp}
+      - {ingredient: saffron, qty: 1, unit: pinch}
+      - {ingredient: salt, qty: 1, unit: pinch}
+      - {ingredient: yogurt, qty: 3, unit: tbsp}
+      - {ingredient: water, qty: 250, unit: ml, note: "warm"}
+  - name: To finish
+    items:
+      - {ingredient: vegetable-oil, qty: 1, unit: l, note: "for frying"}
+      - {ingredient: date-syrup, qty: 6, unit: tbsp}
+      - {ingredient: sesame-seeds, qty: 1, unit: tbsp, prep: "toasted"}
+steps:
+  - Whisk the batter ingredients into a thick, smooth, sticky batter.
+  - text: Cover and leave in a warm place until doubled and bubbly.
+    timer_min: 60
+  - Heat the oil to 170 °C. Squeeze small balls of batter through your fist and scoop them off with a wet teaspoon into the oil (or use two spoons).
+  - Fry, turning, until deep golden all over (4–5 minutes). Drain on paper.
+  - Drizzle with date syrup and sprinkle with sesame. Serve warm.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

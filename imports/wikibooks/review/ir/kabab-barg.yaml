@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ir-kabab-barg
+title: Kabab Barg
+alternate_names:
+- Persian Grilled Meat
+summary: This kebab is prepared by marinating meat overnight and grilling it over an open fire. It is usually served with polo (white rice) or naan.
+origin:
+  country: IR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- grilling
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil}
+  - {ingredient: onion, qty: 3}
+  - {ingredient: garlic}
+  - {ingredient: saffron, unit: tsp, qty: 0.5}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: lamb, unit: kg, qty: 1, prep: cut into 1 x 5 cm pieces}
+steps:
+- Combine the olive oil, onions, garlic, saffron, salt, and pepper to make the marinade.
+- Toss the lamb pieces with the marinade. Cover, and marinate overnight in the refrigerator.
+- Thread the lamb onto metal skewers.
+- Brush the lamb with the marinade. Grill for 5–10 minutes on each side over an open fire.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKabab_Barg_%28Persian_Grilled_Meat%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kabab Barg (Persian Grilled Meat)@4516302
+    url: https://en.wikibooks.org/w/index.php?oldid=4516302
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

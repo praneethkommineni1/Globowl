@@ -1,0 +1,77 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: eg-egyptian-cabbage-rolls
+title: Egyptian Cabbage Rolls
+alternate_names:
+- Mahshi Malfoof
+summary: Egyptian cabbage rolls, also known as mahshi malfoof, are a traditional Egyptian dish that features tender cabbage leaves stuffed with a savory filling. The rolls are then cooked in a flavorful tomato sauce, resulting in a delicious and comforting meal.
+origin:
+  country: EG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large pot
+- Mixing bowl
+- Knife
+- Cutting board
+- Toothpicks or cooking twine
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: white-cabbage, qty: 1}
+  - {ingredient: beef, unit: g, qty: 500}
+  - {ingredient: long-grain-rice, unit: cup, qty: 1, prep: washed and drained}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: tomato, unit: can, qty: 1}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 2}
+  - {ingredient: chicken-stock, unit: cup, qty: 2}
+steps:
+- Bring a large pot of salted water to a boil. Carefully remove the core of the cabbage and place the whole head in the boiling water. Cook for about 10 minutes or until the outer leaves are softened and can be easily removed. Remove the cabbage from the water and let it cool.
+- Gently peel off the softened cabbage leaves, being careful not to tear them. Set aside.
+- In a mixing bowl, combine the ground beef or lamb, washed rice, chopped onion, minced garlic, olive oil, cumin, coriander, cinnamon, salt, and black pepper. Mix well until all the ingredients are evenly incorporated.
+- Take a cabbage leaf and place a small portion of the meat and rice mixture in the center. Fold the sides of the leaf over the filling and roll it tightly, similar to a burrito. Secure the roll with toothpicks or tie it with cooking twine. Repeat this process with the remaining cabbage leaves and filling.
+- In a large pot, combine the diced tomatoes, tomato paste, and vegetable broth or water. Stir well to combine. Place the stuffed cabbage rolls in the pot, arranging them in a single layer.
+- Bring the sauce to a boil, then reduce the heat to low. Cover the pot and let the cabbage rolls simmer for about 1–1.5 hours, or until the cabbage is tender and the filling is cooked through.
+- Once cooked, carefully remove the toothpicks or cooking twine from the cabbage rolls. Serve them hot with a generous spoonful of the tomato sauce.
+tips:
+- If the cabbage leaves are too large, you can cut them in half before stuffing to make smaller rolls.
+- You can add a splash of lemon juice or vinegar to the tomato sauce for a slightly tangy flavor.
+- Leftover cabbage rolls can be refrigerated and enjoyed the next day. They often taste even better as the flavors meld together.
+- Choose a firm and compact head of cabbage for easier rolling.
+- Blanching the cabbage in boiling water helps soften the leaves and makes them more pliable for rolling.
+- Make sure to securely fasten the cabbage rolls with toothpicks or cooking twine to prevent them from unraveling during cooking.
+- For a vegetarian version, omit the ground meat and add more vegetables like diced carrots, bell peppers, or mushrooms to the rice filling.
+- You can customize the filling by adding herbs like parsley, dill, or mint for added freshness and flavor.
+- Some variations of mahshi malfoof include adding a layer of sliced potatoes or carrots to the bottom of the pot before adding the cabbage rolls. This adds an additional layer of flavor and texture to the dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgyptian_Cabbage_Rolls_%28Mahshi_Malfoof%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egyptian Cabbage Rolls (Mahshi Malfoof)@4587495
+    url: https://en.wikibooks.org/w/index.php?oldid=4587495
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

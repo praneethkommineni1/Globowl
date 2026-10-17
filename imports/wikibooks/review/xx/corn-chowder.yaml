@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 can creamed corn
+#  - unmapped ingredient: 1/4 tsp MSG
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-corn-chowder
+title: Corn Chowder
+summary: Corn Chowder.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 5
+  amount: 5 pints
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: corn-kernels, unit: cup, qty: 4}
+  - {ingredient: chicken-stock, qty: 1}
+  - {ingredient: potato, unit: cup, qty: 4}
+  - {ingredient: chicken, unit: can, qty: 1}
+  - {ingredient: onion, unit: cup, qty: 1.5}
+  - {ingredient: celery, unit: cup, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25, optional: true}
+  - {ingredient: salt, unit: tsp, qty: 0.25, optional: true}
+steps:
+- Put all ingredients into stockpot and start cooking slowly over medium heat.
+- When the ingredients get warm, put some of them into a blender, liquefy them, and pour back into the pot. This helps thicken the soup.
+- Cook until the potatoes get soft all the way through and start getting translucent, stirring every few minutes to get the contents off the bottom of the pot.
+- If storing then proceed to the section on long term storage.
+- To serve, add ½ cup whole milk, 1 tbsp unsalted butter, and ¼ cup romano cheese per pint of hot soup.
+- Refrigerate at under 40°F (2°C) for no more than 3 days.
+- Pour into 16-ounce (1-pint) mason jars leaving 1 inch (2.5 cm) headspace.
+- Process 90 minutes in a pressure canner at 10 (11 for dial) pounds, adjusted for your altitude.
+tips:
+- It is recommended that you use all the optional ingredients or this will taste bland.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACorn_Chowder_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Corn Chowder II@4605289
+    url: https://en.wikibooks.org/w/index.php?oldid=4605289
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

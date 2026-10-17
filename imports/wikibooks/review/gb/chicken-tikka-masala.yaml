@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (GB, IN, PK): confirm the country of origin
+#  - unmapped ingredient: 675 g cooked Chicken Tikka
+#  - unmapped ingredient: 2 tbsp curry paste
+#  - unmapped ingredient: 2 tbsp tandoori masala paste
+id: gb-chicken-tikka-masala
+title: Chicken Tikka Masala
+summary: Chicken tikka masala is a dish based on chunks of Indian-style roasted chicken (Chicken Tikka) cooked in a tomato curry sauce, originating in India.
+origin:
+  country: GB
+  also_claimed_by:
+  - IN
+  - PK
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- simmering
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: mustard-seeds, unit: tbsp, qty: 2}
+  - {ingredient: garlic, qty: 4, prep: finely chopped, note: large}
+  - {ingredient: onion, unit: g, qty: 200, prep: finely chopped, optional: true}
+  - {ingredient: tomato, unit: can, qty: 1, prep: chopped}
+  - {ingredient: red-chili, qty: [1, 4]}
+  - {ingredient: cilantro, unit: tbsp, qty: 2}
+  - {ingredient: heavy-cream, unit: ml, qty: 50}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 1}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 1}
+  - {ingredient: garam-masala, unit: tbsp, qty: 1}
+steps:
+- Heat the oil in a wok or large frying pan.
+- Add the garlic and onions and stir-fry until browned.
+- Add the curry pastes and mix well, adding a little water or yogurt.
+- Add the cooked chicken tikka, and stir-fry for two minutes to heat through.
+- Add the tomatoes, vinegar, tomato paste, and chilies and simmer for five minutes. Add more extra water if needed.
+- Add the cream, garam masala, and chopped cilantro and simmer for a few times.
+- Garnish with fresh coriander and serve with Naan, rice coloured yellow with turmeric, onion bahjis and/or a glass of white wine.
+tips:
+- Mustard seed oil is considered inappropriate for human consumption in many parts of the world and is therefore not always available. A poor alternative can be made by crackling ½ tsp of mustard seeds in approximately 2 tbsp of very hot vegetable or olive oil. Allow to cool, then use in place of mustard seed oil.
+- Powdered or concentrated ingredients can be substituted for fresh ones but at the amount of taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Tikka_Masala&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chicken Tikka Masala@4614347
+    url: https://en.wikibooks.org/w/index.php?oldid=4614347
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

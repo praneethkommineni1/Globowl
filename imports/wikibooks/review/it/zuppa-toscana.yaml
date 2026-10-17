@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 qt water
+id: it-zuppa-toscana
+title: Zuppa Toscana
+summary: Zuppa toscana is a soup available at the Olive Garden restaurant.
+origin:
+  country: IT
+course: soup
+authenticity: unassessed
+yield:
+  servings: 12
+time:
+  total_min: 35
+difficulty: 3
+techniques:
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: sausage, unit: g, qty: 454, prep: crumbled}
+  - {ingredient: bacon, unit: g, qty: 227, prep: chopped}
+  - {ingredient: chicken, unit: can, qty: 2}
+  - {ingredient: potato, qty: 2, prep: cubed, note: large}
+  - {ingredient: garlic, qty: 2, prep: crushed}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: kale, unit: cup, qty: 2}
+  - {ingredient: heavy-cream, unit: cup, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- In a skillet over medium-high heat, brown the sausage, breaking into small pieces as you fry it. Drain and set aside.
+- In skillet over medium-high heat, brown bacon. Drain and set aside.
+- Place water, broth, potatoes, garlic, and onion into a pot. Simmer over high heat until potatoes are tender.
+- Add sausage and bacon to the pot. Simmer for 10 minutes.
+- Add kale/chard and cream to the pot. Seasons with salt and pepper; heat through.
+tips:
+- Potatoes can be substituted with cauliflower for a low-carbohydrate version of this soup.
+- You can also use half mild half spicy turkey sausage instead of pork sausage.
+- Sometimes, fennel is used.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AZuppa_Toscana&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Zuppa Toscana@4523497
+    url: https://en.wikibooks.org/w/index.php?oldid=4523497
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

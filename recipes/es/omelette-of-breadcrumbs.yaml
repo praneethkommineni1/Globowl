@@ -1,0 +1,44 @@
+id: es-omelette-of-breadcrumbs
+title: Omelette of Breadcrumbs
+summary: The omelette of breadcrumbs (in Spanish, tortilla de pan rallado) is a traditional recipe from Málaga, Spain. The origins of the recipe are uncertain and diverse. The Romans cooked an omelette shaped cake which they called ovorum torta.
+origin:
+  country: ES
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 10
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 4}
+  - {ingredient: garlic, unit: clove, qty: 1, prep: minced}
+  - {ingredient: parsley, prep: finely chopped}
+  - {ingredient: breadcrumbs, unit: g, qty: 25}
+  - {ingredient: salt}
+  - {ingredient: olive-oil}
+steps:
+- Beat the eggs, adding finely chopped garlic and parsley successively.
+- Add breadcrumbs, making sure the mixture is uniform.
+- Cook the omelette over low heat with a few drops of cooking oil to prevent sticking.
+tips:
+- You can decorate the omellete with small slices of tomato or similarly, something not too fancy. It is usually served in a shaped cake.
+- Try beating the egg whites separately and then adding the yolks. You will get a more spongy omelette.
+- The amount of breadcrumbs can be modified by the diners. Adding more breadcrumbs makes a thicker omelette. Similarly, with less breadcrumbs, you will get a lighter omelette.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AOmelette_of_Breadcrumbs&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Omelette of Breadcrumbs@4517804
+    url: https://en.wikibooks.org/w/index.php?oldid=4517804
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

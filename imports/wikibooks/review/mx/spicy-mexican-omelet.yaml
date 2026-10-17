@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 cup salsa, at room temperature
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: mx-spicy-mexican-omelet
+title: Spicy Mexican Omelet
+summary: 'Here''s a tip for making good omelets: Cook the things that you want cooked before you add it into the eggs, and have everything at room temperature.'
+origin:
+  country: MX
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 3, prep: uncracked}
+  - {ingredient: salt, unit: pinch, qty: [2, 3]}
+  - {ingredient: scotch-bonnet, qty: 1, prep: finely minced and seeded if you like}
+  - {ingredient: monterey-jack, unit: cup, qty: 1, prep: at room temperature}
+  - {ingredient: cilantro, unit: tbsp, qty: 2, prep: finely chopped}
+  - {ingredient: butter}
+steps:
+- Cover whole eggs with warm but not scalding water. Let sit 5 minutes or until room temperature.
+- Beat eggs with salt. Set aside.
+- Combine chiles, salsa, cilantro, and cheese. Set aside.
+- Heat a large nonstick skillet over medium high heat. Quickly swirl with butter and crack in the eggs. Cook until egg is set and well browned on side facing pan.
+- Sprinkle salsa mixture evenly on uncooked side of egg. Fold in half and cook raw side until set and well browned.
+- Sprinkle with chopped cilantro and serve warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASpicy_Mexican_Omelet&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Spicy Mexican Omelet@4517809
+    url: https://en.wikibooks.org/w/index.php?oldid=4517809
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,49 @@
+id: mc-barbagiuan
+title: Barbagiuan
+native_name: {text: Barbagiuan, lang: fr}
+summary: Monaco's national dish — crisp fried pastry pockets filled with Swiss chard, spinach, ricotta and Parmesan.
+origin:
+  country: MC
+  also_claimed_by: [IT, FR]
+course: starter
+dish_types: [pastry, fritter]
+occasions: [Monaco National Day (19 November)]
+authenticity: traditional
+yield: {servings: 6, amount: about 24 barbagiuans}
+time: {prep_min: 45, cook_min: 25, inactive_min: 30}
+difficulty: 3
+techniques: [dough-making, sauteing, deep-frying]
+ingredient_groups:
+  - name: Dough
+    items:
+      - {ingredient: all-purpose-flour, qty: 250, unit: g}
+      - {ingredient: olive-oil, qty: 60, unit: ml}
+      - {ingredient: water, qty: 100, unit: ml}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+  - name: Filling
+    items:
+      - {ingredient: swiss-chard, qty: 500, unit: g, prep: "finely chopped"}
+      - {ingredient: spinach, qty: 200, unit: g, prep: "finely chopped"}
+      - {ingredient: leek, qty: 1, prep: "finely chopped"}
+      - {ingredient: onion, qty: 1, prep: "finely chopped"}
+      - {ingredient: olive-oil, qty: 2, unit: tbsp}
+      - {ingredient: ricotta, qty: 150, unit: g}
+      - {ingredient: parmesan, qty: 50, unit: g, prep: "grated"}
+      - {ingredient: egg, qty: 1}
+      - {ingredient: dried-marjoram, qty: 0.5, unit: tsp}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.25, unit: tsp}
+  - name: To fry
+    items:
+      - {ingredient: vegetable-oil, qty: 1, unit: l}
+steps:
+  - Knead the dough ingredients until smooth; rest 30 minutes.
+  - Cook the chard, spinach, leek and onion in the olive oil until wilted and dry. Cool, then mix with the ricotta, Parmesan, egg, marjoram, salt and pepper.
+  - Roll the dough very thin and cut into 8 cm rounds. Place a teaspoon of filling on each, fold into half-moons and seal well.
+  - Fry in oil at 175 °C until golden (2–3 minutes). Drain and serve warm.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

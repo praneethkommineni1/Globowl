@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1–1 1/2 cups Cameroonian smoked fish
+#  - unmapped ingredient: 1–1 1/2 cups bite-size smoked turkey pieces
+#  - unmapped ingredient: 1 cup red oil
+#  - unmapped ingredient: 1/2 teaspoon country onion spice
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: cm-kwacoco
+title: Kwacoco
+alternate_names:
+- Cameroonian Steamed Taro Bundles
+summary: Kwacoco.
+origin:
+  country: CM
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Pot
+- Steamer
+- Stovetop
+- Knife
+- Bowl
+- Stirring implement
+- Food processor or grater
+techniques:
+- boiling
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: bouillon-cube, unit: tsp, qty: 1}
+  - {ingredient: crayfish, unit: cup, qty: 0.5}
+  - {ingredient: red-chili, qty: 1, prep: pierced}
+  - {ingredient: taro, unit: g, qty: 1361, prep: peeled}
+  - {ingredient: spinach, unit: cup, qty: [4, 5], prep: chopped}
+  - {ingredient: salt}
+steps:
+- In a medium pot, combine the bouillon powder, smoked fish, crayfish, chile pepper, and turkey. Cover with water, and bring to a boil. Cook for 3–5 minutes. Set aside the stock for later use.
+- Cut the cocoyam into large chunks, rinse right away to avoid discoloration, and soak in cool water until needed.
+- Either grate the cocoyam or pulse it in a food processor until almost but not completely smooth.
+- Combine the cooked fish, turkey, spinach, red oil, salt, and country onion spice in a large bowl. Add a little stock as necessary.
+- Cut the banana leaves into rectangles, removing any undesirable edges. Clean them, drain them, and pat them dry.
+- Heat the banana leaves over an open flame to wilt them and make them flexible.
+- Place around 1–2 cups of the above mixture on one leaf. Swiftly fold banana leaves over the filling, pressing the sides into a rectangle form while pressing inward to prevent any filling from leaking out. Fold the sides in twice to seal. Repeat this step with the remaining filling and banana leaves.
+- Place a rack or steamer inside a large pot with a few inches of boiling water. Line with banana leaves, and place the wrapped bundles in the steamer. Steam for about an hour, adding more water as needed.
+- Unwrap the kwacoco to serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKwacoco_%28Cameroonian_Steamed_Taro_Bundles%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kwacoco (Cameroonian Steamed Taro Bundles)@4513621
+    url: https://en.wikibooks.org/w/index.php?oldid=4513621
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

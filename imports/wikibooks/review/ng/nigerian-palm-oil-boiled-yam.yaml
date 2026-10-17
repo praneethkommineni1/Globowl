@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Utazi leaves, shredded
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-nigerian-palm-oil-boiled-yam
+title: Nigerian Palm Oil Boiled Yam
+alternate_names:
+- Ji Mmanu
+summary: Palm oil boiled yam, also known as ji mmanu, is a typical Igbo food.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: yam, prep: peeled and diced}
+  - {ingredient: red-palm-oil}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: red-chili, prep: blended to paste}
+  - {ingredient: onion, optional: true}
+steps:
+- Cook the yam pieces in salted boiling water for a few minutes.
+- Drain the yam pieces. Toss the yam with palm oil, salt, fresh pepper, and utazi leaves.
+- Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Palm_Oil_Boiled_Yam_%28Ji_Mmanu%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Palm Oil Boiled Yam (Ji Mmanu)@4494021
+    url: https://en.wikibooks.org/w/index.php?oldid=4494021
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

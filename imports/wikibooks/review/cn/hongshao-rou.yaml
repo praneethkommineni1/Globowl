@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 50 ml Shaoxing rice wine
+#  - course unknown from categories
+id: cn-hongshao-rou
+title: Hongshao Rou
+alternate_names:
+- Red Braised Pork Belly
+summary: Hongshao rou (lit. red-cooked meat) is a traditional Chinese pork dish. It is a very popular homemade dish, but it is rarely found in Western restaurants. Often a family's exact recipe is a secret and passed down the generations.
+origin:
+  country: CN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4 Servings
+time:
+  total_min: 75
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: pork, unit: g, qty: 700, prep: cubed}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 3}
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: chicken-stock, unit: ml, qty: 350}
+  - {ingredient: ginger, unit: tbsp, qty: 1}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: star-anise, qty: 3}
+  - {ingredient: scallion, qty: 4, prep: sliced, note: small}
+steps:
+- In a medium saucepan, over high heat, heat the oil and sugar together until the sugar melts and turns brown.
+- Add the cubed pork to the sugar and oil and brown all over.
+- Reduce the heat, add the stock, ginger, star anise, soy sauce, and Shaoxing wine to the pan.
+- Cover tightly and simmer for 40 minutes, stirring occasionally to prevent it burning at the bottom.
+- Remove the lid and add the spring onions.
+- Boil the sauce until only a thick, dark gravy is left.
+- The dish may be served now, but if possible, refrigerate for a day to allow the flavours to develop.
+- Serve with rice, garnish with sliced spring onion.
+tips:
+- Add 500 g sliced tripe. If the tripe was frozen, boil vigorously for about 40 mins until tender and not chewy. If fresh tripe is used (highly recommended) this is not required. Add to the pan about halfway through the simmering.
+- Add 250 g beef tendon, cut into small cubes. Boil vigorously for about 40 mins until translucent and not too chewy. Add this to the pan about halfway through the simmering.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHongshao_Rou_%28Red_Braised_Pork_Belly%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Hongshao Rou (Red Braised Pork Belly)@4512050
+    url: https://en.wikibooks.org/w/index.php?oldid=4512050
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

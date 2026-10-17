@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 cup tender coconut water
+#  - unmapped ingredient: 1/4 cup China grass strands
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-coconut-pudding
+title: Coconut Pudding
+summary: Coconut Pudding.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: coconut, qty: 2, prep: flesh scooped out}
+  - {ingredient: milk, unit: cup, qty: 2}
+  - {ingredient: condensed-milk, unit: cup, qty: 0.5}
+steps:
+- Purée the young coconut flesh in a blender, and keep aside.
+- In a saucepan, combine the tender coconut water and china-grass strands. Heat gently until the china-grass strands melt completely.
+- In the meantime, heat milk and condensed milk in another saucepan over medium heat. Let it come to a boil.
+- To the boiled milk, add the melted china-grass mixture, and combine well.
+- Remove from the flame and let it cool down for at least 5 minutes.
+- Add the pureed tender coconut to the cooled milk mixture, and mix everything well.
+- Pour the mixture into a cake pan or stainless steel pan.
+- Place the pudding in the freezer for about 15 minutes or until it begins to set.
+- Remove the pudding from the freezer and place it in the refrigerator until fully set.
+- Using a knife, gently cut the pudding and serve it in dessert bowls.
+tips:
+- You could garnish the pudding with almonds, cashew nuts etc.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACoconut_Pudding_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Coconut Pudding I@4517912
+    url: https://en.wikibooks.org/w/index.php?oldid=4517912
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

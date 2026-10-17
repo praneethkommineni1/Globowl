@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cake of ragi tapai
+#  - unmapped ingredient: A couple of drops of pandan paste for color
+#  - course unknown from categories
+id: id-tapai-ketan
+title: Tapai Ketan
+alternate_names:
+- Indonesian Fermented Sticky Rice
+summary: Tapai, also tape (pronounced "tah-pay"), is a traditional fermented food of Indonesia, although present in some form throughout South-East Asia.
+origin:
+  country: ID
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8
+time:
+  total_min: 30
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 4}
+steps:
+- 'Rinse the rice and cook it in the water, unsalted. If adding pandan paste, add it now. The absorption method is usually easiest: bring the water to boiling point with the rice in it, then put the lid on the pot and turn the heat down to lowest possible setting and simmer for 15 minutes.'
+- Allow rice to cool down to about 30°C (86°F). To help it cool down faster, sit the pot in a basin of cold water.
+- Crumble the cake of ragi tapai over the rice and mix in well.
+- Loosely pack the mixture into a large jar, cover with a cloth, and set aside in a warm place to ferment (about 30–35°C / 86–95°F). The tapai will ferment over the next 2–4days. After about two days, it should start to show a little liquid at the bottom of the jar, and will start producing a distinctive smell of tapai. At this point, the tapai can be considered complete, although it will taste better after a couple of days kept in the refrigerator.
+tips:
+- Tapai can be made from plain white rice (tape nasi), or cassava (tape ketala, tape telor, peuyeum), or even sweet potato.
+- Ragi tapai (or ragi tape) can be a little difficult to track down outside of South-East Asia, but a little persistence should help find it. The same (or very similar) product is used to ferment Chinese rice wines, and runs under the names "wine yeast", "yeast cake" and "rice cake" in Asian grocery stores. They look like crumbly little white balls, about 2-3cm (1 inch) in diameter. Just ask the shopkeeper whether it can be used to make wine. They can also be purchased on-line from some stores; try this Google search.
+- The liquid that collects at the bottom is actually a rice wine, called brem. It will be very low in alcohol after only a few days, but if kept and allowed to ferment, it will become more alcoholic.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATapai_Ketan_%28Indonesian_Fermented_Sticky_Rice%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tapai Ketan (Indonesian Fermented Sticky Rice)@4513064
+    url: https://en.wikibooks.org/w/index.php?oldid=4513064
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

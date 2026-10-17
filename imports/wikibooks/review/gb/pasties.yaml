@@ -1,0 +1,70 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 medium swede or similar root vegetable, peeled, cut into chunks, and then thinly sliced
+#  - unmapped ingredient: Pastry for Cornish Pasties
+id: gb-pasties
+title: Pasties
+summary: 'A pasty (Cornish: pasti, hoggan, incorrectly written as pastie) is a type of pie, originally from Cornwall, in the United Kingdom. It is a baked savory pastry case traditionally filled with sliced meat and vegetables.'
+origin:
+  country: GB
+course: snack
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 90
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: potato, qty: 4, prep: prepared same as the swede, note: large}
+  - {ingredient: onion, qty: 4, prep: halved and thinly sliced, note: medium}
+  - {ingredient: beef, unit: g, qty: 907, prep: sliced across the grain into roughly 1x2 cm strips}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 1, optional: true}
+  - {ingredient: milk, unit: tbsp, qty: 1, optional: true}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Preheat oven to 400°F 200°C Gas Mark 6.
+- Lightly dust the prepared meat in seasoned flour (optional but makes a thicker gravy of the enclosed juices).
+- Divide the pastry into 4 equal portions. Roll each into circles.
+- Layer meat and vegetables on one half of each pastry circle to within 1 inch of the edge. Season generously.
+- Brush milk onto the edge of the pastry circles (optional).
+- Bring the other half of the dough over the top of the mixture.
+- Pinch and twist to seal the dough around the edges.
+- Make a couple of small slashes in the top of the pastry to allow steam to escape.
+- Brush pasties with the remaining milk (optional).
+- Use pastry trimmings to make the intended eater's initial(s) on one end of the pasty. This is the Cornish housewife's traditional way of making and identifying individual pasties to suit each family member e.g. less seasoning for young children or more meat for a hard-working son or anaemic daughter. Also, it enabled tin-miners and fishermen to identify their pasties if they had had to put them down somewhere half-eaten to attend to some urgent work.
+- Place the pasties on a lightly-greased baking tray (or a double thickness of aluminium foil directly onto the oven shelf).
+- Bake for about 45 minutes on the middle shelf of the preheated oven.
+- Best taken with a pint of bitter or stout or a large mug of strong tea.
+tips:
+- Try adding sweet-corn or different types of beans.
+- To rewarm, place on a cookie sheet in the oven and make a tent with foil over them so only the inside is heated, and not the pie crust. By a campfire, just lay on a hot rock or on a plate tilted towards the fire; before long they are warm and ready to eat.
+- Use a pie crust that doesn't crumble too easily, or the whole thing will fall apart.
+- 'Apple variant: Add peeled and thinly sliced apples sprinkled with soft brown sugar.'
+- 'Broccoli variant: Parboil, drain, and salt the broccoli. Fill pastries well with the broccoli. A little cheddar cheese is good in this, instead of salt.'
+- 'Chicken variant: Add diced breast and leg meat, and continue as above.'
+- 'Date variant: Chop some stoned dates, and fill well.'
+- 'Eggy variant: Add diced green or smoked bacon (back is best), fresh parsley, and 1–2 eggs, according to size of pasty. Top-crimp from each end, and funnel beaten egg in before closing.'
+- 'Pork variant: Add pork, potatoes, onion, a pinch of salt, and fresh sage or thyme.'
+- 'Sorrel variant: Scald sorrel leaves, fill pasty, and serve with sugar and cream.'
+- 'Jam variant: Any kind of jam can be used. Make the pasties smaller than normal, otherwise a lot of jam is needed!'
+- 'Mackerel variant: Allow 1 or 2 mackerels for each pasty, cleaned and boiled as normal. Skin and bone them, lay on pasty, fill with fresh parsley, lightly season and close. Herring are good as well.'
+- 'Windy variant: A method of using the pastry remnants. Just make an empty pasty, but omit the steam slit, split open while still hot and fill with jam, cheese and chutney, or whatever takes your fancy!'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APasties&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pasties@4587211
+    url: https://en.wikibooks.org/w/index.php?oldid=4587211
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

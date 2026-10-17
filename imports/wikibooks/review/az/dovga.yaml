@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Boiled peas
+id: az-dovga
+title: Dovga
+alternate_names:
+- Azerbaijani Yogurt Soup
+summary: Dovga (Dovğа) is a national meal of Azerbaijani cuisine. It is yogurt milk soup. Dovga can be eaten both cold and warm. Dovga can also be made with meatballs which are boiled separately and then added into it.
+origin:
+  country: AZ
+course: soup
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 25
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: yogurt, unit: l, qty: 1}
+  - {ingredient: long-grain-rice, unit: tbsp, qty: 2}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: spinach, unit: bunch, qty: 1}
+  - {ingredient: dill, unit: bunch, qty: 1}
+  - {ingredient: cilantro, unit: bunch, qty: 1}
+  - {ingredient: mint, unit: bunch, qty: 1}
+steps:
+- Stir yogurt to remove lumps, then pour into a pot.
+- Add rice and egg, and thoroughly mix.
+- Set pot over low heat. Mix continuously and slowly until it boils (otherwise the yogurt and eggs may curdle).
+- While the mixture is boiling, chop the greens. Add these into the yogurt mixture, and boil again for about 5 minutes.
+- Stir in peas, if using.
+- Serve in plates or glasses, adding salt to taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADovga_%28Azerbaijani_Yogurt_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dovga (Azerbaijani Yogurt Soup)@4531804
+    url: https://en.wikibooks.org/w/index.php?oldid=4531804
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

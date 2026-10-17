@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Ground red pepper to taste
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: sn-firire
+title: Firire
+alternate_names:
+- Senegalese Fried Fish with Sauce
+summary: Firire is a dish loved by most Senegalese people. It is usually eaten as dinner and can be served with bread or fresh green salad.
+origin:
+  country: SN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- marinating
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: fish, prep: cleaned}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: mustard-seeds, unit: tbsp, qty: 1}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 1}
+  - {ingredient: chili-powder}
+  - {ingredient: onion, qty: 1, prep: chopped}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: vegetable-oil}
+  - {ingredient: green-pepper, qty: 0.5, prep: sliced along its length}
+  - {ingredient: lettuce}
+  - {ingredient: cucumber, qty: 1, prep: peeled and sliced}
+  - {ingredient: plantain, prep: peeled and sliced}
+  - {ingredient: tomato, qty: 2}
+steps:
+- Wash the fish very well and make slashes along the body.
+- Combine the garlic, mustard, vinegar, chile powder, red pepper, onions, and a pinch of salt. Rub on the fish, and leave to marinate for 15 minutes.
+- Scrape the onions off the fish, and reserve them.
+- Heat the oil in a pan over moderate heat. Add the fish, and fry on both sides until browned. Remove and set aside.
+- Add the marinated onions to the pan. Fry until browned, stirring every 2–3 minutes.
+- Stir in the green pepper. Reduce the heat to medium, and cook for about 7 minutes. Set aside this sauce.
+- Combine a dash of vinegar, oil, and mustard to make a dressing. Toss the dressing with the lettuce and cucumber. Set aside
+- Fry the plantain, and season with salt to taste.
+- Arrange the salad in a dish, and place the fish in the center. Garnish with tomatoes and plantains. Serve with the reserved sauce.
+tips:
+- You can enjoy the firire with bread instead of plantains. It is also excellent with mayonnaise.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFirire_%28Senegalese_Fried_Fish_with_Sauce%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Firire (Senegalese Fried Fish with Sauce)@4613687
+    url: https://en.wikibooks.org/w/index.php?oldid=4613687
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

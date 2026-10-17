@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 1/2 cups maple syrup
+#  - unmapped ingredient: 1/4 cup Hickory BBQ Rub
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-maple-barbecue-sauce
+title: Maple Barbecue Sauce
+summary: This maple barbecue sauce is great with chicken, but it contains sugar in this sauce, so put it on things 10–15 minutes before you take them off the heat.
+origin:
+  country: US
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: ketchup, qty: 2}
+  - {ingredient: cider-vinegar, unit: cup, qty: 1}
+  - {ingredient: mustard-seeds, unit: tbsp, qty: 2}
+  - {ingredient: worcestershire-sauce, unit: cup, qty: 0.5}
+  - {ingredient: scotch-bonnet, qty: 2, prep: stemmed}
+steps:
+- Combine all ingredients in a large saucepan or pot.
+- Bring to a boil over high heat and cook until liquid has reduced by ⅓.
+- Remove chiles and discard.
+- Keep refrigerated in an airtight container for up to 3 weeks.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMaple_Barbecue_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Maple Barbecue Sauce@4613421
+    url: https://en.wikibooks.org/w/index.php?oldid=4613421
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

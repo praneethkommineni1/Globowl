@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 4-5 split green chillies
+id: in-potato-curry
+title: Potato Curry
+alternate_names:
+- Aloo Masala
+summary: 'Potato masala (Tamil: uralai kizhangu masala) is a potato dish often served alongside roti or folded inside a dosa. The dosa and aloo masala combination, widely eaten in South India, is known as masala dosa. Coconut chutney is a common accompaniment.'
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4-6
+time:
+  total_min: 20
+difficulty: 3
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 0.5}
+  - {ingredient: chickpeas-canned, unit: tbsp, qty: 0.5, optional: true}
+  - {ingredient: curry-leaves, qty: 5}
+  - {ingredient: onion, qty: 1, prep: chopped thin, note: medium}
+  - {ingredient: potato, qty: 4, prep: cubed and par-boiled, note: large}
+  - {ingredient: ground-turmeric, unit: pinch, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+steps:
+- Heat oil.
+- Sautée the mustard seed first, then add chana dhal, curry leaves, onion and chillies.
+- Fry until the onions begin to change color.
+- Add potatoes.
+- Sprinkle the turmeric evenly and stir well to mix all the ingredients
+- Cover and cook on a medium flame for about 5 minutes, stirring well, until the potatoes become very soft and somewhat mashed.
+- Season with salt to taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APotato_Curry_%28Aloo_Masala%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Potato Curry (Aloo Masala)@4615205
+    url: https://en.wikibooks.org/w/index.php?oldid=4615205
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

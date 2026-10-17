@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 cup hot tap water
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - duplicate id xx-fry-bread from another Wikibooks page
+id: xx-fry-bread
+title: Fry Bread
+summary: Frybread (also spelled fry bread) is a flatbread fried or deep-fried in oil, shortening, or lard. The dough is generally leavened by yeast or baking powder. Frybread can be eaten alone or with various toppings such as honey, jam, or hot beef.
+origin:
+  country: XX
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: baking-powder, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: vegetable-oil}
+steps:
+- Mix the flour, baking powder, salt, and water together in a bowl to make a dough.
+- Grease your hands with the vegetable oil in order to shape the dough into a ball. After that, leave the dough in the bowl and cover it with a towel and set in warm place for about 20 minutes. The longer you leave the dough the fluffier the bread will be.
+- When ready to make the bread, heat the vegetable oil to about 375°F. Make sure the oil is at least 1 inch deep in your frying pan. Put a small ball of dough in the grease as a test. If the oil is hot enough, the ball should float on the grease. If it sits on the bottom, the oil isn't hot enough.
+- When your oil is ready, take a ball of dough about the size of a golf ball and stretch it out in your greased hands. Keep stretching it out until the dough is flattened out to about the size of a large cookie.
+- Poke a tiny hole in the center of the dough with your finger. Next, carefully lay it in the hot oil. Let your dough brown to a golden brown color before turning it over and frying the other side.
+- After cooking the frybread, drain it on paper towels. It's best to serve it as soon as you can.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFry_Bread_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fry Bread II@4512681
+    url: https://en.wikibooks.org/w/index.php?oldid=4512681
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

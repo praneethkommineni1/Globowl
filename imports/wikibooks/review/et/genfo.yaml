@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup roasted barley flour
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: et-genfo
+title: Genfo
+alternate_names:
+- Ethiopian Porridge
+summary: Genfo is a comforting and nutritious Ethiopian porridge made with roasted barley flour and often enjoyed as a breakfast or as a filling meal. This traditional Ethiopian dish is known for its smooth and creamy texture.
+origin:
+  country: ET
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Medium-sized pot with lid
+- Wooden spoon or spatula
+- Whisk
+- Stovetop
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.25, note: to taste}
+  - {ingredient: niter-kibbeh, unit: tbsp, qty: 2, prep: 'regular butter, or oil'}
+  - {ingredient: honey, note: to taste}
+  - {ingredient: berbere}
+  - {ingredient: cinnamon-stick}
+steps:
+- In a medium-sized pot, whisk together the roasted barley flour and water until smooth and well combined.
+- Place the pot over medium heat and cook the mixture, stirring constantly, until it thickens and reaches a porridge-like consistency. This usually takes about 10–15 minutes. Keep stirring the mixture constantly while cooking to prevent lumps from forming.
+- Add the salt and continue to stir until well incorporated.
+- Stir in the niter kibbeh, and mix well.
+- Taste and adjust the salt if needed.
+- Serve the genfo hot in bowls. Drizzle honey or sprinkle sugar over the porridge to sweeten it according to your taste. Optionally, sprinkle mitmita or berbere spice over the genfo for added heat and flavor. Garnish with nigella seeds or a sprinkle of cinnamon.
+tips:
+- Roasted barley flour is the traditional choice for making genfo, but you can also use other roasted grain flours like wheat or cornmeal.
+- The consistency of the porridge can be adjusted by adding more water for a thinner consistency or cooking longer for a thicker texture.
+- Adjust the sweetness by adding more honey or sugar if desired.
+- For a savory twist, you can serve genfo with a side of cooked vegetables or meat.
+- Some recipes call for the addition of milk or plant-based milk alternatives to make a creamier version.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGenfo_%28Ethiopian_Porridge%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Genfo (Ethiopian Porridge)@4517855
+    url: https://en.wikibooks.org/w/index.php?oldid=4517855
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

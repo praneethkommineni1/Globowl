@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: in-puttu
+title: Puttu
+alternate_names:
+- Steamed Rice Flour and Coconut
+summary: Puttu is a breakfast dish in Kerala, India. The main ingredients are rice flour and coconut. It is usually eaten with steamed bananas or Kadala Curry (chickpea curry), Chicken Curry, or boiled green gram (moong) and pappad.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: coconut, qty: 1}
+  - {ingredient: rice-flour, unit: cup, qty: 4}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: water}
+steps:
+- Grate the coconut flesh finely.
+- Mix the puttu powder and salt in a wide bowl. Add half of the grated coconut.
+- Rub the mixture with your fingertips, sprinkling in water until it is moist and develops a coarse texture.
+- Leave the mixture for an hour if the flour is ready made, as it absorbs more water.
+- Check the consistency of the flour. One should be able to make a ball out of the flour that can be easily crumbled. Adjust the water content accordingly.
+- Spread a little coconut over the bottom of the puttu vessel (puttu kutti), and fill it with the moist flour. Layer it with coconut.
+- Steam it on the puttu vessel or on the pressure cooker nozzle. In a few minutes, steam will start escaping through the top of the puttu vessel. It will be done in 4 minutes.
+- Serve hot with kadala curry, boiled green gram and pappad (payarum pappadavum), or with steamed bananas.
+tips:
+- Rice, wheat, corn, ragi, or tapioca flours can all be used to make puttu.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APuttu_%28Steamed_Rice_Flour_and_Coconut%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Puttu (Steamed Rice Flour and Coconut)@4526800
+    url: https://en.wikibooks.org/w/index.php?oldid=4526800
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

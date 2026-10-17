@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 200 g whole sweetfish, cleaned and gutted
+#  - unmapped ingredient: Doenjang
+#  - unmapped ingredient: 50 g water celery greens
+#  - unmapped ingredient: 30 g crown daisy greens
+#  - unmapped ingredient: 10 g perilla leaves, sliced
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: kr-euneo-juk
+title: Euneo-juk
+alternate_names:
+- Korean Sweetfish Porridge
+summary: Euneojuk is a traditional Korean food. In English, it can be translated as sweetfish porridge.
+origin:
+  country: KR
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: g, qty: 180}
+  - {ingredient: water, unit: l, qty: 2}
+  - {ingredient: gochujang}
+  - {ingredient: ginger}
+  - {ingredient: red-chili, unit: g, qty: 30, prep: sliced}
+steps:
+- Soak rice in cold water.
+- Remove fish viscera, and wash fish well in cold water. Place fish in a pot and cover with water. Boil until the fish is cooked through.
+- Remove the fish, and save the cooking water. Remove the fish flesh from the bones, and reserve it. If desired, return the remaining fish carcass to the cooking water and continue cooking to make a stronger broth. Remove the fish carcass.
+- Add the doenjang, gochujang, and ginger to the fish broth.
+- Drain the rice and add to the broth. Cook until rice is tender.
+- Add water celery, crown daisy, chili, and perilla leaves to the soup.
+- Simmer soup until greens are cooked as desired.
+- Return the cooked fish meat to the soup, and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEuneo-juk_%28Korean_Sweetfish_Porridge%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Euneo-juk (Korean Sweetfish Porridge)@4518397
+    url: https://en.wikibooks.org/w/index.php?oldid=4518397
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

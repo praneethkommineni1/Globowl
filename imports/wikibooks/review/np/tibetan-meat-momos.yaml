@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: np-tibetan-meat-momos
+title: Tibetan Meat Momos
+summary: Tibetan Meat Momos.
+origin:
+  country: NP
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 4
+techniques:
+- dough-making
+- steaming
+ingredient_groups:
+- name: Filling
+  items:
+  - {ingredient: chicken, unit: g, qty: 454, prep: 'turkey, lamb, or pork'}
+  - {ingredient: onion, unit: cup, qty: 1}
+  - {ingredient: shallot, unit: cup, qty: 0.5}
+  - {ingredient: cilantro, unit: cup, qty: 0.5, prep: chopped}
+  - {ingredient: tomato, unit: cup, qty: 0.5}
+  - {ingredient: garlic, unit: tsp, qty: 1}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.25, optional: true}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: ghee, unit: tbsp, qty: 4}
+  - {ingredient: salt, note: to taste}
+- name: Wrapper
+  items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 3}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: salt, unit: pinch, qty: 1}
+steps:
+- Combine all filling ingredients.
+- Mix well, and adjust seasoning according to taste.
+- In a bowl, combine flour, salt and water. Mix well, kneading until the dough becomes similar to pizza dough.
+- If desired, cover and let stand for about 1 hour. Knead well again before making the wrappers.
+- Prepare 4-inch dough balls and roll between your palms to a spherical shape.
+- Dust working board with dry flour. On the board gently flatten the ball with a rolling pin. Using a 2 inch-diameter cookie cutter, cut out circles.
+- Hold a wrapper on one palm. Put about 1 spoonful of filling in the middle of the wrapper.
+- With the other hand, bring all edges together to center, making pleats.
+- Pinch and twist the pleats to ensure the absolute closure of the dumpling. Sealing the meat inside the wrapper is the secret to tasty and juicy dumplings.
+- Heat up water in a steamer.
+- Oil the steamer rack well or put cabbage leaves on the bottom to prevent dumplings from sticking to rack. Put dumplings in the steamer.
+- When the water boils, cover the steamer.
+- Steam until the dumplings are cooked through, about 10–15 minutes.
+tips:
+- Instead of making the wrappers, you can buy egg roll wrappers.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATibetan_Meat_Momos&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tibetan Meat Momos@4507577
+    url: https://en.wikibooks.org/w/index.php?oldid=4507577
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

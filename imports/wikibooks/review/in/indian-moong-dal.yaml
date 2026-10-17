@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+#  - course unknown from categories
+id: in-indian-moong-dal
+title: Indian Moong Dal
+summary: This recipe is for cooking moong dal in the typical Indian way.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: mung-beans, unit: cup, qty: 0.5}
+  - {ingredient: red-chili, qty: 3}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: water, unit: cup, qty: 1.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: curry-leaves, unit: sprig, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+steps:
+- Combine the dal, green chillies, turmeric powder, and water in a pressure cooker. Cook for 15 minutes, then leave the pressure cooker to release steam on its own.
+- Open the pressure cooker and mash the cooked dal. Add salt to taste. Add more water if it is too thick and heat over a medium heat.
+- Heat oil or ghee in a frying pan, then add jeera and curry leaves. After it splutters, pour it over the cooked dal.
+- Serve hot with rice or rotis.
+tips:
+- Try adding 1 tsp minced onion or shallot that has been browned in oil.
+- Mustard seeds fried in oil can also be added.
+- Cook the dal as described above. Remove the water above the dal and save it.
+- Partially mash the dal with the back of a ladle. Mix in ¼–½ tsp turmeric, 1 pinch asafoetida, 5 g jaggery, and salt.
+- Add enough of the saved water to make a soupy consistency (a bit thinner than soup). Boil it for 2–3 minutes.
+- Serve with 2–3 more tsp ghee.
+- Cook the dal as described above. Remove the water above the dal and save it.
+- Heat a few teaspoons oil in a pan. Add ½ tsp cumin seeds, 4–5 minced cloves of garlic, ½ inch minced ginger, and 1–2 torn green chiles. Cook until the spluttering subsides.
+- Add ½ tsp ground turmeric and 2–3 chopped tomatoes. Sauté well.
+- Stir in the cooked dal, along with enough reserved water to make it soupy. Season with salt to taste and keep warm.
+- Heat a few tablespoons oil in a heavy-bottomed skillet over medium heat. Add 2–2½ tsp cumin seeds, 1 pinch asafoetida, and 2–3 torn red chiles.
+- Reduce the heat and mix in 1 tsp red chili powder. Pour the mixture over the dal, and serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIndian_Moong_Dal&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Indian Moong Dal@4515496
+    url: https://en.wikibooks.org/w/index.php?oldid=4515496
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

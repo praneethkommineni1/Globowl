@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+id: xx-middle-eastern-meatballs
+title: Middle Eastern Meatballs
+summary: Middle Eastern Meatballs.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: yogurt, unit: cup, qty: 1}
+  - {ingredient: garlic, unit: tsp, qty: [1, 2]}
+  - {ingredient: mint, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: beef-mince, unit: g, qty: 340}
+  - {ingredient: long-grain-rice, unit: cup, qty: 0.5}
+  - {ingredient: onion, unit: cup, qty: 0.333}
+  - {ingredient: cilantro, unit: cup, qty: 0.25, prep: chopped coriander}
+  - {ingredient: parsley, unit: cup, qty: 0.25, prep: chopped}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.25}
+  - {ingredient: chili-flakes, unit: tsp, qty: 0.125}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.125}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+steps:
+- In a small bowl, whisk together the yogurt, garlic, and mint. Season to taste with salt.
+- Set the broiler rack 5 inches from the heat.
+- Preheat the broiler.
+- In a mixing bowl, combine the meat, rice, onion, cilantro, parsley, cinnamon, cumin, red and black peppers, and ½ teaspoon salt, stirring mixture with a fork until it is well blended
+- With your hands, form the mixture into 1½-inch meatballs.
+- As you make them, place the meatballs on a baking sheet that fits under the broiler.
+- Broil the meatballs until they are well browned on top, 4 to 5 minutes.
+- Using tongs, turn and cook until the meatballs are browned outside and no longer pink in the center, 3–4 minutes.
+- Transfer them to a serving plate and serve warm, passing the yogurt sauce in a bowl.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMiddle_Eastern_Meatballs&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Middle Eastern Meatballs@4531794
+    url: https://en.wikibooks.org/w/index.php?oldid=4531794
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

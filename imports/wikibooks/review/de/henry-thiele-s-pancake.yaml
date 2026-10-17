@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: de-henry-thiele-s-pancake
+title: Henry Thiele's Pancake
+summary: Henry Thiele's Pancake is a German pancake recipe developed in the 1930s at Henry Thiele's Restaurant in Portland, Oregon. The restaurant was demolished in the 1990s, now the location of Thiele Square.
+origin:
+  country: DE
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4 pancakes
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: cup, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: egg, qty: 4}
+  - {ingredient: butter, unit: tbsp, qty: 8}
+steps:
+- Preheat oven to 500°F.
+- Combine milk, salt, and sugar. Mix in flour gradually. Mix in eggs.
+- For each pancake, melt 2 Tbsp butter in a pan. Pour about 1¼ cups batter into melted butter. While batter is frying gather up the batter in some places to make ridges.
+- When batter is consistency of medium scrambled eggs, put into oven for 5 minutes.
+- Remove from oven; flip pancake in pan; replace into oven for another 2.5 minutes.
+- Remove from oven; add generous amount of lemon juice and small amount maple syrup. Roll pancake into a cigar shape. Add lemon juice, maple syrup, and powdered sugar in that order. Eat.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHenry_Thiele%27s_Pancake&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Henry Thiele's Pancake@4522818
+    url: https://en.wikibooks.org/w/index.php?oldid=4522818
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

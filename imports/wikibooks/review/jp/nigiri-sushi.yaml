@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Topping
+#  - unmapped ingredient: Wasabi
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: jp-nigiri-sushi
+title: Nigiri Sushi
+summary: Nigiri, or nigirizushi, is a variety of sushi where a topping is placed on a small bed of seasoned sushi rice.
+origin:
+  country: JP
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: cooked-short-grain-rice}
+  - {ingredient: nori}
+steps:
+- If making nigirizushi that requires a band of nori to hold the sushi together, cut the nori into strips about ¼ inch wide and long enough to wrap around the finished sushi with at least 1 inch (2.5 cm) of overlap. Place one such strip on the preparing surface.
+- Hand form the sushi rice into suitable sized sushi bases. Generally, this means a rectangular block about ½–1 inch wide, 1–1½ inch (2.5–4 cm) long, and ½–¾ inch (1.5–2 cm) high. It takes considerable experience to form pleasing sushi bases by hand (beginners may find a plastic sushi mold helpful for forming the bases). Wetting the hands in water prior to forming each sushi base keeps the rice from sticking to the hands.
+- For nigirizushi requiring wasabi between the rice and topping, add a small dab of wasabi on the rice.
+- Add the selected topping on top of the sushi rice.
+- If nori is used, wrap one of the nori band ends up and over the nigirisushi topping firmly, so that it sticks to the rice and topping. Wet the other nori band end with a small amount of water, and wrap it up and over the topping so that it overlaps the other nori end. The water causes the nori ends to stick together.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigiri_Sushi&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigiri Sushi@4518739
+    url: https://en.wikibooks.org/w/index.php?oldid=4518739
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

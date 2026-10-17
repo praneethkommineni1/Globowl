@@ -1,0 +1,39 @@
+id: cz-bramboraky
+title: Bramboráky
+native_name: {text: Bramboráky, lang: cs}
+alternate_names: [Czech potato pancakes]
+summary: Crisp, lacy potato pancakes seasoned with garlic and marjoram, fried in lard until golden.
+origin:
+  country: CZ
+course: snack
+dish_types: [pancake, potato]
+authenticity: traditional
+yield: {servings: 4, amount: about 12 pancakes}
+time: {prep_min: 20, cook_min: 25}
+difficulty: 2
+techniques: [pan-frying]
+ingredient_groups:
+  - items:
+      - {ingredient: potato, qty: 800, unit: g, prep: "peeled and finely grated", note: "floury"}
+      - {ingredient: egg, qty: 2}
+      - {ingredient: all-purpose-flour, qty: 3, unit: tbsp}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "crushed"}
+      - {ingredient: dried-marjoram, qty: 1, unit: tsp}
+      - {ingredient: caraway-seeds, qty: 0.5, unit: tsp, optional: true}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+      - {ingredient: lard, qty: 100, unit: g, note: "for frying", alt: [vegetable-oil]}
+steps:
+  - Squeeze the grated potatoes hard in a clean cloth to remove as much liquid as possible.
+  - Mix with the eggs, flour, garlic, marjoram, caraway, salt and pepper.
+  - Heat a thin layer of lard in a frying pan over medium-high heat. Spread spoonfuls of the mixture thinly into pancakes.
+  - text: Fry until deep golden and crisp, then flip and fry the other side. Add more fat between batches.
+    timer_min: 6
+  - Drain on paper and serve hot.
+serving: On their own with beer, or with sauerkraut and roast pork.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

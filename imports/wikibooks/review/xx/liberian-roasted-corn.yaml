@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-liberian-roasted-corn
+title: Liberian Roasted Corn
+summary: Liberian roasted corn is a simple and delicious street food that captures the essence of Liberia's culinary delights. This delightful treat is made by roasting fresh corn over an open flame until it develops a smoky and charred flavor.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+equipment:
+- Grill or open flame (charcoal grill, gas grill, or campfire)
+ingredient_groups:
+- items:
+  - {ingredient: corn-kernels}
+steps:
+- Preheat the grill or set up an open flame (charcoal grill, gas grill, or campfire).
+- Remove the husks and silk from the fresh corn on the cob, leaving the base intact for easy handling.
+- Place the corn on the grill or directly over the open flame.
+- Rotating the corn occasionally to ensure even cooking and prevent burning, roast the corn for about 10–15 minutes or until the kernels are tender and have developed a slightly charred appearance.
+- Once the corn is roasted to your desired level, remove it from the grill or flame.
+- Serve hot and enjoy as a flavorful snack or side dish.
+tips:
+- For added flavor, you can brush the corn with butter or oil before roasting. Some Liberians also sprinkle chili powder or other spices on the roasted corn for extra kick.
+- Liberian roasted corn is often served with a variety of toppings, such as salt, pepper, or grated cheese.
+- This recipe can also be made with corn still in the husks. Simply soak the corn in water for about 30 minutes before roasting to prevent the husks from catching fire.
+- Liberian roasted corn is best enjoyed immediately after roasting while it is still warm and full of flavor.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALiberian_Roasted_Corn&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Liberian Roasted Corn@4495014
+    url: https://en.wikibooks.org/w/index.php?oldid=4495014
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

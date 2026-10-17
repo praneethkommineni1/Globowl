@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 120 g sago pearls
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: my-abuk-abuk
+title: Abuk-abuk
+alternate_names:
+- Sweet Steamed Sago Dumplings
+summary: Abuk-abuk is a Malaysian steamed sweet dumpling made with sago. This version is made with white sugar, but gula melaka palm sugar is also used.
+origin:
+  country: MY
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: sugar, unit: g, qty: 100}
+  - {ingredient: coconut, unit: g, qty: 60}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: food-coloring, unit: tsp, qty: 0.5, optional: true}
+  - {ingredient: pandan-leaf, qty: 8}
+  - {ingredient: banana, qty: 8, prep: rolled into cones}
+steps:
+- Prepare a steamer over a few inches of simmering water.
+- Place the sago in a strainer, and rinse well under running water. Let drain.
+- Transfer the sago to a bowl, then mix in the coconut, salt, and food coloring.
+- Fill each banana leaf cone with a scoop of the sago mixture. It should fill the cone about halfway.
+- Place a scoop of sugar on top of the sago mixture.
+- Top the sugar with another scoop of the sago mixture.
+- Place a piece of pandan leaf on top of the sago mixture. Fold the banana leaf to fully enclose the packet.
+- Transfer the packets to the steamer, cover, and steam for 15–20 minutes.
+- Remove from the steamer and allow to cool.
+- Unwrap the packets and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAbuk-abuk_%28Sweet_Steamed_Sago_Dumplings%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Abuk-abuk (Sweet Steamed Sago Dumplings)@4629565
+    url: https://en.wikibooks.org/w/index.php?oldid=4629565
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

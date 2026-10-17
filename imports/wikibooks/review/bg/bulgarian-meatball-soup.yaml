@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: bg-bulgarian-meatball-soup
+title: Bulgarian Meatball Soup
+alternate_names:
+- Supa Topcheta
+summary: Supa topcheta is a popular Bulgarian soup.
+origin:
+  country: BG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 454}
+  - {ingredient: long-grain-rice, unit: tbsp, qty: 6}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: dried-savory, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: water, unit: cup, qty: 6}
+  - {ingredient: bouillon-cube, qty: 2}
+  - {ingredient: onion, unit: bunch, qty: 0.5, prep: sliced}
+  - {ingredient: red-bell-pepper, qty: 1, prep: chopped}
+  - {ingredient: carrot, qty: 2, prep: peeled and sliced thin}
+  - {ingredient: tomato, qty: 3, prep: peeled and chopped}
+  - {ingredient: parsley, unit: bunch, qty: 0.5, prep: minced}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: lemon, qty: 1, prep: juiced}
+steps:
+- Combine beef, rice, paprika, and savory.
+- Season to taste with salt and pepper, and mix lightly but thoroughly.
+- Form mixture into 1-inch (2.5 cm) balls, then roll in flour.
+- Combine water, bouillon cubes, 1 tablespoon salt, 1 teaspoon pepper, green onions, green pepper, carrots, and tomatoes in large pot. Cover, bring to boil, reduce heat, and simmer 30 minutes.
+- Add meatballs, cover, and bring to boil again. Reduce heat and simmer 20 minutes.
+- Add chiles and simmer, covered, 40 minutes or until rice is cooked.
+- Add parsley during last 5 minutes of cooking time. Taste and add more salt and pepper, if needed.
+- Just before serving, beat egg with lemon juice. Stir 1 to 2 tablespoons hot soup into egg mixture, then stir egg mixture into soup.
+- Heat gently, stirring, until soup is thickened slightly, but do not allow to boil.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABulgarian_Meatball_Soup_%28Supa_Topcheta%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bulgarian Meatball Soup (Supa Topcheta)@4518359
+    url: https://en.wikibooks.org/w/index.php?oldid=4518359
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

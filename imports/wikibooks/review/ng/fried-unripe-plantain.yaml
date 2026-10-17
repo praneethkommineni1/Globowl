@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-fried-unripe-plantain
+title: Fried Unripe Plantain
+alternate_names:
+- Nigerian Green Plantain
+summary: Fried unripe plantain is prepared from unripe plantain, hence the name green plantain. It is served with fried yam, egg sauce or fried potatoes.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- deep-frying
+ingredient_groups:
+- items:
+  - {ingredient: plantain, prep: peeled}
+  - {ingredient: black-pepper}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: vegetable-oil}
+steps:
+- Slice unripe plantain into small rounds, then season with ground pepper and salt to taste.
+- Heat enough vegetable oil in a pan for deep-frying.
+- Deep-fry plantain, ensuring all sides are golden and cooked.
+- Remove from oil, and serve hot with fried yam and egg sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFried_Unripe_Plantain_%28Nigerian_Green_Plantain%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fried Unripe Plantain (Nigerian Green Plantain)@4503406
+    url: https://en.wikibooks.org/w/index.php?oldid=4503406
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

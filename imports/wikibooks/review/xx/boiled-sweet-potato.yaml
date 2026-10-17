@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-boiled-sweet-potato
+title: Boiled Sweet Potato
+summary: Boiled sweet potato is a typical Nigerian food which has a delicious taste when compared to yam or cocoyam. It contains various nutrients.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: sweet-potato, prep: unpeeled and cut into chunks}
+  - {ingredient: water}
+  - {ingredient: salt}
+steps:
+- Place the sweet potato chunks in a pot.
+- Cover the sweet potato with water, and add a pinch of salt.
+- Bring to a boil, then simmer until the sweet potato is tender.
+- Drain the sweet potatoes, and peel off the skin.
+- Serve with the pepper sauce of your choice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABoiled_Sweet_Potato&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Boiled Sweet Potato@4494688
+    url: https://en.wikibooks.org/w/index.php?oldid=4494688
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

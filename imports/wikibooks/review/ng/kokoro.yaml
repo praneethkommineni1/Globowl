@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 1/2 cups corn flour
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-kokoro
+title: Kokoro
+alternate_names:
+- Nigerian Cornmeal Snacks
+summary: Kokoro is a Nigerian snack made from cornmeal (called agidi or akamu). This snack can be enjoyed in various forms, either soft and mushy or firm and chewy. It is often paired with a variety of soups, stews, or sauces, and it can be enjoyed for breakfast, lunch, or dinner.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Pot
+- Mixing spoon
+- Measuring cups and spoons
+- Frying pan
+- Spatula, tongs, or similar for frying
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: ml, qty: 200}
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: cayenne, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.5}
+steps:
+- Combine 1 cup of the cornflour with the water, cayenne pepper, salt, and sugar in a pot. Mix well to combine everything and remove any lumps.
+- Set the pot on the stove over medium heat. Cook, stirring, until the mixture bubbles and thickens to a dough.
+- Remove the pot from the heat, and let the dough cool down.
+- Add the remaining ½ cup cornflour to the dough, and mix with a spatula.
+- Pinch off pieces of the dough. On your work surface, roll the pieces with your hands to get ropes ½–1 inch thick and a couple inches long.
+- Heat the oil in a skillet over medium-high heat. If you have a thermometer, 350°F (175–180°C) is ideal. If you don't, place a test piece of dough into the oil—it should sizzle but not burn.
+- Place the dough ropes in the oil, working in batches as needed to prevent overcrowding. Fry until golden brown on all sides.
+- Remove the kokoro from the oil, and drain off any excess.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKokoro_%28Nigerian_Cornmeal_Snacks%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kokoro (Nigerian Cornmeal Snacks)@4517748
+    url: https://en.wikibooks.org/w/index.php?oldid=4517748
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

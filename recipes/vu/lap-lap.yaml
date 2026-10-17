@@ -1,0 +1,36 @@
+id: vu-lap-lap
+title: Lap Lap
+native_name: {text: Laplap, lang: bi}
+summary: Vanuatu's national dish — grated root vegetables baked into a dense pudding with coconut cream and chicken, wrapped in leaves.
+origin:
+  country: VU
+course: main
+dish_types: [bake, pudding]
+authenticity: home-style
+yield: {servings: 6}
+time: {prep_min: 40, cook_min: 90}
+difficulty: 2
+equipment: [Banana leaves or foil, Baking dish]
+techniques: [baking]
+ingredient_groups:
+  - items:
+      - {ingredient: cassava, qty: 1, unit: kg, prep: "peeled and finely grated", note: "or yam, taro or green banana"}
+      - {ingredient: coconut-cream, qty: 400, unit: ml}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: chicken-thigh, qty: 500, unit: g, prep: "boneless, cut into pieces", optional: true}
+      - {ingredient: spinach, qty: 200, unit: g, note: "island cabbage is traditional"}
+steps:
+  - Heat the oven to 180 °C. Line the dish with banana leaves (or foil).
+  - Spread the grated cassava in an even layer about 3 cm thick and smooth the top.
+  - Lay the greens and chicken over the top and pour over the coconut cream mixed with the salt.
+  - text: Fold the leaves over, cover and bake until the pudding is firm and the chicken cooked.
+    timer_min: 90
+  - Cut into squares to serve.
+tips:
+  - Cassava must always be cooked thoroughly.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

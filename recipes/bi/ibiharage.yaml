@@ -1,0 +1,33 @@
+id: bi-ibiharage
+title: Ibiharage
+native_name: {text: Ibiharage, lang: rn}
+alternate_names: [Burundian fried beans]
+summary: Tender red beans fried with onion, garlic and chili until lightly crisp — an everyday Burundian staple.
+origin:
+  country: BI
+course: main
+dish_types: [beans]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 20}
+difficulty: 1
+techniques: [pan-frying]
+ingredient_groups:
+  - items:
+      - {ingredient: kidney-beans-canned, qty: 2, unit: can, note: "400 g cans, drained — or 250 g dried, soaked and boiled"}
+      - {ingredient: vegetable-oil, qty: 3, unit: tbsp, alt: [red-palm-oil]}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "minced"}
+      - {ingredient: green-chili, qty: 1, prep: "chopped", optional: true}
+      - {ingredient: salt, qty: 1, unit: tsp}
+steps:
+  - Fry the onion in the oil until golden, then add the garlic and chili for 1 minute.
+  - text: Add the beans and salt and fry over medium-high heat, stirring occasionally, until the beans are hot and some have crisped.
+    timer_min: 10
+serving: With boiled green bananas, plantain, rice or ugali.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

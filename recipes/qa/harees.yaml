@@ -1,0 +1,39 @@
+id: qa-harees
+title: Harees
+native_name: {text: هريس, lang: ar, romanized: harīs}
+summary: Whole wheat and meat cooked for hours and beaten into a smooth, savoury porridge, finished with ghee and cinnamon — a Ramadan essential in Qatar.
+origin:
+  country: QA
+  also_claimed_by: [AE, SA, KW, BH, OM]
+course: main
+dish_types: [porridge]
+occasions: [Ramadan, Eid, Weddings]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 10, cook_min: 240, inactive_min: 720}
+difficulty: 2
+equipment: [Heavy pot, Wooden spoon or stick blender]
+techniques: [simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: wheat-berries, qty: 300, unit: g, note: "hulled whole wheat, soaked overnight"}
+      - {ingredient: chicken-thigh, qty: 600, unit: g, note: "or lamb on the bone"}
+      - {ingredient: water, qty: 2, unit: l}
+      - {ingredient: cinnamon-stick, qty: 1}
+      - {ingredient: ground-cardamom, qty: 0.5, unit: tsp}
+      - {ingredient: salt, qty: 2, unit: tsp}
+      - {ingredient: ghee, qty: 3, unit: tbsp}
+      - {ingredient: ground-cinnamon, qty: 1, unit: pinch}
+steps:
+  - text: Simmer the drained wheat, meat, cinnamon stick, cardamom and salt in the water, covered and stirring occasionally, until the wheat is completely soft. Add water if it dries out.
+    timer_min: 180
+  - Remove the bones and cinnamon stick. Beat the mixture hard with a wooden spoon (or pulse with a stick blender) until it becomes a smooth, stretchy porridge.
+  - text: Cook gently for a final half hour, stirring.
+    timer_min: 30
+  - Serve with a pool of melted ghee and a pinch of cinnamon.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -1,0 +1,41 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no ingredient lines parsed
+id: gi-calentita
+title: Calentita
+alternate_names:
+- Gibraltarian Chickpea Bread
+summary: Calentita is the quintessential 'Yanito' dish. Every Gibraltarian knows how to cook calentita! Or so they should, as it is a matter of national pride.
+origin:
+  country: GI
+course: bread
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–3
+time:
+  total_min: 180
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Mix chickpea flour, water, salt, and pepper in a bowl. Leave to stand, preferably overnight.
+- Preheat oven to 175°C (350°F). Take a 9x6-inch (15x23 cm) tin or oven dish, and add enough oil to cover the bottom. Heat the pan in the oven.
+- Spread hot oil up sides of tin with a pastry brush or by tilting. Stir batter, pour immediately into hot tin, and put back in oven for about 1 hour approximately or until set in the middle.
+- Leave to stand for a while.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACalentita_%28Gibraltarian_Chickpea_Bread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Calentita (Gibraltarian Chickpea Bread)@4658458
+    url: https://en.wikibooks.org/w/index.php?oldid=4658458
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

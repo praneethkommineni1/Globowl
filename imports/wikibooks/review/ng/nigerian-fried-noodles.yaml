@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Instant noodles
+#  - unmapped ingredient: Leafy green vegetables
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-nigerian-fried-noodles
+title: Nigerian Fried Noodles
+summary: Nigerian fried noodles are a famous dish in Nigeria, consumed by all.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: onion, prep: chopped}
+  - {ingredient: red-bell-pepper, prep: diced}
+  - {ingredient: carrot, prep: sliced thin}
+  - {ingredient: chicken-bouillon-cube}
+steps:
+- Bring a pot of water to a boil. Add the instant noodles, and cook until softened but still slightly firm.
+- Drain the noodles.
+- Heat a thin layer of vegetable oil in a frying pan. Add the onion, peppers, carrot, and leafy greens, and stir-fry for 2 minutes.
+- Season the vegetables with stock cube or the instant noodle seasoning powder.
+- Add the cooked noodles to the vegetables, and stir-fry them until frothy.
+- Lower the heat so the noodles can fry more slowly for a few minutes.
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Fried_Noodles&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Fried Noodles@4500907
+    url: https://en.wikibooks.org/w/index.php?oldid=4500907
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

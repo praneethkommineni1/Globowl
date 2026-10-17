@@ -1,0 +1,46 @@
+id: fr-pralin
+title: Pralin
+summary: Pralin is pulverized praline (caramelized nuts), which is used as a topping or addition to dessert creams, cakes, etc.
+origin:
+  country: FR
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: About 1 cup or 8 oz (250 g)
+time:
+  total_min: 45
+difficulty: 3
+equipment:
+- Oiled baking sheet or granite work surface
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: almonds, unit: cup, qty: 0.5}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: water, unit: tbsp, qty: 2}
+steps:
+- Toast the almonds in a 350°F (180°C) oven for about 10 minutes, stirring frequently until they are light brown.
+- Simmer the sugar and water in a small saucepan until the sugar turns golden brown.
+- Immediately sir in the almonds.
+- Reheat until liquid and pour onto the baking sheet. Let cool for about 10 minutes.
+- When cooled, break it into pieces.
+- Pulverize in a blender or clean coffee grinder a few pieces at a time.
+- Store in an air-tight container but use within a relatively short time period as it tends to solidify over time.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APralin&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pralin@4587147
+    url: https://en.wikibooks.org/w/index.php?oldid=4587147
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

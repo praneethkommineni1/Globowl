@@ -1,0 +1,39 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ma-preserved-lemon
+title: Preserved Lemon
+summary: Preserved lemons are a common flavoring agent in Moroccan cuisine, particularly in very slow braises known as tagines. They are also found as an unusual cocktail garnish.
+origin:
+  country: MA
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: lemon}
+  - {ingredient: salt}
+steps:
+- Poke holes in the lemons with a sharp knife. Pack them in an airtight jar, separating them from one another with salt.
+- Cover the jar, and store in a dark place for a day. If the lemons have not released enough liquid to cover, add additional salt and reseal the jar.
+- Store in a cool dark place for approximately 2 weeks. Refrigerate afterwards.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APreserved_Lemon&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Preserved Lemon@4515706
+    url: https://en.wikibooks.org/w/index.php?oldid=4515706
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Peynirli börek
+#  - unmapped ingredient: Kıymalı börek
+#  - unmapped ingredient: Tavuklu börek
+#  - unmapped ingredient: Ispanaklı börek
+#  - unmapped ingredient: 2 cups prepared filling
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: tr-borek
+title: Börek
+alternate_names:
+- Turkish Filled Pastries
+summary: Börek is a general term in Turkish cuisine that applies to a family of pastries with about fifty different members. They have in common the fact that they are all pastry layers of some type enclosing a filling.
+origin:
+  country: TR
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- pan-frying
+ingredient_groups:
+- name: Assembly
+  items:
+  - {ingredient: phyllo, qty: 1}
+  - {ingredient: butter}
+steps:
+- Remove the phyllo sheets from the container. Unfold carefully so as not to break them. Lay them flat and cover with a clean, damp tea towel to prevent them from drying out—this is important.
+- Working quickly, cut the phyllo into lengthwise thirds (step 1 in the diagram). Lay one of these out and cover the other two with the damp tea towel.
+- Brush the strip of phyllo with the melted butter. Place a heaped teaspoonful of filling on one end of the strip (step 2 in the diagram).
+- Fold the right lower corner upward over the filling to form a triangle (step 3 in the diagram).
+- Now fold the right upper corner over to the left (step 4 in the diagram).
+- Continue folding in this manner until you reach the end of the strip.
+- Trim of any excess dough and seal the edges by rubbing a damp finger over the dough and pressing the edge of the triangle where the strip ends.
+- Fry in oil at 340°F until golden brown or bake at 350°F for 15 minutes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AB%C3%B6rek_%28Turkish_Filled_Pastries%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Börek (Turkish Filled Pastries)@4620487
+    url: https://en.wikibooks.org/w/index.php?oldid=4620487
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-tres-leches-cake
+title: Tres Leches Cake
+summary: Tres Leches Cake.
+origin:
+  country: US
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 4
+techniques:
+- baking
+ingredient_groups:
+- name: Sponge cake
+  items:
+  - {ingredient: egg, qty: 5, prep: yolks and whites separated}
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: vanilla-extract, unit: tbsp, qty: 1}
+  - {ingredient: self-rising-flour, unit: cup, qty: 1}
+- name: Milk mixture
+  items:
+  - {ingredient: condensed-milk, unit: can, qty: 1}
+  - {ingredient: evaporated-milk, unit: can, qty: 1}
+  - {ingredient: heavy-cream, unit: cup, qty: 1.5}
+  - {ingredient: vanilla-extract, unit: tbsp, qty: 1}
+- name: Meringue
+  items:
+  - {ingredient: egg-white, qty: 3}
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: cream-of-tartar, unit: tsp, qty: 0.5}
+steps:
+- Preheat oven to 350°F. Grease and flour cake pan.
+- 'Using a standing mixer with the whisk attachment, whip egg whites until frothy: Slowly bring the mixer to the fastest speed, stopping for a minute on each speed.'
+- Slowly beat in the sugar and vanilla.
+- Mix in the egg yolks, and finally the flour.
+- Transfer batter to prepared cake pan, and bake for 20 minutes in the preheated oven.
+- Remove cake and let cool to room temperature. Poke several holes in the cake.
+- Combine the condensed milk, evaporated milk, cream, and vanilla.
+- Heat for 5 minutes, stirring constantly. The idea is just to bring all the flavors together, so don’t overheat the milk.
+- Let the milk mixture cool to room temperature.
+- Slowly pour the milk mixture over the cake. Since you greased the cake pan the milk will flow around and under the cake. The cake will absorb most of the milk.
+- Place the egg whites in the bowl of a stand mixer fitted with the whisk attachment.
+- Slowly bring the mixer to the fastest speed stopping for a minute or so on each speed.
+- Add the cream of tartar.
+- Slowly beat in the granulated sugar.
+- Spread the meringue on top of the cake.
+- Use a blowtorch or the oven broiler to gently toast the meringue. Once the meringue starts to change color you have a few seconds before it burns, so stay alert.
+tips:
+- It is very important to separate the eggs correctly when making the meringue. If the yolk breaks and your egg whites contain drops of yolk, the meringue will not form correctly.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATres_Leches_Cake_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tres Leches Cake I@4516965
+    url: https://en.wikibooks.org/w/index.php?oldid=4516965
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

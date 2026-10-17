@@ -1,0 +1,44 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 5 stems of fresh recao leaves, chopped
+#  - unmapped ingredient: 15 ají dulce, seeded
+#  - unmapped ingredient: 3 large cubanelle peppers, seeded
+#  - no time in recipe summary
+#  - course unknown from categories
+id: pr-puerto-rican-sofrito
+title: Puerto Rican Sofrito
+summary: Sofrito is a combination of ingredients used to give a distinctive flavor to many Puerto Rican dishes. It is mostly used when cooking legumes, rice dishes, soups and stews.
+origin:
+  country: PR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1 quart
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: cilantro, qty: 1, prep: chopped, note: small}
+  - {ingredient: tomato, qty: 3, prep: seeded and chopped, note: large}
+  - {ingredient: garlic, qty: 1}
+  - {ingredient: onion, qty: 2, prep: chopped, note: large}
+  - {ingredient: red-bell-pepper, qty: 1, prep: seeded, note: large}
+steps:
+- Grind the ingredients in a mortar and pestle or food processor, and store in the refrigerator. You can also pour into ice cube trays to store in the freezer—two or three frozen sofrito cubes can be used in recipes that serve 6 to 8 people that require sofrito.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APuerto_Rican_Sofrito&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Puerto Rican Sofrito@4514000
+    url: https://en.wikibooks.org/w/index.php?oldid=4514000
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

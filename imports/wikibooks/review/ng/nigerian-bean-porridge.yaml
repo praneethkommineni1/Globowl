@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Smoked panla fish
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-nigerian-bean-porridge
+title: Nigerian Bean Porridge
+summary: Bean porridge is a traditional Nigerian dish enjoyed across different regions of the country, regardless of tribe or language. It is one of the most popular, easy-to-cook, and nutritious meals.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: black-eyed-peas}
+  - {ingredient: onion, qty: 2, prep: chopped, note: large}
+  - {ingredient: red-palm-oil}
+  - {ingredient: bouillon-cube}
+  - {ingredient: ground-crayfish}
+  - {ingredient: tomato}
+  - {ingredient: scotch-bonnet}
+steps:
+- Pick over the beans to remove stones and other unwanted items.
+- Put the beans in a clean bowl, and run under clean running water to wash them.
+- Boil water in a pot, and add the beans. Boil for 5 minutes, then strain and let run under cold water. Fully drain the beans.
+- Add the parboiled beans, chopped onion, palm oil, and bouillon cube to a pot. Cover with water, and simmer until the beans are tender.
+- Blend the crayfish, tomatoes, and pepper into a smooth paste.
+- Heat a pan. Add the tomato paste, panla fish, and salt/bouillon to taste. Fry for 5–7 minutes.
+- When the beans are soft and the water is reduced, stir in the fried paste and panla fish. Cook for 5–6 minutes.
+- Serve the beans porridge with pap (ogi), plantain (dodo), and/or bread.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Bean_Porridge&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Bean Porridge@4515514
+    url: https://en.wikibooks.org/w/index.php?oldid=4515514
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

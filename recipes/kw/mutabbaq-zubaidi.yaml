@@ -1,0 +1,48 @@
+id: kw-mutabbaq-zubaidi
+title: Mutabbaq Zubaidi
+native_name: {text: مطبق زبيدي, lang: ar, romanized: muṭabbaq zubaydī}
+alternate_names: [Kuwaiti fish and rice]
+summary: Spiced fried pomfret served on rice cooked with caramelised onion, dried lime and turmeric — a Kuwaiti favourite.
+origin:
+  country: KW
+course: main
+dish_types: [rice-dish, seafood]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 50, inactive_min: 30}
+difficulty: 3
+techniques: [marinating, pan-frying, rice-cooking]
+ingredient_groups:
+  - name: Fish
+    items:
+      - {ingredient: white-fish, qty: 800, unit: g, note: "whole pomfret (zubaidi) or thick fillets"}
+      - {ingredient: ground-turmeric, qty: 1, unit: tsp}
+      - {ingredient: ground-cumin, qty: 1, unit: tsp}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "crushed"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: vegetable-oil, qty: 120, unit: ml, note: "for frying"}
+  - name: Rice
+    items:
+      - {ingredient: basmati-rice, qty: 400, unit: g}
+      - {ingredient: onion, qty: 2, prep: "sliced"}
+      - {ingredient: dried-lime, qty: 2, prep: "pierced"}
+      - {ingredient: cinnamon-stick, qty: 1}
+      - {ingredient: ground-cardamom, qty: 0.5, unit: tsp}
+      - {ingredient: ground-turmeric, qty: 0.5, unit: tsp}
+      - {ingredient: water, qty: 650, unit: ml}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: cilantro, qty: 1, unit: handful, prep: "chopped"}
+steps:
+  - text: Rub the fish with turmeric, cumin, garlic and salt. Soak the rice in cold water at the same time.
+    timer_min: 30
+  - Fry the fish in the oil until crisp and cooked through. Set aside.
+  - In 3 tablespoons of the oil, fry the onions until deep brown. Add the dried limes, cinnamon, cardamom and turmeric.
+  - text: Add the water and salt, bring to a boil, then the drained rice. Cover and cook on low until tender.
+    timer_min: 20
+  - Serve the rice topped with the fish and cilantro.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - duplicate id it-pesto from another Wikibooks page
+id: it-pesto
+title: Pesto
+summary: Pesto is a sauce which is added mainly, but by no means exclusively to pasta. Pesto is purely the Italian version of this delicious sauce, with other names for the same (or similar) sauce from other countries.
+origin:
+  country: IT
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil}
+  - {ingredient: pine-nuts, qty: 1}
+  - {ingredient: basil, qty: 2, note: large}
+  - {ingredient: garlic, qty: 7}
+  - {ingredient: parmesan}
+steps:
+- Whatever you may have been told, use a electric blender or a liquidiser to make pesto. Faffing about with a pestle and mortar is for the birds.
+- Again, whatever you have been told, put a good quantity of olive oil in the blender first and start it running, otherwise the blades will gum up and you risk burning the basil.
+- Drop basil leaves through the top into the olive oil so that they are mulched up by the blades.
+- Add some nuts so they are also mulched up.
+- When the developing pesto sticks and becomes too thick, simply add more olive oil until the whole lot starts to mulch again. Continue adding basil leaves, nuts and the garlic cloves, always making sure the mixture remains fluid.
+- Once you begin to run out of basil leaves and nuts, add a handful of Parmesan cheese (though not too much; remember the taste should be predominantly of basil). The end result should be a wondrous smelling, glutinous mass of green, which should be then emptied out of the blender into its own container.
+tips:
+- If you like your pesto a little rough, add a small extra quantity of pine nuts and some grated Parmesan cheese to the finished pesto and mix in well. You're ready to go.
+- Fresh pesto can be stirred into pasta (penne in a good choice), added as a topping to crostini, or eaten, with eyes closed and a smile on your face, off a spoon, entirely on its own.
+- Greek olive oil is actually better for this recipe than either French or Italian as it has a stronger taste.
+- Pine nuts give the pesto a blander flavour, walnuts a more robust flavour.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APesto_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pesto II@4518821
+    url: https://en.wikibooks.org/w/index.php?oldid=4518821
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-tuwo-shinkafa
+title: Tuwo Shinkafa
+alternate_names:
+- Nigerian Mashed Rice
+summary: Tuwo shinkafa is a type of Nigerian swallow made from mashed non-parboiled rice or corn. It is mostly eaten by the Hausa in the northern part of the country. Tuwo shinkafa is usually prepared from scratch with short grain rice, but it can also be prepared with rice flour.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3–6
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Pot
+- Potato masher or wooden spatula
+- Small container or wrapping nylon
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: g, qty: 500}
+  - {ingredient: water}
+steps:
+- Wash the rice thoroughly, then drain.
+- Add water to pot and bring to a boil.
+- Add the rinsed rice to the pot of boiling water.
+- Simmer the rice until the water is absorbed and the rice is soft and sticky. If the rice hasn't softened when all the water is gone, add additional water as needed.
+- Use the spatula to thoroughly mash the soft rice until it forms a soft dough.
+- Mold into desired container and allow to take shape of the container or wrap inside nylon
+- Serve hot with your preferred soup.
+tips:
+- Non-parboiled rice is preferred because it is more sticky
+- Ensure thorough mashing to reduce rice lumps
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATuwo_Shinkafa_%28Nigerian_Mashed_Rice%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tuwo Shinkafa (Nigerian Mashed Rice)@4603846
+    url: https://en.wikibooks.org/w/index.php?oldid=4603846
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

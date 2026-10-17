@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-buah-melaka
+title: Buah Melaka
+alternate_names:
+- Malaysian Palm Sugar Dumplings
+summary: Buah Melaka.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: pandan-leaf, qty: 15}
+  - {ingredient: water, unit: cup, qty: 3}
+  - {ingredient: rice-flour, unit: cup, qty: 3}
+  - {ingredient: palm-sugar, prep: cut into small pieces}
+  - {ingredient: coconut}
+  - {ingredient: salt}
+steps:
+- Combine the grated coconut and a pinch of salt together, then place it in a dish. Set aside for later.
+- Use a blender or mortar to grind together the pandan leaves and water. Strain the mixture and discard the solids.
+- Combine the rice flour and pandan liquid in a bowl, and knead well to make a dough.
+- Pinch off pieces of the dough, and roll them into balls. They should be about 1–2 inches (2.5–5 cm) in diameter.
+- Use your hands to flatten a ball or create a small pocket in the center, making space for a piece of the sugar. Place a piece of sugar in the center, then pinch the dough closed around the sugar.
+- Gently roll the filled dumpling into a ball again.
+- Repeat the filling and shaping process for all of the dough pieces.
+- Bring 2 L water to a boil in a deep pot.
+- Add the dumplings to the pot, working in batches if needed to avoid crowding the pan. Boil until the dumplings rise to the surface—don't boil too hard, as you don't want to burst the dumplings.
+- Remove and drain the dumplings.
+- While still hot, roll the cooked dumplings in the plate of coconut until they are completely coated.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABuah_Melaka_%28Malaysian_Palm_Sugar_Dumplings%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Buah Melaka (Malaysian Palm Sugar Dumplings)@4587517
+    url: https://en.wikibooks.org/w/index.php?oldid=4587517
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

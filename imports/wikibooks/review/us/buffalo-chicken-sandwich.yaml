@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 hamburger bun
+#  - unmapped ingredient: Blue cheese dressing
+#  - no time in recipe summary
+id: us-buffalo-chicken-sandwich
+title: Buffalo Chicken Sandwich
+summary: A Buffalo chicken sandwich is a sandwich consisting of pieces of boneless Buffalo chicken and blue cheese on a submarine sandwich style roll. The recipe is for one sandwich. It can be doubled, tripled, quadrupled, etc., but fry the chicken one piece at a time.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: milk, unit: cup, qty: 0.5}
+  - {ingredient: chicken, qty: 1, prep: pounded flat}
+  - {ingredient: lettuce, unit: leaf, qty: 1}
+  - {ingredient: tomato, qty: 2}
+  - {ingredient: red-onion, qty: 1}
+  - {ingredient: hot-sauce, unit: tbsp, qty: 2}
+steps:
+- Heat just enough oil to cover chicken to 350 °F (175°C) in a large frying pan or a deep-fryer.
+- Stir together flour and salt. Dredge chicken in milk, then flour mixture, again in milk, then flour a second time. Refrigerate chicken for 10–15 minutes.
+- Deep fry chicken in oil for 10 minutes or until golden brown. Drain on a rack.
+- Toast or grill the face of the bun.
+- Put chicken in a bowl with a lid. Add hot sauce, put lid on, and shake gently to coat.
+- Put chicken on bun and top with lettuce and tomato. Serve open face, with blue cheese dressing on the side.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABuffalo_Chicken_Sandwich&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Buffalo Chicken Sandwich@4523995
+    url: https://en.wikibooks.org/w/index.php?oldid=4523995
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

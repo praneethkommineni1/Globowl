@@ -1,0 +1,38 @@
+id: il-sabich
+title: Sabich
+native_name: {text: סביח, lang: he, romanized: sabikh}
+summary: Pita stuffed with fried eggplant, hard-boiled egg, Israeli salad, tahini and tangy amba mango pickle.
+origin:
+  country: IL
+  community: Iraqi Jewish
+course: main
+dish_types: [sandwich, street-food]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 20}
+difficulty: 1
+techniques: [pan-frying, boiling]
+ingredient_groups:
+  - items:
+      - {ingredient: eggplant, qty: 2, prep: "sliced into 1 cm rounds"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: vegetable-oil, qty: 150, unit: ml, note: "for frying"}
+      - {ingredient: egg, qty: 4, note: "hard-boiled and sliced"}
+      - {ingredient: tomato, qty: 2, prep: "finely diced"}
+      - {ingredient: cucumber, qty: 1, prep: "finely diced"}
+      - {ingredient: parsley, qty: 1, unit: handful, prep: "chopped"}
+      - {ingredient: lemon-juice, qty: 1, unit: tbsp}
+      - {ingredient: tahini, qty: 4, unit: tbsp, prep: "whisked with water and lemon to a pourable sauce"}
+      - {ingredient: amba, qty: 4, unit: tbsp}
+      - {ingredient: pita-bread, qty: 4}
+steps:
+  - Salt the eggplant slices, leave 10 minutes and pat dry. Fry in the oil until deep golden and soft; drain.
+  - Mix the tomato, cucumber, parsley, lemon juice and a pinch of salt for the salad.
+  - Open the pitas and layer in eggplant, egg and salad, drizzling with tahini and amba as you go.
+culture: Iraqi Jews ate fried eggplant and eggs as a Shabbat morning breakfast; in Israel it became a street-food sandwich.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

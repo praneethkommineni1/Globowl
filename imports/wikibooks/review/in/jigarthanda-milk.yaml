@@ -1,0 +1,82 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 tbsp badam pisin
+#  - unmapped ingredient: 25 g Indian sarsaparilla root
+#  - unmapped ingredient: 3 tbsp khova
+#  - unmapped ingredient: 1 L full-fat milk
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-jigarthanda-milk
+title: Jigarthanda Milk
+summary: Jigarthanda (literally "heart-cooling") is a milk-based beverage to cool the body in summer. It is a kind of street food, and it originated in Madurai, India.
+origin:
+  country: IN
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- simmering
+- whisking
+ingredient_groups:
+- name: Jelly
+  items:
+  - {ingredient: water, unit: cup, qty: 1}
+- name: Nannari/sarsaparilla syrup
+  items:
+  - {ingredient: water, unit: ml, qty: 300}
+  - {ingredient: sugar, unit: g, qty: 150}
+- name: Jigarthanda ice cream
+  items:
+  - {ingredient: milk, unit: l, qty: 1.5}
+  - {ingredient: sugar, unit: cup, qty: 0.25}
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: heavy-cream, unit: cup, qty: 0.5}
+- name: Jigarthanda milk
+  items:
+  - {ingredient: sugar, unit: cup, qty: 0.25}
+steps:
+- Wash and soak almond gum in the water for 3–4 hours or overnight. It should expand in size and form a jelly.
+- Keep it in an airtight container in the fridge.
+- Wash and crush the sarsaparilla root.
+- Bring the water to a boil in a saucepan, then add the sarsaparilla.
+- Reduce the heat, and simmer until the water is reduced by half.
+- Add the sugar, and cook until you get a one-string syrup.
+- Cool the syrup, then store in air-tight container.
+- Boil the milk, stirring continuously until it is frothy. Collect the malai (thick cream) that forms.
+- Beat the fresh cream, and stir it into the milk. Reduce the heat to medium-low.
+- Stir in the ¼ cup sugar until completely dissolved.
+- Add the milk solids, and mix well. Let cool slightly.
+- Heat the 2 tbsp sugar in a heavy-bottomed saucepan over low heat until it melts and caramelizes.
+- Quickly and carefully add the hot milk mixture. It will sizzle. If the caramel seizes, keep heating it and it will melt in slowly.
+- Let cool, then pour into an airtight container and cover it with cling wrap. Freeze for 4–5 hours.
+- Once it sets, beat it well using a whisk or a blender. Repeat 3–4 times for creamier ice cream.
+- Freeze for 5–6 hours.
+- Simmer the milk in a heavy-bottomed saucepan until it is thickened and reduced to half its volume. Collect the malai (thick cream) that forms, and reserve it.
+- In another pan, gently heat the sugar until it melts and caramelizes.
+- Stir the caramel into the milk. Mix it well until it is fully dissolved and the milk turns golden in color.
+- Simmer the milk for 10 minutes.
+- Let it cool and keep it in fridge.
+- Add 1–2 tbsp soaked almond gum and 1 tbsp sarsaparilla syrup to a tall glass.
+- Add enough jigarthanda milk to fill the glass ¾ full.
+- Add a scoop of the jigarthanda ice cream.
+- Top with the collected malai, and serve immediately.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AJigarthanda_Milk&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Jigarthanda Milk@4600990
+    url: https://en.wikibooks.org/w/index.php?oldid=4600990
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

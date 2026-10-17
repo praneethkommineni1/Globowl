@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-nigerian-cocoyam-chips
+title: Nigerian Cocoyam Chips
+summary: Nigerian cocoyam chips, popularly called kokoro in Yoruba, are a type of chips made with cocoyam (taro root).
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Frying pan
+- Knife
+- Stove
+techniques:
+- deep-frying
+ingredient_groups:
+- items:
+  - {ingredient: taro}
+  - {ingredient: salt}
+  - {ingredient: vegetable-oil}
+steps:
+- Wash cocoyam with water, and peel the tuber. Rinse twice to remove dirt, then thinly slice it to your desired shape.
+- Put the sliced cocoyam in a pot, then season with salt. Toss well to season all of the cocoyam.
+- Preheat the frying pan enough vegetable oil for deep frying. Add the cocoyam slices, working in batches if needed, and fry until crisp.
+- Drain the cocoyam chips of excess oil, and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Cocoyam_Chips&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Cocoyam Chips@4503500
+    url: https://en.wikibooks.org/w/index.php?oldid=4503500
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

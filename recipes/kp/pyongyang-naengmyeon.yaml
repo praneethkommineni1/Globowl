@@ -1,0 +1,50 @@
+id: kp-pyongyang-naengmyeon
+title: Pyongyang Naengmyeon
+native_name: {text: 평양랭면, lang: ko, romanized: Pyeongyang raengmyeon}
+alternate_names: [Pyongyang cold noodles]
+summary: Chewy buckwheat noodles in an icy, clear beef broth with a tang of radish kimchi water, topped with sliced beef, pear, cucumber and egg.
+origin:
+  country: KP
+  region: Pyongyang
+  also_claimed_by: [KR]
+course: main
+dish_types: [noodle-soup, cold-noodles]
+occasions: [Summer]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 100, inactive_min: 240}
+difficulty: 3
+techniques: [simmering, boiling]
+ingredient_groups:
+  - name: Broth
+    items:
+      - {ingredient: beef-shank, qty: 500, unit: g, note: "brisket or shank"}
+      - {ingredient: water, qty: 2.5, unit: l}
+      - {ingredient: onion, qty: 1, prep: "halved"}
+      - {ingredient: garlic, qty: 4, unit: clove}
+      - {ingredient: ginger, qty: 2, unit: cm, prep: "sliced"}
+      - {ingredient: soy-sauce, qty: 1, unit: tbsp}
+      - {ingredient: salt, qty: 2, unit: tsp}
+      - {ingredient: white-vinegar, qty: 2, unit: tbsp, note: "plus 1 tbsp sugar — stands in for dongchimi (radish water kimchi)"}
+      - {ingredient: sugar, qty: 1, unit: tbsp}
+  - name: Bowls
+    items:
+      - {ingredient: buckwheat-noodles, qty: 400, unit: g}
+      - {ingredient: asian-pear, qty: 0.5, prep: "thinly sliced"}
+      - {ingredient: cucumber, qty: 0.5, prep: "cut into matchsticks"}
+      - {ingredient: egg, qty: 2, note: "hard-boiled and halved"}
+      - {ingredient: dijon-mustard, note: "Korean mustard (gyeoja) to serve", optional: true}
+steps:
+  - text: Simmer the beef with the onion, garlic and ginger, skimming, until tender.
+    timer_min: 90
+  - text: Lift out the beef and chill it, then slice thinly. Strain the broth, season with soy, salt, vinegar and sugar, and chill until ice-cold (it can be partly frozen to a slush). Skim off the fat.
+    timer_min: 240
+  - Boil the noodles briefly according to the packet, then rinse hard in iced water and drain.
+  - Put the noodles in bowls, pour over the cold broth and top with beef, pear, cucumber and egg. Add mustard and vinegar at the table.
+culture: Pyongyang's Okryu-gwan restaurant is the most famous place to eat it; the dish became a symbol of the Korean peninsula's shared heritage.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

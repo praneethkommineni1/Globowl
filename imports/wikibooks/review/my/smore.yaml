@@ -1,0 +1,76 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Spam
+#  - unmapped ingredient: Chicken hot dogs
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: my-smore
+title: Smore
+alternate_names:
+- Eurasian Beef Stew
+summary: This is an Eurasian dish, not to be confused with the American dessert made with toasted marshmallows (s'mores).
+origin:
+  country: MY
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- marinating
+- pan-frying
+- simmering
+ingredient_groups:
+- name: Marinating
+  items:
+  - {ingredient: beef, unit: g, qty: 300}
+  - {ingredient: baking-soda, unit: tsp, qty: 0.25}
+  - {ingredient: black-pepper, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 2}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 4}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: water, unit: ml, qty: 420}
+- name: Cooking
+  items:
+  - {ingredient: onion, qty: 3}
+  - {ingredient: garlic, unit: clove, qty: 5}
+  - {ingredient: ginger, qty: 1, prep: julienned}
+  - {ingredient: cinnamon-stick, qty: 10, prep: rinsed}
+  - {ingredient: carrot, unit: g, qty: 100, prep: peeled and sliced diagonally, note: small}
+  - {ingredient: potato, qty: 3, prep: peeled and quartered}
+  - {ingredient: tomato, qty: 1, prep: quartered}
+  - {ingredient: cilantro, unit: sprig, qty: 1, prep: leaves plucked}
+steps:
+- Wash and cut beef into 2.5 cm chunks.
+- Drain in colander.
+- Combine beef with bicarbonate of soda, pepper, salt, sugar, vinegar and dark soya sauce.
+- Leave for 30 minutes to marinate.
+- Grind onions and garlic together.
+- Soak carrots and potatoes in water.
+- Heat oil in a pot. When hot, fry ground onion and garlic, shredded ginger, and cinnamon until the onions are brown and fragrant.
+- Add marinated beef. Fry until meat changes color.
+- Add water and simmer until meat is tender. Stir occasionally to prevent meat from sticking to pot. Add more water if gravy is too thick, and season accordingly.
+- Add carrots and cook for 5 minutes.
+- Add potatoes and cook until soft.
+- Add tomato. If you like, you may add a tin of Spam luncheon meat, cut into thick slices or chicken franks at this step.
+- Garnish with coriander leaves and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASmore_%28Eurasian_Beef_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Smore (Eurasian Beef Stew)@4496872
+    url: https://en.wikibooks.org/w/index.php?oldid=4496872
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

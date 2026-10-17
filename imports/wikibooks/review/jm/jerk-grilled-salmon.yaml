@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/4 tsp freshly-ground Grains of Paradise, or more pepper
+#  - unmapped ingredient: A heat-resistant towel tied with twine and soaked in oil
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: jm-jerk-grilled-salmon
+title: Jerk Grilled Salmon
+summary: Salmon fillets are marinated in jerk spices, such as Scotch bonnet peppers, allspice, cinnamon, nutmeg, thyme, and ginger.
+origin:
+  country: JM
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: salmon, qty: 4}
+  - {ingredient: ginger, unit: tbsp, qty: 2}
+  - {ingredient: red-chili, qty: 2, prep: stemmed and seeded if you like}
+  - {ingredient: salt, unit: tsp, qty: 1.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 1.5}
+  - {ingredient: allspice, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.5}
+  - {ingredient: nutmeg, unit: tsp, qty: 0.25}
+  - {ingredient: thyme, unit: sprig, qty: 8}
+  - {ingredient: olive-oil, unit: cup, qty: 0.5}
+steps:
+- In a blender or food processor, purée all ingredients except salmon, and oil until smooth. With the machine running, slowly drizzle in the oil.
+- Pour into a gallon size zip-top bag. Add salmon and refrigerate for at least 10 minutes.
+- Heat about 28 charcoal briquets in a large chimney starter. Disperse evenly around the bottom of the grill.
+- Reapply the grate. Quickly grease the grate with the towel.
+- Add the salmon skin side down and cook, covered, turning often, until pink throughout and flakes easily when tested with a fork.
+- Remove to a plate and cover with aluminum foil. Let rest 5–7 minutes before serving warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AJerk_Grilled_Salmon&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Jerk Grilled Salmon@4508849
+    url: https://en.wikibooks.org/w/index.php?oldid=4508849
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

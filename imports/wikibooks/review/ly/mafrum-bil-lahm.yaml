@@ -1,0 +1,83 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - course unknown from categories
+id: ly-mafrum-bil-lahm
+title: Mafrum bil Lahm
+alternate_names:
+- Libyan Baked Meat and Potatoes
+summary: Mafrum bil Lahm is a traditional Libyan dish that features layers of seasoned meat and potatoes, topped with a flavorful tomato sauce. It is a delicious and satisfying meal that is often enjoyed during festive occasions and gatherings.
+origin:
+  country: LY
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: Serves 4–6
+time:
+  total_min: 60
+difficulty: 3
+equipment:
+- Large pot
+- Skillet
+- Wooden spoon or spatula
+- Cutting board
+- Chef's knife
+- Measuring spoons
+- Measuring cups
+- Vegetable peeler
+- Baking dish
+- Aluminum foil
+techniques:
+- baking
+- boiling
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: potato, qty: 4, prep: peeled and cut into thick slices}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: beef, unit: g, qty: 500}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: tomato, unit: g, qty: 400, prep: crushed}
+  - {ingredient: parsley, prep: 'chopped, for garnish'}
+steps:
+- In a large pot, bring water to a boil and add the potato slices. Boil them for about 5 minutes, or until slightly tender. Drain and set aside.
+- In a skillet, heat the olive oil over medium heat. Add the chopped onion and minced garlic, and sauté until they become translucent and fragrant.
+- Add the ground beef or lamb to the skillet and cook until browned. Break up the meat with a wooden spoon or spatula as it cooks.
+- Stir in the ground cumin, paprika, cayenne pepper, salt, and pepper, and cook for another minute to toast the spices.
+- Remove the skillet from the heat and set aside.
+- Preheat the oven to 180°C (350°F).
+- Take a slice of the boiled potato and flatten it with the palm of your hand. Place a spoonful of the cooked meat mixture in the center of the potato slice, and fold the sides over to enclose the filling. Repeat with the remaining potato slices and meat mixture.
+- Arrange the stuffed potato slices in a single layer in a baking dish.
+- In a separate bowl, mix the crushed tomatoes with salt, pepper, and any remaining spices. Pour the tomato sauce over the stuffed potatoes, ensuring they are well-coated.
+- Cover the baking dish with aluminum foil and bake in the preheated oven for 45 minutes.
+- Remove the foil and continue baking for an additional 10–15 minutes, or until the potatoes are fully cooked and golden brown on top.
+- Garnish with fresh parsley or cilantro before serving.
+tips:
+- Mafrum bil lahm can be served as a main course accompanied by a salad or crusty bread.
+- Leftovers can be refrigerated and reheated for later enjoyment.
+- Adjust the spiciness of the dish by adding more or less cayenne pepper according to your preference.
+- For added flavor, you can sprinkle grated cheese on top of the mafrum before baking it in the oven.
+- Feel free to experiment with different seasonings and spices to personalize the dish to your taste.
+- 'Vegetarian variation: Replace the ground meat with a combination of cooked and seasoned vegetables such as zucchini, eggplant, and bell peppers.'
+- 'Gluten-free variation: Ensure that all the ingredients used, including spices and canned tomatoes, are gluten-free certified.'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMafrum_bil_Lahm_%28Libyan_Baked_Meat_and_Potatoes%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mafrum bil Lahm (Libyan Baked Meat and Potatoes)@4507339
+    url: https://en.wikibooks.org/w/index.php?oldid=4507339
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,70 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 cup pure maple syrup
+#  - course unknown from categories
+id: ca-maple-butter-tart
+title: Maple Butter Tart
+summary: __notoc__ Butter tarts are a traditional Canadian dessert with a flaky pastry shell and a rich, buttery sweetened filling that stays slightly runny in the centre. The tarts are baked in muffin tins, so each is an individual portion.
+origin:
+  country: CA
+course: main
+authenticity: unassessed
+yield:
+  servings: 12
+  amount: 12 individual tarts
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- name: Pastry
+  items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2.5}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: butter, unit: cup, qty: 1, prep: cubed}
+  - {ingredient: water, unit: tbsp, qty: [6, 8]}
+- name: Filling
+  items:
+  - {ingredient: butter, unit: cup, qty: 0.5, prep: softened}
+  - {ingredient: brown-sugar, unit: cup, qty: 1, prep: packed}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 1}
+  - {ingredient: walnuts, unit: cup, qty: 0.5, prep: 'walnuts, hazelnuts, or butternuts'}
+  - {ingredient: salt}
+steps:
+- Preheat oven to 190&nbsp;°C (375&nbsp;°F).
+- Mix the flour, salt, and sugar in the bowl of a food processor.
+- Cut in the cold butter and mix with a series of short pulses, until the mixture resembles pea-meal. The crust will have a flakier texture if you avoid mixing the butter in too much.
+- Gradually pulse in ice water, 1 tbsp at a time, until the dough just holds together. You may not need all the water.
+- Divide into two discs, wrap in plastic, and chill for at least 30 minutes.
+- Roll the dough to ⅛&nbsp;inch (3&nbsp;mm) thick. Cut into 4&nbsp;inch (10&nbsp;cm) rounds.
+- Gently press each round into a cup of a non-stick muffin pan. Chill the pan chill while making the filling.
+- Cream the butter and brown sugar until smooth.
+- Whisk in the eggs until light and slightly frothy.
+- Stir in maple syrup, vanilla, vinegar, and salt. Mix until smooth, but not foamy.
+- Fill tart shells with the filling to about about two-thirds full.
+- Sprinkle a spoonful of chopped nuts over the top of each tart.
+- Bake for 15–18 minutes until the centre is gooey and slightly runny, which is the traditional Canadian style. If you prefer a firmer tart, cook for 20 minutes.
+- Let cool in the tin for 10 minutes, then carefully lift out and cool on a rack.
+tips:
+- Shorter bake time results in a more gooey centre; longer baking (20–22 minutes) will set the filling more firmly.
+- Do not overbeat the filling, which would result in a foamy or cakey texture.
+- These are best served at room temperature or slightly warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMaple_Butter_Tart&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Maple Butter Tart@4587522
+    url: https://en.wikibooks.org/w/index.php?oldid=4587522
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

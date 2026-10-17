@@ -1,0 +1,39 @@
+id: km-langouste-a-la-vanille
+title: Langouste à la Vanille
+native_name: {text: Langouste à la vanille, lang: fr}
+alternate_names: [Lobster in vanilla sauce]
+summary: Lobster tails in a fragrant sauce of coconut milk and Comorian vanilla — the islands' celebration dish.
+origin:
+  country: KM
+course: main
+dish_types: [seafood]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 20}
+difficulty: 2
+techniques: [sauteing, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: lobster-tail, qty: 4, note: "split lengthwise"}
+      - {ingredient: butter, qty: 2, unit: tbsp}
+      - {ingredient: shallot, qty: 2, prep: "finely chopped"}
+      - {ingredient: garlic, qty: 1, unit: clove, prep: "minced"}
+      - {ingredient: vanilla-bean, qty: 1, prep: "split and seeds scraped"}
+      - {ingredient: coconut-milk, qty: 200, unit: ml}
+      - {ingredient: lime-juice, qty: 1, unit: tbsp}
+      - {ingredient: salt, note: "to taste"}
+      - {ingredient: white-pepper, note: "to taste"}
+steps:
+  - Sear the lobster tails flesh-side down in the butter for 2 minutes. Set aside.
+  - Soften the shallot and garlic in the same pan. Add the vanilla seeds and pod and the coconut milk and simmer for 5 minutes.
+  - text: Return the lobster, cover and simmer gently until the flesh is just opaque.
+    timer_min: 5
+  - Remove the vanilla pod, add the lime juice and season.
+serving: With white rice.
+culture: The Comoros are among the world's leading vanilla producers.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

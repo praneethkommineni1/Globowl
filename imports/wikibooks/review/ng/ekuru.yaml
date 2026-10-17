@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Leaves, small heat-safe nylon bags, cupcake tins or any other mold for steaming
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-ekuru
+title: Ekuru
+alternate_names:
+- White Bean Pudding
+summary: Ekuru, also known as ofuloju, white moin moin, or white bean pudding, is a meal native to the Yoruba people of Nigeria. It is made primarily from white beans, which are puréed and wrapped in leaves before cooking. It is high in protein and fibre.
+origin:
+  country: NG
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: dried-white-beans, prep: cleaned}
+  - {ingredient: water}
+  - {ingredient: salt, optional: true}
+steps:
+- Soak the beans for 10 minutes in cold water to loosen the skins. Remove the skins and discard them. The time you need to soak the beans properly depends on the type of beans you are using and how dry they are. You may need to soak for longer.
+- Blend the peeled beans to a smooth paste.
+- Mix the bean paste thoroughly for 20 minutes to incorporate some air. Add water as needed to achieve a consistency that is neither too thick nor too thin.
+- Season the bean mixture with salt to taste.
+- Transfer the mixture to leaves shaped into a cone or another mold for cooking. Wrap and seal well.
+- Bring a few inches of water to a boil in a pot. Place a steamer basket or other platform in the pot to elevate the wrapped ekuru above the water. Add the wrapped ekuru, cover, and steam for 45 minutes. Make sure the water doesn't evaporate; if it's boiling up, add a drop of red oil to the water.
+- Unwrap/unmold the ekuru, and serve with stew.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEkuru_%28White_Bean_Pudding%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ekuru (White Bean Pudding)@4518610
+    url: https://en.wikibooks.org/w/index.php?oldid=4518610
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

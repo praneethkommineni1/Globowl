@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/4 cup chocolate chips
+id: ca-oatmeal-chocolate-chip-cookies
+title: Oatmeal Chocolate Chip Cookies
+summary: The oatmeal chocolate chip cookies recipe here, unlike many other cookie recipes which are manipulations of straight flour-based cookies, was made specifically for use with oats.
+origin:
+  country: CA
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 12
+  amount: 12–18 cookies
+time:
+  total_min: 25
+difficulty: 1
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 2}
+  - {ingredient: shortening, unit: cup, qty: 0.667}
+  - {ingredient: brown-sugar, unit: cup, qty: 1}
+  - {ingredient: milk, unit: tbsp, qty: 2}
+  - {ingredient: vanilla-extract}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1.5}
+  - {ingredient: baking-powder, unit: tsp, qty: 1}
+  - {ingredient: baking-soda, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+  - {ingredient: rolled-oats, unit: cup, qty: 1}
+  - {ingredient: walnuts, unit: cup, qty: 0.25}
+steps:
+- In a large bowl beat eggs lightly to break the yolks, then mix in the shortening—you should have a loose mixture.
+- Mix in the brown sugar, milk, vanilla, and salt.
+- Mix the flour, baking powder, soda, cinnamon, and oatmeal together in another bowl.
+- Mix the wet and dry mixes together to get a soft dough.
+- Stir in chocolate chips and walnuts.
+- Make balls and place onto a greased or parchment-lined baking sheet. Bake in an oven prheated to 180°C (350°F) for 15–20 minutes.
+tips:
+- Experiment with more or fewer chocolate chips and walnuts—tastes may vary.
+- Lightly coat the nuts and chips with flour before adding to the mixture.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AOatmeal_Chocolate_Chip_Cookies_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Oatmeal Chocolate Chip Cookies I@4524002
+    url: https://en.wikibooks.org/w/index.php?oldid=4524002
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

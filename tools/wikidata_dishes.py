@@ -1,0 +1,133 @@
+#!/usr/bin/env python3
+"""Build data/dish-candidates.yaml: notable dishes per country, from Wikidata (CC0).
+
+    python3 tools/wikidata_dishes.py           # query Wikidata (cached), write the candidates file
+    python3 tools/wikidata_dishes.py --offline # rebuild from the cached query result only
+
+For every dish (instance of a subclass of "dish", Q746549) with a country of origin (P495),
+we keep its Q-id, English label, English Wikipedia article, image, and the number of
+Wikipedia language editions covering it (sitelinks) — a decent proxy for how well known it
+is. The file is the master to-do list for expanding coverage: pick each country's
+best-known dishes that Globowl doesn't have yet.
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
+from collections import defaultdict
+from pathlib import Path
+
+import yaml
+
+ROOT = Path(__file__).resolve().parent.parent
+CACHE = ROOT / "imports" / "wikidata" / "dishes.json"
+OUT = ROOT / "data" / "dish-candidates.yaml"
+UA = "GlobowlBot/0.1 (https://github.com/praneethkommineni1/Globowl; recipe database research)"
+PER_COUNTRY = 25
+
+QUERY = """
+SELECT ?dish ?en ?cc ?sitelinks ?article ?image WHERE {
+  ?dish wdt:P31/wdt:P279* wd:Q746549 ;
+        wdt:P495 ?country ;
+        wikibase:sitelinks ?sitelinks .
+  ?country wdt:P297 ?cc .
+  OPTIONAL { ?dish rdfs:label ?en FILTER(LANG(?en) = "en") }
+  OPTIONAL { ?article schema:about ?dish ; schema:isPartOf <https://en.wikipedia.org/> . }
+  OPTIONAL { ?dish wdt:P18 ?image }
+}
+"""
+
+
+def run_query(max_wait_total=3 * 3600):
+    url = "https://query.wikidata.org/sparql?" + urllib.parse.urlencode({"query": QUERY})
+    waited = 0
+    while True:
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/sparql-results+json"})
+            with urllib.request.urlopen(req, timeout=300) as r:
+                return json.load(r)["results"]["bindings"]
+        except urllib.error.HTTPError as e:
+            retry = e.headers.get("Retry-After")
+            delay = min(int(retry) + 5 if retry and retry.isdigit() else 120, 1200)
+        except (urllib.error.URLError, TimeoutError) as e:
+            print(f"network error: {e}", flush=True)
+            delay = 60
+        waited += delay
+        if waited > max_wait_total:
+            raise SystemExit("Wikidata kept rate-limiting; try again later")
+        print(f"rate-limited; waiting {delay}s", flush=True)
+        time.sleep(delay)
+
+
+def build_candidates(bindings, countries, covered):
+    dishes = {}
+    for b in bindings:
+        qid = b["dish"]["value"].rsplit("/", 1)[1]
+        d = dishes.setdefault(qid, {"countries": set(), "sitelinks": int(b["sitelinks"]["value"])})
+        d["countries"].add(b["cc"]["value"].upper())
+        for key, field in (("en", "name"), ("article", "enwiki"), ("image", "image")):
+            if key in b and field not in d:
+                d[field] = b[key]["value"]
+
+    by_country = defaultdict(list)
+    for qid, d in dishes.items():
+        if "name" not in d:
+            continue  # no English label: hard to verify, skip for now
+        for cc in d["countries"]:
+            if cc not in countries:
+                continue
+            entry = {"wikidata": qid, "name": d["name"], "sitelinks": d["sitelinks"]}
+            if "enwiki" in d:
+                entry["enwiki"] = urllib.parse.unquote(d["enwiki"].rsplit("/", 1)[1]).replace("_", " ")
+            others = sorted(d["countries"] - {cc})
+            if others:
+                entry["also"] = others
+            if qid in covered:
+                entry["covered_by"] = covered[qid]
+            by_country[cc].append(entry)
+
+    out = {}
+    for cc in sorted(countries):
+        lst = sorted(by_country.get(cc, []), key=lambda e: (-e["sitelinks"], e["name"]))
+        out[cc] = {"name": countries[cc]["name"], "total_dishes": len(lst), "top": lst[:PER_COUNTRY]}
+    return out, len(dishes)
+
+
+def main(argv=None):
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--offline", action="store_true", help="use the cached query result only")
+    args = ap.parse_args(argv)
+
+    if args.offline or CACHE.exists():
+        bindings = json.loads(CACHE.read_text(encoding="utf-8"))
+    else:
+        bindings = run_query()
+        CACHE.parent.mkdir(parents=True, exist_ok=True)
+        CACHE.write_text(json.dumps(bindings), encoding="utf-8")
+
+    countries = {c["code"]: c for c in yaml.safe_load((ROOT / "data" / "countries.yaml").read_text(encoding="utf-8"))}
+    covered = {}
+    for p in sorted((ROOT / "recipes").glob("*/*.yaml")):
+        r = yaml.safe_load(p.read_text(encoding="utf-8"))
+        if r.get("wikidata"):
+            covered[r["wikidata"]] = r["id"]
+    cands, n = build_candidates(bindings, countries, covered)
+
+    header = ("# Notable dishes per country, from Wikidata (CC0). Generated by tools/wikidata_dishes.py.\n"
+              "# sitelinks = number of Wikipedia language editions with an article (a fame proxy).\n"
+              "# covered_by = Globowl recipe already linked to this dish via its `wikidata` field.\n"
+              "# Countries come from Wikidata's 'country of origin' (P495); review before relying on them.\n")
+    with OUT.open("w", encoding="utf-8") as f:
+        f.write(header)
+        yaml.safe_dump(cands, f, allow_unicode=True, sort_keys=False, width=200)
+    with_any = sum(1 for v in cands.values() if v["total_dishes"])
+    print(f"{n} dishes; {with_any}/{len(cands)} countries/territories have at least one candidate -> {OUT.relative_to(ROOT)}")
+
+
+if __name__ == "__main__":
+    sys.exit(main())

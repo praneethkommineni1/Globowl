@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: xx-kuih-bakul
+title: Kuih Bakul
+alternate_names:
+- Malaysian Sweet Browned Rice Cake
+summary: Kuih bakul is a steamed sticky rice cake that is cooked for so long that it browns and develops a nutty flavor from the maillard reaction. It is the Malaysian equivalent of the Cantonese nian gao.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 480
+difficulty: 2
+techniques:
+- boiling
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: rice-flour, unit: g, qty: 250, prep: sifted}
+  - {ingredient: water, unit: ml, qty: 250}
+  - {ingredient: sugar, unit: g, qty: 280}
+steps:
+- Line each tin with banana leaves, making sure they overlap each other and extend well above the rim of the tin.
+- Fold the banana leaves back down so that they are folded over the outside rim of the tin. Tie a piece of twine around the circumference of the tin to secure the folded leaves in place.
+- Gradually mix the water into the rice flour until smooth and well combined.
+- Stir in the sugar until completely dissolved. Let rest for 15 minutes.
+- Stir the mixture, and divide it evenly between the prepared tins.
+- Bring a few inches of water to boil in the bottom of a steamer.
+- Place the filled tins in the steamer. Wrap the lid in a cloth to prevent condensation dripping, and cover the steamer.
+- Steam for 7–8 hours, topping up the steamer with additional boiling water as needed. When the cake is cooked, it should be browned.
+- Remove the tins from the steamer, and let them cool and rest overnight.
+- Untie the twine, and unmold the cakes.
+- If desired, use scissors to trim the excess banana leaves flush with the top of the cake.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKuih_Bakul_%28Malaysian_Sweet_Browned_Rice_Cake%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kuih Bakul (Malaysian Sweet Browned Rice Cake)@4587519
+    url: https://en.wikibooks.org/w/index.php?oldid=4587519
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

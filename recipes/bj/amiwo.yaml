@@ -1,0 +1,45 @@
+id: bj-amiwo
+title: Amiwo
+native_name: {text: Amiwo, lang: fon}
+alternate_names: [Pâte rouge, Red cornmeal paste]
+summary: Cornmeal cooked in a spicy tomato and chicken broth into a smooth, red paste, served with the chicken — a Beninese celebration dish.
+origin:
+  country: BJ
+  also_claimed_by: [TG]
+course: main
+dish_types: [porridge]
+occasions: [Celebrations, Weddings]
+authenticity: traditional
+yield: {servings: 5}
+time: {prep_min: 15, cook_min: 60}
+difficulty: 3
+techniques: [simmering, pan-frying]
+ingredient_groups:
+  - name: Chicken and broth
+    items:
+      - {ingredient: chicken-thigh, qty: 1, unit: kg, prep: "bone-in pieces"}
+      - {ingredient: water, qty: 1.2, unit: l}
+      - {ingredient: onion, qty: 2, prep: "1 chopped, 1 blended"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "crushed"}
+      - {ingredient: ginger, qty: 2, unit: cm, prep: "grated"}
+      - {ingredient: salt, qty: 2, unit: tsp}
+      - {ingredient: vegetable-oil, qty: 4, unit: tbsp}
+      - {ingredient: tomato-paste, qty: 4, unit: tbsp}
+      - {ingredient: tomato, qty: 3, prep: "blended"}
+      - {ingredient: scotch-bonnet, qty: 1, prep: "blended"}
+  - name: Amiwo
+    items:
+      - {ingredient: cornmeal, qty: 300, unit: g, note: "fine white or yellow"}
+steps:
+  - text: Simmer the chicken in the water with the chopped onion, garlic, ginger and salt until cooked. Lift out the chicken and keep the broth.
+    timer_min: 35
+  - Fry the chicken pieces in the oil until golden; set aside. In the same oil fry the blended onion, tomato paste, tomatoes and chili until thick and darkened (10 minutes).
+  - Add 1 litre of the broth and bring to a boil.
+  - Gradually whisk in the cornmeal, then switch to a wooden spoon and stir hard over low heat until smooth, thick and pulling from the sides (about 10 minutes).
+  - Serve the red paste with the chicken and a little extra sauce.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

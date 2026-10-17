@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 tablespoons canola or cooking oil
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: xx-sukuma-wiki
+title: Sukuma Wiki
+alternate_names:
+- East African Greens
+summary: Sukuma wiki is a Swahili dish of cooked kale or collard greens, popular throughout several East African nations like Kenya and Tanzania. It is often served with ugali, a corn-based swallow.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 28
+difficulty: 2
+equipment:
+- Pot
+- Knife
+- Stovetop
+- Cooking spoon
+techniques:
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: onion, prep: chopped, optional: true}
+  - {ingredient: garlic, unit: tsp, qty: [1, 2], optional: true}
+  - {ingredient: tomato, optional: true}
+  - {ingredient: ground-coriander, unit: tsp, qty: 0.5, optional: true}
+  - {ingredient: paprika, unit: tbsp, qty: 1, optional: true}
+  - {ingredient: curry-powder, unit: tsp, qty: 0.5, optional: true}
+  - {ingredient: beef, unit: cup, qty: [1, 2], optional: true}
+  - {ingredient: bouillon-cube, unit: tbsp, qty: 1, optional: true}
+  - {ingredient: kale, unit: bunch, qty: 1, optional: true}
+  - {ingredient: cayenne, unit: tsp, qty: 0.5, optional: true}
+  - {ingredient: lemon, qty: 0.5, prep: juiced, optional: true}
+steps:
+- Heat oil in a medium-sized pot. Add onions and garlic, and stir fry for about 2–3 minutes. Don't let burn.
+- Stir in the tomato, coriander, curry powder, and paprika. Cook for about 2 minutes.
+- Stir in the meat and bouillon powder until well-mixed. Cook for at least 5 minutes.
+- Add the greens, cayenne, and lemon juice. Cook, stirring, for 5–10 minutes until the greens are done.
+- Season with salt and pepper to taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASukuma_Wiki_%28East_African_Greens%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sukuma Wiki (East African Greens)@4513662
+    url: https://en.wikibooks.org/w/index.php?oldid=4513662
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

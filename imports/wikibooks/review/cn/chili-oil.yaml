@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 teaspoon of Szechuan peppercorn
+#  - course unknown from categories
+id: cn-chili-oil
+title: Chili Oil
+summary: Chili oil is a common ingredient, garnish and condiment in the cuisines of China and Vietnam, both for the complex and spicy flavours it imparts as well as its rich, red colour.
+origin:
+  country: CN
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 10
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: cup, qty: 2}
+  - {ingredient: chili-flakes, unit: cup, qty: 0.5}
+  - {ingredient: red-chili, qty: [2, 3]}
+  - {ingredient: paprika, unit: tsp, qty: [1, 2]}
+steps:
+- If a smokey flavour is desired, toast the whole peppers and Szechuan peppercorn separately in a dry frying pan over medium-heat until you can smell them in the kitchen, stirring constantly (this takes only a few minutes). Chop the peppers if used (or cut them with scissors, or crush them in a mortar and pestle). Set aside.
+- Add your oil to a pot or saucepan over medium high-heat, and allow it to heat until the viscosity of the oil is reduced and the surface shimmers.
+- To the hot oil, carefully add all remaining ingredients. Stir gently, lowering the heat if required to keep the oil below a simmer.
+- Remove from heat once the chilis have blackened, and allow the oil to cool (the chilis will sink to the bottom).
+- In higher-class restaurants in China and abroad, the oil is frequently strained or "poured off" of the layer of solids, which clarifies it somewhat; this step is optional. Many prefer the more rustic look (and texture!) of home-made oil, which will develop a darker colour over time from the solids below.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChili_Oil&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chili Oil@4523943
+    url: https://en.wikibooks.org/w/index.php?oldid=4523943
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

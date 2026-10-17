@@ -1,0 +1,43 @@
+id: bz-stew-chicken
+title: Belizean Stew Chicken
+summary: Chicken marinated in red recado, browned in caramelised sugar and simmered with onion and peppers into a dark, savoury stew.
+origin:
+  country: BZ
+course: main
+dish_types: [stew]
+occasions: [Sunday dinner]
+authenticity: traditional
+yield: {servings: 5}
+time: {prep_min: 15, cook_min: 55, inactive_min: 60}
+difficulty: 2
+techniques: [marinating, braising]
+ingredient_groups:
+  - items:
+      - {ingredient: chicken-thigh, qty: 1.2, unit: kg, prep: "bone-in pieces"}
+      - {ingredient: annatto, qty: 1, unit: tbsp, note: "or 2 tbsp red recado paste"}
+      - {ingredient: white-vinegar, qty: 2, unit: tbsp}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "crushed"}
+      - {ingredient: ground-cumin, qty: 1, unit: tsp}
+      - {ingredient: dried-oregano, qty: 1, unit: tsp}
+      - {ingredient: black-pepper, qty: 1, unit: tsp}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: brown-sugar, qty: 1, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "sliced"}
+      - {ingredient: green-pepper, qty: 1, prep: "sliced"}
+      - {ingredient: celery, qty: 1, unit: stalk, prep: "sliced"}
+      - {ingredient: water, qty: 500, unit: ml}
+steps:
+  - text: Rub the chicken with the annatto, vinegar, garlic, cumin, oregano, pepper and salt. Marinate.
+    timer_min: 60
+  - Heat the oil and sugar in a heavy pot until the sugar turns dark amber, then add the chicken and brown it all over.
+  - Add the onion, pepper and celery and cook for 3 minutes.
+  - text: Add the water, cover and simmer until the chicken is tender and the sauce is rich.
+    timer_min: 40
+serving: With rice and beans, potato salad and fried plantain.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

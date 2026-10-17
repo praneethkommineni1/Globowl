@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: eg-egyptian-rice-with-vermicelli
+title: Egyptian Rice with Vermicelli
+summary: Egyptian rice with vermicelli is a beloved staple in Egyptian cuisine. It features long-grain rice cooked with toasted vermicelli noodles, resulting in a flavorful and aromatic side dish that pairs well with a variety of main courses.
+origin:
+  country: EG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Medium-sized saucepan with a lid
+- Wooden spoon or spatula
+- Measuring cups
+- Fork
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: noodles, unit: cup, qty: 0.5}
+  - {ingredient: long-grain-rice, unit: cup, qty: 1}
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: salt, note: to taste}
+steps:
+- In a medium-sized saucepan, heat the butter or olive oil over medium heat.
+- Add the vermicelli noodles to the saucepan and toast them until they turn golden brown, stirring constantly to prevent burning.
+- Once the vermicelli is toasted, add the long-grain rice to the saucepan and stir to combine it with the noodles.
+- Pour in the water or vegetable broth and add salt to taste. Stir gently to distribute the ingredients evenly.
+- Bring the mixture to a boil over medium-high heat, then reduce the heat to low and cover the saucepan with a lid.
+- Allow the rice to simmer for about 15–20 minutes, or until the liquid is absorbed and the rice is tender.
+- Once the rice is cooked, remove the saucepan from the heat and let it sit, covered, for an additional 5 minutes to steam.
+- Fluff the rice with a fork, mixing in the toasted vermicelli noodles evenly.
+- Transfer the to a serving dish and garnish with fresh herbs, if desired.
+- Serve the rice as a delicious side dish alongside your favorite Egyptian main courses.
+tips:
+- This dish is versatile and can be customized according to personal preference. Some variations may include adding spices like cumin or cardamom for extra flavor
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgyptian_Rice_with_Vermicelli&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egyptian Rice with Vermicelli@4512921
+    url: https://en.wikibooks.org/w/index.php?oldid=4512921
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

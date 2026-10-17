@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 box of white cake mix, preferably with pudding in the mix
+#  - unmapped ingredient: 1 container of cool whip
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: mx-tres-leches-cake
+title: Tres Leches Cake
+summary: Tres leches cake is a popular Latin American dessert using 3 types of milk.
+origin:
+  country: MX
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: condensed-milk, unit: can, qty: 1}
+  - {ingredient: evaporated-milk, unit: can, qty: 1}
+  - {ingredient: heavy-cream, unit: cup, qty: 1}
+steps:
+- Prepare cake mix as directed on the package. Transfer to a greased baking dish or cake pan, and bake per the directions.
+- While the cake is baking, combine the sweetened condensed milk, evaporated milk, and heaving whipping cream to make the milk mixture. Mix well.
+- When the cake is finished baking, remove from the oven and poke holes all over the top of the cake with a fork.
+- Pour all of the milk mixture on top of the cake.
+- Cover the cake, and refrigerate it for 8 hours or overnight.
+- Immediately before serving, spread cake with cool whip or as guests prefer.
+tips:
+- Regular cake frosting is an option, although the cake becomes very sweet. Cool whip is found to add just the right touch of sweetness.
+- You can also prepare 2 cakes. After soaking with the milk mixture, add your choice of filling on top of the first cake layer. Then, place the second cake layer on top and soak with milk mixture—this can be a very messy process, so take care to prevent milk from seeping out of the cake sides and bottom. Frost or spread with cool whip as normal.
+- Liqueur can be added to the milk mixture for flavoring.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATres_Leches_Cake_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tres Leches Cake II@4516966
+    url: https://en.wikibooks.org/w/index.php?oldid=4516966
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

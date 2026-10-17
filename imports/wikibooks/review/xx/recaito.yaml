@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 20 culantro leaves—find this at local Latin or Asian markets
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-recaito
+title: Recaíto
+alternate_names:
+- Puerto Rican Culantro Sauce
+summary: Recaíto.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- roasting
+ingredient_groups:
+- items:
+  - {ingredient: garlic, qty: 1}
+  - {ingredient: olive-oil}
+  - {ingredient: cilantro, qty: 1, note: small}
+  - {ingredient: red-bell-pepper, qty: 1, prep: 'seeded, diced and with the white pith from the inside of the pepper removed.', note: large}
+  - {ingredient: red-chili, qty: [13, 15], prep: seeded, note: large}
+  - {ingredient: onion, qty: 2, prep: diced, note: small}
+steps:
+- Slice off the top of the head of garlic to expose some of the cloves inside. Place the head on a piece of foil. Drizzle with olive oil and wrap in the foil. Roast until cloves are lightly browned and tender, about 30 minutes.
+- Remove the roasted garlic from the oven and simply pop the individual cloves out of the roasted paper outers. They should come out easily.
+- Combine 2 tbsp roasted garlic, culantro, cilantro, bell pepper, aji pepper, and onion in a food processor or blender.
+- Pulse 15 times or until consistency is almost smooth.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AReca%C3%ADto_%28Puerto_Rican_Culantro_Sauce%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Recaíto (Puerto Rican Culantro Sauce)@4519001
+    url: https://en.wikibooks.org/w/index.php?oldid=4519001
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

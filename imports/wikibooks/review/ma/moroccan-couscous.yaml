@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 box quick-cooking couscous
+#  - unmapped ingredient: 2 tbsp hot pepper paste
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ma-moroccan-couscous
+title: Moroccan Couscous
+summary: Moroccan Couscous.
+origin:
+  country: MA
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: chicken-stock, unit: cup, qty: 2.75}
+  - {ingredient: lemon-juice, unit: cup, qty: 0.25}
+  - {ingredient: salt, unit: tsp, qty: 1.5}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1.5}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.25}
+  - {ingredient: olive-oil}
+  - {ingredient: lemon, qty: 4}
+  - {ingredient: bay-leaf, qty: 2}
+steps:
+- Combine liquids in a bowl. Set aside.
+- Heat a large pot over medium high heat. Pour some oil into the pot and add couscous. Sauté until couscous is slightly browned.
+- Add liquid mixture and remaining ingredients. Bring to a boil, cover, remove from the heat, and set aside, 5 minutes or until couscous is tender and all liquid has been absorbed.
+- Open pot and fluff couscous thoroughly with a fork or chopsticks. Serve immediately with lamb.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMoroccan_Couscous&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Moroccan Couscous@4511985
+    url: https://en.wikibooks.org/w/index.php?oldid=4511985
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

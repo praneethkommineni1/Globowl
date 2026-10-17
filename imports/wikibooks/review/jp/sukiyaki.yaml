@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Sake
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: jp-sukiyaki
+title: Sukiyaki
+summary: Sukiyaki is a kind of shabu-shabu (a Japanese dish) but it is a bit sweeter.
+origin:
+  country: JP
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: beef, prep: sliced thin}
+  - {ingredient: white-cabbage, qty: 1}
+  - {ingredient: scallion}
+  - {ingredient: firm-tofu}
+  - {ingredient: mushroom}
+  - {ingredient: spinach}
+  - {ingredient: noodles}
+- name: Sauce
+  items:
+  - {ingredient: soy-sauce}
+  - {ingredient: sugar}
+  - {ingredient: water}
+steps:
+- Wash the vegetables, and cut them into large pieces.
+- Soak the mushrooms in warm water for 15 minutes.
+- Mix the sauce ingredients in a small bowl.
+- Heat an electric skillet on low heat, and grease with a little bit of oil.
+- Put a few slices of beef into the skillet, and cook them until brown.
+- Add sauce (don't add all of them at the same time).
+- Sort the beef slices to the sides. Add the rest of the ingredients in an organized fashion.
+- Serve the sukiyaki with bowls of rice, with a raw egg yolk as the dip. Add more ingredients as necessary.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASukiyaki&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sukiyaki@4630370
+    url: https://en.wikibooks.org/w/index.php?oldid=4630370
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

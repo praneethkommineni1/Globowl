@@ -1,0 +1,40 @@
+id: ve-toston
+title: Tostón
+alternate_names:
+- Fried Plantains
+summary: Tostón is a Venezuelan vegetable side dish of fried plantain. These can be served hot or at room temperature with a dipping sauce or salsa as an appetiser or plain as an accompaniment to a main course.
+origin:
+  country: VE
+course: starter
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 30
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: plantain, qty: 2}
+  - {ingredient: vegetable-oil}
+  - {ingredient: salt}
+steps:
+- Heat the oil in a deep fat fryer to 180°C / 350°F.
+- Slice the plantain very thinly, then fry in the hot oil until golden brown.
+- Remove from the oil, and when cool enough to handle, sprinkle with salt and flatten each slice with a mallet until very thin.
+- Reheat the oil until very hot, then fry the flattened plantain slices until crisp and golden on both sides. Drain on absorbent paper.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATost%C3%B3n_%28Fried_Plantains%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tostón (Fried Plantains)@4480708
+    url: https://en.wikibooks.org/w/index.php?oldid=4480708
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

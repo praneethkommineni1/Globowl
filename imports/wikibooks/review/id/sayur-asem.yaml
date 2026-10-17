@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 105 g galangal
+#  - unmapped ingredient: 100 g yardlong beans
+#  - unmapped ingredient: 100 g young jackfuit
+#  - unmapped ingredient: 50 g gnetum leaves and fruits
+id: id-sayur-asem
+title: Sayur Asem
+alternate_names:
+- Indonesian Tamarind Vegetable Soup
+summary: This vegetable soup is a must-have item on the menu of every West Java (Sundanese) restaurant in Indonesia. This soup has some kind of appetizing effect because of the use of tamarind or (dried) sour starfuit as one of the ingredients.
+origin:
+  country: ID
+course: soup
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 10
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- name: Spice paste
+  items:
+  - {ingredient: red-chili, qty: 1}
+  - {ingredient: shallot, qty: 2}
+  - {ingredient: shrimp-paste, unit: g, qty: 2}
+  - {ingredient: salt, unit: tbsp, qty: 0.5}
+- name: Soup
+  items:
+  - {ingredient: tamarind-paste, unit: g, qty: 20, prep: or 5 dried bilimbi fruit}
+  - {ingredient: bay-leaf, qty: 2}
+  - {ingredient: chayote, qty: 1}
+  - {ingredient: corn-kernels, unit: g, qty: 50}
+  - {ingredient: roasted-peanuts, unit: g, qty: 50}
+  - {ingredient: salt}
+  - {ingredient: sugar}
+steps:
+- Grind together all the ingredients for the spice paste until smooth.
+- Clean the vegetables, and cut into bite-size pieces.
+- Bring 1.2 liters of water to a boil in a pot. Stir in the spice paste, tamarind, galangal, and salam leaves.
+- Gradually add the vegetables, starting with those that require a longer cooking time.
+- Season with salt and sugar to taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASayur_Asem_%28Indonesian_Tamarind_Vegetable_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sayur Asem (Indonesian Tamarind Vegetable Soup)@4518511
+    url: https://en.wikibooks.org/w/index.php?oldid=4518511
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

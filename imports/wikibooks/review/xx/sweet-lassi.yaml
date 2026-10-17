@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 cup crushed ice
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-sweet-lassi
+title: Sweet Lassi
+summary: Sweet Lassi.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: yogurt, unit: cup, qty: 4}
+  - {ingredient: water, unit: cup, qty: 3}
+  - {ingredient: sugar, unit: tbsp, qty: 6}
+  - {ingredient: ground-cardamom, unit: tsp, qty: 0.25}
+  - {ingredient: rose-water}
+steps:
+- Combine all ingredients except ice in blender, and blend until smooth.
+- Add ice and continue blending until frothy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASweet_Lassi&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sweet Lassi@4513347
+    url: https://en.wikibooks.org/w/index.php?oldid=4513347
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

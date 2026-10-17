@@ -1,0 +1,52 @@
+id: ph-dinuguan
+title: Dinuguan
+alternate_names:
+- Pork Blood Stew
+summary: Dinuguan (pork blood stew) or dinardaraan in Ilocano is a Filipino dish usually made from the blood, entrails and meat of a pig. It is sometimes known as "chocolate meat" as the stew has a thick chocolate-like color and consistency.
+origin:
+  country: PH
+course: main
+authenticity: unassessed
+yield:
+  servings: 10
+time:
+  total_min: 120
+difficulty: 2
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: pork, unit: cup, qty: 3}
+  - {ingredient: lard, unit: tbsp, qty: 3}
+  - {ingredient: white-vinegar, unit: cup, qty: 0.5}
+  - {ingredient: onion, qty: 1, prep: peeled and sliced}
+  - {ingredient: pork, unit: cup, qty: 1.5}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: peeled and crushed}
+  - {ingredient: green-chili, qty: 2, prep: seeded and chopped}
+steps:
+- Place the pork in a 4-quart (560 ml) covered stove-top casserole dish and add the vinegar mixture. Bring to a boil and reduce the heat.
+- Cook, covered, for about an hour, until the pork is tender. Make sure that the liquid doesn't dry out. Add more water if necessary.
+- Heat a frying pan and add the lard or oil.
+- When the oil is hot enough, sauté the onion and garlic until the onion appears translucent. Remove from heat.
+- Add the oil, garlic, and onion to the pork and continue cooking for 5 minutes.
+- Purée the pork blood in a food processor.
+- Add the blood to the pork gradually while stirring the mixture. Bring to a boil.
+- Add the chopped pepper and simmer uncovered to reduce the sauce until desired thickness is achieved. Keep covered and serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADinuguan_%28Pork_Blood_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dinuguan (Pork Blood Stew)@4518602
+    url: https://en.wikibooks.org/w/index.php?oldid=4518602
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

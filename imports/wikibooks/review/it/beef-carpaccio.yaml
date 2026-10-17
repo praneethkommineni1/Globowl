@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+#  - duplicate id it-beef-carpaccio from another Wikibooks page
+id: it-beef-carpaccio
+title: Beef Carpaccio
+summary: Beef Carpaccio.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: beef, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: olive-oil}
+  - {ingredient: lemon}
+  - {ingredient: parmesan}
+  - {ingredient: basil}
+steps:
+- Cover the meat tightly with plastic wrap, then freeze for up to two hours to help with slicing. Don't freeze for any longer, or else it'll be mushy.
+- Slice the meat thinly and remove plastic wrap.
+- Place five slices in a rough circle and put one in the center. Lift to a lightly water-spritzed sheet of plastic wrap. Spritz another sheet with water and place on top. Place a pie pan on top and lightly pound with a food can.
+- Remove and sprinkle with kosher salt and black pepper. Serve with extra-virgin olive oil, lemon wedges, shaved Parmiggiano-Reggiano cheese, and basil chiffonade.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeef_Carpaccio_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Beef Carpaccio II@4510310
+    url: https://en.wikibooks.org/w/index.php?oldid=4510310
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

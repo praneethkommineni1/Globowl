@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: bg-cabbage-rolls-in-yogurt-sauce
+title: Cabbage Rolls in Yogurt Sauce
+alternate_names:
+- Sarmi
+summary: Sarmi is a Bulgarian dish of stuffed cabbage leaves, which shows significant Greek influences.
+origin:
+  country: BG
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: veal, unit: g, qty: 500}
+  - {ingredient: pork, unit: g, qty: 300}
+  - {ingredient: scallion, unit: bunch, qty: 1}
+  - {ingredient: long-grain-rice, unit: cup, qty: 0.5}
+  - {ingredient: yogurt, unit: cup, qty: 1}
+  - {ingredient: parsley}
+  - {ingredient: mint}
+  - {ingredient: paprika, optional: true}
+  - {ingredient: black-pepper}
+  - {ingredient: white-cabbage, qty: [30, 40]}
+  - {ingredient: butter, unit: g, qty: 100}
+  - {ingredient: salt}
+steps:
+- Boil the vine or cabbage leaves in salted water until they look cooked and are just bendable enough to roll. Drain and allow to cool during the following steps.
+- Lightly fry the finely chopped onions in a small amount of oil, and stir in a teaspoon or more of paprika.
+- Add the meat, rice, pepper, mint, and finely chopped parsley, then cook until the meat looks almost done.
+- Add ¾ cup of water, bring to a boil, then immediately cover and reduce heat to a bare minimum for 10 minutes, until the water is absorbed by the rice. Uncover and fluff as needed with a small spatula or spoon. Allow to cool to handling temperature.
+- Put 1 teaspoon of the meat mixture on each leaf and make into a rolled, fully enclosed, package, similar to a small egg roll. A bit more filling can be used if you are using large cabbage leaves, but try to make all the rolls somewhat uniform in size.
+- Arrange the rolls in a saucepan, add 1½ cups of warm water, cover, and simmer gently over low heat.
+- In the meantime, mix the yogurt with a bit of paprika for color (or omit if you wish to keep the dish somewhat white in color), and other spices as you desire.
+- When rolls are done, allow to cool a bit, gently transfer to a dish, and add the yogurt mixture to coat.
+- Serve with vegetables of your choice. Enjoy!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACabbage_Rolls_in_Yogurt_Sauce_%28Sarmi%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cabbage Rolls in Yogurt Sauce (Sarmi)@4531781
+    url: https://en.wikibooks.org/w/index.php?oldid=4531781
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

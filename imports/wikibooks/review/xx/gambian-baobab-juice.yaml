@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 cup baobab fruit pulp
+#  - unmapped ingredient: 1/2 teaspoon vitamin C powder
+#  - unmapped ingredient: Ice cubes
+#  - unmapped ingredient: Fresh mint leaves
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-gambian-baobab-juice
+title: Gambian Baobab Juice
+alternate_names:
+- Bouye
+summary: Bouye juice is a delightful and creamy Gambian beverage made from the baobab fruit, which is native to the African continent.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Blender
+- Strainer or cheesecloth
+- Pitcher or jug
+- Glasses for serving
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 4}
+  - {ingredient: evaporated-milk, unit: cup, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 0.25}
+steps:
+- In a blender, combine the baobab fruit pulp and water. Blend on high speed until the mixture is smooth and well-combined.
+- Place a strainer or cheesecloth over a pitcher or jug, and pour the blended mixture through it. This will help remove any pulp or seeds, resulting in a smoother juice.
+- Add the evaporated milk or condensed milk to the pitcher, along with the sugar and vitamin C powder (if using). Stir well until the sugar is dissolved and the ingredients are thoroughly mixed.
+- Refrigerate the bouye juice for at least 1 hour to chill and allow the flavors to meld together.
+- Once chilled, give the juice a good stir before serving.
+- Pour the juice into glasses filled with ice cubes.
+- Garnish each glass with fresh mint leaves for added freshness and aroma.
+- Serve the bouye juice immediately and enjoy its refreshing and creamy goodness.
+tips:
+- Bouye juice can be customized to personal preference by adjusting the sweetness level. You can add more or less sugar depending on your taste. Additionally, some variations include the addition of vanilla extract or a splash of lime juice for added flavor.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGambian_Baobab_Juice_%28Bouye%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gambian Baobab Juice (Bouye)@4541056
+    url: https://en.wikibooks.org/w/index.php?oldid=4541056
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,48 @@
+id: bn-nasi-katok
+title: Nasi Katok
+native_name: {text: Nasi katok, lang: ms}
+summary: Brunei's favourite cheap meal — plain rice with crisp turmeric fried chicken and a sweet-hot sambal.
+origin:
+  country: BN
+course: main
+dish_types: [rice-dish, fried-chicken]
+authenticity: traditional
+yield: {servings: 3}
+time: {prep_min: 20, cook_min: 40, inactive_min: 30}
+difficulty: 2
+techniques: [marinating, deep-frying, sauteing]
+ingredient_groups:
+  - name: Fried chicken
+    items:
+      - {ingredient: chicken-thigh, qty: 600, unit: g, prep: "bone-in pieces"}
+      - {ingredient: ground-turmeric, qty: 1, unit: tsp}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "crushed"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: cornstarch, qty: 3, unit: tbsp}
+      - {ingredient: vegetable-oil, qty: 500, unit: ml, note: "for frying"}
+  - name: Sambal
+    items:
+      - {ingredient: red-chili, qty: 6}
+      - {ingredient: shallot, qty: 4}
+      - {ingredient: garlic, qty: 2, unit: clove}
+      - {ingredient: shrimp-paste, qty: 0.5, unit: tsp}
+      - {ingredient: vegetable-oil, qty: 3, unit: tbsp}
+      - {ingredient: tamarind-paste, qty: 1, unit: tbsp}
+      - {ingredient: sugar, qty: 1, unit: tbsp}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+  - name: Rice
+    items:
+      - {ingredient: cooked-jasmine-rice, qty: 600, unit: g}
+steps:
+  - text: Rub the chicken with turmeric, garlic and salt and marinate.
+    timer_min: 30
+  - Blend the chilies, shallots, garlic and shrimp paste. Fry in the oil until darkened, add tamarind, sugar and salt and cook to a thick sambal.
+  - Toss the chicken in cornstarch and deep-fry at 170 °C until golden and cooked through (12–15 minutes).
+  - Serve each portion of rice with chicken and a spoonful of sambal.
+culture: '"Katok" means "knock" in Malay — from the late-night customers who knocked on the cook''s door for a meal.'
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

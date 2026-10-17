@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: mw-kondowole
+title: Kondowole
+alternate_names:
+- Malawian Toasted Sesame Seeds
+summary: Kondowole is a delicious Malawian snack made from sesame seeds. These crunchy and flavorful seeds are toasted to perfection, making them a delightful treat for any time of the day.
+origin:
+  country: MW
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Frying pan or skillet
+ingredient_groups:
+- items:
+  - {ingredient: sesame-seeds, unit: cup, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: vegetable-oil, prep: for toasting}
+steps:
+- In a dry frying pan or skillet, toast the sesame seeds over medium heat.
+- Stir the seeds continuously to ensure even toasting and prevent burning. The seeds are ready when they turn golden brown and release a nutty aroma.
+- Remove the pan from the heat and let the toasted sesame seeds cool for a few minutes.
+- Sprinkle salt over the seeds according to your taste preference and mix well.
+- Heat a small amount of vegetable oil in the same pan over low heat.
+- Add the toasted sesame seeds to the pan and stir to coat them evenly with the oil. This step helps to enhance the flavor and crunchiness of the seeds.
+- Remove the pan from the heat and let the kondowole cool completely before serving.
+tips:
+- You can customize the seasoning of kondowole by adding other spices or herbs of your choice.
+- For a sweeter version, you can sprinkle a little sugar or honey over the toasted sesame seeds.
+- Kondowole is a versatile snack that can be enjoyed on its own, added to salads, or used as a topping for various dishes.
+- Sesame seeds are rich in fats, protein, and various essential nutrients, including calcium and iron.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKondowole_%28Malawian_Toasted_Sesame_Seeds%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kondowole (Malawian Toasted Sesame Seeds)@4505658
+    url: https://en.wikibooks.org/w/index.php?oldid=4505658
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

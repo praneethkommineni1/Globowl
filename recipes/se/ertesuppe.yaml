@@ -1,0 +1,51 @@
+id: se-ertesuppe
+title: Ertesuppe
+alternate_names:
+- Pea Soup
+summary: Ertesuppe (pea soup) is a soup using dry yellow Swedish split peas and the butt portion of ham.
+origin:
+  country: SE
+course: main
+authenticity: unassessed
+yield:
+  servings: 12
+time:
+  total_min: 120
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: green-peas, unit: g, qty: 454}
+  - {ingredient: water, unit: cup, qty: 12}
+  - {ingredient: ham, unit: g, qty: [907, 1361]}
+  - {ingredient: onion, qty: 1, prep: peeled and chopped, note: large}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: thyme, unit: tsp, qty: 0.25}
+steps:
+- Soak the dry peas overnight in about 4 cups of cold water.
+- Add 8 cups of water to the peas and soaking water. Simmer the peas in a pot until soft.
+- In a separate pot, boil the smoked butt for 40 minutes per pound.
+- Cut the smoked butt into small cubes, and add to the softened pea stock.
+- Add the onion and half the salt and pepper. Adjust to taste, and mix in the thyme.
+- Cook for at least 5 minutes together, adding water from the meat if the stock is too thick. Cook longer if it is too thin.
+tips:
+- Serve immediately, or chill and reheat for the next day. Serve as dinner course, or with bread for a simple meal.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AErtesuppe_%28Pea_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ertesuppe (Pea Soup)@4524739
+    url: https://en.wikibooks.org/w/index.php?oldid=4524739
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

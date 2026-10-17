@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 500 g dried white haricot/navy beans
+#  - unmapped ingredient: Juniper berries
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: fr-cassoulet
+title: Cassoulet
+summary: Cassoulet (Pays D'OC caçolet) is a speciality of the region of Languedoc and named after the clay stew-pot in which it is made. It is possibly related to cocido in Spain.
+origin:
+  country: FR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- blanching
+- boiling
+- sauteing
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: ground-cumin}
+  - {ingredient: pork, qty: 1, optional: true}
+  - {ingredient: sausage, unit: kg, qty: 1, prep: 'Toulouse sausages, pork, and/or mutton'}
+  - {ingredient: olive-oil, prep: 'goose fat, or olive oil'}
+  - {ingredient: onion, qty: 1, prep: chopped}
+  - {ingredient: chicken-stock}
+  - {ingredient: bouquet-garni}
+  - {ingredient: garlic, qty: 1, prep: peeled}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: whole-cloves}
+  - {ingredient: chicken-stock}
+steps:
+- Blanch the beans for a few minutes by immersing them in plenty of boiling water for a few minutes and then into cold water seasoned with cumin.
+- Drain the beans and reserve.
+- Sear the meat in a pan with duck or goose fat—brown only the outside. Remove the meat and reserve.
+- Sauté or stir-fry the onion in the same pan until golden or dark brown, then set aside.
+- Drain and discard any residual fat from the pan. Deglaze the dark residue in the pan using stock or white wine. Reserve the deglazing liquid.
+- In a casserole dish, pan, or pot, layer beans, meat, cooked onion, garlic cloves, bouquet garni, and juniper berries. Add the deglazing liquid then enough boiling salted water to cover the beans by about an inch.
+- Bake at 90 °C (195°F) for about 4½ hours. If necessary, add additional boiling water during the baking. When a light crust has formed and the beans have absorbed all the water and become tender, the preparation is done.
+- Let stand for about 1 hour before serving.
+tips:
+- If kept cool, cassoulet may be reheated next day, but thereafter is likely to go sour.
+- The meats used can also include confits of pork, cheap canned pork, pig's trotters, cured sausages, and/or green bacon.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACassoulet&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cassoulet@4534256
+    url: https://en.wikibooks.org/w/index.php?oldid=4534256
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 box of chocolate sprinkles
+#  - no difficulty in recipe summary
+id: br-brigadeiro
+title: Brigadeiro
+alternate_names:
+- Brazilian Chocolate Fudge
+summary: Brigadeiro is a simple Brazilian chocolate fudge candy created in the 1920s. It is named after Brazilian airman Eduardo Gomes (brigadeiro being his rank in the Air Force). It's commonly served with soda, coffee or milk.
+origin:
+  country: BR
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 25
+  amount: 25–30 pieces
+time:
+  total_min: 30
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: condensed-milk, unit: can, qty: 1}
+  - {ingredient: butter, unit: tbsp, qty: 1}
+  - {ingredient: cocoa-powder, unit: tbsp, qty: 3}
+steps:
+- In a heavy saucepan, combine the milk, cocoa powder, and butter. Stir to dissolve the chocolate.
+- Put over low heat and stir constantly to avoid formation of lumps.
+- Continue stirring for 10–12 minutes, or until you are able to see the bottom of the pot for one second when you scratch it side-to-side with the spoon. The more you cook, the harder the resulting candy will be—it may vary from liquid fudge to hard candy.
+- Allow mixture to cool.
+- Butter your hands, and roll the mixture into small balls (around 2 cm in diameter). Alternatively, you can use two metal spoons to shape the candies. Roll them in the chocolate sprinkles.
+tips:
+- Should you accidentally get hard candy, fill the pot with water and leave to rest—the candy will dissolve completely and the pot will be easy to clean.
+- You can substitute 100 g of baking chocolate for the cocoa powder. If you want a lighter candy, use powdered chocolate (such as Nestlé Quick). You can also put raisins or nuts in the center of the candy. You can decorate with powdered sugar instead, or cocoa powder.
+- 'Brazilian brigadeiros also have gourmet varieties. Some references are available in specialized houses in Brazil: Maria Brigadeiro and Brigadeiríssimo and Brigadeiro Gourmet'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABrigadeiro_%28Brazilian_Chocolate_Fudge%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Brigadeiro (Brazilian Chocolate Fudge)@4639766
+    url: https://en.wikibooks.org/w/index.php?oldid=4639766
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

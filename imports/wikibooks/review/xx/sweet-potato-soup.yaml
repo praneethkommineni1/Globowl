@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: xx-sweet-potato-soup
+title: Sweet Potato Soup
+summary: This sweet potato soup is inspired by flavors of Southeast Africa and Asia, with the addition of ginger and lime.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 60
+difficulty: 2
+equipment:
+- Knife
+- Blender
+- Stovetop
+- Saucepan
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: potato, qty: 6, prep: peeled and diced}
+  - {ingredient: ginger, unit: tbsp, qty: 1}
+  - {ingredient: chicken-stock, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: milk, qty: 1}
+  - {ingredient: lime, qty: 1, prep: juiced}
+steps:
+- Place the peeled potatoes, ginger, stock, and water in a large saucepan.
+- Bring to a boil, then simmer until the potatoes are softened and tender (approximately 30 minutes).
+- Transfer the contents of the pot to a blender along with the lime juice, and process until smooth. You may need to work in batches. Alternatively, you can use an immersion blender.
+- Return the soup to the pot, stir in the milk, and allow to cook for few minutes until heated through.
+tips:
+- You can adjust the consistency of the soup as desired by adding more or less water, milk, and stock. Less liquid will produce a thicker soup.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASweet_Potato_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sweet Potato Soup@4629062
+    url: https://en.wikibooks.org/w/index.php?oldid=4629062
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

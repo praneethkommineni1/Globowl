@@ -1,0 +1,73 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 candlenuts
+#  - unmapped ingredient: 25 g galangal
+id: id-soto-ayam
+title: Soto Ayam
+alternate_names:
+- Indonesian Chicken Noodle Soup
+summary: There are many variations of soto ayam depending on the ingredients, the way it served, and the amount of spices used.
+origin:
+  country: ID
+course: soup
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6-8
+time:
+  total_min: 45
+difficulty: 3
+techniques:
+- boiling
+- stir-frying
+ingredient_groups:
+- name: Spice paste
+  items:
+  - {ingredient: ground-turmeric, unit: g, qty: 5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: ginger, unit: g, qty: 15}
+  - {ingredient: shallot, qty: 3}
+  - {ingredient: garlic, unit: clove, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 2}
+- name: Soup
+  items:
+  - {ingredient: chicken, qty: 1}
+  - {ingredient: white-cabbage, unit: g, qty: 200, prep: thinly sliced}
+  - {ingredient: bean-sprouts, unit: g, qty: 200, prep: blanched}
+  - {ingredient: potato, qty: 4, prep: 'steamed, peeled, deep fried until golden brown'}
+  - {ingredient: tomato, qty: 2}
+  - {ingredient: vermicelli, unit: g, qty: 25, prep: soaked in hot water for 10 minutes}
+  - {ingredient: shallot, unit: g, qty: 25}
+  - {ingredient: egg, qty: 3}
+  - {ingredient: chicken-stock, unit: l, qty: 1.8}
+  - {ingredient: kaffir-lime-leaf, qty: 3}
+  - {ingredient: lemongrass, unit: stalk, qty: 0.5}
+  - {ingredient: bay-leaf, qty: 2}
+  - {ingredient: scallion, unit: stalk, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+steps:
+- Grind the ingredients for the spice paste together in a food processor. Stir fry the spice paste over slow fire until fragrant. Remove from the heat.
+- Make soup by cooking the whole chicken with spice paste, galangal, lime leaves, lemon grass, and bay leaves in a pot for at least 30 minutes until the meat is tender. Use a pressure cooker for faster cooking time and better broth. For a traditional method, bring soup to boil, cover, and turn off heat, then let steep for 30–40 minutes—this makes the meat more tender.
+- Add a little bit of salt or pepper to taste.
+- Leave the chicken in a pot until the soup is cool.
+- Remove the meat from the bones, and slice the meat into tiny bit size using fork and knife, then set aside.
+- Put back the bones into the soup, add sliced green onion, and bring the soup to the boil right before serving.
+tips:
+- Many versions of soto ayam don't have tomato.
+- Some prefer not to mix cabbage with bean sprouts.
+- As fried potato substitute, some like to put potato chips into the soup.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASoto_Ayam_%28Indonesian_Chicken_Noodle_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Soto Ayam (Indonesian Chicken Noodle Soup)@4520357
+    url: https://en.wikibooks.org/w/index.php?oldid=4520357
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

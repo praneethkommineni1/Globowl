@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 6 cups jasmine water
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: th-thong-yib
+title: Thong Yib
+alternate_names:
+- Thai Candied Egg Yolks
+summary: This sweet and juicy Thai dessert is served in auspicious ceremonies for blessings.
+origin:
+  country: TH
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 4
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 15}
+  - {ingredient: sugar, unit: cup, qty: 7}
+steps:
+- Combine 2 cups of sugar and 2 cups of jasmine water in a saucepan.
+- Bring to a simmer, and wait until the sugar is dissolved.
+- Remove from the heat and let cool.
+- Bring 5 cups of sugar and 4 cups of jasmine water to a simmer in a saucepan. Wait for it to dissolve without stirring.
+- Separate the egg yolks from egg white.
+- Whisk the egg yolks constantly for about 3–5 minutes. The more you whisk the egg yolks, the softer the egg. If too soft, it will be hard to crimp once the eggs are cooked.
+- When the syrup is boiling, remove from the heat.
+- Immediately use a spoon to pour dollops of egg yolk into the hot syrup. The yolks will spread into circles.
+- Return the pot to the heat, and keep flipping the egg yolks until completely cooked.
+- Spoon the cooked yolks into the cooled syrup. Cool slightly, then crimp it into flower-like shape of 3, 4, or 5 petals.
+- Put the crimped yolks in small bowl and wait for them to cool down completely.
+- Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AThong_Yib_%28Thai_Candied_Egg_Yolks%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Thong Yib (Thai Candied Egg Yolks)@4504131
+    url: https://en.wikibooks.org/w/index.php?oldid=4504131
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

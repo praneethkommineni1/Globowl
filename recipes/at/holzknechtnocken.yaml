@@ -1,0 +1,44 @@
+id: at-holzknechtnocken
+title: Holzknechtnocken
+alternate_names:
+- Austrian Boiled Dumplings
+summary: Holzknechtnocken, translated as Lumberjacks’ Dumplings, is a traditional dish from Ebensee in Austria. In former times lumberjacks had to stay in the forest for days and would prepare dumplings.
+origin:
+  country: AT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 15
+difficulty: 2
+techniques:
+- dough-making
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: lard}
+steps:
+- Mix flour and salt in a large bowl and add water. Knead until you get a dough.
+- Form dumplings and add them to a pot of boiling water. When dumplings rise to the surface of the water, they are done.
+- Melt lard in a heavy-bottomed skillet with deep sides. Add dumplings, and fry until they are golden.
+- Serve with sauerkraut or steamed apples.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHolzknechtnocken_%28Austrian_Boiled_Dumplings%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Holzknechtnocken (Austrian Boiled Dumplings)@4524776
+    url: https://en.wikibooks.org/w/index.php?oldid=4524776
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

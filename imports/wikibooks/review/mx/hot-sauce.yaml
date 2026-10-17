@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+id: mx-hot-sauce
+title: Hot Sauce
+alternate_names:
+- Homemade
+summary: This is somewhat an interpretive recipe, so you have to get a little creative. But, creativity is what spawned it, and no two people come up with exactly the same sauce. Regardless, what results will be very hot, and very delicious provided you like hot sauce.
+origin:
+  country: MX
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–10 fl oz (about 1 cup or 180–300 ml)
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: garlic, unit: clove, qty: [1, 5], prep: depending on size and taste}
+  - {ingredient: white-vinegar}
+  - {ingredient: lime}
+  - {ingredient: honey, qty: [1, 3]}
+  - {ingredient: scotch-bonnet, prep: de-stemmed}
+  - {ingredient: salt}
+steps:
+- Mix all ingredients except peppers and honey in blender until you think you've got enough liquid. It doesn't matter how much of anything you use&mdash;just throw it all in. As a general rule, though, your total liquid volume should be about the size of 3–4 peppers. Make sure it covers up to the middle of the blender blades.
+- Pulse everything until smooth.
+- Add habaneros and pulse more, until they're fairly chopped up but still chunky.
+- Add honey, and blend for about 30 seconds. Your resulting sauce should be fairly thick, but contain only very small particles of peppers and garlic. If there are chunks bigger than grains of salt, keep blending until they are tiny.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHot_Sauce_%28Homemade%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Hot Sauce (Homemade)@4519047
+    url: https://en.wikibooks.org/w/index.php?oldid=4519047
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

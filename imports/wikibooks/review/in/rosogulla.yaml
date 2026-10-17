@@ -1,0 +1,86 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 tsp citric acid
+id: in-rosogulla
+title: Rosogulla
+alternate_names:
+- Bengali Milk Balls in Syrup
+summary: Rasgulla is a milk-based Bengali sweet, popular in West Bengal, India.
+origin:
+  country: IN
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 45
+difficulty: 4
+techniques:
+- boiling
+- dough-making
+ingredient_groups:
+- name: Chenna
+  items:
+  - {ingredient: water, unit: cup, qty: 0.5}
+  - {ingredient: milk, unit: l, qty: 1}
+- name: Sugar Syrup
+  items:
+  - {ingredient: sugar, unit: cup, qty: 5}
+  - {ingredient: milk, unit: cup, qty: 0.5}
+  - {ingredient: water, unit: cup, qty: 3}
+- name: Assembly
+  items:
+  - {ingredient: all-purpose-flour, unit: tsp, qty: 3}
+steps:
+- Dissolve the citric acid in the water, and set aside.
+- Bring the milk to a boil in a saucepan, stirring continuously.
+- Remove from the fire and stir for 5–7 minutes until the milk is slightly cool.
+- Add the citric acid solution and stir the milk gently.
+- The milk mill curdle and the whey will separate. The whey has to be clear thus indicating the milk has completely curdled. Allow it to rest for 3–4 minutes.
+- Strain out all the whey using a clean damp muslin cloth.
+- Fold all the 4 sides of the muslin cloth and twirl it gently so that all the whey that is in the milk solids gets evenly drained out.
+- Gather the cloth from all 4 sides and squeeze the chenna lightly about 3 to 4 times so that most of the whey gets drained out.
+- Remove the chenna onto a clean plate and knead gently so that it is free of lumps, taking care not to apply too much pressure while kneading the chenna.
+- It is advisable to use this almost immediately.
+- Combine the sugar, milk, and water in a large pan about 200 mm (8 inches) in diameter and 150 mm (6 inches) in height. Heat while stirring continuously until the sugar dissolves.
+- When the syrup comes to a boil, the impurities in the sugar will begin to float on the surface, forming a grey layer. Do not stir at this point as the layer will break and it will not clarify the syrup.
+- After about 5 minutes, slowly drizzle 1 cup of water form the sides of the pan with the help of a ladle. Water added at this stage will bring down the temperature of the sugar syrup and will not allow it to boil and break the grey layer.
+- Continue to simmer the syrup over a medium flame for about 10 minutes and then gently remove the grey layer using a slotted spoon.
+- Bring the syrup to the boil once again and then slowly drizzle another cup of water from the sides of the pan using a ladle. remove all the remaining impurities from the syrup, again using a slotted spoon.
+- Increase the flame and boil vigorously for 1–2 minutes. Set aside.
+- Divide the chenna into 16 equals parts, and roll each part into a ball, taking care to see that the there are no cracks on the surface
+- Dust the back of a flat plate (thali) lightly with the flour and place the rolled chenna balls on it.
+- Mix 2 tsp of the plain flour with ¾ cup of water to make a flour solution. Keep aside.
+- Heat the sugar syrup in a deep pan over a high flame and allow it to boil vigorously.
+- When it boils, sprinkle half the flour solution in the sugar syrup. When the flour solution is added, a frothy layer is formed on the surface of the syrup.
+- Add the chenna balls by upturning the plate on which they are kept. Do not touch the chenna balls at this point as they are fragile.
+- If the frothy layer begins to subside, sprinkle the remaining half portion of the flour solution.
+- After this, keep on sprinkling water (minimum 1 cup) on the surface of the sugar syurp. Ensure that the syrup froths all the time while cooking the rasgullas.
+- Cook for about 15 minutes, continuously sprinkling water to enable the froth to form.
+- Check if the rasgullas are cooked. This is determined by touch. If the rasgulla springs back and retains its shape when pressed, it is cooked. Another way of checking is to drop a rasgulla in a pan of cold water. If it sinks to the bottom, it is cooked.
+- Remove form the fire.
+- Transfer the rasgullas to a bowl along with 2 ladles of sugar syrup and 1 cup of water.
+- Cool and chill for about 3 to 4 hours before serving.
+tips:
+- Rasgullas should always be cooked on a very high flame.
+- While cooking rasgullas, the sugar syrup must froth continuously.
+- The sugar syrup should fill about ⅓ of the pan.
+- While making rasgulla shapes (see variation below), always ensure that there are no cracks on the surface of the shapes.
+- While cooking, rasgullas expand to at least 4 times their original size.
+- While sprinkling water on the syrup when the rasgullas are cooking, make sure you sprinkle a little water at a time (about 1 teaspoon at a time using your hands) and not large quantities.
+- The cooking time of the rasgullas will vary depending on their size. Large shapes will need more cooking time and versa.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARosogulla_%28Bengali_Milk_Balls_in_Syrup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rosogulla (Bengali Milk Balls in Syrup)@4630286
+    url: https://en.wikibooks.org/w/index.php?oldid=4630286
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 200 g tripe or organ meat, finely chopped
+#  - unmapped ingredient: 1 cup fresh animal blood
+#  - unmapped ingredient: 1 teaspoon grated ginger
+#  - unmapped ingredient: 1–2 green chilies or chili powder
+#  - unmapped ingredient: 2 tablespoons chopped coriander leaves
+#  - course unknown from categories
+id: xx-mutura
+title: Mutura
+summary: Mutura is a traditional Kenyan sausage and a type of blood sausage made by stuffing cleaned animal intestines with minced meat, spices, and sometimes fresh animal blood, then grilling it over charcoal.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–3
+time:
+  total_min: 45
+difficulty: 2
+equipment:
+- Knife
+- Cutting board
+- Mixing bowl
+- Cooking pot
+- Charcoal grill or barbecue
+- Skewers or kitchen twine
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 500, prep: 'goat meat, or mixed meat, finely chopped'}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+steps:
+- Thoroughly clean the intestines using water and salt. Rinse several times until clean.
+- Boil the chopped meat and tripe for several minutes until partly cooked.
+- Heat a pan and sauté the onions, garlic, ginger, and chilies until fragrant.
+- Combine the meat mixture with the sautéed ingredients in a bowl.
+- Add black pepper, coriander leaves, and salt.
+- Stir in the blood if using.
+- Carefully stuff the cleaned intestines with the meat mixture, avoiding overfilling.
+- Tie the ends securely with kitchen twine or thin strips of casing.
+- Grill the mutura over medium charcoal heat, turning regularly until browned and fully cooked.
+- Slice into bite-sized pieces and serve hot.
+tips:
+- Properly cleaning the intestines improves flavour and hygiene.
+- Do not overstuff the casing, as it may burst during grilling.
+- Charcoal grilling gives mutura its traditional smoky flavour.
+- Turning the sausage regularly helps it cook evenly.
+- Fresh coriander and ginger improve aroma and taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMutura&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mutura@4637547
+    url: https://en.wikibooks.org/w/index.php?oldid=4637547
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

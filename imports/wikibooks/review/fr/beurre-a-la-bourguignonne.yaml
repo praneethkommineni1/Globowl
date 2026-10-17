@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: fr-beurre-a-la-bourguignonne
+title: Beurre à la Bourguignonne
+alternate_names:
+- Garlic Scallion Butter
+summary: Beurre à la Bourguignonne, or garlic butter, is a compound butter flavored primarily with garlic. In this case, it also includes shallots and parsley.
+origin:
+  country: FR
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: cup, qty: 0.5}
+  - {ingredient: shallot, unit: tbsp, qty: 2}
+  - {ingredient: garlic, unit: clove, qty: [1, 3], prep: mashed or grated with a microplane}
+  - {ingredient: parsley, unit: tbsp, qty: 2, prep: chopped}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Cream the butter until it is very soft.
+- Beat the shallots, garlic and parsley into the butter.
+- Season to taste with salt and pepper.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeurre_%C3%A0_la_Bourguignonne_%28Garlic_Scallion_Butter%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Beurre à la Bourguignonne (Garlic Scallion Butter)@4518855
+    url: https://en.wikibooks.org/w/index.php?oldid=4518855
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

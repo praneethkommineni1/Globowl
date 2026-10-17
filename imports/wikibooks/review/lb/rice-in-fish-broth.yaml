@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: lb-rice-in-fish-broth
+title: Rice in Fish Broth
+alternate_names:
+- Sayyadieh
+summary: Rice in Fish Broth.
+origin:
+  country: LB
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- pan-frying
+- pressure-cooking
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: fish, qty: 1, prep: cleaned, note: large}
+  - {ingredient: olive-oil, unit: cup, qty: 1}
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: onion, unit: cup, qty: 1.5}
+  - {ingredient: salt}
+  - {ingredient: lemon-juice}
+  - {ingredient: water}
+steps:
+- Fry fish in olive oil until well cooked. Remove the fish and allow to cool.
+- Fry the chopped onions in the same oil until well browned. Meanwhile, debone the fried fish, reserving the cooked fillets to be served over the rice.
+- Add the head, bones and skin of the fish to the fried onions and cook with 4 cups of water in a pressure cooker for 15 minutes, or for a longer time in an open pan.
+- Strain the broth and boil the rice in it using 1–4 cups of broth for each cup of rice (this will depend on the absorbency of the rice you use).
+- Simmer the rice on low heat so that most of the broth is absorbed.
+tips:
+- Some of the broth may be flavored with a few drops of lemon and served on the side as a sauce for this dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARice_in_Fish_Broth_%28Sayyadieh%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rice in Fish Broth (Sayyadieh)@4512993
+    url: https://en.wikibooks.org/w/index.php?oldid=4512993
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

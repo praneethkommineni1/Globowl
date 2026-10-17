@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no ingredient lines parsed
+id: it-italian-bread
+title: Italian Bread
+summary: Italian Bread.
+origin:
+  country: IT
+course: bread
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2 loaves
+time:
+  total_min: 180
+difficulty: 3
+techniques:
+- baking
+- boiling
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- In a large bowl, sprinkle yeast over warm water and let stand for 5 minutes.
+- Stir in oil, salt, and sugar.
+- Add 2½ cups flour and mix to blend.
+- Using a spoon or heavy duty mixer, beat until elastic (about 5 minutes).
+- Stir in (you may want to use dough hooks) another cup of flour and the wheat germ to make a stiff dough.
+- Knead on a board or pastry cloth, floured with some of the last ½ cup flour, until dough is springy and smooth and develops small bubbles just under the surface (about 20–25 minutes—you may want to do this with the dough hooks).
+- Put in greased bowl, turning to grease top, then cover with a cloth.
+- Rise until doubled, about an hour, depending on temperature.
+- Punch down dough, turn out, and divide in half.
+- Preheat oven to 375°F.
+- Shape each half of dough into a slender oval loaf about 15 inches long.
+- Place on greased baking sheet, cover lightly and let rise until nearly doubled, about 30–40 minutes.
+- Combine cornstarch and cool water. Bring cornstarch mixture to a boil and stir until thick and clear. Brush loaves with mixture.
+- Slash loaf tops ½ inch with floured sharp knife or razor blade.
+- Bake until loaves browned and sound hollow when tapped, 25 to 30 minutes.
+- Cool on wire racks.
+tips:
+- 1 cup of whole wheat flour may be substituted for 1 cup of plain flour.
+- To get a rapid initial rise, use water about 130–135°F, and pour into bowl with yeast mixed with initial flour and salt and sugar and start mixing.
+- All rising should be in a warm place, like near the refrigerator.
+- A baking stone, ceramic brick, or even an iron skillet or griddle preheated in the oven (to place the baking sheet on) will give a good "spring" or quick rise when the loaves are first placed in the oven.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AItalian_Bread&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Italian Bread@4658410
+    url: https://en.wikibooks.org/w/index.php?oldid=4658410
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

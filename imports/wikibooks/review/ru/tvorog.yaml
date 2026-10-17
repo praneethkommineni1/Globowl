@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ru-tvorog
+title: Tvorog
+alternate_names:
+- Russian Farmer Cheese
+summary: Tvorog is a Russian cheese.
+origin:
+  country: RU
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: buttermilk, qty: 1}
+  - {ingredient: milk, qty: 2}
+steps:
+- Mix milk and buttermilk in a pot, and cover with a lid.
+- Let stand for 1–2 days, until the mixture thickens to a consistency of thin yogurt.
+- Heat mixture gently, without letting it boil, until the whey separates from the curds.
+- Pour out through cheese cloth.
+- For a drier tvorog, hang it up for 1–12 hours to let it drain.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATvorog_%28Russian_Farmer_Cheese%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tvorog (Russian Farmer Cheese)@4511475
+    url: https://en.wikibooks.org/w/index.php?oldid=4511475
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 150 g firm sourdough
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-corn-bread
+title: Corn Bread
+alternate_names:
+- Lombardy
+summary: 'See also: Cornbread, Cornbread 2 Corn bread is a traditional bread recipe from the mountain areas of Lombardy, in Italy, where corn flour was much cheaper and easier to obtain than wheat. In its native area it''s called “pan giald”, lombard for “yellow bread”.'
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: cornmeal, unit: g, qty: 250}
+  - {ingredient: water, unit: g, qty: 300}
+  - {ingredient: all-purpose-flour, unit: g, qty: 250}
+  - {ingredient: salt, unit: g, qty: 8}
+steps:
+- Boil 200 g of water and pour it over the cornmeal in a bowl; mix well with a fork and let it cool to room temperature.
+- Add the sourdough, wheat flour, salt and the rest of the water; knead until smooth. Cover with a towel and let rise for about 8 hours.
+- Fold the dough on itself a few times, form into a round loaf and place on a pan covered with baking paper. Make a couple cuts on the surface and let rise for another hour.
+- Preheat the oven to 240°C, sprinkle the loaf with water and bake for 10 minutes; lower the oven temperature to 160°C and keep baking for 30 minutes.
+- Remove from the oven and let it rest on a rack to cool down.
+tips:
+- Instead of wheat flour, Buckwheat flour was also traditionally used, especially in more rural areas, but will result in a even denser loaf.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACorn_Bread_%28Lombardy%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Corn Bread (Lombardy)@4513103
+    url: https://en.wikibooks.org/w/index.php?oldid=4513103
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

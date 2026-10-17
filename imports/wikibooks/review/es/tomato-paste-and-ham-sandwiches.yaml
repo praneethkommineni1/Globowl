@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Pa de pagès or 1 loaf French bread, sliced
+#  - no time in recipe summary
+id: es-tomato-paste-and-ham-sandwiches
+title: Tomato Paste and Ham Sandwiches
+alternate_names:
+- Pan Tomaca
+summary: __notoc__ Pa amb tomàquet also called pa amb tomaca, is a sandwich style dish or tapa originating in Catalonia but now enjoyed all over Spain. It means "bread with tomato".
+origin:
+  country: ES
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: tomato, qty: 2}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: salt}
+  - {ingredient: ham, unit: g, qty: 120}
+steps:
+- Toast the slices of pa de pagès. If desired, rub garlic on each slice of bread.
+- Cut the tomatoes in half, and rub the tomato flesh over the surface of the bread until most of the pulp is gone.
+- Sprinkle with olive oil and a bit of salt, then place a slice of cured ham on top.
+- Either top each slice with a second slice of bread to make a sandwich, or leave as an open-faced slice.
+tips:
+- When slicing the bread, make sure the pieces have a relatively large surface area. For narrower loaves like baguettes, you can cut the loaf into lengths and half each length down the middle lengthwise to expose the crumb.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATomato_Paste_and_Ham_Sandwiches_%28Pan_Tomaca%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tomato Paste and Ham Sandwiches (Pan Tomaca)@4622761
+    url: https://en.wikibooks.org/w/index.php?oldid=4622761
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2.5 cups pasta sauce
+#  - course unknown from categories
+id: it-simple-spaghetti
+title: Simple Spaghetti
+summary: Simple Spaghetti.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 30
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: l, qty: 2.25}
+  - {ingredient: spaghetti, unit: g, qty: 227}
+  - {ingredient: salt}
+  - {ingredient: vegetable-oil}
+steps:
+- On a stovetop, bring the water to a boil on high heat after adding salt and vegetable oil (see tips below).
+- Reduce heat to medium and add the pasta.
+- While the spaghetti is cooking, pour desired amount of sauce into pan and set stove to medium.
+- 'Set a timer for 7 minutes. When the timer goes off, fish out a strand of spaghetti and bite into it. What you''re going for here is al dente, meaning that the pasta is just soft enough to eat: no longer crunchy in the middle, and not mushy and over-done. A more traditional (but messy) way to see if the spaghetti is done is to throw some strands onto a wall. If they stick to the wall, then the pasta is ready to eat.'
+- When the sauce begins to bubble, reduce the heat to its lowest setting and cover.
+- Once the pasta is ready, carefully drain it through a colander into a sink.
+- Serve sauce over pasta in bowls.
+tips:
+- Adding salt to the cooking water enhances the pasta flavor and to allows the water to boil more quickly. Adding vegetable oil to the cooking water helps prevent the spaghetti from sticking together.
+- Try adding herbs or fruit (such as pineapple tidbits) to the water before it boils to keep with the pasta after straining for extra flavor and texture.
+- Before cooking the sauce, consider sautéing some finely minced onions, garlic, ground beef (or pork/sausage/veal/etc.), cheese (parmesan/mozzarella/etc.), mushrooms, or anything else that catches your fancy. Then add the sauce.
+- In a pinch, you can make plain spaghetti and add ketchup if you do not have any pasta sauce available.
+- 'The following foods go well with spaghetti and can be served together:'
+- Broccoli (or other vegetables).
+- Garlic Bread
+- Meatballs
+- Pineapple (or other fruits) tidbits (boiled, grilled, or fried)
+- Shredded and/or grated cheese
+- Tomato, alfredo, or other sauces (can choose one, the other, or mixed together)
+- Cooking is about experimentation—never be afraid to try anything once!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASimple_Spaghetti&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Simple Spaghetti@4525181
+    url: https://en.wikibooks.org/w/index.php?oldid=4525181
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

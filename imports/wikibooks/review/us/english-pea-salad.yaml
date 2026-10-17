@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-english-pea-salad
+title: English Pea Salad
+summary: English pea salad is a simple salad, intended to be reminiscent of spring and innocence. It is very traditional and may be more likely served at family gatherings, especially in the U.S.
+origin:
+  country: US
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- blanching
+ingredient_groups:
+- items:
+  - {ingredient: green-peas, unit: g, qty: 425}
+  - {ingredient: mayonnaise, unit: tbsp, qty: [1, 2]}
+  - {ingredient: onion, unit: tbsp, qty: [1, 2], optional: true}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: parsley, optional: true}
+steps:
+- If desired, blanch or parboil the chopped onion in a small amount of water so that the onion flavor is not as strong. Drain and cool thoroughly.
+- Drain the English peas, and either discard the liquid or use for some other purpose.
+- Lightly rinse the peas in a colander and place in a suitable bowl.
+- Chop the egg into about ¼ inch (0.5 cm) pieces. If desired, mash the diced hard-boiled egg yolk and mix it thoroughly with the mayonnaise.
+- Add the chopped egg, chopped onion, and mayonnaise to the peas. Mix lightly until all the ingredients are well-distributed.
+- Add salt and ground pepper to taste, and mix to distribute.
+- Refrigerate for at least 30 minutes.
+- Serve cold, sprinkled lightly with parsley in the manner of a side dish, rather than as a separate course. No additional dressings or condiments would ordinarily be served or expected.
+tips:
+- Try adding 2 Tbsp very finely-chopped (⅛ inch / ¼ cm diced) celery
+- Adding ¼ cup (or less) cubed (⅜ inch or 0.75 cm diced) yellow cheese food product (for example Velveeta) gives a color contrast, but the cheese can become somewhat soft if the salad is stored. If you make the main part of the salad well in advance of serving, you may wish to wait to add cheese only when you are nearly ready to serve the sal
+- If you use the entire egg, the yolk will impart a yellow tint to the salad dressing, while using the 2 hard-boiled egg white (i.e. no yolks) will keep the salad dressing white. Adding hard-boiled egg whites provides a shape and color contrast compared to the green color of the round peas.
+- You may wish to make the basic recipe a day or several hours in advance of serving, through the refrigeration step, then add other ingredients when nearly ready to serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEnglish_Pea_Salad&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:English Pea Salad@4518131
+    url: https://en.wikibooks.org/w/index.php?oldid=4518131
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

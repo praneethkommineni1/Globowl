@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-liberian-fried-sweet-potato-puffs
+title: Liberian Fried Sweet Potato Puffs
+summary: Liberian fried sweet potato puffs are delightful and flavorful snacks that make a perfect treat for any occasion. Made with mashed sweet potatoes, these puffs are seasoned with a blend of spices and herbs, giving them a unique taste that will keep you coming back for more.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Large pot or deep-fryer
+- Mixing bowl
+- Potato masher or fork
+- Slotted spoon
+- Paper towels
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: sweet-potato, qty: 2, prep: boiled and mashed, note: large}
+  - {ingredient: egg, qty: 1, prep: lightly beaten}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 0.25}
+  - {ingredient: baking-powder, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.25}
+  - {ingredient: nutmeg, unit: tsp, qty: 0.25}
+  - {ingredient: ground-cloves, unit: tsp, qty: 0.25}
+  - {ingredient: vegetable-oil, prep: for frying}
+steps:
+- In a large mixing bowl, combine the mashed sweet potatoes with the beaten egg.
+- In a separate bowl, whisk together the all-purpose flour, baking powder, salt, black pepper, ground cinnamon, ground nutmeg, and cloves.
+- Gradually add the dry ingredients to the sweet potato mixture, stirring until well combined.
+- Heat vegetable oil in a large pot or deep-fryer to 350°F (175°C).
+- Using a spoon or cookie scoop, carefully drop spoonfuls of the sweet potato mixture into the hot oil.
+- Fry the sweet potato puffs in batches for about 3–4 minutes or until they are golden brown and crispy.
+- Remove the fried puffs from the oil using a slotted spoon, and place them on a plate lined with paper towels to drain any excess oil.
+- Serve warm as a snack or appetizer.
+tips:
+- You can adjust the seasoning according to your taste preferences. Add more spices or herbs for a bolder flavor.
+- These sweet potato puffs can be served with your favorite dipping sauce, such as ketchup or aioli.
+- Leftover sweet potato puffs can be stored in an airtight container in the refrigerator for up to 3 days. Reheat them in the oven or microwave before serving.
+- Sweet potatoes are a good source of vitamins, minerals, and fiber.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALiberian_Fried_Sweet_Potato_Puffs&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Liberian Fried Sweet Potato Puffs@4494179
+    url: https://en.wikibooks.org/w/index.php?oldid=4494179
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - duplicate id fr-espagnole-sauce from another Wikibooks page
+id: fr-espagnole-sauce
+title: Espagnole Sauce
+alternate_names:
+- Mrs. W.G. Waters
+summary: 'The following recipe, taken from The Cook''s Decameron: A Study In Taste, apparently dates from the late 19th century. It bears no relation whatsoever to the classic espagnole, as it is not thickened except for a tiny amount of flour and should only be regarded as a curiosity.'
+origin:
+  country: FR
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- braising
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: g, qty: 57}
+  - {ingredient: veal, prep: 'ham, bacon, beef, or poultry'}
+  - {ingredient: black-peppercorns, qty: 3}
+  - {ingredient: mushroom}
+  - {ingredient: tomato, qty: 1}
+  - {ingredient: carrot, qty: 1}
+  - {ingredient: onion, qty: 1, prep: studded with 2 cloves}
+  - {ingredient: turnip, qty: 1}
+  - {ingredient: thyme, unit: sprig, qty: 1, prep: 'parsley, and marjoram'}
+  - {ingredient: all-purpose-flour, unit: tsp, qty: 1}
+  - {ingredient: chicken-stock, qty: 0.25}
+steps:
+- Grease the bottom of a stew pan with butter.
+- Add the meat, peppercorns, mushroom trimmings, tomato, carrot, turnip cut up, onion, bay leaf, thyme, parsley, and marjoram. Braise well for 15 minutes with the lid on.
+- Add the stock and boil gently for 15 minutes.
+- Strain through a tamis, then remove excess grease.
+- Cool in an earthenware vessel, and add glaze if desired.
+- Pass through a sieve before serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEspagnole_Sauce_%28Mrs._W.G._Waters%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Espagnole Sauce (Mrs. W.G. Waters)@4610548
+    url: https://en.wikibooks.org/w/index.php?oldid=4610548
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

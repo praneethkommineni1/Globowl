@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-ngoundja
+title: Ngoundja
+alternate_names:
+- Fried Plantains
+summary: Ngoundja is a popular dish of fried plantains enjoyed in many African countries. This simple yet delicious treat features ripe plantains that are sliced, fried to perfection, and served as a side dish or snack.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Knife
+- Cutting board
+- Deep frying pan or skillet
+- Slotted spoon
+- Paper towels
+ingredient_groups:
+- items:
+  - {ingredient: plantain, qty: [2, 3]}
+  - {ingredient: vegetable-oil, prep: for frying}
+  - {ingredient: salt, optional: true}
+steps:
+- Place the plantains on a cutting board, and use a knife to trim off both ends.
+- Make a shallow lengthwise incision along the skin of each plantain, being careful not to cut into the flesh.
+- Gently peel off the skin by using your fingers to lift it away from the flesh. If needed, you can use the knife to assist in peeling.
+- Lay the peeled plantains on the cutting board and cut them into diagonal or round slices, about ½ inch thick. You can adjust the thickness to your preference.
+- Pour enough vegetable oil into a deep frying pan or skillet to cover the bottom by about ¼ inch.
+- Place the pan over medium-high heat and allow the oil to become hot. You can test the temperature by dropping a small piece of plantain into the oil—if it sizzles immediately, the oil is ready for frying.
+- Carefully place the sliced plantains into the hot oil, making sure not to overcrowd the pan. Work in batches if necessary. Cook the plantains for about 2–3 minutes on each side or until they turn golden brown.
+- Use a slotted spoon to carefully remove the fried plantains from the pan and transfer them onto a plate lined with paper towels. This will help absorb any excess oil.
+- Sprinkle the fried plantains with a pinch of salt if desired, or leave them unsalted for a sweeter taste.
+- Allow the ngoundja to cool for a few minutes before serving to avoid burning your mouth. Serve as a side dish alongside your favorite main course, or enjoy them as a tasty snack on their own.
+tips:
+- Choose ripe plantains with yellow to black skins. They should be slightly soft to the touch but not overly mushy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANgoundja_%28Fried_Plantains%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ngoundja (Fried Plantains)@4503499
+    url: https://en.wikibooks.org/w/index.php?oldid=4503499
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

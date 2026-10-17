@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup skinless black gram
+#  - no time in recipe summary
+id: in-medu-vada
+title: Medu Vada
+alternate_names:
+- South Indian Savory Lentil Donut
+summary: A vada is a savoury South Indian doughnut made from lentils (or sometimes potatoes). This is a recipe for medu vada. It is commonly accompanied by idli.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- deep-frying
+ingredient_groups:
+- items:
+  - {ingredient: salt, note: to taste}
+  - {ingredient: asafoetida}
+  - {ingredient: curry-leaves, qty: [8, 10]}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: vegetable-oil}
+steps:
+- Wash and soak urad dal for 6 hours. Grind into a fine paste.
+- Add salt, asafoetida, curry leaves, cumin powder, and crushed peppercorns to the batter and mix well.
+- Heat oil in a kadai.
+- Wet your palms and take batter into the palms.
+- Shape into balls and make a hole with the thumb in the centre like a doughnut.
+- Deep-fry this in medium-hot oil until golden brown and crisp.
+- Serve hot with sambhar and coconut chutney.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMedu_Vada_%28South_Indian_Savory_Lentil_Donut%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Medu Vada (South Indian Savory Lentil Donut)@4508197
+    url: https://en.wikibooks.org/w/index.php?oldid=4508197
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

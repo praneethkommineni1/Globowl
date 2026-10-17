@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+#  - possible duplicate of hand-written recipe ru-blini — merge or keep as a variant
+id: ru-bliny
+title: Bliny
+summary: Blini (singular blin; in Russian, блин[ы]) are small Russian pancakes, typically topped with sour cream, jam or caviar.
+origin:
+  country: RU
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 20
+  amount: 20–25 blini
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: cup, qty: 4, prep: warmed}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: butter, unit: tsp, qty: 5, prep: melted}
+  - {ingredient: yeast, unit: g, qty: 28}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: all-purpose-flour, unit: g, qty: 590}
+  - {ingredient: olive-oil, unit: tsp, qty: 5}
+steps:
+- Dissolve the yeast in 3 cups of the warm milk. Add ½ tablespoon of sugar, salt, egg yolk, and melted butter.
+- Stir, then add half the flour, and knead the dough.
+- Cover the bowl with the dough with a cloth or towel and leave it in a warm place for 1.5–2 hours, or until the volume of the dough is doubled.
+- Heat the rest of the milk to 122°F, then mix it into the batter along with the rest of flour and sugar. Pour in well-whipped egg white.
+- Knead the dough again and leave it until it rises.
+- Heat an oiled frying pan. With a large ladle pour some batter in the center so it makes a circle.
+- When the bottom of the blin is ready (the edges of the blin should have separated from the pan and be pointing upwards), turn it over.
+- After it is ready, put the blin on a large plate and start making the next one.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABliny&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bliny@4522408
+    url: https://en.wikibooks.org/w/index.php?oldid=4522408
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

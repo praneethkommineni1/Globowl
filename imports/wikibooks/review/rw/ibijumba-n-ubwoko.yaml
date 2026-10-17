@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: rw-ibijumba-n-ubwoko
+title: Ibijumba n'Ubwoko
+alternate_names:
+- Rwandan Sweet Potato and Mushroom Dish
+summary: Ibijumba n'ubwoko is a delicious and hearty dish from Rwanda that combines sweet potatoes and mushrooms. This flavorful and nutritious dish is a popular choice for a satisfying meal.
+origin:
+  country: RW
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Large pot
+- Knife
+- Cutting board
+- Wooden spoon
+techniques:
+- boiling
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: potato, qty: 2, prep: peeled and cubed, note: large}
+  - {ingredient: mushroom, unit: g, qty: 200, prep: sliced}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: cilantro, prep: chopped}
+steps:
+- In a large pot, bring water to a boil. Add the cubed sweet potatoes and cook until they are tender but not mushy, about 10–15 minutes. Drain and set aside.
+- Heat the vegetable oil in a pan over medium heat. Add the chopped onion and minced garlic, and sauté until the onion is translucent and fragrant.
+- Add the sliced mushrooms to the pan and cook for about 5 minutes, or until they are softened and slightly browned.
+- Sprinkle the paprika, cumin, turmeric, salt, and black pepper over the mushrooms. Stir well to coat the mushrooms with the spices.
+- Add the cooked sweet potatoes to the pan and gently stir to combine all the ingredients.
+- Cook for another 2–3 minutes to allow the flavors to meld together.
+- Taste and adjust the seasoning if needed.
+- Remove from heat and transfer to a serving dish. Garnish with fresh chopped cilantro or parsley.
+- Serve hot as a main dish or as a side with your favorite Rwandan accompaniments.
+tips:
+- You can add other vegetables like bell peppers, carrots, or green beans to enhance the dish's nutritional value and variety.
+- Adjust the spices according to your taste preference. You can add more or less paprika, cumin, or turmeric to suit your flavor profile.
+- This dish can be served with Rwandan staple foods such as ugali, rice, or chapati.
+- Leftovers can be stored in an airtight container in the refrigerator for up to 3 days. Reheat gently before serving.
+- Sweet potatoes are a rich source of vitamins, minerals, and dietary fiber. Mushrooms are low in calories and high in protein and antioxidants.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIbijumba_n%27Ubwoko_%28Rwandan_Sweet_Potato_and_Mushroom_Dish%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ibijumba n'Ubwoko (Rwandan Sweet Potato and Mushroom Dish)@4498613
+    url: https://en.wikibooks.org/w/index.php?oldid=4498613
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

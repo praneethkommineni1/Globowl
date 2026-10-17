@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 12 small fresh artichokes, cut into rounds
+#  - no time in recipe summary
+id: fr-nicoise-salad
+title: Niçoise Salad
+summary: Niçoise salad (pronounced ni-swaz) sometimes referred to as salade niçoise, is a type of French salad. As suggested by the name, it is a specialty of the region of Nice in France and is composed of raw vegetables, hard boiled eggs, anchovies and tuna, and olive oil.
+origin:
+  country: FR
+course: salad
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: tomato, qty: 10, note: medium}
+  - {ingredient: cucumber, qty: 1, note: large}
+  - {ingredient: fava-beans-canned, unit: g, qty: 200, note: small}
+  - {ingredient: red-bell-pepper, qty: 2}
+  - {ingredient: onion, qty: 6, note: small}
+  - {ingredient: basil, qty: 6, prep: finely chopped}
+  - {ingredient: garlic, qty: 1}
+  - {ingredient: egg, qty: 3}
+  - {ingredient: anchovies, qty: 12, prep: or 300 g tuna steak}
+  - {ingredient: olives, unit: g, qty: 100}
+  - {ingredient: capers, unit: handful, qty: 1}
+  - {ingredient: olive-oil}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Cut the tomatoes in quarters and salt them lightly once. Cut the eggs into quarters or slices. Cut the anchovies into 3–4 chunks (if using tuna, cut into similarly sized pieces). Peel the cucumber and finely slice it. Cut the green peppers into thin rings, and do the same with the onions.
+- Cut the garlic in two and rub the sides and bottom of a large salad bowl with it. Toss all the ingredients except the tomatoes into the bowl.
+- Drain the tomatoes, re-salt lightly and add to salad. In a separate bowl, mix 6 spoonfuls of olive oil with the basil, pepper, and salt and pour over salad. Refrigerate before serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANi%C3%A7oise_Salad&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Niçoise Salad@4518156
+    url: https://en.wikibooks.org/w/index.php?oldid=4518156
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

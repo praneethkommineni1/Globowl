@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 450 g dried mixed fruit
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gb-british-christmas-pudding
+title: British Christmas Pudding
+summary: Christmas pudding is a traditional British dish served at Christmas time. British people in different regions may call this dish by different names. Traditional Christmas pudding can be served with coated butter, or sauce, or even cream.
+origin:
+  country: GB
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 55}
+  - {ingredient: brown-sugar, unit: g, qty: 100}
+  - {ingredient: lemon, qty: 0.5}
+  - {ingredient: orange, qty: 0.5}
+  - {ingredient: breadcrumbs, unit: g, qty: 40}
+  - {ingredient: almonds, unit: g, qty: 40}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: butter, unit: g, qty: 75}
+  - {ingredient: apple, qty: 1, note: small}
+steps:
+- Combine all dried mixed fruit in a large bowl. Stir well.
+- Mix in the flour, then the sugar, lemon, orange, breadcrumbs, and nuts.
+- Whisk eggs in a separate bowl. Mix eggs into the dry ingredients.
+- Steam the pudding for several hours, remove it, and put it in a cool place.
+- Serve with butter, cream, custard, or brandy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABritish_Christmas_Pudding&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:British Christmas Pudding@4587420
+    url: https://en.wikibooks.org/w/index.php?oldid=4587420
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

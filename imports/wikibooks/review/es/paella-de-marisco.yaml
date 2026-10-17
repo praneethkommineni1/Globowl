@@ -1,0 +1,92 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 12 live mussels with beards removed
+#  - unmapped ingredient: diced squid mantles
+#  - unmapped ingredient: 2 cloves minced garlic
+#  - course unknown from categories
+id: es-paella-de-marisco
+title: Paella de Marisco
+summary: Paella de marisco (seafood paella) is the world's most popular paella recipe. It emerged in its modern version in Spain's Valencian coastal region in the early 1800s. Prior to the 19th century, the ingredients for seafood paella varied greatly with the most unusual being eel.
+origin:
+  country: ES
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 120
+difficulty: 4
+equipment:
+- paellera
+- pot
+- Rice skimmer
+- Sharp chopping knife for meat and vegetables
+- Large serving spoon
+- Potato masher
+- Clean, white towel large enough to cover the paellera
+- 'Wide heating source such as:'
+- Stove large enough to accommodate the size of the paellera (You'll have to straddle two burners at once and rotate the paellera periodically for even cooking.)
+- Gas burner designed specifically for paelleras
+- Charcoal grill
+- Low, forged steel tripod to support the paellera
+techniques:
+- boiling
+- braising
+- simmering
+ingredient_groups:
+- name: Broth
+  items:
+  - {ingredient: crab, unit: g, qty: 300}
+  - {ingredient: shrimp, unit: g, qty: 300}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: garlic, qty: [4, 5]}
+  - {ingredient: onion, prep: cut into quarters}
+  - {ingredient: water, unit: l, qty: 4}
+- name: Paella
+  items:
+  - {ingredient: tomato}
+  - {ingredient: shrimp}
+  - {ingredient: long-grain-rice}
+  - {ingredient: crayfish, qty: 8}
+  - {ingredient: olive-oil, unit: tbsp, qty: 6}
+  - {ingredient: paprika, unit: tbsp, qty: 1}
+  - {ingredient: saffron, qty: [8, 10]}
+  - {ingredient: salt, note: to taste}
+steps:
+- Boil the broth ingredients in water, allowing the liquid to reduce until there's 2 liters of broth. Occasionally mash the ingredients against the bottom of the pot with a ladle or potato masher to squeeze out their flavors.
+- Strain the broth and set aside.
+- Heat oil in a paellera over a medium flame.
+- Add mussels and cover with a pot lid. The lid should cover the mussels but not the entire paellera. Cook until they open, then remove and set aside.
+- Add Norway lobsters and sprinkle them each with a pinch of salt.
+- Sear the lobsters, then remove.
+- Add the diced squid and sauté for about 2 minutes.
+- Add the shrimp and sauté for about 2 minutes.
+- Add garlic and sauté until golden brown. This should take about a minute.
+- Add grated tomatoes and sauté for about 4 minutes to make sofrito.
+- Add rice and braise until completely coated with sofrito.
+- Add paprika and sauté for about 2 minutes.
+- Add 2 liters of the seafood broth.
+- Add saffron (or food coloring). Mix well and simmer for about 3 minutes.
+- Taste the broth and invite your dinner guests to do so as well. If the broth is bland, add salt a pinch at a time until everyone approves.
+- Replace the lobsters and mussels, and continue cooking.
+- Begin tasting the rice after it's been simmering for about 20 minutes and reduce the heat a bit. Make sure the rice doesn't get too soft. Check the rice again every 10 minutes and reduce the heat slightly after each taste. Your goal is to wind up with rice that has a slightly underdone center. The time it takes to reach this point can vary from 30 minutes to an hour depending on your cooking gear.
+- Your paella is done once the rice is slightly firm to the bite (al dente), the paella is a little moist but not soupy, and there is a bit of toasted rice on the bottom of the paellera. This is considered a delicacy throughout the Spanish-speaking world.
+- Remove the paellera from the heat and cover it with a white towel (not foil). Allow it to sit for 5 minutes before serving.
+tips:
+- This recipe calls for live mussels. Here are some safety guidelines for buying, eating and cooking live bivalves (mussels, clams and oysters).
+- Throughout history, saffron has been the natural ingredient used in Spain to color rice yellow. However, it's very expensive (a pound costs over US$1,500; a kilogram costs over $3,300) because it's labor intensive to process and each saffron crocus yields a minuscule amount of saffron. Consequently, supermarkets sell only a few grams per container for three or four US dollars. The best solution to this problem is to use commercially manufactured food coloring containing both natural and artificial ingredients (but usually no saffron). The two most popular US brands are Bijol and Badia. These companies sell containers each holding several ounces of coloring for less than five US dollars.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APaella_de_Marisco&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Paella de Marisco@4630321
+    url: https://en.wikibooks.org/w/index.php?oldid=4630321
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

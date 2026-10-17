@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: al-potato-and-cabbage-soup
+title: Potato and Cabbage Soup
+summary: 'Potato and cabbage soup (Albanian: supë borsh me patate e lakër) is an Albanian soup.'
+origin:
+  country: AL
+course: soup
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 1, prep: grated}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 3}
+  - {ingredient: carrot, qty: 2, prep: finely chopped}
+  - {ingredient: celery, qty: 3, prep: finely chopped}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 1}
+  - {ingredient: tomato, unit: tbsp, qty: 1}
+  - {ingredient: chicken-stock, unit: cup, qty: 5}
+  - {ingredient: white-cabbage, unit: g, qty: 454, prep: finely chopped}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 2}
+  - {ingredient: potato, unit: g, qty: 454, prep: diced}
+  - {ingredient: beetroot, qty: 2, prep: diced}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: heavy-cream, unit: tbsp, qty: 4}
+steps:
+- Sauté onion lightly in oil.
+- Add carrots and celery and continue to sauté.
+- Add flour and continue to sauté.
+- Add tomato sauce and a few tablespoons of stock slowly, stirring continuously. Cook over low heat until the sauce is ready.
+- Boil the remaining stock and add cabbage.
+- Add vinegar and cook for 15 minutes, then add potatoes and beet roots and cook for another 5 minutes.
+- Season with salt and pepper and serve hot, covered with a tablespoon of cream for each dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APotato_and_Cabbage_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Potato and Cabbage Soup@4518489
+    url: https://en.wikibooks.org/w/index.php?oldid=4518489
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2/3 cup coarsely crushed saltines
+id: us-pineapple-side-dish
+title: Pineapple Side Dish
+summary: Hot pineapple side dish is a casserole of pineapple with cheese.
+origin:
+  country: US
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: pineapple, unit: can, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 3}
+  - {ingredient: butter, unit: cup, qty: 0.25, prep: melted}
+  - {ingredient: cheddar, unit: cup, qty: 1.5, prep: divided}
+steps:
+- Preheat oven to 350°F (175˚C).
+- Grease a 1½ quart (1½ liter) baking dish.
+- Drain the pineapple, reserving ¼ cup juice; set aside.
+- In a small bowl, combine sugar and flour.
+- Add the butter and 1 cup cheese; mix well.
+- Gently stir in pineapple.
+- Pour into the prepared baking dish.
+- Sprinkle crushed crackers on top; drizzle with reserved pineapple juice.
+- Bake, uncovered, for 30–35 minutes or until bubbly around the edges.
+- Remove from oven and sprinkle with remaining cheese.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APineapple_Side_Dish&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pineapple Side Dish@4525014
+    url: https://en.wikibooks.org/w/index.php?oldid=4525014
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no ingredient lines parsed
+#  - no servings in recipe summary
+id: xx-orange-bread
+title: Orange Bread
+summary: This recipe for orange bread, originally called "Grandma-Ag's orange bread" by the recipe contributor, makes a quickbread flavored with orange peel. From the original contributor:"This bread is a fond memory of my childhood, visiting Agnes Frances Primm, my Grandma-Ag.
+origin:
+  country: XX
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 180
+difficulty: 3
+techniques:
+- baking
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Cover grated orange peel with water and boil for 5 minutes.
+- Drain and rinse, discarding water.
+- Barely cover with cold water (about ¼ cup).
+- Add ½ cup sugar and cook until peel is tender and water is cooked away; cool.
+- Preheat the oven to 350°F (~175°C).
+- Mix thoroughly egg, 1 cup sugar, melted butter, baking powder, all-purpose flour, milk, and salt.
+- Add cooled peel to this mixture and mix well.
+- Pour into greased and floured 9 x 5 x 3 inch (23 x 13 x 8 cm) pan.
+- Bake in the preheated oven for about 55–65 minutes or until a toothpick comes out dry when inserted in the loaf.
+tips:
+- Good warm and plain, or toasted and buttered.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AOrange_Bread&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Orange Bread@4658401
+    url: https://en.wikibooks.org/w/index.php?oldid=4658401
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

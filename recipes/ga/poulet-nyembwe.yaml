@@ -1,0 +1,39 @@
+id: ga-poulet-nyembwe
+title: Poulet Nyembwe
+native_name: {text: Poulet nyembwe, lang: fr}
+summary: Gabon's national dish — chicken braised in palm nut sauce with okra and a little chili.
+origin:
+  country: GA
+  also_claimed_by: [CG, CD]
+course: main
+dish_types: [stew]
+authenticity: traditional
+yield: {servings: 5}
+time: {prep_min: 15, cook_min: 60}
+difficulty: 2
+techniques: [pan-frying, stewing]
+ingredient_groups:
+  - items:
+      - {ingredient: chicken-thigh, qty: 1.2, unit: kg, prep: "bone-in pieces"}
+      - {ingredient: lemon-juice, qty: 2, unit: tbsp}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "minced"}
+      - {ingredient: palm-nut-cream, qty: 400, unit: g}
+      - {ingredient: water, qty: 300, unit: ml}
+      - {ingredient: okra, qty: 150, unit: g, prep: "sliced", optional: true}
+      - {ingredient: red-chili, qty: 1, prep: "chopped"}
+steps:
+  - Season the chicken with lemon and salt, then brown it in the oil with the onion and garlic.
+  - text: Add the palm nut cream, water and chili, and simmer until the chicken is tender.
+    timer_min: 40
+  - Add the okra for the last 10 minutes.
+serving: With rice or plantain.
+culture: Nyembwe is the Gabonese name for the palm nut sauce shared across Central Africa (moambé in the Congos).
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-hummus
+title: Hummus
+summary: Hummus.
+origin:
+  country: XX
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: chickpeas-canned, unit: cup, qty: 1}
+  - {ingredient: water}
+  - {ingredient: baking-soda, unit: tsp, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: [2, 3]}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: tahini, prep: to make a paste}
+  - {ingredient: ground-cumin}
+  - {ingredient: cilantro, prep: coarsely-cut coriander leaves}
+  - {ingredient: salt, note: to taste}
+steps:
+- The night before you plan to cook, combine the chickpeas, 2.5 cups of water, and baking soda. Leave to soak for 6–12 hours.
+- Rinse.
+- Add the rinsed chickpeas to 3 cups of water, along with the garlic and 1 teaspoon of salt. Bring to a boil. After about 45 minutes, they should swell enough for their skins to come off. Give it a stir, and use a slotted spoon to remove as many of the skins as you can from the water.
+- Cover the pot and continue cooking for about 2 hours, or until they almost dissolve to a paste.
+- Pour out the water. If desired, some can be reserved to add later, for extra flavor.
+- Mash the chickpeas by pressing them through a pasta sieve or use a food processor.
+- Let it cool for 10 minutes.
+- Add tahini and water until you get the right consistency.
+- Season with salt, ground cumin, and coriander leaves.
+tips:
+- Fresh lemon juice can be substituted for some of the water
+- Some cooks add tahini concentrate and lemon juice, instead of diluted tahini.
+- Serve with any combination of olive oil, tahini, za'atar, roast pine nuts, and/or French fries.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHummus_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Hummus I@4515548
+    url: https://en.wikibooks.org/w/index.php?oldid=4515548
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

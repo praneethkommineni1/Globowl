@@ -1,0 +1,39 @@
+id: sm-piadina
+title: Piadina
+native_name: {text: Piadina, lang: it}
+summary: A thin, tender flatbread made with lard and cooked on a hot griddle, folded around cured ham, soft cheese and rocket.
+origin:
+  country: SM
+  also_claimed_by: [IT]
+course: bread
+dish_types: [flatbread]
+authenticity: traditional
+yield: {servings: 4, amount: 6 piadine}
+time: {prep_min: 15, cook_min: 20, inactive_min: 30}
+difficulty: 2
+equipment: [Griddle or cast-iron pan]
+techniques: [dough-making, pan-frying]
+ingredient_groups:
+  - items:
+      - {ingredient: all-purpose-flour, qty: 500, unit: g}
+      - {ingredient: lard, qty: 80, unit: g, alt: [olive-oil]}
+      - {ingredient: baking-soda, qty: 0.5, unit: tsp}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: water, qty: 230, unit: ml, note: "lukewarm; or half milk"}
+  - name: Filling
+    items:
+      - {ingredient: ham, qty: 150, unit: g, note: "prosciutto crudo", optional: true}
+      - {ingredient: ricotta, qty: 150, unit: g, note: "or squacquerone"}
+      - {ingredient: rocket, qty: 1, unit: handful}
+steps:
+  - Mix the flour, soda and salt, rub in the lard, then add the water and knead into a smooth dough. Rest 30 minutes.
+  - Divide into 6 and roll each into a thin 23 cm round.
+  - Cook on a very hot dry griddle for 1–2 minutes per side, pricking any bubbles, until speckled brown.
+  - Fill while warm and fold in half.
+culture: San Marino sits inside Italy's Romagna, and shares its piadina tradition.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -1,0 +1,41 @@
+id: py-sopa-paraguaya
+title: Sopa Paraguaya
+native_name: {text: Sopa paraguaya, lang: es}
+alternate_names: [Paraguayan cornbread]
+summary: A rich, savoury cornbread made with cheese, onions and milk — despite its name, a "soup" you cut into squares.
+origin:
+  country: PY
+course: side
+dish_types: [cornbread, bake]
+occasions: [Christmas, Celebrations]
+authenticity: traditional
+yield: {servings: 8}
+time: {prep_min: 20, cook_min: 45}
+difficulty: 2
+equipment: [23 × 33 cm baking dish]
+techniques: [sauteing, baking]
+ingredient_groups:
+  - items:
+      - {ingredient: butter, qty: 100, unit: g, alt: [lard]}
+      - {ingredient: onion, qty: 2, prep: "thinly sliced"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: milk, qty: 500, unit: ml}
+      - {ingredient: egg, qty: 4}
+      - {ingredient: queso-fresco, qty: 250, unit: g, prep: "crumbled or grated", note: "Paraguayan queso Paraguay or another fresh melting cheese"}
+      - {ingredient: cornmeal, qty: 350, unit: g, note: "fine yellow cornmeal"}
+steps:
+  - Heat the oven to 200 °C and grease the dish.
+  - text: Cook the onions slowly in the butter with the salt until very soft but not browned. Cool slightly.
+    timer_min: 12
+  - Beat the eggs, then mix in the milk, cheese, onions with their butter, and finally the cornmeal. The batter should be thick but pourable; rest 5 minutes.
+  - text: Pour into the dish and bake until golden and a skewer comes out clean.
+    timer_min: 40
+  - Cool for 10 minutes before cutting into squares.
+serving: Alongside asado (grilled meat) and chipa guasu.
+culture: One popular story says a cook to the 19th-century president Carlos Antonio López added too much corn flour to his soup — and the "solid soup" was a hit.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

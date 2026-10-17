@@ -8,6 +8,7 @@ alternate_names: []
 summary: One appetising sentence, 20–280 characters, saying what the dish is.
 origin:
   country: CC                 # ISO 3166-1 alpha-2, see data/countries.yaml
+                              # quote "NO" (Norway): bare NO is read as false in YAML
   region: optional            # region or city within the country
   community: optional         # e.g. Cape Malay, Hakka, Louisiana Creole
   also_claimed_by: []         # other countries that share or dispute the dish

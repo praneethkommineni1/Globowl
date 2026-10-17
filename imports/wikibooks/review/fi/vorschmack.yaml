@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 6 herring fillets in salt brine
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: fi-vorschmack
+title: Vorschmack
+alternate_names:
+- Finnish Ground Meat
+summary: Vorschmack has long traditions in Finnish cuisine. It can be served as an everyday meal, as well as a festive speciality. To be served heated, with pickled beetroot in vinegar, pickled cucumber and sour cream.
+origin:
+  country: FI
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- roasting
+ingredient_groups:
+- items:
+  - {ingredient: lamb, unit: g, qty: 1814, prep: cut into 1-inch cubes}
+  - {ingredient: beef, unit: g, qty: 227, prep: diced}
+  - {ingredient: anchovies, unit: can, qty: 1}
+  - {ingredient: onion, qty: 5, prep: sliced, note: medium}
+  - {ingredient: tomato-paste}
+  - {ingredient: garlic, qty: 5, prep: pressed}
+  - {ingredient: water}
+steps:
+- Let the herring fillets soak in cold water over night. Dry the fillets on paper towels.
+- Preheat the oven to 400°F (220°C). Arrange the meat and onion in a greased baking dish and roast on the medium shelf until golden brown (about 15–20 minutes).
+- Let the dish cool, and then grind the contents with the herring and anchovy using a meat grinder. In a large bowl, add some water to the mixture to give it the consistency of thick porridge. Season with white pepper and garlic.
+- Place the contents in a baking dish. Spread out some tomato paste over the surface of the mixture. Bake at 350°F (175°C) for 2 hours. Add water if the Vorschmack looks dry. If the consistency is too light, continue baking to evaporate excess water. The consistency should resemble thick hot porridge.
+- Serve hot with baked potatoes, smetana, and a shot of ice cold vodka, filled to the rim.
+tips:
+- The saltiness of the Vorschmack is regulated by the time used to soak the herring fillets. For high saltiness, let the herring soak 2 hours, for low saltiness let them soak 8 hours.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AVorschmack_%28Finnish_Ground_Meat%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Vorschmack (Finnish Ground Meat)@4517441
+    url: https://en.wikibooks.org/w/index.php?oldid=4517441
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

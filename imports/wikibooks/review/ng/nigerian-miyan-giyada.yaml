@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3–4 Scotch bonnet peppers
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-nigerian-miyan-giyada
+title: Nigerian Miyan Giyada
+summary: Miyan gyada is a traditional Nigerian soup popular in northern Nigeria, especially among the Hausa people. It is made from groundnuts (peanuts), which are blended into a paste and cooked to form a rich, creamy soup.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 500}
+  - {ingredient: onion, qty: 1, note: medium}
+  - {ingredient: bouillon-cube, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: roasted-peanuts, unit: cup, qty: 2}
+  - {ingredient: red-palm-oil, unit: tbsp, qty: [2, 3]}
+  - {ingredient: spinach, unit: cup, qty: 2}
+  - {ingredient: chicken-stock, unit: cup, qty: [4, 5]}
+  - {ingredient: tomato, qty: 2, optional: true, note: medium}
+steps:
+- Season with onions, salt, and seasoning cubes, then boil until tender. Keep the stock.
+- Blend groundnuts (or use ready paste) until smooth.
+- Add the paste into the pot and allow it to cook, stirring to prevent burning.
+- Add pepper and a little palm oil or vegetable oil, then mix well.
+- Add your leafy vegetables and stir.
+- Allow the soup to cook until it thickens and oil begins to rise to the top. The soup should be thick, creamy, and rich with a nutty flavor.
+- Taste and add salt or seasoning if needed.
+- Serve with swallows like tuwo shinkafa or Tuwo dawa.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Miyan_Giyada&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Miyan Giyada@4634710
+    url: https://en.wikibooks.org/w/index.php?oldid=4634710
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,53 @@
+id: bo-sopa-de-mani
+title: Sopa de Maní
+native_name: {text: Sopa de maní, lang: es}
+alternate_names: [Bolivian peanut soup]
+summary: A creamy soup of blended raw peanuts, beef, potatoes and vegetables, topped with crisp shoestring fries and parsley.
+origin:
+  country: BO
+  region: Cochabamba
+course: soup
+dish_types: [soup]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 20, cook_min: 90}
+difficulty: 2
+equipment: [Blender]
+techniques: [simmering, deep-frying]
+ingredient_groups:
+  - name: Soup
+    items:
+      - {ingredient: raw-peanuts, qty: 150, unit: g, note: "skinned"}
+      - {ingredient: water, qty: 2.5, unit: l}
+      - {ingredient: beef-shank, qty: 500, unit: g, note: "or beef ribs"}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "minced"}
+      - {ingredient: carrot, qty: 1, prep: "diced"}
+      - {ingredient: green-pepper, qty: 0.5, prep: "diced"}
+      - {ingredient: ground-cumin, qty: 0.5, unit: tsp}
+      - {ingredient: dried-oregano, qty: 0.5, unit: tsp}
+      - {ingredient: potato, qty: 3, prep: "cubed"}
+      - {ingredient: green-peas, qty: 100, unit: g}
+      - {ingredient: macaroni, qty: 80, unit: g, optional: true}
+      - {ingredient: salt, note: "to taste"}
+  - name: Topping
+    items:
+      - {ingredient: potato, qty: 1, prep: "cut into very thin matchsticks"}
+      - {ingredient: vegetable-oil, qty: 250, unit: ml, note: "for frying"}
+      - {ingredient: parsley, qty: 1, unit: handful, prep: "chopped"}
+steps:
+  - text: Simmer the beef in 2 litres of the water, skimming, until tender.
+    timer_min: 60
+  - Blend the peanuts with the remaining 500 ml water until completely smooth.
+  - Fry the onion, garlic, carrot and pepper in the oil until soft, add cumin and oregano, and add to the broth.
+  - text: Pour in the peanut milk and simmer, stirring often (it catches easily), with the potatoes, peas and pasta until everything is tender.
+    timer_min: 25
+  - Meanwhile fry the potato matchsticks until crisp.
+  - Season the soup and serve topped with fries and parsley.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

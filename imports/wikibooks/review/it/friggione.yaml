@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: it-friggione
+title: Friggione
+alternate_names:
+- Onion and Tomato Relish
+summary: Friggione is a Bolognese relish that dates back to the 19th century. It cooks slowly on the stovetop, until the onions and tomatoes are very soft. Although it takes at least two hours to cook, it requires relatively little hands-on time.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- blanching
+ingredient_groups:
+- items:
+  - {ingredient: onion, unit: kg, qty: 1, prep: roughly chopped}
+  - {ingredient: tomato, unit: g, qty: 500}
+  - {ingredient: olive-oil}
+steps:
+- Heat enough olive oil into a heavy saucepan to cover the bottom (probably about 30 ml).
+- Cook the onions in the oil over low heat for at least 1 hour, until they are soft. Stir occasionally to keep them from sticking, and add a little more oil if necessary.
+- While the onions are cooking, blanch the tomatoes in boiling water for about 10 seconds each to loosen the skin. Peel the tomatoes and discard the skin.
+- Roughly chop the tomatoes into a few large pieces.
+- Stir the tomatoes into the onions. Cook for at least another hour, stirring occasionally.
+tips:
+- Serve hot or warm as a relish for crusty Italian bread, over pasta, or with meat.
+- Friggione can be refrigerated and re-heated just before serving. This is a good dish to make in advance.
+- So long as there are at least as many onions as tomatoes by weight, the proportion can be varied from equal amounts (a very tomato-y version) to as little as 1 part tomato per 10 parts onions.
+- Look for sweet yellow onions and tomatoes that have more flesh than seeds.
+- The recipe scales well, with double or even triple the amount of onions and tomatoes for a crowd. You will need to stir it more frequently in a very large pot to help it cook evenly.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFriggione_%28Onion_and_Tomato_Relish%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Friggione (Onion and Tomato Relish)@4493814
+    url: https://en.wikibooks.org/w/index.php?oldid=4493814
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

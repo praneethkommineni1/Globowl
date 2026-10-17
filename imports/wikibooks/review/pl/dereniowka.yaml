@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 200 g dried cornus alba fruits or pre-prepared Herbatka Podlaska dereniówka
+#  - unmapped ingredient: Vodka
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: pl-dereniowka
+title: Dereniówka
+alternate_names:
+- Polish Dogwood Liqueur
+summary: Dereniówka, is a type of Polish nalewka made from cornus mas (dogwood). It, among other nalewkas, were popular in noble manors of 17th CE Poland. Dereniówka belongs to the family of fruit nalewkas, such as orzechówka, wiśniówka, and porzeczkówka.
+origin:
+  country: PL
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: sugar, unit: g, qty: 40}
+steps:
+- Macerate the cornus alba fruits in vodka for 14 days. Shake the concoction daily.
+- When the alcoholate is ready, remove the sediments and add the sugar.
+- Let it clarify and rest for a while (several days only), and then it is ready for consumption.
+- Serve at room temperature in 30 ml glasses.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADereni%C3%B3wka_%28Polish_Dogwood_Liqueur%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dereniówka (Polish Dogwood Liqueur)@4620508
+    url: https://en.wikibooks.org/w/index.php?oldid=4620508
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

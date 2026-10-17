@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: dk-bleskiver
+title: Æbleskiver
+alternate_names:
+- Danish Spherical Pancakes
+summary: Æbleskiver or ebleskiver (literally "apple slices") are traditional Danish cakes, somewhat similar in texture to American pancakes. Æbleskiver are cooked in a special æbleskive pan, a cast-iron pan with several hemispherical indentations in the bottom of the pan.
+origin:
+  country: DK
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: egg-white, qty: 2}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: baking-powder, unit: tsp, qty: 2}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: baking-soda, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: butter, unit: tbsp, qty: 4, prep: melted}
+  - {ingredient: buttermilk, unit: cup, qty: 2}
+  - {ingredient: vegetable-oil, unit: cup, qty: 1, prep: for frying}
+steps:
+- Beat the whites until stiff.
+- Mix together the flour, baking powder, salt, baking soda, sugar, melted butter and buttermilk at one time and beat until smooth. Gently fold in the egg whites last.
+- Put about 1 tablespoon (15 ml) of vegetable oil in the bottom of each æbleskiver pan cup and heat until hot. Pour in about 2 tablespoons (30 ml) of the batter into each cup.
+- As soon as they get bubbly around the edge, turn them quickly. Alternatively, you can turn them halfway first, so that the baked crusts protruding from the pan will look like the Sydney Opera House. And after a while you turn them the remaining 90°. This will give them a perfect ball-shape. Danish cooks use a long knitting needle, but a fork will work.
+- Continue cooking, turning the ball to keep it from burning.
+tips:
+- An æbleskiver pan is required to cook these properly.
+- They were traditionally cooked with bits of apple or applesauce inside but these ingredients are not normally included in modern Danish forms of the dish.
+- Æbleskiver are not sweet themselves but are traditionally sprinkled with powdered sugar, accompanied with raspberry or sometimes strawberry jam, and served with gløgg.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3A%C3%86bleskiver_%28Danish_Spherical_Pancakes%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Æbleskiver (Danish Spherical Pancakes)@4519170
+    url: https://en.wikibooks.org/w/index.php?oldid=4519170
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

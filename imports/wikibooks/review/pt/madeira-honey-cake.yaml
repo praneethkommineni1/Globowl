@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no ingredient lines parsed
+id: pt-madeira-honey-cake
+title: Madeira Honey Cake
+summary: This is the recipe for the traditional Madeira Honey Cake, usually made on Christmas but also all year round on the island of Madeira and originally named in Portuguese bolo de mel. It is made with "mel de cana" which literally means "cane honey," otherwise known as molasses.
+origin:
+  country: PT
+course: bread
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 90
+difficulty: 4
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- One day before making the cake, buy the bread-dough at the baker's shop, sprinkle a little bit of flour on the dough, put it in a towel and keep it in a warm place until the next day.
+- Dissolve the baking soda into the Madeira wine.
+- Warm the molasses in a saucepan, add the butter and pork fat, and stir until melted and combined. Let this mixture cool.
+- Sift flour into a bowl, and mix in the sugar. Make a well and put the bread dough into it.
+- Work the flour-sugar mixture into the bread dough. As soon as this is well-joined, start to incorporate the molasses-fat mixture little by little.
+- Add some of the candied lemon peel, as well as the Madeira wine, orange juice and orange zest, anise, cinnamon, and cloves. Incorporate and knead thoroughly until the dough doesn't stick to the bowl.
+- Cover the dough with a towel and put it in a warm spot. Keep it in a warm place for 3–4 days.
+- Grease the baking pans. This cake is traditionally made in wide, round, low pans.
+- Divide the dough into parts of 250–500 g or 750 g, depending on your baking pans.
+- Decorate the cake with half-walnuts, sliced almonds, and the rest of the candied lemon peel.
+- Bake for about 50 minutes at 355 °F (180 °C). Let cool down before taking it out of the baking pan.
+tips:
+- In Madeira these honey cakes are made on 8 December, which is traditionally considered the day of Mary's Immaculate Conception, because tradition says this cake is only good for Christmas if it is made on this day.
+- It is a custom to make enough of this cake in order to have some during the whole year. Once cooled and thoroughly wrapped into vegetable paper it remains good until next Christmas without losing quality or taste.
+- Another tradition surrounding this cake is that it is not cut with knives, but by hand, and also eaten by hand, nothing more than a tradition but very respected among Madeira locals.
+- Fennel is often used instead of anise. Raisins are sometimes added.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMadeira_Honey_Cake&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Madeira Honey Cake@4658407
+    url: https://en.wikibooks.org/w/index.php?oldid=4658407
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

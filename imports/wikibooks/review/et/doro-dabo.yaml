@@ -1,0 +1,99 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 tablespoons niter kibbeh or regular butter/oil
+#  - no servings in recipe summary
+id: et-doro-dabo
+title: Doro Dabo
+alternate_names:
+- Ethiopian Chicken with Spiced Bread
+summary: Doro dabo is a savory and aromatic dish that combines tender chicken pieces with a flavorful bread. This traditional Ethiopian recipe is a delightful centerpiece for special occasions and gatherings.
+origin:
+  country: ET
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 60
+difficulty: 3
+equipment:
+- Mixing bowls
+- Whisk or fork
+- Wooden spoon or spatula
+- Baking sheet or baking dish
+- Plastic wrap or clean kitchen towel
+- Skillet or frying pan
+- Knife or kitchen shears
+- Oven
+- Brush
+techniques:
+- baking
+- dough-making
+- marinating
+- simmering
+ingredient_groups:
+- name: Bread
+  items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 4}
+  - {ingredient: yeast, unit: tsp, qty: 2}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: niter-kibbeh, unit: tbsp, qty: 2, prep: or regular butter/oil}
+  - {ingredient: egg, qty: 1, prep: beaten}
+- name: Stew
+  items:
+  - {ingredient: chicken, qty: 1, prep: cut into pieces}
+  - {ingredient: onion, qty: 2, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: minced}
+  - {ingredient: ginger, unit: tbsp, qty: 1, prep: grated}
+  - {ingredient: berbere, unit: tsp, qty: 2}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.25}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: cilantro, prep: 'chopped, for garnish'}
+steps:
+- In a large mixing bowl, combine the all-purpose flour, yeast, sugar, and salt. Mix well.
+- Make a well in the center of the dry ingredients and gradually add warm water and niter kibbeh. Stir until a dough forms.
+- Transfer the dough to a lightly floured surface and knead for about 8–10 minutes, or until the dough is smooth and elastic.
+- Shape the dough into a ball and place it in a greased bowl. Cover the bowl with plastic wrap or a clean kitchen towel and let the dough rise in a warm place for about 1 hour, or until it has doubled in size.
+- Once the dough has risen, preheat the oven to 375°F (190°C).
+- Punch down the dough to release any air bubbles, and transfer it to a lightly floured surface. Knead for a few more minutes.
+- Divide the dough into two equal portions. Take one portion and shape it into a round loaf, flattening it slightly.
+- Place the loaf on a greased baking sheet or in a greased baking dish. Repeat the same process with the second portion of dough.
+- Brush the tops of the loaves with beaten egg to create a golden crust.
+- Bake the bread in the preheated oven for about 25–30 minutes, or until the loaves are golden brown and sound hollow when tapped on the bottom.
+- Remove the bread from the oven and let it cool for a few minutes.
+- In a large mixing bowl, combine the chicken pieces, chopped onions, minced garlic, grated ginger, berbere spice blend, paprika, turmeric, cumin, cinnamon, salt, and niter kibbeh. Mix well to ensure the chicken is evenly coated with the spices.
+- Marinate the chicken in the refrigerator for at least 1 hour, or preferably overnight, to allow the flavors to develop.
+- Heat a skillet or frying pan over medium heat and add the marinated chicken, along with any remaining marinade. Cook the chicken for about 10 minutes, stirring occasionally, until it is browned on all sides.
+- Add water to the skillet, cover with a lid, and simmer for about 40–45 minutes, or until the chicken is tender and cooked through. Stir occasionally and add more water if needed to maintain a sauce-like consistency.
+- Once the chicken is cooked, remove from heat and garnish with freshly chopped cilantro or parsley. Set aside.
+- Slice the bread and arrange it on a platter. Place the cooked chicken stew in the center of the platter or serve it alongside the bread.
+tips:
+- Doro dabo is traditionally served with injera (Ethiopian flatbread) or rice.
+- You can adjust the level of spiciness in the chicken stew by adding more or less berbere spice blend according to your taste preferences.
+- For a richer flavor, you can brown the chicken pieces in the pan before adding the marinade.
+- Make sure the bread dough has enough time to rise until it has doubled in size. This will ensure a light and fluffy texture.
+- If the bread browns too quickly in the oven, cover it loosely with aluminum foil to prevent excessive browning.
+- You can add vegetables like carrots, potatoes, or bell peppers to the chicken stew for added flavor and variety.
+- Some recipes include chopped tomatoes or tomato paste for a tangy twist.
+- This dish is a satisfying and hearty option for special occasions and gatherings.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADoro_Dabo_%28Ethiopian_Chicken_with_Spiced_Bread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Doro Dabo (Ethiopian Chicken with Spiced Bread)@4507754
+    url: https://en.wikibooks.org/w/index.php?oldid=4507754
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

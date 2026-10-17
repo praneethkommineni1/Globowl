@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: in-egg-roast
+title: Egg Roast
+summary: Egg roast is a simple but tasty dish. The technique of roasting eggs in a masala sauce probably originated in the southern state of Kerala.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: onion, qty: 2, prep: chopped}
+  - {ingredient: salt}
+  - {ingredient: ginger-garlic-paste, unit: tbsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tbsp, qty: 1}
+  - {ingredient: red-chili, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.25}
+  - {ingredient: tomato, qty: 1, prep: finely minced, note: large}
+  - {ingredient: red-chili, qty: 4, prep: sliced in half}
+  - {ingredient: egg, qty: 4, prep: sliced in half}
+  - {ingredient: tomato, qty: 1, prep: chopped into large chunks, note: small}
+  - {ingredient: curry-leaves, unit: sprig, qty: 1, prep: leaves separated from the stalk}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.25}
+  - {ingredient: ground-cloves, unit: tsp, qty: 0.25}
+steps:
+- Heat oil in a kadai, add onions and a pinch of salt, and fry until golden brown.
+- Add the ginger-garlic paste, and cook until the raw smell disappears.
+- Add the coriander, chili, and turmeric powders, and sauté for 2 minutes.
+- Add the minced tomato to the kadai, and sauté until the oil separates from the mixture.
+- Add the green chillies, and fry for a few minutes. Add the eggs, and coat the pieces with the mixture.
+- Add the chunked tomatoes, curry leaves, cinnamon, and clove. Sauté for a couple of minutes, and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgg_Roast&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egg Roast@4507758
+    url: https://en.wikibooks.org/w/index.php?oldid=4507758
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

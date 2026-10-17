@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+id: us-wakeup-sausage-casserole
+title: Wakeup Sausage Casserole
+summary: Wakeup Sausage Casserole.
+origin:
+  country: US
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 10
+time:
+  total_min: 165
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: cheddar, unit: cup, qty: 2}
+  - {ingredient: egg, qty: 8, prep: beaten, note: large}
+  - {ingredient: garlic-powder, unit: tsp, qty: 0.25}
+  - {ingredient: scallion, qty: 2, prep: 'tops only, sliced'}
+  - {ingredient: condensed-milk, unit: g, qty: 680}
+  - {ingredient: onion-powder, unit: tsp, qty: 0.5}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 1}
+  - {ingredient: red-bell-pepper, unit: cup, qty: 0.5}
+  - {ingredient: pork, unit: g, qty: 454, prep: 'cooked, drained, and crumbled'}
+  - {ingredient: white-bread, unit: cup, qty: 8}
+steps:
+- Preheat oven to .
+- Grease a 9 x 13-inch baking dish.
+- Place bread cubes in the pan evenly.
+- Combine eggs, garlic powder, green onion tops, evaporated milk, onion powder, and mustard.
+- Pour into baking dish.
+- Crumble sausage over the mixture evenly.
+- Add cheese and peppers, if desired, over the top.
+- If preparing ahead, cover and refrigerate.
+- Bake until set, about 45 minutes.
+- Serve warm.
+tips:
+- It may be better to use 10 eggs and 2.5 cups of milk, depending on the consistency you want out of the dish.
+- If it is not possible to buy pre-seasoned bulk pork sausage where you live, see the recipe for bulk sausage.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AWakeup_Sausage_Casserole&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Wakeup Sausage Casserole@4662968
+    url: https://en.wikibooks.org/w/index.php?oldid=4662968
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

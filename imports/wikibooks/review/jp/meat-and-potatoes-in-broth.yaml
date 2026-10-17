@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: jp-meat-and-potatoes-in-broth
+title: Meat and Potatoes in Broth
+alternate_names:
+- Niku Jaga
+summary: Niku jaga (肉じゃが nikujaga meaning 'meat and potatoes') is a common Japanese household dish served at dinnertime.
+origin:
+  country: JP
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 200}
+  - {ingredient: potato, qty: 4, note: small}
+  - {ingredient: onion, qty: 1, prep: sliced}
+  - {ingredient: water, unit: cup, qty: 1.5}
+  - {ingredient: mirin, unit: tbsp, qty: 2}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 3}
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: ginger, unit: slice, qty: 1}
+  - {ingredient: noodles, unit: g, qty: 100}
+steps:
+- Cut potatoes into bite-sized pieces. Set aside to soak in cold water.
+- Combine mirin, soy sauce, sugar, ginger, and beef in a saucepan. Boil lightly for 2–3 minutes.
+- Remove beef from pan. Add potatoes, sliced onion, and water. Bring to a boil.
+- Simmer uncovered until the broth reduces to about ⅓ by volume.
+- Replace beef in pan, add shirataki noodles, and simmer for roughly 5 minutes.
+- Remove from heat and serve.
+tips:
+- Pork can be substituted for the beef. Vary the amount of potatoes to taste.
+- The level of liquid does not need to, and in fact should not, completely cover the potatoes at the start of boiling. They will cook via steam, and the comparatively small volume of the liquid helps to concentrate the flavor.
+- Real mirin is important for preventing the potatoes from crumbling apart, especially when using Russets—it contains certain special sugars that prevent over-softening.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMeat_and_Potatoes_in_Broth_%28Niku_Jaga%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Meat and Potatoes in Broth (Niku Jaga)@4536307
+    url: https://en.wikibooks.org/w/index.php?oldid=4536307
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

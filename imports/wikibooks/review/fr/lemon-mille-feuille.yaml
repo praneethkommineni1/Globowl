@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 whole egg
+#  - unmapped ingredient: 75 g castor sugar
+id: fr-lemon-mille-feuille
+title: Lemon Mille-feuille
+summary: Mille-feuille (literally "a thousand leaves/sheets") is a French pastry made of many puff pastry layers.
+origin:
+  country: FR
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 10
+time:
+  total_min: 10
+difficulty: 3
+ingredient_groups:
+- name: Pastry
+  items:
+  - {ingredient: puff-pastry, unit: g, qty: 375}
+  - {ingredient: egg, qty: 1, prep: beaten}
+  - {ingredient: powdered-sugar, qty: 2, note: level}
+- name: Lemon filling
+  items:
+  - {ingredient: egg, qty: 3}
+  - {ingredient: milk, unit: ml, qty: 275}
+  - {ingredient: all-purpose-flour, unit: g, qty: 40}
+  - {ingredient: lemon, qty: 3, prep: zested and juiced, note: large}
+steps:
+- Preheat the oven to 400 °F (200 °C).
+- Unroll the pastry on a lightly floured surface.
+- Trim the pastry so that you are left with a rectangle approximately 23 x 25.5 cm.
+- Roll out the larger piece of pastry to a 30 cm square, making sure you use a very even, gentle pressure on the rolling pin so that you end up with nice even edges.
+- Grease a baking sheet and use the rolling pin to transfer the pastry to the baking sheet.
+- Prick the surface of the pastry with a fork. Brush the pastry all over with the beaten egg.
+- Place the baking sheet on a high shelf in the oven and bake for 12–15 minutes until crisp and golden.
+- To get it extra crisp, heat the oven to its highest setting, sift 1 teaspoon of the icing sugar all over the pastry, and flash it under the grill.
+- Remove from the grill and, using a sharp knife, cut the square into three equal strips.
+- Turn the strips over, sift the rest of the icing sugar over them, and then flash them under the grill again.
+- Cool on a wire rack, then store in a polythene box, each layer separated with greaseproof paper.
+- Place the egg yolks and whole egg into a roomy bowl.
+- Use an electric mixer to whip the eggs together with the castor sugar until the mixture is pale, thick and creamy (4–5 minutes). Add the milk as you mix.
+- Sift the flour onto the mixture and whisk again until smooth.
+- Add the lemon zest and juice.
+- Place a pastry strip on the plate, and cover with half the lemon filling.
+- Put the second pastry strip on the creme, and cover with the remaining lemon filling.
+- Finally, top with the final pastry strip.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALemon_Mille-feuille&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lemon Mille-feuille@4587207
+    url: https://en.wikibooks.org/w/index.php?oldid=4587207
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

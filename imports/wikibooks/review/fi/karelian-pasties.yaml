@@ -1,0 +1,76 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 can cottage cheese
+#  - no time in recipe summary
+id: fi-karelian-pasties
+title: Karelian Pasties
+alternate_names:
+- Karjalanpiirakat
+summary: Karelian pasties (Karjalanpiirakat in Finnish) are traditional pasties from North Karelia, Finland. Today they are eaten throughout Finland. According to the traditional recipe, the pasties are made from a thin rye crust with a filling of rice.
+origin:
+  country: FI
+course: snack
+authenticity: unassessed
+yield:
+  servings: 20
+  amount: 20 pastries
+time:
+  total_min: 1
+difficulty: 4
+techniques:
+- baking
+- boiling
+- dough-making
+ingredient_groups:
+- name: Filling
+  items:
+  - {ingredient: water, unit: ml, qty: 500}
+  - {ingredient: long-grain-rice, unit: ml, qty: 300}
+  - {ingredient: milk, unit: ml, qty: 900}
+  - {ingredient: salt, unit: tsp, qty: 1.5}
+- name: Crust
+  items:
+  - {ingredient: water, unit: ml, qty: 200}
+  - {ingredient: salt, unit: tsp, qty: 1.5}
+  - {ingredient: all-purpose-flour, unit: ml, qty: 350}
+  - {ingredient: all-purpose-flour, unit: ml, qty: 150}
+- name: Moistening
+  items:
+  - {ingredient: milk, unit: ml, qty: 100}
+  - {ingredient: butter, unit: g, qty: 50}
+- name: Egg-butter spread (munavoi)
+  items:
+  - {ingredient: butter, unit: g, qty: 50, prep: softened}
+  - {ingredient: egg, qty: 2, prep: chopped}
+  - {ingredient: salt, unit: tsp, qty: 0.25, optional: true}
+steps:
+- Mix the rice into the boiling water. Boil until the water has saturated the rice.
+- Add the milk, and stir the filling for a few minutes. Reduce heat and agitate the porridge. Cook for about 40 minutes. Stir the porridge every now and then. When the porridge is ready, it will seem thick.
+- Mix in the salt, and cool the porridge.
+- Mix the flours and salt into the cold water.
+- Knead the dough until smooth and pliable.
+- Shape the dough into a block, and divide it into about twenty pieces.
+- Roll the pieces into balls, flatten them into small discs, and cover them with plastic.
+- Roll out the discs into thin circles, approximately 17 cm in diameter.
+- Spread some of the rice filling in an oblong shape on each dough circle.
+- Crimp the edges together with your fingers to make a crust.
+- Bake the pasties at about 250–300°C for about 15 minutes, until the crust is browned.
+- Heat the butter and milk together until the butter is melted.
+- Brush the pasties with hot milk and butter.
+- Lay the pasties on each other and rest them under a towel and baking paper.
+- Beat together the munavoi ingredients, and use it as butter on the pasties.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKarelian_Pasties_%28Karjalanpiirakat%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Karelian Pasties (Karjalanpiirakat)@4587202
+    url: https://en.wikibooks.org/w/index.php?oldid=4587202
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

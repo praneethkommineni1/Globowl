@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: gi-deep-fried-chickpea-dough-with-lemon
+title: Deep Fried Chickpea Dough with Lemon
+alternate_names:
+- Panissa
+summary: Panissa is a sort of Gibraltarian set pudding made with cooked chickpea flour. There is also an original Italian one, though what is referred to as panissa in Italy nowadays is more akin to the Gibraltarian calentita.
+origin:
+  country: GI
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: chickpea-flour, unit: g, qty: 500}
+  - {ingredient: water, unit: l, qty: 2}
+  - {ingredient: olive-oil}
+  - {ingredient: salt}
+  - {ingredient: lemon-juice}
+  - {ingredient: parsley, optional: true}
+steps:
+- Stir the chickpea flour into the 2 litres of lightly salted water over a moderate flame.
+- Stir the mixture steadily in the same direction with a wooden spoon until you obtain a soft, lump-free paste.
+- When the paste begins to pull away from the sides of the pot, turn it out into oiled wooden moulds, or spread it out about ¼ inch (½ cm) high on your work surface. Alternatively, pour the mixture into saucers. Make sure to dust the surface with parsley beforehand if you're including it.
+- Let the mixture cool and set.
+- If you didn't use molds, cut the cooled mixture into 1 x 3-inch (3 x 7 cm) rectangles or into wedges.
+- Fry the pieces in hot oil.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADeep_Fried_Chickpea_Dough_with_Lemon_%28Panissa%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Deep Fried Chickpea Dough with Lemon (Panissa)@4510078
+    url: https://en.wikibooks.org/w/index.php?oldid=4510078
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

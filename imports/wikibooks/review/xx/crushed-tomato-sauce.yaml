@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - course unknown from categories
+id: xx-crushed-tomato-sauce
+title: Crushed Tomato Sauce
+summary: An easy tomato sauce recipe that's great with pasta and chicken or eggplant parmesan. It also works well with pizza, and as a dip for mozzarella sticks.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 30
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil, unit: cup, qty: 0.25}
+  - {ingredient: onion, qty: 0.5, prep: or an equal amount of shallots}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: tomato, unit: can, qty: 1}
+  - {ingredient: basil, unit: leaf, qty: [5, 6], prep: julienned or minced}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: black-pepper}
+  - {ingredient: italian-seasoning, unit: tbsp, qty: 1, optional: true}
+steps:
+- Heat olive oil in skillet or pot over medium-high heat. Add garlic, onions, salt, pepper, and Italian seasoning, if desired.
+- Turn the heat down to low and add tomatoes.
+- Cook over low heat for 15 minutes, stirring occasionally.
+- Taste a spoonful of the sauce, and season with salt to taste; taste again and salt as needed.
+- After it is salted to your taste, stir in the basil and remove from the heat.
+- Serve however you like and enjoy!
+tips:
+- You may add ground meat or ground Italian sausage, cooked in a separate pan with vegetable oil.
+- If you add mushrooms, make sure to cook them with the onions.
+- Try swapping half the olive oil for pork fat.
+- If you want a little kick, add a teaspoon of crushed red pepper flakes when cooking the onions.
+- If you have a spare rind from a wedge of parmesan, you can add the rind to the sauce while it simmers for additional savory umami flavor.
+- The sauce freezes well. Defrost some whenever you want pasta, pizza, eggplant parm, or mozzarella sticks.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACrushed_Tomato_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Crushed Tomato Sauce@4518888
+    url: https://en.wikibooks.org/w/index.php?oldid=4518888
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

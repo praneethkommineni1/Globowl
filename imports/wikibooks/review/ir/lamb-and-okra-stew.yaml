@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: ir-lamb-and-okra-stew
+title: Lamb and Okra Stew
+alternate_names:
+- Khoresht Bamiye
+summary: Khoresht bamiye is a Persian lamb and okra stew.
+origin:
+  country: IR
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: [3, 4], prep: peeled and thinly sliced}
+  - {ingredient: vegetable-oil}
+  - {ingredient: lamb, unit: g, qty: 500, prep: cut into small pieces}
+  - {ingredient: okra, unit: g, qty: 750, prep: washed with stems trimmed}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: tomato-paste, qty: [3, 4]}
+  - {ingredient: lime, qty: [2, 3]}
+steps:
+- Fry the sliced onion in oil until slightly golden.
+- Add the meat and fry with the onions until the color changes.
+- Add 3 glasses of hot water and bring to boil. Turn heat down and let boil slowly for about 45 minutes, adding more hot water during cooking if needed.
+- Add okra, salt, pepper, and tomato paste to the meat. Cook for another 10–15 minutes. Take care not to overcook the okras so that they do not become slippery.
+- Add lime juice and adjust seasoning. Cook for another 3–4 minutes.
+- Serve with white rice.
+tips:
+- If desired, potatoes can also be added to khoresht bamieh. In that case, 500 grams of potatoes should be washed, peeled and cut into small pieces, and added in with 500 grams of okra (or slightly earlier; required cooking time depends somewhat on the size of the cut pieces).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALamb_and_Okra_Stew_%28Khoresht_Bamiye%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lamb and Okra Stew (Khoresht Bamiye)@4525639
+    url: https://en.wikibooks.org/w/index.php?oldid=4525639
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

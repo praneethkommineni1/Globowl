@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - course unknown from categories
+id: in-deep-fried-chickpea-dough-curry-snacks
+title: Deep Fried Chickpea Dough Curry Snacks
+alternate_names:
+- Pakoda
+summary: Pakoda is a savoury South Indian fried snack made from gram flour, spices and onions. This simple recipe is for Pakoda as made in Tamil Nadu, India. A different version called "pakora" is famous in the other parts of India.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 20
+difficulty: 3
+techniques:
+- deep-frying
+ingredient_groups:
+- items:
+  - {ingredient: chickpea-flour, unit: cup, qty: 1}
+  - {ingredient: water, unit: cup, qty: 0.5}
+  - {ingredient: rice-flour, unit: tsp, qty: 2}
+  - {ingredient: mung-beans, unit: tsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: asafoetida}
+  - {ingredient: ground-turmeric}
+  - {ingredient: cayenne}
+  - {ingredient: curry-leaves, qty: [8, 10]}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: onion, qty: 1, prep: chopped finely}
+  - {ingredient: roasted-peanuts, unit: cup, qty: 0.5, prep: preferably roasted}
+  - {ingredient: vegetable-oil, unit: tsp, qty: 1}
+  - {ingredient: vegetable-oil}
+steps:
+- Combine all the dry ingredients except the salt, peanuts, and onions. Mix well.
+- Add the onions, peanuts, 1 tsp oil, and salt. Mix well, then keep aside for about 10 minutes. The moisture from the onions will ooze out into the batter.
+- Adding a little bit of water at a time, make a dough that will form chunks but break into pieces with a little bit of pressure. The consistency should be the same as when making scones. Too much water and the pakoda will not be crunchy.
+- Heat oil in a heavy-bottomed cooking vessel.
+- Shape the dough into chunks, and deep-fry them in medium-hot oil until golden-brown and crispy. Too much turmeric might give it a darker color.
+- Serve hot or room temperature.
+tips:
+- Store at room temperature for about 3–4 days. Avoid refrigerating to maintain the crunchy texture.
+- A tradition during the monsoon season is to serve piping hot tea after pakodas.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADeep_Fried_Chickpea_Dough_Curry_Snacks_%28Pakoda%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Deep Fried Chickpea Dough Curry Snacks (Pakoda)@4508189
+    url: https://en.wikibooks.org/w/index.php?oldid=4508189
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

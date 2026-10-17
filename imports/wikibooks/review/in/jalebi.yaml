@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (IN, PK): confirm the country of origin
+#  - no time in recipe summary
+id: in-jalebi
+title: Jalebi
+alternate_names:
+- Fritters in Syrup
+summary: Jalebi is a sweet fritter that is shaped like a slightly large, chaotic pretzel. It is traditionally prepared in India and Pakistan. Well-made jalebi has a tart element with a sweet taste.
+origin:
+  country: IN
+  also_claimed_by:
+  - PK
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 7
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+ingredient_groups:
+- name: Batter
+  items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 3}
+  - {ingredient: chickpea-flour, unit: cup, qty: 0.25}
+  - {ingredient: baking-powder, unit: tsp, qty: 0.25}
+  - {ingredient: water, unit: cup, qty: 1.5}
+  - {ingredient: vegetable-oil, unit: cup, qty: 3}
+- name: Syrup
+  items:
+  - {ingredient: sugar, unit: cup, qty: 4}
+  - {ingredient: water, unit: cup, qty: 3}
+  - {ingredient: cream-of-tartar, unit: tsp, qty: 0.125}
+  - {ingredient: food-coloring}
+  - {ingredient: rose-water, unit: tsp, qty: 1}
+steps:
+- Mix up the batter ingredients until smooth.
+- Let the batter sit unrefrigerated and uncovered overnight (about 12 hours).
+- Mix the sugar, water, and cream of tartar for the syrup.
+- Stir the syrup over moderate heat until the sugar is dissolved.
+- Put on high heat and boil for 5 minutes.
+- Let the syrup cool, and stir in the rosewater. Use food coloring to tint it light orange.
+- Put the vegetable oil in a wide wok-like dish, and heat to about 350°F (175°C).
+- Put the batter into a pastry bag with about a ¼ inch opening. If it is too dry to squeeze out, mix in a bit of water.
+- Squeeze the batter into the oil, making a couple of figure-eight shapes and loops on top of each other. The shape should be about 3 inches on its longest side.
+- Fry each jalebi until golden brown. Remove, let the oil drain off, then soak in syrup for a minute.
+- Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AJalebi_%28Fritters_in_Syrup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Jalebi (Fritters in Syrup)@4517743
+    url: https://en.wikibooks.org/w/index.php?oldid=4517743
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Cassava flour
+id: ng-nni-ede
+title: Nni Ede
+alternate_names:
+- Nigerian Pounded Cocoyam
+summary: Nni ede is a typical Nigerian dish made from a mixture of cocoyam and cassava flour. It is served with ẹ̀gusi soup, ogbonno soup or okro soup.
+origin:
+  country: NG
+course: side
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 20
+difficulty: 2
+equipment:
+- Stove
+- Pot
+- Turning stick
+- Bowl
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: taro}
+  - {ingredient: water}
+steps:
+- Cut the cocoyam into small pieces. Rinse the pieces, and boil them for few minutes. Drain the cocoyam.
+- Mix water into the cassava flour to make a dough. Shape into balls.
+- Boil the cassava balls for few minutes, then drain.
+- Pound together the cassava balls and cocoyam until smooth and lump-free.
+- Serve with your choice of soup.
+tips:
+- When cocoyam is pounded it becomes soft and sticky. Thus, the cassava flour is added to serve as a binder, which thickens the mixture and makes it easier to shape.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANni_Ede_%28Nigerian_Pounded_Cocoyam%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nni Ede (Nigerian Pounded Cocoyam)@4518761
+    url: https://en.wikibooks.org/w/index.php?oldid=4518761
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

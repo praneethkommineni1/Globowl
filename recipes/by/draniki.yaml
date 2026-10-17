@@ -1,0 +1,37 @@
+id: by-draniki
+title: Draniki
+native_name: {text: Дранікі, lang: be, romanized: draniki}
+alternate_names: [Belarusian potato pancakes]
+summary: Belarus's beloved potato pancakes — grated potato and onion fried until crisp, served hot with sour cream.
+origin:
+  country: BY
+  also_claimed_by: [UA, PL]
+course: main
+dish_types: [pancake, potato]
+authenticity: traditional
+yield: {servings: 4, amount: about 16 pancakes}
+time: {prep_min: 20, cook_min: 25}
+difficulty: 2
+techniques: [pan-frying]
+ingredient_groups:
+  - items:
+      - {ingredient: potato, qty: 1, unit: kg, prep: "peeled and finely grated", note: "floury"}
+      - {ingredient: onion, qty: 1, prep: "finely grated"}
+      - {ingredient: egg, qty: 1}
+      - {ingredient: all-purpose-flour, qty: 2, unit: tbsp}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.25, unit: tsp}
+      - {ingredient: vegetable-oil, qty: 120, unit: ml, note: "for frying"}
+      - {ingredient: sour-cream, qty: 200, unit: ml, note: "to serve"}
+steps:
+  - Grate the onion first and then the potatoes into it — the onion keeps the potatoes from browning. Drain off some of the liquid.
+  - Mix in the egg, flour, salt and pepper.
+  - Fry spoonfuls in hot oil, flattening slightly, until golden and crisp on both sides (about 3 minutes per side).
+  - Serve hot with sour cream.
+serving: Also with machanka (pork and sour-cream gravy) or mushrooms.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

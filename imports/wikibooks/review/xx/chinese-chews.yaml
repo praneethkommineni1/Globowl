@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+id: xx-chinese-chews
+title: Chinese Chews
+alternate_names:
+- Nut and Date Bars
+summary: Chinese chews are a bar cookie containing nuts and dried fruit. They have a chewy consistency.
+origin:
+  country: XX
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 45
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 2}
+  - {ingredient: sugar, unit: cup, qty: 0.667}
+  - {ingredient: self-rising-flour, unit: cup, qty: 0.667}
+  - {ingredient: salt, unit: tsp, qty: 0.333}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: dates, unit: cup, qty: 0.5}
+  - {ingredient: raisins, unit: cup, qty: 0.5}
+  - {ingredient: walnuts, unit: cup, qty: 0.75}
+  - {ingredient: powdered-sugar, note: to taste}
+steps:
+- Beat eggs until foamy. Add sugar and mix.
+- Add flour and salt.
+- Add vanilla, then the fruit and nuts. Mix well.
+- Spread in greased 8-inch cake pan.
+- Bake for about 30–35 minutes at 350°F (175°C) until golden brown.
+- Cut into squares while still warm. Roll in icing sugar.
+tips:
+- Can be enjoyed on its own or with ice cream.
+- Cools to a firm consistency.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChinese_Chews_%28Nut_and_Date_Bars%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chinese Chews (Nut and Date Bars)@4530167
+    url: https://en.wikibooks.org/w/index.php?oldid=4530167
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

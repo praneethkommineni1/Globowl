@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup crème pâtissière
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-meringata
+title: Meringata
+alternate_names:
+- Cream-filled Meringue Gateaux
+summary: Meringata (literally "meringued") refers to any type of cake or dessert with a meringue topping or meringue mixed into it such as meringata di limone (lemon meringue pie) or meringata di panna (meringue cream gateaux, pie, or other dessert).
+origin:
+  country: IT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- simmering
+ingredient_groups:
+- name: Meringues
+  items:
+  - {ingredient: egg-white, unit: g, qty: 227}
+  - {ingredient: caster-sugar, unit: g, qty: 454}
+- name: Filling
+  items:
+  - {ingredient: egg-white, qty: 2}
+  - {ingredient: sugar, unit: g, qty: 142}
+  - {ingredient: water, unit: tbsp, qty: 3}
+  - {ingredient: heavy-cream, unit: cup, qty: 2}
+steps:
+- Whisk the egg whites and sugar in a bowl over simmering water until it reaches 120°F (50°C).
+- Remove from the heat and continue whipping until the meringue is cool and stiff.
+- Line a baking sheet with parchment paper and draw two 10-inch circles on the paper.
+- Using a pastry bag, pipe a spiral beginning in the centre of the circle and working outwards to form a disc about ½ inch thick.
+- Repeat with the other circle.
+- With the remaining meringue, pipe 20 small meringues using a star tip.
+- Bake the meringues for 2–2½ hours at 200–225°F (110°C) until crisp but not brown. For a whiter meringue, bake at 180°F (80°C) overnight.
+- Use the egg yolks left over from the meringue to make 1 cup of crème pâtissière. Chill well.
+- Use the egg whites, sugar, and water to make an Italian meringue. Refrigerate to cool thoroughly.
+- Whip the cream to medium peaks. Fold in the 1 cup of cold pastry cream and Italian meringue. Refrigerate until ready to proceed with the assembly.
+- Spread one half of the filling on one of the meringue discs.
+- Place the second disc on top and cover the second disc with the rest of the filling.
+- Arrange the small meringues in concentric circles on top of the meringata.
+- Refrigerate for 2 hours before serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMeringata_%28Cream-filled_Meringue_Gateaux%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Meringata (Cream-filled Meringue Gateaux)@4587385
+    url: https://en.wikibooks.org/w/index.php?oldid=4587385
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

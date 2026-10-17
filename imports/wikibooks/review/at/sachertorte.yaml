@@ -1,0 +1,85 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - duplicate id at-sachertorte from another Wikibooks page
+id: at-sachertorte
+title: Sachertorte
+alternate_names:
+- Duramecho Version
+summary: Sachertorte (Ger. ˈzɑxər ˈtɔrtə; Eng.ˈsɑkər ˈtɔrt; Ger. zah-khuhr tawr-tuh; sah-ker tawrt); is a chocolate cake, invented by Franz Sacher in 1832 in Vienna, Austria. It is one of the most famous Viennese culinary specialties. The word is sometimes split into Sacher torte.
+origin:
+  country: AT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 110
+difficulty: 3
+equipment:
+- Oven
+- 2 mixing bowls
+- Whisk
+- Knife
+- Scales
+- Microwave oven with microwaveable bowl or a saucepan
+- Round cake tin (preferably springform with removable bottom) about 20 cm diameter and 10 cm high
+- A cup or similar as temporary egg yolk container
+- Greaseproof paper
+techniques:
+- baking
+- whisking
+ingredient_groups:
+- name: Cake
+  items:
+  - {ingredient: egg, qty: 6}
+  - {ingredient: caster-sugar, unit: g, qty: 200}
+  - {ingredient: butter, unit: g, qty: 100, prep: soft but not melted}
+  - {ingredient: chocolate, unit: g, qty: 125, prep: melted}
+  - {ingredient: all-purpose-flour, unit: g, qty: 125}
+  - {ingredient: vanilla-extract, unit: ml, qty: 5}
+- name: Assembly
+  items:
+  - {ingredient: jam, unit: g, qty: 150}
+  - {ingredient: golden-syrup, unit: g, qty: 150}
+  - {ingredient: chocolate, unit: g, qty: 150}
+steps:
+- Preheat the oven to 170°C.
+- Separate the eggs, putting the whites in a mixing bowl.
+- Whisk the whites until fairly stiff and foamy. Add three quarters of the sugar. Whip until fully stiff and foamy, incorporating as much air as possible.
+- Cream the remaining sugar with the butter and vanilla until pale and creamy.
+- Gently mix in the egg yolks, then the molten chocolate.
+- Fold the egg white foam into the batter.
+- Sift the flour over the batter, carefully avoiding lumps of flour. Mix very gently, folding the ingredients together. Ensure the heavy chocolate does not all end up at the bottom of the bowl.
+- Line the cake tin with greaseproof paper, and fill it with the batter.
+- Bake at 170°C for about 70 minutes.
+- Allow to cool in the tin upside down until the cake reaches room temperature (about 30 minutes).
+- Microwave the jam until it melts.
+- Cut the cake body in half horizontally and place the halves with inner (cut) faces uppermost.
+- Pour the molten jam onto both halves of the cake, and allow it to soak in.
+- Reassemble the cake, with cut surfaces together. Allow the surface to cool again.
+- Microwave the golden syrup and chocolate together until the syrup just starts to bubble. Stir until they are smoothly mixed, then cool to about 25°C. This mixture should be spreadable and able to support a thickness of about 2 mm on a vertical surface (test on the wall of the bowl) yet return to shiny soon after being spread. If it is too hard or soft, add more golden syrup or chocolate and go back to the microwaving stage.
+- Spread cake body with the glaze. Leave it to set.
+tips:
+- The little bubbles in the egg white foam are what inflate the cake. Do not accidentally get any fat (from the egg yolks, butter, or chocolate) in the egg white mix or it will not foam properly.
+- Do not allow flour lumps in the mix, because lumps of white flour show up badly in this brown cake.
+- To get the traditional perfectly cylindrical shape, trim the cake body into a circle with vertical edges, and cut the top off flat before glazing.
+- Adding alcohol to the cake is not a good idea. It is already very moist, and more liquid will make it soggy.
+- Don't use white chocolate in the cake body because it is fairly unnoticeable in flavour and colour, leaving only the moistening effect.
+- Don't use self-raising flour, which creates large bubbles in the cake.
+- If carried out in the order above, no tool should need to be washed up more than once.
+- There are several other recipes for Sachertorte—some use even more eggs in the cake and egg and cream in the glaze.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASachertorte_%28Duramecho_Version%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sachertorte (Duramecho Version)@4587338
+    url: https://en.wikibooks.org/w/index.php?oldid=4587338
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

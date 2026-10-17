@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 6.5 ounces canned chopped clams, minimum
+id: us-manhattan-clam-chowder
+title: Manhattan Clam Chowder
+summary: Manhattan clam chowder is a soup traditionally made from clams, herbs, tomatoes, and other vegetables. Despite its name, it originated in Rhode Island, not Manhattan.
+origin:
+  country: US
+course: soup
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 90
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: g, qty: 425, prep: or 2 small boiled potatoes}
+  - {ingredient: tomato, unit: g, qty: 794, prep: or 2 large tomatoes and tomato juice}
+  - {ingredient: celery, unit: stalk, qty: 2}
+steps:
+- Core the tomatoes. Remove the pale parts and the seeds; the "meat" of the tomato will be what will be used. For canned tomatoes, a strainer will be helpful.
+- Chop all non-clam ingredients to match the clams in size.
+- If desired add spices. Suggestions offered include dill seed, basil, thyme, celery seed, tarragon, marjoram, and/or fresh cilantro. Alternatively, oregano can be used in lieu of the marjoram.
+- Cook the chowder, without boiling, until the celery begins to soften.
+tips:
+- A sturdy type of fish can be used in place of the clams; good choices include catfish, tilapia, and pollock.
+- Cooked rice can be substituted for the potatoes, the celery can be replaced with spinach or seaweed, and lemon juice can be added.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AManhattan_Clam_Chowder_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Manhattan Clam Chowder I@4630304
+    url: https://en.wikibooks.org/w/index.php?oldid=4630304
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

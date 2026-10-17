@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 kg horse meat
+#  - unmapped ingredient: Chilli peppers
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: it-pezzetti-di-cavallo
+title: Pezzetti di Cavallo
+alternate_names:
+- Italian Horse and Tomato
+summary: Pezzetti di cavallo (pieces of horse) is a dish from Italy.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: canned-tomatoes, unit: l, qty: 1}
+  - {ingredient: onion, prep: chopped}
+  - {ingredient: olive-oil}
+  - {ingredient: parsley}
+  - {ingredient: carrot}
+  - {ingredient: celery}
+  - {ingredient: bay-leaf, unit: leaf, qty: 2}
+steps:
+- Cut the horse meat in cubes, and fry it in a pan with some onion until it turns brown.
+- Add tomato sauce.
+- Add carrots, parsley, celery, laurel, and chilli peppers to taste.
+- Cook on low heat (preferably in a clay pot).
+- Skim the foam on the top and let simmer for 4 hours.
+- Serve with home-made bread.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APezzetti_di_Cavallo_%28Italian_Horse_and_Tomato%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pezzetti di Cavallo (Italian Horse and Tomato)@4520576
+    url: https://en.wikibooks.org/w/index.php?oldid=4520576
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,44 @@
+id: ng-amala-ogede
+title: Amala Ọgẹdẹ
+alternate_names:
+- Nigerian Plantain Fufu
+summary: Amala ọgẹdẹ is a typical Nigerian swallow made from plantain flour. It is served with ẹgusi soup, ogbono soup, or okro soup.
+origin:
+  country: NG
+course: side
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 15
+difficulty: 2
+equipment:
+- Bowl
+- Wooden turning stick
+- Pot
+- Stove
+ingredient_groups:
+- items:
+  - {ingredient: plantain}
+  - {ingredient: water}
+steps:
+- Boil some water in a pot.
+- Slowly stir in the plantain flour until smooth and lump-free.
+- Add some water and cook for few minutes.
+- Serve with the soup of your choice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAmala_%E1%BB%8Cg%E1%BA%B9d%E1%BA%B9_%28Nigerian_Plantain_Fufu%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Amala Ọgẹdẹ (Nigerian Plantain Fufu)@4518745
+    url: https://en.wikibooks.org/w/index.php?oldid=4518745
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

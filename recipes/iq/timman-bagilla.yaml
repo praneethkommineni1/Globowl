@@ -1,0 +1,47 @@
+id: iq-timman-bagilla
+title: Timman Bagilla
+native_name: {text: تمن باقلاء, lang: ar, romanized: timman bāgilla}
+alternate_names: [Iraqi dill and broad bean rice]
+summary: Basmati rice layered with broad beans and lots of dill, often served with slow-cooked lamb.
+origin:
+  country: IQ
+course: main
+dish_types: [rice-dish]
+authenticity: home-style
+yield: {servings: 5}
+time: {prep_min: 15, cook_min: 120, inactive_min: 30}
+difficulty: 2
+techniques: [simmering, rice-cooking]
+ingredient_groups:
+  - name: Lamb (optional but traditional)
+    items:
+      - {ingredient: lamb-shoulder, qty: 800, unit: g, note: "shanks or on-the-bone pieces", optional: true}
+      - {ingredient: water, qty: 1.5, unit: l}
+      - {ingredient: ground-cardamom, qty: 0.5, unit: tsp}
+      - {ingredient: dried-lime, qty: 1, prep: "pierced"}
+      - {ingredient: bay-leaf, qty: 2}
+  - name: Rice
+    items:
+      - {ingredient: basmati-rice, qty: 400, unit: g}
+      - {ingredient: vegetable-oil, qty: 3, unit: tbsp, alt: [ghee]}
+      - {ingredient: broad-beans-frozen, qty: 300, unit: g, note: "skinned if you like"}
+      - {ingredient: dill, qty: 1, unit: bunch, prep: "chopped", note: "or 3 tbsp dried"}
+      - {ingredient: ground-turmeric, qty: 1, unit: pinch}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: water, qty: 650, unit: ml, note: "or lamb broth"}
+steps:
+  - text: If using lamb, simmer it with the water, cardamom, dried lime and bay leaves until very tender. Keep the broth.
+    timer_min: 90
+  - text: Rinse the rice and soak it.
+    timer_min: 30
+  - Fry the broad beans in the oil for 3 minutes, add the drained rice, dill, turmeric and salt and stir to coat.
+  - text: Add 650 ml of broth or water, bring to a boil, then cover tightly and cook on the lowest heat until fluffy.
+    timer_min: 20
+  - Serve the rice topped with the lamb.
+serving: With yogurt and a tomato-cucumber salad.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

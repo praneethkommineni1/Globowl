@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 3 parts by weight of water
+#  - unmapped ingredient: Seasoning, as desired
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-beurre-monte
+title: Beurre Monté
+summary: Beurre monté is a French sauce with many applications; it can be used plain as a dip, cooked in, or adjusted with savory or sweet ingredients. The sauce is simply an emulsion of butter into water, which gives butter a saucier consistency.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: butter, qty: 8, prep: cold}
+steps:
+- Bring the water to a low boil in an appropriately sized cooking vessel, such as a saucepan.
+- Add butter, gradually whisking until smoothly incorporated. Make sure the butter is completely emulsified in before adding the next chunk.
+- Season to taste as desired.
+- Keep warm until use. Don't overheat, as this will break the emulsion.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeurre_Mont%C3%A9&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Beurre Monté@4518853
+    url: https://en.wikibooks.org/w/index.php?oldid=4518853
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

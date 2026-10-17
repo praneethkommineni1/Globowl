@@ -1,0 +1,78 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-katchi-biryani
+title: Katchi Biryani
+summary: Katchi Biryani.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- marinating
+ingredient_groups:
+- name: Marinade
+  items:
+  - {ingredient: onion, qty: 4, prep: finely sliced and fried in ghee or butter, note: large}
+  - {ingredient: yogurt, unit: cup, qty: 2}
+  - {ingredient: red-chili, qty: 3, prep: chopped}
+  - {ingredient: mint, unit: bunch, qty: 1, prep: chopped}
+  - {ingredient: ghee, unit: tbsp, qty: 2}
+  - {ingredient: garam-masala, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: ginger-garlic-paste, unit: tbsp, qty: 1}
+  - {ingredient: chicken, unit: g, qty: 907}
+- name: Rice
+  items:
+  - {ingredient: green-cardamom-pods}
+  - {ingredient: cumin-seeds}
+  - {ingredient: black-peppercorns}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: long-grain-rice, unit: cup, qty: 2.75}
+- name: Assembly
+  items:
+  - {ingredient: butter, unit: tbsp, qty: 8, prep: in 4 pieces}
+  - {ingredient: lemon}
+  - {ingredient: saffron, unit: pinch, qty: 1}
+  - {ingredient: milk}
+  - {ingredient: red-chili, qty: 2, prep: whole}
+  - {ingredient: cilantro, unit: bunch, qty: 1, prep: chopped}
+  - {ingredient: onion}
+  - {ingredient: garam-masala}
+steps:
+- Combine fried onions, yoghurt, chopped green peppers, chopped mint leaves, ghee, garam masala powder, salt, ginger garlic paste. Add the chicken pieces, and leave this to marinate at least 4–5 hours.
+- Bring a pot of water to a boil. Add cardamom, black cumin, peppercorns, cinnamon stick, salt, and oil. When the water boils, mix in the rice.
+- Cook the rice until tender but not completely cooked—it will cook more later. Drain the water from the rice.
+- Add a very thin layer of rice on the bottom of the pot to prevent the meat from sticking. Add the marinated chicken on top. Top the chicken with the remaining drained rice.
+- Combine the saffron and milk. Place one butter chunk in each quadrant of the pot. Pour the lemon juice and saffron milk over the rice, then stick the whole chiles in the rice.
+- Add the chopped coriander leaves, fried onions, and a sprinkle of garam masala.
+- Cover pot completely with foil so no steam can escape. Cook over high heat for about 10 minutes.
+- Reduce heat to medium. Continue cooking about 30–35 minutes, rotating the pot every 10 minutes for even heating.
+- Check to make sure the meat and rice are fully cooked.
+- Serve.
+tips:
+- You can substitute lamb or goat for the chicken—in this case, marinate for 12 hours.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKatchi_Biryani&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Katchi Biryani@4523281
+    url: https://en.wikibooks.org/w/index.php?oldid=4523281
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

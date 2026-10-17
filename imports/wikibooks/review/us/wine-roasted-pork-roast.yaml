@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 tablespoons Montreal steak seasoning
+id: us-wine-roasted-pork-roast
+title: Wine-Roasted Pork Roast
+summary: Wine-Roasted Pork Roast.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 240
+difficulty: 3
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: pork, qty: [4, 5]}
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: red-wine, unit: cup, qty: 1.5}
+steps:
+- Heat olive oil in 10-inch Dutch oven over campfire.
+- Rub seasoning on roast.
+- Add roast to Dutch oven, turning to brown on all sides.
+- Add onion, sauté 5 minutes.
+- Pour wine over roast.
+- Cover and cook slowly for three hours over fire.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AWine-Roasted_Pork_Roast&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Wine-Roasted Pork Roast@4525777
+    url: https://en.wikibooks.org/w/index.php?oldid=4525777
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

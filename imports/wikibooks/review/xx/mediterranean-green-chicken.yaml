@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 tablespoons Italian herb blend
+id: xx-mediterranean-green-chicken
+title: Mediterranean Green Chicken
+summary: Mediterranean Green Chicken.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 120
+difficulty: 2
+techniques:
+- baking
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: parsley, unit: bunch, qty: 1, prep: washed}
+  - {ingredient: shallot, qty: 2, prep: peeled and coarsely chopped}
+  - {ingredient: garlic, unit: clove, qty: 3}
+  - {ingredient: olive-oil, unit: tbsp, qty: 6}
+  - {ingredient: dijon-mustard, unit: tbsp, qty: 3}
+  - {ingredient: lemon}
+  - {ingredient: black-pepper, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: chicken, qty: 1, prep: cut up}
+steps:
+- In a blender or food processor, combine parsley, shallots, garlic, olive oil, mustard, Italian herb blend, lemon juice, pepper, and salt. Purée.
+- Transfer mixture to a gallon zip-lock bag.
+- Add chicken, making sure it's covered on all sides by the marinade.
+- Seal bag and refrigerate for an hour.
+- Preheat oven to 300°F (150C).
+- Transfer chicken pieces to a rimmed baking sheet.
+- Bake about 40 minutes, turning pieces after 20 minutes, until juices run clear.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMediterranean_Green_Chicken&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mediterranean Green Chicken@4613415
+    url: https://en.wikibooks.org/w/index.php?oldid=4613415
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

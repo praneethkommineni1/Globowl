@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Lemon basil
+#  - unmapped ingredient: Cress
+#  - unmapped ingredient: Tarragon
+#  - unmapped ingredient: Radishes
+#  - no servings in recipe summary
+id: am-kanachi
+title: Kanachi
+alternate_names:
+- Armenian Herb Salad
+summary: Kanachi ( -- Armenian for herbs) consists of an assortment of various aromatic and tasty herbs that are served raw as an appetizer and/or side dish next to main courses of Armenian dishes. There is also a Persian cuisine equivalent called sabzi khordan.
+origin:
+  country: AM
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 15
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: basil}
+  - {ingredient: scallion}
+  - {ingredient: mint}
+steps:
+- Remove extra stem endings, yellow leaves, and damaged parts from all herbs and wash them thoroughly. Drain.
+- Remove roots from green onions and radishes and majority of radish leaves (leaving only the younger ones). Wash them thoroughly and drain.
+- Mix them up or arrange them on a plate.
+- Eat raw and enjoy!
+tips:
+- To store for later, put the washed herbs in a semi-humid clean cotton bag which you can close by a string and keep in a refrigerator. Will keep well for a few days to a week.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKanachi_%28Armenian_Herb_Salad%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kanachi (Armenian Herb Salad)@4518146
+    url: https://en.wikibooks.org/w/index.php?oldid=4518146
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

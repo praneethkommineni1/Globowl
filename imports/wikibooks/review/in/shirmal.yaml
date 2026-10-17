@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (IN, PK): confirm the country of origin
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-shirmal
+title: Shirmal
+alternate_names:
+- Persian Saffron Flatbread
+summary: Shirmal, also sheermal, is a traditional flatbread made in Pakistan and in the Hyderabad region of India, probably from Persian influences.
+origin:
+  country: IN
+  also_claimed_by:
+  - PK
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: saffron}
+  - {ingredient: milk, unit: tbsp, qty: 2}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 3}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: ghee, unit: cup, qty: 0.75}
+  - {ingredient: milk, unit: cup, qty: 1}
+steps:
+- Soak the saffron strands in the warm milk. Set aside.
+- Sift together flour and salt, then sprinkle in sugar.
+- Add the melted ghee, and mix with your fingers until evenly distributed.
+- Add milk a little at a time, and knead the mixture to a dough. When it forms a soft smooth lump, cover with a moist cloth and set aside for 2 hours.
+- Knead, then set aside again for 2 hours.
+- Knead again, and divide the dough into 7 parts.
+- Rub saffron strands in the milk to dissolve them.
+- Place an inverted heavy iron pan on the lower shelf of oven. Keep the grill on upper rack. Preheat to 250°C (480°F).
+- On a floured surface, roll each piece of dough into a thick round about 6 inches in diameter. Prick with fork all over.
+- Slap dough onto the hot pan base, and allow to bake until brown spots appear.
+- Move sheermal to the grill with tongs. Dip fingers in saffron milk and splash on sheermal. Keep in oven few more seconds.
+- Remove sheermal, and either immediately serve hot or wrap in slightly moist towel.
+- Apply butter or ghee on top if desired. Serve with gravies, veggies, curds, pickles or jams.
+tips:
+- You can also bake the shirmal in a traditional tandoor or in inverted pressure cooker.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AShirmal_%28Persian_Saffron_Flatbread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Shirmal (Persian Saffron Flatbread)@4522376
+    url: https://en.wikibooks.org/w/index.php?oldid=4522376
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

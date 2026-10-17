@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 x 1-inch cube galangal, sliced thin
+id: th-tom-kha-kai
+title: Tom Kha Kai
+summary: Tom kha kai (or tom kha gai) is a Thai soup with the distinct, very Thai flavor of galangal, a rhizome somewhat similar to ginger. Kha means "galangal" in Thai. This version of the soup is made with chicken (kai or gai).
+origin:
+  country: TH
+course: soup
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: coconut-milk, unit: cup, qty: 2.5}
+  - {ingredient: chicken-stock, unit: cup, qty: 3.25}
+  - {ingredient: lemongrass, unit: stalk, qty: 4, prep: cut into 1-inch pieces or split lengthwise}
+  - {ingredient: red-chili, qty: [3, 4], prep: finely chopped}
+  - {ingredient: chicken, unit: g, qty: 400, prep: cubed}
+  - {ingredient: onion, qty: 1, prep: quartered, note: medium}
+  - {ingredient: tomato, qty: 1, prep: quartered and peeled}
+  - {ingredient: mushroom, unit: cup, qty: 1, prep: sliced}
+  - {ingredient: sugar, unit: tsp, qty: 1.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: lime, unit: tbsp, qty: 3}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: cilantro, unit: tbsp, qty: 4}
+steps:
+- Bring stock and coconut milk to a boil.
+- Add lemongrass, galangal, chilies, sugar, and pepper.
+- Add onion, tomato, chicken bits, and mushrooms.
+- Keep at a rolling boil for 4 minutes.
+- Remove the pot from the heat.
+- Stir in lime juice and soy sauce.
+- Garnish with cilantro and chilies.
+tips:
+- You can substitute ginger, as galangal and ginger are similar, but the flavors are different.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATom_Kha_Kai&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tom Kha Kai@4610527
+    url: https://en.wikibooks.org/w/index.php?oldid=4610527
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

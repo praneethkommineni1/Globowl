@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Grated zest of 1 lemon
+#  - unmapped ingredient: 200 g chopped hazelnuts
+#  - unmapped ingredient: 50 g lemon flavoring
+#  - unmapped ingredient: 50 g orange flavoring
+#  - unmapped ingredient: Gingerbread wafers
+id: de-nuremberg-gingerbread
+title: Nuremberg Gingerbread
+summary: Recipe for gingerbread from Germany.
+origin:
+  country: DE
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 15
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- baking
+- boiling
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: honey, unit: g, qty: 500}
+  - {ingredient: sugar, unit: g, qty: 250}
+  - {ingredient: all-purpose-flour, unit: g, qty: 150}
+  - {ingredient: ground-cloves, unit: tsp, qty: 1, prep: ground}
+  - {ingredient: nutmeg, unit: tsp, qty: 1}
+  - {ingredient: ground-cardamom, unit: tsp, qty: 1}
+  - {ingredient: ground-cinnamon, unit: tbsp, qty: 1}
+  - {ingredient: ground-ginger, unit: pinch, qty: 1}
+  - {ingredient: orange}
+  - {ingredient: baking-powder, qty: 1}
+steps:
+- Bring the honey and sugar to the boil in a saucepan while stirring. Remove from the heat and let cool.
+- Sift the flour into a bowl.
+- Stir in the remaining ingredients.
+- Pour the honey mixture, then the baking powder into the flour. Stir and knead the dough until it cools down.
+- Roll out the dough.
+- Cut out the dough, and place on the gingerbread wafers.
+- Decorate with an almond, and transfer to a baking sheet.
+- Let cool for about a day
+- Bake at 180 °C for 15–20 minutes
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANuremberg_Gingerbread&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nuremberg Gingerbread@4515310
+    url: https://en.wikibooks.org/w/index.php?oldid=4515310
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

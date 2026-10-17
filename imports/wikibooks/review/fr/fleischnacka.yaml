@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 4 cups Riesling wine
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: fr-fleischnacka
+title: Fleischnacka
+alternate_names:
+- Alsatian Meat and Pasta Roll
+summary: Fleischnacka.
+origin:
+  country: FR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- dough-making
+ingredient_groups:
+- name: Dough
+  items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 454}
+  - {ingredient: egg, qty: 4}
+  - {ingredient: salt}
+  - {ingredient: water, unit: cup, qty: 1}
+- name: Filling
+  items:
+  - {ingredient: beef, unit: g, qty: 1134}
+  - {ingredient: onion, qty: 1, note: large}
+  - {ingredient: garlic, unit: clove, qty: 3}
+  - {ingredient: nutmeg}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: vegetable-oil}
+  - {ingredient: chicken-stock, qty: 2}
+steps:
+- Mix together the flour and eggs, then add the water and salt.
+- Knead the dough until smooth and set aside for 1 hour.
+- Mince the onion, parsley, and garlic. Mix into the minced meat along with the eggs, nutmeg, salt and pepper.
+- Roll out the dough into a rectangle.
+- Spread the meat filling evenly over the dough and roll up into a cylinder. Seal the edge with water and cut into slices (not too thick).
+- Brown the slices in oil.
+- Add the stock (and wine if used), and cook for 20 minutes.
+- Serve with a green salad.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFleischnacka_%28Alsatian_Meat_and_Pasta_Roll%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fleischnacka (Alsatian Meat and Pasta Roll)@4587195
+    url: https://en.wikibooks.org/w/index.php?oldid=4587195
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

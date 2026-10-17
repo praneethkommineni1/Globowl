@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (MX, US): confirm the country of origin
+#  - no time in recipe summary
+id: mx-huevos-rancheros
+title: Huevos Rancheros
+summary: Huevos Rancheros (Spanish for "eggs ranch-style") is a traditional Mexican country breakfast. From its home in Mexico, the dish has spread throughout the Americas.
+origin:
+  country: MX
+  also_claimed_by:
+  - US
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 3}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: garlic, unit: clove, qty: 1, prep: minced, optional: true}
+  - {ingredient: red-chili, note: to taste}
+  - {ingredient: chili-powder, unit: pinch, qty: 1}
+  - {ingredient: tomato, qty: 4, prep: 'peeled, seeded and chopped'}
+  - {ingredient: tortilla, qty: 2}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: sugar, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: cilantro, unit: tbsp, qty: 1, prep: finely chopped, optional: true}
+steps:
+- To prepare the ranchero sauce, in a skillet, heat 1 tablespoon oil over medium-high heat. Add the onion and optional garlic, and sauté until softened but not brown (4–5 minutes).
+- Add the tomatoes, peppers, chili powder, salt and a few grinds of black pepper and reduce to a simmer. Simmer for about 10 minutes, until the sauce begins to thicken up.
+- Add the cilantro or parsley, turn off the heat and cover the pan to keep the sauce warm.
+- In another skillet, lightly fry the tortillas in 1 tablespoon of oil. Remove and drain.
+- If necessary, add additional oil to the second skillet, and fry the eggs until they are "sunny-side up". Transfer the eggs to the tortillas, and cover with the ranchero sauce.
+tips:
+- Add sliced avocado, shredded Monterey Jack cheese, refried beans, or fried potatoes.
+- Scramble the eggs instead of frying them.
+- Quick and simple method is to scramble eggs and add salsa to taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHuevos_Rancheros&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Huevos Rancheros@4511733
+    url: https://en.wikibooks.org/w/index.php?oldid=4511733
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

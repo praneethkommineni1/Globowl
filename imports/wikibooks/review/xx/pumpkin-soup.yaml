@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-pumpkin-soup
+title: Pumpkin Soup
+summary: Pumpkin Soup.
+origin:
+  country: XX
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 2, prep: chopped}
+  - {ingredient: carrot, prep: diced}
+  - {ingredient: potato, prep: diced}
+  - {ingredient: zucchini, prep: diced}
+  - {ingredient: vegetable-oil}
+  - {ingredient: butternut-squash, unit: g, qty: 200}
+  - {ingredient: chickpeas-canned, prep: soaked or canned and drained}
+  - {ingredient: water}
+steps:
+- Fry onions, carrots, potatoes, and zucchinis in a spoonful of oil.
+- Add pumpkin and chickpeas.
+- Cover with hot water and simmer. The soup is ready when the carrots are soft.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APumpkin_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pumpkin Soup@4584563
+    url: https://en.wikibooks.org/w/index.php?oldid=4584563
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

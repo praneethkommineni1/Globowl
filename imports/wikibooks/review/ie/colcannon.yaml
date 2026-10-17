@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (IE, GB): confirm the country of origin
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ie-colcannon
+title: Colcannon
+summary: Colcannon is a rich mashed potato dish with cabbage, butter, and other ingredients. It's very easy to make and is a nice change from ordinary mashed potatoes. Its sloppiness is balanced by the crunch of the cabbage, and it should taste a little peppery.
+origin:
+  country: IE
+  also_claimed_by:
+  - GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- blanching
+- boiling
+- pan-frying
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: g, qty: 450}
+  - {ingredient: heavy-cream, unit: ml, qty: 150}
+  - {ingredient: nutmeg}
+  - {ingredient: paprika}
+  - {ingredient: white-cabbage, unit: g, qty: 450}
+  - {ingredient: leek, qty: 2, prep: chopped, note: small}
+  - {ingredient: butter, unit: g, qty: 125}
+  - {ingredient: cheese, unit: g, qty: 200, prep: grated}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Boil or steam the potatoes until soft, then shake the drained spuds in a deep pot with the lid on, until they crumble.
+- Mash the crumbled potatoes up with a fork and season with the salt, pepper, and mace/paprika, before stirring in the cream.
+- Add 100 g of the butter in pieces and put the lid back on, leaving the butter to melt, then stir. Transfer the mix to a clean bowl.
+- Blanch the cabbage in boiling water for 2 minutes and drain.
+- Fry the leeks in the remaining butter for a few minutes, then add the cabbage and toss around for a few more minutes.
+- Spoon the cabbage into the bowl and mix with the mashed potatoes.
+- Stir the gouda into the mix, leaving a little to coat the top. Put the bowl in an oven on 2/3 heat for 20 minutes or until the cheese is melted.
+tips:
+- The mixture may be turned into a greased pie dish, sprinkled with grated cheese, dotted with butter or margarine, and browned in a hot oven.
+- Is especially good with dark greens such as savoy cabbage or kale.
+- The Gouda is an innovation—leave it out, if you don't want the dish too rich.
+- The oven heating is ideally done along with the final stage of your roast meat.
+- 'Seasoning is very important: bear in mind that the cheese has plenty of salt.'
+- The perfect colcannon has a butter sogginess at the bottom of the bowl when removed from the oven.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AColcannon&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Colcannon@4511096
+    url: https://en.wikibooks.org/w/index.php?oldid=4511096
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

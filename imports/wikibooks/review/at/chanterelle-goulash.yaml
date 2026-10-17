@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - course unknown from categories
+id: at-chanterelle-goulash
+title: Chanterelle Goulash
+summary: Goulash of Chanterelles is a typical Austrian main dish. It is served mainly during the summer, which is the mushroom season in Austria. Although it is possible to freeze mushrooms, the taste of frozen chanterelles cannot be compared to the taste of fresh ones.
+origin:
+  country: AT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 25
+difficulty: 2
+techniques:
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: mushroom, unit: g, qty: 800}
+  - {ingredient: onion, unit: g, qty: 100}
+  - {ingredient: butter, unit: g, qty: 60}
+  - {ingredient: sour-cream, unit: g, qty: 125}
+  - {ingredient: paprika, unit: g, qty: 10}
+  - {ingredient: red-wine-vinegar, unit: tbsp, qty: [3, 4]}
+  - {ingredient: all-purpose-flour, unit: tsp, qty: 1}
+  - {ingredient: parsley, unit: tbsp, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Cut the big mushrooms into halves. All of them should have approximately the same size, which averages 2–3 cm.
+- Peel the onions and chop them finely into small cubes.
+- Heat the butter in a pot.
+- When the pot is hot enough, add the chopped onions. Cook the onions until golden brown.
+- Add the paprika. Stir well and immediately deglaze it with the white wine vinegar. It is important that the paprika powder does not get too hot because it turns bitter at a certain temperature.
+- Put the chanterelles into the pot, and add pepper and salt to taste. Put a lid on it and steam the mixture for about 10–12 minutes until the chanterelles are soft.
+- Remove the lid and raise the temperature in order to preserve the escaping liquid of the chanterelles.
+- Combine the flour and sour cream. Stir this mixture into the casserole, reduce the temperature, and cook for another 5 minutes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChanterelle_Goulash&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chanterelle Goulash@4505851
+    url: https://en.wikibooks.org/w/index.php?oldid=4505851
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Ogi water
+#  - unmapped ingredient: Lemons or oranges
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-adoyo
+title: Adoyo
+alternate_names:
+- Nigerian Ogi Beverage
+summary: Adoyo is a popular Nigerian drink that can be found on almost every street just like zobo, kunu, and fura da nono. It is made with boiling water decanted from ogi (pap) and pineapple, lemongrass, Lemon and/or orange. It is a natural drink that does not require any coloring.
+origin:
+  country: NG
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: pineapple, prep: sliced}
+  - {ingredient: lemongrass, prep: rinsed}
+  - {ingredient: sugar}
+steps:
+- Combine ogi water, pineapple, and lemongrass leaves in a pot. Simmer for at least 45 minutes.
+- Remove from the heat, and cool completely. Once cool, strain out the solids.
+- Place the sugar in a pot. Slowly melt it over medium heat, stirring, and cook until it reaches a light brown caramel.
+- Stir some hot water into the caramel to make a sauce—if you use cold water, it will crystallize. Set aside.
+- Sweeten the strained liquid with the caramel sauce, and serve.
+tips:
+- You can substitute honey for the finished caramel syrup.
+- If desired, you can omit the sugar and skip the caramelization step.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAdoyo_%28Nigerian_Ogi_Beverage%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Adoyo (Nigerian Ogi Beverage)@4621020
+    url: https://en.wikibooks.org/w/index.php?oldid=4621020
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: be-waterzooi
+title: Waterzooi
+summary: Waterzooi is a classic stew in Northern Belgian cuisine. Its name is Dutch, meaning "watery mess". The original form uses fish, though today chicken waterzooi is more common, as well as vegetables such as carrots, leeks, and potatoes, as well as herbs, eggs, cream, and butter.
+origin:
+  country: BE
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 30
+difficulty: 3
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: fish, unit: g, qty: 500}
+  - {ingredient: butter, unit: g, qty: 75}
+  - {ingredient: chicken-stock, unit: l, qty: 5}
+  - {ingredient: leek, qty: 1, prep: cleaned and julienned}
+  - {ingredient: carrot, qty: 2, prep: julienned}
+  - {ingredient: potato, qty: 2, prep: peeled and cut into 2 cm pieces, note: medium}
+  - {ingredient: bay-leaf}
+  - {ingredient: black-peppercorns, qty: 10}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: heavy-cream, unit: l, qty: 2.5}
+  - {ingredient: salt}
+steps:
+- Melt butter in large pot over medium heat. Add vegetables, bay leaf, and peppercorns then sauté for a few minutes.
+- Stir in the butter, then cook for 5 minutes without allowing the vegetables to brown.
+- Add stock and bring to boil.
+- Add fish, reduce the heat, and let simmer for 10 minutes.
+- Remove fish and cut into pieces.
+- Temper 200 ml of the stock into the egg yolk, stirring to prevent curdling. Stir the mixture back into the pot along with the cream, and bring the mixture back to just below boiling.
+- Add fish and taste everything for flavour, adding salt as required.
+- Serve in shallow bowls.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AWaterzooi&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Waterzooi@4494372
+    url: https://en.wikibooks.org/w/index.php?oldid=4494372
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

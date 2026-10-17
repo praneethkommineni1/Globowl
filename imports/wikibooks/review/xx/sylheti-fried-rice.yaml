@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 cups leftover cooked rice
+#  - course unknown from categories
+id: xx-sylheti-fried-rice
+title: Sylheti Fried Rice
+summary: Sylheti fried rice, known as biran bat in the Sylhet region, is a delightful and aromatic vegetarian rice dish. This recipe showcases the flavors of Sylhet with a focus on onions and salt. Traditionally, this dish is made using leftover rice from dinner, cooked in the morning.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped, optional: true}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: cilantro}
+steps:
+- Heat vegetable oil in a large pan or wok over medium heat.
+- Add the finely chopped onion and sauté until it turns translucent.
+- Add the leftover cooked rice to the pan and stir well.
+- Season with salt according to your taste. Be cautious as the rice might already have some salt from the previous meal.
+- Cook for a few minutes, stirring occasionally, until the rice is heated through and starts to turn slightly crispy.
+- Once done, remove from heat.
+- Garnish with fresh cilantro leaves if desired.
+tips:
+- Ensure the rice is adequately cooled and stored at the right temperature if prepared for commercial use.
+- For those who do not consume onions, this dish can be prepared without onions.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASylheti_Fried_Rice&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sylheti Fried Rice@4513063
+    url: https://en.wikibooks.org/w/index.php?oldid=4513063
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,41 @@
+id: cg-saka-saka
+title: Saka-Saka
+native_name: {text: Saka-saka, lang: fr}
+alternate_names: [Pondu, Cassava leaf stew]
+summary: Pounded cassava leaves slowly stewed with palm oil, onion, garlic and smoked fish until rich and silky.
+origin:
+  country: CG
+  also_claimed_by: [CD, AO]
+course: main
+dish_types: [greens, stew]
+authenticity: traditional
+yield: {servings: 5}
+time: {prep_min: 15, cook_min: 120}
+difficulty: 2
+techniques: [simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: cassava-leaves, qty: 900, unit: g, note: "frozen ground cassava leaves, thawed"}
+      - {ingredient: water, qty: 1, unit: l}
+      - {ingredient: red-palm-oil, qty: 120, unit: ml}
+      - {ingredient: onion, qty: 2, prep: "chopped"}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "crushed"}
+      - {ingredient: green-pepper, qty: 1, prep: "chopped"}
+      - {ingredient: eggplant, qty: 1, prep: "cubed", optional: true}
+      - {ingredient: smoked-fish, qty: 150, unit: g, prep: "flaked", optional: true}
+      - {ingredient: peanut-butter, qty: 2, unit: tbsp, optional: true}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - text: Simmer the cassava leaves in the water, covered and stirring occasionally, until they lose their bitterness and darken. Cassava leaves must be cooked thoroughly.
+    timer_min: 60
+  - Add the palm oil, onions, garlic, pepper and eggplant.
+  - text: Simmer, stirring often, until thick and the leaves are very tender. Add the smoked fish and peanut butter for the last 15 minutes.
+    timer_min: 50
+  - Season with salt.
+serving: With fufu, chikwangue (cassava bread) or rice.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

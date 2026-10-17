@@ -1,0 +1,70 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 cups shredded injera
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: et-doro-fitfit
+title: Doro Fitfit
+alternate_names:
+- Ethiopian Chicken Salad
+summary: Doro fitfit is a delicious and vibrant dish made with shredded injera, spiced chicken, and a flavorful dressing. This salad is a popular part of Ethiopian cuisine and is enjoyed as a refreshing appetizer or light meal.
+origin:
+  country: ET
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Mixing bowl
+- Cutting board
+- Chef's knife
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: cup, qty: 2, prep: shredded or diced}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: medium}
+  - {ingredient: tomato, qty: 2, prep: diced}
+  - {ingredient: red-chili, qty: 2, prep: finely chopped}
+  - {ingredient: lemon, unit: cup, qty: 0.25}
+  - {ingredient: olive-oil, unit: cup, qty: 0.25}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 0.5, note: to taste}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: cilantro, prep: 'chopped, for garnish'}
+steps:
+- In a large mixing bowl, combine the shredded injera, cooked chicken, finely chopped onion, diced tomatoes, and finely chopped green chili peppers.
+- In a separate small bowl, whisk together the lemon juice, olive oil, minced garlic, paprika, cayenne pepper, and salt to make the dressing.
+- Pour the dressing over the salad ingredients in the mixing bowl.
+- Gently toss the salad until all the ingredients are well coated with the dressing.
+- Let sit for about 10–15 minutes to allow the flavors to meld together.
+- Taste the salad and adjust the seasoning with salt and additional spices, if desired.
+- Garnish with freshly chopped cilantro or parsley before serving.
+tips:
+- If you don't have access to injera, you can try substituting it with a similar sourdough flatbread or even pita bread.
+- Adjust the spiciness of the salad by adding more or less cayenne pepper according to your taste preferences.
+- To save time, you can use store-bought rotisserie chicken or leftover cooked chicken for this recipe.
+- If you prefer a milder flavor, you can remove the seeds from the green chili peppers before chopping them.
+- Add additional vegetables like cucumbers, bell peppers, or avocados to the salad for added freshness and texture.
+- For a vegan version, omit the chicken and increase the amount of vegetables.
+- Doro fitfit can be served as an appetizer or a light meal. It is traditionally enjoyed with injera, but you can also serve it with crusty bread or pita.
+- Serve the salad as part of a larger Ethiopian spread, accompanied by other traditional dishes like doro wat (Ethiopian spicy chicken stew) or misir wat (Ethiopian spiced lentil stew).
+- Doro fitfit is a protein-packed salad thanks to the chicken. The salad is also rich in vitamins, minerals, and fiber from the vegetables.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADoro_Fitfit_%28Ethiopian_Chicken_Salad%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Doro Fitfit (Ethiopian Chicken Salad)@4518130
+    url: https://en.wikibooks.org/w/index.php?oldid=4518130
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

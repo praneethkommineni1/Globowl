@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-pounded-yam
+title: Pounded Yam
+summary: Pounded yam is a preparation of cooked yam that is pounded until smooth and stretchy. It is a type of Nigerian swallow.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Mortar and pestle
+- Pot
+- Spatula
+ingredient_groups:
+- items:
+  - {ingredient: yam, qty: 1}
+  - {ingredient: water}
+steps:
+- Cut the yam into pieces and rinse well.
+- Place yam in a pot, and cover them with water. Ensure the water cover the yam pieces
+- Cover the pot, and cook for about 25 minutes, until the yam is tender.
+- Remove the pot from the heat, and drain the water from the yams.
+- Rinse the mortar and pestle. Place the cooked yam into the mortar. Pound with the pestle until it forms a smooth, stretchy paste.
+- Pack the pounded yam and wrap into portions (about 4–5)
+- Serve the pounded yam with your choice of soup.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APounded_Yam&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pounded Yam@4524336
+    url: https://en.wikibooks.org/w/index.php?oldid=4524336
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,47 @@
+id: bf-riz-gras
+title: Riz Gras
+native_name: {text: Riz gras, lang: fr}
+alternate_names: [Burkinabè rice with meat and vegetables]
+summary: Rice cooked in a rich tomato and meat stock with carrots, cabbage and eggplant — a festive dish across Burkina Faso.
+origin:
+  country: BF
+  also_claimed_by: [ML, CI]
+course: main
+dish_types: [rice-dish, one-pot]
+occasions: [Celebrations, Tabaski]
+authenticity: home-style
+yield: {servings: 6}
+time: {prep_min: 20, cook_min: 80}
+difficulty: 3
+techniques: [braising, rice-cooking]
+ingredient_groups:
+  - items:
+      - {ingredient: vegetable-oil, qty: 4, unit: tbsp}
+      - {ingredient: beef-chuck, qty: 600, unit: g, prep: "cubed", note: "or chicken or mutton"}
+      - {ingredient: onion, qty: 2, prep: "chopped"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "crushed"}
+      - {ingredient: tomato-paste, qty: 3, unit: tbsp}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: water, qty: 1.5, unit: l}
+      - {ingredient: chicken-bouillon-cube, qty: 1, optional: true}
+      - {ingredient: carrot, qty: 2, prep: "thickly sliced"}
+      - {ingredient: white-cabbage, qty: 300, unit: g, prep: "cut into wedges"}
+      - {ingredient: eggplant, qty: 1, prep: "cut into chunks"}
+      - {ingredient: scotch-bonnet, qty: 1, note: "whole"}
+      - {ingredient: salt, qty: 2, unit: tsp}
+      - {ingredient: long-grain-rice, qty: 500, unit: g, prep: "rinsed"}
+steps:
+  - Brown the meat in the oil. Add the onions and garlic and cook until soft, then the paste and tomatoes for 5 minutes.
+  - text: Add the water, bouillon and salt and simmer until the meat is nearly tender.
+    timer_min: 40
+  - text: Add the vegetables and Scotch bonnet and simmer until just tender. Lift them out with the meat and keep warm.
+    timer_min: 15
+  - text: Measure about 900 ml of the sauce back into the pot, add the rice, cover tightly and cook on low until tender.
+    timer_min: 25
+  - Serve the rice topped with the meat and vegetables.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

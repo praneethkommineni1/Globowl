@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - course unknown from categories
+id: tr-menemen
+title: Menemen
+alternate_names:
+- Eggs with Onion, Green Pepper, and Tomato
+summary: Menemen is a Turkish dish of eggs with onion, green pepper and tomato. It can be served as a breakfast or luncheon dish.
+origin:
+  country: TR
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 25
+difficulty: 2
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 4}
+  - {ingredient: onion, qty: 2}
+  - {ingredient: red-bell-pepper, qty: 2}
+  - {ingredient: tomato, qty: 4}
+  - {ingredient: parsley, unit: tbsp, qty: 2}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: dried-oregano, unit: tsp, qty: [1, 2], optional: true}
+  - {ingredient: paprika, unit: tsp, qty: [1, 2], optional: true}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Prepare a concassée of tomatoes by blanching, peeling, seeding and dicing the tomatoes. Alternately, you may simply grind the tomatoes in a food processor or grate them using a box grater.
+- Dice the onions and peppers in medium dice and sauté in the olive oil until tender.
+- Add the oregano and paprika, if using.
+- Add the tomatoes to the peppers and onion and cook for 5 minutes.
+- Add the parsley and season with salt and freshly ground black pepper.
+- Beat the eggs and pour over the mixture in the pan. Stir until cooked.
+- Serve with Turkish bread.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMenemen_%28Eggs_with_Onion%2C_Green_Pepper%2C_and_Tomato%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Menemen (Eggs with Onion, Green Pepper, and Tomato)@4524815
+    url: https://en.wikibooks.org/w/index.php?oldid=4524815
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

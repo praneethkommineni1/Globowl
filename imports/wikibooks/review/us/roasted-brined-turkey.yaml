@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1/2 US gallon water
+#  - unmapped ingredient: 2 US gallons of ice water
+#  - unmapped ingredient: turkey
+id: us-roasted-brined-turkey
+title: Roasted Brined Turkey
+summary: Roasted Brined Turkey.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–12
+time:
+  total_min: 240
+difficulty: 4
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: salt, unit: cup, qty: 2}
+  - {ingredient: brown-sugar, unit: cup, qty: 0.5}
+  - {ingredient: black-pepper, unit: tbsp, qty: 2}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+steps:
+- Combine the ½ gallon water, salt, brown sugar, and peppercorns. Bring to a boil and cook about 3 minutes until everything is dissolved.
+- Transfer the brine to a 5-US-gallon (19 L) bucket, and stir in the ice water.
+- Remove the neck and giblets from turkey, and place the turkey in the bucket of brine. If the brine won't cover turkey, add a little more water.
+- Chill the turkey in the brine for 6–24 hours.
+- Preheat the oven to 500°F (260°C), and move a rack to the lowest level of the oven. You'll drop the temperature later, but start it hot to get a crispier, more flavorful skin. The effect will be to keep the fat from melting and rolling down the side of the turkey, which is only going to dry it out.
+- Place the turkey drumstick side-down on a roasting tray (with slots to allow drippings through into a pan), or on a rack sitting in a pan.
+- Attach the wings to the bird by imagining you were twisting someone's arm behind their back. Do this with both wings. Once you figure out the right twist, you'll find that the tips of the wings will stay firmly in place near the center of the back of the turkey (near its backbone).
+- Coat the turkey skin with the butter.
+- Place the turkey in the preheated oven, and roast for about 30 minutes.
+- Remove turkey from oven, and put a tent of aluminum foil loosely over the breast—this is going to keep the breast meat from overcooking and drying out.
+- Reduce the heat to 350°F (176.7°C), and return the turkey to the oven.
+- Continue roasting the turkey for about about 2¾–3 hours for the 16–18 pound (7–8 kg) bird, periodically basting it and checking the internal temperature with an instant-read probe thermometer. The breast must reach a minimum of 161°F (71.67°C) before removing it from the oven. The thigh will ideally be around 180°F (82.2°C) at this point.
+- Remove turkey from the oven, and let stand for 15–20 minutes before carving.
+- This recipe is for a turkey. Roughly 2 days are required to prepare the turkey. The first day is for preparations and for brining, and the second day is for cooking the turkey.
+- The tricky thing about cooking poultry is that the dark meat needs to be about 15° hotter than the white meat. White meat is safe to eat at 165°F (73.9°C), which is the temperature at which salmonella instantly dies, though 12 minutes at 140°F (60°C) will also kill it—odds are fairly good that you'll kill it all on the way to 165°F (73.9°C). The problem is that dark meat isn't very good at 165°F (73.9°C). Further complicating this is that if the breast meat gets to the 180°F (82.2°C) that the dark meat wants to be cooked to, it's going to be dry, flavorless, and generally unpleasant.
+- For optimum safety and uniform doneness, it is recommended to cook stuffing outside the bird.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARoasted_Brined_Turkey_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Roasted Brined Turkey I@4504635
+    url: https://en.wikibooks.org/w/index.php?oldid=4504635
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

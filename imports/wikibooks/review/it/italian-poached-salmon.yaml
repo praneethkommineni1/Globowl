@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 tbsp lemon pepper
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-italian-poached-salmon
+title: Italian Poached Salmon
+summary: Italian Poached Salmon.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: salmon, qty: 4, prep: pin bones removed}
+  - {ingredient: red-wine, unit: cup, qty: 0.75}
+  - {ingredient: tomato-paste, unit: cup, qty: 0.25}
+  - {ingredient: capers, unit: tbsp, qty: 1, prep: finely chopped}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: all-purpose-flour}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: garlic, unit: tbsp, qty: 1}
+  - {ingredient: rosemary, unit: tsp, qty: 1}
+  - {ingredient: thyme, unit: tsp, qty: 2}
+steps:
+- Combine wine, tomato paste, and capers. Set aside.
+- In a skillet large enough to hold all the salmon, heat 1 tbsp oil over medium high heat. Add garlic and cook until golden.
+- Add wine mixture to garlic. Reduce temperature to 145°F, then keep at 145°F.
+- Rub salmon with remaining oil. Press seasonings into meat, then dredge all sides in flour. Set aside.
+- Heat a nonstick skillet over high heat. Add 2 filets, skin side up, and cook until browned on all sides. Repeat with remaining salmon.
+- Move to 145°F wine mixture, then cook until fish is pink throughout and flakes easily when tested with a fork. Serve immediately.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AItalian_Poached_Salmon&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Italian Poached Salmon@4508149
+    url: https://en.wikibooks.org/w/index.php?oldid=4508149
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

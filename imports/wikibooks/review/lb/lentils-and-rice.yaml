@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: lb-lentils-and-rice
+title: Lentils and Rice
+alternate_names:
+- Mjeddrah
+summary: Mjeddrah is a stout lentil and rice stew, a Lebanese staple.
+origin:
+  country: LB
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: brown-lentils, unit: cup, qty: 0.5, prep: soaked an hour or more}
+  - {ingredient: onion, unit: cup, qty: 0.5, prep: sliced}
+  - {ingredient: carrot, prep: 'celery, etc.', optional: true}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: long-grain-rice, unit: cup, qty: 0.5, prep: rinsed}
+  - {ingredient: water, unit: cup, qty: 3}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: garlic, optional: true}
+  - {ingredient: red-chili, optional: true}
+  - {ingredient: cinnamon-stick, qty: 0.5, optional: true}
+  - {ingredient: green-cardamom-pods, optional: true}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Pick over the lentils to remove any stones.
+- Sauté the onion and any other vegetables in the olive oil for a minute or two.
+- If desired, sauté the rice for a short time, but do not let it burn.
+- Add the rice, water, cumin, garlic, chili pepper, cinnamon, and cardamom to the pot of onions. Bring to a boil, cover, and simmer for 40 minutes to 1 hour. You will have to check it occasionally and add water—the final product should have some liquid but should not be very soupy. It is finished when the rice and lentils are both no longer crunchy.
+- Season with salt and pepper.
+tips:
+- A little Parmesan cheese is tasty sprinkled on as a garnish.
+- Sauté some chopped onion and garlic quickly in oil until it browns (a slight burning is good), then stir it into some natural yogurt and use as a garnish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALentils_and_Rice_%28Mjeddrah%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lentils and Rice (Mjeddrah)@4518799
+    url: https://en.wikibooks.org/w/index.php?oldid=4518799
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tbsp dill salt or herbes de Provence
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ie-dublin-lamb-stew
+title: Dublin Lamb Stew
+summary: Originally posted to Foodista by Julie Cecchini. Foodista recipes are released under a CC-BY license.
+origin:
+  country: IE
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: chicken-stock, unit: cup, qty: 2}
+  - {ingredient: lamb, unit: g, qty: 907, prep: cubed}
+  - {ingredient: potato, unit: g, qty: 907, prep: peeled and sliced}
+  - {ingredient: carrot, unit: g, qty: 680, prep: peeled and diced}
+  - {ingredient: red-bell-pepper, qty: 1, prep: sliced}
+  - {ingredient: mushroom, unit: cup, qty: 4, prep: sliced}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: medium}
+  - {ingredient: celery, qty: 3, prep: chopped}
+  - {ingredient: olive-oil, unit: tbsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- In a large saucepan, brown meat over medium heat.
+- Remove lamb and add oil over high heat. Sauté peppers, mushrooms, carrots, celery, and onion.
+- Add the sautéed vegetables, beef broth, lamb, potatoes, and dill salt to a soup pot.
+- Cover, and cook 30 minutes on medium-high heat, stirring occasionally.
+- Cover, reduce heat to low, and simmer 1.5–2 hours.
+- Serve hot with Irish oat scones or soda bread.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADublin_Lamb_Stew&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dublin Lamb Stew@4610537
+    url: https://en.wikibooks.org/w/index.php?oldid=4610537
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

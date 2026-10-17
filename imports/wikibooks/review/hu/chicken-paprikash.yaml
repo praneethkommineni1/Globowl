@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: Bacon grease, lard, or other fat
+#  - no time in recipe summary
+#  - duplicate of hand-written recipe hu-chicken-paprikash
+id: hu-chicken-paprikash
+title: Chicken Paprikash
+summary: Chicken Paprikash.
+origin:
+  country: HU
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Big pot
+- Pan with lid
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 1, prep: cut up}
+  - {ingredient: sour-cream, qty: 2}
+  - {ingredient: paprika}
+  - {ingredient: onion, prep: finely chopped}
+  - {ingredient: all-purpose-flour, unit: cup, qty: [2, 3]}
+  - {ingredient: egg, qty: [2, 3]}
+  - {ingredient: water}
+  - {ingredient: salt}
+  - {ingredient: bacon}
+steps:
+- Brown the onions in a heavy skillet with some bacon grease until softened and well-colored.
+- Add chicken. Brown rapidly, then season with paprika to taste.
+- Turn heat down, add enough water added to cover the bottom of the pan, and cook on low. Keep covered but with the lid slightly cocked to prevent boiling.
+- Proceed with the dumplings while cooking the chicken.
+- Combine flour, eggs, and a pinch of salt with enough to make a dough. For dumplings to be ‘sticky’ inside, make a wetter dough; for all the way through, make a drier dough.
+- Use a dessert spoon (or a melon baller for smaller dumplings) to drop pieces of dough into boiling salted water. To keep them from sticking to the spoon, let it heat up in the water.
+- Let simmer until the dumplings float. Drain, put in a bowl with a tiny slick of melted fat, and keep them to one side in a warm place.
+- Once the chicken is fully cooked (160°F) and your dumplings are all done, stir dumplings and sour cream into the pan of chicken. Mix thoroughly but carefully to coat.
+- Add more paprika until it is more pink (or orange) than white.
+- Taste sauce; it may need more paprika or salt. Sometimes it is easier to remove the chicken, and then pour the dumplings and sour cream over the top to coat (when serving), depending on how big your pan is.
+tips:
+- Use seeded rye bread to sop up the sauce when you're done eating.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Paprikash&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chicken Paprikash@4510904
+    url: https://en.wikibooks.org/w/index.php?oldid=4510904
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

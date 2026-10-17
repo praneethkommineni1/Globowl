@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 tsp cinnamon powder
+#  - unmapped ingredient: 1 lb phyllo dough, at room temperature
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: tr-baklava-with-pistachio-nuts
+title: Baklava with Pistachio Nuts
+summary: Baklava with Pistachio Nuts.
+origin:
+  country: TR
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Tall large pot for making syrup
+- Candy thermometer
+- Baking pan about the size of the phyllo sheets
+- 2–3-inch paintbrush for applying melted butter
+techniques:
+- baking
+- boiling
+ingredient_groups:
+- name: Syrup
+  items:
+  - {ingredient: sugar, unit: cup, qty: 4}
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: cinnamon-stick, qty: 2, prep: each 3 inches long}
+  - {ingredient: honey, unit: cup, qty: 0.75}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 1}
+- name: Nut mixture
+  items:
+  - {ingredient: pistachios, unit: g, qty: 680}
+- name: Pastry
+  items:
+  - {ingredient: butter, unit: g, qty: 567, prep: melted}
+steps:
+- If using frozen store-bought phyllo, thaw it inside its plastic package. Don’t open it until you’re ready to use it. If you’re in a hurry you can thaw it in its sealed plastic package in warm water.
+- Chop the nuts with the powdered cinnamon in a food processor. You want a fine chop, not powder.
+- Combine the sugar, honey, water, cinnamon sticks, and lemon juice in a large pot. Stir well and boil until the mixture reaches 220°F (100°C) on a candy thermometer (soft ball stage). Remove it from heat, skim the top, and let cool. Remove the cinnamon sticks. The lemon is an important ingredient in the syrup as it keeps it from crystallizing while cooling.
+- Melt the butter in a saucepan while the syrup is boiling. You can clarify the butter but it’s not necessary.
+- Preheat your oven to 350°F (180°C).
+- Open the phyllo and unfold it. Brush the inside of the baking pan with melted butter. While assembling, cover the unused phyllo with a damp towel to prevent it from drying out. Make sure your butter is very liquid when you start. Put 6 sheets of phyllo in the pan, brushing each sheet with melted butter. Set aside another 6 sheets which will be used for the top layers.
+- After the first 6 sheets, sprinkle a handful of the nut mixture over the last sheet. Add another sheet and repeat the process until you get to the last 6 sheets. Place the last 6 sheets on top of the rest, brushing each with butter. With a very sharp knife, cut the pastry into diamond shapes, all the way through. Sprinkle the top with water.
+- Put the pastry into the preheated oven and bake for 1 hour or until the tops of the pastry are medium golden brown. When done, remove from the oven and ladle the cool syrup over the hot pastry.
+- Let it sit for about 5–15 minutes, then drain off the excess syrup by tilting the pan as much as 45 degrees. Let it cool to near room temperature before eating.
+tips:
+- For the syrup, you can add more honey and reduce the amount of sugar.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaklava_with_Pistachio_Nuts&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Baklava with Pistachio Nuts@4587363
+    url: https://en.wikibooks.org/w/index.php?oldid=4587363
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

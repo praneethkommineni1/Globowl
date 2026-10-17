@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - course unknown from categories
+id: xx-sylheti-rice-pudding
+title: Sylheti Rice Pudding
+summary: Sylheti rice pudding also known as kir shinni in the Sylhet region, is a delectable rice-based dessert that holds a special place in Sylheti cuisine. The local term "shinni" signifies a treat to the neighbourhood or distribution of food for salvation.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 90
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 1}
+  - {ingredient: milk, unit: cup, qty: 1, optional: true}
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: ground-cardamom, unit: tsp, qty: 1}
+  - {ingredient: coconut, unit: cup, qty: 0.5}
+  - {ingredient: raisins, unit: cup, qty: 0.25}
+  - {ingredient: ghee}
+steps:
+- Wash the rice and soak it in water for 30 minutes. Drain and set aside.
+- In a large, heavy-bottomed pot, bring the milk (if using) to a boil.
+- Add the soaked rice and simmer over low heat, stirring constantly, until the rice is cooked and the mixture thickens. This may take about 1 hour.
+- Add sugar and cardamom powder, and continue to cook for another 10–15 minutes until the sugar is fully dissolved and the pudding thickens further.
+- Stir in the grated coconut and raisins.
+- Remove from heat.
+- Grease a serving dish with ghee and transfer the rice pudding to the dish.
+- Allow it to cool and set.
+- Serve chilled and enjoy.
+tips:
+- Traditionally this dish used to be served in banana leaves.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASylheti_Rice_Pudding&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sylheti Rice Pudding@4587507
+    url: https://en.wikibooks.org/w/index.php?oldid=4587507
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

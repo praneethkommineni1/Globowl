@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Fresh habanero pepper
+#  - unmapped ingredient: 2 tablespoons fish powder
+#  - unmapped ingredient: Shrimp seasoning powder
+#  - unmapped ingredient: Smoked panla fish, cleaned
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-obe-eja-kika
+title: Obe Eja Kika
+alternate_names:
+- Nigerian Smoked Fish Stew
+summary: Obe eja kika is a Nigerian stew of smoked panla (hake) fish. In Nigeria, this fish can be used to prepare any type of dish that requires the use of fish. This fish is mostly used by the Yoruba people of Nigeria.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: tomato, prep: hard tomatoes}
+  - {ingredient: red-bell-pepper, qty: 5, note: large}
+  - {ingredient: red-bell-pepper, qty: 2, optional: true}
+  - {ingredient: onion}
+  - {ingredient: red-palm-oil, unit: cup, qty: 0.25}
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.5}
+  - {ingredient: salt}
+  - {ingredient: chicken-bouillon-cube}
+  - {ingredient: scent-leaf}
+steps:
+- Coarsely grind the tomatoes, habanero pepper, tatashe, green bell peppers, and onions.
+- Heat the palm oil and vegetable oil in a pot. Add the ground pepper mix, and cook, stirring, for about 10–15 minutes.
+- Stir in the fish seasoning powder, shrimp powder, salt, and stock cube. Add the panla fish, and stir.
+- Add some water to loosen up the stew, stir, and simmer for 10–15 minutes on low heat.
+- Stir in the scent leaf, and remove from the heat.
+- Serve with rice, pasta, or boiled yam.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AObe_Eja_Kika_%28Nigerian_Smoked_Fish_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Obe Eja Kika (Nigerian Smoked Fish Stew)@4518663
+    url: https://en.wikibooks.org/w/index.php?oldid=4518663
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

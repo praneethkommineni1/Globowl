@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 bottle Italian red wine
+#  - unmapped ingredient: 4 figs
+#  - unmapped ingredient: 100 ml limoncello
+#  - unmapped ingredient: 50 ml sweet vermouth
+#  - course unknown from categories
+id: xx-italian-mulled-wine
+title: Italian Mulled Wine
+summary: This is a recipe for a spiced wine.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 40
+difficulty: 1
+equipment:
+- Stock pot
+- Mortar and pestle
+ingredient_groups:
+- name: Crushed ingredients
+  items:
+  - {ingredient: star-anise, qty: 1}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: rosemary, unit: pinch, qty: 1}
+  - {ingredient: black-peppercorns, unit: pinch, qty: 1}
+  - {ingredient: thyme, unit: pinch, qty: 1}
+  - {ingredient: chili-flakes, unit: pinch, qty: 1}
+  - {ingredient: fennel-seeds, unit: pinch, qty: 1}
+  - {ingredient: ground-cloves, unit: pinch, qty: 1}
+  - {ingredient: nutmeg, unit: pinch, qty: 1}
+- name: Non-crushed ingredients
+  items:
+  - {ingredient: orange, qty: 1}
+  - {ingredient: lemon, qty: 1}
+  - {ingredient: honey, unit: tbsp, qty: 1}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: cinnamon-stick, qty: 1}
+  - {ingredient: brandy, unit: ml, qty: 50, prep: 'brandy, or Cognac', optional: true}
+steps:
+- Pour wine into stock pot and turn heat to medium-high.
+- Crush all “crushed ingredients” using the mortar and pestle. Set aside.
+- Peel and juice orange and lemon. Remove and discard the white pith from the peels, then add the peels and juice to the wine.
+- When the wine is simmering, immediately reduce to low heat. Add the crushed and all remaining ingredients.
+- Cook on low for at least 15 minutes to infuse the flavors. Make sure to keep on low so the wine stays warm and continues to infuse, but doesn’t bubble / heat off the alcohol.
+tips:
+- Feel free to double the recipe or scale any of these ingredients up or down to suite your taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AItalian_Mulled_Wine&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Italian Mulled Wine@4514570
+    url: https://en.wikibooks.org/w/index.php?oldid=4514570
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

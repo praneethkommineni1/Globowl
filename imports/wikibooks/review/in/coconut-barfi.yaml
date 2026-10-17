@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (IN, PK): confirm the country of origin
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-coconut-barfi
+title: Coconut Barfi
+summary: Barfi is a Pakistani and Indian confection popular all over Pakistan and India, and often a part of festivals. The recipe included here is for coconut barfi.
+origin:
+  country: IN
+  also_claimed_by:
+  - PK
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: sugar, unit: g, qty: 250}
+  - {ingredient: water, unit: ml, qty: 150}
+  - {ingredient: coconut, unit: g, qty: 250}
+  - {ingredient: ghee}
+  - {ingredient: ground-cardamom, optional: true}
+steps:
+- Combine sugar and water in a pot, and cook to a 2–3 thread (about 235–255°F) sugar syrup.
+- Warm the coconut in a heavy saucepan, and pour in the hot syrup. Stir well, and cook until a soft lump forms.
+- Press and spread the mixture into a ghee-greased pan or mold, and let cool.
+- Sprinkle with cardamom.
+- Cut into squares, and store in an airtight container.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACoconut_Barfi&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Coconut Barfi@4540306
+    url: https://en.wikibooks.org/w/index.php?oldid=4540306
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

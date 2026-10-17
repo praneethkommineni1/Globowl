@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Red oil
+#  - unmapped ingredient: Periwinkle
+#  - unmapped ingredient: Kpomo
+#  - unmapped ingredient: Vegetable leaf
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: ng-nigerian-oto-mboro-recipe
+title: Nigerian Oto mboro recipe
+summary: Nigerian oto mboro recipe is a type of Nigerian African recipe made with green grinded banana. It is majorly eaten by people in the south-south geopolitical zone.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: green-banana}
+  - {ingredient: water}
+  - {ingredient: crayfish}
+  - {ingredient: chicken-bouillon-cube}
+  - {ingredient: stockfish}
+  - {ingredient: onion}
+  - {ingredient: scent-leaf}
+- name: Optional
+  items:
+  - {ingredient: beef}
+steps:
+- Grind your pepper(2 scoops) and 500g crayfish
+- Prepare your onion and 1 full stick of fried fish
+- wash a bowl of Periwinkle thoroughly with salt
+- keep them aside. Then peel your banana
+- Grind the banana(20 pieces)with a grater
+- Put it in a bowl
+- Add 3 cubes of Maggi and a teaspoon of salt
+- Wash your hand thoroughly and mix them and keep aside
+- Prepare your meat and kpomo
+- Put it in a bowl,add onions, two spoon of the grinded pepper , 3 cubes of Maggi and steam for 15 mins
+- Turn your steamed meat into a clean bowl
+- with the same pot,add a very little quantity of water into the pot
+- Add your 2 cubes Maggi, half spoon of grinded pepper and 3 spoons of crayfish and onion. Cover for 5 mins
+- When there is a steam in the pot, use a spoon to scoop the grinded banana to shape the spoon into the water gently,carefully avoiding overlapping in the pot.
+- Add Periwinkle and meat at the first 20 scoops in the pot,continue that way till you are done with taking the banana from the bowl.
+- After which, cover the pot and leave to boil till the banana turns nude color
+- Add your 3 litres of oil and stir thoroughly
+- Add your leaf and bring it down.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Oto_mboro_recipe&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Oto mboro recipe@4637031
+    url: https://en.wikibooks.org/w/index.php?oldid=4637031
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

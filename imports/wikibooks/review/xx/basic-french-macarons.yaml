@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 125 g almond flour
+#  - unmapped ingredient: Filling as desired
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-basic-french-macarons
+title: Basic French Macarons
+summary: French macarons are variety of sandwich cookie based on almond meringue and a sweet filling.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: powdered-sugar, unit: g, qty: 125}
+  - {ingredient: caster-sugar, unit: g, qty: 125}
+  - {ingredient: egg-white, unit: g, qty: 90}
+  - {ingredient: food-coloring}
+steps:
+- Combine the almond flour and icing sugar. Sift to remove lumps, and set aside.
+- Add the superfine sugar to the egg whites, and whip them to stiff peaks.
+- Add the food coloring to the egg whites and continue beating until incorporated.
+- Use a wooden spoon or rubber spatula to fold the almond flour mixture into the meringue in 3 batches. Mix until you get a lava-like batter (see notes).
+- Transfer the batter to a pastry bag fitted with an 8 mm round nozzle. Pipe 3 cm rounds on a baking sheet lined with baking paper.
+- Tap the sheet lightly on your work surface to even and flatten the mixture. Leave to air-dry for 30 minutes until a film forms on the surface of the cookies.
+- Bake for 12 minutes at 150°C with convection.
+- Remove from the oven and let cool completely. It's a good idea to move the parchment onto a cooling rack to avoid carryover cooking.
+- Peel the shells from the parchment, and sort them into pairs of equally sized shells.
+- Sandwich the cookies together with your desired filling.
+tips:
+- Common fillings for macarons include jam, buttercream frosting, and ganache.
+- It's very important to get the batter to the correct texture when making macarons. After adding the almond mixture, the mixture will get thinner as you continue to fold it. If it is too thick, you won't get nice, smooth, even shells—they will be too stiff and full of air. On the other hand, if the batter gets too thin, it will spread too much and will not hold the proper cookie shape. Your goal is to stop folding the batter when it flows off the spatula in a ribbon (not in one clump) and takes about 10 seconds (not less) to dissolve back into the rest of the batter. Note that you cannot go back once you have over-mixed the batter.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABasic_French_Macarons&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Basic French Macarons@4516752
+    url: https://en.wikibooks.org/w/index.php?oldid=4516752
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ve-tequenos
+title: Tequeños
+alternate_names:
+- Venezuelan Breaded Cheese Sticks
+summary: A tequeño is prepared with a bread dough with white cheese (queso blanco) in the middle. It is formed into a bread stick and then fried. It is one of the most popular snack foods in parties, especially weddings.
+origin:
+  country: VE
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- deep-frying
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: kg, qty: 1}
+  - {ingredient: vegetable-oil, unit: cup, qty: 1}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: cheese, unit: kg, qty: 1}
+steps:
+- Mix the flour, oil, egg, salt and sugar in a bowl to make a dough.
+- While kneading, add 1–2 tablespoons water. Keep kneading until it does not stick to your hands.
+- Let the dough rest for 1–2 hours.
+- While the dough is resting, cut the cheese into finger-like strips, roughly 1 x 1 x 7 cm (½ x ½ x 3 inches).
+- After the dough has rested, shape it into palm sized balls.
+- Roll them out until they are ½ cm (¼–0.125 inch) thick.
+- Cut the rolled-out dough into long strips that are 1½ cm (¾ inch) wide.
+- Wrap the cheese strips with the dough strips.
+- Make sure you cover all the cheese and seal it inside the dough, because otherwise the cheese will leak out of the dough when frying.
+- After you have wrapped the cheese in dough, dust the raw tequeños with flour and deep fry them in hot oil until golden.
+- Serve with guasacaca, in either its mild (green) or spicy (red) formats.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATeque%C3%B1os_%28Venezuelan_Breaded_Cheese_Sticks%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tequeños (Venezuelan Breaded Cheese Sticks)@4517773
+    url: https://en.wikibooks.org/w/index.php?oldid=4517773
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

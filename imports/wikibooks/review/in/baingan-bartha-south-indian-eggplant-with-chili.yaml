@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: in-baingan-bartha-south-indian-eggplant-with-chili
+title: Baingan Bartha (South Indian Eggplant with Chili)
+summary: Baingan Bartha (South Indian Eggplant with Chili).
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- sauteing
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: eggplant, qty: 2, note: medium}
+  - {ingredient: vegetable-oil}
+  - {ingredient: garlic, prep: chopped fine}
+  - {ingredient: ginger, prep: chopped fine}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 0.25}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 0.333}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.25}
+  - {ingredient: tomato-paste, unit: g, qty: 100, prep: finely diced}
+  - {ingredient: cilantro, qty: [2, 3], prep: finely chopped}
+  - {ingredient: red-chili, prep: as desired}
+  - {ingredient: salt, note: to taste}
+steps:
+- Peel and steam the aubergine until the flesh is tender. Mash and reserve.
+- Heat some oil in a pan, and add mustard and cumin seeds. Sauté for 10 seconds, then add finely chopped garlic and ginger. Sauté until the ginger and garlic turn yellow.
+- Add chopped onion and sauté until the onion is translucent.
+- Add the aubergine mash, turmeric, coriander stem, tomato paste, and salt. Cook on medium heat for 20 minutes.
+- Garnish with chopped coriander and serve.
+- To smoke the bharta for a more robust flavour, light a small piece of charcoal and place it over a piece of foil placed inside the dish. Pour about ¼ teaspoon of oil and cover the dish immediately. Leave to infuse.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaingan_Bartha_%28South_Indian_Eggplant_with_Chili%29_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Baingan Bartha (South Indian Eggplant with Chili) II@4630287
+    url: https://en.wikibooks.org/w/index.php?oldid=4630287
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

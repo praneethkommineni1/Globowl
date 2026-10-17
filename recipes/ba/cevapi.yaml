@@ -1,0 +1,44 @@
+id: ba-cevapi
+title: Ćevapi
+native_name: {text: Ćevapi, lang: bs}
+summary: Little grilled sausages of seasoned minced beef and lamb, stuffed into fluffy somun bread with raw onion, kajmak and ajvar.
+origin:
+  country: BA
+  region: Sarajevo
+  also_claimed_by: [RS, HR]
+course: main
+dish_types: [grilled-meat]
+authenticity: traditional
+yield: {servings: 4, amount: about 25 ćevapi}
+time: {prep_min: 20, cook_min: 15, inactive_min: 720}
+difficulty: 2
+techniques: [grilling]
+ingredient_groups:
+  - name: Ćevapi
+    items:
+      - {ingredient: beef-mince, qty: 500, unit: g, note: "about 20% fat"}
+      - {ingredient: lamb-mince, qty: 250, unit: g}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "crushed"}
+      - {ingredient: baking-soda, qty: 0.5, unit: tsp}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: black-pepper, qty: 1, unit: tsp}
+      - {ingredient: water, qty: 4, unit: tbsp, note: "sparkling"}
+  - name: To serve
+    items:
+      - {ingredient: pita-bread, qty: 4, note: "somun or lepinja"}
+      - {ingredient: onion, qty: 1, prep: "finely chopped"}
+      - {ingredient: kajmak, qty: 100, unit: g, alt: [sour-cream]}
+      - {ingredient: ajvar, qty: 4, unit: tbsp, optional: true}
+steps:
+  - text: Knead the meats with the garlic, soda, salt, pepper and water for 5 minutes until sticky. Cover and chill overnight.
+    timer_min: 720
+  - With wet hands, shape into fingers about 2 cm thick and 7 cm long.
+  - Grill over hot coals or on a griddle, turning, until browned and just cooked through (8–10 minutes).
+  - Warm the bread on the grill, split it, and fill with 5–10 ćevapi, onion and kajmak.
+serving: With ajvar (roasted pepper relish) on the side and yogurt to drink.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

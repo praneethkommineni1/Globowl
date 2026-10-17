@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 200 grams fresh oha leaves, hand-shredded
+#  - unmapped ingredient: 700 grams assorted meat
+#  - unmapped ingredient: 3 scotch bonnet pepper
+#  - unmapped ingredient: 1 tablespoons ogiri okpei
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+id: ng-nigerian-oha-soup
+title: Nigerian Oha Soup
+alternate_names:
+- Ora Soup
+summary: Oha soup, also called Ora soup, is a delicacy of the Igbo people of southeastern Nigeria. It is prepared with the tender leaves of the Oha tree (Pterocarpus mildbraedii), cocoyam as a thickener, and palm oil.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: taro, unit: g, qty: 500, prep: peeled and boiled}
+  - {ingredient: red-palm-oil, unit: cup, qty: 0.3}
+  - {ingredient: stockfish, unit: g, qty: 200, prep: soaked and cleaned}
+  - {ingredient: smoked-fish, unit: g, qty: 150, prep: deboned}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 3}
+  - {ingredient: onion, qty: 1}
+  - {ingredient: bouillon-cube, qty: 2}
+steps:
+- 'Cook the meats: Season 700 grams assorted meat (beef, shaki, oxtail, goat meat) with diced 1 onion, 1 of 2 seasoning cubes, and a pinch of 1 teaspoons salt. Add 200 grams stockfish (panla), soaked and cleaned midway through cooking. Cook on medium heat until tender. Reserve the meat stock.'
+- 'Prepare the cocoyam thickener: Boil peeled 500 grams cocoyam (ede), peeled and boiled until very soft. Pound in a mortar until smooth and lump-free, or blend with a little water. Set the cocoyam paste aside this is the soup thickener.'
+- 'Build the soup base: Pour reserved meat stock into a pot. Add 0.3 cups palm oil and bring to a boil. Add 1 tablespoons ogiri okpei (fermented locust bean paste) and blended 3 scotch bonnet pepper (rodo). Stir well.'
+- 'Add cocoyam thickener: Drop spoonfuls of the cocoyam paste into the boiling soup. Do not stir immediately allow it to dissolve slowly into the stock, thickening the soup naturally. Stir gently after 10 minutes'
+- 'Add proteins and season: Add cooked 700 grams assorted meat (beef, shaki, oxtail, goat meat), 200 grams stockfish (panla), soaked and cleaned, and 150 grams smoked fish, deboned into the pot. Add 3 tablespoons ground crayfish and remaining 2 seasoning cubes. Taste and adjust 1 teaspoons salt. Simmer on medium-low heat for 10 minutes.'
+- 'Add oha leaves and finish: Hand-shred 200 grams fresh oha (ora) leaves, hand-shredded and stir gently into the soup. Cook for 3–5 minutes only. The soup should be thick, richly coloured, and aromatic.'
+- 'Serve: Serve hot with pounded yam (iyán), eba, fufu, or semovita.'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Oha_Soup_%28Ora_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Oha Soup (Ora Soup)@4633927
+    url: https://en.wikibooks.org/w/index.php?oldid=4633927
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

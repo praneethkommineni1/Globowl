@@ -1,0 +1,77 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (MX, US): confirm the country of origin
+#  - unmapped ingredient: 1 can beanless chili con carne
+#  - unmapped ingredient: 1 package of corn husks
+#  - unmapped ingredient: 2 pounds masa flour
+#  - course unknown from categories
+id: mx-new-mexico-pork-tamales
+title: New Mexico Pork Tamales
+summary: New Mexico Pork Tamales are a classic Southwestern United States meal, made from pork and chicken. This version adds cumin, chili powder and garlic powder to outer masa flour of the tamale.
+origin:
+  country: MX
+  also_claimed_by:
+  - US
+course: main
+authenticity: unassessed
+yield:
+  servings: 24
+time:
+  total_min: 240
+difficulty: 4
+techniques:
+- steaming
+ingredient_groups:
+- name: Meat filling
+  items:
+  - {ingredient: pork, unit: cup, qty: 1}
+  - {ingredient: chicken, unit: cup, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: chili-powder, unit: tbsp, qty: 1}
+  - {ingredient: garlic-powder, unit: tbsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.125}
+- name: Masa mixture
+  items:
+  - {ingredient: paprika, unit: tbsp, qty: 3}
+  - {ingredient: chili-powder, unit: tbsp, qty: 3}
+  - {ingredient: garlic-powder, unit: tbsp, qty: 3}
+  - {ingredient: ground-cumin, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 2}
+  - {ingredient: shortening, unit: cup, qty: 2}
+  - {ingredient: chicken-stock, unit: cup, qty: 8}
+steps:
+- Stir ingredients together and refrigerate until needed.
+- Soak corn husks in warm water for at least two hours. A dinner plate may be needed to hold corn husks under water.
+- Mix dry masa flour with paprika, chili powder, garlic powder, cumin and salt. Mix well for even distribution of spices.
+- Cut shortening into the masa mixture with a pastry cutter. Mix until mixture resembles the texture of tiny peas.
+- Slowly add chicken broth one cup at a time. Mix well with electric mixer. Mixture should resemble consistency of peanut butter.
+- Continue mixing with electric mixer to incorporate air into batter. Mixture is ready to use when 1 teaspoon of batter floats on water.
+- Use one corn husk per tamale. Lay flat on table. The corn husk is roughly rectangle shaped.
+- Spread ½ cup of masa mixture on entire upward facing corn husk, leaving a 1-inch (2.5 cm) gap along the long edge and narrow end of the corn husk.
+- Spread 1 tablespoon of meat mixture, in a narrow band in the middle, down the length of the masa spread corn husk.
+- Roll/fold the husk along the wide edge, touching the edges of the masa together, with the meat mixture ending up in the middle of the masa. The part of the husk with the 1-inch gap with no masa should be rolled around the outside of the husk.
+- Fold about 1 inch of end of rolled husk, upward along the body of the husk. You should end up with something resembling a cornucopia, with one end folded over and one end open.
+- Stand all of the rolled tamales on end in a steamer basket with the open end of the tamale facing upward. Cover the basket.
+- Steam the tamales over boiling water for 2 hours. Keep the tamales above the boiling water, don't allow them to stand in it.
+- At the end of the cooking period, open one tamale to make sure the masa is cooked and not doughy.
+- Allow tamales to rest 30 minutes after cooking, before serving. This will help to keep the masa from sticking to the corn husk.
+tips:
+- Leftover tamales may be frozen in ziplock bags.
+- Reheat frozen tamales in a microwave. If you reheat by steaming, they may become soggy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANew_Mexico_Pork_Tamales&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:New Mexico Pork Tamales@4511987
+    url: https://en.wikibooks.org/w/index.php?oldid=4511987
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

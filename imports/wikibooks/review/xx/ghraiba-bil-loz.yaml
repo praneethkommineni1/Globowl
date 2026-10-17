@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-ghraiba-bil-loz
+title: Ghraiba bil Loz
+alternate_names:
+- Libyan Almond Ghraiba
+summary: Ghreyba bil loz is a delicious Libyan almond cookie loved for its delicate texture and rich almond flavor. These cookies are often enjoyed during festive occasions and are a popular treat in Libyan cuisine.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 24
+  amount: About 24 cookies
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Mixing bowl
+- Electric mixer or wooden spoon
+- Baking sheet
+- Parchment paper or silicone baking mat
+- Oven
+- Wire rack
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: cup, qty: 1, prep: softened}
+  - {ingredient: powdered-sugar, unit: cup, qty: 0.5}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: almonds, unit: cup, qty: 0.5}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: almonds, prep: for decoration}
+steps:
+- Preheat the oven to 350°F (175°C) and line a baking sheet with parchment paper or a silicone baking mat.
+- In a mixing bowl, cream together the softened butter and powdered sugar until light and fluffy.
+- Add the flour, ground almonds, and vanilla extract to the butter mixture. Mix until well combined and a soft dough forms.
+- Pinch off small portions of the dough and roll them into balls about the size of a walnut. Place the balls on the prepared baking sheet, leaving some space between them.
+- Press a whole almond into the center of each cookie ball, gently flattening the cookies slightly.
+- Bake in the preheated oven for 12–15 minutes, or until the edges of the cookies turn golden brown.
+- Remove from the oven and let the cookies cool on the baking sheet for a few minutes, then transfer them to a wire rack to cool completely.
+tips:
+- Ghribia bil loz are delicate and crumbly, so handle them gently when transferring to the wire rack.
+- The cookies will firm up as they cool, so don't worry if they seem soft right out of the oven.
+- Make sure the butter is softened at room temperature to easily cream it with the powdered sugar.
+- If you prefer a more pronounced almond flavor, you can add a few drops of almond extract to the dough along with the vanilla extract.
+- For a touch of citrus, add the zest of 1 lemon or orange to the dough.
+- Dust the cooled cookies with a sprinkle of powdered sugar for an elegant presentation.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGhraiba_bil_Loz_%28Libyan_Almond_Ghraiba%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ghraiba bil Loz (Libyan Almond Ghraiba)@4587497
+    url: https://en.wikibooks.org/w/index.php?oldid=4587497
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

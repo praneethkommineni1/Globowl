@@ -1,0 +1,42 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-nigerian-wheat-swallow
+title: Nigerian Wheat Swallow
+summary: One variety of swallow in Nigeria is that made of wheat flour. It is served with various soups and stews, such as ẹgusi, okro, or ogbono soups.
+origin:
+  country: NG
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water}
+  - {ingredient: all-purpose-flour}
+steps:
+- Put water in a pot, and bring it to a boil.
+- Gradually stir in the flour, mixing until the mixture is thick and lump-free.
+- Add a small amount of water, and cook for few minutes.
+- Serve with the soup of your choice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Wheat_Swallow&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Wheat Swallow@4518760
+    url: https://en.wikibooks.org/w/index.php?oldid=4518760
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

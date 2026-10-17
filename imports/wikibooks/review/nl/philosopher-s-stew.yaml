@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3 1/2 dl skimmed gravy
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: nl-philosopher-s-stew
+title: Philosopher's Stew
+summary: 'Philosopher''s stew (Dutch: filosoof) is a dish from the Netherlands. It is an oven-baked dish made of beef, potatoes, onions and apples.'
+origin:
+  country: NL
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: [300, 400], prep: stewed beef}
+  - {ingredient: butter, unit: g, qty: 40}
+  - {ingredient: onion, qty: 4, prep: sliced into thin rings, note: large}
+  - {ingredient: potato, unit: g, qty: 800, prep: cut into slices}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: nutmeg}
+  - {ingredient: white-bread, qty: 4}
+  - {ingredient: apple}
+steps:
+- Cut the meat into small pieces (about 5 mm).
+- Heat the frying fat or butter in a frying pan or a small wok. Fry the onions until the are golden brown. Put the onions aside.
+- Put a layer after layer of potatoes, meat and onions on top of each other in an oven-proof dish. Season each layer of potatoes with salt, pepper and nutmeg. Make sure the top layer consists of potatoes.
+- Pour the gravy over the top layer and scatter the bread crumbs over it all.
+- Put some lumps of butter here and there.
+- Pre-heat the oven to 200°C. Bake the dish for about 30 minutes.
+- Serve immediately with the apple compôte
+tips:
+- The taste improves if you let the dish rest for a while in the fridge before putting it in the oven.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APhilosopher%27s_Stew&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Philosopher's Stew@4517417
+    url: https://en.wikibooks.org/w/index.php?oldid=4517417
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

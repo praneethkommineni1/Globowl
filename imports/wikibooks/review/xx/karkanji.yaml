@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 cup dried hibiscus petals
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-karkanji
+title: Karkanji
+alternate_names:
+- Chadian Spiced Hibiscus Drink
+summary: Karkanji is an hibiscus drink from Chad and across the Sahel region. Known for its intense deep red color, it is made from dried hibiscus petals, spiced with ginger and cloves, and sweetened with sugar or honey to taste.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+equipment:
+- Medium-sized saucepan
+- Sieve or fine strainer
+- Spoon for stirring
+- Pitcher
+- Refrigerator or ice (for chilling)
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: [4, 5]}
+  - {ingredient: ginger, unit: tbsp, qty: [2, 3]}
+  - {ingredient: sugar, note: to taste}
+  - {ingredient: cinnamon-stick, qty: 1, optional: true}
+  - {ingredient: lemon, optional: true}
+steps:
+- Rinse the dried hibiscus petals under cold water to remove any dust or debris.
+- In a saucepan, bring the water to a boil.
+- Add the rinsed hibiscus petals, grated ginger, cloves, and cinnamon stick. Stir well.
+- Let the mixture boil for about 5–7 minutes, or until the water turns a rich deep red and the spices have released their aroma.
+- Remove the saucepan from heat and let it steep for another 10 minutes for a stronger flavor.
+- Strain the liquid using a sieve into a clean jug or bowl to remove the solids.
+- Stir in sugar while the drink is still warm, adjusting to your preferred sweetness level.
+- Allow the drink to cool completely. Refrigerate until chilled or serve over ice.
+tips:
+- Although they are called hibiscus "petals", they are actually the calyx of the plant.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKarkanji_%28Chadian_Spiced_Hibiscus_Drink%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Karkanji (Chadian Spiced Hibiscus Drink)@4510329
+    url: https://en.wikibooks.org/w/index.php?oldid=4510329
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

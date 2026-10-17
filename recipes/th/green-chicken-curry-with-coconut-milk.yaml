@@ -1,0 +1,61 @@
+id: th-green-chicken-curry-with-coconut-milk
+title: Green Chicken Curry with Coconut Milk
+summary: Serve this hearty dish with rice.
+origin:
+  country: TH
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- pan-frying
+- simmering
+ingredient_groups:
+- name: Curry paste
+  items:
+  - {ingredient: coriander-seeds, unit: tbsp, qty: 2}
+  - {ingredient: black-peppercorns, unit: tbsp, qty: 1}
+  - {ingredient: red-chili}
+  - {ingredient: ginger, qty: 2}
+  - {ingredient: cilantro}
+  - {ingredient: garlic, qty: 2, note: big}
+  - {ingredient: onion, unit: tbsp, qty: 3}
+  - {ingredient: lemongrass, qty: [1, 5], prep: coarsely cut}
+- name: Curry
+  items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: leek, qty: [3, 4], prep: coarsely chopped, note: big}
+  - {ingredient: red-bell-pepper, qty: 2}
+  - {ingredient: coconut-milk, unit: can, qty: [1, 2]}
+  - {ingredient: garlic}
+  - {ingredient: soy-sauce}
+  - {ingredient: chicken, unit: g, qty: 850}
+  - {ingredient: basil}
+  - {ingredient: salt}
+  - {ingredient: fish-sauce, unit: tbsp, qty: 1, optional: true}
+steps:
+- Grind all the ingredients for the curry paste together with a mortar and pestle.
+- Fry the curry paste with oil for a couple of minutes in a big pot. Add leeks and bell pepper. Shortly after, add the coconut milk, cover, and let simmer 20–30 minutes.
+- Meanwhile, crush garlic into a bowl with some soy sauce and mix in the chicken meat cubes. Let marinate.
+- Fry the marinated meat with oil.
+- Add the cooked meat to the curry pot, then season with basil, salt, and fish sauce to taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGreen_Chicken_Curry_with_Coconut_Milk&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Green Chicken Curry with Coconut Milk@4517539
+    url: https://en.wikibooks.org/w/index.php?oldid=4517539
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

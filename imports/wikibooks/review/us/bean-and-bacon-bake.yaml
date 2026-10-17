@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+id: us-bean-and-bacon-bake
+title: Bean and Bacon Bake
+summary: Bean and Bacon Bake.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 20
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: potato, qty: 1}
+  - {ingredient: bacon, qty: 6, prep: 'cooked until crisp, or microwave ready fully cooked bacon'}
+  - {ingredient: green-beans, unit: can, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: onion, unit: tsp, qty: 0.5}
+  - {ingredient: almonds, unit: cup, qty: 0.125}
+steps:
+- Peel and dice the potato.
+- Crumble crisp bacon into small pieces.
+- Drain green beans, keeping ½ cup of the liquid.
+- Put beans, bean juice, bacon, and potato in a microwave-safe baking dish.
+- Sprinkle onion powder and salt on top.
+- Cover with clear wrap.
+- Cook in microwave oven 5 minutes, stir, and cook another 5 minutes.
+- Let stand 5 minutes.
+- Garnish with sliced almonds.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABean_and_Bacon_Bake&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bean and Bacon Bake@4517392
+    url: https://en.wikibooks.org/w/index.php?oldid=4517392
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

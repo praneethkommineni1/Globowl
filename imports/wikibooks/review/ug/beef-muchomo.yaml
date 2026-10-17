@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ug-beef-muchomo
+title: Beef Muchomo
+alternate_names:
+- Ugandan Beef Skewers
+summary: Beef muchomo is a Ugandan street food, but it can be made at home for any backyard get-together. The inside is very tender and it tastes delicious when eaten with skewered onions.
+origin:
+  country: UG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- grilling
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: lemon, qty: 1, prep: juiced}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: garlic-powder, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cardamom, unit: tsp, qty: 0.25}
+  - {ingredient: cayenne, unit: tsp, qty: 0.25}
+  - {ingredient: beef, unit: g, qty: 907}
+  - {ingredient: onion, qty: 1, prep: quartered and sectioned, note: big}
+steps:
+- In a mixing bowl, whisk together the oil, lemon juice, salt, ground cumin, garlic powder, ground cardamom, and cayenne powder.
+- Add the beef and onions, and stir to combine. Cover and refrigerate for about 9–10 hours and up to overnight.
+- Preheat the grill to high heat and the oven to 200°F.
+- Remove the beef and onions from the marinade, and thread alternately on metal skewers.
+- Grill the skewers until a crust forms (about 2 minutes on each sides).
+- Transfer the skewers to a baking sheet, and roast in the preheated oven until cooked through and tender (about 45 minutes).
+- Serve the beef muchomo with peri peri sauce for dipping.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeef_Muchomo_%28Ugandan_Beef_Skewers%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Beef Muchomo (Ugandan Beef Skewers)@4510018
+    url: https://en.wikibooks.org/w/index.php?oldid=4510018
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

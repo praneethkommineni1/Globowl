@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 teaspoons dabeli masala
+#  - unmapped ingredient: 5–6 ladi-pav or burger buns
+#  - unmapped ingredient: 1/4 cup sev
+#  - unmapped ingredient: 1 handful of pomegranate seeds
+#  - no time in recipe summary
+#  - course unknown from categories
+id: in-dabeli
+title: Dabeli
+alternate_names:
+- Potato-stuffed Buns with Chutney
+summary: Dabeli is an Indian dish, originally from the region Kutch in Gujarat. Dabeli is now a common street food in Mumbai. It is also called double roti or kutchi dabeli.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–3
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- name: Filling
+  items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: asafoetida, unit: pinch, qty: 1}
+  - {ingredient: potato, qty: 2, prep: boiled and mashed}
+  - {ingredient: salt}
+  - {ingredient: water}
+  - {ingredient: red-chili, prep: finely chopped, optional: true}
+  - {ingredient: roasted-peanuts, unit: tbsp, qty: 2, prep: roasted}
+- name: Assembly
+  items:
+  - {ingredient: butter}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic}
+  - {ingredient: tamarind-paste}
+- name: Garnish
+  items:
+  - {ingredient: cilantro}
+  - {ingredient: roasted-peanuts}
+steps:
+- Heat oil in a pan. Add asafoetida, dabeli masala, potatoes, salt to taste, and a sprinkle of water. Mix it very well so that masala, salt and boiled potato assimilate very well.
+- Mix in the green chiles if using.
+- Remove potato mixture from the heat, and taste. If you want to make it more spicy, add some more dabeli masala, and mix again using your hands or a masher. Toss in the roasted peanuts and mix everything well.
+- Slice pav/bun into halves, and toast them with a little butter on a griddle.
+- Apply garlic chutney to one half of the bun (inner side) and tamarind-date chutney to the other half.
+- Place a portion of the potato filling in between between the bun halves.
+- Top with chopped onion, coriander, and sev.
+- Press down the bun from both side, and garnish with pomegranate seeds, and roasted peanuts.
+- Serve immediately, while medium-hot, with a extra dip of chutney on the plate. Fried green chillies, with a sprinkle of salt can be additionally given as an add-on.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADabeli_%28Potato-stuffed_Buns_with_Chutney%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dabeli (Potato-stuffed Buns with Chutney)@4670882
+    url: https://en.wikibooks.org/w/index.php?oldid=4670882
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

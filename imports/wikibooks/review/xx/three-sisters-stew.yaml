@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-three-sisters-stew
+title: Three Sisters Stew
+summary: Three sisters stew is a traditional and contemporary Native American dish. The dish includes the three sister foods of maize, beans, and squash, which are prevalent in many Native American diets.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: butternut-squash, qty: 1}
+  - {ingredient: olive-oil, unit: tbsp, qty: 1}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: red-bell-pepper, qty: 0.5, prep: 'cut into short, narrow strips', note: medium}
+  - {ingredient: tomato, unit: can, qty: 1, prep: with liquid}
+  - {ingredient: dried-borlotti-beans, unit: cup, qty: 2}
+  - {ingredient: corn-kernels, unit: cup, qty: 2}
+  - {ingredient: chicken-stock, unit: cup, qty: 1}
+  - {ingredient: red-chili, qty: [1, 2], prep: seeded and minced}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: dried-oregano, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: cilantro, unit: tbsp, qty: [3, 4], prep: minced}
+steps:
+- Preheat the oven to 400°F.
+- Cut the pumpkin or squash in half lengthwise and remove the seeds and fibers. Cover with aluminum foil and place the halves, cut side up, in a foil-lined shallow baking pan.
+- Bake for 40–50 minutes, or until easily pierced with a knife but still firm (if using squash, prepare the same way). When cool enough to handle, scoop out the pulp, and cut into large dice. Set aside until needed.
+- Heat the oil in a soup pot. Add the onion and sauté over medium-low heat until translucent. Add the garlic and continue to sauté until the onion is golden.
+- Add the pumpkin and all the remaining ingredients except the last 2 and bring to a simmer. Simmer gently, covered, until all the vegetables are tender, about 20–25 minutes. Season to taste with salt and pepper.
+- If time allows, let the stew stand for 1–2 hours before serving, then heat through as needed. Just before serving, stir in the cilantro. The stew should be thick and very moist but not soupy; add additional stock or water if needed. Serve in shallow bowls.
+tips:
+- The protein content of the stew can be increased by adding a cup of quinoa and/or a pound of cooked turkey meat, cut into bite-size pieces.
+- See Three Sisters Soup for another variation.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AThree_Sisters_Stew&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Three Sisters Stew@4520342
+    url: https://en.wikibooks.org/w/index.php?oldid=4520342
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

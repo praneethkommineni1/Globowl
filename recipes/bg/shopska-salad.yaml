@@ -1,0 +1,36 @@
+id: bg-shopska-salad
+title: Shopska Salad
+native_name: {text: Шопска салата, lang: bg, romanized: shopska salata}
+summary: Tomatoes, cucumber, peppers and onion under a snowy blanket of finely grated white brined cheese.
+origin:
+  country: BG
+  also_claimed_by: [MK, RS]
+course: salad
+dish_types: [salad]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 0}
+difficulty: 1
+techniques: []
+ingredient_groups:
+  - items:
+      - {ingredient: tomato, qty: 4, prep: "diced"}
+      - {ingredient: cucumber, qty: 1, prep: "diced"}
+      - {ingredient: green-pepper, qty: 2, prep: "diced", note: "raw or roasted and peeled"}
+      - {ingredient: red-onion, qty: 1, prep: "finely chopped", note: "or 3 scallions"}
+      - {ingredient: parsley, qty: 1, unit: handful, prep: "chopped"}
+      - {ingredient: sunflower-oil, qty: 3, unit: tbsp}
+      - {ingredient: red-wine-vinegar, qty: 1, unit: tbsp}
+      - {ingredient: salt, note: "to taste"}
+      - {ingredient: feta, qty: 150, unit: g, prep: "finely grated", note: "Bulgarian sirene"}
+steps:
+  - Combine the vegetables and parsley, dress with oil, vinegar and salt, and toss.
+  - Pile into a bowl and grate the cheese thickly over the top so it covers the salad.
+serving: With a glass of rakia, as a starter.
+culture: Created in the 1950s for Bulgaria's tourism board; its white, green and red echo the Bulgarian flag.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

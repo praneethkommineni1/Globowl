@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (AU, NZ): confirm the country of origin
+#  - unmapped ingredient: Cut fruit and/or berries
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+#  - possible duplicate of hand-written recipe nz-pavlova — merge or keep as a variant
+id: au-pavlova
+title: Pavlova
+summary: Pavlova is a light and fluffy meringue dessert named after the ballet dancer Anna Pavlova. Both Wellington, New Zealand and Perth, Australia claims to be the home of the dish.
+origin:
+  country: AU
+  also_claimed_by:
+  - NZ
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: egg-white, qty: 3}
+  - {ingredient: water, unit: tbsp, qty: 3}
+  - {ingredient: caster-sugar, unit: g, qty: 250}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: white-vinegar, unit: ml, qty: 5}
+  - {ingredient: vanilla-extract, unit: ml, qty: 5}
+  - {ingredient: cornstarch, unit: tsp, qty: 1, optional: true}
+  - {ingredient: heavy-cream}
+  - {ingredient: powdered-sugar, note: to taste}
+steps:
+- Whip the egg whites and salt to a very stiff consistency. Add water and beat again before folding in caster sugar, vanilla and vinegar. Whip until the mixture holds its shape and stands in sharp peaks.
+- Spread the mixture onto a baking sheet lined with parchment paper.
+- Slow-bake the mixture at 150°C (300°F) to dry all the moisture and create the meringue, approximately 45 minutes. This leaves the outside of the pavlova a crisp crunchy shell, while the interior remains soft and moist. Let cool.
+- Whip the cream and powdered sugar to medium peaks. Spread the whipped cream on top of the meringue.
+- Arrange the fruit on top of the whipped cream layer. Serve immediately.
+tips:
+- You can turn the meringue upside down before decorating with cream and fruit because the bottom is less crispy than the top after cooking, and unless you serve it immediately after decorating the "top" absorbs moisture from the cream.
+- You can leave the meringue in the oven after turning off the heat—this helps to prevent the middle of the pavlova from collapsing (although if it does collapse, generous application of cream can hide any mistakes!)
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APavlova&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pavlova@4587394
+    url: https://en.wikibooks.org/w/index.php?oldid=4587394
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

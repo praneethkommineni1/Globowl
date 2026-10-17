@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-arisa-pitha
+title: Arisa Pitha
+alternate_names:
+- Fried Indian Sweet Rice Pastry
+summary: Arisa pitha is a sweet filled pancake from Odisha, India. It is made using sugar and a sweet pitha. A thick jantani (semi-solid mixture) of rice flour and sugar or jaggery is made into small semi-flat round shapes and fried in ghee or oil until golden brown.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- name: Dough
+  items:
+  - {ingredient: water, unit: l, qty: 2}
+  - {ingredient: sugar, unit: kg, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+  - {ingredient: ghee, unit: tbsp, qty: 1}
+  - {ingredient: rice-flour, unit: kg, qty: 1}
+- name: Filling
+  items:
+  - {ingredient: ghee}
+  - {ingredient: coconut}
+  - {ingredient: sugar}
+- name: Additional ingredients
+  items:
+  - {ingredient: vegetable-oil, unit: g, qty: 200}
+  - {ingredient: sesame-seeds}
+steps:
+- 'Dough: Boil water in a wide-mouth pan. Stir in sugar, salt, cinnamon, and ghee. Slowly and continuously stir in the rice flour. Cover the pan, and cook over low heat until the water is absorbed. The dough should be the consistency of chapati dough. Let cool.'
+- 'Filling: Melt the ghee in a pan over medium heat. Add coconut and sugar. Cook, stirring, until the coconut turns golden brown.'
+- 'Assembly: Knead the cooled rice mixture to make a smooth dough. Make small balls of dough, roll them, and stuff with the fried coconut mixture and sesame seeds.'
+- Deep fry the filled pastries in the oil or ghee until golden brown all over.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AArisa_Pitha_%28Fried_Indian_Sweet_Rice_Pastry%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Arisa Pitha (Fried Indian Sweet Rice Pastry)@4630281
+    url: https://en.wikibooks.org/w/index.php?oldid=4630281
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

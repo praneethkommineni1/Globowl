@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 1/2 cup cassava flour
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-funje
+title: Funje
+alternate_names:
+- Cassava Flour Pudding
+summary: Funje is a traditional dish popularly eaten in Angola. It can be prepared using the modern method or the traditional method.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 3}
+steps:
+- Preheat the oven to about 350 °F.
+- Put the water in a medium-size pot and let boil.
+- Put the cassava flour in a medium-size bowl, and mix with a little cold water until it is just damp. Make sure to mix it very well so as to have an and even mixture.
+- When the water is boiling, mix in the damp pre-mixed cassava flour.
+- Whisk to combine, and continue to whisk until all lump-free.
+- Cover with the lid and place it in the oven to cook for about 30 minutes.
+- Whisk any further if you want, then remove and serve with any soup of your desire.
+- Bring the water to a boil in a pot.
+- When the water is boiling, remove from the stove and place on the floor. Sit on a small stool with the pot between your legs.
+- Pour the cassava flour into the water and start to whisk as fast as you can using a wooden spoon.
+- Continue to mix until the mixture is completely smooth.
+- When you are done whisking it to your satisfaction, cover with a lid and leave on a reduced heat for about 3 minutes.
+- Enjoy with any complimentary soup of your choice.
+tips:
+- Preparing this dish is not time time consuming, but if you are not careful enough it can get lumpy. Make sure to mix it very well as soon as you start pouring the cassava flour into the boiling water.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFunje_%28Cassava_Flour_Pudding%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Funje (Cassava Flour Pudding)@4517858
+    url: https://en.wikibooks.org/w/index.php?oldid=4517858
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

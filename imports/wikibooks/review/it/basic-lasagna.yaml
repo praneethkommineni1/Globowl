@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 1/2 cups Italian Tomato Sauce
+#  - course unknown from categories
+id: it-basic-lasagna
+title: Basic Lasagna
+summary: Basic Lasagna.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 6, prep: separated}
+  - {ingredient: ricotta, unit: cup, qty: 2}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: heavy-cream, unit: cup, qty: 0.5}
+  - {ingredient: noodles}
+steps:
+- In a large spotlessly clean stainless steel bowl, whip egg whites to stiff peaks and set aside.
+- Combine egg yolks, cheese, salt, pepper, and heavy cream.
+- Gently fold egg whites into cheese mixture.
+- Lay half the cooked noodles in the bottom of a roasting pan. Add a layer of tomato sauce on top, then a layer of the cheese mixture. Repeat this step for a second layer of noodles/tomato/cheese. The last layer should be cheese.
+- Cover with aluminum foil and bake at 375°F for 15 minutes. Remove foil and bake for another 20 minutes.
+- Remove from oven, and let rest for 10 minutes. Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABasic_Lasagna&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Basic Lasagna@4605279
+    url: https://en.wikibooks.org/w/index.php?oldid=4605279
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -5,166 +5,531 @@
   "description": "Shape of one recipes/<cc>/<slug>.yaml file. Vocabulary values (units, techniques, courses, licences…) are checked against data/taxonomy.yaml by tools/build.py; dietary data is derived at build time and must not be authored.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "title", "summary", "origin", "course", "authenticity", "yield", "time", "difficulty", "ingredient_groups", "steps", "credit", "review"],
+  "required": [
+    "id",
+    "title",
+    "summary",
+    "origin",
+    "course",
+    "authenticity",
+    "yield",
+    "time",
+    "difficulty",
+    "ingredient_groups",
+    "steps",
+    "credit",
+    "review"
+  ],
   "properties": {
-    "id": {"type": "string", "pattern": "^[a-z]{2}-[a-z0-9]+(-[a-z0-9]+)*$", "description": "<country code lower-case>-<slug>; must match the file path"},
-    "title": {"type": "string", "minLength": 2, "description": "Name most English-speaking cooks would search for"},
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]{2}-[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "<country code lower-case>-<slug>; must match the file path"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 2,
+      "description": "Name most English-speaking cooks would search for"
+    },
     "native_name": {
-      "type": "object", "additionalProperties": false, "required": ["text", "lang"],
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "lang"
+      ],
       "properties": {
-        "text": {"type": "string", "description": "Name in the original script"},
-        "lang": {"type": "string", "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]+)*$", "description": "BCP 47 language tag"},
-        "romanized": {"type": "string"}
+        "text": {
+          "type": "string",
+          "description": "Name in the original script"
+        },
+        "lang": {
+          "type": "string",
+          "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]+)*$",
+          "description": "BCP 47 language tag"
+        },
+        "romanized": {
+          "type": "string"
+        }
       }
     },
-    "alternate_names": {"type": "array", "items": {"type": "string"}},
-    "summary": {"type": "string", "minLength": 20, "maxLength": 280},
+    "alternate_names": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 280
+    },
     "origin": {
-      "type": "object", "additionalProperties": false, "required": ["country"],
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "country"
+      ],
       "properties": {
-        "country": {"type": "string", "pattern": "^[A-Z]{2}$"},
-        "region": {"type": "string", "description": "Region, city or province within the country"},
-        "community": {"type": "string", "description": "Ethnic, religious or regional community the dish belongs to, if specific"},
-        "also_claimed_by": {"type": "array", "items": {"type": "string", "pattern": "^[A-Z]{2}$"}, "description": "Other countries where the dish is equally at home or whose origin claim is contested"}
+        "country": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        },
+        "region": {
+          "type": "string",
+          "description": "Region, city or province within the country"
+        },
+        "community": {
+          "type": "string",
+          "description": "Ethnic, religious or regional community the dish belongs to, if specific"
+        },
+        "also_claimed_by": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}$"
+          },
+          "description": "Other countries where the dish is equally at home or whose origin claim is contested"
+        }
       }
     },
-    "wikidata": {"type": "string", "pattern": "^Q[0-9]+$", "description": "Wikidata item for the dish, for linking and dedup"},
-    "course": {"type": "string"},
-    "dish_types": {"type": "array", "items": {"type": "string", "pattern": "^[a-z0-9-]+$"}, "description": "Free-form kebab-case, e.g. stew, flatbread, dumpling"},
-    "occasions": {"type": "array", "items": {"type": "string"}, "description": "Holidays or occasions, e.g. Eid al-Fitr, Lunar New Year"},
-    "authenticity": {"type": "string"},
+    "wikidata": {
+      "type": "string",
+      "pattern": "^Q[0-9]+$",
+      "description": "Wikidata item for the dish, for linking and dedup"
+    },
+    "course": {
+      "type": "string"
+    },
+    "dish_types": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$"
+      },
+      "description": "Free-form kebab-case, e.g. stew, flatbread, dumpling"
+    },
+    "occasions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Holidays or occasions, e.g. Eid al-Fitr, Lunar New Year"
+    },
+    "authenticity": {
+      "type": "string"
+    },
     "yield": {
-      "type": "object", "additionalProperties": false,
+      "type": "object",
+      "additionalProperties": false,
       "properties": {
-        "servings": {"type": "integer", "minimum": 1},
-        "amount": {"type": "string", "description": "When servings don't fit, e.g. '24 dumplings', '1 loaf'"}
+        "servings": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "amount": {
+          "type": "string",
+          "description": "When servings don't fit, e.g. '24 dumplings', '1 loaf'"
+        }
       },
       "minProperties": 1
     },
     "time": {
-      "type": "object", "additionalProperties": false, "required": ["prep_min", "cook_min"],
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Give prep_min and cook_min when known; total_min alone when the source only states a total.",
       "properties": {
-        "prep_min": {"type": "integer", "minimum": 0},
-        "cook_min": {"type": "integer", "minimum": 0},
-        "inactive_min": {"type": "integer", "minimum": 0, "description": "Soaking, marinating, resting, rising"}
+        "prep_min": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "cook_min": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "inactive_min": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Soaking, marinating, resting, rising"
+        },
+        "total_min": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Only when the prep/cook split is unknown"
+        }
+      },
+      "oneOf": [
+        {
+          "required": [
+            "prep_min",
+            "cook_min"
+          ],
+          "not": {
+            "required": [
+              "total_min"
+            ]
+          }
+        },
+        {
+          "required": [
+            "total_min"
+          ],
+          "not": {
+            "anyOf": [
+              {
+                "required": [
+                  "prep_min"
+                ]
+              },
+              {
+                "required": [
+                  "cook_min"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "1 = anyone can make it; 5 = needs real technique or practice"
+    },
+    "equipment": {
+      "type": "array",
+      "items": {
+        "type": "string"
       }
     },
-    "difficulty": {"type": "integer", "minimum": 1, "maximum": 5, "description": "1 = anyone can make it; 5 = needs real technique or practice"},
-    "equipment": {"type": "array", "items": {"type": "string"}},
-    "techniques": {"type": "array", "items": {"type": "string"}},
-    "ingredient_groups": {
-      "type": "array", "minItems": 1,
+    "techniques": {
+      "type": "array",
       "items": {
-        "type": "object", "additionalProperties": false, "required": ["items"],
+        "type": "string"
+      }
+    },
+    "ingredient_groups": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "items"
+        ],
         "properties": {
-          "name": {"type": "string", "description": "e.g. 'For the sauce'; omit for a single group"},
-          "items": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/ingredientLine"}}
+          "name": {
+            "type": "string",
+            "description": "e.g. 'For the sauce'; omit for a single group"
+          },
+          "items": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/$defs/ingredientLine"
+            }
+          }
         }
       }
     },
     "steps": {
-      "type": "array", "minItems": 1,
+      "type": "array",
+      "minItems": 1,
       "items": {
         "oneOf": [
-          {"type": "string", "minLength": 5},
           {
-            "type": "object", "additionalProperties": false, "required": ["text"],
+            "type": "string",
+            "minLength": 5
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "text"
+            ],
             "properties": {
-              "text": {"type": "string", "minLength": 5},
-              "timer_min": {"type": "number", "exclusiveMinimum": 0},
-              "section": {"type": "string"}
+              "text": {
+                "type": "string",
+                "minLength": 5
+              },
+              "timer_min": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "section": {
+                "type": "string"
+              }
             }
           }
         ]
       }
     },
-    "tips": {"type": "array", "items": {"type": "string"}},
-    "serving": {"type": "string", "description": "How and with what the dish is traditionally eaten"},
-    "culture": {"type": "string", "description": "A short note on the dish's history or place in daily life"},
+    "tips": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "serving": {
+      "type": "string",
+      "description": "How and with what the dish is traditionally eaten"
+    },
+    "culture": {
+      "type": "string",
+      "description": "A short note on the dish's history or place in daily life"
+    },
     "credit": {
-      "type": "object", "additionalProperties": false, "required": ["source_type", "contributors", "license"],
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_type",
+        "contributors",
+        "license"
+      ],
       "properties": {
-        "source_type": {"type": "string"},
+        "source_type": {
+          "type": "string"
+        },
         "contributors": {
-          "type": "array", "minItems": 1,
+          "type": "array",
+          "minItems": 1,
           "items": {
-            "type": "object", "additionalProperties": false, "required": ["name", "role"],
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "role"
+            ],
             "properties": {
-              "name": {"type": "string"},
-              "role": {"type": "string"},
-              "url": {"type": "string", "format": "uri"},
-              "user_id": {"type": "string", "description": "Globowl account id, when the contributor has one"}
+              "name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "user_id": {
+                "type": "string",
+                "description": "Globowl account id, when the contributor has one"
+              }
             }
           }
         },
         "adapted_from": {
           "type": "array",
           "items": {
-            "type": "object", "additionalProperties": false, "required": ["title"],
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "title"
+            ],
             "properties": {
-              "title": {"type": "string"}, "author": {"type": "string"}, "publisher": {"type": "string"},
-              "url": {"type": "string", "format": "uri"}, "accessed": {"type": "string", "format": "date"},
-              "changes": {"type": "string", "description": "What was changed from the source"}
+              "title": {
+                "type": "string"
+              },
+              "author": {
+                "type": "string"
+              },
+              "publisher": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "accessed": {
+                "type": "string",
+                "format": "date"
+              },
+              "changes": {
+                "type": "string",
+                "description": "What was changed from the source"
+              }
             }
           }
         },
         "dataset": {
-          "type": "object", "additionalProperties": false, "required": ["name", "license"],
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "license"
+          ],
           "properties": {
-            "name": {"type": "string"}, "record_id": {"type": "string"},
-            "url": {"type": "string", "format": "uri"}, "license": {"type": "string"}
+            "name": {
+              "type": "string"
+            },
+            "record_id": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "license": {
+              "type": "string"
+            }
           }
         },
-        "license": {"type": "string"},
-        "ai_assisted": {"type": "boolean", "description": "True if an AI drafted or substantially wrote the text"},
-        "notes": {"type": "string"}
+        "license": {
+          "type": "string"
+        },
+        "ai_assisted": {
+          "type": "boolean",
+          "description": "True if an AI drafted or substantially wrote the text"
+        },
+        "notes": {
+          "type": "string"
+        }
       }
     },
     "media": {
       "type": "array",
       "items": {
-        "type": "object", "additionalProperties": false, "required": ["url", "alt", "credit", "license"],
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "url",
+          "alt",
+          "credit",
+          "license"
+        ],
         "properties": {
-          "url": {"type": "string"}, "alt": {"type": "string"}, "credit": {"type": "string"},
-          "license": {"type": "string"}, "source_url": {"type": "string", "format": "uri"}
+          "url": {
+            "type": "string"
+          },
+          "alt": {
+            "type": "string"
+          },
+          "credit": {
+            "type": "string"
+          },
+          "license": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri"
+          }
         }
       }
     },
     "review": {
-      "type": "object", "additionalProperties": false, "required": ["status"],
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status"
+      ],
       "properties": {
-        "status": {"type": "string"},
-        "tested_count": {"type": "integer", "minimum": 0},
-        "cultural_review": {"type": "boolean", "description": "Reviewed by someone from the dish's culture"},
-        "notes": {"type": "string"}
+        "status": {
+          "type": "string"
+        },
+        "tested_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "cultural_review": {
+          "type": "boolean",
+          "description": "Reviewed by someone from the dish's culture"
+        },
+        "notes": {
+          "type": "string"
+        }
       }
     },
     "dietary_overrides": {
       "type": "object",
       "description": "Escape hatch: force a diet status with a stated reason. Prefer fixing the ingredient catalog instead.",
       "additionalProperties": {
-        "type": "object", "additionalProperties": false, "required": ["status", "reason"],
-        "properties": {"status": {"enum": ["yes", "no", "check-labels", "adaptable"]}, "reason": {"type": "string"}}
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "status",
+          "reason"
+        ],
+        "properties": {
+          "status": {
+            "enum": [
+              "yes",
+              "no",
+              "check-labels",
+              "adaptable"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
       }
     }
   },
   "$defs": {
     "quantity": {
       "oneOf": [
-        {"type": "number", "exclusiveMinimum": 0},
-        {"type": "array", "prefixItems": [{"type": "number", "exclusiveMinimum": 0}, {"type": "number", "exclusiveMinimum": 0}], "minItems": 2, "maxItems": 2, "description": "[min, max] range"}
+        {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        {
+          "type": "array",
+          "prefixItems": [
+            {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          ],
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "[min, max] range"
+        }
       ]
     },
     "ingredientLine": {
-      "type": "object", "additionalProperties": false, "required": ["ingredient"],
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ingredient"
+      ],
       "properties": {
-        "ingredient": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "description": "Id in data/ingredients.yaml"},
-        "qty": {"$ref": "#/$defs/quantity"},
-        "unit": {"type": "string", "description": "Id in taxonomy.units; omit for whole items counted ('2 eggs')"},
-        "prep": {"type": "string", "description": "e.g. 'finely chopped'"},
-        "note": {"type": "string", "description": "Anything else, e.g. 'or to taste', '400 g can'"},
-        "optional": {"type": "boolean"},
-        "alt": {"type": "array", "items": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"}, "description": "Ingredient ids that work as substitutes; used to compute 'adaptable' diets"}
+        "ingredient": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "Id in data/ingredients.yaml"
+        },
+        "qty": {
+          "$ref": "#/$defs/quantity"
+        },
+        "unit": {
+          "type": "string",
+          "description": "Id in taxonomy.units; omit for whole items counted ('2 eggs')"
+        },
+        "prep": {
+          "type": "string",
+          "description": "e.g. 'finely chopped'"
+        },
+        "note": {
+          "type": "string",
+          "description": "Anything else, e.g. 'or to taste', '400 g can'"
+        },
+        "optional": {
+          "type": "boolean"
+        },
+        "alt": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "description": "Ingredient ids that work as substitutes; used to compute 'adaptable' diets"
+        }
       }
     }
   }

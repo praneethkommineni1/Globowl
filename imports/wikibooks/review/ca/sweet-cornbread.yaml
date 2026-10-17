@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 cup maple syrup
+id: ca-sweet-cornbread
+title: Sweet Cornbread
+summary: Sweet cornbread is a variant of the Skillet Cornbread made throughout central and eastern Ontario and Quebec and is sometimes known by the alternative name of Johnny Cake.
+origin:
+  country: CA
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 8
+  amount: 8–10
+time:
+  total_min: 30
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: cornmeal, unit: cup, qty: 1}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: baking-powder, unit: tsp, qty: 1.5}
+  - {ingredient: brown-sugar, unit: cup, qty: 0.5}
+  - {ingredient: butter, unit: cup, qty: 0.5, prep: softened}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: egg, qty: 2}
+steps:
+- In a large bowl beat eggs lightly to break the yolks as one would for scrambled eggs, then mix in the butter. Soften the butter beforehand if you must by heating it a little.
+- The butter/egg mixture should be loose. Add the sugar and maple syrup, mix well, then add the salt to the liquid mixture.
+- Mix the cornmeal and baking powder, then blend them into the liquids.
+- Slowly add the flour as needed to reach a proper cake batter texture. This should be softer than a cookie dough, able to stick to the mixing spoon and come off in blobs. You may not need all of the flour, or may even need a little more based on your eggs and how closely you measured.
+- Pour into a greased pan, put into an oven heated to 200°C (400°F), and let bake for between 15–25 minutes.
+tips:
+- When mixing the batter, be sure it is soft enough for a typical cake; you do not want it too moist or dry. Use milk to fill in liquid you need and a half-and-half mix of flour and cornmeal if you are too moist.
+- 'Keep a close eye on the cake while it bakes: it will become hard fast if you do not take it out in time.'
+- 'If you want to make a crisper crust take a 3 part mix of equal volumes of flour, cornmeal and brown sugar, mix well. Add to the top of the cake half way into the baking process, but do this very quickly: leaving the door open too long will make your cake a rock. The amount required varies based on the pan you use, so use your eyes for what you need (less than a cup total). Despite the call for opening it halfway through baking, adding it at the beginning should work fine as well.'
+- You can substitute honey for the maple syrup, or plain sugar. Maple is used for its flavouring as much as its sweetness.
+- Margarine or vegetable oil will do as well as butter for this. Butter was used traditionally and is thus listed.
+- This dish is usually made for after meals and outside them rather than with them, which is how its cousin Skillet Cornbread is used. However, when having Maple Beans and Ham, Sweet Cornbread is often served with it.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASweet_Cornbread&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sweet Cornbread@4523493
+    url: https://en.wikibooks.org/w/index.php?oldid=4523493
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

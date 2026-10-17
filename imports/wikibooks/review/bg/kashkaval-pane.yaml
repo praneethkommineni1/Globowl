@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 12 oz yellow kashkaval cheese
+#  - no time in recipe summary
+id: bg-kashkaval-pane
+title: Kashkaval Pane
+alternate_names:
+- Bulgarian Fried Cheese
+summary: Kashkaval pane (or Cașcaval pane) is a Bulgarian dish of fried Kashkaval, a type of cheese.
+origin:
+  country: BG
+course: side
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–3
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: all-purpose-flour}
+  - {ingredient: breadcrumbs}
+  - {ingredient: parsley}
+steps:
+- Cut the yellow cheese into slices about ½ inch thick. Wet in water. Gently pat off any excess moisture with paper towels.
+- Heat the oil in a pot until a small piece of bread sizzles as soon as it is dropped in.
+- Beat the eggs in a shallow bowl, while the oil is heating.
+- Spread some seasoned flour on a plate and some bread crumbs on another plate.
+- Press the yellow cheese slices into the flour, coating them evenly with a thin layer of flour, shaking off any excess flour. Dip them into the egg, then into the bread crumbs, then once more into the egg, then again into the bread crumbs, covering the whole slice.
+- Fry immediately in the hot oil until golden brown.
+- Drain on paper towels and serve hot, garnished with parsley. Enjoy!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKashkaval_Pane_%28Bulgarian_Fried_Cheese%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kashkaval Pane (Bulgarian Fried Cheese)@4515055
+    url: https://en.wikibooks.org/w/index.php?oldid=4515055
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

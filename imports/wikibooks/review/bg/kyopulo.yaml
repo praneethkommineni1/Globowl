@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: bg-kyopulo
+title: Kyopulo
+alternate_names:
+- Eggplant with Peppers and Tomatoes
+summary: Kyopulo or kyopolou is a type of Bulgarian relish or spread, made of eggplant, peppers, and tomatoes.
+origin:
+  country: BG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- roasting
+ingredient_groups:
+- items:
+  - {ingredient: eggplant, qty: [2, 3]}
+  - {ingredient: red-bell-pepper, qty: [4, 5]}
+  - {ingredient: tomato, qty: [2, 3], prep: diced or grated}
+  - {ingredient: garlic, unit: clove, qty: [3, 4], prep: crushed}
+  - {ingredient: sunflower-oil}
+  - {ingredient: white-vinegar}
+  - {ingredient: salt}
+  - {ingredient: parsley, prep: finely chopped}
+steps:
+- Roast the aubergines and peppers on a hot plate. Remove the skins, and cut into small pieces.
+- Add the tomatoes, then the crushed garlic.
+- Mix with a wooden spoon, then add oil, vinegar, and salt to taste. Beat together well.
+- Pour into a plate and top with finely chopped parsley.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKyopulo_%28Eggplant_with_Peppers_and_Tomatoes%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kyopulo (Eggplant with Peppers and Tomatoes)@4514091
+    url: https://en.wikibooks.org/w/index.php?oldid=4514091
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

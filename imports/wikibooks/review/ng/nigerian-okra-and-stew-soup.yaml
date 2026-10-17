@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: Fresh okra
+#  - unmapped ingredient: 2 scotch bonnet peppers
+#  - no procedure steps
+#  - course unknown from categories
+id: ng-nigerian-okra-and-stew-soup
+title: Nigerian Okra and Stew soup
+summary: Nigerian Okra and Stew soup.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3-4 servings
+time:
+  total_min: 60
+difficulty: 2
+equipment:
+- Two cooking pots
+- Knife
+- Chopping board
+- Blender or food processor
+- Wooden spoon or spatula
+- Mixing bowls
+- Stove or heat source
+ingredient_groups:
+- name: For the okra
+  items:
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: bouillon-cube, qty: 1, optional: true}
+  - {ingredient: crayfish, optional: true}
+- name: For the stew
+  items:
+  - {ingredient: tomato, qty: [4, 6]}
+  - {ingredient: black-pepper, qty: 2}
+  - {ingredient: onion, qty: 1, note: large}
+  - {ingredient: red-palm-oil, unit: cup, qty: 0.5}
+  - {ingredient: beef, prep: 'fish, or chicken'}
+  - {ingredient: bouillon-cube, qty: [2, 3]}
+  - {ingredient: salt, note: to taste}
+steps:
+- (missing)
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Okra_and_Stew_soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Okra and Stew soup@4639595
+    url: https://en.wikibooks.org/w/index.php?oldid=4639595
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - duplicate id it-pasta-and-bean-soup from another Wikibooks page
+id: it-pasta-and-bean-soup
+title: Pasta and Bean Soup
+alternate_names:
+- Pasta e Fagioli
+summary: There are as many ways of preparing pasta e fagioli (or basta fazool if you come from southern Italy) as there are Italians. In 1940's Brooklyn, all the Italians would have it every Friday night because it is meatless. Usually it is a soup dominated by tomatoes.
+origin:
+  country: IT
+course: soup
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 120
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: dried-white-beans, unit: g, qty: 454}
+  - {ingredient: olive-oil, unit: cup, qty: 1}
+  - {ingredient: garlic, qty: 1, prep: unshelled}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: red-chili, unit: tsp, qty: 1}
+  - {ingredient: parsley}
+  - {ingredient: pasta, unit: g, qty: 227, note: small}
+  - {ingredient: salt, note: to taste}
+steps:
+- Put washed beans in salted water (3 parts to 1 part beans).
+- Soak overnight OR bring to boil, boil 2 minutes and let stand, covered, for 1 hour.
+- Do not drain beans, but bring to a boil.
+- Skim off foam and add oil, garlic and bay leaf.
+- Simmer for about 2 hours, or until tender.
+- Cook pasta for 6–7 minutes, but don't let it get too soft.
+- Drain pasta and save some of the water.
+- Stir pasta and red pepper into beans and simmer until pasta is al dente, adding some of the saved water if necessary.
+- Garnish with red pepper to taste and parsley.
+tips:
+- Use whichever sort of beans is the favorite in your neighborhood and likely to be freshest. In Southern California that would be pinto beans; in the deep South, black-eyed peas or perhaps butter beans. Garbanzos might be good. Navy beans are always safe.
+- Use the best grade of olive oil you can get.
+- With a salad and some red wine this is a hearty meal, and can be eaten the next day, cold or reheated.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APasta_and_Bean_Soup_%28Pasta_e_Fagioli%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pasta and Bean Soup (Pasta e Fagioli)@4525005
+    url: https://en.wikibooks.org/w/index.php?oldid=4525005
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

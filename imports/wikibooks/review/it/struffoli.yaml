@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-struffoli
+title: Struffoli
+alternate_names:
+- Neapolitan Honey Fried Dough
+summary: Struffoli is a fried Neapolitan dessert.
+origin:
+  country: IT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- name: Dough
+  items:
+  - {ingredient: egg, qty: 6}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 6}
+  - {ingredient: baking-powder, unit: tsp, qty: 3}
+  - {ingredient: cream-of-tartar, unit: tsp, qty: 0.5}
+  - {ingredient: sugar, unit: cup, qty: 1.5}
+  - {ingredient: sherry, unit: cup, qty: 0.5}
+  - {ingredient: all-purpose-flour}
+  - {ingredient: shortening}
+- name: Glaze
+  items:
+  - {ingredient: sugar, unit: cup, qty: 1.5}
+  - {ingredient: honey, unit: cup, qty: 2}
+  - {ingredient: orange, unit: tbsp, qty: 1}
+steps:
+- Combine eggs, oil, baking powder, cream of tartar, sugar, and sherry. Mix in enough flour to make a dough. The dough should be somewhat sticky but still workable.
+- Shape dough into small balls, about ½ inch in diameter.
+- Heat the shortening or oil to 350–375°F. Deep fry the dough balls until golden brown and cooked through.
+- Mix all the glaze ingredients over low heat until sugar is dissolved. Dip each fritter into the glaze, and remove.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AStruffoli_%28Neapolitan_Honey_Fried_Dough%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Struffoli (Neapolitan Honey Fried Dough)@4517767
+    url: https://en.wikibooks.org/w/index.php?oldid=4517767
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

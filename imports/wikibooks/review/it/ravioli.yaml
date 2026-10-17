@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 12 oz pasta dough or 1 package of wonton wrappers
+#  - unmapped ingredient: Filling of choice
+#  - unmapped ingredient: Cheese Filling
+#  - unmapped ingredient: Crab Meat Filling
+#  - unmapped ingredient: Fresh Herb and Cheese filling
+#  - unmapped ingredient: Meat Filling
+#  - unmapped ingredient: Potato and Garlic Filling
+#  - unmapped ingredient: Smoked Salmon Filling
+#  - unmapped ingredient: Spinach and Ricotta Filling
+#  - no ingredient lines parsed
+#  - no difficulty in recipe summary
+id: it-ravioli
+title: Ravioli
+summary: Ravioli.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 60
+  amount: About 60 ravioli
+time:
+  total_min: 10
+difficulty: 1
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Divide the pasta dough into 4 equal pieces.
+- Roll out one of these portions until it is about a 1/16-inch (1.5 mm) thick rectangle.
+- Roll out another the same size. Cover with a damp tea towel.
+- Place about 1 tablespoonful of filling about every 2 inches (5 cm) across and down the rectangle of dough in a checker-board pattern.
+- With a wet pastry brush or your index finger, paint lines down between the mounds of filling in a checker-board pattern.
+- Carefully place the other sheet of pasta on top of the other one and press down around the mounds of filling firmly.
+- With a sharp knife, pizza wheel or pastry cutter, cut the ravioli into individual squares.
+- Crimp the edges with a fork. Besides being decorative, this ensures that they are well sealed.
+- Process the other two portions of dough in the same way.
+- Cut 3-inch (7.5 cm) diameter circles with a biscuit cutter, OR take one wonton wrapper.
+- Place 1 tbsp of filling in the centre of a pasta circle or wonton wrapper, wet the edges, and cover with another circle. Alternatively, use half the amount of filling.
+- Fold over one edge of the circle (or wonton wrapper) to the other edge to form a semi-circular shaped raviolo.
+- Crimp the edges
+- Gently drop the ravioli into 1½–2 gallons (~8 liters) of gently boiling salted water. If boiling is too vigorous, the ravioli may break open.
+- Stir gently with a heat-proof spatula to prevent sticking. Contrary to the dictates of purists, you may add a little olive oil to the water if you wish.
+- Simmer the ravioli for about 8 minutes or until tender but not soft.
+- Off the heat, remove the ravioli gently with a slotted spoon or a spider.
+- Drain in a colander.
+- Serve with tomato sauce, or with melted butter and Parmesan cheese.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARavioli&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ravioli@4501075
+    url: https://en.wikibooks.org/w/index.php?oldid=4501075
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no time in recipe summary
+id: us-bean-chili
+title: Bean Chili
+summary: Bean Chili.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: kidney-beans-canned, unit: can, qty: 1, prep: drained}
+  - {ingredient: black-beans-canned, unit: can, qty: 1, prep: drained}
+  - {ingredient: tomato, unit: can, qty: 2}
+  - {ingredient: tomato-paste, qty: 1, note: small}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: diced}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: red-bell-pepper, qty: 1, prep: chopped, note: medium}
+  - {ingredient: red-bell-pepper, qty: 1, prep: chopped, note: medium}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: chili-powder, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 0.5}
+  - {ingredient: thyme, unit: tsp, qty: 1, prep: 'basil, oregano, or other spice'}
+steps:
+- Heat oil over medium-high heat in a large pot.
+- Add garlic and onion and cook until the onion is translucent (more clear than white).
+- Add peppers and sauté for a few minutes. Add crushed tomatoes, tomato paste, and spices.
+- When mixture is bubbling, reduce heat to simmer and add beans. Cover and simmer for at least 1 hour, stirring occasionally. The longer it simmers, the better it tastes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABean_Chili&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bean Chili@4518540
+    url: https://en.wikibooks.org/w/index.php?oldid=4518540
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

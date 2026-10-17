@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+id: de-grotten-hans
+title: Grotten Hans
+alternate_names:
+- Steamed Sweet Bread
+summary: Grotten hans is a recipe that has been called a big dumpling but is basically a steamed pudding. The recipe was traditional in the German areas of Russia.
+origin:
+  country: DE
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 150
+difficulty: 3
+techniques:
+- simmering
+- steaming
+ingredient_groups:
+- name: Batter
+  items:
+  - {ingredient: lard, unit: cup, qty: 0.25}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: milk, unit: cup, qty: 1}
+  - {ingredient: baking-powder, unit: tsp, qty: 2}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: egg, qty: 3, prep: beaten}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 3}
+- name: Raisin sauce
+  items:
+  - {ingredient: raisins, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: lemon-juice, unit: tsp, qty: 1}
+  - {ingredient: ground-cinnamon, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: cornstarch}
+steps:
+- Cream together lard, sugar and salt. Mix in eggs.
+- Combine flour and baking powder. Add this flour mixture to the lard mixture alternatively with the milk. Mix well.
+- Pour batter into a well-greased 2-pound coffee can or other heat-safe mold. A piece parchment paper on the bottom of the can works well to prevent sticking. Cover with foil, and tie this on with a string.
+- Set this tin into a large pot of hot water a few inches (~3) deep. Let steam for 2 hours.
+- Mix raisins, water, lemon juice, cinnamon and sugar in a saucepan. Simmer for 1 hour. Mix in a bit or cornstarch, and cook until thickened.
+- Unmold the grotten hans, and serve with the sauce.
+tips:
+- 'The old way to cook this involved boiling in a cloth: Dip a towel in hot water, then cold water, then sprinkle with flour. Pour dumpling batter onto towel and tie up. Drop into boiling water and cook for 2 hours.'
+- Cherry sauce is nice also.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGrotten_Hans_%28Steamed_Sweet_Bread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Grotten Hans (Steamed Sweet Bread)@4522780
+    url: https://en.wikibooks.org/w/index.php?oldid=4522780
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

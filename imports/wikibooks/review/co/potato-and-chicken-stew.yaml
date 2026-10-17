@@ -1,0 +1,74 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 10 ml whipping cream mixed with 10 ml créme fraíche
+#  - possible duplicate of hand-written recipe co-ajiaco — merge or keep as a variant
+id: co-potato-and-chicken-stew
+title: Potato and Chicken Stew
+alternate_names:
+- Ajiaco
+summary: Ajiaco is a quintessential dish from Bogotá, Colombia.
+origin:
+  country: CO
+course: soup
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 90
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- name: Soup
+  items:
+  - {ingredient: chicken, qty: 1}
+  - {ingredient: chicken-stock, unit: l, qty: 1}
+  - {ingredient: onion, qty: 1, prep: peeled}
+  - {ingredient: scallion, qty: 2}
+  - {ingredient: carrot, qty: 2, prep: peeled}
+  - {ingredient: whole-cloves, qty: 4, prep: peeled}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: thyme, unit: ml, qty: 3}
+  - {ingredient: ground-cumin, unit: ml, qty: 2}
+  - {ingredient: cilantro, unit: sprig, qty: 4}
+  - {ingredient: black-pepper, qty: 10}
+  - {ingredient: tomato-paste, unit: ml, qty: 5}
+  - {ingredient: potato, unit: kg, qty: 0.5, prep: peeled, note: small}
+  - {ingredient: potato, unit: kg, qty: 0.5, prep: peeled, note: small}
+  - {ingredient: potato, unit: kg, qty: 0.5, prep: peeled and sliced 2 cm thickness}
+  - {ingredient: water, unit: l, qty: 1}
+  - {ingredient: bouillon-cube, unit: ml, qty: 2}
+  - {ingredient: green-peas, unit: ml, qty: 0.25}
+- name: Garnishes
+  items:
+  - {ingredient: corn-kernels, qty: 4, prep: quartered lengthwise and cooked}
+  - {ingredient: avocado, qty: 2, prep: 'peeled, pitted and cut into eight slices right before serving'}
+  - {ingredient: cilantro, unit: ml, qty: 10}
+  - {ingredient: capers, unit: ml, qty: [5, 10]}
+steps:
+- Combine chicken, broth, onions, scallions, carrots, garlic, bay leaf, thyme, cumin, cilantro and peppercorns in large saucepan and bring to a boil. Skim off froth as it rises. Reduce heat to low and cover when frothing finishes.
+- Remove and reserve chicken after it is cooked through (about 20 minutes).
+- Strain broth through sieve and return to pot, boil again over medium heat. Reserve carrots.
+- Add tomato paste and yellow and purple potatoes. Cover and cook until potatoes are soft (approximately 20 minutes).
+- While yellow and purple potatoes are cooking, boil sliced mashing potatoes in water and beef bouillon in separate pot. Once boiling, reduce to medium heat until potatoes start to fall apart (approximately 30 minutes).
+- Drain and reserve a quarter of the slices and mash the rest of the sliced potatoes. Add mashed and sliced potatoes to soup.
+- Remove bones and skin from chicken and discard. Cut chicken into strips 1 cm wide and 3 cm long.
+- Add chicken and peas to soup and simmer for 5 minutes. Slice the carrots into .5 cm thick rounds and add back into soup. Salt to taste.
+- Serve hot with garnishes available.
+tips:
+- If soup is too thick add boiling water in small amounts; the consistency should be like that of heavy cream. Soup will thicken as it cools.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APotato_and_Chicken_Stew_%28Ajiaco%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Potato and Chicken Stew (Ajiaco)@4518674
+    url: https://en.wikibooks.org/w/index.php?oldid=4518674
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

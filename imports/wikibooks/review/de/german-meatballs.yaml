@@ -1,0 +1,69 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/4 bottle of Riesling white wine
+#  - unmapped ingredient: 6 fl oz crème fraîche
+#  - unmapped ingredient: 1 tablespoon mixed herbs
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: de-german-meatballs
+title: German Meatballs
+summary: This is a German meatball recipe that is easy and utterly delicious. These are known in Germany as Konigsberge Klopse, or sometimes as Konigsberger Klopsies.
+origin:
+  country: DE
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 227}
+  - {ingredient: pork, unit: g, qty: 227}
+  - {ingredient: onion, qty: 1, prep: peeled and chopped fine, note: large}
+  - {ingredient: anchovies, qty: 5, prep: chopped finely}
+  - {ingredient: capers, unit: tbsp, qty: 2}
+  - {ingredient: egg, qty: 1, note: large}
+  - {ingredient: white-bread, unit: slice, qty: [2, 3], prep: soaked in water}
+  - {ingredient: lemon, qty: 2, prep: juiced}
+  - {ingredient: lime, qty: 2, prep: zested}
+  - {ingredient: whole-cloves, qty: 2}
+  - {ingredient: olive-oil, unit: tbsp, qty: 0.5}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 2}
+steps:
+- Combine the minced beef and pork.
+- Fry chopped onion until translucent, making sure it does not brown in any way. Add to the minced beef and pork mixture.
+- Soak the brown bread or roll in water, and then add to the minced meat.
+- Add pepper, salt, chopped anchovy fillets, egg, and mixed herbs to the mince. Mix everything together by hand.
+- Form little meatballs about ¾ inch in diameter. To make them, take a quantity of the mince mixture in your hands and form it into a round shape. Then, gently roll them between your palms so they become as round as possible. Don't become obsessed with shape here, it doesn't matter if they are neither symmetrical or the same size as each other.
+- Bring at least 2 pints of water to a rolling simmer, and add the lemon juice, cloves, and olive oil to it. Gently drop in the meatballs. Don't overcrowd the pan—if needed, cook the meatballs in 2 batches.
+- As soon as the meatballs rise to the surface, remove them with a slotted spoon and set aside, keeping warm.
+- Add the wine, the crème fraîche, and the flour mixture to the water. Cook until the liquid reduces a little and thickens to form a sauce. There should be plenty of sauce for this dish, so rather than rely on reducing the sauce to thicken it, don't be afraid of adding more flour paste to achieve this.
+- As the sauce begins to thicken, return the meatballs to the sauce and continue to cook for another 10 minutes or so.
+- At the last moment add the capers and lime zest. Adjust your seasoning to suit your taste.
+- Remove meatballs from sauce. Pour the sauce through a semi-fine sieve, which will get rid of the "bits".
+- Reheat the sauce if needed, and return the meatballs with a handful of capers.
+- Serve.
+tips:
+- This version of meatballs are best served with boiled, waxy potatoes which can be smashed into the sauce to make it all the more delicious.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGerman_Meatballs&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:German Meatballs@4511054
+    url: https://en.wikibooks.org/w/index.php?oldid=4511054
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

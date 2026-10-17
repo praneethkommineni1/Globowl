@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: gb-pastry-for-cornish-pasties
+title: Pastry for Cornish Pasties
+summary: Any good pastry dough can be used for Cornish pasties, but it should be neither too rich nor too flaky. This works very well. Adjust amounts as required. See also Pasties.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1–2
+time:
+  total_min: 25
+difficulty: 1
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 454}
+  - {ingredient: lard, unit: g, qty: 227, prep: 'butter, and/or suet'}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: water}
+steps:
+- Combine the dry ingredients, then gradually mix in enough water to make a stiff dough.
+- Roll dough to about a ¼ inch thick.
+- Cut out rounds with a tea plate—or other round object about 6in across.
+- Lay rounds on a pastry-board with half the round propped on a rolling-pin. Add the filling, and fold dough over filling.
+- Dampen the edges with water, and press to seal. Crimp the edges, then make slit in middle of each pasty.
+- Place on baking sheet, bake in hot oven (450 °F) until golden-brown.
+tips:
+- Try using vegetarian equivalents for the fats.
+- Omit salt for low-sodium diet, or use low-sodium salt.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APastry_for_Cornish_Pasties&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pastry for Cornish Pasties@4516039
+    url: https://en.wikibooks.org/w/index.php?oldid=4516039
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

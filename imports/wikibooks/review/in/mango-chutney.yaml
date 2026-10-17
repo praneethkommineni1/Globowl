@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no difficulty in recipe summary
+id: in-mango-chutney
+title: Mango Chutney
+alternate_names:
+- Chunky
+summary: Mango chutney is a specialty chutney of the South Indian coastal state of Andhra Pradesh. Mango chutney can be made in many different ways and can be served with poppadoms or with the main course.
+origin:
+  country: IN
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 12
+  amount: about 12 oz
+time:
+  total_min: 60
+difficulty: 1
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: mango, qty: 6, prep: cubed}
+  - {ingredient: raisins, unit: g, qty: 75}
+  - {ingredient: cider-vinegar, unit: ml, qty: 250}
+  - {ingredient: brown-sugar, unit: g, qty: 200}
+  - {ingredient: garlic, unit: tbsp, qty: 2, prep: finely chopped}
+  - {ingredient: onion, qty: 1}
+  - {ingredient: ginger, unit: tbsp, qty: 1.5, prep: scraped and minced}
+  - {ingredient: salt, unit: tsp, qty: 2}
+  - {ingredient: cayenne, unit: tsp, qty: 0.25}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+steps:
+- Dissolve the sugar and salt in the vinegar and boil for 15 minutes.
+- Add mangoes, raisins, and onion and bring to the boil again.
+- Reduce the heat to low, and simmer for 15 minutes, stirring constantly to prevent sticking.
+- Add the garlic, ginger and seasoning and simmer for 5 minutes.
+- Remove from heat and allow to cool before serving.
+- Due to the high sugar and acid content, this chutney may be refrigerated safely for 6 months.
+tips:
+- Serve with hot rice or bread.
+- This chutney works as an excellent spread on a sandwich.
+- If it is not too spicy, you can serve it as a dip for tortilla chips.
+- You could also serve with yoghurt/curd.
+- This chutney is typically presented in restaurants in a steel dish with a spoon for serving oneself.
+- Vary amount of salt/spices as needed.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMango_Chutney_%28Chunky%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mango Chutney (Chunky)@4519081
+    url: https://en.wikibooks.org/w/index.php?oldid=4519081
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

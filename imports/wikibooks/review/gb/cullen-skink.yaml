@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 large smoked haddock, preferably Finny haddock
+#  - unmapped ingredient: 8 oz mashed potato
+#  - unmapped ingredient: Toast
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gb-cullen-skink
+title: Cullen Skink
+alternate_names:
+- Haddock and Potato Soup
+summary: Cullen skink is a soup from Cullen in Morayshire using smoked haddock for a rich flavour.
+origin:
+  country: GB
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: medium}
+  - {ingredient: milk, qty: 1.5}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: parsley, prep: chopped}
+  - {ingredient: water}
+steps:
+- Cover the haddock with water in a shallow pan with skin side down.
+- Bring to the boil and simmer for 5 minutes, turning once.
+- Take the fish from the pan and remove the skin and bones.
+- Flake the fish and return to the stock.
+- Add chopped onion, bay leaf, salt and pepper.
+- Simmer for a further 10 minutes.
+- Strain the stock and keep it ready. Discard the bay leaf and keep the fish warm.
+- Add the milk to the fish stock and bring to the boil.
+- Add mashed potato to make a rich and thick soup.
+- Add the fish and check the seasoning—add more if needed.
+- When serving, add the butter in small pieces so it runs through the soup.
+- Serve with chopped parsley on top, and toast by the side.
+tips:
+- If smoked haddock is unavailable, smoked kippers have been known to serve in its place.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACullen_Skink_%28Haddock_and_Potato_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cullen Skink (Haddock and Potato Soup)@4518384
+    url: https://en.wikibooks.org/w/index.php?oldid=4518384
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

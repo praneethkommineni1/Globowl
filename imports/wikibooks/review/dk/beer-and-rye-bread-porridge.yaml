@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 loaf of day-old rye bread
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: dk-beer-and-rye-bread-porridge
+title: Beer and Rye Bread Porridge
+alternate_names:
+- Øllebrød
+summary: Øllebrød (Danish for Beer Bread) is a Danish bread porridge, easily made from (dry) rye bread using this very simple recipe.
+origin:
+  country: DK
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: beer}
+  - {ingredient: sugar, prep: as desired}
+  - {ingredient: lemon, optional: true}
+steps:
+- Put the rye bread to soak in beer for 6&ndash;12 hours.
+- Bring the mixture to a boil, and simmer slowly for about 1 hour. Add more beer if it's too dry; the consistency should be like that of oatmeal. If you want it sweet you can mix in some sweetener. For a fresher taste, add a touch of lemon.
+- Serve with whipped cream if you're introducing this meal to someone who is not Danish.
+- In the evening, cut away the crust from the rye bread, and cut it into cubes.
+- Put the bread in a pot and cover it with beer (or water) and a lid. Set aside.
+- In the morning, add sweetener if using, then heat it all up.
+- Stir until it steams vigorously, adding water if it gets too dry.
+- Serve with milk for a warm, very solid breakfast.
+tips:
+- Feel free to use whatever beer that is the cheapest, as the alcohol is going to vaporise anyway. You can also substitute the beer with water, if you want.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeer_and_Rye_Bread_Porridge_%28%C3%98llebr%C3%B8d%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Beer and Rye Bread Porridge (Øllebrød)@4517850
+    url: https://en.wikibooks.org/w/index.php?oldid=4517850
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

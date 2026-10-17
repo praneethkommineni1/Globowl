@@ -197,6 +197,201 @@
    "kerupuk udang"
   ]
  },
+ "basmati-rice": {
+  "name": "basmati rice",
+  "category": "grain"
+ },
+ "rigatoni": {
+  "name": "rigatoni",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ],
+  "may_contain": [
+   "egg"
+  ]
+ },
+ "masa-harina": {
+  "name": "masa harina",
+  "category": "grain",
+  "aliases": [
+   "nixtamalized corn flour",
+   "Maseca"
+  ]
+ },
+ "cornmeal": {
+  "name": "cornmeal",
+  "category": "grain",
+  "aliases": [
+   "polenta",
+   "mălai",
+   "harina de maíz"
+  ]
+ },
+ "glutinous-rice": {
+  "name": "glutinous rice",
+  "category": "grain",
+  "aliases": [
+   "sticky rice",
+   "sweet rice",
+   "khao niao"
+  ]
+ },
+ "orzo": {
+  "name": "orzo",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ],
+  "aliases": [
+   "risoni",
+   "lisan asfour"
+  ]
+ },
+ "pearl-barley": {
+  "name": "pearl barley",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ]
+ },
+ "dried-hominy": {
+  "name": "dried hominy",
+  "category": "grain",
+  "aliases": [
+   "maize for cachupa",
+   "pozole corn",
+   "samp"
+  ]
+ },
+ "glass-noodles": {
+  "name": "glass noodles",
+  "category": "grain",
+  "aliases": [
+   "mung bean vermicelli",
+   "cellophane noodles",
+   "bean thread"
+  ]
+ },
+ "bread-roll": {
+  "name": "bread roll",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ],
+  "may_contain": [
+   "milk",
+   "egg",
+   "sesame",
+   "soy"
+  ]
+ },
+ "pita-bread": {
+  "name": "pita bread",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ],
+  "may_contain": [
+   "sesame"
+  ],
+  "aliases": [
+   "somun",
+   "lepinja",
+   "flatbread"
+  ]
+ },
+ "chickpea-flour": {
+  "name": "chickpea flour",
+  "category": "legume",
+  "aliases": [
+   "gram flour",
+   "besan"
+  ]
+ },
+ "phyllo": {
+  "name": "phyllo pastry",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ],
+  "aliases": [
+   "filo",
+   "yufka",
+   "kore"
+  ]
+ },
+ "fonio": {
+  "name": "fonio",
+  "category": "grain",
+  "aliases": [
+   "acha",
+   "findi"
+  ]
+ },
+ "rice-flour": {
+  "name": "rice flour",
+  "category": "grain",
+  "aliases": [
+   "cream of rice"
+  ]
+ },
+ "sorghum-flour": {
+  "name": "sorghum flour",
+  "category": "grain",
+  "aliases": [
+   "dura",
+   "jowar flour"
+  ]
+ },
+ "wheat-noodles": {
+  "name": "thick wheat noodles",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ],
+  "may_contain": [
+   "egg"
+  ],
+  "aliases": [
+   "lagman noodles",
+   "udon"
+  ]
+ },
+ "buckwheat-noodles": {
+  "name": "buckwheat noodles",
+  "category": "grain",
+  "may_contain": [
+   "gluten"
+  ],
+  "aliases": [
+   "naengmyeon noodles",
+   "soba"
+  ],
+  "note": "Most contain some wheat."
+ },
+ "egg-noodles": {
+  "name": "egg noodles",
+  "category": "grain",
+  "contains": [
+   "gluten",
+   "egg"
+  ],
+  "aliases": [
+   "tăiței"
+  ]
+ },
+ "wheat-berries": {
+  "name": "wheat berries",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ],
+  "aliases": [
+   "hulled wheat",
+   "harees wheat"
+  ]
+ },
  "red-lentils": {
   "name": "red lentils",
   "category": "legume",
@@ -283,6 +478,73 @@
   ],
   "aliases": [
    "douchi"
+  ]
+ },
+ "refried-beans": {
+  "name": "refried beans",
+  "category": "legume",
+  "may_contain": [
+   "pork",
+   "animal-fat"
+  ],
+  "note": "Traditional refried beans are often made with lard; check the can."
+ },
+ "pigeon-peas-canned": {
+  "name": "canned pigeon peas",
+  "category": "legume",
+  "aliases": [
+   "gungo peas",
+   "gandules"
+  ]
+ },
+ "fava-beans-canned": {
+  "name": "canned fava beans",
+  "category": "legume",
+  "aliases": [
+   "ful",
+   "foul medames",
+   "broad beans"
+  ]
+ },
+ "broad-beans-frozen": {
+  "name": "frozen broad beans",
+  "category": "legume",
+  "aliases": [
+   "fava beans",
+   "bagilla"
+  ]
+ },
+ "green-peas": {
+  "name": "green peas",
+  "category": "vegetable",
+  "aliases": [
+   "garden peas",
+   "frozen peas"
+  ]
+ },
+ "dried-borlotti-beans": {
+  "name": "dried borlotti beans",
+  "category": "legume",
+  "aliases": [
+   "cranberry beans",
+   "pinto beans"
+  ]
+ },
+ "dried-grey-peas": {
+  "name": "dried grey peas",
+  "category": "legume",
+  "aliases": [
+   "pelēkie zirņi",
+   "carlin peas",
+   "maple peas"
+  ]
+ },
+ "mung-beans": {
+  "name": "dried mung beans",
+  "category": "legume",
+  "aliases": [
+   "green gram",
+   "moong"
   ]
  },
  "onion": {
@@ -528,6 +790,160 @@
   "name": "green olives",
   "category": "condiment"
  },
+ "yellow-potato": {
+  "name": "yellow potato",
+  "category": "vegetable",
+  "aliases": [
+   "papa criolla",
+   "papa amarilla"
+  ]
+ },
+ "green-plantain": {
+  "name": "green plantain",
+  "category": "fruit",
+  "aliases": [
+   "unripe plantain",
+   "plátano verde"
+  ]
+ },
+ "capers": {
+  "name": "capers",
+  "category": "condiment"
+ },
+ "leek": {
+  "name": "leek",
+  "category": "vegetable"
+ },
+ "okra": {
+  "name": "okra",
+  "category": "vegetable",
+  "aliases": [
+   "lady's fingers",
+   "bamia",
+   "gombo"
+  ]
+ },
+ "green-beans": {
+  "name": "green beans",
+  "category": "vegetable",
+  "aliases": [
+   "string beans",
+   "haricots verts"
+  ]
+ },
+ "spinach": {
+  "name": "spinach",
+  "category": "vegetable"
+ },
+ "tomatillo": {
+  "name": "tomatillo",
+  "category": "vegetable",
+  "aliases": [
+   "miltomate",
+   "tomate verde"
+  ]
+ },
+ "chayote": {
+  "name": "chayote",
+  "category": "vegetable",
+  "aliases": [
+   "güisquil",
+   "christophine",
+   "cho-cho"
+  ]
+ },
+ "yam": {
+  "name": "yam",
+  "category": "vegetable",
+  "aliases": [
+   "ñame"
+  ],
+  "note": "True yam (Dioscorea), not orange sweet potato."
+ },
+ "lemongrass": {
+  "name": "lemongrass",
+  "category": "herb"
+ },
+ "watercress": {
+  "name": "watercress",
+  "category": "vegetable"
+ },
+ "paracress": {
+  "name": "paracress",
+  "category": "vegetable",
+  "aliases": [
+   "brèdes mafana",
+   "toothache plant",
+   "jambu"
+  ]
+ },
+ "sauerkraut": {
+  "name": "sauerkraut",
+  "category": "vegetable",
+  "may_contain": [
+   "sulphite"
+  ],
+  "aliases": [
+   "kislo zelje",
+   "kapusta kiszona"
+  ]
+ },
+ "cassava-leaves": {
+  "name": "cassava leaves",
+  "category": "vegetable",
+  "aliases": [
+   "saka-saka",
+   "pondu",
+   "plasas",
+   "mpondu"
+  ],
+  "note": "Must be cooked thoroughly; usually sold frozen and pounded."
+ },
+ "breadfruit": {
+  "name": "breadfruit",
+  "category": "vegetable",
+  "aliases": [
+   "ulu"
+  ]
+ },
+ "pomtajer": {
+  "name": "pomtajer",
+  "category": "vegetable",
+  "aliases": [
+   "tayer",
+   "malanga",
+   "tannia",
+   "pom root"
+  ],
+  "note": "Grated root of Xanthosoma; sold frozen in Surinamese shops."
+ },
+ "cassava": {
+  "name": "cassava",
+  "category": "vegetable",
+  "aliases": [
+   "manioc",
+   "yuca",
+   "maniok"
+  ],
+  "note": "Must be cooked thoroughly."
+ },
+ "swiss-chard": {
+  "name": "Swiss chard",
+  "category": "vegetable",
+  "aliases": [
+   "chard",
+   "silverbeet",
+   "blette"
+  ]
+ },
+ "rocket": {
+  "name": "rocket",
+  "category": "vegetable",
+  "aliases": [
+   "arugula",
+   "rucola"
+  ]
+ },
  "lemon": {
   "name": "lemon",
   "category": "fruit"
@@ -565,6 +981,49 @@
  "strawberries": {
   "name": "strawberry",
   "category": "fruit"
+ },
+ "banana": {
+  "name": "banana",
+  "category": "fruit"
+ },
+ "strawberry-jam": {
+  "name": "strawberry jam",
+  "category": "condiment"
+ },
+ "green-banana": {
+  "name": "green banana",
+  "category": "fruit",
+  "aliases": [
+   "green fig",
+   "matoke"
+  ]
+ },
+ "asian-pear": {
+  "name": "Asian pear",
+  "category": "fruit",
+  "aliases": [
+   "nashi",
+   "Korean pear"
+  ]
+ },
+ "orange-juice": {
+  "name": "orange juice",
+  "category": "fruit"
+ },
+ "sour-orange-juice": {
+  "name": "sour orange juice",
+  "category": "fruit",
+  "aliases": [
+   "naranja agria",
+   "Seville orange juice"
+  ]
+ },
+ "applesauce": {
+  "name": "applesauce",
+  "category": "fruit",
+  "aliases": [
+   "Apfelmus"
+  ]
  },
  "cilantro": {
   "name": "cilantro",
@@ -635,6 +1094,50 @@
  "bay-leaf": {
   "name": "bay leaf",
   "category": "herb"
+ },
+ "guascas": {
+  "name": "guascas",
+  "category": "herb",
+  "aliases": [
+   "galinsoga",
+   "gallant soldier"
+  ],
+  "note": "Usually sold dried in Latin American shops."
+ },
+ "dried-lime": {
+  "name": "dried lime",
+  "category": "spice",
+  "aliases": [
+   "loomi",
+   "black lime",
+   "noomi basra"
+  ]
+ },
+ "annatto": {
+  "name": "annatto",
+  "category": "spice",
+  "aliases": [
+   "achiote"
+  ]
+ },
+ "pasilla-chili": {
+  "name": "dried pasilla chili",
+  "category": "spice",
+  "aliases": [
+   "chile pasa",
+   "chile negro"
+  ]
+ },
+ "lovage": {
+  "name": "lovage",
+  "category": "herb",
+  "contains": [
+   "celery"
+  ],
+  "aliases": [
+   "leuștean"
+  ],
+  "note": "A relative of celery; treated as a celery allergen."
  },
  "salt": {
   "name": "salt",
@@ -826,6 +1329,59 @@
  "harissa": {
   "name": "harissa",
   "category": "condiment"
+ },
+ "ground-cardamom": {
+  "name": "ground cardamom",
+  "category": "spice"
+ },
+ "cinnamon-stick": {
+  "name": "cinnamon stick",
+  "category": "spice"
+ },
+ "whole-cloves": {
+  "name": "whole cloves",
+  "category": "spice"
+ },
+ "khmeli-suneli": {
+  "name": "khmeli suneli",
+  "category": "spice",
+  "note": "Georgian blend of dried herbs and spices including blue fenugreek and coriander."
+ },
+ "dried-marjoram": {
+  "name": "dried marjoram",
+  "category": "spice"
+ },
+ "caraway-seeds": {
+  "name": "caraway seeds",
+  "category": "spice"
+ },
+ "sumac": {
+  "name": "sumac",
+  "category": "spice"
+ },
+ "ground-fenugreek": {
+  "name": "ground fenugreek",
+  "category": "spice",
+  "aliases": [
+   "hulba",
+   "methi powder"
+  ]
+ },
+ "dried-savory": {
+  "name": "dried savory",
+  "category": "spice",
+  "aliases": [
+   "summer savory",
+   "Bounekraut"
+  ]
+ },
+ "ground-cinnamon": {
+  "name": "ground cinnamon",
+  "category": "spice"
+ },
+ "ground-cloves": {
+  "name": "ground cloves",
+  "category": "spice"
  },
  "soy-sauce": {
   "name": "soy sauce",
@@ -1078,6 +1634,76 @@
    "Knorr"
   ]
  },
+ "salsa-lizano": {
+  "name": "Salsa Lizano",
+  "category": "condiment",
+  "may_contain": [
+   "mustard"
+  ],
+  "note": "Costa Rican vegetable sauce; check the label for mustard."
+ },
+ "pomegranate-molasses": {
+  "name": "pomegranate molasses",
+  "category": "condiment",
+  "aliases": [
+   "dibs rumman",
+   "nar ekşisi"
+  ]
+ },
+ "cider-vinegar": {
+  "name": "cider vinegar",
+  "category": "condiment",
+  "may_contain": [
+   "sulphite"
+  ],
+  "aliases": [
+   "apple cider vinegar"
+  ]
+ },
+ "mayonnaise": {
+  "name": "mayonnaise",
+  "category": "condiment",
+  "contains": [
+   "egg"
+  ],
+  "may_contain": [
+   "mustard"
+  ]
+ },
+ "ajvar": {
+  "name": "ajvar",
+  "category": "condiment",
+  "aliases": [
+   "roasted red pepper relish"
+  ]
+ },
+ "date-syrup": {
+  "name": "date syrup",
+  "category": "sweetener",
+  "aliases": [
+   "dibs",
+   "silan"
+  ]
+ },
+ "cassareep": {
+  "name": "cassareep",
+  "category": "condiment",
+  "note": "Thick black syrup made from cassava juice."
+ },
+ "amba": {
+  "name": "amba",
+  "category": "condiment",
+  "may_contain": [
+   "mustard"
+  ],
+  "aliases": [
+   "mango pickle sauce"
+  ]
+ },
+ "rose-water": {
+  "name": "rose water",
+  "category": "condiment"
+ },
  "roasted-peanuts": {
   "name": "roasted peanuts",
   "category": "nut-seed",
@@ -1117,6 +1743,60 @@
  "coconut-cream": {
   "name": "coconut cream",
   "category": "nut-seed"
+ },
+ "pistachios": {
+  "name": "pistachios",
+  "category": "nut-seed",
+  "contains": [
+   "tree-nut"
+  ]
+ },
+ "pine-nuts": {
+  "name": "pine nuts",
+  "category": "nut-seed",
+  "contains": [
+   "tree-nut"
+  ],
+  "note": "Botanically seeds but treated as tree nuts for allergen labelling."
+ },
+ "raw-peanuts": {
+  "name": "raw peanuts",
+  "category": "nut-seed",
+  "contains": [
+   "peanut"
+  ]
+ },
+ "pumpkin-seeds": {
+  "name": "pumpkin seeds",
+  "category": "nut-seed",
+  "aliases": [
+   "pepitas"
+  ]
+ },
+ "sesame-seeds": {
+  "name": "sesame seeds",
+  "category": "nut-seed",
+  "contains": [
+   "sesame"
+  ]
+ },
+ "palm-nut-cream": {
+  "name": "palm nut cream",
+  "category": "fat",
+  "aliases": [
+   "palm butter",
+   "sauce graine",
+   "moambé",
+   "nyembwe",
+   "banga"
+  ]
+ },
+ "tahini": {
+  "name": "tahini",
+  "category": "nut-seed",
+  "contains": [
+   "sesame"
+  ]
  },
  "vegetable-oil": {
   "name": "vegetable oil",
@@ -1192,6 +1872,14 @@
    "milk"
   ],
   "note": "Ethiopian spiced clarified butter."
+ },
+ "mustard-oil": {
+  "name": "mustard oil",
+  "category": "fat",
+  "contains": [
+   "mustard"
+  ],
+  "note": "Pungent; sold in some countries as 'for external use' — buy food-grade."
  },
  "milk": {
   "name": "milk",
@@ -1353,6 +2041,116 @@
   "contains": [
    "egg"
   ]
+ },
+ "yogurt": {
+  "name": "plain yogurt",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
+  ]
+ },
+ "feta": {
+  "name": "feta",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
+  ],
+  "may_contain": [
+   "animal-rennet"
+  ],
+  "aliases": [
+   "sirene",
+   "telemea",
+   "white brined cheese"
+  ]
+ },
+ "mozzarella": {
+  "name": "mozzarella",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
+  ],
+  "may_contain": [
+   "animal-rennet"
+  ],
+  "aliases": [
+   "quesillo"
+  ]
+ },
+ "kajmak": {
+  "name": "kajmak",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
+  ],
+  "aliases": [
+   "kaymak",
+   "clotted cream"
+  ]
+ },
+ "kefir": {
+  "name": "kefir",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
+  ]
+ },
+ "bryndza": {
+  "name": "bryndza",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
+  ],
+  "may_contain": [
+   "animal-rennet"
+  ],
+  "note": "Soft, tangy sheep's-milk cheese."
+ },
+ "ricotta": {
+  "name": "ricotta",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
+  ],
+  "may_contain": [
+   "animal-rennet"
+  ]
+ },
+ "parmesan": {
+  "name": "Parmesan",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk",
+   "animal-rennet"
+  ],
+  "aliases": [
+   "Parmigiano Reggiano"
+  ],
+  "note": "PDO rules require animal rennet."
  },
  "chicken-thigh": {
   "name": "chicken thigh",
@@ -1525,6 +2323,209 @@
    "prawns"
   ]
  },
+ "chicken-breast": {
+  "name": "chicken breast",
+  "category": "poultry",
+  "animal": [
+   "poultry"
+  ]
+ },
+ "beef-chuck": {
+  "name": "beef chuck",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "aliases": [
+   "stewing beef"
+  ]
+ },
+ "veal-cutlet": {
+  "name": "veal cutlet",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "aliases": [
+   "veal escalope"
+  ]
+ },
+ "smoked-sausage": {
+  "name": "smoked sausage",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "contains": [
+   "pork"
+  ],
+  "may_contain": [
+   "milk",
+   "gluten",
+   "sulphite"
+  ],
+  "aliases": [
+   "rookworst",
+   "kielbasa"
+  ]
+ },
+ "salmon": {
+  "name": "salmon",
+  "category": "seafood",
+  "animal": [
+   "fish"
+  ],
+  "contains": [
+   "fish"
+  ]
+ },
+ "beef-steak": {
+  "name": "beef steak",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "aliases": [
+   "sirloin",
+   "tenderloin"
+  ]
+ },
+ "ham": {
+  "name": "ham",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "contains": [
+   "pork"
+  ],
+  "may_contain": [
+   "sulphite"
+  ]
+ },
+ "bacon": {
+  "name": "bacon",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "contains": [
+   "pork"
+  ]
+ },
+ "rabbit": {
+  "name": "rabbit",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ]
+ },
+ "smoked-pork-collar": {
+  "name": "smoked pork collar",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "contains": [
+   "pork"
+  ],
+  "may_contain": [
+   "sulphite"
+  ],
+  "aliases": [
+   "Judd",
+   "smoked pork neck"
+  ]
+ },
+ "tilapia": {
+  "name": "tilapia",
+  "category": "seafood",
+  "animal": [
+   "fish"
+  ],
+  "contains": [
+   "fish"
+  ],
+  "aliases": [
+   "chambo"
+  ]
+ },
+ "canned-tuna": {
+  "name": "canned tuna",
+  "category": "seafood",
+  "animal": [
+   "fish"
+  ],
+  "contains": [
+   "fish"
+  ]
+ },
+ "lobster-tail": {
+  "name": "lobster tail",
+  "category": "seafood",
+  "animal": [
+   "shellfish"
+  ],
+  "contains": [
+   "crustacean"
+  ],
+  "aliases": [
+   "langouste",
+   "rock lobster"
+  ]
+ },
+ "octopus": {
+  "name": "octopus",
+  "category": "seafood",
+  "animal": [
+   "shellfish"
+  ],
+  "contains": [
+   "mollusc"
+  ],
+  "aliases": [
+   "zourit"
+  ]
+ },
+ "salt-pork": {
+  "name": "salt pork",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "contains": [
+   "pork"
+  ],
+  "aliases": [
+   "salted pigtail",
+   "salt meat"
+  ]
+ },
+ "salt-cod": {
+  "name": "salt cod",
+  "category": "seafood",
+  "animal": [
+   "fish"
+  ],
+  "contains": [
+   "fish"
+  ],
+  "aliases": [
+   "saltfish",
+   "bacalao",
+   "bacalhau"
+  ]
+ },
+ "crab": {
+  "name": "crab",
+  "category": "seafood",
+  "animal": [
+   "shellfish"
+  ],
+  "contains": [
+   "crustacean"
+  ]
+ },
  "sugar": {
   "name": "sugar",
   "category": "sweetener",
@@ -1582,8 +2583,669 @@
    "vanilla pod"
   ]
  },
+ "instant-yeast": {
+  "name": "instant yeast",
+  "category": "baking"
+ },
+ "beef": {
+  "name": "beef",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ]
+ },
+ "chicken": {
+  "name": "chicken",
+  "category": "poultry",
+  "animal": [
+   "poultry"
+  ]
+ },
+ "pork": {
+  "name": "pork",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "contains": [
+   "pork"
+  ]
+ },
+ "lamb": {
+  "name": "lamb",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "aliases": [
+   "mutton"
+  ]
+ },
+ "goat": {
+  "name": "goat meat",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ]
+ },
+ "veal": {
+  "name": "veal",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ]
+ },
+ "sausage": {
+  "name": "sausage",
+  "category": "meat",
+  "animal": [
+   "meat"
+  ],
+  "may_contain": [
+   "pork",
+   "gluten",
+   "sulphite",
+   "milk"
+  ]
+ },
+ "fish": {
+  "name": "fish",
+  "category": "seafood",
+  "animal": [
+   "fish"
+  ],
+  "contains": [
+   "fish"
+  ]
+ },
+ "anchovies": {
+  "name": "anchovies",
+  "category": "seafood",
+  "animal": [
+   "fish"
+  ],
+  "contains": [
+   "fish"
+  ],
+  "aliases": [
+   "anchovy"
+  ]
+ },
+ "stockfish": {
+  "name": "stockfish",
+  "category": "seafood",
+  "animal": [
+   "fish"
+  ],
+  "contains": [
+   "fish"
+  ],
+  "aliases": [
+   "dryfish",
+   "dried fish",
+   "okporoko"
+  ]
+ },
+ "crayfish": {
+  "name": "crayfish",
+  "category": "seafood",
+  "animal": [
+   "shellfish"
+  ],
+  "contains": [
+   "crustacean"
+  ],
+  "aliases": [
+   "crawfish"
+  ]
+ },
+ "ground-crayfish": {
+  "name": "ground dried crayfish",
+  "category": "seafood",
+  "animal": [
+   "shellfish"
+  ],
+  "contains": [
+   "crustacean"
+  ],
+  "note": "West African seasoning made from dried shrimp or crayfish."
+ },
+ "egg-yolk": {
+  "name": "egg yolk",
+  "category": "egg",
+  "animal": [
+   "egg"
+  ],
+  "contains": [
+   "egg"
+  ]
+ },
+ "honey": {
+  "name": "honey",
+  "category": "sweetener",
+  "animal": [
+   "honey"
+  ]
+ },
+ "cheese": {
+  "name": "cheese",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
+  ],
+  "may_contain": [
+   "animal-rennet"
+  ]
+ },
+ "cream-cheese": {
+  "name": "cream cheese",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
+  ]
+ },
+ "monterey-jack": {
+  "name": "Monterey Jack",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
+  ],
+  "may_contain": [
+   "animal-rennet"
+  ]
+ },
+ "condensed-milk": {
+  "name": "sweetened condensed milk",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
+  ]
+ },
+ "evaporated-milk": {
+  "name": "evaporated milk",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
+  ]
+ },
+ "margarine": {
+  "name": "margarine",
+  "category": "fat",
+  "may_contain": [
+   "milk",
+   "soy"
+  ]
+ },
+ "shortening": {
+  "name": "vegetable shortening",
+  "category": "fat",
+  "may_contain": [
+   "animal-fat",
+   "soy"
+  ]
+ },
+ "cooking-spray": {
+  "name": "cooking spray",
+  "category": "fat",
+  "may_contain": [
+   "soy"
+  ]
+ },
+ "pasta": {
+  "name": "pasta",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ],
+  "may_contain": [
+   "egg"
+  ]
+ },
+ "noodles": {
+  "name": "noodles",
+  "category": "grain",
+  "may_contain": [
+   "gluten",
+   "egg"
+  ]
+ },
+ "semolina": {
+  "name": "semolina",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ]
+ },
+ "self-rising-flour": {
+  "name": "self-rising flour",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ],
+  "aliases": [
+   "self-raising flour"
+  ]
+ },
+ "tortilla": {
+  "name": "tortilla",
+  "category": "grain",
+  "may_contain": [
+   "gluten"
+  ]
+ },
+ "puff-pastry": {
+  "name": "puff pastry",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ],
+  "may_contain": [
+   "milk"
+  ]
+ },
+ "croutons": {
+  "name": "croutons",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ],
+  "may_contain": [
+   "milk"
+  ]
+ },
+ "taro": {
+  "name": "taro",
+  "category": "vegetable",
+  "aliases": [
+   "taro root",
+   "dasheen",
+   "eddo",
+   "cocoyam"
+  ]
+ },
+ "corn-kernels": {
+  "name": "corn kernels",
+  "category": "vegetable",
+  "aliases": [
+   "corn",
+   "sweetcorn",
+   "maize"
+  ]
+ },
+ "mushroom": {
+  "name": "mushroom",
+  "category": "vegetable",
+  "aliases": [
+   "button mushroom"
+  ]
+ },
+ "fennel-bulb": {
+  "name": "fennel bulb",
+  "category": "vegetable"
+ },
+ "fennel-seeds": {
+  "name": "fennel seeds",
+  "category": "spice"
+ },
+ "turnip": {
+  "name": "turnip",
+  "category": "vegetable"
+ },
+ "cauliflower": {
+  "name": "cauliflower",
+  "category": "vegetable"
+ },
+ "broccoli": {
+  "name": "broccoli",
+  "category": "vegetable"
+ },
+ "bean-sprouts": {
+  "name": "bean sprouts",
+  "category": "vegetable"
+ },
+ "chipotle-in-adobo": {
+  "name": "chipotle in adobo",
+  "category": "condiment",
+  "aliases": [
+   "chipotle pepper",
+   "adobo sauce"
+  ]
+ },
+ "lime": {
+  "name": "lime",
+  "category": "fruit"
+ },
+ "orange": {
+  "name": "orange",
+  "category": "fruit"
+ },
+ "apple": {
+  "name": "apple",
+  "category": "fruit"
+ },
+ "mango": {
+  "name": "mango",
+  "category": "fruit"
+ },
+ "pineapple": {
+  "name": "pineapple",
+  "category": "fruit"
+ },
+ "dates": {
+  "name": "dates",
+  "category": "fruit",
+  "aliases": [
+   "date"
+  ]
+ },
+ "olives": {
+  "name": "olives",
+  "category": "condiment",
+  "aliases": [
+   "olive",
+   "black olives",
+   "kalamata olives"
+  ]
+ },
+ "coconut": {
+  "name": "grated coconut",
+  "category": "nut-seed",
+  "aliases": [
+   "fresh coconut"
+  ]
+ },
+ "cashews": {
+  "name": "cashews",
+  "category": "nut-seed",
+  "contains": [
+   "tree-nut"
+  ],
+  "aliases": [
+   "cashew"
+  ]
+ },
+ "almonds": {
+  "name": "almonds",
+  "category": "nut-seed",
+  "contains": [
+   "tree-nut"
+  ],
+  "aliases": [
+   "almond"
+  ]
+ },
+ "poppy-seeds": {
+  "name": "poppy seeds",
+  "category": "nut-seed"
+ },
+ "rosemary": {
+  "name": "rosemary",
+  "category": "herb"
+ },
+ "scent-leaf": {
+  "name": "scent leaf",
+  "category": "herb",
+  "aliases": [
+   "efirin",
+   "African basil",
+   "nchanwu"
+  ]
+ },
+ "kaffir-lime-leaf": {
+  "name": "makrut lime leaf",
+  "category": "herb",
+  "aliases": [
+   "kaffir lime leaf",
+   "lime leaf"
+  ]
+ },
+ "bouquet-garni": {
+  "name": "bouquet garni",
+  "category": "herb",
+  "may_contain": [
+   "celery"
+  ]
+ },
+ "green-cardamom-pods": {
+  "name": "green cardamom pods",
+  "category": "spice"
+ },
+ "star-anise": {
+  "name": "star anise",
+  "category": "spice"
+ },
+ "chili-powder": {
+  "name": "chili powder",
+  "category": "spice",
+  "note": "US chili powder is a blend with cumin and oregano."
+ },
+ "garlic-powder": {
+  "name": "garlic powder",
+  "category": "spice"
+ },
+ "onion-powder": {
+  "name": "onion powder",
+  "category": "spice"
+ },
+ "asafoetida": {
+  "name": "asafoetida",
+  "category": "spice",
+  "may_contain": [
+   "gluten"
+  ],
+  "aliases": [
+   "hing"
+  ],
+  "note": "Usually cut with wheat flour."
+ },
+ "italian-seasoning": {
+  "name": "Italian seasoning",
+  "category": "spice"
+ },
+ "mixed-spice": {
+  "name": "mixed spice",
+  "category": "spice"
+ },
+ "ginger-garlic-paste": {
+  "name": "ginger-garlic paste",
+  "category": "condiment"
+ },
+ "chili-paste": {
+  "name": "chili paste",
+  "category": "condiment",
+  "aliases": [
+   "sambal oelek"
+  ]
+ },
+ "ketchup": {
+  "name": "ketchup",
+  "category": "condiment",
+  "aliases": [
+   "tomato ketchup"
+  ]
+ },
+ "barbecue-sauce": {
+  "name": "barbecue sauce",
+  "category": "condiment",
+  "may_contain": [
+   "gluten",
+   "mustard",
+   "fish"
+  ]
+ },
+ "jam": {
+  "name": "jam",
+  "category": "condiment",
+  "aliases": [
+   "preserves"
+  ]
+ },
+ "molasses": {
+  "name": "molasses",
+  "category": "sweetener",
+  "aliases": [
+   "treacle"
+  ]
+ },
+ "powdered-sugar": {
+  "name": "powdered sugar",
+  "category": "sweetener",
+  "aliases": [
+   "icing sugar",
+   "confectioners' sugar"
+  ]
+ },
+ "chocolate": {
+  "name": "chocolate",
+  "category": "sweetener",
+  "may_contain": [
+   "milk",
+   "soy"
+  ]
+ },
+ "cocoa-powder": {
+  "name": "cocoa powder",
+  "category": "baking"
+ },
+ "cream-of-tartar": {
+  "name": "cream of tartar",
+  "category": "baking"
+ },
+ "yeast": {
+  "name": "yeast",
+  "category": "baking",
+  "aliases": [
+   "active dry yeast"
+  ]
+ },
+ "food-coloring": {
+  "name": "food colouring",
+  "category": "baking"
+ },
+ "orange-flower-water": {
+  "name": "orange flower water",
+  "category": "condiment",
+  "aliases": [
+   "orange blossom water"
+  ]
+ },
+ "iru": {
+  "name": "iru",
+  "category": "condiment",
+  "aliases": [
+   "locust bean",
+   "dawadawa",
+   "ogiri"
+  ],
+  "note": "Fermented locust beans."
+ },
+ "potash": {
+  "name": "potash",
+  "category": "water",
+  "aliases": [
+   "kaun",
+   "akanwu",
+   "kanwa"
+  ],
+  "note": "Natural mineral salt used as a tenderiser."
+ },
+ "bouillon-cube": {
+  "name": "bouillon cube",
+  "category": "stock",
+  "may_contain": [
+   "animal-product",
+   "gluten",
+   "milk",
+   "celery",
+   "soy"
+  ],
+  "aliases": [
+   "seasoning cube",
+   "stock cube",
+   "dehydrated broth"
+  ],
+  "note": "Flavour unknown — may be meat-based."
+ },
+ "nori": {
+  "name": "nori",
+  "category": "vegetable"
+ },
+ "coffee": {
+  "name": "coffee",
+  "category": "beverage"
+ },
+ "tea": {
+  "name": "tea",
+  "category": "beverage"
+ },
+ "sherry": {
+  "name": "sherry",
+  "category": "beverage",
+  "contains": [
+   "alcohol",
+   "sulphite"
+  ]
+ },
+ "rum": {
+  "name": "rum",
+  "category": "beverage",
+  "contains": [
+   "alcohol"
+  ]
+ },
+ "brandy": {
+  "name": "brandy",
+  "category": "beverage",
+  "contains": [
+   "alcohol"
+  ]
+ },
+ "beer": {
+  "name": "beer",
+  "category": "beverage",
+  "contains": [
+   "alcohol",
+   "gluten"
+  ]
+ },
  "dry-white-wine": {
   "name": "dry white wine",
+  "category": "beverage",
+  "contains": [
+   "alcohol",
+   "sulphite"
+  ]
+ },
+ "brown-ale": {
+  "name": "brown ale",
+  "category": "beverage",
+  "contains": [
+   "alcohol",
+   "gluten"
+  ],
+  "aliases": [
+   "Flemish brown",
+   "oud bruin",
+   "dubbel"
+  ]
+ },
+ "red-wine": {
+  "name": "red wine",
   "category": "beverage",
   "contains": [
    "alcohol",

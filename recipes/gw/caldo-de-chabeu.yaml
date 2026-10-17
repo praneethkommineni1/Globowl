@@ -1,0 +1,38 @@
+id: gw-caldo-de-chabeu
+title: Caldo de Chabéu
+native_name: {text: Caldo de chabéu, lang: pt}
+alternate_names: [Palm nut soup with fish]
+summary: Fish or chicken simmered in a rich palm-nut sauce with onion, tomato, lime and chili — Guinea-Bissau's national dish.
+origin:
+  country: GW
+course: main
+dish_types: [stew]
+authenticity: traditional
+yield: {servings: 5}
+time: {prep_min: 15, cook_min: 50}
+difficulty: 2
+techniques: [stewing]
+ingredient_groups:
+  - items:
+      - {ingredient: palm-nut-cream, qty: 400, unit: g}
+      - {ingredient: water, qty: 500, unit: ml}
+      - {ingredient: onion, qty: 2, prep: "sliced"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "crushed"}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: scotch-bonnet, qty: 1, note: "whole"}
+      - {ingredient: white-fish, qty: 800, unit: g, prep: "thick steaks", note: "or chicken pieces"}
+      - {ingredient: lime-juice, qty: 2, unit: tbsp}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - Season the fish with lime and salt.
+  - text: Simmer the palm nut cream with the water, onions, garlic, tomatoes and Scotch bonnet, stirring, until thickened and red oil rises.
+    timer_min: 30
+  - text: Add the fish and simmer gently until cooked.
+    timer_min: 12
+serving: With white rice.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

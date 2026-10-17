@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 punnet raspberries
+#  - unmapped ingredient: 1/2 punnet blackcurrants
+#  - unmapped ingredient: 1/2 punnet redcurrants
+#  - unmapped ingredient: 1 bottle of the best quality blackcurrant cordial you can find, in reserve
+id: gb-summer-pudding
+title: Summer Pudding
+summary: Summer pudding is a quintessentially British dessert made from wonderful fresh ingredients only available in the summer months.
+origin:
+  country: GB
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: strawberries, qty: 1, prep: large ones halved}
+  - {ingredient: white-bread, qty: 1, prep: 'pappy sort of bread or brioche, crusts removed and sliced'}
+  - {ingredient: caster-sugar, unit: tbsp, qty: 2}
+  - {ingredient: lime, qty: 1, prep: finely zested}
+  - {ingredient: mint, qty: [2, 3], prep: finely chopped}
+steps:
+- Liberally butter the inside a pudding bowl about 5 inches in diameter. The bowl should preferably not be greater in diameter that the size of your pieces of sliced bread. If you are worried about getting the whole thing out of the bowl in one piece, line the bowl first with some cling film. It's a fiddly job, but ensures you get a perfect shape at the end.
+- Combine the blackcurrants, redcurrants, mint leaves, lime zest, sugar, and about 3 tbsp water. Poach them for about 5 minutes on the lowest possible heat setting of your stove. Add the strawberries and poach for another minute.
+- Turn the heat off and add the raspberries. Leave to cool.
+- Using the prepared bowl as a guide, cut a circle out of the white bread the same diameter as the top of the bowl. Do the same with the bottom of the bowl.
+- Using a sharp knife, slice the bread into squares or oblongs, roughly the same height as the bowl, which will be used to line the inside of the bowl. This does not have to be an exact science. In simple terms what we are trying to do is to line the bowl with the white bread.
+- Lay the smaller circle of white bread on the bottom of the bowl. Put the oblongs of white bread up the side of the bowl, overlapping slightly, and pour the fruit mixture into the void right up to the top. The bread should become well soaked in the juice from the cooked fruit. Indeed if there is not enough juice to soak the bread so it turns very red, use the cordial as a top-up.
+- Place the large circle, or disc, of bread on the top and press it down well.
+- Top with a weight or something that fits into the top of the bowl so it squashes everything down tight, and place it in the fridge for at least 40 minutes.
+- When you are ready to serve the pudding, carefully using a knife to release the bread mould from the side of the bowl, and invert the whole thing onto a plate. If things become a little fraught and wobbly at this point, don't panic—just sort of whack everything back into shape using a wooden spoon.
+- Decorate your plate with some more summer fruit, maybe a couple of mint leaves, and an artistic dollop of fresh whipped cream or crème fraîche, then serve with a flourish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASummer_Pudding&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Summer Pudding@4587366
+    url: https://en.wikibooks.org/w/index.php?oldid=4587366
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

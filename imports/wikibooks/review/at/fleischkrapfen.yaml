@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 200 g rye flour
+#  - unmapped ingredient: 400 g smoked meat
+id: at-fleischkrapfen
+title: Fleischkrapfen
+alternate_names:
+- Austrian Meat Pasties
+summary: Fleischkrapfen is a traditional dish originating in Salzburg. In this preparation, meat of all kinds is cut into small pieces and used to fill a fried hand pie. It is an ideal way to make use of leftover meat.
+origin:
+  country: AT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 45
+difficulty: 3
+techniques:
+- boiling
+- deep-frying
+- dough-making
+ingredient_groups:
+- name: Dough
+  items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 200}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: butter, unit: g, qty: 40}
+  - {ingredient: milk, unit: l, qty: 0.25}
+- name: Stuffing
+  items:
+  - {ingredient: potato, unit: g, qty: 400}
+  - {ingredient: bacon, unit: g, qty: 100}
+  - {ingredient: onion, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: dried-marjoram}
+  - {ingredient: parsley}
+  - {ingredient: butter, unit: tbsp, qty: 4}
+- name: Other
+  items:
+  - {ingredient: shortening}
+steps:
+- For the dough, mix the two kinds of flour, and season the mixture with a pinch of salt.
+- Boil up milk and butter, then pour it over the flour and knead it quickly.
+- For the stuffing, chop the onion and brown it in butter. Add the chopped bacon, the smoked meat, and the boiled and chopped potatoes. Season with salt, pepper, marjoram, and parsley, and let it cool down a little.
+- Roll the dough into one 4 cm thick piece. Cut it into 2 cm thick slices, and roll into a circle with a rolling pin. Overlay one half of each dough circle with a medium amount of the filling and put the other half over it. Press the edges firmly together.
+- Heat the oil or shortening to 180°C (350°F). Deep fry the Fleischkrapfen in hot oil until golden brown on all sides.
+- Serve with sauerkraut on the side (see image).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFleischkrapfen_%28Austrian_Meat_Pasties%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fleischkrapfen (Austrian Meat Pasties)@4587194
+    url: https://en.wikibooks.org/w/index.php?oldid=4587194
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

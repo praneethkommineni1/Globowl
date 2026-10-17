@@ -1,0 +1,39 @@
+id: do-mangu
+title: Mangú
+native_name: {text: Mangú, lang: es}
+summary: Silky mashed green plantains topped with tangy vinegar-softened red onions — the Dominican breakfast.
+origin:
+  country: DO
+course: breakfast
+dish_types: [mash]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 25}
+difficulty: 1
+techniques: [boiling, sauteing]
+ingredient_groups:
+  - name: Onions
+    items:
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: red-onion, qty: 2, prep: "sliced into rings"}
+      - {ingredient: white-vinegar, qty: 60, unit: ml}
+      - {ingredient: salt, qty: 1, unit: pinch}
+  - name: Mangú
+    items:
+      - {ingredient: green-plantain, qty: 4, prep: "peeled and cut into chunks"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: butter, qty: 3, unit: tbsp, alt: [vegetable-oil]}
+      - {ingredient: water, qty: 250, unit: ml, note: "ice-cold"}
+steps:
+  - text: Boil the plantains in salted water until very tender.
+    timer_min: 20
+  - Meanwhile, cook the onions in the oil over medium heat for 2 minutes, add the vinegar and salt and simmer until just soft and pink.
+  - Drain the plantains and immediately mash them with the butter, adding cold water a little at a time until smooth and creamy.
+  - Serve the mangú topped with the onions.
+serving: As "los tres golpes" (the three hits) — with fried Dominican salami, fried cheese and fried eggs.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

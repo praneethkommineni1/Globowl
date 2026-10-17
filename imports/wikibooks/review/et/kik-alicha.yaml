@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup yellow split peas
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: et-kik-alicha
+title: Kik Alicha
+alternate_names:
+- Yellow Split Pea Stew
+summary: Kik alicha is a comforting and flavorful Ethiopian split pea stew, made with yellow split peas simmered in a mild and aromatic sauce. This vegetarian stew is a staple in Ethiopian cuisine and is often served as part of a traditional Ethiopian meal.
+origin:
+  country: ET
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Medium-sized pot
+- Wooden spoon or spatula
+- Cutting board
+- Chef's knife
+- Strainer
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: ginger, unit: tbsp, qty: 1}
+  - {ingredient: niter-kibbeh, unit: tbsp, qty: 2}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: paprika, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: cilantro, prep: 'chopped, for garnish'}
+steps:
+- Rinse the yellow split peas under cold water in a strainer to remove any dirt or debris. Drain in a strainer.
+- In a medium-sized pot, combine the rinsed split peas, chopped onion, minced garlic, grated ginger, niter kibbeh, turmeric, cumin, paprika, and salt.
+- Add enough water to cover the split peas by about an inch.
+- Bring the pot to a boil over medium-high heat. Reduce the heat to low, cover with a lid, and simmer for about 35–40 minutes, or until the split peas are tender and cooked through. Stir occasionally to prevent sticking. If needed, add additional water during cooking to maintain the desired consistency.
+- Taste the stew and adjust the seasoning with salt, if necessary.
+- Remove from heat and let the stew rest for a few minutes to allow the flavors to meld together.
+- Garnish with freshly chopped cilantro or parsley. Serve hot as a main course or as part of a traditional Ethiopian meal, accompanied by injera (Ethiopian flatbread) or rice.
+tips:
+- For a creamier consistency, you can partially mash some of the cooked split peas with the back of a spoon.
+- Kik alicha can be made ahead of time and reheated. It often tastes even better the next day as the flavors continue to develop.
+- Soaking the split peas overnight before cooking can help reduce the cooking time.
+- Adjust the spices according to your taste preferences. Add more turmeric for a brighter yellow color, or increase the paprika for a spicier flavor.
+- You can customize the kik alicha by adding vegetables like carrots, potatoes, or tomatoes to the stew.
+- Some recipes call for the addition of a small amount of ground mitmita spice for extra heat and complexity.
+- Yellow split peas are a good source of plant-based protein, dietary fiber, and essential nutrients. They are also low in fat and rich in vitamins and minerals.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKik_Alicha_%28Yellow_Split_Pea_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kik Alicha (Yellow Split Pea Stew)@4518636
+    url: https://en.wikibooks.org/w/index.php?oldid=4518636
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

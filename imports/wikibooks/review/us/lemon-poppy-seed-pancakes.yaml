@@ -1,0 +1,69 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+id: us-lemon-poppy-seed-pancakes
+title: Lemon Poppy Seed Pancakes
+summary: Lemon Poppy Seed Pancakes.
+origin:
+  country: US
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 8
+  amount: 8 ea. 4-inch pancakes
+time:
+  total_min: 15
+difficulty: 2
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: sugar, unit: tsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: baking-powder, unit: tsp, qty: 0.5}
+  - {ingredient: baking-soda, unit: tsp, qty: 0.25}
+  - {ingredient: lemon, unit: tsp, qty: 1}
+  - {ingredient: poppy-seeds, unit: tsp, qty: 1}
+  - {ingredient: buttermilk, unit: cup, qty: 0.75}
+  - {ingredient: milk, unit: cup, qty: 0.25}
+  - {ingredient: egg, qty: 1, note: large}
+  - {ingredient: butter, unit: tbsp, qty: 2, prep: melted}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: vegetable-oil}
+steps:
+- Heat a large non-stick skillet or griddle over low heat while preparing ingredients.
+- Mix flour, sugar, salt, baking powder, and baking soda in medium bowl.
+- Whisk lemon zest and poppy seeds into dry ingredients.
+- Microwave buttermilk and milk in a 2-cup Pyrex measuring cup to room temperature, 20 to 30 seconds.
+- Whisk in egg, butter, and vanilla.
+- Add wet ingredients to dry ingredients and whisk until just mixed.
+- Return batter to measuring cup, stirring in a teaspoon or two of water, if necessary, to make a thick, but pourable batter.
+- Increase heat to medium and generously brush skillet or griddle with oil.
+- When oil starts to spider, but before it starts to smoke, pour batter, about ¼ cup at a time. Work in batches, if necessary, to avoid overcrowding.
+- When pancake bottoms are golden brown and tops start to bubble, 2 to 3 minutes, flip pancakes.
+- Cook until pancakes are golden brown on remaining side.
+- Repeat, brushing skillet or griddle with oil.
+- Serve hot.
+tips:
+- Use all-purpose flour (which is softer than unbleached), not unbleached flour to make a tender pancake.
+- If using salted butter, reduce salt to ¼ teaspoon.
+- I usually substitute a tablespoon of lemon juice (or vinegar) in milk for the buttermilk.
+- Pancake batter should pour, not glug! On the other hand, runny batter makes thin, oddly shaped pancakes that frequently collide on the griddle. Stir in a touch more flour into thin batter. For batter that's too thick, whisk in water, a teaspoon at a time.
+- 'The temperature of the pan or griddle is important: too hot and the pancakes are dark and raw; too cool and they''re blond and hard. For tender, golden brown pancakes, heat the pan or griddle on low while you make the batter. Then increase the heat to medium and generously brush the pan or griddle with oil. It''s ready when the oil starts to shimmer and, in any skillet or griddle other than non-stick, sends out tendrils that resemble and octopus or spider. But if the pan starts to smoke, set it down off the burner until the smoking subsides and the oil cools a bit.'
+- This recipe easily doubles for a crowd.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALemon_Poppy_Seed_Pancakes&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lemon Poppy Seed Pancakes@4523365
+    url: https://en.wikibooks.org/w/index.php?oldid=4523365
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

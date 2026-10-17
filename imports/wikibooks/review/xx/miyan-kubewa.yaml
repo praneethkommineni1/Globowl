@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Fresh or dried ground Scotch bonnet chile
+#  - course unknown from categories
+id: xx-miyan-kubewa
+title: Miyan Kubewa
+alternate_names:
+- Okra Soup
+summary: Miyan kuɓewa is a popular soup in Hausa cuisine made primarily from okra. Known for its viscous texture and rich flavor, it is widely prepared across Northern Nigeria and other parts of West Africa.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–3
+time:
+  total_min: 75
+difficulty: 3
+equipment:
+- Cooking pot
+- Knife
+- Chopping board
+- Blender or mortar and pestle
+- Wooden spoon
+- Bowl
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 500, prep: 'goat, or assorted meat'}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: bouillon-cube, qty: [2, 3]}
+  - {ingredient: salt}
+  - {ingredient: water}
+  - {ingredient: stockfish, qty: [1, 2], optional: true}
+  - {ingredient: iru, unit: tbsp, qty: [1, 2]}
+  - {ingredient: red-palm-oil, unit: tbsp, qty: [2, 3]}
+  - {ingredient: okra, unit: cup, qty: 2}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 2}
+steps:
+- In a pot, combine your cleaned meat, chopped onions, seasoning cubes, and a pinch of salt. Add a little water and simmer until the meat is cooked through and tender to your taste. This can take a while for tough cuts of meat.
+- If using smoked or dried fish, add it along with the ground locust beans (dawadawa). Allow it to simmer for 5–10 minutes.
+- Pour in the palm oil and stir well. Let it cook for a few minutes to combine the flavors.
+- Stir in the okra. If using dried okra, you may need to add some extra water. Stir continuously to encourage the characteristic "draw" (slippery texture).
+- Sprinkle in the ground crayfish and pepper. Adjust salt and seasoning to taste.
+- Allow the soup to simmer for another 5–10 minutes. Avoid overcooking the okra to maintain its texture.
+tips:
+- Fresh okra gives a better texture, but dried okra is more convenient for storage and travel.
+- Dawadawa adds a unique, pungent aroma typical of Hausa soups.
+- Crayfish is optional but adds depth of flavor, especially if fish is not used.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMiyan_Kubewa_%28Okra_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Miyan Kubewa (Okra Soup)@4636118
+    url: https://en.wikibooks.org/w/index.php?oldid=4636118
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

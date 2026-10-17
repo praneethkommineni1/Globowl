@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 quart water
+#  - unmapped ingredient: 1/2 cup sour bamboo
+#  - unmapped ingredient: Green part of scallions, chopped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: vn-canh-chua
+title: Canh Chua
+alternate_names:
+- Vietnamese Hot and Sour Soup
+summary: Canh chua is the Vietnamese "Hot & Sour" soup. It is closest to the Thai and the Cambodian tom yum soup, although it is more sweet and sour than its spicier counterparts. Each family has its own canh chua recipe and sometimes, members from the same family have their own.
+origin:
+  country: VN
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- name: Marinade
+  items:
+  - {ingredient: fish, qty: 1}
+  - {ingredient: scallion, qty: 2, prep: green part reserved for garnish and white part crushed}
+  - {ingredient: fish-sauce, unit: tsp, qty: 4}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: black-pepper}
+- name: Soup
+  items:
+  - {ingredient: salt, unit: tsp, qty: 2}
+  - {ingredient: fish-sauce, unit: tbsp, qty: 2}
+  - {ingredient: pineapple, qty: 0.25, prep: 'core removed, cut lengthwise and sliced'}
+- name: Garnish
+  items:
+  - {ingredient: cilantro, unit: tbsp, qty: 2}
+steps:
+- Marinate the fish for 15 minutes with the crushed scallions, black pepper, salt, and nước mắm.
+- Bring water to the boil. Add the sour bamboo and pineapple slices. Boil for 5 minutes.
+- Add marinated fish and continue to boil for a total of 10 minutes. While the fish is boiling, add Nước mắm, and salt.
+- For serving, the soup can be garnished with coriander and the green part of scallions.
+tips:
+- Traditionally, the fish head is not removed, but you can if you prefer.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACanh_Chua_%28Vietnamese_Hot_and_Sour_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Canh Chua (Vietnamese Hot and Sour Soup)@4629675
+    url: https://en.wikibooks.org/w/index.php?oldid=4629675
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

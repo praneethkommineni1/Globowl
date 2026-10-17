@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Cannoli shells
+#  - unmapped ingredient: 1 tablespoon whipped cream
+#  - unmapped ingredient: 1 tablespoon chocolate chips
+#  - unmapped ingredient: 1/2 tablespoon icing
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-cannoli
+title: Cannoli
+summary: Cannoli are sweet Italian pastries. They consist of a fried pastry shell in the shape of a tube, filled with a sweet cream and cheese mixture.
+origin:
+  country: IT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: ricotta, unit: tbsp, qty: 2}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+steps:
+- Prepare the cannoli shells if you are making them yourself.
+- Combine the ricotta and sugar. Fold in the whipped cream and chocolate chips.
+- Fill shells with the ricotta mixture. A piping bag works well here.
+- Cool cannoli in the fridge before serving.
+tips:
+- Replace the chocolate chips with dried fruit.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACannoli&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cannoli@4629802
+    url: https://en.wikibooks.org/w/index.php?oldid=4629802
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

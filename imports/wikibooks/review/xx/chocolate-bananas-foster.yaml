@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - course unknown from categories
+id: xx-chocolate-bananas-foster
+title: Chocolate Bananas Foster
+summary: In New Orleans, where Bananas Foster was invented, they'll bring out a hot plate and make the dish table side, including a spectacular flambé.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 15
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: banana, qty: 4, prep: peeled and halved lengthwise}
+  - {ingredient: chocolate, prep: finely chopped}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: rum, unit: cup, qty: 0.5}
+  - {ingredient: orange, unit: tsp, qty: 2, prep: finely grated}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 0.25}
+  - {ingredient: allspice, unit: tsp, qty: 0.5}
+  - {ingredient: nutmeg, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.5}
+  - {ingredient: vanilla-extract, unit: tbsp, qty: 1}
+  - {ingredient: powdered-sugar}
+steps:
+- Combine all ingredients except bananas, powdered sugar, orange, and rum in a large skillet over medium high heat.
+- Once mixture comes to a boil, add bananas, making sure to keep at least ½ inch (1.3 cm) between them. Cook for 1 minute per side.
+- Remove bananas from pan and keep warm. Bring mixture again to a strong boil over high heat. Turn off the heat and add rum. If rum has not ignited by itself, do so carefully either with a firestick or a long fireplace match. Wait until flames die out before stirring in zest.
+- Spoon sauce over bananas and dust with powdered sugar. Serve warm with some ice cream.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChocolate_Bananas_Foster&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chocolate Bananas Foster@4587402
+    url: https://en.wikibooks.org/w/index.php?oldid=4587402
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

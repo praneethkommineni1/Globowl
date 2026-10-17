@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: rw-akarubi
+title: Akarubi
+alternate_names:
+- Rwandan Grilled Banana
+summary: Akarubi is a popular Rwandan dessert made with grilled bananas. This simple yet delicious dish is a favorite among Rwandans and visitors alike. Grilled bananas are caramelized to perfection, resulting in a sweet and smoky flavor that is irresistible.
+origin:
+  country: RW
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+equipment:
+- Grill or grill pan
+- Tongs
+techniques:
+- grilling
+ingredient_groups:
+- items:
+  - {ingredient: banana, prep: peeled}
+  - {ingredient: butter, prep: for grilling}
+  - {ingredient: ground-cinnamon}
+  - {ingredient: honey, prep: for drizzling, optional: true}
+steps:
+- Preheat your grill or grill pan to medium-high heat.
+- Place the peeled bananas directly on the grill grates or grill pan.
+- Grill the bananas for 2–3 minutes on each side, or until they are lightly charred and softened.
+- Remove the grilled bananas from the heat and transfer them to a serving plate.
+- Optionally, sprinkle the grilled bananas with cinnamon for added flavor.
+- Serve hot as a dessert or snack. If desired, drizzle the grilled bananas with honey or maple syrup for additional sweetness.
+tips:
+- Use ripe bananas for the best results. They should be yellow with some brown spots on the skin, indicating they are sweet and flavorful.
+- You can brush the bananas with melted butter or vegetable oil before grilling to prevent sticking and enhance the caramelization.
+- Add a squeeze of fresh lemon juice or lime juice over the grilled bananas for a tangy contrast to the sweetness.
+- Serve the akarubi with a scoop of vanilla ice cream or a dollop of whipped cream for a decadent treat.
+- Garnish the grilled bananas with chopped nuts, shredded coconut, or a sprinkle of powdered sugar for added texture and presentation.
+- Bananas are a good source of potassium, vitamin C, dietary fiber, and natural sugars.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAkarubi_%28Rwandan_Grilled_Banana%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Akarubi (Rwandan Grilled Banana)@4630205
+    url: https://en.wikibooks.org/w/index.php?oldid=4630205
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Fresh wrapping leaves
+#  - no procedure steps
+#  - course unknown from categories
+id: xx-asa-iwa
+title: Asa iwa
+summary: Asa Iwa is a traditional Efik cassava dish made from fermented cassava paste that is wrapped in leaves and steamed until firm. It is commonly eaten as a staple food and is often served with soups such as afang soup, edikang ikong, or other vegetable soups.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4-6 servings
+time:
+  total_min: 120
+difficulty: 5
+equipment:
+- Knife
+- Grater
+- Mixing bowl
+- Colander
+- Cooking pot with lid
+- Steaming rack or stand
+- String or strips of leaf for tying
+ingredient_groups:
+- items:
+  - {ingredient: cassava, unit: kg, qty: 2}
+  - {ingredient: water, prep: as needed}
+  - {ingredient: salt, note: to taste}
+steps:
+- (missing)
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAsa_iwa&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Asa iwa@4639184
+    url: https://en.wikibooks.org/w/index.php?oldid=4639184
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

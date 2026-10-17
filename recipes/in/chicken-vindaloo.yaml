@@ -1,0 +1,82 @@
+id: in-chicken-vindaloo
+title: Chicken Vindaloo
+summary: Vindaloo is a hot and spicy dish from the Goa region of India. Its heavy use of vinegar and the traditional meat of pork are due to the Portuguese influence on the area.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 3}
+  - {ingredient: onion, qty: [2, 3], note: large}
+  - {ingredient: red-chili, qty: 2}
+  - {ingredient: garlic, unit: clove, qty: 6}
+  - {ingredient: ginger, qty: 2}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 2}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: garam-masala, unit: tsp, qty: 1}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 1.5}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: cilantro, unit: tbsp, qty: 1}
+  - {ingredient: water, unit: cup, qty: 0.5}
+steps:
+- Take a thick-based frying pan, and pour into it enough vegetable oil to cover the base, with a little excess. Heat on a stovetop.
+- Slice the onions into fairly thin slivers. When the oil is very hot, add the onions.
+- Turn the stove down to a low heat, so the onions just gently sauté. After around 3 minutes they should be starting to caramelize.
+- Gradually turn up the heat and keep stirring the onions. You want them to brown quite heavily without burning.
+- Add the white wine vinegar, it will sizzle, and after a while will evaporate. Keep stirring. Fry for several more minutes, until they are very brown, but not burnt.
+- Remove the onions from the pan into a bowl, taking care to let as much oil as possible drip back into the pan. You should now have a bowl of nicely crisped fried onions.
+- Add the onions to a blender or food processor. Add around 1 tablespoon of oil, and process for around a minute until you have a fairly thick, dark brown sauce. This is the basic onion sauce from which vindaloo is made. It's also the onion sauce that gives the vindaloo the majority of its 'hot' taste, as it builds up as you eat the dish.
+- Remove sauce from blender and set aside.
+- Coarsely chop the garlic cloves (and ginger if you're using it). De-seed the chili peppers and chop in the same way. Add the chopped garlic and chillies to the food processor.
+- Blend the garlic and chillies until you have a fairly grainy (but liquid) sauce. For this I used an attachment on my blender which is intended to grind coffee beans. It has a much smaller container and so there's less waste.
+- Add the turmeric, coriander powder, garam masala and cinnamon to the sauce. Stir it until it's well mixed, and set aside.
+- Gently crush the black peppercorns in a mortar and pestle. Once coarse, add the mustard seed and rock salt. Continue blending until all the spices form a nice coarse powder.
+- Pour a little oil into a saucepan. Add the spiced garlic and chili paste to the pan. It needs to be slightly floating on oil, not touching the bottom of the pan.
+- When the sauce is quite hot and bubbling, add the chopped meat. Keep stirring so the meat absorbs the spice mix, until it is browned and mostly cooked.
+- Now add the onion sauce to the pan. After stirring for 1 minute, add a little water and stir for another 2 minutes, then turn the heat to quite low. The sauce at this stage should be quite runny, and orange/tan in color. Remember a lot is going to evaporate off as it cooks.
+- At this stage you can add some vegetables. Half a cup of frozen peas works well.
+- Place a lid over the pan, and cook for around 30-40 minutes. Keep checking and stirring the pan every 5 or 10 minutes to make sure it doesn't stick or burn.The sauce will darken in color as it cooks.
+- Towards the last 15 minutes of cooking time, boil 2 cups of pilau, or basmati rice in a pan.
+- To serve- spoon the curry over the top of the rice. Sprinkle the chopped coriander leaves over the curry, and serve immediately.
+tips:
+- Powdered or dried ingredients can be substituted for fresh, but at the expense of taste.
+- If you don't have fresh ginger use 2 cloves garlic + 1 tsp dried ginger powder.
+- 'Double the amount of each of these ingredients:'
+- chosen chilies (if you like very spicy curry)
+- garlic
+- ginger
+- turmeric
+- coriander
+- garam masala (if you like very spicy curry)
+- cinnamon
+- black pepper
+- black mustard seeds
+- coriander leaves
+- Cook the onion sauce mixture and the meat-and-paste mixture until they are very nearly burned (consider a non stick pan for this).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Vindaloo&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chicken Vindaloo@4615149
+    url: https://en.wikibooks.org/w/index.php?oldid=4615149
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

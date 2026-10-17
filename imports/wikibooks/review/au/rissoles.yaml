@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Various herbs
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: au-rissoles
+title: Rissoles
+summary: Rissoles (ris·sole) is an extremely popular traditional Australian dish, similar to the American meatloaf.
+origin:
+  country: AU
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- grilling
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: kg, qty: 1}
+  - {ingredient: breadcrumbs, unit: cup, qty: 0.5}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: all-purpose-flour}
+steps:
+- Place beef mince in mixing bowl with eggs, breadcrumbs and your favourite meat herbs and seasonings.
+- Mix thoroughly. When fully mixed, remove one handful and mould into a the shape of a very thick hamburger patty.
+- Roll the rissole in either flour or gravy powder (depending on your preferences).
+- Cook in the oven, on a grill, or in a frying pan on a medium level of heat until cooked through and outer layer is crunchy.
+- Serve with vegetables, hot chips, salad or by themselves on bread or toast to make rissole burgers.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARissoles&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rissoles@4513546
+    url: https://en.wikibooks.org/w/index.php?oldid=4513546
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

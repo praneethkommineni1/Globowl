@@ -1,0 +1,51 @@
+id: us-cornbread
+title: Cornbread
+summary: Cornbread is a type of quick bread made of cornmeal and sometimes supplemented with wheat flour. Some variations may include whole corn kernels.
+origin:
+  country: US
+course: bread
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 45
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: cornmeal, unit: cup, qty: 1}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: baking-powder, unit: tsp, qty: 4}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: milk, unit: cup, qty: 1}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: shortening, unit: cup, qty: 0.25, prep: melted}
+  - {ingredient: sugar, unit: cup, qty: 0.25, optional: true}
+  - {ingredient: corn-kernels, qty: 0.5, prep: drained, optional: true}
+  - {ingredient: onion, qty: 0.25, prep: finely chopped, optional: true}
+steps:
+- Preheat oven to . Grease an baking pan.
+- Combine cornmeal, flour, baking powder, salt, and sugar in a large mixing bowl.
+- Add egg, milk, and shortening.
+- Beat until fairly smooth (about a minute).
+- If using corn and/or onion, fold in these ingredients.
+- Pour the mixture into the baking pan.
+- Bake for 20–25 minutes or until a toothpick inserted in center comes out clean. If corn is added to batter, increase time by ~50%
+- Serve hot!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACornbread_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cornbread I@4523344
+    url: https://en.wikibooks.org/w/index.php?oldid=4523344
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup mascarpone cheese
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-tiramisu-mousse
+title: Tiramisu Mousse
+summary: This tiramisu mousse is so-called because its flavor profile matches tiramisu.
+origin:
+  country: IT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: sugar, unit: cup, qty: 0.75}
+  - {ingredient: coffee, unit: cup, qty: 0.25, prep: cooled}
+  - {ingredient: egg-yolk, qty: 2, prep: beaten}
+  - {ingredient: heavy-cream, unit: cup, qty: 1, prep: whipped to soft peaks}
+  - {ingredient: cocoa-powder}
+steps:
+- Combine mascarpone cheese, sugar, espresso, and eggs. Set aside.
+- Gently fold in the whipped cream.
+- Chill until set. Before serving, dust with cocoa powder.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATiramisu_Mousse&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tiramisu Mousse@4587403
+    url: https://en.wikibooks.org/w/index.php?oldid=4587403
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-tortilla-soup
+title: Tortilla Soup
+summary: Tortilla soup is a traditional southwestern dish and an excellent way to finish tortillas that have begun to go stale. It works well as a soup before a meal or as the meal itself. Turkey or pork may be used in place of chicken.
+origin:
+  country: US
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil, unit: tbsp, qty: 3, optional: true}
+  - {ingredient: onion, qty: 1, prep: chopped}
+  - {ingredient: garlic, unit: clove, qty: 1, prep: minced}
+  - {ingredient: tomato, unit: can, qty: 1}
+  - {ingredient: tomato-paste, unit: can, qty: 1}
+  - {ingredient: chicken-stock, unit: cup, qty: 6}
+  - {ingredient: cilantro, unit: tbsp, qty: 1}
+  - {ingredient: chicken, qty: [2, 3], prep: skinless chicken}
+  - {ingredient: salt, unit: tsp, qty: 0.5, optional: true}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: green-chili, qty: 1, prep: 'seeded and diced, or 1/2 teaspoon dried cayenne pepper'}
+  - {ingredient: tortilla}
+  - {ingredient: monterey-jack}
+  - {ingredient: olives}
+steps:
+- Place oil, chopped onion, minced garlic, tomatoes, tomato paste, cilantro, chicken, stock, salt, pepper, and jalapeño/red pepper in a crock pot. Cook on low for 6–9 hours.
+- When chicken is cooked, remove from soup, coarsely chop, and return to soup.
+- Serve soup in individual bowls with chips, cheese and olives to garnish.
+- Sauté the onion and garlic in olive oil prior to adding other ingredients.
+- Simmer on medium heat until chicken is cooked thoroughly and otherwise follow slow cooker directions.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATortilla_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tortilla Soup@4600878
+    url: https://en.wikibooks.org/w/index.php?oldid=4600878
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

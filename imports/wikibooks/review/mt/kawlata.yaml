@@ -1,0 +1,76 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 ham hock or a pig's trotter
+#  - unmapped ingredient: 1–2 kohlrabi, cut into medium chunks
+#  - no time in recipe summary
+id: mt-kawlata
+title: Kawlata
+alternate_names:
+- Maltese Vegetable and Pork Soup
+summary: Kawlata.
+origin:
+  country: MT
+course: soup
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- name: Meats
+  items:
+  - {ingredient: sausage, qty: 4}
+  - {ingredient: pork, qty: 4}
+  - {ingredient: pork, qty: 1, prep: 'salt-cured gammon, or smoked bacon'}
+- name: Other ingredients
+  items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: onion, qty: 2, prep: chopped, note: large}
+  - {ingredient: white-cabbage, qty: 1, prep: cut into medium chunks}
+  - {ingredient: potato, qty: 2, prep: cut into medium chunks, note: large}
+  - {ingredient: butternut-squash, qty: 1, prep: cut into medium chunks, note: large}
+  - {ingredient: butternut-squash, qty: 1, prep: cut into medium chunks, note: large}
+  - {ingredient: cauliflower, qty: 0.5, prep: cut into medium chunks, optional: true}
+  - {ingredient: carrot, qty: [3, 4], prep: cut into medium chunks, optional: true}
+  - {ingredient: celery}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: tomato-paste, unit: tbsp, qty: [1, 2], prep: diluted with a little water}
+  - {ingredient: parsley, prep: chopped}
+steps:
+- Bring a pot of water to a rolling boil, and scald the hock or trotter in it for 10 minutes.
+- Remove the hock or trotter, discard the water, refill with fresh water and bring to the boil again.
+- Place the hock or trotter in the boiling water with the other meats you are using, turn heat down, and cook a few minutes, skimming scum from the surface.
+- When there is no more scum forming, remove the meats from the water. Reserve both the cooking water and all the meats.
+- In a pot over medium heat, soften and wilt the onion in the olive oil without letting it brown.
+- Add the cabbage, potatoes, kohlrabi, pumpkin, cauliflower, carrots, and celery leaves. Season with salt and pepper, cover, and sweat together on low heat for 5–6 minutes
+- Add the tomato paste and reserved meats.
+- Add some of the water in which you boiled the meats (the quantity depends on whether you want a one-dish stew or a two course meal, see below). Simmer over moderately low heat until the meats are tender.
+- Five minutes from the end of cooking time, taste and adjust for seasoning, then add the chopped flat leaf parsley.
+tips:
+- If using salt-cured gammon, soak in cold water over night to remove the saltiness.
+- Maltese sausages are made of ground lean and fat pork with garlic, parsley, salt, black peppercorns, and coriander seeds.
+- It is not traditional to cook pasta in the soup, neither is it customary to grate cheese on top.
+- If serving as a one course meal, you are aiming for a chunky stew, so you don't want to add too much liquid. Serve with crusty bread.
+- If serving as a two course meal, you will want enough liquid to serve a soupy first course. The meats you remove, slice if necessary and keep warm to serve alone or maybe with a little light tomato sauce. You can cook a small amount of rice in the vegetable soup if you wish, though it is hardly necessary.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKawlata_%28Maltese_Vegetable_and_Pork_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kawlata (Maltese Vegetable and Pork Soup)@4518632
+    url: https://en.wikibooks.org/w/index.php?oldid=4518632
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

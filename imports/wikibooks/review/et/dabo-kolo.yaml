@@ -1,0 +1,73 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: et-dabo-kolo
+title: Dabo Kolo
+alternate_names:
+- Ethiopian Spiced Bread Snacks
+summary: Dabo kolo are small bite-sized bread snacks that are crispy, flavorful, and perfect for snacking. These snacks are typically enjoyed with tea or coffee and are popular during holidays and special occasions in Ethiopian cuisine.
+origin:
+  country: ET
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Mixing bowl
+- Wooden spoon or spatula
+- Knife or pizza cutter
+- Deep frying pan or pot
+- Slotted spoon or spider strainer
+- Paper towels
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: baking-powder, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: berbere, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.25}
+  - {ingredient: ground-coriander, unit: tsp, qty: 0.25}
+  - {ingredient: garlic-powder, unit: tsp, qty: 0.25}
+  - {ingredient: onion-powder, unit: tsp, qty: 0.25}
+  - {ingredient: water, unit: cup, qty: 0.25}
+  - {ingredient: vegetable-oil, prep: for frying}
+steps:
+- In a mixing bowl, combine the all-purpose flour, baking powder, salt, berbere spice blend, paprika, cayenne pepper, cumin, coriander, garlic powder, and onion powder. Mix well to ensure the spices are evenly distributed throughout the flour.
+- Add the vegetable oil and water to the dry ingredients. Mix together until a soft dough forms.
+- Transfer the dough onto a lightly floured surface and knead it for about 5 minutes until it becomes smooth and elastic.
+- Divide the dough into smaller portions and roll each portion into a thin rope, about ¼ inch in diameter.
+- Cut the rolled dough into small pieces, about ½ inch in length. You can shape the pieces into various shapes like knots or balls if desired.
+- Heat vegetable oil in a deep frying pan or pot over medium heat. The oil should be deep enough to fully submerge the dabo kolo.
+- Carefully drop the cut dough pieces into the hot oil, frying them in batches. Cook until they turn golden brown and become crispy. This usually takes about 3–5 minutes.
+- Use a slotted spoon or spider strainer to remove the fried dabo kolo from the oil and transfer them onto a paper towel-lined plate to drain excess oil.
+- Allow to cool completely before storing them in an airtight container.
+tips:
+- You can adjust the spiciness by increasing or decreasing the amount of cayenne pepper and berbere spice blend according to your taste preferences.
+- Make sure the dough is well-kneaded to achieve a smooth texture and even distribution of the spices.
+- Keep an eye on the temperature of the oil while frying to prevent burning or undercooking of the dabo kolo.
+- Add other spices like turmeric, cinnamon, or cardamom to the dough for additional flavor variations.
+- Experiment with different shapes and sizes for a fun presentation of the dabo kolo.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADabo_Kolo_%28Ethiopian_Spiced_Bread_Snacks%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dabo Kolo (Ethiopian Spiced Bread Snacks)@4517729
+    url: https://en.wikibooks.org/w/index.php?oldid=4517729
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

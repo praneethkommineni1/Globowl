@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 tbsp pepper soup spice mix
+#  - course unknown from categories
+id: xx-pepper-soup
+title: Pepper Soup
+summary: Pepper soup is a popular Nigerian soup. It is usually very spicy and is served as an appetizer in both official and informal gatherings.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8
+time:
+  total_min: 10
+difficulty: 1
+equipment:
+- Cooking pot
+- Stirring spoon
+- Kitchen knife
+- Cutting board
+- Bowls
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: goat, unit: kg, qty: 1, prep: 'catfish, chicken, or assorted meats'}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: bouillon-cube, qty: [2, 3]}
+  - {ingredient: ginger, unit: tbsp, qty: 1, optional: true}
+  - {ingredient: water, unit: cup, qty: [4, 6]}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: scent-leaf, unit: cup, qty: 1}
+steps:
+- Wash and cut the meat into bite-sized pieces.
+- Rub the meat well with the salt, seasoning cube, and ginger/garlic.
+- Combine the meat and water in a pot, and simmer until tender.
+- Stir in the pepper soup spice mix, ground crayfish, and ground pepper. Simmer for 10 minutes to let the flavors blend.
+- Stir in the scent leaves, and cook for 2–3 minutes.
+- Taste, adjust seasoning, and serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APepper_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pepper Soup@4603865
+    url: https://en.wikibooks.org/w/index.php?oldid=4603865
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

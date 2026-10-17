@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: th-nam-phrik-ong
+title: Nam Phrik Ong
+alternate_names:
+- Thai Pork and Tomato Dip
+summary: 'Nam phrik ong, or Thai pork and tomato dip (Thai: น้ำพริกอ่อง), is a traditional Northern Thai food of pork, tomatoes, and chilli. It is much like a Thai version of a bolognese sauce, and the name comes from combining nam phrik (hot sauce; literally "liquid chili") and ong.'
+origin:
+  country: TH
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: red-chili, qty: 20}
+  - {ingredient: shallot, qty: 20}
+  - {ingredient: garlic, qty: 10}
+  - {ingredient: shrimp-paste, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: cilantro, unit: tbsp, qty: 1}
+  - {ingredient: onion, unit: tbsp, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: pork, unit: g, qty: 400}
+  - {ingredient: tomato, qty: 20, note: small}
+steps:
+- Pound together the peppers, shallots, and garlic.
+- Add the shrimp paste and salt, and continue pounding the mixture.
+- Heat the oil in a pan, and add the pounded mixture. Stir in the coriander and onion. Cook until fragrant.
+- Add the pork, and stir it until it is cooked. Add some water if it gets dry.
+- Bring the mixture to a boil.
+- When the mixture is boiling, add the tomatoes and stir them around. Wait until they are cooked.
+- Serve with some vegetables for dipping such as lettuce wraps, cabbage, and/or green beans.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANam_Phrik_Ong_%28Thai_Pork_and_Tomato_Dip%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nam Phrik Ong (Thai Pork and Tomato Dip)@4518981
+    url: https://en.wikibooks.org/w/index.php?oldid=4518981
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+id: xx-baba-ganoush
+title: Baba Ganoush
+summary: Baba ganoush is a common Middle Eastern and Mediterranean dip with a creamy, somewhat smoky flavor. It is usually eaten with pita bread although naan or a crispy flatbread also work well.
+origin:
+  country: XX
+course: starter
+authenticity: unassessed
+yield:
+  servings: 10
+time:
+  total_min: 15
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: eggplant, qty: 1, prep: any variety}
+  - {ingredient: tahini, unit: tbsp, qty: 2}
+  - {ingredient: lime}
+  - {ingredient: whole-cloves, qty: 1, prep: crushed}
+  - {ingredient: olive-oil, unit: tbsp, qty: 3}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: paprika, prep: as a garnish}
+steps:
+- Roast the eggplant. This can be done in a variety of ways, but the flesh should be fully cooked and the skin should be burned and falling off easily. An effective method is to prick the eggplant and place it a few inches under a broiler, turning it as the exposed skin blackens, about every 3-4 minutes. Place a pan underneath to catch the juices, and discard them.
+- Scrape off the eggplant skin. It's alright if you miss a few burned bits.
+- Finely chop or blend the eggplant flesh with the rest of the ingredients. The consistency should be smooth. Reserve a bit of the olive oil, and drizzle that over the top. Sprinkle with some paprika or cayenne.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaba_Ganoush&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Baba Ganoush@4629606
+    url: https://en.wikibooks.org/w/index.php?oldid=4629606
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

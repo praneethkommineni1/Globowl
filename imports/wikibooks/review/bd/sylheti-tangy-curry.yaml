@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 cup onion paste
+#  - course unknown from categories
+id: bd-sylheti-tangy-curry
+title: Sylheti Tangy Curry
+summary: Sylheti tangy curry, locally known as tenga, is a delightful and tangy tomato-based curry that originates from the Sylhet region of South Asia. This flavorful dish is a staple in Sylheti cuisine and is cherished for its unique taste and simplicity.
+origin:
+  country: BD
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: tomato, unit: kg, qty: 1, prep: chopped}
+  - {ingredient: vegetable-oil}
+  - {ingredient: garlic, unit: cup, qty: 0.5, prep: minced}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: ground-turmeric}
+  - {ingredient: water, unit: cup, qty: 2}
+steps:
+- Heat vegetable oil in a large pan.
+- Add the garlic, and cook until fragrant.
+- Stir in the onion paste and cook until it turns golden brown.
+- Add the tomatoes and cook until they become soft and the oil begins to separate.
+- Mix in turmeric and salt according to your taste.
+- Pour in the boiling water, and let the curry simmer until it reaches your desired consistency.
+tips:
+- 'Fish variation: to make a traditional non-vegetarian version of sylheti tangy curry, add local fish. The tangy and spicy tomato-based curry pairs exceptionally well with the distinct flavor of tengra fish (batasio genus of catfish), commonly found in the sylhet region.'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASylheti_Tangy_Curry&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sylheti Tangy Curry@4517568
+    url: https://en.wikibooks.org/w/index.php?oldid=4517568
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

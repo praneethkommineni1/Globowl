@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 4 vol-au-vent shells
+#  - unmapped ingredient: 1 cup crème fraîche
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+id: fr-bouchee-a-la-reine
+title: Bouchée à la Reine
+summary: Bouchée à la reine is named for Marguerite de Valois, wife of Henri IV. This entrée has been somewhat neglected but is one of the great classics of French gastronomy.
+origin:
+  country: FR
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–4
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- baking
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: shallot, qty: 1, prep: chopped}
+  - {ingredient: chicken, qty: 2, note: large}
+  - {ingredient: mushroom, unit: g, qty: 113, note: small}
+  - {ingredient: butter, unit: g, qty: 57}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 2}
+  - {ingredient: egg-yolk, qty: 1}
+  - {ingredient: bouquet-garni, qty: 1}
+  - {ingredient: chicken-stock, unit: ml, qty: 355}
+  - {ingredient: black-pepper}
+steps:
+- Place the chicken stock and the bouquet garni in a saucepan. Bring to a boil and allow to infuse 10–11 minutes
+- Cut the chicken breasts into small dice.
+- Wash the mushrooms rapidly and cut in halves or quarters depending on the size.
+- In a sauteuse (or a frying pan), melt the butter on a medium-high heat and add the chopped shallot. Cook for about 1 minute stirring.
+- Add the flour and cook 1 petite minute, mixing with a whisk or a wooden spoon, without browning.
+- Add the chicken stock little by little and cook for 2 minutes, stirring.
+- Add the diced chicken and the mushrooms and cook for 5–6 minutes, stirring from time to time.
+- Preheat the oven to 350°F (gas mark 6) and bake the vol-au-vent shells for 5–10 minutes or as directed by the manufacturer, without burning them.
+- In a bowl, mix the cream with the egg yolk. Increase the heat under the sauteuse and add the egg yolk/cream mixture, beating to combine well with the sauce and lower the heat as soon as it reaches a boil. The sauce should be unctuous and should coat a spoon. Do not salt, only pepper.
+- Remove the vol-au-vents from the oven. Fill rapidly and serve without delay as they cool rapidly.
+tips:
+- This dish is sometimes confused with vol-au-vent financière but the latter is quite different with quenelles, cockscombs, cocks’ kidneys, truffle slices, fluted mushroom caps and black olives bound with a Madeira sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABouch%C3%A9e_%C3%A0_la_Reine&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bouchée à la Reine@4610368
+    url: https://en.wikibooks.org/w/index.php?oldid=4610368
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

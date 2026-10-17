@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Gravy powder
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gi-rolitos
+title: Rolitos
+alternate_names:
+- Gibraltarian Beef Rolls
+summary: This meal is traditionally served with mashed potatoes. There is an alternative method made with a tomato sauce instead of brown gravy.
+origin:
+  country: GI
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: veal, unit: slice, qty: 8}
+  - {ingredient: ham, unit: slice, qty: 4, prep: cut in halves}
+  - {ingredient: egg, qty: 2, prep: cut into quarters}
+  - {ingredient: olives, qty: 8, prep: cut in halves}
+  - {ingredient: garlic, qty: 1}
+  - {ingredient: onion, qty: 1}
+  - {ingredient: chicken-stock, unit: cup, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Lay out one slice of veal on worktop; place on it half a slice of ham, quarter egg and 2 olive halves.
+- Carefully roll up the veal to make a package or roll with everything inside. Use two toothpicks to hold the roll together.
+- Place rolls on a plate and store in a cool place or fridge.
+- Fry garlic and onions until soft.
+- Add stock and two teaspoons of gravy powder and bring to boil.
+- Carefully place veal rolls into the boiling mixture, being careful not to break them up.
+- Lower heat and simmer until done. If sauce is too thin add gravy powder till the right consistency is achieved.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARolitos_%28Gibraltarian_Beef_Rolls%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rolitos (Gibraltarian Beef Rolls)@4516426
+    url: https://en.wikibooks.org/w/index.php?oldid=4516426
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

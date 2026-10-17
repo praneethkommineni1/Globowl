@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 tsp dry pectin
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - duplicate id us-italian-dressing from another Wikibooks page
+id: us-italian-dressing
+title: Italian Dressing
+summary: Italian Dressing.
+origin:
+  country: US
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 0.25}
+  - {ingredient: white-vinegar, unit: cup, qty: 0.25}
+  - {ingredient: parsley, unit: tbsp, qty: 2}
+  - {ingredient: parmesan, unit: tbsp, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: italian-seasoning, unit: tsp, qty: 0.25}
+  - {ingredient: garlic, qty: 1, prep: peeled, note: large}
+steps:
+- Combine all ingredients except garlic in a jar.
+- Cover tightly and shake vigorously.
+- Press a wooden pick through garlic clove; add to dressing mixture.
+- Cover and refrigerate until thoroughly chilled.
+- To serve, remove and discard garlic. Cover and shake dressing well.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AItalian_Dressing_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Italian Dressing II@4516391
+    url: https://en.wikibooks.org/w/index.php?oldid=4516391
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 teaspoons panch puran
+id: in-bengal-potatoes
+title: Bengal Potatoes
+summary: Bengal potatoes is an Indian side dish. Serve as a snack with drinks, or as part of an Indian meal.
+origin:
+  country: IN
+course: side
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 30
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: ghee}
+  - {ingredient: potato, prep: unpeeled and cut into chunks}
+  - {ingredient: ground-turmeric}
+  - {ingredient: red-chili}
+steps:
+- Put a little ghee into a large heavy-bottomed pan with a good lid over medium heat.
+- Add panch puran, and let it cook gently until the seeds start to pop.
+- Add potatoes to pan, stirring so that the seeds coat the potatoes evenly.
+- Add a little ground turmeric—enough to just color the cut surfaces of all the pieces.
+- Add a little chile powder to taste. The quantity varies depending on your palate, and the strength of the chile.
+- Stir well to distribute the spices.
+- 'Do one of the following:'
+- Put on the lid, turn down the heat, and allow the potatoes to cook in their own steam until cooked through. A little extra water can be added if necessary, but as little as possible should be used. The potatoes should not boil.
+- Put the spiced potatoes on a tray in a hot oven until cooked through.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABengal_Potatoes&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bengal Potatoes@4527528
+    url: https://en.wikibooks.org/w/index.php?oldid=4527528
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

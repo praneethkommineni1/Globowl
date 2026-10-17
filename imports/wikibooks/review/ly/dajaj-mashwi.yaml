@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ly-dajaj-mashwi
+title: Dajaj Mashwi
+alternate_names:
+- Libyan Grilled Chicken
+summary: Dajaj mashwi is a mouthwatering Libyan dish featuring grilled chicken that is marinated in a flavorful blend of herbs and spices. This dish is popular in Libyan cuisine and is often enjoyed during festive occasions and gatherings.
+origin:
+  country: LY
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Mixing bowl
+- Chef's knife
+- Cutting board
+- Grill or grill pan
+- Basting brush
+techniques:
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: garlic, unit: clove, qty: 4, prep: minced}
+  - {ingredient: olive-oil, unit: cup, qty: 0.25}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 2}
+  - {ingredient: ground-cumin, unit: tsp, qty: 2}
+  - {ingredient: paprika, unit: tsp, qty: 2}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: chicken, qty: 1, prep: cut into pieces}
+  - {ingredient: parsley, prep: 'chopped, for garnish'}
+  - {ingredient: lemon, prep: for serving}
+steps:
+- In a mixing bowl, combine the minced garlic, olive oil, lemon juice, ground cumin, paprika, coriander, cayenne pepper, salt, and black pepper. Mix well to form a smooth marinade.
+- Place the chicken pieces in the marinade and rub them well, ensuring that each piece is coated with the marinade. Let the chicken marinate for at least 2–4 hours, allowing the flavors to infuse.
+- Preheat the grill or grill pan over medium-high heat.
+- Place the marinated chicken pieces on the grill, skin side down. Cook for about 10–15 minutes, then flip the pieces and continue grilling for another 10–15 minutes, or until the chicken is cooked through and nicely charred.
+- While grilling, use a basting brush to brush any remaining marinade onto the chicken for added flavor and moisture.
+- Once cooked, remove the chicken from the grill and let it rest for a few minutes.
+- Garnish the dajaj mashwi with fresh chopped parsley or cilantro, and serve it with lemon wedges on the side.
+tips:
+- You can use bone-in chicken pieces or boneless chicken, depending on your preference. Adjust the grilling time accordingly.
+- For a smokier flavor, you can add a small amount of soaked wood chips to the grill.
+- Ensure that the grill or grill pan is well preheated to achieve nice grill marks and prevent the chicken from sticking.
+- 'If using a charcoal grill, arrange the coals to create two zones: direct heat for searing and indirect heat for slower cooking. Start grilling the chicken over direct heat and then move it to the indirect heat zone to finish cooking.'
+- For a spicier kick, add additional cayenne pepper or chile powder to the marinade.
+- Serve the dajaj mashwi with a side of traditional Libyan dips such as baba ganoush or hummus.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADajaj_Mashwi_%28Libyan_Grilled_Chicken%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dajaj Mashwi (Libyan Grilled Chicken)@4510075
+    url: https://en.wikibooks.org/w/index.php?oldid=4510075
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

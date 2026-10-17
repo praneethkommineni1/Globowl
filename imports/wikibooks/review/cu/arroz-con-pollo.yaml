@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (CU, PR): confirm the country of origin
+#  - no servings in recipe summary
+id: cu-arroz-con-pollo
+title: Arroz con Pollo
+alternate_names:
+- Rice and Chicken
+summary: 'Arroz con pollo (trans: rice with chicken) is a traditional dish common throughout Spain and Latin America especially in Cuba, Panama, Peru, Puerto Rico, Costa Rica, and the Dominican Republic.'
+origin:
+  country: CU
+  also_claimed_by:
+  - PR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- boiling
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 1, prep: cut into serving pieces}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: olive-oil}
+  - {ingredient: whole-cloves, qty: 4, prep: minced}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: red-bell-pepper, unit: g, qty: 225}
+  - {ingredient: tomato, unit: g, qty: 425}
+  - {ingredient: paprika, unit: g, qty: 7.5}
+  - {ingredient: cilantro, unit: g, qty: 14}
+  - {ingredient: chicken-stock, unit: l, qty: 1.4}
+  - {ingredient: saffron, qty: 8}
+  - {ingredient: long-grain-rice, unit: g, qty: 370, note: medium}
+  - {ingredient: green-peas, unit: g, qty: 225}
+steps:
+- Season the chicken with two pinches of salt and a pinch of pepper.
+- Pour enough olive oil into a large skillet to just barely cover the bottom.
+- 'Sauté chicken in oil until brown. There are two ways to proceed from here: either remove the chicken from the skillet or keep it there.'
+- Sauté garlic until brown. Be careful, garlic burns easily.
+- Add the onion, bell pepper, tomatoes and paprika. Sauté until the vegetables are tender.
+- Transfer the ingredients to a large stewing pot.
+- Add the cilantro, bouillon and saffron (or food coloring). Bring to a rolling boil.
+- Add the rice and mix well. Simmer over medium heat until the rice is cooked and the liquid is absorbed. Add more broth or water if the liquid evaporates before the rice is cooked.
+- Add the chicken to the pot (if you removed it previously) and cover it with rice. Wait two to three minutes to allow the chicken to warm.
+- Sprinkle peas on top of the rice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AArroz_con_Pollo_%28Rice_and_Chicken%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Arroz con Pollo (Rice and Chicken)@4513920
+    url: https://en.wikibooks.org/w/index.php?oldid=4513920
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

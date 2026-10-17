@@ -1,0 +1,40 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup finely-grated dried figs
+id: al-albanian-stewed-fig-pudding
+title: Albanian Stewed Fig Pudding
+summary: Stewed dry figs (hoshaf me fiq të thatë) is an Albanian pudding.
+origin:
+  country: AL
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 15
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: milk, unit: cup, qty: 4}
+  - {ingredient: ground-cinnamon}
+steps:
+- Stir sugar into milk, bring to a boil, and remove from heat. Gradually add figs, stirring continuously.
+- Pour into earthenware serving bowls and bake in moderate oven (350°F or 180°C) for 10 minutes.
+- Chill and sprinkle with cinnamon.
+- Serve cold.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAlbanian_Stewed_Fig_Pudding&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Albanian Stewed Fig Pudding@4525795
+    url: https://en.wikibooks.org/w/index.php?oldid=4525795
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

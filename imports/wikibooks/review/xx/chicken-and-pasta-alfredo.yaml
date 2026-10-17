@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-chicken-and-pasta-alfredo
+title: Chicken and Pasta Alfredo
+summary: Chicken and Pasta Alfredo.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- simmering
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: cup, qty: 1.5, prep: reheated}
+  - {ingredient: pasta, unit: cup, qty: 2}
+  - {ingredient: parmesan, unit: g, qty: 43}
+  - {ingredient: butter, unit: cup, qty: 0.25, prep: divided}
+  - {ingredient: heavy-cream, unit: cup, qty: 0.25}
+  - {ingredient: mozzarella, unit: g, qty: 113}
+  - {ingredient: garlic, unit: tsp, qty: 0.5}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 1.5}
+steps:
+- In a gallon (4 liters) of boiling salted water, cook pasta to al dente.
+- Drain pasta and rinse with cold water. Toss with chicken and set aside.
+- Melt 2 tbsp butter in a medium saucepan over medium high heat. Once bubbling ceases, add flour and cook, whisking continuously until mixture turns light blonde in color.
+- Add remaining sauce ingredients. Bring to a simmer and reduce heat to low. Drizzle over pasta mixture and serve warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_and_Pasta_Alfredo&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chicken and Pasta Alfredo@4605275
+    url: https://en.wikibooks.org/w/index.php?oldid=4605275
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

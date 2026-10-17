@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Injera, for serving
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: et-gored-gored
+title: Gored Gored
+alternate_names:
+- Ethiopian Raw Beef
+summary: Gored gored is a unique and flavorful dish made with tender pieces of raw beef seasoned with traditional Ethiopian spices. This dish is typically enjoyed by meat lovers and is often served as a part of a larger Ethiopian meal.
+origin:
+  country: ET
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Mixing bowl
+- Cutting board
+- Chef's knife
+techniques:
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: niter-kibbeh, unit: tbsp, qty: 2, prep: melted}
+  - {ingredient: berbere, unit: tbsp, qty: 1}
+  - {ingredient: lime, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1, note: to taste}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cardamom, unit: tsp, qty: 0.25}
+  - {ingredient: cayenne, unit: tsp, qty: 0.25, note: to taste}
+  - {ingredient: beef, unit: g, qty: 454, prep: 'preferably tenderloin or sirloin, cut into bite-sized cubes'}
+  - {ingredient: parsley, prep: 'chopped, for garnish'}
+steps:
+- In a large mixing bowl, combine the melted niter kibbeh, berbere spice blend, lime juice, salt, black pepper, cardamom, and cayenne pepper. Mix well to create a marinade.
+- Add the bite-sized beef cubes to the marinade and toss until they are well coated. Cover the bowl and let the beef marinate in the refrigerator for at least 2 hours, or overnight for more intense flavors.
+- Just before serving, remove the beef from the refrigerator and let it come to room temperature.
+- Transfer the marinated beef cubes to a serving plate, arranging them in a single layer.
+- Garnish with freshly chopped parsley or cilantro.
+- Serve the gored gored immediately with injera or other bread of your choice.
+tips:
+- Gored gored is typically served raw or lightly seared on the outside while keeping the interior raw. It is important to use high-quality beef from a trusted source to minimize the risk of foodborne illnesses.
+- Ensure that the beef is fresh, properly handled, and stored at the correct temperature.
+- Adjust the spiciness of the marinade by adding more or less cayenne pepper according to your taste preferences.
+- For added flavor, you can toast the berbere spice blend in a dry skillet over low heat before using it in the marinade.
+- Some recipes include the addition of minced garlic or finely chopped onions to the marinade for additional flavor.
+- You can customize the level of spiciness by adjusting the amount of berbere spice blend used.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGored_Gored_%28Ethiopian_Raw_Beef%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gored Gored (Ethiopian Raw Beef)@4509809
+    url: https://en.wikibooks.org/w/index.php?oldid=4509809
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

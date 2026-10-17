@@ -1,0 +1,80 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-ma-amoul
+title: Ma'amoul
+alternate_names:
+- Arabian Filled Pastries
+summary: Ma'amoul are pastries filled with dates or nuts, and they are popular throughout the Arab world. They can be made in special ma'amoul moulds, and there are three shapes of mould.
+origin:
+  country: XX
+course: snack
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- boiling
+- dough-making
+ingredient_groups:
+- name: Pistachio filling
+  items:
+  - {ingredient: pistachios, unit: g, qty: 227}
+  - {ingredient: sugar, unit: g, qty: 113}
+  - {ingredient: rose-water, unit: tbsp, qty: 1}
+- name: Walnut filling
+  items:
+  - {ingredient: walnuts, unit: g, qty: 227}
+  - {ingredient: sugar, unit: g, qty: 113}
+  - {ingredient: ground-cinnamon, unit: tbsp, qty: 1}
+- name: Date filling
+  items:
+  - {ingredient: dates, unit: g, qty: 454, prep: chopped}
+  - {ingredient: water, qty: 0.5}
+  - {ingredient: butter, optional: true}
+- name: Pastries
+  items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 454}
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: pinch, qty: 1, optional: true}
+  - {ingredient: baking-powder, optional: true}
+  - {ingredient: butter, unit: g, qty: 227}
+  - {ingredient: rose-water, unit: tbsp, qty: [1, 2]}
+  - {ingredient: water, unit: tbsp, qty: 2}
+  - {ingredient: powdered-sugar}
+steps:
+- Mix chopped pistachios with sugar and rose water.
+- Mix chopped walnuts with sugar and cinnamon.
+- Combine the chopped dates and water in a pot. Bring to a boil, squashing the mixture against the side of the pan with a wooden spoon until approximately uniform in consistency. Mix in the butter if using. Blend with an electric chopper if desired to make a smoother paste. Allow to cool.
+- Sift the flour into a mixing bowl. Mix with the white sugar, and a pinch of salt if desired. Some people add a very small quantity of baking powder.
+- Work in the butter until the consistency is as uniform as possible; one way is to heat the butter in the microwave first until it is nearly melted, and then mix it with the flour into a sort of crumble. Cover and leave at room temperature for several hours to overnight.
+- Break up the dough with your fingers, and add the rose water or orange flower water and 2 tbsp water or milk until it is malleable. Knead the whole into a smooth ball.
+- Take a walnut-sized ball of the dough, stick your thumb into it, and hollow out into a cup shape so that the walls are as thin as possible without breaking.
+- Insert filling to about three-quarters full, and pinch the aperture closed. Pat gently into a ball, not letting the walls break.
+- Decorate the ball on top with tweezers or the prongs of a fork. Alternatively, pat it into a wooden mould and flatten the exposed bottom surface, then bang the mould face down on the work surface to extract the moulded pastry.
+- Repeat the assembly steps until all the dough and the filling is used. If at any stage the remaining dough shows signs of drying out, knead in a little more water or milk.
+- 'Place the pastries on an ungreased baking sheet and bake in a preheated oven (180°C / 355°F; 160°C if a fan oven) for 20 minutes: they must not be allowed to become hard or brown. In fact they should look a little moist and underdone when removed from the oven: they will steam off and harden as they cool.'
+- Leave the pastries to cool, and dust with icing sugar when cold. Keep in a sealed plastic box or biscuit tin.
+tips:
+- Some people use ground almonds, with or without green food colouring, instead of pistachios for the filling.
+- A variant served on very special occasions is known as karabij. Make nut ma’amoul, using water rather than milk and no flower water, in the form of balls rather than in a mould, leaving them smooth without making any indentations. Arrange in a pyramid and serve with a special cream called naatiffe. This is made by boiling water, lemon juice, sugar, orange flower water and soapwort root (Saponaria officinalis) into a syrup, and folding in stiffly beaten egg whites. Some books mention bois de Panama instead of soapwort, but apparently this is a fallacy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMa%27amoul_%28Arabian_Filled_Pastries%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ma'amoul (Arabian Filled Pastries)@4587208
+    url: https://en.wikibooks.org/w/index.php?oldid=4587208
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

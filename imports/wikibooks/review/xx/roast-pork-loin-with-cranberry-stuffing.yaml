@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 pound ice
+#  - unmapped ingredient: 2 cups cornbread, crumbled finely
+#  - unmapped ingredient: 1/4 cup dried cranberries
+#  - unmapped ingredient: 3/4 cup apple jelly
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-roast-pork-loin-with-cranberry-stuffing
+title: Roast Pork Loin with Cranberry Stuffing
+summary: This recipe for roast pork loin is easy to follow.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: pork, qty: 1}
+  - {ingredient: salt, unit: cup, qty: 1}
+  - {ingredient: honey, unit: cup, qty: 0.75}
+  - {ingredient: cider-vinegar, unit: cup, qty: 2}
+  - {ingredient: ricotta, unit: cup, qty: 0.5}
+  - {ingredient: apple, unit: cup, qty: 0.5, prep: finely diced}
+  - {ingredient: walnuts, unit: cup, qty: 0.5}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: [6, 8], prep: smashed and minced}
+  - {ingredient: mozzarella, unit: cup, qty: 0.5}
+  - {ingredient: monterey-jack, unit: cup, qty: 0.5}
+  - {ingredient: egg, qty: 4, prep: beaten}
+steps:
+- Combine salt, honey, vinegar, peppercorns, and garlic in a gallon size zip-top bag. Add ice and shake until ice is almost completely melted and mixture has cooled down. Add pork and refrigerate for 2½–3 hours.
+- Meanwhile, combine remaining ingredients except mozzarella and Jack cheese. Pour into a 9x9-inch baking pan and sprinkle with remaining ingredients. Bake in the center of a 400°F oven for 30–35 minutes or until browned and bubbly on top. Remove stuffing and keep warm.
+- Place pork roast on a roasting rack in a roasting pan and insert a probe thermometer into the center. Bake at 375°F until internal temperature reaches 140°F for medium rare. Remove to a plate and let rest 10 minutes.
+- Serve pork warm with stuffing.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARoast_Pork_Loin_with_Cranberry_Stuffing&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Roast Pork Loin with Cranberry Stuffing@4605233
+    url: https://en.wikibooks.org/w/index.php?oldid=4605233
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

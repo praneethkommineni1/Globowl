@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 5 pieces of wakame
+#  - unmapped ingredient: 1 tablespoon miso paste
+#  - no time in recipe summary
+id: jp-simple-restaurant-miso-soup
+title: Simple Restaurant Miso Soup
+summary: This miso soup is a close approximation of what you get in most cheap western Japanese restaurants. All ingredients are to taste; the primary thing is the ratio of miso to dashi.
+origin:
+  country: JP
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: dashi, unit: ml, qty: 250}
+  - {ingredient: firm-tofu}
+steps:
+- Heat the dashi to a light simmer.
+- While this is heating, lay out your bowl and place the wakame and tofu in the bottom.
+- When the dashi simmers, take a ladle or so of liquid aside and mix it with the miso paste.
+- Remove the pot of dashi from the stove and stir in the miso mixture.
+- Ladle the prepared soup into the bowl and serve.
+tips:
+- Some prefer less miso, some prefer more. The quantity given results in the moderately-salty type popular in restaurants before meals.
+- Do not permit the miso to boil; doing so alters the flavour.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASimple_Restaurant_Miso_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Simple Restaurant Miso Soup@4569942
+    url: https://en.wikibooks.org/w/index.php?oldid=4569942
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

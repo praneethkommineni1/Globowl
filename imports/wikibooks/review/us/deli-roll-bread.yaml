@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no ingredient lines parsed
+id: us-deli-roll-bread
+title: Deli Roll Bread
+summary: Deli Roll Bread.
+origin:
+  country: US
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1 pound
+time:
+  total_min: 120
+difficulty: 3
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Stir yeast and sugar into warm water. Let stand until bubbly.
+- Add the salt and about half the flour so the dough can be handled.
+- Knead on lightly-floured surface until smooth and elastic, adding flour only if necessary.
+- Cover the ball of dough and let sit 10–15 minutes.
+- Roll into 14x16-inch rectangle.
+- Spread with slivered pepperoni, cheese, and herbs of your choice.
+- Sprinkle liberally with fresh grated black pepper.
+- Roll as you would a jellyroll, sealing edge by pinching. Form the roll into a circle.
+- Put dough in a 14-inch Dutch oven. Let rise. Start baking breads slightly before reaching the "double" stage—as the oven heats, the dough continues to rise.
+- Place 11 hot charcoal briquettes on bottom and 17 on top.
+- When bread is ⅔ baked, take off bottom coals.
+- Brush with melted butter.
+- Place dough in a well-greased round pan. A cast-iron frying pan works well.
+- Let rise for 1 hour.
+- Bake at 375°F for 1 hour.
+- Brush with melted butter.
+tips:
+- Rising bread requires warmth. Cool or dry weather inhibits the process. When outside temperatures are too cool for breads to rise, place 3–4 hot coals on top of the oven with bread inside. If it's windy, provide a windbreak.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADeli_Roll_Bread&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Deli Roll Bread@4658452
+    url: https://en.wikibooks.org/w/index.php?oldid=4658452
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 cup + 2 tbsp warm water
+#  - unmapped ingredient: Sardine oil
+#  - unmapped ingredient: Tinned sardines
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-nigerian-sardine-bread
+title: Nigerian Sardine Bread
+summary: Sardine bread is a yeasted bread containing tinned sardines. It is delicious accompanied by fruit juice.
+origin:
+  country: NG
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: yeast, unit: tsp, qty: 3}
+  - {ingredient: milk, unit: ml, qty: 250}
+steps:
+- Sift the flour into a clean bowl. Add salt to taste, and mix everything together.
+- In another separate clean bowl, combine the warm water, sugar, yeast, and milk.
+- Transfer the flour mix into the yeast mix. Stir in the sardine oil, and mix it all together to make a dough.
+- Transfer the dough to a clean work surface, and knead it well.
+- Rub some soya oil in a clean bowl. Place the dough in the greased bowl, and turn it to make sure the oil coats the dough. Cover the dough, and proof for at least an hour until it doubles in volume.
+- Press on the dough to deflate it. Knead again, and roll it out.
+- Place the sardines one at a time inside the dough, and roll it up to enclose the sardines.
+- Line a baking pan with parchment paper. Place the dough inside the baking pan and proof for at least another 20 minutes.
+- Bake for 45 minutes.
+- Cool before cutting and serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Sardine_Bread&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Sardine Bread@4522827
+    url: https://en.wikibooks.org/w/index.php?oldid=4522827
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 250 ml maple syrup
+#  - no servings in recipe summary
+id: ca-maple-beans
+title: Maple Beans
+summary: Maple beans is a modification of the standard Baked Beans made throughout much of Europe and North America. This variant is common through south and central Quebec as well as most of Ontario and can be purchased in cans across Canada.
+origin:
+  country: CA
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 420
+difficulty: 2
+techniques:
+- baking
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: dried-white-beans, unit: ml, qty: 625, note: small}
+  - {ingredient: water, unit: l, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely diced, note: large}
+  - {ingredient: brown-sugar, unit: ml, qty: 30}
+  - {ingredient: butter, unit: ml, qty: 30}
+  - {ingredient: dijon-mustard, unit: ml, qty: 2}
+  - {ingredient: black-pepper, unit: ml, qty: 5}
+  - {ingredient: salt, unit: ml, qty: 5}
+  - {ingredient: bacon, unit: slice, qty: 6}
+steps:
+- Wash beans and place in a saucepan with the water. Cover and bring to a boil, checking regularly.
+- When water has reached the boiling point, time for 5 minutes and remove from heat. Let sit for 1 hour, covered.
+- After the hour, return beans and water to heat and bring to a simmer, still covered. Simmer for 45 minutes.
+- Strain beans and water through a colander, collecting the liquids in a bowl for later use.
+- Combine the onion, salt, mustard, and maple syrup. Add 625 ml (2 ½ cups) of the aforementioned bean-water to the mix and blend well.
+- Finely slice the bacon, place in roast pan/casserole dish, and cover with the beans, pouring the liquid mixture over top.
+- Cover and bake for 3 hours at 165°C (325°F), adding 125 ml (½ cup) of bean-water at the 2 ½ hour mark.
+- Melt butter and combine with brown sugar. Pour over the baked beans and bake, uncovered, until liquid is no longer visible.
+tips:
+- You can substitute honey or molasses for the maple syrup; maple is used for it's flavouring as much as its sweetness.
+- Margarine or vegetable oil will do as well as butter for this; butter was used traditionally and is thus listed.
+- This is often served with ham and sweet cornbread.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMaple_Beans&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Maple Beans@4615153
+    url: https://en.wikibooks.org/w/index.php?oldid=4615153
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

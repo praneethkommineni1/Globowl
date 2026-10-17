@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - course unknown from categories
+id: ie-boxty
+title: Boxty
+alternate_names:
+- Irish Potato Cakes
+summary: Variant of the traditional Irish fried potato cakes recipe. An old Irish rhyme goes as follows:Boxty on the griddle,Boxty in the pan,If you can't make boxty,You'll never get your man.
+origin:
+  country: IE
+course: main
+authenticity: unassessed
+yield:
+  servings: 20
+  amount: 20 cakes
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: g, qty: 907}
+  - {ingredient: milk, unit: cup, qty: 1}
+  - {ingredient: butter, unit: tbsp, qty: 1}
+  - {ingredient: butter, unit: tbsp, qty: [1, 2], prep: for frying}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1.5}
+  - {ingredient: baking-soda, unit: tsp, qty: 1}
+  - {ingredient: buttermilk, unit: cup, qty: 1}
+  - {ingredient: black-pepper}
+steps:
+- Take half of the potatoes and wash, peel, chunk, and boil them.
+- Mash the boiled potatoes with milk and 1 tablespoon butter and set them aside.
+- Grate the other pound of (raw) potatoes into a strong cloth.
+- Squeeze cloth to remove all possible liquid from the raw potatoes.
+- Mix together the grated potatoes, the mashed potatoes, baking soda, buttermilk, flour, and black pepper (to taste).
+- Stir thoroughly to combine.
+- Warm nonstick griddle or skillet over medium heat and melt butter.
+- Pour potato cakes on griddle, ¼ cup at a time.
+- Fry until edges are soft and cake is bubbling.
+- Cook on other side.
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABoxty_%28Irish_Potato_Cakes%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Boxty (Irish Potato Cakes)@4522453
+    url: https://en.wikibooks.org/w/index.php?oldid=4522453
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

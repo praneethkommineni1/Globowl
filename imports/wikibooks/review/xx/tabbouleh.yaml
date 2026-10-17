@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1/2 cup bulghur wheat
+#  - unmapped ingredient: Fresh grape leaves
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - duplicate id xx-tabbouleh from another Wikibooks page
+id: xx-tabbouleh
+title: Tabbouleh
+summary: Tabbouleh.
+origin:
+  country: XX
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: parsley, unit: bunch, qty: 2}
+  - {ingredient: scallion, unit: bunch, qty: 1}
+  - {ingredient: tomato}
+  - {ingredient: mint, unit: stalk, qty: [5, 6]}
+  - {ingredient: lemon, qty: [2, 3], note: to taste}
+  - {ingredient: olive-oil}
+  - {ingredient: salt}
+  - {ingredient: cucumber, optional: true}
+  - {ingredient: lettuce}
+steps:
+- Soak the bulghur wheat in at least three times its volume of cold water. Fine grind only needs a half hour of soaking. Medium grind needs longer. Bulghur wheat has already been parboiled before cracking or grinding, so it doesn’t need further cooking to be edible in tabbouli.
+- Drain bulghur.
+- Chop the parsley leaves, green onions, mint, tomatoes and cucumbers.
+- Chop the parsley quite fine, using a knife, not food processor.
+- Mix veggies and bulghur together. Douse with strained lemon juice. If you are not ready to serve immediately, then cover and hold in a cool place. Do NOT add salt and olive oil until immediately before serving.
+tips:
+- You may garnish with more diced tomatoes and/or diced cucumber, and insert lettuce or fresh grape leaves around the sides of the bowl. Use green leaves to scoop up the salad, popping leaf and salad into mouth.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATabbouleh_III&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tabbouleh III@4531767
+    url: https://en.wikibooks.org/w/index.php?oldid=4531767
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

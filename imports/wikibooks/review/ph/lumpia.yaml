@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/3 cup chopped water chestnuts
+#  - unmapped ingredient: 2 packages small-to-medium size egg roll wrappers
+#  - unmapped ingredient: Sweet and sour sauce
+id: ph-lumpia
+title: Lumpia
+alternate_names:
+- Fried Filipino Spring Rolls
+summary: Lumpia are a variety of fried Filipino spring rolls, and they make a tasty dish.
+origin:
+  country: PH
+course: side
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8
+time:
+  total_min: 1500
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: g, qty: 680}
+  - {ingredient: onion, unit: cup, qty: 0.5}
+  - {ingredient: egg, qty: 4}
+  - {ingredient: soy-sauce, unit: cup, qty: 0.25}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: vegetable-oil, unit: cup, qty: 4}
+steps:
+- In a large bowl, combine meat, water chestnuts, onion, eggs, soy sauce, salt, and pepper. Mix well and set aside.
+- On a clean, dry surface, place one egg roll wrapper with one corner facing you (like a baseball diamond).
+- Place about 1 tablespoon of the meat mixture in the center of the wrapper.
+- Dip your fingers in a glass of water and lightly wet the corner pointing away from you (second base).
+- Fold the corner closest to you (home base) over the mixture, then fold the side corners over that and roll away from your body. The wet corner should seal the roll.
+- Repeat the filling and shaping process with the remaining ingredients.
+- Place the rolls in large zip-close plastic bags and freeze overnight.
+- In a large saucepan, heat the oil to about 350°F (175°C) or until it begins to shimmer and the oil bubbles lightly when a wooden chopstick is inserted.
+- Using tongs, place each frozen lumpia roll in the hot oil and fry until brown, about 3 to 4 minutes. Use tongs to turn rolls to ensure even cooking.
+- Remove the rolls to a plate covered with paper towels to absorb excess oil.
+tips:
+- Serve with sweet and sour sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALumpia_%28Fried_Filipino_Spring_Rolls%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lumpia (Fried Filipino Spring Rolls)@4500415
+    url: https://en.wikibooks.org/w/index.php?oldid=4500415
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,53 @@
+id: mr-thieb
+title: Thieb
+alternate_names: [Thieboudienne, Mauritanian fish and rice]
+summary: Fish stuffed with a parsley-garlic-chili paste, cooked in tomato broth with vegetables, then rice cooked in the same broth.
+origin:
+  country: MR
+  also_claimed_by: [SN]
+course: main
+dish_types: [rice-dish, seafood]
+authenticity: home-style
+yield: {servings: 6}
+time: {prep_min: 30, cook_min: 90}
+difficulty: 4
+techniques: [pan-frying, simmering, rice-cooking]
+ingredient_groups:
+  - name: Stuffing (roff)
+    items:
+      - {ingredient: parsley, qty: 1, unit: bunch}
+      - {ingredient: garlic, qty: 4, unit: clove}
+      - {ingredient: scotch-bonnet, qty: 0.5}
+      - {ingredient: salt, qty: 1, unit: tsp}
+  - name: Fish and broth
+    items:
+      - {ingredient: white-fish, qty: 1, unit: kg, note: "thick steaks of grouper or similar"}
+      - {ingredient: vegetable-oil, qty: 120, unit: ml}
+      - {ingredient: onion, qty: 2, prep: "chopped"}
+      - {ingredient: tomato-paste, qty: 4, unit: tbsp}
+      - {ingredient: water, qty: 1.5, unit: l}
+      - {ingredient: carrot, qty: 2, prep: "halved"}
+      - {ingredient: eggplant, qty: 1, prep: "quartered"}
+      - {ingredient: white-cabbage, qty: 300, unit: g, prep: "wedges"}
+      - {ingredient: sweet-potato, qty: 1, prep: "chunked"}
+      - {ingredient: dried-red-chili, qty: 1, optional: true}
+  - name: Rice
+    items:
+      - {ingredient: long-grain-rice, qty: 600, unit: g, note: "broken rice is traditional"}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - Pound or blend the stuffing ingredients. Cut deep slits in the fish and pack them with the paste.
+  - Fry the fish in the oil until golden on both sides; set aside. Fry the onions in the same oil, add the tomato paste and fry until darkened.
+  - text: Add the water, vegetables and chili and simmer until just tender. Return the fish for the last 15 minutes.
+    timer_min: 35
+  - Lift out the fish and vegetables and keep warm. Measure about 1 litre of the broth back into the pot.
+  - text: Add the rinsed rice, season, cover tightly and cook on low until tender. Let the bottom crisp a little.
+    timer_min: 30
+  - Serve the rice on a large platter with the fish and vegetables on top.
+culture: Shared along both banks of the Senegal River; Senegal considers thieboudienne its national dish, and it is equally loved in Mauritania.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

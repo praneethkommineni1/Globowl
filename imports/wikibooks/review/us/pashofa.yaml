@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+id: us-pashofa
+title: Pashofa
+alternate_names:
+- Chickasaw Pork and Corn
+summary: Pashofa is a Chickasaw main dish which is still eaten. Hogs are not native to the Americas, but they escaped and became feral from De Soto's expedition.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 240
+difficulty: 1
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: corn-kernels, unit: g, qty: 900}
+  - {ingredient: pork, unit: g, qty: 450}
+steps:
+- Rinse the corn a number of times; pick out floating hulls.
+- Put rinsed corn into a nice, large pot and add enough water to cover by 3–4 inches (7.5–10 cm).
+- Bring corn to a boil and put the pork into the pot.
+- Turn stove down to medium-low and simmer for 2–3 hours. Stir occasionally to avoid scorching. You may have to add water as it boils away.
+tips:
+- Some people like it thick like stew; some people like it thin like soup with lots of juice.
+- This is an unsalted, bland dish if you just use pork chops. If you like salt and pepper, you will want to put it on after cooking.
+- Bacon with grease is sometimes used instead of pork chops.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APashofa_%28Chickasaw_Pork_and_Corn%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pashofa (Chickasaw Pork and Corn)@4497785
+    url: https://en.wikibooks.org/w/index.php?oldid=4497785
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

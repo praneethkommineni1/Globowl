@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Ener-G egg replacer equivalent of 2 eggs
+#  - unmapped ingredient: 1 cup soy milk
+#  - unmapped ingredient: 1 cup very cold water
+#  - no time in recipe summary
+#  - duplicate id gb-yorkshire-pudding from another Wikibooks page
+id: gb-yorkshire-pudding
+title: Yorkshire Pudding
+alternate_names:
+- Vegan
+summary: Yorkshire pudding is a dish popular across the UK but originating in the county of Yorkshire in England. It's traditionally eaten with beef or lamb with vegetables.
+origin:
+  country: GB
+course: bread
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: wholemeal-flour, unit: cup, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: margarine, unit: tbsp, qty: 2, prep: melted}
+steps:
+- Preheat the oven to 425°F (210°C).
+- In a mixing bowl, combine the flours and salt. Make a well in the center and add the egg replacer mixture. Stir together until just combined, then add the soy milk and water, a bit at a time. Stir until smooth, but don’t overbeat.
+- Swirl the melted margarine around a shallow, 9x13-inch (22-32 cm) baking pan. Pour out any excess and reserve. Pour the batter into the pan and pour any remaining margarine over the top.
+- Bake for 20 minutes, or until golden on top and a knife inserted into the center comes out clean. Let cool, then cut into squares to serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AYorkshire_Pudding_%28Vegan%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Yorkshire Pudding (Vegan)@4517957
+    url: https://en.wikibooks.org/w/index.php?oldid=4517957
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

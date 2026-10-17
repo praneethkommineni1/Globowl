@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - course unknown from categories
+id: pe-causa-rellena-con-pollo
+title: Causa Rellena con Pollo
+alternate_names:
+- Peruvian Layered Potato and Chicken
+summary: Causa Rellena con Pollo.
+origin:
+  country: PE
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6 or more
+time:
+  total_min: 60
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: potato, qty: 10, note: medium}
+  - {ingredient: chicken, unit: g, qty: 454}
+  - {ingredient: mayonnaise, unit: g, qty: 100}
+  - {ingredient: butter, unit: g, qty: 25}
+  - {ingredient: garlic, unit: clove, qty: 2}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: lettuce}
+  - {ingredient: egg, qty: 3}
+  - {ingredient: olives}
+steps:
+- Cook and peel potatoes. Allow to cool, then mash.
+- In a bowl combine the chicken, mayonnaise, onion, salt, and pepper.
+- Line a deep dish with plastic wrap, or place a molding cylinder on a plate.
+- Add the mashed potatoes to form a bed about 1 cm tall at the bottom.
+- Add a second layer of 1 cm of the chicken mixture evenly over the potato.
+- Top the chicken mixture with a final layer of potato, forming a sandwich of chicken inside two layers of potato.
+- Unmold or remove the cylinder.
+- Garnish with lettuce and mayonnaise.
+- Cut the hard boiled eggs in discs and place on top. Add black olives, if desired.
+- This dish can be served slightly cold.
+tips:
+- Mashed potatoes can be prepared with a mix of olive oil and butter and adding one tablespoon of lemon juice. You can compensate lemon with salt. Don't add milk.
+- You can replace the chicken with a can of tuna mixed with mayonnaise and fine chopped onion. Serve this variation fresh only.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACausa_Rellena_con_Pollo_%28Peruvian_Layered_Potato_and_Chicken%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Causa Rellena con Pollo (Peruvian Layered Potato and Chicken)@4523928
+    url: https://en.wikibooks.org/w/index.php?oldid=4523928
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

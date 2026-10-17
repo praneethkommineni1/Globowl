@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no ingredient lines parsed
+id: us-no-knead-bread
+title: No-Knead Bread
+summary: This recipe for no-knead bread has circled the Internet rapidly since it appeared in the New York Times in November 2006, and it has been translated into German and Togo. The original recipe came from Jim Lahey, owner of Sullivan Street Bakery in Manhattan.
+origin:
+  country: US
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1½ pound loaf
+time:
+  total_min: 1080
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- In a large bowl, combine flour, yeast, and salt.
+- Add water and stir until you have a shaggy and sticky dough.
+- Cover bowl with plastic wrap. Let dough rest at least 12 hours, preferably 18 hours, at warm room temperature, about .
+- When the surface is dotted with bubbles, lightly flour a work surface or silicone mat and place dough on it.
+- Sprinkle it with a little more flour, and fold it over on itself once or twice.
+- Cover loosely with plastic wrap and let rest 15 minutes.
+- Using just enough flour to keep dough from sticking to the work surface and your fingers, gently and quickly shape the dough into a ball.
+- Generously coat a lint-free linen (i.e. not terrycloth) towel with flour.
+- Put the dough seam side-down on the towel and dust with more flour.
+- Cover with another lint-free linen towel and let rise for 2–3 hours. Dough will be more than double in size and will not readily spring back when poked with a finger.
+- At least half an hour before baking, place a 3–4-quart heavy covered pot (cast iron, enamel, Pyrex, or ceramic) in the oven and preheat to 450°F.
+- When the dough is ready, carefully remove the pot from the oven.
+- Slide your hand under the towel and turn the dough over into the pot. seam side up. It may look like a mess, but that's okay.
+- Shake the pan once or twice if the dough is unevenly distributed; it will straighten out as it bakes.
+- Cover with lid and bake 30 minutes.
+- Remove the lid and bake 15–30 minutes more, until the loaf is beautifully browned.
+- Remove the loaf from the pot and cool on a rack.
+tips:
+- If you can't find a pot, look in a neighborhood hardware store.
+- You can substitute up to 50% whole-wheat flour, but much more and the texture will suffer.
+- Add herbs or other seasoning when initially mixing the dough.
+- Use wheat bran or corn meal to coat the towels, if desired.
+- If the pot has handles, remove them if they are not heat-resistant.
+- Use sturdy oven mitts.
+- Before removing the heated pot from the oven, place 2 or 3 cooling racks on the counter.
+- Do not place the superheated pot on the counter or anything else you don't want to scorch.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANo-Knead_Bread&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:No-Knead Bread@4658402
+    url: https://en.wikibooks.org/w/index.php?oldid=4658402
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

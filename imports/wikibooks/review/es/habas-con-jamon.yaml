@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: es-habas-con-jamon
+title: Habas con Jamon
+alternate_names:
+- Broad Beans with Ham
+summary: Habas con Jamon.
+origin:
+  country: ES
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: fava-beans-canned, unit: g, qty: 300}
+  - {ingredient: onion, qty: 1, prep: sliced}
+  - {ingredient: ham, qty: 2}
+  - {ingredient: olive-oil}
+steps:
+- Fry onions and ham in a pan with a little olive oil.
+- Add the broad beans and sauté for a few minutes until the beans are soft.
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHabas_con_Jamon_%28Broad_Beans_with_Ham%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Habas con Jamon (Broad Beans with Ham)@4515490
+    url: https://en.wikibooks.org/w/index.php?oldid=4515490
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

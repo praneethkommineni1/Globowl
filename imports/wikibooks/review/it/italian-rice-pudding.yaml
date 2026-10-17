@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 3 cups half and half
+#  - unmapped ingredient: 1 piece of lemon peel
+id: it-italian-rice-pudding
+title: Italian Rice Pudding
+summary: Italian Rice Pudding.
+origin:
+  country: IT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 90
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: long-grain-rice, unit: cup, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: butter, unit: tbsp, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: cinnamon-stick, qty: 1}
+  - {ingredient: ground-cinnamon}
+steps:
+- Bring water to a boil, then add rice, salt, and butter.
+- Cover, lower heat to simmer, and cook for 20 minutes.
+- Place rice in upper part of double boiler with half and half, sugar, cinnamon stick, and lemon peel.
+- Bring to boil over direct heat.
+- Place over simmering water in double boiler and cook for 45 minutes.
+- Remove cinnamon stick and lemon peel.
+- Pour rice mixture into a 2-quart (1.9 L) casserole and allow to cool.
+- Sprinkle with cinnamon powder.
+tips:
+- The rice should be plump, medium grain rice that contains a lot of starch, like Arborio or Carnaroli. Other rices that work well are Roma, Nano, Maratelli, and Vialone.
+- Mixture will thicken as it cools.
+- Best at room temperature or slightly warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AItalian_Rice_Pudding&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Italian Rice Pudding@4517883
+    url: https://en.wikibooks.org/w/index.php?oldid=4517883
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

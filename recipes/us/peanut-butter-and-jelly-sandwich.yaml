@@ -1,0 +1,45 @@
+id: us-peanut-butter-and-jelly-sandwich
+title: Peanut Butter and Jelly Sandwich
+summary: Peanut butter and jelly sandwiches, also know as PB&Js, are a type of sandwich. They are very quickly made and only require a couple of common ingredients. This makes them quite popular, especially in the United States.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: white-bread, unit: slice, qty: 2}
+  - {ingredient: peanut-butter}
+  - {ingredient: jam}
+steps:
+- Using a spreading knife, spread an even coat of peanut butter on one side of each slice of bread.
+- When the bread is evenly covered, spread an even coat of jelly atop the peanut butter.
+- After applying the jelly, put one of the slices on a plate (jelly side up) and place the other slice on top of the first (jelly side down).
+tips:
+- Butter either side of the sandwich with butter or margarine before adding peanut butter and jelly.
+- Instead of white bread, you can use whole-grain bread, or really any type of bread. Go nuts.
+- Try adding in some sliced bananas—they go very well with PB&Js.
+- If using a crab apple jelly, a dash of cinnamon will nicely complement the flavours of the sandwich.
+- Try adding a bit of honey, or even entirely substituting it for the jelly.
+- Try adding some sweet or savory cream cheese.
+- Try toasting the bread before putting the other ingredients on it.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APeanut_Butter_and_Jelly_Sandwich&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Peanut Butter and Jelly Sandwich@4601840
+    url: https://en.wikibooks.org/w/index.php?oldid=4601840
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+id: it-neapolitan-anchovy-sauce
+title: Neapolitan Anchovy Sauce
+summary: Neapolitan anchovy sauce is a delicious, creamy sauce, perfect for meat or vegetables.
+origin:
+  country: IT
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 10
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: anchovies, qty: 3}
+  - {ingredient: fennel-seeds, unit: tsp, qty: 1, prep: chopped}
+  - {ingredient: ground-cinnamon, unit: pinch, qty: 1}
+  - {ingredient: parsley, unit: tsp, qty: 1, prep: chopped}
+  - {ingredient: dried-marjoram, unit: tsp, qty: 1, prep: chopped}
+  - {ingredient: all-purpose-flour, unit: tsp, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 1, prep: split}
+  - {ingredient: lemon-juice, qty: 1}
+  - {ingredient: white-vinegar, qty: 1}
+  - {ingredient: heavy-cream, qty: 0.5, prep: boiled}
+  - {ingredient: fish}
+steps:
+- Wash anchovies in vinegar; bone and pound with fennel and a cinnamon using a mortar and pestle.
+- Mix in parsley and marjoram, a squeeze of lemon juice, flour, cream, and the bones of the fish for which you will use this sauce.
+- Pass through a sieve, add garlic, and boil.
+tips:
+- If the fish you are using is cooked in the oven, add a little of the liquor in which it has been cooked to the sauce.
+- Take out the garlic before serving.
+- Instead of anchovies you may use caviar, pickled tunny, or any other pickled fish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANeapolitan_Anchovy_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Neapolitan Anchovy Sauce@4518983
+    url: https://en.wikibooks.org/w/index.php?oldid=4518983
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

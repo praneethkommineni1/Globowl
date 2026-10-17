@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Any of the following accompaniments:
+#  - unmapped ingredient: Black bread
+#  - unmapped ingredient: Baguette
+#  - unmapped ingredient: Pickled peppers
+#  - unmapped ingredient: Cocktail onions
+#  - unmapped ingredient: 1 horseradish root, grated
+#  - unmapped ingredient: Cocktail sauce
+#  - unmapped ingredient: Curry
+#  - unmapped ingredient: Cook the sausage by boiling, baking, or grilling at medium heat for approximately 8 minutes.
+#  - unmapped ingredient: If desired, cut the sausage in two or into small pieces
+#  - unmapped ingredient: Serve sausage with the accompaniments. Sauces can be placed on top of the sausage or served on the side.
+#  - no procedure steps
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: at-kasekrainer
+title: Käsekrainer
+alternate_names:
+- Austrian Sausage with Accompaniments
+summary: The käsekrainer is an Austrian variation of the kranjska klobasa, which is a Slovenian national dish.
+origin:
+  country: AT
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: sausage}
+  - {ingredient: white-bread}
+  - {ingredient: bread-roll}
+  - {ingredient: cucumber}
+  - {ingredient: onion, qty: [1, 2], prep: sliced}
+  - {ingredient: ketchup}
+  - {ingredient: dijon-mustard}
+  - {ingredient: barbecue-sauce}
+steps:
+- (missing)
+tips:
+- Sausage is the main ingredient of this dish, so it is really important that it is the right kind of sausage. If you live in a country where käsekrainer are not purchasable in supermarkets, you may have to look at a butcher's and ask for some. If it is impossible for you to get käsekrainer anywhere, you will have to make them on your own.
+- Some may think that the kind of bread you eat is not that important. But it makes a difference. You should try different types of bread to your Käsekrainer to find out which one you prefer. When you cook for friends, you should prepare different kinds of bread, so that your guests can choose from a large variety.
+- Almost every vegetable can be eaten with the Käsekrainer. The ones listed above are just some examples. You can either put them on a plate together with the sausage, or prepare separate plates, where the different vegetables are neatly put together. It is also possible to eat them directly out of the glass.
+- 'Käsekrainer-Hot-Dog variation: Take a baguette and cut it open at one end. Poke a hole into it and put in some sauce. Put the Käsekrainer into the hole and it is ready to eat.'
+- 'Kafka variation: The "Kafka" is a variation of the "Bosna", which is very famous in Linz (the capital of Upper Austria, which is one of Austria''s 9 provinces). Cut a toasted white bread open and put sauces, vegetables and the Käsekrainer into it. Then put it back on the toaster until it is finished.'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AK%C3%A4sekrainer_%28Austrian_Sausage_with_Accompaniments%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Käsekrainer (Austrian Sausage with Accompaniments)@4515714
+    url: https://en.wikibooks.org/w/index.php?oldid=4515714
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+id: xx-mediterranean-beef-stew
+title: Mediterranean Beef Stew
+summary: This is a hearty and flavoursome beef stew inspired by the Mediterranean. It is based on a dish cooked by Keith Floyd in his Floyd around the Med TV series. The olives make this a filling meal in itself, but it could be served with rice or simply with bread to mop-up the gravy.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 150
+difficulty: 2
+techniques:
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 500}
+  - {ingredient: olives, unit: g, qty: 600, prep: stones removed}
+  - {ingredient: tomato, qty: 6, prep: diced, note: large}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: olive-oil}
+steps:
+- In a large saucepan or casserole dish, gently fry the onion and garlic in plenty of good olive oil for a few minutes, taking care not to brown them.
+- Season the beef well with salt and black pepper and immediately add to the pan. Fry until evenly sealed and lightly browned.
+- Add the olives and tomatoes to the pan and simmer gently for two hours with the lid on.
+- Serve.
+tips:
+- If you buy olives in brine, it's a good idea to soak them in fresh water before use so that the resulting dish is not overly salty.
+- Adding red wine or a dark beer such as a dunkel or stout could result in a richer gravy but may overpower the fresh flavour of the vegetables.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMediterranean_Beef_Stew&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mediterranean Beef Stew@4524813
+    url: https://en.wikibooks.org/w/index.php?oldid=4524813
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

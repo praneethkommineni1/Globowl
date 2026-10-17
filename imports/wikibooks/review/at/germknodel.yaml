@@ -1,0 +1,72 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 1/4 cups plum jam
+#  - unmapped ingredient: Vanilla custard sauce
+#  - no time in recipe summary
+id: at-germknodel
+title: Germknödel
+alternate_names:
+- Plum and Poppy Seed Dumpling
+summary: The Germknödel is a traditional Austrian dish, originating from Viennese and Bohemian cuisines. It is a yeast dumpling filled with plum jam and served with poppy seeds, powdered sugar, and lots of melted butter or vanilla sauce on top.
+origin:
+  country: AT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- dough-making
+- simmering
+ingredient_groups:
+- name: Dough
+  items:
+  - {ingredient: yeast, unit: tbsp, qty: 2}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 4}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 0.333}
+  - {ingredient: butter, unit: cup, qty: 0.333}
+  - {ingredient: milk, unit: cup, qty: 1}
+  - {ingredient: egg-yolk, qty: 1}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: vanilla-extract, qty: 1}
+- name: Filling
+  items:
+  - {ingredient: rum, unit: tbsp, qty: 1, optional: true}
+- name: Topping
+  items:
+  - {ingredient: poppy-seeds, unit: cup, qty: 0.75}
+  - {ingredient: powdered-sugar}
+  - {ingredient: butter, unit: cup, qty: 0.5}
+steps:
+- Mix the flour, salt, vanilla, eggs, and sugar in a bowl.
+- In another bowl, mix the lukewarm milk with the yeast, and stir until all of the yeast has dissolved.
+- Pour the liquid mixture into the flour, and knead everything together with the softened butter. If the dough is too sticky, add more flour.
+- Cover the dough and leave it to rise for one hour until it has doubled its size.
+- Divide the dough into 8 pieces. Pat them flat and round on a board until they are about 4 inches in diameter.
+- Fill each of the pieces of dough with a tablespoon of the plum jam, and carefully form round dumplings. Make sure that the seam is completely closed.
+- Place the dumplings on a board with a dishtowel covering them, and let them rest for 10 minutes.
+- Boil salted water in a large pot.
+- Add the dumplings to the pot. Depending on the size of the pot, only add about 4 at a time so they have space to rise.
+- Let them simmer for 20 minutes with the lid on. Do not take the lid off, as the dumplings will not rise properly.
+- When finished, remove the dumplings, and place them in a bowl.
+- Top the dumplings with poppy seeds and powdered sugar. Pour butter or vanilla sauce over the top.
+- Serve right away. Enjoy the delicious dumplings!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGermkn%C3%B6del_%28Plum_and_Poppy_Seed_Dumpling%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Germknödel (Plum and Poppy Seed Dumpling)@4522773
+    url: https://en.wikibooks.org/w/index.php?oldid=4522773
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

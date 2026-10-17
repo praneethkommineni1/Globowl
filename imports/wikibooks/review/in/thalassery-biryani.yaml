@@ -1,0 +1,88 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tsp dalda
+#  - unmapped ingredient: 1/4 cup kismis
+#  - unmapped ingredient: 1 pinch yellow/orange artificial food colour
+#  - unmapped ingredient: 3–4 pieces mace
+#  - unmapped ingredient: 1/2 tbsp garam masala powder
+#  - unmapped ingredient: 1 tbsp edible rose water
+id: in-thalassery-biryani
+title: Thalassery Biryani
+summary: Thalassery biriyani is a rice dish blended with Chicken and Spices. The recipe has a strong legacy of the Mughlai cuisine. This variant of biryani is an Indian cuisine and has originated from the Malabar region of South India.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 3
+ingredient_groups:
+- name: Rice
+  items:
+  - {ingredient: long-grain-rice, unit: g, qty: 750}
+  - {ingredient: ghee, unit: tbsp, qty: 3}
+  - {ingredient: cinnamon-stick, prep: as needed}
+  - {ingredient: whole-cloves, qty: [3, 4]}
+  - {ingredient: green-cardamom-pods, qty: [3, 4]}
+  - {ingredient: bay-leaf, unit: leaf, qty: 0.667}
+  - {ingredient: poppy-seeds, unit: tsp, qty: 0.25}
+  - {ingredient: star-anise, qty: 0.75, optional: true}
+- name: Masala
+  items:
+  - {ingredient: coconut, unit: cup, qty: 0.333}
+  - {ingredient: onion, qty: 6}
+  - {ingredient: cashews, unit: cup, qty: 0.25}
+  - {ingredient: saffron, unit: tsp, qty: 1, prep: soaked in milk}
+  - {ingredient: tomato, qty: 5, prep: chopped}
+  - {ingredient: ginger, qty: 2, prep: grated or cut into small pieces}
+  - {ingredient: garlic, unit: clove, qty: [1, 1.5], note: to taste}
+  - {ingredient: red-chili, qty: 6, note: to taste}
+  - {ingredient: shallot, qty: 5, note: to taste}
+  - {ingredient: fennel-seeds, unit: tsp, qty: 1}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: red-chili, unit: tsp, qty: 1}
+  - {ingredient: chicken, unit: kg, qty: 1, prep: 'cut into slightly bigger pieces than usually used for curry, soaked 20 minutes in water and washed'}
+  - {ingredient: lime, unit: tbsp, qty: 3}
+  - {ingredient: cilantro, unit: cup, qty: [0.75, 1], prep: chopped}
+  - {ingredient: mint, unit: cup, qty: [0.75, 1], prep: chopped}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: yogurt, note: to taste}
+  - {ingredient: salt, note: to taste}
+steps:
+- Wash the rice in water, and drain completely.
+- Heat the ghee and a small amount of dalda in a kadai. Add the drained rice and fry for a few minutes.
+- Add water to the rice in a ratio of 1¾:1 water to rice.
+- Add cinnamon, cloves, cardamom, bay leaf, Indian white poppy seeds, star anise, and lemon juice. Reduce to a simmer, cover the pan, and cook until all the water is absorbed.
+- Heat the coconut oil and a little ghee in a deep kadai. Add chopped onions, cashew nuts, and sultana raisins, then fry until it caramel in colour. Remove from the heat and set aside.
+- Heat the chopped tomatoes and a little water in a deep kadai (do not add oil) until the tomatoes are softened.
+- Add crushed ginger, garlic, chopped green chili, and chopped shallot. Stir until the raw smell fades.
+- Stir in fennel seeds, cumin seeds, turmeric powder, mace, and red chili powder.
+- Mix in the chicken. Cover and cook, stirring intermittently to prevent sticking, until almost cooked.
+- Add ¼ of the fried onion mixture, lemon juice, garam masala powder, chopped coriander leaves, and pudina (mint) leaves. Reduce to a simmer.
+- Add black pepper powder and yogurt, and cook until the chicken and masala mixture blend together.
+- Combine the rice, remaining onion mixture, artificial color, saffron milk, and rosewater.
+- Layer the masala and rice in a dish, and cover with the lid, tightly sealing the lid with a maida dough or dishcloth.
+- Place hot coals or charcoal on the lid while cooking. The flame need to be in a simmer mode in this stage of preparation.
+- Serve.
+tips:
+- The rice is different in Thalassery biryani. A small-grained, thin(not round), good aroma, variant of rice known as Khaima/Jeerkasala is used. Basmati rice is not used to make Thalassery biryani.
+- Khaima/Jeerakasala rice do not require Pre-soaking and Post-draining of water after preparation, like the usual rice varieties.
+- No oil is used for chicken base and chicken is not fried before adding to the masala.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AThalassery_Biryani&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Thalassery Biryani@4531811
+    url: https://en.wikibooks.org/w/index.php?oldid=4531811
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

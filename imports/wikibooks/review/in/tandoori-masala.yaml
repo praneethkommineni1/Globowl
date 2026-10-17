@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (IN, PK): confirm the country of origin
+#  - unmapped ingredient: 1/2 teaspoon onion seeds
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-tandoori-masala
+title: Tandoori Masala
+summary: Tandoori masala is a mixture of spices specifically for use with a tandoor, or clay oven, in traditional Pakistani and Indian Punjabi cooking.
+origin:
+  country: IN
+  also_claimed_by:
+  - PK
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: ground-fenugreek, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: garam-masala, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: curry-powder, unit: tsp, qty: 0.5}
+  - {ingredient: ground-coriander, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: red-chili, unit: tsp, qty: 0.25}
+  - {ingredient: paprika, unit: tsp, qty: 1.5}
+  - {ingredient: garlic, qty: 4, prep: peeled and cleaned}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: ginger, qty: 1}
+  - {ingredient: green-chili, qty: 2}
+  - {ingredient: cilantro, unit: bunch, qty: 1, prep: 'washed, long stems cut off'}
+  - {ingredient: lemon-juice, unit: cup, qty: 0.25}
+  - {ingredient: yogurt, unit: cup, qty: 1}
+steps:
+- Toast the fenugreek and onion seeds first by heating and tossing in a sauté pan for several minutes. Grind them together using a mortar and pestle or spice grinder.
+- In a food processor, blend fenugreek and onion seeds with the salt, garam masala, turmeric, curry powder, coriander powder, cumin, chili powder, paprika, garlic, vegetable oil, ginger, jalapeños, cilantro and lemon juice until all the ingredients become a smooth paste.
+- Spoon the mixture into a large mixing bowl and stir in the yogurt.
+- Marinate meat or fish for 8 hours (or bathe first in white distilled vinegar for shorter marination time). Tofu, vegetables or paneer can be tossed into the marinade just before grilling. Use the marinade to baste over the grill.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATandoori_Masala&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tandoori Masala@4516628
+    url: https://en.wikibooks.org/w/index.php?oldid=4516628
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-maharashtrian-deep-fried-chickpea-dough-curry-snacks
+title: Maharashtrian Deep Fried Chickpea Dough Curry Snacks
+alternate_names:
+- Pakoda
+summary: Maharashtrian Deep Fried Chickpea Dough Curry Snacks.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: [5, 6], prep: peeled and sliced thin}
+  - {ingredient: red-chili, qty: [2, 3], prep: washed and finely diced}
+  - {ingredient: salt}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: red-chili, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: chickpea-flour}
+  - {ingredient: vegetable-oil}
+steps:
+- Combine onions and chiles. Mix in salt, and let sit 10–15 minutes.
+- Mix in turmeric, chili powder, cumin, and coriander. By this time the onion mix should be moist due to added salt and spices. If a moister mix is required, allow to stand another 5 minutes.
+- Start adding gram flour to the onion mix a little at a time. The mixture should not be dry. Add the flour just to absorb the moistness. You should end up with a somewhat sticky mixture.
+- Heat sufficient oil in a wok or frying pan. Once heated sufficiently, carefully take around 2–3 tbsp of hot oil and add to the onion and gram flour mix. Mix well.
+- Drop a few small to medium chunks of dough at a time in the medium hot oil. Fry until it gets a golden brown colour. If you have used 4–5 large onions and a medium wok you are likely to need 3–4 batches of frying to finish the mixture.
+- Serve hot with green chutney or tomato ketchup.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMaharashtrian_Deep_Fried_Chickpea_Dough_Curry_Snacks_%28Pakoda%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Maharashtrian Deep Fried Chickpea Dough Curry Snacks (Pakoda)@4517752
+    url: https://en.wikibooks.org/w/index.php?oldid=4517752
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

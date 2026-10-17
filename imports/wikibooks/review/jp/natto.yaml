@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 lbs soybeans
+#  - unmapped ingredient: 1 spoonful nattomoto powder
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: jp-natto
+title: Natto
+alternate_names:
+- Japanese Fermented Soybeans
+summary: Natto is a Japanese preparation of fermented soybeans. When making it, be sure all utensils, pots, cheesecloth, etc. are as sterile as possible. If not, then boil utensils for 5 minutes prior to using.
+origin:
+  country: JP
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Cheesecloth or butter muslin
+- Non-reactive pot
+- Large stainless steel spoon
+- 3–4 oven-proof glass containers with lids
+techniques:
+- boiling
+- fermenting
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: tsp, qty: 2}
+steps:
+- Wash the soybeans and soak for 9–12 hours (longer soaking time recommended during colder months). Use approximately 3 parts water and 1 part soybeans to allow for expansion. You will have 8–12 cups of beans.
+- Drain the beans from the soaking water. Place beans in a large pot, fill with water and boil for 9 hours.
+- Drain the cooked beans and place in a sterilized pot. Dissolve one special spoonful of nattomoto into 2 tsp of sterilized water.
+- Immediately pour the nattomoto solution over the beans while the beans are still warm. Stir the beans and water mixture together carefully using a sterilized spoon.
+- Place a thin layer of beans in each of the 3–4 containers. If at any point during the process some beans are spilled on the counter, etc., discard the spilled beans as they can contaminate the other beans if added back in to the batch.
+- Place the sterilized cheese cloth over the top of the containers and place the tight-fitting lid over the cheese cloth. Preheat the oven, dehydrator, or KOTATSU Japanese Warmer to 100°F (38°C).
+- Place the covered containers in the oven, dehydrator, or warmer and allow the natto to ferment for 22–24 hours, making sure to keep the temperature steady at 100°F (38°C).
+- At the conclusion of the fermentation period, let the natto cool for a couple of hours, then remove the lid and the cloth, replace the lid, and store the containers in the refrigerator at least overnight. The Natto can be consumed as early as the next morning and are often served as a Japanese-style breakfast.
+tips:
+- Natto can be kept in the refrigerator for 3–4 days.
+- Smaller portions of finished natto can be stored in the freezer and thawed for later use.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANatto_%28Japanese_Fermented_Soybeans%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Natto (Japanese Fermented Soybeans)@4514344
+    url: https://en.wikibooks.org/w/index.php?oldid=4514344
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

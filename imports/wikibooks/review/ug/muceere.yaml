@@ -1,0 +1,76 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ug-muceere
+title: Muceere
+alternate_names:
+- Ugandan Pumpkin Stew
+summary: Muceere is a hearty and flavorful dish that celebrates the natural sweetness and richness of pumpkin. This traditional stew is made with tender chunks of pumpkin cooked in a flavorful sauce, making it a comforting and nutritious meal.
+origin:
+  country: UG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Pot
+- Knife
+- Cutting board
+- Spoon
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: butternut-squash, unit: cup, qty: 2, prep: peeled and cubed}
+  - {ingredient: coconut-milk, unit: cup, qty: 1}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: red-bell-pepper, qty: 1, prep: diced}
+  - {ingredient: green-pepper, qty: 1, prep: diced}
+  - {ingredient: tomato, qty: 1, prep: chopped}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: curry-powder, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: paprika, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: black-pepper, unit: pinch, qty: 1}
+  - {ingredient: cilantro, prep: chopped}
+steps:
+- In a pot, heat the vegetable oil over medium heat.
+- Add the finely chopped onion and minced garlic to the hot oil. Sauté until the onions become translucent and aromatic.
+- Toss in the diced red and green bell peppers, and the chopped tomato. Cook for a few minutes until the vegetables soften and release their flavors.
+- Add the curry powder, ground cumin, ground coriander, ground turmeric, and ground paprika to the pot. Stir well to coat the vegetables with the spices.
+- Carefully pour in the coconut milk, and stir the mixture until the spices are well combined with the coconut milk.
+- Add the cubed pumpkin to the pot, and gently mix it with the coconut milk and spice mixture.
+- Season the stew with a pinch of salt and ground black pepper, to taste.
+- Cover the pot and let the stew simmer over low heat for about 15–20 minutes, or until the pumpkin becomes tender and fully cooked. Stir occasionally to prevent the stew from sticking to the bottom of the pot.
+- Once the pumpkin is soft and the flavors have melded together, remove the pot from the heat.
+- Serve hot, garnished with freshly chopped cilantro or parsley for added freshness and color.
+tips:
+- You can add other vegetables like carrots or green beans to the stew for added texture and flavor.
+- For a creamier version of muceere, you can use coconut cream instead of coconut milk. The coconut milk adds a creamy and indulgent touch.
+- Adjust the level of spiciness by adding more or less ground paprika or chili flakes, depending on your preference.
+- Muceere can be enjoyed as a main dish, served with rice or bread, or as a side dish to complement other Ugandan meals.
+- Muceere is rich in vitamins, minerals, and dietary fiber from the pumpkin and vegetables.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMuceere_%28Ugandan_Pumpkin_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Muceere (Ugandan Pumpkin Stew)@4518659
+    url: https://en.wikibooks.org/w/index.php?oldid=4518659
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

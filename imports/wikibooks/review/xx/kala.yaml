@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-kala
+title: Kala
+alternate_names:
+- Liberian Fritters
+summary: Kala is a great and mouth watering snack, similar to Nigerian puff-puff.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: water, unit: cup, qty: [3, 4]}
+  - {ingredient: yeast, unit: tsp, qty: 4.5}
+  - {ingredient: all-purpose-flour, unit: cup, qty: [6, 7]}
+  - {ingredient: vegetable-oil}
+steps:
+- Combine the salt, sugar, warm water, and yeast in a medium-size bowl. Set aside for about 5–7 minutes.
+- Add the flour and mix very well; if you have a mixer, use it.
+- Let the mixture rise for approximately 2 hours.
+- Pour the vegetable oil in a large saucepan until it reaches at least 5 cm deep—too little oil will result in flatter fritter. Heat over medium heat—a drop of batter should rise to the surface and start sizzling.
+- Use a spoon or your hands to drop dollops of batter into the hot oil. Fry for a few minutes until golden brown on one side. Turn the ball to the other side and fry until golden brown.
+- Use a large perforated spoon to remove the fritters and place them on paper towels to soak up excess oil.
+- If desired, roll the finished product in powdered sugar or table sugar.
+tips:
+- If you want to get crunchy kala, do not overcrowd the frying pan while frying.
+- You can cut back on the salt as desired.
+- This delicious snack can be eaten for breakfast, during relaxation, and even as a side dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKala_%28Liberian_Fritters%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kala (Liberian Fritters)@4517745
+    url: https://en.wikibooks.org/w/index.php?oldid=4517745
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

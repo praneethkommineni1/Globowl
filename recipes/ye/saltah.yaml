@@ -1,0 +1,56 @@
+id: ye-saltah
+title: Saltah
+native_name: {text: سلتة, lang: ar, romanized: salta}
+summary: Yemen's national dish — a bubbling lamb broth stew with vegetables, crowned with a frothy, bitter-green fenugreek topping (hulba).
+origin:
+  country: YE
+  region: Sana'a
+course: main
+dish_types: [stew]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 90, inactive_min: 120}
+difficulty: 3
+equipment: [Stone pot (madara) or cast-iron pan, Whisk or stand mixer]
+techniques: [simmering, whisking]
+ingredient_groups:
+  - name: Hulba (fenugreek froth)
+    items:
+      - {ingredient: ground-fenugreek, qty: 2, unit: tbsp}
+      - {ingredient: water, qty: 250, unit: ml, note: "for soaking"}
+      - {ingredient: cilantro, qty: 1, unit: handful}
+      - {ingredient: green-chili, qty: 1}
+      - {ingredient: garlic, qty: 1, unit: clove}
+      - {ingredient: lemon-juice, qty: 1, unit: tbsp}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+  - name: Saltah
+    items:
+      - {ingredient: lamb-shoulder, qty: 500, unit: g, note: "on the bone"}
+      - {ingredient: water, qty: 1.2, unit: l}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "minced"}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: green-chili, qty: 1, prep: "chopped"}
+      - {ingredient: potato, qty: 1, prep: "diced"}
+      - {ingredient: ground-cumin, qty: 1, unit: tsp}
+      - {ingredient: ground-coriander, qty: 1, unit: tsp}
+      - {ingredient: ground-turmeric, qty: 0.5, unit: tsp}
+      - {ingredient: ground-cardamom, qty: 0.25, unit: tsp}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: egg, qty: 2, optional: true}
+steps:
+  - text: Soak the ground fenugreek in the water until it forms a gel. Pour off the water.
+    timer_min: 120
+  - text: Simmer the lamb in the water until tender, then shred the meat and keep the broth (maraq).
+    timer_min: 70
+  - Blend the soaked fenugreek with the cilantro, chili, garlic, lemon and salt, then whisk vigorously with a few spoonfuls of cold water until pale and frothy, like whipped egg white.
+  - In the stone pot, fry the onion, garlic, tomato, chili, potato and spices in the oil until soft. Add 500 ml of broth and the shredded meat and boil hard until thick.
+  - Crack in the eggs if using and stir. Spoon the hulba over the top and bring to the table still bubbling.
+serving: Scooped up with flatbread (malawah or khubz), with the remaining broth drunk alongside.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

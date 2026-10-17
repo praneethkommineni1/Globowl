@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: bg-red-bell-peppers-stuffed-with-cheese-and-egg
+title: Red Bell Peppers Stuffed with Cheese and Egg
+alternate_names:
+- Chushki Byurek
+summary: Red Bell Peppers Stuffed with Cheese and Egg.
+origin:
+  country: BG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+- roasting
+ingredient_groups:
+- items:
+  - {ingredient: red-bell-pepper, unit: kg, qty: 1}
+  - {ingredient: cheese, unit: g, qty: 250}
+  - {ingredient: egg, qty: 6}
+  - {ingredient: sunflower-oil}
+  - {ingredient: salt}
+  - {ingredient: parsley, prep: finely chopped}
+steps:
+- Roast, peel, and seed the peppers.
+- Mix the crumbled cheese with 4 of the eggs. Stuff the peppers with this mixture.
+- Beat the remaining two eggs.
+- Roll the stuffed peppers in breadcrumbs and beaten eggs.
+- Fry the breaded peppers in hot oil.
+- Serve sprinkled with finely-chopped parsley.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARed_Bell_Peppers_Stuffed_with_Cheese_and_Egg_%28Chushki_Byurek%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Red Bell Peppers Stuffed with Cheese and Egg (Chushki Byurek)@4514003
+    url: https://en.wikibooks.org/w/index.php?oldid=4514003
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: nl-hachee
+title: Hachee
+alternate_names:
+- Dutch Beef Stew
+summary: Hachee.
+origin:
+  country: NL
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, prep: cut in bite-sized pieces}
+  - {ingredient: all-purpose-flour}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: butter, unit: tsp, qty: 1}
+  - {ingredient: onion, qty: [3, 4], prep: sliced in rings, note: large}
+  - {ingredient: whole-cloves, qty: 5}
+  - {ingredient: bay-leaf, qty: 2}
+  - {ingredient: bouillon-cube, qty: 1, prep: combined with 1 cup water}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 2}
+  - {ingredient: beer, qty: 1}
+steps:
+- Combine flour, salt, and pepper. Dredge meat pieces in this mixture.
+- Melt butter in heavy pan, add meat, and sear until lightly browned.
+- Add onions and seasonings. Cook, stirring, until onions start to get translucent.
+- Stir together water and bouillon cube/powder until well-dissolved. Add to meat/onion mixture along with vinegar and beer.
+- Bring to a boil, then lower heat and let simmer about 3 hours until meat is tender. Stir occasionally to avoid scorching.
+- Check seasoning, and add salt and pepper if needed.
+- Serve over cooked rice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHachee_%28Dutch_Beef_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Hachee (Dutch Beef Stew)@4518623
+    url: https://en.wikibooks.org/w/index.php?oldid=4518623
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

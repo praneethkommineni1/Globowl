@@ -1,0 +1,80 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3 pickles, chopped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: sr-surinamese-chicken-pot-pie
+title: Surinamese Chicken Pot Pie
+alternate_names:
+- Pastei
+summary: Pastei is a very old dish and was brought to Suriname by the Jewish settlers. It is a simple dish made from chicken, carrots and peas, and closely resembles chicken pot pie. It is served best with plain white rice.
+origin:
+  country: SR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- simmering
+ingredient_groups:
+- name: Dough
+  items:
+  - {ingredient: butter, unit: g, qty: 200}
+  - {ingredient: all-purpose-flour, unit: g, qty: 250}
+  - {ingredient: water, qty: 2}
+  - {ingredient: baking-powder, unit: tsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 1}
+- name: Filling
+  items:
+  - {ingredient: chicken, qty: 3, note: large}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: butter, unit: g, qty: 150}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: red-chili, qty: 1, optional: true}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: allspice-berries}
+  - {ingredient: green-peas, unit: can, qty: [1, 2]}
+  - {ingredient: tomato, qty: 2, note: large}
+  - {ingredient: celery, qty: 1, prep: chopped}
+  - {ingredient: ketchup, unit: tbsp, qty: 2}
+  - {ingredient: worcestershire-sauce, unit: tsp, qty: 1, optional: true}
+  - {ingredient: mustard-seeds, unit: tbsp, qty: 1}
+  - {ingredient: egg, qty: 3}
+steps:
+- Cream the butter with an electric mixer or a wooden spoon. Keep adding little bits of the water until the butter has absorbed it all.
+- Sift the flour, baking powder and the salt all together and add this through the butter gradually. To see if the dough is rollable, press your finger on it and if the dough doesn't stick to it, it's fine. However, if the dough does stick, add about 25 more grams of flour.
+- Divide the dough in half, then roll out each piece.
+- Line a buttered baking pan or aluminum foil pan with one sheet of dough. Press the dough to the corners of the pan so that as much filling as possible can go in.
+- Wash the chicken if necessary.
+- Simmer the chicken, 100 g butter, some of the chopped onion, 2–3 bouillon cubes, fresh pepper, bay leaf, and some allspice in about 1–1½ cups of water for 30 minutes.
+- Remove the chicken, and strip it into little pieces, discarding the bones.
+- Put the rest of the butter in the broth in which the chicken had been boiled.
+- Heat a little oil in a frying pan, then add the remaining chopped onion.
+- Add the chicken. After a minute add the chopped tomatoes, the peas and carrots, and the celery. Every so often, add a little bit of the chicken broth to the pan so that it won't burn.
+- Add the chopped pickles.
+- After all the broth has been added and the whole seems good, taste to see if it has enough salt; if not, add some. Cool slightly, then mix in the ketchup and Worcestershire sauce.
+- Transfer the chicken mixture to the dough-lined pan until it is nicely filled.
+- Slice the boiled eggs and place them on top of the filling in the pan.
+- Top the mixture with the second sheet of dough. Seal the edges as best as possible.
+- Put the pastei in a preheated oven, and bake for about ¾ hour.
+- A few minutes before you take it out of the oven, you can lightly brush the top with some whisked egg to make the top shiny and a little crisp.
+tips:
+- If you're on a tight schedule, store-bough puff pastry works just as well, so you can use that instead of making your own dough.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASurinamese_Chicken_Pot_Pie_%28Pastei%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Surinamese Chicken Pot Pie (Pastei)@4517120
+    url: https://en.wikibooks.org/w/index.php?oldid=4517120
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

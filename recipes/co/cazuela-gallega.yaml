@@ -1,0 +1,49 @@
+id: co-cazuela-gallega
+title: Cazuela Gallega
+alternate_names:
+- Egg, Ham, and Cheese Casserole
+summary: Cazuela Gallega is a delicious egg, ham and cheese casserole, good for breakfast or dinner.
+origin:
+  country: CO
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 40
+difficulty: 1
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 2}
+  - {ingredient: ham, unit: slice, qty: 2}
+  - {ingredient: green-peas, unit: tbsp, qty: 2}
+  - {ingredient: ketchup, unit: tbsp, qty: 2}
+  - {ingredient: butter, unit: tbsp, qty: 1}
+  - {ingredient: parmesan, unit: cup, qty: 0.5}
+  - {ingredient: salt}
+steps:
+- Place 3 sheets of aluminum foil (approx 15 x 15 inches or 35 x 35 cm) into a bowl with a 5-inch (12 cm) diameter and 2-inch depth. Press gently the foil downwards in order to give it the shape of the bowl.
+- Spread the butter all over inside walls of the aluminum-shaped bowl.
+- Place one slice of ham in the bottom of the bowl. Cut the additional slice in three strips. With each strip, cover inside walls of aluminum bowl.
+- Add both eggs to the bowl.
+- Add the peas, spreading them all over the eggs. Be careful with the yolks—don't break them. Add 1 teaspoon of the liquid from the can.
+- Add a pinch of salt, and the ketchup, trying to cover all the area.
+- Carefully remove foil with the casserole from the bowl. Top with the cheese and bake 30 minutes in a preheated 400°F (205C) oven.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACazuela_Gallega_%28Egg%2C_Ham%2C_and_Cheese_Casserole%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cazuela Gallega (Egg, Ham, and Cheese Casserole)@4517394
+    url: https://en.wikibooks.org/w/index.php?oldid=4517394
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

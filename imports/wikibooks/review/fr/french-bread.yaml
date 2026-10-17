@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no ingredient lines parsed
+id: fr-french-bread
+title: French Bread
+summary: French Bread.
+origin:
+  country: FR
+course: bread
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2 loaves
+time:
+  total_min: 180
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- In a small bowl, soften yeast in warm water.
+- Combine salt and lukewarm water in large bowl. Beat in 2 cups flour.
+- Blend in yeast, and stir in enough flour to make stiff dough.
+- Turn out dough on floured surface. Knead 10 to 15 minutes, working in last of flour (you may want to do this with a heavy duty electric mixer with dough hooks).
+- Form into a ball and put in greased bowl, turning to grease top, then cover with a cloth.
+- Let rise until doubled (a finger impression should stay), about an hour, depending on temperature.
+- Punch down dough, turn out on floured surface, and divide in half.
+- Cover dough and rest for 10 minutes.
+- Shape each half of dough into a 5 x 12-inch rectangle.
+- Roll up each portion tightly, starting on the long side, sealing as you roll, tapering if you like.
+- Place each loaf diagonally, seam side down, on a greased baking sheet sprinkled with corn meal.
+- Use a floured sharp knife or razor blade to make ¼-inch slashes diagonally in the tops of the loaves.
+- Beat egg white until foamy, adding a tablespoon of water. Brush top and sides of loaves with egg mixture.
+- Cover with damp cloth, not touching loaves (drape cloth over inverted glasses). Let loaves rise until doubled, 60–75 minutes.
+- Turn on oven to preheat to 375°F.
+- Bake until light brown, about 20 minutes.
+- Brush loaves with egg mixture again. Bake another 15–20 minutes, or until done.
+- Cool on wire racks.
+tips:
+- To get a rapid initial rise, use water about 130–135°F, pour into bowl with yeast mixed with initial flour and salt, and start mixing.
+- All rising should be in a warm place, like near the refrigerator.
+- A baking stone, ceramic brick, or even an iron skillet or griddle preheated in the oven (to place the baking sheet on) will give a good "spring" or quick rise when the loaves are first placed in the oven.
+- For even crispier crust, brush each time with plain water.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrench_Bread&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:French Bread@4658417
+    url: https://en.wikibooks.org/w/index.php?oldid=4658417
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

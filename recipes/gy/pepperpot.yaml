@@ -1,0 +1,42 @@
+id: gy-pepperpot
+title: Guyanese Pepperpot
+summary: Beef slowly stewed in dark, bittersweet cassareep with cinnamon, cloves and hot peppers — Guyana's Christmas morning dish.
+origin:
+  country: GY
+  community: Indigenous (Amerindian) origin
+course: main
+dish_types: [stew]
+occasions: [Christmas]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 15, cook_min: 180}
+difficulty: 2
+techniques: [stewing]
+ingredient_groups:
+  - items:
+      - {ingredient: beef-chuck, qty: 1, unit: kg, prep: "cubed", note: "oxtail and cow heel are traditional additions"}
+      - {ingredient: water, qty: 1.5, unit: l}
+      - {ingredient: cassareep, qty: 120, unit: ml}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "crushed"}
+      - {ingredient: cinnamon-stick, qty: 2}
+      - {ingredient: whole-cloves, qty: 4}
+      - {ingredient: brown-sugar, qty: 2, unit: tbsp}
+      - {ingredient: thyme, qty: 4, unit: sprig}
+      - {ingredient: scotch-bonnet, qty: 2, note: "whole; wiri wiri peppers are traditional"}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+steps:
+  - Put everything in a heavy pot and bring to a boil.
+  - text: Simmer gently, partly covered, until the meat is falling apart and the sauce is dark and syrupy.
+    timer_min: 180
+  - Remove the peppers and cinnamon and season.
+tips:
+  - Pepperpot keeps for days and improves each time it's reheated.
+serving: With plait bread or dense white bread.
+culture: Cassareep, a thick sauce made from boiled-down cassava juice, is an Indigenous Guyanese preservative — pepperpot was traditionally kept going for days.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

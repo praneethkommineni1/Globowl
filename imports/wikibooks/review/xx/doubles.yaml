@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no ingredient lines parsed
+id: xx-doubles
+title: Doubles
+alternate_names:
+- Trinidadian Bread with Curried Chickpeas
+summary: Doubles.
+origin:
+  country: XX
+course: bread
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 165
+difficulty: 2
+techniques:
+- boiling
+- pan-frying
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- In large bowl combine flour, salt, turmeric, cumin, sugar and yeast.
+- Add enough lukewarm water to make a soft dough. Mix well, cover and let rise 2 hours.
+- Boil soaked chickpeas in salted water until tender. Drain well.
+- Heat oil in a heavy skillet, add garlic, onion, and curry powder mixed with ¼ cup (60 ml) water; sauté for a few minutes.
+- Add chickpeas, stir to coat well and cook for 5 minutes. Add 1 cup water, cumin, salt and pepper.
+- Cover, lower heat and simmer until peas are soft; add more water if necessary. When chickpeas are finished they should be soft and moist; adjust seasoning.
+- Punch down dough and allow to relax for 15 minutes.
+- To shape bara, take about 1 tablespoon of dough, pat with both hands to flatten to a circle 4–5 inches in diameter; use water to moisten palms of hands.
+- Fry a few baras at a time in hot oil; turn once and drain on kitchen paper.
+- Make a sandwich by placing 2 tablespoons of cooked chickpeas between 2 baras.
+- Add pepper sauce and mango chutney to taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADoubles_%28Trinidadian_Bread_with_Curried_Chickpeas%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Doubles (Trinidadian Bread with Curried Chickpeas)@4658443
+    url: https://en.wikibooks.org/w/index.php?oldid=4658443
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

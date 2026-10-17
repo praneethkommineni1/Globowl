@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 heaped tbsp grated raw papaya for tenderness
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: tz-nyama-choma
+title: Nyama Choma
+alternate_names:
+- Tanzanian Barbecue
+summary: Nyama Choma is a popular grilled meat recipe in Tanzania, though it is also loved among other African countries like Kenya. It can be served with fries or ugali, some kachumbari and some hot spicy peri peri sauce. You can use any meat of your choice to prepare this recipe.
+origin:
+  country: TZ
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: goat, unit: kg, qty: 1, prep: cut into thick chunks}
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.25}
+  - {ingredient: onion, qty: 1, prep: chopped}
+  - {ingredient: ginger, qty: 1, note: heaped}
+  - {ingredient: garlic, qty: 1, note: heaped}
+  - {ingredient: soy-sauce, unit: cup, qty: 0.25}
+  - {ingredient: lime}
+  - {ingredient: black-pepper, unit: tsp, qty: 2}
+  - {ingredient: parsley, unit: cup, qty: 0.5}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: curry-powder, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+steps:
+- To keep the meat juicy and tender, clean it and preserve any extra fat on it. Place the meat in a glass or plastic dish.
+- Blend the remaining ingredients, then pour the resulting mixture over the meat.
+- Allow mixture to settle into the meat, then thoroughly massage it into the meat. Cover and marinate in the refrigerator for at least 4–5 hours.
+- To bring the meat to room temperature for cooking, remove it from the refrigerator approximately an hour beforehand.
+- Light a charcoal grill and let it burn until the coals are completely covered with white ash.
+- Place a wire rack over the coals, add the meat, and cook until it has a little singe and color. To ensure equal cooking on all sides, turn meat frequently. Use a fresh brush and some oil or marinade to flavor the meat and keep it from drying out while it cooks.
+- To allow the inside of the meat to cook slowly and effectively, wrap it in a packet of foil. Or, keep grilling until the food is done to your liking.
+- Once the meat is done, use a sharp knife to cut it into bite-sized pieces.
+- Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANyama_Choma_%28Tanzanian_Barbecue%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nyama Choma (Tanzanian Barbecue)@4509838
+    url: https://en.wikibooks.org/w/index.php?oldid=4509838
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

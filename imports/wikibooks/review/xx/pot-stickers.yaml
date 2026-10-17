@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Gyoza or wonton wrappers
+#  - unmapped ingredient: Desired filling
+#  - no ingredient lines parsed
+#  - no procedure steps
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-pot-stickers
+title: Pot Stickers
+summary: Pot Stickers or Jiaozi are traditional Chinese dumplings that are both fried and steamed. You can use whatever filling you like. Pork is traditional, but there are many versions. Any meat should be thoroughly cooked, and all ingredients should be sliced very small.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- (missing)
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APot_Stickers&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pot Stickers@4327291
+    url: https://en.wikibooks.org/w/index.php?oldid=4327291
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

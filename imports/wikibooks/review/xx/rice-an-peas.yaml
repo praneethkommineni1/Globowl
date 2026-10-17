@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-rice-an-peas
+title: Rice an' Peas
+summary: Rice an' peas is a traditional Caribbean dish, done easy in a rice cooker, great for your ital-eating Rastafarian or vegan friends. There's lots of ways to cook rice an' peas, but this one is easy and hassle free.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: kidney-beans-canned, unit: cup, qty: 1, prep: dried or canned}
+  - {ingredient: long-grain-rice, unit: cup, qty: 1}
+  - {ingredient: coconut, unit: cup, qty: 1}
+  - {ingredient: water, unit: cup, qty: 1}
+steps:
+- If using dried beans, cover them in water and soak for at least 8 hours.
+- Drain and rinse the beans (even canned beans) prior to use.
+- If using dried red kidney beans, boil briskly for 20 minutes, then drain again.
+- Add rice, beans, water, and coconut milk to a rice cooker. If using a programmable cooker, set to cook for brown rice. For an on/off cooker, turn it on.
+- In about 30 minutes your rice cooker will finish cooking the rice. Open, stir, and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARice_an%27_Peas&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rice an' Peas@4533870
+    url: https://en.wikibooks.org/w/index.php?oldid=4533870
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

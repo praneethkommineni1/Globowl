@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - course unknown from categories
+id: gh-omu-tuo
+title: Omu Tuo
+alternate_names:
+- Ghanian Mashed Rice
+summary: Omu tuo, a Ghanaian dish, distinguishes itself from other rice dishes through its unique preparation process. The rice is cooked until it reaches a soft consistency and is then pounded to form sticky balls, resembling ugali in appearance.
+origin:
+  country: GH
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 40
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 1}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: butter, unit: tbsp, qty: [1, 2]}
+  - {ingredient: water, unit: cup, qty: 2}
+steps:
+- If desired, rinse the rice well to eliminate excess starch. This step is optional as the starch contributes to the desired stickiness of the rice.
+- Combine the rice, butter, and salt in a pot with water. Cook over low heat, allowing the rice to slowly simmer until all the water is absorbed and the rice reaches a soft texture.
+- Using a wooden spoon, begin pounding the rice in the pot, alternating from one side to the other. Repeat this process until the rice transforms into a mushy consistency.
+- Transfer the mashed rice to a moistened bowl and gently swirl it until a bowl shape is formed.
+- Serve with peanut stew or any other soup of your preference
+tips:
+- It is essential to achieve the ideal balance of water and salt in the recipe.
+- If desired, add your preferred spices to elevate the overall flavor profile.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AOmu_Tuo_%28Ghanian_Mashed_Rice%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Omu Tuo (Ghanian Mashed Rice)@4512972
+    url: https://en.wikibooks.org/w/index.php?oldid=4512972
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

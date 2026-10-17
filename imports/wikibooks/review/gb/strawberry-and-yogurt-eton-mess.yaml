@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 4 medium-sized meringues
+id: gb-strawberry-and-yogurt-eton-mess
+title: Strawberry and Yogurt Eton Mess
+summary: Eton mess is a dessert of English origin consisting of a mixture of strawberries, pieces of meringue and cream, which is traditionally served at Eton College's annual prize-giving celebration picnic on the "Fourth of June" (actually celebrated on the last Wednesday in May).
+origin:
+  country: GB
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 10
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: heavy-cream, unit: ml, qty: 280}
+  - {ingredient: powdered-sugar, unit: g, qty: 50}
+  - {ingredient: vanilla-extract, unit: ml, qty: 10}
+  - {ingredient: yogurt, unit: ml, qty: 150}
+  - {ingredient: strawberries, unit: g, qty: 500}
+steps:
+- Rinse the strawberries, remove the tops, and cut into halves.
+- Break the meringues into pieces (not too small) and place into a bowl.
+- Put the double cream, vanilla essence, and icing sugar into a bowl. Whip until reasonably stiff.
+- Combine the whipped cream, yoghurt, strawberries, and meringue, being careful not to mash the meringue into pieces that are too small.
+- Serve in bowls.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AStrawberry_and_Yogurt_Eton_Mess&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Strawberry and Yogurt Eton Mess@4587373
+    url: https://en.wikibooks.org/w/index.php?oldid=4587373
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

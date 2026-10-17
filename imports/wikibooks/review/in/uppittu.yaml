@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup upma rava
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: in-uppittu
+title: Uppittu
+alternate_names:
+- Indian Semolina Porridge
+summary: Upma or uppittu as it is referred to in Karnataka is a wholesome Indian dish made of rava (cream of wheat). There are many ways it is prepared but typically includes a healthy amount of vegetables added during preparation.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 4}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 1}
+  - {ingredient: ginger, unit: tsp, qty: 1}
+  - {ingredient: garlic, unit: tsp, qty: 1}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: tomato, qty: 1, prep: chopped}
+  - {ingredient: red-chili, qty: [4, 5]}
+  - {ingredient: salt}
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 1}
+steps:
+- In a wok or other suitable pan, heat 1 tbsp of oil. When the oil is hot add the rava, and stir it with a spoon until it starts browning. The main purpose of this is to coat the rava grains with the oil so that they don’t stick. Be sure not to burn the rava or you will have to restart. Set the rava aside, and let it cool.
+- In the same wok or another suitable pan, heat the remaining oil. When hot, add the mustard seeds and wait until the seeds start crackling. When the crackling starts tapering off, add the onions and fry until golden brown.
+- Add the ginger and the garlic, and stir for a few seconds.
+- Add the remaining vegetables and the water, plus enough salt such that when tasted it is slightly saltier than required. Turn the heat to medium and let it simmer until the vegetables are cooked but still crispy.
+- Turn the heat to low, and start adding the rava to the water. This is the most important step that determines the correct consistency of the upma. The rava must be added as quickly as possible while continuously stirring the contents, ensuring no lumps are formed.
+- When the rava is thoroughly mixed, cover the vessel and let it cook for a few minutes, stirring the contents every 20 seconds or so.
+- Turn the heat off, add the lemon juice, and mix it well.
+- Eat with a variety of sides like chutney, sugar, pickles, etc.
+tips:
+- You can add other vegetables like potato, zucchini, mushroom, peas, beans, etc. to suit your taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AUppittu_%28Indian_Semolina_Porridge%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Uppittu (Indian Semolina Porridge)@4615147
+    url: https://en.wikibooks.org/w/index.php?oldid=4615147
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 cup karkashi leaves, either fresh or dried and ground
+id: ng-miyan-karkashi
+title: Miyan Karkashi
+alternate_names:
+- Nigerian Sesame Leaf Soup
+summary: Miyan karkashi is a Nigerian draw soup made from karkashi (sesame leaf). It is often consumed in northern Nigeria, where it is typically served with varieties of tuwo such as tuwo shinkafa and tuwo masara.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2-3
+time:
+  total_min: 10
+difficulty: 2
+equipment:
+- Cooking pot
+- Blender or mortar and pestle
+- Wooden spoon or whisk
+- Knife
+- Bowl
+techniques:
+- boiling
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: iru, unit: tbsp, qty: 1}
+  - {ingredient: fish, unit: g, qty: 113}
+  - {ingredient: beef, unit: kg, qty: 0.25}
+  - {ingredient: potash, unit: tsp, qty: 0.5}
+  - {ingredient: chicken-bouillon-cube, qty: 1}
+steps:
+- Grind the karkashi leaves to a paste.
+- Bring the water to boil in a pot, and stir in the fermented locust beans.
+- Add the fish and meat, and cook for 5–7 minutes.
+- Add the karkashi leaf paste along with the potash. Stir, and cook for 5 minutes.
+- Stir in the seasoning cube. Continue stirring with a whisk for 3 minutes until the mixture is smooth.
+- Serve the soup with tuwo masara, tuwo dawa, tuwo alkama, or tuwo shinkafa.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMiyan_Karkashi_%28Nigerian_Sesame_Leaf_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Miyan Karkashi (Nigerian Sesame Leaf Soup)@4636092
+    url: https://en.wikibooks.org/w/index.php?oldid=4636092
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: hu-kovaim
+title: Kovaim
+alternate_names:
+- Hungarian Cheese Dumplings
+summary: Kovaim are Hungarian cheese dumplings. They go well with cheddar cheese and ketchup.
+origin:
+  country: HU
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- dough-making
+ingredient_groups:
+- name: Dough
+  items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 300}
+  - {ingredient: egg, qty: 3, note: large}
+  - {ingredient: water, unit: cup, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+- name: Filling
+  items:
+  - {ingredient: ricotta}
+  - {ingredient: salt, note: to taste}
+steps:
+- Mix the flour, salt, eggs and water into a dough. Knead it until it is very smooth.
+- Cover the dough in a plastic bowl, and let it rest for at least half an hour.
+- Combine the ricotta and salt to make the filling.
+- Roll the dough out into a sheet as thin as possible (about 3 mm thick). Cut into squares, and fill each square with some filling. Fold the dough over the filling diagonally to make a triangular dumpling.
+- Boil the dumplings in water for about 5 minutes.
+- Serve hot.
+tips:
+- You can also fill these dumplings with cooked potatoes and onions, or ricotta cheese with sugar for a sweet dumpling.
+- You could add some spicier cheese to the filling like cheddar, or even Parmesan, but make sure this is not more than a third of the filling.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKovaim_%28Hungarian_Cheese_Dumplings%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kovaim (Hungarian Cheese Dumplings)@4514673
+    url: https://en.wikibooks.org/w/index.php?oldid=4514673
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

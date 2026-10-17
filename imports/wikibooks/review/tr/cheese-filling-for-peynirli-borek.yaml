@@ -1,0 +1,44 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup cottage cheese
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: tr-cheese-filling-for-peynirli-borek
+title: Cheese Filling for Peynirli Börek
+summary: Cheese filling to make peynirli börek
+origin:
+  country: TR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: feta, unit: cup, qty: 1, prep: crumbled}
+  - {ingredient: egg, qty: 1, prep: beaten}
+  - {ingredient: parsley, unit: tbsp, qty: 1, prep: chopped}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+steps:
+- Mix the feta into the cottage cheese by mashing together with a fork.
+- Add the beaten egg, chopped herbs and pepper, and stir until just mixed.
+- Place in a plastic covered container and refrigerate until ready to use.
+- See Börek recipe for further instructions.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACheese_Filling_for_Peynirli_B%C3%B6rek&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cheese Filling for Peynirli Börek@4515083
+    url: https://en.wikibooks.org/w/index.php?oldid=4515083
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

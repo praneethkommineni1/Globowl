@@ -1,0 +1,42 @@
+id: ge-lobio
+title: Lobio
+native_name: {text: ლობიო, lang: ka, romanized: lobio}
+summary: Red kidney beans stewed until creamy and seasoned Georgian-style with onion, garlic, cilantro, coriander and khmeli suneli.
+origin:
+  country: GE
+course: main
+dish_types: [stew, beans]
+occasions: [Lent]
+authenticity: home-style
+yield: {servings: 6}
+time: {prep_min: 15, cook_min: 90, inactive_min: 720}
+difficulty: 1
+techniques: [simmering, sauteing]
+ingredient_groups:
+  - items:
+      - {ingredient: dried-red-kidney-beans, qty: 500, unit: g, note: "soaked overnight"}
+      - {ingredient: water, qty: 2, unit: l}
+      - {ingredient: sunflower-oil, qty: 3, unit: tbsp}
+      - {ingredient: onion, qty: 2, prep: "finely chopped"}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "crushed"}
+      - {ingredient: ground-coriander, qty: 1, unit: tsp}
+      - {ingredient: khmeli-suneli, qty: 1, unit: tsp}
+      - {ingredient: chili-flakes, qty: 0.5, unit: tsp}
+      - {ingredient: walnuts, qty: 50, unit: g, prep: "finely ground", optional: true}
+      - {ingredient: red-wine-vinegar, qty: 1, unit: tbsp}
+      - {ingredient: cilantro, qty: 1, unit: bunch, prep: "chopped"}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - text: Drain the soaked beans, cover with fresh water and boil hard for 10 minutes, then simmer until very soft.
+    timer_min: 80
+  - Meanwhile fry the onions in the oil until golden.
+  - Mash about half of the beans in their pot with a potato masher, keeping the rest whole. It should be thick but loose; add water if needed.
+  - Stir in the onions, garlic, spices, walnuts, vinegar and most of the cilantro. Season with salt and simmer 10 minutes.
+  - Finish with the remaining cilantro.
+serving: Hot in a clay pot (lobio kotanshi) with mchadi (corn bread), pickled vegetables and fresh herbs.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

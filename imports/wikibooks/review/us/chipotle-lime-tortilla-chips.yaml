@@ -1,0 +1,42 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/4 cup chipotle-based hot sauce
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-chipotle-lime-tortilla-chips
+title: Chipotle Lime Tortilla Chips
+summary: Tortilla chips cost way more than tortillas, but when they get home, they end up looking like Earth after Mars hits it.
+origin:
+  country: US
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: tortilla, qty: 10, prep: each cut into 10 wedges}
+  - {ingredient: lime, unit: cup, qty: 0.5}
+  - {ingredient: salt, unit: tbsp, qty: 2}
+  - {ingredient: vegetable-oil}
+steps:
+- Combine hot sauce, salt, and lime juice in a large dish. Add tortillas and soak for 2 hours.
+- Remove to a cooling rack and let dry for 2 hours.
+- Deep fry at 375°F until pieces float and are lightly browned around edges. Drain on a cooling rack set above a baking pan. Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChipotle_Lime_Tortilla_Chips&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chipotle Lime Tortilla Chips@4511729
+    url: https://en.wikibooks.org/w/index.php?oldid=4511729
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

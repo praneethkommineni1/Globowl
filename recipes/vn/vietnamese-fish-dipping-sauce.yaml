@@ -1,0 +1,50 @@
+id: vn-vietnamese-fish-dipping-sauce
+title: Vietnamese Fish Dipping Sauce
+alternate_names:
+- Nước mắm pha
+summary: Vietnamese fish sauce is a dipping sauce prepared for use at the table. It contains a more concentrated fish sauce of a similar name.
+origin:
+  country: VN
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2 cups
+time:
+  total_min: 10
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: fish-sauce, unit: cup, qty: 0.25}
+  - {ingredient: water, unit: cup, qty: 1.5}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 1}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: garlic, unit: tsp, qty: 1}
+  - {ingredient: chili-paste, unit: tsp, qty: 0.5}
+steps:
+- Mix all ingredients together.
+- If desired, bring to a boil that cannot be stirred down.
+- Cover and refrigerate.
+tips:
+- In restaurants it is served in small bowls, one for each diner, often with a bit of julienned carrot on top. It is sometimes served with rolls of various types (summer rolls, spring rolls, Imperial rolls, etc.) and is usually available in Vietnamese restaurants upon request.
+- For home use, some prefer to store it in a squirt bottle and grind the sambal oelek and garlic to a smaller size using a mortar and pestle so that they do not clog the nozzle.
+- You may find the smell quite strong in making this, especially if you decide to boil. Persevere.
+- The Three Crabs Brand of concentrated fish sauce is universally praised. There are many, many other brands.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AVietnamese_Fish_Dipping_Sauce_%28N%C6%B0%E1%BB%9Bc_m%E1%BA%AFm_pha%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Vietnamese Fish Dipping Sauce (Nước mắm pha)@4519041
+    url: https://en.wikibooks.org/w/index.php?oldid=4519041
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

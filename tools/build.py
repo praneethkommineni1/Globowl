@@ -27,9 +27,9 @@ DIET_IDS = ["vegan", "vegetarian", "pescatarian", "gluten-free", "dairy-free",
 # Which ingredient flags break which diet. `animal` is matched against an
 # ingredient's animal sources; `markers` against its contains / may_contain.
 DIET_RULES = {
-    "vegan":        {"animal": {"meat", "poultry", "fish", "shellfish", "dairy", "egg", "honey", "gelatin"}},
-    "vegetarian":   {"animal": {"meat", "poultry", "fish", "shellfish", "gelatin"}, "markers": {"animal-rennet"}},
-    "pescatarian":  {"animal": {"meat", "poultry", "gelatin"}, "markers": {"animal-rennet"}},
+    "vegan":        {"animal": {"meat", "poultry", "fish", "shellfish", "dairy", "egg", "honey", "gelatin"}, "markers": {"animal-fat", "animal-product"}},
+    "vegetarian":   {"animal": {"meat", "poultry", "fish", "shellfish", "gelatin"}, "markers": {"animal-rennet", "animal-fat", "animal-product"}},
+    "pescatarian":  {"animal": {"meat", "poultry", "gelatin"}, "markers": {"animal-rennet", "animal-fat", "animal-product"}},
     "gluten-free":  {"markers": {"gluten"}},
     "dairy-free":   {"markers": {"milk"}},
     "egg-free":     {"markers": {"egg"}},
@@ -37,7 +37,7 @@ DIET_RULES = {
     "pork-free":    {"markers": {"pork"}},
     "alcohol-free": {"markers": {"alcohol"}},
 }
-NON_ALLERGEN_MARKERS = {"pork", "alcohol", "animal-rennet"}
+NON_ALLERGEN_MARKERS = {"pork", "alcohol", "animal-rennet", "animal-fat", "animal-product"}
 
 
 class BuildError(Exception):
@@ -234,7 +234,9 @@ def enrich(recipe: dict, ref) -> dict:
     out["origin"] = {**recipe["origin"], "country_name": c["name"],
                      "continent": c["continent"], "subregion": c["subregion"]}
     t = recipe["time"]
-    out["time"] = {**t, "total_min": t["prep_min"] + t["cook_min"] + t.get("inactive_min", 0)}
+    if "total_min" not in t:
+        t = {**t, "total_min": t["prep_min"] + t["cook_min"] + t.get("inactive_min", 0)}
+    out["time"] = t
     out["ingredient_groups"] = [
         {**g, "items": [{**ln, "name": ingredients[ln["ingredient"]]["name"]} for ln in g["items"]]}
         for g in recipe["ingredient_groups"]

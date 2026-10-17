@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (AU, NZ): confirm the country of origin
+#  - unmapped ingredient: Sponge cake
+#  - unmapped ingredient: Chocolate icing
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: au-lamington
+title: Lamington
+summary: Lamington is a dessert of sponge cake (or more traditionally, butter cake), cut into squares, coated in a layer of chocolate or strawberry icing, and topped with coconut.
+origin:
+  country: AU
+  also_claimed_by:
+  - NZ
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: coconut}
+steps:
+- Cut the sponge cake into your desired shapes (commonly 5–7 cm cubes).
+- Prepare a flat tray with an even layer of desiccated coconut shavings
+- Dip the sponge cake cubes into chocolate icing.
+- Immediately dip the coated cake into the coconut, or sprinkle the coconut on top.
+- Put aside to dry and set.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALamington&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lamington@4587274
+    url: https://en.wikibooks.org/w/index.php?oldid=4587274
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

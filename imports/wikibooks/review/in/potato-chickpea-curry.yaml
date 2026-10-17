@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+id: in-potato-chickpea-curry
+title: Potato-Chickpea Curry
+summary: Potato-Chickpea Curry.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 55
+difficulty: 2
+techniques:
+- pan-frying
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 1, note: small}
+  - {ingredient: garlic, unit: clove, qty: 2}
+  - {ingredient: olive-oil}
+  - {ingredient: curry-powder, unit: tbsp, qty: 1}
+  - {ingredient: coconut-milk, unit: can, qty: 1}
+  - {ingredient: potato, qty: 3, prep: chopped}
+  - {ingredient: chickpeas-canned, unit: can, qty: 1}
+steps:
+- Chop the onion and mince the garlic. Sauté them in olive oil in a saucepan for approximately 5 minutes.
+- Add the curry powder and fry for a couple minutes more.
+- Add the coconut milk and the potatoes. Simmer, covered, for about 20 minutes.
+- Drain the chickpeas, add them to the pot, and simmer for about 20 minutes more, or until the potatoes are cooked.
+- Serve with basmati rice or whatever you prefer.
+tips:
+- If the curry powder you use isn't spicy enough for your taste, try adding a half-teaspoon of cayenne pepper.
+- If doubling the recipe, do not double the chickpeas.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APotato-Chickpea_Curry&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Potato-Chickpea Curry@4518673
+    url: https://en.wikibooks.org/w/index.php?oldid=4518673
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

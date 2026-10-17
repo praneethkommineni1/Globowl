@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 oz whole-wheat flour
+#  - unmapped ingredient: About 500 ml vegetable oil for deep frying
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-puri
+title: Puri
+alternate_names:
+- Indian Fried Flatbread
+summary: Puri, also spelled poori is a fried Indian bread.
+origin:
+  country: IN
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 57}
+  - {ingredient: semolina, unit: g, qty: 57}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: water}
+steps:
+- Put all the dry ingredients into a bowl.
+- Add salt and drizzle the 1 tbsp oil over top. Mix well.
+- Gradually mix in enough water to get a stiff dough.
+- Knead the dough well for a few minutes.
+- Cover the dough and leave to rest for about half an hour.
+- Pour the oil for deep frying in a wok or other deep pan. Heat the oil.
+- Meanwhile, divide the dough into 8 small balls and roll each into a small circle (about 3 in / 7.5 cm in diameter). You can use a bit of hot oil to roll the dough so it will not stick to the surface.
+- Check if the oil is hot enough—when you put a tiny piece of dough in the oil it should immediately rise to the surface. When the oil is ready, lay the flattened dough over the oil, press the top slightly with the slotted spoon until it inflates itself, and turn to other side. Adjust the flame as necessary.
+- Remove the puri from the oil after it turns golden brown and place on a wire rack or kitchen paper towel for excess oil to drain.
+tips:
+- For chapatti dough, don't use semolina and plain flour. Only use whole wheat flour, salt, and oil.
+- If the dough sinks quickly to the bottom of the wok, the oil is not hot enough and the puri will absorb too much oil. It should balloon within a few seconds.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APuri_%28Indian_Fried_Flatbread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Puri (Indian Fried Flatbread)@4503536
+    url: https://en.wikibooks.org/w/index.php?oldid=4503536
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

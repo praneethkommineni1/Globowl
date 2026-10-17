@@ -1,0 +1,78 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no ingredient lines parsed
+id: cn-baozi
+title: Baozi
+alternate_names:
+- Steamed Yeasted Dumplings
+summary: A baozi, also known as bao or bau, is a type of steamed, filled bun or bread-like item in Chinese cuisine. In its bun-like aspect it is very similar to the traditional Chinese mantou, but baozi has filling.
+origin:
+  country: CN
+course: main
+authenticity: unassessed
+yield:
+  servings: 12
+  amount: 12 baozi
+time:
+  total_min: 170
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Stir yeast and 1 tablespoon of sugar into 1 cup of the warm water. Let stand for 15 minutes. Skip this step if your yeast does not need proofing (it will say so on the packet).
+- Sift the flour and sugar together.
+- If you pre-mixed the yeast, add to the flour and the rest of the sugar in a mixing bowl.
+- If you didn't pre-mix the yeast, mix flour, salt if desired, and the sugar, then mix in yeast in a mixing bowl. Add 1 cup of the water in a steady stream, mixing constantly.
+- Mix together. The dough will begin to form a ragged clump. If the dough does not stick together, add a small amount more water.
+- Knead dough for 5–10 minutes. The dough will stiffen, and should spring back slowly when indented with a finger. The surface should be smooth and slightly shiny.
+- Coat the bottom of a large bowl with the sesame oil to give a thin film, and place the dough in the bowl. Roll over so it is coated with the oil.
+- Allow dough to rise and double in volume in a warm place for 1–1½ hours, or in a cool place like a fridge for 2–3 hours. A slow rise in a cool place will produce a finer texture.
+- Punch dough down. If you wish at this point, you can allow it to rise and double again, in a warm or cool place, and punch down again. A double rise also results in a finer, more tender texture.
+- Form into a large pancake shape.
+- Sprinkle the baking powder evenly across the dough, and knead again, until the same consistency as before it rose. Water from the yeast's respiration may have made the dough softer, so add a bit more flour if needed.
+- Divide the dough into two long rolls, and cut each into 6 pieces.
+- Roll each piece of dough into a ball. If you are making plain baozi, go straight to Step 20 now. If making filled baozi, then flatten each ball into a 6-inch (15&nbsp;cm) disc.
+- Shape the disc so that it is significantly thicker in the centre than at the edges.
+- Position one hand as if you were holding a normal drinking glass, and place a disc of dough over the top.
+- Using two fingers, push the centre of the disc down by about 1 inch (2.5 cm).
+- Place 1 dessert spoon of filling into the well you just made in the dough.
+- Still holding your hand in position, use your other hand to fold the edges of the dough together, in a sort of pleated fashion.
+- Pinch edges together and twist (so that you twist a small portion at the top right off) to close the baozi.
+- Place each baozi on a square of parchment paper, 3 inches (7.5 cm) to a side.
+- Allow to rise in warm place 1 hour. The dough should end up springy to the touch.
+- Place buns in a steamer. Try to position so they do not touch one another. It will almost certainly require several batches to steam all the buns, unless you have lots of steamers, or a very big one. You can put them seam up (opening flower effect) or seam down (smooth, round top).
+- Steam buns over gently boiling water for 10–15 minutes.
+- After this time, remove the pan and steamer from heat, but don't remove the steamer from the pan, or lift the lid of the steamer. By allowing the steam to subside gradually like this, you prevent the dough from collapsing on contact with the cold air.
+- After a few minutes, carefully lift the lid and remove the bun gently from the steamer.
+- When cool enough to handle, remove parchment paper from bottom of buns.
+- Serve warm.
+tips:
+- Use bleached flour for a whiter bread.
+- The ideal sweetness of the baozi is subjective – in China, they generally get sweeter the further south you go. This recipe is fairly sweet, but can be modified either way.
+- Depending on taste, you can add salt to the dough - ½ tsp. should be sufficient. Remember not to allow concentrated salt to come into contact with the yeast, as it will kill it. Mix the salt with the flour, then add the yeast.
+- Ensure the place used for rising is draft-free. Drafts prevent the dough from rising as much, resulting in a flatter bread.
+- Use flour to keep the dough from sticking to your hands, not oil. This keeps the dough from getting too wet. It is cooked in a damp environment, so you don't want wet dough.
+- Try to keep the dough from drying out and forming a crust when not being worked with. Rise in a covered container (using clingfilm), and cover with a towel when not immediately handling the dough.
+- Add a couple of tablespoons of vinegar to the steaming water to bleach the buns slightly. The vinegar does not significantly affect the taste of the buns.
+- Try to use a bamboo steamer. Although a metal one will suffice, it doesn't impart a subtle flavour to the buns like bamboo, and it won't prevent water from forming on flat surfaces and making soggy patches.
+- Char Siu – Chinese honey roast pork (cha shao, char siu or sometimes "Chinese BBQ")
+- Red Bean Paste – A sweet paste made of azuki beans and sugar
+- 'Jiu Cai (simplified: 韭菜, Pinyin: jiu3 cai4) – Chinese chives'
+- 'Luobosi (simplified: 萝卜丝, Pinyin: luo2bo si1) – Thinly sliced white radish'
+- Xiaolong Bao (小籠包) – "Little dragon" dumplings, one of the most famous fillings, usually soupy with spicy pork. Highly variable depending on region.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaozi_%28Steamed_Yeasted_Dumplings%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Baozi (Steamed Yeasted Dumplings)@4658355
+    url: https://en.wikibooks.org/w/index.php?oldid=4658355
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Mackerel fish
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: ng-nigerian-smoked-fish
+title: Nigerian Smoked Fish
+summary: Nigerian smoked fish is mostly used in preparing Nigerian soups, such as okra soup, bitterleaf soup, and ora soup.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 60
+difficulty: 2
+equipment:
+- Toothpicks
+- Oven
+- Grill
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: salt}
+steps:
+- Gut the fish and remove the gills. Wash well to remove any residual blood or guts.
+- Season the fish with a little bit of salt, and rub in the seasoning.
+- Bend the fish into a circle, with the fish tail inside of its mouth. Use a toothpick to secure the fish in this shape.
+- Wrap the prepared fish in aluminum foil.
+- Bake the fish for about 15 minutes.
+- Remove the foil from the fish. Set the oven to grill or broil, and broil the fish for about 10 minutes until browned.
+- Grease and preheat the grill.
+- Place the prepared fish on the grill, and cook until browned.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Smoked_Fish&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Smoked Fish@4508882
+    url: https://en.wikibooks.org/w/index.php?oldid=4508882
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

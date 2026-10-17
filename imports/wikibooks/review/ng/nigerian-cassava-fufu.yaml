@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Cassava flour
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-nigerian-cassava-fufu
+title: Nigerian Cassava Fufu
+summary: Fufu is a staple cuisine in Africa, especially in Nigeria, where it is widely consumed and considered a variety of swallow. Potato, yam, plantain, and cassava are just a few of the starchy foods that can be made into fufu.
+origin:
+  country: NG
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Wooden spatula
+- Mortar and pestle
+- Pot
+- Spoon
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Bring the water to a boil in a large pot. Stir in the cassava flour, working out any lumps.
+- Once the lumps are completely dissolved, add a small amount of water just above the cassava. Place the contents over a high to medium heat and stir intermittently.
+- The water will dry out after 10 minutes or longer of stirring, and the paste will thicken. Stir thoroughly until all of the whitish paste has combined and turned into a thick creamy tint.
+- Sprinkle water over it to keep it from becoming too thick, and flip it over to cook the other side. Scrape the edges of the pot and the wooden turner with a spoon if they appear hard and sticky.
+- When the fufu has softened and turned from a bright white to a creamy texture, remove it from the pot.
+- Place the cooked fufu on a flat surface or tray and set aside for 5 minutes to cool.
+- Hand-mix the fufu and roll it into balls like dough.
+tips:
+- Fufu is not sweet on it's own, and the best way to enjoy it is eating it with stews and soups.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Cassava_Fufu&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Cassava Fufu@4518756
+    url: https://en.wikibooks.org/w/index.php?oldid=4518756
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

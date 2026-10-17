@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - possible duplicate of hand-written recipe es-tortilla-de-patatas — merge or keep as a variant
+id: es-tortilla-espanola
+title: Tortilla Española
+summary: A tortilla española (or Spanish omelette) is a mixture of fried potatoes and onions set in eggs, fried to make a dish somewhat akin to a quiche which may be eaten like a pizza. The following recipe makes a 10-inch (25 cm) omelette that will feed from one to four persons.
+origin:
+  country: ES
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: garlic, unit: tbsp, qty: 1}
+  - {ingredient: vegetable-oil}
+  - {ingredient: potato, qty: 6, note: medium}
+  - {ingredient: onion, qty: 1}
+  - {ingredient: egg, qty: 6}
+steps:
+- Heat the garlic and a small amount of oil in a 10-inch frying pan until garlic is browned.
+- Add the rest of the oil and heat to about 375°F (200°C).
+- Cube or slice the potatoes and coarsely chop the onion; add to hot oil and fry until brown.
+- Strain the potatoes, onions, and garlic and reserve about 2 tablespoons oil.
+- Beat eggs in a separate bowl.
+- Add potatoes, onions, and garlic to beaten eggs and allow to sit for about 15 minutes.
+- Put reserved tablespoons of oil in original 10-inch frying pan and place over low-medium heat.
+- Add egg/potato/onion/garlic mixture to frying pan; fry, lifting up edges of tortilla española to allow uncooked egg to run underneath and cook.
+- 'Serve after cooked as a pizza with your choice of toppings: salsa, sour cream, shredded cheese, chives, etc., are all very good choices.'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATortilla_Espa%C3%B1ola&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tortilla Española@4517812
+    url: https://en.wikibooks.org/w/index.php?oldid=4517812
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

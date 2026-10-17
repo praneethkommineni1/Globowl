@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Flathead fillets
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gr-rosemary-garlic-fish
+title: Rosemary Garlic Fish
+summary: This is the Catsoulis family recipe from the Greek island of Kythera.
+origin:
+  country: GR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, prep: seasoned with salt and pepper}
+  - {ingredient: olive-oil, unit: tbsp, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: chopped}
+  - {ingredient: rosemary, unit: sprig, qty: 1, prep: chopped}
+  - {ingredient: white-vinegar, unit: cup, qty: 0.5}
+steps:
+- Toss fillets in seasoned flour until coated.
+- Heat oil in a skillet, and add garlic and rosemary leaves. Cook slightly, then add the fish.
+- When the fish is cooked, remove from pan and drain off excess oil.
+- There should be enough flour in the pan (fallen from the fish) to make the sauce. If there isn’t, add a tablespoon of flour to the pan juices and brown. Add vinegar (and stand back). Add a little water and stir to make gravy.
+- Spoon gravy over fish and serve with a Greek salad.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARosemary_Garlic_Fish&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rosemary Garlic Fish@4516421
+    url: https://en.wikibooks.org/w/index.php?oldid=4516421
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

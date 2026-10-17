@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 18 oz tomato juice
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-tomato-basil-soup-with-garlic-toasts
+title: Tomato Basil Soup with Garlic Toasts
+summary: This soup is comfort food at its best. You know, get all cozy in the sofa, turn on your favorite flick, that kind of thing.
+origin:
+  country: IT
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Immersion blender
+- Toaster oven
+- Basting brush
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: tomato-paste, unit: cup, qty: 1}
+  - {ingredient: heavy-cream, unit: cup, qty: 0.75}
+  - {ingredient: chicken-stock, unit: cup, qty: 0.5}
+  - {ingredient: salt, unit: tbsp, qty: 1, prep: divided}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+  - {ingredient: tomato, qty: 2, prep: diced}
+  - {ingredient: olive-oil}
+  - {ingredient: white-bread, qty: 4, prep: cut on the bias}
+  - {ingredient: garlic-powder, unit: tsp, qty: 0.5}
+  - {ingredient: basil, qty: 2, note: large}
+steps:
+- Combine paste, juice, cream, broth, 2 tsp salt, 2 tsp pepper, and diced tomatoes in a large saucepan. Bring to a boil over medium high heat.
+- Reduce heat to medium low and cook, stirring occasionally, until liquid has reduced by ⅓.
+- Using an immersion blender, purée soup until smooth. Keep warm over low heat.
+- Toast bread slices in the toaster oven. The second they come out, brush slices with olive oil and sprinkle with garlic and remaining salt and pepper. Set aside.
+- Add basil leaves to tomato purée and let steep for 5 minutes over low heat. Remove leaves.
+- Garnish individual bowls with sprigs of basil and serve warm with garlic toast.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATomato_Basil_Soup_with_Garlic_Toasts&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tomato Basil Soup with Garlic Toasts@4512031
+    url: https://en.wikibooks.org/w/index.php?oldid=4512031
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

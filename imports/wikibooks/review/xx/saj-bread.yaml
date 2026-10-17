@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+id: xx-saj-bread
+title: Saj Bread
+summary: 'Saj bread (Arabic: خبز الصاج) is a thin, unleavened flatbread baked on a griddle known as a saj.'
+origin:
+  country: XX
+course: bread
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 10
+difficulty: 2
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 0.5}
+  - {ingredient: water, unit: g, qty: 250}
+  - {ingredient: salt, unit: tsp, qty: 1}
+steps:
+- Mix flour and water, adding water gradually, until left with a workable dough. Knead thoroughly.
+- Cover the dough and let rest for about 5 minutes. Add salt.
+- Separate from dough smaller portions and make into balls. Using a flat surface lined with flour, begin to roll out each ball into a flat piece of dough.
+- Place flattened dough on griddle and bake until tender. On a heated griddle, cooking only takes a few seconds. Flip-over and cook the other side for only a few seconds.
+- Remove from griddle and allow to cool. Fold and store.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASaj_Bread_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Saj Bread I@4505509
+    url: https://en.wikibooks.org/w/index.php?oldid=4505509
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

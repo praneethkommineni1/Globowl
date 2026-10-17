@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+id: tt-sweet-rice
+title: Sweet Rice
+summary: Sweet rice is a rice pudding that can be served hot or cold.
+origin:
+  country: TT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 3}
+  - {ingredient: long-grain-rice, unit: cup, qty: 1.5}
+  - {ingredient: evaporated-milk, unit: can, qty: 1.5}
+  - {ingredient: condensed-milk, unit: can, qty: 2}
+  - {ingredient: cinnamon-stick, qty: 2}
+  - {ingredient: vanilla-extract, unit: tbsp, qty: 1}
+  - {ingredient: raisins, unit: tbsp, qty: 4, optional: true}
+steps:
+- Bring water to a boil. Add rice, and boil until very soft. Most of the water should be absorbed by the rice. Add more water if necessary.
+- Add evaporated milk, condensed milk, cinnamon sticks, and vanilla essence.
+- Cook over medium heat, stirring once in a while to prevent sticking, until mixture has thickened and reached a pudding-like consistency.
+- Remove from heat, and stir in raisins.
+- Let stand.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASweet_Rice_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sweet Rice I@4517887
+    url: https://en.wikibooks.org/w/index.php?oldid=4517887
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

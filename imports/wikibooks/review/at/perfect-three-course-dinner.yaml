@@ -1,0 +1,39 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no Ingredients section
+#  - no procedure steps
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: at-perfect-three-course-dinner
+title: Perfect Three Course Dinner
+summary: Perfect Three Course Dinner.
+origin:
+  country: AT
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- (missing)
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APerfect_Three_Course_Dinner&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Perfect Three Course Dinner@4515088
+    url: https://en.wikibooks.org/w/index.php?oldid=4515088
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

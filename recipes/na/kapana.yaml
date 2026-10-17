@@ -1,0 +1,42 @@
+id: na-kapana
+title: Kapana
+native_name: {text: Kapana, lang: en}
+summary: Strips of beef grilled fast over coals and dipped in a hot spice mix, eaten straight off the grill with tomato-chili salsa.
+origin:
+  country: NA
+  region: Windhoek and the north
+course: snack
+dish_types: [street-food, grilled-meat]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 15}
+difficulty: 1
+techniques: [grilling]
+ingredient_groups:
+  - name: Beef
+    items:
+      - {ingredient: beef-steak, qty: 600, unit: g, prep: "cut into thin strips"}
+      - {ingredient: vegetable-oil, qty: 1, unit: tbsp}
+      - {ingredient: salt, qty: 1, unit: tsp}
+  - name: Spice dip
+    items:
+      - {ingredient: paprika, qty: 2, unit: tsp}
+      - {ingredient: chili-flakes, qty: 1, unit: tsp}
+      - {ingredient: black-pepper, qty: 1, unit: tsp}
+      - {ingredient: salt, qty: 1, unit: tsp}
+  - name: Salsa
+    items:
+      - {ingredient: tomato, qty: 2, prep: "finely chopped"}
+      - {ingredient: onion, qty: 0.5, prep: "finely chopped"}
+      - {ingredient: green-chili, qty: 1, prep: "finely chopped"}
+steps:
+  - Mix the spice-dip ingredients in a small bowl. Mix the salsa ingredients with a pinch of salt.
+  - Toss the beef with the oil and salt and grill over very hot coals or a smoking griddle for 1–2 minutes per side.
+  - Cut into bite-size pieces and serve with the spice dip and salsa.
+culture: Named after the Oshiwambo word for the spice dip, kapana is sold sizzling from open grills in markets such as Windhoek's Single Quarters.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

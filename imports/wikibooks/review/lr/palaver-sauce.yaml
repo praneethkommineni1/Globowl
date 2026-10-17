@@ -1,0 +1,77 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2-inch square piece of salted cod
+#  - unmapped ingredient: 1 1/2 cup agushi seeds
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: lr-palaver-sauce
+title: Palaver Sauce
+summary: Palaver sauce is a delicious meal that has its origin from the West African countries, and particularly Liberia. It is often eaten with rice or other starches, such as yam.
+origin:
+  country: LR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 454, prep: cut into 1/2-inch cubes}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: onion, qty: 3, prep: chopped, note: large}
+  - {ingredient: garlic, qty: 3, prep: finely minced, note: large}
+  - {ingredient: red-chili, qty: 1, prep: ground}
+  - {ingredient: tomato, qty: 2, prep: diced, note: large}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 1}
+  - {ingredient: tilapia, unit: g, qty: 454}
+  - {ingredient: red-palm-oil, unit: cup, qty: 1}
+  - {ingredient: kale, unit: g, qty: 1361}
+  - {ingredient: smoked-fish, unit: g, qty: 142}
+  - {ingredient: bay-leaf, qty: 3, optional: true}
+  - {ingredient: shrimp, optional: true}
+steps:
+- Combine the beef, 1 cup water, and salt. Sprinkle some of the onions, garlic, and red pepper over the beef. Bring to a boil over medium heat, then cover and cook for about 15 minutes.
+- Add the remaining onions and red pepper, along with the tomatoes, tomato paste, fish, salt cod, and palm oil. Cook for about 5–10 minutes.
+- Add the chopped greens, then stir well and let it simmer over medium heat for another few minutes.
+- While the sauce simmers, clean the smoked fish, removing the head, skin, and bones. If you notice the sauce is boiling you can reduce the heat.
+- Gently put in the smoked fish into the saucepan, and let it simmer uncovered.
+- Grind the agushi seed in a blender with an equal amount of water. Transfer the mixture to the saucepan along with the bay leaves.
+- Try to avoid stirring the contents at this point, and leave the saucepan to simmer for about another 10 minutes.
+- Uncover the saucepan and mix the sauce. After that, continue to simmer on low heat until majority of the liquid is gone.
+- Taste and adjust the seasonings as needed to your desired taste. Enjoy with any complimentary dish of your choice.
+- Cook the greens in ½–1 cup of boiling water for 5 minutes. Drain the water from the greens, setting both the greens and the water aside for later.
+- Season and steam the meat as in the above method. Set aside.
+- In a large pot, heat some oil along with some chopped onions and fresh bay leaves. Fry them over medium heat until they are browned in order to season the oil. Remove and discard the bay leaves.
+- Stir in the ground red chili pepper, frozen fish, and salted cod. Cook for 10 minutes over medium heat.
+- Stir in the tomato paste and the water from cooking the greens. Cook, stirring constantly, for about 4 minutes.
+- Add the tomatoes and the cooked meat along with its juices.
+- Add the ground dried shrimp and the smoked fish (cleaned as in the above method).
+- Grind the agushi and stir it into the pot. Cover and cook for 10 minutes.
+- Stir and adjust the seasonings to taste. Remove from the heat, and enjoy with any special dish of your choice.
+tips:
+- This sauce can be eaten with plain white rice, boiled yam, plaintain either ripe or unripe and potatoes.
+- You can also decide to freeze or reheat the sauce.
+- If you will prefer a thick sauce, try to limit the amount of water you will be adding.
+- Any type of oil you want to use for the sauce should not be rancid, as this can spoil the taste.
+- For a complimentary green you can use okra or spinach.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APalaver_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Palaver Sauce@4533589
+    url: https://en.wikibooks.org/w/index.php?oldid=4533589
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

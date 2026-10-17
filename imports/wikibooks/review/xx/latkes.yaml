@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no time in recipe summary
+id: xx-latkes
+title: Latkes
+summary: Latkes are potato pancakes, commonly associated with the Jewish cultural tradition in the United States and Europe. They can be and are served any time, but traditionally form part of the menu during the celebration of Chanukah.
+origin:
+  country: XX
+course: snack
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: potato, qty: 4, prep: peeled, note: large}
+  - {ingredient: onion, qty: 1, prep: peeled, note: medium}
+  - {ingredient: egg, qty: 1, prep: beaten}
+  - {ingredient: cornmeal, unit: tbsp, qty: 2, prep: 'cornmeal, or flour'}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: applesauce, prep: 'sour cream, and/or sugar for serving'}
+steps:
+- Grate the potatoes and onions.
+- Place grated potatoes and onions in cheesecloth or a fine sieve. Squeeze mixture well to drain excess moisture, which will ensure proper frying.
+- Mix drained potato and onion mixture with egg, matzo meal, and salt.
+- Heat oil in a 10-inch (25 cm) pan over medium heat until it is quite hot. Drop 1–2 tablespoons of the potato mixture per pancake into the pan. Flip partway through the cooking to allow both sides to fry.
+- Serve with applesauce, sour cream, and/or sugar as a topping.
+tips:
+- Variants include cheese latkes, zucchini latkes, and apple latkes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALatkes&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Latkes@4631620
+    url: https://en.wikibooks.org/w/index.php?oldid=4631620
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

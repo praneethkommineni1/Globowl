@@ -1,0 +1,72 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Pickling spices
+#  - unmapped ingredient: Sage
+#  - unmapped ingredient: Seasoning salt
+#  - unmapped ingredient: Garlic salt
+#  - unmapped ingredient: Celery salt
+#  - no time in recipe summary
+id: ua-ukrainian-cabbage-soup
+title: Ukrainian Cabbage Soup
+alternate_names:
+- Kapusniak
+summary: Kapustnik is a hearty Central and Eastern European raw cabbage soup. It must be not confused with Kapusniak which is made of sauerkraut.
+origin:
+  country: UA
+course: soup
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- name: Soup
+  items:
+  - {ingredient: olive-oil}
+  - {ingredient: onion, qty: 2, prep: peeled and chopped}
+  - {ingredient: garlic, unit: clove, qty: [2, 5], prep: peeled and minced}
+  - {ingredient: chicken-stock, unit: l, qty: 1}
+  - {ingredient: potato, qty: [1, 2], prep: peeled and cut into bite-sized pieces}
+  - {ingredient: carrot, qty: [4, 6], prep: peeled and cut into bite-sized pieces}
+  - {ingredient: celery, qty: [4, 5], prep: sliced into bite-sized pieces}
+  - {ingredient: thyme}
+  - {ingredient: dried-oregano}
+  - {ingredient: bay-leaf}
+  - {ingredient: rosemary}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: worcestershire-sauce}
+  - {ingredient: soy-sauce}
+  - {ingredient: tomato, qty: 1, note: large}
+  - {ingredient: white-cabbage, qty: 1, prep: sliced}
+  - {ingredient: dill, prep: chopped}
+- name: Garnish
+  items:
+  - {ingredient: sour-cream}
+steps:
+- In a large cooking pot heat about 3–4 tablespoons of olive oil. Add the onions and garlic, along with more olive oil if necessary. Let the onions and garlic cook over medium or low heat for 8–10 minutes.
+- Add the chicken broth, and bring to a boil.
+- Add the potatoes, carrots, celery, and spices; bring to a boil, and simmer over medium heat until vegetables are almost tender enough to eat. If the soup becomes too thick, add some more chicken broth, but it should be a hearty soup with plenty of vegetables.
+- Season with salt, pepper, Worcestershire sauce, soy sauce, seasoning salt, garlic salt, and or celery salt as desired.
+- Add the can of tomatoes and the shredded cabbage. Again, let the soup simmer over medium heat; continue tasting to see whether your imagination has worked magic.
+- Lastly, add the chopped fresh dill.
+- When it’s done, serve garnished with sour cream.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AUkrainian_Cabbage_Soup_%28Kapusniak%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ukrainian Cabbage Soup (Kapusniak)@4637581
+    url: https://en.wikibooks.org/w/index.php?oldid=4637581
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

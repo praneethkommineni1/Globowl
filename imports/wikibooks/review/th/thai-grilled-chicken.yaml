@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: A flame-resistant towel tied into a roll with twine and soaked in oil
+#  - no time in recipe summary
+id: th-thai-grilled-chicken
+title: Thai Grilled Chicken
+summary: This marinade is also great as a sauce for beef stir-fry, a marinade for pork chops, or just a dipping sauce.
+origin:
+  country: TH
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: red-chili, qty: 2, prep: stemmed}
+  - {ingredient: soy-sauce, unit: cup, qty: 0.25}
+  - {ingredient: fish-sauce, unit: tbsp, qty: 1}
+  - {ingredient: chili-paste, unit: tsp, qty: 1}
+  - {ingredient: garlic, unit: tbsp, qty: 2}
+  - {ingredient: ginger, unit: tbsp, qty: 2}
+  - {ingredient: red-wine-vinegar, unit: tbsp, qty: 2}
+  - {ingredient: chicken, qty: 4}
+steps:
+- In a blender, purée the chiles, chile paste, sauces, garlic, ginger, and vinegar until smooth. Pour into a gallon-size zip-top bag and add chicken breasts. Refrigerate for at least 1 hour.
+- Heat a grill to medium heat. Quickly swab the grill with the towel and add chicken breasts. Cook 4–6 minutes per side or until internal temperature reaches 165°F (75 °C).
+- Remove to a plate and let rest 5 minutes. Serve warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AThai_Grilled_Chicken_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Thai Grilled Chicken I@4511528
+    url: https://en.wikibooks.org/w/index.php?oldid=4511528
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

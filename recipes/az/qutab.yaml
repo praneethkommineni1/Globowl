@@ -1,0 +1,47 @@
+id: az-qutab
+title: Qutab
+native_name: {text: Qutab, lang: az}
+alternate_names: [Kutab]
+summary: Paper-thin half-moon flatbreads stuffed with a mountain of fresh herbs and greens, cooked on a dry griddle and brushed with butter.
+origin:
+  country: AZ
+course: snack
+dish_types: [flatbread]
+authenticity: traditional
+yield: {servings: 4, amount: 12 qutab}
+time: {prep_min: 40, cook_min: 25, inactive_min: 30}
+difficulty: 3
+equipment: [Rolling pin, Large dry frying pan or saj]
+techniques: [dough-making, pan-frying]
+ingredient_groups:
+  - name: Dough
+    items:
+      - {ingredient: all-purpose-flour, qty: 300, unit: g}
+      - {ingredient: water, qty: 170, unit: ml, note: "warm"}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+      - {ingredient: vegetable-oil, qty: 1, unit: tbsp}
+  - name: Filling
+    items:
+      - {ingredient: spinach, qty: 200, unit: g, prep: "finely chopped"}
+      - {ingredient: cilantro, qty: 1, unit: bunch, prep: "finely chopped"}
+      - {ingredient: dill, qty: 1, unit: bunch, prep: "finely chopped"}
+      - {ingredient: scallion, qty: 4, prep: "finely chopped"}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+      - {ingredient: sumac, qty: 1, unit: tsp}
+  - name: To finish
+    items:
+      - {ingredient: butter, qty: 50, unit: g, prep: "melted"}
+      - {ingredient: yogurt, qty: 200, unit: ml, optional: true}
+steps:
+  - Knead the dough ingredients until smooth, cover and rest for 30 minutes.
+  - Mix the greens with the salt, squeeze lightly, and drain off excess liquid. Add the sumac.
+  - Divide the dough into 12 balls and roll each into a very thin 18 cm circle.
+  - Spread a thin layer of filling over half of each circle, fold over and press the edges to seal.
+  - Cook on a hot dry pan for 1–2 minutes per side until speckled brown. Brush generously with butter and stack.
+serving: With yogurt and an extra sprinkle of sumac.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

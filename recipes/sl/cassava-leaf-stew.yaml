@@ -1,0 +1,40 @@
+id: sl-cassava-leaf-stew
+title: Cassava Leaf Stew
+alternate_names: [Plasas, Cassava leaves]
+summary: Pounded cassava leaves simmered for hours with palm oil, meat, smoked fish and a little peanut — Sierra Leone's best-loved stew.
+origin:
+  country: SL
+  also_claimed_by: [LR, GN]
+course: main
+dish_types: [greens, stew]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 20, cook_min: 120}
+difficulty: 2
+techniques: [stewing]
+ingredient_groups:
+  - items:
+      - {ingredient: beef-chuck, qty: 500, unit: g, prep: "cubed", note: "or chicken"}
+      - {ingredient: onion, qty: 2, prep: "chopped"}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: water, qty: 1.2, unit: l}
+      - {ingredient: cassava-leaves, qty: 900, unit: g, note: "frozen pounded cassava leaves, thawed"}
+      - {ingredient: red-palm-oil, qty: 120, unit: ml}
+      - {ingredient: smoked-fish, qty: 150, unit: g, prep: "flaked"}
+      - {ingredient: peanut-butter, qty: 2, unit: tbsp}
+      - {ingredient: scotch-bonnet, qty: 1, prep: "chopped"}
+      - {ingredient: chicken-bouillon-cube, qty: 1, optional: true}
+steps:
+  - text: Simmer the meat with half the onion, the salt and water until partly tender.
+    timer_min: 30
+  - text: Add the cassava leaves and the rest of the onion and simmer, covered, stirring often. Cassava leaves must be cooked thoroughly.
+    timer_min: 50
+  - text: Add the palm oil, smoked fish, peanut butter, chili and bouillon and simmer, stirring, until thick and the oil glistens.
+    timer_min: 30
+serving: Over white rice.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

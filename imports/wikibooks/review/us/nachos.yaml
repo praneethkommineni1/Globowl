@@ -1,0 +1,44 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 12 ounces tortilla chips
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-nachos
+title: Nachos
+summary: Nachos are a dish of tortilla chips served hot with cheese and various toppings.
+origin:
+  country: US
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: cheddar, unit: g, qty: 454, prep: grated}
+  - {ingredient: red-chili, unit: cup, qty: 0.333, optional: true}
+  - {ingredient: onion, unit: cup, qty: 0.5, optional: true}
+steps:
+- Preheat the oven to 400°F (200°C). Lay the tortilla chips on a cookie sheet.
+- Toss together the cheese, chilies, and onion, and sprinkle over the tortilla chips.
+- Bake for about 2 minutes until the cheese has melted.
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANachos&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nachos@4515180
+    url: https://en.wikibooks.org/w/index.php?oldid=4515180
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

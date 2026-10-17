@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: gm-mbahal-kebb
+title: Mbahal Kebb
+alternate_names:
+- Gambian Chicken Skewers
+summary: Mbahal kebb is a traditional Gambian dish known for its unique combination of flavors and aromatic spices. It is a popular grilled chicken dish that is marinated in a tangy and spicy sauce, giving it a delicious and smoky taste.
+origin:
+  country: GM
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Grill
+- Mixing bowl
+- Wooden skewers (if using)
+- Knife
+- Cutting board
+- Serving dish
+techniques:
+- grilling
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: roasted-peanuts, unit: cup, qty: 1}
+  - {ingredient: onion, qty: 2, prep: finely chopped, note: medium}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: tomato, qty: 2, prep: diced}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 2}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: cayenne, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: chicken, unit: g, qty: 907, prep: cut into pieces}
+  - {ingredient: parsley, prep: chopped}
+steps:
+- In a mixing bowl, combine the groundnut paste, finely chopped onions, minced garlic, diced tomatoes, tomato paste, vegetable oil, ground cayenne pepper, ground black pepper, and salt. Mix well to create a marinade.
+- Add the chicken pieces to the marinade, ensuring they are well coated. Cover the bowl and let the chicken marinate for at least 2 hours, or preferably overnight in the refrigerator, to allow the flavors to develop.
+- Preheat the grill to medium-high heat.
+- If using wooden skewers, soak them in water for about 30 minutes to prevent them from burning on the grill.
+- Thread the marinated chicken pieces onto the skewers, if using, or place them directly on the grill.
+- Grill the chicken over medium-high heat, turning occasionally, until it is cooked through and has a nice charred appearance. This usually takes about 20–25 minutes, depending on the thickness of the chicken pieces.
+- Once the chicken is cooked, remove it from the grill and transfer it to a serving dish.
+- Garnish with freshly chopped parsley or cilantro.
+- Serve the mbahal kebb hot with rice or couscous.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMbahal_Kebb_%28Gambian_Chicken_Skewers%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mbahal Kebb (Gambian Chicken Skewers)@4506412
+    url: https://en.wikibooks.org/w/index.php?oldid=4506412
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 400 g shark fins
+#  - unmapped ingredient: 10 large dried Dongu mushrooms
+#  - unmapped ingredient: 50 g dried bamboo shoots
+#  - unmapped ingredient: 4 tbsp Chinese white wine
+#  - no servings in recipe summary
+id: cn-shark-fin-soup
+title: Shark Fin Soup
+summary: Shark fin soup, or shark fin stew, is a fish soup believed to have originated from China. On the Chinese seas during the 1800s, pirates under the control of Ch'ing Yih Szaou used to make shark fin soup that took at least 4 hours to prepare.
+origin:
+  country: CN
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 240
+difficulty: 3
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- name: Soup
+  items:
+  - {ingredient: shrimp, unit: g, qty: 100, prep: ground shrimp}
+  - {ingredient: ginger, qty: 1}
+  - {ingredient: bacon, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: chicken-stock, unit: l, qty: 0.75}
+  - {ingredient: chicken-stock}
+  - {ingredient: sesame-oil, unit: tsp, qty: 1}
+  - {ingredient: cornstarch, unit: tbsp, qty: 1}
+steps:
+- Clean the fins and place in lukewarm water.
+- Soak ground shrimp and dried mushrooms for 30 minutes in ¼ litre warm water. The water can then be discarded. The dried bamboo should also be soaked until soft, then cut into thin strips.
+- Thoroughly clean and scale the shark fins, then place in a litre of water. Simmer for 1 hour. Afterwards, set the water aside.
+- Place fins in a fresh litre of water and bring to a boil. Reduce heat and simmer, covered, for 1½ hours. Afterwards, strain fins.
+- In a separate pot, add chicken broth and bring to a boil. Add ginger and shrimp and simmer for 30 minutes.
+- Remove from heat and strain the broth, discarding the shrimp and ginger.
+- In a separate pot, heat the bacon fat, adding the bamboo shoots and mushrooms together with salt.
+- Sauté for 1 minute, then add soy sauce, wine, broth, fish stock, and fins. Boil over low heat, stirring frequently, for 20 minutes.
+- Remove from heat and slowly stir in the corn starch, in small increments. Sprinkle sesame oil on the soup.
+- Serve in a large bowl. The shark fins should remain on the surface.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AShark_Fin_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Shark Fin Soup@4614910
+    url: https://en.wikibooks.org/w/index.php?oldid=4614910
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

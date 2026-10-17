@@ -1,0 +1,73 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-rasam
+title: Rasam
+alternate_names:
+- Tamarind and Tomato Soup
+summary: Rasam, also called saru, is a popular dish in South India. It can be described as a thin soup, served on top of rice.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- name: Rasam powder
+  items:
+  - {ingredient: vegetable-oil, unit: tsp, qty: 2}
+  - {ingredient: coriander-seeds, unit: tbsp, qty: 1}
+  - {ingredient: red-chili, qty: [3, 4]}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 1}
+  - {ingredient: asafoetida, qty: 1, note: small}
+- name: Dhal
+  items:
+  - {ingredient: pigeon-peas-canned, unit: g, qty: 14}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1}
+  - {ingredient: vegetable-oil, unit: tsp, qty: 1}
+  - {ingredient: tomato, qty: 3}
+  - {ingredient: tamarind-paste, unit: tsp, qty: [1, 2]}
+  - {ingredient: salt}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: water}
+- name: Mustard seed seasoning
+  items:
+  - {ingredient: ghee, unit: tbsp, qty: 1}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 1}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 1}
+  - {ingredient: red-chili, qty: 2}
+  - {ingredient: curry-leaves, qty: 4}
+  - {ingredient: cilantro, unit: handful, qty: 1}
+steps:
+- Fry the all the ingredients together, adding asafoetida last, in a skillet with oil or ghee. Toast until the spices start to brown slightly.
+- Grind everything to a powder. Note that coriander seed is very difficult to powder.
+- Wash the toovar dhal thoroughly until the water runs clear.
+- Cover with double the quantity of water, turmeric powder and teaspoon of oil. Cook in a microwave for half an hour, a pressure cooker, or slowly on a stove, covered. The dhal should develop a mushy consistency.
+- Cut the tomatoes into 4 pieces, put them in a saucepan full of water, and bring to the boil.
+- Add tamarind, salt and teaspoon of sugar. The tamarind is usually very bitter, so add only a little at a time. Tamarind can be added later to adjust the flavour.
+- When the tomatoes are half cooked add the cooked dal.
+- Add enough rasam powder to give the desired taste, usually 4–5 teaspoons. It should be reasonably spicy, and neither the tamarind or sugar should dominate. Stir and keep simmering.
+- In a small pan, heat the ghee for the mustard seed seasoning and add the mustard seeds, urad dhal, chillies and curry leaves. The dhal should start to go brown and the mustard seeds will start spitting. Don't burn any of the spices—it's easy to do. Once cooked, pour the seasoning into the rest of the rasam straight away and stir it through.
+- Add chopped coriander leaves. Serve with hot and soft plain boiled rice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARasam_%28Tamarind_and_Tomato_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rasam (Tamarind and Tomato Soup)@4613714
+    url: https://en.wikibooks.org/w/index.php?oldid=4613714
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

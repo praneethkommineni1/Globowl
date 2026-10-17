@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no ingredient lines parsed
+id: it-biscotti
+title: Biscotti
+summary: 'Biscotti, more correctly known as biscotti di Prato (English: biscuits of Prato) and also as cantuccini (English: corners), are a twice-baked cake originating in the Italian city of Prato.'
+origin:
+  country: IT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 42
+  amount: 42 biscotti
+time:
+  total_min: 90
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- In a mixing bowl, cream butter and 1 cup sugar.
+- Add eggs, one at a time, beating well after each addition.
+- Stir in vanilla.
+- Combine dry ingredients; add to creamed mixture.
+- Stir in almonds.
+- Line a baking sheet with foil, and grease the foil.
+- Divide dough in half; shape into two 12 x 3-inch rectangles on the foil.
+- Brush with milk and sprinkle with remaining sugar.
+- Bake at 375°F for 15–20 minutes or until golden brown and firm to the touch.
+- Remove from oven and reduce heat to 300°F.
+- Lift rectangles with foil onto wire rack; cool for 15 minutes.
+- Place on a cutting board; slice diagonally ½ inch thick. Place slices with cut side down on an ungreased baking sheet.
+- Bake for 10 minutes. Turn cookies over; bake 10 minutes more. Turn oven off, leaving cookies in oven with door ajar to cool.
+- Store in airtight container.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABiscotti&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Biscotti@4658353
+    url: https://en.wikibooks.org/w/index.php?oldid=4658353
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

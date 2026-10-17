@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: jp-teriyaki-salmon
+title: Teriyaki Salmon
+summary: Teriyaki Salmon.
+origin:
+  country: JP
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Kettle grill
+- Large chimney starter
+- Natural chunk or hardwood lump charcoal
+- Kitchen towel tied into a roll and soaked in vegetable oil
+- Gallon-size resealable plastic bags
+- Paper towels
+ingredient_groups:
+- items:
+  - {ingredient: salmon, qty: 4, prep: pin bones removed}
+  - {ingredient: soy-sauce, unit: cup, qty: 0.5}
+  - {ingredient: ginger, unit: tbsp, qty: 1}
+  - {ingredient: garlic, unit: tsp, qty: 2}
+  - {ingredient: red-wine-vinegar, unit: tbsp, qty: 2}
+  - {ingredient: lemon, unit: tsp, qty: 1.5}
+  - {ingredient: brown-sugar, unit: tbsp, qty: 1}
+  - {ingredient: red-chili, qty: 2, prep: stemmed}
+  - {ingredient: sesame-oil}
+steps:
+- Combine all ingredients except salmon in a blender until smooth. Pour into a plastic bag and add salmon. Toss to coat, seal, removing as much air as possible, and refrigerate up to 4 hours.
+- Remove salmon from marinade and pat dry with paper towels. Brush all sides with oil.
+- Preheat 4½ pounds charcoal in starter. Once hot, disperse evenly around bottom of grill. Reapply grate and once hot, swab with towel.
+- Add salmon to hottest part of grill skin side up, and cook 3–5 minutes per side for medium, rotating 90 degrees halfway to make grill marks.
+- Remove to a plate and cover tightly with aluminum foil. Let rest 5 minutes before serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATeriyaki_Salmon&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Teriyaki Salmon@4509987
+    url: https://en.wikibooks.org/w/index.php?oldid=4509987
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,36 @@
+id: kn-stewed-saltfish
+title: Stewed Saltfish
+summary: Salt cod stewed with tomato, onion, peppers and thyme — the heart of the national dish of Saint Kitts and Nevis, with spicy plantains, coconut dumplings and breadfruit.
+origin:
+  country: KN
+course: main
+dish_types: [stew, seafood]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 30, inactive_min: 720}
+difficulty: 1
+techniques: [sauteing, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: salt-cod, qty: 400, unit: g, note: "soaked overnight in several changes of water"}
+      - {ingredient: vegetable-oil, qty: 3, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "sliced"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "minced"}
+      - {ingredient: green-pepper, qty: 1, prep: "sliced"}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: tomato-paste, qty: 1, unit: tbsp}
+      - {ingredient: thyme, qty: 3, unit: sprig}
+      - {ingredient: scotch-bonnet, qty: 0.5, prep: "minced"}
+      - {ingredient: water, qty: 150, unit: ml}
+steps:
+  - Simmer the soaked saltfish in fresh water for 10 minutes, drain and flake, removing skin and bones.
+  - Soften the onion, garlic and pepper in the oil. Add the tomatoes, paste, thyme and chili and cook for 5 minutes.
+  - text: Add the saltfish and water and simmer until saucy.
+    timer_min: 10
+serving: With spicy plantains, coconut dumplings and breadfruit.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

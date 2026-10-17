@@ -1,0 +1,80 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 servings of steamed rice
+#  - unmapped ingredient: 1 Tbsp fish oil
+#  - unmapped ingredient: Ground pepper
+#  - unmapped ingredient: 4 fish meatballs
+#  - unmapped ingredient: 2 spoons of tinned corned beef
+#  - unmapped ingredient: Sliced salted dried fish
+#  - course unknown from categories
+#  - duplicate of hand-written recipe id-nasi-goreng
+id: id-nasi-goreng
+title: Nasi Goreng
+alternate_names:
+- Indonesian Fried Rice
+summary: Nasi Goreng.
+origin:
+  country: ID
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 20
+difficulty: 2
+techniques:
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 2}
+  - {ingredient: garlic, unit: clove, qty: 1}
+  - {ingredient: shallot, qty: 2}
+  - {ingredient: red-chili, qty: 1}
+  - {ingredient: coconut-oil, unit: ml, qty: 10}
+  - {ingredient: soy-sauce}
+  - {ingredient: salt}
+- name: Optional ingredients
+  items:
+  - {ingredient: green-beans, qty: 20}
+  - {ingredient: chicken, unit: g, qty: 100, prep: cut into small pieces}
+  - {ingredient: shrimp, unit: g, qty: 100, note: small}
+  - {ingredient: cucumber, qty: 1}
+  - {ingredient: sausage}
+  - {ingredient: chicken}
+  - {ingredient: cauliflower}
+  - {ingredient: scallion}
+steps:
+- Slice shallots and red pepper into thin slices.
+- Crush garlic, peel of the skin, and mince well.
+- Slice stinky beans in half, or as desired.
+- Heat oil in wok, add the chicken or prawn, and stir fry until done.
+- Add shallot, pepper, garlic and stink beans. Stir until garlic turns golden.
+- Crack in the eggs, and stir fry until half done.
+- Add the steamed rice, and stir until all mixed.
+- Add soy sauces, salt, and ground pepper as desired.
+- Serve on plates, adding fresh cucumber slices or tomatoes as garnish.
+tips:
+- Use cold rice, preferably leftover from a day before. Unsticky rice is easier to cook and preferred by some.
+- Some prefer not to use stinky beans and use green peas or green beans as a substitute. This will give a nice shade of green.
+- If you are cooking with corned beef, leave the sweet soy sauce out. This is a variation of nasi goreng called nasi goreng kornet or corned beef fried rice.
+- Try including a sunny side up egg as accompaniment on the side.
+- Some also prefer adding vegetables such as cucumber and tomatoes.
+- You can use salted fish as a variation to make nasi goreng ikan asin, or salted fish fried rice. In this case, leave out the sweet soy sauce.
+- Substitute green peas with sliced spring onions, adding them after the rice has been added to the wok. Spring onions will give nice aroma and color to the fried rice.
+- Prawn cracker/chips are a nice condiment on the side.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANasi_Goreng_%28Indonesian_Fried_Rice%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nasi Goreng (Indonesian Fried Rice)@4675785
+    url: https://en.wikibooks.org/w/index.php?oldid=4675785
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

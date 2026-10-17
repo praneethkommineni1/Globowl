@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 pint grain alcohol
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-latte-di-suocera
+title: Latte di Suocera
+alternate_names:
+- Lemon Cream Liqueur
+summary: Latte di suocera, translated as mother-in-law's milk, is an Italian alcoholic beverage.
+origin:
+  country: IT
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: sugar, unit: g, qty: 510}
+  - {ingredient: milk, qty: 1}
+  - {ingredient: lemon}
+  - {ingredient: vanilla-extract, qty: 0.5, prep: split lengthwise}
+steps:
+- Combine all the ingredients in a wide-mouthed jar, and screw the lid on tightly.
+- Shake well, and place the jar in a cool, dark place.
+- Shake once a day for 8 days.
+- Filter the liquid and bottle it.
+- Stopper the bottle, put it in a cool dark place, and let it rest for a month before serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALatte_di_Suocera_%28Lemon_Cream_Liqueur%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Latte di Suocera (Lemon Cream Liqueur)@4522212
+    url: https://en.wikibooks.org/w/index.php?oldid=4522212
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

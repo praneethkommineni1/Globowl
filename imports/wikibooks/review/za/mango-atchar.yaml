@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 4 tsp garlic and herb salt
+#  - unmapped ingredient: 2 cups balsamic vinegar
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: za-mango-atchar
+title: Mango Atchar
+summary: Atchar is a spicy condiment, often eaten with a curry. It comes from the Indian cuisine in South Africa. In India, it is spelled Achar, and the word means pickle in Hindi. Usually the atchar made in South Africa is made with unripe green mangoes and chillies.
+origin:
+  country: ZA
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: mango, unit: kg, qty: 1.5, prep: chopped}
+  - {ingredient: chili-powder, unit: tbsp, qty: 3}
+  - {ingredient: ground-cumin, unit: tbsp, qty: 2}
+  - {ingredient: ground-coriander, unit: tbsp, qty: 1}
+  - {ingredient: curry-powder, unit: tbsp, qty: 3}
+  - {ingredient: honey, unit: cup, qty: 1.5}
+  - {ingredient: cornstarch, unit: cup, qty: 0.5}
+  - {ingredient: mustard-seeds, unit: tbsp, qty: 2}
+  - {ingredient: curry-leaves, unit: handful, qty: 1}
+  - {ingredient: olive-oil, unit: cup, qty: 1.5}
+steps:
+- Simmer all the ingredients except the mangoes and the oil until thickened.
+- Pour mixture over the mangoes, add the oil, and mix well.
+- Cool and refrigerate for at least 12 hours.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMango_Atchar&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mango Atchar@4615138
+    url: https://en.wikibooks.org/w/index.php?oldid=4615138
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

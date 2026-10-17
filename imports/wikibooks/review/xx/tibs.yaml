@@ -1,0 +1,76 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Lemon wedges, for serving
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-tibs
+title: Tibs
+alternate_names:
+- Ethiopian Sauteed Meat and Vegetables
+summary: Tibs is a flavorful Ethiopian dish made with sautéed meat or vegetables. It is a popular and versatile dish that can be made with different types of meat, such as beef, lamb, or chicken, as well as various vegetables.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large skillet or frying pan
+- Wooden spoon or spatula
+- Cutting board
+- Chef's knife
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: beef, unit: g, qty: 500, prep: cut into bite-sized pieces}
+  - {ingredient: berbere, unit: tbsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5, note: to taste}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: cayenne, unit: tsp, qty: 0.25, optional: true}
+  - {ingredient: lemon-juice, unit: cup, qty: 0.25}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: parsley, prep: 'chopped, for garnish'}
+steps:
+- Heat the olive oil in a large skillet or frying pan over medium-high heat.
+- Add the chopped onion to the pan and sauté until it becomes translucent and starts to brown.
+- Add the minced garlic to the pan and sauté for an additional minute until fragrant.
+- Add the meat to the pan and cook until browned on all sides. Stir occasionally to ensure even cooking.
+- Sprinkle the berbere spice blend, paprika, ground cumin, salt, black pepper, and cayenne pepper (if using) over the meat. Stir well to coat the meat with the spices.
+- Reduce the heat to medium and continue cooking for another 5–7 minutes, or until the meat is cooked through and tender.
+- Drizzle the lemon juice over the meat and stir to incorporate the flavors.
+- Add the butter to the pan and stir until melted, coating the meat with its rich flavor.
+- Remove the pan from the heat and garnish the tibs with fresh chopped parsley or cilantro.
+- Serve hot with injera or as a side dish alongside other Ethiopian delicacies. Accompany with lemon wedges for extra zest.
+tips:
+- Adjust the spiciness of the dish by adding more or less cayenne pepper or berbere spice blend according to your taste preferences.
+- The traditional method of cooking tibs involves the use of clarified butter, known as niter kibbeh. You can substitute the olive oil and butter with niter kibbeh for an authentic flavor.
+- For a vegetarian version, you can replace the meat with tofu or a mix of sautéed vegetables like mushrooms, bell peppers, and carrots.
+- To enhance the flavors, marinate the meat with the spices and lemon juice for a few hours or overnight before cooking.
+- Try different types of meat such as lamb or chicken for a variation in flavors and textures.
+- Add diced tomatoes or tomato paste to the pan along with the spices for a richer and saucier Tibs.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATibs_%28Ethiopian_Sauteed_Meat_and_Vegetables%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tibs (Ethiopian Sauteed Meat and Vegetables)@4510280
+    url: https://en.wikibooks.org/w/index.php?oldid=4510280
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,88 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 cups teff flour
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: et-yetsom-beyaynetu
+title: Yetsom Beyaynetu
+alternate_names:
+- Ethiopian Vegan Platter
+summary: Yetsom beyaynetu is a traditional Ethiopian vegan platter that consists of a variety of flavorful vegetable and lentil dishes served with injera, the traditional Ethiopian flatbread.
+origin:
+  country: ET
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large pot
+- Skillet or frying pan
+- Mixing bowls
+- Whisk or spoon
+- Injera pan or non-stick skillet
+- Ladle
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- name: Vegetables
+  items:
+  - {ingredient: brown-lentils, unit: cup, qty: 1}
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: tomato, qty: 2, prep: diced}
+  - {ingredient: carrot, qty: 2, prep: diced}
+  - {ingredient: potato, qty: 2, prep: diced}
+  - {ingredient: white-cabbage, unit: cup, qty: 1}
+  - {ingredient: collard-greens, unit: cup, qty: 1}
+  - {ingredient: spinach, unit: cup, qty: 1}
+  - {ingredient: olive-oil, unit: cup, qty: 0.25}
+  - {ingredient: berbere, unit: tbsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+- name: Injera
+  items:
+  - {ingredient: water, unit: cup, qty: 3}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: vegetable-oil, prep: for greasing the pan}
+steps:
+- In a large pot, combine the red lentils and water. Bring to a boil, then reduce the heat and simmer for about 20 minutes or until the lentils are tender. Drain any excess water and set aside.
+- In a skillet or frying pan, heat the olive oil over medium heat. Add the chopped onions and sauté until they become translucent.
+- Add the minced garlic and diced tomatoes to the pan. Cook for a few minutes until the tomatoes start to soften.
+- Stir in the berbere spice blend, cumin, turmeric, and salt. Mix well to coat the onions and tomatoes with the spices.
+- Add the carrots, potatoes, cabbage, collard greens, and spinach to the skillet. Stir to combine the vegetables with the spice mixture.
+- Cover the skillet and cook for about 15–20 minutes, or until the vegetables are tender but still retain their shape. Stir occasionally to prevent sticking.
+- In the meantime, prepare the injera batter. In a mixing bowl, combine the teff flour, water, and salt. Whisk well until the batter is smooth and free of lumps. Let the batter rest for 15–20 minutes.
+- Heat an injera pan or non-stick skillet over medium heat. Lightly grease the pan with cooking oil.
+- Using a ladle, pour a thin layer of the injera batter onto the pan, swirling it around to evenly distribute the batter. Cook for about 1–2 minutes until the surface is covered with small bubbles and the edges start to lift.
+- Remove the cooked injera from the pan and repeat the process with the remaining batter. Stack the injera on a plate as you go.
+- To serve, arrange the cooked lentils and vegetable dishes on a large platter. Place the injera alongside the dishes.
+- Tear off pieces of injera and use them to scoop up the lentils and vegetables. Enjoy the vibrant flavors and textures of yetsom beyaynetu!
+tips:
+- Adjust the spiciness of the vegetable dishes by increasing or reducing the amount of berbere spice blend according to your taste preferences.
+- Yetsom beyaynetu can be served warm or at room temperature.
+- You can add other vegetables of your choice, such as green beans or bell peppers, to the vegetable dishes.
+- To enhance the flavors, you can garnish the dishes with freshly squeezed lemon juice or sprinkle with chopped fresh herbs, such as cilantro or parsley.
+- Feel free to add other traditional Ethiopian side dishes to your yetsom beyaynetu platter, such as lentil sambusas or shiro.
+- Customize the spice level by adjusting the amount of berbere spice blend or adding other spices of your choice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AYetsom_Beyaynetu_%28Ethiopian_Vegan_Platter%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Yetsom Beyaynetu (Ethiopian Vegan Platter)@4494321
+    url: https://en.wikibooks.org/w/index.php?oldid=4494321
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

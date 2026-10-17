@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-madbucha
+title: Madbucha
+alternate_names:
+- North African Peppers and Tomatoes
+summary: Madbucha or matbucha is a North African dish of stewed tomatoes and peppers. It can be used as a side dish with meats, as well as put on bread or white rice. There's more than one way to make it, and the following recipe is a family recipe.
+origin:
+  country: XX
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: onion, qty: 2, prep: chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: chopped}
+  - {ingredient: tomato, qty: 15, prep: cubed}
+  - {ingredient: red-bell-pepper, qty: 10, prep: cut into small pieces}
+  - {ingredient: red-chili, qty: 5, prep: chopped small}
+  - {ingredient: tomato-paste, unit: ml, qty: 330}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: ground-cumin}
+  - {ingredient: parsley}
+  - {ingredient: dried-oregano}
+steps:
+- Take a pot that is big enough for all of the above ingredients, cover the bottom with oil, and put it on a flame.
+- When the oil gets hot, add the onion and garlic.
+- When they start to fry, add the rest of the vegetables and salt.
+- Mix it up a bit and cover the pot.
+- Leave it to cook, mixing it every so often, until the level of the liquid is higher than the level of the vegetables.
+- Drain off most (but not all) the liquid.
+- Add the tomato paste and the spices.
+- Mix, and let it cool.
+tips:
+- When chopping the peppers, you want them small but not so small that they disappear when cooked.
+- The peppers can be any color, but red is traditional.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMadbucha_%28North_African_Peppers_and_Tomatoes%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Madbucha (North African Peppers and Tomatoes)@4514096
+    url: https://en.wikibooks.org/w/index.php?oldid=4514096
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

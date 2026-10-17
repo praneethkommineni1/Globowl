@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 65 ml sultanas
+id: in-kheer
+title: Kheer
+alternate_names:
+- Rice Pudding
+summary: Kheer or payasam is a thick rice pudding.
+origin:
+  country: IN
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 30
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: l, qty: 1}
+  - {ingredient: long-grain-rice, unit: ml, qty: 250}
+  - {ingredient: sugar, unit: ml, qty: 125}
+  - {ingredient: green-cardamom-pods, qty: 6}
+  - {ingredient: almonds, unit: ml, qty: 65}
+  - {ingredient: rose-water, unit: ml, qty: 15}
+steps:
+- Bring the milk to a boil. Stir regularly to prevent scorching.
+- Add rice and simmer slowly until thick (about 20 minutes).
+- Stir in the sugar, sultanas, and the ground cardamom seeds. Cook for 5 minutes.
+- Remove from the heat, stir in the almonds and rosewater, and cover until ready to serve.
+tips:
+- You can leave the kheer boiling for much longer (several hours), until it has been significantly reduced; this provides a stronger flavour and a light-pink colour.
+- You can use rice flour or vermicelli instead of plain rice.
+- You can add some red soda to give it a nice pinkish-whitish colour.
+- For kheer that is not too thick when cold, use 170 ml (⅔ cup) of rice instead of the amount listed above.
+- If to be eaten cold, it's nicer to use double the quantities of sugar, sultanas, and almonds.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKheer_%28Rice_Pudding%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kheer (Rice Pudding)@4587270
+    url: https://en.wikibooks.org/w/index.php?oldid=4587270
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

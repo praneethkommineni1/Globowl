@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+id: dz-kesra
+title: Kesra
+alternate_names:
+- Algerian Semolina Flatbread
+summary: Kesra () is an Algerian bread made of fine grains of semolina. It is also called aghroum and ftir.
+origin:
+  country: DZ
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 40
+difficulty: 3
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: semolina, unit: g, qty: 450}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: water, unit: g, qty: 240}
+  - {ingredient: vegetable-oil, unit: g, qty: 30}
+steps:
+- Combine the semolina and salt in a mixing bowl.
+- Add the oil and mix everything to obtain a sand-like texture.
+- Gradually add water by kneading the dough to incorporate it well for about 10 minutes. The dough is ready when it is well collected and no longer sticks to the edges of the bowl or to your hands.
+- Cover the bowl with plastic wrap and let it rest for at least 30 minutes.
+- Divide the dough into small parts of around 190 g (normally 4 for this recipe).
+- Using a rolling pin, roll out the pieces while keeping a round shape.
+- Delicately prick the kesra all over with a fork.
+- Cook each kesra using a griddle or frying pan for about 4–5 minutes on both sides.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKesra_%28Algerian_Semolina_Flatbread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kesra (Algerian Semolina Flatbread)@4503219
+    url: https://en.wikibooks.org/w/index.php?oldid=4503219
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

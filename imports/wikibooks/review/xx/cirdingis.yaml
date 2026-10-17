@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no procedure steps
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+id: xx-cirdingis
+title: Cirdingis
+alternate_names:
+- Chechen Meat and Dumplings
+summary: Cirdingis (pronounced as "jirdingish") is a traditional Chechen meal consisting of dumplings and meat served with accompanying sauces. It may also be called "galnish".
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: kg, qty: 1}
+  - {ingredient: all-purpose-flour, unit: kg, qty: 0.5}
+  - {ingredient: garlic, unit: clove, qty: 3}
+  - {ingredient: salt}
+  - {ingredient: tomato-paste}
+  - {ingredient: vegetable-oil}
+steps:
+- (missing)
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACirdingis_%28Chechen_Meat_and_Dumplings%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cirdingis (Chechen Meat and Dumplings)@4501454
+    url: https://en.wikibooks.org/w/index.php?oldid=4501454
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

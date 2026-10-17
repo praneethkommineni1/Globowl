@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: xx-sincronizada
+title: Sincronizada
+alternate_names:
+- Fried Ham and Cheese Tortilla Sandwich
+summary: Sincronizada.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 10
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: tortilla, qty: 2}
+  - {ingredient: ham, unit: slice, qty: 1}
+  - {ingredient: queso-fresco, unit: slice, qty: 1}
+  - {ingredient: vegetable-oil}
+steps:
+- Heat up some oil in a pan over medium heat.
+- On a cutting board, with two tortillas, place a slice of deli ham and then queso fresco in the middle, and place another tortilla on top.
+- When the oil is hot, place the raw sincronizada on the pan and let the first side brown for a few minutes until the outside becomes crispy.
+- Once the first side is golden brown, flip the sincronizada over and brown the other side to crisp up in the same manner.
+- After a few more minutes, place the sincronizada on a plate with napkins, and enjoy.
+tips:
+- When making two sincronizadas, you must double the amount of ingredients used (e.g. 4 tortillas and 2 slices each of deli ham and queso fresco), while for each sincronizada, the amount of tortillas and filling used remains the same as the instructions above.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASincronizada_%28Fried_Ham_and_Cheese_Tortilla_Sandwich%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sincronizada (Fried Ham and Cheese Tortilla Sandwich)@4592091
+    url: https://en.wikibooks.org/w/index.php?oldid=4592091
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

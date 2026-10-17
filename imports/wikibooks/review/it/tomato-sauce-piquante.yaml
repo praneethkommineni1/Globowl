@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1/2 glass Chablis white wine
+#  - unmapped ingredient: Veloute or Espagnole sauce
+#  - unmapped ingredient: 1 tsp castor sugar
+id: it-tomato-sauce-piquante
+title: Tomato Sauce Piquante
+summary: Tomato Sauce Piquante.
+origin:
+  country: IT
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: ham, unit: g, qty: 28}
+  - {ingredient: butter}
+  - {ingredient: onion, qty: 0.5}
+  - {ingredient: carrot, qty: 0.5}
+  - {ingredient: celery, unit: stalk, qty: 0.5}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: thyme, unit: sprig, qty: 1}
+  - {ingredient: whole-cloves, qty: 1}
+  - {ingredient: black-pepper, qty: 4}
+  - {ingredient: white-vinegar, unit: cup, qty: 0.333}
+  - {ingredient: chicken-stock, unit: cup, qty: 1}
+  - {ingredient: tomato, qty: 6, prep: cut up and strained of all their liquid}
+  - {ingredient: lemon}
+  - {ingredient: butter, unit: g, qty: 28}
+steps:
+- Cut up the ham, onion, carrot, and celery very finely. Fry them in butter together with the bay leaf, thyme, clove and peppercorns.
+- Over this pour the vinegar, and when the liquid is all absorbed, add the Chablis and stock, then the tomatoes.
+- Cook this in a covered stew pan and pass it through a sieve, making sure none of the bay leaf or thyme goes through.
+- Mix this sauce with an equal quantity of Veloute sauce (No. 2) or Espagnole sauce, (No. 1), let it boil and pass through a sieve again.
+- Add the castor sugar, the lemon juice, and butter.
+tips:
+- Another tomato sauce may be made like this, using stock instead of vinegar and leaving out the lemon juice and sugar.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATomato_Sauce_Piquante&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tomato Sauce Piquante@4519033
+    url: https://en.wikibooks.org/w/index.php?oldid=4519033
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

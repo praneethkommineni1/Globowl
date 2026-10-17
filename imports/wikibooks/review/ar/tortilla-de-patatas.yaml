@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (AR, ES): confirm the country of origin
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ar-tortilla-de-patatas
+title: Tortilla de Patatas
+summary: Tortilla de Patatas.
+origin:
+  country: AR
+  also_claimed_by:
+  - ES
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: g, qty: 1361}
+  - {ingredient: egg, qty: 4}
+  - {ingredient: olive-oil, unit: cup, qty: 2}
+  - {ingredient: salt}
+steps:
+- Peel the potatoes and cut them into small cubes or thin round slices. Sprinkle with salt and leave any excess water to drain from them while heating the oil to around 350°F (177°C) in a large frying pan.
+- 'Fry the potato slices until they are very slightly golden, although this is a matter of taste: the more golden and crisp the potatoes are, the juicier will be the omelette. For a dryer and thicker tortilla, turn the heat down and let the potatoes cook gently until tender and soft.'
+- Remove the potatoes from the oil and drain. Beat the eggs, add salt to taste and mix with the potato chips. Leave them to soak for 10 minutes.
+- Heat 1 tablespoon of the olive oil in a frying pan and, when it's smoking hot, add the potato and egg mixture. Use a smaller frying pan so you will get a thicker and well-rounded omelette. Shake the pan to avoid the omelette sticking or burning.
+- After a few minutes, turn the omelette over with the help of a flat lid or a large dish, and leave until golden on the other side.
+- Serve hot or cold accompanied by a salad.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATortilla_de_Patatas&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tortilla de Patatas@4517810
+    url: https://en.wikibooks.org/w/index.php?oldid=4517810
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

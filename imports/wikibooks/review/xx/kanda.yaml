@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-kanda
+title: Kanda
+alternate_names:
+- Peanut Stew
+summary: Kanda is a stew made with chicken or beef, peanuts, vegetables, and spices. It is a popular dish in the Central African Republic and known for its rich and nutty taste.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large cooking pot with lid
+- Wooden spoon or spatula for stirring
+- Blender or food processor
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: g, qty: 907, prep: cut into pieces}
+  - {ingredient: roasted-peanuts, unit: cup, qty: 1}
+  - {ingredient: onion, qty: 2, prep: finely chopped, note: medium}
+  - {ingredient: tomato, qty: 2, prep: diced}
+  - {ingredient: red-bell-pepper, qty: 2, prep: diced}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 2}
+  - {ingredient: peanut-butter, unit: tbsp, qty: 2}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: chicken-stock, unit: cup, qty: 4}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: thyme, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: parsley, optional: true}
+steps:
+- If using peanuts with skins, start by removing the skins. You can do this by roasting the peanuts in the oven for a few minutes until the skins loosen. Rub the peanuts between your hands or use a clean kitchen towel to remove the skins.
+- In a blender or food processor, grind the peanuts until they form a fine powder. Set aside.
+- Heat oil in a large cooking pot over medium heat. Add the chopped onions and sauté until they become translucent.
+- Add the chicken or beef pieces to the pot and cook until they are browned on all sides. If using chicken with bones, this step helps enhance the flavor of the stew.
+- Stir in the minced garlic, diced tomatoes, and bell peppers. Cook for a few minutes until the vegetables start to soften.
+- Add the tomato paste, peanut butter, ground peanuts, paprika, thyme, salt, and pepper to the pot. Mix well to combine all the ingredients.
+- Pour in the chicken or beef broth and stir to incorporate everything. Bring the mixture to a boil.
+- Once it boils, reduce the heat to low and cover the pot with a lid. Allow the stew to simmer for about 1–1.5 hours, or until the meat is tender and the flavors have melded together.
+- Taste the stew and adjust the seasoning if needed, adding more salt, pepper, or spices according to your preference.
+- Serve the kanda hot, garnished with fresh parsley or cilantro if desired. It is commonly served over cooked rice or with fufu.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKanda_%28Peanut_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kanda (Peanut Stew)@4518630
+    url: https://en.wikibooks.org/w/index.php?oldid=4518630
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

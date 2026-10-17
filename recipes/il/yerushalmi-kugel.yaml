@@ -1,0 +1,50 @@
+id: il-yerushalmi-kugel
+title: Yerushalmi Kugel
+alternate_names:
+- Sweet Noodle Casserole
+summary: Yerushalmi kugel is named after the city of Jerusalem. Legend has it that it originated in Jerusalem with the followers of the Vilna Gaon in the 18th century.
+origin:
+  country: IL
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 40
+difficulty: 3
+techniques:
+- baking
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: noodles, unit: g, qty: 227}
+  - {ingredient: sugar, unit: cup, qty: 0.667}
+  - {ingredient: olive-oil, unit: tbsp, qty: 4}
+  - {ingredient: raisins, unit: handful, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: [1, 2]}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+  - {ingredient: egg, qty: 3}
+steps:
+- Boil noodles according to the package instructions and drain.
+- Heat the olive oil in a frying pan, and add ⅓ cup (80 g) sugar.
+- Stir continuously until the sugar begins to brown. Remove from heat.
+- The sugar will continue to brown for a few more minutes, creating a thick caramel.
+- Add the caramel to the noodles.
+- Add the sugar, eggs, cinnamon, pepper, and raisins. Stir.
+- Bake in a pan at 350°F (180°C) until the top begins to brown (about 40 minutes).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AYerushalmi_Kugel_%28Sweet_Noodle_Casserole%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Yerushalmi Kugel (Sweet Noodle Casserole)@4587153
+    url: https://en.wikibooks.org/w/index.php?oldid=4587153
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

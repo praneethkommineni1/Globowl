@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: eg-roz-bel-laban
+title: Roz bel Laban
+alternate_names:
+- Egyptian Rice Pudding
+summary: Roz bel laban is a classic Egyptian dessert loved for its creamy and comforting texture. Made with simple ingredients like rice, milk, sugar, and aromatic spices, it is a delightful treat that can be enjoyed warm or chilled.
+origin:
+  country: EG
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Medium-size saucepan
+- Wooden spoon or spatula for stirring
+- Measuring cups and spoons
+- Serving bowls or cups
+- Refrigerator (optional)
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 1, prep: preferably short-grain}
+  - {ingredient: milk, unit: cup, qty: 4}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.25}
+  - {ingredient: nutmeg, unit: pinch, qty: 1}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: pistachios, prep: chopped}
+steps:
+- Rinse the rice under cold water until the water runs clear. Drain well.
+- In the saucepan, combine the rinsed rice, milk, sugar, vanilla extract, cinnamon, nutmeg, and salt. Stir well to combine the ingredients.
+- Place the saucepan over medium heat and bring the mixture to a gentle simmer, stirring occasionally to prevent the rice from sticking to the bottom of the pan.
+- Reduce the heat to low and let the mixture simmer uncovered, stirring occasionally, for about 30–40 minutes or until the rice is tender and the mixture thickens to a creamy consistency.
+- Remove the saucepan from the heat and let the roz bel laban cool for a few minutes.
+- Once the pudding has cooled slightly, divide it between serving bowls or cups.
+- If you prefer to enjoy the pudding warm, it can be served immediately. If you prefer it chilled, refrigerate the pudding for at least 2 hours or until it is cold and set.
+- Before serving, garnish with chopped pistachios or almonds for added texture and flavor.
+tips:
+- Roz bel laban can be customized by adding additional ingredients such as raisins, saffron, or rose water for extra flavor.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARoz_bel_Laban_%28Egyptian_Rice_Pudding%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Roz bel Laban (Egyptian Rice Pudding)@4522786
+    url: https://en.wikibooks.org/w/index.php?oldid=4522786
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

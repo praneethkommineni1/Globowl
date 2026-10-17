@@ -1,0 +1,75 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 250 g currants
+#  - unmapped ingredient: 25 g candied fruit peel
+#  - unmapped ingredient: 350 g brandy butter
+#  - course unknown from categories
+id: xx-christmas-pudding
+title: Christmas Pudding
+summary: Christmas pudding is a dessert served typically around the Christmas festive period and on Christmas day in the United Kingdom and other Commonwealth countries such as Australia, New Zealand, South Africa, and Canada.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+  amount: 8–12
+time:
+  total_min: 630
+difficulty: 4
+equipment:
+- 1.5 L pudding basin
+- Large mixing bowl
+- 3 medium mixing bowls
+- 1 mixing spoon
+- Baking paper
+- Kitchen foil
+techniques:
+- boiling
+- simmering
+- steaming
+ingredient_groups:
+- name: Pudding ingredients
+  items:
+  - {ingredient: self-rising-flour, unit: g, qty: 100}
+  - {ingredient: raisins, unit: g, qty: 250}
+  - {ingredient: apple, qty: 1, prep: chopped, note: small}
+  - {ingredient: orange, qty: 1, prep: zested and juiced}
+  - {ingredient: lemon, qty: 1, prep: zested and juiced}
+  - {ingredient: butter, unit: g, qty: 75}
+  - {ingredient: sugar, unit: g, qty: 100}
+  - {ingredient: egg, qty: 2, note: large}
+  - {ingredient: mixed-spice, unit: tsp, qty: 1}
+  - {ingredient: white-bread, unit: g, qty: 40}
+  - {ingredient: almonds, unit: g, qty: 40, prep: chopped roughly}
+- name: Flavour options
+  items:
+  - {ingredient: brandy, unit: tbsp, qty: 3, prep: 'rum, or sherry and some extra for flaming'}
+steps:
+- In a mixing bowl, combine the raisins, currants, candied peel, and apple with zest and juice from the lemon and orange. Stir well and leave in the bowl for an hour for the flavours to combine.
+- In another bowl, cream together the butter and sugar using a spoon. When fluffy, slowly add in the eggs.
+- Sift the flour and spice together in another bowl. Add this bit by bit into the creamed butter and sugar, folding it in with the breadcrumbs and almonds. Then fold in the fruit mixture.
+- Liberally butter the pudding basin and place a small, round piece of baking paper in the bottom of the basin.
+- Slowly add the mixture into the basin and level the mixture out. Cut a layer of baking paper and foil for the top, leaving a crease in the middle so the pudding can expand, place it on top of the basin, and secure it with string.
+- 'Cook the pudding by either:'
+- 'Steaming for 8 hours: put the pudding into a steamer with simmering water. Cover with a lid and top up the water level as needed for 8 hours.'
+- 'Boiling for 7 hours: To boil, place a metal jam lid, or any kind of circular, thin metal object, at the bottom of a large pan to be a trivet. Create 2 strips of large string or foil and place them on the trivet so you can easily pick up your pudding once its cooked. Make sure there is enough to hang over the side of your pot, so its easy to get a hold of. Then, slowly place your pudding onto the trivet and pour boiling water in so that it reaches halfway up the side of your pudding bowl. Cover with a lid and let the water simmer for 8 hours until the pudding has reached a dark deep brown, adding more water as needed.'
+- Remove your pudding and leave to cool for 1–2 hours. Once cool, remove the paper and foil and replace it with fresh paper and foil. Store in a cool, dry area. The pudding can be frozen for up to 1 year.
+- To serve, steam or boil your pudding for two hours to reheat. Once reheated, turn it out onto a serving plate.
+- To flame, warm a small amount of brandy in a pan, pour it over the hot pudding once at the table and light it with a matchstick or other easily used flame. Place your bowl of brandy butter on the table for people to enjoy with your pudding.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChristmas_Pudding_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Christmas Pudding I@4587461
+    url: https://en.wikibooks.org/w/index.php?oldid=4587461
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

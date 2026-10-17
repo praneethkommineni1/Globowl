@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-mofletta
+title: Mofletta
+alternate_names:
+- Maghrebi Pancake
+summary: Mofletta is a thin, crepe-like pancake made by communities in North Africa, and made popular in Israel.
+origin:
+  country: XX
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- dough-making
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: yeast, unit: tsp, qty: 1}
+  - {ingredient: sugar, unit: pinch, qty: 1}
+  - {ingredient: water, unit: cup, qty: 0.5}
+  - {ingredient: all-purpose-flour, unit: g, qty: 250}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2, prep: plus a little extra for pan-frying}
+  - {ingredient: butter}
+  - {ingredient: honey}
+steps:
+- Dissolve the yeast and sugar in the water. Let rest in a warm place for 10–15 minutes.
+- Combine flour, salt, and 1 tablespoon of oil in a bowl. Stir in the yeast mixture to make a dough.
+- Knead the dough on a flat, flour-dusted surface until smooth and elastic.
+- Return dough to the bowl and pour the remaining tablespoon of oil onto it, rolling the dough in the bowl until it becomes oiled.
+- Cover the dough with a tea towel and leave in a warm place until it rises.
+- Divide the dough into smaller equal portions, and begin to roll the rounded portions out on an oiled work-surface, making them as thin as possible.
+- Heat a frying pan over medium heat, and grease the bottom with a little oil.
+- Fry the rolled-out dough portions one at a time until they are lightly browned on one side. Flip over and cook until browned on the second side.
+- Keep the finished mofletta in a stack, covered with a cloth to retain heat and moisture.
+- Serve with butter and honey.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMofletta_%28Maghrebi_Pancake%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mofletta (Maghrebi Pancake)@4519145
+    url: https://en.wikibooks.org/w/index.php?oldid=4519145
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

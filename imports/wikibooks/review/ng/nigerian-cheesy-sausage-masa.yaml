@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Nigerian rice masa batter
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-nigerian-cheesy-sausage-masa
+title: Nigerian Cheesy Sausage Masa
+summary: Cheesy sausage masa is a variety of Nigerian masa. It is very easy to make in no time and can be served with any fruit juice. The sausage is a great source of vitamins and minerals, and cheese is a source of protein and fat.
+origin:
+  country: NG
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: sausage}
+  - {ingredient: cheese}
+steps:
+- Cut the sausage into small, evenly-sized pieces. Do the same for the cheese.
+- Mix the sausage and cheese pieces with the masa batter.
+- Cook the masa using either the oven or stove method below.
+- Grease the masa pan.
+- Fill each divot to the brim with the batter.
+- Bake in a preheated oven until puffed, golden, and cooked through.
+- Serve hot.
+- Heat the masa pan on the stovetop.
+- Add some oil to each divot, and let it get hot.
+- Fill each divot to the brim with batter.
+- Cook on one side until golden brown.
+- Flip the masa over, and cook on the other side until golden brown and cooked through.
+- Serve hot.
+tips:
+- For this recipe, you will need a masa pan, which is a specialized pan with divots in it used to cook the masa.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Cheesy_Sausage_Masa&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Cheesy Sausage Masa@4511381
+    url: https://en.wikibooks.org/w/index.php?oldid=4511381
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

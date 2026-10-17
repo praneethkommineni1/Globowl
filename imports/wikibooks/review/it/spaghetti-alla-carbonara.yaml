@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 225–500 g guanciale or pancetta
+#  - course unknown from categories
+id: it-spaghetti-alla-carbonara
+title: Spaghetti alla Carbonara
+summary: Spaghetti alla carbonara (literally "charcoal burners' spaghetti" in Italian) is an Italian pasta dish made with eggs, pecorino romano, guanciale and black pepper. It was created in the middle of the 20th century.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 60
+difficulty: 2
+equipment:
+- Large pot
+- Large skillet
+- Bowl
+- Measuring cups and spoons
+- Fork
+techniques:
+- boiling
+- simmering
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: pasta, unit: g, qty: 450}
+  - {ingredient: egg-yolk, qty: 5}
+  - {ingredient: pecorino-romano, unit: ml, qty: 178}
+  - {ingredient: parmesan, unit: ml, qty: 178}
+  - {ingredient: olive-oil, unit: tbsp, qty: [3, 4]}
+  - {ingredient: black-pepper, unit: tbsp, qty: 0.5}
+  - {ingredient: salt}
+steps:
+- Dice the guanciale or pancetta into 2.5 cm (1-inch) pieces.
+- Bring a big pot of water to a boil and add salt to taste when it begins to simmer.
+- Cook the spaghetti until it is al dente and drain it, reserving 1 cup of water.
+- While spaghetti is cooking, heat the olive oil in a large skillet over a medium-high heat. When the oil is hot, add the pancetta and cook for about 10 minutes over a low flame until the pancetta has rendered most of its fat but is still chewy and barely browned.
+- In a bowl, slowly whisk about ½ cup of the pasta water into the egg yolks. Add the grated cheese and mix thoroughly with a fork.
+- Strain the spaghetti and transfer it immediately to the skillet with the pancetta. Toss it and turn off the heat.
+- Add the egg and cheese mixture to the pasta while stirring in the remaining pasta water to help thin the sauce and create an emulsion.
+- Add the pepper and toss all the ingredients to coat the pasta.
+tips:
+- Ideally this dish is served with a red wine (Merlot, Chianti, Montepulciano d’Abruzzo), allowed to decant for several hours, and served at 65°F (18°C).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASpaghetti_alla_Carbonara&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Spaghetti alla Carbonara@4640105
+    url: https://en.wikibooks.org/w/index.php?oldid=4640105
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

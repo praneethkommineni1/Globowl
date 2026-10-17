@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 day-old corn tortillas, cut into strips then squares
+#  - unmapped ingredient: 1/4 white onion, diced
+#  - no time in recipe summary
+id: mx-chilaquiles
+title: Chilaquiles
+summary: The following recipe is quite common in most of Mexico as a breakfast item, due to the addition of eggs, but is also eaten throughout the day including during dinner time. The additional recipe for a salsa de chile de árbol will be used as the primary sauce.
+origin:
+  country: MX
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- roasting
+ingredient_groups:
+- name: Salsa de chile de árbol
+  items:
+  - {ingredient: tomatillo, unit: cup, qty: 1, prep: dehusked}
+  - {ingredient: red-chili, qty: [4, 6], prep: roasted}
+  - {ingredient: garlic, unit: clove, qty: 1}
+  - {ingredient: water, unit: cup, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+- name: Chilaquiles
+  items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: cheese}
+steps:
+- Roast the tomatillos by wrapping them in heavy duty aluminum foil and placing them on a comal (cast iron skillet) over your stovetop (this does not need to be done in the oven; it never is in Mexico).
+- After roasting the tomatillos for approximately 15 to 20 minutes, pull them off the heat and reserve.
+- 'Roast the dried chilies and garlic directly on the comal. Caution: the dried chilies will roast in less than a minute while the garlic will take longer.'
+- Combine the roasted tomatillos, chilies, garlic, water, salt, and pepper in a blender. Liquefy the mixture thoroughly for a few minutes to ensure that the sauce is smooth and consistent with no large pieces left floating around. You will probably end up with more salsa than you need for this recipe. Use it as a condiment for any other of your favorite Mexican dishes!
+- Heat enough vegetable oil in a frying pan to deep fry the tortillas. It should be hot enough so that when you drop the pieces of tortillas into it they immediately begin to fry at a rapid pace.
+- Allow the tortillas to fry until they become a chestnut brown, just not too dark or burnt. At this point, drain most of the oil out of the pan leaving only enough to fry the rest of the ingredients.
+- Crack the egg into the fried tortillas and scramble it, folding the fried tortilla strips into the egg. At this point season this mixture with salt and pepper if desired. Take this mixture out of the pan and let it rest on a plate while you continue with the rest of the dish.
+- Add some of the oil that was taken out of the pan earlier back into it and heat it up again. To this add the diced onion, and allow it to soften for a few minutes. Add the salsa de chile de árbol to the oil and onions and sauté it for a minute or two. Add a little bit of water to dilute it if it becomes too thick.
+- Finally, return the fried tortilla and egg mixture to the onion and chili sauce in the pan and allow it cook only for about a minute, enough time to allow the tortillas to soak up some of the sauce. Before plating it, add the cheese and enjoy!
+tips:
+- In Mexico, very rarely is this dish made with tortilla chips but rather day-old tortillas that have stiffened. If you don't have day-old tortillas you can leave out fresh tortillas until they are stiff to get the right texture.
+- The chiles are very hot; adjust to taste.
+- For the cheese, you can use anything that melts well such as Monterey Jack or Manchego
+- The recipe for the chili sauce used in this recipe is of course a red sauce. If you prefer a green sauce, simply substitute the chiles de árbol with fresh jalapeño chilies that you can also roast in the same way. After you have roasted the chilies on the comal and thoroughly burnt the skins, place the chilies in a plastic bag with a small amount of water so as to allow them to steam. After about 5 minutes, remove the jalapeños from the bag and simply rub the skin off of them. Continue to make the sauce as indicated above.
+- This dish can be made with strips of chicken in addition to or as a replacement for the egg. In Mexico chilaquiles are often served throughout the day and as such the addition of chicken strips will complement it as a dinner item. Using all the same ingredients just add some warmed and shredded chicken meat during the last step before you add the cheese. Oftentimes, my mother would add a little bit of Mexican cream (somewhat like sour cream but more akin to creme fraiche) over the top of the chilaquiles right before we enjoyed them on our serving plate as a way to tone down the spicy heat of the dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChilaquiles&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chilaquiles@4511728
+    url: https://en.wikibooks.org/w/index.php?oldid=4511728
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 120 g tapioca flour
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: id-bubur-candil
+title: Bubur Candil
+alternate_names:
+- Sweet Glutinous Rice Balls in Coconut Sauce
+summary: Bubur candil are traditional Indonesian glutinous rice balls in a sweet coconut sauce.
+origin:
+  country: ID
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- name: Dough
+  items:
+  - {ingredient: rice-flour, unit: g, qty: 225}
+  - {ingredient: water, unit: ml, qty: 175}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+- name: Sauce
+  items:
+  - {ingredient: water, unit: ml, qty: 750}
+  - {ingredient: coconut-milk, unit: ml, qty: 250}
+  - {ingredient: palm-sugar, unit: ml, qty: 125}
+  - {ingredient: pandan-leaf, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+- name: Serving
+  items:
+  - {ingredient: coconut-milk, unit: ml, qty: 300, prep: boiled for few minutes}
+steps:
+- Combine rice flour and tapioca flour until well-mixed. Make a well in the middle, then gradually mix in water and salt. Mix well by hand until it forms a soft dough. Make sure that the dough is not to hard; if necessary add a bit more of water.
+- Shape the dough into little balls about 1 cm in diameter.
+- Boil a lot of water in a big stock pot. Put the little balls one-by-one in the boiling water. Cook for about 5 minutes until they float to the surface of the boiling water. Take them out and drain.
+- For the sauce, mix all the sauce ingredients in a saucepan, and heat until bubbly.
+- Place the rice balls in the sauce. Cook for further 20 minutes and set aside.
+- To serve, pour the coconut milk on top. Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABubur_Candil_%28Sweet_Glutinous_Rice_Balls_in_Coconut_Sauce%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bubur Candil (Sweet Glutinous Rice Balls in Coconut Sauce)@4587332
+    url: https://en.wikibooks.org/w/index.php?oldid=4587332
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

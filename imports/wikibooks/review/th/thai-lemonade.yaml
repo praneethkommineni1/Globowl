@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 liter carbonated water
+#  - no time in recipe summary
+id: th-thai-lemonade
+title: Thai Lemonade
+summary: This is the Thai version of lemonade.
+origin:
+  country: TH
+course: drink
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: ml, qty: 125}
+  - {ingredient: sugar, unit: g, qty: 100}
+  - {ingredient: lemongrass, unit: stalk, qty: 2}
+  - {ingredient: ginger, qty: 2, prep: peeled and cut into pieces}
+  - {ingredient: lime, prep: 'sliced, for garnish'}
+steps:
+- Bring the water to a boil with the sugar, lemon grass, and ginger. Boil for 20 minutes.
+- Allow the syrup to cool, then remove lemongrass and ginger.
+- Pour the syrup in 4 large glasses, and add the carbonated water.
+- Garnish glasses with lime discs.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AThai_Lemonade&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Thai Lemonade@4509882
+    url: https://en.wikibooks.org/w/index.php?oldid=4509882
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

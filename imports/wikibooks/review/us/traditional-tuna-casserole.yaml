@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1–2 cans tuna
+id: us-traditional-tuna-casserole
+title: Traditional Tuna Casserole
+summary: Traditional tuna casserole is a simple, quick-to-make meal, mentioned by Garrison Keillor on A Prairie Home Companion.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–8
+time:
+  total_min: 80
+difficulty: 2
+techniques:
+- baking
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: macaroni, unit: cup, qty: 1, prep: or other short pasta}
+  - {ingredient: green-peas, unit: can, qty: 1}
+  - {ingredient: mushroom, unit: can, qty: 1}
+  - {ingredient: onion, unit: tbsp, qty: 2}
+  - {ingredient: milk, unit: cup, qty: 0.125}
+  - {ingredient: cheddar, unit: can, qty: 1}
+  - {ingredient: cheese}
+steps:
+- Preheat oven to 350–400°F (180–200°C).
+- Mix all ingredients, except cheese slices, in a large casserole dish.
+- Bake for 1 hour, stirring 2 or 3 times.
+- When macaroni is tender, cover top with cheese slices, and return to oven for 5 minutes to melt.
+- Assemble all ingredients, except sliced cheese, in large skillet with 1–1½ cups (240–360 ml) hot water.
+- Bring to boil, and simmer 15 minutes, frequently stirring.
+- Melt cheese on top before serving.
+tips:
+- This tastes great with a teaspoon or two of Texas Pete hot sauce.
+- You may substitute chopped chicken or turkey for the tuna.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATraditional_Tuna_Casserole&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Traditional Tuna Casserole@4525564
+    url: https://en.wikibooks.org/w/index.php?oldid=4525564
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

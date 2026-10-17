@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+id: fr-beurre-blanc
+title: Beurre Blanc
+summary: Traditionally, a beurre blanc consists of nearly equal parts white wine and good white wine vinegar reduced dramatically with shallot, held in emulsion with quite a lot of butter. Once the basic technique has been mastered, don't be afraid to experiment with new ingredients.
+origin:
+  country: FR
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4 portions
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: dry-white-wine, unit: cup, qty: 1}
+  - {ingredient: lemon, qty: 1, prep: juiced}
+  - {ingredient: shallot, qty: [1, 2], prep: minced}
+  - {ingredient: heavy-cream, unit: tbsp, qty: 1}
+  - {ingredient: butter, unit: tbsp, qty: [10, 12], prep: very cold and in cubes or lumps}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Place the white wine in a non-reactive saucepan with the lemon juice and chopped shallots.
+- Cook this mixture until reduced to about 2 tablespoons, and don't be shy about letting it boil—it will not adversely affect the sauce. Once reduced, the shallot should still be fairly moist. If you're looking at a dry pan, there's a good chance your sauce won't hold.
+- Reduce heat to low flame. If you want to increase the holding power of your sauce, add the heavy cream at this juncture, but every authority on traditional French preparation would disapprove.
+- Begin to add cubes of the cold butter while whisking vigorously. From a technical standpoint, the sauce should stay under 200°F (95°C), so do some of the whisking off the flame. Whisk in 1 or 2 cubes and add more, and continue until you've added all the butter.
+- Season with salt and white pepper, and serve immediately. The sauce can be held in a vacuum container, such a Thermos, but this is not recommended for long periods of time.
+tips:
+- American chefs may try to enhance the presentation of the sauce by straining the shallot out before plating, but the French know better. If the shallot has been sufficiently chopped it has no deleterious effect on the texture of the finished product.
+- You must use a non-reactive saucepan (i.e. stainless steel, ceramic, enamel, etc.) because the sauce contains acidic components.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeurre_Blanc&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Beurre Blanc@4518854
+    url: https://en.wikibooks.org/w/index.php?oldid=4518854
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

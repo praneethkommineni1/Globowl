@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 300 g squid tubes
+#  - unmapped ingredient: 200 g scallops
+#  - unmapped ingredient: 1 glass of dry white wine
+id: it-seafood-risotto
+title: Seafood Risotto
+summary: Risotto is an Italian rice dish, most popular in the north of Italy. Historically, risotto is the name given to all recipes that use rice as the main component and are served as first dish in a traditional Italian lunch or dinner as usually pasta also is.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4 persons
+time:
+  total_min: 40
+difficulty: 3
+techniques:
+- marinating
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: shrimp, unit: g, qty: 300}
+  - {ingredient: vegetable-oil}
+  - {ingredient: white-vinegar}
+  - {ingredient: dried-oregano}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: chicken-stock}
+  - {ingredient: long-grain-rice, unit: g, qty: 400}
+  - {ingredient: onion, qty: 1, prep: finely-chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: parsley, prep: finely chopped}
+  - {ingredient: butter, unit: g, qty: 25, prep: cubed}
+steps:
+- Cut the squids into strips or rings.
+- In a bowl marinade the squids, the prawns, and the scallops with some oil, balsamic vinegar, oregano, salt, and pepper. Let it marinate for half hour in the fridge while you are cooking the rice.
+- Bring the fish stock to simmering point without letting the stock boil. The surface of the stock should just be moving a little.
+- In a large thick pot heat a thin layer of olive oil. Add the onion and garlic, and sweat very gently as for a soffritto.
+- Stir in the rice, and cook until it has a transparent look for not more than 2 minutes. Add some salt and pepper and the wine.
+- As the wine cooks away you will see the remaining liquid getting thicker as it is absorbing the starch from the rice. When it is more or less gone, add some hot stock. Do not add too much stock all at once. The rice should never be submerged in stock. Keep stirring it and keep adding more stock as it cooks away. This should take about 15–20 minutes.
+- Taste during the cooking to see if the rice is done. The rice should be soft, but have enough bite to it to feel the individual grains of rice.
+- Five minutes before the end of the cooking time for the risotto, add the marinated squid, the scallops, and the prawns. Add the parsley right before tuning off the heat.
+- When it's done, stir in the butter in small chunks at the time, tasting to get the amount of butter right. Season with more salt and pepper to taste.
+- Let it rest for a few minutes, and then serve.
+tips:
+- Risotto rice is plump, medium grain rice that contains a lot of starch; Arborio, Carnaroli or Vialone Nano varieties are traditionally best.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASeafood_Risotto&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Seafood Risotto@4525175
+    url: https://en.wikibooks.org/w/index.php?oldid=4525175
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

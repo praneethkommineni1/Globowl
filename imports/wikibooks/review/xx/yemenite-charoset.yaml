@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 100 g dried figs, finely chopped
+#  - unmapped ingredient: 1 pomegranate
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+#  - duplicate id xx-yemenite-charoset from another Wikibooks page
+id: xx-yemenite-charoset
+title: Yemenite Charoset
+summary: Yemenite Charoset.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: dates, unit: g, qty: 300, prep: finely chopped}
+  - {ingredient: raisins, unit: g, qty: 300, prep: finely chopped}
+  - {ingredient: sesame-seeds, unit: g, qty: 200}
+  - {ingredient: almonds, unit: g, qty: 100}
+  - {ingredient: walnuts, unit: g, qty: 100}
+  - {ingredient: black-pepper, unit: g, qty: 10}
+  - {ingredient: ground-cumin, unit: g, qty: 20}
+  - {ingredient: ground-cinnamon, unit: g, qty: 10}
+  - {ingredient: ground-ginger, unit: g, qty: 10}
+  - {ingredient: ground-cardamom}
+  - {ingredient: red-wine}
+steps:
+- Separately pound all ingredients except the fruits in a mortar and pestle.
+- Mix all dry ingredients together (walnuts, almonds, sesame seeds, etc.), then mix all wet ingredients together (raisins, dates, figs, etc.).
+- In a large bowl, mix all ingredients together with ones hands and fingers.
+- At Passover, smaller servings are dished out to all diners. A dash of red wine or grape juice or vinegar is added directly to each smaller dish shortly before dipping one's matzah into the charoset.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AYemenite_Charoset_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Yemenite Charoset II@4630221
+    url: https://en.wikibooks.org/w/index.php?oldid=4630221
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

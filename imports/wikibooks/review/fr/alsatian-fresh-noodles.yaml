@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no time in recipe summary
+id: fr-alsatian-fresh-noodles
+title: Alsatian Fresh Noodles
+alternate_names:
+- Nouilles fraîches à l'Alsacienne
+summary: Alsatian Fresh Noodles.
+origin:
+  country: FR
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 8}
+  - {ingredient: salt, unit: g, qty: 10}
+  - {ingredient: red-wine-vinegar, unit: tsp, qty: 1}
+  - {ingredient: all-purpose-flour, unit: g, qty: 454}
+  - {ingredient: butter}
+steps:
+- Break the eggs and place in a large bowl. Mix in salt and vinegar.
+- While mixing, gradually add the flour.
+- Work the dough for several minutes until it is smooth.
+- Roll dough into a ball and wrap in a dry cloth. Allow to rest for 1 hour.
+- Divide the dough into pieces the size of a tennis ball and flatten on the work surface to a thickness of 2 mm (⅛ inch).
+- Allow the dough to dry for 30 minutes, turning the rounds frequently. One can also dry them by suspending them from a cord or over a broom handle place on the backs of two chairs.
+- Flour each round and roll it up on itself. Cut into slices 3–4 mm (¼ inch) thick.
+- Unroll to obtain the noodles, and spread out on a large tray without tangling them.
+- Fill a large pot with salted water; bring to a boil and plunge in the noodles. Simmer for 7–8 minutes.
+- Drain the noodles and toss with melted butter.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAlsatian_Fresh_Noodles_%28Nouilles_fra%C3%AEches_%C3%A0_l%27Alsacienne%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Alsatian Fresh Noodles (Nouilles fraîches à l'Alsacienne)@4502325
+    url: https://en.wikibooks.org/w/index.php?oldid=4502325
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

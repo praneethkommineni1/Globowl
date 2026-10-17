@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: rw-inyama-y-isugi
+title: Inyama y'Isugi
+alternate_names:
+- Rwandan Grilled Pork
+summary: Inyama y'isugi is a traditional Rwandan dish of succulent grilled pork. The pork is marinated in a flavorful blend of spices and grilled to perfection, resulting in tender and juicy meat with a smoky flavor.
+origin:
+  country: RW
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Grill
+- Tongs
+- Basting brush
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: pork, unit: g, qty: 907}
+  - {ingredient: lemon, prep: for garnish, optional: true}
+steps:
+- Preheat the grill to medium-high heat.
+- In a small bowl, combine the vegetable oil, minced garlic, grated ginger, paprika, cayenne pepper, cumin, coriander, salt, and black pepper. Mix well to form a paste.
+- Rub the spice paste all over the pork loin or pork chops, ensuring they are well coated.
+- Place the marinated pork on the preheated grill and cook for about 4–5 minutes per side, or until the internal temperature reaches 145°F (63°C) for medium doneness.
+- While grilling, baste the pork with any remaining spice paste using a basting brush to enhance the flavor and keep it moist.
+- Once cooked, remove the pork from the grill and let it rest for a few minutes before slicing.
+- Slice the grilled pork into thin strips and serve hot. If desired, drizzle fresh lemon juice over the grilled pork slices for a tangy twist.
+tips:
+- For a more intense flavor, marinate the pork in the spice paste for at least 2 hours, or overnight in the refrigerator.
+- Adjust the amount of cayenne pepper according to your preferred level of spiciness.
+- Inyama y'isugi pairs well with traditional Rwandan sides like isombe (cassava leaves with eggplant) or ibijumba (grilled plantains).
+- Feel free to customize the spice blend by adding other herbs and spices such as turmeric or smoked paprika.
+- Pork is a rich source of protein, vitamins, and minerals.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AInyama_y%27Isugi_%28Rwandan_Grilled_Pork%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Inyama y'Isugi (Rwandan Grilled Pork)@4510144
+    url: https://en.wikibooks.org/w/index.php?oldid=4510144
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

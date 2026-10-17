@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup dry marsala wine
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+id: us-chicken-marsala
+title: Chicken Marsala
+summary: Classic Italian-American Chicken Marsala with detailed instructions.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: rosemary, unit: sprig, qty: 3, prep: finely chopped}
+  - {ingredient: thyme, unit: sprig, qty: 6, prep: finely chopped}
+  - {ingredient: all-purpose-flour}
+  - {ingredient: chicken, qty: 2}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: egg, qty: 2, prep: beaten}
+  - {ingredient: olive-oil, unit: tbsp, qty: 1}
+  - {ingredient: chicken-stock, unit: cup, qty: 0.25}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 2}
+steps:
+- Combine ¼–½ cup (depending on how thick you like it) all-purpose flour with rosemary and thyme in a gallon size zip-top bag. Set aside.
+- Pound chicken breasts flat under a water-spritzed sheet of plastic wrap with a pie plate and a heavy food can, or pound down lightly with a tenderizing hammer. Depending on the size of the chicken breasts, you may first wish to cut them vertically or horizontally to achieve the desired serving sizes and shapes. Season each piece with kosher salt and freshly ground black pepper.
+- Dip each piece of chicken into eggs then toss in seasoned flour.
+- Heat oil in large stainless steel skillet over medium high heat (don't even think about using a nonstick surface). Add chicken breasts and cook until deeply browned on each side. Remove and keep warm.
+- Add marsala to pan and ignite either by tilting or fire stick/lighter. Whisk to loosen browned bits until reduced by ¾.
+- Add broth and tomato paste to pan and whisk to combine. Add chicken breasts and lower heat to medium low heat. Simmer for 7 minutes.
+- Serve warm with garlic bread and some espresso.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Marsala_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chicken Marsala II@4511914
+    url: https://en.wikibooks.org/w/index.php?oldid=4511914
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

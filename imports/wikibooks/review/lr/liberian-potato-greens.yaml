@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3 large bunches of sweet potato greens
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: lr-liberian-potato-greens
+title: Liberian Potato Greens
+summary: This is an easy and delicious dish popularly cooked in West Africa.
+origin:
+  country: LR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: onion, qty: 2, prep: neatly chopped, note: big}
+  - {ingredient: beef, unit: g, qty: 907, prep: cut into medium cubes}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: onion-powder, note: to taste}
+  - {ingredient: bouillon-cube, prep: crushed}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Wash the potato greens very well, and remove the leaves from the stems. Chop the leaves into small pieces and set aside.
+- Heat a few tablespoons of oil in a large pot. Add the onions and meat, and cook until almost done. Remove from the pot and set aside.
+- Add the potato greens, and fry for about 15 minutes or until tender. Stir frequently to prevent burning.
+- Add enough water to cover the greens, and season to taste with salt, onion powder, bouillon cubes, and ground pepper.
+- Cook over medium heat until all the water is gone, stirring frequently.
+- Remove from the heat and serve.
+tips:
+- Do not eat white potato greens—they are toxic. Sweet potato greens, however, are safe. You can get potato greens from the market or from local farmers.
+- If desired, add a pinch of baking soda to the greens when cooking to keep their green color.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALiberian_Potato_Greens&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Liberian Potato Greens@4503471
+    url: https://en.wikibooks.org/w/index.php?oldid=4503471
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

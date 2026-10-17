@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-khandvi
+title: Khandvi
+alternate_names:
+- Rolled Chickpea Noodles
+summary: Khandvi (in Gujarati) or surali chya vadya (in Marathi) is a famous Western Indian dish. It is similar to rolled pasta made from chickpea flour. It is savoured as a snack or as a starter and is extremely popular in Gujarat and Northwestern Maharashtra.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- whisking
+ingredient_groups:
+- name: Batter
+  items:
+  - {ingredient: chickpea-flour, unit: cup, qty: 0.5}
+  - {ingredient: buttermilk, unit: cup, qty: 1}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: chili-powder, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+- name: Garnish
+  items:
+  - {ingredient: mustard-seeds, unit: tsp, qty: 1.5}
+  - {ingredient: sesame-seeds, unit: tsp, qty: 1}
+  - {ingredient: curry-leaves, qty: [15, 20], prep: slivered}
+  - {ingredient: green-chili, qty: 1, prep: very finely diced}
+  - {ingredient: coconut, unit: tbsp, qty: [1, 2]}
+steps:
+- Combine the batter ingredients to make a smooth batter. Mix well with a whisk to ensure there are no lumps.
+- Heat a wok or pan over medium-low heat, and add 2–3 teaspoons of oil.
+- Add the batter to the wok. Begin stirring the batter continuously to prevent the formation of lumps during cooking. Continue stirring until the mixture thickens almost to a dough.
+- Spread a small amount of the mixture on a greased surface to form a thin layer. Let cool, and try rolling it up. If you can't roll it up, the mixture needs to be cooked more.
+- When the mixture is ready, quickly spread it in a very thin layer on a greased sheet. It should be thinner than a crêpe. Let cool.
+- Cut the cooled layer into strips, and roll the strips up.
+- Garnish with the mustard seeds, sesame seeds, curry leaves, jalapeño, and coconut.
+tips:
+- The spices can be adjusted according to taste.
+- If the batter mixture isn't cooked enough, it will not solidify enough to be rolled up. If it is overcooked, you will not be able to spread it very thinly, and the rolls will be thick.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKhandvi_%28Rolled_Chickpea_Noodles%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Khandvi (Rolled Chickpea Noodles)@4615167
+    url: https://en.wikibooks.org/w/index.php?oldid=4615167
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ua-ukrainian-cornmeal-stuffing
+title: Ukrainian Cornmeal Stuffing
+alternate_names:
+- Nachynka
+summary: Nachynka in Ukrainian literally means stuffing. This dish is usually not stuffed inside anything, but served as a side dish.
+origin:
+  country: UA
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: cup, qty: 0.5}
+  - {ingredient: cornmeal, unit: cup, qty: 1}
+  - {ingredient: milk, unit: cup, qty: 3}
+  - {ingredient: egg, qty: 2, note: large}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: sugar, unit: tsp, qty: 0.5}
+  - {ingredient: baking-powder, unit: tsp, qty: 1}
+  - {ingredient: butter}
+steps:
+- Preheat oven to 350°F (175°C).
+- Melt butter in a pot on medium heat.
+- Add cornmeal. Stir mixture to warm up the cornmeal.
+- Add milk. Stir until mixture has thickened.
+- Beat eggs. Beat in salt, sugar, and baking powder.
+- Slowly add some of the thickened cornmeal mixture to the egg mixture while mixing to temper the eggs.
+- Stir the egg mixture into the rest of the cornmeal.
+- Pour the mixture into a greased casserole dish.
+- Bake at 350°F (175°C) for 30–40 minutes or until the top has browned.
+tips:
+- While you are thickening the cornmeal mixture, you have enough time to beat the eggs.
+- Doubling the recipe will yield enough to fill a 2 litre casserole dish.
+- 'For different flavour variations:'
+- Mix in a ¼ teaspoon of cinnamon.
+- Chop up a small onion and cook till tender in the butter, before adding cornmeal.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AUkrainian_Cornmeal_Stuffing_%28Nachynka%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ukrainian Cornmeal Stuffing (Nachynka)@4518729
+    url: https://en.wikibooks.org/w/index.php?oldid=4518729
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

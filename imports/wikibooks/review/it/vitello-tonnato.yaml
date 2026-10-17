@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tin good quality tuna in olive oil
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-vitello-tonnato
+title: Vitello Tonnato
+alternate_names:
+- Veal with Tuna Sauce
+summary: Vitello tonnato is one of the Italian signature dishes, usually served as a starter, and is quite, quite delicious. If you really like it, serve it as a main course with maybe a bean and tomato salad.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: veal, qty: 1}
+  - {ingredient: bay-leaf, qty: 2}
+  - {ingredient: bouquet-garni, qty: 1}
+  - {ingredient: mayonnaise, qty: 1}
+  - {ingredient: lemon, qty: 1, prep: juiced}
+  - {ingredient: black-pepper}
+  - {ingredient: salt}
+  - {ingredient: heavy-cream, qty: 1, note: small}
+steps:
+- Simmer the veal for about 15 minutes in water with the bay leaves and bouquet garni.
+- Remove from the water once cooked, wrap it in either clingfilm or aluminium foil, and place in the fridge for 3 hours until quite cool, or preferably overnight. It is important you don't try to do this whilst the veal is even slightly warm as it will mess up the sauce.
+- Turn the mayonnaise and the tin of tuna into a blender and blend until it is a smooth paste
+- Add the juice of the lemon, a large pinch of pepper, and a normal pinch of salt, and blend again. The sauce should not be runny, but neither should it be too stiff. So that it becomes a pourable consistency, add a few spoonfuls of the cream.
+- Now take the cooked veal out of its wrapping and using a sharp knife slice as thin as you can possibly make them and arrange on a large serving dish. If you have a mallet, cover the slices of veal in foil and bash away at them until they are as thin as possible!
+- Take the sauce and pour it over the veal so that the veal becomes completely covered in the sauce. Not too thick, not too thin.
+- Decorate with capers. Grind some red pepper over the top (optional) and it is ready to serve.
+tips:
+- You can decorate the dish using fresh pomegranate seeds and maybe some edible herb leaves here and there.
+- If you have an issue with using veal, you can roast a piece of beef so it's rare, or even go to the deli counter and buy some rare roast beef and use that in place of the veal. Raw steak is also quite delicious
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AVitello_Tonnato_%28Veal_with_Tuna_Sauce%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Vitello Tonnato (Veal with Tuna Sauce)@4511104
+    url: https://en.wikibooks.org/w/index.php?oldid=4511104
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

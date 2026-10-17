@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: hu-yeasted-kifli
+title: Yeasted Kifli
+summary: Kifli crescents are Hungarian pastries. Unlike the vanilla kifli, these kifli are yeasted.
+origin:
+  country: HU
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 60
+  amount: 60–80 cookies
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- dough-making
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: cup, qty: 0.25, prep: warmed}
+  - {ingredient: yeast, unit: tbsp, qty: 1}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 3}
+  - {ingredient: butter, unit: g, qty: 227}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: sugar, unit: tbsp, qty: 3.5}
+  - {ingredient: baking-powder, unit: tsp, qty: 0.5}
+  - {ingredient: egg-yolk, qty: 3}
+  - {ingredient: sour-cream, unit: cup, qty: 0.5}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 0.5}
+  - {ingredient: jam}
+steps:
+- Mix together milk, yeast, and 1 tsp sugar, then set aside. Ensure it does not clump.
+- Using a pastry knife, mix flour, butter, salt in a bowl until crumbly.
+- Add 3½ tbsp sugar and baking powder to the flour mixture.
+- In a separate bowl, whisk the egg yolks. Add the yeast mixture, then the sour cream and vanilla.
+- Mix the wet ingredients with the dry ingredients. You should get a dough with the consistency of peanut butter cookie dough. Add additional flour if the dough is too sticky.
+- Knead dough well and let stand 2 hours in a warm place. To allow the dough to rise, place the bowl with the dough (covered with a tea towel) onto the top rack of the oven and place a bowl of hot water on the lower rack. Leave the oven off, and this setup will gently warm and allow the dough to rise.
+- Divide the dough into 5 equally-sized balls.
+- Sprinkle sugar on a board, put a dough ball on the board, and roll out into a circle about 12 inches across.
+- Flip the dough over and put more sugar on the board. Cut like a pizza into wedges about 1½ inches at the widest. Put about 1 tsp filling on each wedge and roll in sugar.
+- Bake on a cookie sheet at 325°F for 15 minutes or until golden brown.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AYeasted_Kifli&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Yeasted Kifli@4587237
+    url: https://en.wikibooks.org/w/index.php?oldid=4587237
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

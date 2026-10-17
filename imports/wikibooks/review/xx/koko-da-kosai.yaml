@@ -1,0 +1,75 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 cup millet grains
+#  - unmapped ingredient: Powdered milk
+#  - course unknown from categories
+id: xx-koko-da-kosai
+title: Koko da Kosai
+alternate_names:
+- Fermented Corn Porridge and Bean Fritters
+summary: Koko da kosai (Hausa for fermented corn porridge and bean fritters) is a beloved traditional breakfast widely eaten across Northern Nigeria and parts of West Africa. It is especially common among the Hausa-speaking people.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–3
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- deep-frying
+ingredient_groups:
+- name: For the koko
+  items:
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: [2, 3]}
+  - {ingredient: ground-ginger, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cloves, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25, optional: true}
+  - {ingredient: potash, unit: tsp, qty: 0.5}
+  - {ingredient: sugar, optional: true}
+- name: For the kosai
+  items:
+  - {ingredient: black-eyed-peas, unit: cup, qty: 1, prep: soaked overnight and peeled}
+  - {ingredient: onion, qty: 0.5, prep: finely chopped, note: medium}
+  - {ingredient: red-chili, qty: [1, 2], prep: chopped}
+  - {ingredient: salt}
+  - {ingredient: water}
+  - {ingredient: vegetable-oil}
+steps:
+- Place the millet in a large bowl, and cover with a large volume of cool, clean water. Let soak for 1–2 days to ferment slightly, changing the water daily to avoid spoilage.
+- Rinse and drain the millet, then use a blender or other suitable tool to grind it to a smooth paste with the 2 cups of water.
+- Using a fine sieve or cheesecloth, strain the paste to remove the chaff. Discard the chaff and keep the liquid starch mixture (called koko base).
+- Transfer the koko base, potash, ginger, and cloves to a pot over medium heat. Stirring continuously to avoid lumps, cook until the mixture thickens into a smooth porridge. Remove from heat when it reaches a creamy consistency.
+- If desired, add sugar or milk to taste before serving.
+- Cover the black-eyed peas with cool water, and soak them for 4–12 hours. Drain and peel the skins from the beans.
+- Blend the peeled beans, onion, and just enough water to get a smooth and thick purée. Do not make the mixture too watery.
+- Stir in salt and chili pepper.
+- In a deep frying pan, heat enough vegetable oil for deep frying over medium-high heat.
+- Use a spoon to gently scoop small portions of the batter into hot oil. Fry until golden brown on both sides (about 2–3 minutes per side).
+- Remove from the oil using a slotted spoon and place on paper towels to drain excess oil.
+- Serve the kosai with the finished koko.
+tips:
+- The koko porridge is traditionally made with guinea corn or millet in some regions, but fermented maize is also widely used.
+- Potash helps the porridge thicken quickly and adds a distinct flavor, but it can be omitted or replaced with baking soda for a milder taste.
+- Kosai is best when crispy on the outside and soft on the inside. Ensure the oil is hot enough before frying to prevent sogginess.
+- For fluffier kosai, beat the bean batter thoroughly to incorporate air before frying.
+- Some enjoy adding groundnut or spicy sauce for extra flavor.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKoko_da_Kosai_%28Fermented_Corn_Porridge_and_Bean_Fritters%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Koko da Kosai (Fermented Corn Porridge and Bean Fritters)@4603864
+    url: https://en.wikibooks.org/w/index.php?oldid=4603864
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

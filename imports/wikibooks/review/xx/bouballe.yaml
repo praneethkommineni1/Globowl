@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 tbsp matzo meal
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-bouballe
+title: Bouballe
+alternate_names:
+- Sweetened Matzo Meal Omelette
+summary: Bouballe is a Jewish dish traditionally eaten for Passover. It is a sort of sweetened omelette bound with matzo meal and starch .
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 2}
+  - {ingredient: cornstarch, unit: tbsp, qty: 1}
+  - {ingredient: sugar}
+steps:
+- Whip the egg whites.
+- Add the yolks, then the matzo meal and cornstarch. Mix everything together.
+- Cook the mixture like an omelette.
+- When cooked, sprinkle with sugar and serve.
+tips:
+- Before sprinkling the sugar, cut into small squares, so it can be eaten with your fingers.
+- Goes well with maple syrup
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABouballe_%28Sweetened_Matzo_Meal_Omelette%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bouballe (Sweetened Matzo Meal Omelette)@4630255
+    url: https://en.wikibooks.org/w/index.php?oldid=4630255
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

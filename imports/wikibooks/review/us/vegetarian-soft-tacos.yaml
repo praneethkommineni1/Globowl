@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 tablespoons chilli powder
+#  - no time in recipe summary
+id: us-vegetarian-soft-tacos
+title: Vegetarian Soft Tacos
+summary: Vegetarian Soft Tacos.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: paprika, unit: tbsp, qty: 1.5}
+  - {ingredient: onion, unit: cup, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 0.5}
+  - {ingredient: garlic, unit: clove, qty: 2}
+  - {ingredient: red-bell-pepper, qty: 1}
+  - {ingredient: beef-mince, unit: g, qty: 454}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: tortilla, qty: 8}
+- name: Suggested toppings
+  items:
+  - {ingredient: refried-beans, unit: can, qty: 1}
+  - {ingredient: tomato, qty: 1, prep: chopped}
+  - {ingredient: onion, unit: cup, qty: 1}
+  - {ingredient: lettuce, unit: cup, qty: 2}
+  - {ingredient: cheese, unit: cup, qty: 1}
+  - {ingredient: sour-cream}
+steps:
+- In a frying pan brown onions on medium-low heat.
+- Add garlic, chilli powder, paprika, salt, and red pepper. Stir and cook for 1 minute.
+- Add beef substitute and water. Cook for 10–15 minutes until most of the water is gone.
+- Meanwhile chop and shred the toppings as needed. Put toppings in bowls on table.
+- Start to warm refried beans in a small pot.
+- Heat another frying pan on medium-low heat.
+- Put vegetarian taco meat and refried beans in bowls and place on table.
+- Put floured tortilla in pan and lightly brown both sides. As tortillas are ready allow guests to select their own toppings.
+tips:
+- The filling and refried beans keep well in the refrigerator.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AVegetarian_Soft_Tacos&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Vegetarian Soft Tacos@4518777
+    url: https://en.wikibooks.org/w/index.php?oldid=4518777
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

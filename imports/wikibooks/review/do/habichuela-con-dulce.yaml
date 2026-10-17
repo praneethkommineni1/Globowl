@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Milk cookies
+id: do-habichuela-con-dulce
+title: Habichuela con Dulce
+alternate_names:
+- Dominican Sweet Beans
+summary: Habichuela con dulce, also known as sweet beans or sweet cream of beans is a Dominican dessert that is mostly made during Good Friday.
+origin:
+  country: DO
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 10
+  amount: 10+
+time:
+  total_min: 65
+difficulty: 4
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: kidney-beans-canned, unit: cup, qty: 4}
+  - {ingredient: raisins, unit: cup, qty: 0.5}
+  - {ingredient: condensed-milk, unit: cup, qty: 3}
+  - {ingredient: condensed-milk, unit: cup, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: cinnamon-stick, qty: 2}
+  - {ingredient: whole-cloves, qty: 10}
+  - {ingredient: sweet-potato, qty: 1, prep: cubed small}
+steps:
+- Blend cooked beans, including the water they cooked in, into a purée.
+- Strain beans into a pot in order to get rid of any skins.
+- Mix in sweetened condensed milk, evaporated milk, vanilla extract, salt, sugar, sweet potatoes, cinnamon sticks, and cloves.
+- Simmer over low heat until the sweet potatoes are fully cooked. Stir occasionally so that it will not stick on the bottom.
+- Add raisins and simmer for 10 minutes. You can also add the milk cookies if you want them to become soft.
+- Remove beans from heat.
+- If you want, you may remove the cinnamon sticks and cloves.
+- Serve beans in a bowl, and add milk cookies on top. You may serve warm or chilled.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHabichuela_con_Dulce_%28Dominican_Sweet_Beans%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Habichuela con Dulce (Dominican Sweet Beans)@4587448
+    url: https://en.wikibooks.org/w/index.php?oldid=4587448
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

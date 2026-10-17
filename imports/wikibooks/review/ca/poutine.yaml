@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 can of poutine sauce or gravy
+#  - duplicate of hand-written recipe ca-poutine
+id: ca-poutine
+title: Poutine
+summary: Poutine is common dish throughout the Quebec, Ontario, and Atlantic regions of Canada, made of French fries, cheese curds, and gravy. This recipe uses pre-canned gravy and fries the potatoes from scratch.
+origin:
+  country: CA
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–4
+time:
+  total_min: 15
+difficulty: 3
+equipment:
+- 1 deep fat fryer or large stove pot to fry the potatoes
+- 1 saucepan or cup suitable for warming gravy
+- 1 serving dish, with enough depth to act as a basket for the fried potatoes
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: l, qty: 1}
+  - {ingredient: potato, qty: 5, note: medium}
+  - {ingredient: cheese-curds, unit: cup, qty: 2}
+steps:
+- Slice potatoes into finger-width fries and rinse them well to remove any dirt.
+- Begin warming gravy, keep the temperature low enough for a slow heating.
+- Heat oil to 185°C (365°F).
+- Cook sliced potatoes in the oil for about 5 minutes.
+- Following a first frying to cook the potatoes, they are often removed and then fried again for about 1 minute to crisp the outside.
+- Remove the fries from the oil; optionally place them on a paper towel mat to absorb excess oil.
+- Move the fries to a serving dish and put room-temperature cheese curds over the fries.
+- Pour the gravy over the top; the dish should be served before the cheese curds start to melt.
+tips:
+- Fresh cheddar cheese curds (preferably less than one day old) and crispy fries are considered essential to heighten the dynamic contrasts in texture, temperature and viscosity for which the dish is known. Air and moisture seep out of the curds over time, which alters their acidity level and causes proteins to lose their elasticity. This causes the curds to lose their complex texture and squeakiness. Food safety practices require refrigerating curds more than a day old, but this suppresses the properties of their texture. Because fresh curds are not always available, mozzarella cheese may be an unavoidable substitute.
+- The sauce is traditionally a light and thin chicken gravy. A light gravy will more easily coat all the fries, emulsifying into the remaining frying oil and unifying the dish. A sauce brune which is a combination of chicken and beef stock may also be used.
+- The high dynamic contrasts make eating poutine a rich sensory experience. Even small variations—relative temperatures, the size of the curds, the oil used for frying, or spices in the gravy—can result in a distinctly different poutine.
+- Restaurants that specialize in poutine, called poutineries, often have dozens of varieties, most of which add a meat topping with the gravy adjusted for balance.
+- 'There are many internationally inspired variants which replace some or all of the ingredients but maintain the contrasts of a crispy element, a dairy-like element, and a unifying sauce:'
+- Replacing gravy with salsa, the cheese curds with sour cream, adding diced onions and tomatoes turns poutine into mexipoutine, an item also carried by the likes of Taco Bell under the name "Fries Supreme".
+- Replacing the gravy with marinara sauce, adding either loose lean ground beef or crumbled sausage and replacing the cheese curds with mozzarella cheese changes the dish to poutine Italiano, served in several fast food restaurants in Toronto, Ontario.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APoutine&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Poutine@4605229
+    url: https://en.wikibooks.org/w/index.php?oldid=4605229
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

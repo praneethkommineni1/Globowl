@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup ugba
+#  - unmapped ingredient: 2 cups leafy vegetables
+#  - unmapped ingredient: Dry fish or stockfish
+#  - course unknown from categories
+id: ng-nigerian-achicha-ede
+title: Nigerian Achicha Ede
+alternate_names:
+- Cocoyam Porridge
+summary: Achicha ede is a traditional Igbo people dish made from cocoyam cooked with palm oil, vegetables, and local seasonings. It is a flavorful and culturally important comfort food in southeastern Nigeria. Predominantly eaten by people of Enugu State.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4-6
+time:
+  total_min: 40
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: taro, unit: cup, qty: 4}
+  - {ingredient: red-palm-oil, unit: cup, qty: 1}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 2}
+  - {ingredient: black-pepper, qty: [2, 3]}
+  - {ingredient: onion, qty: 1, note: medium}
+  - {ingredient: bouillon-cube, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: water, unit: cup, qty: [3, 4]}
+steps:
+- Soak the cocoyam flakes Wash and soak the dried cocoyam flakes in warm water until they soften slightly.
+- Prepare the fish (optional) Wash and boil dry fish or stockfish until soft.
+- Cook the base In a pot, add water, palm oil, onions, pepper, crayfish, seasoning cubes, and the fish. Bring to a boil.
+- Add the cocoyam Add the soaked cocoyam flakes and stir gently.
+- Cook until soft Allow it to cook until the cocoyam becomes tender and absorbs the flavors.
+- Add ugba and vegetables Stir in the ugba and leafy vegetables.
+- Simmer briefly Let it cook for a few more minutes so everything combines well.
+- Adjust seasoning Taste and add salt or seasoning if needed.
+- Serve hot Serve as a complete traditional meal.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Achicha_Ede_%28Cocoyam_Porridge%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Achicha Ede (Cocoyam Porridge)@4641742
+    url: https://en.wikibooks.org/w/index.php?oldid=4641742
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

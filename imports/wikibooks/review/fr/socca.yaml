@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (FR, IT): confirm the country of origin
+id: fr-socca
+title: Socca
+alternate_names:
+- Italian Chickpea Flatbread
+summary: 'Socca (French), torta di ceci or farinata (Italian), is a type of flatbread made from chickpea flour. See also: Calentita'
+origin:
+  country: FR
+  also_claimed_by:
+  - IT
+course: bread
+authenticity: unassessed
+yield:
+  servings: 16
+  amount: 16 (or 8, twice!)
+time:
+  total_min: 15
+difficulty: 2
+equipment:
+- Oven
+- Something to cook the socca on; traditionally, a 50cm (20 inch) copper plaque is used as it spreads the heat evenly to all parts of the socca, but a good cast iron pan will suffice if preheated in the oven first.
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: chickpea-flour, unit: g, qty: 300}
+  - {ingredient: water, unit: ml, qty: 500}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Heat oven as high as it can go—around 300°C / 570°F is traditional, but do whatever your oven can manage that gets close to this. If using a cast-iron pan, get it into the oven at the start so that it is hot when the batter goes into it.
+- Whisk all the ingredients together well, ensuring there are no lumps. This should make a very thin, easy-to-pour batter.
+- Once the oven is up to temperature, pour some of the batter into the hot pan or onto the plaque, and put into the oven for 8–9 minutes at 300°C / 570°F, or 13–15 minutes at 250°C / 480°F. With a 50 cm plaque or pan, cook half the batter at a time—the batter should cover the plaque or pan very thinly.
+- Remove from the oven and cut into triangular wedges. Serve hot.
+- Repeat for the rest of the batter.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASocca_%28Italian_Chickpea_Flatbread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Socca (Italian Chickpea Flatbread)@4501211
+    url: https://en.wikibooks.org/w/index.php?oldid=4501211
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

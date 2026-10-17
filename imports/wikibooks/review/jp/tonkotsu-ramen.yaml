@@ -1,0 +1,103 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 5 grams powdered kansui
+#  - no time in recipe summary
+id: jp-tonkotsu-ramen
+title: Tonkotsu Ramen
+summary: Tonkotsu ramen is a dish of ramen noodles served in rich and fatty pork broth usually garnished with a variation of toppings (most of the time pork cutlets, green onions, and hard-boiled eggs split in two). There are many variations to this recipe.
+origin:
+  country: JP
+course: main
+authenticity: unassessed
+yield:
+  servings: 5
+  amount: 5–6
+time:
+  total_min: 1
+difficulty: 4
+techniques:
+- boiling
+- dough-making
+- sauteing
+- simmering
+ingredient_groups:
+- name: Marinated eggs
+  items:
+  - {ingredient: egg, qty: 12}
+  - {ingredient: pork, unit: g, qty: 454}
+  - {ingredient: scallion, qty: 3, prep: cut into 1-inch pieces}
+  - {ingredient: ginger, qty: 1, prep: sliced}
+  - {ingredient: garlic, qty: 2, prep: sliced, note: large}
+  - {ingredient: soy-sauce, unit: cup, qty: 0.5}
+  - {ingredient: sherry, unit: tbsp, qty: 2}
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: water, unit: cup, qty: 0.5}
+- name: Soup
+  items:
+  - {ingredient: pork, qty: 6}
+  - {ingredient: scallion, qty: 3}
+  - {ingredient: apple, qty: 1}
+  - {ingredient: onion, qty: 2}
+  - {ingredient: ginger, unit: tbsp, qty: 1.5}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: quartered}
+  - {ingredient: sesame-oil, unit: tbsp, qty: 2}
+  - {ingredient: water, unit: cup, qty: [12, 16]}
+- name: Noodles
+  items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 500}
+  - {ingredient: water, unit: ml, qty: 200}
+  - {ingredient: potato}
+- name: Chashu
+  items:
+  - {ingredient: pork, unit: g, qty: 500}
+  - {ingredient: soy-sauce, unit: ml, qty: 50}
+  - {ingredient: mirin, unit: ml, qty: 50}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: water, unit: ml, qty: 500}
+steps:
+- Bring a pot of water to a rolling boil. If desired, use a small thumb tack to prick a pin hole in the base of every egg, then add eggs to the pot. The water should cover the eggs.
+- Wait for the water to come back to a full boil, then cook for 7–9 minutes. 9 minutes will give you a fully hard boiled egg, while 7 minutes makes a jammier egg.
+- Drain the pot and eggs and plunge the eggs in ice water to stop the cooking. This also makes the shells a bit easier to peel.
+- In a small pot, sauté pork, garlic, onions, and ginger until slightly browned. Add soy sauce, cooking alcohol, sugar, and water, and simmer for 10 minutes until pork is cooked through and flavors meld. Remove from stove.
+- Remove pork to eat separately. Pour everything else into a bowl large enough to hold marinade and eggs. Carefully, peel the eggs, and place in marinade. Try to make sure the marinade covers all of the eggs. If not, try transferring the sauce into a large ziplock bag, and place the eggs in the bag and seal.
+- Place the bag in a bowl, and put everything in the refrigerator overnight or at least for a few hours.
+- Using a butcher knife, separate off the pork hock bones.
+- Rinse well in running water to wash off the blood. Boil in large pot for 15 minutes and make sure you barely cover the bones with the water.
+- Skim off as much scum/foam as much possible as it forms.
+- Drain in colander and use a brush to remove any bloody meat.
+- Use a saw and cut halfway down the center of the bones. Then use hammer to break bone.
+- The bones will be filled with marrow. Simmer for several hours until the marrow dissolves out from the bones.
+- Scum will form at the start. Carefully skim the scum off. Maintain a low boil over medium heat.
+- After scum has stopped forming, simmer for 6 hours or more. Add more water if the water level drops.
+- 2 hours after the pork bones have started simmering, the soup should become progressively white and cloudy. If tasted at this stage, the soup will not taste good since it will still have a raw flavor.
+- After the soup has simmered for 6 hours, the inside of the bones should be empty and the soup should have a rich smell just like a ramen place.
+- Brown the meat in a pan and then simmer in a pot for 2 hours in a sauce made from the remaining ingredients. Allow to cool in the pot. The char siu should be a nice amber color. Slice with care since it will be very tender and tend to fall apart.
+- Mix the flour and kansui together, then add the water. It may feel as if the amount of water is insufficient—this is normal.
+- Mix in bowl until a mealy consistency is achieved. The dough will be very stiff. Use you body weight to form the dough into a ball.
+- Transfer to kneading surface and knead. Knead vigorously for 10 minutes. It is okay if the dough cracks or does not knead together well.
+- Form into ball, cover with plastic wrap and allow to rest in the refrigerator for at least 30 minutes. Make sure that the dough does not dry out.
+- After the dough has rested, roll the dough out with a rolling pin to a thickness of 5 mm and then insert into pasta machine. Start out with the highest thickness and then continue on the lower settings until the desired thickness is achieved. If a pasta machine is not used, roll out the dough to the desired thickness with the rolling pin. Take into account that the noodles will expand 1.3 times when boiled.
+- The dough will not be that sticky, so a small amount of flour or potato (or corn) starch is sufficient for flouring.
+- A wooden box is best for storing the noodles, but if one is not available, use a metal tray lined with wax paper (to prevent sticking) and store in the refrigerator.
+- Bring a pot of water to a boil, and add the noodles. Cook the noodles to each person’s preference, then drain. For people who like curly noodles, firmly squeeze the noodles until the desired effect is achieved.
+- Warm a large soup bowl, and add the drained noodles. Add broth, then top with char siu and marinated egg. Add salt for flavor—use sparingly at first and then add more if desired.
+tips:
+- Kansui is a Japanese mixture of alkaline salts. Try the Koon Chun brand, which comes in a clear glass bottle labeled “potassium carbonate & sodium bi-carbonate solution”. The UPC is 0-20717-80230-8.
+- Any leftover char siu can be eaten with beer. If you ever have trouble slicing soft pork, chill the whole piece in the refrigerator until cold, and it makes slicing easier. Reheating is easy, in either the microwave or oven, even stove top.
+- Make sure you keep up on scooping out the foamy gunk from the broth—you don't want all that stuff all over your ramen.
+- Don't be afraid to experiment with different types and balances of garnishes!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATonkotsu_Ramen&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tonkotsu Ramen@4536315
+    url: https://en.wikibooks.org/w/index.php?oldid=4536315
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

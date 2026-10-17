@@ -1,0 +1,39 @@
+id: tr-ayran
+title: Ayran
+alternate_names:
+- Turkish Yogurt Drink
+summary: Ayran is a popular Turkish drink made of a yoghurt and water. The ayran made from sheep yoghurt has a quite thick taste, fatty but also delicious. It is very similar to the Iranian drink, doogh and Armenian drink, taan. Salt is usually added to ayran for flavour.
+origin:
+  country: TR
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 5
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: yogurt, unit: cup, qty: 1.333}
+  - {ingredient: water, unit: cup, qty: 1.667}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: mint, optional: true}
+steps:
+- Pour yoghurt into a bowl and beat until smooth. Add water and continue beating until thoroughly blended. Alternatively, combine in an electric blender and blend until smooth.
+- Season to taste with salt and dried mint. Chill thoroughly and serve in tall glasses, with ice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAyran_%28Turkish_Yogurt_Drink%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ayran (Turkish Yogurt Drink)@4506084
+    url: https://en.wikibooks.org/w/index.php?oldid=4506084
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

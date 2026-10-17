@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-dodo-ikire
+title: Dodo Ikire
+alternate_names:
+- Fried Leftover Plantain
+summary: Dodo ikire is a Nigerian dish of fried overripe plantain. According to legend, it was developed in the town of Ikire by a woman as an alternative to discarding overripe plantains.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: plantain, prep: peeled and sliced}
+  - {ingredient: salt}
+  - {ingredient: chili-flakes}
+  - {ingredient: vegetable-oil}
+steps:
+- Mash the plantain and transfer it into a bowl.
+- Stir in salt and crushed pepper until well-combined.
+- Heat oil in a frying pan for a few minutes, but don't allow to smoke. Allow it heat for a few minutes (3–4 minutes is enough).
+- Scoop the plantain mixture into the hot oil. Cook until darkened but not burnt.
+- Remove the dodo ikire from the oil, and drain any excess.
+- Re-mould the dodo ikire into balls. Sprinkle with some pepper.
+tips:
+- Do not overcook the dodo ikire, as it will burn and taste bitter.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADodo_Ikire_%28Fried_Leftover_Plantain%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dodo Ikire (Fried Leftover Plantain)@4638632
+    url: https://en.wikibooks.org/w/index.php?oldid=4638632
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

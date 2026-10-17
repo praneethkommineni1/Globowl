@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+id: dz-algerian-baghrir
+title: Algerian Baghrir
+summary: Baghrir are a variety of small, spongy pancake or flatbread popular in North Africa, including Algeria. They are made of semolina and/or all-purpose flour, and they are characteristically laced with tiny holes that soak up whatever sauce they are served with.
+origin:
+  country: DZ
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 30
+difficulty: 1
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: semolina, unit: cup, qty: 2.5}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 0.5}
+  - {ingredient: yeast, unit: g, qty: 15}
+  - {ingredient: sugar, unit: g, qty: 15}
+  - {ingredient: salt, unit: g, qty: 7}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: water, unit: cup, qty: 4}
+  - {ingredient: baking-powder, unit: tsp, qty: 0.5}
+steps:
+- Combine the semolina, flour, yeast, sugar, and salt in a bowl.
+- Mix in the water and egg until you get a smooth batter.
+- Set batter aside, and let rest for 15–20 minutes or until doubled in size.
+- Thin with a little water if necessary, then whisk in the baking powder.
+- Heat a skillet over medium heat.
+- Lightly grease the skillet, then dollop in enough batter to make a few small pancakes.
+- Cook the pancakes on one side until the top is covered in holes and fully cooked. Do not flip and cook on the second side.
+- Remove baghrir from the pan, and repeat the cooking process with any remaining batter.
+- Serve with butter.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAlgerian_Baghrir&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Algerian Baghrir@4519097
+    url: https://en.wikibooks.org/w/index.php?oldid=4519097
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

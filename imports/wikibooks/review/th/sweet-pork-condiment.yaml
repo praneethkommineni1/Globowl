@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: th-sweet-pork-condiment
+title: Sweet Pork Condiment
+summary: 'Sweet pork condiment (Thai: หมูหวาน) is a popular Thai food served with other kinds of foods such as chili paste, fried rice, and hot glutinous rice. It''s very delicious.'
+origin:
+  country: TH
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- marinating
+- simmering
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: brown-sugar, unit: tbsp, qty: 1}
+  - {ingredient: soy-sauce, unit: cup, qty: 0.5}
+  - {ingredient: palm-sugar, unit: tbsp, qty: 5}
+  - {ingredient: water, unit: tbsp, qty: 3}
+  - {ingredient: fish-sauce, unit: tbsp, qty: 3}
+  - {ingredient: pork, unit: g, qty: 350, prep: 'neck, or belly'}
+steps:
+- Mix the light soy sauce and sugar together in a bowl. Add pork and marinate in the refrigerator for at least 36–48 hours, in order to maintain the quality and the taste of the pork.
+- Steam the pork over boiling water for about 20 minutes. After the steaming is finished, let the pork rest for about 10 minutes.
+- Slice the pork into pieces.
+- Put the palm sugar into a pan, and stir it over a low heat until it melts. Simmer until the sugar browns. Add fish sauce and water all together.
+- Add the pork to the sauce, and mix well to coat.
+- Simmer the pork in the sauce for about 5–10 minutes, then mix the pork and the sauce together.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASweet_Pork_Condiment&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sweet Pork Condiment@4519027
+    url: https://en.wikibooks.org/w/index.php?oldid=4519027
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

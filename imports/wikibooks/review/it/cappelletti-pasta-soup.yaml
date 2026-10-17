@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 litre of water plus more to thin out the soup if required
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-cappelletti-pasta-soup
+title: Cappelletti Pasta Soup
+alternate_names:
+- Cappelletti in Brodo
+summary: Cappeletti in Brodo is a very simple and very delicious Italian pasta soup, made with Cappeletti (small meat or vegetable filled) ravioli. It's delicious on a cold day, getting in from a long day at work, and without much time to devote to preparing a tasty meal.
+origin:
+  country: IT
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: pasta, unit: g, qty: 250}
+  - {ingredient: bouillon-cube, qty: 2}
+  - {ingredient: heavy-cream, unit: cup, qty: 0.5}
+  - {ingredient: black-pepper, unit: pinch, qty: 1}
+  - {ingredient: olive-oil, qty: 1}
+  - {ingredient: parsley, unit: handful, qty: 1}
+  - {ingredient: sherry, qty: 1}
+  - {ingredient: parmesan}
+steps:
+- Bring the water to a rolling boil, add the stock cubes, and let them dissolve.
+- Add the Cappelletti pasta, and cook according to the instructions on the packet.
+- Add the cream and the parsley about 2 minutes before the end of the cooking. Turn down the heat.
+- Add the slug of sherry just before serving. If serving to children, the sherry can be added to the grown-up's plate after serving!
+- Let stand for a few minutes.
+- Serve sprinkled with grated Parmesan cheese. Further serving suggestion might include a green salad, or a cold bean salad.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACappelletti_Pasta_Soup_%28Cappelletti_in_Brodo%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cappelletti Pasta Soup (Cappelletti in Brodo)@4518361
+    url: https://en.wikibooks.org/w/index.php?oldid=4518361
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

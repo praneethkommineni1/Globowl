@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: eg-egyptian-sweet-rice-pudding
+title: Egyptian Sweet Rice Pudding
+alternate_names:
+- Roz Bil Laban
+summary: Egyptian sweet rice pudding, also known as roz bil laban, is a delightful and creamy dessert in Egyptian cuisine.
+origin:
+  country: EG
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Saucepan
+- Wooden spoon or spatula
+- Serving bowls or dessert cups
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 1}
+  - {ingredient: milk, unit: cup, qty: 4}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: cinnamon-stick, qty: 1}
+  - {ingredient: ground-cinnamon}
+  - {ingredient: almonds}
+  - {ingredient: raisins}
+steps:
+- Rinse the rice under cold water until the water runs clear. Drain well.
+- In a saucepan, combine the rice, milk, sugar, vanilla extract, and cinnamon stick.
+- Place the saucepan over medium heat and bring the mixture to a gentle simmer. Stir occasionally to prevent the rice from sticking to the bottom of the pan.
+- Reduce the heat to low and let the rice mixture simmer for about 30–40 minutes, or until the rice is cooked and the mixture has thickened to a creamy consistency. Stir regularly during this process.
+- Remove the saucepan from the heat and discard the cinnamon stick.
+- Divide the pudding into serving bowls or dessert cups.
+- Sprinkle ground cinnamon over each serving for added flavor and visual appeal. Garnish with chopped nuts and raisins as desired.
+- Serve warm or chilled, according to your preference.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgyptian_Sweet_Rice_Pudding_%28Roz_Bil_Laban%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egyptian Sweet Rice Pudding (Roz Bil Laban)@4517884
+    url: https://en.wikibooks.org/w/index.php?oldid=4517884
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

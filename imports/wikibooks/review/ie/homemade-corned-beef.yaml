@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 ea. round/brisket of corned beef
+#  - unmapped ingredient: Mixed herbs
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ie-homemade-corned-beef
+title: Homemade Corned Beef
+summary: Historically Irish Corned Beef has been world renowned for being served as the primary preserved meat on the Royal Navy ships of the 16th and 17th century, with no equal, even though unaffordable by the Irish peasants themselves.
+origin:
+  country: IE
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: carrot, qty: 3, prep: sliced diagonally}
+  - {ingredient: onion, qty: 3, prep: chopped, note: medium}
+  - {ingredient: allspice, unit: tsp, qty: 1}
+  - {ingredient: ground-cloves, unit: tsp, qty: 1}
+  - {ingredient: beer, qty: 0.5}
+steps:
+- Put the brisket on a bed of the carrots and onions in a large saucepan.
+- Just barely cover everything with room temperature water, add the allspice and cloves, and simmer lightly for 4 hours.
+- Add the beer, and simmer for another hour.
+- Serve it cold on Christmas. Since there is no need to slave in the kitchen this day, the brisket should be removed and pressed between 2 dishes with a weight on top, reserving the juice for hot topping gravy; other days you can serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHomemade_Corned_Beef&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Homemade Corned Beef@4506676
+    url: https://en.wikibooks.org/w/index.php?oldid=4506676
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

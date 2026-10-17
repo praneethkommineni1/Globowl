@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Yellow pepper powder
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-nigerian-wheatbread-toast
+title: Nigerian Wheatbread Toast
+summary: This is a type of toast that is made with wheat bread. It can be served as a breakfast or snack.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: egg}
+  - {ingredient: salt}
+  - {ingredient: white-bread}
+  - {ingredient: butter}
+  - {ingredient: vegetable-oil}
+  - {ingredient: black-pepper}
+  - {ingredient: lettuce}
+  - {ingredient: onion, prep: sliced}
+  - {ingredient: cucumber, prep: sliced}
+steps:
+- Crack the egg, and whisk it with a pinch of salt.
+- Spread some butter on the bread slices.
+- Spread some of the beaten egg on each slice of bread. Do not add so much egg that the bread is soaked.
+- Heat a nonstick pan over low heat, and add a thin layer of butter or oil.
+- Place the bread slices in the pan egg-side down. Sprinkle with yellow and black pepper.
+- Cook over low heat until the bread is dry and crisp. Remove from the heat.
+- Top the toast with the lettuce and sliced vegetables.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Wheatbread_Toast&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Wheatbread Toast@4505779
+    url: https://en.wikibooks.org/w/index.php?oldid=4505779
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

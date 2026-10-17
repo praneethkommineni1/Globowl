@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 1/2 cup palm nut extract
+#  - unmapped ingredient: 2 tablespoon banga spice
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-banga-rice
+title: Banga Rice
+summary: Banga rice is a rice dish popular in the Delta State of Nigeria. It features oil palm fruit concentrate, and it is both easy and delicious to make.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: scotch-bonnet}
+  - {ingredient: onion, qty: 1, note: medium}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 2}
+  - {ingredient: bouillon-cube, qty: 3}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: long-grain-rice, unit: cup, qty: 2.5, prep: rinsed and drained}
+  - {ingredient: stockfish, qty: 2, note: medium}
+  - {ingredient: scent-leaf, unit: cup, qty: 0.5, prep: sliced}
+steps:
+- Combine the palm nut extract with water in a pot. The total liquid volume should be roughly double the volume of the rice.
+- Blend the onion and habanero to a chunky paste. Mix into the pot, cover, and bring to a boil.
+- Add the ground crayfish, banga spice, stock cube, and salt. Let boil on medium heat.
+- Stir in the rice, and cook over medium heat until soft. Add additional water if necessary.
+- When the rice has softened, mix in the smoked fish and scent leaf. Give a quick stir, and allow any residual water to absorb/evaporate.
+- Remove from heat and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABanga_Rice&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Banga Rice@4513583
+    url: https://en.wikibooks.org/w/index.php?oldid=4513583
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

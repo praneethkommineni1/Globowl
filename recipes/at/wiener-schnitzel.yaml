@@ -1,0 +1,37 @@
+id: at-wiener-schnitzel
+title: Wiener Schnitzel
+native_name: {text: Wiener Schnitzel, lang: de-AT}
+summary: Thin veal cutlets in a puffy, golden breadcrumb coat, fried in plenty of fat and served with lemon.
+origin:
+  country: AT
+  region: Vienna
+course: main
+dish_types: [cutlet]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 15}
+difficulty: 2
+techniques: [pan-frying]
+ingredient_groups:
+  - items:
+      - {ingredient: veal-cutlet, qty: 4, note: "about 140 g each, from the leg"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: all-purpose-flour, qty: 60, unit: g}
+      - {ingredient: egg, qty: 2, prep: "beaten with 1 tbsp milk or cream"}
+      - {ingredient: breadcrumbs, qty: 120, unit: g, note: "fine and dry"}
+      - {ingredient: lard, qty: 300, unit: g, note: "or clarified butter or vegetable oil", alt: [vegetable-oil]}
+      - {ingredient: lemon, qty: 1, prep: "cut into wedges"}
+steps:
+  - Place each cutlet between sheets of plastic wrap and pound evenly to about 4 mm thick. Season with salt.
+  - Dredge in flour, dip in the egg, then lay in the breadcrumbs and coat lightly without pressing (pressing stops the crust puffing).
+  - Heat the fat in a large frying pan to about 170 °C — it should be at least 1.5 cm deep.
+  - Fry the schnitzels one or two at a time, swirling the pan so hot fat washes over the top, until the crust puffs and turns golden (2–3 minutes per side).
+  - Drain on paper and serve immediately with lemon.
+serving: With Viennese potato salad or parsley potatoes and lingonberry jam.
+culture: In Austria, "Wiener Schnitzel" must by law be made with veal; pork versions are called "Schnitzel Wiener Art".
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

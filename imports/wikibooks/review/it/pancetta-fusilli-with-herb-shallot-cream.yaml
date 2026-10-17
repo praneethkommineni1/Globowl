@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 250 g pancetta
+#  - unmapped ingredient: 500 g fusilli
+#  - no time in recipe summary
+#  - course unknown from categories
+id: it-pancetta-fusilli-with-herb-shallot-cream
+title: Pancetta Fusilli with Herb Shallot Cream
+summary: Pancetta Fusilli with Herb Shallot Cream.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: tbsp, qty: 1}
+  - {ingredient: garlic, unit: tsp, qty: 1}
+  - {ingredient: shallot, unit: g, qty: 454}
+  - {ingredient: sugar, unit: tsp, qty: 0.5, prep: 'salt, pepper'}
+  - {ingredient: chicken-stock, unit: cup, qty: 1.5}
+  - {ingredient: heavy-cream, unit: cup, qty: 0.25}
+  - {ingredient: rosemary, unit: cup, qty: 1}
+  - {ingredient: olive-oil, unit: tsp, qty: 1}
+  - {ingredient: parmesan, unit: cup, qty: 1.5}
+steps:
+- Place pancetta in a large sauté pan and cook over medium-low heat, stirring occasionally until crisp (about 15 minutes). Using a slotted spoon remove from pan and drain on paper towels. Set aside. Pour off all but 1 tbsp of the fat.
+- Add butter to the fat in the pan. Add garlic, shallots and sugar and season lightly with salt and pepper. Reduce heat to lowest setting and cook covered until shallots are soft and transparent about 15 minutes. Remove lid raise heat to medium high and cook stirring constantly until they have a deep golden-brown coating about 10 minutes. Do not allow to burn.
+- Add the stock and simmer until reduced by one-third, stirring to loosen brown bits from bottom of pan (about 7 minutes). The sauce can be prepared up to this point several hours ahead and kept covered in the refrigerator.
+- Bring a large pot of water to a boil for the pasta. Reheat the shallot mixture if it was prepared in advance. If using add cream to shallots and simmer for 2 minutes over high heat until sauce thickens slightly. Keep warm. Coarsely chop all but a small handful of herbs.
+- Cook pasta according to package directions. Drain and return to pot. Add chopped herbs to sauce and cook for another minute. Season to taste with salt and pepper.
+- Add pasta to sauce and toss together over low heat for 1 minute. As pasta and sauce heat, sauté remaining herbs in ½ tsp olive oil until crisp for garnish. Stir in pancetta and ½ cup of the grated cheese.
+- Divide the pasta among 4 bowls. Garnish with sautéed herbs. Serve remaining cheese on the side.
+tips:
+- Given the strong and flavorful nature of this dish, when choosing a meat or other food to go along with this you must keep in mind that the two must not overpower each other. Grilling a small medallion of sirloin steak with garlic and red wine would go along perfectly with this, or perhaps a seared pork tenderloin medallion with white wine and ground pepper.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APancetta_Fusilli_with_Herb_Shallot_Cream&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pancetta Fusilli with Herb Shallot Cream@4541068
+    url: https://en.wikibooks.org/w/index.php?oldid=4541068
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

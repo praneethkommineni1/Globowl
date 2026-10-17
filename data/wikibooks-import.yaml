@@ -1,0 +1,563 @@
+# Mapping config for tools/import_wikibooks.py.
+# cuisines: Wikibooks category (without 'Category:') -> ISO country code
+# courses: Wikibooks category -> Globowl course
+# ingredients.names: Wikibooks ingredient link/name -> catalog id (checked after the catalog's own names and aliases)
+# ingredients.ground_when_measured: ambiguous names resolved by context —
+#   'fresh' if the line says fresh/grated/minced/chopped…, 'seeds' if it mentions seeds, 'ground' if measured in tsp/tbsp/pinch or says ground, else 'default'.
+cuisines:
+  Afghan recipes: AF
+  Albanian recipes: AL
+  Algerian recipes: DZ
+  Andorran recipes: AD
+  Angolan recipes: AO
+  Antiguan recipes: AG
+  Argentine recipes: AR
+  Argentinian recipes: AR
+  Armenian recipes: AM
+  Australian recipes: AU
+  Austrian recipes: AT
+  Azerbaijani recipes: AZ
+  Bahamian recipes: BS
+  Bahraini recipes: BH
+  Bangladeshi recipes: BD
+  Barbadian recipes: BB
+  Bajan recipes: BB
+  Belarusian recipes: BY
+  Belgian recipes: BE
+  Belizean recipes: BZ
+  Beninese recipes: BJ
+  Bhutanese recipes: BT
+  Bolivian recipes: BO
+  Bosnian recipes: BA
+  Botswanan recipes: BW
+  Motswana recipes: BW
+  Brazilian recipes: BR
+  Bruneian recipes: BN
+  Bulgarian recipes: BG
+  Burkinabé recipes: BF
+  Burkinabe recipes: BF
+  Burundian recipes: BI
+  Cape Verdean recipes: CV
+  Cabo Verdean recipes: CV
+  Cambodian recipes: KH
+  Khmer recipes: KH
+  Cameroonian recipes: CM
+  Canadian recipes: CA
+  Central African recipes: CF
+  Chadian recipes: TD
+  Chilean recipes: CL
+  Chinese recipes: CN
+  Colombian recipes: CO
+  Comoran recipes: KM
+  Comorian recipes: KM
+  Congolese recipes: CG
+  Congolese (DRC) recipes: CD
+  Costa Rican recipes: CR
+  Ivorian recipes: CI
+  Croatian recipes: HR
+  Cuban recipes: CU
+  Cypriot recipes: CY
+  Czech recipes: CZ
+  Danish recipes: DK
+  Djiboutian recipes: DJ
+  Dominican (Dominica) recipes: DM
+  Dominican recipes: DO
+  Ecuadorian recipes: EC
+  Egyptian recipes: EG
+  Salvadoran recipes: SV
+  Salvadorian recipes: SV
+  Equatorial Guinean recipes: GQ
+  Eritrean recipes: ER
+  Estonian recipes: EE
+  Swazi recipes: SZ
+  Eswatini recipes: SZ
+  Ethiopian recipes: ET
+  Fijian recipes: FJ
+  Finnish recipes: FI
+  French recipes: FR
+  Gabonese recipes: GA
+  Gambian recipes: GM
+  Georgian recipes: GE
+  German recipes: DE
+  Ghanaian recipes: GH
+  Ghanian recipes: GH
+  Greek recipes: GR
+  Grenadian recipes: GD
+  Guatemalan recipes: GT
+  Guinean recipes: GN
+  Bissau-Guinean recipes: GW
+  Guyanese recipes: GY
+  Haitian recipes: HT
+  Honduran recipes: HN
+  Hungarian recipes: HU
+  Icelandic recipes: IS
+  Indian recipes: IN
+  Indonesian recipes: ID
+  Iranian recipes: IR
+  Persian recipes: IR
+  Iraqi recipes: IQ
+  Irish recipes: IE
+  Israeli recipes: IL
+  Italian recipes: IT
+  Jamaican recipes: JM
+  Japanese recipes: JP
+  Jordanian recipes: JO
+  Kazakh recipes: KZ
+  Kazakhstani recipes: KZ
+  Kenyan recipes: KE
+  I-Kiribati recipes: KI
+  North Korean recipes: KP
+  Korean recipes: KR
+  South Korean recipes: KR
+  Kosovar recipes: XK
+  Kuwaiti recipes: KW
+  Kyrgyz recipes: KG
+  Lao recipes: LA
+  Laotian recipes: LA
+  Latvian recipes: LV
+  Lebanese recipes: LB
+  Basotho recipes: LS
+  Lesotho recipes: LS
+  Liberian recipes: LR
+  Libyan recipes: LY
+  Liechtensteiner recipes: LI
+  Lithuanian recipes: LT
+  Luxembourgish recipes: LU
+  Malagasy recipes: MG
+  Malawian recipes: MW
+  Malaysian recipes: MY
+  Maldivian recipes: MV
+  Malian recipes: ML
+  Maltese recipes: MT
+  Marshallese recipes: MH
+  Mauritanian recipes: MR
+  Mauritian recipes: MU
+  Mexican recipes: MX
+  Micronesian recipes: FM
+  Moldovan recipes: MD
+  Monégasque recipes: MC
+  Monegasque recipes: MC
+  Mongolian recipes: MN
+  Montenegrin recipes: ME
+  Moroccan recipes: MA
+  Mozambican recipes: MZ
+  Burmese recipes: MM
+  Myanmar recipes: MM
+  Namibian recipes: NA
+  Nauruan recipes: NR
+  Nepalese recipes: NP
+  Nepali recipes: NP
+  Dutch recipes: NL
+  New Zealand recipes: NZ
+  Nicaraguan recipes: NI
+  Nigerien recipes: NE
+  Nigerian recipes: NG
+  Macedonian recipes: MK
+  North Macedonian recipes: MK
+  Norwegian recipes: 'NO'
+  Omani recipes: OM
+  Pakistani recipes: PK
+  Palauan recipes: PW
+  Palestinian recipes: PS
+  Panamanian recipes: PA
+  Papua New Guinean recipes: PG
+  Paraguayan recipes: PY
+  Peruvian recipes: PE
+  Filipino recipes: PH
+  Philippine recipes: PH
+  Polish recipes: PL
+  Portuguese recipes: PT
+  Qatari recipes: QA
+  Romanian recipes: RO
+  Russian recipes: RU
+  Rwandan recipes: RW
+  Kittitian recipes: KN
+  Saint Lucian recipes: LC
+  Vincentian recipes: VC
+  Samoan recipes: WS
+  Sammarinese recipes: SM
+  São Toméan recipes: ST
+  Saudi recipes: SA
+  Saudi Arabian recipes: SA
+  Senegalese recipes: SN
+  Serbian recipes: RS
+  Seychellois recipes: SC
+  Sierra Leonean recipes: SL
+  Singaporean recipes: SG
+  Slovak recipes: SK
+  Slovenian recipes: SI
+  Solomon Islander recipes: SB
+  Somali recipes: SO
+  South African recipes: ZA
+  South Sudanese recipes: SS
+  Spanish recipes: ES
+  Sri Lankan recipes: LK
+  Sudanese recipes: SD
+  Surinamese recipes: SR
+  Swedish recipes: SE
+  Swiss recipes: CH
+  Syrian recipes: SY
+  Taiwanese recipes: TW
+  Tajik recipes: TJ
+  Tanzanian recipes: TZ
+  Thai recipes: TH
+  Timorese recipes: TL
+  Togolese recipes: TG
+  Tongan recipes: TO
+  Trinidadian recipes: TT
+  Trinidad and Tobago recipes: TT
+  Tunisian recipes: TN
+  Turkish recipes: TR
+  Turkmen recipes: TM
+  Tuvaluan recipes: TV
+  Ugandan recipes: UG
+  Ukrainian recipes: UA
+  Emirati recipes: AE
+  British recipes: GB
+  English recipes: GB
+  Scottish recipes: GB
+  Welsh recipes: GB
+  American (United States) recipes: US
+  Cajun recipes: US
+  Southern United States recipes: US
+  Tex-Mex recipes: US
+  Uruguayan recipes: UY
+  Uzbek recipes: UZ
+  Ni-Vanuatu recipes: VU
+  Vanuatuan recipes: VU
+  Venezuelan recipes: VE
+  Vietnamese recipes: VN
+  Yemeni recipes: YE
+  Zambian recipes: ZM
+  Zimbabwean recipes: ZW
+  Puerto Rican recipes: PR
+  Hong Kong recipes: HK
+  Guamanian recipes: GU
+  Chamorro recipes: GU
+  Sahrawi recipes: EH
+  United States recipes: US
+  Southwestern recipes: US
+  Hawaiian recipes: US
+  Cornish recipes: GB
+  Northern Irish recipes: GB
+  Alsatian recipes: FR
+  Sylheti recipes: BD
+  Trinidadian and Tobagonian recipes: TT
+  Gibraltarian recipes: GI
+  Manx recipes: IM
+  National Nigerian recipes: NG
+  Yoruba recipes: NG
+  Hausa recipes: NG
+  Igbo recipes: NG
+  Tiv recipes: NG
+  Texas recipes: US
+  Californian recipes: US
+  South Indian recipes: IN
+courses:
+  Main course recipes: main
+  Main dish recipes: main
+  Recipes for stew: main
+  Stew recipes: main
+  Curry recipes: main
+  Recipes for curry: main
+  Casserole recipes: main
+  Rice recipes: main
+  Pasta recipes: main
+  Meat recipes: main
+  Soup recipes: soup
+  Recipes for soup: soup
+  Salad recipes: salad
+  Recipes for salad: salad
+  Dessert recipes: dessert
+  Recipes for dessert: dessert
+  Cake recipes: dessert
+  Cookie recipes: dessert
+  Pie recipes: dessert
+  Pudding recipes: dessert
+  Sweet recipes: dessert
+  Confectionery recipes: dessert
+  Bread recipes: bread
+  Recipes for bread: bread
+  Flatbread recipes: bread
+  Yeast bread recipes: bread
+  Quick bread recipes: bread
+  Side dish recipes: side
+  Recipes for side dishes: side
+  Vegetable recipes: side
+  Breakfast recipes: breakfast
+  Recipes for breakfast: breakfast
+  Appetizer recipes: starter
+  Recipes for appetizers: starter
+  Hors d'oeuvre recipes: starter
+  Dip recipes: starter
+  Snack recipes: snack
+  Recipes for snacks: snack
+  Street food recipes: snack
+  Sauce recipes: condiment
+  Recipes for sauce: condiment
+  Condiment recipes: condiment
+  Spice mix recipes: condiment
+  Chutney recipes: condiment
+  Pickle recipes: condiment
+  Relish recipes: condiment
+  Beverage recipes: drink
+  Recipes for beverages: drink
+  Drink recipes: drink
+  Tea recipes: drink
+  Cocktail recipes: drink
+  Recipes for sauces and condiments: condiment
+  Recipes for pasta sauce: condiment
+  Recipes for spice mixes: condiment
+  Recipes for chutney: condiment
+  Recipes for salsa: condiment
+  Recipes for salad dressing: condiment
+  Recipes for mayonnaise: condiment
+  Recipes for barbecue sauce: condiment
+  Recipes for pickles: condiment
+  Recipes for pesto: condiment
+  Marinade recipes: condiment
+  Recipes for broth and stock: condiment
+  Recipes for flatbread: bread
+  Recipes for cornbread: bread
+  Recipes for scones: bread
+  Recipes for casserole: main
+  Recipes for sandwiches: main
+  Dumpling recipes: main
+  Recipes for chili: main
+  Recipes for pot pie: main
+  Recipes for pasta: main
+  Recipes for pizza: main
+  Recipes for hamburgers: main
+  Recipes for fried rice: main
+  Recipes for risotto: main
+  Recipes for sushi: main
+  Recipes for kabobs: main
+  Recipes for biryani: main
+  Recipes for burritos: main
+  Recipes for lasagne: main
+  Recipes for maffé: main
+  Recipes for macaroni and cheese: main
+  Dal recipes: main
+  Recipes for dal: main
+  Dinner recipes: main
+  Recipes for pancakes: breakfast
+  Recipes for omelettes: breakfast
+  Recipes for porridge: breakfast
+  Recipes for fritters: snack
+  Recipes for pastries: snack
+  Recipes for pudding: dessert
+  Recipes for cake: dessert
+  Recipes for cookies: dessert
+  Recipes for confections: dessert
+  Recipes for caramel: dessert
+  Recipes for pies and tarts: dessert
+  Recipes for custard: dessert
+  Recipes for rice pudding: dessert
+  Recipes for bars: dessert
+  Recipes for black forest cake: dessert
+  Recipes for brownies: dessert
+  Recipes for meringue: dessert
+  Recipes for swallows: side
+  Recipes for potato salad: side
+  Recipes for stuffing and dressing: side
+  Recipes for dip: starter
+  Recipes for guacamole: starter
+  Recipes for chowder: soup
+  Recipes for borscht: soup
+  Recipes for tabbouleh: salad
+  Recipes for alcoholic beverages: drink
+  Recipes for tea and tisanes: drink
+  Recipes for lemonade: drink
+  Recipes for chai: drink
+  Recipes for lassi: drink
+ingredients:
+  names:
+    turmeric: ground-turmeric
+    paprika: paprika
+    cayenne pepper: cayenne
+    cayenne: cayenne
+    cabbage: white-cabbage
+    pepper: black-pepper
+    black pepper: black-pepper
+    ground black pepper: black-pepper
+    oil: vegetable-oil
+    cooking oil: vegetable-oil
+    canola oil: vegetable-oil
+    corn oil: vegetable-oil
+    peanut oil: vegetable-oil
+    groundnut oil: vegetable-oil
+    flour: all-purpose-flour
+    plain flour: all-purpose-flour
+    wheat flour: all-purpose-flour
+    white flour: all-purpose-flour
+    rice: long-grain-rice
+    white rice: long-grain-rice
+    basmati rice: long-grain-rice
+    egg: egg
+    eggs: egg
+    chile: red-chili
+    chili pepper: red-chili
+    chilli: red-chili
+    chili: red-chili
+    hot pepper: red-chili
+    jalapeño: green-chili
+    jalapeno: green-chili
+    green chile: green-chili
+    bell pepper: red-bell-pepper
+    red bell pepper: red-bell-pepper
+    green bell pepper: green-pepper
+    sweet pepper: red-bell-pepper
+    capsicum: red-bell-pepper
+    tomatoes: tomato
+    tomato sauce: canned-tomatoes
+    tomato purée: tomato-paste
+    tomato puree: tomato-paste
+    green onion: scallion
+    spring onion: scallion
+    scallions: scallion
+    coriander leaf: cilantro
+    fresh coriander: cilantro
+    coriander leaves: cilantro
+    lemon juice: lemon-juice
+    lime juice: lime-juice
+    stock: chicken-stock
+    broth: chicken-stock
+    chicken broth: chicken-stock
+    beef broth: beef-stock
+    vegetable broth: vegetable-stock
+    sugar: sugar
+    white sugar: sugar
+    granulated sugar: sugar
+    cream: heavy-cream
+    baking soda: baking-soda
+    bicarbonate of soda: baking-soda
+    sodium bicarbonate: baking-soda
+    soy sauce: soy-sauce
+    soya sauce: soy-sauce
+    chickpea: chickpeas-canned
+    garbanzo bean: chickpeas-canned
+    lentil: brown-lentils
+    red lentil: red-lentils
+    kidney bean: kidney-beans-canned
+    black bean: black-beans-canned
+    aubergine: eggplant
+    courgette: zucchini
+    coconut milk: coconut-milk
+    garlic clove: garlic
+    ginger root: ginger
+    fresh ginger: ginger
+    parsley: parsley
+    bay leaves: bay-leaf
+    oregano: dried-oregano
+    thyme: thyme
+    dried thyme: dried-thyme
+    allspice: allspice
+    nutmeg: nutmeg
+    mint: mint
+    dill: dill
+    basil: basil
+    chives: chives
+    sea salt: salt
+    kosher salt: salt
+    table salt: salt
+    vinegar: white-vinegar
+    wine vinegar: red-wine-vinegar
+    red wine vinegar: red-wine-vinegar
+    vanilla: vanilla-extract
+    vanilla extract: vanilla-extract
+    palm oil: red-palm-oil
+    bread: white-bread
+    bread crumb: breadcrumbs
+    bread crumbs: breadcrumbs
+    cheddar cheese: cheddar
+    mozzarella cheese: mozzarella
+    parmesan cheese: parmesan
+    feta cheese: feta
+    monterey jack cheese: monterey-jack
+    red wine: red-wine
+    white wine: dry-white-wine
+    hard boiled eggs: egg
+    hard-boiled eggs: egg
+    egg yolk: egg-yolk
+    peanut: roasted-peanuts
+    groundnut: roasted-peanuts
+    peanuts: roasted-peanuts
+    tamarind: tamarind-paste
+    tofu: firm-tofu
+    pandan: pandan-leaf
+    tabasco sauce: hot-sauce
+    taro root: taro
+    pigeon pea: pigeon-peas-canned
+    peppercorn: black-peppercorns
+    peppercorns: black-peppercorns
+    oats: rolled-oats
+    marjoram: dried-marjoram
+    pea: green-peas
+    peas: green-peas
+    white granulated sugar: sugar
+    icing sugar: powdered-sugar
+    warm water: water
+    cold water: water
+    boiling water: water
+    hot water: water
+    salt to taste: salt
+    seasoning cubes: bouillon-cube
+    dehydrated broth: bouillon-cube
+    bouillon: bouillon-cube
+    rosewater: rose-water
+    red pepper: red-bell-pepper
+    noodle: noodles
+    dryfish: stockfish
+    anchovy: anchovies
+    fenugreek: ground-fenugreek
+    meat: beef
+    kaffir lime leaves: kaffir-lime-leaf
+    lime leaves: kaffir-lime-leaf
+    chicken breast: chicken-breast
+    beef#loin: beef
+    beef#chuck: beef-chuck
+    bean sprout: bean-sprouts
+    sweet potato: sweet-potato
+  ground_when_measured:
+    cumin:
+      seeds: cumin-seeds
+      ground: ground-cumin
+      default: ground-cumin
+    coriander:
+      seeds: coriander-seeds
+      ground: ground-coriander
+      fresh: cilantro
+      default: cilantro
+    ginger:
+      seeds: ginger
+      ground: ground-ginger
+      fresh: ginger
+      default: ginger
+    mustard:
+      seeds: mustard-seeds
+      ground: mustard-seeds
+      default: dijon-mustard
+    allspice:
+      seeds: allspice-berries
+      ground: allspice
+      default: allspice
+    cinnamon:
+      seeds: cinnamon-stick
+      ground: ground-cinnamon
+      default: ground-cinnamon
+    cardamom:
+      seeds: green-cardamom-pods
+      ground: ground-cardamom
+      default: ground-cardamom
+    clove:
+      seeds: whole-cloves
+      ground: ground-cloves
+      default: whole-cloves
+    cloves:
+      seeds: whole-cloves
+      ground: ground-cloves
+      default: whole-cloves
+    fennel:
+      seeds: fennel-seeds
+      ground: fennel-seeds
+      default: fennel-bulb

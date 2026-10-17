@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+id: it-risotto-alla-milanese
+title: Risotto alla Milanese
+summary: Risotto alla Milanese.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: saffron, unit: tsp, qty: 0.25}
+  - {ingredient: chicken-stock, unit: cup, qty: [3.5, 4]}
+  - {ingredient: butter, unit: tbsp, qty: 7, prep: divided}
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: long-grain-rice, unit: cup, qty: 1.5}
+  - {ingredient: dry-white-wine, unit: cup, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper}
+  - {ingredient: parmesan, unit: cup, qty: 0.25}
+  - {ingredient: parsley, prep: 'fresh parsley sprig, and tomato slices for garnish', optional: true}
+steps:
+- Crush saffron in mortar with pestle to a powder. Place saffron in glass measuring cup.
+- Bring broth to a boil in small saucepan over medium heat; reduce heat to low.
+- Stir ½ cup broth into saffron to dissolve; set aside. Keep remaining broth hot.
+- Heat 6 tablespoons butter in large, heavy skillet or 2½-quart saucepan over medium heat until melted and bubbly.
+- Cook and stir onion 5 minutes or until onion is soft.
+- Stir in rice; cook and stir 2 minutes.
+- Stir in wine, salt and pepper.
+- Cook, uncovered, over medium-high heat 3–5 minutes until wine has evaporated, stirring occasionally.
+- Measure ½ cup hot broth; stir into rice mixture. Reduce heat to medium-low, maintaining a simmer throughout adding broth.
+- Cook and stir until broth has absorbed. Repeat, adding ½ cup broth 3 more times, cooking and stirring until broth has absorbed.
+- Add saffron-flavored broth to rice and cook until absorbed.
+- Continue to add remaining broth, ½ cup at a time, cooking and stirring until rice is tender but firm and mixture has slight creamy consistency. Not all broth may be necessary. Total cooking time of rice will be about 20 minutes.
+- Remove risotto from heat.
+- Stir in remaining 1 tablespoon butter and cheese.
+- Garnish, if desired.
+- Serve immediately.
+tips:
+- Plump, medium grain rice that contains a lot of starch is required. Arborio, Carnaroli, or Vialone Nano are traditionally best. Other rices that work well are Maratelli and Roma.
+- You may substitute vegetable broth for chicken broth.
+- This recipe is often served with Osso Buco.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARisotto_alla_Milanese&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Risotto alla Milanese@4517968
+    url: https://en.wikibooks.org/w/index.php?oldid=4517968
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

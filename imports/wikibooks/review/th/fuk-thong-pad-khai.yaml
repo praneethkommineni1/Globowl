@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 400 g Japanese pumpkin
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: th-fuk-thong-pad-khai
+title: Fuk-Thong Pad Khai
+alternate_names:
+- Thai Stir-Fried Pumpkin
+summary: Fuk-thong pad khai or Thai stir-fried Pumpkin with egg is a delicious and simple Thai dish. It usually served with warm rice. Pumpkin is the main ingredient, and the pumpkin must be firm and heavy for its size.
+origin:
+  country: TH
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: garlic, unit: clove, qty: [1, 2], prep: minced}
+  - {ingredient: pork, unit: g, qty: 150}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: fish-sauce, unit: tsp, qty: 0.5}
+  - {ingredient: sugar, unit: tsp, qty: 0.25}
+  - {ingredient: black-pepper, unit: pinch, qty: 1}
+  - {ingredient: scallion, unit: tbsp, qty: [1, 2]}
+  - {ingredient: oyster-sauce, unit: tbsp, qty: 1}
+steps:
+- To prepare the pumpkin, remove seeds and cut off the outside skin of the pumpkin. Cut the pumpkin into 1-inch cubes and wash well with water.
+- Place pumpkin in a saucepan, and cover with water. Bring to the boil and cook until tender. When it is soft, drain the water.
+- Heat the oil in a pan, and fry the garlic until it becomes lightly browned and fragrant.
+- Add the minced pork to the pan, and let cook until the pork is nearly cooked through.
+- Add the cooked squash to the pork.
+- Crack the eggs into the pan.
+- Once the eggs are cooked, stir with pumpkin and minced pork.
+- Stir in the fish sauce, sugar, pepper, spring onion, and oyster sauce.
+- Serve with warm rice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFuk-Thong_Pad_Khai_%28Thai_Stir-Fried_Pumpkin%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fuk-Thong Pad Khai (Thai Stir-Fried Pumpkin)@4511512
+    url: https://en.wikibooks.org/w/index.php?oldid=4511512
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 4 tablespoons suya spice
+#  - unmapped ingredient: 2 tablespoons ground peanuts or peanut powder
+#  - unmapped ingredient: 1 teaspoon paprika or chili powder
+#  - unmapped ingredient: Wooden skewers
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: ng-nigerian-suya
+title: Nigerian suya
+summary: Nigerian suya is one of the country’s most iconic street foods—smoky, spicy, and deeply flavorful. It’s essentially skewered meat (usually beef, sometimes chicken or goat) that’s thinly sliced, coated in a bold spice mix, and grilled over open flames.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 60
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: kg, qty: 1}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: garlic-powder, unit: tsp, qty: 1}
+  - {ingredient: bouillon-cube, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, note: medium}
+  - {ingredient: tomato, qty: 2}
+steps:
+- Slice meat thinly (usually beef).
+- Mix yaji (ground peanuts, chili, ginger, garlic, onion, salt, seasoning).
+- Coat the meat with oil and the spice mix; let it rest briefly.
+- Skewer the meat and add more spice.
+- Grill over charcoal, turning often, until cooked and slightly charred.
+- Serve hot with onions, tomatoes, and extra spice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_suya&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian suya@4634633
+    url: https://en.wikibooks.org/w/index.php?oldid=4634633
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 pound reblochon cheese
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: fr-tartiflette
+title: Tartiflette
+summary: Tartiflette is a French dish from the Savoy region. It originated in the valley of Aravis, home of reblochon cheese.
+origin:
+  country: FR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: g, qty: 794}
+  - {ingredient: bacon, unit: g, qty: [142, 170], prep: cut into lardons about 1 x 1/4 x 1/4 inch}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: dry-white-wine, unit: cup, qty: 0.25}
+  - {ingredient: heavy-cream, unit: tbsp, qty: 6}
+  - {ingredient: salt, unit: tsp, qty: 0.5, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Boil potatoes in their skins for exactly 20 minutes, until they&#8217;re just beginning to get tender. Do not overcook! Rinse with cold water to stop the cooking.
+- While still warm, peel the potatoes with your fingers, then use a large, very sharp knife to cut them into slices about ⅓-inch thick. Then cut the slices into rough cubes.
+- While the potatoes are cooking, slice the slab bacon or salt pork into slices about ¼-inch thick. Then cut into lardons about ¼-inch across.
+- Melt the butter in a large sauté pan, then cook the lardons over medium-high heat until crisp and golden brown. Remove with a slotted spoon and set aside, leaving the bacon fat in the pan.
+- Preheat the oven to 350 °F.
+- Cook the onions in the bacon fat over medium heat, stirring often, until wilted and slightly golden. Drain in a strainer, pressing with a spoon to remove as much fat as possible, and leave them there.
+- Pour off the fat in the pan, return the bacon and onions, and add the wine. Cook over high heat until the wine is nearly evaporated.
+- Add the diced potatoes and cook for a minute or so, stirring constantly until all the ingredients are well mixed together.
+- Add the cream and salt and pepper to taste. Try using a little more salt than you might think is necessary, at least ½ teaspoon. Stir all the ingredients together for a minute.
+- Lightly butter the inside of an 10–11-inch earthenware baking dish. Add the potato mixture and smooth the surface.
+- Cut the Reblochon in two down across the top so that you have two pieces in the shape of a half-moon. Put one of the pieces away for another use. Use a sharp knife to lightly score the crust of the remaining half-cheese about every inch, including its side. Then, carefully slice horizontally through its center so that you now have two half-moon pieces.
+- Place the two pieces of cheese crust-side-up on top of the potatoes so that they form a circular cheese again.
+- Cover the dish tightly with aluminum foil and bake in the center of the oven for 1 hour.
+- Remove the foil and stir the cheese, including the crust, into the potatoes, mixing well.
+- Place 5–6 inches under the broiler and cook until golden brown on top.
+tips:
+- Use potatoes that are all the same size so that they will cook evenly.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATartiflette&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tartiflette@4517434
+    url: https://en.wikibooks.org/w/index.php?oldid=4517434
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

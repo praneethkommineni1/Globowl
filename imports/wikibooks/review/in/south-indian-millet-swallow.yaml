@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 1/2 cups ragi flour
+#  - no time in recipe summary
+id: in-south-indian-millet-swallow
+title: South Indian Millet Swallow
+alternate_names:
+- Mudde
+summary: Mudde is a compact ball swallow made from finger millet. It is a lunchtime staple of rural communities in Karnataka, Tamil Nadu and Andhra Pradesh in South India, and an important source of long-lasting energy among the rural poor.
+origin:
+  country: IN
+course: side
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6 balls
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 5}
+  - {ingredient: ghee}
+steps:
+- Boil the water in a pot, add a little of the flour to make a paste, then add the rest of the flour.
+- Stir once with the handle of a wooden spoon and leave it in the pot.
+- Keep on low heat for about 10 minutes until it smells cooked.
+- Stir until the mixture turns dark reddish-brown. Once it begins to leave the sides of the pot, remove the pot from the fire and stir vigorously for 5–10 minutes—it's hard work, but the longer you keep at it, the lighter it will be.
+- Pull the mixture out and form into balls of about fist size.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASouth_Indian_Millet_Swallow_%28Mudde%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:South Indian Millet Swallow (Mudde)@4518775
+    url: https://en.wikibooks.org/w/index.php?oldid=4518775
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

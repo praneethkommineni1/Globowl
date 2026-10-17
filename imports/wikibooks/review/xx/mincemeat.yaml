@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-mincemeat
+title: Mincemeat
+summary: Mincemeat is a mixture of spiced chopped fruits. Traditionally mincemeat has contained meat, although many modern recipes omit it. This recipe, however, does contain beef. Mincemeat will stay good for a while.
+origin:
+  country: XX
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- food mill / food processor
+- blender
+- heavy-bottomed pot
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: apple, unit: g, qty: [2722, 3629]}
+  - {ingredient: beef}
+  - {ingredient: lemon, qty: 1, prep: seeds removed}
+  - {ingredient: raisins, unit: cup, qty: 2}
+  - {ingredient: sugar, unit: cup, qty: 4}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 2.5}
+  - {ingredient: nutmeg, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cloves, unit: tsp, qty: 0.5}
+  - {ingredient: coffee, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: cider-vinegar, unit: cup, qty: 1}
+  - {ingredient: chicken-stock, unit: cup, qty: 1.5}
+  - {ingredient: molasses, unit: cup, qty: 1.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+steps:
+- Core apples; remove the seeds, but don’t peel.
+- Cube meat and cover with water. Simmer until tender; this may take up to an hour.
+- Remove meat and cook the stock down to the amount needed, or thicken slightly with cornstarch.
+- Run meat through a food mill (medium or coarse blade), or grind to an equivalent fineness in a food processor.
+- Cut lemon in half and remove seeds. Purée the whole lemon in a blender, rind and all, with some of the liquid ingredients, or process as finely as possible in a food processor.
+- Grind the apples (or process using a coarse blade—but not too fine).
+- Combine the apple, meat, and raisins in a large, heavy-bottomed pot.
+- Add the sugar, spices, liquids, and lemon purée to the meat and apples. Use hot meat stock to rinse the last of the molasses into the mixture. Stir thoroughly.
+- Cook slowly, uncovered, stirring often to prevent burning until the mixture is pasteurized and enough of the liquids have evaporated to produce the texture and thickness you want in the finished mixture.
+- Let cool, then stir in the ground pepper.
+- Refrigerate, allowing the spices to mellow for several weeks.
+tips:
+- If desired, you can substitute ½–¾ cup (125–185 ml/4.2/6.3 oz) of the meat stock with a high quality brandy.
+- The apples are the most important ingredient, without doubt. Insipid apples make lousy mincemeat. A sharp, crisp, flavor-laden “pie” apple is best—late maturing Baldwins and Cortlands are good. Granny Smiths are crisp and tart but less flavorful. If you can’t find Baldwins or Cortlands, use the best pie apple you can find at their peak of flavor and texture in the autumn.
+- Mincemeat at its best needs a few weeks to season in the refrigerator, say 6–8 weeks. If you make it in late October or early November, the spices and flavors will continue to mellow and be just right for Thanksgiving and the coming holidays.
+- The suet can be removed before cooking and the fat skimmed off that renders from the meat as it cooks if desired.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMincemeat&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mincemeat@4517095
+    url: https://en.wikibooks.org/w/index.php?oldid=4517095
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

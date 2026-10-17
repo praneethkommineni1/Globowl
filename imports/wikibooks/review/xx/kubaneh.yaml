@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 1/2–3 cups lukewarm water
+#  - unmapped ingredient: 1 tsp black cumin
+id: xx-kubaneh
+title: Kubaneh
+alternate_names:
+- Yemenite Pull-Apart Bread
+summary: 'Kubaneh (Arabic: كبانة‎ ; Hebrew: כֻּבַּאנֶה‎), is a leavened bread baked in a greased pot with a tightly-sealed lid, where it cooks in its own vapors.'
+origin:
+  country: XX
+course: bread
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 180
+difficulty: 3
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: yeast, unit: tsp, qty: 1}
+  - {ingredient: sugar, unit: tsp, qty: 3}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 3, prep: all-purpose wheat flour}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+steps:
+- Dissolve salt in lukewarm water.
+- Sprinkle yeast over lukewarm water and add sugar. Leave for 10 minutes until yeast is foamy.
+- Add yeast mixture to flour, and knead to form a dough.
+- After kneading the dough, allow it to sit 10 minutes until it begins to rise.
+- 'Repeat process: turn it and knead it again and let sit 10 minutes until it rises. Repeat this process 3 or 4 times until dough rises to the top of the kneading bowl and one is left with a uniform texture and consistency.'
+- Grease the baking pot with the vegetable oil.
+- Divide dough into smaller pieces (8–10 round pieces).
+- Place all dough pieces in pot, one after the other; compacted together. Fill to one-third the capacity of baking pot and cover tightly with lid.
+- Preheat oven to 225–280°F (107–138°C). Bake bread for 1 hour at the higher temperature or 3 hours at the lower temperature. It should be golden brown.
+- Turn bread out onto a plate, turn bread upside down, and restore to baking pot.
+- Cover pot with lid and bake another hour; or reduce oven temperature to and bake overnight. If desired, remove from oven and afterwards return it only close to the Sabbath.
+- Serve hot with clarified butter, usually also with tomato salsa mixed with chopped coriander.
+tips:
+- During the winter months, some had a custom to add to the baking pot along with the Kubaneh a piece of the fatty-tail of sheep, in which case the bread became a meat-dish. When the bread was eaten as a dairy dish, they would pour butter over the dough portions before inserting the pot in the oven.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKubaneh_%28Yemenite_Pull-Apart_Bread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kubaneh (Yemenite Pull-Apart Bread)@4630059
+    url: https://en.wikibooks.org/w/index.php?oldid=4630059
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

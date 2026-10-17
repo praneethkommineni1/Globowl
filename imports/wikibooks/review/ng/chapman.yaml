@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 bottles Boom blackcurrant beverage
+#  - unmapped ingredient: 10 watermelons, removed from the rind and diced
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-chapman
+title: Chapman
+alternate_names:
+- Nigerian Party Drink
+summary: Chapman is a sweet non-alcoholic drink widely served at parties and events all across the Nigeria.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Large mixing bowl or punch bowl
+- Mixing spoon
+- Ladle
+- Cutting board
+- Large knife
+ingredient_groups:
+- items:
+  - {ingredient: water}
+  - {ingredient: pineapple, qty: 5, prep: 'peeled, cored, and diced'}
+  - {ingredient: apple, qty: 12, prep: cored and diced}
+steps:
+- Pour the blackcurrant beverage into the bowl. While stirring, dilute with water until it reaches your desired flavor.
+- If not sufficiently chilled, transfer to the fridge and rest until cold.
+- Divide the diced fruits between serving cups, then fill the cups with the beverage and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChapman_%28Nigerian_Party_Drink%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chapman (Nigerian Party Drink)@4629683
+    url: https://en.wikibooks.org/w/index.php?oldid=4629683
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

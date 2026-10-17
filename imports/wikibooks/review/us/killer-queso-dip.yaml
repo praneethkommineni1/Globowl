@@ -1,0 +1,44 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 lb Velveeta cheese
+#  - unmapped ingredient: Tortilla chips or fritos for serving
+#  - no time in recipe summary
+id: us-killer-queso-dip
+title: Killer Queso Dip
+summary: Queso (literally "cheese" in Spanish), also known as chile con queso, is a common dip found in southwestern and Tex-Mex cooking.
+origin:
+  country: US
+course: starter
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3 cups
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: sausage, unit: g, qty: 454}
+  - {ingredient: tomato, unit: g, qty: 284}
+steps:
+- Brown sausage in saucepan and drain grease.
+- Add cubed cheese, diced tomatoes, and diced chilies.
+- Heat over low, stirring until cheese is melted and ingredients are well blended.
+- Brown sausage in a skillet and drain grease.
+- In a slow cooker, melt cheese with tomatoes and chilies, stirring.
+- Add browned sausage. Stir until well melted and mixed.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKiller_Queso_Dip&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Killer Queso Dip@4517647
+    url: https://en.wikibooks.org/w/index.php?oldid=4517647
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

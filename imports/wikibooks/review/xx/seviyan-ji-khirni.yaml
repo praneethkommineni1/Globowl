@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-seviyan-ji-khirni
+title: Seviyan Ji Khirni
+alternate_names:
+- Sindhi Vermicelli Pudding
+summary: Seviyan Ji Khirni.
+origin:
+  country: XX
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: ghee, unit: tbsp, qty: 1}
+  - {ingredient: vermicelli, unit: tbsp, qty: 3}
+  - {ingredient: milk, unit: l, qty: 2}
+  - {ingredient: green-cardamom-pods, qty: 10}
+  - {ingredient: saffron, qty: 20}
+  - {ingredient: sugar, unit: cup, qty: 2}
+  - {ingredient: almonds, qty: 10}
+steps:
+- Heat ghee in a skillet. Add vermicelli, and fry over low heat until golden brown. Remove from the heat.
+- Bring the milk to a boil. Add vermicelli, cardamom, and saffron. Simmer until the vermicelli are tender and the milk is reduced to a little more than half the original volume.
+- Mix in the sugar, and boil for 5–7 minutes.
+- Serve, garnished with almonds.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASeviyan_Ji_Khirni_%28Sindhi_Vermicelli_Pudding%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Seviyan Ji Khirni (Sindhi Vermicelli Pudding)@4517946
+    url: https://en.wikibooks.org/w/index.php?oldid=4517946
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

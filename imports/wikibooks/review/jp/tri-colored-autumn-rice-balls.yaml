@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3 cups prepared steamed sweet rice
+#  - unmapped ingredient: 1 cup smooth Japanese bean paste, chilled
+#  - unmapped ingredient: 1/2 cup roasted soybean powder or toasted ground pecans
+#  - no time in recipe summary
+id: jp-tri-colored-autumn-rice-balls
+title: Tri-Colored Autumn Rice Balls
+summary: Tri-colored autumn rice balls (san-shoku ohagi) is a simple a tea sweet, which was at one time served during the autumn equinox celebration. The name comes from a type of bush clover that only blooms in the fall. Serve these rice balls with your finest cup of tea.
+origin:
+  country: JP
+course: starter
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: sesame-seeds, unit: cup, qty: 0.25, prep: lightly crushed}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+steps:
+- Mix sesame seeds and sugar in a small bowl.
+- Moisten your hands with water and divide warm rice into 12 equal portions.
+- Shape 4 portions into balls. Moisten a clean dish towel and squeeze it dry.
+- Place 2½ tablespoons bean paste on towel; pat into a 4-inch circle.
+- Place 1 rice ball in the centre of the bean paste circle and use towel to mould bean paste around the rice ball.
+- Repeat this 3 more times, using another ½ cup of bean paste and the other 3 rice balls.
+- Place these on a nice serving tray. Flatten the remaining eight rice portions.
+- Form the remaining bean paste into 8 balls (about 2 teaspoons per ball). Place a bean paste ball in the centre of each piece of flattened rice and shape the rice around it.
+- Mould these stuffed rice balls into oval shapes. Roll 4 ovals in the sesame-sugar mixture. Roll the other 4 balls in the roasted soybean powder. Add these to the serving tray.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATri-Colored_Autumn_Rice_Balls&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tri-Colored Autumn Rice Balls@4513067
+    url: https://en.wikibooks.org/w/index.php?oldid=4513067
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

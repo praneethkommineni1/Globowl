@@ -1,0 +1,66 @@
+id: cm-ndole
+title: Ndole
+alternate_names:
+- Cameroonian Bitter Leaf and Peanut Soup
+summary: Ndole is a popular traditional soup recipe in Cameroon that is made with the combination of spinach and bitter leaves as well as crayfish, shrimp, and beef. It is also a recipe for ceremony.
+origin:
+  country: CM
+course: soup
+authenticity: unassessed
+yield:
+  servings: 5
+  amount: 5–6
+time:
+  total_min: 70
+difficulty: 3
+equipment:
+- Pot
+- Bowl
+- Stovetop
+- Knife
+- Cooking spoon
+- Blender/grinder
+- Saucepan
+- Frying pan
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 227, prep: diced}
+  - {ingredient: salt}
+  - {ingredient: bouillon-cube, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 3, prep: sliced, note: large}
+  - {ingredient: stockfish, unit: g, qty: 227, optional: true}
+  - {ingredient: roasted-peanuts, unit: cup, qty: 2}
+  - {ingredient: garlic, unit: clove, qty: [4, 5]}
+  - {ingredient: ground-crayfish, unit: cup, qty: 0.75}
+  - {ingredient: spinach, unit: g, qty: 454}
+  - {ingredient: vegetable-oil, unit: cup, qty: [2, 3]}
+  - {ingredient: shrimp, unit: g, qty: 227}
+steps:
+- Season the beef in a big pot with salt, maggi, and one-third of the onions, then boil until the meat is soft.
+- In the meantime, boil the stockfish with salt and water, then add it to the cooked beef. From the meat and stockfish you should get roughly 3 cups. Freeze or reserve the remainder.
+- In a saucepan, boil the peanuts for around 10 minutes. Let it cool before pulsing or mixing it in a blender. Add to the meat and stockfish mixture.
+- Grind half the remaining onion and garlic to a paste, then stir into the meat and peanut mixture.
+- Add the crayfish, then boil it for 10 minutes, stirring often to avoid burning. Season with salt and maggi to taste. Later, you might need to add more.
+- Add spinach or bitter leaves to the soup. Stir and continue to simmer for few minutes.
+- Heat the oil in a frying pan while the ndole is simmering. Add the shrimp and stir continuously until they start to turn pink. Add all the remaining onions and stir again for a few more minutes.
+- Add the shrimp and onion mixture to the soup pot, and stir continuously for about 2 minutes
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANdole_%28Cameroonian_Bitter_Leaf_and_Peanut_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ndole (Cameroonian Bitter Leaf and Peanut Soup)@4518463
+    url: https://en.wikibooks.org/w/index.php?oldid=4518463
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

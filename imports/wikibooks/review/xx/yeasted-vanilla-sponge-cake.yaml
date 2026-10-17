@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-yeasted-vanilla-sponge-cake
+title: Yeasted Vanilla Sponge Cake
+summary: Sponge cake is a common type of cake that can be made by a couple different methods. This method uses oil and yeast, which avoids separating or whipping eggs. Note that this recipe does not preheat the oven—this slower heating will provide extra time for the yeast to rise.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- 1 large mixing bowl
+- 1 shallow baking tray
+- 1 cake pan
+- Whisk
+- Sieve
+- Baking paper
+- Oven
+- Measuring cups and spoons
+- Kitchen scale
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 5}
+  - {ingredient: sugar, unit: g, qty: 90}
+  - {ingredient: vegetable-oil, unit: g, qty: 90}
+  - {ingredient: milk, unit: ml, qty: 20}
+  - {ingredient: all-purpose-flour, unit: g, qty: 150, prep: sifted}
+  - {ingredient: yeast, unit: g, qty: 8}
+  - {ingredient: vanilla-extract}
+  - {ingredient: water}
+steps:
+- Crack the eggs into the mixing bowl, and beat them to homogenize.
+- Mix in the sugar until well-distributed.
+- Mix in the oil, then the milk.
+- Sift in the flour, and mix just until incorporated.
+- Mix in the yeast powder.
+- Transfer the batter to a cake pan lined with baking paper. Place the cake pan into the larger baking tray, and place them into the oven.
+- Pour the hot water into the larger baking tray to make a water bath about 1–2 cm deep.
+- Set the oven to 150°C, and bake for 65 minutes or until a skewer inserted into the center comes out with no batter on it.
+- Remove the cake pan, and let it cool.
+- Unmold the cake, and cut into squares.
+tips:
+- 'To make a matcha version:'
+- Increase the sugar from 90 g to 120 g.
+- Combine the milk with 20 ml brewed milk tea and 12 g matcha powder before mixing into the batter.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AYeasted_Vanilla_Sponge_Cake&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Yeasted Vanilla Sponge Cake@4516973
+    url: https://en.wikibooks.org/w/index.php?oldid=4516973
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 big doorstop of granary bread
+#  - unmapped ingredient: Pickle
+#  - unmapped ingredient: Cocktail pork pie
+#  - unmapped ingredient: Sausage rolls
+#  - course unknown from categories
+id: gb-ploughman-s-lunch
+title: Ploughman's Lunch
+summary: The ploughman's lunch is traditional British pub fare, a hearty cold meal featuring bread, cheese and pickle. Its history is not actually that old, and doesn't really date back to actual ploughmen—see Wikipedia on Ploughman's lunch.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 5
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: cheese, qty: 1, prep: or a selection of 2–3 types of cheese if available, note: big}
+  - {ingredient: butter}
+  - {ingredient: lettuce}
+  - {ingredient: apple, qty: 0.5, optional: true}
+  - {ingredient: onion, optional: true}
+steps:
+- Arrange all ingredients on a plate.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APloughman%27s_Lunch&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ploughman's Lunch@4511385
+    url: https://en.wikibooks.org/w/index.php?oldid=4511385
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

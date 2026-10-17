@@ -1,0 +1,41 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tablespoon fat or oil
+#  - no servings in recipe summary
+id: gb-bubble-and-squeak
+title: Bubble and Squeak
+summary: Bubble and squeak is a traditional English vegetable dish made from the leftover vegetables from a Sunday roast. The name is derived from the sound the dish makes while cooking.
+origin:
+  country: GB
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 15
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 1, prep: chopped, optional: true, note: medium}
+  - {ingredient: potato}
+steps:
+- Fry the chopped onion in fat or oil.
+- Chop the vegetables, and add to the pan.
+- Cook over a medium heat till the underside is golden brown and crispy, then turn it, scraping the crispy bits into the mix. Repeat the turning and scraping a few times until browned and cooked through.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABubble_and_Squeak&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bubble and Squeak@4523430
+    url: https://en.wikibooks.org/w/index.php?oldid=4523430
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

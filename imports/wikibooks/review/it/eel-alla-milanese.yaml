@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 large eel
+#  - unmapped ingredient: 4 ounces Chablis wine
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-eel-alla-milanese
+title: Eel alla Milanese
+summary: 'This recipe is from The Cook''s Decameron: A Study In Taste, Containing Over Two Hundred Recipes For Italian Dishes, from a project that puts out-of-copyright texts into the public domain. This is from a very old source, and it reflects the cooking at the turn of the last century.'
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: g, qty: 57}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 1}
+  - {ingredient: chicken-stock, unit: cup, qty: 1}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: carrot}
+steps:
+- Cut the eel and fry it in butter. When it is a good colour, add flour, stock, wine, bay leaf, pepper, and salt. Boil until it is well cooked.
+- In the meantime, separately boil the vegetables.
+- Take out the pieces of eel, and keep them hot.
+- Pass the liquor which forms the sauce through a sieve, and add the vegetables to this.
+- Let the vegetables boil a little longer in the liquor, then arrange them in a dish.
+- Place the pieces of eel on the vegetables and cover with the liquor. Serve very hot.
+tips:
+- Any sort of fish will do as well for this dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEel_alla_Milanese&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Eel alla Milanese@4518608
+    url: https://en.wikibooks.org/w/index.php?oldid=4518608
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

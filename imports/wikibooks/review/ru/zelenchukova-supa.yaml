@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 100 g kashkaval
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ru-zelenchukova-supa
+title: Zelenchukova Supa
+alternate_names:
+- Bulgarian Vegetable Soup
+summary: Zelenchukova Supa.
+origin:
+  country: RU
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: salt}
+  - {ingredient: carrot, qty: [1, 2], prep: diced}
+  - {ingredient: celery, qty: 0.5, prep: diced}
+  - {ingredient: red-bell-pepper, qty: [1, 2], prep: finely cut}
+  - {ingredient: white-cabbage, qty: 0.25, prep: finely cut}
+  - {ingredient: potato, qty: [2, 3], prep: diced}
+  - {ingredient: sunflower-oil}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: tomato, qty: [2, 3], prep: grated}
+  - {ingredient: all-purpose-flour, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: beetroot, qty: 1, prep: diced and boiled}
+  - {ingredient: yogurt, unit: g, qty: 100}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: parsley, prep: finely chopped}
+steps:
+- Bring a pot of salted water to a boil, then add the carrots, celery, peppers, and cabbage. Cook until soft.
+- Add the diced potatoes.
+- Heat some oil in a pan, and add the onion. Cook until soft, then stir in the flour, paprika, and tomatoes.
+- Stir the onion mixture into the boiling vegetables, and cook for another half hour.
+- Add the beetroot.
+- Combine the yogurt and egg, carefully mix in a bit of hot broth, then stir this mixture back into the soup to thicken it.
+- Season with salt to taste.
+- Serve with finely chopped parsley and grated kashkval.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AZelenchukova_Supa_%28Bulgarian_Vegetable_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Zelenchukova Supa (Bulgarian Vegetable Soup)@4494292
+    url: https://en.wikibooks.org/w/index.php?oldid=4494292
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 medium acorn squash, halved lengthwise
+#  - unmapped ingredient: 1 tablespoon orange marmalade
+#  - course unknown from categories
+id: xx-acorn-squash-with-orange-marmalade
+title: Acorn Squash with Orange Marmalade
+summary: Acorn squash with orange marmalade is a quick, easy vegetable side dish that has great appeal due to its slight sweetness.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 45
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.125}
+steps:
+- Preheat oven to 400°F (204°C).
+- Remove seeds and strings from squash halves.
+- Cut a small piece off outside of each half to make a flat space on which the half can stand level.
+- Place halves in a shallow pan or casserole in ¼ inch (6 mm) water with insides facing down. Bake for 35 minutes.
+- Combine marmalade and butter in a small bowl.
+- Remove squash from oven, and invert in pan or dish. Salt lightly.
+- Spread marmalade and butter mixture on edges of squash, allowing excess to run into center.
+- Place under broiler for 5 minutes or until lightly browned.
+tips:
+- Substitute brown sugar for the orange marmalade.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAcorn_Squash_with_Orange_Marmalade&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Acorn Squash with Orange Marmalade@4523665
+    url: https://en.wikibooks.org/w/index.php?oldid=4523665
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

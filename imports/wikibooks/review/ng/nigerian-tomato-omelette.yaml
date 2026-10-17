@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-nigerian-tomato-omelette
+title: Nigerian Tomato Omelette
+summary: Nigerian tomato omelette is a simple dish of egg and tomato.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Stove
+- Whisk
+- Frying pan
+- Bowls
+- Spatula
+ingredient_groups:
+- items:
+  - {ingredient: egg}
+  - {ingredient: tomato, prep: diced}
+  - {ingredient: vegetable-oil}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Heat some oil in a pan over high heat. Add the tomatoes, and fry until well-heated.
+- Beat the eggs, and stir in the cooked tomato. Return the mixture to the pan over medium-low heat, making sure it is evenly spread across the pan. Cook until the egg is sturdy enough to flip.
+- Flip the omelette to the other side, and cook until the bottom is golden.
+- Serve hot with bread or jollof rice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Tomato_Omelette&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Tomato Omelette@4493957
+    url: https://en.wikibooks.org/w/index.php?oldid=4493957
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

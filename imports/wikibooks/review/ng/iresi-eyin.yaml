@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Pepper powder, to taste
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-iresi-eyin
+title: Iresi Eyin
+alternate_names:
+- Yoruba Palm Oil Native Rice
+summary: Iresi eyin is one of the Yoruba versions of a palm oil rice dish also called palm oil rice/native Jollof rice. It is more accurately described as a palm oil rice. It is different from Yoruba jollof/Yoruba Party Jollof/ Nigerian jollof, which is more popular.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, qty: 3}
+  - {ingredient: red-palm-oil, qty: 2}
+  - {ingredient: iru, unit: tbsp, qty: 2}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 2}
+  - {ingredient: stockfish, prep: 'or any other dried fish, soaked in hot salted water until soft, then shredded'}
+  - {ingredient: onion, note: to taste}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: tomato-paste, qty: 1}
+  - {ingredient: carrot, prep: 'washed and chopped, to taste', note: to taste}
+  - {ingredient: green-peas, prep: 'washed and parboiled if necessary, to taste', note: to taste}
+steps:
+- Wash the rice and parboil for about 8 minutes. Drain and set aside.
+- Heat the palm oil in a large, clean pot until the oil changes color.
+- Add the locust beans, onions, tomato paste, dry pepper, and a little water. Fry until the odour of the sauce changes and becomes more fragrant.
+- Simmer over medium heat for about 25 minutes until the liquid is absorbed and everything is cooked.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIresi_Eyin_%28Yoruba_Palm_Oil_Native_Rice%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Iresi Eyin (Yoruba Palm Oil Native Rice)@4508293
+    url: https://en.wikibooks.org/w/index.php?oldid=4508293
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

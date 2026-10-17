@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/4 pound forcemeat of fowl
+#  - unmapped ingredient: 1 tablespoon potato flour
+#  - unmapped ingredient: 1 tablespoon Bechamel sauce
+#  - unmapped ingredient: Asparagus
+#  - unmapped ingredient: Clear soup
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-neapolitan-soup
+title: Neapolitan Soup
+summary: This is a tasty and easy-to-make soup recipe.
+origin:
+  country: IT
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: egg-yolk, qty: 1}
+  - {ingredient: green-peas}
+  - {ingredient: spinach}
+steps:
+- Mix the fowl with potato flour, Bechamel sauce, and the yolk.
+- Put this into a tube about the size round of an ordinary macaroni.
+- Twenty minutes before serving, squirt the forcemeat into a saucepan of boiling stock, and nip off the forcemeat as it comes through the pipe into pieces about an inch and a half long.
+- Let it simmer, and add boiled peas and asparagus tips.
+- If you like to have the fowl macaroni white and green, you can color half the forcemeat with a spoonful of spinach colouring.
+- Serve in a good clear soup.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANeapolitan_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Neapolitan Soup@4518464
+    url: https://en.wikibooks.org/w/index.php?oldid=4518464
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

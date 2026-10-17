@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 packets of vanilla sugar
+id: at-vanillekipferl
+title: Vanillekipferl
+alternate_names:
+- Almond Crescent Cookies
+summary: Vanillekipferl are small almond biscuits shaped like a crescent moon. They are particularly popular in Austria and Germany, where they are part of the culinary delights of Christmas biscuits.
+origin:
+  country: AT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 50
+  amount: 50 cookies
+time:
+  total_min: 8
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 350}
+  - {ingredient: butter, unit: g, qty: 200}
+  - {ingredient: powdered-sugar, unit: g, qty: 100}
+  - {ingredient: almonds, unit: g, qty: 100}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: vanilla-extract, qty: 1}
+  - {ingredient: salt, unit: pinch, qty: 1}
+- name: Decoration
+  items:
+  - {ingredient: powdered-sugar, unit: g, qty: 60}
+steps:
+- Sift the flour into a bowl.
+- Cut the cold butter into slices and mix it with the flour.
+- Add icing sugar, salt, vanilla sugar, ground almonds, and egg to the mixture.
+- Rinse hands in cold water, and knead the dough on a pastry board. Let the dough rest for half an hour.
+- Grease a baking tray, or alternatively use a sheet of baking paper to prevent the kipferl from sticking.
+- Preheat the oven to 180°C (350°F/Gas 4 ).
+- Form the dough to a cylinder with a diameter of approximately 5 cm, and cut off 0.5 cm thick slices. Roll them between your flat palms to form a sausage shape that is slightly tapered.
+- Lay them in crescent shape on the baking tray, and bake them for 8–10 minutes until they are a light golden brown.
+- Immediately after baking, dip the Kipferl into a mixture of icing sugar and vanilla sugar. Try some—they are delicious while still warm!
+- Leave the rest out overnight, and then store them in an airtight tin.
+tips:
+- Vanilla sugar can be bought in many supermarkets. Alternatively, it can be made by putting a vanilla-pod and some sugar in an airtight jar for a week or two.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AVanillekipferl_%28Almond_Crescent_Cookies%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Vanillekipferl (Almond Crescent Cookies)@4515347
+    url: https://en.wikibooks.org/w/index.php?oldid=4515347
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

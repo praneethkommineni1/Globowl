@@ -1,0 +1,34 @@
+id: bb-cou-cou
+title: Cou-Cou
+summary: A smooth, firm cornmeal and okra "pudding" stirred until it holds its shape, traditionally served with flying fish in a spicy Bajan sauce.
+origin:
+  country: BB
+course: side
+dish_types: [porridge]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 30}
+difficulty: 3
+techniques: [boiling]
+ingredient_groups:
+  - items:
+      - {ingredient: okra, qty: 200, unit: g, prep: "thinly sliced"}
+      - {ingredient: water, qty: 1, unit: l}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: cornmeal, qty: 250, unit: g, note: "fine yellow cornmeal, mixed with 250 ml cold water"}
+      - {ingredient: butter, qty: 2, unit: tbsp}
+steps:
+  - text: Boil the okra in the salted water until tender.
+    timer_min: 8
+  - Lift out the okra with a slotted spoon and keep about half the water in the pot.
+  - Stir the soaked cornmeal into the simmering water and return the okra. Stir constantly with a flat wooden spoon (a cou-cou stick), adding okra water a little at a time.
+  - text: Keep stirring and turning over low heat until the mixture is smooth and stiff and pulls away from the pot.
+    timer_min: 15
+  - Stir in the butter, then shape in a buttered bowl and turn out.
+serving: With steamed flying fish in a tomato, onion and pepper sauce — Barbados's national dish.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

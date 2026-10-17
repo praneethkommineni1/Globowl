@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 4 cups raw palm nuts or 800 ml canned palm nut extract
+#  - unmapped ingredient: 1 teaspoon Banga spice mix
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-banga-soup
+title: Banga Soup
+summary: Banga soup is a traditional Nigerian soup made from palm nut extract, typically enjoyed by the Urhobo and Itsekiri people of the Niger Delta. It is rich, flavorful, and often served with starch or other swallow foods.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4 servings
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 500}
+  - {ingredient: stockfish, qty: [1, 2]}
+  - {ingredient: bouillon-cube, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 1}
+  - {ingredient: onion, qty: 1, note: small}
+  - {ingredient: scent-leaf}
+  - {ingredient: water}
+steps:
+- If using raw palm nuts, boil until soft, then pound lightly and extract the juice using warm water. Strain to remove the chaff. If using canned extract, skip this step.
+- Place the assorted meat and dried fish in a pot. Add chopped onions, stock cube, and salt. Add a small amount of water and boil until the meat is tender.
+- Pour in the palm nut extract. Add more water if too thick. Stir well and bring to a boil.
+- Add ground crayfish and Banga spice mix. Allow to cook uncovered on medium heat for 15–20 minutes, or until the oil begins to rise to the top.
+- Add scent leaves (or basil) and cook for another 5 minutes.
+- Remove from heat and serve hot with starch, fufu, pounded yam, or rice.
+tips:
+- Canned palm nut concentrate saves time and is commonly available in African stores.
+- Banga spice mix can be homemade or store-bought. A typical mix includes oburunbebe stick, aidan fruit, rohoje, and beletientien.
+- You can substitute scent leaves with basil or bitterleaf, depending on availability and taste preference.
+- Add fresh pepper if you like it spicy.
+- For a richer flavor, include smoked catfish or periwinkle.
+- Banga soup is traditionally eaten with starch in Delta state, but pounded yam or eba is common in other regions.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABanga_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Banga Soup@4634113
+    url: https://en.wikibooks.org/w/index.php?oldid=4634113
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

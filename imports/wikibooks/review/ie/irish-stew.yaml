@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ie-irish-stew
+title: Irish Stew
+summary: 'Irish stew (Irish: stobhach gaelach) is a traditional Irish dish made from lamb or mutton as well as potatoes, onions and parsley. It originated in Ireland but appears in cookbooks all over Europe, including in Escoffier''s Guide Culinaire.'
+origin:
+  country: IE
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: lamb, unit: g, qty: 1134, prep: cut in chunks}
+  - {ingredient: potato, qty: 4, prep: peeled and thickly sliced, note: large}
+  - {ingredient: onion, qty: 2, prep: thickly sliced, note: large}
+  - {ingredient: carrot, qty: [3, 4], prep: peeled and thickly sliced, note: medium}
+  - {ingredient: parsley, unit: sprig, qty: 1, prep: chopped}
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Choose a pot with a well-fitting lid and put in the ingredients in layers, starting and finishing with potatoes. Pour in the water and season to taste.
+- Cover and put on a very low heat for about 2½ hours until the meat is tender and the potatoes have thickened the liquid.
+tips:
+- The dish may also be made with lamb, in which case it requires only 1½ hours cooking time.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIrish_Stew&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Irish Stew@4518631
+    url: https://en.wikibooks.org/w/index.php?oldid=4518631
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

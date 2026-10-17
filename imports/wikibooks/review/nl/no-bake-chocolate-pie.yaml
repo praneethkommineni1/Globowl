@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2–3 packs of 'marie' biscuits
+#  - unmapped ingredient: Chocolate sprinkles
+id: nl-no-bake-chocolate-pie
+title: No-Bake Chocolate Pie
+summary: This is an old Dutch recipe for a very 'powerful' chocolate pie.
+origin:
+  country: NL
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 10
+  amount: 10–12
+time:
+  total_min: 40
+difficulty: 3
+ingredient_groups:
+- name: Filling
+  items:
+  - {ingredient: cocoa-powder, unit: g, qty: [150, 200]}
+  - {ingredient: sugar, unit: g, qty: [150, 200]}
+  - {ingredient: butter, unit: g, qty: [250, 500]}
+  - {ingredient: milk, optional: true}
+- name: Crust
+  items:
+  - {ingredient: coffee, optional: true}
+steps:
+- Melt the butter in a saucepan, then mix in the sugar.
+- Stir in the cocoa and milk.
+- Dip biscuits in the coffee, and arrange them in the bottom of the dish to make a single layer. Spread the chocolate mixture on top of the biscuits. Repeat this step until you run out of biscuits and chocolate.
+- Scatter the sprinkles on top, then chill in the fridge until set.
+- Slice and serve.
+tips:
+- The above measurements aren't precise; play with the amounts to your liking.
+- Adding the milk will make the cake less solid.
+- Coffee is optional; addition is to taste.
+- Use about 750 g butter for more than 2 layers of biscuits, and adjust the cocoa/sugar to match.
+- 'Vegan variation: Remove the milk and chocolate sprinkles, and replace the butter by ⅔ soy butter and ⅓ margarine (or all margarine).'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANo-Bake_Chocolate_Pie&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:No-Bake Chocolate Pie@4587272
+    url: https://en.wikibooks.org/w/index.php?oldid=4587272
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

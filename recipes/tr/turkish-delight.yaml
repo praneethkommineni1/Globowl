@@ -1,0 +1,58 @@
+id: tr-turkish-delight
+title: Turkish Delight
+summary: Turkish delight, or lokum (also loukoum), is a confection made from starch and sugar. It is often flavored with rosewater or lemon, the former giving it a characteristic pale pink color.
+origin:
+  country: TR
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 8
+  amount: 8 pieces
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: sugar, unit: cup, qty: 2}
+  - {ingredient: cornstarch, unit: cup, qty: 0.5}
+  - {ingredient: water, unit: cup, qty: 1.5}
+  - {ingredient: cream-of-tartar, unit: tsp, qty: 0.5}
+  - {ingredient: rose-water, unit: tbsp, qty: 2}
+  - {ingredient: food-coloring}
+  - {ingredient: pistachios, unit: cup, qty: 0.5, optional: true}
+  - {ingredient: powdered-sugar, prep: 'granulated sugar, or desiccated coconut for dusting'}
+steps:
+- Combine sugar, 1 cup water, cream of tartar, and flavoring(s) in a small saucepan and bring to a boil.
+- Boil over medium-low heat for 20-30 minutes, until the mixture reaches "firm-ball," or 250°F (120°C) on a candy thermometer.
+- In a separate bowl, combine cornstarch with ½ cup hot water, mix completely, and slowly stir into sugar mixture.
+- Stir constantly until mixture is evenly combined. Continue to stir on low heat until mixture thickens and becomes clearer.
+- Apply non-stick cooking spray to a form (heat-safe ice cube trays will do nicely, though not plastic ones), shallow pie pan, or jelly-roll pan.
+- Pour the thickened hot mixture into the pan or form and allow to set.
+- When cool, release from form or cut into cubes as applicable and roll each piece in powdered sugar, granulated sugar, or coconut.
+- Store at room temperature in airtight container.
+tips:
+- With the exception of the sugar, cornstarch, water, cream of tartar, and cooking technique, this recipe may be greatly altered according to taste and/or occasion. The nuts may be omitted, and various flavorings can be added.
+- 'Try replacing the rosewater with one of the following:'
+- ½ tsp rose food flavoring
+- ¼ cup fruit juice
+- 1 tbsp vanilla extract
+- 1 tbsp orange extract
+- 1 tbsp Crème de menthe liqueur
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATurkish_Delight&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Turkish Delight@4587329
+    url: https://en.wikibooks.org/w/index.php?oldid=4587329
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

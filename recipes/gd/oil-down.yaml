@@ -1,0 +1,47 @@
+id: gd-oil-down
+title: Oil Down
+summary: Grenada's national dish — breadfruit, salted meat, chicken, dumplings and callaloo steamed in coconut milk and turmeric until the milk is absorbed and only the "oil" remains.
+origin:
+  country: GD
+course: main
+dish_types: [one-pot, stew]
+occasions: [Gatherings, Beach cooks]
+authenticity: traditional
+yield: {servings: 8}
+time: {prep_min: 40, cook_min: 75, inactive_min: 720}
+difficulty: 3
+techniques: [steaming, simmering]
+ingredient_groups:
+  - name: Pot
+    items:
+      - {ingredient: salt-pork, qty: 400, unit: g, note: "salted pigtail or salt beef, soaked overnight"}
+      - {ingredient: chicken-thigh, qty: 500, unit: g, prep: "bone-in pieces", optional: true}
+      - {ingredient: onion, qty: 1, prep: "sliced"}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "crushed"}
+      - {ingredient: thyme, qty: 4, unit: sprig}
+      - {ingredient: chives, qty: 1, unit: handful, prep: "chopped"}
+      - {ingredient: ground-turmeric, qty: 1, unit: tsp, note: "Grenadians call it saffron"}
+      - {ingredient: breadfruit, qty: 1, prep: "peeled, cored and cut into large chunks"}
+      - {ingredient: carrot, qty: 2, prep: "chunked"}
+      - {ingredient: spinach, qty: 300, unit: g, note: "callaloo (dasheen) leaves are traditional"}
+      - {ingredient: coconut-milk, qty: 800, unit: ml}
+      - {ingredient: scotch-bonnet, qty: 1, note: "whole"}
+  - name: Dumplings
+    items:
+      - {ingredient: all-purpose-flour, qty: 200, unit: g}
+      - {ingredient: water, qty: 100, unit: ml}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+steps:
+  - Drain the salted meat, boil it in fresh water for 15 minutes and drain again to remove excess salt.
+  - Knead the dumpling ingredients into a firm dough and shape into small logs.
+  - In a large heavy pot, layer the onion, garlic, herbs, meats, breadfruit, carrots and dumplings, with the callaloo leaves on top.
+  - Stir the turmeric into the coconut milk and pour over. Add the Scotch bonnet.
+  - text: Cover tightly and cook on medium-low without stirring until the breadfruit is tender and the coconut milk has been absorbed, leaving a little oil at the bottom.
+    timer_min: 60
+  - Serve from the pot.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

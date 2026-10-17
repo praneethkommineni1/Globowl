@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 24 canned snails
+id: fr-snails-with-garlic-butter
+title: Snails with Garlic Butter
+alternate_names:
+- Escargots à la Bourguignonne
+summary: Escargots à la bourguignonne is a French dish of snails with garlic butter.
+origin:
+  country: FR
+course: starter
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 45
+difficulty: 2
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: g, qty: 227, prep: softened}
+  - {ingredient: shallot, unit: tbsp, qty: 1}
+  - {ingredient: garlic, unit: tsp, qty: 1}
+  - {ingredient: parsley, unit: tbsp, qty: 1.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: mushroom, qty: 24, prep: 'with snail serving dishes, and snail tongs OR 4 glazed indented earthenware snail serving dishes OR 24 small mushroom caps, trimmed and de-gilled'}
+steps:
+- Preheat oven to 400°F.
+- Drain and rinse the snails.
+- Combine the butter with the shallots, garlic, parsley, salt, and pepper, and blend well.
+- Sauté the mushroom caps, if using, in a small amount of garlic butter until cooked but still firm. Remove from the heat.
+- If using snail shells, place a snail in each shell and fill the rest of the space with garlic butter. If using a snail dish without the shells, place a snail in each indentation and fill the rest of the space with garlic butter. If using mushroom caps, place 2–3 snails in each cap and top with a generous amount of garlic butter.
+- Heat the snails in the oven for 5–7 minutes, and serve with copious quantities of French bread for soaking up the garlic butter.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASnails_with_Garlic_Butter_%28Escargots_%C3%A0_la_Bourguignonne%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Snails with Garlic Butter (Escargots à la Bourguignonne)@4502308
+    url: https://en.wikibooks.org/w/index.php?oldid=4502308
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

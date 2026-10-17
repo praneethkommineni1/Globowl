@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (IN, PK): confirm the country of origin
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-mango-and-coconut-chutney
+title: Mango and Coconut Chutney
+alternate_names:
+- Am ki Chatni
+summary: Mango and Coconut Chutney.
+origin:
+  country: IN
+  also_claimed_by:
+  - PK
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: mango, qty: 2}
+  - {ingredient: coconut, unit: tbsp, qty: 1, prep: finely chopped}
+  - {ingredient: cilantro, unit: tsp, qty: 1, prep: chopped}
+  - {ingredient: ginger, unit: tbsp, qty: 1, prep: scraped and finely chopped}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 0.5}
+  - {ingredient: orange, unit: tbsp, qty: [2, 3], prep: or a mixture of orange and lime juice}
+steps:
+- Place the mango on one side on a work surface and make a slit in the tip across its width with a sharp knife. Then hold the mango upright on its stem end, on the work surface, and carefully slice the flesh, with the skin attached, off one side of the stone, as close to it as possible. Then turn it the other way and cut off the flesh from the other side of the stone.
+- Place each mango half, skin-side down, on the work surface, and cut lines through the flesh down to the skin in a lattice pattern so that you end up with a checker-board pattern with ½-inch squares.
+- Grasp the mango half with both your hands, skin down and your two thumbs on the flesh and your four fingers of each hand underneath on the skin. Now, turn the skin inside out by pushing the skin inwards with your four fingers of each hand while pushing the two sides downward with your two thumbs. You will now have the skin of the mango with cubes of flesh attached which can be easily cut off with a sharp knife.
+- Place the mango cubes in a small bowl.
+- Add the coconut, cilantro, ginger, cayenne, orange/lime juice, and salt and mix gently with a tablespoon.
+- Leave to marinate in the refrigerator for 1–2 hours before serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMango_and_Coconut_Chutney_%28Am_ki_Chatni%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mango and Coconut Chutney (Am ki Chatni)@4531810
+    url: https://en.wikibooks.org/w/index.php?oldid=4531810
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

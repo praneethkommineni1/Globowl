@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 cup malt vinegar
+#  - unmapped ingredient: Pinch of salt
+#  - unmapped ingredient: 1 tbsp Old Bay seasoning
+#  - unmapped ingredient: 1 recipe French fries, instead of black pepper use chipotle powder
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-chipotle-fish-n-chips
+title: Chipotle Fish n' Chips
+summary: Chipotles add a Southwestern smoky heat to otherwise normal fish n' chips.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+- whisking
+ingredient_groups:
+- name: Chipotle vinegar
+  items:
+  - {ingredient: chipotle-in-adobo, qty: [2, 3], prep: pureed until smooth}
+- name: Fish
+  items:
+  - {ingredient: beer, qty: 1}
+  - {ingredient: cornmeal, unit: cup, qty: 2}
+  - {ingredient: worcestershire-sauce, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: chipotle-in-adobo, qty: [3, 4], prep: pureed until smooth}
+  - {ingredient: chipotle-in-adobo, unit: tbsp, qty: [1, 2]}
+  - {ingredient: cornstarch}
+  - {ingredient: tilapia, qty: 4, prep: cut into 1-ounce strips}
+  - {ingredient: vegetable-oil}
+steps:
+- Make the chipotle vinegar by whisking all ingredients in a dipping bowl. Keep at room temperature until needed.
+- Combine beer, cornmeal, old bay, worcestershire sauce, salt, chipotles, and adobo to make a batter.
+- Dredge fish pieces in cornstarch, and then dip in the batter.
+- Fry coated fish pieces two at a time in the oil at 350°F. They should take 3 minutes to become golden and crisp on the outside.
+- Drain fish pieces on a cooling rack suspended above a baking pan. If inside is undercooked, finish in a 350°F oven.
+- Serve with French fries and the chipotle vinegar.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChipotle_Fish_n%27_Chips&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chipotle Fish n' Chips@4533586
+    url: https://en.wikibooks.org/w/index.php?oldid=4533586
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

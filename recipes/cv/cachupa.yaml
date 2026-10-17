@@ -1,0 +1,45 @@
+id: cv-cachupa
+title: Cachupa
+native_name: {text: Cachupa, lang: pt}
+summary: Cabo Verde's national dish — a slow stew of hominy corn and beans with pork, sausage, squash, sweet potato and cabbage.
+origin:
+  country: CV
+course: main
+dish_types: [stew, one-pot]
+authenticity: traditional
+yield: {servings: 8}
+time: {prep_min: 30, cook_min: 180, inactive_min: 720}
+difficulty: 3
+techniques: [simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: dried-hominy, qty: 500, unit: g, note: "soaked overnight"}
+      - {ingredient: dried-red-kidney-beans, qty: 250, unit: g, note: "soaked overnight; a mix of beans is traditional"}
+      - {ingredient: water, qty: 4, unit: l}
+      - {ingredient: bay-leaf, qty: 2}
+      - {ingredient: pork-belly, qty: 300, unit: g, prep: "cut into chunks"}
+      - {ingredient: chorizo, qty: 200, unit: g, prep: "thickly sliced"}
+      - {ingredient: olive-oil, qty: 3, unit: tbsp}
+      - {ingredient: onion, qty: 2, prep: "chopped"}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "crushed"}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: sweet-potato, qty: 1, prep: "cubed"}
+      - {ingredient: butternut-squash, qty: 400, unit: g, prep: "cubed"}
+      - {ingredient: white-cabbage, qty: 300, unit: g, prep: "cut into wedges"}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - text: Drain the hominy and beans and simmer them in the water with the bay leaves. Boil hard for the first 10 minutes.
+    timer_min: 90
+  - Add the pork belly and simmer 30 minutes more.
+  - Meanwhile fry the onion and garlic in the oil until soft, add the tomatoes and cook to a sauce; stir it into the pot.
+  - text: Add the sausage, sweet potato, squash and cabbage, season, and simmer until everything is tender and the stew is thick.
+    timer_min: 45
+tips:
+  - Leftovers are fried the next morning with an egg as cachupa guisada — many say it's even better.
+culture: '"Cachupa rica" with plenty of meat is for celebrations; "cachupa pobre" uses only corn, beans and vegetables.'
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

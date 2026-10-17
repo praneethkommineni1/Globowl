@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: Crab shells, scallop shells, or small oven-proof dishes
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: br-stuffed-crabs
+title: Stuffed Crabs
+alternate_names:
+- Casquinha de Siri
+summary: Stuffed Crabs.
+origin:
+  country: BR
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: crab, unit: g, qty: 907, prep: drained if using canned}
+  - {ingredient: olive-oil, unit: tbsp, qty: 3}
+  - {ingredient: tomato, qty: 4, prep: 'peeled, seeded and chopped'}
+  - {ingredient: red-palm-oil, unit: tbsp, qty: 1}
+  - {ingredient: coconut-milk, unit: cup, qty: 0.75}
+  - {ingredient: parsley, unit: tbsp, qty: 2}
+  - {ingredient: scallion, unit: tbsp, qty: 2}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 4}
+  - {ingredient: breadcrumbs}
+  - {ingredient: parmesan}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Heat olive oil and sauté onions until soft.
+- Stir in crabmeat for 3–5 minutes. Add tomatoes and simmer for 5–8 minutes.
+- Add coconut milk, salt, pepper and palm oil, cooking for 3–5 minutes.
+- Remove from heat, add flour at small quantities, stirring continually. Bring the pan back to heat, cooking until you get a cream. Stir in parsley and green onions. Remove from heat.
+- Fill the shells or oven-proof dishes with this mixture, top with bread crumbs mixed with Parmesan cheese.
+- Bake for 15–20 minutes or until lightly brown.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AStuffed_Crabs_%28Casquinha_de_Siri%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Stuffed Crabs (Casquinha de Siri)@4630330
+    url: https://en.wikibooks.org/w/index.php?oldid=4630330
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: fi-traditional-finnish-lemon-mead
+title: Traditional Finnish Lemon Mead
+alternate_names:
+- Sima
+summary: Sima is a Finnish, lemon-flavored mead mostly consumed during the celebrations of the 1st of May. A glass of sima is traditionally accompanied by a funnel cake or sugar coated donut.
+origin:
+  country: FI
+course: drink
+authenticity: unassessed
+yield:
+  servings: 8
+  amount: 8 litres
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Container large enough to hold all of the sima (a big plastic bucket for example)
+- Empty bottles
+- Funnel
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: l, qty: 8}
+  - {ingredient: brown-sugar, unit: g, qty: 500}
+  - {ingredient: sugar, unit: g, qty: 500}
+  - {ingredient: lemon, qty: [2, 3]}
+  - {ingredient: yeast, unit: tsp, qty: 0.25}
+  - {ingredient: raisins, unit: handful, qty: 1}
+steps:
+- Sterilize all of your equipment. A thorough process is described in the mead recipe. However, as the fermentation time of sima is very short (only a few days) and it is usually consumed within a week or so, just washing the bucket and bottles well and then rinsing them with boiling water right before using is generally enough to prevent spoiling.
+- Boil 4 litres of water.
+- Wash the lemons well and peel the zest, being careful not to include the bitter white pith. Put the zest into your container.
+- Slice the lemons and remove the white pith from around the slices. Add the slices into the container.
+- Add all the sugar into the container with the lemons.
+- Pour the boiling water on top, and mix well until the sugar is mostly dissolved.
+- Add 4 litres of cold water so that the mixture will be lukewarm, the right temperature for the yeast to activate. If unsure, check with a thermometer—the temperature should be between 35°C and 45°C.
+- When the temperature is right, add the yeast. One way is to take a small cup of the mixture from the container, dissolve the yeast in it and then mix it back. Just dropping a crumb of fresh yeast into the container will also work.
+- Let it stand overnight in room temperature.
+- 'Bottle it on the next day: add one spoonful of sugar and a few raisins to each bottle before you pour the sima in.'
+- After bottling, let the bottles stand at room temperature out of direct sunlight for 2 more days. The raisins will bloat up and float to the surface.
+- Move the bottles to your refrigerator. The sima is ready, and should be served cold. It will keep for at least a week in the refrigerator.
+tips:
+- For a simpler process, just squeeze in the juice of 1–2 lemons instead of removing the pith.
+- You may use 1 kg brown sugar instead of mixing white and brown to make a darker sima with a stronger brown sugar flavour.
+- All the sugar may optionally be replaced with 1 kg honey.
+- You can put the bottled sima into the refrigerator immediately instead of fermenting overnight at room temperature. This will cause the fermentation to be slower; the sima will be ready in approximately 5–7 days.
+- Plastic soda bottles are recommended as pressure can build up in the bottles. An exploding plastic bottle is less dangerous than an exploding glass bottle.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATraditional_Finnish_Lemon_Mead_%28Sima%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Traditional Finnish Lemon Mead (Sima)@4510635
+    url: https://en.wikibooks.org/w/index.php?oldid=4510635
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

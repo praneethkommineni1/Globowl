@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 4.5 dl cottage cheese
+id: se-sandwich-layer-cake
+title: Sandwich Layer-Cake
+summary: Smörgåstårta or sandwich cake is a typical Swedish party dish, not to be confused with Smörgåsbord. The sandwich cake is a very rich sandwich with so much filling it resembles a cake.
+origin:
+  country: SE
+course: starter
+authenticity: unassessed
+yield:
+  servings: 10
+  amount: 10–15
+time:
+  total_min: 60
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: [3, 4]}
+  - {ingredient: shrimp, unit: kg, qty: 1}
+  - {ingredient: mayonnaise, qty: 4}
+  - {ingredient: sour-cream, qty: 1}
+  - {ingredient: white-bread, qty: 2}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: dill}
+  - {ingredient: dill}
+steps:
+- Boil the eggs until hard, and peel the shrimp.
+- Set aside some shrimp (about ⅓) for garnishing. Chop the remaining shrimp, which will be used for filling.
+- Mix 1 dl mayonnaise with 1 dl sour cream in a cup or bowl, place in the refrigerator.
+- Mix the remaining mayonnaise with the cottage cheese in another bowl together with the chopped shrimp; this is the filling.
+- Cut the bread lengthwise to make eight 1 cm thick slices. Discard the top and bottom slice.
+- Place two slices next to each other, preferably on a cutting board. Spread one third of the filling on top of the bread slices. Add two more bread slices on top. Spread half of the remaining filling and repeat for the final layer. The cake should now have four layers of bread with three layers of filling between them.
+- If necessary even out the edges of the cake with a sharp knife.
+- Take the mayonnaise/sour cream mix out of the refrigerator and spread it thinly and evenly on the sides of and on top of the cake.
+- Cover the sides of the cake with chopped parsley or dill. Garnish with shrimp, sliced eggs, and dill sprigs or lemon slices.
+tips:
+- The recipe above describes a four layer cake with only one type of filling. It is possible to use different fillings in different layers of the cake. However, make sure that the tastes of the fillings "fit" together. It is also possible to do a three layer cake.
+- Instead of serving the sandwich cake in cake form it is possible to cut it into pieces before serving. This makes an excellent appetizer or it can be more convenient way to serve the cake since guests do not have to cut it.
+- Since the sandwich cake can be quite heavy it is usually served with a mixed salad. Tortilla chips, various kinds of nuts, or almonds (roasted or fresh) can also be served on the side.
+- When preparing the sandwich cake in "appetizer style" do not cut the bread lengthwise, instead cut normal slices. It is also possible to use pre-sliced bread. Only use two layers for the appetizers and use a tooth-pick to hold it together.
+- Chopped canned tuna
+- Chopped pâté and pickled cucumber
+- Smoked ham and paprika
+- Eggs, pickled cucumber, and curry
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASandwich_Layer-Cake&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sandwich Layer-Cake@4518280
+    url: https://en.wikibooks.org/w/index.php?oldid=4518280
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

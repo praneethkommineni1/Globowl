@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - course unknown from categories
+id: ng-kuli-kuli
+title: Kuli-kuli
+summary: Kuli-kuli is a beloved traditional snack from Northern Nigeria, made primarily from groundnuts. This delightful treat is known for its satisfying crunch and rich flavor, making it a favorite among many.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 60
+difficulty: 3
+equipment:
+- Frying pan
+- Wooden spoon
+- Blender or food processor
+- Mixing bowl
+- Cheesecloth
+- Paper towels
+techniques:
+- dough-making
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: roasted-peanuts, unit: cup, qty: 6}
+  - {ingredient: water}
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: [0.5, 1]}
+  - {ingredient: onion, qty: 0.5, prep: puréed, optional: true}
+  - {ingredient: garlic, qty: 2, prep: crushed, optional: true}
+  - {ingredient: chili-paste, unit: tbsp, qty: 1, optional: true}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1, optional: true}
+steps:
+- Toast the peanuts in a dry frying pan over medium heat, stirring occasionally to avoid burning. Once roasted, remove the skins by rubbing them between your hands or using a cloth to gently press and peel off the skins.
+- Using a food processor or blender, grind the roasted peanuts to form a peanut butter, working in batches as necessary. This will take around 5–10 minutes depending on power.
+- Transfer peanut mixture to a large mixing bowl. Add in water, ¼ cup (60 ml) at a time, to peanut butter, kneading with your hands after each addition. This will swell up the grains in the peanut butter, making it thicker and releasing the oils. Stop adding water once the mixture starts releasing oils. Continue to knead for a further 5 minutes to release as much oil as possible.
+- Put the mixture into a cheesecloth, and squeeze to release the oils. Transfer the peanut mixture back to the bowl, and set aside the oils for deep-frying.
+- Stir in the remaining ingredients, mixing well to combine.
+- Mix in enough water, a tablespoon at a time, until you get a moldable dough, and knead well.
+- Take teaspoonfuls of the dough and roll them into small balls or form them into flat discs, depending on your preference. You can also shape them into small cylinders or oval shapes, like traditional kuli-kuli. You can experiment with different shapes.
+- Heat the reserved oil in a frying pan over medium heat. Fry the kuli-kuli pieces in batches, ensuring they don’t overcrowd the pan, until they are golden brown and crispy on all sides (about 4–5 minutes). Be sure to flip them carefully to ensure even frying.
+- Once fried, remove the kuli-kuli from the oil and place them on a paper towel to drain excess oil. Allow them to cool completely before serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKuli-kuli&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kuli-kuli@4512222
+    url: https://en.wikibooks.org/w/index.php?oldid=4512222
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: al-baked-leeks
+title: Baked Leeks
+summary: Baked leeks (Tavë me presh) is an Albanian recipe.
+origin:
+  country: AL
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4 servings
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: leek, unit: g, qty: 907}
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.5}
+  - {ingredient: onion, unit: cup, qty: 0.75}
+  - {ingredient: beef, unit: g, qty: 227}
+  - {ingredient: canned-tomatoes, unit: tbsp, qty: 1}
+  - {ingredient: red-bell-pepper}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Cut off the green leaves from leeks. Wash and cut leeks diagonally into 1-inch thick slices.
+- Sauté in a little oil and place in a baking pan.
+- Sauté onion and ground meat in remaining oil.
+- Add beef stock, tomato sauce, red pepper, salt and pepper, and bring to a boil.
+- Pour meat mixture over the sautéed leeks.
+- Bake for 1 hour at 375°F (190°C).
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaked_Leeks&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Baked Leeks@4495247
+    url: https://en.wikibooks.org/w/index.php?oldid=4495247
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

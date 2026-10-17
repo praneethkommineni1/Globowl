@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tablespoon trassi
+#  - no time in recipe summary
+id: th-thai-red-curry-paste
+title: Thai Red Curry Paste
+summary: 'Thai red curry paste (Thai: phrik kaeng phet) is a spicy paste commonly used to make curry dishes.'
+origin:
+  country: TH
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3–4 tablespoons
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: red-chili, qty: 12, prep: chopped, note: small}
+  - {ingredient: lemongrass, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: pressed}
+  - {ingredient: onion, qty: 1, note: small}
+  - {ingredient: ginger, unit: tbsp, qty: 1}
+  - {ingredient: cilantro, unit: tbsp, qty: 2, prep: leaves and stems}
+  - {ingredient: ground-cumin, unit: pinch, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+steps:
+- Grind the red chiles, garlic, lemongrass, and onion in a mortar.
+- Add the remaining ingredients except for the oil, and keep grinding to make a fluid paste.
+- Mix in the oil. Store in an airtight container in the refrigerator for up to 1 month.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AThai_Red_Curry_Paste&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Thai Red Curry Paste@4517571
+    url: https://en.wikibooks.org/w/index.php?oldid=4517571
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

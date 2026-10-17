@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 4 oz grated suet
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: gb-sausagemeat-pie
+title: Sausagemeat Pie
+summary: Sausagemeat Pie.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 227}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: mustard-seeds, unit: pinch, qty: 1}
+  - {ingredient: water}
+  - {ingredient: sausage, unit: g, qty: 680}
+  - {ingredient: onion, qty: 1, note: large}
+  - {ingredient: thyme}
+  - {ingredient: black-pepper}
+  - {ingredient: butter}
+steps:
+- Add 1 pinch of salt and 1 pinch of mustard powder to the flour.
+- Mix together the suet and flour with enough water to make a doughy consistency.
+- Cut the pastry into two portions one slightly larger than the other.
+- Roll out the larger portion and use it to line a small buttered pie dish.
+- Finely dice the onion.
+- Mix together the sausagemeat, diced onion, a pinch of thyme, and plenty of black pepper.
+- Mash the mixture into the pie dish making sure there are no voids.
+- Wet the edge of the pastry where it covers the lip of the pie dish.
+- Roll out the remaining pastry and cover the pie.
+- Lightly crimp the edge with your thumb and trim.
+- Cut a hole in the top centre of the pie to allow steam to escape.
+- Bake in the oven at 180°C until golden brown on top (30–40 minutes).
+- Serve with a little gravy poured over the top.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASausagemeat_Pie&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sausagemeat Pie@4615165
+    url: https://en.wikibooks.org/w/index.php?oldid=4615165
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

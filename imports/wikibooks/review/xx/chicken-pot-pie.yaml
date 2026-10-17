@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 can mixed vegetables
+#  - unmapped ingredient: 1 can white chunk chicken
+#  - unmapped ingredient: 2 frozen pie crusts, thawed
+id: xx-chicken-pot-pie
+title: Chicken Pot Pie
+summary: Chicken Pot Pie.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 50
+difficulty: 1
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: can, qty: 1}
+  - {ingredient: mushroom, unit: can, qty: 1}
+steps:
+- Mix soup, vegetables, and chicken in a large bowl.
+- Pour mixture into one of the pie crusts
+- Cover with other pie crust and press around edges to seal.
+- Cut several small slits in top of pie.
+- Bake at 375 °F for 30–40 minutes or until golden brown.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Pot_Pie_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chicken Pot Pie I@4523457
+    url: https://en.wikibooks.org/w/index.php?oldid=4523457
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

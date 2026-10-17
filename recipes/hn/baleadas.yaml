@@ -1,0 +1,40 @@
+id: hn-baleadas
+title: Baleadas
+native_name: {text: Baleadas, lang: es}
+summary: Thick, soft flour tortillas folded around refried red beans, crumbled salty cheese and Honduran cream.
+origin:
+  country: HN
+  region: La Ceiba
+course: breakfast
+dish_types: [flatbread, street-food]
+authenticity: traditional
+yield: {servings: 4, amount: 8 baleadas}
+time: {prep_min: 25, cook_min: 25, inactive_min: 30}
+difficulty: 3
+techniques: [dough-making, pan-frying]
+ingredient_groups:
+  - name: Tortillas
+    items:
+      - {ingredient: all-purpose-flour, qty: 500, unit: g}
+      - {ingredient: baking-powder, qty: 2, unit: tsp}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: lard, qty: 80, unit: g, alt: [butter], note: "or vegetable shortening"}
+      - {ingredient: water, qty: 300, unit: ml, note: "warm"}
+  - name: Filling
+    items:
+      - {ingredient: refried-beans, qty: 400, unit: g, note: "red beans"}
+      - {ingredient: feta, qty: 120, unit: g, prep: "crumbled", note: "Honduran queso duro"}
+      - {ingredient: mexican-crema, qty: 120, unit: ml, alt: [sour-cream], note: "Honduran mantequilla rala"}
+      - {ingredient: egg, qty: 4, note: "scrambled", optional: true}
+      - {ingredient: avocado, qty: 1, prep: "sliced", optional: true}
+steps:
+  - Mix the flour, baking powder and salt, rub in the fat, then add the water and knead into a soft dough. Divide into 8 balls and rest 30 minutes.
+  - Stretch each ball by hand (or roll) into a thin 20 cm round.
+  - Cook on a hot dry griddle for 1 minute per side until puffed and spotted.
+  - Spread with warm beans, sprinkle with cheese and drizzle with cream. Add egg or avocado if you like, and fold in half.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

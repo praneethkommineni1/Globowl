@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: chopped water leaf
+#  - unmapped ingredient: Periwinkles
+#  - unmapped ingredient: 2 fresh peppers, blended
+#  - no procedure steps
+#  - course unknown from categories
+id: xx-mmong-ikong
+title: Mmong ikong
+alternate_names:
+- water leaf soup
+summary: Mmong Ikong is a traditional Water leaf soup of the Efik and Ibibio people of southern Nigeria. The soup is prepared with fresh water leafs , seafood, palm oil, and seasonings.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3-4
+time:
+  total_min: 60
+difficulty: 2
+equipment:
+- Cooking pot
+- Knife
+- Bowl for washing the leaf and ingredients
+- Mortar and pestel
+- Stove or cooking gas
+- Spatula
+ingredient_groups:
+- items:
+  - {ingredient: fish}
+  - {ingredient: stockfish, prep: soaked and cleaned}
+  - {ingredient: crayfish}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: red-palm-oil, unit: tbsp, qty: 3}
+  - {ingredient: bouillon-cube, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: water, unit: cup, qty: 2}
+steps:
+- (missing)
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMmong_ikong_%28water_leaf_soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mmong ikong (water leaf soup)@4639186
+    url: https://en.wikibooks.org/w/index.php?oldid=4639186
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

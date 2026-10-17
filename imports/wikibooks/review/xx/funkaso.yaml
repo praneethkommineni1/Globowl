@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: xx-funkaso
+title: Funkaso
+alternate_names:
+- Hausa Fritters
+summary: Funkaso or pinkaso is a savoury Hausa fritter eaten with soup, honey, or sugar.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 180
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 4}
+  - {ingredient: yeast, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1.5}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: baking-powder, unit: tsp, qty: 1.5}
+  - {ingredient: vegetable-oil}
+steps:
+- Sift the flour into a mixing bowl, and mix in the yeast, salt, sugar, and baking powder.
+- Mix in enough water to form a sticky and loose dough.
+- Cover the dough, and let rise for 2 hours in a warm place.
+- Gently deflate the dough and bring it together in the bowl.
+- Heat a few inches of oil in a skillet or pot over medium heat. If you have a thermometer, aim for 350°F / 175°C. A small piece of dough should immediately float and start bubbling.
+- Dip the back of a ladle or other large cooking spoon into a bowl of water to prevent sticking. Scoop a handful of dough onto the back of the ladle. Stick your finger in the center, and pull it repeatedly towards the outside to make a hole in the center.
+- Turn the ladle over into the hot oil to release the dough into the oil—the ring should slip off. Fry the dough until golden brown and cooked through on all sides. You can work in batches as long as you do not overcrowd the fryer.
+- Remove the fritter(s) from the oil, and drain off any excess on a cooling rack.
+- Serve as desired with soup or sugar.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFunkaso_%28Hausa_Fritters%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Funkaso (Hausa Fritters)@4517737
+    url: https://en.wikibooks.org/w/index.php?oldid=4517737
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

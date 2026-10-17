@@ -1,0 +1,62 @@
+id: ng-fankasau
+title: Fankasau
+alternate_names:
+- Hausa Wheat Puff Puff
+summary: Fankasau is a traditional Hausa fritter, common in northern Nigeria.
+origin:
+  country: NG
+course: snack
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2 servings
+time:
+  total_min: 60
+difficulty: 3
+equipment:
+- Stovetop
+- Frying pan
+- Mixing bowl
+- Wooden spoon
+- Mixer (optional)
+techniques:
+- deep-frying
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 4}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: yeast, unit: tbsp, qty: 1}
+  - {ingredient: water}
+  - {ingredient: potash, unit: cup, qty: 0.5}
+  - {ingredient: sugar}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: baking-powder, unit: tbsp, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: vegetable-oil}
+steps:
+- Combine the flours and yeast in a bowl. Mix in enough water to form a thick, sticky dough.
+- Cover the dough and allow to rise for about 1 hour until doubled.
+- Add the potash water, baking powder, sugar, and salt to the dough. Mix well until thoroughly combined.
+- Divide the dough into suitably sized portions. Dip your hands in oil, and shape the dough portions into rounds with a hole in the center.
+- Heat a pot of oil. Working in batches, add the dough and deep fry until golden brown on all sides.
+- Remove the fritters, and drain any excess oil.
+- Serve fresh.
+tips:
+- Fankasau is best served with taushe, meat stew and pepper soup.
+- The quantity of flour used is half that of the wheat used in preparing the wheat puff puff.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFankasau_%28Hausa_Wheat_Puff_Puff%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fankasau (Hausa Wheat Puff Puff)@4526321
+    url: https://en.wikibooks.org/w/index.php?oldid=4526321
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

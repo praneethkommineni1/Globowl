@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-boiled-cocoyam
+title: Boiled Cocoyam
+summary: Boiled cocoyam, also known as lambo (Yoruba), gwaza (Hausa), and akasi (Igbo) is a typical Nigerian food. It is believed to have a richer taste and higher nutritional value than yam.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: taro}
+  - {ingredient: water}
+  - {ingredient: salt}
+steps:
+- Wash the cocoyam to remove dirt from the surface, and cut into smaller pieces without peeling.
+- Transfer cocoyam to a pot, and cover with water.
+- Add a pinch of salt, and simmer for several minutes until tender.
+- Drain the cocoyam, and remove the peel.
+- Serve with garden egg stew, egg sauce, or fried pepper.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABoiled_Cocoyam&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Boiled Cocoyam@4354630
+    url: https://en.wikibooks.org/w/index.php?oldid=4354630
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

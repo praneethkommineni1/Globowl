@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: Pickles
+id: cn-bbq-pork-fried-rice
+title: BBQ Pork Fried Rice
+summary: BBQ Pork Fried Rice.
+origin:
+  country: CN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- name: Pork
+  items:
+  - {ingredient: pork, qty: 1, prep: cut into 30 pieces}
+  - {ingredient: barbecue-sauce, unit: ml, qty: 50}
+  - {ingredient: soy-sauce, unit: ml, qty: 15}
+  - {ingredient: hoisin-sauce, unit: ml, qty: 30}
+  - {ingredient: sugar, unit: tbsp, qty: 5}
+  - {ingredient: salt, unit: tbsp, qty: 2.5}
+- name: Fried rice
+  items:
+  - {ingredient: olive-oil, unit: tbsp, qty: 6.5}
+  - {ingredient: sesame-oil, unit: tbsp, qty: 5}
+  - {ingredient: garlic, unit: clove, qty: 7, prep: minced}
+  - {ingredient: ginger, qty: 5, prep: minced}
+  - {ingredient: red-chili, qty: 5, prep: minced}
+  - {ingredient: scallion, qty: 6, prep: cut into 2 cm pieces}
+  - {ingredient: egg, qty: 4, prep: mixed}
+  - {ingredient: long-grain-rice, unit: g, qty: 1000}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 4}
+  - {ingredient: bouillon-cube, unit: tbsp, qty: 2}
+  - {ingredient: oyster-sauce, unit: tbsp, qty: 1.5}
+  - {ingredient: salt, unit: tbsp, qty: 2}
+  - {ingredient: green-chili, unit: g, qty: 20}
+- name: Garnish
+  items:
+  - {ingredient: white-cabbage}
+  - {ingredient: tomato}
+  - {ingredient: lettuce}
+  - {ingredient: cucumber}
+  - {ingredient: egg, qty: 3, prep: cooked into an omelette and sliced 1 cm thick}
+steps:
+- Combine the barbecue sauce, soy sauce, hoisin sauce, sugar, and salt to make the marinade.
+- Place the pork into the sauce mixture. Cover with plastic wrap, and refrigerate for 25 minutes. Make sure the sauce in the bowl is really absorbed.
+- Transfer the pork to a baking pan, and bake for 20 minutes at . When finished, put the pork onto a plate.
+- Heat the olive oil and sesame oil in a medium wok. Fry the garlic, red chillies, ginger and scallion, then stir briefly for 1 minute. Add the mixed egg and rice.
+- Add the grilled pork, salted soy sauce, chicken powder, oyster sauce, salt and jalapeño. Stir until mixed.
+- Serve hot with garnishes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABBQ_Pork_Fried_Rice&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:BBQ Pork Fried Rice@4523798
+    url: https://en.wikibooks.org/w/index.php?oldid=4523798
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

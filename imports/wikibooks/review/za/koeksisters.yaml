@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+id: za-koeksisters
+title: Koeksisters
+alternate_names:
+- Fried Braided Pastry in Syrup
+summary: A koeksister is a fritter, usually in the shape of a plait, that is dipped in a cold syrup mixture. Koeksisters are very rich and are usually served as a special treat or kept for festive occasions.
+origin:
+  country: ZA
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3 dozen
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+- dough-making
+- simmering
+ingredient_groups:
+- name: Syrup
+  items:
+  - {ingredient: sugar, unit: kg, qty: 1}
+  - {ingredient: water, unit: ml, qty: 500}
+  - {ingredient: ginger, qty: 3, prep: peeled and bruised OR 2–3 sticks of cinnamon, optional: true}
+  - {ingredient: cream-of-tartar, unit: ml, qty: 1}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: lemon-juice, unit: tsp, qty: 2.5}
+- name: Dough
+  items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 240}
+  - {ingredient: baking-powder, unit: tsp, qty: 4}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: buttermilk, unit: ml, qty: 125}
+steps:
+- Combine all ingredients in a saucepan. Bring to a boil, stirring until the sugar has dissolved.
+- Turn the heat down, and simmer for 5–8 minutes.
+- Cool the syrup to room temperature.
+- Divide it into 2 containers, and place in the refrigerator to chill overnight.
+- Sift together flour, baking powder, and salt.
+- Rub in butter.
+- Add buttermilk. Mix into a soft dough and knead thoroughly. It helps if you oil your hands lightly when starting to knead the dough.
+- Cover the dough with a damp cloth, and leave it to rest for 15 minutes.
+- Roll the dough out to a thickness of 5 mm and cut into 5 x 70 mm (½ cm x 7 cm) strips. Press the ends of two or three strips together and twist or plait, then press the ends together again. Keep the dough you are not working with covered with a damp cloth.
+- Deep fry in hot oil until golden brown on both sides.
+- Remove with a slotted spoon and dip the pieces immediately in the ice cold syrup.
+- Remove and place the koeksisters on a wire rack so that the excess syrup can drain.
+- Store the koeksisters in a sealed container in the refrigerator. They freeze well and can be served straight from the freezer.
+tips:
+- This recipe will yield about 3 dozen dainty-sized koeksisters—you can make them bigger for a more substantial treat.
+- You may also, after dipping the fried koeksuster in the syrup, lightly roll it in dessicated coconut.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKoeksisters_%28Fried_Braided_Pastry_in_Syrup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Koeksisters (Fried Braided Pastry in Syrup)@4517747
+    url: https://en.wikibooks.org/w/index.php?oldid=4517747
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

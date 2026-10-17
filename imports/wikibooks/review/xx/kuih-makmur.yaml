@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: xx-kuih-makmur
+title: Kuih Makmur
+alternate_names:
+- Malaysian Peanut Cookies
+summary: Kuih Makmur.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 10
+  amount: 10–20 pieces
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 125, prep: sifted}
+  - {ingredient: ghee, unit: g, qty: 60}
+  - {ingredient: roasted-peanuts, unit: g, qty: 57, prep: coarsely ground}
+  - {ingredient: powdered-sugar, unit: g, qty: 60}
+steps:
+- Preheat the oven to 180°C. Grease or line a baking sheet.
+- Knead together the flour and ghee until you get a rough dough.
+- Divide the dough into balls about 2 inches in diameter.
+- Flatten one of the balls in the palm of your hand, making a little divot in the center.
+- Spoon about 1–2 tsp peanuts into the center of the dough. Pinch the edges of the dough together to enclose the peanuts, and gently reshape into a ball.
+- Place the filled cookies on the baking sheet. Bake 15–20 minutes until dried and a very light golden brown.
+- Carefully remove the hot cookies from the tray, and roll in powdered sugar.
+- Let cool and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKuih_Makmur_%28Malaysian_Peanut_Cookies%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kuih Makmur (Malaysian Peanut Cookies)@4515292
+    url: https://en.wikibooks.org/w/index.php?oldid=4515292
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

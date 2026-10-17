@@ -1,0 +1,51 @@
+id: kg-lagman
+title: Lagman
+native_name: {text: Лагман, lang: ky, romanized: lagman}
+summary: Thick, chewy wheat noodles under a stir-fried sauce of beef, peppers, tomato and garlic, scented with cumin.
+origin:
+  country: KG
+  community: Uyghur and Dungan
+  also_claimed_by: [KZ, UZ]
+course: main
+dish_types: [noodles]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 40}
+difficulty: 3
+equipment: [Wok or wide pan]
+techniques: [stir-frying, simmering, boiling]
+ingredient_groups:
+  - name: Sauce
+    items:
+      - {ingredient: vegetable-oil, qty: 3, unit: tbsp}
+      - {ingredient: beef-steak, qty: 500, unit: g, prep: "cut into thin strips", note: "or lamb"}
+      - {ingredient: onion, qty: 1, prep: "sliced"}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "minced"}
+      - {ingredient: red-bell-pepper, qty: 1, prep: "sliced"}
+      - {ingredient: green-pepper, qty: 1, prep: "sliced"}
+      - {ingredient: carrot, qty: 1, prep: "cut into matchsticks"}
+      - {ingredient: celery, qty: 1, unit: stalk, prep: "sliced"}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: tomato-paste, qty: 1, unit: tbsp}
+      - {ingredient: ground-cumin, qty: 1, unit: tsp}
+      - {ingredient: chili-flakes, qty: 0.5, unit: tsp}
+      - {ingredient: soy-sauce, qty: 1, unit: tbsp}
+      - {ingredient: water, qty: 500, unit: ml}
+      - {ingredient: white-vinegar, qty: 1, unit: tsp}
+      - {ingredient: salt, note: "to taste"}
+  - name: Noodles
+    items:
+      - {ingredient: wheat-noodles, qty: 500, unit: g, note: "fresh thick noodles; hand-pulled is traditional"}
+      - {ingredient: scallion, qty: 2, prep: "sliced"}
+steps:
+  - Stir-fry the beef in the very hot oil until browned. Add the onion and garlic, then the peppers, carrot and celery, and stir-fry for 3 minutes.
+  - Add the tomatoes, paste, cumin and chili and cook until the tomatoes soften.
+  - text: Add the soy sauce and water and simmer until the beef is tender and the sauce slightly thickened. Add the vinegar and season.
+    timer_min: 20
+  - Boil the noodles until chewy-tender, drain and divide between bowls. Ladle the sauce over and top with scallion.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

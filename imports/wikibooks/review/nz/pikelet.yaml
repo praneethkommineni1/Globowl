@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (NZ, AU): confirm the country of origin
+#  - no time in recipe summary
+id: nz-pikelet
+title: Pikelet
+alternate_names:
+- Australian Mini Pancakes
+summary: Pikelets are small, thick pancakes, and are standards of the New Zealand kitchen. They are also made in Australia.
+origin:
+  country: NZ
+  also_claimed_by:
+  - AU
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 15
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 125}
+  - {ingredient: all-purpose-flour, unit: g, qty: 125}
+  - {ingredient: baking-soda, unit: tsp, qty: 1.5}
+  - {ingredient: yeast, unit: g, qty: 8}
+  - {ingredient: milk, unit: ml, qty: 75}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: water, unit: ml, qty: 250}
+steps:
+- Sift the flours into a large mixing bowl, adding half a teaspoon of the bicarbonate of soda and the salt.
+- Crumble the yeast into a small bowl and slowly add the water until you have a brown paste.
+- Pour the liquid yeast into the mixing bowl.
+- Mix it about a bit until you have a very thick batter. You can use a wooden spoon, but you get much better results if you get stuck in and use your hands.
+- Cover the bowl with a warm and damp cloth and leave in a warm place for 2 hours.
+- Return to the now frothy batter (if it is not then you have done something wrong). Dissolve the rest of the bicarbonate of soda in the lukewarm milk and slowly add it to the batter.
+- Heat a lightly greased griddle or ordinary frying pan until very hot. Now, using one spoonful at a time, cook the mixture for about 2 minutes on each side. The indication to turn should be when the bubbles that will form dry out.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APikelet_%28Australian_Mini_Pancakes%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pikelet (Australian Mini Pancakes)@4522725
+    url: https://en.wikibooks.org/w/index.php?oldid=4522725
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

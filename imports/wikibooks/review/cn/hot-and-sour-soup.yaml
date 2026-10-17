@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 cup canned bamboo shoots, julienned
+id: cn-hot-and-sour-soup
+title: Hot and Sour Soup
+summary: Hot and sour soup is a popular soup served at Chinese restaurants in the United States. This version tastes exactly like that served at various Chinese restaurants in California.
+origin:
+  country: CN
+course: soup
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4 persons
+time:
+  total_min: 15
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: cup, qty: 6}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 4.5}
+  - {ingredient: pork, unit: cup, qty: 0.333}
+  - {ingredient: mushroom, unit: cup, qty: 0.75, prep: diced}
+  - {ingredient: chili-paste, unit: tbsp, qty: 0.75}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.333}
+  - {ingredient: white-vinegar, unit: cup, qty: 0.333}
+  - {ingredient: firm-tofu, unit: g, qty: 128, prep: cut into 1/4-inch dice}
+  - {ingredient: cornstarch, unit: tbsp, qty: 3}
+  - {ingredient: egg, qty: 1, prep: beaten}
+  - {ingredient: scallion, qty: 3, prep: diced}
+  - {ingredient: sesame-oil, unit: tsp, qty: 0.75}
+steps:
+- Bring chicken broth to a simmer in a 2-quart saucepan.
+- Add soy sauce, shredded meat, mushrooms and garlic chili sauce. Simmer for 5 minutes.
+- Add black pepper, white vinegar, bamboo shoots, tofu. Simmer for 5 minutes.
+- Combine 3 tablespoons of cornstarch with 2 tablespoons of cold water in a cup. Stir until mixture is smooth. Add cornstarch mixture to soup and stir well.
+- Simmer for 5 minutes until soup is thickened.
+- Beat egg in a cup until yolk and white are combined. Pour beaten egg slowly, in a fine stream into soup. Stir soup several times, then wait 30 seconds.
+- Add green onions and sesame oil to soup. Stir well and remove from heat.
+- Serve hot.
+tips:
+- Adjust vinegar, ground black pepper, garlic chili sauce and soy sauce to taste. American vinegar is much more acidic than its Chinese counterpart, so start with very little and add slowly.
+- Add or remove mushrooms, bamboo shoots, or tofu as needed. These three ingredients don't add much to the taste, mostly they add to the texture of the soup.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHot_and_Sour_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Hot and Sour Soup@4518420
+    url: https://en.wikibooks.org/w/index.php?oldid=4518420
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

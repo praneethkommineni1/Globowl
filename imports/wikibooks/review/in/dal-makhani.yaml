@@ -1,0 +1,73 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup whole dried urad dal
+id: in-dal-makhani
+title: Dal Makhani
+alternate_names:
+- Black Gram with Cream
+summary: Dal makhani is a delicacy from Punjab, India. Traditionally this dal was cooked slowly, for hours, on charcoal. This gave it a creamy texture. It had ‘malai’ (cream) or fresh butter added to it. When cooked at home these days, more moderate amounts of cream or butter are used.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 20
+difficulty: 3
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: kidney-beans-canned, unit: cup, qty: 0.333}
+  - {ingredient: water, unit: cup, qty: [5, 6]}
+  - {ingredient: salt}
+  - {ingredient: red-chili}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1}
+  - {ingredient: ginger, unit: tbsp, qty: 1}
+  - {ingredient: ghee, unit: tbsp, qty: [3, 4]}
+  - {ingredient: asafoetida, qty: 1, note: large}
+  - {ingredient: bay-leaf, qty: 2}
+  - {ingredient: cinnamon-stick, qty: 0.5}
+  - {ingredient: whole-cloves, qty: 3}
+  - {ingredient: onion, qty: 1, prep: finely chopped, optional: true, note: medium}
+  - {ingredient: ginger-garlic-paste, unit: tbsp, qty: 1}
+  - {ingredient: tomato, qty: [2, 3], prep: finely chopped, note: medium}
+  - {ingredient: ground-coriander, unit: tsp, qty: 2}
+  - {ingredient: heavy-cream, unit: cup, qty: 0.5}
+  - {ingredient: ghee, unit: tbsp, qty: 1}
+  - {ingredient: cilantro, unit: tbsp, qty: 2, optional: true}
+  - {ingredient: salt, note: to taste}
+steps:
+- Wash and soak black urad dal and red kidney beans overnight in an adequate amount of lukewarm water.
+- Cook the soaked dal, kidney beans, and chickpeas in 5–6 cups of water with the salt, red chili powder, turmeric, and grated ginger until soft.
+- Keep the cooked dal aside.
+- Heat oil or butter in a thick bottomed pan. Add hing, bay leaves, cinnamon stick, cloves, and chopped onions and cook until light golden brown in color. When the onion turns brown, add ginger garlic paste, and sauté.
+- Add chopped tomatoes. Sauté and add coriander powder. Sauté until tomatoes are well mashed.
+- Add cooked dal and water as needed.
+- Mix it well and simmer for 15–20 minutes.
+- Add fresh cream and clarified butter, and let it simmer for 5 minutes. Remove from the heat. Garnish with coriander leaves before serving.
+- Serve hot with naan, paratha or rice.
+tips:
+- You can substitute cream with sour cream or low-fat yogurt.
+- Use olive oil instead of ghee or butter, and omit cream.
+- You can make this recipe in a slow cooker, but make sure that you boil it briskly in a pan for the last 10 minutes, to neutralise the toxins in kidney beans.
+- This dal generally requires more salt than usual for other dal, so it should be added as per taste.
+- Soaking the beans overnight reduces cooking time.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADal_Makhani_%28Black_Gram_with_Cream%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dal Makhani (Black Gram with Cream)@4517540
+    url: https://en.wikibooks.org/w/index.php?oldid=4517540
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

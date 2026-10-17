@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 250 g paneer or chenna
+#  - course unknown from categories
+id: in-rasmalai
+title: Rasmalai
+alternate_names:
+- Indian Cheese and Milk Dessert
+summary: Rasmalai is a very popular Indian milk-based dessert recipe.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 4
+techniques:
+- boiling
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 2.5}
+  - {ingredient: sugar, unit: cup, qty: 4}
+  - {ingredient: milk, unit: cup, qty: 10}
+  - {ingredient: ground-cardamom, unit: tsp, qty: 0.25}
+  - {ingredient: almonds, qty: 4}
+  - {ingredient: pistachios, qty: 4}
+steps:
+- Crumble paneer and knead it.
+- Add the 2 tbsp of maida and knead again with the palm to make a smooth dough.
+- Divide into sixteen equal portions, roll into balls, and press slightly to flatten them.
+- Thinly slice almonds and pistachios. Dissolve 2 cups sugar in 2 cups of water, then bring to a boil.
+- Slowly lower the paneer balls in the boiling syrup and cook on high heat for ten minutes. Sprinkle a little water and ½ tbsp of maida and bring to a boil again. Cook for few minutes.
+- Meanwhile boil milk in a thick-bottomed pan, lower heat, and continue to boil until it is reduced to a thick consistency (⅓ of its original volume).
+- Add the rest of the sugar and the cardamom powder, and keep boiling until the sugar is dissolved. Remove from heat, cool, and refrigerate for 1 hour.
+- Add sliced almonds, pistachios, and orange powder, and mix again.
+- Squeeze the chenna balls and put them into the chilled sweetened milk. Refrigerate it for another half an hour. Serve chilled.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARasmalai_%28Indian_Cheese_and_Milk_Dessert%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rasmalai (Indian Cheese and Milk Dessert)@4525530
+    url: https://en.wikibooks.org/w/index.php?oldid=4525530
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

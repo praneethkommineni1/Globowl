@@ -1,0 +1,50 @@
+id: sr-pom
+title: Pom
+summary: A festive Surinamese bake of grated pomtajer root layered with citrus-braised chicken — sweet, sour and savoury.
+origin:
+  country: SR
+  community: Creole and Sephardic Jewish origin
+course: main
+dish_types: [bake]
+occasions: [Birthdays, Celebrations]
+authenticity: traditional
+yield: {servings: 8}
+time: {prep_min: 30, cook_min: 105}
+difficulty: 3
+equipment: [Large ovenproof dish]
+techniques: [braising, baking]
+ingredient_groups:
+  - name: Chicken
+    items:
+      - {ingredient: chicken-thigh, qty: 1, unit: kg, prep: "bone-in pieces"}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: butter, qty: 50, unit: g}
+      - {ingredient: onion, qty: 2, prep: "chopped"}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: celery, qty: 1, unit: stalk, prep: "chopped"}
+      - {ingredient: chicken-stock, qty: 250, unit: ml}
+      - {ingredient: nutmeg, qty: 0.5, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+  - name: Pom layer
+    items:
+      - {ingredient: pomtajer, qty: 1, unit: kg, note: "grated; sold frozen in Surinamese shops"}
+      - {ingredient: orange-juice, qty: 120, unit: ml}
+      - {ingredient: lime-juice, qty: 2, unit: tbsp}
+      - {ingredient: sugar, qty: 1, unit: tbsp}
+      - {ingredient: butter, qty: 50, unit: g, prep: "melted"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+steps:
+  - Season the chicken and brown it in the butter. Add the onions, tomatoes and celery and cook until soft.
+  - text: Add the stock, nutmeg and pepper and simmer until the chicken is tender. Shred the meat and return it to the sauce.
+    timer_min: 40
+  - Mix the pomtajer with the orange and lime juice, sugar, melted butter and salt. Heat the oven to 180 °C.
+  - Spread half the pom in a buttered dish, add the chicken and its sauce, and cover with the remaining pom.
+  - text: Bake until golden and crusty on top.
+    timer_min: 60
+serving: Warm, or in a sandwich (broodje pom).
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

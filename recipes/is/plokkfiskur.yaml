@@ -1,0 +1,37 @@
+id: is-plokkfiskur
+title: Plokkfiskur
+native_name: {text: Plokkfiskur, lang: is}
+alternate_names: [Icelandic fish stew]
+summary: Flaked white fish and potatoes folded into a peppery white sauce — Icelandic home cooking at its most comforting.
+origin:
+  country: IS
+course: main
+dish_types: [stew, seafood]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 35}
+difficulty: 1
+techniques: [boiling, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: potato, qty: 500, unit: g, note: "boiled and peeled"}
+      - {ingredient: white-fish, qty: 500, unit: g, note: "cod or haddock"}
+      - {ingredient: butter, qty: 50, unit: g}
+      - {ingredient: onion, qty: 1, prep: "finely chopped"}
+      - {ingredient: all-purpose-flour, qty: 3, unit: tbsp}
+      - {ingredient: milk, qty: 400, unit: ml}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: white-pepper, qty: 0.5, unit: tsp}
+      - {ingredient: chives, qty: 1, unit: handful, prep: "snipped", optional: true}
+steps:
+  - text: Poach the fish in barely simmering salted water until it just flakes. Drain and flake, removing any bones.
+    timer_min: 8
+  - Soften the onion in the butter, stir in the flour and cook 1 minute, then whisk in the milk and simmer until thick.
+  - Roughly chop the potatoes and fold them and the fish into the sauce. Season generously with pepper — it should be chunky, not smooth.
+serving: With dark, sweet rye bread (rúgbrauð) and butter.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-bobozi
+title: Bobozi
+alternate_names:
+- Nigerian Soaked Cassava
+summary: Bobozi is a Nigerian snack made from cassava. It can be eaten with either palm nuts or groundnuts, and it is appreciated by travelers.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: cassava, prep: peeled and washed}
+steps:
+- Slice the cassava into cylindrical pieces.
+- Place cassava pieces into a pot. Cover with water, and simmer for about 15 minutes until done.
+- Drain the water away, and cool completely.
+- Slice the cooled cassava a few millimeters thick.
+- Soak cassava slices in cold water overnight.
+- Rinse the soaked cassava to get rid of the slimy texture and sour taste. Rub the slices with your hands, changing the water several times.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABobozi_%28Nigerian_Soaked_Cassava%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bobozi (Nigerian Soaked Cassava)@4494284
+    url: https://en.wikibooks.org/w/index.php?oldid=4494284
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1/4 cup Hickory BBQ Rub
+#  - unmapped ingredient: 1 1/2 cups Maple Barbecue Sauce, divided
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-sweet-maple-barbecue-chicken
+title: Sweet Maple Barbecue Chicken
+summary: Sweet Maple Barbecue Chicken.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- grilling
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 4}
+steps:
+- Press rub into chicken. Refrigerate for at least 1 hour.
+- Preheat grill to medium high.
+- Add chicken pieces and cook, turning often, 15 minutes.
+- Brush chicken liberally with 1 cup barbecue sauce and cook, turning often, until internal temperature reaches 165–170°F.
+- Remove to a platter and cover with aluminum foil and let rest 10 minutes.
+- Serve warm with remaining ½ cup barbecue sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASweet_Maple_Barbecue_Chicken&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sweet Maple Barbecue Chicken@4505139
+    url: https://en.wikibooks.org/w/index.php?oldid=4505139
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

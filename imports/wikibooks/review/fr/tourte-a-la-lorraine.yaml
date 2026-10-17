@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 4 oz pie dough
+#  - unmapped ingredient: 1 cup Riesling wine
+#  - unmapped ingredient: 4-spice powder
+#  - no time in recipe summary
+id: fr-tourte-a-la-lorraine
+title: Tourte à la Lorraine
+summary: Tourte à la Lorraine is an elaborate meat pie with a pâte brisée (pie dough) base and a puff pastry top which is baked. Ten minutes before the end of the baking period, a savoury egg-and-cream custard is poured through a hole in the pie crust and returned to the oven to set.
+origin:
+  country: FR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1 tourte
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: puff-pastry, unit: g, qty: 113}
+  - {ingredient: pork, unit: g, qty: 113, prep: diced}
+  - {ingredient: veal, unit: g, qty: 113, prep: diced}
+  - {ingredient: shallot, qty: 2, prep: chopped}
+  - {ingredient: onion, qty: 1}
+  - {ingredient: garlic, qty: 2, prep: minced}
+  - {ingredient: bay-leaf, qty: 2}
+  - {ingredient: thyme, unit: sprig, qty: 2}
+  - {ingredient: whole-cloves, qty: 4}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: parsley, prep: chopped}
+  - {ingredient: heavy-cream, unit: cup, qty: 0.5}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: egg-yolk, qty: 1}
+  - {ingredient: nutmeg}
+steps:
+- Combine the meat, Riesling, salt, pepper, 4-spice powder, shallots, garlic, onion, parsley, bay leaves, thyme, and cloves.
+- Marinate for 48 hours.
+- Preheat the oven to 400°F.
+- Press the pie dough into a buttered and floured pie dish or cake pan lined with parchment paper.
+- Place the meat on the pie dough leaving a narrow border all around the edge. Cover the meat with the puff pastry, taking care to moisten with a little water to glue the edges together.
+- Brush the surface with egg yolk and make a small chimney in the middle (you may use a tube of cardboard covered with foil). Make a pleasing design on the surface of the pastry with a tip of a small knife.
+- Bake in a hot oven for 45 minutes.
+- During this time, beat the egg and yolk with the cream. Season with grated nutmeg, salt and pepper.
+- Remove the pie from the oven and, with the help of a funnel, pour the cream mixture through the chimney. This operation is a bit delicate. One needs to add a little at a time and then tilt the pan to disperse the liquid throughout the pie.
+- Return to the oven for 10 minutes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATourte_%C3%A0_la_Lorraine&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tourte à la Lorraine@4587233
+    url: https://en.wikibooks.org/w/index.php?oldid=4587233
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

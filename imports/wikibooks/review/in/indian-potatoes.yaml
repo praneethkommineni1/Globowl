@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-indian-potatoes
+title: Indian Potatoes
+summary: This dish is extremely creamy and rich; don't expect to be able to eat much of it. It goes very well with Indian beans and Indian rice.
+origin:
+  country: IN
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: potato, qty: 6, prep: peeled and cut in half, note: small}
+  - {ingredient: coconut, qty: 2, note: small}
+  - {ingredient: tomato, unit: can, qty: 0.5}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: chili-flakes, unit: tsp, qty: 0.5}
+  - {ingredient: olive-oil}
+  - {ingredient: salt, note: to taste}
+steps:
+- Sauté the garlic in olive oil.
+- Add tomatoes. Cook for 10 minutes, until the oil and tomatoes separate (they will bubble).
+- Stir in the coconut milk.
+- Add ½ teaspoon red pepper, and salt to taste. Boil it all together.
+- Add the potatoes. Cook over low-medium heat until the potatoes are done. They will become fairly soft; check with a fork.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIndian_Potatoes&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Indian Potatoes@4510668
+    url: https://en.wikibooks.org/w/index.php?oldid=4510668
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Sliced hard cheese
+#  - unmapped ingredient: Thousand Island dressing
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: il-bagel-toast
+title: Bagel Toast
+summary: The bagel toast is a modern Israeli snack. A good bagel toast has a crispy outside, and is not mushy.
+origin:
+  country: IL
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: sesame-seeds, qty: 1, prep: sized to fit your grill}
+  - {ingredient: cheese}
+  - {ingredient: green-olives}
+  - {ingredient: corn-kernels}
+  - {ingredient: tomato, qty: 1}
+  - {ingredient: onion, qty: 1}
+  - {ingredient: ketchup}
+steps:
+- Cut the bagel in half.
+- Spread the Brindsah cheese (or the Feta cheese) on the half bagel.
+- Cover with several slices of hard cheese.
+- Add the corn and the sliced green olives.
+- Add several tomato slices and onion slices.
+- Pour ketchup and Thousand Island dressing on top.
+- Cover the bagel with the other half of the bagel.
+- Pour more Thousand Island dressing on top of the bagel and put it onto the grill.
+- Activate the grill.
+- Remove the bagel when all the cheese has melted and the outside is medium-dark brown and crispy, about 2 minutes.
+- Eat immediately, served with any combination of sliced tomatoes, sliced cucumber, and/or pickles.
+tips:
+- Other toppings which could be used include mushrooms, cream cheese, and hot sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABagel_Toast&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bagel Toast@4518228
+    url: https://en.wikibooks.org/w/index.php?oldid=4518228
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

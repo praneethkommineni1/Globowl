@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-piadina
+title: Piadina
+alternate_names:
+- Thin Italian Flatbread
+summary: 'Piadina (plural: piadine) is an Italian flatbread.'
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 340}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: baking-powder, unit: tsp, qty: 0.75, optional: true}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: water, unit: cup, qty: [0.5, 0.75]}
+steps:
+- Pulse the flour, baking powder, and salt in a food processor until blended.
+- Add the oil and pulse a few times to blend.
+- Start the processor and add the water a little at a time until the dough comes together.
+- Remove the dough to a well floured counter top and knead a few times, shaping it into a round ball and adding flour as needed.
+- Divide the dough into four pieces and form each into a tight ball.
+- Cover all with some plastic wrap and let rest for 30 minutes.
+- After the rest period, roll each piece into a 9 inch round.
+- Heat a dry 10-inch cast iron frying pan until a drop of water sizzles and evaporates.
+- Dock (perforate) one of the rounds with a fork to prevent the formation of bubbles.
+- Cook the round in the dry pan until the bottom has a few brown spots, 1½–2 minutes. Keep the docking fork handy to knock down bubbles as they form.
+- Flip the round and repeat the browning step as above.
+- Remove to a warm plate and gently fold in half. Cover to keep warm.
+- Repeat the last four steps with the other rounds.
+- Fill each with the foods and condiments of your choice and enjoy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APiadina_%28Thin_Italian_Flatbread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Piadina (Thin Italian Flatbread)@4512746
+    url: https://en.wikibooks.org/w/index.php?oldid=4512746
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

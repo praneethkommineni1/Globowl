@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2–3 tbsp Thai chili paste
+#  - unmapped ingredient: Hot cooked rice or noodles
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: th-thai-shrimp
+title: Thai Shrimp
+summary: Thai Shrimp.
+origin:
+  country: TH
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: soy-sauce, unit: cup, qty: 0.25}
+  - {ingredient: red-wine-vinegar, unit: tbsp, qty: 2}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: cornstarch, unit: tsp, qty: 2}
+  - {ingredient: sesame-oil, unit: tsp, qty: 2}
+  - {ingredient: chicken-stock, unit: cup, qty: 0.5}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: shrimp, qty: 24, prep: peeled and deveined}
+  - {ingredient: red-bell-pepper, qty: 0.25, prep: julienned}
+  - {ingredient: green-pepper, qty: 0.25, prep: julienned}
+  - {ingredient: garlic, unit: tsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: sesame-seeds, unit: tbsp, qty: 1}
+steps:
+- Combine soy sauce, chili paste, vinegar, sugar, cornstarch, sesame oil and broth. Set aside.
+- Preheat a large sauté pan or wok over high heat. Add peanut oil and shrimp and stir-fry until shrimp is pink. Remove and keep warm.
+- Add bell pepper and garlic and stir-fry until bell pepper has taken on slight browning. Remove and keep warm.
+- Add liquid mixture to pan and bring to a boil. Cook until liquid has reduced to ¼ cup.
+- Add shrimp and vegetables back to pan and toss. Heat through.
+- Garnish with sesame seeds and serve immediately over rice or noodles.
+tips:
+- 'If you''re serving this to somebody with a peanut allergy, don''t be worried. The allergens are in the protein part, not the fat part. However, steer clear of these peanut oils: Cold press and organic, which we wouldn''t use anyways, because they have too low of a smoke point.'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AThai_Shrimp&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Thai Shrimp@4514125
+    url: https://en.wikibooks.org/w/index.php?oldid=4514125
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

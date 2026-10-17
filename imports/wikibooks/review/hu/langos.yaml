@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: hu-langos
+title: Lángos
+alternate_names:
+- Hungarian Fried Flatbread
+summary: Lángos.
+origin:
+  country: HU
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- dough-making
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 500}
+  - {ingredient: yeast}
+  - {ingredient: egg, qty: 4}
+  - {ingredient: yogurt, unit: tbsp, qty: 4}
+  - {ingredient: salt, unit: tsp, qty: 2}
+  - {ingredient: lard}
+steps:
+- Combine the flour and yeast. Add the eggs, then mix the yoghurt to make a dough.
+- Add the salt, and knead until the dough is pliant and not too sticky, adding more flour or yogurt as necessary. The correct texture is really a matter of trial-and-error. It's not unlike an egg pasta dough, but it's rather less stiff.
+- Transfer the dough to an oiled bowl. Cover and let rise overnight in a cool location, like the refrigerator.
+- Gently deflate the dough.
+- When you're ready to cook, heat about 2 inches of lard in a pan. The oil should be hot enough that when you put a very small piece of the dough into it, it drops to the bottom, and immediately rises up to the surface frying.
+- Take a lump of the dough (roughly a bit bigger than a ping-pong ball, but rather smaller than a tennis-ball) and flatten it into a disk shape. Do this by hand rather than using a rolling pin—just keep pressing it between fingers and thumbs, and turning it round and round. Make the centre of the disk fairly thin, and the edge rather thicker. It should end up about 8 inches across if possible. Don't worry over-much about getting it too circular and even; the hand-made look is all part of their attraction.
+- Carefully slide the disk of dough into the hot oil and let it fry for 30 seconds or so. It should start to puff up as it fries; if it doesn't, either the oil isn't hot enough, or the disk is too thick.
+- Carefully turn the dough over, and fry for another 30 seconds or so. Turn it over and see if the underside is golden brown or not. If not, fry for a while longer until both sides are golden brown, with a 'puffed-up' surface. Adjust the frying times for subsequent ones accordingly.
+- Remove from the hot oil and drain away any excess.
+tips:
+- Lángos are traditionally served with a pungent fresh garlic dressing. This is made by mincing up several cloves of garlic and mixing them into a small amount of oil and water, which is left to infuse for a while. You just spread the garlic dressing over the hot bread and eat.
+- You can also top lángos with crème fraîche, sour cream, or thick yoghurt (as a substitute for something called tejföl that you can't get outside of Hungary), and grated cheese. Fried lardons or diced pancetta are a good topping too.
+- Three or four of these will leave you feeling pretty full, but if you've really hungry you could also have some good continental sausage (ideally Hungarian kolbász, naturally) to go with them.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AL%C3%A1ngos_%28Hungarian_Fried_Flatbread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lángos (Hungarian Fried Flatbread)@4629275
+    url: https://en.wikibooks.org/w/index.php?oldid=4629275
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

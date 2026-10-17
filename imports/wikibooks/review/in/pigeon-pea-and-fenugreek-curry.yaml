@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+id: in-pigeon-pea-and-fenugreek-curry
+title: Pigeon Pea and Fenugreek Curry
+alternate_names:
+- Methi Tadka Dal
+summary: Pigeon Pea and Fenugreek Curry.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 12
+difficulty: 2
+techniques:
+- pan-frying
+- pressure-cooking
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: pigeon-peas-canned, unit: cup, qty: 0.5}
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: ground-fenugreek, unit: handful, qty: 2}
+  - {ingredient: tomato, qty: 3}
+  - {ingredient: onion, qty: 1, note: big}
+  - {ingredient: ground-turmeric, unit: pinch, qty: 1}
+  - {ingredient: red-chili, qty: [1, 2], prep: sliced}
+  - {ingredient: black-pepper, qty: 10}
+  - {ingredient: butter, qty: 1, note: small}
+  - {ingredient: ginger, qty: 1, optional: true, note: small}
+  - {ingredient: ghee, qty: 2}
+  - {ingredient: mustard-seeds, qty: 0.5, note: small}
+  - {ingredient: ground-cumin, qty: 0.5, note: small}
+  - {ingredient: garlic, qty: 2, prep: sliced}
+  - {ingredient: red-chili, qty: 2}
+  - {ingredient: curry-leaves, qty: [6, 8]}
+  - {ingredient: tomato, qty: 1, prep: finely chopped, note: small}
+  - {ingredient: salt}
+  - {ingredient: chili-powder}
+  - {ingredient: ground-coriander}
+  - {ingredient: lemon-juice}
+steps:
+- Mix all above and put them in an Indian cooker (pressure cooker). Wait until the dal is cooked (4 whistles).
+- Heat the ghee in a pan, and add the mustard seeds, zheera, garlic, red chillis, and curry leaves. Fry until the garlic is golden.
+- Add the chopped tomato, salt, chilli powder, and coriander to taste.
+- Add the cooked dal mixture to the fried mixture, and let it simmer. You can add water if you like it to be more like gravy.
+- Add two drops of lemon juice for added taste.
+- Serve with hot rice, and an optional touch of Gongura pickle.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APigeon_Pea_and_Fenugreek_Curry_%28Methi_Tadka_Dal%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pigeon Pea and Fenugreek Curry (Methi Tadka Dal)@4615199
+    url: https://en.wikibooks.org/w/index.php?oldid=4615199
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

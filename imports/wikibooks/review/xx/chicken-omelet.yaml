@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 tablespoon tomatoes paste
+#  - unmapped ingredient: 3 big fresh sliced tomatoes
+#  - unmapped ingredient: 1 teaspoon powder black paper
+#  - unmapped ingredient: 2 chopped green chilies
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: xx-chicken-omelet
+title: Chicken Omelet
+summary: Chicken Omelet. Serve the chicken Omelet with Rice, Chapatis or Breads, serve it for lunch or dinner.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 1}
+  - {ingredient: coconut, qty: 2, note: medium}
+  - {ingredient: garlic-powder, qty: 8, note: medium}
+  - {ingredient: onion, qty: 1, note: medium}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: lemon, unit: tbsp, qty: 2}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: egg, qty: 8}
+  - {ingredient: salt, note: to taste}
+steps:
+- Clean the chicken thoroughly
+- Cut into 8 pieces
+- Season with salt, black pepper, ginger and lemon juice
+- Cover and cook in moderate heat till tender and dry
+- Pour oil in another cooking pan and fry the onions till brown in colour
+- Add tomatoes, cinnamon, salt, green chilies and turmeric while stirring.
+- Squeeze out two cups of concentrated coconut milk
+- Gradually add the concreated coconuts milk and cook for 2 minutes
+- Then pour the mixture over the chicken
+- Cover and simmer until the mixture thickens
+- place the chicken gravy in a pie dish(tasa) arranging it in a nice way
+- Pour the eggs one at a time on top of the chicken and bake for 15-25 minutes until set
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Omelet&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chicken Omelet@4523868
+    url: https://en.wikibooks.org/w/index.php?oldid=4523868
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

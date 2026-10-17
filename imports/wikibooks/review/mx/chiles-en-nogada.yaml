@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 6–9 peaches
+#  - unmapped ingredient: 4–6 pears
+#  - unmapped ingredient: 1 pound ground meat
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: mx-chiles-en-nogada
+title: Chiles en Nogada
+alternate_names:
+- Stuffed Chile Peppers with Almonds
+summary: Chiles en nogada is a Mexican dish of stuffed chile peppers served with a nut-based sauce (nogada). Read the recipe carefully before preparing. Please note that this is a spicy dish.
+origin:
+  country: MX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 4
+techniques:
+- pan-frying
+ingredient_groups:
+- name: Chiles
+  items:
+  - {ingredient: almonds, qty: [20, 30]}
+  - {ingredient: apple, qty: [5, 7]}
+  - {ingredient: vegetable-oil}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: raisins}
+  - {ingredient: red-chili, qty: [10, 15]}
+  - {ingredient: egg, qty: 10}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+- name: Nogada
+  items:
+  - {ingredient: walnuts, unit: g, qty: 454}
+  - {ingredient: rum, unit: cup, qty: 0.5, optional: true}
+  - {ingredient: milk, unit: cup, qty: 5}
+  - {ingredient: cheese, unit: slice, qty: [5, 6]}
+steps:
+- Cut the almonds in 2–4 pieces. Peel the peaches, apples, and pears, and chop them up in very tiny pieces. Set aside.
+- Fry the ground meat in a pan with garlic and salt (to taste) over low heat in a spoonful of oil.
+- When the meat is cooked, add the fruit and the raisins, and fry for about 4 minutes. Let cool.
+- Put the poblano peppers on the stove and let them get toasted.
+- After toasting them put the peppers in water and cut them on one of the long sides. Wash away the veins and the dark toasted spots on them.
+- Stuff the peppers with the fruit-meat mixture.
+- Crack and separate the eggs. Whip the whites until puffy, then beat in the flour and yolks until it reaches a yellowish point.
+- Dip the whole pepper in the yellowish content that you just prepared and put in a pan to fry until light brown. Do repeatedly until done with all the peppers. Set aside while you make the nogada.
+- Grind the walnuts, milk, cheese, and rum in the blender for about a minute. After it will look white if done right
+- Pour over the peppers and enjoy!
+tips:
+- To peel almonds yourself, boil them for 60 seconds and then soak them in cold water. You can then slip the skins off.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChiles_en_Nogada_%28Stuffed_Chile_Peppers_with_Almonds%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chiles en Nogada (Stuffed Chile Peppers with Almonds)@4512403
+    url: https://en.wikibooks.org/w/index.php?oldid=4512403
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

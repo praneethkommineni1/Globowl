@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (AT, DE): confirm the country of origin
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+id: at-eierpunsch
+title: Eierpunsch
+alternate_names:
+- German Egg Punch
+summary: Eierpunsch (literally "egg punch") is the German name given to a lukewarm, sweetened alcoholic egg-based drink.
+origin:
+  country: AT
+  also_claimed_by:
+  - DE
+course: drink
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3–4
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: dry-white-wine, qty: 1}
+  - {ingredient: egg, qty: 4}
+  - {ingredient: sugar, unit: tbsp, qty: 5}
+  - {ingredient: vanilla-extract, qty: 1}
+  - {ingredient: ground-cinnamon, unit: pinch, qty: 1}
+  - {ingredient: whole-cloves, qty: 4}
+  - {ingredient: tea, unit: ml, qty: 250, prep: cooled}
+  - {ingredient: lemon}
+  - {ingredient: rum, unit: ml, qty: 50, optional: true}
+steps:
+- Whisk the 5 tablespoons of sugar into the eggs (or egg yolks), add a little cold white wine, and beat vigorously.
+- Add the vanilla sugar to the mixture and pour in the remaining white wine, cinnamon, the cloves, lemon juice and the cooled tea. Add rum if using.
+- Transfer the mixture to a pan and gently heat. Do not let the mixture heat too quickly or it will curdle. Before the mixture comes to the boil remove from the heat—the mixture should be foaming on top.
+- Remove the cloves.
+- Serve hot and foamy in a mug, optionally with whipped cream on top and a ginger biscuit.
+tips:
+- This recipe can also be made with red wine. If so, do not add 250 ml strong tea to the mixture. This will also affect the number of servings.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEierpunsch_%28German_Egg_Punch%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Eierpunsch (German Egg Punch)@4510092
+    url: https://en.wikibooks.org/w/index.php?oldid=4510092
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 boneless duck breasts
+#  - unmapped ingredient: 1 cup Cabernet Sauvignon wine
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: fr-pan-seared-duck-breast-with-cabernet-reduction
+title: Pan-Seared Duck Breast with Cabernet Reduction
+summary: They serve this dish all the time in French bistros. By the way, save the fat. Cook your eggs in it in the morning, and they will be amazing!
+origin:
+  country: FR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: shallot, qty: 1, prep: very finely minced}
+  - {ingredient: garlic, unit: tbsp, qty: 1}
+steps:
+- Score skin of duck in a diamond pattern and season liberally with salt and freshly ground black pepper. Set aside.
+- Heat a 12-inch cast iron skillet over medium high heat. Add duck breasts, skin side down, and cook 10 minutes. Flip and cook 3 minutes.
+- Move pan to a 400°F oven and cook 12 minutes. Remove duck from pan and keep warm.
+- Pour off extra fat. Place 1 Tbsp back into pan and add shallot and garlic. Sauté over medium high heat until garlic is golden.
+- Add wine off of the heat and carefully ignite with a long match or firestick. Shake pan until flames die (might wanna have a fire extinguisher).
+- Boil over medium high heat until reduced by half. Drizzle over duck and serve warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APan-Seared_Duck_Breast_with_Cabernet_Reduction&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pan-Seared Duck Breast with Cabernet Reduction@4514572
+    url: https://en.wikibooks.org/w/index.php?oldid=4514572
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

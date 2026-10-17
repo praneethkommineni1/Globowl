@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: th-khao-pad
+title: Khao Pad
+alternate_names:
+- Thai Fried Rice
+summary: Khao pad is Thai fried rice.
+origin:
+  country: TH
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: garlic, unit: tbsp, qty: 1}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: long-grain-rice, unit: cup, qty: 2, prep: cooled}
+  - {ingredient: fish-sauce, unit: tbsp, qty: 1}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 1}
+  - {ingredient: shrimp, unit: cup, qty: 1}
+  - {ingredient: sugar, unit: tsp, qty: 2}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: scallion, prep: sliced}
+steps:
+- Heat up a frying pan or wok and add the oil, then the minced garlic. Stir fry until fragrant.
+- Add the eggs, and stir fry the eggs until cooked.
+- Add the rice and stir fry.
+- Season with fish sauce, soy sauce, and sugar, then continue frying until the rice is crumbly.
+- Add meat, pepper, and spring onions. Stir again until heated through, then transfer to a serving dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKhao_Pad_%28Thai_Fried_Rice%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Khao Pad (Thai Fried Rice)@4512943
+    url: https://en.wikibooks.org/w/index.php?oldid=4512943
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

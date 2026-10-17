@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Corn husks or plantain leaves
+#  - no time in recipe summary
+#  - course unknown from categories
+id: gh-dokunu
+title: Dokunu
+alternate_names:
+- Fermented Corn Dumplings
+summary: Dokunu, also called kenkey or komi, is a Ghanaian food made from fermented corn. It is eaten across west African countries, often with fried fish.
+origin:
+  country: GH
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: cornmeal, unit: cup, qty: 1}
+  - {ingredient: cornstarch, qty: 1}
+  - {ingredient: water}
+  - {ingredient: salt, qty: 0.5}
+steps:
+- Combine the cornstarch and cornmeal in a bowl. Mix in enough warm water to get a smooth, stiff dough.
+- Cover the mixture with a clean cloth, and let rest in a warm place for 2 days. It should smell sour, like sourdough.
+- Divide the dough into 2 pieces.
+- Heat a pot over medium heat. Add one half of the dough, and cook for about 10–15 minutes, stirring regularly.
+- Remove from the heat, and mix the cooked dough into the uncooked dough. Season with a little salt.
+- Portion out small pieces of dough, and roll into balls. Wrap each piece in a corn husk or plantain leaf, and secure with string.
+- Heat water in a steamer. Add the wrapped dokunu, and steam for about 1 hour.
+- Serve with dry fish or any sides of your choice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADokunu_%28Fermented_Corn_Dumplings%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dokunu (Fermented Corn Dumplings)@4513116
+    url: https://en.wikibooks.org/w/index.php?oldid=4513116
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

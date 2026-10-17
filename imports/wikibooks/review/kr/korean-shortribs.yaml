@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: kr-korean-shortribs
+title: Korean Shortribs
+summary: Korean shortribs or bulgogi is a kind of Korean barbecue, using shortribs that have been marinated in soy sauce, scallion, ginger, chiles, garlic, and sesame oil. The marinated meat is then slow-grilled or baked.
+origin:
+  country: KR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: soy-sauce, unit: cup, qty: 0.333}
+  - {ingredient: scallion, qty: 4, prep: chopped}
+  - {ingredient: garlic, unit: clove, qty: 6, prep: smashed and minced}
+  - {ingredient: sesame-oil, unit: tbsp, qty: 1.5}
+  - {ingredient: ginger, unit: tbsp, qty: 2}
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.25}
+  - {ingredient: red-chili, qty: 4, prep: stemmed}
+  - {ingredient: beef, qty: 12}
+steps:
+- Process all ingredients except meat in a blender until smooth. Pour into a gallon size zip-top bag, and add shortribs.
+- Toss to coat the meat in the marinade, and refrigerate overnight. Note that this flavors but does not tenderize the meat.
+- Preheat grill to 225–300°F. Add shortribs and cover. Cook 5 hours or until meat falls right off the bone and is extremely tender. Serve immediately.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKorean_Shortribs&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Korean Shortribs@4507073
+    url: https://en.wikibooks.org/w/index.php?oldid=4507073
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

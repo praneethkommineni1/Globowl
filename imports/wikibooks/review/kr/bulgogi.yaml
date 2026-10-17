@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no time in recipe summary
+id: kr-bulgogi
+title: Bulgogi
+summary: Bulgogi.
+origin:
+  country: KR
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- grilling
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 454, prep: sliced as thin as possible}
+  - {ingredient: scallion, qty: 3, prep: sliced on the bias}
+  - {ingredient: mushroom, qty: 4, prep: sliced, optional: true}
+  - {ingredient: onion, qty: 0.5, prep: thinly sliced, optional: true}
+  - {ingredient: soy-sauce, unit: cup, qty: 0.75}
+  - {ingredient: sugar, unit: cup, qty: 0.25}
+  - {ingredient: sesame-oil, unit: cup, qty: 0.25}
+  - {ingredient: black-pepper, unit: tsp, qty: 4}
+  - {ingredient: garlic, unit: tbsp, qty: [1, 2]}
+  - {ingredient: mirin, unit: tbsp, qty: 1, optional: true}
+steps:
+- Combine all the ingredients in a big bowl. Marinate for at least 30 minutes, but marinating overnight will get the best flavor and tenderization.
+- Grill the beef.
+- Serve with rice.
+tips:
+- Use same amount of soy sauce and sugar.
+- If you do this a day ahead, reduce the amount of soy sauce and don't forget to put it in a refrigerator.
+- Use thinly-sliced beef, available specifically for Bulgogi in some grocery stores, for best results.
+- You can grill this on a table top, with a shallow pan. You can also use just a normal fry pan.
+- Grill over medium-high heat and have the juice of beef and vegetables on rice.
+- You may marinate the beef in cola (Coca-Cola works best) instead of using just sugar. The extra liquid helps the meat to absorb the marinade more quickly.
+- You can also add 1 finely-chopped or grated Korean pear to your marinade overnight in lieu of sugar or cola. This will help tenderize the meat.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABulgogi&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bulgogi@4610539
+    url: https://en.wikibooks.org/w/index.php?oldid=4610539
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

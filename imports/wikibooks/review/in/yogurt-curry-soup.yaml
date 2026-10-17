@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tsp ginger-green chilli paste
+id: in-yogurt-curry-soup
+title: Yogurt Curry Soup
+alternate_names:
+- Kadhi
+summary: Kadhi also known as Karhi or Gujarati Kadhi is a sweet yogurt curry, normally eaten with unleavened flat bread called roti and sabzi in India.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 15
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: chickpea-flour, unit: cup, qty: 2}
+  - {ingredient: yogurt, unit: cup, qty: 1.5}
+  - {ingredient: curry-leaves, qty: 2}
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: ghee, unit: tsp, qty: 2}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 0.5}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 0.5}
+  - {ingredient: asafoetida, unit: pinch, qty: 1}
+  - {ingredient: red-chili, qty: 1, prep: broken into pieces}
+  - {ingredient: cilantro, unit: tbsp, qty: 2}
+steps:
+- Combine the gram flour, curds and 3 teacups of water in a pot. Beat well.
+- Add the chilli-ginger paste, curry leaves, sugar, and salt. Bring to a boil.
+- Boil whilst stirring for a while.
+- Heat the ghee in a pan, add the cumin and mustard seeds, and toast until light brown. Don't let burn.
+- Add the asafoetida and red chilli.
+- Add the seasoning mixture to the curry, and boil for a few minutes.
+- Sprinkle coriander on top and serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AYogurt_Curry_Soup_%28Kadhi%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Yogurt Curry Soup (Kadhi)@4615184
+    url: https://en.wikibooks.org/w/index.php?oldid=4615184
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

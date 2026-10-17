@@ -1,0 +1,46 @@
+id: gb-bangers-and-mash
+title: Bangers and Mash
+summary: You can fry or grill sausages quickly, but in this recipe they are cooked slowly (as recommended by Nigel Slater, no less) so as to really bring out the flavour. Some people like baked beans with their sausage and mash, some people like gravy, and some people don't need either.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: sausage, qty: [2, 3]}
+  - {ingredient: potato, qty: 2}
+  - {ingredient: vegetable-oil}
+  - {ingredient: butter}
+  - {ingredient: milk}
+steps:
+- Put a large heavy frying pan on a hob over a medium heat. Put in a little vegetable oil (if desired) and let it warm up.
+- Then place the sausages in a single layer in the frying pan. Let them fry a minute or so, then turn them over, fry another minute, turn them around again, to try and get a bit of colour all over.
+- Once they've been in the hot pan for 5 minutes or so, turn the heat right down to low. Let them fry very gently for the next 25 minutes, turning them over every 5 or 10 minutes so they get cooked evenly. You can cook them for longer than this (even up to about an hour on a very low heat). Always make sure the sausages are cooked all the way through (no pinkness should remain).
+- Peel the potatoes and chop them roughly into pieces around 1 or 2 cm thick. Add them to a large pan of boiling water and boil vigorously for 15 minutes.
+- When they're done (they'll be soft enough that you can easily put a knife/fork into one of the pieces), drain them in a colander and return them to the big pan (not on the heat any more).
+- Add a generous knob of butter and a splash of milk to the potatoes, and mash them all up with a potato masher.
+tips:
+- You do not need to prick the sausages—that only lets tasty juices escape! Similarly you don't necessarily need to separate them one from another until after they've cooked.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABangers_and_Mash&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bangers and Mash@4503314
+    url: https://en.wikibooks.org/w/index.php?oldid=4503314
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

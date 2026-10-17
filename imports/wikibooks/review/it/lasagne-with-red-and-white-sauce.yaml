@@ -1,0 +1,87 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+id: it-lasagne-with-red-and-white-sauce
+title: Lasagne with Red and White Sauce
+summary: Lasagne with Red and White Sauce.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 90
+difficulty: 4
+techniques:
+- baking
+- pan-frying
+- simmering
+- whisking
+ingredient_groups:
+- name: Bolognese sauce
+  items:
+  - {ingredient: olive-oil, unit: tbsp, qty: [2, 3]}
+  - {ingredient: onion, qty: 1, prep: chopped}
+  - {ingredient: garlic, unit: clove, qty: [2, 3], prep: minced}
+  - {ingredient: rosemary, unit: sprig, qty: 1, prep: leaves removed and minced}
+  - {ingredient: dried-oregano, unit: tsp, qty: 1}
+  - {ingredient: carrot, qty: [2, 3], prep: chopped small or shredded}
+  - {ingredient: celery, qty: [1, 2], prep: chopped small}
+  - {ingredient: beef, unit: g, qty: 454}
+  - {ingredient: tomato, unit: cup, qty: [3, 4]}
+  - {ingredient: basil, qty: [7, 10], prep: finely chopped}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+- name: Bechamel sauce
+  items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 0.5}
+  - {ingredient: butter, unit: cup, qty: 0.5}
+  - {ingredient: milk, qty: 1, prep: cold}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: thyme, unit: sprig, qty: [4, 5]}
+  - {ingredient: nutmeg}
+- name: Other
+  items:
+  - {ingredient: noodles, qty: 1, prep: optionally cooked according to package directions}
+  - {ingredient: mozzarella, unit: cup, qty: 1.5}
+steps:
+- Heat olive oil in large pot on medium heat.
+- Add the onion and garlic, and stir. Let fry for about 2–3 minutes. Do not let the garlic burn.
+- Add rosemary oregano, carrots, and celery. Stir and cook for another 2 minutes.
+- Stir in the ground beef. Cook until it is fully browned.
+- Stir in the tomato pulp, basil, salt, and pepper.
+- Cook everything for about 20 minutes, stirring occasionally. If it gets too thick, add some water.
+- Melt the butter in a heavy-bottomed pot over medium-low heat.
+- When the foam has subsided, add the flour and whisk until it is smooth and free of lumps. This is called a roux.
+- Cook the roux for 5–6 minutes on low until the floury taste has disappeared. Do not let it brown.
+- Gradually stir in the cold milk until fully incorporated, with no lumps.
+- Cook over medium heat, stirring until the mixture comes to a simmer.
+- Simmer, stirring, for a few more minutes.
+- Stir in the salt, pepper, thyme, and nutmeg.
+- Allow the bechamel to cool.
+- Preheat oven to 390°F/200°C.
+- Cover bottom of casserole dish with a bit of Bolognese sauce.
+- Cover with a layer of lasagna noodles, breaking or cutting to fit if necessary.
+- Layer on some Bolognese sauce and bechamel sauce. Keep on layering lasagna noodles, Bolognese sauce, and bechamel sauce until you reach the rim of the dish.
+- Cover with mozzarella.
+- Bake for about 30–40 minutes until the top is golden brown.
+tips:
+- Bolognese sauce is also a great pasta sauce to go with spaghetti.
+- The dish can easily be prepared a day ahead and baked when needed.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALasagne_with_Red_and_White_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lasagne with Red and White Sauce@4605235
+    url: https://en.wikibooks.org/w/index.php?oldid=4605235
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

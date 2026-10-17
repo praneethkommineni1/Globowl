@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/4 cup crushed ice
+#  - unmapped ingredient: Sausage casing
+#  - course unknown from categories
+id: pl-wiejska
+title: Wiejska
+alternate_names:
+- Polish Pork and Veal Sausage
+summary: Wiejska is the most popular form of Kielbasa, or Polish sausage, in the United States.
+origin:
+  country: PL
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2 pounds
+time:
+  total_min: 180
+difficulty: 4
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: pork, unit: g, qty: 680}
+  - {ingredient: veal, unit: g, qty: 227, optional: true}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: dried-marjoram, unit: tsp, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: [2, 3], prep: crushed}
+  - {ingredient: mustard-seeds, unit: tbsp, qty: 1}
+steps:
+- Cut the meat into small chunks, then grind it with the seasonings and ice, and mix this well.
+- Stuff the meat mixture into the casing. When making sausage by hand, tie a knot about 3 inches (76 mm) from one end of a cleaned sausage casing and fix the open end over the spout of a wide-based funnel, easing most of the casing up onto the spout. Then spoon the mixture into the funnel and push it through into the casing with your fingers.
+- Knot the end and roll the sausage gently on a firm surface to distribute the filling evenly.
+- Smoke in an outdoor smoker following the manufacturer's directions; alternatively, place the sausage in a casserole, cover it with water, and bake about 1.5 to 2 hours at 350°F until water is absorbed.
+tips:
+- The purpose of the ice is to keep the fat in the pork solid, which is very important in the final texture of the sausage.
+- If you do not add the veal, then add 1 lb additional pork.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AWiejska_%28Polish_Pork_and_Veal_Sausage%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Wiejska (Polish Pork and Veal Sausage)@4615150
+    url: https://en.wikibooks.org/w/index.php?oldid=4615150
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

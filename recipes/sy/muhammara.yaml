@@ -1,0 +1,41 @@
+id: sy-muhammara
+title: Muhammara
+native_name: {text: محمرة, lang: ar, romanized: muḥammara}
+summary: A rich, sweet-smoky dip of roasted red peppers, toasted walnuts and pomegranate molasses from Aleppo.
+origin:
+  country: SY
+  region: Aleppo
+  also_claimed_by: [TR, LB]
+course: starter
+dish_types: [dip, mezze]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 15, cook_min: 25}
+difficulty: 1
+equipment: [Food processor]
+techniques: [roasting]
+ingredient_groups:
+  - items:
+      - {ingredient: red-bell-pepper, qty: 3, note: "or 300 g jarred roasted peppers"}
+      - {ingredient: walnuts, qty: 100, unit: g, prep: "toasted"}
+      - {ingredient: breadcrumbs, qty: 30, unit: g}
+      - {ingredient: garlic, qty: 1, unit: clove}
+      - {ingredient: pomegranate-molasses, qty: 2, unit: tbsp}
+      - {ingredient: aleppo-pepper, qty: 2, unit: tsp, note: "or 1 tbsp Turkish red pepper paste"}
+      - {ingredient: ground-cumin, qty: 0.5, unit: tsp}
+      - {ingredient: lemon-juice, qty: 1, unit: tbsp}
+      - {ingredient: olive-oil, qty: 3, unit: tbsp}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+steps:
+  - text: Roast the peppers under a hot grill or over a flame, turning, until blackened all over.
+    timer_min: 20
+  - Steam them in a covered bowl for 10 minutes, then peel and deseed.
+  - Pulse the walnuts in the processor until coarsely ground. Add everything else and pulse to a textured paste — not completely smooth.
+  - Taste and balance the sweet, sour and heat. Serve drizzled with olive oil and a few walnuts.
+serving: With warm flatbread, as part of a mezze spread or with grilled meats.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

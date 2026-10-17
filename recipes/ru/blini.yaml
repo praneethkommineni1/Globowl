@@ -1,0 +1,45 @@
+id: ru-blini
+title: Blini
+native_name: {text: Блины, lang: ru, romanized: bliny}
+summary: Thin, lacy pancakes brushed with butter and stacked high, served with sour cream, jam or caviar.
+origin:
+  country: RU
+  also_claimed_by: [UA, BY]
+course: breakfast
+dish_types: [pancake]
+occasions: [Maslenitsa]
+authenticity: home-style
+yield: {servings: 4, amount: about 15 blini}
+time: {prep_min: 10, cook_min: 30, inactive_min: 30}
+difficulty: 2
+equipment: [24 cm frying pan or crêpe pan]
+techniques: [whisking, pan-frying]
+ingredient_groups:
+  - items:
+      - {ingredient: milk, qty: 500, unit: ml}
+      - {ingredient: egg, qty: 2}
+      - {ingredient: sugar, qty: 1, unit: tbsp}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+      - {ingredient: all-purpose-flour, qty: 250, unit: g}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: butter, qty: 50, unit: g, prep: "melted", note: "for brushing"}
+  - name: To serve
+    items:
+      - {ingredient: sour-cream, qty: 200, unit: ml, optional: true}
+      - {ingredient: strawberry-jam, qty: 4, unit: tbsp, optional: true}
+steps:
+  - Whisk the eggs, sugar and salt, then whisk in half the milk.
+  - Add the flour and whisk to a thick, smooth batter, then whisk in the remaining milk and the oil.
+  - text: Rest the batter.
+    timer_min: 30
+  - Heat the lightly greased pan over medium-high heat. Pour in a small ladle of batter and swirl to coat the pan thinly.
+  - Cook until the edges are lacy and golden underneath (about 1 minute), flip and cook 30 seconds more.
+  - Stack the blini, brushing each with melted butter.
+serving: Folded into quarters, with smetana (sour cream), jam, honey, or salmon roe.
+culture: Round, golden blini symbolise the sun at Maslenitsa, the week-long festival that ends winter before Orthodox Lent.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

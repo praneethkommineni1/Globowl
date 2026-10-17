@@ -1,0 +1,54 @@
+id: au-drover-s-damper
+title: Drover's Damper
+summary: Drover's damper is Australian bread, made by stockmen while taking care of or rounding up stock. It is meant to be made outside by a campfire. This is the "flash" version, made when butter and milk are available.
+origin:
+  country: AU
+course: bread
+authenticity: unassessed
+yield:
+  servings: 5
+  amount: 5–10
+time:
+  total_min: 50
+difficulty: 3
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: sugar, unit: tsp, qty: 2}
+  - {ingredient: butter, unit: tbsp, qty: 1}
+  - {ingredient: milk, unit: cup, qty: 1}
+steps:
+- Add salt to flour, then add sugar.
+- Rub in butter.
+- Mix in milk to make a medium-soft dough.
+- Knead lightly on flat surface until smooth.
+- Pat dough into a round shape.
+- Place damper mixture on coals or hot ash. Cook for maximum of 40 minutes.
+- Discard burnt outside and eat the inside.
+- Serve with butter, (golden syrup) or jam.
+tips:
+- This cookbook also has an "ordinary" damper recipe.
+- You can do this using a hole near the fire in a greased camp oven or greased aluminium foil in a barbecue.
+- If you aren't outdoors, just add mixture to greased bread tin, brush with milk and cook in a hot oven, reducing heat until cooked (20 minutes).
+- You can add dried fruit to make "Johnny Cake".
+- As a variation, add grated cheese.
+- Use beer instead of milk to make "Beer Damper".
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADrover%27s_Damper&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Drover's Damper@4522392
+    url: https://en.wikibooks.org/w/index.php?oldid=4522392
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

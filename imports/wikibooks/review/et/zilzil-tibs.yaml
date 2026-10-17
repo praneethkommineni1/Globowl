@@ -1,0 +1,76 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: et-zilzil-tibs
+title: Zilzil Tibs
+alternate_names:
+- Spicy Ethiopian Beef Strips
+summary: Zilzil tibs is a flavorful and tender Ethiopian dish made with marinated beef strips sautéed with aromatic spices and vegetables. It is known for its rich and spicy flavors.
+origin:
+  country: ET
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Mixing bowl
+- Large skillet or frying pan
+- Wooden spoon or spatula
+- Cutting board
+- Chef's knife
+techniques:
+- marinating
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 500, prep: cut into thin strips}
+  - {ingredient: onion, qty: 1, prep: thinly sliced, note: large}
+  - {ingredient: garlic, unit: clove, qty: [2, 3], prep: minced}
+  - {ingredient: ginger, unit: tbsp, qty: 1}
+  - {ingredient: niter-kibbeh, unit: tbsp, qty: 2}
+  - {ingredient: berbere, unit: tbsp, qty: 2}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 0.5, note: to taste}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: ground-coriander, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cardamom, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: lemon}
+  - {ingredient: cilantro, prep: 'chopped, for garnish'}
+steps:
+- In a mixing bowl, combine the beef strips, sliced onions, minced garlic, grated ginger, niter kibbeh, berbere spice blend, paprika, cayenne pepper, cumin, coriander, cardamom, and salt. Mix well to ensure the beef is coated with the marinade. Cover the bowl and let it marinate in the refrigerator for at least 1 hour, or overnight for more intense flavors.
+- Heat the olive oil in a large skillet or frying pan over medium-high heat.
+- Add the marinated beef strips to the skillet, spreading them out in a single layer to ensure even cooking. Sauté for about 5–7 minutes, stirring occasionally, until the beef is browned and cooked to your desired level of doneness.
+- Add the sliced onions from the marinade to the skillet and cook for an additional 2–3 minutes until the onions become soft and slightly caramelized.
+- Squeeze the lemon juice over the beef and onions, and give it a final toss to incorporate the flavors.
+- Remove from heat and transfer to a serving dish.
+- Garnish with freshly chopped cilantro or parsley.
+- Serve hot as a main course, accompanied by injera (Ethiopian flatbread) or rice.
+tips:
+- Adjust the level of spiciness by increasing or decreasing the amount of berbere spice blend and cayenne pepper according to your taste preferences.
+- For a more tender beef, you can marinate it overnight or use a tenderizing marinade.
+- Use a tender cut of beef, such as sirloin or tenderloin, for the best results.
+- For a vegetarian version, you can substitute the beef with mushrooms or tofu, adjusting the cooking time accordingly.
+- You can customize the dish by adding bell peppers, tomatoes, or other vegetables of your choice to the sautéed beef.
+- Some recipes include a splash of soy sauce or Worcestershire sauce for added umami flavor.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AZilzil_Tibs_%28Spicy_Ethiopian_Beef_Strips%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Zilzil Tibs (Spicy Ethiopian Beef Strips)@4510298
+    url: https://en.wikibooks.org/w/index.php?oldid=4510298
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

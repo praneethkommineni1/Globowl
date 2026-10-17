@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (CO, VE): confirm the country of origin
+#  - unmapped ingredient: 2.4 cups corn flour for arepas
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: co-cornmeal-pancakes
+title: Cornmeal Pancakes
+alternate_names:
+- Arepa
+summary: Arepas are fried or baked yellow or white corn pancakes, either plain or with a filling. Many Venezuelans and Colombians eat them in place of bread, often at breakfast.
+origin:
+  country: CO
+  also_claimed_by:
+  - VE
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: salt, unit: tsp, qty: 1.2}
+  - {ingredient: cheese, unit: cup, qty: 0.6}
+  - {ingredient: water, unit: cup, qty: 2.4}
+steps:
+- In a large mixing bowl, whisk together the flour, salt, and white cheese. Stir in enough water to make a firm, slightly moist dough.
+- Cover the dough and let it rest for 5 minutes.
+- Divide the dough into 10 pieces and form each piece into a ball. Flatten the ball slightly.
+- Preheat the oven to 350 °F (180 °C).
+- Oil a griddle very lightly and warm it over medium heat. Cook the arepas on the griddle for about 5 minutes on each side, until a golden brown crust forms.
+- Transfer the arepas to a baking sheet and bake 20–25 minutes, turning them several times as they bake.
+- Serve immediately, with cheese, ham and black beans.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACornmeal_Pancakes_%28Arepa%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cornmeal Pancakes (Arepa)@4628724
+    url: https://en.wikibooks.org/w/index.php?oldid=4628724
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

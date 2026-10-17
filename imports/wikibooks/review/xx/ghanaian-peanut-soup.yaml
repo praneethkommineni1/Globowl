@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - course unknown from categories
+id: xx-ghanaian-peanut-soup
+title: Ghanaian Peanut Soup
+alternate_names:
+- Nkatenkwan
+summary: Nkatenkwan, a Ghanaian stew, is a comforting and flavorful dish that blends the nuttiness of peanuts or groundnuts with the richness of palm oil, tomatoes, mixed chiles, onions, garlic, and either meat or fish.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 50
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: g, qty: 1361}
+  - {ingredient: red-chili, qty: 6}
+  - {ingredient: onion, qty: 2}
+  - {ingredient: garlic, qty: 3, optional: true}
+  - {ingredient: ginger, qty: 1}
+  - {ingredient: tomato, qty: 3, note: large}
+  - {ingredient: chicken-stock, unit: cup, qty: 4}
+  - {ingredient: bay-leaf, qty: 2}
+  - {ingredient: peanut-butter, unit: cup, qty: 0.5}
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: okra, qty: 10}
+steps:
+- Start by placing the chicken pieces in a pot. Leave the onions whole, but trim off the top and bottom edges before adding them to the pot.
+- Add the whole tomatoes to the pot, making sure to remove the tough cores. You can either grate the garlic and ginger or add them whole, as they will be processed later.
+- Add the bay leaves, kpakpo shito peppers, and chicken stock in the pot. Bring the mixture to a boil and then let it simmer until the chicken becomes tender.
+- While the soup is simmering, it's time to prepare the peanut sauce. Take another pot and combine the peanut butter with ½ cup water. Mix well to ensure the peanut butter blends smoothly with the water.
+- Place the peanut sauce over high heat and gradually add the remaining water. Allow it to simmer for about 20 minutes until the peanut oil rises to the surface.
+- Once the onions and tomatoes have softened, remove them from the broth and transfer them to a blender. For those who prefer a spicier soup, you can add some additional kpakpo shito peppers at this stage. Process the mixture in the blender until smooth, then pour it back into the soup and stir. Let it simmer for an additional 5 minutes.
+- Gently pour the peanut sauce into the soup and continue simmering for 15 minutes.
+- Briefly boil the head and tail of the okra before adding them to the soup,
+- Taste the soup and adjust the seasoning with salt and chili powder according to your preference.
+- Serve alongside fufu or your preferred accompaniment.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGhanaian_Peanut_Soup_%28Nkatenkwan%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ghanaian Peanut Soup (Nkatenkwan)@4518412
+    url: https://en.wikibooks.org/w/index.php?oldid=4518412
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

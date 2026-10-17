@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - course unknown from categories
+id: in-baingan-bartha-south-indian-eggplant-with-coconut-and-chili
+title: Baingan Bartha (South Indian Eggplant with Coconut and Chili)
+summary: Baingan bartha is an eggplant (aubergine) dish much loved all over India. This southern version of the dish is very different from northern varieties, and well suited to the cuisine of the region.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 40
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: eggplant, qty: 1}
+  - {ingredient: red-chili, qty: [2, 6], prep: as desired}
+  - {ingredient: coconut, unit: cup, qty: 1}
+  - {ingredient: cilantro, unit: cup, qty: 1}
+  - {ingredient: yogurt, unit: cup, qty: 2, optional: true}
+  - {ingredient: salt, note: to taste}
+steps:
+- Roast the eggplant directly over a low flame. Don't be afraid to set it right on the gas burner, turning it regularly until the skin becomes blackened and brittle and the flesh soft (about 15–20 minutes).
+- Set aside to cool.
+- Grind the chillies, coconut, and coriander together in a food processor to form a paste.
+- Peel the eggplant skin off and mash the flesh to a uniform pulp by hand.
+- Mix in the coconut paste and paneer/yogurt, along with salt to taste.
+- Serve with chapatis, dosa or rice.
+tips:
+- Baingan bartha is commonly produced with coriander (seeds) and/or cilantro (leaves, from the same plant, and thus sometimes confusingly called coriander as well).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaingan_Bartha_%28South_Indian_Eggplant_with_Coconut_and_Chili%29_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Baingan Bartha (South Indian Eggplant with Coconut and Chili) I@4629607
+    url: https://en.wikibooks.org/w/index.php?oldid=4629607
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

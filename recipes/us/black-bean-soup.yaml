@@ -1,0 +1,58 @@
+id: us-black-bean-soup
+title: Black Bean Soup
+summary: This recipe for black bean soup is a blend of beans and vegetables inspired by Tex-Mex cuisine.
+origin:
+  country: US
+course: soup
+authenticity: unassessed
+yield:
+  servings: 12
+time:
+  total_min: 120
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: black-beans-canned, unit: cup, qty: 6}
+  - {ingredient: bay-leaf, qty: 5}
+  - {ingredient: red-bell-pepper, qty: 1, prep: diced}
+  - {ingredient: green-pepper, qty: 1, prep: diced}
+  - {ingredient: chili-powder, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: whole-cloves, qty: 7, prep: minced}
+  - {ingredient: green-chili, qty: 1, prep: finely-chopped}
+  - {ingredient: onion, qty: 1.5, prep: diced, note: large}
+  - {ingredient: red-wine-vinegar, unit: tbsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: cilantro, unit: cup, qty: 0.5}
+  - {ingredient: sour-cream, unit: cup, qty: 1}
+steps:
+- Pick over the beans.
+- Place in large bean pot and add water to cover by at least 2 inches (~5 cm).
+- Soak overnight, then change water.
+- Bring beans to a boil. Reduce heat, then simmer until beans start to soften, around ½ hour.
+- Add bay leaves, bell peppers, chili powder, cumin, garlic, jalapeños, onions, and red wine vinegar.
+- Add salt and pepper to taste.
+- Simmer ½ to 1 hour, until beans are soft.
+- Take out bay leaves.
+- Stir in cilantro.
+- Add some sour cream.
+- Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABlack_Bean_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Black Bean Soup@4524842
+    url: https://en.wikibooks.org/w/index.php?oldid=4524842
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

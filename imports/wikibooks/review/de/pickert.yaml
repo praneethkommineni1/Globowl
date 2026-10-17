@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: de-pickert
+title: Pickert
+alternate_names:
+- German Potato Dumpling
+summary: 'This is the traditional Lippischer Pickert, a type of German potato dish somewhere between a dumpling and a pancake. After a few Pickerts you will desire another special pleasure from Lippe: a glass of Wacholder schnapps.'
+origin:
+  country: DE
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–5
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: kg, qty: 1}
+  - {ingredient: milk, unit: l, qty: 1}
+  - {ingredient: egg, qty: 10}
+  - {ingredient: potato, qty: 6, prep: grated, note: big}
+  - {ingredient: yeast, qty: 1}
+  - {ingredient: raisins, unit: g, qty: 500}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: vegetable-oil}
+steps:
+- Put the yeast in a very big bowl or pot. Mix in the warm milk and grated potatoes by hand.
+- Mix in the flour and eggs, then the salt and sugar. Stir until it is a homogeneous dough. It should be neither runny nor solid, but have a consistency like soft cookie dough; add milk or flour to adjust.
+- Let the dough rest for 30 minutes.
+- Heat lots of oil in a frying pan over low heat.
+- Scoop palm-sized amounts of dough into the hot oil, and fry over low heat.
+- Serve it with liver sausage (Leberwurst), syrup, plum jam or a small chunk of butter.
+tips:
+- To make a pfannenpickert, add half a handful of raisins to the dough and fry a larger amount of dough (approx. 15 centimeters across). A single pfannenpickert is often enough for one person.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APickert_%28German_Potato_Dumpling%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pickert (German Potato Dumpling)@4522382
+    url: https://en.wikibooks.org/w/index.php?oldid=4522382
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

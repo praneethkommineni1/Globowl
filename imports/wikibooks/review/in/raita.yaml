@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/8 cup grated cucumber
+#  - no time in recipe summary
+id: in-raita
+title: Raita
+summary: Raita is an Indian garnish often served with spiced dishes. It acts as a cooling flavour as the fat in the yogurt dissolves and mollifies chili in the curry, while the taste of cucumber and fresh mint or other herbs refreshes the palate. The essential ingredient is yogurt.
+origin:
+  country: IN
+course: starter
+authenticity: unassessed
+yield:
+  servings: 160
+  amount: ⅔ cup (160 g)
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: yogurt, unit: cup, qty: 0.5}
+  - {ingredient: mint, qty: [2, 3], prep: chopped}
+  - {ingredient: cilantro, qty: 2, prep: chopped}
+  - {ingredient: onion, unit: tbsp, qty: [1, 2], optional: true}
+  - {ingredient: salt}
+  - {ingredient: red-chili}
+  - {ingredient: ground-cumin}
+steps:
+- Squeeze the grated cucumber to remove and discard excess liquid.
+- Stir the cucumber into the yogurt.
+- Add chopped mint, cilantro, and onion.
+- Add salt to taste.
+- Sprinkle a little ground cumin on top.
+- Sprinkle with chili powder if desired.
+- Refrigerate and serve cold.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARaita&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Raita@4518927
+    url: https://en.wikibooks.org/w/index.php?oldid=4518927
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

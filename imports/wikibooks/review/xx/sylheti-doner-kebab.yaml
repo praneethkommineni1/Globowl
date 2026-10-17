@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 teaspoon hatxora
+#  - course unknown from categories
+id: xx-sylheti-doner-kebab
+title: Sylheti Doner Kebab
+summary: Sylheti doner kebab is a tantalizing dish influenced by Turkish doner kebab but infused with Sylheti flavors, including hatxora. It has gained immense popularity in Sylhet as a street food, as well as in the Whitechapel area of London.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 120
+difficulty: 3
+techniques:
+- grilling
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 500, prep: thinly sliced}
+  - {ingredient: yogurt, unit: tbsp, qty: 2}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: small}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: pita-bread, qty: 4}
+  - {ingredient: lettuce}
+  - {ingredient: garlic, prep: 'tomato, and naga sauce'}
+steps:
+- In a bowl, combine yogurt, vegetable oil, minced garlic, chopped onion, shatkora, ground cumin, ground coriander, ground paprika, salt, and black pepper. Mix well to create the marinade.
+- Add the thinly sliced meat to the marinade, ensuring it's coated thoroughly. Cover and refrigerate for at least 1 hour, allowing the flavours to meld.
+- Preheat your grill or stovetop grill pan over medium-high heat.
+- Thread the marinated meat onto skewers, creating kebabs.
+- Grill the kebabs for about 10–15 minutes, turning occasionally, until the meat is cooked through and has a nicely charred exterior.
+- While the kebabs are cooking, warm the pita bread or flatbreads on the grill.
+- Once the kebabs are done, remove them from the skewers.
+- Serve the kebab by placing slices of grilled meat into warmed pita bread or flatbreads. Add sliced vegetables and drizzle with tahini sauce or yogurt-based sauce.
+- Roll up the bread to encase the filling, and enjoy your sylheti doner kebab!
+tips:
+- Serve the kebabs with a side salad or pickles for added flavour.
+- Adjust the level of Naga chilli paste to suit your spice preference.
+- You can also add other Sylheti spices and herbs for additional flavour.
+- For a vegetarian version, you can use marinated and grilled tofu or vegetables as a meat substitute.
+- Naga chilli is known for its extreme spiciness. Use caution when adding Naga chilli paste, and adjust the quantity to suit your spice tolerance. Wash hands thoroughly.
+- If you wish to include hatxora for a sour twist, slice it thinly and add it as a garnish. It adds a tangy and sour flavour to the kebab. You can find it in specialty stores or online (mostly branded as shatkora).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASylheti_Doner_Kebab&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sylheti Doner Kebab@4630959
+    url: https://en.wikibooks.org/w/index.php?oldid=4630959
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

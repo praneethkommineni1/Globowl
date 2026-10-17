@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3/4 cup maple syrup
+#  - unmapped ingredient: 1 heaping teaspoon ground ginger
+#  - unmapped ingredient: 1 gallon water
+id: us-switchel
+title: Switchel
+alternate_names:
+- Ginger Water
+summary: Switchel, also known as ginger water or haymaker's punch, is a sweetened beverage made from ground ginger, apple cider vinegar, sugar or other sweeteners and water.
+origin:
+  country: US
+course: drink
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 10
+difficulty: 1
+ingredient_groups:
+- name: Variation I
+  items:
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: ground-ginger, unit: tbsp, qty: 1}
+  - {ingredient: water, qty: 1}
+  - {ingredient: cider-vinegar, unit: cup, qty: 1}
+- name: Variation II
+  items:
+  - {ingredient: cider-vinegar, unit: cup, qty: 0.667}
+steps:
+- Dissolve sugar/syrup and ground ginger in the water.
+- Stir in the apple cider vinegar
+- Chill or serve over ice cubes. Shake well before serving.
+tips:
+- Some traditional recipes have used maple syrup, honey and/or molasses, separately or in combination, as sweeteners. The ratio of sweetener and vinegar to water vary widely in traditional and modern recipes.
+- A small amount of oatmeal is sometimes added to give the beverage more body and to add to the flavor.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASwitchel_%28Ginger_Water%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Switchel (Ginger Water)@4525527
+    url: https://en.wikibooks.org/w/index.php?oldid=4525527
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

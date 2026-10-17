@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Japanese plums
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: jp-japanese-pickled-plums
+title: Japanese Pickled Plums
+alternate_names:
+- Umeboshi
+summary: Umeboshi (&#26757;&#24178;, pickled Japanese plum) is a kind of pickled food. It is one of the Japanese traditional foods and it has been popular in Japan. It is red and round, and its taste ranges from sour to sweet.
+origin:
+  country: JP
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: salt, prep: measured to 20% by weight of the plums}
+steps:
+- Sterilize a jar and utensils with potable alcohol or boiling water.
+- Remove any damaged plums. Wash the remaining plums, and wipe them dry.
+- Remove the plum stems and any woody bits, making sure not to damage the fruit.
+- Cover plums with cold water and let stand overnight.
+- Drain water and place drained plums in a larger, non-reactive (i.e. glass or ceramic) container.
+- Evenly layer the salt and plums in the container, making sure the plums are well coated with salt.
+- Place a non-reactive plate directly on top of plums in their container. Place a weight on top of the plate to weight down the plums—this helps ensure the plums become submerged in brine.
+- Cover the container with a clean cloth to keep out debris, and place in a cool dark place to pickle.
+- Check the container after 3 days—pickling liquid should be forming and submerging the plums. There should be no mold growth—if there is a very small amount, you can carefully remove it with clean utensils. It is important to keep the plums fully submerged in the pickling liquid to prevent mold growth and rotting.
+- Re-weight the plums, and leave to pickle for another 3–4 weeks.
+- Remove the plums from the pickling liquid, and arrange over a bamboo mat or other woven tray that won't keep the moisture in. Set them outside in hot, dry, sunny weather, and allow them to dry for three full days.
+- Strain the pickling liquid, and boil it to remove any impurities.
+- Rub salt into the shiso to remove scum. Squeeze the shiso to remove liquid.
+- Put the plums, shiso, and boiled liquid back into a clean jar, and store in the fridge.
+tips:
+- The high salt proportion inhibits microbial growth and ensures that the plums pickle properly—don't reduce it.
+- A variety of items can be used to weight down the plums. Examples include a heavy, clean rock; a bottle of water; a bag of pie weights; a heavy crock or pot/pan; etc. The weight should be clean and should not touch the plums directly.
+- Damaged plums can increase the likelihood of mold growth, so it's important not to use them.
+- Adding red shiso leaves to the pickling mixture yields redder plums and a deep red plum vinegar. If you want to do this, measure the shiso leaves to 20% of the weight of the plums. Wash and dry the shiso, then measure out salt to 10% of the shiso weight. Massage the shiso and salt together well for several minutes to release its astringent liquid, then squeeze out the shiso and discard all the liquid. Repeat the salting and massaging process with the same amount of salt as before, and discard the liquid again. The shiso should be added to the pickling mixture once the pickling liquid has covered the plums.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AJapanese_Pickled_Plums_%28Umeboshi%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Japanese Pickled Plums (Umeboshi)@4519820
+    url: https://en.wikibooks.org/w/index.php?oldid=4519820
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

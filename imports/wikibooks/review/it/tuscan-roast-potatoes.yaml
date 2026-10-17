@@ -1,0 +1,44 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-tuscan-roast-potatoes
+title: Tuscan Roast Potatoes
+summary: This is great served with grilled steak, roast chicken, or vegetable sauté.
+origin:
+  country: IT
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: g, qty: 454, prep: cut into 2-inch cubes}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+  - {ingredient: olive-oil, unit: cup, qty: 0.5}
+  - {ingredient: parsley, unit: tsp, qty: 1.5, prep: 'rosemary, thyme, basil and oregano'}
+steps:
+- Heat a large pot of water to a boil. Add potatoes and cook for 10 minutes. Shock in a bowl of ice water.
+- Drain and refrigerate for 1 hour.
+- Combine remaining ingredients. Add potatoes and toss to coat.
+- Spread out in one even layer on your largest baking pan. Roast at 450°F (230°C) for 20 minutes, stirring halfway.
+- Serve warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATuscan_Roast_Potatoes&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tuscan Roast Potatoes@4494726
+    url: https://en.wikibooks.org/w/index.php?oldid=4494726
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

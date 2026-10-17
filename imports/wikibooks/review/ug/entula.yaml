@@ -1,0 +1,79 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ug-entula
+title: Entula
+alternate_names:
+- Ugandan Eggplant Stew
+summary: Entula is a flavorful and hearty stew that showcases the earthy flavors of eggplants and a delightful combination of vegetables and spices. This vegetarian stew is a popular and wholesome choice in Ugandan cuisine.
+origin:
+  country: UG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Cutting board
+- Knife
+- Large pot or Dutch oven
+- Wooden spoon or spatula
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: eggplant, qty: 2, prep: diced, note: large}
+  - {ingredient: tomato, unit: cup, qty: 1}
+  - {ingredient: onion, unit: cup, qty: 1}
+  - {ingredient: red-bell-pepper, unit: cup, qty: 1}
+  - {ingredient: carrot, unit: cup, qty: 1}
+  - {ingredient: zucchini, unit: cup, qty: 1}
+  - {ingredient: potato, unit: cup, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: ginger, qty: 1, prep: grated}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: curry-powder, unit: tbsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: red-chili, unit: tsp, qty: 0.5}
+  - {ingredient: chicken-stock, unit: cup, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: cilantro, prep: chopped}
+steps:
+- In a large pot or Dutch oven, heat the vegetable oil over medium heat. Add the diced onions and sauté until they become translucent.
+- Stir in the minced garlic and grated ginger, and sauté for another minute until the mixture becomes aromatic.
+- Add the diced eggplants, tomatoes, bell peppers, carrots, zucchini, and potatoes to the pot. Mix well to combine all the vegetables.
+- Sprinkle the curry powder, ground cumin, ground coriander, ground turmeric, and chili powder (if using) over the vegetables. Season with salt and pepper to taste.
+- Pour the vegetable broth or water into the pot, covering the vegetables. Bring the mixture to a boil, then reduce the heat to a simmer.
+- Cover the pot and let the stew cook for about 20–25 minutes or until the vegetables are tender and the flavors have melded together.
+- Once the stew is ready, adjust the seasoning if needed.
+- Serve hot, garnished with fresh chopped cilantro or parsley for an extra burst of flavor.
+tips:
+- You can customize the stew by adding other vegetables of your choice, such as green beans, peas, or sweet potatoes.
+- For a creamier texture, you can add a splash of coconut milk or yogurt to the stew before serving.
+- If you prefer a spicier stew, increase the amount of chili powder or add chopped fresh chili peppers.
+- Entula is often served with Ugandan staples like rice, matooke (cooked green bananas), or posho (cornmeal porridge).
+- Entula provides a diverse array of vitamins, minerals, and dietary fiber from the various vegetables, making it a nutritious and satisfying meal option.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEntula_%28Ugandan_Eggplant_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Entula (Ugandan Eggplant Stew)@4629614
+    url: https://en.wikibooks.org/w/index.php?oldid=4629614
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

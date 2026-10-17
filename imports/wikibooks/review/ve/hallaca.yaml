@@ -1,0 +1,131 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 mushroom stock cube
+#  - unmapped ingredient: 1 tsp marmite
+#  - unmapped ingredient: 6 Brussels sprouts, shredded
+#  - unmapped ingredient: 100 g mixed vine fruit
+#  - unmapped ingredient: Cooking wine
+#  - unmapped ingredient: 20 prunes
+#  - unmapped ingredient: 1 can of artichoke hearts
+#  - unmapped ingredient: 1 can of asparagus
+#  - unmapped ingredient: Cooking wine
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+id: ve-hallaca
+title: Hallaca
+alternate_names:
+- Venezuelan Stuffed Corn Dough
+summary: Hallaca (pronounced ah-YA-kah) is the main Venezuelan Christmas dinner dish.
+origin:
+  country: VE
+course: main
+authenticity: unassessed
+yield:
+  servings: 20
+  amount: 20 hallacas
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+- grilling
+- pan-frying
+- simmering
+ingredient_groups:
+- name: Dough
+  items:
+  - {ingredient: olive-oil}
+  - {ingredient: annatto, unit: tsp, qty: 1}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: coriander-seeds, unit: tsp, qty: 1}
+  - {ingredient: onion, qty: 4, prep: sliced}
+  - {ingredient: bouillon-cube, qty: 1}
+  - {ingredient: leek, qty: 2, prep: green and white parts cut in 1-inch chunks}
+  - {ingredient: cilantro, qty: 1, note: large}
+  - {ingredient: scallion, qty: 2, prep: chopped}
+  - {ingredient: garlic, qty: 1, prep: halved}
+  - {ingredient: olives, qty: 1}
+  - {ingredient: capers, qty: 1}
+  - {ingredient: cornmeal, unit: kg, qty: 1}
+  - {ingredient: potato, unit: g, qty: 500}
+- name: Fillings
+  items:
+  - {ingredient: olive-oil}
+  - {ingredient: red-bell-pepper, qty: 2}
+  - {ingredient: carrot, qty: 2, prep: shredded}
+  - {ingredient: green-beans, unit: handful, qty: 1, prep: chopped}
+  - {ingredient: chickpeas-canned, unit: can, qty: 1}
+  - {ingredient: dijon-mustard, qty: 1}
+  - {ingredient: almonds, unit: g, qty: 50}
+  - {ingredient: firm-tofu, unit: can, qty: 1}
+- name: Sauce
+  items:
+  - {ingredient: olive-oil}
+  - {ingredient: red-onion, qty: 2, prep: sliced}
+  - {ingredient: leek, qty: 1, prep: white part chopped}
+  - {ingredient: tomato, qty: 1}
+  - {ingredient: red-bell-pepper, qty: 2}
+  - {ingredient: green-pepper, qty: 2}
+  - {ingredient: soy-sauce}
+  - {ingredient: chili-paste}
+  - {ingredient: ground-cumin}
+  - {ingredient: all-purpose-flour}
+steps:
+- With a damp cloth, wipe the banana leaves.
+- Heat the banana leaves over a flame (gas cooker, camping fire, etc). The leaves should turn softer and darker, with a distinctive smoky smell.
+- Cut the hard rim without shredding the leaves. Cut in 30 cm segments along the transversal veins
+- In a small pan, warm 5 tsp olive oil with the annatto seeds for 20 minutes over very low heat. The oil should turn red. Strain to remove the seeds.
+- In the meantime, fry the cumin, black pepper, and coriander seeds in 2–3 tsp olive oil in a deep pan.
+- Add the white onion, 5 cups of boiling water, stock cubes, Marmite, chunked leeks, fresh herbs, three-quarters of the chopped spring onions, and garlic head.
+- Simmer this broth for 15 minutes.
+- Put the contents of the pot in a food processor and liquidise it. Strain the mixture very well, keeping the liquid and discarding the solids.
+- Put the broth in a large bowl, then add the annatto oil along with the liquid from the olive and the caper jars.
+- Add the polenta meal, 1 cup at a time, stirring very well. The consistency should be that of a smooth dough.
+- Mix the mashed potatoes with the polenta dough.
+- 'Test the consistency of the dough: Wrap 1 tsp dough with a small segment of banana leaf. Wrap it in aluminum foil and boil it in water for 15 minutes. If the cooked dough maintain the shape of the banana leaf "package", the dough is ready. If it crumbles or comes out half dissolved in water, then add more polenta meal. If it comes out rock hard, then add more water to the dough. Adjust the salt content as well.'
+- Rub olive oil on 2 red bell peppers and grill them all over to char the skin.
+- Remove the skin and seeds and cut in 1 cm-wide strips. Set aside in a small bowl.
+- 'Vegetables: Combine the carrot, Brussels sprout, and green beans. Set aside in a small bowl.'
+- Soak the vine fruit in cooking wine or replacement. Set aside in a small bowl.
+- Soak prunes in cooking wine or replacement. Set aside in a small bowl.
+- Drain chickpeas and set aside in a small bowl.
+- Set pickles aside in a small bowl.
+- Blanch and toast the almonds, and set aside in a small bowl.
+- Drain and chop the mock duck into 1 cm cubes and set aside in a small bowl.
+- Put the olives in a small bowl.
+- Put the capers in a small bowl.
+- Drain the artichoke hearts, cut in quarters and set aside in a small bowl.
+- Drain the asparagus and put it on a plate.
+- Quickly stir-fry the red onion, chopped leek, and the remaining chopped spring onions.
+- Using a food processor, liquidise the tomatoes, and peppers. Add to the cooking onions and leek, and stir for a minute.
+- Add soy sauce, chili sauce, and ground cumin to season. Add some cooking wine if you want. Let it simmer for another minute.
+- Add some flour to thicken. Set the sauce aside in a bowl.
+- Cut a 35 cm-long piece of aluminum foil and put it over the table. Cover with a banana leaf, with the transversal veins along the horizontal axis.
+- Rub oil on the surface of the banana leaf. Put a bit more than half a ladle of dough in the centre of the leaf. Spread with a spoon to make a 14 cm-diameter circle.
+- 'Put 1 tsp sauce in the middle. Put 1½ tsp shredded vegetables over the sauce. Add 2 olives and 2 capers, one on each corner of the dough. Keep placing the rest of the fillings as in a collage: 1 tsp vine fruit, 1 prune, 2 tsp pickles, 1 tsp chickpeas, 3 cubes of mock duck, 1 asparagus, 2 strips of grilled pepper, and some leaves of parsley.'
+- Wrap the filling with the banana leaf (not against the veins). Fold the foil to seal the ends of the banana leaf packet. Then, fold the foil to wrap the whole packet. Tie it with kitchen string. Repeat for the rest of the dough.
+- Boil the hallacas in a covered pot of water for 20–30 minutes. You may have to do this in batches unless you have a huge cauldron.
+- Drain the hallacas and let them cool for 10 hours. Store them in the fridge or freezer if desired.
+- Reheat the hallacas in boiling water, simmering for 10 minutes before eat them. Enjoy your meal!
+tips:
+- Hallaca tastes better once it has cooled.
+- The banana leaves are not intended to be eaten; they are just for cooking!
+- You can replace the carrots, brussels sprouts, and green beans with a similar combination of vegetables.
+- For overseas expatriates and daring cooks, you can replace the banana leaves with 20x30cm piece of strong aluminium foil.
+- For a more old-fashioned meat filling, you can add a whole leg of pork or 2–3 roasting hens.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHallaca_%28Venezuelan_Stuffed_Corn_Dough%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Hallaca (Venezuelan Stuffed Corn Dough)@4535161
+    url: https://en.wikibooks.org/w/index.php?oldid=4535161
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

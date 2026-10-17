@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Pastry for double crust pie
+id: gb-beef-pasties
+title: Beef Pasties
+summary: Just like what Rick Steves ate on his 'Travels in Europe' show, when he visited Cornwall.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: cup, qty: 2, prep: in 1/4-inch pieces}
+  - {ingredient: potato, unit: cup, qty: 1.5}
+  - {ingredient: chicken-stock, unit: cup, qty: 1}
+  - {ingredient: onion, unit: cup, qty: 0.5}
+  - {ingredient: parsley, unit: tbsp, qty: 1}
+  - {ingredient: thyme, unit: tsp, qty: 0.25}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: [0.125, 0.25]}
+  - {ingredient: heavy-cream}
+steps:
+- Preheat oven to 450°F (230°C).
+- Combine beef, potatoes, broth, onion, parsley, thyme, salt, and pepper. Set aside.
+- On a lightly floured surface, roll out ¼ of the pastry into an 8-inch (20 cm) circle.
+- Mound 1 cup (240 mL) of filling on half of circle.
+- Moisten edge of pastry with water.
+- Fold dough over filling. Crimp edges with fork to seal.
+- Place on ungreased baking sheet.
+- Repeat with remaining pastry and filling.
+- Cut slits in top of each completed pastry.
+- Brush tops with cream.
+- Bake 20 to 25 minutes or until golden brown.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeef_Pasties&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Beef Pasties@4587176
+    url: https://en.wikibooks.org/w/index.php?oldid=4587176
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

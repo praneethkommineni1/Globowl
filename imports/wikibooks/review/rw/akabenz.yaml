@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: rw-akabenz
+title: Akabenz
+alternate_names:
+- Rwandan Fried Chicken
+summary: Akabenz is a popular Rwandan dish consisting of crispy and flavorful fried chicken. This dish is loved for its juicy and tender meat, paired with a crispy outer coating. It is often served as a main course with various side dishes or enjoyed on its own as a snack.
+origin:
+  country: RW
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large frying pan
+- Paper towels
+- Tongs
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: garlic-powder, unit: tsp, qty: 1}
+  - {ingredient: onion-powder, unit: tsp, qty: 1}
+  - {ingredient: thyme, unit: tsp, qty: 1}
+  - {ingredient: dried-oregano, unit: tsp, qty: 1}
+  - {ingredient: chicken, unit: g, qty: 907}
+  - {ingredient: vegetable-oil, prep: for frying}
+steps:
+- In a large bowl, combine the flour, salt, black pepper, paprika, garlic powder, onion powder, dried thyme, and dried oregano. Mix well to ensure the spices are evenly distributed.
+- Coat each piece of chicken with the seasoned flour mixture, making sure to shake off any excess.
+- Heat vegetable oil in a large frying pan over medium-high heat. The oil should be hot but not smoking.
+- Carefully place the coated chicken pieces into the hot oil, ensuring they are not overcrowded in the pan. Fry in batches if necessary.
+- Fry the chicken for about 6–8 minutes per side or until golden brown and cooked through. The internal temperature should reach 165°F (74°C) for the chicken to be fully cooked.
+- Once cooked, transfer the fried chicken to a plate lined with paper towels to absorb any excess oil.
+- Serve immediately while still hot and crispy.
+tips:
+- For extra flavor, marinate the chicken pieces in a mixture of buttermilk, garlic, and spices for a few hours before coating them in the seasoned flour.
+- Feel free to adjust the seasoning according to your taste preferences. You can add more or less of each spice to suit your preference for spiciness and flavor.
+- Serve with traditional Rwandan side dishes like isombe (cassava leaves with eggplant) or mizuzu (fried plantains) for a complete meal.
+- Chicken is a good source of protein.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAkabenz_%28Rwandan_Fried_Chicken%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Akabenz (Rwandan Fried Chicken)@4525802
+    url: https://en.wikibooks.org/w/index.php?oldid=4525802
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

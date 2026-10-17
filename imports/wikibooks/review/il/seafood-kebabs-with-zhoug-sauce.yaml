@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 kg squid, cleaned and cut into 2 1/2 cm pieces
+id: il-seafood-kebabs-with-zhoug-sauce
+title: Seafood Kebabs with Zhoug Sauce
+summary: This recipe is for charcoal-grilled squid, prawn, and fish kebabs in zhoug (a spicy dipping sauce that can be used in a variety of different ways). The original recipe called for octopus, but it's been expanded with good results.
+origin:
+  country: IL
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 120
+difficulty: 3
+techniques:
+- grilling
+ingredient_groups:
+- name: Kebabs
+  items:
+  - {ingredient: shrimp, unit: kg, qty: 0.5, prep: peeled and deveined, note: large}
+  - {ingredient: fish, unit: kg, qty: 0.5, prep: cut into 2 1/2 cm cubes}
+- name: Marinade
+  items:
+  - {ingredient: garlic, unit: clove, qty: 5, prep: peeled and finely chopped}
+  - {ingredient: bay-leaf, qty: 2}
+  - {ingredient: green-chili, qty: 2, prep: seeded and finely chopped}
+  - {ingredient: lemon-juice, unit: cup, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: olive-oil, unit: cup, qty: 0.75}
+  - {ingredient: dry-white-wine, unit: cup, qty: 0.75}
+- name: Zhoug sauce
+  items:
+  - {ingredient: cilantro, unit: cup, qty: 1, prep: 'washed, dried, and chopped'}
+  - {ingredient: parsley, unit: cup, qty: 1, prep: 'washed, dried, and chopped'}
+  - {ingredient: caraway-seeds, unit: tsp, qty: 1}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 1}
+  - {ingredient: green-cardamom-pods, unit: tsp, qty: 1.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: garam-masala, unit: tsp, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 8, prep: peeled and crushed}
+  - {ingredient: green-chili, qty: 8, prep: seeded and chopped}
+  - {ingredient: olive-oil, unit: cup, qty: 0.25}
+steps:
+- Combine all the marinade ingredients in a nonreactive (glass or ceramic) mixing bowl. Add the seafood and mix to coat well. Refrigerate overnight.
+- Dry roast the cumin, caraway and cardamom seeds for 2–3 minutes in a cast iron skillet or wok over low heat. Cool, then add the peppercorns and pound in a mortar and pestle to a fine powder.
+- In a blender or food processor, blend the coriander, parsley, spices, garlic, chilli peppers and olive oil together with ½ cup water until a thick, smooth paste is formed.
+- Transfer the paste into a saucepan, heat until it starts bubbling, then reduce the heat and simmer, stirring constantly, until the water is evaporated. Cool, transfer to an airtight container and chill.
+- Remove the seafood from the marinade and drain in a colander. Save the marinade for basting the kebabs later. Thread the seafood onto skewers or satay sticks.
+- Char-grill the kebabs over hot coals, basting and turning every few minutes. It should take about 10 minutes to cook.
+- Serve with the zhoug sauce as a dipping sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASeafood_Kebabs_with_Zhoug_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Seafood Kebabs with Zhoug Sauce@4630218
+    url: https://en.wikibooks.org/w/index.php?oldid=4630218
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

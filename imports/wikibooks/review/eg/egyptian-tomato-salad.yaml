@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: eg-egyptian-tomato-salad
+title: Egyptian Tomato Salad
+summary: Egyptian tomato salad is a simple and refreshing salad that celebrates the vibrant flavours of ripe tomatoes. This salad showcases the natural sweetness and juiciness of tomatoes, combined with a tangy dressing and aromatic herbs.
+origin:
+  country: EG
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Mixing bowl
+- Knife
+- Measuring spoons
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: tomato, qty: [4, 5], prep: sliced}
+  - {ingredient: onion, qty: 1, prep: thinly sliced, note: small}
+  - {ingredient: cucumber, qty: 1, prep: peeled and diced}
+  - {ingredient: parsley, unit: cup, qty: 0.25, prep: chopped}
+  - {ingredient: mint, unit: cup, qty: 0.25, prep: chopped}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 2}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- In a mixing bowl, combine the sliced tomatoes, thinly sliced red onion, diced cucumber, fresh parsley, and fresh mint. Toss gently to combine.
+- In a separate small bowl, whisk together the lemon juice, olive oil, salt, and pepper to create the dressing.
+- Pour the dressing over the tomato salad and toss gently to coat the ingredients evenly.
+- Taste the salad and adjust the seasoning according to your preference, adding more salt, pepper, or lemon juice if desired.
+- Allow the salad to sit at room temperature for about 15–20 minutes to allow the flavors to meld together.
+- Serve the salad as a refreshing side dish to complement a variety of main courses or as part of a mezze spread.
+tips:
+- Egyptian tomato salad is best enjoyed fresh, shortly after preparing it, as the flavors are at their peak.
+- Feel free to customize the salad by adding other ingredients such as olives, feta cheese, or diced bell peppers for additional flavor and texture.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgyptian_Tomato_Salad&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egyptian Tomato Salad@4531796
+    url: https://en.wikibooks.org/w/index.php?oldid=4531796
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

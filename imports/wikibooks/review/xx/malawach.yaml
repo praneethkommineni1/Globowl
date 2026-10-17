@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2–3 cups lukewarm water
+id: xx-malawach
+title: Malawach
+alternate_names:
+- Flaky Flatbread
+summary: Malawach is a layered, flaky flatbread that is popularly eaten in Israel, and now made popular in other regions. It is typically brushed with oil or fat and cooked flat in a frying pan.
+origin:
+  country: XX
+course: bread
+authenticity: unassessed
+yield:
+  servings: 12
+time:
+  total_min: 4
+difficulty: 3
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: kg, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: yeast, unit: tsp, qty: 2}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: vegetable-oil}
+  - {ingredient: butter, unit: g, qty: 200}
+steps:
+- Mix together the flour, sugar, yeast, salt, and water, starting with only 2 cups of water. Knead the dough well, adding additional water if necessary to make it soft and pliable.
+- Cover and let dough rest until it doubles in size.
+- Take up dough and begin to knead it by hand. Divide dough into 12 smaller portions and place upon oiled surface. Let dough rest until each portion rises and doubles in size, occasionally oiling the surface of dough.
+- Grease a work surface with oil. Roll out each piece of dough with a rolling pin to get very large, almost paper-thin, rounds of dough.
+- Brush each round liberally with melted butter. Fold the dough in half, from the top towards the bottom. Then, roll it up from the top towards the bottom as one would roll-up a sleeping bag, forming a rope. Coil the rope around itself into a spiral.
+- Cover and allow the dough to rest until it rises and doubles in size.
+- Roll each spiral out again into a thin round. Brush again with butter, then repeat the rolling and coiling process.
+- Allow the dough to rest once more while covered until it rises.
+- Heat a skillet with a little vegetable oil.
+- Use your hands to flatten out the dough coils on a greased surface.
+- Place flattened dough portions in skillet and cover with lid. Fry the dough on a medium to low heat until the bottom turns an amber color. Flip over and fry on reverse side without the lid.
+- Serve hot.
+tips:
+- Malawach is often served with a hard-boiled egg, along with tomato salsa that has been flavored with freshly-chopped coriander.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMalawach_%28Flaky_Flatbread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Malawach (Flaky Flatbread)@4630062
+    url: https://en.wikibooks.org/w/index.php?oldid=4630062
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

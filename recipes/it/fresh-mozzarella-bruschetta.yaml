@@ -1,0 +1,51 @@
+id: it-fresh-mozzarella-bruschetta
+title: Fresh Mozzarella Bruschetta
+summary: Bruschette are small, open-faced sandwiches of tomato and mozzarella cheese. They are delicious, quick and easy to make, and perfect appetizers.
+origin:
+  country: IT
+course: starter
+authenticity: unassessed
+yield:
+  servings: 24
+  amount: 24 bruschette
+time:
+  total_min: 15
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: white-bread, qty: 1}
+  - {ingredient: tomato, qty: 3, note: medium}
+  - {ingredient: mozzarella, qty: 3, note: large}
+  - {ingredient: basil, qty: 24}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: olive-oil}
+  - {ingredient: dried-oregano}
+  - {ingredient: white-vinegar}
+steps:
+- Cut bread into ½ inch (1.27 cm) slices on the diagonal.
+- Lightly toast bread in the oven on both sides.
+- Cut tomatoes into ¼ inch (0.75 cm) slices, and place one on each slice of bread.
+- Cut mozzarella balls into ¼ inch (0.75cm) slices and place on top of tomato.
+- Slice basil into thin strips and sprinkle on top with the oregano.
+- Combine olive oil and balsamic vinegar (to taste) in a small bowl
+- Drizzle bruschetta with the mixture and sprinkle with salt and pepper.
+tips:
+- An optional re-toasting with toppings on will make the mozzarella melt and be even more delicious.
+- Authentic Italian bruschetta begins with rubbing roasted garlic cloves on the toasted bread slices.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFresh_Mozzarella_Bruschetta&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fresh Mozzarella Bruschetta@4605220
+    url: https://en.wikibooks.org/w/index.php?oldid=4605220
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

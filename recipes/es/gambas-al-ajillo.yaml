@@ -1,0 +1,49 @@
+id: es-gambas-al-ajillo
+title: Gambas al Ajillo
+alternate_names:
+- Garlic Shrimp
+summary: Gambas al ajillo (garlic shrimp) is a popular Spanish dish found principally in the south and center of Spain. The primary ingredients consist of shrimp, garlic and olive oil but there are many variations. It's often served in Spain's tapas bars as an appetizer.
+origin:
+  country: ES
+course: starter
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 20
+difficulty: 1
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: shrimp, unit: g, qty: 454}
+  - {ingredient: garlic, qty: [4, 6], prep: finely minced, note: large}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: sherry, unit: ml, qty: [59, 89]}
+  - {ingredient: olive-oil, unit: cup, qty: 0.25}
+  - {ingredient: parsley, unit: tsp, qty: 3}
+  - {ingredient: lemon-juice, unit: ml, qty: 30}
+steps:
+- In a sauté pan or other heavy frying pan, warm the olive oil over medium heat. Add the garlic and sauté for about one minute or until it begins to brown. Be careful not to burn the garlic.
+- Raise the heat to high and add the shrimp, lemon juice, sherry or cognac and paprika. Stir well, then sauté, stirring briskly until the shrimp turn pink and curl (about 3 minutes).
+- Remove from heat and transfer shrimp with oil and sauce to a warm plate or serve right from the pan.
+- Season to taste with salt and freshly ground black pepper. Sprinkle with parsley.
+tips:
+- The shrimp can be peeled first, before cooking them if you prefer.
+- If you like larger shrimp, you may purchase shrimp with fewer count to a pound. However, 25 to a pound are about the right size for this tapa.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGambas_al_Ajillo_%28Garlic_Shrimp%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gambas al Ajillo (Garlic Shrimp)@4533840
+    url: https://en.wikibooks.org/w/index.php?oldid=4533840
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

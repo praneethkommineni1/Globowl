@@ -1,0 +1,78 @@
+id: it-ricotta-lasagne
+title: Ricotta Lasagne
+summary: Lasagne is a baked pasta dish.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 12
+time:
+  total_min: 120
+difficulty: 4
+techniques:
+- baking
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: sausage, unit: g, qty: 454}
+  - {ingredient: beef, unit: g, qty: 227}
+  - {ingredient: onion, qty: 0.5, prep: chopped fine}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: crushed}
+  - {ingredient: sugar, unit: tbsp, qty: 3.5}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: basil, unit: tsp, qty: 1.5}
+  - {ingredient: fennel-seeds, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: parsley, unit: cup, qty: 0.25, prep: divided}
+  - {ingredient: tomato, unit: cup, qty: 4, prep: 'undrained, halved, seeds removed'}
+  - {ingredient: tomato-paste, unit: g, qty: 340}
+  - {ingredient: water, unit: cup, qty: 0.5}
+  - {ingredient: salt, unit: tbsp, qty: 0.5}
+  - {ingredient: ricotta, unit: cup, qty: 2}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: pasta, unit: g, qty: 454}
+  - {ingredient: mozzarella, unit: g, qty: 454, prep: thinly sliced}
+  - {ingredient: parmesan}
+steps:
+- Remove sausage casings, and break sausage into small bits.
+- Sauté sausage and ground beef in 5-quart (4.7 L) saucepan or Dutch oven over medium heat with onion and garlic until the meat is browned.
+- Add sugar, 1 tablespoon salt, basil, fennel, pepper, and half the parsley; mix well.
+- Add tomatoes, tomato paste and water, mashing the tomatoes a bit. Bring the sauce to a boil then reduce heat and simmer, covered and stirring occasionally for 1½ hours.
+- Preheat oven to .
+- Cook and drain pasta.
+- In a medium bowl mix ricotta, egg, ½ teaspoon salt and remaining parsley.
+- 'Assemble your lasagna in a inch roasting pan (listed bottom to top):'
+- Bottom layer of sauce (approx. 1½ cups / 375 g / 13.2 oz)
+- Layer of pasta (overlapping slightly)
+- Layer of ½ the ricotta mixture
+- Layer of ⅓ of the mozzarella
+- Sauce layer (again, about 1½ cups / 375 g / 13.2 oz)
+- Layer of grated Parmesan sprinkled over sauce (not so much that the sauce layer is covered entirely)
+- Layer of pasta
+- Layer of remaining ricotta
+- Layer of ⅓ of the mozzarella
+- Layer of remaining sauce
+- Layer of sprinkled Parmesan
+- Layer of remaining mozzarella
+- Cover the lasagna with foil and bake 30 minutes covered, then 25 minutes uncovered (or until bubbly and lightly browned). Cool for at least 20 minutes before serving.
+tips:
+- Uncooked lasagnas freeze very well so the extra work can be done well in advance. You can make several batches at a time and freeze the extras to thaw out and cook later.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARicotta_Lasagne&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ricotta Lasagne@4605247
+    url: https://en.wikibooks.org/w/index.php?oldid=4605247
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

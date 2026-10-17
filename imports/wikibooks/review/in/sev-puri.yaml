@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 10 flat, crisp puris
+#  - unmapped ingredient: 1 cup fine sev
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: in-sev-puri
+title: Sev Puri
+alternate_names:
+- Crispy Indian Snack with Potato
+summary: Sev Puri.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: cup, qty: 0.5, prep: cubed}
+  - {ingredient: tamarind-paste, unit: tbsp, qty: 3}
+  - {ingredient: cilantro, unit: tbsp, qty: 3}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 0.5}
+  - {ingredient: salt}
+  - {ingredient: red-chili, unit: tsp, qty: 0.5}
+  - {ingredient: onion, unit: cup, qty: 0.5}
+steps:
+- Arrange the puris on a plate, and make a hole in the center of each puri.
+- Fill with a few chopped boiled potato cubes.
+- Add about ¼ tsp of tamarind and green chutneys in each. Sprinkle with cumin powder, salt, red chilli powder.
+- Sprinkle finely chopped onions over top, then generously sprinkle sev all over the puris.
+- Garnish with finely chopped coriander.
+- Serve fresh.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASev_Puri_%28Crispy_Indian_Snack_with_Potato%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sev Puri (Crispy Indian Snack with Potato)@4507448
+    url: https://en.wikibooks.org/w/index.php?oldid=4507448
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

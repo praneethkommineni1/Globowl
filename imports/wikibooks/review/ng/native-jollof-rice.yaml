@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 tins of cooked titus fish
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-native-jollof-rice
+title: Native Jollof Rice
+summary: Native jollof rice is a popular rice dish common among every tribe in Nigeria. It is similar to regular jollof rice, but the native version uses palm oil and other traditional Nigerian ingredients.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: tomato}
+  - {ingredient: onion, qty: 2}
+  - {ingredient: scotch-bonnet}
+  - {ingredient: ground-crayfish, qty: 0.5}
+  - {ingredient: iru}
+  - {ingredient: red-palm-oil}
+  - {ingredient: chicken-stock}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: bouillon-cube, qty: 4}
+  - {ingredient: long-grain-rice, qty: 3}
+  - {ingredient: beef, prep: 'turkey, and/or chicken meat, boiled', optional: true}
+  - {ingredient: scent-leaf, optional: true}
+steps:
+- Blend the tomatoes, onions, peppers, and crayfish into a smooth paste.
+- Pour the paste into a dry pot on the fire. Cook to evaporate the excess liquid.
+- When the water has completely evaporated, add the iru and palm oil. Leave to cook for 10 minutes.
+- Add meat stock or water, and bring to boil. Adjust seasoning with salt and maggi to taste.
+- Wash the rice very well with cold water.
+- Add the rice to the boiling stock, and stir well. Add more liquid if necessary, and allow to cook until the rice is almost tender.
+- When the rice is almost ready, add the cooked fish or meat. Add the scent leaf, if using.
+- Serve the jollof rice hot with plantain (dodo).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANative_Jollof_Rice&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Native Jollof Rice@4513629
+    url: https://en.wikibooks.org/w/index.php?oldid=4513629
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

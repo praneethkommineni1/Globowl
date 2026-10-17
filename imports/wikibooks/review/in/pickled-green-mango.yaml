@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 500 g crystal salt
+#  - unmapped ingredient: 250 g garlic flakes
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-pickled-green-mango
+title: Pickled Green Mango
+alternate_names:
+- Aavakaaya
+summary: Pickled Green Mango.
+origin:
+  country: IN
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: mango, qty: 12}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 2}
+  - {ingredient: dijon-mustard, unit: g, qty: 250}
+  - {ingredient: red-chili, unit: g, qty: 250}
+  - {ingredient: ground-fenugreek, unit: g, qty: 150}
+  - {ingredient: garlic, unit: g, qty: 250}
+  - {ingredient: sesame-oil, unit: kg, qty: 1}
+steps:
+- Soak the raw mangoes in water for 10 minutes and dry them with a clean cloth.
+- Slice each of the mangoes vertically in half in such a way that the hard stone in the inside of the mango is also cut into two parts, with each part firm on the two halves.
+- Remove the seed. Scrape the wafer-thin layer attached to the stone with a spoon.
+- Cut each half of the sliced mango into 4–5 pieces. Each and every piece should contain a portion of the stone, without which the piece will soften too quickly.
+- Clean the cut pieces with dry cloth. Transfer the cleaned pieces to a basin.
+- Sprinkle the turmeric powder on the mango pieces and mix with dry hands.
+- Pour half of the oil on the pieces ,and mix well with your hands. It is essential to mix the pieces with oil first before adding any other ingredients. This will help the pieces to retain their firm texture.
+- Mix the powdered salt with the mango.
+- Mix the mustard powder, red chili powder, garlic paste, and fenugreek powder together in another container. Add half of the remaining oil to the powders and mix to a consistency that can be held in a fist.
+- Mix the paste well with the mango pieces. Add the remaining oil to the pieces and mix well.
+- Cover the basin firmly with a lid. If the basin used for mixing doesn’t have a proper lid, transfer the contents to a porcelain jar or a clean plastic container with a firm lid. Tie a neat thick cloth over it and store it in a cool dark shelf.
+- Open the lid after 3–4 days, mix well, and taste it. The quantity of salt and chili powder needed in the pickle differ depending on several factors. Add salt and/or chili powder if necessary but be cautious in the quantity. The added quantities should be small to only tweak the taste and not alter completely. Those who want to add garlic flakes can do so now.
+- Transfer the contents to glass, plastic, or porcelain jars.
+tips:
+- Keep ready a reasonably big ceramic jar or a plastic container with a proper lid. Clean and dry thoroughly.
+- Choose the mangoes carefully. They have to be fully mature, yet raw, green, fibrous and very sour to the taste. A mango that is very fibrous will withstand pickling until the next season without going soft.
+- Mangoes must be cleaned and dried properly before cutting. The pieces need to be cleaned with a dry cloth but never washed.
+- Let one person do all the mixing. That person should wash his or her hands and keep them dry. No damp object should be allowed to touch the ingredients at any stage.
+- On the first day of mixing, the oil may not be visible; however, on the third day, one should notice oil floating above the surface of the pickle. If oil has not covered the pickle completely and is not floating on top, add a little bit more oil and mix well just before transferring to smaller containers.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APickled_Green_Mango_%28Aavakaaya%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pickled Green Mango (Aavakaaya)@4615148
+    url: https://en.wikibooks.org/w/index.php?oldid=4615148
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

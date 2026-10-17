@@ -1,0 +1,37 @@
+id: jo-galayet-bandora
+title: Galayet Bandora
+native_name: {text: قلاية بندورة, lang: ar, romanized: qallāyet banadūra}
+alternate_names: [Jordanian tomato stew]
+summary: Ripe tomatoes fried down in olive oil with garlic and hot green chili until jammy — a quick, rustic dish scooped up with bread.
+origin:
+  country: JO
+  also_claimed_by: [PS]
+course: breakfast
+dish_types: [stew, one-pan]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 20}
+difficulty: 1
+techniques: [sauteing, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: olive-oil, qty: 4, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "chopped", optional: true}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "sliced"}
+      - {ingredient: green-chili, qty: [1, 2], prep: "sliced"}
+      - {ingredient: tomato, qty: 1, unit: kg, prep: "chopped"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+      - {ingredient: pine-nuts, qty: 2, unit: tbsp, prep: "toasted", optional: true}
+steps:
+  - Fry the onion (if using), garlic and chili in the olive oil until fragrant.
+  - text: Add the tomatoes, salt and pepper and cook over medium-high heat, stirring, until the tomatoes collapse into a thick, glossy stew.
+    timer_min: 15
+  - Top with pine nuts and a drizzle of olive oil.
+serving: From the pan, with warm flatbread and olives.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

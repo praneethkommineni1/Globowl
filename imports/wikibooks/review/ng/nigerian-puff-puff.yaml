@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-nigerian-puff-puff
+title: Nigerian Puff Puff
+summary: Puff puff is a Nigerian snack of fried dough, similar to doughnuts and Ghanaian bofrot. It's frequently served as an appetizer or a snack, and it is often found at Nigerian celebrations. It is soft, spongy, fluffy, and simple to make.
+origin:
+  country: NG
+course: snack
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 400}
+  - {ingredient: sugar, unit: g, qty: 30}
+  - {ingredient: nutmeg, unit: tsp, qty: 1}
+  - {ingredient: yeast, unit: tsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: milk, unit: cup, qty: 1.25}
+steps:
+- Sift the flour into a bowl, and mix in the nutmeg, yeast, sugar, and salt.
+- If using fresh or active-dry yeast, dissolve it in a small amount of warm water with a pinch of sugar. Let it get foamy before mixing it into the flour. If using instant yeast, mix it directly into the flour mixture.
+- Using your hands, mix small amounts of lukewarm water into the flour until all of the ingredients are thoroughly combined. The mixture should be smooth but not runny—i.e. it should not pour.
+- Cover the bowl with thin plastic film, and allow it to rise for about 45 minutes until doubled in volume.
+- Add oil to a deep pot to a depth of at least 3 inches.
+- Heat the oil over medium heat. Put a small piece of dough in the oil to see if it's hot enough—if the dough sizzles and rises to the surface of the oil, it is ready to fry the puff puff. If the oil isn't hot enough, the batter will sink to the bottom and remain there.
+- Roll the dough into small balls, and place into the oil. Make sure to fry in batches so that you don't overcrowd the oil and lower the temperature.
+- Flip the balls after the underside has gotten golden brown so that the topside may be fried as well. It can be difficult to control the balls when they keep flipping by themselves; in this case, just keep swirling until the puff puff is evenly golden.
+- Remove the puff puff from the oil when golden brown, and set them in a sieve lined with paper towels to drain away any excess oil.
+tips:
+- Puff puff can be made with pizza flour already containing yeast—in this case, do not add additional yeast to the dough. To prevent a yeasty aftertaste you can combine two parts pizza flour with one part cornmeal.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Puff_Puff&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Puff Puff@4522345
+    url: https://en.wikibooks.org/w/index.php?oldid=4522345
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

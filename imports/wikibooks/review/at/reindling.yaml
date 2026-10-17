@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 cup finely-ground nuts
+#  - no time in recipe summary
+id: at-reindling
+title: Reindling
+alternate_names:
+- Austrian Yeasted Easter Cake
+summary: Reindling is a traditional pastry from Carinthia, southern Austria. Originally, it was served on festive days like weddings, baptisms or religious holidays (especially on Easter).
+origin:
+  country: AT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1 reindling
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- name: Dough
+  items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2.25}
+  - {ingredient: yeast, unit: tsp, qty: 5}
+  - {ingredient: milk, unit: cup, qty: 1.5}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: sugar, unit: cup, qty: [0.333, 0.5]}
+  - {ingredient: salt, qty: 1, note: generous}
+  - {ingredient: butter, unit: tbsp, qty: 8}
+- name: Filling
+  items:
+  - {ingredient: butter, unit: tbsp, qty: 5}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: ground-cinnamon, unit: tbsp, qty: 1}
+  - {ingredient: raisins, unit: cup, qty: 0.5}
+- name: Topping
+  items:
+  - {ingredient: butter, unit: tbsp, qty: 4, prep: 'chopped, for topping'}
+steps:
+- Mix the flour with the yeast, and add a dash of the milk and sugar so that you get a smooth mixture.
+- Cover it with a piece of cloth and let it rest in a warm place for half an hour.
+- Add the rest of the milk and the sugar, the eggs, the butter, and salt. Work it into a smooth dough.
+- Let it rest for 10 minutes. Roll out the dough so that it is roughly as thick as your thumb.
+- For the filling, melt the butter and spread it on the dough.
+- Mix the sugar with the cinnamon, and sprinkle this over the dough. Then add the raisins and nuts.
+- Roll the dough up tightly and put it into a greased cake pan. Again, let it rest for 20 minutes.
+- Finally, sprinkle little bits of butter on the cake. Then put it in the oven to bake for 50–60 minutes at about 180°C.
+- When it is done, take it out of the oven and let it cool. Only when it is completely cold turn the cake out of the pan—otherwise it will break.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AReindling_%28Austrian_Yeasted_Easter_Cake%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Reindling (Austrian Yeasted Easter Cake)@4587220
+    url: https://en.wikibooks.org/w/index.php?oldid=4587220
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

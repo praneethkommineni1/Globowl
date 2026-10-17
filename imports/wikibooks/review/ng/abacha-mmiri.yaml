@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/4 cup palm kernel
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-abacha-mmiri
+title: Abacha Mmiri
+alternate_names:
+- Soaked Cassava Flakes
+summary: Abacha mmiri (literally "water cassava flakes"), also known as bobozee, is a Nigerian snack prepared from cassava.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: cassava, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: [1, 2], note: to taste}
+  - {ingredient: coconut, unit: cup, qty: 0.5}
+  - {ingredient: roasted-peanuts, unit: cup, qty: 0.25}
+steps:
+- Peel the cassava, then cut into slices 1 cm thick. Rinse well.
+- Boil the cassava in a large pot of water until cooked through.
+- Soak the cooked cassava in fresh water overnight. The next day, drain away any remaining water and rinse the cassava well.
+- Season the cassava to taste with the salt.
+- Serve the cassava with the coconut, palm kernel, and roasted groundnut.
+tips:
+- The cassava is rinsed after soaking to remove the sour taste that develops.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAbacha_Mmiri_%28Soaked_Cassava_Flakes%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Abacha Mmiri (Soaked Cassava Flakes)@4525808
+    url: https://en.wikibooks.org/w/index.php?oldid=4525808
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

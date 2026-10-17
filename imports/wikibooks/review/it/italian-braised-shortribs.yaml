@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-italian-braised-shortribs
+title: Italian Braised Shortribs
+summary: 'Short-ribs cooked in red wine with classic Italian herbs makes them flavorful, moist, and fork tender. Also see: Braised Shortribs.'
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 1361}
+  - {ingredient: red-wine, qty: 1, prep: preferably Chianti}
+  - {ingredient: tomato-paste, unit: cup, qty: 0.5}
+  - {ingredient: chicken-stock, qty: 0.5}
+  - {ingredient: olive-oil, unit: tbsp, qty: 1}
+  - {ingredient: thyme, qty: 10}
+  - {ingredient: rosemary, qty: 4}
+  - {ingredient: dried-oregano, unit: tbsp, qty: 3}
+  - {ingredient: basil, qty: 18}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Whisk together tomato paste and wine. Set aside.
+- Season shortribs with salt and black pepper.
+- Heat a 6-quart cast-iron or enamel Dutch oven over medium high heat. Pour in oil and add shortribs, one at a time, until browned on all sides. Remove and keep warm.
+- Add wine mixture to Dutch oven and whisk continuously to dissolve browned bits. Add remaining ingredients and place in a cold oven. Set oven to 250°F and cook for 5 ½ hours.
+- Remove shortribs and strain sauce back into Dutch oven. Discard herb pieces and shred short ribs. Discard bones.
+- Add shortribs back into sauce and heat over low heat just until heated through. Serve warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AItalian_Braised_Shortribs&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Italian Braised Shortribs@4514568
+    url: https://en.wikibooks.org/w/index.php?oldid=4514568
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

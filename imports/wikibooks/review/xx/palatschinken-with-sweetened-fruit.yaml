@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 cups chopped fruit or whole berries of your choice
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-palatschinken-with-sweetened-fruit
+title: Palatschinken with Sweetened Fruit
+summary: Palatschinken with Sweetened Fruit.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- name: Crepes
+  items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 0.5}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: butter, unit: tbsp, qty: 3}
+  - {ingredient: milk, unit: cup, qty: 0.667}
+  - {ingredient: salt, unit: pinch, qty: 1}
+- name: Filling
+  items:
+  - {ingredient: vanilla-extract, unit: tsp, qty: 2}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 1}
+  - {ingredient: orange-juice, unit: tbsp, qty: 4}
+- name: Garnish
+  items:
+  - {ingredient: powdered-sugar}
+  - {ingredient: ground-cinnamon}
+steps:
+- Mix all ingredients together in a large mixing bowl to make a batter.
+- Strain the batter to get rid of any lumps, then chill in the refrigerator for 2 hours.
+- Brush a 12 inch (30 cm) frying pan with butter. Ladle batter onto pan as if making crepes, leaving space for spreading.
+- Cook for 1 minute on each side.
+- Combine orange juice, lemon juice, sugar, and vanilla extract in medium saucepan. Bring to boil and add fruit.
+- Put 2 tbsp fruit mixture on each pancake, and fold over to enclose the filling.
+- Sprinkle with powdered sugar and cinnamon.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APalatschinken_with_Sweetened_Fruit&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Palatschinken with Sweetened Fruit@4522344
+    url: https://en.wikibooks.org/w/index.php?oldid=4522344
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

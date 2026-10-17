@@ -1,0 +1,41 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Corn chips or tortilla chips
+id: us-nuked-nachos
+title: Nuked Nachos
+summary: Nuked nachos are an easy-to-prepare, quick microwaved side dish, great with a quick-made lunch or such.
+origin:
+  country: US
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 2
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: cheese}
+steps:
+- Spread the chips on a microwave-safe plate, and scatter the cheese on top.
+- Top the chips with any other desired microwave-safe toppings.
+- Microwave for 30 seconds, or until the cheese has melted. If the cheese melts onto the plate, just rip it off the plate and put it on the nachos.
+- Eat while hot!
+tips:
+- Other chips that are good as nachos will work too.
+- Try topping with cooked ground meat and/or peppers.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANuked_Nachos&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nuked Nachos@4511427
+    url: https://en.wikibooks.org/w/index.php?oldid=4511427
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

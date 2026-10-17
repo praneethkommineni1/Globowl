@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 packets phyllo dough
+#  - unmapped ingredient: 1/2 cup soda water
+#  - no time in recipe summary
+#  - course unknown from categories
+id: bg-egg-cheese-and-phyllo-casserole
+title: Egg, Cheese and Phyllo Casserole
+alternate_names:
+- Banitsa
+summary: This is a popular dish from Bulgaria and can be eaten on its own or as part of a main meal. This recipe will serve 2–3 people and can be prepared in less than 1 hour. It is adapted from Ralitsa Roesing's kitchen.
+origin:
+  country: BG
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–3
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: cheddar, unit: g, qty: 200, prep: cut in small pieces}
+  - {ingredient: feta, unit: g, qty: 500, prep: crumbled}
+  - {ingredient: egg, qty: 7}
+  - {ingredient: butter, unit: g, qty: 100}
+  - {ingredient: yogurt, unit: cup, qty: 1}
+steps:
+- Mix 6 of the eggs, the grated butter, both cheeses, and the yogurt.
+- In a buttered pan, lay a layer of the phyllo dough, spread a layer of the mixture, and continue alternating layers so that the phyllo and the mixture are finished about the same time.
+- Finish with a layer of phyllo dough on top.
+- Cut the banitsa into serving pieces.
+- Mix the last egg with the soda water, and stir well.
+- Pour the egg mixture over the banitsa, and make sure there are no pieces of the phyllo dough left dry.
+- Bake in a preheated oven at 200 °C (390 °F) for 40 minutes, or until golden. Enjoy!
+tips:
+- For spinach banitsa, substitute 3 of the eggs with ½ kilogram spinach, washed, cut and lightly fried (no more than 5 minutes).
+- For green onion banitsa, substitute 3 of the eggs with 5–10 stalks of green onion (about 1 cup chopped), lightly fried (no more than 10 minutes).
+- Instead of piling the phyllo leaves on top of each other, you can just spread the mixture on the phyllo, top with a little soda and roll two of the leaves up around the mixture. The rolled phyllo is then aligned in a spiral in the pan. Sprinkle with some oil before baking.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgg%2C_Cheese_and_Phyllo_Casserole_%28Banitsa%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egg, Cheese and Phyllo Casserole (Banitsa)@4605238
+    url: https://en.wikibooks.org/w/index.php?oldid=4605238
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

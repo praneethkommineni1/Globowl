@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no ingredient lines parsed
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+#  - duplicate id it-focaccia from another Wikibooks page
+id: it-focaccia
+title: Focaccia
+summary: 'Focaccia is a type of a somewhat flat yeast bread from Italy. The basic bread is often topped with any of the following: herbs, olive oil, cheese, meats, and vegetables, and can be seen as a precursor to pizza. Focaccia is commonly used for sandwiches.'
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1 loaf
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Combine 1 cup flour, sugar, salt, and yeast. Mix well.
+- Heat water and vegetable oil until warm, and add to yeast mixture along with the egg.
+- Mix with an electric mixer at low speed until moistened. Beat for 2 additional minutes.
+- Stir in 1 ¾ cup flour (half of remaining total) while beating, until dough pulls away from side of bowl.
+- Knead in 1 ¾ cup flour on floured surface. Cover dough with a bowl, and let sit for 5 minutes.
+- Place dough on a greased baking sheet. Roll out to 12-inch circle. Cover with greased plastic wrap and a cloth towel. Place in a warm place for 30 minutes.
+- Uncover dough, and poke holes in it with a spoon handle at 1 inch intervals. Drizzle olive oil on dough, and sprinkle with crushed rosemary.
+- Bake at 400 °F (205 °C) for 17 to 27 minutes, until just golden. Remove from baking sheet, and cool on rack.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFocaccia_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Focaccia II@4658423
+    url: https://en.wikibooks.org/w/index.php?oldid=4658423
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

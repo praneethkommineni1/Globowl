@@ -1,0 +1,43 @@
+id: zw-dovi
+title: Dovi
+native_name: {text: Dovi, lang: sn}
+alternate_names: [Zimbabwean peanut butter stew]
+summary: Chicken simmered with tomato, onion and peppers in a rich peanut butter sauce, served with sadza.
+origin:
+  country: ZW
+course: main
+dish_types: [stew]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 50}
+difficulty: 2
+techniques: [sauteing, stewing]
+ingredient_groups:
+  - items:
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: chicken-thigh, qty: 1, unit: kg, prep: "bone-in pieces"}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "minced"}
+      - {ingredient: green-pepper, qty: 1, prep: "chopped"}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: water, qty: 500, unit: ml}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: peanut-butter, qty: 120, unit: g, note: "smooth and unsweetened"}
+      - {ingredient: kale, qty: 200, unit: g, prep: "shredded", optional: true}
+  - name: Sadza
+    items:
+      - {ingredient: maize-flour, qty: 300, unit: g, note: "cooked as for ugali (see the Kenyan recipe)"}
+steps:
+  - Brown the chicken in the oil. Add the onion, garlic and pepper and cook until soft.
+  - text: Add the tomatoes, water and salt, cover and simmer until the chicken is nearly cooked.
+    timer_min: 25
+  - Mix the peanut butter with a ladle of hot liquid until smooth, then stir it into the pot.
+  - text: Simmer gently, stirring often so it doesn't catch, until the sauce is thick. Add the greens for the last 5 minutes.
+    timer_min: 15
+  - Serve with sadza.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

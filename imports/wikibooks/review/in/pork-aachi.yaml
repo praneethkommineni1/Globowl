@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 4 teaspoons meat masala powder
+#  - course unknown from categories
+id: in-pork-aachi
+title: Pork Aachi
+summary: A pork recipe loosely based on kerala cooking.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 40
+difficulty: 3
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: coconut, unit: tbsp, qty: 4}
+  - {ingredient: pork, unit: g, qty: 500, prep: diced}
+  - {ingredient: onion, qty: 0.5, prep: finely sliced}
+  - {ingredient: red-chili, qty: 3}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 1}
+  - {ingredient: ginger, unit: tsp, qty: 1}
+  - {ingredient: garlic, unit: tsp, qty: 1}
+  - {ingredient: pork, qty: 1}
+  - {ingredient: potato, unit: tbsp, qty: 3}
+steps:
+- Brown the meat in half the coconut oil. Add half the meat masala powder and fry for a minute.
+- Add the vinegar and fry for a minute more. Add 1 cup water and cook till the meat is about half done.
+- Sauté the sliced onions and chopped chillies with the remaining coconut oil in a wok or a suitable vessel over medium heat.
+- Add the ginger and garlic after about 4 minutes. Keep stir frying for about 3 more minutes.
+- Mix in the remaining meat masala powder, and cook until the onions are translucent.
+- Add the beef stock cube and ¼ glass of water, keeping on low heat for around 4 minutes. Keep adding a bit of water as necessary to make sure that the paste mix does not stick to the bottom of the vessel/wok.
+- Add the half-cooked meat and mix well. Keep on medium heat until the meat is cooked thoroughly.
+- Add ¼ cup of water and the potato flakes/powder and mixture. You can vary the amount of the water/potato mix to desired thickness of the dish.
+- Remove from fire and hold for 3–5 minutes before serving.
+tips:
+- Keep adding water as necessary to prevent the mix from sticking to the bottom of the pan. The longer the onions are sautéed in oil in medium flame, the softer they become and the tastier they will be.
+- If you can not get the mashed potato mix, thoroughly boil potatoes in water and use a spoon or a ladle to mash them.
+- If you are using beef stock, there is no need to add more salt. Otherwise add salt to your taste.
+- The chillies used in the above preparation are mild green chillies around 5 inches long.
+- The onions used should be the size of a tennis ball.
+- You can also microwave the pork on full power (850W) for about 15 minutes, stirring at regular intervals of 5 minutes instead of cooking it.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APork_Aachi&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pork Aachi@4513654
+    url: https://en.wikibooks.org/w/index.php?oldid=4513654
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

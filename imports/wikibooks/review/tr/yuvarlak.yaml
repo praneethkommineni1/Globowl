@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: tr-yuvarlak
+title: Yuvarlak
+alternate_names:
+- Greek Meatballs
+summary: Yuvarlak, yuvarlak köfte, or γιουβαρλάκια (youvarlakia), meaning round in Turkish, are a kind of large meatball in sauce. The meat mixture includes rice or bulgur. They are cooked in moist heat and the juices thickened with avgolemono. They are found in Turkish and Greek cuisine.
+origin:
+  country: TR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: kg, qty: 1}
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: egg, qty: 2, note: large}
+  - {ingredient: onion, qty: 1, prep: diced, note: large}
+  - {ingredient: salt, unit: tbsp, qty: 2}
+  - {ingredient: butter, unit: tbsp, qty: 4}
+  - {ingredient: lemon, qty: 1, prep: juiced}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: all-purpose-flour}
+steps:
+- Combine the ground beef with 1 egg, 1 cup of the rice, salt, and pepper.
+- Mix thoroughly and form into meatballs the size of a ping-pong ball (4 cm).
+- Cover each ball in a layer of white flour.
+- In a large pot, sauté the diced onion in the butter/margarine or oil. Add 2 litres of water to the pot and bring to the boil.
+- Drop each meatball in the boiling water.
+- After 30 minutes, add the second cup of rice directly to the soup. Boil for 15 more minutes and get the pot off the heat.
+- In a large bowl, beat one egg white (keep the yolk separate) and a little water into a foam (careful, grease or fat prevents foam from forming, and you end up with an unappetizing runny egg-white). To stabilize the foam add the juice of one lemon. Continue to whisk as you add the egg yolk. This is called "avgolemono" (egg and lemon) and is used to thicken soups (instead of heavy cream).
+- Slowly pour 1 cup of the hot soup into the avgolemono while continuously whisking (so that the egg has a chance to warm up to the soup temperature, preventing it from becoming an omelette) and then pour the mixture into the pot, mixing it with the soup.
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AYuvarlak_%28Greek_Meatballs%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Yuvarlak (Greek Meatballs)@4510297
+    url: https://en.wikibooks.org/w/index.php?oldid=4510297
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

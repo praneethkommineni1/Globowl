@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-camotes-enmielados
+title: Camotes Enmielados
+alternate_names:
+- Mexican Sweet Yams
+summary: Camotes enmielados, also known as camotes con pilocilo, or camotes enmielados al horno, camotes con piloncilo al horno, is a baked, or stovetop, dessert-style Mexican yam/sweet potato dish. It is traditionally a home-cooked food, not typical restaurant fare.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: yam, qty: 1, prep: optionally peeled, note: large}
+  - {ingredient: sugar, qty: 1, note: large}
+  - {ingredient: cinnamon-stick, qty: 4}
+  - {ingredient: water, qty: 0.5}
+steps:
+- Place whole or thickly-sliced yams in a large baking dish.
+- Place piloncilo cone atop the yams, then add water and cinnamon.
+- Cover dish, and bake for about 60 minutes, basting the yams with the now sweetened cooking liquid as needed.
+tips:
+- Any dark, unrefined sugar may be reasonably substituted for the piloncilo, including turbinado sugar, brown sugar, brown sugar with added molasses, muscovado, and even jaggery.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACamotes_Enmielados_%28Mexican_Sweet_Yams%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Camotes Enmielados (Mexican Sweet Yams)@4541097
+    url: https://en.wikibooks.org/w/index.php?oldid=4541097
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

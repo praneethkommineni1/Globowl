@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: il-israeli-salad
+title: Israeli Salad
+summary: Israeli Salad.
+origin:
+  country: IL
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: cucumber, qty: 1, prep: chopped in 1 cm cubes}
+  - {ingredient: tomato, qty: 1, prep: chopped in 1 cm cubes}
+  - {ingredient: onion, qty: 1, prep: chopped in 1 cm cubes}
+  - {ingredient: parsley, unit: cup, qty: 0.25}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: lemon, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: thyme, unit: tsp, qty: 1}
+steps:
+- Mix cucumber, tomato, onion, and parsley.
+- Mix oil, lemon juice, salt, pepper, and za'atar to make dressing.
+- Pour dressing over vegetables. Correct seasoning to taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIsraeli_Salad&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Israeli Salad@4518147
+    url: https://en.wikibooks.org/w/index.php?oldid=4518147
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

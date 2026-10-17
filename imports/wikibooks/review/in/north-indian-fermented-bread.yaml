@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-north-indian-fermented-bread
+title: North Indian Fermented Bread
+alternate_names:
+- Batooru
+summary: Batooru is a North Indian fermented bread similar to bhatoora, but is mostly popular in traditional Himachali cuisine. This bread requires overnight preparation.
+origin:
+  country: IN
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- dough-making
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: ghee, unit: tsp, qty: 2}
+  - {ingredient: water}
+steps:
+- Mix wheat flour and salt together. Add ghee and mix well so that there are no lumps and the ghee is evenly absorbed.
+- Add water in small amounts and knead well until the dough becomes soft and pliable.
+- When the dough is ready, form the dough into balls and roll them flat. Keep it slightly thick, unlike a bhatoora which is rolled to be very thin. Place the rolled batooru on a clean cloth and cover them with another moist cloth. Leave them covered overnight.
+- The next morning, take the batooru out from cloth and shallow fry them like a parantha.
+- Serve them hot, especially with with sabzi (spicy cooked vegetables), lassi, and mango pickles.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANorth_Indian_Fermented_Bread_%28Batooru%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:North Indian Fermented Bread (Batooru)@4426434
+    url: https://en.wikibooks.org/w/index.php?oldid=4426434
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

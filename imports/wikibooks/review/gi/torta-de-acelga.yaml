@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Seasoning to taste
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gi-torta-de-acelga
+title: Torta de Acelga
+alternate_names:
+- Chard Pie
+summary: Torta de acelga (chard pie) is believed to be based on a spinach pie eaten in parts of Italy and is also very similar to the Greek 'spanakopita'. A very similar pie is eaten in the Ligurian Region during Easter, called Torta Pascualina.
+origin:
+  country: GI
+course: snack
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: puff-pastry, qty: 1, note: small}
+  - {ingredient: swiss-chard, unit: bunch, qty: 6}
+  - {ingredient: egg, qty: 6}
+  - {ingredient: breadcrumbs}
+  - {ingredient: cheese}
+  - {ingredient: parsley}
+  - {ingredient: garlic, unit: tsp, qty: 2}
+steps:
+- Remove the stems of the acelga (these stems will become useful for another recipe called Potaje de acelga).
+- Wash the leaves very well to remove any grit or soil. Boil the acelga leaves, drain really well, and chop them. Fry them for a few minutes in hot olive oil then set aside.
+- Roll out the pastry and lay on an oven-proof pie dish leaving sufficient pastry to close the pie later.
+- Beat the eggs and add all the ingredients to make a nice filling.
+- Add to the acelga and mix all together.
+- Fill the pie dish with this “relleno” or filling and close the pie with the pastry.
+- Bake in the oven at 150°C (300°F) for about 30 minutes or until the pie is nice and golden.
+tips:
+- You can boil the acelga the night before to save time.
+- You can make a pastry by mixing one glass each of olive oil and water then adding flour until a soft dough is achieved, but this dough won't be as flaky as puff pastry.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATorta_de_Acelga_%28Chard_Pie%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Torta de Acelga (Chard Pie)@4587232
+    url: https://en.wikibooks.org/w/index.php?oldid=4587232
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

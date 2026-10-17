@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 4 boiled potatoes, peeled and roughly cubed
+#  - unmapped ingredient: 2 dried red chiles
+#  - course unknown from categories
+id: xx-chukauni
+title: Chukauni
+alternate_names:
+- Nepalese Potato Salad
+summary: Chukauni is a potato salad dish from Palpa district in Nepal. It is mainly served with roti, steamed rice or batuk.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 20
+difficulty: 1
+equipment:
+- Large bowl
+- Ladle
+- Small pan or wok
+- Bowls to serve
+- Spoons
+ingredient_groups:
+- items:
+  - {ingredient: yogurt, unit: ml, qty: 200}
+  - {ingredient: red-chili, qty: 2, prep: chopped}
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: mustard-oil, unit: tbsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: ground-fenugreek, unit: tsp, qty: 0.5}
+  - {ingredient: red-chili, optional: true}
+steps:
+- Put the boiled potatoes in a bowl.
+- Add chopped chilies and chilies.
+- Pour the yoghurt over the potatoes.
+- Add salt and red chili powder as per your taste.
+- In a small wok or pan, heat some oil with red chilies and fenugreek seed.
+- When the seeds turn black, remove the pan from heat.
+- Add turmeric powder over the oil immediately.
+- Pour the oil over the potatoes and yoghurt mixture.
+- Mix the mixture evenly with a ladle or a spoon.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChukauni_%28Nepalese_Potato_Salad%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chukauni (Nepalese Potato Salad)@4615127
+    url: https://en.wikibooks.org/w/index.php?oldid=4615127
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

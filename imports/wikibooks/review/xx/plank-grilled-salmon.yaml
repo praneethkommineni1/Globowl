@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Lemon pepper
+#  - no time in recipe summary
+id: xx-plank-grilled-salmon
+title: Plank-Grilled Salmon
+summary: Salmon grilled on a cedar plank is a common method for preparing salmon, traditional to the Native Americans of the Pacific Northwest of the United States and British Columbia in Canada.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Cedar wood planks, soaked in water
+- Grill or BBQ pit with the charcoal spread somewhat to the back so the fish can be moved for more or less heat
+techniques:
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: worcestershire-sauce, unit: cup, qty: 0.25}
+  - {ingredient: beer, unit: ml, qty: 177}
+  - {ingredient: garlic-powder}
+  - {ingredient: salmon, unit: g, qty: [151, 227]}
+steps:
+- Preheat the grill or charcoal pit.
+- Combine the Worcestershire sauce, beer, garlic powder, and lemon pepper to make a marinade. Add the salmon, and marinate for 15 minutes.
+- Remove the salmon from the marinade, and place on the plank skin side down. It should not hang over the edge.
+- Place the plank over the grill, and cook while watching carefully. A glass of water can be used to partially douse the fire when it gets too hot. As an alternative, a squirt-bottle or mister filled with water can douse any fire that commences on the plank. Individual planks give flexibility in moving to get all done evenly. Don't turn the fish on the plank; just move the plank(s) around, rotate, etc.
+- Remove the plank to onto a baking pan when the fish is cooked to the desired "doneness", and transfer to plates or a serving platter.
+tips:
+- A microwave oven can be used to cook the salmon to greater degrees of "doneness".
+- The cedar planks should be free of any chemical treatments or coatings. The planks are soaked in water for several hours prior to grilling, to prevent burning. A baking pan of water with the planks weighted down to submerge them works well.
+- The salmon should be trimmed to fit on the planks of cedar. Whole fillets can be placed on longer planks, while shorter ones can be used for salmon steaks.
+- The salmon should be as fresh as possible. Wild salmon has the most flavor, but farm-raised salmon is also acceptable and is less expensive.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APlank-Grilled_Salmon&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Plank-Grilled Salmon@4508856
+    url: https://en.wikibooks.org/w/index.php?oldid=4508856
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

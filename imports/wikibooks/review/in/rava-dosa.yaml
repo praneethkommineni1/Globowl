@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-rava-dosa
+title: Rava Dosa
+alternate_names:
+- Indian Semolina Pancake
+summary: Rava Dosa.
+origin:
+  country: IN
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: rice-flour, unit: cup, qty: 1}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: semolina, unit: cup, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: red-chili, qty: 3}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: buttermilk, unit: cup, qty: 0.5}
+  - {ingredient: water}
+steps:
+- Mix all the ingredients together to a watery batter.
+- Heat a griddle or pan, and grease it with oil.
+- Sprinkle the batter on the pan with your hand .
+- Cook it on medium temperature for 3–4 minutes, or until it is completely cooked.
+- Serve it with tomato or peanut chutney.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARava_Dosa_%28Indian_Semolina_Pancake%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rava Dosa (Indian Semolina Pancake)@4519160
+    url: https://en.wikibooks.org/w/index.php?oldid=4519160
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

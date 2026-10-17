@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 500 g fresh trimmed rhubarb
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+#  - duplicate id xx-rhubarb-crumble from another Wikibooks page
+id: xx-rhubarb-crumble
+title: Rhubarb Crumble
+summary: Rhubarb Crumble.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: caster-sugar, unit: g, qty: 75}
+  - {ingredient: water, unit: tbsp, qty: 2}
+  - {ingredient: self-rising-flour, unit: g, qty: 150}
+  - {ingredient: butter, unit: g, qty: 75}
+  - {ingredient: brown-sugar, unit: g, qty: 100}
+steps:
+- Preheat oven to 190°C (375°F / gas mark 5).
+- Cut the rhubarb into pieces and stew for a short time with the caster sugar and water until tender.
+- While the rhubarb is stewing, combine the flour and butter in a bowl until it resembles fine breadcrumbs.
+- Stir in the brown sugar.
+- Place the cooked rhubarb in a deep pie dish (1 L / 2 pt).
+- Spoon over the crumble topping and spread out evenly
+- Bake crumble for about 25 mins until the crumble is golden brown.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARhubarb_Crumble_III&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rhubarb Crumble III@4587503
+    url: https://en.wikibooks.org/w/index.php?oldid=4587503
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

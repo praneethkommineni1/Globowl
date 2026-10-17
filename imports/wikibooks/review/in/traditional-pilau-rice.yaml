@@ -1,0 +1,77 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (IN, PK): confirm the country of origin
+id: in-traditional-pilau-rice
+title: Traditional Pilau Rice
+summary: Known as pilau, pullao, pulao and pilaf, this rice dish will take between up to an hour to prepare if made the traditional way.
+origin:
+  country: IN
+  also_claimed_by:
+  - PK
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: ml, qty: 425}
+  - {ingredient: onion, qty: 1, prep: peeled and finely chopped, note: medium}
+  - {ingredient: garlic, unit: clove, qty: [1, 2]}
+  - {ingredient: garam-masala}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1.5}
+  - {ingredient: beef, unit: g, qty: 250}
+  - {ingredient: chickpeas-canned, unit: g, qty: 400}
+  - {ingredient: tomato, qty: 1, prep: 'diced, or 1 dozen cherry tomatoes, cut into eighths', note: large}
+  - {ingredient: green-peas, optional: true}
+  - {ingredient: salt}
+  - {ingredient: vegetable-oil}
+  - {ingredient: water, unit: ml, qty: 575}
+steps:
+- Wash the rice in several changes of water and leave it to soak while you prepare the other ingredients, changing the water whenever you have a spare moment.
+- Chop the onion, and heat the oil or ghee in the saucepan. Add the onion to the pan and fry over a very low heat until caramelized, stirring frequently to prevent them burning. The onions must be browned, not translucent, to get the authentic flavour. This will take at least 15 minutes. If you want to save time, you can do as many Pakistani cooks do and use the ready-fried onions that can be bought in large bags in Asian supermarkets (or in small, expensive pots sold as "crispy salad onions" in English supermarkets). If using ready-fried onions, skip this step and add them when you add the water.
+- While the onions are browning, prepare the other ingredients (not forgetting to stir the onions occasionally). Bash the garlic in a mortar and pestle with some salt, chop the tomatoes and drain the chickpeas.
+- When the onions look like they are beginning to brown, add the garlic and any powdered or seed spices. Do not add them earlier than this or they will burn in the long time the onions take to caramelize.
+- When the onions and garlic are both done, add the tomatoes and stir for a minute or so. This will help to deglaze the pan and seems to stop the onions cooking any more. Turn up the heat and add the mince. If using meat mince, cook until completely browned (5–10 minutes). If using quorn mince, you just need to cook for a couple of minutes until heated through.
+- While the mince is cooking, drain the washed rice in a sieve and put a kettle of water on to boil. When the mince is cooked, add the drained rice to the pan, along with a little extra oil or ghee if necessary. Stir the rice gently until it is coated in the oil, taking care not to break up the grains.
+- Add 575 ml hot water, along with the drained chickpeas and any larger spices like bay leaves, cardamom pods or cloves. Add the salt and bring to the boil.
+- Once boiled, put on a tight-fitting lid and turn the heat to very low. Cook for 25 minutes and do not remove the lid.
+- After 25 minutes, remove the lid, add the peas, cover with a clean teatowel (optional) and replace the lid. Turn off the heat and leave to rest for 5 minutes; the peas will cook in the residual heat and the teatowel will absorb excess moisture/condensation.
+- Turn out onto a serving platter (separate large lumps by pressing with the back of a spoon) or plate up. Add any garnishes, and serve with yoghurt.
+tips:
+- Basmati rice will produce the best flavour, but other long-grain rice can be used.
+- A cast iron pan with a thick bottom will reduce the likelihood of the rice burning at the bottom. The saucepan you use should have a minimum of 20–22 cm diameter.
+- Whether to serve this dish as a meal in itself or a side dish depends on the ingredients used. If you have used ingredients containing protein, like mince or chickpeas, it can be served as a meal in itself with perhaps just a side salad. If you omit most of the ingredients, it can serve as a plainer foil to a spicy dish
+- Chopped chillies may be added and the frying stage, but if you are going to be eating the rice with curry you may prefer it plain.
+- Dried chickpeas are cheaper than tinned chickpeas but much less convenient—they must be soaked overnight and then cooked for a long time separately to the rice.
+- Other ingredients, such as cubed potatoes (1–2 cm to a side), diced carrots or courgettes (zucchini) cut into matchsticks can be added when the water is added. Ingredients like diced mushrooms or cubes of aubergine (eggplant) (1–2 cm to a side) can be added at the frying stage.
+- Sliced reconstituted dried mushrooms are a non-traditional but tasty variant that can be added either during the frying stage or when the water is added. Use 6–8 dried mushrooms, remembering that their size will increase greatly when soaked. Large bags of shiitake-like dried mushrooms can be bought cheaply in Chinese supermarkets, and the soaking liquid from the mushrooms can be substituted for some of the water to give the rice a really rich, tasty flavour without using any meat (just make sure to either strain the liquid through cheesecloth or leave the last centimetre or so of liquid in the jug to avoid getting any grit that has been washed off the mushrooms in your rice).
+- The rice can be garnished with toasted flaked almonds when it is turned out onto a plate.
+- Please note that the amounts of rice needed is given by volume, not weight.
+- The rice should be well washed. Skipping the washing step will cause the rice to gum together because of the starch.
+- Be careful to use the right proportions of water. If you use too much, the rice will be soggy, and if you use too little it may be hard in the middle. The rice should have absorbed all the water by the end of the cooking time; if you have to drain water off, you have used too much. If you are using a lot of wet ingredients, you may need to reduce the quantity of water used very slightly.
+- Different rice varieties require different amounts of water, so if you wanted to make this recipe using brown rice instead of white basmati rice, you would need to change the amount of water.
+- If you are not using mince, you need less spices, and if you are using mince, you need more spices.
+- Quorn mince can be cooked from frozen but meat mince must be defrosted.
+- The spice mixture can be bought pre-mixed from Asian supermarkets or you can make your own using cumin, coriander powder, powdered ginger, turmeric, nutmeg, cardamom, fennel seeds, pepper, cloves, bay leaves etc. At least a teaspoon of cumin and coriander is essential, but you can pick and choose which of the others you want to include, or use just a pinch or two of each of them.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATraditional_Pilau_Rice&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Traditional Pilau Rice@4525562
+    url: https://en.wikibooks.org/w/index.php?oldid=4525562
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

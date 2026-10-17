@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 habanero chile, seeded and minced
+#  - unmapped ingredient: 1/4 cup tequila
+#  - unmapped ingredient: Large mesquite chunks
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-mexican-ribs
+title: Mexican Ribs
+summary: These ribs use a Southwestern style rub, feature a sauce with a lot of prominent Mexican flavors, and are cooked over mesquite instead of hickory, which isn't very easy to find in the South, however mesquite is.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: pork, qty: 1}
+  - {ingredient: brown-sugar, unit: cup, qty: 0.25}
+  - {ingredient: scotch-bonnet, unit: tbsp, qty: 1}
+  - {ingredient: red-chili, unit: cup, qty: 0.25}
+  - {ingredient: dried-oregano, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+  - {ingredient: chipotle-in-adobo, unit: tbsp, qty: 1}
+  - {ingredient: barbecue-sauce, unit: cup, qty: 1.5}
+steps:
+- Combine sugar, chile powders, oregano, salt, and pepper. Remove membrane from ribs and rub both sides with mixture. Refrigerate for at least 1 hour to marinate.
+- Combine tequila, habanero, and sauce. Bring to a boil in a large saucepan over medium high heat. Set aside.
+- Place enough mesquite chunks in a smoker to keep the temperature at 200°F. Place ribs in smoker and cook 7 hours, basting every hour with sauce mixture.
+- Brush meat side liberally with sauce mixture. Place sauce side-down on a high grill and cook until well-browned. Brush other side with sauce and repeat 1 more time.
+- Slice ribs into 1-rib portions and serve warm with remaining sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMexican_Ribs&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mexican Ribs@4504632
+    url: https://en.wikibooks.org/w/index.php?oldid=4504632
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

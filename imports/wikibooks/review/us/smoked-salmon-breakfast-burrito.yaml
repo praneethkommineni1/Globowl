@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no time in recipe summary
+id: us-smoked-salmon-breakfast-burrito
+title: Smoked Salmon Breakfast Burrito
+summary: Smoked Salmon Breakfast Burrito.
+origin:
+  country: US
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: tortilla, qty: 5}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: egg-white, qty: 6}
+  - {ingredient: egg-yolk, qty: 2}
+  - {ingredient: milk, unit: cup, qty: 0.25}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: cream-cheese, unit: cup, qty: 0.25}
+steps:
+- In a small bowl, whisk together eggs, milk, lemon juice, and pepper.
+- In sauté pan over medium heat, add oil to coat the pan, add egg mixture to scramble.
+- Toast the tortillas in a cast iron skillet over medium heat. Spread cream spread in a circle with 2 inches from the edge of tortilla. Add eggs.
+- Wrap and enjoy.
+tips:
+- Whole-wheat tortillas add more fiber/complex carbs!
+- Spring mix lettuce can be added to liven it up a bit.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASmoked_Salmon_Breakfast_Burrito&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Smoked Salmon Breakfast Burrito@4523410
+    url: https://en.wikibooks.org/w/index.php?oldid=4523410
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

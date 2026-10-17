@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup fresh Ashwe leaves
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-ashwe-soup
+title: Ashwe Soup
+summary: Ashwe soup is a Nigerian soup prepared from ashwe (roselle) leaves. It is a quick-to-prepare Tiv soup.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: red-chili, qty: 3}
+  - {ingredient: tomato, qty: 6, note: medium}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: red-palm-oil, unit: tbsp, qty: 1}
+  - {ingredient: beef, unit: kg, qty: 0.3}
+  - {ingredient: salt, unit: tsp, qty: 1}
+steps:
+- Blend pepper, tomatoes and onions together.
+- Pluck and chop the ashwe leaves.
+- Heat a small amount of palm oil in a pot. Add the blended mixture along with the ashwe leaves and beef.
+- Add salt to taste and stir slowly.
+- Cook for 5-6 minutes, then serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAshwe_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ashwe Soup@4655179
+    url: https://en.wikibooks.org/w/index.php?oldid=4655179
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

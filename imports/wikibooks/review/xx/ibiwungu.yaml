@@ -1,0 +1,72 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Banana leaves, for wrapping
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-ibiwungu
+title: Ibiwungu
+alternate_names:
+- Rwandan Banana Beer
+summary: Ibiwungu is a traditional Rwandan alcoholic beverage made from fermented bananas. It is a popular and beloved drink in Rwanda, often consumed during celebrations and social gatherings.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large pot
+- Wooden spoon
+- Cheesecloth or fine mesh strainer
+- Fermentation vessel or jar
+- Bottles or containers for storing
+- Clean cloth or plastic wrap
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: banana, qty: 10, prep: peeled and mashed}
+  - {ingredient: water, unit: l, qty: 2}
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: yeast, unit: tsp, qty: 1}
+  - {ingredient: lemon, qty: 1, prep: juiced}
+steps:
+- In a large pot, bring the water to a boil.
+- Add the mashed bananas to the boiling water and simmer for about 15 minutes, stirring occasionally.
+- Remove the pot from the heat and let the banana mixture cool to room temperature.
+- Dissolve the sugar in a small amount of warm water and add it to the cooled banana mixture, stirring well to combine.
+- Sprinkle the dry yeast over the mixture and let it sit for about 10 minutes to activate.
+- Add the lemon juice to the mixture and stir again.
+- Strain the mixture through a cheesecloth or fine mesh strainer into a fermentation vessel or jar, discarding any solids.
+- Cover the vessel or jar with a clean cloth or plastic wrap, securing it with a rubber band or string to keep out insects or dust.
+- Place the vessel or jar in a warm and dark location, ideally around 25–30°C (77–86°F), for fermentation to occur. Allow it to ferment for 2–3 days or until it reaches the desired level of sweetness and tanginess.
+- Once fermentation is complete, transfer the ibiwungu into clean bottles or containers for storage.
+- Seal the bottles or containers tightly and refrigerate for a few hours before serving. This will help to enhance the flavors and carbonation.
+- Ibiwungu can be served chilled or at room temperature. It is traditionally enjoyed in small cups or glasses.
+tips:
+- You can add spices like cinnamon, cloves, or cardamom to the banana mixture before fermentation to add additional flavor.
+- Some variations of ibiwungu include the addition of sorghum or millet to the fermentation process.
+- It is important to use ripe bananas for this recipe, as they provide the necessary sweetness and flavor for fermentation.
+- Ibiwungu is a naturally carbonated beverage due to the fermentation process. Take caution when opening the bottles as they may be under pressure.
+- Enjoy ibiwungu responsibly and in moderation.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIbiwungu_%28Rwandan_Banana_Beer%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ibiwungu (Rwandan Banana Beer)@4510140
+    url: https://en.wikibooks.org/w/index.php?oldid=4510140
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup anise seeds
+#  - no servings in recipe summary
+id: dz-habet-hlawa
+title: Habet Hlawa
+alternate_names:
+- Algerian Anise Beverage
+summary: Beverages | Cuisine of AlgeriaAnise syrup (, habet hlawa) is an Algerian drink.
+origin:
+  country: DZ
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 40
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: water, qty: 12}
+  - {ingredient: sugar}
+steps:
+- Pour water into a saucepan, add anise seeds, and bring to a boil over medium heat.
+- Turn off the heat, cover, and leave to infuse for 30 minutes.
+- Filter out the seeds.
+- Add the sugar as desired, and bring to boil again over medium heat. Simmer until the syrup drips into a thin stream.
+- Filter a second time.
+- Let it cool and bottle. Serve with very cold sparkling or still water according to preference.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHabet_Hlawa_%28Algerian_Anise_Beverage%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Habet Hlawa (Algerian Anise Beverage)@4508222
+    url: https://en.wikibooks.org/w/index.php?oldid=4508222
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

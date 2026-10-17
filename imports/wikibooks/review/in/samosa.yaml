@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: Spices
+#  - no servings in recipe summary
+id: in-samosa
+title: Samosa
+summary: __NOtOC__
+origin:
+  country: IN
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- dough-making
+- sauteing
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: kg, qty: 0.25}
+  - {ingredient: green-peas}
+  - {ingredient: onion, qty: 2, prep: sliced}
+  - {ingredient: red-chili, qty: 2, prep: chopped}
+  - {ingredient: mint, qty: 2}
+  - {ingredient: cilantro, unit: sprig, qty: 2}
+  - {ingredient: all-purpose-flour}
+  - {ingredient: water}
+  - {ingredient: olive-oil}
+  - {ingredient: salt}
+  - {ingredient: vegetable-oil, prep: for deep frying}
+steps:
+- Steam the potatoes and peas separately. Cut the potatoes into small pieces.
+- Heat a dash of olive oil in a frying pan. Add onions and chilis, and sauté until the onions turn transparent.
+- Add the potatoes, peas, and spices. Sauté them while stirring until they are completely cooked.
+- Add mint leaves, and coriander leaves.
+- Mix the flour with enough water to make a stiff dough. Knead in 1 tablespoon of oil and a pinch of table salt. Knead it well.
+- Roll dough into even-sized balls (about 3.5 cm in diameter) and roll them out into circles using a rolling pin.
+- Cut each circle in half to make semi-circles.
+- Place a spoonful of the vegetable mixture onto the dough semi-circles, and fold on three sides to make each one into a pyramid shape.
+- Deep fry the samosas until golden and crispy.
+tips:
+- Multiple variations are possible for filling. Lamb and other meats work well with samosa, as do peppers, rice, paneer and mince (keema).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASamosa&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Samosa@4506436
+    url: https://en.wikibooks.org/w/index.php?oldid=4506436
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 jalapeño pepper, seeded and finely chopped
+#  - unmapped ingredient: 4-6 pieces of leftover injera, torn into bite-sized pieces
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: et-fit-fit
+title: Fit-fit
+alternate_names:
+- Ethiopian Bread Salad
+summary: Fit-fit, also known as Ethiopian bread salad, is a delightful and flavorful dish made with torn pieces of injera (Ethiopian flatbread) tossed in a zesty dressing. This salad is a popular breakfast or brunch option in Ethiopian cuisine and is perfect for using up leftover injera.
+origin:
+  country: ET
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Large skillet
+- Wooden spoon or spatula
+- Cutting board
+- Chef's knife
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: niter-kibbeh, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: tomato, qty: 2, prep: diced}
+  - {ingredient: berbere, unit: tsp, qty: 1, note: to taste}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: cilantro, prep: 'chopped, for garnish'}
+steps:
+- Heat the niter kibbeh or regular butter in a large skillet or frying pan over medium heat.
+- Add the finely chopped onion to the pan and sauté until translucent and slightly browned.
+- Stir in the diced tomatoes and jalapeño pepper (if using) and cook for a few minutes until the tomatoes start to soften.
+- Sprinkle the berbere spice blend over the mixture and mix well to coat the onions and tomatoes. Adjust the amount of berbere according to your preferred level of spiciness.
+- Add the torn pieces of injera to the pan and gently toss them with the onion and tomato mixture.
+- Sauté the mixture for a few minutes, stirring occasionally, until the injera is heated through and slightly crispy.
+- Season with salt to taste. Keep in mind that injera can be slightly sour, so adjust the salt accordingly.
+- Remove from heat and transfer to a serving dish. Garnish with freshly chopped cilantro or parsley.
+- Serve warm as a delicious and satisfying breakfast or brunch option.
+tips:
+- Injera is made from teff flour, which is gluten-free and high in dietary fiber.
+- Fit-fit can be customized to your preference by adding other ingredients such as diced cucumbers, bell peppers, or cooked lentils.
+- This recipe is versatile and can be adjusted based on the amount of leftover injera you have. Feel free to increase or decrease the quantities of ingredients accordingly.
+- To give your fit-fit a tangy twist, you can squeeze fresh lemon or lime juice over the salad just before serving.
+- Some versions of fit-fit include the addition of scrambled eggs or crumbled feta cheese for extra flavor and protein.
+- You can experiment with different spices or spice blends to create your own unique twist on this traditional Ethiopian dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFit-fit_%28Ethiopian_Bread_Salad%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fit-fit (Ethiopian Bread Salad)@4518136
+    url: https://en.wikibooks.org/w/index.php?oldid=4518136
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

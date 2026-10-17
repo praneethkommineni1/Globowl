@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 500 g buckwheat flour
+#  - unmapped ingredient: Fillings as desired
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-buckwheat-crepes
+title: Buckwheat Crêpes
+summary: Buckwheat crêpes are a type of savory crêpe from Upper Brittany made with buckwheat flour. They are locally known as "galettes de blé noir" or "galettes de sarrasin" and are traditionally eaten on Fridays.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 12
+  amount: 12 pancakes
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: l, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: butter}
+steps:
+- Whisk together the flour and salt in a mixing bowl.
+- Whisk in the egg and half the water to make a batter.
+- Cover the batter with a cloth, and let it rest for 1 hour at room temperature.
+- Gradually whisk in the remaining water as needed to get the correct consistency. It needs to be thin enough to flow and coat the pan, but not so watery that the pancake will not bind during cooking. You may not need to add all the water.
+- Prepare your desired fillings in advance. Anything that requires more than 1 minute to cook (e.g. onions, mushrooms, meat, etc.) should be pre-cooked.
+- Heat a large flat skillet (about 30 cm in diameter) over medium heat.
+- When the pan is hot, grease it with a dab of butter (start with about a tablespoon), and spread so it melts and coats the pan. The batter may set quickly, so you may need to adjust the volume of butter used for the first few pancakes.
+- Ladle enough batter into the pan so that you get a large pancake no more than 3 mm thick after spreading it out.
+- Let the pancake cook until it is dry on the top surface and lightly golden on the bottom. Use a spatula to flip it to the other side.
+- If you will not be filling the pancake immediately, cook until golden on the other side, then remove and set aside (see notes). If you will be filling the pancake, arrange the ingredients in the center, leaving several centimeters/inches bare all around the filling. Once cooked on the bottom, fold four edges of the pancake into the center to enclose the filling and make a square. Remove and serve hot.
+- Continue cooking until the rest of the batter is used up.
+tips:
+- There is a debate on whether you should include egg in the batter. It seems to act as a stabilizer depending on the quality of the flour used.
+- If you fully fold the galette (see image), you can flip it one more time after filling without the risk of the filling escaping. This gives you a little extra time to heat or cook the filling if needed.
+- If you choose to pre-cook or buy the pancakes before filling, you should warm them in a pan before filling. To do so, simply butter a skillet over medium heat, place the pancake flat in the pan, and fill/fold as described above. Make sure everything gets well-heated.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABuckwheat_Cr%C3%AApes&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Buckwheat Crêpes@4535127
+    url: https://en.wikibooks.org/w/index.php?oldid=4535127
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

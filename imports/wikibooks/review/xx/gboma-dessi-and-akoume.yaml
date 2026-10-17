@@ -1,0 +1,74 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1/4 cup potato starch
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-gboma-dessi-and-akoume
+title: Gboma Dessi and Akoume
+alternate_names:
+- Togolese Spinach Stew with Corn Swallow
+summary: Gboma dessi is also known as "sauce feuille" and is a staple food eaten among the West Africans, specifically in Togo. It can be cooked with meat or chicken.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- name: Gboma dessi
+  items:
+  - {ingredient: red-palm-oil, unit: tbsp, qty: 5}
+  - {ingredient: onion, qty: 3, prep: thinly sliced, note: medium}
+  - {ingredient: garlic, qty: 3, prep: finely minced, note: medium}
+  - {ingredient: ground-ginger, unit: tbsp, qty: 2, optional: true}
+  - {ingredient: beef, unit: g, qty: 1361, prep: cut into large cubes}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, qty: 2, prep: neatly chopped}
+  - {ingredient: bouillon-cube, qty: 3}
+  - {ingredient: whole-cloves}
+  - {ingredient: spinach, unit: g, qty: 454}
+  - {ingredient: tomato-paste, unit: can, qty: 1}
+- name: Akoume
+  items:
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: cornmeal, unit: cup, qty: 1}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1.5}
+steps:
+- Put a pressure cooker on the fire and pour some oil into it. Add and sauté some of the sliced onions, minced garlic, and ginger powder for 2 minutes.
+- Add the meat, hot pepper, 2 bouillon cubes, and salt to taste. Add enough water to slightly cover the meat. Reduce the heat and cook for about 40 minutes or more, depending on the meat and the pressure cooker.
+- While the meat is cooking, wash the spinach leaves and boil in salted water for 15 minutes. Then, drain and cut into thin slices.
+- Remove the meat from the pressure cooker, drain it and put it in a bowl. Keep the broth in the pot.
+- Season the meat with the gbotemi spice blend.
+- Sauté the remaining onions and garlic cloves in a saucepan with the remaining palm oil or vegetable oil.
+- Add the tomato paste, and cook, stirring regularly for at least 10 minutes. Season with the remaining bouillon cube and hot pepper, then stir in the reserved broth. Boil over medium heat for 25 minutes.
+- Add spinach then the meat. Simmer for at least 15 minutes, then remove from the heat.
+- Pour 2 cups of water in a saucepan. Add the corn flour and mix with a wooden spoon.
+- When the water boils, add the all purpose flour and stir vigorously.
+- Dilute the starch potato in 1 cup of water and pour into the pan.
+- Stir vigorously for 3 minutes, then cover the pot and cook over medium heat for 5 minutes.
+- Once the dough is ready, you can shape it to any form of your desire.
+- Serve the gboma dessi on top of this akoume in a banana leaf, or serve the gboma dessi on the side of the akoume in a big plate.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGboma_Dessi_and_Akoume_%28Togolese_Spinach_Stew_with_Corn_Swallow%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gboma Dessi and Akoume (Togolese Spinach Stew with Corn Swallow)@4513609
+    url: https://en.wikibooks.org/w/index.php?oldid=4513609
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

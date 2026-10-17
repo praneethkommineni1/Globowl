@@ -1,0 +1,47 @@
+id: ly-shorba-libiya
+title: Shorba Libiya
+native_name: {text: شربة ليبية, lang: ar, romanized: shurba lībiyya}
+alternate_names: [Libyan lamb soup]
+summary: A spiced tomato soup with lamb, chickpeas and tiny orzo pasta, finished with dried mint — the dish that breaks the fast in Ramadan.
+origin:
+  country: LY
+course: soup
+dish_types: [soup]
+occasions: [Ramadan iftar]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 15, cook_min: 75}
+difficulty: 2
+techniques: [sauteing, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: olive-oil, qty: 3, unit: tbsp}
+      - {ingredient: lamb-shoulder, qty: 400, unit: g, prep: "cut into 1.5 cm cubes"}
+      - {ingredient: onion, qty: 1, prep: "finely chopped"}
+      - {ingredient: tomato-paste, qty: 3, unit: tbsp}
+      - {ingredient: ground-turmeric, qty: 0.5, unit: tsp}
+      - {ingredient: paprika, qty: 1, unit: tsp}
+      - {ingredient: cayenne, qty: 0.5, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+      - {ingredient: water, qty: 1.5, unit: l}
+      - {ingredient: chickpeas-canned, qty: 1, unit: can, note: "400 g can, drained"}
+      - {ingredient: orzo, qty: 100, unit: g}
+      - {ingredient: dried-mint, qty: 1, unit: tbsp}
+      - {ingredient: parsley, qty: 1, unit: handful, prep: "chopped"}
+      - {ingredient: salt, note: "to taste"}
+      - {ingredient: lemon, qty: 1, prep: "cut into wedges"}
+steps:
+  - Brown the lamb in the oil, then add the onion and cook until soft.
+  - Stir in the tomato paste and spices and fry for 2 minutes.
+  - text: Add the water and simmer, covered, until the lamb is tender.
+    timer_min: 50
+  - text: Add the chickpeas and orzo and cook until the pasta is soft, stirring so it doesn't stick.
+    timer_min: 12
+  - Rub the dried mint between your palms into the soup, add the parsley and season.
+serving: With lemon wedges and bread, before the main iftar meal.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

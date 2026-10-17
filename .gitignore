@@ -1,3 +1,6 @@
 __pycache__/
 .pytest_cache/
 *.pyc
+imports/wikibooks/cache/
+imports/*.log
+imports/wikidata/

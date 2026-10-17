@@ -1,0 +1,42 @@
+id: mw-chambo
+title: Chambo with Nsima
+native_name: {text: Chambo, lang: ny}
+summary: Whole tilapia from Lake Malawi, fried crisp and served with a fresh tomato and onion relish and soft nsima.
+origin:
+  country: MW
+course: main
+dish_types: [fish]
+authenticity: home-style
+yield: {servings: 2}
+time: {prep_min: 15, cook_min: 30, inactive_min: 15}
+difficulty: 2
+techniques: [marinating, pan-frying, boiling]
+ingredient_groups:
+  - name: Fish
+    items:
+      - {ingredient: tilapia, qty: 2, note: "whole, scaled and gutted (about 400 g each)"}
+      - {ingredient: lemon-juice, qty: 2, unit: tbsp}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: vegetable-oil, qty: 120, unit: ml, note: "for frying"}
+  - name: Tomato relish
+    items:
+      - {ingredient: vegetable-oil, qty: 1, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "sliced"}
+      - {ingredient: tomato, qty: 3, prep: "chopped"}
+      - {ingredient: green-chili, qty: 1, prep: "chopped", optional: true}
+      - {ingredient: salt, qty: 1, unit: pinch}
+  - name: Nsima
+    items:
+      - {ingredient: maize-flour, qty: 250, unit: g, note: "cooked as for ugali (see the Kenyan recipe)"}
+steps:
+  - text: Slash the fish on both sides and rub with lemon juice and salt.
+    timer_min: 15
+  - Pat dry and fry in hot oil, about 6 minutes per side, until crisp and cooked through.
+  - For the relish, fry the onion until soft, add the tomatoes, chili and salt, and simmer for 8 minutes.
+  - Serve the fish with the relish and nsima.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

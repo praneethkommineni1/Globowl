@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - duplicate id in-coconut-chutney from another Wikibooks page
+id: in-coconut-chutney
+title: Coconut Chutney
+alternate_names:
+- South Indian
+summary: Coconut Chutney is served as a side dish for a lot of Indian snacks and breakfast items. It can be mild to extra hot depending on the individual preference. This recipe is from South India.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- roasting
+ingredient_groups:
+- name: Base
+  items:
+  - {ingredient: chickpeas-canned, unit: tbsp, qty: 1.5}
+  - {ingredient: coconut, unit: cup, qty: 1}
+  - {ingredient: red-chili, qty: [6, 8]}
+  - {ingredient: tamarind-paste, unit: tsp, qty: 0.5}
+  - {ingredient: cilantro, unit: tbsp, qty: 1}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+- name: Seasoning
+  items:
+  - {ingredient: vegetable-oil, unit: tsp, qty: 0.5}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 0.5}
+  - {ingredient: curry-leaves, qty: [3, 4], prep: chopped}
+  - {ingredient: asafoetida, unit: tsp, qty: 0.25}
+steps:
+- Dry roast the channa dal until browned. Allow it to cool.
+- Grind the roasated dal, coconut, chiles, tamarind paste, cilantro, ginger paste, and salt in a blender with as little water as possible. For best results the final consistency must be somewhere between a coarse and smooth paste.
+- For seasoning, heat the oil in a small ladle. Add the mustard seeds to hot oil, and allow them to crackle. When the crackling starts subsiding, add the asafoetida and the curry leaves, and stir for a few seconds.
+- Add the seasoning mixture to the chutney, and mix well.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACoconut_Chutney_%28South_Indian%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Coconut Chutney (South Indian)@4615206
+    url: https://en.wikibooks.org/w/index.php?oldid=4615206
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

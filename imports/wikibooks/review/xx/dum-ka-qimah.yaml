@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 tbsp ground unripe green papaya
+#  - unmapped ingredient: 1 piece coal
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-dum-ka-qimah
+title: Dum ka Qimah
+alternate_names:
+- Spiced Minced Meat
+summary: Dum ka Qimah.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- dough-making
+- marinating
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: cup, qty: 1}
+  - {ingredient: onion, qty: 3, prep: peeled and thinly sliced, note: medium}
+  - {ingredient: red-chili, qty: [7, 8]}
+  - {ingredient: beef, unit: kg, qty: 1}
+  - {ingredient: ground-ginger, unit: tbsp, qty: 1}
+  - {ingredient: garam-masala, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1.5}
+  - {ingredient: yogurt, unit: tbsp, qty: 2}
+  - {ingredient: cilantro, unit: tbsp, qty: 2}
+  - {ingredient: red-chili, unit: tsp, qty: 1}
+steps:
+- Heat oil in a heavy-based saucepan. Add onions and, stirring frequently, fry for 8–10 minutes to a light golden color.
+- Remove onions from oil and fry the whole chillies just for a moment, otherwise they will burn.
+- Reserve the oil, put the onions and whole chillies in a chopper or food processor, and blend to a smooth paste without using water.
+- Thoroughly wash the minced meat, and squeeze out any water.
+- Put the minced meat in a bowl. Add onion paste, ginger paste, salt, garam masala and yogurt. Knead the mixture really well for a few minutes with your hands until it is smooth.
+- Cover and leave to marinate at room temperature for about 3–4 hours or overnight in the refrigerator. One hour before cooking, mix in the ground papaya.
+- Put the charcoal over medium flame, and wait until the coal is fully red and is covered by white ash.
+- Meanwhile place the meat mixture in a metal pan. Make a well in the center. Put a small piece of aluminum foil in it. Place the burned coal over it and put 2–3 drops of oil on it. Cover it at once with a tight fitting lid and put aside for 20–25 minutes.
+- Take out ½ cup of oil from the reserved oil. Reheat the oil in a heavy based pan. Discard the charcoal, and fry the mince over low heat for 4-5 minutes. Cover with a tight fitting lid and cook for 15–20 minutes or until all excess moisture has been absorbed.
+- Transfer to a serving dish and decorate with onion ring, green chilli, and coriander leaves.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADum_ka_Qimah_%28Spiced_Minced_Meat%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dum ka Qimah (Spiced Minced Meat)@4506992
+    url: https://en.wikibooks.org/w/index.php?oldid=4506992
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

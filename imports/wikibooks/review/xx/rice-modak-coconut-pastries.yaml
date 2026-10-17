@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 cup jaggery
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+#  - duplicate id xx-rice-modak-coconut-pastries from another Wikibooks page
+id: xx-rice-modak-coconut-pastries
+title: Rice Modak (Coconut Pastries)
+summary: Rice Modak (Coconut Pastries).
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- dough-making
+- steaming
+ingredient_groups:
+- name: Filling
+  items:
+  - {ingredient: coconut, unit: cup, qty: 2}
+  - {ingredient: poppy-seeds, unit: tsp, qty: 1}
+  - {ingredient: rice-flour, unit: tsp, qty: 1}
+  - {ingredient: green-cardamom-pods, qty: [3, 4]}
+- name: Dough
+  items:
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: rice-flour, unit: cup, qty: 1}
+  - {ingredient: ghee, unit: tsp, qty: 1}
+  - {ingredient: vegetable-oil, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: pinch, qty: 1}
+steps:
+- Combine the coconut and jaggery. Cook over medium heat, stirring continuously until properly mixed. Do not overcook—the mixture should be brown not black.
+- Stir cardamom, roasted poppy seeds, and rice flour into the mix. Cook for some time.
+- Remove from the heat and allow it to cool.
+- Boil the water. Add ghee, salt, and oil. Immediately add rice flour and stir well.
+- Cover for some time. Remove the lid and stir and cover again for a minute.
+- Remove from heat, and transfer the mixture to a flat plate. Knead it properly while hot to make a soft pliable dough. The dough should be neither too sticky nor too dry.
+- Divide the dough into small balls, or 'C-Rag' as it is more commonly referred to.
+- Roll each ball into a 1.5 inch diameter circle. Hold it in one hand and make a small bowl of it. Put some coconut filling into the dough. Dip thumb and index finger in the oil and make 5–6 small pinches side by side on the edges of the bowl. Bring them together, join to form a peak. It should look like a head of garlic. Prepare all the other modaks like this.
+- Spread a damp cloth onto a flat round steamer basket and arrange all the modaks onto it. Place the basket in a steamer and cover. Steam for about 15 minutes. Use a large saucepan or pressure cooker if you don't have a steamer—do not put the whistle if you use the pressure cooker.
+- Serve warm with the clarified butter.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARice_Modak_%28Coconut_Pastries%29_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rice Modak (Coconut Pastries) II@4587222
+    url: https://en.wikibooks.org/w/index.php?oldid=4587222
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

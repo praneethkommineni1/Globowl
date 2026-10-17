@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+id: fr-boeuf-bourguignon
+title: Boeuf Bourguignon
+summary: Boeuf bourguignon (French for Burgundy beef) is a well known, traditional French stew prepared with beef braised in red wine (originally Burgundy wine) and beef broth, flavored with garlic, onions, carrots, a bouquet garni and garnished with mushrooms.
+origin:
+  country: FR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 180
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: kg, qty: 1}
+  - {ingredient: onion, qty: 3, prep: chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: [1, 2]}
+  - {ingredient: carrot, unit: g, qty: 300}
+  - {ingredient: mushroom, unit: g, qty: 300}
+  - {ingredient: basil, prep: rosemary and thyme tied with string}
+  - {ingredient: red-wine, unit: cup, qty: [2, 4]}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: olive-oil}
+  - {ingredient: all-purpose-flour}
+steps:
+- Cut beef into large, 5 cm chunks. Season with salt, pepper and olive oil.
+- Cook beef a small amount at a time in a dutch oven or large saucepan until it's golden brown on the outside. Remove each portion as it's done and set aside.
+- Add onions and garlic to the same pot and cook till golden brown.
+- Sprinkle with 2 tablespoons of flour. Cook a few minutes longer.
+- Add 1–2 cups of red wine.
+- Bring wine to a boil then simmer for 5 minutes.
+- Add beef, carrots, herbs, and mushrooms.
+- Add another couple cups of red wine and water (enough to cover the meat and vegetables).
+- Cook for 2–3 hours, stirring occasionally. Remove surface scum as required.
+tips:
+- Use leftovers to make meat pies or puff pastries.
+- Add a small amount of dried Trompettes de la mort (Craterellus cornucopioides). For a dish serving 4, 4 trompettes can be used depending on taste. Cut off parts that may contain sand, rinse, cut in small pieces, soak for 5 minutes in warm water and add to the dish after adding the wine. Can be used instead of garlic.
+- Use a low-fat cut of beef and serve with boiled potatoes or steamed rice on the side to lower the fat and calories of this dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABoeuf_Bourguignon&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Boeuf Bourguignon@4610364
+    url: https://en.wikibooks.org/w/index.php?oldid=4610364
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

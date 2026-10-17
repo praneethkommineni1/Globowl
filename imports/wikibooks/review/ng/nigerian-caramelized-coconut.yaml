@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-nigerian-caramelized-coconut
+title: Nigerian Caramelized Coconut
+summary: Nigerian coconut candy is widespread on the streets of Lagos and Benin. It is chewy and yummy, and most travelers look to buy the candy either for themselves or as gift. It can be eaten on its own or as a topping on ice cream.
+origin:
+  country: NG
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: coconut}
+  - {ingredient: powdered-sugar}
+  - {ingredient: water}
+steps:
+- Carefully break open the coconut and reserve its juice.
+- Remove the coconut flesh from the shell, and grate it into small, thin pieces.
+- Combine the coconut juice and sugar in a pot. Stir in the grated coconut.
+- Add just enough water to cover the coconut.
+- Bring to a boil, stirring continuously.
+- Reduce to low heat, and continue stirring until the coconut pieces start browning and caramelizing.
+- Remove from the heat, and allow it to cool off.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Caramelized_Coconut&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Caramelized Coconut@4517488
+    url: https://en.wikibooks.org/w/index.php?oldid=4517488
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

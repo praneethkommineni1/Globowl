@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: mw-zitumbuwa
+title: Zitumbuwa
+alternate_names:
+- Malawian Banana Pancakes
+summary: Zitumbuwa are Malawian banana pancakes that are loved by both kids and adults. These fluffy and flavorful pancakes make for a delicious breakfast or snack option.
+origin:
+  country: MW
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Mixing bowl
+- Whisk or fork
+- Frying pan or griddle
+- Spatula
+ingredient_groups:
+- items:
+  - {ingredient: banana, qty: 2, prep: mashed}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: baking-powder, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: milk, unit: cup, qty: 0.75}
+  - {ingredient: egg, qty: 1, note: large}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+steps:
+- In a mixing bowl, combine the mashed bananas, all-purpose flour, sugar, baking powder, and salt. Mix well.
+- In a separate bowl, whisk together the milk, egg, and vanilla extract.
+- Gradually pour the wet ingredients into the banana-flour mixture, stirring until a smooth batter forms.
+- Heat the vegetable oil in a frying pan or griddle over medium heat.
+- Pour a small amount of the pancake batter onto the hot pan, forming a circle.
+- Cook the pancake for about 2 minutes or until bubbles form on the surface. Then, flip the pancake and cook for an additional 1–2 minutes on the other side until it is golden brown and cooked through.
+- Repeat the process with the remaining batter, adding more oil to the pan as needed to prevent sticking.
+- Serve warm, and enjoy them plain or with your favorite toppings, such as honey, syrup, or fresh fruit.
+tips:
+- For extra banana flavor, you can add a few slices of banana on top of each pancake before flipping.
+- You can use whole wheat flour or a combination of all-purpose and whole wheat flour in this recipe.
+- Zitumbuwa can be enjoyed with a variety of toppings, such as peanut butter or chocolate spread.
+- Zitumbuwa provide a delightful combination of natural sweetness from bananas and a soft, fluffy texture from the pancake batter.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AZitumbuwa_%28Malawian_Banana_Pancakes%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Zitumbuwa (Malawian Banana Pancakes)@4522833
+    url: https://en.wikibooks.org/w/index.php?oldid=4522833
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

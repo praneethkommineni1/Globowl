@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Vegetable
+#  - unmapped ingredient: Sauce
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-nigerian-noodles
+title: Nigerian Noodles
+summary: Nigeria has a variety of packaged noodle brands and numerous ways to prepare them. Brands include Indomie, Golden penny, Minimie, Mimee, Tummy Tummy, etc.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Pot
+- Stove
+- Knife (optional)
+- Spoon
+- Colander or strainer
+techniques:
+- boiling
+ingredient_groups:
+- name: Base
+  items:
+  - {ingredient: noodles}
+  - {ingredient: bouillon-cube}
+  - {ingredient: black-pepper}
+  - {ingredient: water}
+- name: Optional additions
+  items:
+  - {ingredient: egg}
+  - {ingredient: chicken}
+  - {ingredient: beef}
+  - {ingredient: onion}
+  - {ingredient: red-bell-pepper}
+  - {ingredient: tomato}
+  - {ingredient: vegetable-oil}
+steps:
+- Toast the noodles in a dry pan.
+- Add some boiling water, along with seasoning and pepper.
+- Cook, stirring, until the water is fully absorbed and the noodles are tender.
+- Serve with the optional additions.
+- Use a timer to avoid overcooking
+- Don't overcrowd the pot
+- Bring water to a boil in a pot with a dash of oil.
+- Add the noodles, and cook until the noodles are tender.
+- Drain the noodles, and serve with the optional additions.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Noodles&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Noodles@4513638
+    url: https://en.wikibooks.org/w/index.php?oldid=4513638
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

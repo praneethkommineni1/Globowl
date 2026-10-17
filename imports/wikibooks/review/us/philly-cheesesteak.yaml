@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: Hoagie rolls, almost halved
+#  - unmapped ingredient: American cheese slices, torn
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-philly-cheesesteak
+title: Philly Cheesesteak
+summary: Philly Cheesesteak.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 454, prep: pounded flat}
+  - {ingredient: olive-oil}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: onion, qty: 1, prep: julienned, note: small}
+steps:
+- Drizzle filet with olive oil and season with salt and black pepper. Sear in a cast-iron skillet over medium heat for 6 minutes per side. Remove and let rest 7 minutes before slicing into bite-size pieces. Keep warm.
+- Toss onion with a little olive oil and sauté in same pan until lightly browned around edges.
+- To serve, place a big scoop of steak into a hoagie roll. Top with onion and torn cheese. Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APhilly_Cheesesteak&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Philly Cheesesteak@4518271
+    url: https://en.wikibooks.org/w/index.php?oldid=4518271
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,84 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Red pigment powder
+#  - unmapped ingredient: Banana blossom, thinly sliced
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: vn-vietnamese-rice-noodle-and-beef-soup
+title: Vietnamese Rice Noodle and Beef Soup
+alternate_names:
+- Bún bò Huế
+summary: Bún bò Huế is a popular Vietnamese noodle soup that originated in the old imperial capital of Huế.
+origin:
+  country: VN
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- A large stockpot (8–10 L)
+- A large mixing bowl (2.5 L)
+- A small frying pan
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- name: Broth
+  items:
+  - {ingredient: shrimp-paste, unit: tbsp, qty: 4}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: small}
+  - {ingredient: vegetable-oil}
+  - {ingredient: pork, qty: 2, prep: cut into 1 cm pieces}
+  - {ingredient: lemongrass, unit: stalk, qty: 2, prep: cut into 5-inch pieces}
+  - {ingredient: beef, unit: kg, qty: 1, prep: sliced into 2 mm thick pieces and cut about 4 x 4 cm}
+  - {ingredient: fish-sauce}
+  - {ingredient: sugar}
+  - {ingredient: chili-powder}
+- name: Assembly
+  items:
+  - {ingredient: cilantro, unit: bunch, qty: 1, prep: chopped}
+  - {ingredient: parsley, unit: bunch, qty: 1, prep: chopped}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: medium}
+  - {ingredient: noodles, unit: kg, qty: 1}
+- name: Condiments
+  items:
+  - {ingredient: lime, prep: cut into wedges}
+  - {ingredient: red-chili, prep: sliced}
+  - {ingredient: bean-sprouts}
+  - {ingredient: shrimp-paste}
+steps:
+- Add the shrimp paste to a large 2.5 L bowl, and gradually mix in cold water while vigorously stirring the paste. Keep adding water and stirring until you’ve almost reached the rim of the bowl. Don’t let it spill over. Let the paste mixture rest in the bowl for 1.5 hours to allow the mixture to settle.
+- Sauté the small onion in 3 tbsp oil until golden brown.
+- In a stockpot, combine the cooked onion and pig feet with 2 L water. Slowly bring it to the boil over medium heat.
+- Add lemongrass, then slowly and carefully pour in the shrimp paste mixture, making sure to only add the clear liquid and not the silt that has settled at the bottom of the bowl.
+- To the residual shrimp paste, add another litre of water and stir. Again, wait until the mixture has settled before adding it into the stockpot.
+- Simmer the stock for 20 minutes.
+- Add the beef and occasionally skim the broth to ensure you get a nice clear liquid. Cook for another 20 minutes, checking the beef to be sure it’s not overcooked.
+- Add fish sauce and sugar to taste to achieve a nice balance between salty and sweet.
+- While the broth is cooking, heat some oil in a pan and add the red pigment. Cook until the pigment is blended with the oil. Add to the stock. Repeat the process with the chilli powder.
+- Combine chopped parsley and cilantro leaves with the uncooked medium onion.
+- If you are using fresh noodles, simply add boiling water to heat them up. If you’re using dried noodles, soak them in boiling water until they are soft then dip in cold water to stop the cooking process. Do not over cook them or you’ll have mush. Dried noodles have already been cooked.
+- In a large soup bowl, place a handful of noodles, top with a handful of the parsley/cilantro/onion mixture, and ladle on generous amounts of steaming hot broth, ensuring there are several pieces of beef and pork.
+- Serve hot with the condiments. You can add a squeeze of lime and chopped fresh chillies if you like your food extra spicy. It is also common to add a small dollop of shrimp paste to the soup, but those unfamiliar with the taste may not like it.
+tips:
+- Rice noodles about the size of spaghetti No 5. are preferred.
+- Shrimp paste is essential to this dish, and this cannot be considered bún bò huế without it. Different types of shrimp paste can be found all over Vietnam. Some are of better quality than others. Some purists believe that only Huế shrimp paste is acceptable for this dish as it is smoother and of superior quality than other pastes, which can have trace amounts of sand in them. Unfortunately, it can be hard to find outside of Vietnam, so an "inferior" paste may be substituted.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AVietnamese_Rice_Noodle_and_Beef_Soup_%28B%C3%BAn_b%C3%B2_Hu%E1%BA%BF%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Vietnamese Rice Noodle and Beef Soup (Bún bò Huế)@4509883
+    url: https://en.wikibooks.org/w/index.php?oldid=4509883
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 tsp preserved black beans
+#  - unmapped ingredient: 2 tbsp Shaoxing rice wine
+#  - course unknown from categories
+id: cn-taro-fish
+title: Taro Fish
+summary: Taro Fish.
+origin:
+  country: CN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4 persons
+time:
+  total_min: 20
+difficulty: 3
+techniques:
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: taro, qty: 1, note: small}
+  - {ingredient: nori, qty: 2}
+  - {ingredient: ginger, qty: 2}
+  - {ingredient: green-pepper, qty: 1}
+  - {ingredient: scallion, qty: 2}
+  - {ingredient: bouillon-cube, unit: tsp, qty: 1}
+  - {ingredient: vegetable-oil}
+steps:
+- Peel and chop taro into 1-inch chunks. Steam until soft.
+- Meanwhile soak black beans in a little water.
+- Mash taro with the vegetable stock powder.
+- Place 2 sheets of nori on the bench, moistening one to join them together.
+- Place the mashed taro mixture in the centre of the sheets and roll the nori sheets over the top.
+- Cut the nori at one end to resemble fish fins.
+- Slice green pepper, ginger and spring onions into thin strips and stir fry for a few minutes.
+- Add the Shaoxing wine and black beans.
+- Make cuts halfway through the taro fish at about 1 inch intervals and pour the sauce over it.
+- Serve on a platter.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATaro_Fish&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Taro Fish@4525548
+    url: https://en.wikibooks.org/w/index.php?oldid=4525548
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.
