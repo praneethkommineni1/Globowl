@@ -1,0 +1,53 @@
+id: za-bobotie
+title: Bobotie
+summary: Gently curried minced beef with fruit and almonds, baked under a savoury egg custard — a Cape Malay classic.
+origin:
+  country: ZA
+  region: Western Cape
+  community: Cape Malay
+course: main
+dish_types: [bake, minced-meat]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 20, cook_min: 60}
+difficulty: 2
+equipment: [Ovenproof dish, about 20 × 30 cm]
+techniques: [sauteing, baking]
+ingredient_groups:
+  - name: Filling
+    items:
+      - {ingredient: white-bread, qty: 2, unit: slice, prep: "crusts removed"}
+      - {ingredient: milk, qty: 250, unit: ml}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: onion, qty: 2, prep: "chopped"}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "minced"}
+      - {ingredient: curry-powder, qty: 2, unit: tbsp}
+      - {ingredient: ground-turmeric, qty: 1, unit: tsp}
+      - {ingredient: beef-mince, qty: 1, unit: kg}
+      - {ingredient: fruit-chutney, qty: 3, unit: tbsp, note: "or apricot jam"}
+      - {ingredient: raisins, qty: 50, unit: g}
+      - {ingredient: lemon-juice, qty: 2, unit: tbsp}
+      - {ingredient: flaked-almonds, qty: 30, unit: g, optional: true}
+      - {ingredient: salt, qty: 2, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+  - name: Topping
+    items:
+      - {ingredient: egg, qty: 2}
+      - {ingredient: bay-leaf, qty: 4, note: "or lemon leaves"}
+steps:
+  - Heat the oven to 180 °C. Soak the bread in the milk.
+  - Heat the oil in a large pan and fry the onions until soft. Add the garlic, curry powder and turmeric and fry for 1 minute.
+  - Add the mince and cook, breaking it up, until it loses its pink colour.
+  - Squeeze the milk out of the bread (keep the milk) and mash the bread into the mince with the chutney, raisins, lemon juice, almonds, salt and pepper. Taste — it should be gently sweet, sour and spiced.
+  - Press the mixture into the dish.
+  - Whisk the eggs into the reserved milk with a pinch of salt and pour it over the meat. Tuck the bay leaves into the top.
+  - text: Bake until the custard is set and golden.
+    timer_min: 35
+serving: With geelrys (yellow rice with raisins), sliced banana, and blatjang (fruit chutney).
+culture: Bobotie reflects the Cape's history — Southeast Asian spice traditions brought by enslaved and exiled people from the Dutch East Indies, combined with Dutch baking.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

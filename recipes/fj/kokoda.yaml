@@ -1,0 +1,37 @@
+id: fj-kokoda
+title: Kokoda
+summary: Fijian raw fish cured in citrus and dressed in fresh coconut cream with chili, tomato and onion.
+origin:
+  country: FJ
+course: starter
+dish_types: [raw-fish]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 0, inactive_min: 60}
+difficulty: 1
+techniques: [curing]
+ingredient_groups:
+  - items:
+      - {ingredient: white-fish, qty: 500, unit: g, prep: "cut into 1.5 cm cubes", note: "very fresh mahi-mahi (walu) or snapper"}
+      - {ingredient: lime-juice, qty: 150, unit: ml, note: "or lemon juice"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: coconut-cream, qty: 200, unit: ml, note: "freshly squeezed if possible"}
+      - {ingredient: red-onion, qty: 0.5, prep: "finely diced"}
+      - {ingredient: tomato, qty: 1, prep: "deseeded and diced"}
+      - {ingredient: cucumber, qty: 0.5, prep: "diced"}
+      - {ingredient: red-chili, qty: 1, prep: "finely chopped"}
+      - {ingredient: scallion, qty: 2, prep: "sliced"}
+steps:
+  - text: Toss the fish with salt and lime juice. Cover and refrigerate, stirring once, until the fish is opaque all the way through.
+    timer_min: 60
+  - Drain off most of the juice.
+  - Stir in the coconut cream, onion, tomato, cucumber, chili and scallion. Taste for salt and serve cold.
+tips:
+  - Use fish labelled for raw consumption or previously frozen fish.
+serving: In a coconut shell or a halved coconut, with cassava or taro on the side.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

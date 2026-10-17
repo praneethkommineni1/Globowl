@@ -1,0 +1,39 @@
+id: lb-tabbouleh
+title: Tabbouleh
+native_name: {text: تبولة, lang: ar, romanized: tabbūleh}
+summary: A bright, herb-heavy salad of finely chopped parsley and mint with a little bulgur, tomato and plenty of lemon.
+origin:
+  country: LB
+  also_claimed_by: [SY]
+course: salad
+dish_types: [salad, mezze]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 25, cook_min: 0, inactive_min: 10}
+difficulty: 1
+techniques: []
+ingredient_groups:
+  - items:
+      - {ingredient: fine-bulgur, qty: 3, unit: tbsp, alt: [quinoa], note: "fine (#1) bulgur"}
+      - {ingredient: lemon-juice, qty: 4, unit: tbsp}
+      - {ingredient: parsley, qty: 3, unit: bunch, note: "flat-leaf, about 150 g leaves, very finely chopped"}
+      - {ingredient: mint, qty: 1, unit: handful, prep: "leaves finely chopped"}
+      - {ingredient: tomato, qty: 3, prep: "small, finely diced"}
+      - {ingredient: scallion, qty: 3, prep: "finely sliced"}
+      - {ingredient: olive-oil, qty: 4, unit: tbsp}
+      - {ingredient: allspice, qty: 1, unit: pinch, optional: true}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - text: Rinse the bulgur, then soak it in the lemon juice until softened.
+    timer_min: 10
+  - Wash the parsley and dry it completely, then chop it finely with a sharp knife (a food processor bruises it).
+  - Combine everything just before serving and season generously with salt. It should taste green, lemony and sharp.
+tips:
+  - In Lebanon, tabbouleh is mostly parsley — the bulgur is a sprinkle, not a base.
+serving: As part of a mezze spread, scooped up with crisp lettuce or cabbage leaves.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

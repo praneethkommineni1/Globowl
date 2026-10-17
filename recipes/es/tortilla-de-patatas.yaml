@@ -1,0 +1,37 @@
+id: es-tortilla-de-patatas
+title: Spanish Potato Omelette
+native_name: {text: Tortilla de patatas, lang: es}
+alternate_names: [Tortilla española]
+summary: A thick, golden omelette of potatoes and onion slowly poached in olive oil, with a soft, just-set centre.
+origin:
+  country: ES
+course: main
+dish_types: [eggs, tapas]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 35, inactive_min: 10}
+difficulty: 3
+equipment: [24 cm non-stick frying pan, A plate wider than the pan]
+techniques: [pan-frying]
+ingredient_groups:
+  - items:
+      - {ingredient: potato, qty: 600, unit: g, prep: "peeled, quartered and thinly sliced", note: "waxy or all-purpose"}
+      - {ingredient: onion, qty: 1, prep: "thinly sliced", optional: true, note: '"con cebolla" or "sin cebolla" — a national debate'}
+      - {ingredient: olive-oil, qty: 250, unit: ml, note: "most of it is drained off and can be reused"}
+      - {ingredient: egg, qty: 6}
+      - {ingredient: salt, qty: 1, unit: tsp}
+steps:
+  - text: Heat the oil in the pan over medium-low heat. Add the potatoes and onion with a pinch of salt and cook gently, turning now and then, until completely tender but barely coloured.
+    timer_min: 25
+  - Drain the potatoes in a sieve over a bowl (keep the oil).
+  - text: Beat the eggs with the salt in a large bowl. Add the hot potatoes, press them under the egg and leave so the potatoes absorb some of it.
+    timer_min: 10
+  - Heat 2 tablespoons of the oil in the pan over medium heat. Pour in the mixture and shape the sides with a spatula. Cook for 3–4 minutes until the bottom is set.
+  - Put a plate over the pan and turn it over confidently in one movement. Slide the tortilla back in, uncooked side down, and cook 2–3 minutes more. The centre should still be slightly soft.
+serving: Warm or at room temperature, in wedges or cubes as a tapa, or in a baguette as a bocadillo.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

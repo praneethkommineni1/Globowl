@@ -1,0 +1,50 @@
+id: th-pad-kra-pao
+title: Pad Kra Pao
+native_name: {text: ผัดกะเพรา, lang: th, romanized: phat kaphrao}
+alternate_names: [Holy basil stir-fry, Pad krapow gai]
+summary: Minced chicken flash-fried with garlic, chilies and peppery holy basil, served over rice with a crisp-edged fried egg.
+origin:
+  country: TH
+course: main
+dish_types: [stir-fry, street-food]
+authenticity: home-style
+yield: {servings: 2}
+time: {prep_min: 10, cook_min: 10}
+difficulty: 1
+equipment: [Wok]
+techniques: [stir-frying, pan-frying]
+ingredient_groups:
+  - name: Stir-fry
+    items:
+      - {ingredient: garlic, qty: 5, unit: clove}
+      - {ingredient: birds-eye-chili, qty: [3, 6]}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: chicken-mince, qty: 300, unit: g}
+      - {ingredient: oyster-sauce, qty: 1, unit: tbsp}
+      - {ingredient: soy-sauce, qty: 1, unit: tbsp}
+      - {ingredient: dark-soy-sauce, qty: 1, unit: tsp}
+      - {ingredient: fish-sauce, qty: 1, unit: tsp}
+      - {ingredient: sugar, qty: 1, unit: tsp}
+      - {ingredient: water, qty: 2, unit: tbsp}
+      - {ingredient: holy-basil, qty: 2, unit: handful, prep: "leaves picked", alt: [thai-basil]}
+  - name: To serve
+    items:
+      - {ingredient: cooked-jasmine-rice, qty: 400, unit: g}
+      - {ingredient: egg, qty: 2, optional: true}
+      - {ingredient: vegetable-oil, qty: 60, unit: ml, optional: true, note: "for frying the eggs"}
+steps:
+  - Pound the garlic and chilies to a coarse paste in a mortar (or chop finely).
+  - If making fried eggs, fry them first in the hot oil until the whites are puffed and crisp at the edges. Set aside.
+  - Heat 2 tablespoons oil in a wok over high heat. Fry the garlic-chili paste for a few seconds, then add the chicken, breaking it up.
+  - Add the sauces, sugar and water and stir-fry until the chicken is cooked and glossy (about 3 minutes).
+  - Turn off the heat and toss in the basil until just wilted.
+  - Serve over rice, topped with the fried egg.
+tips:
+  - Holy basil (kra pao) is peppery and clove-like; Thai sweet basil is a different but tasty substitute.
+serving: With a little dish of prik nam pla (fish sauce with sliced chilies).
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

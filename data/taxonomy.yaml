@@ -1,0 +1,160 @@
+# Controlled vocabularies. Recipes and ingredients may only use ids defined here;
+# tools/build.py rejects anything else. Add new terms here first, with a label.
+
+# Allergens: the EU's 14 regulated allergens, which also cover the US "big 9".
+allergens:
+  gluten: Cereals containing gluten (wheat, barley, rye, spelt; oats unless certified)
+  crustacean: Crustaceans (shrimp, prawn, crab, lobster)
+  mollusc: Molluscs (squid, octopus, clams, mussels)
+  egg: Eggs
+  fish: Fish
+  peanut: Peanuts
+  tree-nut: Tree nuts (almond, cashew, walnut, pistachio, hazelnut…)
+  soy: Soybeans
+  milk: Milk (including butter, ghee, cheese, yogurt)
+  celery: Celery and celeriac
+  mustard: Mustard
+  sesame: Sesame
+  sulphite: Sulphites above 10 mg/kg (wine, some dried fruit)
+  lupin: Lupin
+
+# Animal-source classes an ingredient can carry. Diets are derived from these.
+animal_sources:
+  meat: Red meat and game (beef, lamb, goat, pork)
+  poultry: Chicken, duck, turkey
+  fish: Fish
+  shellfish: Crustaceans and molluscs
+  dairy: Milk and milk products
+  egg: Eggs
+  honey: Honey and other bee products
+  gelatin: Gelatin and other slaughter by-products
+
+ingredient_categories:
+  vegetable: Vegetables
+  fruit: Fruit
+  herb: Fresh herbs
+  spice: Dried spices and spice blends
+  grain: Grains, flours, pasta, bread
+  legume: Beans, lentils, peas, tofu
+  nut-seed: Nuts and seeds
+  dairy: Dairy
+  egg: Eggs
+  meat: Meat
+  poultry: Poultry
+  seafood: Fish and shellfish
+  fat: Oils and fats
+  condiment: Sauces, pastes, vinegars, condiments
+  sweetener: Sugar, honey, syrups
+  baking: Leaveners and baking ingredients
+  stock: Stocks and broths
+  beverage: Drinks used in cooking (wine, coffee…)
+  water: Water and salt
+  other: Other
+
+# Diets are derived at build time, never hand-tagged. See docs/dietary-tags.md.
+diets:
+  vegan: No animal products at all
+  vegetarian: No meat, poultry, fish, shellfish or gelatin (dairy, eggs and honey allowed)
+  pescatarian: No meat or poultry
+  gluten-free: No gluten-containing ingredients
+  dairy-free: No milk products
+  egg-free: No eggs
+  nut-free: No peanuts or tree nuts
+  pork-free: No pork or pork products
+  alcohol-free: No alcohol as an ingredient
+
+courses:
+  breakfast: Breakfast
+  starter: Starter / small plate
+  soup: Soup
+  salad: Salad
+  main: Main
+  side: Side dish
+  bread: Bread
+  dessert: Dessert
+  snack: Snack / street food
+  condiment: Sauce, condiment or relish
+  drink: Drink
+
+authenticity:
+  traditional: Long-established version as commonly made where it comes from
+  home-style: Everyday household version; may simplify the traditional method
+  regional-variant: A specific regional or community version of a dish known more widely
+  diaspora: As made by the diaspora, adapted to ingredients available abroad
+  fusion: Deliberately combines traditions
+  modern: A contemporary creation by a named cook
+
+techniques:
+  baking: Baking
+  blanching: Blanching
+  boiling: Boiling
+  braising: Braising
+  curing: Curing in acid or salt
+  deep-frying: Deep-frying
+  dough-making: Making a dough
+  dumpling-folding: Filling and folding dumplings
+  fermenting: Fermenting
+  grilling: Grilling
+  marinating: Marinating
+  pan-frying: Pan-frying / shallow-frying
+  pressure-cooking: Pressure-cooking
+  rice-cooking: Cooking rice
+  roasting: Roasting
+  rolling: Rolling and wrapping
+  sauteing: Sautéing
+  simmering: Simmering
+  spice-blooming: Blooming spices in fat (tadka / tempering)
+  steaming: Steaming
+  stewing: Stewing
+  stir-frying: Stir-frying
+  whisking: Whisking / whipping
+
+units:
+  # mass / volume (metric preferred; apps convert for display)
+  g: gram
+  kg: kilogram
+  ml: millilitre
+  l: litre
+  tsp: teaspoon (5 ml)
+  tbsp: tablespoon (15 ml)
+  cup: cup (240 ml)
+  # counts and loose measures
+  piece: piece
+  clove: clove
+  slice: slice
+  leaf: leaf
+  sprig: sprig
+  stalk: stalk
+  bunch: bunch
+  handful: handful
+  pinch: pinch
+  can: can (state size in `note`)
+  cm: centimetre (e.g. ginger)
+
+contributor_roles:
+  recipe-by: Originator of the recipe (a cook, family or community member)
+  written-by: Wrote this version of the text
+  adapted-by: Adapted an existing recipe
+  translated-by: Translated the recipe
+  tested-by: Cooked and verified the recipe
+  culturally-reviewed-by: Reviewed for accuracy by someone from the dish's culture
+  edited-by: Editorial changes
+  photographed-by: Photographs
+
+source_types:
+  traditional: A traditional dish written up fresh by a Globowl contributor
+  family: A family or personal recipe shared by its keeper
+  original: A new creation by the contributor
+  adapted: Adapted from a published recipe (requires adapted_from; method must be rewritten)
+  imported: Imported from an open dataset under its licence (requires dataset)
+
+licenses:
+  CC-BY-4.0: Creative Commons Attribution 4.0
+  CC-BY-SA-4.0: Creative Commons Attribution-ShareAlike 4.0
+  CC0-1.0: Public domain dedication
+  contributor-grant: Contributor grants Globowl a licence per the contributor terms; not reusable by others
+
+review_statuses:
+  draft: Written but not checked by a person
+  reviewed: Checked by an editor for completeness and plausibility
+  tested: Cooked at least once from the written recipe with good results

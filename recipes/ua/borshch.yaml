@@ -1,0 +1,53 @@
+id: ua-borshch
+title: Borshch
+native_name: {text: Борщ, lang: uk, romanized: borshch}
+alternate_names: [Borscht, Ukrainian beet soup]
+summary: A deep-red soup of beetroot, cabbage, potato and beef broth, sharpened with a little acid and served with sour cream and dill.
+origin:
+  country: UA
+course: soup
+dish_types: [soup]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 30, cook_min: 120}
+difficulty: 3
+techniques: [simmering, sauteing]
+ingredient_groups:
+  - name: Broth
+    items:
+      - {ingredient: beef-shank, qty: 500, unit: g, note: "on the bone", alt: [kidney-beans-canned]}
+      - {ingredient: water, qty: 2.5, unit: l}
+      - {ingredient: bay-leaf, qty: 2}
+  - name: Vegetables
+    items:
+      - {ingredient: sunflower-oil, qty: 3, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: carrot, qty: 1, prep: "grated"}
+      - {ingredient: beetroot, qty: 400, unit: g, prep: "peeled and cut into matchsticks"}
+      - {ingredient: tomato-paste, qty: 2, unit: tbsp}
+      - {ingredient: white-vinegar, qty: 1, unit: tbsp, note: "or lemon juice"}
+      - {ingredient: sugar, qty: 1, unit: tsp}
+      - {ingredient: potato, qty: 3, prep: "peeled and cubed"}
+      - {ingredient: white-cabbage, qty: 300, unit: g, prep: "finely shredded"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "crushed"}
+      - {ingredient: salt, note: "to taste"}
+  - name: To serve
+    items:
+      - {ingredient: sour-cream, qty: 200, unit: ml, optional: true}
+      - {ingredient: dill, qty: 1, unit: handful, prep: "chopped"}
+steps:
+  - text: Simmer the beef in the water with the bay leaves, skimming off foam, until the meat is tender.
+    timer_min: 90
+  - Remove the meat, cut it into pieces and return it to the broth. (For a meatless borshch, simply start with water or vegetable stock and add the beans with the cabbage.)
+  - Meanwhile, fry the onion and carrot in the oil until soft. Add the beetroot, tomato paste, vinegar and sugar with a splash of broth, and braise until tender (15 minutes). The acid keeps the beetroot red.
+  - text: Add the potatoes to the simmering broth and cook for 10 minutes, then add the cabbage and cook 5 minutes more.
+    timer_min: 15
+  - Stir in the beetroot mixture and garlic, season, and bring just to a simmer. Turn off the heat and let it stand covered for 15 minutes.
+serving: With a spoonful of sour cream, dill, and pampushky (garlic bread rolls) or rye bread.
+culture: The culture of Ukrainian borshch cooking was inscribed on UNESCO's List of Intangible Cultural Heritage in Need of Urgent Safeguarding in 2022.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

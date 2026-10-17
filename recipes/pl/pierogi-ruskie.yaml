@@ -1,0 +1,53 @@
+id: pl-pierogi-ruskie
+title: Pierogi Ruskie
+native_name: {text: Pierogi ruskie, lang: pl}
+alternate_names: [Potato and cheese pierogi]
+summary: Half-moon dumplings filled with potato, tangy farmer's cheese and fried onion, boiled and topped with more onions in butter.
+origin:
+  country: PL
+  also_claimed_by: [UA]
+course: main
+dish_types: [dumpling]
+occasions: [Christmas Eve (Wigilia)]
+authenticity: traditional
+yield: {servings: 6, amount: about 40 pierogi}
+time: {prep_min: 60, cook_min: 30, inactive_min: 30}
+difficulty: 4
+equipment: [Rolling pin, 7 cm round cutter or glass]
+techniques: [dough-making, dumpling-folding, boiling, pan-frying]
+ingredient_groups:
+  - name: Dough
+    items:
+      - {ingredient: all-purpose-flour, qty: 500, unit: g}
+      - {ingredient: water, qty: 250, unit: ml, note: "warm"}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: salt, qty: 1, unit: tsp}
+  - name: Filling
+    items:
+      - {ingredient: potato, qty: 500, unit: g, prep: "peeled", note: "floury"}
+      - {ingredient: twarog, qty: 250, unit: g, note: "Polish farmer's cheese"}
+      - {ingredient: onion, qty: 1, prep: "finely chopped"}
+      - {ingredient: butter, qty: 1, unit: tbsp}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: black-pepper, qty: 1, unit: tsp, note: "pierogi ruskie should be peppery"}
+  - name: Topping
+    items:
+      - {ingredient: butter, qty: 3, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: sour-cream, qty: 200, unit: ml, optional: true}
+steps:
+  - Mix the dough ingredients and knead for 5–10 minutes until smooth and elastic. Cover and rest for 30 minutes.
+  - Boil the potatoes until soft, drain and mash. Fry the onion in butter until golden. Mix the potato, cheese, onion, salt and pepper and let it cool.
+  - Roll the dough thinly (about 2 mm) and cut out rounds. Place a teaspoon of filling in the middle, fold over and pinch the edges tightly to seal, crimping if you like.
+  - Cook the pierogi in batches in a large pot of salted, gently boiling water. When they float, cook 2 minutes more and lift out.
+  - Fry the chopped onion in butter until golden and pour over the pierogi. Serve with sour cream.
+tips:
+  - Leftover boiled pierogi are excellent pan-fried in butter the next day.
+  - Freeze uncooked pierogi on a tray, then bag them; cook from frozen.
+culture: '"Ruskie" refers to Red Ruthenia, the historical region around Lviv, not to Russia.'
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

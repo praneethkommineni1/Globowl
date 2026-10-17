@@ -1,0 +1,46 @@
+id: nz-pavlova
+title: Pavlova
+summary: A meringue with a crisp shell and soft marshmallow centre, piled with whipped cream and fresh fruit.
+origin:
+  country: NZ
+  also_claimed_by: [AU]
+course: dessert
+dish_types: [meringue]
+occasions: [Christmas, Summer celebrations]
+authenticity: traditional
+yield: {servings: 8}
+time: {prep_min: 20, cook_min: 75, inactive_min: 120}
+difficulty: 3
+equipment: [Stand or electric mixer]
+techniques: [whisking, baking]
+ingredient_groups:
+  - name: Meringue
+    items:
+      - {ingredient: egg-white, qty: 4, note: "at room temperature"}
+      - {ingredient: caster-sugar, qty: 220, unit: g}
+      - {ingredient: cornstarch, qty: 2, unit: tsp}
+      - {ingredient: white-vinegar, qty: 1, unit: tsp}
+      - {ingredient: vanilla-extract, qty: 1, unit: tsp, alt: [vanilla-bean]}
+  - name: Topping
+    items:
+      - {ingredient: heavy-cream, qty: 300, unit: ml}
+      - {ingredient: kiwifruit, qty: 3, prep: "peeled and sliced"}
+      - {ingredient: passion-fruit, qty: 2}
+      - {ingredient: strawberries, qty: 200, unit: g, optional: true}
+steps:
+  - Heat the oven to 120 °C. Draw a 20 cm circle on baking paper and flip it over on a tray.
+  - Whisk the egg whites in a very clean bowl to soft peaks. Add the sugar a spoonful at a time, whisking until the meringue is thick, glossy and the sugar has dissolved (rub a little between your fingers — it shouldn't feel gritty).
+  - Fold in the cornstarch, vinegar and vanilla.
+  - Spread the meringue within the circle, building up the sides slightly.
+  - text: Bake until the outside is crisp and dry.
+    timer_min: 75
+  - text: Turn off the oven, prop the door ajar and let the pavlova cool completely inside. This stops it cracking too much.
+    timer_min: 120
+  - Just before serving, whip the cream to soft peaks, spread it over the top and pile on the fruit.
+culture: Named after the Russian ballerina Anna Pavlova, who toured both countries in the 1920s. Australia and New Zealand have argued over who invented it ever since.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -1,0 +1,47 @@
+id: cn-mapo-tofu
+title: Mapo Tofu
+native_name: {text: 麻婆豆腐, lang: zh-Hans, romanized: mápó dòufu}
+summary: Soft tofu in a glossy, numbing-hot sauce of fermented broad-bean chili paste, minced beef and Sichuan pepper.
+origin:
+  country: CN
+  region: Sichuan (Chengdu)
+course: main
+dish_types: [tofu, stir-fry]
+authenticity: traditional
+yield: {servings: 3}
+time: {prep_min: 15, cook_min: 15}
+difficulty: 2
+equipment: [Wok]
+techniques: [blanching, stir-frying, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: soft-tofu, qty: 400, unit: g, prep: "cut into 2 cm cubes"}
+      - {ingredient: vegetable-oil, qty: 3, unit: tbsp}
+      - {ingredient: beef-mince, qty: 100, unit: g, alt: [shiitake-mushroom]}
+      - {ingredient: doubanjiang, qty: 2, unit: tbsp, note: "Pixian broad-bean chili paste, chopped"}
+      - {ingredient: fermented-black-beans, qty: 1, unit: tbsp, prep: "rinsed and chopped"}
+      - {ingredient: ground-chili, qty: [1, 2], unit: tsp}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "minced"}
+      - {ingredient: ginger, qty: 2, unit: cm, prep: "minced"}
+      - {ingredient: chicken-stock, qty: 250, unit: ml, alt: [vegetable-stock]}
+      - {ingredient: soy-sauce, qty: 1, unit: tsp}
+      - {ingredient: sugar, qty: 0.5, unit: tsp}
+      - {ingredient: cornstarch, qty: 1, unit: tbsp, prep: "mixed with 3 tbsp water"}
+      - {ingredient: sichuan-peppercorn, qty: 1, unit: tsp, prep: "toasted and ground"}
+      - {ingredient: scallion, qty: 2, prep: "sliced"}
+steps:
+  - Simmer the tofu cubes in lightly salted water for 2 minutes to firm them up. Drain gently.
+  - Heat the oil in a wok and stir-fry the beef until crisp and browned.
+  - Lower the heat, add the doubanjiang and fry until the oil turns red. Add the black beans, chili, garlic and ginger and fry until fragrant.
+  - text: Add the stock, soy sauce and sugar, then slide in the tofu. Simmer gently, nudging the tofu with the back of a spoon rather than stirring.
+    timer_min: 5
+  - Add the cornstarch slurry in two or three additions until the sauce clings to the tofu.
+  - Serve topped with ground Sichuan pepper and scallion.
+serving: With plenty of steamed rice.
+culture: Said to be named after a pockmarked ("ma") old woman ("po") who served it in a Chengdu restaurant in the 19th century.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

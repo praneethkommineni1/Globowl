@@ -1,0 +1,60 @@
+id: eg-koshari
+title: Koshari
+native_name: {text: كشري, lang: ar, romanized: kushari}
+summary: Egypt's beloved street food — lentils, rice and pasta layered with spiced tomato sauce, garlic vinegar and crispy onions.
+origin:
+  country: EG
+  region: Cairo
+course: main
+dish_types: [street-food, rice-dish, pasta]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 20, cook_min: 60}
+difficulty: 3
+techniques: [deep-frying, boiling, rice-cooking, simmering]
+ingredient_groups:
+  - name: Crispy onions
+    items:
+      - {ingredient: onion, qty: 3, prep: "thinly sliced into half-moons"}
+      - {ingredient: vegetable-oil, qty: 250, unit: ml, note: "for frying; the oil is reused below"}
+  - name: Lentils, rice and pasta
+    items:
+      - {ingredient: brown-lentils, qty: 200, unit: g, prep: "rinsed"}
+      - {ingredient: vermicelli, qty: 100, unit: g, prep: "broken into short pieces"}
+      - {ingredient: long-grain-rice, qty: 200, unit: g, prep: "rinsed"}
+      - {ingredient: macaroni, qty: 250, unit: g}
+      - {ingredient: chickpeas-canned, qty: 1, unit: can, note: "400 g can, drained"}
+      - {ingredient: ground-cumin, qty: 1, unit: tsp}
+      - {ingredient: salt, note: "to taste"}
+  - name: Tomato sauce
+    items:
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "minced"}
+      - {ingredient: canned-tomatoes, qty: 800, unit: g, prep: "blended smooth"}
+      - {ingredient: white-vinegar, qty: 2, unit: tbsp}
+      - {ingredient: ground-cumin, qty: 1, unit: tsp}
+      - {ingredient: chili-flakes, qty: [0.5, 1], unit: tsp}
+  - name: Dakka (garlic vinegar)
+    items:
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "crushed"}
+      - {ingredient: white-vinegar, qty: 4, unit: tbsp}
+      - {ingredient: water, qty: 4, unit: tbsp}
+      - {ingredient: ground-cumin, qty: 0.5, unit: tsp}
+steps:
+  - Fry the onions in the hot oil over medium heat, stirring, until deep golden and crisp (15–20 minutes). Drain on paper. Keep the oil.
+  - Boil the lentils in plenty of water until just tender but holding their shape (about 20 minutes). Drain.
+  - In a pot, fry the vermicelli in 2 tablespoons of the onion oil until golden. Add the rice, lentils, cumin, salt and 600 ml water. Bring to a boil, cover and cook on low for 20 minutes until the water is absorbed.
+  - Meanwhile cook the macaroni in salted water until al dente. Drain and toss with a spoonful of onion oil.
+  - text: For the sauce, fry the garlic in 2 tablespoons of onion oil for 1 minute. Add the tomatoes, vinegar, cumin, chili and salt, and simmer until thickened.
+    timer_min: 20
+  - Stir the dakka ingredients together with a pinch of salt.
+  - Warm the chickpeas. To serve, layer rice-lentil mix, then macaroni, then sauce, chickpeas and a heap of crispy onions. Let everyone add dakka to taste.
+tips:
+  - The onion oil is the secret — it seasons every layer.
+serving: In deep bowls, with extra sauce and dakka on the side.
+culture: Koshari became a working-class staple in the 19th century; it is commonly linked to Indian kitchari and Italian pasta, which both reached Egypt in that era.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

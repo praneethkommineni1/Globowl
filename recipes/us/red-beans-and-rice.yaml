@@ -1,0 +1,48 @@
+id: us-red-beans-and-rice
+title: Red Beans and Rice
+summary: Red kidney beans simmered for hours with smoked sausage and the Creole "holy trinity" until creamy, served over white rice.
+origin:
+  country: US
+  region: Louisiana (New Orleans)
+  community: Louisiana Creole
+course: main
+dish_types: [beans, stew]
+occasions: [Mondays]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 20, cook_min: 150, inactive_min: 720}
+difficulty: 2
+techniques: [sauteing, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: dried-red-kidney-beans, qty: 450, unit: g, note: "soaked overnight"}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: andouille-sausage, qty: 300, unit: g, prep: "sliced"}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: green-pepper, qty: 1, prep: "chopped"}
+      - {ingredient: celery, qty: 2, unit: stalk, prep: "chopped"}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "minced"}
+      - {ingredient: bay-leaf, qty: 2}
+      - {ingredient: dried-thyme, qty: 1, unit: tsp}
+      - {ingredient: cayenne, qty: 0.5, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+      - {ingredient: water, qty: 2, unit: l}
+      - {ingredient: salt, note: "to taste"}
+      - {ingredient: cooked-long-grain-rice, qty: 900, unit: g}
+      - {ingredient: scallion, qty: 3, prep: "sliced"}
+      - {ingredient: hot-sauce, note: "to serve", optional: true}
+steps:
+  - Brown the sausage in the oil in a heavy pot. Remove with a slotted spoon.
+  - Cook the onion, pepper and celery in the fat until soft (8 minutes). Add the garlic and cook 1 minute.
+  - Add the drained beans, sausage, bay, thyme, cayenne, black pepper and water. Bring to a boil.
+  - text: Simmer, partly covered, stirring occasionally, until the beans are very soft.
+    timer_min: 120
+  - Mash about a quarter of the beans against the side of the pot and simmer uncovered until creamy. Season with salt.
+  - Serve over rice with scallions and hot sauce.
+culture: Traditionally cooked on Mondays — washday in New Orleans — when the pot could simmer unattended using the bone left over from Sunday's ham.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

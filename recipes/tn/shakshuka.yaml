@@ -1,0 +1,43 @@
+id: tn-shakshuka
+title: Shakshuka
+native_name: {text: شكشوكة, lang: ar, romanized: chakchouka}
+summary: Eggs gently poached in a spiced pepper and tomato sauce with harissa and caraway.
+origin:
+  country: TN
+  also_claimed_by: [LY, DZ, MA, IL]
+course: breakfast
+dish_types: [eggs, one-pan]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 30}
+difficulty: 1
+techniques: [sauteing, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: olive-oil, qty: 3, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "sliced"}
+      - {ingredient: red-bell-pepper, qty: 2, prep: "sliced"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "sliced"}
+      - {ingredient: harissa, qty: [1, 2], unit: tsp}
+      - {ingredient: ground-cumin, qty: 1, unit: tsp}
+      - {ingredient: ground-caraway, qty: 0.5, unit: tsp, optional: true}
+      - {ingredient: paprika, qty: 1, unit: tsp}
+      - {ingredient: canned-tomatoes, qty: 800, unit: g}
+      - {ingredient: salt, note: "to taste"}
+      - {ingredient: egg, qty: [4, 6]}
+      - {ingredient: parsley, qty: 1, unit: handful, prep: "chopped", optional: true}
+steps:
+  - Heat the oil in a wide pan and cook the onion and pepper over medium heat until soft (about 8 minutes).
+  - Add garlic, harissa and spices and cook for 1 minute.
+  - text: Add tomatoes and salt and simmer, crushing the tomatoes, until thick.
+    timer_min: 12
+  - Make hollows in the sauce and crack an egg into each. Cover and cook over low heat until the whites are set but the yolks still runny (5–8 minutes).
+  - Scatter with parsley and serve straight from the pan.
+serving: With crusty bread for dipping.
+culture: A North African dish, carried to Israel by Tunisian and Libyan Jewish immigrants, where it became a breakfast staple.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

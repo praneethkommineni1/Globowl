@@ -1,0 +1,56 @@
+id: my-nasi-lemak
+title: Nasi Lemak
+native_name: {text: Nasi lemak, lang: ms}
+summary: Fragrant coconut-pandan rice with sweet-hot sambal, crispy anchovies, peanuts, egg and cucumber — Malaysia's national breakfast.
+origin:
+  country: MY
+  also_claimed_by: [SG, BN]
+course: breakfast
+dish_types: [rice-dish]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 30, cook_min: 60, inactive_min: 20}
+difficulty: 3
+techniques: [rice-cooking, sauteing, deep-frying, boiling]
+ingredient_groups:
+  - name: Coconut rice
+    items:
+      - {ingredient: jasmine-rice, qty: 400, unit: g, prep: "rinsed"}
+      - {ingredient: coconut-milk, qty: 250, unit: ml}
+      - {ingredient: water, qty: 300, unit: ml}
+      - {ingredient: pandan-leaf, qty: 2, prep: "knotted"}
+      - {ingredient: ginger, qty: 2, unit: cm, prep: "sliced"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+  - name: Sambal
+    items:
+      - {ingredient: dried-red-chili, qty: 20, prep: "soaked in hot water 20 minutes, deseeded"}
+      - {ingredient: shallot, qty: 6}
+      - {ingredient: garlic, qty: 3, unit: clove}
+      - {ingredient: shrimp-paste, qty: 1, unit: tsp, note: "belacan, toasted"}
+      - {ingredient: vegetable-oil, qty: 6, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "sliced into rings"}
+      - {ingredient: tamarind-paste, qty: 2, unit: tbsp}
+      - {ingredient: palm-sugar, qty: 2, unit: tbsp, alt: [sugar]}
+      - {ingredient: salt, note: "to taste"}
+  - name: Toppings
+    items:
+      - {ingredient: dried-anchovies, qty: 50, unit: g, note: "ikan bilis, rinsed and dried"}
+      - {ingredient: vegetable-oil, qty: 100, unit: ml, note: "for frying"}
+      - {ingredient: roasted-peanuts, qty: 50, unit: g}
+      - {ingredient: egg, qty: 4, note: "hard-boiled and halved, or fried"}
+      - {ingredient: cucumber, qty: 1, prep: "sliced"}
+steps:
+  - Put all the coconut-rice ingredients in a pot or rice cooker. Bring to a boil, then cover and cook on very low heat for 15 minutes. Rest 10 minutes and fluff.
+  - Blend the soaked chilies, shallots, garlic and shrimp paste to a smooth paste with a splash of water.
+  - text: Fry the paste in the 6 tablespoons oil over medium-low heat, stirring often, until it darkens and the oil separates. This is slow — don't rush it.
+    timer_min: 20
+  - Add the onion rings, tamarind, sugar and salt and cook 5 minutes more until jammy. The sambal should be sweet, sour and hot.
+  - Fry the anchovies in the 100 ml oil until crisp and golden; drain.
+  - Serve a mound of rice with sambal, anchovies, peanuts, egg and cucumber around it.
+serving: Traditionally wrapped in a banana leaf, often with fried chicken or rendang added.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

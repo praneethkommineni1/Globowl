@@ -1,0 +1,51 @@
+id: se-kottbullar
+title: Swedish Meatballs
+native_name: {text: Köttbullar, lang: sv}
+summary: Small, tender beef-and-pork meatballs with a creamy brown gravy, lingonberry jam and potatoes.
+origin:
+  country: SE
+course: main
+dish_types: [meatballs]
+occasions: [Christmas smörgåsbord (julbord)]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 25, cook_min: 25}
+difficulty: 2
+techniques: [pan-frying, simmering]
+ingredient_groups:
+  - name: Meatballs
+    items:
+      - {ingredient: breadcrumbs, qty: 40, unit: g}
+      - {ingredient: milk, qty: 100, unit: ml}
+      - {ingredient: onion, qty: 1, prep: "finely chopped and softened in butter"}
+      - {ingredient: beef-mince, qty: 250, unit: g}
+      - {ingredient: pork-mince, qty: 250, unit: g, alt: [beef-mince]}
+      - {ingredient: egg, qty: 1}
+      - {ingredient: allspice, qty: 0.25, unit: tsp}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: white-pepper, qty: 0.25, unit: tsp}
+      - {ingredient: butter, qty: 2, unit: tbsp, note: "for frying"}
+  - name: Gravy (gräddsås)
+    items:
+      - {ingredient: all-purpose-flour, qty: 1, unit: tbsp}
+      - {ingredient: beef-stock, qty: 300, unit: ml}
+      - {ingredient: heavy-cream, qty: 100, unit: ml}
+      - {ingredient: soy-sauce, qty: 1, unit: tsp, note: "for colour and depth"}
+  - name: To serve
+    items:
+      - {ingredient: lingonberry-jam, qty: 4, unit: tbsp}
+      - {ingredient: potato, qty: 800, unit: g, note: "boiled or mashed"}
+steps:
+  - Soak the breadcrumbs in the milk for 5 minutes.
+  - Mix in the onion, meat, egg, allspice, salt and pepper until evenly combined. Roll into balls about 3 cm across with wet hands.
+  - text: Fry the meatballs in butter in batches over medium heat, shaking the pan so they stay round, until browned and cooked through.
+    timer_min: 10
+  - For the gravy, stir the flour into the fat left in the pan and cook 1 minute. Whisk in the stock, then the cream and soy sauce, and simmer until thickened.
+  - Serve meatballs and gravy with potatoes and lingonberry jam.
+serving: Traditionally with pressgurka (quick-pickled cucumber) too.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

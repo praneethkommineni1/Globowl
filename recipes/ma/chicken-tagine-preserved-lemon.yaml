@@ -1,0 +1,48 @@
+id: ma-chicken-tagine-preserved-lemon
+title: Chicken Tagine with Preserved Lemon and Olives
+alternate_names: [Djaj mqualli]
+summary: Chicken braised with ginger, saffron and onions until tender, finished with salty preserved lemon and olives.
+origin:
+  country: MA
+course: main
+dish_types: [tagine, braise]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 60, inactive_min: 30}
+difficulty: 2
+equipment: [Tagine or heavy lidded pot]
+techniques: [marinating, braising]
+ingredient_groups:
+  - items:
+      - {ingredient: chicken-thigh, qty: 1.5, unit: kg, prep: "bone-in, skin removed"}
+      - {ingredient: onion, qty: 2, prep: "grated"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "minced"}
+      - {ingredient: ground-ginger, qty: 1, unit: tsp}
+      - {ingredient: ground-turmeric, qty: 0.5, unit: tsp}
+      - {ingredient: saffron, qty: 1, unit: pinch, prep: "crumbled into 2 tbsp warm water"}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+      - {ingredient: olive-oil, qty: 3, unit: tbsp}
+      - {ingredient: cilantro, qty: 1, unit: handful, prep: "chopped"}
+      - {ingredient: parsley, qty: 1, unit: handful, prep: "chopped"}
+      - {ingredient: water, qty: 250, unit: ml}
+      - {ingredient: preserved-lemon, qty: 1, prep: "pulp discarded, peel cut into strips"}
+      - {ingredient: green-olives, qty: 100, unit: g}
+      - {ingredient: salt, note: "to taste — the lemon and olives are salty"}
+steps:
+  - text: Mix the chicken with the onion, garlic, spices, saffron water, oil and half the herbs. Leave to marinate.
+    timer_min: 30
+  - Tip everything into the tagine or pot, add the water and bring to a gentle simmer.
+  - text: Cover and cook over low heat, turning the chicken once or twice, until it is very tender.
+    timer_min: 45
+  - Add the preserved lemon and olives and cook uncovered for 10–15 minutes until the sauce thickens. Taste before adding salt.
+  - Scatter over the remaining herbs and serve from the pot.
+tips:
+  - The marinade can sit overnight in the fridge for deeper flavour.
+  - A clay tagine needs a heat diffuser on gas or electric hobs.
+serving: With khobz (Moroccan round bread) to scoop up the sauce.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

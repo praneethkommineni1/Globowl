@@ -1,0 +1,45 @@
+id: br-moqueca-baiana
+title: Moqueca Baiana
+native_name: {text: Moqueca baiana, lang: pt}
+summary: Fish stewed in coconut milk with tomatoes, peppers and red dendê palm oil — the signature dish of Bahia.
+origin:
+  country: BR
+  region: Bahia
+course: main
+dish_types: [stew, seafood]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 30, inactive_min: 30}
+difficulty: 2
+equipment: [Wide, heavy pot — traditionally a clay pan]
+techniques: [marinating, stewing]
+ingredient_groups:
+  - items:
+      - {ingredient: white-fish, qty: 800, unit: g, prep: "thick steaks or chunks", note: "firm fish such as snapper or halibut"}
+      - {ingredient: lime-juice, qty: 3, unit: tbsp}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "crushed"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: onion, qty: 1, prep: "sliced into rings"}
+      - {ingredient: red-bell-pepper, qty: 1, prep: "sliced into rings"}
+      - {ingredient: green-pepper, qty: 1, prep: "sliced into rings"}
+      - {ingredient: tomato, qty: 3, prep: "sliced into rounds"}
+      - {ingredient: cilantro, qty: 1, unit: bunch, prep: "chopped"}
+      - {ingredient: coconut-milk, qty: 400, unit: ml}
+      - {ingredient: red-palm-oil, qty: 3, unit: tbsp, note: "dendê"}
+      - {ingredient: red-chili, qty: 1, prep: "chopped", optional: true, note: "malagueta"}
+steps:
+  - text: Season the fish with lime juice, garlic and salt and marinate.
+    timer_min: 30
+  - In the pot, layer half the onion, peppers, tomato and cilantro. Lay the fish on top, then cover with the remaining vegetables and most of the cilantro.
+  - Pour over the coconut milk and dendê, and add the chili.
+  - text: Cover and simmer gently without stirring — shake the pan instead — until the fish flakes.
+    timer_min: 20
+  - Taste for salt and scatter with the remaining cilantro.
+serving: With white rice, farofa de dendê (toasted cassava flour) and pirão (a fish-broth porridge).
+culture: Afro-Brazilian cuisine in Bahia is built on dendê palm oil, brought by enslaved West Africans along with many of the region's culinary traditions.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

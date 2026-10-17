@@ -1,0 +1,44 @@
+id: et-misir-wot
+title: Misir Wot
+native_name: {text: ምስር ወጥ, lang: am, romanized: misir wot}
+alternate_names: [Spiced red lentil stew]
+summary: Red lentils simmered with slow-cooked onions and berbere spice — a fiery, everyday Ethiopian stew eaten with injera.
+origin:
+  country: ET
+  also_claimed_by: [ER]
+course: main
+dish_types: [stew, lentils]
+occasions: [Fasting days, Lent]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 45}
+difficulty: 2
+techniques: [sauteing, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: red-onion, qty: 2, prep: "very finely chopped"}
+      - {ingredient: vegetable-oil, qty: 60, unit: ml, alt: [niter-kibbeh], note: "oil on fasting days; niter kibbeh otherwise"}
+      - {ingredient: berbere, qty: [2, 3], unit: tbsp}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "minced"}
+      - {ingredient: ginger, qty: 2, unit: cm, prep: "grated"}
+      - {ingredient: tomato-paste, qty: 1, unit: tbsp, optional: true}
+      - {ingredient: red-lentils, qty: 250, unit: g, prep: "rinsed"}
+      - {ingredient: water, qty: 750, unit: ml}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - text: Cook the onions in a dry pot over medium-low heat, stirring often, until soft and starting to colour. Add a splash of water if they catch.
+    timer_min: 10
+  - Add the oil and cook the onions a few minutes more, then stir in the berbere, garlic, ginger and tomato paste, if using. Cook for 3 minutes, adding a little water if the spices start to stick.
+  - text: Add the lentils and water. Simmer, stirring occasionally, until the lentils collapse into a thick stew. Add more water if it gets too stiff.
+    timer_min: 30
+  - Season with salt and serve hot.
+tips:
+  - Cooking the onions without fat first is a hallmark of Ethiopian stews; it gives a sweeter, deeper base.
+serving: Spooned onto injera with other wots and vegetable dishes, eaten by hand.
+culture: Ethiopian Orthodox Christians fast from animal products on Wednesdays, Fridays and through Lent, so misir wot made with oil is a staple of the fasting table.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

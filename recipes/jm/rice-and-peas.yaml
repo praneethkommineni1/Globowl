@@ -1,0 +1,40 @@
+id: jm-rice-and-peas
+title: Rice and Peas
+summary: Rice cooked with kidney beans in coconut milk, fragrant with thyme, scallion, allspice and a whole Scotch bonnet.
+origin:
+  country: JM
+course: side
+dish_types: [rice-dish]
+occasions: [Sunday dinner]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 10, cook_min: 35}
+difficulty: 1
+techniques: [rice-cooking, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: kidney-beans-canned, qty: 1, unit: can, note: "400 g can, with its liquid"}
+      - {ingredient: coconut-milk, qty: 400, unit: ml}
+      - {ingredient: water, qty: 250, unit: ml}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "crushed"}
+      - {ingredient: scallion, qty: 2, prep: "whole, lightly crushed"}
+      - {ingredient: thyme, qty: 4, unit: sprig}
+      - {ingredient: allspice-berries, qty: 4}
+      - {ingredient: scotch-bonnet, qty: 1, note: "whole and unbroken — for aroma, not heat"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: long-grain-rice, qty: 400, unit: g, prep: "rinsed"}
+steps:
+  - Bring the beans with their liquid, coconut milk, water, garlic, scallion, thyme, allspice, Scotch bonnet and salt to a boil.
+  - Stir in the rice. The liquid should cover the rice by about 1.5 cm; add water if needed.
+  - text: Cover tightly and cook on low heat until the rice is tender and the liquid absorbed.
+    timer_min: 25
+  - Remove the scallion, thyme and the whole pepper (carefully — don't burst it). Fluff and serve.
+tips:
+  - In Jamaica "peas" means kidney beans; pigeon peas (gungo peas) are used at Christmas.
+serving: With curry goat, brown stew chicken or jerk chicken.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

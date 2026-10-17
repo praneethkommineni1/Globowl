@@ -1,0 +1,52 @@
+id: mx-chilaquiles-rojos
+title: Chilaquiles Rojos
+native_name: {text: Chilaquiles rojos, lang: es}
+summary: Crisp-fried tortilla wedges tossed in a smoky guajillo and tomato salsa, topped with crumbled cheese, crema, onion and a fried egg.
+origin:
+  country: MX
+course: breakfast
+dish_types: [tortilla]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 30}
+difficulty: 2
+equipment: [Blender]
+techniques: [deep-frying, simmering]
+ingredient_groups:
+  - name: Totopos
+    items:
+      - {ingredient: corn-tortillas, qty: 12, note: "a day old, each cut into 6 wedges"}
+      - {ingredient: vegetable-oil, qty: 250, unit: ml, note: "for frying"}
+      - {ingredient: salt, qty: 1, unit: pinch}
+  - name: Salsa roja
+    items:
+      - {ingredient: guajillo-chili, qty: 3, prep: "stems and seeds removed"}
+      - {ingredient: chile-de-arbol, qty: [1, 2], optional: true}
+      - {ingredient: tomato, qty: 500, unit: g}
+      - {ingredient: onion, qty: 0.25}
+      - {ingredient: garlic, qty: 2, unit: clove}
+      - {ingredient: vegetable-oil, qty: 1, unit: tbsp}
+      - {ingredient: salt, note: "to taste"}
+  - name: Toppings
+    items:
+      - {ingredient: queso-fresco, qty: 80, unit: g, prep: "crumbled"}
+      - {ingredient: mexican-crema, qty: 4, unit: tbsp, alt: [sour-cream]}
+      - {ingredient: onion, qty: 0.25, prep: "thinly sliced"}
+      - {ingredient: cilantro, qty: 1, unit: handful, prep: "chopped"}
+      - {ingredient: egg, qty: 4, note: "fried", optional: true}
+      - {ingredient: avocado, qty: 1, prep: "sliced", optional: true}
+steps:
+  - Fry the tortilla wedges in hot oil in batches until golden and crisp. Drain on paper and sprinkle with salt. (Or use good thick store-bought totopos.)
+  - Toast the dried chilies in a dry pan for a few seconds per side until fragrant, then soak in hot water for 10 minutes.
+  - Boil the tomatoes, onion and garlic in water for 10 minutes. Blend with the drained chilies and a little cooking water until smooth.
+  - text: Fry the salsa in the oil in a wide pan, stirring, until it darkens and thickens slightly. Season with salt.
+    timer_min: 8
+  - Add the totopos and toss to coat. Serve immediately (crunchy) or after a minute (softer) — it's a matter of taste.
+  - Top with cheese, crema, onion, cilantro, a fried egg and avocado.
+serving: With refried beans on the side. A favourite breakfast and hangover cure.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

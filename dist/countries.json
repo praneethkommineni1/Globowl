@@ -1,0 +1,1668 @@
+[
+ {
+  "code": "AD",
+  "name": "Andorra",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "AE",
+  "name": "United Arab Emirates",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "AF",
+  "name": "Afghanistan",
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "AG",
+  "name": "Antigua and Barbuda",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "un-member"
+ },
+ {
+  "code": "AI",
+  "name": "Anguilla",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "territory"
+ },
+ {
+  "code": "AL",
+  "name": "Albania",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "AM",
+  "name": "Armenia",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "AO",
+  "name": "Angola",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "AR",
+  "name": "Argentina",
+  "continent": "Americas",
+  "subregion": "South America",
+  "status": "un-member"
+ },
+ {
+  "code": "AS",
+  "name": "American Samoa",
+  "continent": "Oceania",
+  "subregion": "Polynesia",
+  "status": "territory"
+ },
+ {
+  "code": "AT",
+  "name": "Austria",
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "AU",
+  "name": "Australia",
+  "continent": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "status": "un-member"
+ },
+ {
+  "code": "AW",
+  "name": "Aruba",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "territory"
+ },
+ {
+  "code": "AX",
+  "name": "Åland Islands",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "status": "territory"
+ },
+ {
+  "code": "AZ",
+  "name": "Azerbaijan",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "BA",
+  "name": "Bosnia and Herzegovina",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "BB",
+  "name": "Barbados",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "un-member"
+ },
+ {
+  "code": "BD",
+  "name": "Bangladesh",
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "BE",
+  "name": "Belgium",
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "BF",
+  "name": "Burkina Faso",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "BG",
+  "name": "Bulgaria",
+  "continent": "Europe",
+  "subregion": "Eastern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "BH",
+  "name": "Bahrain",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "BI",
+  "name": "Burundi",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "BJ",
+  "name": "Benin",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "BL",
+  "name": "Saint Barthélemy",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "territory"
+ },
+ {
+  "code": "BM",
+  "name": "Bermuda",
+  "continent": "Americas",
+  "subregion": "Northern America",
+  "status": "territory"
+ },
+ {
+  "code": "BN",
+  "name": "Brunei",
+  "continent": "Asia",
+  "subregion": "South-eastern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "BO",
+  "name": "Bolivia",
+  "continent": "Americas",
+  "subregion": "South America",
+  "status": "un-member"
+ },
+ {
+  "code": "BQ",
+  "name": "Caribbean Netherlands",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "territory"
+ },
+ {
+  "code": "BR",
+  "name": "Brazil",
+  "continent": "Americas",
+  "subregion": "South America",
+  "status": "un-member"
+ },
+ {
+  "code": "BS",
+  "name": "Bahamas",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "un-member"
+ },
+ {
+  "code": "BT",
+  "name": "Bhutan",
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "BW",
+  "name": "Botswana",
+  "continent": "Africa",
+  "subregion": "Southern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "BY",
+  "name": "Belarus",
+  "continent": "Europe",
+  "subregion": "Eastern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "BZ",
+  "name": "Belize",
+  "continent": "Americas",
+  "subregion": "Central America",
+  "status": "un-member"
+ },
+ {
+  "code": "CA",
+  "name": "Canada",
+  "continent": "Americas",
+  "subregion": "Northern America",
+  "status": "un-member"
+ },
+ {
+  "code": "CD",
+  "name": "DR Congo",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "CF",
+  "name": "Central African Republic",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "CG",
+  "name": "Republic of the Congo",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "CH",
+  "name": "Switzerland",
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "CI",
+  "name": "Côte d'Ivoire",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "CK",
+  "name": "Cook Islands",
+  "continent": "Oceania",
+  "subregion": "Polynesia",
+  "status": "territory"
+ },
+ {
+  "code": "CL",
+  "name": "Chile",
+  "continent": "Americas",
+  "subregion": "South America",
+  "status": "un-member"
+ },
+ {
+  "code": "CM",
+  "name": "Cameroon",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "CN",
+  "name": "China",
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "CO",
+  "name": "Colombia",
+  "continent": "Americas",
+  "subregion": "South America",
+  "status": "un-member"
+ },
+ {
+  "code": "CR",
+  "name": "Costa Rica",
+  "continent": "Americas",
+  "subregion": "Central America",
+  "status": "un-member"
+ },
+ {
+  "code": "CU",
+  "name": "Cuba",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "un-member"
+ },
+ {
+  "code": "CV",
+  "name": "Cabo Verde",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "CW",
+  "name": "Curaçao",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "territory"
+ },
+ {
+  "code": "CY",
+  "name": "Cyprus",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "CZ",
+  "name": "Czechia",
+  "continent": "Europe",
+  "subregion": "Eastern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "DE",
+  "name": "Germany",
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "DJ",
+  "name": "Djibouti",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "DK",
+  "name": "Denmark",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "DM",
+  "name": "Dominica",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "un-member"
+ },
+ {
+  "code": "DO",
+  "name": "Dominican Republic",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "un-member"
+ },
+ {
+  "code": "DZ",
+  "name": "Algeria",
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "EC",
+  "name": "Ecuador",
+  "continent": "Americas",
+  "subregion": "South America",
+  "status": "un-member"
+ },
+ {
+  "code": "EE",
+  "name": "Estonia",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "EG",
+  "name": "Egypt",
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "EH",
+  "name": "Western Sahara",
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "status": "other"
+ },
+ {
+  "code": "ER",
+  "name": "Eritrea",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "ES",
+  "name": "Spain",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "ET",
+  "name": "Ethiopia",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "FI",
+  "name": "Finland",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "FJ",
+  "name": "Fiji",
+  "continent": "Oceania",
+  "subregion": "Melanesia",
+  "status": "un-member"
+ },
+ {
+  "code": "FK",
+  "name": "Falkland Islands",
+  "continent": "Americas",
+  "subregion": "South America",
+  "status": "territory"
+ },
+ {
+  "code": "FM",
+  "name": "Micronesia",
+  "continent": "Oceania",
+  "subregion": "Micronesia",
+  "status": "un-member"
+ },
+ {
+  "code": "FO",
+  "name": "Faroe Islands",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "status": "territory"
+ },
+ {
+  "code": "FR",
+  "name": "France",
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "GA",
+  "name": "Gabon",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "GB",
+  "name": "United Kingdom",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "GD",
+  "name": "Grenada",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "un-member"
+ },
+ {
+  "code": "GE",
+  "name": "Georgia",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "GF",
+  "name": "French Guiana",
+  "continent": "Americas",
+  "subregion": "South America",
+  "status": "territory"
+ },
+ {
+  "code": "GG",
+  "name": "Guernsey",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "status": "territory"
+ },
+ {
+  "code": "GH",
+  "name": "Ghana",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "GI",
+  "name": "Gibraltar",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "status": "territory"
+ },
+ {
+  "code": "GL",
+  "name": "Greenland",
+  "continent": "Americas",
+  "subregion": "Northern America",
+  "status": "territory"
+ },
+ {
+  "code": "GM",
+  "name": "Gambia",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "GN",
+  "name": "Guinea",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "GP",
+  "name": "Guadeloupe",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "territory"
+ },
+ {
+  "code": "GQ",
+  "name": "Equatorial Guinea",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "GR",
+  "name": "Greece",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "GT",
+  "name": "Guatemala",
+  "continent": "Americas",
+  "subregion": "Central America",
+  "status": "un-member"
+ },
+ {
+  "code": "GU",
+  "name": "Guam",
+  "continent": "Oceania",
+  "subregion": "Micronesia",
+  "status": "territory"
+ },
+ {
+  "code": "GW",
+  "name": "Guinea-Bissau",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "GY",
+  "name": "Guyana",
+  "continent": "Americas",
+  "subregion": "South America",
+  "status": "un-member"
+ },
+ {
+  "code": "HK",
+  "name": "Hong Kong",
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "status": "territory"
+ },
+ {
+  "code": "HN",
+  "name": "Honduras",
+  "continent": "Americas",
+  "subregion": "Central America",
+  "status": "un-member"
+ },
+ {
+  "code": "HR",
+  "name": "Croatia",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "HT",
+  "name": "Haiti",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "un-member"
+ },
+ {
+  "code": "HU",
+  "name": "Hungary",
+  "continent": "Europe",
+  "subregion": "Eastern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "ID",
+  "name": "Indonesia",
+  "continent": "Asia",
+  "subregion": "South-eastern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "IE",
+  "name": "Ireland",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "IL",
+  "name": "Israel",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "IM",
+  "name": "Isle of Man",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "status": "territory"
+ },
+ {
+  "code": "IN",
+  "name": "India",
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "IQ",
+  "name": "Iraq",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "IR",
+  "name": "Iran",
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "IS",
+  "name": "Iceland",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "IT",
+  "name": "Italy",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "JE",
+  "name": "Jersey",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "status": "territory"
+ },
+ {
+  "code": "JM",
+  "name": "Jamaica",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "un-member"
+ },
+ {
+  "code": "JO",
+  "name": "Jordan",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "JP",
+  "name": "Japan",
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "KE",
+  "name": "Kenya",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "KG",
+  "name": "Kyrgyzstan",
+  "continent": "Asia",
+  "subregion": "Central Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "KH",
+  "name": "Cambodia",
+  "continent": "Asia",
+  "subregion": "South-eastern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "KI",
+  "name": "Kiribati",
+  "continent": "Oceania",
+  "subregion": "Micronesia",
+  "status": "un-member"
+ },
+ {
+  "code": "KM",
+  "name": "Comoros",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "KN",
+  "name": "Saint Kitts and Nevis",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "un-member"
+ },
+ {
+  "code": "KP",
+  "name": "North Korea",
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "KR",
+  "name": "South Korea",
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "KW",
+  "name": "Kuwait",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "KY",
+  "name": "Cayman Islands",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "territory"
+ },
+ {
+  "code": "KZ",
+  "name": "Kazakhstan",
+  "continent": "Asia",
+  "subregion": "Central Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "LA",
+  "name": "Laos",
+  "continent": "Asia",
+  "subregion": "South-eastern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "LB",
+  "name": "Lebanon",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "LC",
+  "name": "Saint Lucia",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "un-member"
+ },
+ {
+  "code": "LI",
+  "name": "Liechtenstein",
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "LK",
+  "name": "Sri Lanka",
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "LR",
+  "name": "Liberia",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "LS",
+  "name": "Lesotho",
+  "continent": "Africa",
+  "subregion": "Southern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "LT",
+  "name": "Lithuania",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "LU",
+  "name": "Luxembourg",
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "LV",
+  "name": "Latvia",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "LY",
+  "name": "Libya",
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "MA",
+  "name": "Morocco",
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "MC",
+  "name": "Monaco",
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "MD",
+  "name": "Moldova",
+  "continent": "Europe",
+  "subregion": "Eastern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "ME",
+  "name": "Montenegro",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "MF",
+  "name": "Saint Martin (French part)",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "territory"
+ },
+ {
+  "code": "MG",
+  "name": "Madagascar",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "MH",
+  "name": "Marshall Islands",
+  "continent": "Oceania",
+  "subregion": "Micronesia",
+  "status": "un-member"
+ },
+ {
+  "code": "MK",
+  "name": "North Macedonia",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "ML",
+  "name": "Mali",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "MM",
+  "name": "Myanmar",
+  "continent": "Asia",
+  "subregion": "South-eastern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "MN",
+  "name": "Mongolia",
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "MO",
+  "name": "Macao",
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "status": "territory"
+ },
+ {
+  "code": "MP",
+  "name": "Northern Mariana Islands",
+  "continent": "Oceania",
+  "subregion": "Micronesia",
+  "status": "territory"
+ },
+ {
+  "code": "MQ",
+  "name": "Martinique",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "territory"
+ },
+ {
+  "code": "MR",
+  "name": "Mauritania",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "MS",
+  "name": "Montserrat",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "territory"
+ },
+ {
+  "code": "MT",
+  "name": "Malta",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "MU",
+  "name": "Mauritius",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "MV",
+  "name": "Maldives",
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "MW",
+  "name": "Malawi",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "MX",
+  "name": "Mexico",
+  "continent": "Americas",
+  "subregion": "Central America",
+  "status": "un-member"
+ },
+ {
+  "code": "MY",
+  "name": "Malaysia",
+  "continent": "Asia",
+  "subregion": "South-eastern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "MZ",
+  "name": "Mozambique",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "NA",
+  "name": "Namibia",
+  "continent": "Africa",
+  "subregion": "Southern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "NC",
+  "name": "New Caledonia",
+  "continent": "Oceania",
+  "subregion": "Melanesia",
+  "status": "territory"
+ },
+ {
+  "code": "NE",
+  "name": "Niger",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "NG",
+  "name": "Nigeria",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "NI",
+  "name": "Nicaragua",
+  "continent": "Americas",
+  "subregion": "Central America",
+  "status": "un-member"
+ },
+ {
+  "code": "NL",
+  "name": "Netherlands",
+  "continent": "Europe",
+  "subregion": "Western Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "NO",
+  "name": "Norway",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "NP",
+  "name": "Nepal",
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "NR",
+  "name": "Nauru",
+  "continent": "Oceania",
+  "subregion": "Micronesia",
+  "status": "un-member"
+ },
+ {
+  "code": "NU",
+  "name": "Niue",
+  "continent": "Oceania",
+  "subregion": "Polynesia",
+  "status": "territory"
+ },
+ {
+  "code": "NZ",
+  "name": "New Zealand",
+  "continent": "Oceania",
+  "subregion": "Australia and New Zealand",
+  "status": "un-member"
+ },
+ {
+  "code": "OM",
+  "name": "Oman",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "PA",
+  "name": "Panama",
+  "continent": "Americas",
+  "subregion": "Central America",
+  "status": "un-member"
+ },
+ {
+  "code": "PE",
+  "name": "Peru",
+  "continent": "Americas",
+  "subregion": "South America",
+  "status": "un-member"
+ },
+ {
+  "code": "PF",
+  "name": "French Polynesia",
+  "continent": "Oceania",
+  "subregion": "Polynesia",
+  "status": "territory"
+ },
+ {
+  "code": "PG",
+  "name": "Papua New Guinea",
+  "continent": "Oceania",
+  "subregion": "Melanesia",
+  "status": "un-member"
+ },
+ {
+  "code": "PH",
+  "name": "Philippines",
+  "continent": "Asia",
+  "subregion": "South-eastern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "PK",
+  "name": "Pakistan",
+  "continent": "Asia",
+  "subregion": "Southern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "PL",
+  "name": "Poland",
+  "continent": "Europe",
+  "subregion": "Eastern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "PM",
+  "name": "Saint Pierre and Miquelon",
+  "continent": "Americas",
+  "subregion": "Northern America",
+  "status": "territory"
+ },
+ {
+  "code": "PR",
+  "name": "Puerto Rico",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "territory"
+ },
+ {
+  "code": "PS",
+  "name": "Palestine",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "status": "un-observer"
+ },
+ {
+  "code": "PT",
+  "name": "Portugal",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "PW",
+  "name": "Palau",
+  "continent": "Oceania",
+  "subregion": "Micronesia",
+  "status": "un-member"
+ },
+ {
+  "code": "PY",
+  "name": "Paraguay",
+  "continent": "Americas",
+  "subregion": "South America",
+  "status": "un-member"
+ },
+ {
+  "code": "QA",
+  "name": "Qatar",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "RE",
+  "name": "Réunion",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "territory"
+ },
+ {
+  "code": "RO",
+  "name": "Romania",
+  "continent": "Europe",
+  "subregion": "Eastern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "RS",
+  "name": "Serbia",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "RU",
+  "name": "Russia",
+  "continent": "Europe",
+  "subregion": "Eastern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "RW",
+  "name": "Rwanda",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "SA",
+  "name": "Saudi Arabia",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "SB",
+  "name": "Solomon Islands",
+  "continent": "Oceania",
+  "subregion": "Melanesia",
+  "status": "un-member"
+ },
+ {
+  "code": "SC",
+  "name": "Seychelles",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "SD",
+  "name": "Sudan",
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "SE",
+  "name": "Sweden",
+  "continent": "Europe",
+  "subregion": "Northern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "SG",
+  "name": "Singapore",
+  "continent": "Asia",
+  "subregion": "South-eastern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "SH",
+  "name": "Saint Helena",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "status": "territory"
+ },
+ {
+  "code": "SI",
+  "name": "Slovenia",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "SK",
+  "name": "Slovakia",
+  "continent": "Europe",
+  "subregion": "Eastern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "SL",
+  "name": "Sierra Leone",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "SM",
+  "name": "San Marino",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "SN",
+  "name": "Senegal",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "SO",
+  "name": "Somalia",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "SR",
+  "name": "Suriname",
+  "continent": "Americas",
+  "subregion": "South America",
+  "status": "un-member"
+ },
+ {
+  "code": "SS",
+  "name": "South Sudan",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "ST",
+  "name": "Sao Tome and Principe",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "SV",
+  "name": "El Salvador",
+  "continent": "Americas",
+  "subregion": "Central America",
+  "status": "un-member"
+ },
+ {
+  "code": "SX",
+  "name": "Sint Maarten",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "territory"
+ },
+ {
+  "code": "SY",
+  "name": "Syria",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "SZ",
+  "name": "Eswatini",
+  "continent": "Africa",
+  "subregion": "Southern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "TC",
+  "name": "Turks and Caicos Islands",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "territory"
+ },
+ {
+  "code": "TD",
+  "name": "Chad",
+  "continent": "Africa",
+  "subregion": "Middle Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "TG",
+  "name": "Togo",
+  "continent": "Africa",
+  "subregion": "Western Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "TH",
+  "name": "Thailand",
+  "continent": "Asia",
+  "subregion": "South-eastern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "TJ",
+  "name": "Tajikistan",
+  "continent": "Asia",
+  "subregion": "Central Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "TK",
+  "name": "Tokelau",
+  "continent": "Oceania",
+  "subregion": "Polynesia",
+  "status": "territory"
+ },
+ {
+  "code": "TL",
+  "name": "Timor-Leste",
+  "continent": "Asia",
+  "subregion": "South-eastern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "TM",
+  "name": "Turkmenistan",
+  "continent": "Asia",
+  "subregion": "Central Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "TN",
+  "name": "Tunisia",
+  "continent": "Africa",
+  "subregion": "Northern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "TO",
+  "name": "Tonga",
+  "continent": "Oceania",
+  "subregion": "Polynesia",
+  "status": "un-member"
+ },
+ {
+  "code": "TR",
+  "name": "Türkiye",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "TT",
+  "name": "Trinidad and Tobago",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "un-member"
+ },
+ {
+  "code": "TV",
+  "name": "Tuvalu",
+  "continent": "Oceania",
+  "subregion": "Polynesia",
+  "status": "un-member"
+ },
+ {
+  "code": "TW",
+  "name": "Taiwan",
+  "continent": "Asia",
+  "subregion": "Eastern Asia",
+  "status": "other"
+ },
+ {
+  "code": "TZ",
+  "name": "Tanzania",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "UA",
+  "name": "Ukraine",
+  "continent": "Europe",
+  "subregion": "Eastern Europe",
+  "status": "un-member"
+ },
+ {
+  "code": "UG",
+  "name": "Uganda",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "US",
+  "name": "United States",
+  "continent": "Americas",
+  "subregion": "Northern America",
+  "status": "un-member"
+ },
+ {
+  "code": "UY",
+  "name": "Uruguay",
+  "continent": "Americas",
+  "subregion": "South America",
+  "status": "un-member"
+ },
+ {
+  "code": "UZ",
+  "name": "Uzbekistan",
+  "continent": "Asia",
+  "subregion": "Central Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "VA",
+  "name": "Vatican City",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "status": "un-observer"
+ },
+ {
+  "code": "VC",
+  "name": "Saint Vincent and the Grenadines",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "un-member"
+ },
+ {
+  "code": "VE",
+  "name": "Venezuela",
+  "continent": "Americas",
+  "subregion": "South America",
+  "status": "un-member"
+ },
+ {
+  "code": "VG",
+  "name": "British Virgin Islands",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "territory"
+ },
+ {
+  "code": "VI",
+  "name": "U.S. Virgin Islands",
+  "continent": "Americas",
+  "subregion": "Caribbean",
+  "status": "territory"
+ },
+ {
+  "code": "VN",
+  "name": "Vietnam",
+  "continent": "Asia",
+  "subregion": "South-eastern Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "VU",
+  "name": "Vanuatu",
+  "continent": "Oceania",
+  "subregion": "Melanesia",
+  "status": "un-member"
+ },
+ {
+  "code": "WF",
+  "name": "Wallis and Futuna",
+  "continent": "Oceania",
+  "subregion": "Polynesia",
+  "status": "territory"
+ },
+ {
+  "code": "WS",
+  "name": "Samoa",
+  "continent": "Oceania",
+  "subregion": "Polynesia",
+  "status": "un-member"
+ },
+ {
+  "code": "XK",
+  "name": "Kosovo",
+  "continent": "Europe",
+  "subregion": "Southern Europe",
+  "status": "other"
+ },
+ {
+  "code": "YE",
+  "name": "Yemen",
+  "continent": "Asia",
+  "subregion": "Western Asia",
+  "status": "un-member"
+ },
+ {
+  "code": "YT",
+  "name": "Mayotte",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "territory"
+ },
+ {
+  "code": "ZA",
+  "name": "South Africa",
+  "continent": "Africa",
+  "subregion": "Southern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "ZM",
+  "name": "Zambia",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "un-member"
+ },
+ {
+  "code": "ZW",
+  "name": "Zimbabwe",
+  "continent": "Africa",
+  "subregion": "Eastern Africa",
+  "status": "un-member"
+ }
+]

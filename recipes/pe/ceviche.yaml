@@ -1,0 +1,47 @@
+id: pe-ceviche
+title: Ceviche
+native_name: {text: Cebiche, lang: es}
+summary: Very fresh white fish cured for minutes in lime juice with chili, red onion and cilantro, served with sweet potato and corn.
+origin:
+  country: PE
+  also_claimed_by: [EC]
+course: starter
+dish_types: [raw-fish]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 25}
+difficulty: 2
+techniques: [curing, boiling]
+ingredient_groups:
+  - name: Ceviche
+    items:
+      - {ingredient: white-fish, qty: 500, unit: g, prep: "skinless, cut into 2 cm cubes", note: "sushi-grade sea bass, sole or corvina"}
+      - {ingredient: lime-juice, qty: 150, unit: ml, note: "freshly squeezed from about 12 small limes — don't squeeze too hard or it turns bitter"}
+      - {ingredient: aji-limo, qty: 1, prep: "finely chopped", alt: [red-chili]}
+      - {ingredient: garlic, qty: 1, unit: clove, prep: "grated"}
+      - {ingredient: red-onion, qty: 1, prep: "very thinly sliced, rinsed in cold water"}
+      - {ingredient: cilantro, qty: 1, unit: handful, prep: "chopped"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+  - name: To serve
+    items:
+      - {ingredient: sweet-potato, qty: 1, note: "boiled, peeled and sliced"}
+      - {ingredient: corn-on-the-cob, qty: 1, note: "boiled and cut into rounds"}
+      - {ingredient: lettuce, qty: 4, unit: leaf}
+steps:
+  - Boil the sweet potato and corn until tender; let them cool.
+  - Keep everything cold. Put the fish in a chilled bowl, season with salt and toss.
+  - Add the garlic and chili, then pour over the lime juice and toss.
+  - text: Leave just until the outside of the fish turns opaque while the centre stays translucent.
+    timer_min: 3
+  - Fold in the onion and cilantro. Serve immediately on lettuce with sweet potato and corn.
+tips:
+  - Peruvian ceviche is cured briefly — a few minutes, not hours.
+  - Use fish labelled for raw consumption or previously frozen fish to reduce the risk of parasites.
+serving: The leftover juice, leche de tigre, is drunk from a small glass.
+culture: Ceviche's preparation and consumption were inscribed on UNESCO's Intangible Cultural Heritage list as an expression of Peruvian traditional cuisine in 2023.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

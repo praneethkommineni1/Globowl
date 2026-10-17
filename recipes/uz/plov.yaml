@@ -1,0 +1,48 @@
+id: uz-plov
+title: Plov
+native_name: {text: Palov, lang: uz}
+alternate_names: [Osh, Uzbek pilaf]
+summary: Lamb, sweet yellow carrots and rice slowly cooked together in a cast-iron kazan with whole heads of garlic and cumin.
+origin:
+  country: UZ
+  also_claimed_by: [TJ]
+course: main
+dish_types: [rice-dish, one-pot]
+occasions: [Weddings, Celebrations, Thursday and Sunday gatherings]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 30, cook_min: 90, inactive_min: 30}
+difficulty: 4
+equipment: [Cast-iron kazan or heavy Dutch oven]
+techniques: [pan-frying, braising, rice-cooking]
+ingredient_groups:
+  - items:
+      - {ingredient: medium-grain-rice, qty: 600, unit: g, note: "devzira or another medium-grain rice"}
+      - {ingredient: vegetable-oil, qty: 150, unit: ml}
+      - {ingredient: lamb-shoulder, qty: 750, unit: g, prep: "cut into 4 cm pieces"}
+      - {ingredient: onion, qty: 2, prep: "sliced into half-moons"}
+      - {ingredient: carrot, qty: 750, unit: g, prep: "cut into thick matchsticks (not grated)", note: "yellow carrots if you can find them"}
+      - {ingredient: cumin-seeds, qty: 1, unit: tbsp}
+      - {ingredient: coriander-seeds, qty: 1, unit: tsp, optional: true}
+      - {ingredient: dried-barberries, qty: 1, unit: tbsp, optional: true}
+      - {ingredient: garlic, qty: 2, note: "whole heads, outer papery skin removed"}
+      - {ingredient: salt, qty: 1, unit: tbsp}
+      - {ingredient: water, qty: 900, unit: ml, note: "boiling"}
+steps:
+  - text: Rinse the rice until the water is clear, then soak it in warm salted water.
+    timer_min: 30
+  - Heat the oil in the kazan until very hot. Brown the lamb in batches until well seared.
+  - Add the onions and fry until golden. Spread the carrots over the top without stirring for 3 minutes, then stir and fry until they soften (about 10 minutes).
+  - text: Add cumin, coriander, barberries, half the salt and enough boiling water to just cover. Simmer — this broth, the zirvak, is the soul of plov.
+    timer_min: 40
+  - Drain the rice and spread it in an even layer over the zirvak — do not stir. Add boiling water to cover the rice by 1.5 cm and the rest of the salt. Push the garlic heads into the rice.
+  - Boil on high until the water disappears below the surface of the rice. Gather the rice into a dome, poke a few holes to the bottom with a spoon handle, cover tightly and cook on the lowest heat for 25 minutes.
+  - Mix gently, or serve layered — rice on a big platter topped with carrots, meat and garlic.
+serving: On a shared platter with achichuk (tomato and onion salad) and green tea.
+culture: Uzbekistan's palov culture was added to UNESCO's Intangible Cultural Heritage list in 2016. Making plov for a crowd is traditionally a man's job, and it is the centrepiece of weddings and celebrations.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

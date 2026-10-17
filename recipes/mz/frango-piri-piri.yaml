@@ -1,0 +1,43 @@
+id: mz-frango-piri-piri
+title: Piri-Piri Chicken
+native_name: {text: Frango piri-piri, lang: pt}
+summary: Spatchcocked chicken marinated in a fiery bird's-eye chili, garlic and lemon sauce and grilled over coals.
+origin:
+  country: MZ
+  also_claimed_by: [PT, AO]
+course: main
+dish_types: [grilled-meat]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 45, inactive_min: 240}
+difficulty: 3
+equipment: [Grill or oven, Blender]
+techniques: [marinating, grilling]
+ingredient_groups:
+  - name: Piri-piri sauce
+    items:
+      - {ingredient: birds-eye-chili, qty: [6, 10], prep: "stems removed"}
+      - {ingredient: garlic, qty: 6, unit: clove}
+      - {ingredient: lemon-juice, qty: 60, unit: ml}
+      - {ingredient: olive-oil, qty: 60, unit: ml}
+      - {ingredient: paprika, qty: 1, unit: tbsp}
+      - {ingredient: dried-oregano, qty: 1, unit: tsp}
+      - {ingredient: salt, qty: 1, unit: tsp}
+  - name: Chicken
+    items:
+      - {ingredient: whole-chicken, qty: 1.5, unit: kg, prep: "spatchcocked (backbone removed and flattened)"}
+steps:
+  - Blend the sauce ingredients until smooth. Keep a quarter aside for basting and serving.
+  - text: Slash the chicken through the thickest parts and rub with the remaining sauce. Marinate in the fridge for at least 4 hours or overnight.
+    timer_min: 240
+  - text: Grill skin-side up over medium coals with the lid closed, basting occasionally, then flip and crisp the skin. Or roast at 200 °C. The thickest part of the thigh should reach 74 °C.
+    timer_min: 45
+  - Rest for 10 minutes, then cut into pieces and serve with the reserved sauce.
+serving: With chips, rice or bread rolls and a tomato-onion salad.
+culture: Bird's-eye chilies of African origin met Portuguese cooking in colonial Mozambique and Angola; the dish was later popularised worldwide by Portuguese and South African restaurants.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

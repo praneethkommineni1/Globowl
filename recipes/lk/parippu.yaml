@@ -1,0 +1,47 @@
+id: lk-parippu
+title: Parippu
+native_name: {text: පරිප්පු, lang: si, romanized: parippu}
+alternate_names: [Sri Lankan dhal curry]
+summary: Red lentils simmered in coconut milk with turmeric, then finished with a sizzling tempering of mustard seeds, curry leaves and chili.
+origin:
+  country: LK
+course: main
+dish_types: [curry, lentils]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 30}
+difficulty: 1
+techniques: [simmering, spice-blooming]
+ingredient_groups:
+  - name: Lentils
+    items:
+      - {ingredient: red-lentils, qty: 200, unit: g, prep: "rinsed"}
+      - {ingredient: water, qty: 400, unit: ml}
+      - {ingredient: onion, qty: 0.5, prep: "chopped"}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "sliced"}
+      - {ingredient: green-chili, qty: 2, prep: "slit"}
+      - {ingredient: ground-turmeric, qty: 0.5, unit: tsp}
+      - {ingredient: pandan-leaf, qty: 1, optional: true}
+      - {ingredient: coconut-milk, qty: 200, unit: ml}
+      - {ingredient: salt, note: "to taste"}
+  - name: Tempering
+    items:
+      - {ingredient: coconut-oil, qty: 2, unit: tbsp}
+      - {ingredient: mustard-seeds, qty: 1, unit: tsp}
+      - {ingredient: cumin-seeds, qty: 0.5, unit: tsp}
+      - {ingredient: dried-red-chili, qty: 2, prep: "broken"}
+      - {ingredient: curry-leaves, qty: 10}
+      - {ingredient: onion, qty: 0.5, prep: "thinly sliced"}
+steps:
+  - text: Simmer the lentils, water, onion, garlic, chili, turmeric and pandan until the lentils are soft and breaking up.
+    timer_min: 15
+  - Stir in the coconut milk and salt and simmer 5 minutes more. Add water if you want it thinner.
+  - Heat the coconut oil in a small pan. Add mustard seeds; when they pop, add cumin, dried chili, curry leaves and sliced onion. Fry until the onion is golden.
+  - Pour the sizzling tempering over the dhal and stir.
+serving: With rice and other curries, or with roti or string hoppers for breakfast.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

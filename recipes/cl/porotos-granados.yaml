@@ -1,0 +1,40 @@
+id: cl-porotos-granados
+title: Porotos Granados
+native_name: {text: Porotos granados, lang: es}
+summary: A late-summer stew of fresh shelling beans, squash and grated sweetcorn, scented with basil.
+origin:
+  country: CL
+course: main
+dish_types: [stew, beans]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 45}
+difficulty: 1
+techniques: [sauteing, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "minced"}
+      - {ingredient: sweet-paprika, qty: 1, unit: tsp}
+      - {ingredient: dried-oregano, qty: 0.5, unit: tsp}
+      - {ingredient: fresh-cranberry-beans, qty: 500, unit: g, note: "shelled; or 2 cans cannellini beans, drained"}
+      - {ingredient: butternut-squash, qty: 400, unit: g, prep: "peeled and cubed"}
+      - {ingredient: water, qty: 1, unit: l}
+      - {ingredient: corn-on-the-cob, qty: 2, prep: "kernels grated or blended to a coarse purée"}
+      - {ingredient: basil, qty: 1, unit: handful, prep: "chopped"}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - Fry the onion in the oil until soft. Add garlic, paprika and oregano and cook 1 minute.
+  - text: Add the beans, squash and water. Simmer until the beans are tender and the squash begins to fall apart.
+    timer_min: 30
+  - text: Stir in the corn and basil and cook, stirring, until thickened.
+    timer_min: 10
+  - Season with salt.
+serving: With pebre (Chilean tomato-chili salsa) or a spoon of ají.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

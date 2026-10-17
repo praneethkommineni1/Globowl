@@ -1,0 +1,39 @@
+id: au-anzac-biscuits
+title: Anzac Biscuits
+summary: Chewy-crisp oat and coconut biscuits sweetened with golden syrup, baked for Anzac Day.
+origin:
+  country: AU
+  also_claimed_by: [NZ]
+course: dessert
+dish_types: [biscuit]
+occasions: [Anzac Day (25 April)]
+authenticity: traditional
+yield: {amount: about 20 biscuits}
+time: {prep_min: 10, cook_min: 15}
+difficulty: 1
+techniques: [baking]
+ingredient_groups:
+  - items:
+      - {ingredient: rolled-oats, qty: 90, unit: g}
+      - {ingredient: all-purpose-flour, qty: 150, unit: g}
+      - {ingredient: brown-sugar, qty: 140, unit: g}
+      - {ingredient: desiccated-coconut, qty: 65, unit: g}
+      - {ingredient: butter, qty: 125, unit: g}
+      - {ingredient: golden-syrup, qty: 2, unit: tbsp}
+      - {ingredient: baking-soda, qty: 0.5, unit: tsp}
+      - {ingredient: water, qty: 2, unit: tbsp, note: "boiling"}
+steps:
+  - Heat the oven to 160 °C and line two trays with baking paper.
+  - Mix the oats, flour, sugar and coconut in a bowl.
+  - Melt the butter and golden syrup together. Dissolve the soda in the boiling water and stir it into the butter — it will foam.
+  - Pour the foaming mixture into the dry ingredients and mix well.
+  - Roll tablespoons of the mixture into balls and place on the trays, well spaced. Flatten slightly.
+  - text: Bake until golden. They firm up as they cool — bake longer for crisp, less for chewy.
+    timer_min: 13
+culture: Associated with the Australian and New Zealand Army Corps of World War I; the name "Anzac" is protected by law in both countries.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -1,0 +1,41 @@
+id: pt-caldo-verde
+title: Caldo Verde
+native_name: {text: Caldo verde, lang: pt}
+summary: A silky potato and onion soup with ribbons of finely shredded kale, served with a slice of smoky chouriço.
+origin:
+  country: PT
+  region: Minho
+course: soup
+dish_types: [soup]
+occasions: [Santos Populares (June saints' festivals)]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 15, cook_min: 35}
+difficulty: 1
+equipment: [Stick blender]
+techniques: [simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: olive-oil, qty: 4, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "chopped"}
+      - {ingredient: potato, qty: 600, unit: g, prep: "peeled and chopped", note: "floury"}
+      - {ingredient: water, qty: 1.5, unit: l}
+      - {ingredient: kale, qty: 250, unit: g, prep: "stems removed, rolled and cut into very fine ribbons", note: "Portuguese couve galega if available"}
+      - {ingredient: chorizo, qty: 150, unit: g, prep: "sliced", optional: true, note: "Portuguese chouriço"}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - Warm 2 tablespoons oil and soften the onion and garlic. Add potatoes, water and salt.
+  - text: Simmer until the potatoes are very soft.
+    timer_min: 20
+  - Blend until completely smooth.
+  - text: Bring back to a boil, add the kale and cook uncovered until tender but still bright green.
+    timer_min: 5
+  - Meanwhile, fry the chouriço slices briefly. Serve each bowl with a slice or two of chouriço and a drizzle of olive oil.
+serving: With broa (Portuguese corn bread).
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

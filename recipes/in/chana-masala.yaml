@@ -1,0 +1,52 @@
+id: in-chana-masala
+title: Chana Masala
+native_name: {text: छोले, lang: hi, romanized: chole}
+summary: Chickpeas simmered in a tangy, deeply spiced onion-tomato gravy — a North Indian staple.
+origin:
+  country: IN
+  region: Punjab
+  also_claimed_by: [PK]
+course: main
+dish_types: [curry, legumes]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 40}
+difficulty: 2
+techniques: [spice-blooming, sauteing, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: vegetable-oil, qty: 3, unit: tbsp, alt: [ghee]}
+      - {ingredient: cumin-seeds, qty: 1, unit: tsp}
+      - {ingredient: bay-leaf, qty: 1}
+      - {ingredient: onion, qty: 2, prep: "finely chopped"}
+      - {ingredient: ginger, qty: 3, unit: cm, prep: "grated"}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "minced"}
+      - {ingredient: green-chili, qty: [1, 2], prep: "slit"}
+      - {ingredient: ground-coriander, qty: 2, unit: tsp}
+      - {ingredient: ground-cumin, qty: 1, unit: tsp}
+      - {ingredient: ground-turmeric, qty: 0.5, unit: tsp}
+      - {ingredient: kashmiri-chili-powder, qty: 1, unit: tsp}
+      - {ingredient: canned-tomatoes, qty: 400, unit: g, prep: "blended"}
+      - {ingredient: chickpeas-canned, qty: 2, unit: can, note: "400 g cans, drained (keep a little liquid)"}
+      - {ingredient: water, qty: 250, unit: ml}
+      - {ingredient: garam-masala, qty: 1, unit: tsp}
+      - {ingredient: amchur, qty: 0.5, unit: tsp, optional: true, note: "or a squeeze of lemon"}
+      - {ingredient: salt, note: "to taste"}
+      - {ingredient: cilantro, qty: 1, unit: handful, prep: "chopped"}
+steps:
+  - Heat the oil and add cumin seeds and bay leaf. When the seeds sizzle, add the onion.
+  - text: Fry the onion until deep golden brown — this gives the gravy its colour.
+    timer_min: 12
+  - Add ginger, garlic and chili and fry 1 minute. Add the ground spices with a splash of water and fry for 1 minute more.
+  - text: Add the tomatoes and cook until the masala thickens and oil appears around the edges.
+    timer_min: 10
+  - text: Add the chickpeas, water and salt. Simmer, mashing a few chickpeas to thicken the gravy.
+    timer_min: 15
+  - Stir in garam masala and amchur, and finish with cilantro.
+serving: With bhature (fried bread), rice or roti, sliced raw onion and lemon wedges.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

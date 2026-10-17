@@ -1,0 +1,45 @@
+id: fr-ratatouille
+title: Ratatouille
+native_name: {text: Ratatouille niçoise, lang: fr}
+summary: Provençal summer vegetables — aubergine, courgette, peppers and tomato — each cooked separately in olive oil then gently stewed together with herbs.
+origin:
+  country: FR
+  region: Provence (Nice)
+course: side
+dish_types: [stew, vegetables]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 25, cook_min: 60}
+difficulty: 2
+techniques: [sauteing, stewing]
+ingredient_groups:
+  - items:
+      - {ingredient: olive-oil, qty: 6, unit: tbsp}
+      - {ingredient: eggplant, qty: 1, prep: "cut into 2 cm cubes"}
+      - {ingredient: zucchini, qty: 2, prep: "cut into 2 cm cubes"}
+      - {ingredient: red-bell-pepper, qty: 1, prep: "cut into 2 cm pieces"}
+      - {ingredient: yellow-bell-pepper, qty: 1, prep: "cut into 2 cm pieces"}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "sliced"}
+      - {ingredient: tomato, qty: 600, unit: g, prep: "peeled and chopped"}
+      - {ingredient: thyme, qty: 3, unit: sprig}
+      - {ingredient: bay-leaf, qty: 1}
+      - {ingredient: basil, qty: 1, unit: handful, prep: "torn"}
+      - {ingredient: salt, note: "to taste"}
+      - {ingredient: black-pepper, note: "to taste"}
+steps:
+  - Fry the aubergine in 2 tablespoons oil until golden; set aside. Do the same with the courgette, then the peppers, adding oil as needed. Season each batch lightly.
+  - In the same pot, soften the onion in the remaining oil, then add the garlic for 1 minute.
+  - Add the tomatoes, thyme and bay and cook for 10 minutes until saucy.
+  - text: Return all the vegetables, stir gently, cover and stew over low heat.
+    timer_min: 30
+  - Stir in the basil, season, and serve hot, warm or cold.
+tips:
+  - It is better the next day.
+serving: As a side for grilled meat or fish, with rice, or on its own with bread and an egg.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -1,0 +1,48 @@
+id: id-nasi-goreng
+title: Nasi Goreng
+native_name: {text: Nasi goreng, lang: id}
+summary: Indonesia's national fried rice — day-old rice fried with a chili-shallot paste, shrimp paste and sweet soy, topped with a fried egg.
+origin:
+  country: ID
+  also_claimed_by: [MY, SG]
+course: main
+dish_types: [fried-rice]
+authenticity: home-style
+yield: {servings: 2}
+time: {prep_min: 15, cook_min: 15}
+difficulty: 2
+equipment: [Wok, Mortar and pestle or small blender]
+techniques: [stir-frying, pan-frying]
+ingredient_groups:
+  - name: Spice paste
+    items:
+      - {ingredient: shallot, qty: 4}
+      - {ingredient: garlic, qty: 3, unit: clove}
+      - {ingredient: red-chili, qty: 2, note: "seeded for less heat"}
+      - {ingredient: shrimp-paste, qty: 1, unit: tsp, note: "terasi, toasted"}
+  - name: Fried rice
+    items:
+      - {ingredient: vegetable-oil, qty: 3, unit: tbsp}
+      - {ingredient: chicken-thigh, qty: 200, unit: g, prep: "boneless, thinly sliced", optional: true}
+      - {ingredient: cooked-long-grain-rice, qty: 600, unit: g, note: "cold, ideally a day old"}
+      - {ingredient: kecap-manis, qty: [2, 3], unit: tbsp}
+      - {ingredient: salt, note: "to taste"}
+  - name: To serve
+    items:
+      - {ingredient: egg, qty: 2, note: "fried"}
+      - {ingredient: cucumber, qty: 0.5, prep: "sliced"}
+      - {ingredient: tomato, qty: 1, prep: "sliced"}
+      - {ingredient: fried-shallots, qty: 2, unit: tbsp, optional: true}
+      - {ingredient: prawn-crackers, qty: 1, unit: handful, optional: true}
+steps:
+  - Pound or blend the spice-paste ingredients to a coarse paste.
+  - Heat the oil in a wok over medium-high heat and fry the paste until fragrant and darker (2–3 minutes).
+  - Add the chicken, if using, and stir-fry until cooked.
+  - Add the rice, breaking up clumps, and toss over high heat for 3–4 minutes. Add kecap manis and salt and toss until every grain is coloured.
+  - Serve topped with a fried egg, with cucumber, tomato, fried shallots and crackers on the side.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

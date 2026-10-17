@@ -1,0 +1,38 @@
+id: ar-chimichurri
+title: Chimichurri
+native_name: {text: Chimichurri, lang: es}
+summary: A sharp, herby sauce of parsley, oregano, garlic, chili, vinegar and oil — the essential partner to Argentine grilled meat.
+origin:
+  country: AR
+  also_claimed_by: [UY]
+course: condiment
+dish_types: [sauce]
+authenticity: traditional
+yield: {servings: 8, amount: about 250 ml}
+time: {prep_min: 10, cook_min: 0, inactive_min: 60}
+difficulty: 1
+techniques: []
+ingredient_groups:
+  - items:
+      - {ingredient: water, qty: 3, unit: tbsp, note: "hot"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: parsley, qty: 1, unit: bunch, prep: "finely chopped by hand"}
+      - {ingredient: dried-oregano, qty: 1, unit: tbsp}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "finely chopped"}
+      - {ingredient: chili-flakes, qty: 1, unit: tsp}
+      - {ingredient: red-wine-vinegar, qty: 60, unit: ml}
+      - {ingredient: olive-oil, qty: 120, unit: ml, note: "or a mix of olive and sunflower oil"}
+steps:
+  - Dissolve the salt in the hot water to make a brine (salmuera).
+  - Combine the parsley, oregano, garlic and chili in a jar. Add the brine and vinegar, then the oil.
+  - text: Leave at room temperature to let the flavours mingle.
+    timer_min: 60
+tips:
+  - It improves over a day in the fridge and keeps for about a week.
+serving: Spooned over asado (grilled beef), choripán (sausage sandwich) or grilled vegetables.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

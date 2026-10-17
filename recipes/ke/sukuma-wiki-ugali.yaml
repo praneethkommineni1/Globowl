@@ -1,0 +1,43 @@
+id: ke-sukuma-wiki-ugali
+title: Sukuma Wiki with Ugali
+native_name: {text: Sukuma wiki na ugali, lang: sw}
+summary: Collard greens sautéed with onion and tomato, eaten with ugali — a firm, smooth maize-flour staple.
+origin:
+  country: KE
+  also_claimed_by: [TZ]
+course: main
+dish_types: [greens, porridge]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 25}
+difficulty: 2
+techniques: [sauteing, boiling]
+ingredient_groups:
+  - name: Ugali
+    items:
+      - {ingredient: water, qty: 750, unit: ml}
+      - {ingredient: maize-flour, qty: 300, unit: g, note: "fine white maize meal; not cornstarch"}
+  - name: Sukuma wiki
+    items:
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: collard-greens, qty: 500, unit: g, prep: "stems removed, leaves rolled and very thinly sliced"}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - Bring the water to a boil in a heavy pot. Sprinkle in a third of the maize flour, stirring, and cook to a thin porridge for 2 minutes.
+  - Add the rest of the flour gradually, pressing and folding with a sturdy wooden spoon against the side of the pot, until stiff and smooth with no dry lumps.
+  - text: Reduce the heat and keep turning and pressing the ugali until it smells toasty and pulls away from the pot. Shape into a dome and cover.
+    timer_min: 5
+  - Heat the oil in a pan and fry the onion until soft. Add the tomato and cook until it collapses.
+  - Add the greens and salt and stir-fry just until wilted and bright green (3–5 minutes).
+tips:
+  - Kale works in place of collards.
+serving: Pinch off a piece of ugali, press a dent into it with your thumb, and use it to scoop the greens. Often served with nyama choma (grilled meat) or stew.
+culture: Sukuma wiki means "push the week" in Swahili — cheap greens that stretch the household budget to payday.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

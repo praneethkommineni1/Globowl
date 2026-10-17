@@ -1,0 +1,40 @@
+id: hu-chicken-paprikash
+title: Chicken Paprikash
+native_name: {text: Paprikás csirke, lang: hu}
+summary: Chicken braised in a rich onion and sweet paprika sauce, finished with sour cream.
+origin:
+  country: HU
+course: main
+dish_types: [braise]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 50}
+difficulty: 2
+techniques: [sauteing, braising]
+ingredient_groups:
+  - items:
+      - {ingredient: lard, qty: 2, unit: tbsp, alt: [vegetable-oil]}
+      - {ingredient: onion, qty: 2, prep: "finely chopped"}
+      - {ingredient: sweet-paprika, qty: 2, unit: tbsp, note: "Hungarian"}
+      - {ingredient: hot-paprika, qty: 0.5, unit: tsp, optional: true}
+      - {ingredient: chicken-thigh, qty: 1.2, unit: kg, prep: "bone-in pieces, skin removed if you like"}
+      - {ingredient: tomato, qty: 1, prep: "chopped"}
+      - {ingredient: green-pepper, qty: 1, prep: "sliced", note: "Hungarian wax pepper if available"}
+      - {ingredient: water, qty: 250, unit: ml}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: sour-cream, qty: 200, unit: ml}
+      - {ingredient: all-purpose-flour, qty: 1, unit: tbsp}
+steps:
+  - Melt the lard and cook the onions slowly until soft and golden.
+  - Take the pot off the heat and stir in the paprika — it burns easily and turns bitter.
+  - Immediately add the chicken, tomato, pepper, water and salt. Return to the heat.
+  - text: Cover and simmer, turning the chicken occasionally, until tender.
+    timer_min: 40
+  - Whisk the sour cream with the flour and a ladle of hot sauce, then stir it into the pot. Simmer gently for 3 minutes without boiling hard.
+serving: With nokedli (small egg dumplings) or buttered noodles, and cucumber salad.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

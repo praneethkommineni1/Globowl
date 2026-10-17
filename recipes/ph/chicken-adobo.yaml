@@ -1,0 +1,40 @@
+id: ph-chicken-adobo
+title: Chicken Adobo
+native_name: {text: Adobong manok, lang: tl}
+summary: Chicken braised in vinegar, soy sauce, garlic, bay leaves and black pepper until tender and glazed.
+origin:
+  country: PH
+course: main
+dish_types: [braise]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 50, inactive_min: 30}
+difficulty: 1
+techniques: [marinating, braising, pan-frying]
+ingredient_groups:
+  - items:
+      - {ingredient: chicken-thigh, qty: 1, unit: kg, prep: "bone-in, skin-on"}
+      - {ingredient: soy-sauce, qty: 80, unit: ml}
+      - {ingredient: cane-vinegar, qty: 120, unit: ml, alt: [white-vinegar]}
+      - {ingredient: garlic, qty: 10, unit: clove, prep: "crushed"}
+      - {ingredient: bay-leaf, qty: 3}
+      - {ingredient: black-peppercorns, qty: 1, unit: tsp, prep: "lightly cracked"}
+      - {ingredient: water, qty: 120, unit: ml}
+      - {ingredient: sugar, qty: 1, unit: tsp, optional: true}
+      - {ingredient: vegetable-oil, qty: 1, unit: tbsp}
+steps:
+  - text: Combine the chicken with the soy sauce and garlic and leave to marinate.
+    timer_min: 30
+  - Put the chicken and marinade in a pot with the vinegar, bay leaves, peppercorns and water. Bring to a boil and let it bubble for 2 minutes without stirring — this mellows the vinegar.
+  - text: Cover and simmer gently until the chicken is tender.
+    timer_min: 30
+  - Lift out the chicken. Brown it skin-side down in the oil in a frying pan.
+  - Meanwhile, reduce the sauce until syrupy. Add the sugar if you like it rounder, then return the chicken and turn to coat.
+serving: With steamed rice to soak up the sauce.
+culture: There are as many adobos as Filipino households — with pork, coconut milk, extra vinegar, or no soy sauce at all (adobong puti).
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

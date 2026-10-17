@@ -1,0 +1,35 @@
+id: it-cacio-e-pepe
+title: Cacio e Pepe
+native_name: {text: Cacio e pepe, lang: it}
+summary: Roman pasta with only three ingredients — pecorino, black pepper and starchy pasta water whipped into a creamy sauce.
+origin:
+  country: IT
+  region: Lazio (Rome)
+course: main
+dish_types: [pasta]
+authenticity: traditional
+yield: {servings: 2}
+time: {prep_min: 5, cook_min: 15}
+difficulty: 3
+techniques: [boiling, whisking]
+ingredient_groups:
+  - items:
+      - {ingredient: spaghetti, qty: 200, unit: g, note: "or tonnarelli"}
+      - {ingredient: pecorino-romano, qty: 80, unit: g, prep: "very finely grated"}
+      - {ingredient: black-peppercorns, qty: 2, unit: tsp, prep: "coarsely crushed"}
+      - {ingredient: salt, note: "for the pasta water — use less than usual, the cheese is salty"}
+steps:
+  - Cook the pasta in a smaller amount of water than usual (about 2 litres) so it gets very starchy. Lightly salt it.
+  - Toast the pepper in a large dry frying pan for 1 minute, then add a ladle of pasta water and let it simmer.
+  - In a bowl, mash the pecorino with a few spoonfuls of lukewarm (not hot) pasta water into a thick, smooth paste.
+  - Two minutes before the pasta is al dente, transfer it to the pepper pan with tongs and finish cooking it there, adding pasta water as needed.
+  - Take the pan off the heat and let it cool for 30 seconds. Add the cheese paste and toss vigorously, adding splashes of water until the sauce is creamy and coats the pasta. Serve immediately.
+tips:
+  - If the pan is too hot the cheese turns into clumps; off the heat and lukewarm water are the keys.
+culture: A dish of Roman shepherds, who carried dried pasta, aged pecorino and pepper because none of them spoil.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

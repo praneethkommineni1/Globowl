@@ -1,0 +1,45 @@
+id: kr-kimchi-jjigae
+title: Kimchi Jjigae
+native_name: {text: 김치찌개, lang: ko, romanized: kimchi-jjigae}
+alternate_names: [Kimchi stew]
+summary: A bubbling, sour-spicy stew of well-fermented kimchi, pork belly and tofu — Korean comfort food.
+origin:
+  country: KR
+course: soup
+dish_types: [stew, jjigae]
+authenticity: home-style
+yield: {servings: 3}
+time: {prep_min: 10, cook_min: 30}
+difficulty: 1
+techniques: [stir-frying, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: pork-belly, qty: 200, unit: g, prep: "sliced into bite-size pieces"}
+      - {ingredient: kimchi, qty: 300, unit: g, prep: "well-fermented (sour), chopped", alt: [vegan-kimchi]}
+      - {ingredient: kimchi-juice, qty: 60, unit: ml, optional: true}
+      - {ingredient: onion, qty: 0.5, prep: "sliced"}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "minced"}
+      - {ingredient: gochugaru, qty: 1, unit: tbsp}
+      - {ingredient: gochujang, qty: 1, unit: tbsp}
+      - {ingredient: sugar, qty: 1, unit: tsp, note: "balances very sour kimchi"}
+      - {ingredient: water, qty: 500, unit: ml, note: "or anchovy-kelp stock"}
+      - {ingredient: firm-tofu, qty: 300, unit: g, prep: "sliced 1 cm thick"}
+      - {ingredient: scallion, qty: 2, prep: "cut into 3 cm lengths"}
+      - {ingredient: sesame-oil, qty: 1, unit: tsp}
+steps:
+  - In a pot, fry the pork belly over medium heat until it renders some fat and starts to brown.
+  - Add the kimchi and stir-fry with the pork for 5 minutes until it softens and smells toasty.
+  - Add onion, garlic, gochugaru, gochujang, sugar, kimchi juice and water. Bring to a boil.
+  - text: Simmer, partly covered, until the kimchi is tender and the broth is rich.
+    timer_min: 15
+  - Lay the tofu on top and simmer 5 minutes more. Add the scallion and sesame oil and serve bubbling.
+tips:
+  - Old, very sour kimchi makes the best jjigae.
+  - Omit the pork and use vegan kimchi and kelp stock for a vegan version.
+serving: In the pot, in the middle of the table, with rice and banchan.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

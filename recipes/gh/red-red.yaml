@@ -1,0 +1,48 @@
+id: gh-red-red
+title: Red-Red
+summary: Black-eyed peas stewed in red palm oil with tomato and chili, served with sweet fried ripe plantain.
+origin:
+  country: GH
+course: main
+dish_types: [stew, beans]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 40}
+difficulty: 2
+techniques: [stewing, pan-frying]
+ingredient_groups:
+  - name: Bean stew
+    items:
+      - {ingredient: red-palm-oil, qty: 80, unit: ml, alt: [vegetable-oil]}
+      - {ingredient: onion, qty: 1, prep: "finely chopped"}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "minced"}
+      - {ingredient: ginger, qty: 2, unit: cm, prep: "grated"}
+      - {ingredient: scotch-bonnet, qty: 1, prep: "minced", note: "to taste"}
+      - {ingredient: canned-tomatoes, qty: 400, unit: g}
+      - {ingredient: black-eyed-peas, qty: 2, unit: can, note: "400 g cans, drained; or 300 g dried, soaked and boiled"}
+      - {ingredient: smoked-fish, qty: 50, unit: g, prep: "flaked", optional: true}
+      - {ingredient: water, qty: 150, unit: ml}
+      - {ingredient: salt, note: "to taste"}
+  - name: Fried plantain
+    items:
+      - {ingredient: plantain, qty: 2, prep: "very ripe (mostly black), peeled and sliced on the diagonal"}
+      - {ingredient: vegetable-oil, qty: 120, unit: ml, note: "for frying"}
+      - {ingredient: salt, qty: 1, unit: pinch}
+steps:
+  - Warm the palm oil in a pot over medium heat (don't let it smoke). Fry the onion until soft, then add garlic, ginger and chili for 1 minute.
+  - text: Add the tomatoes and cook down, stirring, until thick and the oil separates.
+    timer_min: 10
+  - text: Add the beans, smoked fish if using, water and salt. Simmer, stirring gently, until thick and the beans are soft enough to mash slightly.
+    timer_min: 15
+  - Meanwhile, sprinkle the plantain with salt and shallow-fry in the vegetable oil in batches until caramelised on both sides. Drain on paper.
+  - Serve the beans with the plantain alongside.
+tips:
+  - Red palm oil gives the dish its colour and name; vegetable oil plus a teaspoon of paprika is a reasonable substitute.
+serving: Often with gari (toasted cassava) sprinkled on top.
+culture: The name comes from its two red parts — beans in red palm oil and orange-red fried plantain.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

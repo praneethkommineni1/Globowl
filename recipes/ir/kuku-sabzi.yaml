@@ -1,0 +1,47 @@
+id: ir-kuku-sabzi
+title: Kuku Sabzi
+native_name: {text: کوکو سبزی, lang: fa, romanized: kuku sabzi}
+alternate_names: [Persian herb frittata]
+summary: A thick, vivid-green frittata that is mostly fresh herbs, studded with walnuts and tart barberries.
+origin:
+  country: IR
+course: main
+dish_types: [eggs, frittata]
+occasions: [Nowruz]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 25, cook_min: 30}
+difficulty: 2
+equipment: [24 cm non-stick pan with a lid, or a baking dish]
+techniques: [pan-frying, baking]
+ingredient_groups:
+  - items:
+      - {ingredient: parsley, qty: 1, unit: bunch}
+      - {ingredient: cilantro, qty: 1, unit: bunch}
+      - {ingredient: dill, qty: 1, unit: bunch}
+      - {ingredient: chives, qty: 1, unit: bunch, alt: [scallion]}
+      - {ingredient: dried-fenugreek-leaves, qty: 1, unit: tsp, optional: true}
+      - {ingredient: egg, qty: 6}
+      - {ingredient: ground-turmeric, qty: 0.5, unit: tsp}
+      - {ingredient: baking-powder, qty: 0.5, unit: tsp}
+      - {ingredient: all-purpose-flour, qty: 1, unit: tbsp, optional: true}
+      - {ingredient: walnuts, qty: 40, unit: g, prep: "chopped", optional: true}
+      - {ingredient: dried-barberries, qty: 2, unit: tbsp, optional: true, note: "rinsed"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+      - {ingredient: vegetable-oil, qty: 4, unit: tbsp}
+steps:
+  - Wash and dry the herbs very well, discard the thick stems, and chop finely — you want about 4 packed cups.
+  - Whisk the eggs with turmeric, baking powder, flour, salt and pepper. Fold in the herbs, fenugreek, walnuts and barberries. The mixture should be more green than yellow.
+  - Heat the oil in the pan over medium heat, pour in the mixture and smooth the top.
+  - text: Cover and cook on low until the bottom is set and browned.
+    timer_min: 15
+  - Cut into quarters and flip each one (or flip the whole kuku onto a plate and slide it back). Cook uncovered for 10 minutes more. Alternatively, bake the whole thing at 180 °C for 30 minutes.
+serving: Warm or at room temperature with flatbread, yogurt and pickles.
+culture: Eaten at Nowruz, the Persian New Year, when the green herbs symbolise rebirth and spring.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

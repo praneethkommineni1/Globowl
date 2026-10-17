@@ -1,0 +1,54 @@
+id: gb-shepherds-pie
+title: Shepherd's Pie
+summary: Minced lamb slowly cooked with vegetables in a rich gravy, under a thick, golden layer of mashed potato.
+origin:
+  country: GB
+  region: Northern England and Scotland
+course: main
+dish_types: [pie, bake]
+authenticity: home-style
+yield: {servings: 6}
+time: {prep_min: 30, cook_min: 75}
+difficulty: 2
+equipment: [Ovenproof dish, about 20 × 30 cm]
+techniques: [sauteing, simmering, boiling, baking]
+ingredient_groups:
+  - name: Filling
+    items:
+      - {ingredient: vegetable-oil, qty: 1, unit: tbsp}
+      - {ingredient: lamb-mince, qty: 750, unit: g}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: carrot, qty: 2, prep: "diced"}
+      - {ingredient: celery, qty: 1, unit: stalk, prep: "diced"}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "minced"}
+      - {ingredient: all-purpose-flour, qty: 1, unit: tbsp}
+      - {ingredient: tomato-paste, qty: 1, unit: tbsp}
+      - {ingredient: worcestershire-sauce, qty: 1, unit: tbsp}
+      - {ingredient: beef-stock, qty: 300, unit: ml, note: "or lamb stock"}
+      - {ingredient: thyme, qty: 2, unit: sprig}
+      - {ingredient: salt, note: "to taste"}
+      - {ingredient: black-pepper, note: "to taste"}
+  - name: Mash
+    items:
+      - {ingredient: potato, qty: 1, unit: kg, prep: "peeled and chunked", note: "floury"}
+      - {ingredient: butter, qty: 50, unit: g}
+      - {ingredient: milk, qty: 100, unit: ml}
+      - {ingredient: cheddar, qty: 50, unit: g, prep: "grated", optional: true}
+steps:
+  - Brown the lamb in the oil in batches over high heat. Remove and pour off excess fat.
+  - Soften the onion, carrot and celery in the same pan for 8 minutes. Add the garlic, flour and tomato paste and cook 1 minute.
+  - text: Return the lamb, add the Worcestershire sauce, stock and thyme, and simmer until thick and rich.
+    timer_min: 30
+  - Meanwhile boil the potatoes until tender, drain well and mash with butter, milk and seasoning. Heat the oven to 200 °C.
+  - Spread the filling in the dish, cover with mash and rough up the top with a fork. Sprinkle over the cheese, if using.
+  - text: Bake until bubbling and the top is golden.
+    timer_min: 25
+tips:
+  - Made with minced beef, it's called cottage pie.
+serving: With peas or buttered greens.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

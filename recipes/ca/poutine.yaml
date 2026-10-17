@@ -1,0 +1,46 @@
+id: ca-poutine
+title: Poutine
+native_name: {text: Poutine, lang: fr}
+summary: Crisp double-fried chips topped with squeaky fresh cheese curds and hot, peppery brown gravy.
+origin:
+  country: CA
+  region: Quebec
+course: snack
+dish_types: [fries, street-food]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 40, inactive_min: 30}
+difficulty: 3
+equipment: [Deep pot and thermometer, or a deep fryer]
+techniques: [deep-frying, simmering]
+ingredient_groups:
+  - name: Fries
+    items:
+      - {ingredient: potato, qty: 1, unit: kg, prep: "cut into 1 cm batons", note: "russet or other floury potatoes"}
+      - {ingredient: vegetable-oil, qty: 2, unit: l, note: "for deep-frying"}
+      - {ingredient: salt, note: "to taste"}
+  - name: Gravy
+    items:
+      - {ingredient: butter, qty: 3, unit: tbsp}
+      - {ingredient: all-purpose-flour, qty: 3, unit: tbsp}
+      - {ingredient: beef-stock, qty: 500, unit: ml, alt: [vegetable-stock]}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+  - name: To serve
+    items:
+      - {ingredient: cheese-curds, qty: 300, unit: g, note: "fresh and at room temperature"}
+steps:
+  - text: Soak the potato batons in cold water to remove starch, then dry thoroughly.
+    timer_min: 30
+  - For the gravy, melt the butter, stir in the flour and cook, stirring, until nut-brown. Whisk in the stock and pepper and simmer until thick enough to coat a spoon. Keep hot.
+  - Fry the potatoes at 160 °C in batches for 5–6 minutes until soft but pale. Drain.
+  - Raise the oil to 190 °C and fry again for 2–3 minutes until golden and crisp. Drain and salt.
+  - Pile the fries into bowls, scatter over the cheese curds, and pour over the hot gravy so the curds just begin to melt.
+tips:
+  - Fresh curds should squeak against your teeth — don't refrigerate them before using.
+culture: Born in rural Quebec diners in the late 1950s; the name is Quebec slang for "a mess".
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

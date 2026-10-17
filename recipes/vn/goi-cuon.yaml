@@ -1,0 +1,48 @@
+id: vn-goi-cuon
+title: Fresh Spring Rolls
+native_name: {text: Gỏi cuốn, lang: vi}
+alternate_names: [Summer rolls]
+summary: Rice paper rolled around shrimp, pork, rice noodles and fresh herbs, dipped in a peanut-hoisin sauce.
+origin:
+  country: VN
+  region: Southern Vietnam
+course: starter
+dish_types: [rolls]
+authenticity: home-style
+yield: {servings: 4, amount: 12 rolls}
+time: {prep_min: 40, cook_min: 15}
+difficulty: 2
+techniques: [boiling, rolling]
+ingredient_groups:
+  - name: Rolls
+    items:
+      - {ingredient: pork-shoulder, qty: 200, unit: g, optional: true}
+      - {ingredient: shrimp, qty: 12, note: "large, shell-on"}
+      - {ingredient: rice-vermicelli, qty: 100, unit: g}
+      - {ingredient: rice-paper, qty: 12, note: "22 cm rounds"}
+      - {ingredient: lettuce, qty: 1, note: "soft leaves, e.g. butterhead"}
+      - {ingredient: mint, qty: 1, unit: bunch}
+      - {ingredient: thai-basil, qty: 1, unit: bunch}
+      - {ingredient: garlic-chives, qty: 12, optional: true}
+  - name: Dipping sauce
+    items:
+      - {ingredient: hoisin-sauce, qty: 4, unit: tbsp}
+      - {ingredient: peanut-butter, qty: 2, unit: tbsp}
+      - {ingredient: water, qty: 4, unit: tbsp}
+      - {ingredient: roasted-peanuts, qty: 2, unit: tbsp, prep: "crushed"}
+      - {ingredient: birds-eye-chili, qty: 1, prep: "sliced", optional: true}
+steps:
+  - If using pork, simmer it in salted water until cooked through (about 25 minutes). Cool and slice thinly.
+  - Poach the shrimp in boiling water for 2 minutes, cool, peel and halve lengthwise.
+  - Cook the vermicelli according to the packet, rinse in cold water and drain well.
+  - Dip a rice paper in warm water for 2–3 seconds and lay it on a damp board. It will soften as you work.
+  - Lay lettuce, a little noodles and herbs on the lower third. Fold the bottom over, roll once, place three shrimp halves (cut side up) and pork above, fold in the sides and roll tightly, tucking a chive in so it sticks out.
+  - Simmer the hoisin, peanut butter and water for 1 minute, stirring until smooth. Top with peanuts and chili.
+tips:
+  - Rolls are best within a couple of hours; cover with a damp cloth so they don't dry out.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

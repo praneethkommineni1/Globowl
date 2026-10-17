@@ -1,0 +1,35 @@
+id: ie-brown-soda-bread
+title: Brown Soda Bread
+native_name: {text: Arán sóide donn, lang: ga}
+summary: A rustic wholemeal loaf leavened with baking soda and buttermilk instead of yeast — mixed in minutes, with no kneading or rising.
+origin:
+  country: IE
+course: bread
+dish_types: [quick-bread]
+authenticity: traditional
+yield: {amount: 1 loaf}
+time: {prep_min: 10, cook_min: 40, inactive_min: 20}
+difficulty: 1
+techniques: [baking]
+ingredient_groups:
+  - items:
+      - {ingredient: wholemeal-flour, qty: 250, unit: g, note: "coarse stoneground if possible"}
+      - {ingredient: all-purpose-flour, qty: 200, unit: g}
+      - {ingredient: baking-soda, qty: 1, unit: tsp}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: buttermilk, qty: 400, unit: ml}
+steps:
+  - Heat the oven to 200 °C and dust a baking tray with flour.
+  - Mix the flours, soda and salt in a large bowl. Make a well and pour in most of the buttermilk.
+  - Mix quickly with your hand or a spoon into a soft, slightly sticky dough, adding the rest of the buttermilk if dry. Don't knead — handle as little as possible.
+  - Shape into a round about 4 cm high on the tray. Cut a deep cross on top.
+  - text: Bake until the loaf sounds hollow when tapped underneath.
+    timer_min: 40
+  - Wrap in a clean tea towel to cool, which keeps the crust soft.
+culture: The cross is said to "let the fairies out" — and helps the thick loaf bake through.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

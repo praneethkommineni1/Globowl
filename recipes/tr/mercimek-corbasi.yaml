@@ -1,0 +1,46 @@
+id: tr-mercimek-corbasi
+title: Red Lentil Soup
+native_name: {text: Mercimek çorbası, lang: tr}
+summary: A velvety soup of red lentils, onion and carrot, finished with a drizzle of butter and Aleppo pepper and a squeeze of lemon.
+origin:
+  country: TR
+course: soup
+dish_types: [soup, lentils]
+authenticity: home-style
+yield: {servings: 6}
+time: {prep_min: 10, cook_min: 35}
+difficulty: 1
+equipment: [Stick blender]
+techniques: [sauteing, simmering]
+ingredient_groups:
+  - name: Soup
+    items:
+      - {ingredient: olive-oil, qty: 2, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: carrot, qty: 1, prep: "chopped"}
+      - {ingredient: potato, qty: 1, prep: "small, peeled and chopped", optional: true}
+      - {ingredient: tomato-paste, qty: 1, unit: tbsp, note: "or Turkish pepper paste (biber salçası)"}
+      - {ingredient: red-lentils, qty: 200, unit: g, prep: "rinsed"}
+      - {ingredient: ground-cumin, qty: 1, unit: tsp}
+      - {ingredient: water, qty: 1.5, unit: l, note: "or stock"}
+      - {ingredient: salt, note: "to taste"}
+  - name: To finish
+    items:
+      - {ingredient: butter, qty: 2, unit: tbsp, alt: [olive-oil]}
+      - {ingredient: aleppo-pepper, qty: 1, unit: tsp}
+      - {ingredient: dried-mint, qty: 0.5, unit: tsp, optional: true}
+      - {ingredient: lemon, qty: 1, prep: "cut into wedges"}
+steps:
+  - Heat the oil and soften the onion, carrot and potato for 5 minutes. Stir in the paste and cook 1 minute.
+  - text: Add the lentils, cumin and water. Simmer until the lentils and vegetables are completely soft.
+    timer_min: 25
+  - Blend until smooth. Season and add water if it is too thick.
+  - Melt the butter until it foams, take it off the heat and stir in the Aleppo pepper and mint.
+  - Ladle the soup into bowls, drizzle with the red butter and serve with lemon.
+serving: With bread and lemon — a classic start to a meal, and a lokanta (canteen) staple.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

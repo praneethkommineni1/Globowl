@@ -1,0 +1,41 @@
+id: ve-arepas
+title: Arepas
+native_name: {text: Arepas, lang: es}
+summary: Crisp-crusted, soft-centred corn cakes made from precooked maize flour, split and stuffed with cheese, beans or anything at all.
+origin:
+  country: VE
+  also_claimed_by: [CO]
+course: breakfast
+dish_types: [flatbread]
+authenticity: traditional
+yield: {servings: 3, amount: 6 arepas}
+time: {prep_min: 10, cook_min: 25, inactive_min: 5}
+difficulty: 2
+equipment: [Cast-iron pan or griddle (budare)]
+techniques: [dough-making, pan-frying, baking]
+ingredient_groups:
+  - name: Arepas
+    items:
+      - {ingredient: masarepa, qty: 300, unit: g, note: "precooked white maize flour, such as Harina P.A.N."}
+      - {ingredient: water, qty: 450, unit: ml, note: "warm"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: vegetable-oil, qty: 1, unit: tbsp}
+  - name: Filling
+    items:
+      - {ingredient: queso-fresco, qty: 150, unit: g, prep: "grated or crumbled", note: "queso blanco or queso de mano"}
+      - {ingredient: butter, qty: 2, unit: tbsp, optional: true}
+      - {ingredient: black-beans-canned, qty: 1, unit: can, note: "warmed and seasoned", optional: true}
+steps:
+  - Mix the water and salt, then gradually add the masarepa, working it with your hand until there are no lumps.
+  - text: Rest the dough so it hydrates. It should be soft and not crack at the edges when pressed; add water if it does.
+    timer_min: 5
+  - Divide into 6 balls and flatten into discs about 1.5 cm thick.
+  - Heat the lightly oiled pan over medium heat and cook the arepas for 5–6 minutes per side until a crust forms. Finish in a 180 °C oven for 10 minutes, or keep cooking on the pan until they sound hollow when tapped.
+  - Split open with a knife, spread with butter and stuff with cheese and beans.
+serving: For breakfast with coffee. Famous fillings include reina pepiada (chicken-avocado salad) and pabellón (shredded beef, black beans and plantain).
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

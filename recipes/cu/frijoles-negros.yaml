@@ -1,0 +1,46 @@
+id: cu-frijoles-negros
+title: Cuban Black Beans
+native_name: {text: Frijoles negros, lang: es}
+summary: Black beans slowly simmered with a sofrito of onion, green pepper, garlic, cumin and oregano until thick and velvety.
+origin:
+  country: CU
+course: side
+dish_types: [beans]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 15, cook_min: 120, inactive_min: 720}
+difficulty: 1
+techniques: [sauteing, simmering]
+ingredient_groups:
+  - name: Beans
+    items:
+      - {ingredient: dried-black-beans, qty: 450, unit: g, note: "soaked overnight"}
+      - {ingredient: water, qty: 2, unit: l}
+      - {ingredient: bay-leaf, qty: 2}
+  - name: Sofrito
+    items:
+      - {ingredient: olive-oil, qty: 60, unit: ml}
+      - {ingredient: onion, qty: 1, prep: "finely chopped"}
+      - {ingredient: green-pepper, qty: 1, prep: "finely chopped"}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "minced"}
+      - {ingredient: ground-cumin, qty: 1, unit: tsp}
+      - {ingredient: dried-oregano, qty: 1, unit: tsp}
+      - {ingredient: dry-white-wine, qty: 60, unit: ml, optional: true}
+      - {ingredient: sugar, qty: 1, unit: tsp}
+      - {ingredient: red-wine-vinegar, qty: 1, unit: tbsp}
+      - {ingredient: salt, qty: 2, unit: tsp}
+steps:
+  - text: Simmer the soaked, drained beans in the water with the bay leaves, partly covered, until soft.
+    timer_min: 90
+  - Meanwhile, cook the onion and pepper in the olive oil until soft. Add garlic, cumin and oregano and cook 2 minutes. Add the wine, if using, and let it bubble away.
+  - Stir the sofrito into the beans with the sugar, vinegar and salt. Mash a ladleful of beans against the side of the pot to thicken.
+  - text: Simmer uncovered until thick and creamy.
+    timer_min: 30
+  - Finish with a drizzle of olive oil.
+serving: Spooned over white rice (when cooked together, the dish becomes moros y cristianos), with fried plantains.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

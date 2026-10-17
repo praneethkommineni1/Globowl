@@ -1,0 +1,41 @@
+id: jp-oyakodon
+title: Oyakodon
+native_name: {text: 親子丼, lang: ja, romanized: oyakodon}
+alternate_names: [Chicken and egg rice bowl]
+summary: Chicken and onion simmered in sweet-savoury dashi, bound with softly set egg and slid over a bowl of rice.
+origin:
+  country: JP
+course: main
+dish_types: [rice-bowl, donburi]
+authenticity: home-style
+yield: {servings: 2}
+time: {prep_min: 10, cook_min: 15}
+difficulty: 1
+equipment: [Small frying pan with a lid (an oyakodon pan if you have one)]
+techniques: [simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: dashi, qty: 120, unit: ml, alt: [kombu-dashi]}
+      - {ingredient: soy-sauce, qty: 2, unit: tbsp}
+      - {ingredient: mirin, qty: 2, unit: tbsp}
+      - {ingredient: sugar, qty: 1, unit: tsp}
+      - {ingredient: onion, qty: 0.5, prep: "thinly sliced"}
+      - {ingredient: chicken-thigh, qty: 200, unit: g, prep: "boneless, cut into bite-size pieces"}
+      - {ingredient: egg, qty: 3, prep: "lightly beaten — leave streaks of white"}
+      - {ingredient: cooked-short-grain-rice, qty: 400, unit: g, note: "2 bowls, hot"}
+      - {ingredient: scallion, qty: 1, prep: "thinly sliced", alt: [mitsuba]}
+steps:
+  - Simmer the dashi, soy sauce, mirin and sugar in the pan. Add the onion and cook for 2 minutes.
+  - text: Add the chicken in a single layer and simmer, turning once, until cooked through.
+    timer_min: 6
+  - Pour two-thirds of the egg over the chicken. Cover and cook for 1 minute, then pour over the rest of the egg, cover and turn off the heat. Leave for 30–60 seconds — the top should still be soft and glossy.
+  - Slide half the mixture over each bowl of rice with some of the broth, and top with scallion.
+tips:
+  - Cook one portion at a time in a small pan for the best texture.
+culture: The name means "parent-and-child bowl" — chicken and egg in one dish.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

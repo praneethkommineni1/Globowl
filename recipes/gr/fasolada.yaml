@@ -1,0 +1,45 @@
+id: gr-fasolada
+title: Fasolada
+native_name: {text: Φασολάδα, lang: el, romanized: fasoláda}
+alternate_names: [Greek bean soup]
+summary: White beans simmered with carrot, celery and tomato in plenty of good olive oil, finished with lemon.
+origin:
+  country: GR
+course: soup
+dish_types: [soup, beans]
+occasions: [Lent]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 15, cook_min: 90, inactive_min: 720}
+difficulty: 1
+techniques: [simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: dried-white-beans, qty: 400, unit: g, note: "soaked overnight"}
+      - {ingredient: olive-oil, qty: 120, unit: ml}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: carrot, qty: 2, prep: "sliced into rounds"}
+      - {ingredient: celery, qty: 2, unit: stalk, prep: "sliced"}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "sliced"}
+      - {ingredient: tomato-paste, qty: 2, unit: tbsp}
+      - {ingredient: canned-tomatoes, qty: 400, unit: g}
+      - {ingredient: bay-leaf, qty: 2}
+      - {ingredient: water, qty: 2, unit: l}
+      - {ingredient: salt, note: "to taste"}
+      - {ingredient: lemon, qty: 1, prep: "cut into wedges"}
+steps:
+  - text: Soak the beans overnight in plenty of cold water.
+    timer_min: 720
+  - Drain the beans, cover with fresh water, bring to a boil for 5 minutes and drain again.
+  - Heat half the oil in a large pot and soften the onion, carrot, celery and garlic for 5 minutes. Stir in the tomato paste.
+  - text: Add the beans, tomatoes, bay leaves and water. Simmer, partly covered, until the beans are creamy.
+    timer_min: 75
+  - Add salt only now (it toughens beans if added early) and the rest of the olive oil. Simmer 10 minutes more.
+serving: With lemon, bread, olives, feta (if not fasting), and raw onion or pickled fish on the side.
+culture: Often called Greece's national dish; a staple of the Orthodox fasting days when meat and dairy are avoided.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

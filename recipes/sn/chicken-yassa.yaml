@@ -1,0 +1,45 @@
+id: sn-chicken-yassa
+title: Chicken Yassa
+alternate_names: [Poulet yassa]
+summary: Chicken marinated in lemon, mustard and chili, then simmered in a mountain of slow-caramelised onions.
+origin:
+  country: SN
+  region: Casamance
+course: main
+dish_types: [braise]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 60, inactive_min: 120}
+difficulty: 2
+techniques: [marinating, grilling, braising]
+ingredient_groups:
+  - items:
+      - {ingredient: chicken-thigh, qty: 1.2, unit: kg, prep: "bone-in pieces"}
+      - {ingredient: onion, qty: 1, unit: kg, prep: "thinly sliced"}
+      - {ingredient: lemon-juice, qty: 120, unit: ml, note: "about 4 lemons"}
+      - {ingredient: dijon-mustard, qty: 2, unit: tbsp}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "minced"}
+      - {ingredient: scotch-bonnet, qty: 1, prep: "pierced or minced"}
+      - {ingredient: vegetable-oil, qty: 60, unit: ml}
+      - {ingredient: chicken-bouillon-cube, qty: 1, optional: true}
+      - {ingredient: bay-leaf, qty: 2}
+      - {ingredient: green-olives, qty: 80, unit: g, optional: true}
+      - {ingredient: salt, note: "to taste"}
+      - {ingredient: black-pepper, note: "to taste"}
+steps:
+  - text: Mix the chicken, onions, lemon juice, mustard, garlic, chili, half the oil, salt and pepper. Marinate in the fridge.
+    timer_min: 120
+  - Lift the chicken out of the marinade and grill or pan-fry until browned on both sides (it needn't be cooked through).
+  - text: Heat the rest of the oil in a large pot. Lift the onions out of the marinade and cook over medium heat, stirring often, until soft and golden.
+    timer_min: 20
+  - Add the remaining marinade, the bouillon cube if using, bay leaves and 150 ml water. Return the chicken to the pot.
+  - text: Cover and simmer until the chicken is cooked through and the sauce is jammy. Add the olives for the last 5 minutes.
+    timer_min: 30
+  - Taste for salt and sharpness — it should be tangy.
+serving: Over plain white rice.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

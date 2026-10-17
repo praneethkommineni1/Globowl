@@ -1,0 +1,47 @@
+# Copy to recipes/<cc>/<slug>.yaml — e.g. recipes/gh/kelewele.yaml with id gh-kelewele.
+# Run `python3 tools/build.py` to validate. Delete comments and unused optional fields.
+# Do NOT add dietary tags: they are derived from the ingredient catalog.
+id: cc-dish-name
+title: Dish Name
+native_name: {text: Name in original script, lang: xx, romanized: optional}
+alternate_names: []
+summary: One appetising sentence, 20–280 characters, saying what the dish is.
+origin:
+  country: CC                 # ISO 3166-1 alpha-2, see data/countries.yaml
+  region: optional            # region or city within the country
+  community: optional         # e.g. Cape Malay, Hakka, Louisiana Creole
+  also_claimed_by: []         # other countries that share or dispute the dish
+course: main                  # taxonomy.courses
+dish_types: []                # free-form kebab-case: stew, dumpling, flatbread…
+occasions: []                 # e.g. Eid al-Fitr, Christmas
+authenticity: traditional     # taxonomy.authenticity
+yield: {servings: 4}          # and/or amount: "24 dumplings"
+time: {prep_min: 0, cook_min: 0, inactive_min: 0}
+difficulty: 2                 # 1 (anyone) – 5 (needs practice)
+equipment: []
+techniques: []                # taxonomy.techniques
+ingredient_groups:
+  - name: For the sauce       # omit `name` if there is only one group
+    items:
+      # ingredient ids come from data/ingredients.yaml — add new ones there first.
+      # QUOTE prep/note text that contains a comma.
+      - {ingredient: onion, qty: 1, prep: finely chopped}
+      - {ingredient: chicken-stock, qty: 500, unit: ml, alt: [vegetable-stock]}
+      - {ingredient: butter, qty: 1, unit: tbsp, optional: true}
+      - {ingredient: salt, note: to taste}
+steps:
+  - A plain step.
+  - text: A step with a timer.
+    timer_min: 10
+tips: []
+serving: How and with what it's eaten.
+culture: A sentence or two on the dish's story or place in daily life.
+credit:
+  source_type: traditional    # traditional | family | original | adapted | imported
+  contributors:
+    - {name: Your Name, role: written-by}
+  # adapted_from: [{title: ..., author: ..., url: ..., accessed: 2026-01-31, changes: ...}]
+  # dataset: {name: ..., record_id: ..., url: ..., license: ...}
+  license: CC-BY-4.0
+  ai_assisted: false
+review: {status: draft}
