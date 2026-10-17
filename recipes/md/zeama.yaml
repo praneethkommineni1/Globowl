@@ -1,0 +1,41 @@
+id: md-zeama
+title: Zeamă
+native_name: {text: Zeamă, lang: ro}
+alternate_names: [Moldovan sour chicken soup]
+summary: A clear chicken and noodle soup soured with borș, lifted with lovage and dill — Moldova's cure-all.
+origin:
+  country: MD
+  also_claimed_by: [RO]
+course: soup
+dish_types: [soup, noodle-soup]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 15, cook_min: 75}
+difficulty: 1
+techniques: [simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: whole-chicken, qty: 1.2, unit: kg, prep: "cut into pieces"}
+      - {ingredient: water, qty: 3, unit: l}
+      - {ingredient: salt, qty: 2, unit: tsp}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: carrot, qty: 1, prep: "sliced"}
+      - {ingredient: red-bell-pepper, qty: 0.5, prep: "chopped"}
+      - {ingredient: egg-noodles, qty: 150, unit: g, note: "thin; homemade is traditional"}
+      - {ingredient: lemon-juice, qty: 3, unit: tbsp, note: "or 250 ml borș (fermented bran liquid)"}
+      - {ingredient: lovage, qty: 1, unit: handful, prep: "chopped", alt: [celery], note: "or celery leaves"}
+      - {ingredient: dill, qty: 1, unit: handful, prep: "chopped"}
+steps:
+  - text: Simmer the chicken in the salted water, skimming, until tender.
+    timer_min: 50
+  - text: Add the onion, carrot and pepper and simmer until soft.
+    timer_min: 15
+  - Add the noodles and cook until tender. Sour to taste with lemon juice or borș.
+  - Stir in the lovage and dill and serve.
+serving: With hot chili peppers and sour cream on the side.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

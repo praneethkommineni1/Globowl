@@ -64,6 +64,9 @@ sorghum-flour: {name: sorghum flour, category: grain, aliases: [dura, jowar flou
 wheat-noodles: {name: thick wheat noodles, category: grain, contains: [gluten], may_contain: [egg], aliases: [lagman noodles, udon]}
 buckwheat-noodles: {name: buckwheat noodles, category: grain, may_contain: [gluten], aliases: [naengmyeon noodles, soba], note: Most contain some wheat.}
 
+egg-noodles: {name: egg noodles, category: grain, contains: [gluten, egg], aliases: [tăiței]}
+wheat-berries: {name: wheat berries, category: grain, contains: [gluten], aliases: [hulled wheat, harees wheat]}
+
 # --- Legumes and soy --------------------------------------------------------
 red-lentils: {name: red lentils, category: legume, aliases: [masoor dal, split red lentils]}
 brown-lentils: {name: brown lentils, category: legume}
@@ -158,6 +161,10 @@ cassava-leaves: {name: cassava leaves, category: vegetable, aliases: [saka-saka,
 breadfruit: {name: breadfruit, category: vegetable, aliases: [ulu]}
 pomtajer: {name: pomtajer, category: vegetable, aliases: [tayer, malanga, tannia, pom root], note: Grated root of Xanthosoma; sold frozen in Surinamese shops.}
 
+cassava: {name: cassava, category: vegetable, aliases: [manioc, yuca, maniok], note: Must be cooked thoroughly.}
+swiss-chard: {name: Swiss chard, category: vegetable, aliases: [chard, silverbeet, blette]}
+rocket: {name: rocket, category: vegetable, aliases: [arugula, rucola]}
+
 # --- Fruit ------------------------------------------------------------------
 lemon: {name: lemon, category: fruit}
 lemon-juice: {name: lemon juice, category: fruit}
@@ -175,6 +182,8 @@ green-banana: {name: green banana, category: fruit, aliases: [green fig, matoke]
 asian-pear: {name: Asian pear, category: fruit, aliases: [nashi, Korean pear]}
 orange-juice: {name: orange juice, category: fruit}
 sour-orange-juice: {name: sour orange juice, category: fruit, aliases: [naranja agria, Seville orange juice]}
+
+applesauce: {name: applesauce, category: fruit, aliases: [Apfelmus]}
 
 # --- Fresh herbs ------------------------------------------------------------
 cilantro: {name: cilantro, category: herb, aliases: [coriander leaves, fresh coriander]}
@@ -197,6 +206,8 @@ dried-lime: {name: dried lime, category: spice, aliases: [loomi, black lime, noo
 
 annatto: {name: annatto, category: spice, aliases: [achiote]}
 pasilla-chili: {name: dried pasilla chili, category: spice, aliases: [chile pasa, chile negro]}
+
+lovage: {name: lovage, category: herb, contains: [celery], aliases: [leuștean], note: A relative of celery; treated as a celery allergen.}
 
 # --- Spices -----------------------------------------------------------------
 salt: {name: salt, category: water}
@@ -251,6 +262,9 @@ sumac: {name: sumac, category: spice}
 ground-fenugreek: {name: ground fenugreek, category: spice, aliases: [hulba, methi powder]}
 dried-savory: {name: dried savory, category: spice, aliases: [summer savory, Bounekraut]}
 
+ground-cinnamon: {name: ground cinnamon, category: spice}
+ground-cloves: {name: ground cloves, category: spice}
+
 # --- Condiments, sauces, pastes ---------------------------------------------
 soy-sauce: {name: soy sauce, category: condiment, contains: [soy, gluten], note: Tamari is usually wheat-free.}
 dark-soy-sauce: {name: dark soy sauce, category: condiment, contains: [soy, gluten]}
@@ -290,6 +304,9 @@ date-syrup: {name: date syrup, category: sweetener, aliases: [dibs, silan]}
 
 cassareep: {name: cassareep, category: condiment, note: Thick black syrup made from cassava juice.}
 
+amba: {name: amba, category: condiment, may_contain: [mustard], aliases: [mango pickle sauce]}
+rose-water: {name: rose water, category: condiment}
+
 # --- Nuts and seeds ---------------------------------------------------------
 roasted-peanuts: {name: roasted peanuts, category: nut-seed, contains: [peanut]}
 peanut-butter: {name: peanut butter, category: nut-seed, contains: [peanut]}
@@ -308,6 +325,8 @@ pumpkin-seeds: {name: pumpkin seeds, category: nut-seed, aliases: [pepitas]}
 sesame-seeds: {name: sesame seeds, category: nut-seed, contains: [sesame]}
 
 palm-nut-cream: {name: palm nut cream, category: fat, aliases: [palm butter, sauce graine, moambé, nyembwe, banga]}
+
+tahini: {name: tahini, category: nut-seed, contains: [sesame]}
 
 # --- Fats -------------------------------------------------------------------
 vegetable-oil: {name: vegetable oil, category: fat}
@@ -347,6 +366,9 @@ kajmak: {name: kajmak, category: dairy, animal: [dairy], contains: [milk], alias
 
 kefir: {name: kefir, category: dairy, animal: [dairy], contains: [milk]}
 bryndza: {name: bryndza, category: dairy, animal: [dairy], contains: [milk], may_contain: [animal-rennet], note: "Soft, tangy sheep's-milk cheese."}
+
+ricotta: {name: ricotta, category: dairy, animal: [dairy], contains: [milk], may_contain: [animal-rennet]}
+parmesan: {name: Parmesan, category: dairy, animal: [dairy], contains: [milk, animal-rennet], aliases: [Parmigiano Reggiano], note: PDO rules require animal rennet.}
 
 # --- Meat, poultry, seafood -------------------------------------------------
 chicken-thigh: {name: chicken thigh, category: poultry, animal: [poultry]}

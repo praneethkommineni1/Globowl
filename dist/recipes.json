@@ -1,7 +1,178 @@
 {
  "schema_version": 1,
- "count": 171,
+ "count": 185,
  "recipes": [
+  {
+   "id": "ad-trinxat",
+   "title": "Trinxat",
+   "native_name": {
+    "text": "Trinxat",
+    "lang": "ca"
+   },
+   "summary": "Andorra's mountain dish — mashed cabbage and potato fried into a crisp cake with garlic and bacon.",
+   "origin": {
+    "country": "AD",
+    "also_claimed_by": [
+     "ES"
+    ],
+    "country_name": "Andorra",
+    "continent": "Europe",
+    "subregion": "Southern Europe"
+   },
+   "course": "main",
+   "dish_types": [
+    "potato",
+    "mash"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 40,
+    "total_min": 55
+   },
+   "difficulty": 1,
+   "techniques": [
+    "boiling",
+    "pan-frying"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "white-cabbage",
+       "qty": 800,
+       "unit": "g",
+       "prep": "chopped",
+       "note": "savoy or winter cabbage",
+       "name": "white cabbage"
+      },
+      {
+       "ingredient": "potato",
+       "qty": 800,
+       "unit": "g",
+       "prep": "peeled and chunked",
+       "name": "potato"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "olive-oil",
+       "qty": 4,
+       "unit": "tbsp",
+       "name": "olive oil"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "prep": "sliced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "bacon",
+       "qty": 150,
+       "unit": "g",
+       "prep": "cut into strips",
+       "name": "bacon"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Boil the cabbage and potatoes together in salted water until very soft. Drain thoroughly.",
+     "timer_min": 25
+    },
+    {
+     "text": "Fry the garlic and bacon in the oil until crisp. Lift out half the bacon for garnish."
+    },
+    {
+     "text": "Add the cabbage and potatoes to the pan and mash roughly with a spatula, mixing in the garlic and bacon fat."
+    },
+    {
+     "text": "Press into a cake and fry until a golden crust forms underneath, then flip and brown the other side."
+    },
+    {
+     "text": "Serve topped with the reserved bacon."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "bacon"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "bacon"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "bacon"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "no",
+      "because": [
+       "bacon"
+      ]
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
   {
    "id": "ae-luqaimat",
    "title": "Luqaimat",
@@ -3321,6 +3492,275 @@
    }
   },
   {
+   "id": "bh-chicken-machboos",
+   "title": "Chicken Machboos",
+   "native_name": {
+    "text": "مجبوس دجاج",
+    "lang": "ar",
+    "romanized": "majbūs dajāj"
+   },
+   "summary": "Bahrain's national dish — chicken and basmati rice cooked with dried lime, warm spices, saffron and a breath of rose water.",
+   "origin": {
+    "country": "BH",
+    "also_claimed_by": [
+     "KW",
+     "QA",
+     "AE"
+    ],
+    "country_name": "Bahrain",
+    "continent": "Asia",
+    "subregion": "Western Asia"
+   },
+   "course": "main",
+   "dish_types": [
+    "rice-dish",
+    "one-pot"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 5
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 75,
+    "inactive_min": 20,
+    "total_min": 115
+   },
+   "difficulty": 3,
+   "techniques": [
+    "braising",
+    "rice-cooking"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "basmati-rice",
+       "qty": 500,
+       "unit": "g",
+       "name": "basmati rice"
+      },
+      {
+       "ingredient": "ghee",
+       "qty": 3,
+       "unit": "tbsp",
+       "alt": [
+        "vegetable-oil"
+       ],
+       "name": "ghee"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "sliced",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "ginger",
+       "qty": 3,
+       "unit": "cm",
+       "prep": "grated",
+       "name": "fresh ginger"
+      },
+      {
+       "ingredient": "green-chili",
+       "qty": 2,
+       "prep": "slit",
+       "name": "fresh green chili"
+      },
+      {
+       "ingredient": "chicken-thigh",
+       "qty": 1.2,
+       "unit": "kg",
+       "prep": "bone-in pieces",
+       "name": "chicken thigh"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "dried-lime",
+       "qty": 2,
+       "prep": "pierced",
+       "name": "dried lime"
+      },
+      {
+       "ingredient": "cinnamon-stick",
+       "qty": 1,
+       "name": "cinnamon stick"
+      },
+      {
+       "ingredient": "ground-cardamom",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground cardamom"
+      },
+      {
+       "ingredient": "ground-cumin",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground cumin"
+      },
+      {
+       "ingredient": "ground-coriander",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground coriander"
+      },
+      {
+       "ingredient": "ground-turmeric",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground turmeric"
+      },
+      {
+       "ingredient": "black-pepper",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground black pepper"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1.2,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 2,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "saffron",
+       "qty": 1,
+       "unit": "pinch",
+       "prep": "soaked in 2 tbsp warm water",
+       "name": "saffron"
+      },
+      {
+       "ingredient": "rose-water",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "rose water"
+      },
+      {
+       "ingredient": "cilantro",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "name": "cilantro"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Rinse and soak the rice.",
+     "timer_min": 20
+    },
+    {
+     "text": "Fry the onions in the ghee until golden, then add garlic, ginger and chilies."
+    },
+    {
+     "text": "Add the chicken and brown, then the tomatoes, dried limes and all the spices. Fry 2 minutes."
+    },
+    {
+     "text": "Add the water and salt and simmer, covered, until the chicken is cooked. Lift out the chicken (brown it under the grill if you like).",
+     "timer_min": 35
+    },
+    {
+     "text": "Measure about 800 ml of broth into the pot, add the drained rice, bring to a boil, then cover and cook on low until tender.",
+     "timer_min": 20
+    },
+    {
+     "text": "Drizzle the saffron water and rose water over the rice, cover and rest 5 minutes. Serve topped with the chicken and cilantro."
+    }
+   ],
+   "serving": "With daqqus (tomato sauce) and salad.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "adaptable",
+      "changes": [
+       "use vegetable oil instead of ghee"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "milk"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "bi-ibiharage",
    "title": "Ibiharage",
    "native_name": {
@@ -4911,6 +5351,194 @@
     },
     "allergens": {
      "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "by-draniki",
+   "title": "Draniki",
+   "native_name": {
+    "text": "Дранікі",
+    "lang": "be",
+    "romanized": "draniki"
+   },
+   "alternate_names": [
+    "Belarusian potato pancakes"
+   ],
+   "summary": "Belarus's beloved potato pancakes — grated potato and onion fried until crisp, served hot with sour cream.",
+   "origin": {
+    "country": "BY",
+    "also_claimed_by": [
+     "UA",
+     "PL"
+    ],
+    "country_name": "Belarus",
+    "continent": "Europe",
+    "subregion": "Eastern Europe"
+   },
+   "course": "main",
+   "dish_types": [
+    "pancake",
+    "potato"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4,
+    "amount": "about 16 pancakes"
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 25,
+    "total_min": 45
+   },
+   "difficulty": 2,
+   "techniques": [
+    "pan-frying"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "potato",
+       "qty": 1,
+       "unit": "kg",
+       "prep": "peeled and finely grated",
+       "note": "floury",
+       "name": "potato"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "finely grated",
+       "name": "onion"
+      },
+      {
+       "ingredient": "egg",
+       "qty": 1,
+       "name": "egg"
+      },
+      {
+       "ingredient": "all-purpose-flour",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "all-purpose flour"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "black-pepper",
+       "qty": 0.25,
+       "unit": "tsp",
+       "name": "ground black pepper"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 120,
+       "unit": "ml",
+       "note": "for frying",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "sour-cream",
+       "qty": 200,
+       "unit": "ml",
+       "note": "to serve",
+       "name": "sour cream"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Grate the onion first and then the potatoes into it — the onion keeps the potatoes from browning. Drain off some of the liquid."
+    },
+    {
+     "text": "Mix in the egg, flour, salt and pepper."
+    },
+    {
+     "text": "Fry spoonfuls in hot oil, flattening slightly, until golden and crisp on both sides (about 3 minutes per side)."
+    },
+    {
+     "text": "Serve hot with sour cream."
+    }
+   ],
+   "serving": "Also with machanka (pork and sour-cream gravy) or mushrooms.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegetarian",
+     "pescatarian",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "egg",
+       "sour cream"
+      ]
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "all-purpose flour"
+      ]
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "sour cream"
+      ]
+     },
+     "egg-free": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "egg",
+      "gluten",
+      "milk"
+     ],
      "may_contain": [],
      "in_optional_ingredients": []
     }
@@ -14786,6 +15414,201 @@
    }
   },
   {
+   "id": "il-sabich",
+   "title": "Sabich",
+   "native_name": {
+    "text": "סביח",
+    "lang": "he",
+    "romanized": "sabikh"
+   },
+   "summary": "Pita stuffed with fried eggplant, hard-boiled egg, Israeli salad, tahini and tangy amba mango pickle.",
+   "origin": {
+    "country": "IL",
+    "community": "Iraqi Jewish",
+    "country_name": "Israel",
+    "continent": "Asia",
+    "subregion": "Western Asia"
+   },
+   "course": "main",
+   "dish_types": [
+    "sandwich",
+    "street-food"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 20,
+    "total_min": 40
+   },
+   "difficulty": 1,
+   "techniques": [
+    "pan-frying",
+    "boiling"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "eggplant",
+       "qty": 2,
+       "prep": "sliced into 1 cm rounds",
+       "name": "eggplant"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 150,
+       "unit": "ml",
+       "note": "for frying",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "egg",
+       "qty": 4,
+       "note": "hard-boiled and sliced",
+       "name": "egg"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "finely diced",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "cucumber",
+       "qty": 1,
+       "prep": "finely diced",
+       "name": "cucumber"
+      },
+      {
+       "ingredient": "parsley",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "name": "flat-leaf parsley"
+      },
+      {
+       "ingredient": "lemon-juice",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "lemon juice"
+      },
+      {
+       "ingredient": "tahini",
+       "qty": 4,
+       "unit": "tbsp",
+       "prep": "whisked with water and lemon to a pourable sauce",
+       "name": "tahini"
+      },
+      {
+       "ingredient": "amba",
+       "qty": 4,
+       "unit": "tbsp",
+       "name": "amba"
+      },
+      {
+       "ingredient": "pita-bread",
+       "qty": 4,
+       "name": "pita bread"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Salt the eggplant slices, leave 10 minutes and pat dry. Fry in the oil until deep golden and soft; drain."
+    },
+    {
+     "text": "Mix the tomato, cucumber, parsley, lemon juice and a pinch of salt for the salad."
+    },
+    {
+     "text": "Open the pitas and layer in eggplant, egg and salad, drizzling with tahini and amba as you go."
+    }
+   ],
+   "culture": "Iraqi Jews ate fried eggplant and eggs as a Shabbat morning breakfast; in Israel it became a street-food sandwich.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegetarian",
+     "pescatarian",
+     "dairy-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "pita bread"
+      ]
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "egg",
+      "gluten",
+      "sesame"
+     ],
+     "may_contain": [
+      "mustard"
+     ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "in-chana-masala",
    "title": "Chana Masala",
    "native_name": {
@@ -17949,6 +18772,237 @@
    }
   },
   {
+   "id": "kw-mutabbaq-zubaidi",
+   "title": "Mutabbaq Zubaidi",
+   "native_name": {
+    "text": "مطبق زبيدي",
+    "lang": "ar",
+    "romanized": "muṭabbaq zubaydī"
+   },
+   "alternate_names": [
+    "Kuwaiti fish and rice"
+   ],
+   "summary": "Spiced fried pomfret served on rice cooked with caramelised onion, dried lime and turmeric — a Kuwaiti favourite.",
+   "origin": {
+    "country": "KW",
+    "country_name": "Kuwait",
+    "continent": "Asia",
+    "subregion": "Western Asia"
+   },
+   "course": "main",
+   "dish_types": [
+    "rice-dish",
+    "seafood"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 50,
+    "inactive_min": 30,
+    "total_min": 100
+   },
+   "difficulty": 3,
+   "techniques": [
+    "marinating",
+    "pan-frying",
+    "rice-cooking"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Fish",
+     "items": [
+      {
+       "ingredient": "white-fish",
+       "qty": 800,
+       "unit": "g",
+       "note": "whole pomfret (zubaidi) or thick fillets",
+       "name": "firm white fish"
+      },
+      {
+       "ingredient": "ground-turmeric",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground turmeric"
+      },
+      {
+       "ingredient": "ground-cumin",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground cumin"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 120,
+       "unit": "ml",
+       "note": "for frying",
+       "name": "vegetable oil"
+      }
+     ]
+    },
+    {
+     "name": "Rice",
+     "items": [
+      {
+       "ingredient": "basmati-rice",
+       "qty": 400,
+       "unit": "g",
+       "name": "basmati rice"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "sliced",
+       "name": "onion"
+      },
+      {
+       "ingredient": "dried-lime",
+       "qty": 2,
+       "prep": "pierced",
+       "name": "dried lime"
+      },
+      {
+       "ingredient": "cinnamon-stick",
+       "qty": 1,
+       "name": "cinnamon stick"
+      },
+      {
+       "ingredient": "ground-cardamom",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground cardamom"
+      },
+      {
+       "ingredient": "ground-turmeric",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground turmeric"
+      },
+      {
+       "ingredient": "water",
+       "qty": 650,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "cilantro",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "name": "cilantro"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Rub the fish with turmeric, cumin, garlic and salt. Soak the rice in cold water at the same time.",
+     "timer_min": 30
+    },
+    {
+     "text": "Fry the fish in the oil until crisp and cooked through. Set aside."
+    },
+    {
+     "text": "In 3 tablespoons of the oil, fry the onions until deep brown. Add the dried limes, cinnamon, cardamom and turmeric."
+    },
+    {
+     "text": "Add the water and salt, bring to a boil, then the drained rice. Cover and cook on low until tender.",
+     "timer_min": 20
+    },
+    {
+     "text": "Serve the rice topped with the fish and cilantro."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "firm white fish"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "firm white fish"
+      ]
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "fish"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "kz-beshbarmak",
    "title": "Beshbarmak",
    "native_name": {
@@ -18753,6 +19807,212 @@
     "allergens": {
      "contains": [
       "fish"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "li-kasknopfle",
+   "title": "Käsknöpfle",
+   "native_name": {
+    "text": "Käsknöpfle",
+    "lang": "de"
+   },
+   "summary": "Liechtenstein's national dish — small egg dumplings layered with sharp local cheese, topped with golden onions and served with applesauce.",
+   "origin": {
+    "country": "LI",
+    "also_claimed_by": [
+     "AT",
+     "CH"
+    ],
+    "country_name": "Liechtenstein",
+    "continent": "Europe",
+    "subregion": "Western Europe"
+   },
+   "course": "main",
+   "dish_types": [
+    "dumpling",
+    "cheese"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 30,
+    "inactive_min": 15,
+    "total_min": 65
+   },
+   "difficulty": 3,
+   "equipment": [
+    "Spätzle press or Knöpfle sieve"
+   ],
+   "techniques": [
+    "dough-making",
+    "boiling",
+    "pan-frying"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Knöpfle",
+     "items": [
+      {
+       "ingredient": "all-purpose-flour",
+       "qty": 500,
+       "unit": "g",
+       "name": "all-purpose flour"
+      },
+      {
+       "ingredient": "egg",
+       "qty": 5,
+       "name": "egg"
+      },
+      {
+       "ingredient": "water",
+       "qty": 200,
+       "unit": "ml",
+       "note": "or half milk",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "nutmeg",
+       "qty": 1,
+       "unit": "pinch",
+       "name": "nutmeg"
+      }
+     ]
+    },
+    {
+     "name": "Assembly",
+     "items": [
+      {
+       "ingredient": "emmental",
+       "qty": 250,
+       "unit": "g",
+       "prep": "grated",
+       "note": "Liechtensteiners mix in Sauerkäse (a tangy sour-milk cheese)",
+       "name": "Emmental"
+      },
+      {
+       "ingredient": "butter",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "butter"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "sliced into rings",
+       "name": "onion"
+      },
+      {
+       "ingredient": "applesauce",
+       "qty": 300,
+       "unit": "g",
+       "note": "to serve",
+       "name": "applesauce"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Beat the flour, eggs, water, salt and nutmeg into a thick, bubbly batter. Rest 15 minutes."
+    },
+    {
+     "text": "Fry the onions in the butter until deep golden."
+    },
+    {
+     "text": "Press the batter in batches into boiling salted water. When the knöpfle float, lift them out and layer them in a warm dish with the cheese."
+    },
+    {
+     "text": "Top with the onions and their butter and serve with applesauce."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "Emmental",
+       "butter",
+       "egg"
+      ]
+     },
+     "vegetarian": {
+      "status": "check-labels",
+      "check": [
+       "Emmental"
+      ]
+     },
+     "pescatarian": {
+      "status": "check-labels",
+      "check": [
+       "Emmental"
+      ]
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "all-purpose flour"
+      ]
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "Emmental",
+       "butter"
+      ]
+     },
+     "egg-free": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "egg",
+      "gluten",
+      "milk"
      ],
      "may_contain": [],
      "in_optional_ingredients": []
@@ -20369,6 +21629,635 @@
     },
     "allergens": {
      "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "mc-barbagiuan",
+   "title": "Barbagiuan",
+   "native_name": {
+    "text": "Barbagiuan",
+    "lang": "fr"
+   },
+   "summary": "Monaco's national dish — crisp fried pastry pockets filled with Swiss chard, spinach, ricotta and Parmesan.",
+   "origin": {
+    "country": "MC",
+    "also_claimed_by": [
+     "IT",
+     "FR"
+    ],
+    "country_name": "Monaco",
+    "continent": "Europe",
+    "subregion": "Western Europe"
+   },
+   "course": "starter",
+   "dish_types": [
+    "pastry",
+    "fritter"
+   ],
+   "occasions": [
+    "Monaco National Day (19 November)"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 6,
+    "amount": "about 24 barbagiuans"
+   },
+   "time": {
+    "prep_min": 45,
+    "cook_min": 25,
+    "inactive_min": 30,
+    "total_min": 100
+   },
+   "difficulty": 3,
+   "techniques": [
+    "dough-making",
+    "sauteing",
+    "deep-frying"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Dough",
+     "items": [
+      {
+       "ingredient": "all-purpose-flour",
+       "qty": 250,
+       "unit": "g",
+       "name": "all-purpose flour"
+      },
+      {
+       "ingredient": "olive-oil",
+       "qty": 60,
+       "unit": "ml",
+       "name": "olive oil"
+      },
+      {
+       "ingredient": "water",
+       "qty": 100,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "Filling",
+     "items": [
+      {
+       "ingredient": "swiss-chard",
+       "qty": 500,
+       "unit": "g",
+       "prep": "finely chopped",
+       "name": "Swiss chard"
+      },
+      {
+       "ingredient": "spinach",
+       "qty": 200,
+       "unit": "g",
+       "prep": "finely chopped",
+       "name": "spinach"
+      },
+      {
+       "ingredient": "leek",
+       "qty": 1,
+       "prep": "finely chopped",
+       "name": "leek"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "finely chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "olive-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "olive oil"
+      },
+      {
+       "ingredient": "ricotta",
+       "qty": 150,
+       "unit": "g",
+       "name": "ricotta"
+      },
+      {
+       "ingredient": "parmesan",
+       "qty": 50,
+       "unit": "g",
+       "prep": "grated",
+       "name": "Parmesan"
+      },
+      {
+       "ingredient": "egg",
+       "qty": 1,
+       "name": "egg"
+      },
+      {
+       "ingredient": "dried-marjoram",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "dried marjoram"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "black-pepper",
+       "qty": 0.25,
+       "unit": "tsp",
+       "name": "ground black pepper"
+      }
+     ]
+    },
+    {
+     "name": "To fry",
+     "items": [
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 1,
+       "unit": "l",
+       "name": "vegetable oil"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Knead the dough ingredients until smooth; rest 30 minutes."
+    },
+    {
+     "text": "Cook the chard, spinach, leek and onion in the olive oil until wilted and dry. Cool, then mix with the ricotta, Parmesan, egg, marjoram, salt and pepper."
+    },
+    {
+     "text": "Roll the dough very thin and cut into 8 cm rounds. Place a teaspoon of filling on each, fold into half-moons and seal well."
+    },
+    {
+     "text": "Fry in oil at 175 °C until golden (2–3 minutes). Drain and serve warm."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "Parmesan",
+       "egg",
+       "ricotta"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "Parmesan"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "Parmesan"
+      ]
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "all-purpose flour"
+      ]
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "Parmesan",
+       "ricotta"
+      ]
+     },
+     "egg-free": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "egg",
+      "gluten",
+      "milk"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "md-zeama",
+   "title": "Zeamă",
+   "native_name": {
+    "text": "Zeamă",
+    "lang": "ro"
+   },
+   "alternate_names": [
+    "Moldovan sour chicken soup"
+   ],
+   "summary": "A clear chicken and noodle soup soured with borș, lifted with lovage and dill — Moldova's cure-all.",
+   "origin": {
+    "country": "MD",
+    "also_claimed_by": [
+     "RO"
+    ],
+    "country_name": "Moldova",
+    "continent": "Europe",
+    "subregion": "Eastern Europe"
+   },
+   "course": "soup",
+   "dish_types": [
+    "soup",
+    "noodle-soup"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 75,
+    "total_min": 90
+   },
+   "difficulty": 1,
+   "techniques": [
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "whole-chicken",
+       "qty": 1.2,
+       "unit": "kg",
+       "prep": "cut into pieces",
+       "name": "whole chicken"
+      },
+      {
+       "ingredient": "water",
+       "qty": 3,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 2,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "carrot",
+       "qty": 1,
+       "prep": "sliced",
+       "name": "carrot"
+      },
+      {
+       "ingredient": "red-bell-pepper",
+       "qty": 0.5,
+       "prep": "chopped",
+       "name": "red bell pepper"
+      },
+      {
+       "ingredient": "egg-noodles",
+       "qty": 150,
+       "unit": "g",
+       "note": "thin; homemade is traditional",
+       "name": "egg noodles"
+      },
+      {
+       "ingredient": "lemon-juice",
+       "qty": 3,
+       "unit": "tbsp",
+       "note": "or 250 ml borș (fermented bran liquid)",
+       "name": "lemon juice"
+      },
+      {
+       "ingredient": "lovage",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "alt": [
+        "celery"
+       ],
+       "note": "or celery leaves",
+       "name": "lovage"
+      },
+      {
+       "ingredient": "dill",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "name": "dill"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Simmer the chicken in the salted water, skimming, until tender.",
+     "timer_min": 50
+    },
+    {
+     "text": "Add the onion, carrot and pepper and simmer until soft.",
+     "timer_min": 15
+    },
+    {
+     "text": "Add the noodles and cook until tender. Sour to taste with lemon juice or borș."
+    },
+    {
+     "text": "Stir in the lovage and dill and serve."
+    }
+   ],
+   "serving": "With hot chili peppers and sour cream on the side.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "dairy-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "whole chicken"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "whole chicken"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "whole chicken"
+      ]
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "egg noodles"
+      ]
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "no",
+      "because": [
+       "egg noodles"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "celery",
+      "egg",
+      "gluten"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "me-kacamak",
+   "title": "Kačamak",
+   "native_name": {
+    "text": "Kačamak",
+    "lang": "cnr"
+   },
+   "summary": "A rich mountain porridge of cornmeal and potato beaten with kajmak and young cheese until stretchy — Montenegro's shepherds' dish.",
+   "origin": {
+    "country": "ME",
+    "also_claimed_by": [
+     "RS",
+     "BA"
+    ],
+    "country_name": "Montenegro",
+    "continent": "Europe",
+    "subregion": "Southern Europe"
+   },
+   "course": "main",
+   "dish_types": [
+    "porridge"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 10,
+    "cook_min": 40,
+    "total_min": 50
+   },
+   "difficulty": 2,
+   "techniques": [
+    "boiling"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "potato",
+       "qty": 400,
+       "unit": "g",
+       "prep": "peeled and chunked",
+       "name": "potato"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "cornmeal",
+       "qty": 200,
+       "unit": "g",
+       "name": "cornmeal"
+      },
+      {
+       "ingredient": "kajmak",
+       "qty": 100,
+       "unit": "g",
+       "name": "kajmak"
+      },
+      {
+       "ingredient": "feta",
+       "qty": 150,
+       "unit": "g",
+       "prep": "crumbled",
+       "note": "young Montenegrin cheese",
+       "name": "feta"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Boil the potatoes in the salted water until soft.",
+     "timer_min": 15
+    },
+    {
+     "text": "Sprinkle in the cornmeal without stirring, cover and cook on low for 15 minutes."
+    },
+    {
+     "text": "Mash and beat hard with a wooden spoon until smooth and thick. Cook 5 minutes more."
+    },
+    {
+     "text": "Beat in the kajmak and cheese until melted and stretchy."
+    }
+   ],
+   "serving": "With a glass of sour milk or yogurt.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "feta",
+       "kajmak"
+      ]
+     },
+     "vegetarian": {
+      "status": "check-labels",
+      "check": [
+       "feta"
+      ]
+     },
+     "pescatarian": {
+      "status": "check-labels",
+      "check": [
+       "feta"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "feta",
+       "kajmak"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "milk"
+     ],
      "may_contain": [],
      "in_optional_ingredients": []
     }
@@ -24948,6 +26837,226 @@
    }
   },
   {
+   "id": "om-shuwa",
+   "title": "Shuwa",
+   "native_name": {
+    "text": "شواء",
+    "lang": "ar",
+    "romanized": "shuwāʾ"
+   },
+   "summary": "Lamb rubbed with a fiery paste of garlic, chili and warm spices, wrapped and slow-cooked until it falls apart — Oman's Eid feast.",
+   "origin": {
+    "country": "OM",
+    "country_name": "Oman",
+    "continent": "Asia",
+    "subregion": "Western Asia"
+   },
+   "course": "main",
+   "dish_types": [
+    "roast"
+   ],
+   "occasions": [
+    "Eid al-Adha",
+    "Eid al-Fitr"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 8
+   },
+   "time": {
+    "prep_min": 30,
+    "cook_min": 420,
+    "inactive_min": 1440,
+    "total_min": 1890
+   },
+   "difficulty": 3,
+   "equipment": [
+    "Banana leaves or foil",
+    "Deep roasting tin"
+   ],
+   "techniques": [
+    "marinating",
+    "roasting"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "lamb-shoulder",
+       "qty": 2,
+       "unit": "kg",
+       "note": "on the bone, in large pieces",
+       "name": "lamb shoulder"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 10,
+       "unit": "clove",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "ground-cumin",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "ground cumin"
+      },
+      {
+       "ingredient": "ground-coriander",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "ground coriander"
+      },
+      {
+       "ingredient": "cayenne",
+       "qty": 1,
+       "unit": "tbsp",
+       "note": "or to taste",
+       "name": "cayenne pepper"
+      },
+      {
+       "ingredient": "paprika",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "paprika"
+      },
+      {
+       "ingredient": "ground-cardamom",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground cardamom"
+      },
+      {
+       "ingredient": "ground-cinnamon",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground cinnamon"
+      },
+      {
+       "ingredient": "ground-cloves",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground cloves"
+      },
+      {
+       "ingredient": "ground-turmeric",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground turmeric"
+      },
+      {
+       "ingredient": "white-vinegar",
+       "qty": 4,
+       "unit": "tbsp",
+       "name": "white vinegar"
+      },
+      {
+       "ingredient": "lemon-juice",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "lemon juice"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Pound or blend the garlic with the spices, vinegar, lemon juice, oil and salt to a thick paste."
+    },
+    {
+     "text": "Cut deep slashes in the lamb and rub the paste in everywhere. Marinate in the fridge for at least a day.",
+     "timer_min": 1440
+    },
+    {
+     "text": "Wrap the lamb tightly in banana leaves and then foil (or foil alone) and place in a deep tin."
+    },
+    {
+     "text": "Cook at 150 °C until the meat falls off the bone.",
+     "timer_min": 420
+    }
+   ],
+   "serving": "With rice, on a shared platter.",
+   "culture": "Traditionally the wrapped meat is lowered into an underground sand oven (tannour) on the first day of Eid and dug up a day or two later.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "lamb shoulder"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "lamb shoulder"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "lamb shoulder"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "pa-sancocho",
    "title": "Sancocho de Gallina",
    "native_name": {
@@ -25330,6 +27439,183 @@
      "contains": [
       "fish"
      ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "pg-mumu",
+   "title": "Mumu",
+   "native_name": {
+    "text": "Mumu",
+    "lang": "tpi"
+   },
+   "alternate_names": [
+    "Earth oven feast"
+   ],
+   "summary": "Pork, sweet potato, green bananas and greens cooked slowly with coconut cream — an oven version of Papua New Guinea's earth-oven feast.",
+   "origin": {
+    "country": "PG",
+    "country_name": "Papua New Guinea",
+    "continent": "Oceania",
+    "subregion": "Melanesia"
+   },
+   "course": "main",
+   "dish_types": [
+    "roast",
+    "one-pot"
+   ],
+   "occasions": [
+    "Celebrations",
+    "Community feasts"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 8
+   },
+   "time": {
+    "prep_min": 30,
+    "cook_min": 180,
+    "total_min": 210
+   },
+   "difficulty": 2,
+   "equipment": [
+    "Banana leaves or foil",
+    "Deep roasting tin with a lid"
+   ],
+   "techniques": [
+    "steaming",
+    "roasting"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "pork-shoulder",
+       "qty": 1,
+       "unit": "kg",
+       "prep": "cut into large pieces",
+       "note": "or chicken pieces",
+       "name": "pork shoulder"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 2,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "sweet-potato",
+       "qty": 1,
+       "unit": "kg",
+       "prep": "peeled and chunked",
+       "note": "kaukau",
+       "name": "sweet potato"
+      },
+      {
+       "ingredient": "green-banana",
+       "qty": 4,
+       "prep": "peeled and halved",
+       "name": "green banana"
+      },
+      {
+       "ingredient": "spinach",
+       "qty": 400,
+       "unit": "g",
+       "note": "aibika or other local greens are traditional",
+       "name": "spinach"
+      },
+      {
+       "ingredient": "coconut-cream",
+       "qty": 400,
+       "unit": "ml",
+       "name": "coconut cream"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Heat the oven to 160 °C. Line the tin with banana leaves (or foil)."
+    },
+    {
+     "text": "Season the pork with salt. Layer the sweet potato and bananas, then the pork, then the greens."
+    },
+    {
+     "text": "Pour over the coconut cream, fold the leaves over, and cover tightly."
+    },
+    {
+     "text": "Cook until the pork is tender and everything is soft and steamy.",
+     "timer_min": 180
+    }
+   ],
+   "culture": "A true mumu is cooked in a pit lined with hot stones and covered with leaves and earth, for hours, to feed a whole community.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "pork shoulder"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "pork shoulder"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "pork shoulder"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "no",
+      "because": [
+       "pork shoulder"
+      ]
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
      "may_contain": [],
      "in_optional_ingredients": []
     }
@@ -26631,6 +28917,202 @@
     "allergens": {
      "contains": [
       "egg",
+      "milk"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "qa-harees",
+   "title": "Harees",
+   "native_name": {
+    "text": "هريس",
+    "lang": "ar",
+    "romanized": "harīs"
+   },
+   "summary": "Whole wheat and meat cooked for hours and beaten into a smooth, savoury porridge, finished with ghee and cinnamon — a Ramadan essential in Qatar.",
+   "origin": {
+    "country": "QA",
+    "also_claimed_by": [
+     "AE",
+     "SA",
+     "KW",
+     "BH",
+     "OM"
+    ],
+    "country_name": "Qatar",
+    "continent": "Asia",
+    "subregion": "Western Asia"
+   },
+   "course": "main",
+   "dish_types": [
+    "porridge"
+   ],
+   "occasions": [
+    "Ramadan",
+    "Eid",
+    "Weddings"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 10,
+    "cook_min": 240,
+    "inactive_min": 720,
+    "total_min": 970
+   },
+   "difficulty": 2,
+   "equipment": [
+    "Heavy pot",
+    "Wooden spoon or stick blender"
+   ],
+   "techniques": [
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "wheat-berries",
+       "qty": 300,
+       "unit": "g",
+       "note": "hulled whole wheat, soaked overnight",
+       "name": "wheat berries"
+      },
+      {
+       "ingredient": "chicken-thigh",
+       "qty": 600,
+       "unit": "g",
+       "note": "or lamb on the bone",
+       "name": "chicken thigh"
+      },
+      {
+       "ingredient": "water",
+       "qty": 2,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "cinnamon-stick",
+       "qty": 1,
+       "name": "cinnamon stick"
+      },
+      {
+       "ingredient": "ground-cardamom",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground cardamom"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 2,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "ghee",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "ghee"
+      },
+      {
+       "ingredient": "ground-cinnamon",
+       "qty": 1,
+       "unit": "pinch",
+       "name": "ground cinnamon"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Simmer the drained wheat, meat, cinnamon stick, cardamom and salt in the water, covered and stirring occasionally, until the wheat is completely soft. Add water if it dries out.",
+     "timer_min": 180
+    },
+    {
+     "text": "Remove the bones and cinnamon stick. Beat the mixture hard with a wooden spoon (or pulse with a stick blender) until it becomes a smooth, stretchy porridge."
+    },
+    {
+     "text": "Cook gently for a final half hour, stirring.",
+     "timer_min": 30
+    },
+    {
+     "text": "Serve with a pool of melted ghee and a pinch of cinnamon."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "chicken thigh",
+       "ghee"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "wheat berries"
+      ]
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "ghee"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "gluten",
       "milk"
      ],
      "may_contain": [],
@@ -29279,6 +31761,215 @@
       "gluten",
       "milk",
       "soy"
+     ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "sm-piadina",
+   "title": "Piadina",
+   "native_name": {
+    "text": "Piadina",
+    "lang": "it"
+   },
+   "summary": "A thin, tender flatbread made with lard and cooked on a hot griddle, folded around cured ham, soft cheese and rocket.",
+   "origin": {
+    "country": "SM",
+    "also_claimed_by": [
+     "IT"
+    ],
+    "country_name": "San Marino",
+    "continent": "Europe",
+    "subregion": "Southern Europe"
+   },
+   "course": "bread",
+   "dish_types": [
+    "flatbread"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4,
+    "amount": "6 piadine"
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 20,
+    "inactive_min": 30,
+    "total_min": 65
+   },
+   "difficulty": 2,
+   "equipment": [
+    "Griddle or cast-iron pan"
+   ],
+   "techniques": [
+    "dough-making",
+    "pan-frying"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "all-purpose-flour",
+       "qty": 500,
+       "unit": "g",
+       "name": "all-purpose flour"
+      },
+      {
+       "ingredient": "lard",
+       "qty": 80,
+       "unit": "g",
+       "alt": [
+        "olive-oil"
+       ],
+       "name": "lard"
+      },
+      {
+       "ingredient": "baking-soda",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "baking soda"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "water",
+       "qty": 230,
+       "unit": "ml",
+       "note": "lukewarm; or half milk",
+       "name": "water"
+      }
+     ]
+    },
+    {
+     "name": "Filling",
+     "items": [
+      {
+       "ingredient": "ham",
+       "qty": 150,
+       "unit": "g",
+       "note": "prosciutto crudo",
+       "optional": true,
+       "name": "ham"
+      },
+      {
+       "ingredient": "ricotta",
+       "qty": 150,
+       "unit": "g",
+       "note": "or squacquerone",
+       "name": "ricotta"
+      },
+      {
+       "ingredient": "rocket",
+       "qty": 1,
+       "unit": "handful",
+       "name": "rocket"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Mix the flour, soda and salt, rub in the lard, then add the water and knead into a smooth dough. Rest 30 minutes."
+    },
+    {
+     "text": "Divide into 6 and roll each into a thin 23 cm round."
+    },
+    {
+     "text": "Cook on a very hot dry griddle for 1–2 minutes per side, pricking any bubbles, until speckled brown."
+    },
+    {
+     "text": "Fill while warm and fold in half."
+    }
+   ],
+   "culture": "San Marino sits inside Italy's Romagna, and shares its piadina tradition.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "egg-free",
+     "nut-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "ricotta"
+      ]
+     },
+     "vegetarian": {
+      "status": "adaptable",
+      "changes": [
+       "use olive oil instead of lard",
+       "omit ham"
+      ],
+      "check": [
+       "ricotta"
+      ]
+     },
+     "pescatarian": {
+      "status": "adaptable",
+      "changes": [
+       "use olive oil instead of lard",
+       "omit ham"
+      ],
+      "check": [
+       "ricotta"
+      ]
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "all-purpose flour"
+      ]
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "ricotta"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "adaptable",
+      "changes": [
+       "use olive oil instead of lard",
+       "omit ham"
+      ]
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "gluten",
+      "milk"
+     ],
+     "may_contain": [
+      "sulphite"
      ],
      "in_optional_ingredients": []
     }
@@ -34979,6 +37670,172 @@
       "gluten",
       "sesame"
      ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "vu-lap-lap",
+   "title": "Lap Lap",
+   "native_name": {
+    "text": "Laplap",
+    "lang": "bi"
+   },
+   "summary": "Vanuatu's national dish — grated root vegetables baked into a dense pudding with coconut cream and chicken, wrapped in leaves.",
+   "origin": {
+    "country": "VU",
+    "country_name": "Vanuatu",
+    "continent": "Oceania",
+    "subregion": "Melanesia"
+   },
+   "course": "main",
+   "dish_types": [
+    "bake",
+    "pudding"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 40,
+    "cook_min": 90,
+    "total_min": 130
+   },
+   "difficulty": 2,
+   "equipment": [
+    "Banana leaves or foil",
+    "Baking dish"
+   ],
+   "techniques": [
+    "baking"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "cassava",
+       "qty": 1,
+       "unit": "kg",
+       "prep": "peeled and finely grated",
+       "note": "or yam, taro or green banana",
+       "name": "cassava"
+      },
+      {
+       "ingredient": "coconut-cream",
+       "qty": 400,
+       "unit": "ml",
+       "name": "coconut cream"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "chicken-thigh",
+       "qty": 500,
+       "unit": "g",
+       "prep": "boneless, cut into pieces",
+       "optional": true,
+       "name": "chicken thigh"
+      },
+      {
+       "ingredient": "spinach",
+       "qty": 200,
+       "unit": "g",
+       "note": "island cabbage is traditional",
+       "name": "spinach"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Heat the oven to 180 °C. Line the dish with banana leaves (or foil)."
+    },
+    {
+     "text": "Spread the grated cassava in an even layer about 3 cm thick and smooth the top."
+    },
+    {
+     "text": "Lay the greens and chicken over the top and pour over the coconut cream mixed with the salt."
+    },
+    {
+     "text": "Fold the leaves over, cover and bake until the pudding is firm and the chicken cooked.",
+     "timer_min": 90
+    },
+    {
+     "text": "Cut into squares to serve."
+    }
+   ],
+   "tips": [
+    "Cassava must always be cooked thoroughly."
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "adaptable",
+      "changes": [
+       "omit chicken thigh"
+      ]
+     },
+     "vegetarian": {
+      "status": "adaptable",
+      "changes": [
+       "omit chicken thigh"
+      ]
+     },
+     "pescatarian": {
+      "status": "adaptable",
+      "changes": [
+       "omit chicken thigh"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
      "in_optional_ingredients": []
     }
    }

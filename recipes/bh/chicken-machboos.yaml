@@ -1,0 +1,53 @@
+id: bh-chicken-machboos
+title: Chicken Machboos
+native_name: {text: مجبوس دجاج, lang: ar, romanized: majbūs dajāj}
+summary: Bahrain's national dish — chicken and basmati rice cooked with dried lime, warm spices, saffron and a breath of rose water.
+origin:
+  country: BH
+  also_claimed_by: [KW, QA, AE]
+course: main
+dish_types: [rice-dish, one-pot]
+authenticity: traditional
+yield: {servings: 5}
+time: {prep_min: 20, cook_min: 75, inactive_min: 20}
+difficulty: 3
+techniques: [braising, rice-cooking]
+ingredient_groups:
+  - items:
+      - {ingredient: basmati-rice, qty: 500, unit: g}
+      - {ingredient: ghee, qty: 3, unit: tbsp, alt: [vegetable-oil]}
+      - {ingredient: onion, qty: 2, prep: "sliced"}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "minced"}
+      - {ingredient: ginger, qty: 3, unit: cm, prep: "grated"}
+      - {ingredient: green-chili, qty: 2, prep: "slit"}
+      - {ingredient: chicken-thigh, qty: 1.2, unit: kg, prep: "bone-in pieces"}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: dried-lime, qty: 2, prep: "pierced"}
+      - {ingredient: cinnamon-stick, qty: 1}
+      - {ingredient: ground-cardamom, qty: 1, unit: tsp}
+      - {ingredient: ground-cumin, qty: 1, unit: tsp}
+      - {ingredient: ground-coriander, qty: 1, unit: tsp}
+      - {ingredient: ground-turmeric, qty: 0.5, unit: tsp}
+      - {ingredient: black-pepper, qty: 0.5, unit: tsp}
+      - {ingredient: water, qty: 1.2, unit: l}
+      - {ingredient: salt, qty: 2, unit: tsp}
+      - {ingredient: saffron, qty: 1, unit: pinch, prep: "soaked in 2 tbsp warm water"}
+      - {ingredient: rose-water, qty: 1, unit: tsp}
+      - {ingredient: cilantro, qty: 1, unit: handful, prep: "chopped"}
+steps:
+  - text: Rinse and soak the rice.
+    timer_min: 20
+  - Fry the onions in the ghee until golden, then add garlic, ginger and chilies.
+  - Add the chicken and brown, then the tomatoes, dried limes and all the spices. Fry 2 minutes.
+  - text: Add the water and salt and simmer, covered, until the chicken is cooked. Lift out the chicken (brown it under the grill if you like).
+    timer_min: 35
+  - text: Measure about 800 ml of broth into the pot, add the drained rice, bring to a boil, then cover and cook on low until tender.
+    timer_min: 20
+  - Drizzle the saffron water and rose water over the rice, cover and rest 5 minutes. Serve topped with the chicken and cilantro.
+serving: With daqqus (tomato sauce) and salad.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

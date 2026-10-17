@@ -1,0 +1,37 @@
+id: pg-mumu
+title: Mumu
+native_name: {text: Mumu, lang: tpi}
+alternate_names: [Earth oven feast]
+summary: Pork, sweet potato, green bananas and greens cooked slowly with coconut cream — an oven version of Papua New Guinea's earth-oven feast.
+origin:
+  country: PG
+course: main
+dish_types: [roast, one-pot]
+occasions: [Celebrations, Community feasts]
+authenticity: home-style
+yield: {servings: 8}
+time: {prep_min: 30, cook_min: 180}
+difficulty: 2
+equipment: [Banana leaves or foil, Deep roasting tin with a lid]
+techniques: [steaming, roasting]
+ingredient_groups:
+  - items:
+      - {ingredient: pork-shoulder, qty: 1, unit: kg, prep: "cut into large pieces", note: "or chicken pieces"}
+      - {ingredient: salt, qty: 2, unit: tsp}
+      - {ingredient: sweet-potato, qty: 1, unit: kg, prep: "peeled and chunked", note: "kaukau"}
+      - {ingredient: green-banana, qty: 4, prep: "peeled and halved"}
+      - {ingredient: spinach, qty: 400, unit: g, note: "aibika or other local greens are traditional"}
+      - {ingredient: coconut-cream, qty: 400, unit: ml}
+steps:
+  - Heat the oven to 160 °C. Line the tin with banana leaves (or foil).
+  - Season the pork with salt. Layer the sweet potato and bananas, then the pork, then the greens.
+  - Pour over the coconut cream, fold the leaves over, and cover tightly.
+  - text: Cook until the pork is tender and everything is soft and steamy.
+    timer_min: 180
+culture: A true mumu is cooked in a pit lined with hot stones and covered with leaves and earth, for hours, to feed a whole community.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

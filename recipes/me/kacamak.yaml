@@ -1,0 +1,35 @@
+id: me-kacamak
+title: Kačamak
+native_name: {text: Kačamak, lang: cnr}
+summary: A rich mountain porridge of cornmeal and potato beaten with kajmak and young cheese until stretchy — Montenegro's shepherds' dish.
+origin:
+  country: ME
+  also_claimed_by: [RS, BA]
+course: main
+dish_types: [porridge]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 40}
+difficulty: 2
+techniques: [boiling]
+ingredient_groups:
+  - items:
+      - {ingredient: potato, qty: 400, unit: g, prep: "peeled and chunked"}
+      - {ingredient: water, qty: 1, unit: l}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: cornmeal, qty: 200, unit: g}
+      - {ingredient: kajmak, qty: 100, unit: g}
+      - {ingredient: feta, qty: 150, unit: g, prep: "crumbled", note: "young Montenegrin cheese"}
+steps:
+  - text: Boil the potatoes in the salted water until soft.
+    timer_min: 15
+  - Sprinkle in the cornmeal without stirring, cover and cook on low for 15 minutes.
+  - Mash and beat hard with a wooden spoon until smooth and thick. Cook 5 minutes more.
+  - Beat in the kajmak and cheese until melted and stretchy.
+serving: With a glass of sour milk or yogurt.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

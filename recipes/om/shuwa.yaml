@@ -1,0 +1,46 @@
+id: om-shuwa
+title: Shuwa
+native_name: {text: شواء, lang: ar, romanized: shuwāʾ}
+summary: Lamb rubbed with a fiery paste of garlic, chili and warm spices, wrapped and slow-cooked until it falls apart — Oman's Eid feast.
+origin:
+  country: OM
+course: main
+dish_types: [roast]
+occasions: [Eid al-Adha, Eid al-Fitr]
+authenticity: home-style
+yield: {servings: 8}
+time: {prep_min: 30, cook_min: 420, inactive_min: 1440}
+difficulty: 3
+equipment: [Banana leaves or foil, Deep roasting tin]
+techniques: [marinating, roasting]
+ingredient_groups:
+  - items:
+      - {ingredient: lamb-shoulder, qty: 2, unit: kg, note: "on the bone, in large pieces"}
+      - {ingredient: garlic, qty: 10, unit: clove}
+      - {ingredient: ground-cumin, qty: 2, unit: tbsp}
+      - {ingredient: ground-coriander, qty: 2, unit: tbsp}
+      - {ingredient: cayenne, qty: 1, unit: tbsp, note: "or to taste"}
+      - {ingredient: paprika, qty: 1, unit: tbsp}
+      - {ingredient: ground-cardamom, qty: 1, unit: tsp}
+      - {ingredient: ground-cinnamon, qty: 1, unit: tsp}
+      - {ingredient: ground-cloves, qty: 0.5, unit: tsp}
+      - {ingredient: ground-turmeric, qty: 1, unit: tsp}
+      - {ingredient: white-vinegar, qty: 4, unit: tbsp}
+      - {ingredient: lemon-juice, qty: 2, unit: tbsp}
+      - {ingredient: vegetable-oil, qty: 3, unit: tbsp}
+      - {ingredient: salt, qty: 1, unit: tbsp}
+steps:
+  - Pound or blend the garlic with the spices, vinegar, lemon juice, oil and salt to a thick paste.
+  - text: Cut deep slashes in the lamb and rub the paste in everywhere. Marinate in the fridge for at least a day.
+    timer_min: 1440
+  - Wrap the lamb tightly in banana leaves and then foil (or foil alone) and place in a deep tin.
+  - text: Cook at 150 °C until the meat falls off the bone.
+    timer_min: 420
+serving: With rice, on a shared platter.
+culture: Traditionally the wrapped meat is lowered into an underground sand oven (tannour) on the first day of Eid and dug up a day or two later.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -370,6 +370,28 @@
   ],
   "note": "Most contain some wheat."
  },
+ "egg-noodles": {
+  "name": "egg noodles",
+  "category": "grain",
+  "contains": [
+   "gluten",
+   "egg"
+  ],
+  "aliases": [
+   "tăiței"
+  ]
+ },
+ "wheat-berries": {
+  "name": "wheat berries",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ],
+  "aliases": [
+   "hulled wheat",
+   "harees wheat"
+  ]
+ },
  "red-lentils": {
   "name": "red lentils",
   "category": "legume",
@@ -895,6 +917,33 @@
   ],
   "note": "Grated root of Xanthosoma; sold frozen in Surinamese shops."
  },
+ "cassava": {
+  "name": "cassava",
+  "category": "vegetable",
+  "aliases": [
+   "manioc",
+   "yuca",
+   "maniok"
+  ],
+  "note": "Must be cooked thoroughly."
+ },
+ "swiss-chard": {
+  "name": "Swiss chard",
+  "category": "vegetable",
+  "aliases": [
+   "chard",
+   "silverbeet",
+   "blette"
+  ]
+ },
+ "rocket": {
+  "name": "rocket",
+  "category": "vegetable",
+  "aliases": [
+   "arugula",
+   "rucola"
+  ]
+ },
  "lemon": {
   "name": "lemon",
   "category": "fruit"
@@ -967,6 +1016,13 @@
   "aliases": [
    "naranja agria",
    "Seville orange juice"
+  ]
+ },
+ "applesauce": {
+  "name": "applesauce",
+  "category": "fruit",
+  "aliases": [
+   "Apfelmus"
   ]
  },
  "cilantro": {
@@ -1071,6 +1127,17 @@
    "chile pasa",
    "chile negro"
   ]
+ },
+ "lovage": {
+  "name": "lovage",
+  "category": "herb",
+  "contains": [
+   "celery"
+  ],
+  "aliases": [
+   "leuștean"
+  ],
+  "note": "A relative of celery; treated as a celery allergen."
  },
  "salt": {
   "name": "salt",
@@ -1307,6 +1374,14 @@
    "summer savory",
    "Bounekraut"
   ]
+ },
+ "ground-cinnamon": {
+  "name": "ground cinnamon",
+  "category": "spice"
+ },
+ "ground-cloves": {
+  "name": "ground cloves",
+  "category": "spice"
  },
  "soy-sauce": {
   "name": "soy sauce",
@@ -1615,6 +1690,20 @@
   "category": "condiment",
   "note": "Thick black syrup made from cassava juice."
  },
+ "amba": {
+  "name": "amba",
+  "category": "condiment",
+  "may_contain": [
+   "mustard"
+  ],
+  "aliases": [
+   "mango pickle sauce"
+  ]
+ },
+ "rose-water": {
+  "name": "rose water",
+  "category": "condiment"
+ },
  "roasted-peanuts": {
   "name": "roasted peanuts",
   "category": "nut-seed",
@@ -1700,6 +1789,13 @@
    "moambé",
    "nyembwe",
    "banga"
+  ]
+ },
+ "tahini": {
+  "name": "tahini",
+  "category": "nut-seed",
+  "contains": [
+   "sesame"
   ]
  },
  "vegetable-oil": {
@@ -2027,6 +2123,34 @@
    "animal-rennet"
   ],
   "note": "Soft, tangy sheep's-milk cheese."
+ },
+ "ricotta": {
+  "name": "ricotta",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk"
+  ],
+  "may_contain": [
+   "animal-rennet"
+  ]
+ },
+ "parmesan": {
+  "name": "Parmesan",
+  "category": "dairy",
+  "animal": [
+   "dairy"
+  ],
+  "contains": [
+   "milk",
+   "animal-rennet"
+  ],
+  "aliases": [
+   "Parmigiano Reggiano"
+  ],
+  "note": "PDO rules require animal rennet."
  },
  "chicken-thigh": {
   "name": "chicken thigh",

@@ -1,0 +1,40 @@
+id: li-kasknopfle
+title: Käsknöpfle
+native_name: {text: Käsknöpfle, lang: de}
+summary: Liechtenstein's national dish — small egg dumplings layered with sharp local cheese, topped with golden onions and served with applesauce.
+origin:
+  country: LI
+  also_claimed_by: [AT, CH]
+course: main
+dish_types: [dumpling, cheese]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 20, cook_min: 30, inactive_min: 15}
+difficulty: 3
+equipment: [Spätzle press or Knöpfle sieve]
+techniques: [dough-making, boiling, pan-frying]
+ingredient_groups:
+  - name: Knöpfle
+    items:
+      - {ingredient: all-purpose-flour, qty: 500, unit: g}
+      - {ingredient: egg, qty: 5}
+      - {ingredient: water, qty: 200, unit: ml, note: "or half milk"}
+      - {ingredient: salt, qty: 1, unit: tsp}
+      - {ingredient: nutmeg, qty: 1, unit: pinch}
+  - name: Assembly
+    items:
+      - {ingredient: emmental, qty: 250, unit: g, prep: "grated", note: "Liechtensteiners mix in Sauerkäse (a tangy sour-milk cheese)"}
+      - {ingredient: butter, qty: 3, unit: tbsp}
+      - {ingredient: onion, qty: 2, prep: "sliced into rings"}
+      - {ingredient: applesauce, qty: 300, unit: g, note: "to serve"}
+steps:
+  - Beat the flour, eggs, water, salt and nutmeg into a thick, bubbly batter. Rest 15 minutes.
+  - Fry the onions in the butter until deep golden.
+  - Press the batter in batches into boiling salted water. When the knöpfle float, lift them out and layer them in a warm dish with the cheese.
+  - Top with the onions and their butter and serve with applesauce.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

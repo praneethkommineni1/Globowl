@@ -1,0 +1,35 @@
+id: ad-trinxat
+title: Trinxat
+native_name: {text: Trinxat, lang: ca}
+summary: Andorra's mountain dish — mashed cabbage and potato fried into a crisp cake with garlic and bacon.
+origin:
+  country: AD
+  also_claimed_by: [ES]
+course: main
+dish_types: [potato, mash]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 40}
+difficulty: 1
+techniques: [boiling, pan-frying]
+ingredient_groups:
+  - items:
+      - {ingredient: white-cabbage, qty: 800, unit: g, prep: "chopped", note: "savoy or winter cabbage"}
+      - {ingredient: potato, qty: 800, unit: g, prep: "peeled and chunked"}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: olive-oil, qty: 4, unit: tbsp}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "sliced"}
+      - {ingredient: bacon, qty: 150, unit: g, prep: "cut into strips"}
+steps:
+  - text: Boil the cabbage and potatoes together in salted water until very soft. Drain thoroughly.
+    timer_min: 25
+  - Fry the garlic and bacon in the oil until crisp. Lift out half the bacon for garnish.
+  - Add the cabbage and potatoes to the pan and mash roughly with a spatula, mixing in the garlic and bacon fat.
+  - Press into a cake and fry until a golden crust forms underneath, then flip and brown the other side.
+  - Serve topped with the reserved bacon.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}
