@@ -235,6 +235,16 @@ cuisines:
   Guamanian recipes: GU
   Chamorro recipes: GU
   Sahrawi recipes: EH
+  United States recipes: US
+  Southwestern recipes: US
+  Hawaiian recipes: US
+  Cornish recipes: GB
+  Northern Irish recipes: GB
+  Alsatian recipes: FR
+  Sylheti recipes: BD
+  Trinidadian and Tobagonian recipes: TT
+  Gibraltarian recipes: GI
+  Manx recipes: IM
 courses:
   Main course recipes: main
   Main dish recipes: main
