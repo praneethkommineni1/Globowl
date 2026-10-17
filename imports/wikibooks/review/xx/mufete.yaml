@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 whole fish
+#  - unmapped ingredient: 2 cups cooked beans
+#  - unmapped ingredient: Salt and pepper
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-mufete
+title: Mufete
+summary: Mufete is a traditional dish from Angola. It is made with grilled fish served with cassava, sweet potatoes, plantains, beans cooked in palm oil, and onion tomato sauce.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 4
+ingredient_groups:
+- items:
+  - {ingredient: red-palm-oil, unit: tbsp, qty: 3}
+  - {ingredient: onion, qty: 2}
+  - {ingredient: tomato, qty: 2}
+  - {ingredient: garlic, qty: 2}
+  - {ingredient: lemon, qty: 1}
+  - {ingredient: cassava}
+  - {ingredient: sweet-potato}
+  - {ingredient: plantain}
+steps:
+- Clean the fish and season with salt, pepper, garlic, and lemon juice. Leave it for 20 minutes.
+- Grill the fish or bake it until it is well cooked and golden brown.
+- Heat palm oil in a pot. Add chopped onions, tomatoes, and garlic. Stir for a few minutes.
+- Add the cooked beans and allow it to simmer for 10 minutes.
+- Peel and boil the cassava and sweet potatoes until soft.
+- Boil or fry the plantains.
+- Prepare onion sauce by mixing chopped onions, tomatoes, little oil, lemon juice, and salt.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMufete&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mufete@4637035
+    url: https://en.wikibooks.org/w/index.php?oldid=4637035
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

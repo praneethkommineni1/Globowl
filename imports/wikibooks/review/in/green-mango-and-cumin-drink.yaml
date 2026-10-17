@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-green-mango-and-cumin-drink
+title: Green Mango and Cumin Drink
+alternate_names:
+- Aam Panna
+summary: Aam panna or aam jhora is a green mango drink widely consumed in northern India during summer months. Apart from being delicious and refreshing, aam panna is believed to have several health benefits.
+origin:
+  country: IN
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pressure-cooking
+ingredient_groups:
+- items:
+  - {ingredient: mango, qty: 4}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: salt, qty: 2, note: level}
+  - {ingredient: cumin-seeds, qty: 1, note: level}
+  - {ingredient: red-chili, qty: 1, optional: true}
+  - {ingredient: mint, unit: handful, qty: 1}
+steps:
+- Cut mangoes into 3 slices each—2 from either side of the seed and 1 with the seed in it.
+- Pressure cook mangoes with one small cup of water. Turn off heat as soon as the pressure cooker whistles once.
+- Open cooker after 5–7 minutes and leave to cool.
+- Grind sugar and roasted cumin seeds using a food processor. If using chilli, grind that too.
+- Mince mint leaves in a food processor.
+- When cool, squeeze pulp of mangoes into a blender using hands. Discard skin and seeds.
+- Purée mango pulp until smooth.
+- Add ground sugar, rock salt, roasted cumin seeds, chilli powder, and minced mint leaves. Blend well.
+- Store in clean plastic or glass bottle. Refrigerate.
+- To serve, add 4–5 teaspoons of the mango mixture to a glass of water. Enjoy!
+tips:
+- Instead of pressure cooking the mangoes you can roast the whole mangoes over an open flame, until the skin is charred and the flesh is soft. The charred skin will peel off easily and you can squeeze out the pulp with your hands. This gives a nice smoky flavour to the dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGreen_Mango_and_Cumin_Drink_%28Aam_Panna%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Green Mango and Cumin Drink (Aam Panna)@4640699
+    url: https://en.wikibooks.org/w/index.php?oldid=4640699
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

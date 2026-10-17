@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tier millet
+id: ng-kunun-tsamiya
+title: Kunun Tsamiya
+alternate_names:
+- Nigerian Powdered Millet and Tsamiya Drink
+summary: Kunun tsamiya is a drink common in northern Nigeria.
+origin:
+  country: NG
+course: drink
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4 servings
+time:
+  total_min: 20
+difficulty: 3
+equipment:
+- Bowl
+- Wooden spoon
+- Pot
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: ground-cloves, unit: tbsp, qty: 1}
+  - {ingredient: ginger, unit: handful, qty: 1}
+  - {ingredient: black-pepper}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: tamarind-paste}
+  - {ingredient: sugar}
+steps:
+- Grind together ginger, cloves, millet, and pepper until smooth, and transfer to a bowl. Mix in enough water to get a paste.
+- Combine the tamarind and water in a pot. Set on fire, and allow to boil for few minutes.
+- Slowly add the boiled water into the bowl of millet paste, stirring continuously so that it is lump-free and smooth.
+- Add sugar to taste and serve.
+tips:
+- Kunun tsamiya can be served thick or thin by adjusting the amount of water.
+- The paste is made by combining millet and water in a ratio of 2:1.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKunun_Tsamiya_%28Nigerian_Powdered_Millet_and_Tsamiya_Drink%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kunun Tsamiya (Nigerian Powdered Millet and Tsamiya Drink)@4513167
+    url: https://en.wikibooks.org/w/index.php?oldid=4513167
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

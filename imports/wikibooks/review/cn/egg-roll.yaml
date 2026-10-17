@@ -1,0 +1,81 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Egg roll wrappers
+#  - unmapped ingredient: Bok choy
+#  - unmapped ingredient: Bamboo shoots
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: cn-egg-roll
+title: Egg Roll
+summary: Egg rolls are a savory Chinese-American fried pastry. They consist of a filling wrapped in a wheat flour skin and deep-fried. Egg rolls may be eaten plain or dipped in sweet-and-sour sauce or teriyaki sauce.
+origin:
+  country: CN
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 4
+techniques:
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: chicken}
+  - {ingredient: broccoli, optional: true}
+  - {ingredient: celery, optional: true}
+  - {ingredient: spinach, optional: true}
+  - {ingredient: bean-sprouts}
+  - {ingredient: ginger}
+  - {ingredient: soy-sauce}
+  - {ingredient: vegetable-oil, prep: possibly including sesame oil}
+  - {ingredient: shortening, prep: possibly including shortening}
+  - {ingredient: egg-white}
+steps:
+- Cut the meat into tiny pieces. This is much easier to do if the meat is cooked, but the result will be better if you cut the meat raw and cook it after cutting.
+- Cut the bamboo shoots into matchsticks.
+- If using, chop the broccoli florets into little pieces ~⅜ inch in diameter. Cut the stalk into matchsticks.
+- If using celery, cut the stalks lengthwise into ¾ inch-wide pieces and then crosswise into ⅛-inch slices.
+- If using bok choy, cut the leaves away from the stalk. Treat the stalks as celery. Cut the leaves crosswise in ½-inch strips, then break the strips into 1.5-inch pieces.
+- If using spinach, treat it much like the bok choy leaves.
+- Wash the bean sprouts, discarding any that are not white and crisp.
+- Place oil in a wok and turn on the heat. High temperatures can produce a better result, but they require rapid stirring to prevent burning. Beginners should use lower temperatures. Split the cooking into batches as needed to ensure that your wok is not too full; there should be plenty of room to stir and toss the food in your wok. You may prefer to cook each ingredient separately, then mix them at the end.
+- Add the meat. If it is uncooked, lightly stir-fry it now. Drain juices and add more oil as needed.
+- You may add a small amount of sesame seed oil and/or sesame seeds for flavor.
+- Add soy sauce. For a typical wok full of food, add a tablespoon.
+- Add ginger. About ½ teaspoon of ginger should be right, depending on taste. Ginger is somewhat hot.
+- Add the broccoli, celery, and/or bok choy stalks. When done, they should be just slightly softened. Broccoli should end up being very bright green, losing the bluish cast but not gaining any hint of a yellow-brown cast.
+- Add bok choy leaves and/or spinach. When done, they should be just barely wilted.
+- Add the bamboo shoots and bean sprouts, and turn off the heat. Do not overcook the bean sprouts.
+- Begin heating oil to fry the egg rolls. Deep-fat frying works best, though pan frying in ¾-inch of oil will also work. You will not need a basket; egg rolls may stick to a basket and rip. You will need tongs.
+- Place an egg roll wrapper on a plate. Beginners may use flour to help avoid sticking, but this will quickly foul the oil.
+- Turn the plate so that the wrapper has one point toward you and one point away from you.
+- Place some hot filling on the wrapper.
+- Fold over the corner that faces away from you.
+- Paint some egg white onto this corner to act as glue.
+- Fold over the left-facing and right-facing corners.
+- Paint some egg white onto these parts also, and also onto the remaining corner.
+- Roll the egg roll toward you, onto the remaining corner of the wrapper.
+- Examine the wrapper to ensure that it is fully sealed. Tears may be patched up with pieces from a spare wrapper and some egg white glue.
+- Place the egg roll into the hot oil. You may be able to cook several at once, but do not allow the uncooked egg rolls to sit for long. Egg rolls that sit uncooked will become sticky and easy to tear.
+- Turn the egg rolls over a few times as they cook, and dunk them under the oil. Be sure not to break them open as you do this.
+- Remove the egg rolls when they are golden brown. Place them onto a fresh plate, so that they do not become contaminated with raw egg whites. Be sure to not handle the cooked egg rolls with hands that may be contaminated with raw egg whites.
+- Serve quickly; they are best eaten hot.
+tips:
+- Like other fried foods, egg rolls do not keep very long after cooking, but the filling itself will keep well in the fridge.
+- Leftover filling and wrappers may be used to make wonton soup. Leftover wrappers may be deep-fried alone, then immediately covered in sugar and cinnamon.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgg_Roll&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egg Roll@4499783
+    url: https://en.wikibooks.org/w/index.php?oldid=4499783
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Panch puran
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: xx-sylheti-onion-and-rice-fritters
+title: Sylheti Onion and Rice Fritters
+summary: Sylheti salty rice cake, locally known as nunor bora among other names, is a cherished savoury rice flour fritter originating from Sylhet.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 180
+difficulty: 3
+techniques:
+- deep-frying
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 2, prep: chopped}
+  - {ingredient: ginger, qty: 1}
+  - {ingredient: water, unit: ml, qty: 570}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: ground-turmeric}
+  - {ingredient: rice-flour, unit: g, qty: 300}
+  - {ingredient: long-grain-rice, unit: g, qty: 120}
+  - {ingredient: cilantro, optional: true}
+  - {ingredient: water}
+steps:
+- Blend the onions, ginger, and garlic, then add them to a saucepan with the boiling water.
+- Season the mixture with salt and turmeric powder. Optionally incorporate panch puran.
+- Stir plain flour, rice flour, and/or ground rice into the saucepan, forming a spongy, soft paste.
+- Once the paste is fully cooked, remove it from the saucepan and let it cool.
+- Knead the paste on a floured surface until it comes together into a dough.
+- Flatten or roll out the dough, then cut out pieces.
+- Deep fry the dough pieces in hot oil, then drain and serve.
+tips:
+- The dough pieces can be frozen and stored before frying.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASylheti_Onion_and_Rice_Fritters&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sylheti Onion and Rice Fritters@4517772
+    url: https://en.wikibooks.org/w/index.php?oldid=4517772
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

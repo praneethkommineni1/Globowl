@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: np-masyaura
+title: Masyaura
+alternate_names:
+- Nepali Fermented Vegetable Balls
+summary: Masyaura are Nepali fermented sun-dried vegetable balls made with a combination of minced vegetables and black lentils. The choice of vegetables is mostly taro, yam, and colocasia leaf.
+origin:
+  country: NP
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: brown-lentils, unit: cup, qty: 4}
+  - {ingredient: taro, unit: cup, qty: 2}
+steps:
+- Place the lentil flour in a mixing bowl, and add enough water to make a thick paste.
+- Mix in the vegetables.
+- Cover the bowl and leave it overnight. This allows the paste to absorb the moisture completely and go through slight fermentation, which gives a nice flavor to the product.
+- In the morning, make small balls or nuggets by using your hand, and place them on a tray. Wet your hand often with water, which helps prevent the paste from sticking to your hand. The balls should not touch each other.
+- Place the tray in the direct sun to allow them to dry. It will take around three days to completely sun-dy, and it might take even longer on less sunny or cloudy days. Keep it indoors during the night to speed up the drying process.
+- Once they are completely dried, keep them in an airtight container store for several months.
+tips:
+- You can also use whole black lentils instead of lentil flour. In this case, soak them in the water for several hours, remove the outer layer, drain water, and then grind them to a thick paste.
+- In Nepali culture, cooked masyaura is Served with cooked rice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMasyaura_%28Nepali_Fermented_Vegetable_Balls%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Masyaura (Nepali Fermented Vegetable Balls)@4501242
+    url: https://en.wikibooks.org/w/index.php?oldid=4501242
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

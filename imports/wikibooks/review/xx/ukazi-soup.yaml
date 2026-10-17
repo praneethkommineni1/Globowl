@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Periwinkles or snail meat
+#  - unmapped ingredient: 60 g achara
+#  - unmapped ingredient: 40 g okazi leaf
+#  - course unknown from categories
+id: xx-ukazi-soup
+title: Ukazi Soup
+summary: Ukazi soup is an Igbo soup made from okazi and water leaf. It is similar to afang soup, but okazi soup is thicker.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3-4
+time:
+  total_min: 10
+difficulty: 1
+equipment:
+- Pot
+- Bowl
+- Stove
+- Stirring spoon
+- Kitchen knife and chopping board
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: beef, qty: 6, optional: true}
+  - {ingredient: stockfish, qty: 4, prep: cleaned}
+  - {ingredient: bouillon-cube, qty: 3}
+  - {ingredient: red-palm-oil, unit: cup, qty: 0.75}
+  - {ingredient: scotch-bonnet, qty: 2, prep: chopped}
+  - {ingredient: ground-crayfish, qty: 6}
+  - {ingredient: salt, unit: tsp, qty: 1}
+steps:
+- Boil the meat and fish in water with stock cubes until the meat is tender.
+- Stir in the palm oil and chiles. Cook until yellow.
+- Reduce the heat and stir in the achara and crayfish.
+- Season to taste with stock cubes and salt, then cook for 5 more minutes.
+- Stir in the okazi leaf, and cook for 3 minutes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AUkazi_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ukazi Soup@4508924
+    url: https://en.wikibooks.org/w/index.php?oldid=4508924
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no time in recipe summary
+id: jp-steamed-sweet-rice
+title: Steamed Sweet Rice
+summary: Steamed Sweet Rice.
+origin:
+  country: JP
+course: side
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: About 3 cups cooked rice
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 1.5}
+  - {ingredient: water}
+steps:
+- Place sweet glutinous rice in a medium bowl.
+- Wash rice thoroughly in cool water, rinsing and repeating until water is clear, drain, then return rice to bowl.
+- Add 3 cups (720 ml) water to the rice. Soak for 6 hours or overnight.
+- Drain well, spread rice evenly in a round, 8–9 inch (20 cm) shallow baking pan, and add ⅓ cup (80 ml) water.
+- In a wok, bring about 4 cups (950 ml) water to a boil over medium high heat.
+- Place a steamer tray in the wok.
+- Cover the pan of rice and place on the tray over the boiling water.
+- Steam for 30 minutes. If rice is not tender, sprinkle with 2–3 tablespoons of water, and steam it for 5 minutes more.
+- When tender, remove steamer tray from wok.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASteamed_Sweet_Rice&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Steamed Sweet Rice@4513054
+    url: https://en.wikibooks.org/w/index.php?oldid=4513054
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

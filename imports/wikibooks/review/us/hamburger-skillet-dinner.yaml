@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: a sprinkle of garlic salt
+id: us-hamburger-skillet-dinner
+title: Hamburger Skillet Dinner
+summary: The original contributor of this recipe provided the following anecdote:"This was the first thing I could cook. I learned to make it staying with a friend as I was leaving the Navy. For years I have called it 'Keith's Whats-it.'"
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 40
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: pasta, unit: cup, qty: 1, prep: 'such as macaroni, elbows, or wagon wheels'}
+  - {ingredient: beef-mince, unit: g, qty: 454, prep: crumbled}
+  - {ingredient: onion}
+  - {ingredient: tomato, unit: can, qty: [1, 2]}
+steps:
+- Boil pasta in 4–6 cups salted, oiled water until al dente. Drain.
+- While pasta is cooking, sprinkle a 10-inch (25 cm) skillet with garlic salt and minced onion, and brown beef.
+- Add tomato soup and cook a minute or two.
+- Stir in drained pasta.
+tips:
+- May add beans, vary spices, add onions; anything you like!
+- Makes a decent chili base with chili powder added.
+- Good in leftovers, if that is possible.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHamburger_Skillet_Dinner&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Hamburger Skillet Dinner@4524774
+    url: https://en.wikibooks.org/w/index.php?oldid=4524774
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

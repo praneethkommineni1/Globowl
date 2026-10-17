@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 6–10% by volume miso
+#  - unmapped ingredient: Wakame seaweed
+#  - unmapped ingredient: Konbu, perhaps left over from making dashi
+#  - unmapped ingredient: Grated daikon radish
+#  - unmapped ingredient: Clams
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - duplicate id jp-miso-soup from another Wikibooks page
+id: jp-miso-soup
+title: Miso Soup
+alternate_names:
+- Traditional
+summary: This recipe is for a traditional miso soup. Wakame with tofu is a standard and popular combination, especially at restaurants.
+origin:
+  country: JP
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- name: Broth
+  items:
+  - {ingredient: dashi, qty: [90, 94]}
+- name: Garnish
+  items:
+  - {ingredient: firm-tofu}
+  - {ingredient: firm-tofu}
+  - {ingredient: spinach}
+  - {ingredient: scallion}
+  - {ingredient: potato}
+  - {ingredient: eggplant}
+  - {ingredient: shrimp}
+  - {ingredient: mushroom}
+steps:
+- Put dashi in a pot.
+- Add any garnish that needs cooking.
+- Heat the dashi, letting it simmer to cook any garnish that needs cooking. Do not bring to a rolling boil, as this degrades the flavor.
+- Add any garnish that does not need cooking, and remove from heat.
+- Add the miso to the soup. Avoid boiling the miso; some nuances of the flavor will be lost.
+tips:
+- While certainly a traditional food, miso soup is also suited to modern interpretations. Using oil leftover from frying bacon and adding caramelized onion and cabbage produces a soup notably different from the traditional variety, and can add new interest to a classic dish. A small quantity of freshly ground black pepper added just before serving rounds out this method very well.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMiso_Soup_%28Traditional%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Miso Soup (Traditional)@4569941
+    url: https://en.wikibooks.org/w/index.php?oldid=4569941
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

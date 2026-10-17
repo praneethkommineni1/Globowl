@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: Freshly ground pepper
+#  - unmapped ingredient: Groundnut oil or shea butter oil
+#  - course unknown from categories
+id: xx-wasawasa
+title: Wasawasa
+alternate_names:
+- Yam Couscous
+summary: Wasawasa.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 5
+  amount: 5–6
+time:
+  total_min: 60
+difficulty: 3
+equipment:
+- Saucepan
+- Stovetop
+- Knife
+- Cooking spoon
+- Bowl
+- Steamer
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: yam}
+  - {ingredient: salt}
+  - {ingredient: water}
+steps:
+- Start heating a saucepan of water over medium heat so that it will begin to boil by the time the yam mixture is ready.
+- Sieve the yam flour into a bowl to remove any undesired particles that might be present from the processing.
+- Very gradually stir in water, stirring in a circular motion to form tiny grains resembling couscous. Avoid using too much water; but, if you do, you can correct with more flour. Be patient; it can take up to 10 minutes to complete. You can shake the bowl to hasten the process, so be patient and keep working until you achieve the desired texture .
+- Transfer the mixture to the top of a steamer over the boiling water, and then cover it for 15 minutes, lifting the lid gently after the first 10 minutes.
+- Take the steamer off the heat after 15 minutes, and rinse the contents in cold water to remove any remaining undesirable particles and any bitterness that the yam may occasionally have. Any clumps that may have developed are also broken up by the water. It might require two washes.
+- After letting it drain for a few minutes, toss with 3 teaspoons of oil and your preferred amount of salt.
+- Place the mixture in the steamer back over the boiling water. Cover with a fresh kitchen towel or piece of parchment paper to trap the steam, then cover with the lid. Cook for another 10–12 minutes.
+- Serve with any desired garnishes, such as pasta.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AWasawasa_%28Yam_Couscous%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Wasawasa (Yam Couscous)@4494027
+    url: https://en.wikibooks.org/w/index.php?oldid=4494027
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

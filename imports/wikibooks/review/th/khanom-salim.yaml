@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Jasmine flavoring
+#  - unmapped ingredient: Crushed ice
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: th-khanom-salim
+title: Khanom Salim
+alternate_names:
+- Sweet Mung Bean Threads with Coconut Syrup
+summary: 'Khanom salim (Thai: ขนมซาหริ่ม) is a traditional Thai dessert. It consists of sweet colored mung bean noodles served with coconut milk and crushed ice. Khanom Salim is one of the most famous Thai desserts due to its unique flavor, ingredients, and scent of jasmine.'
+origin:
+  country: TH
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Stove
+- Salim press (used for making dough into noodles)
+- Bowl (400 ml)
+- Pan
+ingredient_groups:
+- name: Dough
+  items:
+  - {ingredient: mung-beans, unit: cup, qty: 1}
+  - {ingredient: water, unit: cup, qty: 5}
+  - {ingredient: food-coloring}
+- name: Simple syrup
+  items:
+  - {ingredient: sugar, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: coconut-milk, unit: cup, qty: 1}
+steps:
+- Mix the mung bean flour and water until smooth. Separate it into 2 or 3 portions, and mix 1–2 drops of food coloring into each portion to color it.
+- Transfer each piece of dough into a pan, and put it on the stove over low heat.
+- Stir constantly for about 15 minutes,until the dough is cooked and has become clear.
+- Put all the dough in the salim press. Press the dough into a bowl of cold water.
+- Make a simple syrup by mixing the sugar and water together over a stove over low heat until the sugar is dissolved.
+- Put the noodles into a small bowl with crushed ice. Top with jasmine-flavored coconut milk and the sugar syrup.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKhanom_Salim_%28Sweet_Mung_Bean_Threads_with_Coconut_Syrup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Khanom Salim (Sweet Mung Bean Threads with Coconut Syrup)@4517043
+    url: https://en.wikibooks.org/w/index.php?oldid=4517043
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

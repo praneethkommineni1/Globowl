@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 cups of your favorite marinara sauce
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: it-arancini
+title: Arancini
+alternate_names:
+- Italian Fried Rice Balls
+summary: Originally posted to Foodista by Gaila Perez. Foodista recipes are released under a CC-BY license.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- name: Rice Mixture
+  items:
+  - {ingredient: long-grain-rice, unit: g, qty: 454}
+  - {ingredient: mozzarella, unit: g, qty: 113, prep: grated}
+  - {ingredient: parmesan, unit: cup, qty: 0.25}
+  - {ingredient: black-pepper}
+- name: Filling
+  items:
+  - {ingredient: ham, unit: g, qty: 113, prep: chopped}
+  - {ingredient: butter, unit: tbsp, qty: 1, prep: chopped}
+- name: Assembly and cooking
+  items:
+  - {ingredient: breadcrumbs, unit: cup, qty: 1.5}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: olive-oil}
+  - {ingredient: vegetable-oil}
+steps:
+- Boil the rice in salted water until soft. Drain it well.
+- Mix in the grated cheese and some freshly ground black pepper. Let it cool.
+- Prepare filling by combining chopped ham and butter.
+- Spread the breadcrumbs in a plate or a serving tray. Spread the flour on another plate.
+- Put the eggs in a bowl and beat them a little.
+- Spread a spoonful of the cooled rice it in your hand. Add some filling in the middle, and use your other hand to close the rice over the filling. Set aside.
+- Continue shaping rice balls with the remaining rice and filling. The finished balls should be the size of a small lemon.
+- Roll the balls in the flour. Dip them in beaten egg. Roll in the breadcrumbs to coat.
+- Heat a few inches of oil in a large pan. Fry the balls, turning occasionally, until golden brown all over.
+- Place finished arancini on paper towels to remove excess oil.
+- Warm up the marinara sauce.
+- When ready to serve, spoon some sauce on the serving plates. Place 3 to 4 arancini on each plate, and serve right away.
+tips:
+- When frying, the oil level should be at least halfway up the balls. Turn them once to fry on each half.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AArancini_%28Italian_Fried_Rice_Balls%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Arancini (Italian Fried Rice Balls)@4514959
+    url: https://en.wikibooks.org/w/index.php?oldid=4514959
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

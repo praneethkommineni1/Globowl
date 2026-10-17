@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (MX, US): confirm the country of origin
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: mx-adobo-sauce
+title: Adobo Sauce
+summary: Adobo sauce is a sauce or marinade used in Latin American and Southwestern U.S.-style cooking, made of finely chopped or pureed chiles, garlic, vinegar, and often onions and tomatoes. Food that has been prepared with adobo is sometimes called adobado .
+origin:
+  country: MX
+  also_claimed_by:
+  - US
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: chipotle-in-adobo, qty: 12, prep: dried jalapeño peppers}
+  - {ingredient: water, unit: cup, qty: 4}
+  - {ingredient: onion, unit: cup, qty: 0.5, prep: diced}
+  - {ingredient: white-vinegar, unit: cup, qty: 0.333}
+  - {ingredient: ketchup, unit: cup, qty: 0.25}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: crushed or sliced}
+  - {ingredient: ground-cumin, unit: pinch, qty: 1, prep: oregano}
+  - {ingredient: salt, note: to taste}
+steps:
+- Combine all ingredients in a heavy saucepan. Cook over a very low heat for 1–2 hours until the chiles are very soft and the liquid has been reduced to about 1 cup. Alternatively, cook in a slow cooker overnight.
+- Beat with a mortar and pestle, or put in blender to puree for a thick sauce.
+tips:
+- Sauce will keep for several weeks in the fridge in an airtight container. You can also can it in mason jars for longer storage, following proper procedures for sterilizing jars and canning.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAdobo_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Adobo Sauce@4518845
+    url: https://en.wikibooks.org/w/index.php?oldid=4518845
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

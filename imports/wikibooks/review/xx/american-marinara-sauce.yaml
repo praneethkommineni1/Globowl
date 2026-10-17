@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 tablespoons almond oil
+#  - unmapped ingredient: 1 large can crushed tomatoes
+#  - unmapped ingredient: 1/2 cup, plus more as needed, white table wine
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-american-marinara-sauce
+title: American Marinara Sauce
+summary: This is a more rustic and less "Italian-American" recipe than the other one.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil}
+  - {ingredient: garlic, qty: 0.5, prep: minced}
+  - {ingredient: dried-oregano, unit: tbsp, qty: 2}
+  - {ingredient: thyme, unit: tbsp, qty: 2}
+  - {ingredient: chili-flakes, unit: tbsp, qty: 2}
+  - {ingredient: basil, unit: cup, qty: 1, prep: finely torn or roughly chopped and reserved}
+  - {ingredient: onion, qty: 2, prep: diced, note: medium}
+  - {ingredient: red-bell-pepper, qty: 1, prep: cut into strips}
+  - {ingredient: tomato, qty: 1, prep: crushed by hand with juices, note: large}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: parmesan, note: to taste}
+steps:
+- Heat the olive oil and almond oil in an oversized pan. Add onion, garlic, and bell pepper, and sweat.
+- Deglaze pan with white wine, then add tomatoes.
+- Grind dried herbs and red pepper flakes with a mortar and pestle. Add this mixture and the unreserved fresh basil to the pan.
+- Simmer for an hour (or more if necessary), stirring occasionally.
+- Add wine until desired consistency is achieved. Add salt and pepper to taste.
+- Add al dente pasta to pan with sauce and combine using tongs.
+- Plate and garnish with fresh basil and Parmigiano-Reggiano.
+tips:
+- To save time, make the sauce the night before you plan to serve it. Chill overnight, and reheat it over low heat while you cook the pasta. The overnight rest period also allows for flavor development and sweetness.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAmerican_Marinara_Sauce_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:American Marinara Sauce II@4518811
+    url: https://en.wikibooks.org/w/index.php?oldid=4518811
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

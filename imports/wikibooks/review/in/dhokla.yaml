@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/4 cup skinless black gram
+id: in-dhokla
+title: Dhokla
+alternate_names:
+- Steamed Black Gram Bread
+summary: Dhokla is a Gujarati snack that is made with black gram. It is not to be confused with khaman, a variant made from besan (chickpea flour). It is eaten as a side dish with the main meal and is usually tangy and slightly sweet in taste.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4 pieces
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- steaming
+ingredient_groups:
+- name: Batter
+  items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 1}
+  - {ingredient: yogurt, unit: cup, qty: 0.25}
+  - {ingredient: water, unit: cup, qty: 1.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: ginger, qty: 1}
+  - {ingredient: red-chili, qty: 4}
+  - {ingredient: baking-soda, unit: tsp, qty: 0.5}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: cilantro, unit: tbsp, qty: 2}
+steps:
+- Toast the rice and the dal in a pan over medium heat for 4–5 minutes.
+- Allow it to cool, then grind into a semi-coarse powder. Put the powder in a bowl.
+- Mix yoghurt and warm water into the powder. Mix thoroughly so that no lumps are formed and the batter is of pouring consistency.
+- Add salt and let it ferment for 8–10 hours.
+- Make a paste of ginger and green chillies.
+- Once fermented, mix the ginger-green chilli paste with the batter.
+- Grease a dhokla platter, thali, or other dish/tin.
+- Boil water in the steamer/boiler.
+- Set half the batter aside.
+- In a small bowl, combine ¼ tsp soda bicarbonate, ½ tsp oil, and ½ tbsp lemon juice. Add this to the batter and mix well. Repeat this for the remaining batter just before putting it in the steamer.
+- Transfer the risen batter to the greased container, and place in the steamer. Steam for 8–10 minutes. Check by poking with a knife—if the knife comes out clean, it is cooked.
+- Sprinkle with coriander leaves and serve hot with green chutney.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADhokla_%28Steamed_Black_Gram_Bread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dhokla (Steamed Black Gram Bread)@4515100
+    url: https://en.wikibooks.org/w/index.php?oldid=4515100
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

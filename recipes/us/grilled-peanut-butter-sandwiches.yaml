@@ -1,0 +1,43 @@
+id: us-grilled-peanut-butter-sandwiches
+title: Grilled Peanut Butter Sandwiches
+summary: Here, "grilling" means frying, as it does for the Grilled Cheese Sandwich. Elvis Presley was famous for consuming these with sliced bananas and "burnt" bacon.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 10
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: peanut-butter, unit: tbsp, qty: 2}
+  - {ingredient: white-bread, unit: slice, qty: 2}
+  - {ingredient: butter}
+steps:
+- Spread peanut butter between bread slices.
+- Spread outsides of bread with softened or melted butter or margarine.
+- Cook in a non-stick skillet on medium heat, turning a few times, until bread is golden brown and peanut butter is melted.
+- Serve with plenty of milk.
+tips:
+- Make a standard peanut butter and jelly sandwich and cook it in the same manner; these are very good.
+- Make a standard peanut butter and marshmallow fluff sandwich and cook it in the same manner. These are very good, but can be a bit messy.
+- Substitute almond or cashew butter for peanut butter.
+- Other kinds of bread can be substituted for the white bread.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGrilled_Peanut_Butter_Sandwiches&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Grilled Peanut Butter Sandwiches@4518253
+    url: https://en.wikibooks.org/w/index.php?oldid=4518253
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

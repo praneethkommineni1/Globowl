@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 1/4 pounds deer loin
+id: us-venison-italian-style
+title: Venison Italian Style
+summary: Venison Italian Style.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 90
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: cup, qty: 2}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: butter, unit: cup, qty: 0.25}
+  - {ingredient: dry-white-wine, unit: cup, qty: 0.75}
+  - {ingredient: butter, unit: cup, qty: 0.25}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 2.5}
+  - {ingredient: capers, unit: tbsp, qty: 3}
+  - {ingredient: parsley, unit: cup, qty: 0.25}
+steps:
+- Slice loin across grain into ¼-inch or thinner slices, or pound flat between two pieces of waxed paper.
+- Combine with 1 cup of milk in shallow dish.
+- Cover dish in refrigerator for up to 3 hours, then discard milk.
+- Add remaining milk and temper outside refrigerator for 1 hour.
+- Discard milk, then pat slices dry.
+- Mix flour, salt and pepper, then thoroughly coat venison slices.
+- In large skillet, melt butter over medium heat, then brown venison on both sides.
+- Add wine and simmer two minutes more.
+- Transfer venison slices to heated platter with slotted spoon.
+- Add lemon juice, capers, and parsley to skillet, and cook on medium two minutes, constantly scraping bottom and sides of skillet.
+- Serve venison slices with sauce over it.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AVenison_Italian_Style&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Venison Italian Style@4525793
+    url: https://en.wikibooks.org/w/index.php?oldid=4525793
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

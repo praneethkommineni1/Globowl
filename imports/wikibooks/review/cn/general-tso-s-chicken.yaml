@@ -1,0 +1,73 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Seasoning to taste
+#  - unmapped ingredient: 1 tbsp red Shaoxing rice wine
+id: cn-general-tso-s-chicken
+title: General Tso's Chicken
+summary: 'General Tso''s chicken (Mandarin: Zuo Zongtang ji in) is a popular battered-chicken recipe in Chinese-American restaurants, allegedly hailing from Hunan province in China.'
+origin:
+  country: CN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- deep-frying
+ingredient_groups:
+- name: Chicken/Batter
+  items:
+  - {ingredient: chicken, unit: g, qty: 750, prep: boneless and skinless.}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 1}
+  - {ingredient: cornstarch, unit: tbsp, qty: [2, 3], prep: or as needed}
+  - {ingredient: vegetable-oil, unit: ml, qty: 700, prep: or enough oil to shallow-fry}
+- name: Sauce
+  items:
+  - {ingredient: dark-soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 1}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: chicken-stock, unit: tbsp, qty: 3}
+  - {ingredient: ginger, unit: tbsp, qty: 1}
+  - {ingredient: garlic, unit: tbsp, qty: 1}
+  - {ingredient: cornstarch, unit: tbsp, qty: 1}
+- name: Vegetables
+  items:
+  - {ingredient: scallion, qty: 4, prep: chopped}
+  - {ingredient: red-chili, unit: tbsp, qty: 1}
+steps:
+- Cut the chicken into 2 cm (¾ inch) cubes.
+- Beat the egg, light soy sauce, and seasoning in a bowl.
+- Add the chicken pieces to the egg mixture, and stir in the cornstarch to thicken the mixture.
+- Mix the sauce ingredients in another bowl and set aside until needed. Stir out any lumps.
+- Heat the oil in a wok (if deep frying, aim for 180°C or 350°F).
+- If deep frying, fry the pieces of battered chicken a few at a time until crispy (around 3 minutes). If shallow-frying, fry until the chicken is cooked and the batter is golden. Remove excess oil from the chicken pieces after frying.
+- After frying the chicken, empty and wipe clean the wok. Add 2 tbsp oil back to the wok, and return to the heat.
+- Fry the spring onions and chili peppers together for about 30 seconds.
+- Add the chicken pieces back to the wok, and stir fry with the vegetables until browned.
+- Stir sauce and add to wok. After the sauce comes to a boil, cook for about 1 minute or until sauce thickens. The exact time will depend partly on how much cornstarch you added.
+- Remove from heat and serve immediately.
+tips:
+- Dark meat is preferred, but you can also use white meat, or both!
+- Serve with steamed or fried rice.
+- You can substitute a dry sherry for the Shaoxing wine.
+- A small onion can be used instead of the spring onions.
+- Reduce or increase the chili peppers depending on your liking for spicy-hot foods.
+- The quantity of sauce can be increased according to preference.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGeneral_Tso%27s_Chicken&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:General Tso's Chicken@4511945
+    url: https://en.wikibooks.org/w/index.php?oldid=4511945
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

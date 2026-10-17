@@ -1,0 +1,75 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-boule-di
+title: Boule-Di
+alternate_names:
+- Senegalese Fish and Rice
+summary: Boule-di, also known as boule (pronounced "boo-lay"), is a traditional West African dish that originated in Senegal. It is a hearty and flavorful one-pot meal made with a combination of fish, vegetables, and rice.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large pot or Dutch oven with a lid
+- Wooden spoon or spatula
+- Cutting board
+- Knife
+- Measuring cups and spoons
+- Paper towels
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: fish, unit: g, qty: 907}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: garlic, qty: 4, prep: minced}
+  - {ingredient: tomato, unit: can, qty: 1}
+  - {ingredient: red-bell-pepper, qty: 1, prep: diced}
+  - {ingredient: green-pepper, qty: 1, prep: diced}
+  - {ingredient: carrot, qty: 2, prep: diced}
+  - {ingredient: okra, unit: cup, qty: 1, prep: sliced}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: thyme, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: chicken-stock, unit: cup, qty: 4}
+  - {ingredient: parsley}
+steps:
+- Rinse the fish fillets under cold water and pat them dry with paper towels. Cut the fish into medium-sized chunks and set aside.
+- Heat the vegetable oil in a large pot or Dutch oven over medium heat. Add the chopped onions and minced garlic, and sauté until they turn translucent and fragrant.
+- Add the diced tomatoes, red and green bell peppers, carrots, and frozen okra to the pot. Stir well to combine with the onions and garlic.
+- Add the tomato paste, paprika, cayenne pepper, black pepper, dried thyme, and salt to the pot. Stir everything together to evenly distribute the spices and coat the vegetables.
+- Gently place the fish chunks on top of the vegetable mixture. Then add the rice, spreading it evenly over the fish and vegetables.
+- Carefully pour the fish or vegetable broth into the pot, making sure it covers the fish and rice mixture. The liquid should be about 1 inch above the ingredients.
+- Bring the mixture to a boil over medium-high heat. Once it starts boiling, reduce the heat to low and cover the pot with a lid. Allow to simmer for about 20–25 minutes, or until the rice is tender and the fish is cooked through.
+- Remove the pot from heat and let it sit for a few minutes with the lid on. This allows the flavors to meld together. Serve hot, garnished with fresh parsley or cilantro.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABoule-Di_%28Senegalese_Fish_and_Rice%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Boule-Di (Senegalese Fish and Rice)@4513974
+    url: https://en.wikibooks.org/w/index.php?oldid=4513974
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

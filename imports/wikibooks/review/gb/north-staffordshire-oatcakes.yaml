@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 220 g fine oatmeal
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gb-north-staffordshire-oatcakes
+title: North Staffordshire Oatcakes
+summary: An oatcake is a type of pancake made from oatmeal, cooked on a griddle. North Staffordshire oatcakes are a local delicacy in the North Staffordshire (Stoke-on-Trent) area of England, and so may be known to non-locals as a North Staffordshire oatcake or Potteries oatcake.
+origin:
+  country: GB
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 220}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: yeast, unit: g, qty: 14}
+  - {ingredient: milk, unit: ml, qty: 850, prep: mixed half and half}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+steps:
+- Add the salt to the flour and oatmeal.
+- Dissolve the yeast with a little warm liquid and add the sugar. Allow the mixture to become frothy.
+- Mix the dry ingredients with the yeast liquid to make a batter.
+- Cover the batter with a clean cloth and leave it in a warm place for an hour.
+- Cook the oatcakes on a well-greased griddle. Put enough batter onto the griddle to produce an oatcake about 8–9 inches in diameter. The surface will be covered in holes as it cooks.
+- Flip the oatcake after 2–3 minutes when the upper side appears dry and the underneath is golden brown, and cook for another 2–3 minutes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANorth_Staffordshire_Oatcakes&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:North Staffordshire Oatcakes@4522858
+    url: https://en.wikibooks.org/w/index.php?oldid=4522858
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

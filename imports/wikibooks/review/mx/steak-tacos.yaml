@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Salsa verde
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: mx-steak-tacos
+title: Steak Tacos
+summary: Tacos de bistec is a popular dish in Mexico. This form of the taco can be found in all areas.
+origin:
+  country: MX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: lard, optional: true}
+  - {ingredient: beef}
+  - {ingredient: cilantro, prep: finely-chopped}
+  - {ingredient: onion, prep: finely-chopped}
+  - {ingredient: lime, prep: quartered}
+  - {ingredient: tortilla}
+steps:
+- Put the corn oil in a pan or griddle, and warm it up. Cook the steak in the pan if needed. When the steak is ready, keep it warm.
+- Warm or make the tortillas in a pan. You can use the same pan used for the meat.
+- Once everything is ready, put the meat down the middle in the tortillas, which typically are used in layers of two to help the taco hold together without breaking (flour tortillas only need one layer).
+- Squeeze as much lime juice as desired over the meat. Add cilantro, onions, and salsa verde to taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASteak_Tacos&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Steak Tacos@4518776
+    url: https://en.wikibooks.org/w/index.php?oldid=4518776
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

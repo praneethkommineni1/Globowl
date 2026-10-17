@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 teaspoon pepper soup spice mix
+#  - unmapped ingredient: Scent leaves or uziza leaves
+#  - no procedure steps
+#  - course unknown from categories
+id: ng-nigerian-peper-soup
+title: Nigerian peper soup
+summary: Pepper Soup is a spicy West African soup made with meat or fish, pepper, and aromatic local spices. It is light in texture but rich in flavour and is commonly eaten in Nigeria as a comfort food or served at gatherings and celebrations.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4-6 servings
+time:
+  total_min: 60
+difficulty: 3
+equipment:
+- Cooking pot
+- Knife
+- Chopping board
+- Measuring spoons
+- Mixing bowl
+- Wooden spoon or ladle
+- Mortar and pestle or spice grinder (for pepper soup spices)
+- Colander or sieve
+- Stove or other heat source
+ingredient_groups:
+- items:
+  - {ingredient: goat, unit: g, qty: 500, prep: 'chicken, or assorted meat'}
+  - {ingredient: black-pepper, unit: tbsp, qty: [2, 3]}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: crayfish, unit: tbsp, qty: 2}
+  - {ingredient: bouillon-cube, qty: [2, 3]}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: water, unit: cup, qty: [3, 4]}
+steps:
+- (missing)
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_peper_soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian peper soup@4639167
+    url: https://en.wikibooks.org/w/index.php?oldid=4639167
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

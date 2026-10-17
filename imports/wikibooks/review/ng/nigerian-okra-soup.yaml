@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 500 grams fresh okra pods, finely sliced or blended
+#  - unmapped ingredient: 700 grams assorted meat
+#  - unmapped ingredient: 3 scotch bonnet pepper
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+id: ng-nigerian-okra-soup
+title: Nigerian Okra Soup
+alternate_names:
+- Ila Asepo
+summary: Okra soup, known as Ila Asepo in Yoruba, is one of the oldest and most widely eaten soups in Nigeria. Made from finely cut or blended okra pods, it is a draw soup prized for its thick, viscous texture and deep savoury flavour.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: red-palm-oil, unit: cup, qty: 0.3}
+  - {ingredient: stockfish, unit: g, qty: 200, prep: soaked and cleaned}
+  - {ingredient: smoked-fish, unit: g, qty: 150, prep: deboned}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 3}
+  - {ingredient: onion, qty: 1}
+  - {ingredient: iru, unit: tbsp, qty: 1}
+  - {ingredient: bouillon-cube, qty: 2}
+steps:
+- 'Cook the meats: Season 700 grams assorted meat (beef, shaki, ponmo, cow leg) with diced 1 onion, 1 of 2 seasoning cubes, and a pinch of 1 teaspoons salt. Add 200 grams stockfish (panla), soaked and cleaned midway through cooking. Cook on medium heat until tender. Reserve the meat stock.'
+- 'Fry the palm oil base: Heat 0.3 cups palm oil in a pot on medium heat. Add 1 tablespoons iru (locust bean) and stir well. Add blended or crushed 3 scotch bonnet pepper (rodo). Fry the pepper in the palm oil for 5–7 minutes until the rawness is gone.'
+- 'Add stock and proteins: Pour reserved meat stock into the pot. Add cooked 700 grams assorted meat (beef, shaki, ponmo, cow leg), 200 grams stockfish (panla), soaked and cleaned, and 150 grams smoked fish, deboned. Add 3 tablespoons ground crayfish and remaining 2 seasoning cubes. Stir well and simmer on medium heat for 10 minutes'
+- 'Add okra and finish: Add the finely sliced or blended 500 grams fresh okra pods, finely sliced or blended into the pot. Stir gently to combine. Cook on medium heat for 5–7 minutes only do not overcook. Taste and adjust 1 teaspoons salt. The soup should be thick, green-tinged, and draw when lifted.'
+- 'Serve: Serve hot with pounded yam (iyán), eba, amala, fufu, or starch.'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Okra_Soup_%28Ila_Asepo%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Okra Soup (Ila Asepo)@4633925
+    url: https://en.wikibooks.org/w/index.php?oldid=4633925
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

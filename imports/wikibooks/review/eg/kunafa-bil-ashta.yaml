@@ -1,0 +1,73 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 package kataifi pastry
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: eg-kunafa-bil-ashta
+title: Kunafa Bil Ashta
+alternate_names:
+- Egyptian Clotted Cream Pastry
+summary: Kunafa bil ashta is a rich and decadent dessert that is popular in Egyptian cuisine. This dessert features layers of shredded pastry, filled with a creamy and sweet ashta (clotted cream) filling, and drizzled with a fragrant sugar syrup.
+origin:
+  country: EG
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Baking dish or round cake pan
+- Pastry brush
+- Saucepan
+- Whisk or spoon
+- Small frying pan (for toasting the nuts, if desired)
+- Oven
+techniques:
+- baking
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: ghee, unit: cup, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 1}
+  - {ingredient: kajmak, unit: cup, qty: 2}
+  - {ingredient: pistachios}
+steps:
+- Preheat the oven to 180°C (350°F).
+- In a saucepan, combine the sugar, water, and lemon juice. Place the saucepan over medium heat and cook, stirring occasionally, until the sugar has dissolved and the mixture comes to a gentle boil. Reduce the heat to low and let the syrup simmer for about 10 minutes, until it slightly thickens. Remove the syrup from the heat and set it aside to cool.
+- In a baking dish or round cake pan, spread a layer of shredded phyllo dough, making sure to cover the bottom and sides of the pan. Brush the phyllo dough with melted ghee or butter.
+- Repeat the process, layering the shredded phyllo dough and brushing each layer with melted ghee or butter, until you have used about half of the dough.
+- Spread the ashta evenly over the layer of shredded phyllo dough.
+- Continue layering the remaining shredded phyllo dough on top of the ashta, brushing each layer with melted ghee or butter.
+- Once all the shredded phyllo dough has been layered, brush the top layer with melted ghee or butter.
+- Place the baking dish in the preheated oven and bake for about 30–40 minutes, or until the kunafa is golden brown and crispy.
+- Remove the kunafa from the oven and pour the cooled sugar syrup evenly over the hot pastry. Let the kunafa absorb the syrup for a few minutes.
+- Garnish the kunafa with crushed pistachios or almonds.
+- Allow the kunafa to cool for a while before serving. It can be enjoyed warm or at room temperature.
+tips:
+- Make sure to handle the shredded phyllo dough carefully to prevent it from clumping or sticking together.
+- For a more authentic touch, sprinkle some rosewater or orange blossom water over the kunafa before baking for a delightful aroma.
+- Leftover kunafa can be stored in an airtight container in the refrigerator for up to 3 days. It may lose some of its crispiness, but it will still be delicious.
+- If you prefer a lighter version, you can use a mixture of melted butter and vegetable oil instead of ghee.
+- To make the ashta filling, you can either make it from scratch or use a store-bought version, depending on your preference and availability.
+- Some variations of Egyptian Kunafa include adding a layer of finely ground nuts, such as pistachios or walnuts, between the layers of shredded phyllo dough for added crunch and flavor.
+- Another variation is to substitute the ashta filling with a cream cheese or ricotta cheese filling, which provides a tangy contrast to the sweet syrup.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKunafa_Bil_Ashta_%28Egyptian_Clotted_Cream_Pastry%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kunafa Bil Ashta (Egyptian Clotted Cream Pastry)@4587494
+    url: https://en.wikibooks.org/w/index.php?oldid=4587494
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

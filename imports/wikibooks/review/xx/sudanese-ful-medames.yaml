@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-sudanese-ful-medames
+title: Sudanese Ful Medames
+summary: Ful medames is a traditional Sudanese dish made from cooked fava beans, commonly enjoyed for breakfast or as a light meal. It is a nutritious and filling dish, packed with protein and fiber.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Large pot
+- Colander or strainer
+- Mixing bowl
+- Wooden spoon or spatula
+- Serving dish
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: broad-beans-frozen, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 4}
+  - {ingredient: water, unit: cup, qty: 4}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: minced}
+  - {ingredient: olive-oil, unit: cup, qty: 0.25}
+  - {ingredient: lemon}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: parsley, prep: 'diced tomatoes, chopped onions, hard-boiled eggs, feta cheese', optional: true}
+steps:
+- Rinse the dried fava beans under cold water and then place them in a large pot. Add 4 cups of water to the pot and let the beans soak overnight, or for at least 8 hours. This helps soften the beans and reduce the cooking time.
+- Drain the soaked fava beans and rinse them under cold water. Return the beans to the pot and add 4 cups of fresh water. Bring the water to a boil over medium-high heat. Once boiling, reduce the heat to low and let the beans simmer for about 1–1½ hours, or until they become tender. Stir occasionally and skim off any foam that forms on the surface.
+- Once the beans are tender, drain them using a colander or strainer and transfer them to a mixing bowl. Add minced garlic, extra-virgin olive oil, lemon juice, ground cumin, ground coriander, and salt to the bowl. Mix everything together, ensuring that the beans are coated evenly with the seasoning.
+- For a smoother consistency, you can use a fork or a potato masher to lightly mash some of the beans. This step is optional and can be adjusted according to your preference.
+- Transfer the seasoned ful medames to a serving dish. Ful medames can be enjoyed warm or at room temperature. You can serve it with a variety of optional toppings such as chopped parsley, diced tomatoes, chopped onions, hard-boiled eggs, or crumbled feta cheese. It is commonly served with bread or as a side dish alongside other Sudanese specialties.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASudanese_Ful_Medames&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sudanese Ful Medames@4515491
+    url: https://en.wikibooks.org/w/index.php?oldid=4515491
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

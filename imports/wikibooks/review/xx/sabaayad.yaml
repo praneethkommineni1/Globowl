@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Additional oil for layering and frying
+#  - no procedure steps
+#  - course unknown from categories
+id: xx-sabaayad
+title: Sabaayad
+summary: __NOtOC__ Sabaayad (also called Kimis) is a traditional Somali flatbread. It is a layered bread commonly eaten for breakfast or served with tea, honey, soups, curries, and meat stews throughout Somalia and the Horn of Africa.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 20
+difficulty: 2
+equipment:
+- Mixing bowl
+- Rolling pin
+- Griddle or frying pan
+- Spatula
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 3}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: water, unit: cup, qty: [1, 1.5]}
+steps:
+- (missing)
+tips:
+- Sabaayad is often eaten with honey, butter, tea, or savory stews.
+- The bread is known as Kimis in some Somali regions.
+- Additional layers can be created by repeatedly folding and rolling the dough.
+- Whole-wheat flour may be substituted for part of the white flour.
+- Similar breads include paratha and other layered flatbreads of East Africa and South Asia.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASabaayad&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sabaayad@4638943
+    url: https://en.wikibooks.org/w/index.php?oldid=4638943
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

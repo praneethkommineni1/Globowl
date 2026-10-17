@@ -1,0 +1,69 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 6 large banana leaves
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: th-khanom-tian
+title: Khanom Tian
+alternate_names:
+- Thai Coconut Rice Dumplings
+summary: Khanom Tian (ขนมเทียน) is a pyramid-shaped Chinese-Thai dessert, often served during festivals such as Sat Chin (Chinese Ghost Festival) and Chinese New Year. This dessert consists of a dough and a salty or sweet filling.
+origin:
+  country: TH
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 4
+techniques:
+- simmering
+- steaming
+ingredient_groups:
+- name: Dough
+  items:
+  - {ingredient: palm-sugar, unit: g, qty: 100}
+  - {ingredient: coconut-milk, unit: cup, qty: 2}
+  - {ingredient: rice-flour, unit: g, qty: 200}
+- name: Sweet filling
+  items:
+  - {ingredient: palm-sugar, unit: g, qty: 100}
+  - {ingredient: coconut, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 1}
+steps:
+- Melt the palm sugar in a pan with coconut milk and cool to room temperature.
+- Mix the glutinous rice flour with the coconut milk until a smooth and slightly sticky dough is formed.
+- Cover the dough and let sit for 3 hours or overnight.
+- Combine the palm sugar and water in a pan, and simmer until dry enough.
+- Add coconut, and simmer until it is sticky.
+- Let it sit for 10–15 minutes.
+- Oil your hand. Roll a 3-cm chunk of dough into a ball, and flatten it into a circle.
+- Place a ball of filling into the dough. Gently fold the dough around the filling, and pinch the seams shut.
+- Place the dough balls into a greased dish to prevent sticking.
+- Wash the banana leaves. Use scissors to cut the leaves into two rounded sizes—one should be 16–18 cm in diameter and the others 12–14 cm in diameter.
+- Place a large leaf section and a small leaf section together with the dull sides facing each other. This doubles up the leaves and makes them stronger. Do this for all the leaves.
+- Fold one end of the banana leaf into a cone, and drop in the stuffed dough ball.
+- Fold over the shorter side of the cone.
+- Fold over both sides of the banana leaf perpendicularly to the cone seam.
+- Tuck the long tail into the little slot.
+- Fold over the long tail that is left, and put it into the slot. Crease the folds of the pyramid a bit to strengthen it.
+- Place all of the dumplings in a single layer into a steamer. Steam for 20–30 minutes.
+- Let the dumplings cool slightly before eating.
+tips:
+- The video here provides a demonstration on how to shape the banana leaves during assembly.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKhanom_Tian_%28Thai_Coconut_Rice_Dumplings%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Khanom Tian (Thai Coconut Rice Dumplings)@4541104
+    url: https://en.wikibooks.org/w/index.php?oldid=4541104
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

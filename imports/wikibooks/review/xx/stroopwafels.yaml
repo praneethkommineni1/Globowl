@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 6 tbsp dark corn syrup
+#  - unmapped ingredient: 1/2 cup finely-ground hazelnuts, optional
+#  - course unknown from categories
+id: xx-stroopwafels
+title: Stroopwafels
+summary: Stroopwafels are a kind of cookie, originating in The Netherlands. They are typically a morning or evening snack eaten with tea or coffee. They are slightly chewy in texture and made with different fillings and flavors.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 12
+time:
+  total_min: 120
+difficulty: 3
+ingredient_groups:
+- name: Waffles
+  items:
+  - {ingredient: yeast, qty: 1}
+  - {ingredient: water, unit: cup, qty: 0.5}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 4}
+  - {ingredient: butter, unit: cup, qty: 1}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.5}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: egg, qty: 2, note: large}
+- name: Filling
+  items:
+  - {ingredient: brown-sugar, unit: cup, qty: 1.5}
+  - {ingredient: butter, unit: cup, qty: 1}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+steps:
+- Preheat a Pizzelle iron.
+- Dissolve the yeast in the warm water.
+- Add the butter to the flour, then mix in the sugar, cinnamon, eggs, and yeast mixture.
+- Mix well and set aside to rise for 30–60 minutes.
+- Roll dough into 12 small balls, squeeze each ball into the preheated pizzelle iron, and cook for about 30 seconds.
+- In a saucepan, cook the brown sugar, butter, cinnamon, and dark corn syrup until it reaches the soft ball stage (234–240°F or 112–115°C).
+- Stir in ground hazelnuts at this point, if using.
+- Cut each waffle into two thin layers and sandwich them with some filling.
+- Repeat this process until all the filling and waffles are used.
+tips:
+- If using hazelnuts, remove skin, if possible. Grind hazelnuts in a food processor until they are ground to a fine powder.
+- Try eating your stroopwafel by resting it over a warm cup of coffee or tea. The steam will warm these up just right.
+- Collect any remains of the waffles and let them cool. They can be served as "crumbs" and are usually also sold as such.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AStroopwafels&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Stroopwafels@4515339
+    url: https://en.wikibooks.org/w/index.php?oldid=4515339
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

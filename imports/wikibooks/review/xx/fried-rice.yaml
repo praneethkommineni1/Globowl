@@ -1,0 +1,74 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Bok choy
+#  - unmapped ingredient: Chilli pepper
+#  - unmapped ingredient: Fried rice spice
+#  - course unknown from categories
+id: xx-fried-rice
+title: Fried Rice
+summary: Fried rice is a simple dish that is easily modified and can be prepared in as little as five minutes. You may choose which ingredients to use and how much to use. Ingredients can be substituted and leftovers work great!
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4 persons
+time:
+  total_min: 20
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice}
+  - {ingredient: soy-sauce}
+  - {ingredient: vegetable-oil}
+  - {ingredient: green-peas}
+  - {ingredient: bean-sprouts}
+  - {ingredient: kidney-beans-canned}
+  - {ingredient: mushroom}
+  - {ingredient: carrot}
+  - {ingredient: corn-on-the-cob}
+  - {ingredient: firm-tofu}
+  - {ingredient: egg}
+  - {ingredient: onion}
+- name: Spices
+  items:
+  - {ingredient: black-pepper}
+  - {ingredient: sugar}
+  - {ingredient: salt}
+- name: Meat (optional)
+  items:
+  - {ingredient: chicken}
+  - {ingredient: pork}
+  - {ingredient: beef}
+  - {ingredient: pork}
+  - {ingredient: curry-powder}
+  - {ingredient: shrimp}
+  - {ingredient: shrimp}
+steps:
+- If using tofu, cook it.
+- If using onions, dice them into whatever size you prefer.
+- If using bok choy, separate the stalk part from the leaf part. Slice the leaf part crosswise into ¾-inch-thick strips, then tear the strips into 2-inch pieces. These pieces will be treated much like the bean sprouts, though perhaps with slightly more cooking. The stalk part will be treated as celery.
+- If using bean sprouts, wash them and discard any that are not white and crunchy.
+- If using meat, slice into desired sized pieces and cook.
+- Add a generous amount of oil to a large frying pan (more than you think you'd need) to avoid sticking. If using a type of sausage or other excessively fatty meat, not as much oil may be needed because of the amount of fat.
+- Add the rice. Cook over the stove on medium-high heat.
+- Add the soy sauce, meat(s), eggs, and all vegetables except the onions and bean sprouts.
+- Add pepper, a pinch or two of sugar, and optionally some added salt.
+- Add the tofu, bean sprouts, and onion when the rice is almost done (depending on how fried you want them), being careful not to overcook them.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFried_Rice&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fried Rice@4523476
+    url: https://en.wikibooks.org/w/index.php?oldid=4523476
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

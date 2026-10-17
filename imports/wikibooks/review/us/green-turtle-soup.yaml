@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 6 tablespoons finely-chopped turtle meat
+#  - unmapped ingredient: Oyster juice/liquor
+#  - unmapped ingredient: Ground mace
+#  - unmapped ingredient: Cracker crumbs
+#  - unmapped ingredient: 1 whole turtle, cleaned
+#  - unmapped ingredient: 1 bunch of sweet herbs
+#  - unmapped ingredient: Brown flour
+#  - unmapped ingredient: 1 glass of Madeira wine
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-green-turtle-soup
+title: Green Turtle Soup
+summary: Green Turtle Soup.
+origin:
+  country: US
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- name: Forcemeat (optional)
+  items:
+  - {ingredient: egg, qty: 2}
+  - {ingredient: butter, unit: tbsp, qty: 1}
+  - {ingredient: cayenne}
+  - {ingredient: sugar, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: egg, qty: 2}
+- name: Soup
+  items:
+  - {ingredient: onion, qty: 2}
+  - {ingredient: lemon, qty: 1, prep: juiced}
+steps:
+- Rub the minced turtle, yolks, butter, oyster liquor, cayenne, mace, sugar, and salt together to make a paste.
+- Mix in one of the eggs.
+- Shape the mixture into small balls. Dip in egg, then cracker crumbs.
+- Pan-fry in butter.
+- After removing the entrails, cut up the coarser parts of the turtle meat and bones. Separate out the finer meat.
+- Place the coarse turtle in a pot with the onions, herbs, pepper, and salt. Cover with 4 quarts (4 liters) water, and simmer for 4 hours. Strain the broth, and discard the solids.
+- Simmer the finer turtle meat and the green fat for 1 hour in 2 quarts of water.
+- If there are eggs in the turtle, simmer them for 4 hours in water.
+- Reheat the broth in a pot, and add the fine turtle meat. Thicken with brown flour, and simmer gently for 1 hour.
+- Add the simmered eggs and/or forcemeat, lemon juice, and wine.
+- Serve hot.
+tips:
+- Green turtle can be purchased preserved in air-tight cans.
+- Some cooks add the finer meat before straining, boiling all together five hours; then strain, thicken and put in the green fat, cut into lumps an inch long. This makes a handsomer soup than if the meat is left in.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGreen_Turtle_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Green Turtle Soup@4530180
+    url: https://en.wikibooks.org/w/index.php?oldid=4530180
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

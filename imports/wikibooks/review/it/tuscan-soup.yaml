@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+id: it-tuscan-soup
+title: Tuscan Soup
+alternate_names:
+- Meatless
+summary: Tuscan Soup.
+origin:
+  country: IT
+course: soup
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 1, prep: chopped, note: small}
+  - {ingredient: carrot, qty: 1, prep: sliced, note: small}
+  - {ingredient: olive-oil, unit: tbsp, qty: 1}
+  - {ingredient: chicken, unit: can, qty: 2}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: kidney-beans-canned, unit: can, qty: 1, prep: rinsed and drained}
+  - {ingredient: pasta, unit: cup, qty: 0.667}
+  - {ingredient: spinach, unit: cup, qty: 3}
+steps:
+- In a 2-quart saucepan, sauté onion and carrot in oil until onion is tender.
+- Add broth, water, salt and pepper; bring to a boil.
+- Stir in beans and pasta; return to a boil.
+- Reduce heat; cover and simmer for 15 minutes or until pasta and vegetables are tender, stirring occasionally.
+- Add escarole or spinach and heat through.
+tips:
+- May substitute vegetable broth for chicken broth.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATuscan_Soup_%28Meatless%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tuscan Soup (Meatless)@4525576
+    url: https://en.wikibooks.org/w/index.php?oldid=4525576
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

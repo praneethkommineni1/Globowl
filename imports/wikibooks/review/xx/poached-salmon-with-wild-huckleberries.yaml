@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1/2 cup huckleberries
+#  - no time in recipe summary
+id: xx-poached-salmon-with-wild-huckleberries
+title: Poached Salmon with wild Huckleberries
+summary: Poached Salmon with wild Huckleberries.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: salmon, unit: g, qty: 454}
+  - {ingredient: chicken-stock, unit: cup, qty: 1}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: thyme, unit: sprig, qty: 1}
+  - {ingredient: parsley, unit: sprig, qty: 1}
+  - {ingredient: black-peppercorns, unit: tbsp, qty: 1}
+  - {ingredient: lemon, qty: 1, prep: sliced}
+steps:
+- Preheat oven to 350°F.
+- In a baking dish, combine the fish stock and water. Add the salmon, making sure it is covered by liquid. If more liquid is needed, add equal parts water/fish stock until covered.
+- Add herbs, huckleberries, lemon slices, and peppercorns.
+- Place the in pan in the preheated oven, and bake for 15–18 minutes until salmon is flaky.
+- Serve and enjoy.
+tips:
+- Celery, carrots, pepper, and/or fennel can be added for additional flavoring.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APoached_Salmon_with_wild_Huckleberries&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Poached Salmon with wild Huckleberries@4511878
+    url: https://en.wikibooks.org/w/index.php?oldid=4511878
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

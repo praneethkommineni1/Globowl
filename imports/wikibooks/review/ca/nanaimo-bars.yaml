@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 5 tbsp cocoa
+#  - unmapped ingredient: 1 1/4 cups graham wafer crumbs
+#  - unmapped ingredient: 2 tbsp vanilla custard powder
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ca-nanaimo-bars
+title: Nanaimo Bars
+summary: Nanaimo Bars are a layered chocolate and custard dessert named after the mining town, Nanaimo, British Columbia, Canada. This winning recipe was submitted by Joyce Hardcastle in 1986 when the City of Nanaimo and Harbour Park Mall had a contest to find the best Nanaimo Bar recipe.
+origin:
+  country: CA
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- name: Bottom layer
+  items:
+  - {ingredient: butter, unit: cup, qty: 0.5}
+  - {ingredient: sugar, unit: cup, qty: 0.25}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: almonds, unit: cup, qty: 0.5}
+  - {ingredient: coconut, unit: cup, qty: 1}
+- name: Middle layer
+  items:
+  - {ingredient: butter, unit: cup, qty: 0.5}
+  - {ingredient: heavy-cream, unit: tbsp, qty: 2}
+  - {ingredient: powdered-sugar, unit: cup, qty: 2}
+- name: Top layer
+  items:
+  - {ingredient: chocolate, qty: 4}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+steps:
+- Melt first 3 ingredients in top of double boiler.
+- Add egg and stir to cook and thicken.
+- Remove from heat. Stir in crumbs, coconut, and nuts.
+- Press firmly into an ungreased 8 x 8-inch cake pan.
+- Cream butter, cream, custard powder, and icing sugar together well. Beat until light.
+- Spread over bottom layer.
+- Melt chocolate and butter over low heat. Cool.
+- Once cool, but still liquid, pour over second layer and chill in refrigerator.
+- Once set, cut into squares and serve. Enjoy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANanaimo_Bars_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nanaimo Bars I@4622764
+    url: https://en.wikibooks.org/w/index.php?oldid=4622764
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

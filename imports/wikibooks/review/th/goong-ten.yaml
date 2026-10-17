@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Peppermint leaves
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: th-goong-ten
+title: Goong Ten
+alternate_names:
+- Raw Shrimp Salad
+summary: Goong ten (Thai:กุ้งเต้น, Dancing Shrimp Salad) is a popular dish in Northeast Thailand and Laos. It consists of fresh raw shrimp in spicy sauce with fresh herbs, and it can be found at E-san restaurants or in fresh markets.
+origin:
+  country: TH
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: shrimp, unit: cup, qty: 1}
+  - {ingredient: fish-sauce, unit: tbsp, qty: 2}
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: red-chili, unit: tbsp, qty: 1}
+  - {ingredient: lime, unit: tbsp, qty: 1}
+  - {ingredient: shallot, qty: 3, prep: chopped}
+  - {ingredient: lemongrass, unit: tbsp, qty: 3}
+  - {ingredient: cilantro, unit: tbsp, qty: 2}
+steps:
+- Clean freshwater shrimp well.
+- Put the shrimp in ice water for 5 minutes or until they stop moving. Drain, dry, and set aside.
+- Make the spicy sauce by combining the fish sauce, sugar, chili, and lime juice together. Test and flavor it as desired. Add more chili for a more spicy taste or add more lime for a more sour taste.
+- Shake the shrimp with the spicy sauce in a bag to mix it well.
+- Serve with peppermint leaves and coriander.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGoong_Ten_%28Raw_Shrimp_Salad%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Goong Ten (Raw Shrimp Salad)@4518142
+    url: https://en.wikibooks.org/w/index.php?oldid=4518142
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

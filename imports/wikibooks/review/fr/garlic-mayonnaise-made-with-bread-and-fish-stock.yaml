@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 6 Tbsp fish stock
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: fr-garlic-mayonnaise-made-with-bread-and-fish-stock
+title: Garlic Mayonnaise made with Bread and Fish Stock
+alternate_names:
+- Rouille
+summary: Rouille is a traditional Provençal spicy garlic mayonnaise. It is usually served with bouillabaisse fish stew.
+origin:
+  country: FR
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: white-bread}
+  - {ingredient: egg-yolk, qty: 1}
+  - {ingredient: olive-oil, unit: ml, qty: 100}
+  - {ingredient: garlic, qty: 4}
+  - {ingredient: saffron}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Blend the bread, fish stock, and egg yolk together into a paste.
+- Crush the garlic and saffron or annatto, and add to the paste.
+- Gradually add the oil with one hand while vigorously whisking with the other, as when preparing any other mayonnaise.
+- Add salt and pepper to taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGarlic_Mayonnaise_made_with_Bread_and_Fish_Stock_%28Rouille%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Garlic Mayonnaise made with Bread and Fish Stock (Rouille)@4519064
+    url: https://en.wikibooks.org/w/index.php?oldid=4519064
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

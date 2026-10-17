@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1/2 tsp mesquite smoke powder
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-mesquite-bbq-burger
+title: Mesquite BBQ Burger
+summary: Mesquite BBQ Burger.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 454}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 2}
+  - {ingredient: cider-vinegar, unit: tbsp, qty: 0.5}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: molasses, unit: tsp, qty: 2}
+  - {ingredient: garlic-powder, unit: tsp, qty: 1}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 2}
+steps:
+- Preheat grill to 500–575°F.
+- Combine garlic, smoke powder, and 4 heavy pinches each of salt and freshly ground black pepper. Set aside.
+- Combine remaining ingredients in a mixing bowl. Form into ¾ inch-thick patties and make an indentation in the center of each patty with your thumb.
+- Sprinkle patties on both sides with seasoning mixture. Place on grill and cook, turning often, until desired "doneness" is achieved.
+- Serve on buns with cook's choice of cheese and desired toppings.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMesquite_BBQ_Burger&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mesquite BBQ Burger@4613428
+    url: https://en.wikibooks.org/w/index.php?oldid=4613428
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

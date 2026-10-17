@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: Poultry Shake
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-sweet-and-spicy-asian-chicken
+title: Sweet and Spicy Asian Chicken
+summary: Sweet and Spicy Asian Chicken.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 4, prep: cut into 1 1/2-inch pieces}
+  - {ingredient: egg, qty: 3, prep: beaten}
+  - {ingredient: cornmeal}
+  - {ingredient: vegetable-oil}
+  - {ingredient: chili-flakes, unit: tsp, qty: 2}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 1}
+  - {ingredient: red-wine-vinegar, unit: tbsp, qty: 0.5}
+  - {ingredient: honey, unit: tbsp, qty: 1}
+  - {ingredient: orange-juice, unit: cup, qty: 0.25, prep: heated to boiling}
+  - {ingredient: sugar, unit: tsp, qty: 1.5}
+steps:
+- Dip chicken pieces into eggs. Season liberally with poultry shake and dredge in cornmeal, then move to a plate and let rest 2–3 minutes.
+- Meanwhile, heat oil to 350°F. Add chicken pieces, working in batches if needed, and fry until golden brown and crispy on the outside, and internal temperature reaches 165°F and juices run clear. Drain on a cooling rack set above a half-sheet pan.
+- Combine remaining ingredients. Add chicken pieces and toss to coat.
+- Serve warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASweet_and_Spicy_Asian_Chicken&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sweet and Spicy Asian Chicken@4519025
+    url: https://en.wikibooks.org/w/index.php?oldid=4519025
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

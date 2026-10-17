@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/4 cup sweet pickle juice
+#  - unmapped ingredient: 1/2 teaspoon celery seed
+#  - no time in recipe summary
+id: us-new-england-potato-salad
+title: New England Potato Salad
+summary: This is a classic New England potato salad. Chopping the potatoes into small pieces allows more surface to be coated and improves the flavor.
+origin:
+  country: US
+course: side
+authenticity: unassessed
+yield:
+  servings: 10
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: g, qty: 1361}
+  - {ingredient: egg, qty: 3, prep: chopped}
+  - {ingredient: onion, qty: 1, prep: minced, note: medium}
+  - {ingredient: mayonnaise, unit: cup, qty: 0.75}
+  - {ingredient: parsley, unit: tbsp, qty: 1}
+  - {ingredient: sugar, unit: tbsp, qty: 0.75}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: paprika}
+steps:
+- Cut unpeeled potatoes in half and cook until they are tender when tested with a knife. Do not overcook.
+- Peel the potatoes by scraping them lightly with a knife and cut them into ½ inch (1.25 cm) cubes.
+- Place potatoes in a large bowl and let them come to room temperature.
+- In a small bowl, combine the mayonnaise, pickle juice and sugar and stir until smooth.
+- Add the mayonnaise mixture, minced onion, parsley, celery seed and chopped eggs to the potatoes.
+- Add salt and pepper to taste. Stir lightly to combine.
+- Place in large serving bowl and sprinkle with paprika.
+- Cover and refrigerate until ready to serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANew_England_Potato_Salad&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:New England Potato Salad@4518089
+    url: https://en.wikibooks.org/w/index.php?oldid=4518089
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

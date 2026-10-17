@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 400 grams dried soybeans
+#  - unmapped ingredient: 1 teaspoon tempeh starter
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: id-homemade-tempeh
+title: Homemade Tempeh
+summary: Tempeh is a traditional Indonesian food made from soybeans. It is a fermented food, utilising a special type of mould that forms a cake. When fresh, tempeh has a nice mushroom-like smell and flavour.
+origin:
+  country: ID
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 2280
+difficulty: 4
+equipment:
+- Pressure cooker or saucepan, at least 3 litres (3 quarts)
+- Large tray (or trays) for spreading cooked beans on to dry
+- Banana leaves, zip-lock bags or shallow dishes for incubating the fermenting tempeh
+- Somewhere warm to incubate the tempeh at about 30–35°C / 86–95°F (e.g. your oven, with the light on)
+- Thermometer (optional) for keeping a watch on the temperature of the incubator
+ingredient_groups:
+- items:
+  - {ingredient: water}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 2}
+steps:
+- Cover soybeans with water, and soak overnight or at least 12 hours.
+- Remove the hulls (i.e. skins) from the beans by rubbing between both hands (see notes).
+- Skim off most of the hulls either by washing them away or by using a skimmer or strainer. Some hulls may be left behind without affecting tempeh quality.
+- Cook beans until just tender, not mushy; undercooked is best for tempeh (see notes).
+- Drain beans, and spread to dry somewhere with airflow (see notes).
+- Collect beans into a bowl, and mix in the cider vinegar. This acidifies the beans slightly, inhibiting unwanted spoilage organisms during fermentation.
+- Sprinkle the tempeh starter over the beans and mix in well (see notes).
+- Pack the beans loosely into banana leaves, zip-lock bags, or shallow dishes for incubating. Zip-lock bags must be punctured at roughly 1 cm (&frac12; inch) intervals to keep oxygen up to the fermenting beans.
+- Load the soon-to-be tempeh into your incubator, preferably on racks that will allow air circulation. An electric oven with a light on makes a pretty good incubator, because the light provides just enough heat to keep the beans warm while the fermentation starts happening.
+- Incubate for 12 hours or so at around 30–35°C (86–95°F) with a heat source (unless it's already that hot where you are).
+- After 12 hours, remove or turn off the heat source - the fermenting beans will be making their own heat, and may overheat if you keep them too warm.
+- Monitor periodically from then on, and remove when the beans are totally consumed by fluffy white tempeh with no gaps.
+- After fermentation is complete, serve straight away in your favourite tempeh recipe, refrigerate for two to three days, or freeze for up to two months.
+tips:
+- Tempeh can be made from almost any legume (beans, chickpeas, split peas), most grains, and some nuts. Soybeans are probably one of the cheapest beans to use, but more flavoursome beans make more flavoursome tempeh!
+- Tempeh can also be made from okara, the presscake left over from making soy milk and tofu. In Indonesia, this is called tempe gembus.
+- 'There are many ways to remove the hulls or skins from the beans, including:'
+- cracking dried beans in a grain mill and winnowing to remove hulls
+- grinding soaked beans in hands
+- rubbing soaked beans between both hands
+- rubbing cooked beans between both hands (but don't get burnt!)
+- buy them pre-hulled - e.g. chana dal, split fava beans, split peas
+- Soybeans can be cooked easily in a pressure cooker at 15psi for 10 minutes with slow-release method, or on a rolling boil for 30 minutes in a saucepan. Soft, ready-to-eat soybeans are not the target here, so don't cook too long.
+- It can be difficult to distribute the teaspoonful of tempeh starter through the beans evenly. To make the job a little easier, mix the tempeh starter into a couple of tablespoons of rice flour first, then sprinkle and stir this mixture into the beans a little at a time.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHomemade_Tempeh&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Homemade Tempeh@4514342
+    url: https://en.wikibooks.org/w/index.php?oldid=4514342
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

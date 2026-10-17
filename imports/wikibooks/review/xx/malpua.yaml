@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+id: xx-malpua
+title: Malpua
+alternate_names:
+- South Asian Sweet Pancake
+summary: Malpua.
+origin:
+  country: XX
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 10
+  amount: 10–12
+time:
+  total_min: 45
+difficulty: 3
+techniques:
+- boiling
+- roasting
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: l, qty: 1}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 0.25}
+  - {ingredient: semolina, unit: cup, qty: 0.25}
+  - {ingredient: ghee}
+  - {ingredient: water}
+steps:
+- Boil the milk until it reduces to half of its original volume.
+- Roast the semolina until light brown.
+- Mix the all-purpose flour and milk into the toasted semolina to make a batter. It should be smooth and lump-free.
+- Heat the ghee in a skillet.
+- Use a circular pouring motion to pour batter in the pan and make a small pancake.
+- Keep turning over. Take care that it does not become crisp or harsh.
+- Make a sugar syrup of good consistency. Dip the malpua in the syrup.
+- Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMalpua_%28South_Asian_Sweet_Pancake%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Malpua (South Asian Sweet Pancake)@4522732
+    url: https://en.wikibooks.org/w/index.php?oldid=4522732
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1–2 tsp crushed dried chile pepper
+#  - unmapped ingredient: 2 tbsp chili bean paste
+#  - unmapped ingredient: 1 tbsp Szechuan pepper, roasted and ground
+#  - unmapped ingredient: 1 tbsp rice wine
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+#  - duplicate of hand-written recipe cn-mapo-tofu
+id: cn-mapo-tofu
+title: Mapo Tofu
+summary: Mápó dòufu (麻婆豆腐), also romanized as mapo tofu, is a classic spicy tofu and meat dish from the Szechuan province of China. It is a very flavourful, easy-to-prepare, and spicy dish.
+origin:
+  country: CN
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 30
+difficulty: 1
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 1, prep: sliced}
+  - {ingredient: ginger, qty: 1, prep: minced, note: small}
+  - {ingredient: beef, unit: g, qty: 200, prep: or pork}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: minced}
+  - {ingredient: firm-tofu, unit: g, qty: 500, prep: cubed}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 1}
+  - {ingredient: scallion, qty: [3, 4], prep: cut into 2 cm pieces}
+  - {ingredient: mushroom, qty: [2, 3]}
+steps:
+- If using dried mushrooms, soak them in hot water for 10 minutes while preparing the rest of the ingredients, then slice before adding later.
+- Sauté onion with ginger and crushed chili.
+- Add minced meat and garlic, and fry until brown.
+- Mix in other ingredients (including sliced mushrooms), lower heat, and simmer for 5–10 minutes.
+- Serve over steamed jasmine rice.
+tips:
+- Some extra chili pepper can be substituted for Szechuan pepper, but the taste and feeling will be different. Szechuan pepper has a numbing sensation, not heat.
+- A little ground coriander and cumin is very nice in this dish, especially if you cannot find Szechuan pepper easily.
+- A red bell pepper, a tomato, and fresh coriander leaves are all welcome additions, though not traditional.
+- The meal is just as good with whole beans instead of tofu.
+- A vegan/vegetarian version of this meal can be made by substituting the meat with textured vegetable protein (TVP) or ground tofu (e.g. Shiok Food's Vegetarian Ma Po Tofu)
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMapo_Tofu&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mapo Tofu@4610542
+    url: https://en.wikibooks.org/w/index.php?oldid=4610542
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 inch ginger root, peeled
+#  - unmapped ingredient: 1/2 leek stem , chopped
+#  - unmapped ingredient: 1/2 celery stalk, chopped
+#  - unmapped ingredient: 2 seeds African nutmeg, peeled
+#  - unmapped ingredient: 30 njangsa seeds
+#  - unmapped ingredient: 4 teaspoons ground mbongo spice
+id: cm-mbongo-tchobi
+title: Mbongo Tchobi
+alternate_names:
+- Cameroonian Black Stew
+summary: Mbongo tchobi is type of stew popular among the Bassa people of Cameroon, though it is also eaten in other countries. It can be eaten with rice and yam.
+origin:
+  country: CM
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 35
+difficulty: 2
+equipment:
+- Pot
+- Knife
+- Cutting board
+- Stovetop
+- Cooking spoon
+techniques:
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: fish, prep: filleted, note: large}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: tomato, qty: 2, prep: roughly chopped, note: large}
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: garlic, qty: 7, prep: peeled}
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: red-chili, qty: 1}
+  - {ingredient: chicken-bouillon-cube, qty: 3, note: small}
+steps:
+- Lightly salt the fish fillets, and set aside.
+- Combine the tomatoes, half the onions, garlic, ginger, leeks, celery, African nutmeg, njangsa, mbongo spice, and ½ cup water. Blend until smooth.
+- Pour the mixture over the fish, and marinate for 30 minutes.
+- Heat the oil in a pot. Add the remaining onions and cook until aromatic. Add the fish, marinade, and peppers, then season with salt and stock cubes. Cover and cook for about 15 minutes.
+- Uncover and check the seasoning. Thin with water if necessary, then cook for another 5 minutes.
+- Serve with boiled plantains, rice, or yams.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMbongo_Tchobi_%28Cameroonian_Black_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mbongo Tchobi (Cameroonian Black Stew)@4518969
+    url: https://en.wikibooks.org/w/index.php?oldid=4518969
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

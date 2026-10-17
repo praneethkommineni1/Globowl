@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3 pounds chuck roast or ground beef, cubed or formed into small meatballs
+#  - unmapped ingredient: 3 cups tomato juice or V8
+id: us-texas-easy-chili
+title: Texas Easy Chili
+summary: Texas easy chili is a chili powder and tomato juice based sauce combined with cubed or ground beef. Chili originated in Texas in the 1800s. There are many variations of chili. This version does not contain beans.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6 (1 cup each)
+time:
+  total_min: 60
+difficulty: 1
+techniques:
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: chili-powder, unit: tbsp, qty: 6}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 5}
+  - {ingredient: dried-oregano, unit: tbsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: bouillon-cube, qty: 3}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: lime}
+  - {ingredient: sour-cream}
+steps:
+- Cut chuck roast into bite-size pieces or form ground beef into small meatballs (1 inch / 25 mm in size).
+- Fry beef in cooking oil until outside is browned.
+- Add minced garlic and cook for 2 minutes.
+- Combine chili powder, flour, oregano and cumin in bowl and mix well. Sprinkle mixture over cooking beef and stir until beef is well coated with spice mixture. Cook for 1 minute.
+- Add tomato juice and bullion cubes. Stir for about 15 seconds.
+- Simmer for 45 minutes, stirring occasionally.
+- Remove from heat and add salt and black pepper to taste.
+tips:
+- Cool and refrigerate overnight to develop flavors (if you can wait; if not, enjoy).
+- Heat and serve in bowls with 1 tablespoon of lime juice and 1 tablespoon of sour cream added to top.
+- Serve with cornbread or sourdough bread.
+- For a cool treat, spoon a tablespoon of ranch dressing on top of your chili, along with some cheese!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATexas_Easy_Chili&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Texas Easy Chili@4518785
+    url: https://en.wikibooks.org/w/index.php?oldid=4518785
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

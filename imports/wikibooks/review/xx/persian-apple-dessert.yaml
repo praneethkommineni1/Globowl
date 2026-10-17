@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 dash of salt
+#  - no time in recipe summary
+id: xx-persian-apple-dessert
+title: Persian Apple Dessert
+summary: Persian Apple Dessert.
+origin:
+  country: XX
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 3
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: apple, qty: 3, prep: peeled and cut up, note: medium}
+  - {ingredient: sugar, unit: tbsp, qty: [2, 3]}
+  - {ingredient: lemon, unit: tbsp, qty: 2}
+  - {ingredient: rose-water, unit: tbsp, qty: 1}
+steps:
+- Place half the apples and the remaining ingredients in blender.
+- Cover and blend until coarsely chopped, 20–30 seconds.
+- Add remaining apples; blend until coarsely chopped.
+tips:
+- Rose water and orange flower water can be found in gourmet and specialty shops.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APersian_Apple_Dessert&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Persian Apple Dessert@4587280
+    url: https://en.wikibooks.org/w/index.php?oldid=4587280
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

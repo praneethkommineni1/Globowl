@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup chopped pecans
+#  - unmapped ingredient: 1 cup chopped hazelnuts
+#  - no servings in recipe summary
+id: eg-puff-pastry-with-nuts-and-whipped-cream
+title: Puff Pastry with Nuts and Whipped Cream
+alternate_names:
+- Om Ali
+summary: Om ali is a traditional Egyptian dessert.
+origin:
+  country: EG
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 35
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: puff-pastry, qty: 1, prep: thawed}
+  - {ingredient: walnuts, unit: cup, qty: 0.5}
+  - {ingredient: raisins, unit: cup, qty: 1}
+  - {ingredient: coconut, unit: cup, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 1.25, prep: divided}
+  - {ingredient: milk, unit: cup, qty: 4}
+  - {ingredient: heavy-cream, unit: cup, qty: 0.5}
+steps:
+- Preheat oven to 350°F (175°C). Butter a 9x13-inch baking dish.
+- Place the pastry sheets in the baking dish and place the dish in the oven. Watch it closely. When the top layer turns crunchy and golden, remove it from the oven. Continue until all the sheets are cooked.
+- Preheat the oven broiler.
+- In a bowl, combine walnuts, pecans, hazelnuts, raisins, coconut and ¼ cup sugar. Break cooked pastry into pieces and stir into nut mixture. Spread mixture evenly in a 9x13 inch dish.
+- Bring milk and ½ cup sugar to a boil in a medium saucepan over medium heat. Pour over nut mixture.
+- Whip the heavy cream with the remaining ½ cup sugar until stiff peaks form. Spread evenly over nut mixture in dish.
+- Place dessert under oven broiler until top is golden brown, about 10 minutes. Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APuff_Pastry_with_Nuts_and_Whipped_Cream_%28Om_Ali%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Puff Pastry with Nuts and Whipped Cream (Om Ali)@4587217
+    url: https://en.wikibooks.org/w/index.php?oldid=4587217
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

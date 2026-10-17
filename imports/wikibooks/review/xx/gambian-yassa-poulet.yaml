@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-gambian-yassa-poulet
+title: Gambian Yassa Poulet
+summary: Yassa poulet is a delightful and tangy Gambian dish that combines succulent chicken with a vibrant onion and citrus marinade. This dish is known for its distinctive flavors and is a popular choice for special occasions and gatherings.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+equipment:
+- Mixing bowl
+- Large skillet or frying pan
+- Wooden spoon or spatula
+- Knife
+- Cutting board
+- Serving dish
+techniques:
+- marinating
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 4, prep: thinly sliced, note: large}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: minced}
+  - {ingredient: ginger, unit: tsp, qty: 2}
+  - {ingredient: lemon, qty: [2, 3], prep: juiced}
+  - {ingredient: olive-oil, unit: tbsp, qty: [3, 4]}
+  - {ingredient: dijon-mustard, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: chicken, unit: g, qty: 907}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: parsley, prep: chopped}
+steps:
+- In a mixing bowl, combine the thinly sliced onions, minced garlic, grated ginger, lemon juice, olive oil, Dijon mustard, black pepper, and a pinch of salt. Mix well to create a marinade.
+- Add the chicken pieces to the marinade, ensuring they are evenly coated. Cover the bowl and let the chicken marinate in the refrigerator for at least 2 hours, but preferably overnight, to allow the flavors to meld.
+- Heat the vegetable oil in a large skillet or frying pan over medium-high heat.
+- Remove the chicken pieces from the marinade, reserving the marinade for later use.
+- Place the chicken in the skillet and cook until browned on all sides, about 5–7 minutes per side.
+- Once the chicken is browned, reduce the heat to medium and add the reserved marinade to the skillet.
+- Cover the skillet and let the chicken simmer in the marinade for about 20–25 minutes, or until the chicken is cooked through and tender. Occasionally, turn the chicken pieces and stir the onions to prevent burning and ensure even cooking.
+- Once the chicken is cooked, transfer it to a serving dish and garnish with freshly chopped parsley or cilantro.
+- Serve the yassa poulet hot with steamed rice or couscous.
+tips:
+- Yassa poulet can be made with variations such as adding diced carrots, potatoes, or bell peppers to the dish for added flavor and texture. Additionally, the marinade can be adjusted according to personal taste preferences.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGambian_Yassa_Poulet&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gambian Yassa Poulet@4613423
+    url: https://en.wikibooks.org/w/index.php?oldid=4613423
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

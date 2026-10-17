@@ -1,0 +1,103 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (AR, CL, CO, US): confirm the country of origin
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ar-empanada
+title: Empanada
+summary: In Spain, Latin America, and the Philippines, an empanada is essentially a stuffed pastry.
+origin:
+  country: AR
+  also_claimed_by:
+  - CL
+  - CO
+  - US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 4
+techniques:
+- baking
+- dough-making
+- sauteing
+- simmering
+ingredient_groups:
+- name: Dough
+  items:
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: water, unit: cup, qty: [2, 3]}
+  - {ingredient: all-purpose-flour, unit: kg, qty: 1}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: butter, unit: g, qty: 200}
+  - {ingredient: olive-oil}
+  - {ingredient: cornstarch}
+- name: Argentinian filling (Relleno)
+  items:
+  - {ingredient: beef, unit: kg, qty: 1}
+  - {ingredient: onion, qty: 1, note: large}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: black-pepper, unit: tsp, qty: 1.5}
+  - {ingredient: paprika, unit: tsp, qty: 1.5}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5, optional: true, prep: . Cumin is very invasive and gives the filling a whole different flavor.}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.5}
+  - {ingredient: nutmeg, unit: tsp, qty: 0.25}
+  - {ingredient: ground-cloves, unit: tsp, qty: 0.25}
+  - {ingredient: raisins, unit: cup, qty: 0.5}
+  - {ingredient: olives, optional: true}
+  - {ingredient: egg, optional: true}
+  - {ingredient: potato, optional: true}
+- name: Chilean filling (Pino)
+  items:
+  - {ingredient: beef, unit: kg, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 2}
+  - {ingredient: onion, qty: 3, note: large}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1.5}
+  - {ingredient: paprika, unit: tsp, qty: 1.5}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: raisins, unit: cup, qty: 0.5}
+  - {ingredient: olives}
+  - {ingredient: egg}
+steps:
+- Dissolve salt in water.
+- Mix eggs, flour, butter and 1 cup of water to form a dough. While kneading the dough, gradually add in more water until the dough is soft and stretchy. If the dough becomes sticky, add more flour.
+- Once the dough is the desired consistency, allow to rest for a couple minutes, then roll it out to a thickness of ~2–3 mm (1/10 inch).
+- Cut the dough into discs roughly 10–15 cm (4–6 inches) in diameter.
+- Dice onion into small pieces and sauté in vegetable oil in a large frying pan. Add ground beef, and brown it.
+- While beef is browning, mix in salt, sugar and spices.
+- Once meat has finished cooking, remove from heat and add raisins.
+- If desired add sliced olives, egg, or potatoes.
+- Dice onion into small pieces and sauté in olive oil in a large frying pan. Mince garlic and add to the onions. Add and brown ground beef.
+- While beef is browning, mix in salt, sugar, spices and bay leaf.
+- Allow to simmer for about 20 minutes for flavours to blend.
+- Remove bay leaf, and add olives and raisins.
+- Place 1–2 tablespoons of empanada filling into the center of one of the dough discs (tapa).
+- If Chilean empanadas are being made add one piece of the diced hardboiled egg next to the filling.
+- Wet the outer edge of the tapa with cold water and fold the tapa in half to encase the filling, ensuring there is no air left inside (the wet portion will help the dough stick together, air will burst out when cooked).
+- Holding the empanada in the palm of one hand, with the round edge pointing outwards, pinch and twist over a small (finger-sized) portion of the dough at the top. Continue pinching and twisting around the outer edge until you reach the bottom of the empanada, so that the open edge is sealed shut. You can also use a fork to smash together the lips of the outer edge, but it is not the traditional way and the filling can burst through.
+- Repeat for the remaining filling and dough.
+- To cook the empanadas, deep fry in vegetable oil on medium heat until golden brown. Alternatively, you can brush them with butter and bake on a cookie sheet in the oven at 400 °F for 8–10 minutes or until light brown.
+- Allow empanadas to cool and then eat.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEmpanada&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Empanada@4587192
+    url: https://en.wikibooks.org/w/index.php?oldid=4587192
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

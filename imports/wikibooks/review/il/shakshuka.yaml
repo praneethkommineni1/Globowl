@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+#  - course unknown from categories
+#  - possible duplicate of hand-written recipe tn-shakshuka — merge or keep as a variant
+#  - duplicate id il-shakshuka from another Wikibooks page
+id: il-shakshuka
+title: Shakshuka
+summary: Shakshuka is a popular Middle Eastern dish with many variations. It is vegetarian-friendly.
+origin:
+  country: IL
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- 1 frying pan
+- 1 cutting board
+- 1 kitchen knife
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: tomato, qty: [4, 5]}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: red-bell-pepper}
+  - {ingredient: basil, unit: tsp, qty: 1}
+  - {ingredient: cayenne, prep: 'paprika, and turmeric to taste', note: to taste}
+steps:
+- Peel and chop the onion. Fry it in the oil until it turns translucent.
+- Chop the tomatoes and pepper, and add to the onion in the pan.
+- Add herbs and spices. Cover and let cook until the tomatoes are evenly cooked through (around 25 minutes on low heat).
+- With a wooden spoon, make two holes in the onion-tomato mix.
+- Break and pour each egg into its own hole. Cover and let cook until the eggs are firm (around 5 more minutes).
+- Serve with bread.
+tips:
+- Tuna and garlic
+- Cheese on top
+- Bread inside
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AShakshuka_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Shakshuka II@4514122
+    url: https://en.wikibooks.org/w/index.php?oldid=4514122
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

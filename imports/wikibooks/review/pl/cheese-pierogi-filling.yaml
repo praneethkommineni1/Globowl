@@ -1,0 +1,44 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: pl-cheese-pierogi-filling
+title: Cheese Pierogi Filling
+summary: Cheese Pierogi Filling.
+origin:
+  country: PL
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: twarog, unit: g, qty: 227}
+  - {ingredient: cream-cheese, unit: g, qty: 113}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 2}
+steps:
+- Mash together all of the ingredients until well mixed.
+tips:
+- Farmer's cheese is similar to a dry-curd cottage cheese and is unavailable outside predominately Eastern European and Jewish areas. Dry-curd cottage cheese is a sub-par substitution, and must be drained of all excess liquid if it is to be used.
+- If the farmer's cheese is unsalted, add 1 tsp salt.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACheese_Pierogi_Filling&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cheese Pierogi Filling@4514731
+    url: https://en.wikibooks.org/w/index.php?oldid=4514731
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

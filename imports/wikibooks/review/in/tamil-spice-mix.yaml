@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-tamil-spice-mix
+title: Tamil Spice Mix
+alternate_names:
+- Milagai Podi
+summary: Milagai podi is a mixture of crushed spices used as a condiment in Tamil cuisine. The mixture can be used dry or mixed with ghee or oil. It's great served with hot idlis or dosais.
+origin:
+  country: IN
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: red-chili, qty: 2}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: ground-turmeric, unit: pinch, qty: 1}
+  - {ingredient: garlic, qty: 3, prep: crushed}
+  - {ingredient: ghee, qty: 3, prep: melted}
+steps:
+- Mix all ingredients
+- Let sit 3 minutes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATamil_Spice_Mix_%28Milagai_Podi%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tamil Spice Mix (Milagai Podi)@4516627
+    url: https://en.wikibooks.org/w/index.php?oldid=4516627
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

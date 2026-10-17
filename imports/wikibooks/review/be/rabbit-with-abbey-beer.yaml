@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: be-rabbit-with-abbey-beer
+title: Rabbit with Abbey Beer
+alternate_names:
+- Konijn met Paterbier
+summary: Rabbit with Abbey Beer.
+origin:
+  country: BE
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: rabbit, qty: 1}
+  - {ingredient: onion, prep: chopped}
+  - {ingredient: carrot, prep: chopped}
+  - {ingredient: beer, qty: [1, 2]}
+  - {ingredient: dijon-mustard}
+  - {ingredient: white-bread, unit: slice, qty: 2}
+steps:
+- Divide the rabbit into practical pieces.
+- Cook the onions and carrots in a large pot until colored.
+- Add the portions of rabbit to the pot, and sear the meat.
+- Add the 1–2 beers depending on the size of your pot and how big the rabbit was. The rabbit does not need to be completely submerged.
+- Spread mustard onto the sliced bread, and lay those on top of the mixture. Seal the pot with aluminum foil and a lid.
+- Stew for several (2–3) hours over low heat.
+- Cool the stew and serve it the following day.
+tips:
+- Do take care to check the stew from time to time, and stir to avoid burning things.
+- Do not serve the same day—leave it to cool overnight, and serve the next day.
+- You can also freeze it. Like most stews, it will taste even better when you defrost it.
+- It can be served with mashed potatoes and the onions and carrots from the stew.
+- One might consider using a pressure cooker, but those are usually quite tall for this recipe. It might work better with a big diameter pot, that's not too tall, hence the foil and lid recommendation. Besides, a pressure cooker will cook too fast, which is not ideal for a stew.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARabbit_with_Abbey_Beer_%28Konijn_met_Paterbier%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rabbit with Abbey Beer (Konijn met Paterbier)@4613401
+    url: https://en.wikibooks.org/w/index.php?oldid=4613401
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

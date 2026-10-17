@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: Hickory BBQ Rub
+#  - unmapped ingredient: 1 pound ice
+#  - unmapped ingredient: 1 cup homemade barbecue sauce
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-hickory-bbq-chicken
+title: Hickory BBQ Chicken
+summary: Hickory BBQ Chicken.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 2, prep: 'drumsticks, and breasts'}
+  - {ingredient: salt, unit: cup, qty: 1}
+  - {ingredient: honey, unit: cup, qty: 0.75}
+  - {ingredient: cider-vinegar, unit: cup, qty: 2}
+steps:
+- Combine salt, honey, and vinegar in a gallon size zip-top bag until salt has dissolved. Add ice and shake until ice is almost completely melted and mixture has cooled down. Insert chicken pieces and refrigerate 1½–2 hours, turning once.
+- Place a good amount of hickory chips in the bottom of a large roasting pan. Place a roasting rack in that pan. Set aside.
+- Drain chicken and discard mixture. Pat dry with paper towels and season chicken liberally on both sides with rub. Gently pat into meat and refrigerate for at least 1 hour (more rub will stick if you wear gloves).
+- Toss chicken pieces in barbecue sauce. Place on the prepared roasting pan and insert 1 probe thermometer into one of the breasts and one into the thighs. Bake in the center of a 375°F oven until both the thigh and the breast's internal temperature reach 165°F.
+- Bring remaining sauce to a boil in a large saucepan over medium high heat for 5 minutes. Set aside.
+- Remove and cover with aluminum foil. Let rest 10 minutes. Serve warm with remaining sauce.
+tips:
+- Avoid bottled barbecue sauce, which has too much sugar.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHickory_BBQ_Chicken&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Hickory BBQ Chicken@4505201
+    url: https://en.wikibooks.org/w/index.php?oldid=4505201
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

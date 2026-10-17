@@ -1,0 +1,69 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 cups cooked beans
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: rw-ikinyomoro-n-ibishyimbo
+title: Ikinyomoro n'Ibishyimbo
+alternate_names:
+- Rwandan Smoked Fish with Beans
+summary: Ikinyomoro n'ibishyimbo is a traditional Rwandan dish that combines the smoky flavors of fish with hearty beans. This flavorful and nutritious dish is a staple in Rwandan cuisine and is often enjoyed as a main course.
+origin:
+  country: RW
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Large pot
+- Knife
+- Cutting board
+- Wooden spoon
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: tomato, qty: 2, prep: diced}
+  - {ingredient: fish, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: cilantro, prep: for garnish, optional: true}
+steps:
+- In a large pot, heat the vegetable oil over medium heat. Add the chopped onion and minced garlic, and sauté until the onion is translucent and fragrant.
+- Add the diced tomatoes to the pot and cook for a few minutes until they soften and release their juices.
+- Add the cooked beans to the pot and stir well to combine with the onion and tomato mixture.
+- Gently place the smoked fish fillets on top of the beans. Cover the pot and let it simmer for about 10–15 minutes, allowing the flavors to meld together.
+- Season with salt and black pepper to taste. Be mindful of the saltiness of the smoked fish.
+- Carefully remove the fish fillets from the pot and set them aside.
+- Using a wooden spoon, gently stir the beans to incorporate the flavors.
+- Flake the smoked fish into smaller pieces and return them to the pot. Stir gently to distribute the fish throughout the beans.
+- Taste and adjust the seasoning if needed.
+- Remove from heat and transfer to a serving dish. Garnish with fresh cilantro leaves, if desired, before serving.
+tips:
+- You can use any type of smoked fish available, such as tilapia, mackerel, or catfish, based on your preference.
+- Feel free to add other vegetables like bell peppers or carrots for added flavor and nutrition.
+- Leftover ikinyomoro n'ibishyimbo can be stored in an airtight container in the refrigerator for up to 3 days. Reheat gently before serving.
+- Beans are a good source of plant-based protein, dietary fiber, and essential minerals like iron and folate. Smoked fish is rich in omega-3 fatty acids and provides a good source of protein.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIkinyomoro_n%27Ibishyimbo_%28Rwandan_Smoked_Fish_with_Beans%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ikinyomoro n'Ibishyimbo (Rwandan Smoked Fish with Beans)@4513293
+    url: https://en.wikibooks.org/w/index.php?oldid=4513293
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

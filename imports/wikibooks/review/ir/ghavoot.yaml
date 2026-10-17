@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Coffee beans
+#  - unmapped ingredient: Cottonseeds
+#  - unmapped ingredient: Nigella seeds
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ir-ghavoot
+title: Ghavoot
+alternate_names:
+- Iranian Nut and Seed Powder
+summary: Ghavoot (قاووت) or ghovvatoo (قووتو) is a nutritionally-dense recipe made of powdered seeds, nuts, and sugar. There are several versions, depending on the components chosen, and their ratios. It is a traditional souvenir of Kerman, Iran.
+origin:
+  country: IR
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: ground-cinnamon}
+  - {ingredient: sesame-seeds}
+  - {ingredient: poppy-seeds}
+  - {ingredient: chickpeas-canned}
+  - {ingredient: walnuts}
+  - {ingredient: almonds}
+  - {ingredient: pistachios}
+steps:
+- Grind and roast each component.
+- Add an equal weight of sugar; grind everything together.
+- Serve as powder, or blend it with milk or hot water.
+tips:
+- Ghavoot is a traditional energizer. You can consume it as a pre-workout snack.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGhavoot_%28Iranian_Nut_and_Seed_Powder%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ghavoot (Iranian Nut and Seed Powder)@4515542
+    url: https://en.wikibooks.org/w/index.php?oldid=4515542
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,44 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Leftover risotto
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-soup-with-suppli
+title: Soup with Supplì
+summary: Soup with supplì is not traditional in Italy, where the preparation stops at the cooking of the supplì (risotto balls), which are a little bigger than eggs.
+origin:
+  country: IT
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: egg, prep: beaten}
+  - {ingredient: breadcrumbs}
+  - {ingredient: chicken-stock}
+steps:
+- Shape the leftover risotto into little balls the size of nuts.
+- Dip the balls into beaten egg, then roll them in bread crumbs.
+- Fry the breaded risotto balls in butter, then drain them from the grease.
+- Serve the risotto balls in hot broth.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASoup_with_Suppl%C3%AC&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Soup with Supplì@4518527
+    url: https://en.wikibooks.org/w/index.php?oldid=4518527
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

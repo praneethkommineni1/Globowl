@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ph-adobo-chicken
+title: Adobo Chicken
+alternate_names:
+- Philippine
+summary: Adobo chicken is the most indigenous in the Philippines. It has evolved over the centuries to prepare foods that won't spoil easily in a tropical climate. The vinegar gives it a tangy taste and acts as a preservative.
+origin:
+  country: PH
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: [6, 8], prep: preferably legs and wings}
+  - {ingredient: white-vinegar, unit: cup, qty: 0.333}
+  - {ingredient: soy-sauce, unit: cup, qty: 0.25}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: crushed}
+  - {ingredient: bay-leaf, qty: [1, 2]}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+steps:
+- Put chicken, garlic, peppercorn, soy sauce and vinegar in a pan and bring to a boil.
+- When chicken is cooked, put chicken pieces in a colander and drain. Put aside the pot with soy sauce and vinegar.
+- When chicken pieces are no longer draining, fry them in hot oil at medium heat. Have a cover ready for splatters.
+- Sear the chicken, browning on all sides.
+- Put chicken pieces back in the pot with soy sauce and vinegar and bring to simmer. Add 1–2 pieces of bay leaf.
+- Cook until the sauce has largely evaporated; some take this to an extreme and cook until the sauce has thickened and adhered to the chicken, which begins to make a popping noise due to the high, direct heat.
+- Serve over hot steamed rice. May be eaten with tomato slices in fish sauce, tapsilog, soy sauce, vinegar, hotdog, etc.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAdobo_Chicken_%28Philippine%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Adobo Chicken (Philippine)@4630209
+    url: https://en.wikibooks.org/w/index.php?oldid=4630209
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

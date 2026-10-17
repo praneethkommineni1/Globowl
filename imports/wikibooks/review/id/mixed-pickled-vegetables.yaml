@@ -1,0 +1,76 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: id-mixed-pickled-vegetables
+title: Mixed Pickled Vegetables
+alternate_names:
+- Acar Campur
+summary: Acar campur is a very simple Indonesian pickle salad. Here is one example, of which there are many variations, some of which depend on what items are in season.
+origin:
+  country: ID
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- blanching
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: red-bell-pepper, qty: 1, prep: seeded and sliced}
+  - {ingredient: onion, qty: 1, prep: quartered, note: medium}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: crushed}
+  - {ingredient: shrimp-paste, qty: 0.5}
+  - {ingredient: almonds, qty: 4}
+  - {ingredient: ground-turmeric, qty: 1}
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.25, prep: 'sunflower, or olive oil'}
+  - {ingredient: white-vinegar, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 0.25}
+  - {ingredient: carrot, qty: 3, note: medium}
+  - {ingredient: cauliflower, qty: 1, note: small}
+  - {ingredient: cucumber, qty: 1, note: medium}
+  - {ingredient: white-cabbage, unit: cup, qty: 1}
+  - {ingredient: roasted-peanuts, unit: cup, qty: 1, prep: coarsely crushed}
+  - {ingredient: salt, unit: tsp, qty: 1, note: to taste}
+steps:
+- Place the pepper, onion, garlic, shrimp paste, nuts, and turmeric in a food processor. Blend to a paste-like consistency.
+- Heat the processed paste mixture in the oil for 2 minutes. Add the vinegar, water, sugar and salt. Bring to a boil while stirring. Simmer for 10 minutes, stirring occasionally, while preparing vegetables.
+- Cut carrots into desired bite-sized shapes. Cut green beans into short, even lengths. Separate cauliflower into bite-sized florets. Peel seeded cucumber and cut into bite-sized cubes. Cut cabbage into bite-sized pieces.
+- Blanch each vegetable separately in boiling water for 1 minute. Rinse in cold water to halt the cooking. Drain well.
+- Add the vegetables to the boiled paste sauce. Gradually bring the entire mixture to a boil. Cook for 5–10 minutes. Do not overcook—the vegetables should still be crunchy.
+- Remove from heat. Add the peanuts to the mixture and cool.
+- Once cool, cover and chill for at least 3 days before serving.
+tips:
+- 'Indonesian pickles tend to include a variety of shredded vegetables and spices, including the following:'
+- Carrot
+- Cauliflower
+- Cucumber
+- Baby corn
+- Bean sprouts
+- Chili pepper
+- Ginger
+- Black pepper
+- Hazelnut
+- Pistachio
+- Pecan
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMixed_Pickled_Vegetables_%28Acar_Campur%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mixed Pickled Vegetables (Acar Campur)@4630339
+    url: https://en.wikibooks.org/w/index.php?oldid=4630339
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

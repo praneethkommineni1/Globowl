@@ -1,0 +1,74 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 bag salted corn tortilla chips
+#  - no time in recipe summary
+id: us-roasted-chicken-nachos-with-green-chili-cheese-sauce
+title: Roasted Chicken Nachos With Green Chili-Cheese Sauce
+summary: Nachos made into a meal.
+origin:
+  country: US
+course: starter
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- simmering
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: tomatillo, qty: 4, prep: husked and rinsed, note: medium}
+  - {ingredient: green-chili, qty: 2, prep: stemmed}
+  - {ingredient: onion, qty: 0.5, prep: peeled and quartered, note: medium}
+  - {ingredient: garlic, qty: 2, prep: peeled}
+  - {ingredient: cilantro, unit: handful, qty: 1, prep: coarsely chopped}
+  - {ingredient: lime, qty: 1, prep: juiced}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: butter, unit: cup, qty: 0.25}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 0.25}
+  - {ingredient: chicken, unit: cup, qty: 2, prep: at room temperature}
+  - {ingredient: monterey-jack, unit: cup, qty: 4}
+  - {ingredient: beef, qty: 1, prep: 'meat finely shredded, skin and bones discarded'}
+  - {ingredient: tomato, qty: 1, prep: halved}
+  - {ingredient: onion, qty: 2, prep: 'white and green parts, chopped'}
+  - {ingredient: green-chili, qty: 1, prep: chopped}
+  - {ingredient: cilantro, unit: handful, qty: 2, prep: hand shredded}
+  - {ingredient: lime, qty: 2, prep: juiced}
+  - {ingredient: salt}
+  - {ingredient: sour-cream, prep: for serving}
+steps:
+- Bring a pot of water to a boil; add the tomatillos, jalapeños, onion, and garlic. Simmer for 10 to 15 minutes, until the tomatillos are soft.
+- Drain and cool slightly, then put them in a blender.
+- Add the cilantro, lime juice, and cumin. Puree for a few seconds to blend, and then pour in about a ¼ cup of water and process to a coarse puree; taste and season with a generous pinch of salt. You should have about 2 cups of this green salsa (salsa verde).
+- Make a roux by melting the butter over medium-low heat in a thick-bottomed saucepan.
+- Just as the foam subsides, sprinkle in the flour, stirring constantly with a wooden spoon or whisk to prevent lumps.
+- Cook for 2–3 minutes to remove the starchy taste from the flour; don't allow it to brown.
+- Gradually whisk in the chicken stock and simmer for 8 minutes to thicken.
+- Once you have a good base, fold in 2 cups of the shredded Jack cheese; mix until completely melted into a sauce.
+- Stir in the prepared salsa verde until incorporated; remove the green chili cheese sauce from the heat.
+- Make a quick salsa by combining the cherry tomatoes, onions, jalapeño, cilantro, and lime juice in a bowl; season with salt and pepper, tossing to combine.
+- Preheat the oven to 350°F (180°C).
+- Get a very large oven-proof platter and cover it with a few handfuls of tortilla chips, follow with a portion of the shredded chicken, a coating of the cheese sauce, and a nice sprinkle of the remaining shredded jack.
+- Make 3–4 layers of the nachos, depending on the size of the platter.
+- Bake the nachos until they are all hot and gooey, about 5–10 minutes.
+- Spoon the tomato salsa over the top of the nachos and serve with the sour cream on the side.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARoasted_Chicken_Nachos_With_Green_Chili-Cheese_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Roasted Chicken Nachos With Green Chili-Cheese Sauce@4515039
+    url: https://en.wikibooks.org/w/index.php?oldid=4515039
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

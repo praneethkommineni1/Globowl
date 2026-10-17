@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 strip of lemon rind
+#  - unmapped ingredient: 1 lb spaghetti pasta, preferably made from durum wheat
+#  - unmapped ingredient: 1 cup Parmesan cheese for garnish, preferably freshly grated Reggiano Parmesan
+id: it-spaghetti-with-bolognese-meat-sauce
+title: Spaghetti with Bolognese Meat Sauce
+summary: This northern Italian meat sauce, or Ragu Bolognese, is wonderful on pasta with freshly grated Parmesan cheese, or as filling for lasagne.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 120
+difficulty: 3
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: ham, unit: g, qty: 113, prep: cut into cubes}
+  - {ingredient: beef, unit: g, qty: 454}
+  - {ingredient: olive-oil, unit: tbsp, qty: 1}
+  - {ingredient: onion, unit: cup, qty: 1}
+  - {ingredient: celery, unit: cup, qty: 0.25}
+  - {ingredient: carrot, unit: cup, qty: 0.25}
+  - {ingredient: fennel-bulb, unit: cup, qty: 0.25, prep: if available}
+  - {ingredient: butter, unit: cup, qty: 0.25}
+  - {ingredient: tomato, unit: cup, qty: 1}
+  - {ingredient: red-wine, unit: cup, qty: 0.5}
+  - {ingredient: chicken-stock, unit: cup, qty: 2}
+  - {ingredient: tomato-paste, unit: cup, qty: 0.25}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Mix the coarsely chopped onion, carrot, celery and fennel (optional) together and finely chop them (this is called a battuto in Italian, or a finely chopped mixture of vegetables and herbs to flavour a dish).
+- Cut the ham or bacon into little cubes and sauté in a heavy saucepan.
+- Add the butter and allow it to melt. Then, add the battuto.
+- Cook, stirring occasionally until very lightly browned. Add this mixture to a heavy pot.
+- Heat the olive oil in the skillet the battuto was browned in and when the oil is hot, add the beef and stir to break up lumps, cooking until well browned.
+- Add to the battuto in the pot.
+- Add the wine to the skillet the beef was in and stir on high heat, scraping any brown bits stuck to the pan.
+- Add the tomato paste and stock and stir until well mixed and add this mixture to the pot.
+- Drain and coarsely chop the plum tomatoes and add them to the pot.
+- Add the bay leaf and lemon rind. Bring the pot to a boil, then reduce to a gentle simmer, with bubbles barely breaking the surface.
+- Simmer, stirring occasionally for an hour (or more), until thick.
+- Add pepper and salt to taste.
+- When the sauce is ready, bring a gallon (4 litres) of water to a full boil over high heat in a large pot
+- Add the pasta, give it a brisk stir to ensure it is all covered by water and not clumped together. Cook for about 10–12 minutes, or until al dente (firm but not hard, there should still be a bit of 'bite' when chewing pasta, rather than soggy and mushy).
+- Drain the pasta well and serve immediately.
+- Remove the bay leaf and lemon rind, then spoon the Bolognese sauce over the pasta and have guests garnish with the grated Parmesan cheese.
+tips:
+- This is a great recipe for making in large quantities and freezing. If making bulk recipes, be sure to simmer for hours, or even a full day, occasionally stirring up from the bottom of the large pot to ensure the contents at the bottom does not burn, adding stock as needed to keep the right consistency. The goal is to have the flavours mix and make the home smell delicious!
+- Never rinse pasta with water. To ensure there is no excess starch from the pasta, choose a high quality durum wheat pasta and boil it in lots of water.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASpaghetti_with_Bolognese_Meat_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Spaghetti with Bolognese Meat Sauce@4630833
+    url: https://en.wikibooks.org/w/index.php?oldid=4630833
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup periwinkles
+#  - unmapped ingredient: 2 medium snails
+#  - unmapped ingredient: 500 g palm fruit extract
+#  - unmapped ingredient: 1 bunch fresh atama leaves
+#  - unmapped ingredient: 1 piece uyayak
+#  - no procedure steps
+#  - course unknown from categories
+id: ng-abak-atama-soup
+title: Abak Atama Soup
+summary: Abak Atama Soup is a traditional dish of the Efik people and Ibibio people of Southern Nigeria, especially in Akwa Ibom and Cross River States. It is a rich palm fruit soup made with Atama leaves, which give it a distinct aroma and flavour.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6 people
+time:
+  total_min: 120
+difficulty: 4
+equipment:
+- Large cooking pot
+- Knife
+- Chopping board
+- Bowl
+- Blender or grinding stone
+- Wooden spoon
+- Colander or sieve
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: kg, qty: 1}
+  - {ingredient: fish, qty: 2}
+  - {ingredient: crayfish, unit: cup, qty: 1}
+  - {ingredient: bouillon-cube, qty: [2, 3]}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: water, unit: cup, qty: 4}
+steps:
+- (missing)
+tips:
+- Fresh fish may be used instead of smoked fish.
+- Some cooks add shrimp or other seafood.
+- Dried atama leaves may be used when fresh leaves are unavailable.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAbak_Atama_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Abak Atama Soup@4639148
+    url: https://en.wikibooks.org/w/index.php?oldid=4639148
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

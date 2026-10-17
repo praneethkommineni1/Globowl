@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: in-deep-fried-chiles-filled-with-chickpea-flour
+title: Deep Fried Chiles Filled with Chickpea Flour
+alternate_names:
+- Mirchi Bhajji
+summary: Mirchi bhajji are fried stuffed peppers.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 5
+  amount: 5–10 bhajjies
+time:
+  total_min: 30
+difficulty: 1
+techniques:
+- deep-frying
+ingredient_groups:
+- items:
+  - {ingredient: red-bell-pepper, qty: [11, 17]}
+  - {ingredient: chickpea-flour, unit: cup, qty: 1.5}
+  - {ingredient: rice-flour, unit: tbsp, qty: 1}
+  - {ingredient: red-chili, qty: [6, 7], prep: finely chopped}
+  - {ingredient: cilantro, unit: tbsp, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: vegetable-oil}
+steps:
+- Slit 5–10 of the peppers, preferably the longest and fattest.
+- Mix salt and gram flour. Stuff the slit peppers with this mixture, and keep aside for 15–20 minutes.
+- Heat oil in a pan over medium heat.
+- Mix all other dry ingredients. Dip each green pepper into this mixture gently to coat it.
+- Deep fry in heated oil until golden brown.
+- Drain on kitchen paper to remove excess oil.
+- Serve hot with chutney or ketchup.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADeep_Fried_Chiles_Filled_with_Chickpea_Flour_%28Mirchi_Bhajji%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Deep Fried Chiles Filled with Chickpea Flour (Mirchi Bhajji)@4506355
+    url: https://en.wikibooks.org/w/index.php?oldid=4506355
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

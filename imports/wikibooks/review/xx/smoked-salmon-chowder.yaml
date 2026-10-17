@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 tsp dried tarragon
+#  - unmapped ingredient: 8 ounces smoked salmon, crumbled
+#  - no time in recipe summary
+id: xx-smoked-salmon-chowder
+title: Smoked Salmon Chowder
+summary: Smoked Salmon Chowder.
+origin:
+  country: XX
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1 gallon (128 ounces/1.3 liters)
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 2, prep: chopped}
+  - {ingredient: celery, qty: 4, prep: chopped}
+  - {ingredient: carrot, qty: 2, prep: chopped}
+  - {ingredient: potato, qty: 3, prep: boiled and smashed}
+  - {ingredient: chicken-stock, qty: 0.5}
+  - {ingredient: milk, qty: 0.5}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+steps:
+- Place stock pot over medium heat, add oil.
+- Add carrots, onions, celery, stirring until onions turn clear.
+- Add tarragon and salmon stock to deglaze bottom of pan.
+- Stir in smashed potatoes, smoked salmon. Continue to stir and bring to a simmer.
+- Add milk and pepper.
+- Serve and enjoy.
+tips:
+- Vegetable stock can be substituted.
+- Additional seafood can be added.
+- Frozen veggies can be added.
+- Parsley or dill can be used as garnish.
+- Paprika or cayenne will add some spice!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASmoked_Salmon_Chowder&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Smoked Salmon Chowder@4522739
+    url: https://en.wikibooks.org/w/index.php?oldid=4522739
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

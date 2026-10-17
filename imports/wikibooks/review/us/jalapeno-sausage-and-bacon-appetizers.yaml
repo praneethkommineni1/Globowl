@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-jalapeno-sausage-and-bacon-appetizers
+title: Jalapeno Sausage and Bacon Appetizers
+alternate_names:
+- Atomic Buffalo Turds
+summary: Atomic buffalo turds (also known as ABTs) are a variation of the jalapeño popper.
+origin:
+  country: US
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+- grilling
+ingredient_groups:
+- items:
+  - {ingredient: green-chili}
+  - {ingredient: cream-cheese}
+  - {ingredient: sausage}
+  - {ingredient: bacon}
+steps:
+- Halve the jalapeño peppers lengthwise and scrape out membrane and seeds.
+- Fill the peppers with cream cheese, and then place a cocktail sausage on top of the cream cheese.
+- Cut the bacon slices in half, and wrap each halved pepper in bacon. A cocktail stick or toothpick can be used to hold the ABTs together if needed.
+- Cook the ABTs by barbecuing, baking, or grilling. They are done when the bacon is crisped and the jalapeño has softened but not to the point of collapsing. When oven-baked or indirectly grilled, they are typically cooked at approximately 275°F (135°C) for 2 hours, or until bacon is crisped.
+tips:
+- Try using cheddar cheese or other cheese in place of the cream cheese.
+- If the heat of the jalapeño peppers does not appeal, bell peppers may be used instead—quarter the bell peppers and scrape out the seeds before filling.
+- The ABTs can be basted with a barbecue sauce before being cooked.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AJalapeno_Sausage_and_Bacon_Appetizers_%28Atomic_Buffalo_Turds%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Jalapeno Sausage and Bacon Appetizers (Atomic Buffalo Turds)@4514754
+    url: https://en.wikibooks.org/w/index.php?oldid=4514754
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

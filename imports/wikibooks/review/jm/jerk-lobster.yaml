@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 tsp jerk seasoning
+#  - unmapped ingredient: 1/2 tsp Jamaican pickapeppa sauce or 3 drops of Jamaican hot pepper sauce
+#  - no time in recipe summary
+id: jm-jerk-lobster
+title: Jerk Lobster
+summary: Jerk lobster is a dish made popular by Nathanyay Chang.
+origin:
+  country: JM
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: lobster-tail, qty: 4}
+  - {ingredient: butter, unit: cup, qty: 0.5}
+  - {ingredient: scallion, qty: 2}
+  - {ingredient: lemon-juice, unit: tsp, qty: 2}
+steps:
+- Thinly slice the scallions.
+- Melt the butter in a small skillet.
+- Lightly sauté the scallions until golden.
+- Add the lemon juice.
+- Add Jamaica pickapeppa sauce or hot pepper sauce (optional, depending on your taste).
+- Let it simmer for about 1 minute, then set aside.
+- Remove the membrane from the lobster tails.
+- Use a sharp knife to split the lobster tail in half lengthwise.
+- Brush butter sauce onto each tail.
+- Using the same brush, spread the jerk sauce over the tails, especially on the exposed meat. Set oven to broil.
+- Put the lobster tails in oven on the meat side for 4 minutes, turn, and cook the shell side for 2 minutes.
+- If you want a more smoked taste, cook for 2 minutes on each side in the oven, then place on a barbecue grill for 3 minutes. You may need to add more jerk sauce if using a grill.
+- Serve with Jamaican festival and/or bammy. You can also serve with Jamaican hardo bread.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AJerk_Lobster&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Jerk Lobster@4630359
+    url: https://en.wikibooks.org/w/index.php?oldid=4630359
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

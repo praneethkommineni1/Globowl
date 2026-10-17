@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: id-awug
+title: Awug
+summary: Awug is a traditional Sundanese cake. This cake is made primarily from rice flour, topped with grated coconut and a palm sugar syrup. Awug has a sweet taste and it is best enjoyed while warm. It is usually sold in the morning at markets or in the afternoon by street vendors.
+origin:
+  country: ID
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: rice-flour, unit: g, qty: 250}
+  - {ingredient: coconut, unit: g, qty: 250}
+  - {ingredient: sugar, unit: tbsp, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: palm-sugar, unit: g, qty: 150, prep: thinly shaved}
+steps:
+- Steam the rice flour for 20 minutes. Then, remove it from the steamer and set aside.
+- Combine the steamed rice flour with the coconut, white sugar, and salt in a bowl. Stir until the mixture becomes uniformly crumbly.
+- Prepare molds by greasing the insides with a little oil.
+- Fill one mold halfway with the rice flour mixture. Add a thin layer of palm sugar, then fill the rest of the mold completely with the rice flour mixture. Repeat with the rest of the rice flour mixture, palm sugar, and molds.
+- Preheat a steamer pot and basket over high heat so the water is boiling.
+- Steam the awug-awug cakes over the boiling water for 25 minutes.
+- Let the molds cool fully, then remove the cakes from the molds. Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAwug&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Awug@4595657
+    url: https://en.wikibooks.org/w/index.php?oldid=4595657
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

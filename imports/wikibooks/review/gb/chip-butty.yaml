@@ -1,0 +1,40 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Chips from a chip shop or homemade
+id: gb-chip-butty
+title: Chip Butty
+summary: A Chip Butty is a sandwich made of chips (French fries).
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 4
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: white-bread, prep: or pita bread for kebab-shop style}
+  - {ingredient: butter}
+  - {ingredient: ketchup, optional: true}
+steps:
+- Make sure the chips are not too greasy and have been well drained.
+- Take two slices of bread (the heel works best) and butter both on one side, then apply ketchup and spread evenly over the bread.
+- Add chips in a manner akin to herringbone floor tiling, making sure to minimise any gaps. You can add multiple layers.
+- Put both slices of bread together, then put the assembled sandwich on a flat surface and slap it hard several times with with an open hand to crush the filling. Eat immediately!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChip_Butty&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chip Butty@4523945
+    url: https://en.wikibooks.org/w/index.php?oldid=4523945
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

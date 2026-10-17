@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Tortilla chips
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-chipotle-dip
+title: Chipotle Dip
+summary: This is great as a dip to spice up garlic bread, or a spread on burger buns.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: sour-cream, unit: cup, qty: 1}
+  - {ingredient: mayonnaise, unit: cup, qty: 0.25}
+  - {ingredient: chipotle-in-adobo, qty: 4, prep: stemmed}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: chipotle-in-adobo, unit: cup, qty: 0.25}
+steps:
+- Pulse everything except chips in a blender until smooth.
+- Serve with chips.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChipotle_Dip&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chipotle Dip@4518876
+    url: https://en.wikibooks.org/w/index.php?oldid=4518876
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

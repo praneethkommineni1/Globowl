@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: eg-egyptian-okra-stew
+title: Egyptian Okra Stew
+summary: Egyptian okra stew is a popular and comforting dish in Egyptian cuisine. It features tender okra pods cooked in a rich tomato-based sauce, infused with aromatic spices. This stew is hearty, flavorful, and pairs well with rice or bread, making it a satisfying meal option.
+origin:
+  country: EG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+equipment:
+- Large saucepan with a lid
+- Knife for chopping
+- Wooden spoon or spatula
+- Measuring spoons
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: okra, unit: g, qty: 454, prep: washed and ends trimmed}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: tomato, unit: cup, qty: 2}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 0.5}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: cayenne, unit: tsp, qty: 0.25}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Heat the vegetable oil in a large saucepan over medium heat.
+- Add the finely chopped onion to the saucepan and sauté until it becomes translucent and lightly golden.
+- Stir in the minced garlic and cook for another minute until fragrant.
+- Add the tomato sauce or crushed tomatoes to the saucepan, along with the ground cumin, ground coriander, ground turmeric, cayenne pepper, salt, and pepper. Stir well to combine.
+- Allow the tomato sauce mixture to simmer for about 10 minutes, allowing the flavors to meld together.
+- Add the trimmed and washed okra pods to the saucepan and stir gently to coat them with the tomato sauce.
+- Reduce the heat to low, cover the saucepan with a lid, and let the stew simmer for about 20–25 minutes, or until the okra pods are tender. Stir the stew occasionally to prevent sticking and ensure even cooking.
+- Once the okra is cooked, taste the stew and adjust the seasoning according to your preference.
+- Remove the saucepan from the heat and let the stew sit for a few minutes to allow the flavors to develop.
+- Serve the stew hot as a main course with rice or bread, and enjoy the delicious flavors of the tender okra and aromatic spices.
+tips:
+- This stew can be customized to suit your taste preferences. You can add other vegetables such as bell peppers or carrots for added texture and flavor. Additionally, some variations may include the addition of meat or poultry for a heartier stew.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgyptian_Okra_Stew&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egyptian Okra Stew@4525638
+    url: https://en.wikibooks.org/w/index.php?oldid=4525638
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

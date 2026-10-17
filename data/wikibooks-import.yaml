@@ -245,6 +245,14 @@ cuisines:
   Trinidadian and Tobagonian recipes: TT
   Gibraltarian recipes: GI
   Manx recipes: IM
+  National Nigerian recipes: NG
+  Yoruba recipes: NG
+  Hausa recipes: NG
+  Igbo recipes: NG
+  Tiv recipes: NG
+  Texas recipes: US
+  Californian recipes: US
+  South Indian recipes: IN
 courses:
   Main course recipes: main
   Main dish recipes: main
@@ -297,6 +305,71 @@ courses:
   Drink recipes: drink
   Tea recipes: drink
   Cocktail recipes: drink
+  Recipes for sauces and condiments: condiment
+  Recipes for pasta sauce: condiment
+  Recipes for spice mixes: condiment
+  Recipes for chutney: condiment
+  Recipes for salsa: condiment
+  Recipes for salad dressing: condiment
+  Recipes for mayonnaise: condiment
+  Recipes for barbecue sauce: condiment
+  Recipes for pickles: condiment
+  Recipes for pesto: condiment
+  Marinade recipes: condiment
+  Recipes for broth and stock: condiment
+  Recipes for flatbread: bread
+  Recipes for cornbread: bread
+  Recipes for scones: bread
+  Recipes for casserole: main
+  Recipes for sandwiches: main
+  Dumpling recipes: main
+  Recipes for chili: main
+  Recipes for pot pie: main
+  Recipes for pasta: main
+  Recipes for pizza: main
+  Recipes for hamburgers: main
+  Recipes for fried rice: main
+  Recipes for risotto: main
+  Recipes for sushi: main
+  Recipes for kabobs: main
+  Recipes for biryani: main
+  Recipes for burritos: main
+  Recipes for lasagne: main
+  Recipes for maffé: main
+  Recipes for macaroni and cheese: main
+  Dal recipes: main
+  Recipes for dal: main
+  Dinner recipes: main
+  Recipes for pancakes: breakfast
+  Recipes for omelettes: breakfast
+  Recipes for porridge: breakfast
+  Recipes for fritters: snack
+  Recipes for pastries: snack
+  Recipes for pudding: dessert
+  Recipes for cake: dessert
+  Recipes for cookies: dessert
+  Recipes for confections: dessert
+  Recipes for caramel: dessert
+  Recipes for pies and tarts: dessert
+  Recipes for custard: dessert
+  Recipes for rice pudding: dessert
+  Recipes for bars: dessert
+  Recipes for black forest cake: dessert
+  Recipes for brownies: dessert
+  Recipes for meringue: dessert
+  Recipes for swallows: side
+  Recipes for potato salad: side
+  Recipes for stuffing and dressing: side
+  Recipes for dip: starter
+  Recipes for guacamole: starter
+  Recipes for chowder: soup
+  Recipes for borscht: soup
+  Recipes for tabbouleh: salad
+  Recipes for alcoholic beverages: drink
+  Recipes for tea and tisanes: drink
+  Recipes for lemonade: drink
+  Recipes for chai: drink
+  Recipes for lassi: drink
 ingredients:
   names:
     turmeric: ground-turmeric
@@ -387,6 +460,64 @@ ingredients:
     sea salt: salt
     kosher salt: salt
     table salt: salt
+    vinegar: white-vinegar
+    wine vinegar: red-wine-vinegar
+    red wine vinegar: red-wine-vinegar
+    vanilla: vanilla-extract
+    vanilla extract: vanilla-extract
+    palm oil: red-palm-oil
+    bread: white-bread
+    bread crumb: breadcrumbs
+    bread crumbs: breadcrumbs
+    cheddar cheese: cheddar
+    mozzarella cheese: mozzarella
+    parmesan cheese: parmesan
+    feta cheese: feta
+    monterey jack cheese: monterey-jack
+    red wine: red-wine
+    white wine: dry-white-wine
+    hard boiled eggs: egg
+    hard-boiled eggs: egg
+    egg yolk: egg-yolk
+    peanut: roasted-peanuts
+    groundnut: roasted-peanuts
+    peanuts: roasted-peanuts
+    tamarind: tamarind-paste
+    tofu: firm-tofu
+    pandan: pandan-leaf
+    tabasco sauce: hot-sauce
+    taro root: taro
+    pigeon pea: pigeon-peas-canned
+    peppercorn: black-peppercorns
+    peppercorns: black-peppercorns
+    oats: rolled-oats
+    marjoram: dried-marjoram
+    pea: green-peas
+    peas: green-peas
+    white granulated sugar: sugar
+    icing sugar: powdered-sugar
+    warm water: water
+    cold water: water
+    boiling water: water
+    hot water: water
+    salt to taste: salt
+    seasoning cubes: bouillon-cube
+    dehydrated broth: bouillon-cube
+    bouillon: bouillon-cube
+    rosewater: rose-water
+    red pepper: red-bell-pepper
+    noodle: noodles
+    dryfish: stockfish
+    anchovy: anchovies
+    fenugreek: ground-fenugreek
+    meat: beef
+    kaffir lime leaves: kaffir-lime-leaf
+    lime leaves: kaffir-lime-leaf
+    chicken breast: chicken-breast
+    beef#loin: beef
+    beef#chuck: beef-chuck
+    bean sprout: bean-sprouts
+    sweet potato: sweet-potato
   ground_when_measured:
     cumin:
       seeds: cumin-seeds
@@ -410,3 +541,23 @@ ingredients:
       seeds: allspice-berries
       ground: allspice
       default: allspice
+    cinnamon:
+      seeds: cinnamon-stick
+      ground: ground-cinnamon
+      default: ground-cinnamon
+    cardamom:
+      seeds: green-cardamom-pods
+      ground: ground-cardamom
+      default: ground-cardamom
+    clove:
+      seeds: whole-cloves
+      ground: ground-cloves
+      default: whole-cloves
+    cloves:
+      seeds: whole-cloves
+      ground: ground-cloves
+      default: whole-cloves
+    fennel:
+      seeds: fennel-seeds
+      ground: fennel-seeds
+      default: fennel-bulb

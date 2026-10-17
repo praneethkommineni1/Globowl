@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 4–6 chopped yellow beans
+#  - no servings in recipe summary
+id: ca-veggie-salad
+title: Veggie Salad
+summary: This veggie salad is a light vegetable salad with a dash of spice to it.
+origin:
+  country: CA
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 30
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: onion, unit: cup, qty: 0.5}
+  - {ingredient: celery, unit: cup, qty: 0.5}
+  - {ingredient: carrot, unit: cup, qty: 1}
+  - {ingredient: tomato, unit: cup, qty: 0.5}
+  - {ingredient: green-beans, qty: [4, 6]}
+  - {ingredient: green-pepper, qty: 1}
+  - {ingredient: walnuts, qty: 3}
+  - {ingredient: parsley, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: chives, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+steps:
+- Cut the green pepper into long thin strips.
+- Toss vegetables together in a large bowl.
+- Using a mortar, grind the spices together, and sprinkle over salad.
+- Sprinkle walnut chunks over salad.
+- Serve.
+tips:
+- One can easily substitute the cubes of tomato for cherry tomatoes or plum tomatoes, but these both contain seeds, and the bitterness is often undesirable.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AVeggie_Salad&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Veggie Salad@4535145
+    url: https://en.wikibooks.org/w/index.php?oldid=4535145
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

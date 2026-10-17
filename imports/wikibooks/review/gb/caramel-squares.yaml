@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (GB, IE): confirm the country of origin
+id: gb-caramel-squares
+title: Caramel Squares
+summary: 'Caramel squares (alternatively: caramel slices, caramel shortbread, or millionaire''s shortbread) are a wonderfully rich and classic treat, very popular all over Britain and Ireland. They can often be found in cafes, served with morning coffee or afternoon tea.'
+origin:
+  country: GB
+  also_claimed_by:
+  - IE
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 8
+  amount: 8–12
+time:
+  total_min: 90
+difficulty: 4
+techniques:
+- baking
+ingredient_groups:
+- name: Base
+  items:
+  - {ingredient: self-rising-flour, unit: g, qty: 350}
+  - {ingredient: butter, unit: g, qty: 225}
+  - {ingredient: caster-sugar, unit: g, qty: 110}
+- name: Filling
+  items:
+  - {ingredient: caster-sugar, unit: g, qty: 225}
+  - {ingredient: butter, unit: g, qty: 225}
+  - {ingredient: golden-syrup, unit: tbsp, qty: 5}
+  - {ingredient: condensed-milk, unit: ml, qty: 400}
+- name: Topping
+  items:
+  - {ingredient: chocolate, unit: g, qty: 340, prep: melted}
+steps:
+- Preheat the oven to 180°C (gas mark 4; 350°F). Rub flour, butter, and caster sugar together until it resembles breadcrumbs.
+- Press into a 25 x 38 x 4 cm Swiss roll pan.
+- Bake for 20 minutes or till golden.
+- Cool.
+- Melt butter in a heavy-based saucepan over a low heat; add sugar, golden syrup, and condensed milk.
+- Stir continuously for 40–50 minutes. It should be golden brown in colour when ready to eat. To test, drop a little blob into a bowl of cold water; it should firm up.
+- Pour this caramel mixture over the base, and let it cool.
+- Pour melted chocolate over the top.
+- Spread the chocolate evenly, and let set.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACaramel_Squares&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Caramel Squares@4587360
+    url: https://en.wikibooks.org/w/index.php?oldid=4587360
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

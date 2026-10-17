@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 454 grams kadaif pastry
+#  - course unknown from categories
+id: eg-kanafeh
+title: Kanafeh
+alternate_names:
+- Egyptian Sweet Cheese Pastry
+summary: Kanafeh, a delectable Middle Eastern pastry, is a must-try dessert. It consists of delicate angel hair-like strands of kadaif, paired with akawi cheese and samneh or clarified butter.
+origin:
+  country: EG
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: g, qty: 340}
+  - {ingredient: sugar, unit: g, qty: 325}
+  - {ingredient: mozzarella, unit: g, qty: 225}
+  - {ingredient: cream-cheese, unit: g, qty: 140}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 2}
+  - {ingredient: rose-water, unit: tsp, qty: 1}
+  - {ingredient: orange-flower-water, unit: tsp, qty: 0.5}
+  - {ingredient: walnuts, unit: g, qty: 84}
+steps:
+- Adjust the oven rack to the lower-middle position and preheat it to 400°F (204°C).
+- In a medium bowl, combine the mozzarella cheese and cream cheese, then set it aside.
+- Slice the kadaif pastry crosswise into ¼–½-inch lengths and transfer it to a large bowl.
+- Pour the melted butter over the pastry in the bowl. Using your hands, gently toss the pastry with the butter, ensuring that all the shreds are evenly coated. Continue this process for about 5 minutes.
+- Transfer half of the coated pastry to the skillet, spreading it evenly along the bottom of the pan.
+- Spread the cheese mixture evenly over the first layer of pastry, leaving a ½-inch border along the rim.
+- Layer the remaining pastry over the cheese layer, firmly pressing it down.
+- Bake the prepared pastry in the preheated oven until it turns deeply golden brown, which takes about 40 minutes.
+- While the pastry bakes, prepare the syrup. In a saucepan, combine the sugar, lemon juice, and 1 cup of water.
+- Simmer the syrup until it reaches a temperature of 234°F (112°C), or until a small amount dropped into ice water forms a soft ball consistency. Remove from the heat and cool.
+- When the pastry is ready, add the rose water and orange blossom water to the syrup.
+- Invert the cooked pastry onto a serving platter and drizzle it with the syrup. Sprinkle chopped walnuts over the top and serve immediately.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKanafeh_%28Egyptian_Sweet_Cheese_Pastry%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kanafeh (Egyptian Sweet Cheese Pastry)@4605269
+    url: https://en.wikibooks.org/w/index.php?oldid=4605269
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ly-salata-hara
+title: Salata Hara
+alternate_names:
+- Libyan Spicy Salad
+summary: Salata hara is a vibrant and spicy salad commonly enjoyed in Libyan cuisine. It is known for its bold flavors and fiery kick, making it a perfect accompaniment to grilled meats or as a refreshing side dish.
+origin:
+  country: LY
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Mixing bowl
+- Spoon or spatula
+- Whisk
+- Plastic wrap
+ingredient_groups:
+- items:
+  - {ingredient: red-bell-pepper, qty: 2, prep: 'roasted, peeled, and finely chopped'}
+  - {ingredient: green-pepper, qty: 1, prep: finely chopped}
+  - {ingredient: red-chili, qty: 1, prep: finely chopped}
+  - {ingredient: tomato, qty: 1, prep: finely chopped}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: small}
+  - {ingredient: garlic, unit: clove, qty: 1, prep: minced}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 1}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: parsley}
+steps:
+- In a mixing bowl, combine the roasted and chopped red bell peppers, green bell pepper, hot chili pepper, tomato, onion, and garlic.
+- In a small bowl, whisk together the lemon juice, olive oil, cumin, cayenne pepper, salt, and pepper.
+- Pour the dressing over the vegetables and toss well to coat all the ingredients.
+- Cover the bowl with plastic wrap and refrigerate for at least 30 minutes to allow the flavors to meld together.
+- Before serving, garnish the salad with chopped parsley or cilantro.
+tips:
+- Adjust the spiciness of the salad by adding more or less chili peppers according to your preference.
+- For a smoky flavor, you can roast the bell peppers over an open flame or under a broiler until the skin is charred. Then, peel off the skin before chopping.
+- This salad can be made in advance and stored in the refrigerator for up to a day. Just give it a quick stir before serving to redistribute the flavors.
+- For a milder version, you can remove the seeds and membranes from the hot chili pepper before chopping.
+- Serve the salad chilled for a refreshing and crisp texture.
+- Add diced cucumber or olives for additional crunch and flavor.
+- Sprinkle some sumac or paprika on top of the salad for an extra pop of color and tanginess.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASalata_Hara_%28Libyan_Spicy_Salad%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Salata Hara (Libyan Spicy Salad)@4518162
+    url: https://en.wikibooks.org/w/index.php?oldid=4518162
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

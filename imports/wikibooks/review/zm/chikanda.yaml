@@ -1,0 +1,70 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup dried and ground wild orchid tubers
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: zm-chikanda
+title: Chikanda
+alternate_names:
+- Zambian Orchid Sausage
+summary: Chikanda is a unique and flavorful Zambian snack made from the roots of the chikanda orchid plant. Also known as "African sausage" or "African polony", Chikanda is popular in Zambia and is often enjoyed as a tasty and energizing treat.
+origin:
+  country: ZM
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large pot
+- Blender or food processor
+- Wooden spoon or spatula
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: roasted-peanuts, unit: cup, qty: 1}
+  - {ingredient: long-grain-rice, unit: cup, qty: 0.5, prep: cooked}
+  - {ingredient: water, unit: cup, qty: 0.5}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: black-pepper, qty: 1, prep: chopped}
+  - {ingredient: cayenne, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+steps:
+- In a pot, bring 2 cups of water to a boil. Add the dried and ground chikanda roots to the boiling water. Boil for about 30 minutes to soften them.
+- While the chikanda roots are boiling, toast the groundnuts in a dry pan over medium heat until they are slightly browned and aromatic.
+- Allow the boiled chikanda roots and the roasted groundnuts to cool down to room temperature.
+- In a blender or food processor, grind the roasted groundnuts into a fine powder. Add ½ cup of water to the groundnuts and blend to form a smooth paste.
+- In the same blender or food processor, blend the cooked rice until it becomes a smooth paste.
+- In a large bowl, mix together the ground chikanda, groundnut paste, and rice paste. Use your hands or a wooden spoon to combine the ingredients thoroughly.
+- Add the chopped onion, minced garlic, and chopped hot pepper (if using) to the mixture. Mix well.
+- Season the chikanda mixture with ground cayenne pepper, ground cumin, and salt to taste. Adjust the seasoning according to your preference.
+- Take a handful of the chikanda mixture and roll it into a sausage shape using your hands.
+- Repeat the process until all the mixture is used up, forming several chikanda sausages.
+- Place the chikanda sausages on a clean surface or plate and allow them to dry and firm up for about 3 to 4 hours.
+- Once the chikanda sausages have dried and firmed up, they are ready to be served.
+tips:
+- Chikanda is traditionally made from the roots of the wild orchid plant, but it can be challenging to find the authentic chikanda roots outside of Zambia. As a substitute, you can use arrowroot or cassava flour, but the taste and texture may vary.
+- Some variations of chikanda include the addition of ground dried fish or meat for extra flavor and protein.
+- Chikanda is best enjoyed fresh, but it can be stored in an airtight container in the refrigerator for a few days.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChikanda_%28Zambian_Orchid_Sausage%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chikanda (Zambian Orchid Sausage)@4507298
+    url: https://en.wikibooks.org/w/index.php?oldid=4507298
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

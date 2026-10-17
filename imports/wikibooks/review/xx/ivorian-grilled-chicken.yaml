@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-ivorian-grilled-chicken
+title: Ivorian Grilled Chicken
+summary: This is a spicy, delicious chicken meal.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- grilling
+ingredient_groups:
+- items:
+  - {ingredient: garlic, unit: clove, qty: 10, prep: puréed}
+  - {ingredient: black-pepper, unit: pinch, qty: 2}
+  - {ingredient: red-chili, unit: tbsp, qty: 3}
+  - {ingredient: dijon-mustard, unit: tbsp, qty: 3}
+  - {ingredient: bouillon-cube, qty: 2, prep: crushed}
+  - {ingredient: chicken, qty: 4}
+steps:
+- Combine the garlic, pepper, chili powder, mustard, and bouillon cubes. Pour the mixture over the chicken and massage it very well. Let rest for about 20 minutes while you prepare the grill.
+- Place the chicken on the grill, turning it regularly until each piece become golden brown.
+- When it is done to your taste, serve with any complimentary side such as Ivorian tomato sauce or Ivorian salad and enjoy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIvorian_Grilled_Chicken&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ivorian Grilled Chicken@4613410
+    url: https://en.wikibooks.org/w/index.php?oldid=4613410
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

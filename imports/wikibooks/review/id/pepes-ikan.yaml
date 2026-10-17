@@ -1,0 +1,73 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 5 candlenut
+#  - unmapped ingredient: Banana leaves or aluminum foil to wrap
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: id-pepes-ikan
+title: Pepes Ikan
+alternate_names:
+- Indonesian Steamed Fish
+summary: Pepes is cooking method of steaming the ingredients (fish, chicken, tofu, or mushroom) wrapped in banana leaves until it becomes tender, then grilling the packets. In this recipe any fresh water fish or salt water fish can be used as substitute.
+origin:
+  country: ID
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 60
+difficulty: 1
+techniques:
+- grilling
+- marinating
+- steaming
+ingredient_groups:
+- name: Spice paste
+  items:
+  - {ingredient: garlic, unit: clove, qty: 2}
+  - {ingredient: shallot, qty: 4}
+  - {ingredient: ginger, qty: 2}
+  - {ingredient: ground-turmeric, qty: 2}
+  - {ingredient: red-chili, unit: g, qty: 50}
+  - {ingredient: tamarind-paste, unit: g, qty: 5}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: water, unit: ml, qty: 25}
+- name: Assembly
+  items:
+  - {ingredient: fish, unit: kg, qty: 1}
+  - {ingredient: tomato, qty: 1}
+  - {ingredient: scallion, unit: stalk, qty: 1}
+  - {ingredient: lemongrass, unit: stalk, qty: 1}
+  - {ingredient: bay-leaf, qty: 5}
+  - {ingredient: basil, unit: g, qty: 50}
+  - {ingredient: salt}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+steps:
+- Grind together all the ingredients for the spice paste.
+- Scale and clean the fish. Take out the intestines but not the eggs.
+- Make three diagonal slashes on each side of the fish for spice paste flavor to immerse.
+- Marinate the fish with salt and tamarind for 15 minutes then wash the fish with a bowl of water to remove excess salt.
+- Add cooking oil to the spice-paste, mix.
+- Coat fish with spice paste.
+- Put kemangi leaves, salam leaves and sliced lemon grass for the flavor.
+- Wrap the fish in banana leaves or aluminum foil.
+- Steam over medium heat for 30 minutes. Use pressure cooker for faster cooking time and better taste.
+- Let it cool and grill the wrapped fish over charcoal fire.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APepes_Ikan_%28Indonesian_Steamed_Fish%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pepes Ikan (Indonesian Steamed Fish)@4520355
+    url: https://en.wikibooks.org/w/index.php?oldid=4520355
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

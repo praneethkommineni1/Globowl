@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: pr-tembleque
+title: Tembleque
+alternate_names:
+- Puerto Rican Coconut Pudding
+summary: Tembleque is a thickened coconut pudding originating from Puerto Rico.
+origin:
+  country: PR
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: coconut-milk, unit: can, qty: 1}
+  - {ingredient: coconut-cream, unit: can, qty: 1}
+  - {ingredient: heavy-cream, unit: cup, qty: 0.5}
+  - {ingredient: cornstarch, unit: cup, qty: 0.25}
+  - {ingredient: orange-flower-water, unit: tsp, qty: 0.5, optional: true}
+  - {ingredient: sugar, unit: cup, qty: 0.75}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: ground-cinnamon}
+steps:
+- Put sugar, coconut milk, coconut cream, and. salt, into a saucepan. Cook until sugar devolves and the milk starts to simmer.
+- Mix 3 tablespoons or more of cold heavy whipping cream into the corn starch. Whip until all the cornstarch is diluted but still thick. You want a smooth thick paste with no lumps.
+- When milk starts to simmer, add the remaining heavy whipping cream and cornstarch mixture into the saucepan.
+- Keep the heat on low and stir constantly until the pudding thickens.
+- Pour into pudding cups or small bowls.
+- Cool in the fridge for 2 hours.
+- To serve, flip the pudding bowls onto a plate to remove the pudding, then sprinkle cinnamon on top.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATembleque_%28Puerto_Rican_Coconut_Pudding%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tembleque (Puerto Rican Coconut Pudding)@4587431
+    url: https://en.wikibooks.org/w/index.php?oldid=4587431
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

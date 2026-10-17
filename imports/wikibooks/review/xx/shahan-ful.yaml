@@ -1,0 +1,72 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 cups dried fava beans
+#  - unmapped ingredient: 1–2 green chilies, chopped
+#  - unmapped ingredient: 1 teaspoon berbere spice
+#  - unmapped ingredient: Black pepper to taste
+#  - unmapped ingredient: Yogurt or feta cheese for serving
+#  - unmapped ingredient: Fresh coriander or parsley
+#  - unmapped ingredient: Bread rolls or flatbread for serving
+#  - course unknown from categories
+id: xx-shahan-ful
+title: Shahan ful
+summary: Shahan ful (also called ful or fūl) is a traditional dish from Sudan and the Horn of Africa made from slow-cooked fava beans mashed into a thick, savoury paste.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 45
+difficulty: 2
+equipment:
+- Cooking pot
+- Wooden spoon
+- Knife
+- Cutting board
+- Bowl
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: medium}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: tomato, qty: 1, prep: diced}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: niter-kibbeh, unit: tbsp, qty: 2}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+steps:
+- Wash and soak the dried fava beans overnight.
+- Drain the beans and place them in a large pot with fresh water.
+- Simmer over low heat until the beans become soft and tender. Add more water if necessary.
+- Mash the cooked beans into a coarse paste using a spoon or potato masher.
+- In another pan, heat the olive oil or niter kibbeh over medium heat.
+- Add the onions and cook until soft.
+- Stir in the garlic, tomatoes, chilies, cumin, and berbere spice.
+- Cook for several minutes until fragrant.
+- Add the mashed beans and stir well.
+- Season with lemon juice, salt, and black pepper.
+- Simmer for a few minutes until thick.
+- Serve hot with yogurt, feta cheese, or fresh herbs if desired.
+tips:
+- Soaking the beans overnight reduces cooking time.
+- Slow cooking improves flavour and texture.
+- Olive oil adds richness and aroma.
+- Canned fava beans can be used for faster preparation.
+- Extra chili peppers may be added for a spicier dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AShahan_ful&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Shahan ful@4637543
+    url: https://en.wikibooks.org/w/index.php?oldid=4637543
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

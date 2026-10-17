@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Chaat masala
+#  - unmapped ingredient: Water as required
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-deep-fried-chiles-stuffed-with-potato
+title: Deep Fried Chiles Stuffed with Potato
+alternate_names:
+- Mirchi Bada
+summary: Mirchi bada is a popular Indian snack.
+origin:
+  country: IN
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- deep-frying
+ingredient_groups:
+- items:
+  - {ingredient: red-chili, note: large}
+- name: Filling
+  items:
+  - {ingredient: potato, qty: 3, note: large}
+  - {ingredient: red-chili, unit: tsp, qty: 1}
+  - {ingredient: cilantro, unit: cup, qty: 0.5, prep: chopped fine}
+  - {ingredient: salt, note: to taste}
+- name: Batter
+  items:
+  - {ingredient: chickpea-flour, unit: cup, qty: 1}
+  - {ingredient: ground-turmeric, unit: pinch, qty: 2}
+  - {ingredient: salt, note: to taste}
+steps:
+- Slit the chiles, remove seeds, and set aside.
+- Boil potatoes in salted water. Peel and mash them well. Add chili powder, chaat masala, and coriander leaves. Mix well.
+- Make a thick batter with the flour, water, turmeric powder and salt.
+- Fill the chiles with the potato mix. Dip the filled chiles in the batter so they are completely covered.
+- Deep fry the battered chiles in preheated oil until they turn golden brown.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADeep_Fried_Chiles_Stuffed_with_Potato_%28Mirchi_Bada%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Deep Fried Chiles Stuffed with Potato (Mirchi Bada)@4506783
+    url: https://en.wikibooks.org/w/index.php?oldid=4506783
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

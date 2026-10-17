@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (GR, TR): confirm the country of origin
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 pound phyllo dough
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gr-baklava
+title: Baklava
+summary: Baklava.
+origin:
+  country: GR
+  also_claimed_by:
+  - TR
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- boiling
+ingredient_groups:
+- name: Pastry
+  items:
+  - {ingredient: walnuts, unit: cup, qty: [4, 5], prep: chopped coarsely}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: ground-cloves, unit: tsp, qty: 0.25}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+  - {ingredient: butter, unit: g, qty: 340}
+- name: Syrup
+  items:
+  - {ingredient: water, unit: cup, qty: 2.5}
+  - {ingredient: sugar, unit: cup, qty: 3}
+  - {ingredient: lemon-juice, unit: tsp, qty: 3}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+steps:
+- Combine nuts, cinnamon, cloves, and sugar. Melt butter in a saucepan.
+- Use a pastry brush to brush inside of a 14 x 10.5-inch (36 x 27 cm) pan with melted butter.
+- Line bottom of pan with one piece of Phyllo dough. Fold under excess Phyllo.
+- Alternate sides with each piece of Phyllo, brushing the top of each layer with melted butter.
+- Repeat 5 times, making 5 layers.
+- On the 6th sheet, sprinkle evenly with nut mixture.
+- Continue until all nut mixture is used and last 6 buttered sheets of Phyllo form top crust.
+- Use a sharp knife to cut into diamond shapes.
+- Bake at 300 °F (150 °C) for about 1 ½ hours or until lightly brown.
+- Combine syrup ingredients. Boil syrup for about 10 minutes and then allow to cool.
+- Pour cooled syrup over hot pastry. Enjoy!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaklava_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Baklava I@4617976
+    url: https://en.wikibooks.org/w/index.php?oldid=4617976
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 4 cups cooked turkey meat, chopped
+#  - unmapped ingredient: 1 can cream of chicken soup
+#  - unmapped ingredient: 2 tablespoons ranch dressing
+#  - unmapped ingredient: 1 package frozen biscuit dough
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-turkey-biscuit
+title: Turkey Biscuit
+summary: This recipe is designed for using the leftover turkey after a holiday meal, such as Thanksgiving or Christmas dinner.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: milk, unit: cup, qty: 0.5}
+  - {ingredient: cheddar, unit: cup, qty: 0.75}
+steps:
+- Sauté the onion until tender.
+- Combine in a small bowl the all the other ingredients except the cheese and biscuits.
+- Stir this mixture, then place it into a baking dish, and bake for 15 minutes at 350°F until it is quite warm throughout.
+- Remove the baked mixture from the oven and sprinkle the shredded cheese on it.
+- Add a layer of frozen biscuits on top of this. Bake for about 20–30 minutes longer.
+- Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATurkey_Biscuit&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Turkey Biscuit@4517124
+    url: https://en.wikibooks.org/w/index.php?oldid=4517124
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

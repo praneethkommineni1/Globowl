@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Pepper stew
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-nigerian-roasted-plantain
+title: Nigerian Roasted Plantain
+summary: Nigerian roasted plantain, also called boli, is a street food popular in Nigeria. It can be eaten with groundnut or pepper stew, and it is best eaten hot.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Rack
+- Baking sheet
+- Large saucepan
+- Oven
+ingredient_groups:
+- items:
+  - {ingredient: plantain, prep: peeled}
+  - {ingredient: fish}
+steps:
+- Heat the oven to 400°F. Place a rack on a baking sheet.
+- Place the plantains and fish on the rack.
+- Roast the plantains and fish in the preheated oven until they are cooked through. For an even roast, turn the plantains from time to time.
+- Heat the pepper stew, and serve it with the plantains and fish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Roasted_Plantain&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Roasted Plantain@4509047
+    url: https://en.wikibooks.org/w/index.php?oldid=4509047
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

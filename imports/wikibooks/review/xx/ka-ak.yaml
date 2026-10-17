@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1/2 cup lukewarm water
+#  - unmapped ingredient: 1 tsp black cumin
+#  - unmapped ingredient: 3/4 tsp ground Mahaleb cherry kernels
+id: xx-ka-ak
+title: Ka'ak
+alternate_names:
+- Savory Ring-Shaped Biscuit
+summary: 'Ka''ak (Arabic: كعك), is a biscuit traditionally baked while clinging to the wall of a clay oven, or on the floor of a masonry oven.'
+origin:
+  country: XX
+course: bread
+authenticity: unassessed
+yield:
+  servings: 42
+time:
+  total_min: 45
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.5}
+  - {ingredient: margarine, unit: g, qty: 100}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 3}
+  - {ingredient: baking-powder, unit: tbsp, qty: 1}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 2}
+  - {ingredient: sesame-seeds, unit: tbsp, qty: 2}
+  - {ingredient: dried-marjoram, unit: g, qty: 10, prep: za'atar or oregano, optional: true}
+  - {ingredient: egg-yolk, qty: 2, prep: beaten}
+steps:
+- Combine water, oil and soft margarine (or butter) in bowl.
+- Mix together flour, baking powder (or dried yeast), brown sugar, salt, and spices.
+- Mix dry ingredients with wet ingredients (except egg yolks) until you get a dough.
+- Let dough mixture rest for 30 minutes until it reaches its proper consistency.
+- Cut dough into half. Roll each half into a coil with your hands. You should now have 2 pieces.
+- Cut each coil in half, and again roll out each coil into a smaller coil with one's hands. You should now have 4 pieces.
+- Cut each coil in half, and again roll out each coil into a smaller coil with one's hands. You should now have 8 pieces.
+- Cut each coil at angles into 4 equal pieces. You should now have 32 pieces
+- Pinch together the ends of each coil so that it forms a ring. Place on a baking sheet, and let sit until the dough rises.
+- Brush each dough ring with egg yolk.
+- Bake in a preheated oven at a low heat (212–338°F / 100–170°C) until they begin to emit vapors. Then, remove from the oven.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKa%27ak_%28Savory_Ring-Shaped_Biscuit%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ka'ak (Savory Ring-Shaped Biscuit)@4524767
+    url: https://en.wikibooks.org/w/index.php?oldid=4524767
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,44 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup water or fish sauce
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: vn-vietnamese-caramel-sauce
+title: Vietnamese Caramel Sauce
+alternate_names:
+- Nước Maøu
+summary: Vietnamese caramel sauce/syrup is a common ingredient in clay pot recipes.
+origin:
+  country: VN
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: water, unit: cup, qty: 0.25}
+steps:
+- Combine sugar and the ¼ cup water/fish sauce in a small saucepan over low heat.
+- Swirl the pan frequently to avoid burning. When the sugar turns light brown, remove from the heat.
+- Stir in the 1 cup of water/fish sauce. Guard against splattering.
+- Let cool a little and return the sauce to the stove. Cook on low heat until all the sugar has dissolved.
+- Let the sauce cool and store in a jar in the refrigerator for future use.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AVietnamese_Caramel_Sauce_%28N%C6%B0%E1%BB%9Bc_Ma%C3%B8u%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Vietnamese Caramel Sauce (Nước Maøu)@4587152
+    url: https://en.wikibooks.org/w/index.php?oldid=4587152
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

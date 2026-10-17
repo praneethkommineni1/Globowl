@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (CN, JP): confirm the country of origin
+#  - unmapped ingredient: 12 raw prawns/shrimp, chopped
+#  - unmapped ingredient: 1/2 cup water chestnuts peeled and sliced
+#  - unmapped ingredient: 1 package store-bought gyoza/wonton wrappers
+#  - no time in recipe summary
+id: cn-meat-and-shrimp-potstickers
+title: Meat and Shrimp Potstickers
+summary: Potstickers (&#38149;&#36148; &#37707;&#36028; gu&#333;ti&#275;; literally "pot stick") are a Northern Chinese-style dumpling popular as a street food, appetizer, or side order in Japanese and Chinese cuisine.
+origin:
+  country: CN
+  also_claimed_by:
+  - JP
+course: main
+authenticity: unassessed
+yield:
+  servings: 24
+  amount: About 24 dumplings
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- steaming
+ingredient_groups:
+- name: Filling
+  items:
+  - {ingredient: chicken, unit: g, qty: 227}
+  - {ingredient: shrimp, unit: g, qty: 227}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 1}
+  - {ingredient: sesame-oil, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: pinch, qty: 1, optional: true}
+  - {ingredient: scallion, unit: tbsp, qty: 3, prep: minced}
+  - {ingredient: ginger, unit: tbsp, qty: 3, prep: minced}
+  - {ingredient: cilantro, unit: tbsp, qty: 3, prep: chopped}
+- name: Assembly
+  items:
+  - {ingredient: cornstarch}
+  - {ingredient: vegetable-oil}
+steps:
+- Mix together the filling ingredients.
+- Place a small bowl of water on the work area. If desired, mix in a little cornstarch to make a glue.
+- Lay out one of the gyoza wrappers in front of you.
+- Dip your finger in the water and moisten the edges of the wrapper.
+- Place a heaped teaspoon of filling in the middle of the wrapper.
+- Fold the gyoza wrapper over the filling and pinch the edges to seal it shut.
+- Heat 2 tablespoons oil in a large skillet or wok.
+- When oil is ready, carefully add the dumplings and cook on high heat until golden brown (about 1 minute).
+- Without turning the dumplings over, add 1 cup of water and cover.
+- Steam for about 1 minute to cook the raw filling and then turn off the heat (this is to keep the bottom from burning).
+- Let the dumplings cook for a few more minutes with the heat turned off.
+- Serve the potstickers with dipping sauce or soy sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMeat_and_Shrimp_Potstickers&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Meat and Shrimp Potstickers@4507082
+    url: https://en.wikibooks.org/w/index.php?oldid=4507082
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

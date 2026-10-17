@@ -1,0 +1,44 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 Tbsp citric acid
+#  - no servings in recipe summary
+id: gb-acid-drops
+title: Acid Drops
+summary: Acid drops are a hard candy or confection made very sour through the addition of acid. Citric acid and tartaric acid are commonly used.
+origin:
+  country: GB
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 45
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: sugar, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: cream-of-tartar, unit: tsp, qty: 0.5}
+  - {ingredient: powdered-sugar}
+steps:
+- Bring the sugar, water and cream of tartar to boil over medium-low heat. Stir gently until syrup reaches 310°F (155°C/hard crack stage) or is pale brown. Syrup should harden completely when dropped on to a cold plate and snap between the teeth when cold.
+- Pour the mixture onto an oiled heatproof work surface, and sprinkle with the citric acid.
+- Use a greased spatula to fold in the sides and thoroughly work the acid in.
+- When the candy is cool enough to touch but still pliable, roll it into sticks and snip off drop-sized bits.
+- Sift powdered sugar onto the candies, and shake to coat.
+- Allow to cool and harden completely. Store in an air-tight container.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAcid_Drops&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Acid Drops@4523664
+    url: https://en.wikibooks.org/w/index.php?oldid=4523664
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

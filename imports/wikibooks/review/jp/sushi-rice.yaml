@@ -1,0 +1,70 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 small sheet of kombu
+#  - unmapped ingredient: 1 metric tablespoon sake
+#  - unmapped ingredient: 3 metric tablespoons of rice vinegar
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: jp-sushi-rice
+title: Sushi Rice
+summary: Sushi rice, termed sushi meshi or shari in Japanese, is a key ingredient for sushi and a staple of Japanese cooking. It consists of short-grain rice dressed with seasoned vinegar called sushisu.
+origin:
+  country: JP
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Rice cooker
+- Hangiri (rice barrel; optional)
+- Shamoji (rice paddle; optional)
+- Fukin (cloth; optional)
+- Sensu (fan; optional)
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- name: Rice
+  items:
+  - {ingredient: long-grain-rice, qty: 2, prep: 'washed, short-grain Japanese rice'}
+  - {ingredient: water, unit: ml, qty: 400}
+- name: Sushisu
+  items:
+  - {ingredient: sugar, qty: [1, 2]}
+  - {ingredient: salt, qty: [1, 1.5]}
+steps:
+- About 30 minutes before starting, fill the hangiri with water and let it stand. The water saturates the wood, which prevents the rice from sticking to it.
+- 'Make the sushisu: Mix the vinegar, sugar, and salt. Heat the mixture in a saucepan until everything is dissolved, but do not boil. Set aside to cool.'
+- Rinse the rice. Put the rice in the cooking pot, half filled with cold water, and swirl it around with your hand. The water will turn chalky white. Carefully drain off the water, and repeat the process several times, until the water remains clear.
+- Allow the rice to stand for 30 minutes. Some recipes say the rice should remain in the cooking pot submerged in its cooking water; others say to transfer it temporarily to a colander to drain.
+- Add an 8 cm-sized sheet of kombu to the cooking pot, along with the sake if you are using it.
+- Boil the water in the cooking pot.
+- Remove the kombu from the cooking pot just as the water boils, and reduce the heat. Simmer the water and rice in the cooking pot for 20 minutes.
+- Turn off the heat but do not remove cover from the cooking pot for 10 minutes (no peeking).
+- Transfer the rice from the cooking pot to the hangiri; if you do not have one, use a large bowl or cookie sheet.
+- 'Cut the sushisu gently into rice with the paddle, trying not to break the kernels. For Western chefs: this "cutting" motion is similar to the cut-and-fold used for gentle treatment of egg whites. When finished, the rice is evenly coated with the dressing, giving it a shiny appearance.'
+- Cover the rice with a cloth for a couple of minutes so the dressing is absorbed.
+- Cool the rice to body temperature by fanning it, while continuing to cut it with the spatula. A traditional hand fan or modern battery-powered fan may be used.
+tips:
+- A rice-cooker is often used instead of a cooking pot; these generally produce good, consistent results. The manufacturer's directions will generally be similar to the above.
+- The rice and sushisu should be mixed immediately after the rice is finished cooking with sushisu at room temperature.
+- Some sushi chefs prefer natural cooling, rather than fanning, and instead let the rice rest in the hangiri for 15 minutes, then re-cut the rice, and continue with this process until the rice is cool.
+- 'According to some, the faster the rice cools, the better (but see above about natural cooling, which yields a slightly different texture). The rice is best if used quickly: you can use it to make sushi for a few hours; it certainly cannot be prepared a day early.'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASushi_Rice&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sushi Rice@4518740
+    url: https://en.wikibooks.org/w/index.php?oldid=4518740
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

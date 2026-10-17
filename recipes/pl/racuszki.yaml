@@ -1,0 +1,50 @@
+id: pl-racuszki
+title: Racuszki
+alternate_names:
+- Polish Pancakes
+summary: Racuszki are pancakes made from batter fried on a hot griddle or a pan. They are a traditional Polish dish, but they exist in several variations in many different local cuisines, such as Danish .
+origin:
+  country: PL
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 3
+time:
+  total_min: 15
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: buttermilk, unit: l, qty: 1}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: baking-soda, unit: tsp, qty: 1.5}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: apple, unit: kg, qty: 1, prep: sliced, optional: true}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.5, optional: true}
+  - {ingredient: raisins, unit: cup, qty: 0.5, optional: true}
+steps:
+- In large bowl, mix the baking soda, salt, and flour together well.
+- Add sour milk and eggs, and mix until smooth.
+- Pour small ladlefuls of the mixture into a non-stick pan, one at a time OR dip slices of peeled apples in batter and put them in the pan.
+- Cook until the edges are dry. Turn; cook until golden.
+tips:
+- Serve with sugar, butter, maple syrup, melted chocolate, or jam. Sugar is traditional, and some people eat them without toppings.
+- Racuszki do not store well.
+- Use yogurt or cultured buttermilk if you do not have sour milk, but do not replace it with normal milk.
+- Cooking apples are preferred, if using.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARacuszki_%28Polish_Pancakes%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Racuszki (Polish Pancakes)@4525528
+    url: https://en.wikibooks.org/w/index.php?oldid=4525528
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

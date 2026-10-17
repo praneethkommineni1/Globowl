@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Cooking oil for deep frying
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: xx-sylheti-handesh
+title: Sylheti Handesh
+summary: Sylheti handesh, also known as Guror handesh in the Sylhet region, is a delightful sweet and puffy deep-fried pitha that can also be enjoyed as a snack.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: date-syrup, unit: cup, qty: 1, prep: 'molasses, or sugar'}
+  - {ingredient: rice-flour, unit: cup, qty: 2}
+steps:
+- In a mixing bowl, combine the molasses and rice flour. Knead the mixture well until it forms a smooth, pliable dough. If the mixture is too dry, you can add a little water to achieve the desired consistency.
+- Heat cooking oil in a deep pan over medium-high heat.
+- Take small portions of the dough and shape them into round or oval discs, about the size of your palm.
+- Carefully slide the shaped dough into the hot oil and fry until it puffs up and turns golden brown. Be cautious when frying, as the oil will be very hot.
+- Remove the fried handesh from the oil and place them on paper towels to drain excess oil.
+- Allow the handesh to cool slightly before serving. They can be enjoyed warm or at room temperature.
+tips:
+- Handesh makes for a delicious breakfast or a delightful snack with a cup of tea.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASylheti_Handesh&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sylheti Handesh@4587506
+    url: https://en.wikibooks.org/w/index.php?oldid=4587506
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

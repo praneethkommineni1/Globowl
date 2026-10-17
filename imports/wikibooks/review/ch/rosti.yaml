@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+#  - duplicate of hand-written recipe ch-rosti
+id: ch-rosti
+title: Rosti
+alternate_names:
+- Swiss Potato Patties
+summary: Rösti is a potato dish from Switzerland. It was originally a common breakfast eaten by farmers in the canton of Bern, but today is eaten all over Switzerland. Many Swiss people consider rösti a national dish.
+origin:
+  country: CH
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: Serves 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: potato, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+steps:
+- Grate the potato into a dish, and squeeze out the excess moisture, discarding the liquid.
+- Split the mixture into two even piles.
+- Pour the oil into a frying pan and heat moderately.
+- Place the two piles separately onto the pan, pushing down on top of them with a spatula in order to ensure that the piles stay intact.
+- Fry until the underside is golden brown, then carefully flip and cook the other side.
+- Add salt and pepper to taste, and serve.
+tips:
+- There are many variations of rösti.
+- Various rösti use eggs, bacon, onion, or cheese. These can be mixed in with the potato before you start to fry the rösti.
+- Generally, any dry ingredients you use should be grated or diced before being added to the mix.
+- The outside of the rosti should be crisp. To achieve this the potato should be as dry as possible before it is fried.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARosti_%28Swiss_Potato_Patties%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rosti (Swiss Potato Patties)@4503543
+    url: https://en.wikibooks.org/w/index.php?oldid=4503543
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

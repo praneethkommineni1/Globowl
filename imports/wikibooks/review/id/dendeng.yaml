@@ -1,0 +1,42 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no Ingredients section
+#  - course unknown from categories
+id: id-dendeng
+title: Dendeng
+summary: Dendeng.
+origin:
+  country: ID
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–5
+time:
+  total_min: 60
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- 'Boil the Beef: Boil the beef in water along with the braising paste, bay leaves, and tamarind juice until tender and the liquid reduces significantly. Remove the beef and drain well.'
+- 'Slice & Pound: Slice the beef thinly along the grain. Gently pound/flatten each slice using a meat mallet or pestle until widened without tearing the meat apart.'
+- 'Fry the Beef: Heat oil in a pan and fry the beef briefly until slightly crisp or cooked to your preferred texture (avoid over-frying so it doesn''t get tough). Drain and set aside.'
+- 'Sauté the Sambal: Sauté the coarsely ground chilies, shallots, and tomato along with the kaffir lime leaves using some of the leftover beef-frying oil. Season with salt and sugar, then cook over low heat until fragrant and the raw chili flavor disappears.'
+- 'Serve: Add the fried beef to the pan with the balado sambal and toss until evenly coated. Remove from heat and serve hot with warm steamed rice.'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADendeng&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dendeng@4676098
+    url: https://en.wikibooks.org/w/index.php?oldid=4676098
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

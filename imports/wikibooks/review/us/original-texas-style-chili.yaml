@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: us-original-texas-style-chili
+title: Original Texas-Style Chili
+summary: The original Texas-style chili version of chili con carne contains no vegetables at all, except chili peppers. If using fresh peppers, they should have been prepared by being boiled, peeled, and chopped.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 1361}
+  - {ingredient: beef, unit: g, qty: 57}
+  - {ingredient: red-chili, qty: 4, prep: 'skinned and blistered, or sun-dried chiles'}
+  - {ingredient: dried-oregano, unit: tbsp, qty: 1}
+  - {ingredient: cumin-seeds, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 1}
+  - {ingredient: hot-sauce, unit: tbsp, qty: 1}
+  - {ingredient: garlic, qty: 2, prep: chopped}
+  - {ingredient: masa-harina, qty: 2, note: heaping}
+steps:
+- Sear beef in a little cooking oil (not lard) until lightly browned.
+- Add the seared beef, suet, and chile pods to a large iron skillet or pot (at least four quarts), and enough water (the reserved "pepper water" if you prepared the pods yourself) to keep the meat from burning. Bring to a boil, then lower heat, cover, and simmer about 30 minutes.
+- Take pot off the stove and add spices and garlic. Put back on the stove, bring to a boil again, lower heat, and simmer another hour, keeping the lid on as much as possible. Stir when necessary, but remember that too much stirring will tear the meat. Add a little more water if anything seems seriously in danger of burning (but as little water as possible).
+- Take pot off the stove and skim off all or most of the grease.
+- Mix in masa harina, which "tightens" or thickens the chili con carne and adds a subtle tamale-like flavor. Simmer about 30 minutes more, until meat is done. Do a lot of tasting during this time, (1) to adjust the seasoning, and (2) just because a chili cook should do a lot of tasting.
+tips:
+- Many of the above quantities may be somewhat adjusted up or down, depending on personal taste.
+- The meat is simply bite-size—traditionally, it was the size of a pecan nut—or coarsely ground, with ½-inch plate holes in a meat grinder as standard. It must always be beef, venison, or other mature meats. Stewing meat also works well. Prime beef or veal, on the other hand, are not suitable for chili con carne, as they tend not to remain solid.
+- Many cooks omit the suet as being much too greasy, although it does add flavor.
+- Ancho or Anaheim peppers are recommended. For an "elevated" flavor, use four pepper pods per pound of meat; for a milder "beginners" version, use only 2–3 pods.
+- Chili powder is a barely adequate substitute in the original recipe, but it lacks the subtle sting of the pods. A heaping teaspoon of chili powder is the approximate equivalent of one average-size chili pod.
+- Crushed tortilla chips can be substituted for masa harina (this is what Alton Brown did on the Food Network show Good Eats).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AOriginal_Texas-Style_Chili&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Original Texas-Style Chili@4518786
+    url: https://en.wikibooks.org/w/index.php?oldid=4518786
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

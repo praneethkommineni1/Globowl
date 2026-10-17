@@ -1,0 +1,79 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - course unknown from categories
+id: in-murghi-korma
+title: Murghi Korma
+alternate_names:
+- Chicken Korma
+summary: Murghi Korma.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 50
+difficulty: 3
+techniques:
+- marinating
+- pan-frying
+ingredient_groups:
+- name: Marinade
+  items:
+  - {ingredient: whole-chicken, prep: skinned and cut into medium pieces; ideally into 6 pieces if using baby chicken}
+  - {ingredient: ground-ginger, unit: tbsp, qty: 1}
+  - {ingredient: garlic, unit: tbsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1.5}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1.5}
+  - {ingredient: nutmeg, unit: tsp, qty: 0.5, optional: true}
+  - {ingredient: yogurt, unit: tbsp, qty: 1}
+- name: Cooking
+  items:
+  - {ingredient: onion, qty: 2, prep: chopped, note: medium}
+  - {ingredient: green-cardamom-pods, qty: [6, 8]}
+  - {ingredient: whole-cloves, qty: [3, 5]}
+  - {ingredient: cinnamon-stick, qty: 1, note: medium}
+  - {ingredient: black-pepper, prep: 'crushed, according to taste', note: to taste}
+  - {ingredient: ghee, unit: tbsp, qty: [1, 2]}
+  - {ingredient: salt, prep: according to taste, note: to taste}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+- name: Serving
+  items:
+  - {ingredient: coconut-cream, unit: tbsp, qty: 2}
+  - {ingredient: heavy-cream, unit: cup, qty: 0.5}
+  - {ingredient: saffron, qty: [4, 6]}
+  - {ingredient: rose-water, optional: true}
+  - {ingredient: almonds, unit: tbsp, qty: 1, optional: true}
+steps:
+- Combine the chicken with all the marinade ingredients, cover the bowl with cling film, and leave in the fridge to marinate for 1–3 hours.
+- Fry the onions in ghee until it starts to turn brown but still soft. Do not fry to crispiness. Take out the onion with slotted spoon and set aside.
+- Add the marinated chicken to the hot ghee and cook over medium heat.
+- Dry toast the whole spices in a hot frying pan for 1 minute until aromatic.
+- Add the whole spices and black pepper to the chicken.
+- Stir occasionally and cook covered.
+- When water starts to separate from the chicken, add coconut cream, salt and sugar.
+- Add boiling water if chicken starts to dry up before its cooked.
+- Warm the single cream in microwave and add saffron to it.
+- Stir in cream when almost cooked.
+- Remove from the heat, and serve with fried onions, rose water, and almonds.
+tips:
+- Serve with warm pilaf rice.
+- Korma, being a mild dish, can be a good introduction to South Asian cuisines, especially for those who like to avoid too spicy or too hot dishes.
+- Ethnic ingredient shops often sell premade fried onion packs.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMurghi_Korma_%28Chicken_Korma%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Murghi Korma (Chicken Korma)@4630284
+    url: https://en.wikibooks.org/w/index.php?oldid=4630284
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

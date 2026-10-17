@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: pr-roasted-pork-shoulder
+title: Roasted Pork Shoulder
+alternate_names:
+- Pernil Asado
+summary: Roasted Pork Shoulder.
+origin:
+  country: PR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: pork, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 1.5}
+  - {ingredient: garlic, qty: 12, prep: peeled, note: medium}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+  - {ingredient: dried-oregano, unit: tbsp, qty: 2}
+  - {ingredient: thyme, unit: tbsp, qty: 2}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 2}
+steps:
+- Wash the pork shoulder.
+- Skin side down, use a sharp knife to make incisions in different places of the pork shoulder.
+- Grind together the garlic, pepper, oregano, and salt
+- When done grinding, mix in oil and vinegar.
+- Fill the incisions of the pork with the ground mixture. Whatever is left over rub on the outside of the pork.
+- Put away in the refrigerator for 3 days. If you planned to cook it the same day, prepare the pork at least 1 hour ahead of time.
+- Remove the pork shoulder from the refrigerator 2 hours before putting it in the oven.
+- Preheat the oven at 350ºF (180°C) for at least 10 minutes before you begin cooking the pork shoulder.
+- Cook the pork for 3½ hours.
+- Raise the temperature to 375°F (195°C) and cook for 15–30 minutes until the skin is toasted and browned.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARoasted_Pork_Shoulder_%28Pernil_Asado%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Roasted Pork Shoulder (Pernil Asado)@4505979
+    url: https://en.wikibooks.org/w/index.php?oldid=4505979
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

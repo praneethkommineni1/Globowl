@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 oz 2–3 day-old white bread
+#  - unmapped ingredient: 1/3 pt iced water
+#  - unmapped ingredient: Ice cubes
+#  - unmapped ingredient: 1/4 peeled cucumber, diced fine
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: es-gazpacho
+title: Gazpacho
+summary: Gazpacho is a hearty soup that is served cold, making it a perfect way to cool down and replenish the body on a hot, summer day. This is the classic gazpacho recipe, but there are many other variations. Gazpacho is typically served along with the main course, or afterward.
+origin:
+  country: ES
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- name: Soup
+  items:
+  - {ingredient: tomato, unit: g, qty: 454, prep: skinned and quartered}
+  - {ingredient: red-bell-pepper, unit: g, qty: 227, prep: seeded and trimmed}
+  - {ingredient: cucumber, qty: 0.5, prep: peeled and cut in chunks}
+  - {ingredient: garlic, unit: clove, qty: 1}
+  - {ingredient: onion, qty: 0.5, prep: chopped}
+  - {ingredient: red-wine-vinegar, unit: tbsp, qty: 1}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: red-chili, qty: 0.25, prep: seeds removed, optional: true}
+  - {ingredient: cilantro, optional: true}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+- name: Garnish
+  items:
+  - {ingredient: tomato, qty: 1, prep: skinned and diced fine}
+  - {ingredient: green-pepper, qty: 0.5, prep: diced fine}
+  - {ingredient: white-bread}
+steps:
+- If using, tear up the bread, and soak it in water for 30 minutes. Squeeze it dry.
+- Blend bread, tomatoes, bell peppers, cucumber, garlic, onion, vinegar, olive oil, chiles, cilantro, and water in a blender until roughly chopped. The soup should have texture and discernible vegetable bits, so do not chop too finely.
+- Pour soup into a large bowl with some ice, and season to taste with salt and pepper.
+- Dice the bread, and fry it in a little olive oil until brown.
+- Chop the other vegetables finely.
+- Serve all garnishes in separate little bowls on the table.
+- Serve gazpacho chilled.
+- Allow diners to sprinkle on their own toppings.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGazpacho&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gazpacho@4518408
+    url: https://en.wikibooks.org/w/index.php?oldid=4518408
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

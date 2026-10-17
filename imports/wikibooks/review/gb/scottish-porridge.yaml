@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 teaspoon lemon juice or apple cider vinegar
+#  - unmapped ingredient: 1 teaspoon of buckwheat flour
+#  - unmapped ingredient: 1/8 teaspoon fine sea salt
+#  - course unknown from categories
+id: gb-scottish-porridge
+title: Scottish Porridge
+summary: Scottish Porridge is a beloved traditional breakfast dish from Scotland. Traditionally, it doesn't use dairy and only consists of three ingredients - oats, salt and water.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 445
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: rolled-oats, unit: cup, qty: 0.5, prep: also called Irish oats}
+  - {ingredient: water, unit: cup, qty: 1.5}
+steps:
+- Mix the steel-cut oats with a teaspoon of buckwheat flour in a bowl.
+- Add warm water to soak the oats and add a splash of lemon juice or apple cider vinegar. Cover and allow to soak overnight or at least 7 to 8 hours.
+- Place the oats, salt and water into a small pan and gently bring it to a small boil, stirring occasionally until the porridge starts to thicken.
+- Once the thickening has begun, lower the heat to low to avoid burning the porridge and allow it to simmer for approximately 15 to 20 minutes (or less if the oats are tender and reached your preferred consistency).
+- Remove from the heat and let it stand for 1 or 2 minutes before serving.
+- Serve and top with your choice of toppings, such as chia seeds, walnuts, tablespoon of peanut butter, berries, cinnamon, or a dollop of Greek yogurt.
+tips:
+- Traditionalists uses whole-oat groats and mill them to make Scottish porridge. However store bought steel-cut oats are a reliable substitute for those who do not possess a mill. If you possess a mill and desire the authentic Scottish taste, you can swap steel-cut oats and use milled whole-oat groats instead.
+- Pre-soaking is essential to achieve a soft, velvety texture as it helps break down starches in oats and soften its hearty outer hull.
+- To reduce phytates in oats, you should add both an acidic medium and a phytase-rich ingredient to your soaking liquid, This can be achieved by adding a teaspoon of buckwheat flour and a teaspoon of apple cider vinegar.
+- Ideally you should start your soak with warm water (but not boiling as that kills enzymes) and leave it out to soak at room temperature for 16 to 24 hours. However, a shorter 8 to 12 hours can still significantly reduce anti-nutrients and make your breakfast much easier on your stomach.
+- After soaking, rinsing reduces starch, apple cider vinegar or lemon juice, and any available pesticide residue. If you are using organic oats and want maximum nutrition and creaminess, you can skip the rinse.
+- Always cover the bowl with cling wrap when soaking oats. This is to both to keep out potential contaminants (brought in by outside flies, dusts, bad bacteria, etc), as well as keeping the oats from drying out by preventing the evaporation of the top layer of water. If top oats are exposed to air and are dried out, they will be unable to benefit from buckwheat enzymes.
+- Salt is essential to a good Scottish porridge as it brings out the earthy flavor of the oats. There is however a difference in opinion on when it is best to add in the salt. Some argue that it's better to add a pinch halfway through cooking whilst others believe it's best added at the very beginning of the cooking process. Feel free to experiment and choose the one that you prefer though it is just a myth that oats cannot cook properly if you add salt in very early.
+- When serving, try to opt for shallow bowls as they help quickly cool down the porridge evenly whereas deeper bowls tend to keep the centre of the porridge dangerously hot.
+- Opt to start with cold water for cooking. Avoid cooking with milk as milk sugars tend to both mask the clean grain taste and it scorches easily.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AScottish_Porridge&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Scottish Porridge@4654622
+    url: https://en.wikibooks.org/w/index.php?oldid=4654622
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

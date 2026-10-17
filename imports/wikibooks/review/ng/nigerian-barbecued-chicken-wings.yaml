@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-nigerian-barbecued-chicken-wings
+title: Nigerian Barbecued Chicken Wings
+summary: Nigerian barbecued chicken wings are usually eaten as a side dish or served alongside grains like jollof rice and fried rice. They are especially common at parties, gatherings and festivals.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Oven or grill
+- Bowl
+- Baking tray
+techniques:
+- baking
+- grilling
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: cornmeal, unit: tbsp, qty: 2}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: chicken, qty: 10}
+steps:
+- Combine the flour, cornmeal, pepper, salt, sugar, ginger, and paprika in a bowl.
+- Add the chicken pieces, and rub the mixture into them well so they are completely coated.
+- Set in the fridge, and allow the chicken to rest for 1 hour.
+- Arrange the chicken pieces on a baking tray or on a grill. Grill or bake until cooked through (about 45 minutes baking at 375°F).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Barbecued_Chicken_Wings&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Barbecued Chicken Wings@4513132
+    url: https://en.wikibooks.org/w/index.php?oldid=4513132
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

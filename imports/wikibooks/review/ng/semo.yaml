@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-semo
+title: Semo
+alternate_names:
+- Nigerian Cooked Semolina
+summary: Semo, also called semolina fufu, is a Nigerian swallow eaten with various soups, such as egusi soup, okro soup, efọ̀ riro, and Nigerian èfirin soup. It is nutritious and starchy.
+origin:
+  country: NG
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+equipment:
+- Cooking pot
+- Wooden spatula or strong cooking spoon
+- Measuring cup
+- Bowl
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water}
+  - {ingredient: semolina}
+steps:
+- Boil water in a pot.
+- Gradually mix the semolina flour into the boiling water, stirring with a spatula until it forms a smooth and lump-free dough. Stop adding semolina flour when you can no longer stir easily.
+- Stir the semolina mixture vigorously to eliminate any lumps.
+- Once you have a smooth mixture, add a small amount of water to bring it to the desired consistency. Cover the pot, and cook for about 3 minutes.
+- Serve with your soup of choice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASemo_%28Nigerian_Cooked_Semolina%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Semo (Nigerian Cooked Semolina)@4636395
+    url: https://en.wikibooks.org/w/index.php?oldid=4636395
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

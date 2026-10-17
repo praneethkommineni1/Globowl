@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3–4 horseradish, sliced
+#  - unmapped ingredient: 250 g kangkung leaves or other leafy yet crunchy vegetable even when cooked.
+#  - unmapped ingredient: MSG
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ph-sinigang
+title: Sinigang
+alternate_names:
+- Philippine Sour Soup
+summary: Sinigang, the famous sour soup of the Philippines, is a fruity sour-based soup boiled with either pork, beef, chicken, fish or seafood. A variety of vegetables can be included, but onions and tomatoes are required.
+origin:
+  country: PH
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: tamarind-paste}
+  - {ingredient: onion, qty: 1, prep: chopped}
+  - {ingredient: tomato, qty: [4, 6], prep: quartered}
+  - {ingredient: pork, unit: kg, qty: [0.5, 1], prep: cubed}
+  - {ingredient: taro, unit: g, qty: 250, prep: diced or sliced into chunks}
+  - {ingredient: green-beans, unit: g, qty: 200, prep: cut in 1-inch pieces}
+  - {ingredient: onion, qty: [1, 3], prep: quartered}
+  - {ingredient: fish-sauce, unit: tbsp, qty: 5}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: red-chili, qty: 3}
+steps:
+- If using whole tamarind, boil it in water until the shells crack, then work the flesh away from the seeds and strain, reserving all the liquid for the soup. Skip this process if using packed tamarind base.
+- Sauté the chopped onions in another large pot.
+- Add the tomato and pork to the onions, and sauté until the pork is no longer pink.
+- Add enough water or boiled tamarind stock to cover the contents of the pot. Boil until tender.
+- Add taro root, and simmer until soft and tender. The soup should to thicken at this point.
+- Add the horseradish, and simmer until tender-crunchy.
+- Add the string beans, quartered onions, and water spinach. Simmer for another 2–3 minutes.
+- Check to make sure all ingredients were cooked enough, then add the tamarind pack if using.
+- Add fish sauce, salt, pepper, and MSG to taste. Top with green chillies.
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASinigang_%28Philippine_Sour_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sinigang (Philippine Sour Soup)@4605288
+    url: https://en.wikibooks.org/w/index.php?oldid=4605288
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

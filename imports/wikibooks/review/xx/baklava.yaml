@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 lb phyllo dough
+#  - course unknown from categories
+id: xx-baklava
+title: Baklava
+summary: __notoc__ Baklava is a Mediterranean dessert consisting of layers of phyllo dough interspersed with crushed nuts and soaked in sweet syrup. This recipe is modified from one at Allrecipes.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 90
+difficulty: 3
+techniques:
+- baking
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: pistachios, unit: g, qty: 454}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+  - {ingredient: butter, unit: cup, qty: 0.5}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: honey, unit: cup, qty: 0.333}
+  - {ingredient: sugar, unit: cup, qty: 0.667}
+  - {ingredient: water, unit: cup, qty: 0.75}
+steps:
+- Combine the nuts and cinnamon in a blender. Blend the nuts into a fine powder, being careful not to form a paste.
+- Melt the butter in a saucepan over medium heat, then set aside.
+- Line a baking pan with parchment paper.
+- Count the number of sheets of phyllo dough and divide it by eight. Arrange one-eighth of the sheets in the bottom of the pan, on the parchment paper.
+- Divide the chopped nuts into seven equally sized portions.
+- Brush the phyllo dough with melted butter, and evenly distribute one portion of chopped nuts over the dough.
+- Arrange another eighth of the phyllo sheets on top of the nut layer.
+- Repeat the buttering and layering of nuts and phyllo until you have used up all the phyllo sheets and chopped nuts.
+- Using a sharp knife, radially cut the baklava into eight equally sized portions shaped like the British flag.
+- Bake the baklava for 25 minutes at 350°F (180°C). Remove from the oven, and let cool slightly.
+- Mix the vanilla extract, honey, sugar, and water in a clean saucepan. Boil over medium heat until it becomes a very thick and viscous syrup of slightly over 1 cup (240 ml). Remove from the heat, and let cool slightly.
+- Pour the syrup on top of the baked baklava, coating each portion of the baklava evenly with syrup.
+- Let everything cool fully before serving.
+tips:
+- Do not pour the syrup until both the baklava and the syrup are cool to avoid burns.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaklava_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Baklava II@4629321
+    url: https://en.wikibooks.org/w/index.php?oldid=4629321
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

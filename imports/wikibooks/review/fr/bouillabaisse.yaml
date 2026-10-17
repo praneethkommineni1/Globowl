@@ -1,0 +1,76 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 660 g whole cleaned sea robin
+#  - unmapped ingredient: 660 g whole cleaned scorpionfish
+#  - unmapped ingredient: 660 g whole cleaned red gurnard
+#  - unmapped ingredient: 660 g whole cleaned conger
+#  - unmapped ingredient: 660 g whole cleaned lotte, or monkfish
+#  - unmapped ingredient: 660 g whole cleaned John Dory
+#  - unmapped ingredient: 10 sea urchins
+#  - unmapped ingredient: 10 slices of country bread
+#  - unmapped ingredient: 10 threads of saffron
+id: fr-bouillabaisse
+title: Bouillabaisse
+summary: Bouillabaisse is a traditional fish stew originating from the port city of Marseille. It is made by boiling several species of fish with herbs and vegetables.
+origin:
+  country: FR
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- name: Broth
+  items:
+  - {ingredient: octopus, qty: 1, prep: cleaned and cut into pieces, optional: true}
+  - {ingredient: potato, unit: kg, qty: 1, prep: peeled and cut into large slices}
+  - {ingredient: garlic, unit: clove, qty: 7}
+  - {ingredient: onion, qty: 3, prep: sliced}
+  - {ingredient: tomato, qty: 5, prep: 'peeled, quartered and without seeds'}
+  - {ingredient: olive-oil, unit: cup, qty: 1}
+  - {ingredient: bouquet-garni, qty: 1}
+  - {ingredient: fennel-bulb, qty: 1}
+  - {ingredient: saffron, qty: 8}
+  - {ingredient: salt}
+  - {ingredient: cayenne}
+- name: Rouille
+  items:
+  - {ingredient: egg, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 2}
+  - {ingredient: olive-oil, unit: cup, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: cayenne}
+steps:
+- Scale the fish and wash them, if possible, in sea water. Cut them into large slices, leaving the bones.
+- Warm the olive oil in a large, deep saucepan.
+- Add the onions, along with 6 cloves of crushed garlic, the octopus pieces and tomatoes. Brown at low heat turning gently for 5 minutes.
+- Add the fish slices; first the large slices then the smaller ones. Cover with boiling water and add salt, pepper, fennel, the bouquet garni and saffron. Simmer at a low heat, stirring from time to time so the fish doesn't stick to the pan. Correct the seasoning. Remove the bouillabaise from the heat once the oil and water have thoroughly blended with the other ingredients. This should take about twenty minutes.
+- 'Prepare the rouille: Use a mortar to crush the garlic cloves into a fine paste after removing the stems. Add the egg yolk and the saffron, then blend in the olive oil little by little to make a mayonnaise, stirring it with the pestle.'
+- Cook the potatoes in salted water for 15 to 20 minutes. Open the sea urchins with a pair of scissors and remove the roe with a small spoon.
+- Arrange the fish on a platter. Add the sea urchin roe into the broth and stir.
+- Rub several slices of bread with garlic and spread a tablespoon of rouille on each. Place at least two slices per serving bowl.
+- Remove the fish and potatoes from the broth and place them on a large serving platter.
+- Pour the hot broth in each bowl containing a slice of bread smothered in rouille. Then serve the fish and the potatoes on a separate platter.
+tips:
+- Finding all the species of fish listed above may be difficult. If so, substitute any combination of four of five species with firm, white flesh.
+- Serve this dish without rouille to reduce the fat and cholesterol in this dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABouillabaisse&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bouillabaisse@4518578
+    url: https://en.wikibooks.org/w/index.php?oldid=4518578
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

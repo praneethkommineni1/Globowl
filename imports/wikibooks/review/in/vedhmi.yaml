@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 kg jaggery
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-vedhmi
+title: Vedhmi
+alternate_names:
+- Sweet Stuffed Flatbread
+summary: Puran poli or vedhmi is a sweet version of stuffed chapati from the Gujarat in the Indian subcontinent. It is mainly stuffed with toor dal, but some people use chana dal.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: pigeon-peas-canned, unit: kg, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: ground-cardamom, unit: tsp, qty: 1}
+  - {ingredient: all-purpose-flour, unit: kg, qty: 0.5}
+  - {ingredient: vegetable-oil, unit: ml, qty: 100}
+  - {ingredient: ghee, unit: tsp, qty: 1}
+steps:
+- Wash and boil the toor dal with water and ½ tsp salt until soft.
+- Cool slightly and strain the dal using a strainer.
+- Add cardamom powder and jaggery to the dal, then grind to make a fine paste. If the paste is sticky, keep it on the heat to dry up completely. This is known as "puran".
+- Knead flour with ½ tsp salt and enough water to make a dough. Do not make the dough hard.
+- Add oil, and knead the dough again until the oil is absorbed.
+- Prepare an equal number of balls from the dough and puran.
+- Roll out dough balls to make small un-cooked chapati.
+- Stuff each uncooked chapati with a ball of puran.
+- Roll them again into stuffed chapati just like stuffed paratha. It is called "poli".
+- Heat a griddle and fry each poli.
+- Brush ghee on both sides when done.
+- Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AVedhmi_%28Sweet_Stuffed_Flatbread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Vedhmi (Sweet Stuffed Flatbread)@4508061
+    url: https://en.wikibooks.org/w/index.php?oldid=4508061
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

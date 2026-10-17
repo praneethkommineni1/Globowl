@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - course unknown from categories
+id: xx-french-onioned-chicken
+title: French Onioned Chicken
+summary: French onioned chicken is a type of dish made from chicken breast.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 30
+difficulty: 3
+equipment:
+- Bowl
+- Oven
+- Baking sheet
+- Parchment paper
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: egg, prep: beaten}
+  - {ingredient: chicken}
+  - {ingredient: onion, prep: crushed}
+  - {ingredient: paprika, optional: true}
+steps:
+- Preheat the oven to 200°C.
+- Dip the chicken into the beaten, then dip it into the crushed onions. Make sure the chicken is well-coated, then transfer to parchment-lined baking sheet.
+- Bake the chicken for 20 minutes or until it's no longer pink on the inside.
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrench_Onioned_Chicken&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:French Onioned Chicken@4500291
+    url: https://en.wikibooks.org/w/index.php?oldid=4500291
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

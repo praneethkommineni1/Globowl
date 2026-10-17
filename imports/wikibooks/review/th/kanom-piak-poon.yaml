@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 40 g arrowroot starch
+#  - unmapped ingredient: 600 ml limewater
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: th-kanom-piak-poon
+title: Kanom Piak Poon
+alternate_names:
+- Thai Coconut and Pandan Pudding
+summary: Kanom piak poon is a thickened Thai sweet made of coconut, rice flour, and pandan.
+origin:
+  country: TH
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: rice-flour, unit: g, qty: 80}
+  - {ingredient: sugar, unit: g, qty: 200}
+  - {ingredient: pandan-leaf, unit: ml, qty: 200}
+  - {ingredient: coconut-milk, unit: ml, qty: 200}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: coconut, unit: cup, qty: 1}
+steps:
+- Combine the rice flour, arrowroot, and lime water. Stir in the sugar, water, pandan juice, coconut milk, and salt until the sugar dissolves. Strain this mixture into a brass pan or pot to remove any solids.
+- Heat the pan over low heat. Stir the mixture continuously over low heat to keep it from sticking to the bottom of the pan.
+- Cook until the mixture is glossy and thickened. This will take about 30–40 minutes.
+- Pour the mixture into an oiled mold. Smooth the top, then let rest until cool.
+- When the pudding is cooled, use a knife to cut into the desired shape. Serve with grated coconut.
+tips:
+- If the pot or pan starts to heat until the smoke rises, reduce the heat a little and stir the flour mixture quickly.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKanom_Piak_Poon_%28Thai_Coconut_and_Pandan_Pudding%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kanom Piak Poon (Thai Coconut and Pandan Pudding)@4517929
+    url: https://en.wikibooks.org/w/index.php?oldid=4517929
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

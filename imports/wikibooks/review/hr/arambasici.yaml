@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 50–60 g suet from ox kidneys, finely chopped
+#  - unmapped ingredient: Smoked pork
+#  - unmapped ingredient: Smoked ham or tongue
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: hr-arambasici
+title: Arambasici
+alternate_names:
+- Croatian Sour Cabbage Rolls
+summary: Aramba&#353;i&#263;i are a speciality from Sinj, Croatia. Unlike some other cabbage rolls, which use fresh leaves, these are rolled up in whole pickled cabbage leaves.
+origin:
+  country: HR
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 600, prep: finely chopped}
+  - {ingredient: ham, unit: g, qty: 150, prep: finely chopped}
+  - {ingredient: pork, unit: g, qty: 200, prep: finely chopped}
+  - {ingredient: lamb, prep: finely chopped, optional: true}
+  - {ingredient: onion, qty: 2, prep: chopped, note: large}
+  - {ingredient: garlic}
+  - {ingredient: whole-cloves}
+  - {ingredient: lemon}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: ground-cinnamon}
+  - {ingredient: whole-cloves, qty: [2, 3]}
+  - {ingredient: nutmeg, qty: 1}
+  - {ingredient: sauerkraut, qty: 1}
+  - {ingredient: chicken-stock}
+steps:
+- Combine the beef, ham, suet, pork, and mutton in a bowl.
+- Add the chopped onions, garlic cloves, grated lemon rind, salt, pepper, a little cinnamon, crushed cloves, and ground nutmeg.
+- Mix all the ingredients well; knead together with your hands, if desired.
+- Separate the leaves from the sauerkraut head, setting aside the better ones for stuffing.
+- Cut away part of the leaf stalk at the base.
+- Add a spoonful of the meat mixture to each kraut leaf.
+- Roll the Aramba&#353;ici from the base of each leaf, and fold the ends together well so that they do not fall apart during cooking.
+- Put 1 spoonful of grease in a deep stoneware casserole dish.
+- Pack and layer the Aramba&#353;ici rolls tightly next to one another in the casserole dish.
+- Layer smoked meat between the layers of kraut rolls.
+- Pour the broth or water over the Aramba&#353;ici. Cover tightly and cook 3–4 hours over low heat.
+- Shake casserole form several times, but do not stir.
+tips:
+- It is best to pre-cook the Aramba&#353;ici in the evening, and on the following day cook until done.
+- Apart from other ingredients, fresh sauerkraut is the most important for good and tasty Aramba&#353;ici.
+- Aramba&#353;ici is also delicious in the summer. Should you not be able to find any sauerkraut in the summer, you can also use fresh cabbage or grape leaves. Sort out the leaves and blanch them with boiling water to soften them. Fill with the Aramba&#353;ici mixture and cook in the same manner as with the sauerkraut leaves.
+- Chopping the meat is better than running through a grinder, and in this way it retains more of its flavour.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AArambasici_%28Croatian_Sour_Cabbage_Rolls%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Arambasici (Croatian Sour Cabbage Rolls)@4509907
+    url: https://en.wikibooks.org/w/index.php?oldid=4509907
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

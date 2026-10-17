@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 6 dashes Angostura bitters
+#  - no servings in recipe summary
+id: tt-kurma
+title: Kurma
+alternate_names:
+- Trinidadian Fried Dough in Syrup
+summary: Kurma is a sweet fried dough coated in a sugar syrup.
+origin:
+  country: TT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 120
+difficulty: 3
+techniques:
+- pan-frying
+ingredient_groups:
+- name: Kurma dough
+  items:
+  - {ingredient: ginger, qty: 2, prep: finely grated}
+  - {ingredient: evaporated-milk, unit: can, qty: 1}
+  - {ingredient: condensed-milk, unit: can, qty: 0.667}
+  - {ingredient: coconut-cream, unit: tbsp, qty: 2}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 6}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 2}
+  - {ingredient: butter, qty: 1}
+- name: Sugar syrup
+  items:
+  - {ingredient: sugar, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 0.5}
+steps:
+- Mix flour, ginger, cinnamon, and butter in a large bowl.
+- Mix evaporated milk, coconut cream, condensed milk, and Angostura bitters in a separate bowl.
+- Pour the liquid mixture into the mixture of dry ingredients a little bit at a time. Mix until a dough forms. The dough should be "tough;" that is, not stretchy.
+- Divide the dough into two balls. This makes it more manageable. Roll each ball out until about 1 cm thick.
+- Cut dough into strips.
+- Heat ½ cup of oil in a pan over medium-high heat.
+- Fry batches of the kurma dough in the oil, turning often.
+- Remove when golden brown on all sides.
+- Heat sugar and water over medium heat.
+- Stir so that sugar is completely wet.
+- When the sugar is dissolved and the mixture is clear, remove from heat.
+- Pour over kurma, and stir quickly to coat evenly.
+tips:
+- Short, thin strips of dough work best. Fat, long pieces tend to fall apart and be soft inside.
+- If kurma is browning quickly and unevenly, turn heat down.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKurma_%28Trinidadian_Fried_Dough_in_Syrup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kurma (Trinidadian Fried Dough in Syrup)@4587205
+    url: https://en.wikibooks.org/w/index.php?oldid=4587205
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

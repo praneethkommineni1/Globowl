@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 cup cooked beans
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-liberian-fried-plantains-with-beans
+title: Liberian Fried Plantains with Beans
+summary: Liberian fried plantains with beans is a popular and delicious dish in Liberia. It combines the sweet and savory flavors of ripe plantains with the heartiness of cooked beans. This dish can be served as a main course or as a side dish, and it's perfect for any occasion.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Large frying pan
+- Slotted spoon
+techniques:
+- pan-frying
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: plantain, qty: 3}
+  - {ingredient: vegetable-oil, prep: for frying}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+steps:
+- Peel the ripe plantains and cut them into diagonal slices, about ½ inch thick.
+- In a large frying pan, heat vegetable oil over medium-high heat.
+- Fry the plantain slices in batches until they are golden brown and crispy on both sides. Use a slotted spoon to transfer the fried plantains to a plate lined with paper towels to drain any excess oil.
+- In the same frying pan, sauté the chopped onion and minced garlic until they become translucent and fragrant.
+- Add the cooked beans to the pan and mix well with the onions and garlic.
+- Season the beans with ground paprika, ground black pepper, and salt to taste. Stir to coat the beans evenly with the spices.
+- Cook the bean mixture for a few minutes until it is heated through.
+- Serve the fried plantains alongside the seasoned beans and enjoy this delightful and flavorful Liberian dish.
+tips:
+- Adjust the seasoning according to your taste preferences. You can add other spices like cayenne pepper or thyme for extra flavor.
+- If you prefer a sweeter taste, you can sprinkle a little brown sugar on the fried plantains before serving.
+- This dish can be served as a main course with rice or as a side dish with grilled or fried fish or meat.
+- Leftover fried plantains and beans can be stored in an airtight container in the refrigerator for up to 2 days. Reheat before serving.
+- Beans are rich in protein, dietary fiber, and various nutrients such as iron and folate.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALiberian_Fried_Plantains_with_Beans&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Liberian Fried Plantains with Beans@4534249
+    url: https://en.wikibooks.org/w/index.php?oldid=4534249
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

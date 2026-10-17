@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: in-khichdi
+title: Khichdi
+alternate_names:
+- South Asian Rice and Lentils
+summary: Khichdi is a popular dish in the Indian state of Gujarat, where many families prefer it as a dinner. There also exist many variations of it across India.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pressure-cooking
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, qty: 1}
+  - {ingredient: mung-beans, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1}
+steps:
+- Wash rice and lentils and soak them for 10–15 minutes in water.
+- Add salt and turmeric powder.
+- Pressure cook with 3–4 cups of water.
+- After the first whistle, reduce the heat and cook for 4–5 more minutes.
+- Allow to cool. Serve with ghee or buttermilk.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKhichdi_%28South_Asian_Rice_and_Lentils%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Khichdi (South Asian Rice and Lentils)@4515103
+    url: https://en.wikibooks.org/w/index.php?oldid=4515103
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

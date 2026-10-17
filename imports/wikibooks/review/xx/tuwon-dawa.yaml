@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 cups whole guinea corn or 1 1/2 cups sorghum flour
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-tuwon-dawa
+title: Tuwon Dawa
+alternate_names:
+- Nigerian Sorghum Swallow
+summary: Tuwon dawa is a traditional Nigerian swallow dish made from sorghum flour. Common in the northern regions of Nigeria, it has a distinctive brown color and is rich in nutrients.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4 servings
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Pot
+- Wooden spoon or turmi (local wooden spatula)
+- Sieve (if using whole sorghum)
+- mortar and pestle (for whole grains)
+- Measuring cups and spoons
+ingredient_groups:
+- items:
+  - {ingredient: potash, unit: tsp, qty: 0.5}
+  - {ingredient: water, unit: cup, qty: [4, 5]}
+steps:
+- If using whole sorghum, wash the grains thoroughly and spread them out to dry completely, covering them to keep out dust and debris. Grind or pound the dried grains into a fine powder. Sieve to remove any chaff.
+- In a pot, bring 3–4 cups of water to a boil.
+- Mix some of the sorghum flour with a small amount of water to form a smooth, semi-thick batter.
+- Gradually stir the batter into the boiling water, mixing continuously to avoid lumps.
+- Add potash, and stir well. Allow to cook on medium heat, stirring regularly, until the mixture thickens.
+- For a firmer tuwo, add more sorghum flour directly and stir vigorously until it reaches the desired consistency.
+- Once cooked, mold and serve hot with soup.
+tips:
+- You can use store-bought sorghum flour to save time.
+- If potash is unavailable or undesired, it can be omitted without significantly affecting the result.
+- 'Consistency preference varies: some prefer it soft and smooth, others thicker and firmer.'
+- Tuwon dawa is best enjoyed with draw soups such as miyan kuka, okra, or baobab leaf soup.
+- Use a wooden spatula (turmi) or large spoon to stir for a smoother texture.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATuwon_Dawa_%28Nigerian_Sorghum_Swallow%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tuwon Dawa (Nigerian Sorghum Swallow)@4524349
+    url: https://en.wikibooks.org/w/index.php?oldid=4524349
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

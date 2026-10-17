@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+#  - course unknown from categories
+id: et-timatim-fitfit
+title: Timatim Fitfit
+alternate_names:
+- Ethiopian Tomato Salad
+summary: Timatim fitfit, also known as Ethiopian tomato salad, is a refreshing and vibrant dish made with ripe tomatoes, onions, and a tangy dressing. This salad is bursting with flavors and is a popular side dish in Ethiopian cuisine.
+origin:
+  country: ET
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: Serves 4
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Mixing bowl
+- Cutting board
+- Chef's knife
+- Whisk or fork
+ingredient_groups:
+- items:
+  - {ingredient: tomato, qty: 4, prep: diced}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: small}
+  - {ingredient: green-chili, qty: 1, prep: seeded and finely chopped}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 1}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 1}
+  - {ingredient: honey, unit: tsp, qty: 1, optional: true}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: cilantro, prep: 'chopped, for garnish'}
+steps:
+- In a mixing bowl, combine the diced tomatoes, finely chopped onion, and jalapeño pepper (if using).
+- In a separate small bowl, whisk together the olive oil, lemon juice, Dijon mustard, honey or sugar (if using), and a pinch of salt until well combined.
+- Pour the dressing over the tomato mixture in the mixing bowl and toss gently to coat all the ingredients.
+- Taste and adjust the seasoning with salt, if needed. You can also add more lemon juice or honey/sugar according to your preference.
+- Cover the bowl and refrigerate the salad for at least 30 minutes to allow the flavors to meld together.
+- Before serving, garnish with freshly chopped cilantro or parsley.
+- Serve the salad chilled as a refreshing side dish or accompaniment to Ethiopian main courses.
+tips:
+- You can customize the spice level of the salad by adjusting the amount of jalapeño pepper or adding chili flakes.
+- The addition of honey or sugar in the dressing helps balance the acidity of the tomatoes. Adjust the sweetness according to your taste.
+- Use ripe, juicy tomatoes for the best flavor and texture in the salad.
+- For a milder flavor, you can remove the seeds from the tomatoes before dicing.
+- Letting the salad chill in the refrigerator allows the flavors to develop and enhances the taste.
+- To add more depth of flavor, you can include diced cucumbers or bell peppers to the salad.
+- Some recipes include a sprinkle of ground mitmita spice for an extra kick of heat and flavor.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATimatim_Fitfit_%28Ethiopian_Tomato_Salad%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Timatim Fitfit (Ethiopian Tomato Salad)@4613422
+    url: https://en.wikibooks.org/w/index.php?oldid=4613422
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

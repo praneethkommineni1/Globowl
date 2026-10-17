@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: cn-chinese-rice-porridge
+title: Chinese Rice Porridge
+alternate_names:
+- Congee
+summary: Congee is a type of rice porridge eaten across Asia. It may also be called juk, zhou, ganji, or other similar variations.
+origin:
+  country: CN
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- name: Base
+  items:
+  - {ingredient: long-grain-rice, unit: g, qty: 220, prep: washed and drained}
+  - {ingredient: chicken-stock, unit: l, qty: 2.5}
+  - {ingredient: soy-sauce, prep: to personal preference}
+  - {ingredient: sesame-oil, prep: to personal preference}
+  - {ingredient: black-pepper, prep: to personal preference}
+- name: Garnish
+  items:
+  - {ingredient: scallion, qty: 3, prep: chopped}
+  - {ingredient: cilantro, unit: tbsp, qty: 4}
+  - {ingredient: sesame-seeds, unit: tbsp, qty: 2}
+  - {ingredient: ginger, unit: g, qty: 30}
+steps:
+- Put the rice in a pan and add the bouillon or water. Bring to a boil.
+- Turn down the heat and leave over low heat for 1 hour and 45 minutes to 2 hours, or until all the rice has turned into a mash.
+- Add soy sauce and sesame oil and flavor with white pepper.
+- Finally, add the toppings according to personal preference.
+tips:
+- Do not overwash the rice, as doing so will wash out the starch, and the congee will not congeal properly. Congee can be made with most types of rice, to help other types of rice to break up, after washing drain and mix in a tea spoon of vegetable oil, then add the rice to the water after having brought the pot to the boil. If you are in a rush, initially start with about a third of the liquid you need, adding the remainder as you cook.
+- Once the rice had turned into a mush and has released all its starch, a soup can be made by skimming off the top layer of liquid. You will only get one good bowl of this soup per pot of congee, and it is valued as a food for convalescents and babies.
+- Instead of bouillon, a chicken carcass or pork bones can be added to the cooking water, the congee creates its own stock as it cooks. If using bones, blanch and wash under cold water before use.
+- Very hot plain congee can be used to cook raw meat and fish (either thinly sliced or diced), which is then eaten with the congee. Among the traditional Chinese favourites are sliced grass carp, sliced lean pork, sliced pork liver, diced beef and diced chicken breast.
+- The two traditional companions to breakfast congee are plain soya sauce chow mein and youtiao.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChinese_Rice_Porridge_%28Congee%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chinese Rice Porridge (Congee)@4529118
+    url: https://en.wikibooks.org/w/index.php?oldid=4529118
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

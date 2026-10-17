@@ -1,0 +1,44 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 5 tablespoons char-siu sauce
+#  - unmapped ingredient: A few drops of tenderizer
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-char-sui
+title: Char Sui
+alternate_names:
+- Asian Barbecued Pork
+summary: BBQ sam-chang-bak is a very simple barbecue seasoning recipe for pork meat.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: pork, qty: 3}
+  - {ingredient: sugar, unit: tbsp, qty: 5}
+  - {ingredient: black-pepper}
+steps:
+- Sprinkle the tenderizer on the meat, then mix the rest of the ingredients together with the meat.
+- Barbecue the meat until done.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChar_Sui_%28Asian_Barbecued_Pork%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Char Sui (Asian Barbecued Pork)@4504851
+    url: https://en.wikibooks.org/w/index.php?oldid=4504851
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

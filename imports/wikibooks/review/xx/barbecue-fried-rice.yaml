@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1/2 horseradish, cut into matchsticks
+#  - unmapped ingredient: Fried egg
+#  - unmapped ingredient: Pickles
+#  - unmapped ingredient: Fried onion
+#  - unmapped ingredient: Shrimp crackers
+id: xx-barbecue-fried-rice
+title: Barbecue Fried Rice
+summary: Barbecue Fried Rice.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 20
+difficulty: 2
+equipment:
+- Frying pan
+- Knife
+- Stove
+ingredient_groups:
+- name: Rice
+  items:
+  - {ingredient: olive-oil, unit: tbsp, qty: 2.5}
+  - {ingredient: sesame-oil, unit: tbsp, qty: 1.5}
+  - {ingredient: red-onion, qty: 3, prep: minced}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: red-chili, qty: 2, prep: cut into 1 cm pieces}
+  - {ingredient: pork, unit: g, qty: 200}
+  - {ingredient: carrot, qty: 1, prep: diced}
+  - {ingredient: scallion, qty: 3, prep: cut into 1 cm pieces}
+  - {ingredient: long-grain-rice, unit: g, qty: 500}
+  - {ingredient: barbecue-sauce, unit: ml, qty: 25}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tbsp, qty: 1.5}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1.5}
+- name: Toppings (optional)
+  items:
+  - {ingredient: tomato}
+  - {ingredient: cucumber}
+  - {ingredient: salt}
+  - {ingredient: beef}
+  - {ingredient: corn-kernels, prep: 'carrot, and peas'}
+steps:
+- Heat the olive oil and sesame oil in a non-stick pan. Fry the garlic and red onion until fragrant. Stir until the garlic and red onion are golden brown.
+- Add the red chilli and pork. Stir until the pork changes color.
+- Add horseradish, scallion, rice, barbecue sauce, black soy sauce, salt, and pepper. Stir until well-mixed.
+- Serve with toppings as desired.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABarbecue_Fried_Rice&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Barbecue Fried Rice@4517677
+    url: https://en.wikibooks.org/w/index.php?oldid=4517677
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

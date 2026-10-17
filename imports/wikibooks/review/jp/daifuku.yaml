@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Anko filling
+#  - unmapped ingredient: ~1/2 cup potato starch
+id: jp-daifuku
+title: Daifuku
+alternate_names:
+- Sweet Filled Mochi
+summary: Daifukumochi (大福餅), or Daifuku (大福) (literally "great luck"), is a Japanese confection consisting of a small round mochi (glutinous rice cake) stuffed with sweet filling, most commonly anko, sweetened red bean paste made from azuki beans. Daifuku comes in many varieties.
+origin:
+  country: JP
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 12
+time:
+  total_min: 25
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: rice-flour, unit: cup, qty: 1}
+  - {ingredient: water, unit: cup, qty: 0.667}
+  - {ingredient: sugar, unit: cup, qty: 0.25}
+steps:
+- Prepare anko filling as directed. Shape into 12 small, marble-sized balls and set aside.
+- Prepare a smooth surface, such as a cutting board, by coating with potato starch; be generous, as the dough will be very sticky.
+- Heat water and sugar together in a microwave until sugar is dissolved. Add rice flour and stir completely. Microwave for 2 minutes, remove and stir. Microwave for 2 more minutes, or until dough begins to expand. Remove from microwave, stir again, and remove the dough to the potato starch-coated surface. The dough, called mochi, will be very hot.
+- Spread or roll the mochi dough out until thin. Using a knife, cut into 12 even sized pieces.
+- Coat the palms and fingers of your hands in potato starch. Spread each piece out as thin as possible.
+- Place an anko ball in the middle of each mochi piece, then wrap the mochi around the ball, forming a bigger ball.
+- Roll shaped daifuku in potato starch, and set on a plate dusted with potato starch or a piece of wax paper.
+- Serve warm or cool. Store in an airtight container. Very perishable.
+tips:
+- Chocolate ganache may be substituted for anko paste.
+- Food coloring may be added to the water before the rice flour is mixed in.
+- Cocoa powder may be used instead of potato starch in the final step.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADaifuku_%28Sweet_Filled_Mochi%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Daifuku (Sweet Filled Mochi)@4587382
+    url: https://en.wikibooks.org/w/index.php?oldid=4587382
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: Double batch basic polenta
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-pork-chops-cacciatore
+title: Pork Chops Cacciatore
+summary: Pork Chops Cacciatore.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Stove
+- Knife
+- Cutting board
+- Large sauté pan
+- Blender (a potato masher will work, and a stick blender would be perfect)
+- Meat thermometer
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: pork, qty: 6}
+  - {ingredient: tomato, unit: can, qty: 1, prep: preferably "fire roasted" or similar}
+  - {ingredient: carrot, qty: 1, prep: peeled, note: large}
+  - {ingredient: onion, qty: 1, prep: peeled, note: medium}
+  - {ingredient: olive-oil, unit: ml, qty: 15}
+  - {ingredient: butter, unit: ml, qty: 15}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: peeled}
+steps:
+- Slice onion into 1 cm half-rings.
+- Start making the polenta.
+- Once the polenta is stable, sweat onions with olive oil and butter.
+- When onions are translucent, clear spaces for the pork chops, and put them pork chops into these spaces.
+- Lightly brown the pork chops on both sides, remove from pan and set aside. Allow fond to develop slightly, then deglaze with a quarter of the tomatoes.
+- Grind the rest of the tomatoes, along with the garlic, in a blender until a rough paste is formed. Then, add to the onion mixture.
+- Turn heat to high, and allow sauce to simmer and darken slightly in color. When this occurs, turn heat to low.
+- Finely chop the carrot and stir it in, then nestle the pork chops into the sauce and allow to simmer until the pork chops are done to your liking, about 20 minutes or so.
+- Serve as soon as possible. To serve, spoon polenta on to plates or bowls and place pork chop and sauce on top.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APork_Chops_Cacciatore&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pork Chops Cacciatore@4497721
+    url: https://en.wikibooks.org/w/index.php?oldid=4497721
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

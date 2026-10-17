@@ -1,0 +1,81 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-tchari
+title: Tchari
+alternate_names:
+- Jollof Rice
+summary: Tchari, also known as jollof rice, is a popular West African dish that is enjoyed in various countries across the region, including Nigeria, Ghana, Senegal, and many others.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large pot
+- Wooden spoon or spatula for stirring
+- Blender or food processor
+- Knife and cutting board for chopping vegetables
+- Measuring cups and spoons
+- Plate and fork for serving
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: ginger, unit: tsp, qty: 1}
+  - {ingredient: tomato, qty: [3, 4], prep: blended}
+  - {ingredient: red-bell-pepper, qty: 1}
+  - {ingredient: green-pepper, qty: 1, prep: blended}
+  - {ingredient: red-chili, qty: [2, 3]}
+  - {ingredient: thyme, unit: tsp, qty: 1}
+  - {ingredient: curry-powder, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: nutmeg, unit: tsp, qty: 1}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: chicken, unit: cup, qty: [2, 3]}
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: green-peas, unit: cup, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: butter, unit: tbsp, qty: 1, optional: true}
+steps:
+- Heat the vegetable oil in the large pot over medium heat. Add the chopped onions and sauté until they become translucent.
+- Add the minced garlic and grated ginger to the pot, and cook for about 1 minute until fragrant.
+- Stir in the blended or finely chopped tomatoes, red and green bell peppers, and blended Scotch bonnet peppers. Cook the mixture for 10–15 minutes, stirring occasionally, until the sauce thickens and the oil starts to separate.
+- Add the thyme, curry powder, paprika, ground nutmeg, and bay leaf to the sauce. Stir well to ensure the spices are evenly distributed.
+- Rinse the rice thoroughly in cold water until the water runs clear. Drain the excess water.
+- Add the rice to the pot with the sauce, stirring gently to coat the rice with the flavorful mixture.
+- Pour in the chicken or vegetable broth (or water) into the pot. The liquid level should be about 1 inch above the rice. Season with salt and pepper to taste.
+- Bring the mixture to a boil, then reduce the heat to low. Cover the pot with the lid, ensuring it is tightly sealed to trap steam inside.
+- Let the rice simmer for about 20–25 minutes or until the rice is tender and fully cooked. Avoid opening the lid too frequently, as this may interfere with the cooking process. If the liquid is absorbed before the rice is fully cooked, add a little more water or broth as needed.
+- Once the rice is cooked, add the frozen mixed vegetables to the pot. Stir them gently into the rice.
+- Optionally, add a tablespoon of butter for extra richness. Stir it into the rice until it melts.
+- Remove the pot from the heat and let it sit, covered, for a few minutes to allow the flavors to meld.
+- Fluff the rice with a fork and serve hot, garnished with fresh herbs if desired.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATchari_%28Jollof_Rice%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tchari (Jollof Rice)@4514123
+    url: https://en.wikibooks.org/w/index.php?oldid=4514123
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

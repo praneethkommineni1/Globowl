@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+id: xx-black-bean-stir-fry
+title: Black Bean Stir-Fry
+summary: Black Bean Stir-Fry.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 30
+difficulty: 3
+techniques:
+- boiling
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: ginger, unit: tbsp, qty: 1}
+  - {ingredient: red-chili, qty: [1, 2], prep: minced}
+  - {ingredient: scallion, qty: 4, prep: 'separated: white part minced, green part cut on the diagonal in 1/2-inch pieces'}
+  - {ingredient: fermented-black-beans, unit: tbsp, qty: 3}
+  - {ingredient: chicken, unit: cup, qty: [0.25, 0.5]}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: sugar, unit: tsp, qty: 2}
+  - {ingredient: sesame-oil, unit: tsp, qty: 0.5}
+  - {ingredient: cornstarch, unit: tsp, qty: 1}
+  - {ingredient: sherry, unit: tbsp, qty: 1}
+  - {ingredient: crab, unit: g, qty: 907, prep: 'fish, poultry, or pork'}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1.5}
+  - {ingredient: onion, unit: cup, qty: 0.5}
+  - {ingredient: red-bell-pepper, qty: 1, prep: cut in cubes}
+  - {ingredient: white-cabbage, unit: cup, qty: [2, 3], prep: 'snow peas, and/or carrots'}
+  - {ingredient: long-grain-rice, optional: true}
+steps:
+- In small bowl, combine garlic, ginger root, chilies, scallion whites, and black beans.
+- In another small bowl, combine ¼ cup stock, soy sauce, sugar, and sesame oil, and stir until sugar dissolves.
+- In a third small bowl, dissolve cornstarch in wine or sherry.
+- Scrub clams, if using, cut shellfish into 1-inch pieces or thinly slice poultry or meat.
+- Just before serving, heat a wok over high heat.
+- Swirl in canola oil.
+- Stir-Fry onion and bell pepper for a minute then add garlic and bean mixture and cook for 15 seconds, or until fragrant but not brown.
+- Add seafood and stir-fry for 1 minute.
+- Add stock-based sauce and cook for 2 to 5 minutes, or until seafood is cooked; if necessary to prevent mixture from sticking to pan, add remaining stock. (If steaming clams, tightly cover wok.)
+- Stir cornstarch mixture and add to stir-fry along with scallion greens and sliced vegetables.
+- Bring sauce to a boil.
+- Serve immediately along with white rice if desired.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABlack_Bean_Stir-Fry&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Black Bean Stir-Fry@4523914
+    url: https://en.wikibooks.org/w/index.php?oldid=4523914
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

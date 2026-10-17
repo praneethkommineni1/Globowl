@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup Bisquick baking mix
+#  - unmapped ingredient: A little over 3/4 cup warm milk
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-gulab-jamun
+title: Gulab Jamun
+alternate_names:
+- Fried Milk Balls in Syrup
+summary: Gulab jamun is a popular Indian and Pakistani sweet dish comprised of fried milk balls in a sweet syrup flavoured with cardamom seeds and rosewater or saffron. It originates from Bengal and is pronounced "Gulab Jambuh" in regional languages such as Gujarati.
+origin:
+  country: IN
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- name: Fritters
+  items:
+  - {ingredient: milk, unit: cup, qty: 3}
+  - {ingredient: butter, unit: tbsp, qty: 2, prep: melted}
+- name: Syrup
+  items:
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: sugar, unit: cup, qty: 2.5}
+  - {ingredient: green-cardamom-pods, qty: 4}
+steps:
+- Preheat canola oil 1.5–2 inches (4–5 cm) deep in a small saucepan over medium heat.
+- Combine the milk powder, Bisquick, and melted butter in a metal bowl.
+- Slowly add the warmed milk, 2 Tbsp at a time. Use a wooden spoon to mix the dry ingredients into a dough ball. Continue adding milk until all dry ingredients have been incorporated. The dough should be firm and moist, but not sticky. If you put too much milk, add a bit more dry mixture (maintaining the ratio of 3 parts milk powder to 1 part bisquick).
+- Roll into evenly sized balls (if they are not even, they will not cook at the same rate). Since the balls dry out quickly, do not wait more than a few minutes before frying.
+- Drop a few balls into the oil—don't overfill the pan, since they will get larger as they cook. They will sink to the bottom, then float to the top of the oil. Stir regularly to keep them browning evenly.
+- When dark brown, remove from the oil and place on paper to absorb any excess.
+- Repeat until all the dough is used up.
+- Break cardamom seeds from their pods.
+- Separate seeds, and bash them to release flavor.
+- Mix water, syrup, and cardamom and heat for 10 minutes—do not overheat or the syrup will caramelize.
+- Soak the finished fritters in the syrup overnight.
+- Serve hot or cold.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGulab_Jamun_%28Fried_Milk_Balls_in_Syrup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gulab Jamun (Fried Milk Balls in Syrup)@4587325
+    url: https://en.wikibooks.org/w/index.php?oldid=4587325
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

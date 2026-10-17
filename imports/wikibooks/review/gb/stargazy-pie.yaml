@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Sufficient pastry to cover your dish
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gb-stargazy-pie
+title: Stargazy Pie
+summary: Stargazy pie is a rich fish pie from Cornwall in the United Kingdom.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: fish, prep: Pilchards or Mackerel to fill your pie dish}
+  - {ingredient: parsley}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: egg}
+  - {ingredient: breadcrumbs}
+  - {ingredient: bacon}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 2}
+  - {ingredient: butter}
+steps:
+- Scale, clean, and bone the fish, separating and retaining their heads.
+- Season inside each with salt, pepper, and parsley. Roll neatly.
+- Butter pie dish, and sprinkle a thick layer of breadcrumbs on.
+- Lay in some of the fish, then alternate breadcrumbs and fish until dish is full. Cover with bacon rashers.
+- Beat eggs with vinegar, pour into pie, or use cream. Cover with pastry.
+- Arrange fish heads on pastry, so as they are looking up (to the stars).
+- Bake in a hot oven.
+- Serve with a sprig of parsley in mouth of each fish.
+tips:
+- From St. Agnes W.I. in Cornish Recipes, Ancient & Modern, 22nd Edition, The Cornwall Federation of Women's Institutes 1965. First collected & published by Edith Martin, Tregavethan, Truro, 1929, for The Cornwall F.of W. I.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AStargazy_Pie&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Stargazy Pie@4517116
+    url: https://en.wikibooks.org/w/index.php?oldid=4517116
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no time in recipe summary
+id: pl-polish-doughnuts
+title: Polish Doughnuts
+alternate_names:
+- Paczki
+summary: Polish Doughnuts.
+origin:
+  country: PL
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 15
+  amount: Varies; ~15 with a 6cm diameter
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- deep-frying
+- dough-making
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: milk, unit: cup, qty: 0.5}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 0.25}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: yeast, unit: tsp, qty: 1}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: vegetable-oil}
+  - {ingredient: jam, prep: 'jam, or custard, for filling', optional: true}
+  - {ingredient: powdered-sugar, prep: for dusting, optional: true}
+steps:
+- Whisk together the sugar, butter, milk, vanilla, salt, and eggs. Then, whisk in the yeast.
+- While continuously stirring, add the flour ½ cup at a time until the mixture is a firm dough.
+- Knead the dough for about 5 minutes. Put it back in the bowl, cover, and let it rise somewhere warm until it's twice its original size—this should take about 1½ hours.
+- Pat the dough on a lightly floured surface, and roll the dough until it's about ½ inch thick. Cut out circles of dough and set aside. The exact size the circles should be is entirely up to your preference; the final product will have only a slightly larger diameter. You can roll out the excess dough again to cut more pączki.
+- Let the dough rounds rise for about 30 minutes or until they've doubled in size.
+- Heat oil to about 350°F in a deep pot or pan. Carefully spoon or slide a few pączki into the oil at a time to deep fry them until golden-brown. They will only be half submerged, so you will have to flip them to fry both sides; in a pinch, disposable chopsticks work well for this.
+- While the pączki cool, spoon some fruit jelly, jam, or custard in a pastry bag with a long, narrow point. Fill the pączki by pushing the point into their sides.
+- Sprinkle some powdered sugar on top, to taste. If the pączki are still warm, the powdered sugar may melt a bit.
+tips:
+- Any oil that can withstand the required 350°F should work for frying. Butter, coconut oil, hemp seed oil, flaxseed oil, and some varieties of olive oil have smoke points at or below that temperature and should not be used. The exact amount of oil needed will depend largely on the size of the pot or pan you use. You should have enough that the pączki are able to float freely without touching the bottom or sides of the container. If you do not have enough oil, try downsizing to a smaller pot.
+- Possibly depending on the warmth of the butter or milk, the butter might not fully mix with the other ingredients during procedure step 1. This doesn't seem to have much impact on the final product.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APolish_Doughnuts_%28Paczki%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Polish Doughnuts (Paczki)@4587214
+    url: https://en.wikibooks.org/w/index.php?oldid=4587214
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

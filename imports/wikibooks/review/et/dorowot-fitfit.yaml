@@ -1,0 +1,80 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 4–6 pieces of injera, torn into small pieces
+#  - unmapped ingredient: 1 cup dorowot, coarsely chopped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: et-dorowot-fitfit
+title: Dorowot Fitfit
+alternate_names:
+- Ethiopian Chicken Stew Salad
+summary: Dorowot fitfit is a unique and flavorful dish that combines the rich flavors of dorowot (Ethiopian chicken stew) with the textures of torn injera (Ethiopian flatbread). This dish is a popular part of Ethiopian cuisine and is enjoyed as a main course or a side dish.
+origin:
+  country: ET
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large pot
+- Wooden spoon or spatula
+- Cutting board
+- Chef's knife
+- Bowl
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- name: Dorowot
+  items:
+  - {ingredient: chicken, unit: g, qty: 907}
+  - {ingredient: berbere, unit: tbsp, qty: 3}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: ginger, unit: tbsp, qty: 1, prep: grated}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: chicken-stock, unit: cup, qty: 1}
+  - {ingredient: salt, note: to taste}
+- name: Fitfit
+  items:
+  - {ingredient: chicken-stock, unit: cup, qty: 0.25}
+  - {ingredient: parsley, unit: cup, qty: 0.25, prep: for garnish}
+steps:
+- In a large pot, heat the olive oil and butter over medium heat. Add the finely chopped onion and sauté until it becomes soft and translucent.
+- Stir in the minced garlic and grated ginger, and cook for another minute until fragrant.
+- Add the berbere spice blend to the pot and mix well to coat the onions, garlic, and ginger with the spices.
+- Add the chicken pieces to the pot and cook until they are browned on all sides.
+- Pour in the chicken broth and season with salt to taste. Bring the mixture to a simmer, then reduce the heat to low, cover the pot, and let simmer for about 45 minutes to 1 hour, or until the chicken is tender and cooked through.
+- Remove the cooked chicken pieces from the pot and set them aside to cool slightly. Once cooled, shred the chicken into bite-sized pieces.
+- Return the shredded chicken to the pot with the remaining sauce. Stir well to coat the chicken with the flavorful sauce. Adjust the seasoning if needed.
+- In a large bowl, place the torn pieces of injera.
+- Add the coarsely chopped dorowot to the bowl.
+- Moisten the fitfit with about ¼ cup chicken broth, or more as needed, to achieve the desired texture. Mix well to combine the ingredients.
+- Let sit for a few minutes to allow the injera to soak up the flavors of the stew.
+- Garnish with freshly chopped parsley or cilantro.
+tips:
+- Dorowot fitfit is traditionally made using injera, but you can use other flatbreads or bread cubes if injera is not available.
+- Adjust the spiciness by adding more or less berbere spice blend according to your taste preferences.
+- Serve the dish at room temperature or slightly warm for the best flavors.
+- You can add additional vegetables like carrots, potatoes, or bell peppers to the dorowot for added texture and flavor.
+- Customize the fitfit by adding diced tomatoes, sliced onions, or chopped jalapeños for extra freshness and tanginess.
+- This dish is rich in flavor and nutrients, making it a satisfying and wholesome meal.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADorowot_Fitfit_%28Ethiopian_Chicken_Stew_Salad%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dorowot Fitfit (Ethiopian Chicken Stew Salad)@4518603
+    url: https://en.wikibooks.org/w/index.php?oldid=4518603
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

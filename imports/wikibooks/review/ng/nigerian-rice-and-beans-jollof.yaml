@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup dried beans
+#  - course unknown from categories
+id: ng-nigerian-rice-and-beans-jollof
+title: Nigerian Rice and Beans Jollof
+summary: Rice and beans jollof is a typical Nigerian food made from rice and beans. It is served with beef, chicken or moin moin.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+time:
+  total_min: 40
+difficulty: 2
+equipment:
+- Pot
+- Stove
+- Blender
+- Bowl
+- Pan
+- Knife
+- Spoon
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: red-chili, qty: 2}
+  - {ingredient: tomato, qty: 5, note: medium}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: bouillon-cube, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+steps:
+- Rinse the beans, and boil in water until tender. Drain the cooked beans.
+- Grind together the chiles, tomatoes, and onions to make a purée.
+- Heat a thin layer of oil in a pan, and add the purée. Season with stock cube and salt, and simmer for 3 minutes.
+- Stir in the parboiled rice and beans, and cook for 5 minutes.
+- Serve with beef, chicken, or moin-moin.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Rice_and_Beans_Jollof&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Rice and Beans Jollof@4513639
+    url: https://en.wikibooks.org/w/index.php?oldid=4513639
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

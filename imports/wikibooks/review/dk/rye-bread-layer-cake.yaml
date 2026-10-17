@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 125 g dark rye bread without sunflower seeds etc.
+#  - unmapped ingredient: 15 ml potato flour
+#  - no time in recipe summary
+id: dk-rye-bread-layer-cake
+title: Rye Bread Layer Cake
+summary: Rugbrødslagkage (Danish for "rye bread layered cake") is a cake with whipped cream and layers of grated rye bread. Layered cakes of this type are eaten at birthday parties in Denmark, but this recipe with rye bread is quite rare.
+origin:
+  country: DK
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 12
+  amount: 12–16
+time:
+  total_min: 1
+difficulty: 4
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 6}
+  - {ingredient: sugar, unit: g, qty: 250}
+  - {ingredient: cocoa-powder, unit: ml, qty: 15}
+  - {ingredient: baking-powder, unit: ml, qty: 5}
+  - {ingredient: butter}
+  - {ingredient: heavy-cream, unit: ml, qty: 500}
+steps:
+- Leave a couple of slices of unwrapped rye bread to dry outside of the fridge.
+- Grate the now-dry rye bread.
+- Turn on oven at 220°C (or 200°C for convection ovens).
+- Separate the eggs and whip the egg whites to stiff peaks.
+- In a separate bowl, whip the egg yolk with sugar, cocoa, potato flour, baking powder, and grated rye bread. Carefully fold in the beaten whites with a spoon.
+- Spread the batter 1 cm thick on buttered baking paper in a cake form. The dough should be enough for 4 or 5 layers. Bake for 10 minutes at 220°C. Only in case of convection oven, more layers can be baked above each other.
+- Let the layers cool completely.
+- Whip two-thirds of the cream, and spread it between the layers. Cover and chill in the fridge overnight.
+- Cover top and sides with whipped cream.
+tips:
+- Leaving the half-done cake in the fridge overnight improves the taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARye_Bread_Layer_Cake&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rye Bread Layer Cake@4587379
+    url: https://en.wikibooks.org/w/index.php?oldid=4587379
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

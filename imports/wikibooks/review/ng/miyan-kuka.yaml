@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3 tablespoons kuka powder
+id: ng-miyan-kuka
+title: Miyan Kuka
+alternate_names:
+- Baobab Leaf Soup
+summary: __notoc__ Miyan kuka ("baobab leaf soup") is a Northern Nigerian soup prepared with dried ground baobab leaves (kuka). This soup is paired with tuwo shinkafa or tuwo masara.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–3
+time:
+  total_min: 75
+difficulty: 2
+equipment:
+- Cooking pot
+- Wooden spoon or whisk
+- Blender or mortar and pestle
+- Knife
+- Bowl
+- Sieve (optional)
+ingredient_groups:
+- items:
+  - {ingredient: stockfish, qty: 2, note: large}
+  - {ingredient: iru, qty: 1, note: large}
+  - {ingredient: ground-crayfish, unit: handful, qty: 2}
+  - {ingredient: scotch-bonnet}
+  - {ingredient: beef, unit: kg, qty: 1}
+  - {ingredient: bouillon-cube, qty: 2, note: large}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: onion, qty: 1, prep: cut in chunks}
+  - {ingredient: red-palm-oil, qty: 2}
+steps:
+- Soak the dried fish in cold water. Debone when soft.
+- Grind the crayfish with dawadawa. Pound the pepper.
+- Cook the cow ribs with water, stock cube, salt, and onions until the meat is tender. Remove the onions, then the beef, reserving the stock in the pot.
+- Stir the kuka powder into the reserved stock until smooth, with no lumps.
+- Stir in pounded pepper, crayfish and dawa dawa mixture, and palm oil.
+- Add the deboned fish, cover, and cook 5 minutes over medium heat.
+- Stir in beef, and add salt to taste. Cook for 2 minutes.
+- Serve with tuwo shinkafa or tuwo masara.
+tips:
+- Add the kuka powder gradually to avoid lumps. Too much kuka powder can make the soup bitter.
+- Continuous stirring improves the smooth texture.
+- The soup often tastes better after resting for several hours or overnight.
+- Palm oil gives the soup a richer aroma and appearance.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMiyan_Kuka_%28Baobab_Leaf_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Miyan Kuka (Baobab Leaf Soup)@4636115
+    url: https://en.wikibooks.org/w/index.php?oldid=4636115
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 teaspoon ground aniseed
+#  - unmapped ingredient: 5 pieces cinnamon stick
+#  - no time in recipe summary
+id: za-koesisters-with-coconut
+title: Koesisters with Coconut
+summary: Koesisters are a South African Cape Malay doughnut soaked in syrup and sprinkled with coconut.
+origin:
+  country: ZA
+course: snack
+authenticity: unassessed
+yield:
+  servings: 40
+  amount: About 40 fritters
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- deep-frying
+ingredient_groups:
+- name: Fritters
+  items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 6}
+  - {ingredient: caster-sugar, unit: tbsp, qty: 1}
+  - {ingredient: baking-powder, unit: tsp, qty: 1}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 3}
+  - {ingredient: ground-ginger, unit: tbsp, qty: 2}
+  - {ingredient: ground-cardamom, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: yeast, unit: g, qty: 10}
+  - {ingredient: orange, unit: tbsp, qty: 1}
+  - {ingredient: milk, unit: ml, qty: 250}
+  - {ingredient: butter, unit: g, qty: 100}
+  - {ingredient: egg, qty: 1, prep: beaten}
+  - {ingredient: water}
+  - {ingredient: vegetable-oil}
+- name: Syrup
+  items:
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: coconut, unit: cup, qty: 1}
+steps:
+- Sift the dry ingredients together into a bowl, and make a well in the centre.
+- Warm milk and butter until lukewarm and then add the beaten egg. Pour mixture into dry ingredients along with enough lukewarm water, and mix to form a soft dough.
+- Cover and leave the dough to rise in warm place until doubled in size.
+- Take small amounts of dough and form into oval-shaped balls.
+- Deep fry dough in oil on medium heat (180 °C) until evenly browned. Remove onto paper towels to cool (around 30 minutes).
+- Heat the sugar, cinnamon sticks, and water on a low heat, stirring continuously until a thick syrup forms.
+- Once the koesisters are cool, soak in bubbling syrup for 1 minute.
+- Take them out of the syrup and sprinkle with coconut.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKoesisters_with_Coconut&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Koesisters with Coconut@4587203
+    url: https://en.wikibooks.org/w/index.php?oldid=4587203
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

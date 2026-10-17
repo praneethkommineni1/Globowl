@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 kilograms fresh catfish, cleaned and cut
+#  - unmapped ingredient: 200 grams raw yam, peeled and sliced
+#  - unmapped ingredient: 3 scotch bonnet pepper
+#  - unmapped ingredient: 1 tablespoons ogiri okpei
+#  - unmapped ingredient: 1 teaspoons ehuru, ground
+#  - unmapped ingredient: 15 uziza leaves, shredded
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+id: ng-nigerian-white-soup
+title: Nigerian White Soup
+alternate_names:
+- Ofe Nsala
+summary: Ofe Nsala, commonly called White Soup, is a light, delicately spiced soup from the Igbo people of southeastern Nigeria, particularly from the Anambra and Imo axis. Unlike most Nigerian soups, it contains no palm oil, giving it a pale, clear appearance.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 3}
+  - {ingredient: onion, qty: 1}
+  - {ingredient: stockfish, unit: g, qty: 150, prep: soaked and cleaned}
+  - {ingredient: bouillon-cube, qty: 2}
+steps:
+- 'Prepare the protein: Wash and clean 1 kilograms fresh catfish (or chicken/goat meat), cleaned and cut thoroughly. Season lightly with diced 1 onion, a pinch of 1 teaspoons salt, and 1 of 2 seasoning cubes. Set aside. If using goat meat or chicken, cook until nearly tender and reserve the stock.'
+- 'Prepare the yam thickener: Boil the sliced 200 grams raw yam, peeled and sliced (for thickening) pieces in a small pot of water until very soft. Pound or blend into a smooth, lump-free paste. This will serve as the soup thickener.'
+- 'Cook the fish and build the broth: Place 1 kilograms fresh catfish (or chicken/goat meat), cleaned and cut and 150 grams stockfish (panla), soaked and cleaned in a pot. Add enough water to cover. Add 1 tablespoons ogiri okpei (fermented locust bean paste), 1 teaspoons ehuru (African nutmeg), ground, blended 3 scotch bonnet pepper (rodo), and remaining 1 onion. Bring to a boil on medium heat and cook until the fish is just tender do not overcook catfish or it will fall apart.'
+- 'Add yam thickener and season: Add the yam paste in small spoonfuls into the boiling soup. Stir gently and allow it to dissolve and thicken the broth. Add 3 tablespoons ground crayfish and remaining 2 seasoning cubes. Taste and adjust 1 teaspoons salt.'
+- 'Add uziza leaves and finish: Stir in shredded 15 uziza leaves, shredded and cook for 3-5 minutes only. The soup should be light, aromatic, pale in colour, and gently thickened.'
+- 'Serve: Serve hot with pounded yam (iyán), eba, fufu, or semovita.'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_White_Soup_%28Ofe_Nsala%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian White Soup (Ofe Nsala)@4633949
+    url: https://en.wikibooks.org/w/index.php?oldid=4633949
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

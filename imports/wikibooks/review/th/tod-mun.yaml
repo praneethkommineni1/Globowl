@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 360 grams ground fish or fish paste
+#  - unmapped ingredient: 1 tablespoon red curry paste
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: th-tod-mun
+title: Tod Mun
+alternate_names:
+- Thai Fish Cakes
+summary: Tod mun (Thai fish cakes) can be found sold on the streets of Thailand and are a popular snack. At home they are perfect for an appetizer. There are many different recipes. The most common variant uses both fish and shrimp; this is the basic fish recipe.
+origin:
+  country: TH
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.5}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: green-beans, unit: g, qty: 120}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: kaffir-lime-leaf, qty: 3}
+steps:
+- Stack the lime leaves and roll them together into a tube shape. Slice them into thin strips.
+- Slice the green beans into small (½ inch) pieces.
+- Mince the fish.
+- Mix all the ingredients except the green beans and lime leaves in a bowl.
+- Stir until the mixture is smooth.
+- Add the green beans and lime leaves to the mixture and stir again.
+- Add the oil to a frying pan and heat to a medium temperature.
+- Drop a tablespoon of the mixture into the pan and flatten slightly. When the bottom is cooked, turn over.
+- When cooked on both sides, place on a paper towel to drain any extra oil. Continue with the rest of the mixture.
+tips:
+- If fresh Kaffir lime leaves are not available, do not substitute dried leaves as this will not work, and it is better to leave them out altogether.
+- You may substitute the fish with chicken.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATod_Mun_%28Thai_Fish_Cakes%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tod Mun (Thai Fish Cakes)@4535142
+    url: https://en.wikibooks.org/w/index.php?oldid=4535142
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

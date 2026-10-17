@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3/4 cup hummus
+#  - unmapped ingredient: Amba sauce
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - duplicate of hand-written recipe il-sabich
+id: il-sabich
+title: Sabich
+alternate_names:
+- Vegetable and Pita Sandwich
+summary: Sabich is a popular Israeli sandwich based on what Iraqi Jews ate on Sabbath morning, featuring fried eggplant, boiled potato, and hard-boiled egg. Instead of serving the ingredients on a tray, as was traditional, sabich stuffs everything in a pita.
+origin:
+  country: IL
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+ingredient_groups:
+- name: Israeli salad
+  items:
+  - {ingredient: tomato, qty: 2, prep: cored and chopped}
+  - {ingredient: cucumber, qty: 0.5, prep: chopped}
+  - {ingredient: onion, qty: 1, prep: chopped}
+  - {ingredient: parsley, unit: tbsp, qty: 1}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 2}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: salt}
+- name: Sandwich
+  items:
+  - {ingredient: eggplant, qty: 1, prep: sliced into 1 cm rounds}
+  - {ingredient: egg, qty: 4, prep: peeled and sliced}
+  - {ingredient: vegetable-oil, prep: for frying}
+  - {ingredient: pita-bread, qty: 4}
+  - {ingredient: tahini, unit: cup, qty: 0.5}
+steps:
+- Put the tomatoes, cucumber, onion, and parsley in a bowl.
+- Take another small bowl and mix the lemon juice, oil, and salt.
+- Pour the dressing over the vegetables and toss well, leave it to stand for a couple of minutes.
+- Meanwhile, heat the oil in a large skillet over medium-high temperature. When the oil has become hot enough, fry the eggplant slices until they turn golden brown. Place the golden eggplant slices on a paper towel to remove the excess oil.
+- Spread the hummus evenly in each pita bread
+- Stuff the pitas with the slices of fried eggplants and the boiled eggs.
+- Spoon over some of the Israeli salad, drizzle the tahini and amba over the pitas, and serve.
+tips:
+- Amba is pickled mango that is very popular in the Middle east. It may be difficult to find amba in some stores, but you can use hot sauce instead.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASabich_%28Vegetable_and_Pita_Sandwich%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sabich (Vegetable and Pita Sandwich)@4518279
+    url: https://en.wikibooks.org/w/index.php?oldid=4518279
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 can condensed cream of chicken soup
+#  - unmapped ingredient: 1 can condensed cream of celery soup
+id: us-slow-cooked-chicken-in-cream-sauce
+title: Slow-Cooked Chicken in Cream Sauce
+summary: Slow-Cooked Chicken in Cream Sauce.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 240
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 1, prep: cut up}
+steps:
+- Put chicken in crock pot.
+- Mix together cream of chicken soup and cream of celery soup.
+- Pour soup mixture over chicken in crock pot.
+- Cook on high for 4 hours or on low for 8 hours.
+tips:
+- May substitute game birds.
+- May substitute chicken breasts for the whole chicken parts.
+- For camping, may cook in a Dutch oven or in a bean pot in a hole lined with coals and left all day.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASlow-Cooked_Chicken_in_Cream_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Slow-Cooked Chicken in Cream Sauce@4525184
+    url: https://en.wikibooks.org/w/index.php?oldid=4525184
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

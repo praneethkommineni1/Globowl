@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 8 cups black gram flour
+#  - no time in recipe summary
+id: xx-papadam
+title: Papadam
+alternate_names:
+- Black Gram Flatbread
+summary: Papadam (also papadum, poppadom, papar, and appalam) is an Indian and Sri Lankan flatbread. Typically, it is prepared using black gram bean flour, rice flour, or lentil flour with salt and peanut oil added.
+origin:
+  country: XX
+course: starter
+authenticity: unassessed
+yield:
+  servings: 10
+  amount: 10&ndash;15
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- dough-making
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: water, unit: cup, qty: 0.25}
+  - {ingredient: vegetable-oil}
+steps:
+- Mix together the flour, pepper, cumin, and salt.
+- Add water and knead the dough until it is smooth. You may have to add some water, depending on the flour.
+- Split the dough into 10–15 balls.
+- Roll out one ball at a time to a very thin round layer on a slightly oiled surface.
+- Dry the papadams in the oven for an hour (at about 100°C or 200°F).
+- Keep them in an airtight container.
+- Fry the papadams in oil until they are crispy but not too brown.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APapadam_%28Black_Gram_Flatbread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Papadam (Black Gram Flatbread)@4515421
+    url: https://en.wikibooks.org/w/index.php?oldid=4515421
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

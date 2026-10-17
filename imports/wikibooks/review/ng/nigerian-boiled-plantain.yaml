@@ -1,0 +1,42 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-nigerian-boiled-plantain
+title: Nigerian Boiled Plantain
+summary: Boiled plantain is a typical Nigerian food served with egg sauce, palm oil, or garden egg stew. The plantain can be unripe or ripe.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: plantain}
+  - {ingredient: water}
+steps:
+- Boil some water in a pot, and add the plantain.
+- Cook for few minutes.
+- Serve with egg sauce, garden egg stew, or palm oil.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Boiled_Plantain&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Boiled Plantain@4480718
+    url: https://en.wikibooks.org/w/index.php?oldid=4480718
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

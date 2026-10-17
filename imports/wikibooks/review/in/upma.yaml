@@ -1,0 +1,73 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tsp urad bean
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: in-upma
+title: Upma
+alternate_names:
+- Indian Semolina Porridge
+summary: Upma is a popular South Indian dish made from semolina. Several variations of the dish exist including the use of different varieties of ground wheat, rice and even bread. A simple upma or uppittu takes just about 10 minutes to prepare.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- name: Base
+  items:
+  - {ingredient: semolina, unit: cup, qty: 1}
+  - {ingredient: onion, unit: cup, qty: 1, prep: 'carrots, lima beans, potatoes, capsicum, tomatoes, peas, etc.'}
+  - {ingredient: red-chili, qty: [2, 3], prep: chopped, note: small}
+  - {ingredient: ginger, qty: 0.25, prep: chopped}
+  - {ingredient: cilantro, unit: sprig, qty: 1, prep: finely-chopped}
+  - {ingredient: coconut, unit: tbsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: sugar, unit: tsp, qty: 0.5}
+- name: Seasoning
+  items:
+  - {ingredient: ghee, unit: tbsp, qty: 1}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 1}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 1}
+  - {ingredient: roasted-peanuts, unit: tbsp, qty: 1}
+  - {ingredient: cashews, unit: tbsp, qty: 1}
+  - {ingredient: asafoetida, unit: pinch, qty: 1}
+  - {ingredient: curry-leaves, qty: [4, 5]}
+steps:
+- In a heated saucepan, lightly toast semolina until it changes to a light brown color and gives out a roasted smell. Pour it out onto a dry plate and allow to cool.
+- To the same pan add ½ tbsp oil/ghee and allow it to heat up (about 1 minute). Now add all the seasoning ingredients, starting first with mustard seeds, cumin, black gram, peanuts, and cashews in that order. Wait for the mustard seeds to crackle and then add asafoetida and curry leaves.
+- Add the chopped ginger, green chillies, and onions. Sauté for 1 minute, then add the remaining veggies and 1 tbsp coconut. Sauté again for about 1 minute, then add 1½ cups of water and salt. Bring to a boil, lower to a simmer over medium heat, and cover to let the veggies cook for a few minutes.
+- After the veggies are cooked, remove cover and stir in the sugar. Lower the heat further and start folding in the roasted and cooled semolina slowly while stirring constantly.
+- Cover and let it cook for a few minutes.
+- Garnish with the remaining coconut and chopped coriander leaves.
+tips:
+- Coat the serving spoon with a little bit of the remaining oil/ghee before serving to prevent the dish from sticking to the spoon and give the dish a lustre!
+- To save time, try using the pre-roasted semolina from any Indian grocery store.
+- Cooking veggies like carrots, lima beans, peas, potatoes, etc. separately in the microwave saves time!
+- A general rule of thumb on how much veggies to add is 1:1 ratio of semolina to veggies
+- Try making upma with just one vegetable to bring out the taste of each veggie.
+- Goes well with coconut chutney and sambhar
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AUpma_%28Indian_Semolina_Porridge%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Upma (Indian Semolina Porridge)@4615169
+    url: https://en.wikibooks.org/w/index.php?oldid=4615169
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

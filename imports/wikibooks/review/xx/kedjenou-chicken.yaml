@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 tablespoons ginger paste
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-kedjenou-chicken
+title: Kedjenou Chicken
+alternate_names:
+- Chicken and Vegetable Stew
+summary: Kedjenou chicken is a popular and delicious dish eaten in Ivory Coast. It usually does not need any added liquid and this helps to bring out its concentrated flavours.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 2, prep: cut into medium pieces}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: garlic, unit: tbsp, qty: 2}
+  - {ingredient: thyme, unit: tbsp, qty: 2}
+  - {ingredient: bay-leaf, qty: 2}
+  - {ingredient: paprika, unit: tsp, qty: 2}
+  - {ingredient: bouillon-cube, unit: tbsp, qty: 1}
+  - {ingredient: onion, qty: 3, prep: chopped, note: medium}
+  - {ingredient: scallion, qty: 3, prep: chopped}
+  - {ingredient: red-bell-pepper, qty: 2, prep: chopped}
+  - {ingredient: tomato, qty: 6, prep: chopped, note: medium}
+  - {ingredient: red-chili, qty: 2, prep: neatly cut, optional: true}
+  - {ingredient: eggplant, qty: 2, prep: diced}
+steps:
+- Preheat the oven to 350 °F.
+- Trim excess fat of chicken and pat dry with a cloth or paper towel.
+- Season chicken with salt, garlic, ginger, thyme, smoked paprika, green onions, chicken bouillon cube, and onions. Let rest in the fridge for at least 2 hours to season well.
+- Combine the tomatoes, onions, green onions, and red or green pepper in a Dutch oven. Add the chicken, and cover with the lid.
+- Place it in the oven, and bake for about an hour or until the chicken is cooked through. Shake the pot once or twice during cooking without opening the pot.
+- Remove from the oven. Serve with attieke or white rice and enjoy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKedjenou_Chicken_%28Chicken_and_Vegetable_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kedjenou Chicken (Chicken and Vegetable Stew)@4518633
+    url: https://en.wikibooks.org/w/index.php?oldid=4518633
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Grated daikon
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: jp-agedashi-tofu
+title: Agedashi Tofu
+summary: Agedashi tofu (or agedashi dofu) &#25562;&#12370;&#20986;&#12375;&#35910;&#33104; is a simple Japanese way to serve hot tofu. Silken (kinugoshi) firm tofu, cut into cubes, is lightly dusted with potato starch or cornstarch and then deep fried until golden brown.
+origin:
+  country: JP
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- deep-frying
+ingredient_groups:
+- items:
+  - {ingredient: firm-tofu, unit: g, qty: [113, 170]}
+  - {ingredient: cornstarch}
+  - {ingredient: vegetable-oil}
+- name: Sauce
+  items:
+  - {ingredient: dashi, unit: cup, qty: 0.5}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: mirin, unit: tbsp, qty: 1.5}
+- name: Condiments
+  items:
+  - {ingredient: scallion, prep: thinly sliced}
+  - {ingredient: ginger}
+steps:
+- Cut the soft tofu into rectangular pieces about 1 inch thick.
+- Arrange the layers on rack with paper towels and leave for 10–15 minutes to drain. Change the paper and turn over the slices.
+- In pan, mix sauce ingredients, and heat in a pan until boiling. Turn off the heat.
+- Sprinkle starch on a plate. Arrange the tofu slices on it. Sprinkle more starch over the tofu.
+- Heat the oil to 355°F (180°C) for deep frying.
+- Pat any excess starch off the tofu slices and slide them into the hot oil, one by one. Don't add too many slices at once, because the tofu lowers the oil temperature. Fry until golden, turning once.
+- Remove and drain on paper towels.
+- Arrange the tofu in a dish, and pour the sauce over top. Top with a mound of grated daikon (radish), a bit of grated ginger, and sliced green onions.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAgedashi_Tofu&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Agedashi Tofu@4536311
+    url: https://en.wikibooks.org/w/index.php?oldid=4536311
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

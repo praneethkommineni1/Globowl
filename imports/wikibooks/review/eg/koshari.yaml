@@ -1,0 +1,76 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+#  - duplicate of hand-written recipe eg-koshari
+id: eg-koshari
+title: Koshari
+alternate_names:
+- Egyptian Rice with Pasta and Lentils
+summary: Koshari is a beloved Egyptian street food that brings together a delightful combination of flavors and textures. It is a hearty and satisfying vegetarian dish made with a mixture of rice, lentils, pasta, and a flavorful tomato sauce, topped with crispy fried onions.
+origin:
+  country: EG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Saucepan
+- Pot
+- Skillet
+- Colander
+- Wooden spoon or spatula
+- Knife
+- Cutting board
+- Serving dish
+- Paper towels
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 1}
+  - {ingredient: brown-lentils, unit: cup, qty: 1}
+  - {ingredient: pasta, unit: cup, qty: 1, note: small}
+  - {ingredient: tomato, unit: can, qty: 1}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 3}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: thinly sliced, note: large}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: minced}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: red-chili}
+  - {ingredient: parsley, prep: chopped}
+steps:
+- In a saucepan, cook the rice according to the package instructions until it is tender and fluffy. Once cooked, set the rice aside.
+- In a separate pot, cook the lentils in boiling water until they are tender but not mushy. Drain the lentils in a colander and set them aside.
+- Cook the small macaroni or short pasta in a pot of salted boiling water until it is al dente. Drain the pasta in a colander and set it aside.
+- In a skillet, heat the vegetable oil over medium heat. Add the thinly sliced onion and sauté until it turns golden brown and crispy. Remove the fried onions from the skillet and set them aside on a paper towel to drain excess oil.
+- In the same skillet, add the minced garlic and sauté for a minute until fragrant.
+- Add the chopped tomatoes, tomato paste, ground cumin, ground cinnamon, salt, black pepper, and chili powder (if using) to the skillet. Stir well to combine the ingredients.
+- Simmer the tomato sauce over low heat for about 10–15 minutes, allowing the flavors to meld together and the sauce to thicken slightly.
+- To serve, layer the cooked rice, lentils, and pasta in a serving dish. Drizzle the tomato sauce generously over the top.
+- Garnish with the crispy fried onions and freshly chopped parsley or cilantro.
+- Serve the koshari hot and enjoy the harmonious blend of flavors and textures.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKoshari_%28Egyptian_Rice_with_Pasta_and_Lentils%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Koshari (Egyptian Rice with Pasta and Lentils)@4515104
+    url: https://en.wikibooks.org/w/index.php?oldid=4515104
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

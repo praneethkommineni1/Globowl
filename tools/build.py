@@ -27,9 +27,9 @@ DIET_IDS = ["vegan", "vegetarian", "pescatarian", "gluten-free", "dairy-free",
 # Which ingredient flags break which diet. `animal` is matched against an
 # ingredient's animal sources; `markers` against its contains / may_contain.
 DIET_RULES = {
-    "vegan":        {"animal": {"meat", "poultry", "fish", "shellfish", "dairy", "egg", "honey", "gelatin"}, "markers": {"animal-fat"}},
-    "vegetarian":   {"animal": {"meat", "poultry", "fish", "shellfish", "gelatin"}, "markers": {"animal-rennet", "animal-fat"}},
-    "pescatarian":  {"animal": {"meat", "poultry", "gelatin"}, "markers": {"animal-rennet", "animal-fat"}},
+    "vegan":        {"animal": {"meat", "poultry", "fish", "shellfish", "dairy", "egg", "honey", "gelatin"}, "markers": {"animal-fat", "animal-product"}},
+    "vegetarian":   {"animal": {"meat", "poultry", "fish", "shellfish", "gelatin"}, "markers": {"animal-rennet", "animal-fat", "animal-product"}},
+    "pescatarian":  {"animal": {"meat", "poultry", "gelatin"}, "markers": {"animal-rennet", "animal-fat", "animal-product"}},
     "gluten-free":  {"markers": {"gluten"}},
     "dairy-free":   {"markers": {"milk"}},
     "egg-free":     {"markers": {"egg"}},
@@ -37,7 +37,7 @@ DIET_RULES = {
     "pork-free":    {"markers": {"pork"}},
     "alcohol-free": {"markers": {"alcohol"}},
 }
-NON_ALLERGEN_MARKERS = {"pork", "alcohol", "animal-rennet", "animal-fat"}
+NON_ALLERGEN_MARKERS = {"pork", "alcohol", "animal-rennet", "animal-fat", "animal-product"}
 
 
 class BuildError(Exception):

@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 peaches
+#  - no time in recipe summary
+id: es-sangria
+title: Sangría
+summary: Sangría.
+origin:
+  country: ES
+course: drink
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: red-wine, unit: l, qty: 1}
+  - {ingredient: apple, qty: 1}
+  - {ingredient: banana, qty: 1}
+  - {ingredient: orange, qty: 1}
+  - {ingredient: lemon, qty: 3}
+  - {ingredient: brandy, unit: ml, qty: 125}
+  - {ingredient: sugar, unit: tbsp, qty: 4}
+  - {ingredient: cinnamon-stick, qty: 1, optional: true}
+steps:
+- Pour the wine in a container large enough to hold all the ingredients.
+- Add the lemon juice, orange and lemon segments, apple pieces, and banana slices.
+- Add sugar and brandy; stir to mix well using a wooden spoon. Add cinnamon.
+- Keep in the fridge for at least an hour. Add ice cubes and let it stand 10 minutes before serving.
+- Serve in tall glasses, including fruit bits.
+tips:
+- The longer the fruit is macerating in the wine, the better the taste (up to 24 hours total). In that case, add the banana slices ½–1 hour before serving to prevent them from getting too soft.
+- You can use any kind of fruit you like. Try other liqueurs instead of brandy.
+- For a sweeter version, add ½–1 L (2–4 cups) lemonade instead of the lemon juice.
+- Don’t forget a spoon to eat the fruit once finished with sangría.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASangr%C3%ADa&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sangría@4510628
+    url: https://en.wikibooks.org/w/index.php?oldid=4510628
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

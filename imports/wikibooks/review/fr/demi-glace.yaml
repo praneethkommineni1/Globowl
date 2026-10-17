@@ -1,0 +1,40 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3 cups sauce espagnole
+#  - unmapped ingredient: 4 cups brown stock
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: fr-demi-glace
+title: Demi-glace
+summary: Demi-glace is prepared by the slow reduction of a mixture of sauce espagnole and brown stock.
+origin:
+  country: FR
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: sherry, unit: cup, qty: 0.25}
+steps:
+- Mix the sauce espagnole and the brown stock together in a heavy pot.
+- Set over low heat and reduce by two-thirds.
+- Remove from the heat and add the Madeira or sherry.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADemi-glace&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Demi-glace@4518896
+    url: https://en.wikibooks.org/w/index.php?oldid=4518896
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

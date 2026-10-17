@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 tbsp black cumin
+id: xx-bint-as-sahn
+title: Bint as-Saḥn
+alternate_names:
+- Yemenite Layered Pastry
+summary: 'Bint al-sahn (Arabic: بنت الصحن), or Sabayah, is a layered pastry traditionally made in Yemen, and now popular in other regions. The procedure takes a long time.'
+origin:
+  country: XX
+course: snack
+authenticity: unassessed
+yield:
+  servings: 10
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: yeast, unit: tsp, qty: 1}
+  - {ingredient: water, unit: cup, qty: 3}
+  - {ingredient: milk, unit: cup, qty: 0.25}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 6}
+  - {ingredient: semolina, unit: cup, qty: 2}
+  - {ingredient: margarine, unit: cup, qty: 0.5}
+  - {ingredient: sesame-seeds, optional: true}
+  - {ingredient: almonds}
+  - {ingredient: pistachios}
+steps:
+- Combine the yeast and warm water. Stir in the warm milk.
+- Stir the salt, sugar, vegetable oil, and eggs into the yeast mixture.
+- Mix the flour and semolina into the above mixture. Knead well to make a dough.
+- Cover dough and let it sit until dough rises.
+- Divide the dough into pieces the size of your hand, and transfer to a flour-dusted surface to prevent sticking.
+- Work each dough ball, stretching and folding the dough over itself multiple times. This stretching and folding process helps produce an airy and light-textured dough.
+- Let dough balls rest for 10–15 minutes.
+- Prepare a flat working surface by rubbing it with some margarine. Roll out one piece of dough into a very thin round.
+- Brush the dough round with margarine, then lightly sprinkle with crushed almonds, pistachios, black cumin, and sesame seeds.
+- Roll another piece of dough into a thin round. Stack on top of the first round, then brush with margarine and sprinkle with more almonds, pistachios, etc. Repeat this step, stacking the rounds, until all the dough is used up.
+- Bake the stacked dough in oven. Serve with honey.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABint_as-Sa%E1%B8%A5n_%28Yemenite_Layered_Pastry%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bint as-Saḥn (Yemenite Layered Pastry)@4630055
+    url: https://en.wikibooks.org/w/index.php?oldid=4630055
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

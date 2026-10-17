@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: pr-mashed-plantains-and-pork-rinds
+title: Mashed Plantains and Pork Rinds
+alternate_names:
+- Mofongo
+summary: Mofongo is a popular Caribbean dish that originated in Puerto Rico. It is made from fried green plantains, seasoned with garlic, fat (olive oil, butter, or lard) and pork cracklings, then mashed. Mofongo is usually served with a fried meat and a chicken broth soup.
+origin:
+  country: PR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: plantain, qty: 3}
+  - {ingredient: vegetable-oil}
+  - {ingredient: pork, unit: g, qty: 227, prep: 'also known as chicharrones or pork cracklings, ground'}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: chicken-stock, unit: cup, qty: 1}
+  - {ingredient: olive-oil, unit: tbsp, qty: 1}
+steps:
+- Peel the plantains and cut into 1-inch diagonal pieces.
+- Heat the oil in a large skillet. Place the plantains in the oil and fry on both sides (approximately 3 ½ minutes per side).
+- Remove the plantains from the pan and flatten the plantains by placing a plate over the fried plantains and pressing down.
+- Return the plantains to the hot oil and fry 1 minute on each side. Then, place on paper towels.
+- While the plantains are still hot, use a mortar and pestle to mash them with the garlic, fat, and stock or broth. Add the chicharrones, salt, and pepper to taste.
+tips:
+- Packaged pork rinds can be used. Alternatively, any kind of bacon can also be used.
+- You can also use a food processor for mashing; add the plantains to food processor with bacon, garlic and some salt and pepper. You may have to work in batches. Process to consistency of mashed—not whipped—potatoes. Do not over-process!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMashed_Plantains_and_Pork_Rinds_%28Mofongo%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mashed Plantains and Pork Rinds (Mofongo)@4503486
+    url: https://en.wikibooks.org/w/index.php?oldid=4503486
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

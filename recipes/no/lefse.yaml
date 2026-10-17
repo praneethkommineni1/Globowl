@@ -1,0 +1,59 @@
+id: no-lefse
+title: Lefse
+alternate_names:
+- Norwegian Potato Flatbread
+summary: Lefse is a potato-based Norwegian dish that's great as a dessert, as a side, or as a main course with the appropriate filling. It's similar to a crêpe in that you can add many different fillings to create a different dish each time.
+origin:
+  country: 'NO'
+course: bread
+authenticity: unassessed
+yield:
+  servings: 40
+  amount: About 40 lefse
+time:
+  total_min: 60
+difficulty: 3
+equipment:
+- Large pot for boiling potatoes
+- Flat griddle of approximately 16-inch diameter
+- Rolling pin
+- Potato masher
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: cup, qty: 8, prep: still hot}
+  - {ingredient: butter, unit: cup, qty: 0.5}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 3}
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 2}
+  - {ingredient: heavy-cream, unit: cup, qty: 1}
+steps:
+- Mix mashed potatoes with melted butter.
+- If preparing ahead, refrigerate mixture overnight, and take the potatoes out one hour before beginning the rest of the preparation.
+- Mix sugar, salt, cream, and potato mixture in a large bowl. Gradually stir in flour.
+- Using about 2 tablespoons (or a golf ball-sized chunk) of mix at a time, roll mix into flat, round shapes on a flat, smooth surface. Use flour to keep the mix from sticking to the surface and the rolling pin.
+- Place the round lefse on the griddle, cook until browned on bottom. Flip and repeat.
+- Add toppings, and serve hot!
+tips:
+- A favourite sweet way of serving is to simply spread melted butter on each piece and sprinkle sugar over it, then roll the lefse into a cylindrical shape and serve hot. About 1–2 teaspoons of sugar should do the trick for lefse of about 10-inch diameter.
+- Stirring the flour into the mix may be very difficult, especially in drier climates. An electric mixer might help, or you might consider adding extra cream to the mix in order to ease the process.
+- Your objective when rolling out the lefse is to get it to be very thin. This becomes more difficult as you go because it may begin to fall apart, and even if it doesn't, you may have difficulty prying it up when it's time to transfer it to the griddle.
+- While adding flour to the lefse itself may increase the ease of rolling it out, it may also make the lefse tougher in texture, which is undesirable.
+- It may be useful to hand-pat the lefse until it's about ½–¼ inch thick, then use a rolling pin to roll it out the rest of the way.
+- It might also help to flip the lefse when you're about halfway done rolling it out. This may give you a chance to add more flour to the prep surface, too.
+- As you gain the ability to make thinner lefse, you might try getting larger amounts of the mixture at a time, and producing larger lefse.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALefse_%28Norwegian_Potato_Flatbread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lefse (Norwegian Potato Flatbread)@4519135
+    url: https://en.wikibooks.org/w/index.php?oldid=4519135
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

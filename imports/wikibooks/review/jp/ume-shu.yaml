@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 kg raw Japanese ume plums
+#  - unmapped ingredient: 1 kg rock sugar
+#  - unmapped ingredient: White liquor to taste
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: jp-ume-shu
+title: Ume-shu
+alternate_names:
+- Japanese Plum Juice
+summary: Ume juice is extracted by preserving the fruits in sugar. It tastes sweet, smooth, and acidic, and is a refreshing drink, often enjoyed in the summer. The taste and aroma of ume-shu can appeal to even those people who normally dislike the taste of alcohol.
+origin:
+  country: JP
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- A container (preferably a sealable glassware)
+ingredient_groups:
+- items:
+  - {ingredient: honey, note: to taste}
+steps:
+- Wash plums and wipe dry.
+- Cram plums tightly into container with rock sugar. Add liquor if using.
+- Pour honey into container on top of ume.
+- Seal container, and leave in a cool, dark place until the plums are shriveled and leathery.
+- Remove fruit from container.
+- To drink, dilute the plum liquid with two times as much water.
+tips:
+- Keep in a cool place during summer.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AUme-shu_%28Japanese_Plum_Juice%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ume-shu (Japanese Plum Juice)@4505270
+    url: https://en.wikibooks.org/w/index.php?oldid=4505270
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

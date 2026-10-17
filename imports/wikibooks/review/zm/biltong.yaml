@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: zm-biltong
+title: Biltong
+alternate_names:
+- Zambian Dried and Salted Meat
+summary: Biltong is a popular Zambian snack that consists of dried and salted meat. It is similar to beef jerky but has its unique flavor and preparation method. Biltong is a favorite among Zambians and is often enjoyed as a savory and protein-rich snack.
+origin:
+  country: ZM
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Butcher's hooks or kitchen hooks
+- Butcher's twine or string
+- Airtight container
+techniques:
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: salt, unit: cup, qty: 0.25}
+  - {ingredient: ground-coriander, unit: tbsp, qty: 2}
+  - {ingredient: black-pepper, unit: tbsp, qty: 2}
+  - {ingredient: brown-sugar, unit: tbsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 1}
+  - {ingredient: beef, unit: g, qty: 454, prep: very thinly sliced}
+  - {ingredient: white-vinegar, unit: cup, qty: 0.25}
+  - {ingredient: water, unit: cup, qty: 0.25}
+steps:
+- In a bowl, mix together the salt, ground coriander, ground black pepper, brown sugar, and ground cayenne pepper to create the biltong spice blend.
+- Dip each slice of meat in the vinegar, then coat them with the spice blend. Make sure each slice is evenly covered with the spices.
+- Once all the meat slices are coated, place them in a single layer on a clean surface and let them marinate for about 30 minutes to allow the flavors to penetrate the meat.
+- After marinating, use the butcher's hooks or kitchen hooks to hang the meat slices on a drying rack or any suitable hanging space with good circulation. Make sure to leave space between each slice for air circulation.
+- Allow the meat to air-dry for about 3–5 days, depending on the desired level of dryness. The biltong is ready when it is dry to the touch and has a chewy texture.
+- Once the biltong is dried to your preference, store it in an airtight container to maintain its freshness.
+tips:
+- Biltong can be made using various types of meat, such as beef, game meat, or even ostrich meat, depending on availability and preference.
+- Adjust the amount of cayenne pepper according to your taste preference for spiciness.
+- For a more traditional drying method, you can use a biltong box or dehydrator to dry the meat.
+- Biltong is a high-protein snack.
+- It is a great on-the-go snack and a delicious way to enjoy preserved meat.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABiltong_%28Zambian_Dried_and_Salted_Meat%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Biltong (Zambian Dried and Salted Meat)@4507471
+    url: https://en.wikibooks.org/w/index.php?oldid=4507471
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tsp ground chile pepper
+id: ng-nigerian-egg-stew
+title: Nigerian Egg Stew
+summary: Nigerian egg stew is a flavorful dish made by cooking beaten eggs with chile pepper and onion in palm oil. It resembles scrambled eggs with a spicy twist and is commonly served with boiled yam, cocoyam, or potatoes.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1 serving
+time:
+  total_min: 7
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: red-palm-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 0.5, prep: chopped, note: medium}
+  - {ingredient: chicken-bouillon-cube, qty: 1, prep: crushed}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: egg, qty: 2}
+steps:
+- Heat palm oil in a frying pan over medium heat.
+- Add the chile pepper, chopped onion, crushed Maggi cube, and salt. Stir and cook for 2–3 minutes.
+- In a separate bowl, beat the eggs. Pour into the pan and stir gently to scramble.
+- Cook for another 2–3 minutes, or until eggs are fully set but still moist.
+- Serve with boiled yam, cocoyam, or potatoes.
+tips:
+- You can add chopped tomatoes or bell peppers for extra flavor and color.
+- Vegetable oil can be substituted for palm oil, though it changes the flavor.
+- Adjust chile pepper amount to suit your spice tolerance.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Egg_Stew&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Egg Stew@4518664
+    url: https://en.wikibooks.org/w/index.php?oldid=4518664
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

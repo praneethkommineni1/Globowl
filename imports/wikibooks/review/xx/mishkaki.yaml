@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: xx-mishkaki
+title: Mishkaki
+alternate_names:
+- East African Meat Skewers
+summary: Mishkaki.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 45
+difficulty: 3
+techniques:
+- marinating
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: white-vinegar, unit: tbsp, qty: 2}
+  - {ingredient: vegetable-oil, unit: ml, qty: 50}
+  - {ingredient: water, unit: tbsp, qty: 2}
+  - {ingredient: thyme, unit: tsp, qty: 1}
+  - {ingredient: garlic-powder, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 0.5}
+  - {ingredient: paprika, unit: tsp, qty: 0.5}
+  - {ingredient: onion-powder, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: allspice, unit: tsp, qty: 0.25}
+  - {ingredient: garlic-powder, unit: tsp, qty: 1}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: beef, prep: in 1-inch cubes}
+  - {ingredient: cilantro, unit: g, qty: 80, prep: finely chopped}
+steps:
+- Whisk together the vinegar, oil, water, thyme, spices, ginger paste, and garlic paste to make a marinade.
+- Add the meat and toss well, then transfer everything to a large ziplock bag. Seal the bag and marinate in the refrigerator for 24–48 hours.
+- Take the meat out of the refrigerator, and give it at least an hour to come to room temperature.
+- Thread the meat on the skewers.
+- Preheat a charcoal grill for some time.
+- Grease the grill grate, and place the skewers on the grate. Cook until medium-done (internal temperature of 65°C / 145°F).
+- Serve hot with fresh coriander.
+tips:
+- If you would like to use wood skewers, soak them in water for an hour before using. This prevents them from burning.
+- You could also broil the skewers in the oven instead of grilling.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMishkaki_%28East_African_Meat_Skewers%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mishkaki (East African Meat Skewers)@4508263
+    url: https://en.wikibooks.org/w/index.php?oldid=4508263
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (JO, PS): confirm the country of origin
+#  - no time in recipe summary
+#  - course unknown from categories
+#  - possible duplicate of hand-written recipe ps-musakhan — merge or keep as a variant
+id: jo-baked-chicken-with-onions-sumac-and-allspice
+title: Baked Chicken with Onions, Sumac and Allspice
+alternate_names:
+- Musakhan
+summary: Musakhan, also مسخّن (Arabic), is a Palestinian country dish. It is chicken baked with onions, sumac, and allspice, and garnished with fried pine nuts.
+origin:
+  country: JO
+  also_claimed_by:
+  - PS
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–4
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: olive-oil, unit: cup, qty: 0.5}
+  - {ingredient: onion, unit: g, qty: 1588, prep: peeled and sliced thin}
+  - {ingredient: sumac, unit: cup, qty: 0.25}
+  - {ingredient: allspice, unit: tsp, qty: 0.5}
+  - {ingredient: pita-bread, qty: 2, prep: split open and separated, note: large}
+  - {ingredient: pine-nuts}
+steps:
+- Cut the chicken up into two breasts, two thighs, two legs, and two wings. Salt and pepper the chicken.
+- In a large, deep pot, heat ¼ cup of the olive oil, then lightly brown the chicken on all sides over a medium heat, about 20 minutes. Remove and set aside.
+- Add the remaining ¼ cup olive oil to the pot and cook the onions until translucent, about 35 minutes, stirring occasionally.
+- Add the sumac and allspice and cook for 2 minutes to mix.
+- Preheat the oven to 350°F (175°C).
+- Cover a 9 x 12-inch baking dish with the Arabic bread. Spoon half the onions over each, then arrange the chicken on top of the onions and cover with the remaining onions and the juices from the casserole.
+- Bake until the chicken is golden crisp and almost falling off the bone, about 1½ hours.
+- Roast the pine nuts in a pan until golden in olive oil.
+- Sprinkle with the roasted pine nuts and serve with yoghurt.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaked_Chicken_with_Onions%2C_Sumac_and_Allspice_%28Musakhan%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Baked Chicken with Onions, Sumac and Allspice (Musakhan)@4508238
+    url: https://en.wikibooks.org/w/index.php?oldid=4508238
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

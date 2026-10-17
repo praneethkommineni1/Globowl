@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 300 g tempeh, size 10&times;15 cm
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: id-tempe-mendoan
+title: Tempe Mendoan
+summary: Tempe mendoan is a dish made from thin tempeh, fried with flour so as to taste deliciously piquant. Traditionally in the Banyumas territory, tempe mendoan was made from thin, wide tempeh, one or two sheets cooked at a time.
+origin:
+  country: ID
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- deep-frying
+ingredient_groups:
+- items:
+  - {ingredient: rice-flour, unit: g, qty: 100}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 2}
+  - {ingredient: shallot, qty: 1, prep: ground}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1, prep: ground}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25, prep: ground}
+  - {ingredient: salt, unit: tsp, qty: 2}
+  - {ingredient: water, unit: ml, qty: 125}
+  - {ingredient: scallion, qty: 2, prep: thinly sliced}
+  - {ingredient: vegetable-oil, unit: ml, qty: 0.5}
+steps:
+- Combine rice flour, wheat flour, garlic, shallot, coriander, pepper, salt, water, and green onion to make a thin batter.
+- Dip each piece of tempeh into the batter, and coat entirely.
+- Warm the oil in a frying pan, and put it on the stove until hot. Put each piece of coated tempeh into hot oil.
+- Fry the tempeh until hardened and well done. Don't wait until it becomes yellow and crispy.
+- Remove the tempeh from the oil, letting the oil drip from the tempeh so that there is not much oil on it.
+- Serve tempeh with soy bean sauce and sliced small chilies.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATempe_Mendoan_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tempe Mendoan I@4514346
+    url: https://en.wikibooks.org/w/index.php?oldid=4514346
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

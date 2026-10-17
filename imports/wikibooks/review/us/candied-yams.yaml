@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-candied-yams
+title: Candied Yams
+summary: Candied Yams.
+origin:
+  country: US
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: sweet-potato, qty: 6}
+  - {ingredient: margarine, unit: cup, qty: 0.5}
+  - {ingredient: brown-sugar, unit: cup, qty: 1}
+  - {ingredient: vanilla-extract, unit: tbsp, qty: 2}
+  - {ingredient: water, unit: cup, qty: 0.25}
+steps:
+- Preheat oven to 350&nbsp;°F (175&nbsp;°C).
+- Boil yams in skins until about half done.
+- Drain water from yams, remove skins, and cut in cubes.
+- Place yam cubes in a greased baking dish and dot with margarine.
+- Make a syrup by boiling brown sugar, water, and vanilla together. Pour over the yams.
+- Bake for 45 to 50 minutes, basting frequently with syrup, until yams are tender.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACandied_Yams&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Candied Yams@4629674
+    url: https://en.wikibooks.org/w/index.php?oldid=4629674
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

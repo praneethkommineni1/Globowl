@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (IN, PK): confirm the country of origin
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-makki-di-roti
+title: Makki di Roti
+alternate_names:
+- Indian Cornmeal Flatbread
+summary: Roti, in general, refers to an Indian flatbread cooked on an iron griddle (tava). Makki di roti (lit. "roti made from corn") refers to a special roti where cornmeal is used instead of the usual wheat flour.
+origin:
+  country: IN
+  also_claimed_by:
+  - PK
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Flat iron griddle (tahva), preheated
+- Flat board (chakla)
+- Wide, flat mixing tray (praat)
+- Cooking fire on which the tahva will be heated
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: cornmeal, unit: handful, qty: 1}
+  - {ingredient: butter, qty: 1, prep: softened}
+  - {ingredient: water, qty: 1}
+steps:
+- Heap the cornmeal in a praat (a wide flat mixing tray) so it forms a hill. Make a well, and pour in a small quantity of the lukewarm water.
+- Start to mix the cornmeal and water into a dough. The dough should remain moist but not become sticky. Add water in small quantities to retain a moist feel. The final dough should not be sticky (sprinkle some extra cornmeal if needed to help soak up excess moisture).
+- Add the soft butter (makhan) at the end and give it a final kneading.
+- Take a small hand-sized portion of the dough from the mixing tray and roll it into a small ball (ladu) between the two hands. Gradually start to flatten the ball between the palms of the two hands (wet the hands and fingers to help the dough to stretch). At the same time rotate the flattening dough so that the thinning of the roti is even. It may start to crack at the edges. Repair any cracks by pressing them at the rims. Wetting the fingers and the palm of the hand will help to spread and give the roti a circular shape. Aim for an evenly thinned roti.
+- When the roti is about the size of a small plate (or a little larger then a spread-out hand) place it on the preheated tahva. Leave the roti to take in the heat (it takes a while for roti to get cooked). Some areas of the roti will change in colour as the water evaporates. Soon after, the roti will be able to be moved on the tahva. With a dry cloth, press the areas of the roti that look moist.
+- It is a matter of judgement when the roti can be turned over and heated on the other side. When the roti have been well cooked they should not have any moist looking areas. Some areas will have burned slightly but this is normal.
+tips:
+- The roti can be heated on open flames of the cooker or on a tava. This process of placing roti on open flames is called radhna. It takes time to get the thick roti to be well cooked.
+- The cooked roti is smeared with some clarified butter (ghee). This is called chopardna. The roti is then put into a serving dish. Traditionally, the roti is served as it gets prepared and is eaten fresh. On occasions when it has to be stored before serving it is placed in a dry tray called chahba.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMakki_di_Roti_%28Indian_Cornmeal_Flatbread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Makki di Roti (Indian Cornmeal Flatbread)@4513129
+    url: https://en.wikibooks.org/w/index.php?oldid=4513129
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

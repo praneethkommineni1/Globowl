@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (MX, US): confirm the country of origin
+#  - no usable introduction for the summary
+id: mx-salsa-fresca
+title: Salsa Fresca
+summary: Salsa Fresca.
+origin:
+  country: MX
+  also_claimed_by:
+  - US
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3 cups
+time:
+  total_min: 15
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: garlic, qty: 2}
+  - {ingredient: green-chili, qty: 4, prep: 'sliced in half, seeded, and veined'}
+  - {ingredient: onion, qty: 1, note: medium}
+  - {ingredient: cilantro, unit: cup, qty: 0.25}
+  - {ingredient: tomato, qty: 2, prep: 'or 6 small tomatoes, cored'}
+steps:
+- Chop the ingredients in order listed.
+- If using food processor or blender, drop in with the blades running, but avoid liquefying the tomatoes.
+tips:
+- If you plan to store the sauce in the refrigerator, place in a jar and pour a tablespoon of vegetable oil over the top.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASalsa_Fresca&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Salsa Fresca@4525168
+    url: https://en.wikibooks.org/w/index.php?oldid=4525168
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

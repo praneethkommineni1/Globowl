@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: es-marinated-green-olives
+title: Marinated Green Olives
+summary: Green olives marinated in herbs and garlic are very common in Spanish restaurants. They are commonly served free when you order a drink, and are often served with toasted, salted nuts.
+origin:
+  country: ES
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1 pound (450 g)
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: olives, unit: cup, qty: 2}
+  - {ingredient: garlic, unit: clove, qty: 7, prep: peeled and minced}
+  - {ingredient: bay-leaf, qty: 2}
+  - {ingredient: lemon, qty: 0.5, prep: sliced, note: medium}
+  - {ingredient: dried-oregano, unit: tsp, qty: 1}
+  - {ingredient: fennel-seeds, unit: tsp, qty: 1}
+  - {ingredient: thyme, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: rosemary, unit: tsp, qty: 0.5}
+  - {ingredient: paprika, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+steps:
+- Lightly crush the olives with a mallet, or make slight slits on each olive with a knife, to ensure that the marinade permeates them.
+- Place the olives in a sealable glass jar and add the remaining ingredients.
+- Fill the jar with water and shake well.
+- Marinate at room temperature for several days to a week.
+- Serve the olives with toasted almonds and fresh bread.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMarinated_Green_Olives&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Marinated Green Olives@4510607
+    url: https://en.wikibooks.org/w/index.php?oldid=4510607
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

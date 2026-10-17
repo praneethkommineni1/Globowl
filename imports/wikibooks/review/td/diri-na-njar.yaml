@@ -1,0 +1,73 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: td-diri-na-njar
+title: Diri Na Njar
+alternate_names:
+- Chadian Spiced Rice with Vegetables
+summary: Diri na njar is a flavorful Chadian rice dish cooked with tomatoes, onions, and various seasonings. It is a popular and comforting meal in Chad, enjoyed by many.
+origin:
+  country: TD
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large saucepan with a tight-fitting lid
+- Wooden spoon or spatula
+- Knife for chopping
+- Cutting board
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: tomato, qty: 2, prep: chopped}
+  - {ingredient: tomato-paste, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1, note: to taste}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: chicken-stock, unit: cup, qty: 4}
+  - {ingredient: cilantro, prep: for garnish, optional: true}
+steps:
+- Rinse the rice under cold water until the water runs clear. This helps remove excess starch and prevents the rice from becoming sticky.
+- Heat the vegetable oil in a large saucepan over medium heat. Add the chopped onion and sauté until it becomes translucent and slightly golden, stirring occasionally.
+- Add the minced garlic to the saucepan and cook for another minute until fragrant.
+- Stir in the chopped tomatoes and tomato paste, combining them with the onions and garlic. Cook for a few minutes until the tomatoes start to soften and release their juices.
+- Add the ground paprika, ginger, cumin, coriander, salt, and black pepper to the saucepan. Stir well to coat the tomatoes and onions with the spices.
+- Add the rinsed rice to the saucepan and stir gently to combine it with the tomato mixture, ensuring that each grain of rice is coated with the flavors.
+- Pour in the water or chicken broth, ensuring that the liquid covers the rice by about an inch.
+- Bring the mixture to a boil, then reduce the heat to low. Cover the saucepan with a tight-fitting lid and let it simmer for about 15–20 minutes, or until the rice is cooked and the liquid has been absorbed. Avoid lifting the lid during cooking to maintain steam and ensure even cooking.
+- Once the rice is done, remove the saucepan from the heat and let it sit, covered, for an additional 5 minutes. This allows the rice to steam and fluff up.
+- Fluff the rice gently with a fork to separate the grains. Taste and adjust the seasoning if needed.
+- Serve hot, garnished with fresh cilantro or parsley if desired.
+tips:
+- You can customize the recipe by adding cooked meat, such as chicken or beef, or vegetables to the dish. Simply cook the meat/vegetables separately before adding them to the rice mixture.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADiri_Na_Njar_%28Chadian_Spiced_Rice_with_Vegetables%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Diri Na Njar (Chadian Spiced Rice with Vegetables)@4511936
+    url: https://en.wikibooks.org/w/index.php?oldid=4511936
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Buttercream
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gb-sponge-cake
+title: Sponge Cake
+summary: Sponge cake is the most commonly-recognised variety of baked confectionery in Britain. It has a sweet taste, often flavoured with vanilla, chocolate or other additions. It can be cut and displayed in a very large number of different ways.
+origin:
+  country: GB
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- name: Cake
+  items:
+  - {ingredient: egg, qty: 2}
+  - {ingredient: self-rising-flour, unit: g, qty: 113}
+  - {ingredient: baking-powder, unit: tsp, qty: 1.5}
+  - {ingredient: caster-sugar, unit: g, qty: 113}
+  - {ingredient: butter, unit: g, qty: 113}
+  - {ingredient: vanilla-extract, unit: tbsp, qty: [1, 2], optional: true}
+  - {ingredient: food-coloring, prep: as desired, optional: true}
+- name: Assembly (optional)
+  items:
+  - {ingredient: jam, unit: tbsp, qty: [2, 4], prep: loosened with palette knife or similar}
+  - {ingredient: powdered-sugar, unit: tbsp, qty: 1}
+steps:
+- Preheat an oven to 400°F.
+- Cream together the sugar and butter in the mixing bowl. They should achieve a creamy texture with quite a thick consistency. The longer and faster the butter and sugar are creamed the lighter the cake will be when cooked.
+- Add both eggs and mix well.
+- Add all the flour using a fine sieve from a height, adding air to the flour, and beat with wooden spoon in a circular motion, trying to incorporate as much air as possible.
+- Add any food coloring, flavoring etc. at this point. If you add liquid ingredients, add the same volume again of sugar-and-flour mix to compensate. If adding dry ingredients, ensure to use equal parts less flour than any extra ingredient added.
+- Grease 1–2 cake pan(s) with butter. You may wish to use a springform pan for this recipe.
+- Scrape the batter into the pan(s). If using two pans, try to ensure that both tins have an equal amount of batter in them and that both are not more than ¾ filled.
+- 'Put the cake tins into the oven and leave them for approximately 10 minutes before checking them. The cooking time should eventually reach around 15 minutes: keep checking them regularly after about 8 minutes since ovens vary.'
+- Turn the cake out onto a wire rack to cool.
+- If assembling 2 layers of cake, turn one of them upside down and spread the jam or buttercream onto its base. Stick the other cake top-side up onto the upside-down cake.
+- Dust the cake with icing sugar using a fine sieve.
+tips:
+- To make a chocolate variation, substitute cocoa powder to taste with an equal volume of the flour. For example, if using 4 tbsp of cocoa powder, omit 4 tbsp of flour.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASponge_Cake_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sponge Cake I@4516957
+    url: https://en.wikibooks.org/w/index.php?oldid=4516957
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - duplicate id us-twice-baked-potatoes from another Wikibooks page
+id: us-twice-baked-potatoes
+title: Twice-Baked Potatoes
+summary: See also Twice-Baked Potatoes.
+origin:
+  country: US
+course: side
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 90
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: potato, qty: 4}
+  - {ingredient: butter, unit: tbsp, qty: 1}
+  - {ingredient: sour-cream, unit: cup, qty: 0.5}
+  - {ingredient: cheddar, unit: cup, qty: 1.25}
+  - {ingredient: heavy-cream, unit: tbsp, qty: 2}
+  - {ingredient: milk, unit: cup, qty: 0.25}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: bacon, qty: 2, prep: cooked and diced}
+  - {ingredient: scallion, qty: 1, prep: finely chopped}
+steps:
+- Preheat oven to 400°F.
+- Pierce potato skins with a fork and wrap in foil.
+- Bake potatoes for 1 hour or until soft.
+- Reduce oven temperature to 350°F.
+- Carefully remove potatoes from oven and cool for 10 minutes.
+- Cut potatoes at top ⅓ lengthwise and remove tops.
+- Scoop out pulp with a small spoon, to about ¼ inch from skin.
+- Mash potato pulp with a fork until smooth.
+- Add butter, sour cream, ½ cup shredded cheese, heavy cream, milk, salt, and pepper, mash until well combined and smooth.
+- Stir in bacon and onion.
+- Spoon or pipe the mixture into the empty potato shells.
+- Top with the rest of the cheese.
+- Bake for 15 minutes, or until cheese is melted.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATwice-Baked_Potatoes_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Twice-Baked Potatoes II@4525578
+    url: https://en.wikibooks.org/w/index.php?oldid=4525578
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,89 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Scotch bonnet Chile peppers, diced
+#  - unmapped ingredient: Liver
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-moin-moin
+title: Moin Moin
+alternate_names:
+- Nigerian Bean Pudding
+summary: Moin moin, also called moimoi or moyin moyin, is a traditional West African (particularly Nigerian) dish based on black-eyed peas or other beans. It is usually conical or cylindrical in shape, depending on the type of mould used.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Oven
+- Grinding machine
+- Pot
+- Spoon
+- Bowl
+techniques:
+- baking
+- boiling
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: black-eyed-peas, prep: or other beans}
+  - {ingredient: water}
+  - {ingredient: red-bell-pepper, prep: diced}
+  - {ingredient: onion, prep: diced}
+  - {ingredient: red-palm-oil}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: bouillon-cube, note: to taste}
+  - {ingredient: egg, prep: cut in quarters, optional: true}
+  - {ingredient: fish, optional: true}
+  - {ingredient: beef, prep: in chunks or minced, optional: true}
+steps:
+- Place the beans in a large container. Cover them with water, and soak for about 1 hour.
+- Blend all the peppers with the onion to make a smooth paste.
+- Prepare foil or empty cans as molds for cooking.
+- If using empty cans, make sure their interior is clean, and lightly greased.
+- 'If using foil:'
+- Tear off about 1 foot (30 cm) of the foil.
+- Fold the foil in half.
+- One of the edges is closed and fine. For two of the other edges, roll them a few times over to make sure they will take the weight of the mixture (at least an inch-worth of rolling).
+- When you are done, the foil will look like rectangles with only one edge open.
+- Rub the beans between your hands to peel the skin off. The skin should float to the top of the container. Keep doing this until you have most of the skin off the beans.
+- Grind the beans into a smooth, finely-ground, mostly-liquid paste.
+- Add blended mix of scotch bonnet peppers, bell peppers and onions, a few teaspoons of oil, a little salt, and the optional ingredients as desired.
+- 'Transfer the mixture into the intended mould:'
+- If using cans, simply pour some of the batter into the cans, making sure you leave enough room for the moin moin to expand.
+- If using foil, pour some of the batter into the foil, and then close up the last edge of the foil by rolling it securely.
+- If using the leaves, wrap the leaves into an open cone. Fold the bottom of the cone to prevent the mix from leaking out. Place some of the mixture to fill half the cone. Roll the top of the cone and fold it. Place the cone in such a way as to keep the folded portion flat against the cooking surface, which should also be lined with the leaves.
+- Bring water to boil in a large pot. The water should at least cover the bottom of the pot. Less water is needed if you use the leaves. Add the filled moin moin molds.
+- Leave the moin moin to steam for at least 30 minutes until it solidifies.
+- Remove them from the cans or the foil before serving.
+- Serve with rice, meat, custard, pap or other side dishes as desired.
+- Grind the peeled beans alongside the pepper and onion to give a smooth paste.
+- Add grounded Maggi, salt, and vegetable oil to the paste, and stir with a wooden spoon to make the ingredients uniform.
+- Preheat oven to 200°C (390°F).
+- Rub vegetable oil in the muffin cups and pour the moi moi mixture inside.
+- Fold aluminum foil to the sides of the up to prevent the moi moi from drying up.
+- Pour water in an oven tray and place the muffin cups in the tray
+- Bake for 45 minutes, replenishing the water as necessary to prevent it from drying up.
+- Leave to cool down and remove from oven when done.
+tips:
+- Some people recommend lightly grinding the beans before soaking them to make it easier to remove the skin.
+- Some variants of this dish call for minimal or no removal of the beans' skins. The resulting moin moin is thicker than usual, and somewhat harder to digest.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMoin_Moin_%28Nigerian_Bean_Pudding%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Moin Moin (Nigerian Bean Pudding)@4573228
+    url: https://en.wikibooks.org/w/index.php?oldid=4573228
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

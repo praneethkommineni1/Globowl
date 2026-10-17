@@ -1,0 +1,63 @@
+id: gr-galaktoboureko
+title: Galaktoboureko
+alternate_names:
+- Greek Semolina Custard Pastry
+summary: The galaktoboureko (Γαλακτομπούρεκο) is a traditional Greek dessert. It is made with phyllo, also known as filo or fillo dough, which is filled with a custard of semolina flavored with citron. It is served with a sugar syrup.
+origin:
+  country: GR
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 90
+difficulty: 2
+techniques:
+- baking
+- boiling
+- simmering
+ingredient_groups:
+- name: Pastry
+  items:
+  - {ingredient: sugar, unit: g, qty: 150}
+  - {ingredient: egg, qty: 6}
+  - {ingredient: semolina, unit: g, qty: 150}
+  - {ingredient: milk, unit: l, qty: 1}
+  - {ingredient: vanilla-bean, qty: 2}
+  - {ingredient: lemon, qty: 0.5, prep: juiced}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: phyllo, unit: g, qty: 450}
+  - {ingredient: butter}
+- name: Syrup
+  items:
+  - {ingredient: water, unit: ml, qty: 125}
+  - {ingredient: sugar, unit: g, qty: 150}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 2}
+steps:
+- Combine sugar, eggs, and semolina in a saucepan. Mix in milk and vanilla beans. Stir in lemon juice.
+- Bring the mixture to a boil, stirring with a fork the whole time. When it starts boiling, reduce heat to low and keep stirring for another 10 minutes. Remove mixture from the heat, and let cool.
+- Brush some melted butter over each sheet of phyllo dough.
+- Butter a pan, and place half the phyllo in it sheet by sheet. Pour the cooled semolina custard over the pastry, and cover with the remaining buttered phyllo.
+- Sprinkle pastry with a bit of water.
+- Bake pastry at 356°F / 180°C / Gas mark 4 for 1 hour. Let cool.
+- Combine water and sugar in a saucepan.
+- Bring to boil, and simmer for about 10 minutes.
+- Let syrup cool.
+- Stir in the lemon juice once cooled in order to preserve the vitamin C.
+- Brush the finished pastry with syrup, and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGalaktoboureko_%28Greek_Semolina_Custard_Pastry%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Galaktoboureko (Greek Semolina Custard Pastry)@4587377
+    url: https://en.wikibooks.org/w/index.php?oldid=4587377
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

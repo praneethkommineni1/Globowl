@@ -1,0 +1,47 @@
+id: fr-flan-patissier
+title: Flan Patissier
+summary: Flan pâtissier nature is a traditional preparation often found in French bakeries and patisseries. This recipe is a base to which you can add fruit or other ingredients.
+origin:
+  country: FR
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8
+time:
+  total_min: 45
+difficulty: 2
+techniques:
+- baking
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: ml, qty: 500}
+  - {ingredient: sugar, unit: g, qty: 150}
+  - {ingredient: cornstarch, unit: g, qty: 80}
+  - {ingredient: egg, qty: 3}
+  - {ingredient: vanilla-extract, unit: tbsp, qty: 1}
+  - {ingredient: puff-pastry, unit: g, qty: 200, prep: rolled to 3–6 mm thick}
+steps:
+- Preheat oven to 200°C. If using frozen puff pastry take it out from the freezer.
+- Heat the milk in a saucepan until scalding but not boiling.
+- In a bowl, mix the sugar and the cornstarch, then beat in the whole eggs. Very gradually whisk the hot milk into this mixture to avoid cooking the egg. Add the vanilla extract, and return this mixture to the saucepan.
+- Cook for 5 minutes over medium heat, stirring constantly to avoid curdling. Remove from the heat before it gets to the boiling point.
+- Line a buttered metal pie pan with the puff pastry to make a crust. Fill the crust with the hot custard.
+- Bake for 25–30 minutes in the preheated oven until golden on the top. Cool to room temperature, then chill in the refrigerator.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFlan_Patissier&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Flan Patissier@4587414
+    url: https://en.wikibooks.org/w/index.php?oldid=4587414
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

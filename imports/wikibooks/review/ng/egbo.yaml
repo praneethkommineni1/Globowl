@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Dried corn
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-egbo
+title: Egbo
+alternate_names:
+- Nigerian Cornmeal Porridge
+summary: Egbo, also known as corn porridge, is a dish common among the people from Ibadan, Nigeria. It is made from cooked dry corn. Egbo is referred to ororo robo when eaten with sauce, beans, and vegetables.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Mill
+- Pressure cooker
+ingredient_groups:
+- items:
+  - {ingredient: salt}
+steps:
+- Crack the corn using the mill, and blow to get rid of the husks.
+- Cook the corn with a pinch of salt using a pressure cooker.
+- Add more water, and cook until soft and pulpy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgbo_%28Nigerian_Cornmeal_Porridge%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egbo (Nigerian Cornmeal Porridge)@4495026
+    url: https://en.wikibooks.org/w/index.php?oldid=4495026
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

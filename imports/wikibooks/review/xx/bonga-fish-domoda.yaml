@@ -1,0 +1,72 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 pounds bonga fish fillets
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-bonga-fish-domoda
+title: Bonga Fish Domoda
+alternate_names:
+- Gambian Fish in Peanut Sauce
+summary: Bonga fish domoda is a popular Gambian dish that features bonga fish cooked in a rich peanut-based sauce. It is a flavorful and hearty stew that is enjoyed across Gambia and often served with rice or couscous.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large pot
+- Wooden spoon or spatula
+- Knife for chopping
+- Cutting board
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 2, prep: finely chopped, note: medium}
+  - {ingredient: garlic, qty: 3, prep: minced}
+  - {ingredient: tomato, qty: 2, prep: diced}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 2}
+  - {ingredient: peanut-butter, unit: cup, qty: 1}
+  - {ingredient: paprika, unit: tbsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: water, unit: cup, qty: 4}
+  - {ingredient: parsley, prep: chopped}
+steps:
+- Heat the vegetable oil in a large pot over medium heat.
+- Add the onions and garlic to the pot and sauté until they become translucent.
+- Stir in the diced tomatoes and tomato paste, cooking for a few minutes until the tomatoes soften.
+- Add the peanut butter, ground paprika, cayenne pepper, salt, and pepper to the pot. Stir well to combine all the ingredients.
+- Slowly pour in the water while continuously stirring the mixture to ensure the peanut butter is well incorporated.
+- Bring the sauce to a simmer and let it cook for about 15–20 minutes, allowing the flavors to meld together.
+- Gently place the bonga fish fillets into the simmering sauce, making sure they are fully submerged. Cook for another 10–15 minutes or until the fish is fully cooked and flakes easily.
+- Taste the sauce and adjust the seasoning if needed.
+- Remove the pot from heat and let it cool slightly before serving.
+- Garnish with freshly chopped parsley or cilantro.
+- Serve the bonga fish domoda hot with rice or couscous.
+tips:
+- Bonga fish domoda can be customized by adding vegetables such as carrots, potatoes, or bell peppers for added flavor and texture.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABonga_Fish_Domoda_%28Gambian_Fish_in_Peanut_Sauce%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bonga Fish Domoda (Gambian Fish in Peanut Sauce)@4512213
+    url: https://en.wikibooks.org/w/index.php?oldid=4512213
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

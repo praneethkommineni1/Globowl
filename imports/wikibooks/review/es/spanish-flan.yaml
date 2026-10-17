@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: Caramel ice cream topping
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: es-spanish-flan
+title: Spanish Flan
+summary: Spanish Flan.
+origin:
+  country: ES
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 5}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: condensed-milk, unit: can, qty: 1}
+  - {ingredient: condensed-milk, unit: can, qty: 1}
+steps:
+- Heat oven to 375°F.
+- Combine all ingredients except caramel topping in blender. Blend for 2 minutes.
+- Place a thin layer of caramel topping on bottom of a round pie pan. Pour egg mixture on top of caramel topping.
+- Place the smaller pie pan in a larger pan filled with enough water so that it comes about 1 inch up the side of the smaller pan. This will act as a bain marie and stop the flan from burning.
+- Place both pans in oven. Cook for 1 hour or until center is firm.
+- Remove from oven and let cool.
+- Place a round dish over the top of the smaller pan, and flip it over to unmold it. The flan can be served on the dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASpanish_Flan&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Spanish Flan@4587149
+    url: https://en.wikibooks.org/w/index.php?oldid=4587149
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

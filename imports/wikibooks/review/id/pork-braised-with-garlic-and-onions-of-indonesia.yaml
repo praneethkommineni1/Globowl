@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: id-pork-braised-with-garlic-and-onions-of-indonesia
+title: Pork Braised with Garlic and Onions of Indonesia
+alternate_names:
+- Babi Kecap
+summary: This is a traditional Indonesian dish.
+origin:
+  country: ID
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: pork, unit: kg, qty: 1}
+  - {ingredient: onion, qty: 5, prep: chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 5, prep: minced}
+  - {ingredient: soy-sauce, unit: tsp, qty: 4}
+  - {ingredient: ginger}
+  - {ingredient: black-pepper}
+  - {ingredient: red-chili, optional: true}
+steps:
+- Cut the meat into 1-inch (2.5 cm) cubes.
+- Add the onions, garlic and ginger to a pan and cook at around 200°C.
+- Add the pork and mix with the soy sauce and black pepper (and chili pepper if desired).
+- After about 3–4 minutes, reduce the heat to around 120°C and cook, covered, for one hour.
+- Serve with nice-tasting rice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APork_Braised_with_Garlic_and_Onions_of_Indonesia_%28Babi_Kecap%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pork Braised with Garlic and Onions of Indonesia (Babi Kecap)@4507094
+    url: https://en.wikibooks.org/w/index.php?oldid=4507094
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

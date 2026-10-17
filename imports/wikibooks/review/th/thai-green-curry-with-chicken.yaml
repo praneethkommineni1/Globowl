@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 tbsp Thai green curry paste
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: th-thai-green-curry-with-chicken
+title: Thai Green Curry with Chicken
+summary: Thai Green Curry with Chicken.
+origin:
+  country: TH
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: brown-sugar, unit: tbsp, qty: 1}
+  - {ingredient: lemongrass, qty: [1, 2], prep: fat ends bashed with a rolling pin, optional: true}
+  - {ingredient: chicken, unit: g, qty: 750, prep: 'boneless chicken, cut into chunks'}
+  - {ingredient: kaffir-lime-leaf, qty: [6, 8], prep: torn into pieces}
+  - {ingredient: coconut-milk, unit: ml, qty: 400}
+  - {ingredient: fish-sauce, qty: 1}
+  - {ingredient: cilantro, qty: 1, prep: roughly chopped, note: small}
+  - {ingredient: lime, qty: [0.5, 1], prep: juiced}
+steps:
+- Heat the oil in a wok or large frying pan.
+- Add the green curry paste and sugar and cook over a fairly high heat for about a minute, stirring with the lemongrass, if using.
+- Reduce the heat slightly and stir in the chicken pieces and lime leaves or zest until coated in the paste.
+- Add the coconut milk, fish sauce or soy sauce and bring to a simmer, cooking for 25–30 minutes until thickened slightly.
+- Stir in the coriander and lime juice.
+- Check for seasoning, adding more fish sauce or soy sauce if needed.
+- Leave the curry to sit for a few minutes so the sauce becomes creamier. You will also taste the true flavours of the curry paste ingredients when it's slightly cooler.
+- Serve with lots of fragrant Thai jasmine rice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AThai_Green_Curry_with_Chicken&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Thai Green Curry with Chicken@4599053
+    url: https://en.wikibooks.org/w/index.php?oldid=4599053
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

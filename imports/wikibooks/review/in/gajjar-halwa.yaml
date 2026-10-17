@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-gajjar-halwa
+title: Gajjar Halwa
+alternate_names:
+- Carrot Pudding
+summary: Gajjar Halwa.
+origin:
+  country: IN
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: carrot, qty: [2, 3], note: large}
+  - {ingredient: cashews, unit: cup, qty: 0.5, prep: broken}
+  - {ingredient: raisins, unit: cup, qty: 0.5, prep: washed}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: sugar, unit: tsp, qty: [2, 3]}
+  - {ingredient: green-cardamom-pods, qty: 4}
+  - {ingredient: ground-cinnamon, unit: pinch, qty: 1}
+  - {ingredient: butter, unit: tbsp, qty: 1}
+  - {ingredient: milk, unit: cup, qty: 1}
+steps:
+- Cut off the blemished ends of the carrots, wash them, and then peel them.
+- Grate the carrots, and transfer the grated carrots into a saucepan.
+- Add the cashews, raisins, salt, sugar, cardamom, cinnamon, butter, and milk.
+- Heat the saucepan and bring the contents to a boil, while mixing.
+- Cook until the milk has mostly evaporated.
+- Serve with a sprinkling of cinnamon powder on top.
+tips:
+- When the milk is almost evaporated you can add 50–100g of khoya (dried milk solids) for a richer taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGajjar_Halwa_%28Carrot_Pudding%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gajjar Halwa (Carrot Pudding)@4656176
+    url: https://en.wikibooks.org/w/index.php?oldid=4656176
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

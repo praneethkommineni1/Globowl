@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1/2 cup pea pods
+#  - unmapped ingredient: 6 cups torn mixed greens
+#  - unmapped ingredient: 2 cups thinly-sliced Nappa cabbage
+#  - unmapped ingredient: Sesame crackers
+id: xx-asian-inspired-chicken-salad
+title: Asian-Inspired Chicken Salad
+summary: This chicken salad is inspired by east and southeast Asian-associated flavors of soy, ginger, sesame, and mango.
+origin:
+  country: XX
+course: salad
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 15
+difficulty: 3
+techniques:
+- blanching
+ingredient_groups:
+- items:
+  - {ingredient: broccoli, unit: cup, qty: 1.5}
+  - {ingredient: carrot, unit: cup, qty: 0.5}
+  - {ingredient: chicken, qty: 1, prep: cut in strips}
+  - {ingredient: ginger, unit: cup, qty: 0.75}
+  - {ingredient: mango, qty: 1, prep: 'peeled, seeded, and thinly sliced', optional: true}
+steps:
+- In large saucepan quickly plunge broccoli and pea pods into boiling water for 30 seconds. Drain vegetables. Quickly rinse with cold water. Drain well.
+- In large bowl toss together the blanched broccoli and pea pods, greens, cabbage and carrots.
+- Add chicken.
+- Drizzle with salad dressing. Toss to coat.
+- Arrange on 4 serving plates.
+- Top with mango, if desired.
+- Serve with crackers.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAsian-Inspired_Chicken_Salad&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Asian-Inspired Chicken Salad@4630322
+    url: https://en.wikibooks.org/w/index.php?oldid=4630322
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 12 oz smoked provolone cheese, grated or cut into small pieces
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ge-khachapuri
+title: Khachapuri
+alternate_names:
+- Georgian Cheese Bread
+summary: Khachapuri.
+origin:
+  country: GE
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- name: Dough
+  items:
+  - {ingredient: water, unit: cup, qty: 0.5}
+  - {ingredient: yeast, qty: 1}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: egg, qty: 3}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2, prep: 'plus more to dust counter top, hands, etc.'}
+- name: Filling
+  items:
+  - {ingredient: egg, qty: 3}
+  - {ingredient: feta, unit: g, qty: 227, prep: grated or cut into small pieces}
+  - {ingredient: parmesan, unit: g, qty: 57, prep: grated or cut into small pieces}
+steps:
+- Add sugar to warm water in a large bowl. Add yeast and wait 5 minutes.
+- Add eggs, flour, and salt. Mix with fork until dough becomes too stiff.
+- Knead with hands until smooth, approximately five minutes, on floured surface. Add flour as needed if dough sticks to your hands.
+- Let dough rise in greased bowl for 30 minutes in a warm place or until doubled in size. Punch down dough, and let it rise again.
+- While dough is rising, mix ingredients for filling in separate bowl.
+- Preheat oven to 350°F.
+- When dough is ready, divide in half. With a rolling pin, flatten dough until it is the size and shape of your cookie sheet. Carefully lay flattened dough on greased cookie sheet.
+- Cover dough with cheese filling prepared as above, spreading evenly to within ½ inch of the edge of dough. Roll out the remaining dough to the same size as shape. Cover cheese filling with second layer of dough. Moisten the edges of the dough with water and press to seal.
+- Bake at 350°F for 10 minutes. Butter the top layer of dough liberally. Return Khachapuri to oven and continue cooking until dough is golden brown.
+- Cut with a pizza cutter or knife. Serve hot, cold, or reheated in the microwave!
+tips:
+- In Georgia, khachapuri is often made with homemade cheese. If you're feeling ambitious, find a simple cheese recipe and give it a shot! Also, if you would prefer not to make your own dough, a refrigerated tube of French bread dough (e.g. Pillsbury) work nicely as well.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKhachapuri_%28Georgian_Cheese_Bread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Khachapuri (Georgian Cheese Bread)@4515084
+    url: https://en.wikibooks.org/w/index.php?oldid=4515084
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

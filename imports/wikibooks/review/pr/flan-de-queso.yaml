@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: pr-flan-de-queso
+title: Flan de Queso
+alternate_names:
+- Cream Cheese Flan
+summary: This recipe for flan de queso was originally contributed by Brenda Ortiz.
+origin:
+  country: PR
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- name: Flan
+  items:
+  - {ingredient: cream-cheese, unit: g, qty: 227}
+  - {ingredient: condensed-milk, unit: g, qty: 397}
+  - {ingredient: evaporated-milk, unit: ml, qty: 355}
+  - {ingredient: egg, qty: 4, note: large}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+- name: Caramel
+  items:
+  - {ingredient: sugar, unit: cup, qty: 1}
+steps:
+- Preheat oven to 350°F (175°C)
+- Add cream cheese, leche condensada, evaporated milk, eggs, and vanilla extract into a mixing bowl. Mix ingredients thoroughly at medium speed until smooth.
+- Place the sugar in the bottom of a small circular baking pan. Add the flan mixture on top without mixing the two layers.
+- Fill a large rimmed baking sheet with about 1.5 inch of water. This is called baño de Maria (bain-marie).
+- Carefully place baking sheet with flan mixture in the baño de Maria.
+- Bake flan for 45–50 minutes in the preheated oven. The flan is ready when you insert a toothpick in the center and it comes out clean.
+- Let flan cool until safe to handle. Tip the flan pan upside-down onto a serving plate, and refrigerate for 5 hours.
+- Serve with fresh mint leaves for garnish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFlan_de_Queso_%28Cream_Cheese_Flan%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Flan de Queso (Cream Cheese Flan)@4522208
+    url: https://en.wikibooks.org/w/index.php?oldid=4522208
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

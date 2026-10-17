@@ -1,0 +1,72 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 4 cups crumbled cornbread
+#  - unmapped ingredient: 2 teaspoons dried/rubbed sage
+#  - unmapped ingredient: 1/4 cup dried cherries, stemmed and finely chopped
+#  - unmapped ingredient: 1 ea. whole turkey
+#  - course unknown from categories
+id: xx-roast-turkey-with-stuffing
+title: Roast Turkey with Stuffing
+summary: Roast turkey usually forms the centerpiece of Thanksgiving in the United States. There are many recipes and methods for cooking whole turkeys. Below is one of the simplest and therefore one of the most traditional.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 240
+difficulty: 3
+techniques:
+- roasting
+ingredient_groups:
+- name: Stuffing
+  items:
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: apple, unit: cup, qty: 1, prep: diced}
+  - {ingredient: walnuts, unit: cup, qty: 0.75, prep: roughly chopped}
+  - {ingredient: buttermilk, unit: cup, qty: 1}
+  - {ingredient: egg-yolk, qty: 8, prep: beaten}
+  - {ingredient: butter, qty: 1, prep: softened and whipped}
+  - {ingredient: chicken, unit: cup, qty: 2.5}
+- name: Turkey
+  items:
+  - {ingredient: butter, unit: cup, qty: 0.5, prep: softened}
+  - {ingredient: chicken-stock, qty: 1.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Combine stuffing ingredients in a bowl and mix well.
+- Preheat oven to 325°F. Place the rack in the lowest position of the oven.
+- Remove the neck and giblets.
+- Rinse the turkey and pat it dry with paper towels.
+- Place the turkey, breast side up, on a rack in the roasting pan. Rub the skin with softened butter, and season with salt and pepper.
+- Fill the body cavity with stuffing.
+- Place a meat thermometer in the thickest part of one thigh.
+- Position an aluminum foil tent over the turkey.
+- Place the turkey in the oven and pour 2 cups of stock into the bottom of the roasting pan.
+- Roast the turkey for 2½ hours, basting the entire turkey every 30 minutes with the juices on the bottom of the pan. Add stock to the drippings as they become dry, about 1–2 cups at a time.
+- Remove aluminum foil tent.
+- Roast until the meat reaches 185°F and the stuffing reaches 165°F. This should take about 4 hours. If the stuffing isn't done by the time the turkey is ready, scoop the stuffing out and bake it alone in the oven until it reaches the correct temperature.
+- Serve immediately.
+tips:
+- If you can't find pre-made stock in a store then you'll have to make it. You should know, however, turkey stock requires four hours of simmering. So make your stock the day before you make the turkey and stuffing. If you don't have the time to make turkey stock then use pre-made chicken stock which all supermarkets carry. Here's a great recipe for turkey stock from the Food Network.
+- Cooking turkey and stuffing involves the risk of salmonella poisoning. To prevent this, cook the turkey to 185 degrees Fahrenheit and the stuffing to 165 degrees Fahrenheit. Also, avoid cross contamination by keeping raw turkey away from all foods and wash your hands thoroughly after handling it.
+- The most effective way to measure food temperatures is with a digital meat thermometer.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARoast_Turkey_with_Stuffing&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Roast Turkey with Stuffing@4518719
+    url: https://en.wikibooks.org/w/index.php?oldid=4518719
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

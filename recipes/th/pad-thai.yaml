@@ -1,0 +1,65 @@
+id: th-pad-thai
+title: Pad Thai
+summary: This is a family recipe, so it may not be accurate. It is still delicious, though.
+origin:
+  country: TH
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–3
+time:
+  total_min: 20
+difficulty: 3
+techniques:
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: noodles, unit: g, qty: 227}
+  - {ingredient: fish-sauce, unit: cup, qty: 0.25}
+  - {ingredient: white-vinegar, qty: 3}
+  - {ingredient: tamarind-paste, unit: cup, qty: 0.25}
+  - {ingredient: palm-sugar, unit: cup, qty: 0.25}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 4}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: chopped}
+  - {ingredient: red-chili, unit: tbsp, qty: 2}
+  - {ingredient: shrimp, unit: g, qty: 227, prep: 'tofu, chicken, squid, or beef'}
+  - {ingredient: carrot}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: scallion, qty: 4}
+  - {ingredient: bean-sprouts, unit: g, qty: 340}
+  - {ingredient: roasted-peanuts, unit: cup, qty: 0.75}
+- name: Optional
+  items:
+  - {ingredient: lime}
+  - {ingredient: cilantro}
+steps:
+- Soak the noodles in warm water for about 20 minutes and strain. Alternatively, pour boiling water over the noodles and let them sit for 7 minutes.)
+- Mix the fish sauce with the vinegar, sugar and tamarind juice together in a small bowl.
+- Heat the vegetable oil in a wok on high, and brown the chopped garlic and chili peppers for a minute.
+- Cook the meats/tofu in oil, until they are browned (6–8 minutes).
+- Add assorted veggies and cook until tender.
+- Add noodles. Crack the eggs over the noodles, allow them to cook, and then mix them up.
+- Add the fish sauce mix into the wok, mix it all up and turn the heat down to medium.
+- Add the chopped green onions and bean sprouts, then stir fry for 2 more minutes.
+- Serve on a large plate or bowl. Garnish with chopped peanuts and, optionally, chopped cilantro or coriander and a wedge of lime.
+tips:
+- A squirt of ketchup can be used instead of tamarind for a quick-and-easy variation.
+- If you can only find tamarind paste rather than tamarind juice, you can combine 25&nbsp;ml (5&nbsp;teaspoons) paste with 50&nbsp;ml (3&nbsp;tablespoons + 1&nbsp;teaspoon) water (for unsweetened paste) or with 35&nbsp;ml (2&nbsp;tablespoons + 1&nbsp;teaspoon) water + 15&nbsp;ml (1&nbsp;tablespoon) lime juice or lemon juice (for sweetened paste) to make "reconstituted" tamarind juice.
+- Chop cilantro/coriander and mix it with the noodles and other ingredients at the last minute. Take care not to overcook it, or it will become slimy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APad_Thai&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pad Thai@4581549
+    url: https://en.wikibooks.org/w/index.php?oldid=4581549
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

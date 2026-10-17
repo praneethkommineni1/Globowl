@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Mudu palm fruit
+#  - unmapped ingredient: Small bunch of atama leaves
+#  - unmapped ingredient: Medium-sized snails
+#  - unmapped ingredient: Small piece of uyayak
+#  - unmapped ingredient: 1 cup of periwinkles
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-atama-soup
+title: Atama Soup
+summary: Atama soup is a very rich palm fruit soup, made of vegetables and mudu palm fruits and mostly consumed by the people from Southern Nigeria. It is the Akwa Ibom version of Banga soup.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Pot
+- Stove
+- Knife
+- Bowl
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: kg, qty: 1}
+  - {ingredient: smoked-fish}
+  - {ingredient: potash, note: small}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 1}
+  - {ingredient: water}
+  - {ingredient: chicken-bouillon-cube, qty: 2}
+  - {ingredient: salt, note: to taste}
+steps:
+- Cut a little piece of the tail end of periwinkle, then wash thoroughly and boil with a teaspoon of salt of about for about 8–10 minutes until it foams. Remove and wash thoroughly to get rid of the dirt.
+- Wash and boil palm fruits for about 30 minutes. Drain off water and pound for few minutes. Add palm fruits to warm water, mix thoroughly, and drain off the oily extract.
+- Remove unwanted bits of snails, add 2 tbsp salt, and knead to remove the slime. Use lime to wash snail thoroughly to remove the remaining slime. Season and boil snail until it’s cooked.
+- Cut and finely grind the atama leaves.
+- Pour the oily palm fruit extract in a pot, boil for about 5 minutes, add boiled snail, meat, cleaned fish, periwinkle, pepper, and maggi. Stir and allow to boil for about 10 minutes.
+- Add atama leaves, and let it boil for 10 minutes without stirring.
+- Add uyayak and salt to taste, then stir well. Allow to simmer for another 10–15 minutes.
+- Remove from heat, then serve with pounded yam, fufu, or boiled rice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAtama_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Atama Soup@4518342
+    url: https://en.wikibooks.org/w/index.php?oldid=4518342
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

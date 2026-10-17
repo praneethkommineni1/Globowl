@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tsp Chinese five-spice powder
+#  - no time in recipe summary
+id: vn-cao-lau
+title: Cao lầu
+alternate_names:
+- Vietnamese Pork Noodles with Greens
+summary: Cao lầu is a Vietnamese regional noodle dish that originated in Hội An, in the Quang Nam Province of central Vietnam.
+origin:
+  country: VN
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3–4
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: pork, unit: g, qty: 300}
+  - {ingredient: noodles, unit: cup, qty: 2}
+  - {ingredient: bean-sprouts, unit: cup, qty: 2}
+  - {ingredient: garlic, unit: clove, qty: 4}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 1}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: bouillon-cube, unit: pinch, qty: 1}
+  - {ingredient: ground-turmeric, prep: for color}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: lettuce}
+  - {ingredient: basil}
+  - {ingredient: red-chili}
+  - {ingredient: croutons}
+  - {ingredient: scallion}
+steps:
+- Heat oil and paprika in a pan.
+- Add pork, smashed garlic, soy sauce, chicken stock, and spices. Fry for 3 minutes
+- Add 1 tbsp water and fry for a further 2 minutes.
+- Remove from heat, and set aside.
+- Bring a pot of water to a boil. Add sprouts, and cook for 1–2 minutes until soft.
+- Remove sprouts, add noodles, and cook noodles for 2 minutes.
+- Put noodles in a bowl on top of lettuce and greens. Add pork mixture, chopped spring onions, croûtons, and chiles.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACao_l%E1%BA%A7u_%28Vietnamese_Pork_Noodles_with_Greens%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cao lầu (Vietnamese Pork Noodles with Greens)@4504850
+    url: https://en.wikibooks.org/w/index.php?oldid=4504850
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ph-chicken-sopas
+title: Chicken Sopas
+summary: Sopas is a Filipino macaroni soup made with elbow macaroni, meat, vegetables, and milk.
+origin:
+  country: PH
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: tbsp, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: chicken, unit: g, qty: 250, prep: still attached to the bones}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: water, unit: cup, qty: [3, 4]}
+  - {ingredient: macaroni, unit: cup, qty: 1}
+  - {ingredient: carrot, qty: 1, prep: diced}
+  - {ingredient: white-cabbage, qty: 0.5, prep: shredded}
+  - {ingredient: evaporated-milk, unit: ml, qty: 375}
+steps:
+- Preheat oil in a pot. Add onion and garlic, and sauté them. Be careful not to burn them, as this will give your soup a burnt and bitter taste.
+- Add the chicken, salt, and pepper. Let it cook but don't let it brown. Browning the meat will give you a dark broth with an unpleasant taste.
+- Pour in water and bring everything to a boil.
+- As soon as the water boils, the scum from the chicken will rise to the top—you can skim it off.
+- Season again with salt and pepper—this is called "layering" in cooking.
+- Add the elbow macaroni and cook for 7 minutes or so.
+- The macaroni will have absorbed some of the salt by now, so season again with salt.
+- Add the carrots and cabbage. Mix well.
+- Add in the milk but don't let it boil—boiling will make the milk separate and ruin the soup's texture.
+- Serve immediately because the elbow macaroni will absorb most of the milky broth if you let it stand too long.
+- Enjoy!
+tips:
+- Using meat with bones will make the broth tastier without the use of bouillon cubes.
+- You can use fish sauce instead of salt for added flavor.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Sopas&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chicken Sopas@4518369
+    url: https://en.wikibooks.org/w/index.php?oldid=4518369
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

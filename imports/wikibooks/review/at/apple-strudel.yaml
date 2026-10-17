@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no ingredient lines parsed
+id: at-apple-strudel
+title: Apple Strudel
+summary: Apple strudel is said to be a famous Viennese dish. When the Turks occupied Hungary, they introduced strudel-like pastries to Hungarians. Thanks to the high percentage of gluten in the Hungarian wheat flour, strudel became quite popular in Hungary.
+origin:
+  country: AT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 8
+  amount: 8–12
+time:
+  total_min: 80
+difficulty: 4
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Combine the flour and salt. Mound the flour on a wooden work surface.
+- Make a well in the center of the flour. Add some of the water and oil to the well (be careful not to take too much liquid at once). Mix in a little flour from the edges (be careful not to break the "wall" of flour and let the liquid out). Knead mixture until liquid is incorporated.
+- Repeat step 2 until all the oil and water are incorporated.
+- Knead the dough until it is smooth and does not stick to the hands or the board anymore.
+- Flour a slightly warmed bowl (this dough does not like to get cold). Grease the dough with some extra oil so it cannot form a skin. Place the greased dough in the bowl.
+- Cover the bowl with a damp dish cloth, but the cloth should not touch the dough. Let dough rest for 30 minutes (prepare the filling in the meantime). The dough should be soft and smooth.
+- Flour a very large cloth (e.g. a bedsheet). Put the dough on the sheet and tumble it
+- Flour your hands. With the back of your hand facing upwards, place your hands under the dough. Spread your fingers to stretch the dough, and use the other hand to pull the dough towards the edge of the sheet. Repeat this gradually until the dough is as thin as paper. Be careful not to tear the dough with your fingers. Cut the thick edges off and discard.
+- Proceed to the filling and assembly stage.
+- Scatter the breadcrumbs over ⅔ of the dough. Arrange the apple slices on top of the breadcrumbs. Sprinkle sugar, cinnamon, raisins, and nuts over the apples.
+- Brush the remaining ⅓ of the dough with some melted butter.
+- Fold the side edges slightly in towards the center. These will be the ends of the strudel once it is rolled up. If you know how to roll a burrito, assembling the strudel is an analogous process.
+- Begin to roll up the strudel, starting with the apple section. Use the cloth to help roll the strudel up completely. Again, it is similar to rolling a burrito.
+- Transfer the strudel to a baking sheet. Brush the entire rolled-up strudel with some melted butter. Do not neglect the two ends.
+- Bake in a preheated 180°C oven for 35 minutes. Brush the strudel with melted butter two or three times during the first 15 minutes of baking to help it brown.
+- When browned and cooked through, remove from oven. Cool slightly.
+- Slice into individual portions, and serve sprinkled with powdered sugar.
+tips:
+- For the apple strudel of the old-Viennese style, ¼ L sour cream or slightly whipped cream, and 80 g coarsely chopped nuts are added to the original recipe before the strudel is rolled up.
+- For the apple strudel of Salzburg's cuisine, some sugared milk is poured over the stuffing in order to keep the strudel juicy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AApple_Strudel&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Apple Strudel@4658346
+    url: https://en.wikibooks.org/w/index.php?oldid=4658346
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,63 @@
+id: ng-nigerian-egg-pepper-soup
+title: Nigerian Egg Pepper Soup
+summary: Egg pepper soup is a popular Nigerian dish known for its simplicity and bold flavors. It is a delicious combination of eggs, peppers, and spices, creating a rich and flavorful soup.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2-3
+time:
+  total_min: 75
+difficulty: 2
+equipment:
+- Saucepan
+- Whisk or fork
+- Cutting board
+- Knife for chopping
+- Wooden spoon or spatula
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: red-bell-pepper, qty: 2, prep: thinly sliced}
+  - {ingredient: tomato, qty: 2, prep: chopped}
+  - {ingredient: egg, qty: 4}
+  - {ingredient: chicken-stock, unit: cup, qty: 2}
+  - {ingredient: cayenne, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: cilantro, prep: for garnish, optional: true}
+steps:
+- Heat the vegetable oil in a saucepan over medium heat. Add the chopped onions and minced garlic, and sauté until the onions become translucent and slightly golden.
+- Add the sliced bell peppers and chopped tomatoes to the saucepan. Cook for a few minutes until the vegetables start to soften.
+- In a separate bowl, crack the eggs and whisk them until well-beaten. Set aside.
+- Add the chicken or vegetable broth to the saucepan with the vegetables. Stir in the ground cayenne pepper, paprika, cumin, and coriander. Season with salt to taste. Bring the mixture to a gentle simmer.
+- Slowly pour the beaten eggs into the simmering soup, stirring gently with a wooden spoon or spatula in one direction. This will create thin strands of cooked egg throughout the soup.
+- Continue cooking the soup for about 3–4 minutes, allowing the egg to cook and thicken the soup slightly.
+- Taste the soup and adjust the seasoning if needed. Add more salt or spices according to your preference.
+- Once the soup is ready, remove it from the heat.
+- Serve hot, garnished with fresh cilantro or parsley if desired.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Egg_Pepper_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Egg Pepper Soup@4518467
+    url: https://en.wikibooks.org/w/index.php?oldid=4518467
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

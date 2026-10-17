@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 part by weight of a 50/50 mix of suet and other fat
+#  - no servings in recipe summary
+id: gb-figgie-obbin
+title: Figgie 'obbin
+alternate_names:
+- Cornish Raisin Pastry
+summary: Figgie 'obbin, also called figgie hobbin, is an old Cornish recipe. It is good served hot with clotted cream, burnt cream, or baked custard; or cold with tea or coffee or cocoa.
+origin:
+  country: GB
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 10
+difficulty: 1
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, qty: 2}
+  - {ingredient: raisins, qty: 2}
+  - {ingredient: water}
+steps:
+- Rub the suet, fat, and flour together.
+- Mix in the raisins, and add enough water or milk to make a stiff dough.
+- Roll out to about 1 inch thick. Press gently into a prepared shallow baking tin or dish.
+- Bake in a hot oven for about 35–45 minutes.
+tips:
+- Currants and/or sultanas may be mixed with or substituted for raisins.
+- Vegetable suet, vegetable lard, or butter, can be used instead of beef or mutton suet and dripping; this will give a lighter cake.
+- Figgie/Fig/Figs are Cornish dialect words pertaining to raisins
+- From Perranporth W.I. in Cornish Recipes, Ancient & Modern, 22nd Edition, The Cornwall Federation of Women's Institutes 1965. First collected & published by Edith Martin, Tregavethan, Truro, 1929, for The Cornwall F. of W. I.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFiggie_%27obbin_%28Cornish_Raisin_Pastry%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Figgie 'obbin (Cornish Raisin Pastry)@4516906
+    url: https://en.wikibooks.org/w/index.php?oldid=4516906
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

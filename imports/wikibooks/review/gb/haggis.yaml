@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 pound beef or lamb liver
+#  - unmapped ingredient: 4 tablespoons Scotch whiskey
+#  - unmapped ingredient: 1 tablespoon eggnog
+#  - unmapped ingredient: 2 cups oatmeal, toasted in a 375°F oven for 10 minutes
+#  - unmapped ingredient: 1/2 teaspoon freshly ground black pepper
+#  - unmapped ingredient: 1/2 teaspoon dried rosemary
+#  - unmapped ingredient: 1/4 teaspoon freshly grated nutmeg
+#  - unmapped ingredient: 3 beef CAPS
+#  - unmapped ingredient: 1 cup distilled white vinegar
+#  - unmapped ingredient: 1/2 tablespoon salt for soaking
+id: gb-haggis
+title: Haggis
+summary: Haggis is the national dish of Scotland, composed of a forcemeat of the heart, liver and lungs of a sheep mixed with oatmeal, well seasoned and put into bags made from the paunch of the sheep. The haggis is then boiled for 2–3 hours and left to get cold.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+time:
+  total_min: 240
+difficulty: 3
+techniques:
+- simmering
+- steaming
+ingredient_groups:
+- name: Major ingredients
+  items:
+  - {ingredient: beef, unit: g, qty: 454, prep: cut into 2 inch-wide strips}
+  - {ingredient: lamb, unit: g, qty: 227, prep: cut in 1-inch cubes}
+  - {ingredient: onion, unit: cup, qty: 1.5}
+- name: Seasonings
+  items:
+  - {ingredient: salt, unit: tsp, qty: 2}
+  - {ingredient: dried-thyme, unit: tsp, qty: 1, prep: whole}
+steps:
+- Place the beef heart in a 4-quart (about 3–3.5 litre) covered pot and just cover with cold water. Simmer, covered, for 1 hour and 10 minutes.
+- Add the beef liver and lamb stew meat, cover, and simmer for 20 minutes. Remove the contents of the pot and cool. Reserve 1 cup of the liquid. Grind all the meat coarsely.
+- In a large bowl mix all of the ingredients except for the beef caps, vinegar, and salt for soaking. Mix well and set aside.
+- Rinse the beef caps in cold water. Turn them inside out and soak them in 2 quarts of cold water with the salt and vinegar for ½ hour. Drain them and rinse very well, inside and out.
+- Divide the meat mixture into three parts. Fill the beef caps with the meat mixture and tie the ends off with string. Two will have to be tied on just one end, but the third piece will be tied on both ends. Prick the Haggis all over with corn holders or a sharp fork. Place in a steamer and steam for 1 hour and 20 minutes.
+- Serve the haggis, sliced, with beef or lamb gravy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHaggis&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Haggis@4513191
+    url: https://en.wikibooks.org/w/index.php?oldid=4513191
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

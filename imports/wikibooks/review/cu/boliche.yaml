@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 tbsp Goya adobo seasoning
+#  - unmapped ingredient: 2 packets Goya sazon con azafran
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+id: cu-boliche
+title: Boliche
+alternate_names:
+- Cuban Chorizo-Stuffed Roast
+summary: Boliche (pronounced bow-lee-chay) is a popular Cuban dish consisting of eye round roast stuffed with chorizo sausages simmered in a tomato sauce base.
+origin:
+  country: CU
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- roasting
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: [1361, 2268]}
+  - {ingredient: chorizo, qty: 4, prep: quartered lengthwise}
+  - {ingredient: saffron, qty: 2, note: large}
+  - {ingredient: garlic, unit: clove, qty: 6, prep: minced}
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: red-bell-pepper, qty: 1, note: large}
+  - {ingredient: bay-leaf, qty: 3}
+  - {ingredient: dried-oregano, qty: [1, 2], note: heaping}
+  - {ingredient: olives, unit: tbsp, qty: 3}
+  - {ingredient: capers, unit: tbsp, qty: 3}
+  - {ingredient: red-wine, unit: cup, qty: 1}
+  - {ingredient: canned-tomatoes, unit: can, qty: 1}
+  - {ingredient: olive-oil, unit: cup, qty: 0.25}
+  - {ingredient: cilantro, qty: 1}
+steps:
+- Cut slits into eye round roast, and stuff with quartered chorizos (follow the grain of meat).
+- Lightly rub meat with adobo seasoning.
+- Brown the meat on all sides in a sauté pan to seal in the juices. Remove and place in a large covered roasting pan.
+- In the same pan as the beef was browned, add saffron, garlic, onions, peppers, bay leaves, oregano, olives, capers, and the Sazon seasoning. Sauté until the onions are translucent in color.
+- Deglaze with red wine, turn heat down, and simmer about 5 minutes. Add the cilantro and the tomato sauce and stir well.
+- Pour this mixture over the beef, and roast at 325 °F for 1 ½–2 hours, or until meat is tender. Turn the roast over and baste with the sauce once in a while to assure full flavor penetration and even cooking.
+- Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABoliche_%28Cuban_Chorizo-Stuffed_Roast%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Boliche (Cuban Chorizo-Stuffed Roast)@4513973
+    url: https://en.wikibooks.org/w/index.php?oldid=4513973
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

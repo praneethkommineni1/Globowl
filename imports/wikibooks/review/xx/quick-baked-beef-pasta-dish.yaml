@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 32 ounce jar or can of your favorite spaghetti sauce
+#  - course unknown from categories
+id: xx-quick-baked-beef-pasta-dish
+title: Quick Baked Beef-Pasta Dish
+summary: Quick Baked Beef-Pasta Dish.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 60
+difficulty: 1
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: beef-mince, unit: g, qty: 454, prep: crumbled}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: italian-seasoning, unit: tbsp, qty: 2}
+  - {ingredient: pasta, unit: g, qty: 454, prep: 'such as rigatoni or penne, cooked al dente'}
+  - {ingredient: cooking-spray}
+  - {ingredient: mozzarella, unit: cup, qty: 2}
+steps:
+- Preheat oven to 350°F.
+- Cook beef and onion in a large skillet until meat is lightly browned. Drain and sprinkle with Italian Seasoning.
+- In a large bowl, combine meat mixture and spaghetti sauce and mix well. Add cooked pasta and mix well.
+- Spray large baking dish with cooking spray.
+- Pat meat-pasta mixture level in baking pan.
+- Sprinkle mozzarella cheese over top.
+- Cover with aluminium foil, and bake in oven 20 minutes.
+- Remove foil, and bake uncovered another 10 minutes.
+tips:
+- The baking dish should be large enough to have contents in 1–2 inch layer.
+- Don't overcook, or pasta will absorb too much liquid and get soggy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AQuick_Baked_Beef-Pasta_Dish&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Quick Baked Beef-Pasta Dish@4605248
+    url: https://en.wikibooks.org/w/index.php?oldid=4605248
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

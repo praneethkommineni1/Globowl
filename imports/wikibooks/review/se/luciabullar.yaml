@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/4 cup lukewarm water
+#  - unmapped ingredient: 3/4 cup half and half, lukewarm
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: se-luciabullar
+title: Luciabullar
+alternate_names:
+- Scandinavian Saffron Buns
+summary: Lussekatter or luciabullar are Scandinavian saffron buns served on St. Lucia Day (13 December).
+origin:
+  country: SE
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: yeast, qty: 2}
+  - {ingredient: saffron, unit: tsp, qty: 0.5}
+  - {ingredient: butter, unit: cup, qty: 0.5}
+  - {ingredient: egg, qty: 2, prep: beaten}
+  - {ingredient: sugar, unit: cup, qty: 0.75}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: all-purpose-flour, unit: cup, qty: [4, 5]}
+  - {ingredient: raisins}
+steps:
+- Combine the yeast and warm water.
+- Mix saffron into the warm half and half and let stand.
+- Combine the yeast and saffron mixtures. Mix in the melted butter, eggs, sugar, and salt.
+- Mix half of flour into the wet mixture and beat until well-blended.
+- Mix in additional flour until dough is smooth but not too firm. Knead on floured surface for ten minutes.
+- Place dough in buttered bowl and let rise about 1½ hours or until doubled in volume.
+- Divide the dough into multiple pieces. Roll each piece into a 7 inch-long snake, and form into an 'S' shape with the ends curled in. Place a raisin in each curl.
+- Place buns on buttered sheet pan, cover, and let rise 45 minutes.
+- Brush with beaten egg and bake at 375–400°F (190–200°C) for 10–15 minutes until golden and cooked through.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALuciabullar_%28Scandinavian_Saffron_Buns%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Luciabullar (Scandinavian Saffron Buns)@4505679
+    url: https://en.wikibooks.org/w/index.php?oldid=4505679
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: al-tirana-fergese-with-peppers
+title: Tirana Fërgesë with Peppers
+summary: Tirana Fergese with peppers (Fergesë e Tiranës me piperka), is an Albanian dish of peppers. It is sometimes served as an appetizer.
+origin:
+  country: AL
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- baking
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: red-bell-pepper, unit: g, qty: 227}
+  - {ingredient: tomato, unit: g, qty: 454}
+  - {ingredient: feta, unit: g, qty: 227}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 1}
+  - {ingredient: butter, unit: g, qty: 113}
+  - {ingredient: olive-oil, unit: tbsp, qty: 3}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: red-chili, note: to taste}
+steps:
+- Peel the skin off the tomatoes and peppers. Sauté them with the olive oil in a saucepan for 5–7 minutes. Set them aside to cool for 15 minutes.
+- Chop the tomatoes and peppers the way you like.
+- In another saucepan, melt the butter. Add flour, cottage cheese, and black pepper, salt, and chili pepper to taste. Mix all the ingredients together well, then stir into the vegetable mixture.
+- Bake vegetable mixture in a preheated 350°F (175°C) oven for 15 minutes.
+- Remove from oven and serve immediately.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATirana_F%C3%ABrges%C3%AB_with_Peppers&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tirana Fërgesë with Peppers@4515096
+    url: https://en.wikibooks.org/w/index.php?oldid=4515096
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

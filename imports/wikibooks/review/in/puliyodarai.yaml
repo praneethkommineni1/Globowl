@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tbsp split peas
+#  - unmapped ingredient: 2 tbsp split peas
+id: in-puliyodarai
+title: Puliyodarai
+alternate_names:
+- South Indian Tamarind Rice
+summary: Puliyodarai, is a speciality of the South Indian coastal state of Tamil Nadu. Also see Pulihora.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 20
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- name: Garnishing powder
+  items:
+  - {ingredient: coriander-seeds, unit: tbsp, qty: 1}
+  - {ingredient: ground-fenugreek, unit: tsp, qty: 0.5}
+  - {ingredient: red-chili, qty: [2, 3]}
+- name: Puliyodarai
+  items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 4}
+  - {ingredient: vegetable-oil}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 2}
+  - {ingredient: sesame-seeds, unit: tbsp, qty: 3}
+  - {ingredient: roasted-peanuts, unit: tbsp, qty: 2}
+  - {ingredient: asafoetida, unit: tsp, qty: 0.5}
+  - {ingredient: red-chili, qty: [3, 4]}
+  - {ingredient: curry-leaves, qty: [4, 5]}
+  - {ingredient: tamarind-paste, unit: tbsp, qty: 1.5}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 0.75}
+steps:
+- Dry roast all ingredients in a pan without oil until deep brown.
+- Grind to a fine powder after the mix cools down.
+- Heat the oil in a pan.
+- Add groundnuts and split-peas, and fry until golden brown.
+- Add mustard seeds, asafoetida and red-chillies (broken into pieces). Wait until the mustard seeds splutter, then remove pan from stove.
+- Mix rice, salt, turmeric powder and tamarind concentrate. Add a little oil to the raw rice before cooking it. This gives it a better texture.
+- Add the garnishing powder and curry leaves and mix well.
+tips:
+- Serve with yogurt/curd.
+- Garnishing powder can be prepared ahead of time and can be stored for up to 2 months (no refrigeration needed).
+- Vary amount of salt/spices as needed.
+- 1 tsp sesame can be powdered and added for more taste.
+- A pinch of jaggery can be added
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APuliyodarai_%28South_Indian_Tamarind_Rice%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Puliyodarai (South Indian Tamarind Rice)@4615204
+    url: https://en.wikibooks.org/w/index.php?oldid=4615204
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

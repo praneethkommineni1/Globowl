@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - course unknown from categories
+id: xx-romanian-roasted-eggplant-spread
+title: Romanian Roasted Eggplant Spread
+summary: Salată de vinete (eggplant salad) is a common Romanian spread made with eggplants and onion. It is usually eaten with bread.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 15
+time:
+  total_min: 15
+difficulty: 2
+equipment:
+- Grill or oven
+- Knife
+- Chopping board
+- Bowl
+- Blender (optional)
+techniques:
+- roasting
+ingredient_groups:
+- items:
+  - {ingredient: eggplant, qty: 2}
+  - {ingredient: onion, qty: 0.5, prep: finely diced or grated, note: large}
+  - {ingredient: sunflower-oil, unit: tbsp, qty: 3}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: mayonnaise, unit: tbsp, qty: [1, 2], optional: true}
+steps:
+- Roast the eggplants. This can be done in a variety of ways, but the flesh should be fully cooked and the skin should be burned and falling off easily. An effective method is to prick the eggplants and place them in a preheated 400 °F oven until the skin is charred and a fork easily pierces the vegetable all the way through.
+- Skin the the eggplants—the skin should come off easily by hand. Use the back of a table knife to scrape off any residual eggplant from the skin once the skin is removed—this portion of eggplant retains the smoky flavor and should not be discarded.
+- Finely chop or blend the eggplant flesh. The consistency should be smooth, like a purée.
+- Transfer the eggplant to a bowl, and mix in the other ingredients. The amounts can be adjusted for taste.
+- Chill in the fridge until serving.
+tips:
+- For garnish, you may add olives, tomatoes, the Romanian cheese telemea (similar to feta), or sometimes even peppers.
+- Do not use olive oil because it makes the dish bitter.
+- The dish improves overnight as the onion flavor permeates the eggplant.
+- If the dish seems too strong tasting or too bitter for you, make sure you try including the mayonnaise.
+- Baba ganoush is a similar Middle Eastern spread, but it uses tahini and lemon.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARomanian_Roasted_Eggplant_Spread_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Romanian Roasted Eggplant Spread II@4505504
+    url: https://en.wikibooks.org/w/index.php?oldid=4505504
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

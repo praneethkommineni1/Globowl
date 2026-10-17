@@ -1,0 +1,69 @@
+id: us-chicken-parmigiana
+title: Chicken Parmigiana
+summary: Chicken parmigiana is a popular Italian-American dish served in a variety of ways. The same basic recipe works for a number of dishes.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: garlic-powder, unit: tsp, qty: 1}
+  - {ingredient: dried-oregano, qty: 0.5}
+  - {ingredient: basil, unit: tsp, qty: 0.25}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: all-purpose-flour, qty: 0.5}
+  - {ingredient: tomato-paste, qty: 0.5}
+  - {ingredient: chicken, unit: cup, qty: 0.25}
+  - {ingredient: vegetable-oil, qty: 0.5}
+  - {ingredient: mozzarella, qty: 0.5}
+  - {ingredient: parmesan, qty: 0.25}
+steps:
+- In a heavy skillet (preferably cast iron), heat the oil on medium heat.
+- While the oil is heating, use a tenderizing mallet (or the ball of your hand) to pound the chicken breasts to about ½ inch thick. This step is important to ensure the chicken is tender and more importantly to ensure the chicken cooks thoroughly.
+- Season the chicken breasts with salt and garlic powder.
+- Dredge the breasts in flour and shake off any excess.
+- Place both breasts in the heated oil for 3 minutes, then flip and fry for an additional 2 minutes.
+- Remove the breasts and place on a rack or paper towel.
+- Preheat a broiler.
+- In a large oven-safe saucepan, heat the tomato puree and chicken stock until it begins to simmer.
+- Add the oregano, basil, and pepper to saucepan and mix
+- Place cooked chicken breasts in pan and flip a number of times to coat with sauce.
+- Add mozzarella and parmigiana cheese to the tops of the breasts.
+- Broil for 30–60 seconds. It will burn very quickly, so check it frequently.
+- Remove from oven and serve.
+tips:
+- Use thin-sliced chicken cutlets (available at most supermarkets) to avoid the BIG mess and time of pounding.
+- If pasta is to be served with this meal, it should be timed so that the parmigiana is done right when the pasta is. The pasta should be removed directly from the pot and placed into the pan. The remaining sauce can then be used with the pasta.
+- This recipe works best with breasts that come from slightly older chickens (such as broiler or fryer chickens). These chickens have a stronger taste but are generally tougher. The tenderizing step takes care of the toughness of the older birds though.
+- If you do not live in area where fresh tomatoes are grown, canned tomatoes are usually superior to the low-cost ones you will find in the supermarket.
+- For veal parmigiana, follow the same steps except do not tenderize. Veal is already tender enough. The veal can also be cooked for 2 minutes on each side.
+- Omit the tenderizing step for eggplant parmigiana.
+- If you want to use fresh garlic instead of powder, add it to the sauce instead of adding it to the chicken breast.
+- You can also try using other types of Italian cheeses such as provolone cheese or fontina cheese to add more of a "tasty kick" compared to a mild cheese like mozzarella
+- You may wish to use olive oil. When frying with olive oil, be sure to use a cheap solvent-extracted grade! The fancy grades can not tolerate heat. They have smoke points as low as 200°F (93°C), making for both a fire hazard and a source of smoke. Save the cold-pressed extra-virgin olive oil for a salad.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Parmigiana&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chicken Parmigiana@4605273
+    url: https://en.wikibooks.org/w/index.php?oldid=4605273
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

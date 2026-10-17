@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 3 cups cornflakes, crushed to make 1 1/2 cups
+#  - unmapped ingredient: 1 1/2 teaspoons jerk seasoning
+#  - unmapped ingredient: 1/2 cup honey-mustard salad dressing
+id: jm-jamaican-chicken-fingers-with-honey-mustard-sauce
+title: Jamaican Chicken Fingers with Honey-Mustard Sauce
+summary: Jamaican Chicken Fingers with Honey-Mustard Sauce.
+origin:
+  country: JM
+course: starter
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 15
+difficulty: 3
+techniques:
+- baking
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: g, qty: 454, prep: skinless chicken breast}
+  - {ingredient: egg-white, qty: 2}
+  - {ingredient: honey, unit: tbsp, qty: 1}
+  - {ingredient: lime, unit: tsp, qty: 1}
+  - {ingredient: mango, qty: 2, prep: 'seeded, peeled, and sliced'}
+steps:
+- Preheat oven to 450°F.
+- Trim fat from chicken.
+- Cut chicken lengthwise into ¾ inch-wide strips.
+- In shallow dish whisk together egg whites and honey.
+- In another shallow dish combine cereal and jerk seasoning.
+- Dip chicken pieces in egg mixture and then roll dipped pieces in cereal mixture.
+- Place the cereal-coated pieces in a single layer on an ungreased baking sheet.
+- Bake at 450°F for 11–13 minutes or until tender and no longer pink.
+- While baking, in small bowl stir together salad dressing and lime peel.
+- Serve chicken and mango slices with salad dressing mixture.
+tips:
+- This recipe can also be served as an appetizer; it will make 12 servings.
+- Jerk seasoning can be bought ready-made or you can follow the recipe for Jamaican jerk spice
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AJamaican_Chicken_Fingers_with_Honey-Mustard_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Jamaican Chicken Fingers with Honey-Mustard Sauce@4509779
+    url: https://en.wikibooks.org/w/index.php?oldid=4509779
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

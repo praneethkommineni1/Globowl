@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Water for cooking
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-muboora
+title: Muboora
+alternate_names:
+- Zimbabwean Pumpkin Leaves Stew
+summary: Muboora is a popular Zimbabwean pumpkin leaf stew.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large pot or saucepan
+- Wooden spoon
+- Knife
+- Cutting board
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: butternut-squash, unit: bunch, qty: 1}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: [2, 3], prep: minced}
+  - {ingredient: tomato, qty: [2, 3], prep: chopped}
+  - {ingredient: peanut-butter, unit: cup, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: [2, 3]}
+  - {ingredient: curry-powder, unit: tsp, qty: 1, optional: true}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Wash the pumpkin leaves thoroughly and remove any tough stems or veins. Chop the leaves into small pieces and set them aside.
+- Heat the vegetable oil in the large pot over medium heat. Add the onions and garlic. Sauté until they become translucent and fragrant.
+- Add the tomatoes and curry powder to the pot. Cook until the tomatoes break down and form a thick sauce, stirring occasionally.
+- Reduce the heat to low. Gradually spoon in the peanut butter, stirring continuously. Continue stirring until the peanut butter is well blended with the tomato sauce. This should create a creamy, thick mixture.
+- Start adding the chopped pumpkin leaves to the pot in batches. Stir and allow each batch to wilt and mix with the sauce before adding more. Continue this process until all the pumpkin leaves are in the pot.
+- Pour in enough water to cover the mixture, making it into a stew-like consistency. Season with salt and pepper to taste. Stir everything together, ensuring the leaves are submerged.
+- Cover the pot and let the muboora simmer on low heat for about 20–30 minutes. Stir occasionally and check for desired tenderness of the pumpkin leaves. Add more water if necessary to maintain the desired consistency.
+- Once the pumpkin leaves are tender and the flavors are well blended, your muboora is ready to be served.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMuboora_%28Zimbabwean_Pumpkin_Leaves_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Muboora (Zimbabwean Pumpkin Leaves Stew)@4518656
+    url: https://en.wikibooks.org/w/index.php?oldid=4518656
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

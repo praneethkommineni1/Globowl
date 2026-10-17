@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1–2 cups liver sauce
+#  - unmapped ingredient: 1 banana blossom
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ph-lechon-paksiw
+title: Lechon Paksiw
+alternate_names:
+- Pork Roast Leftovers in Sweet and Sour Sauce
+summary: If you have ever hosted a true Filipino party whether it be a birthday, wedding or a community fiesta (feast) then you would know that a party is never complete without Roast Pig or Roast Suckling Pig.
+origin:
+  country: PH
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: pork, unit: g, qty: [454, 1361]}
+  - {ingredient: water, unit: cup, qty: [6, 12]}
+  - {ingredient: white-vinegar, unit: cup, qty: 0.5}
+  - {ingredient: soy-sauce, unit: cup, qty: 0.333}
+  - {ingredient: garlic, qty: 1, prep: cloves crushed}
+  - {ingredient: black-pepper, unit: tbsp, qty: [1, 2]}
+  - {ingredient: brown-sugar, unit: tbsp, qty: [1, 2]}
+  - {ingredient: cornstarch, unit: cup, qty: 0.5}
+  - {ingredient: bay-leaf, qty: 1}
+steps:
+- In a large pot, heat 12 cups of water to a brisk boil on high heat.
+- Reduce heat to low.
+- Add in roast pork leftovers, and all dry ingredients (garlic, black pepper, brown sugar, banana blossom, bay leaf), allow to sit for 30 minutes.
+- Once all pieces of the leftover pork is tender (almost falling off the bone), add in vinegar, liver sauce and soy sauce. Let sit for 15 minutes.
+- Add in diluted cornstarch to thicken sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALechon_Paksiw_%28Pork_Roast_Leftovers_in_Sweet_and_Sour_Sauce%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lechon Paksiw (Pork Roast Leftovers in Sweet and Sour Sauce)@4506562
+    url: https://en.wikibooks.org/w/index.php?oldid=4506562
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

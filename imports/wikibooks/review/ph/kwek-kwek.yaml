@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Hard-cooked quail eggs, peeled
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ph-kwek-kwek
+title: Kwek-Kwek
+alternate_names:
+- Deep-Fried Quail Eggs
+summary: Kwek-kwek is a bite-sized and tempura-like street food of the Philippines.
+origin:
+  country: PH
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Pot and stove or electric fryer
+- Whisk or other stirring implement
+- Slotted spoon or tongs
+techniques:
+- deep-frying
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: food-coloring}
+  - {ingredient: vegetable-oil}
+steps:
+- Gradually but vigorously whisk the water into the flour. The wet mixture should be thick but flow like a pancake batter.
+- Dip the eggs in the batter to coat them completely.
+- Heat several inches of vegetable oil in a deep pot. You're aiming for about 350°F (180°C).
+- Add the coated eggs to the hot oil, and deep fry until very light golden and cooked through. Remove from the oil and drain off any excess.
+- Serve with spicy vinegar.
+tips:
+- The chicken egg variant is called tokneneng.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKwek-Kwek_%28Deep-Fried_Quail_Eggs%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kwek-Kwek (Deep-Fried Quail Eggs)@4508216
+    url: https://en.wikibooks.org/w/index.php?oldid=4508216
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

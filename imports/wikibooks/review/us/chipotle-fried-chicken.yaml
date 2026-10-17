@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-chipotle-fried-chicken
+title: Chipotle Fried Chicken
+summary: Chipotle Fried Chicken.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- name: Meat
+  items:
+  - {ingredient: chicken, qty: 2, prep: 'legs, and boneless skinless chicken breasts'}
+  - {ingredient: chipotle-in-adobo, unit: cup, qty: 0.5}
+  - {ingredient: lime, unit: cup, qty: 0.25}
+  - {ingredient: cornmeal}
+  - {ingredient: shortening, unit: g, qty: 454}
+- name: Seasoning
+  items:
+  - {ingredient: chipotle-in-adobo, unit: tbsp, qty: 3}
+  - {ingredient: cayenne, unit: tsp, qty: 2}
+  - {ingredient: garlic-powder, unit: tbsp, qty: 1}
+  - {ingredient: paprika, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tbsp, qty: 2}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+steps:
+- Combine adobo sauce and lime juice and pour over chicken. Refrigerate overnight.
+- Remove chicken from adobo mixture. Combine the seasoning ingredients, and sprinkle over chicken.
+- Dredge chicken in cornmeal. Let rest for 2–3 minutes.
+- Meanwhile, heat shortening in a large cast-iron skillet to 350°F. Place breasts and legs around the edges, then place thighs in the center.
+- Cook for 12 minutes per side. Drain on a cooling rack and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChipotle_Fried_Chicken&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chipotle Fried Chicken@4516589
+    url: https://en.wikibooks.org/w/index.php?oldid=4516589
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

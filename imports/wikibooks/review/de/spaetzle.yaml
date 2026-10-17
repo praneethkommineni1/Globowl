@@ -1,0 +1,44 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: de-spaetzle
+title: Spaetzle
+summary: 'Spaetzle (German: Spätzle) means literally translated "little sparrow" and is a Swabian specialty from Germany. It is made from flour, eggs, water, and salt. There are different techniques to make spaetzle, such as using a spaetzle-maker or spaetzle-press.'
+origin:
+  country: DE
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 500}
+  - {ingredient: egg, qty: 5}
+  - {ingredient: water, unit: ml, qty: [150, 200]}
+  - {ingredient: salt}
+steps:
+- Combine all ingredients using hands or an electrical mixer.
+- Add enough water to make a dough that is slightly sticky, but still elastic and stiff.
+- Beat long enough for bubbles to rise.
+- Boil a large pot with salted water.
+- If using only a board, sweep a spoon of dough over the kitchen board with the grater. Cut/grate small pieces of the dough with the grater into the hot water. If using a spaetzle-maker, put a spoon of dough into the maker and press through the holes into the water. The spaetzle are done when they rise and swim on the water surface.
+- Remove spaetzle from the water with a slotted spoon and put into a lightly oiled bowl.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASpaetzle&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Spaetzle@4505525
+    url: https://en.wikibooks.org/w/index.php?oldid=4505525
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,61 @@
+id: de-frittaten-soup
+title: Frittaten Soup
+summary: Frittaten soup originates from an incident that took place during the Congress of Vienna in the 19th century, which involved various European ambassadors and was chaired by the Austrian Prince, Klemens Wenzel von Metternich.
+origin:
+  country: DE
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 135
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- name: Broth
+  items:
+  - {ingredient: water, unit: l, qty: 2.5}
+  - {ingredient: beef, unit: g, qty: 300}
+  - {ingredient: beef, unit: g, qty: 400}
+  - {ingredient: onion, qty: 1}
+  - {ingredient: celery}
+  - {ingredient: carrot}
+  - {ingredient: leek}
+  - {ingredient: lovage}
+  - {ingredient: salt}
+  - {ingredient: chives, prep: minced}
+- name: Pancake
+  items:
+  - {ingredient: egg, qty: 2}
+  - {ingredient: milk, unit: ml, qty: 400}
+  - {ingredient: all-purpose-flour, unit: g, qty: 180}
+  - {ingredient: salt}
+  - {ingredient: butter}
+steps:
+- Wash the beef bones with warm water.
+- Put the meat and bones in cold water and heat. Simmer for 1½ hours at low temperature. Skim the foam off the top of the soup from time to time and add more water if necessary.
+- Cut the onion in half, and brown it in a pan with no oil. The browned onion gives the soup its dark color.
+- Add all the vegetables and a pinch of salt to the broth, and cook for 20 minutes. Strain all solids from the soup.
+- Mix the egg, milk, flour, and salt together.
+- Heat the butter or oil in a frying pan.
+- Pour some of the batter into the hot pan and wait until the pancake has solidified. Flip the pancake and wait for the other side to cook.
+- Let it cool and then cut into thin strips.
+- Put the pancake strips into the finished broth.
+- Serve with chives on top.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrittaten_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Frittaten Soup@4524760
+    url: https://en.wikibooks.org/w/index.php?oldid=4524760
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

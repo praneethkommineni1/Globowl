@@ -1,0 +1,76 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: au-sticky-date-pudding
+title: Sticky Date Pudding
+summary: A sticky date pudding is a favorite Australian pudding, especially in Southern climates in the winter months. Your family and friends will love you forever if you make them the following recipe.
+origin:
+  country: AU
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 12
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Double boiler
+- Electric mixer (a free standing one is better, as you need to beat the eggs for some time for best results)
+- Sieve or flour sifter
+- Large cake tin, lined with parchment paper and well-greased
+techniques:
+- baking
+- boiling
+- simmering
+ingredient_groups:
+- name: Sauce
+  items:
+  - {ingredient: brown-sugar, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 1}
+- name: Cake
+  items:
+  - {ingredient: dates, unit: cup, qty: 1}
+  - {ingredient: baking-soda, unit: tsp, qty: 1}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: baking-soda, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 2}
+  - {ingredient: mixed-spice, unit: tsp, qty: 2}
+  - {ingredient: egg, qty: 4, prep: at room temperature}
+  - {ingredient: caster-sugar, unit: cup, qty: 1.5}
+  - {ingredient: vegetable-oil, unit: cup, qty: 1}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 2}
+- name: Serving
+  items:
+  - {ingredient: heavy-cream, unit: ml, qty: 500}
+steps:
+- Place brown sugar and water in top of double boiler.
+- Over simmering heat, stir until all brown sugar is dissolved.
+- Remove from the heat, and set aside to cool.
+- Chop dates roughly, place in saucepan, and add sodium bicarbonate along with just enough water to cover everything.
+- Bring to boil, and simmer for 1 minute. It should froth up from the bicarb; when it does, remove from heat once foam reaches the top of the saucepan.
+- Set aside to cool.
+- Preheat oven to 180°C.
+- Sift flour, bicarbonate of soda, salt, and mixed spice together twice.
+- Beat eggs lightly. Add castor sugar and whip as for making a sponge; it should be really light and fluffy.
+- Fold in oil and vanilla essence, but don’t over-mix this as you’ll lose all the air in the egg mixture.
+- Fold in the sifted flour, sodium bicarbonate, and salt. Then, fold in the cooled date mixture.
+- Pour into prepared tin. Bake in oven at 180°C for about 80–90 minutes, not too high in the oven or the top will burn. Cooking time and temperature can be reduced slightly if a fan-forced oven is used
+- Test cake with skewer, which should come out dry. Remove from oven, and leave pudding in the tin
+- Use a skewer to create lots of holes throughout the hot pudding
+- Pour approximately 1 cup of caramel mixture onto the hot pudding; this will soak into the holes of the pudding
+- Slice into desired portions, and serve immediately with cream or ice cream.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASticky_Date_Pudding&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sticky Date Pudding@4587311
+    url: https://en.wikibooks.org/w/index.php?oldid=4587311
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-liberian-fufu
+title: Liberian Fufu
+summary: Liberian fufu is a staple food in Liberia and many other West African countries. It is made from starchy vegetables like cassava, yams, or plantains, which are boiled, pounded, and formed into a smooth, dough-like consistency.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Large pot
+- Potato masher or pestle and mortar
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: cassava, unit: g, qty: 907, prep: 'yams, or plantains'}
+  - {ingredient: water}
+steps:
+- Peel and cut the cassava, yams, or plantains into chunks, and place them in a large pot.
+- Add enough water to cover the vegetables, and bring the pot to a boil over high heat.
+- Reduce the heat to medium and let the vegetables simmer until they are tender and easily pierced with a fork.
+- Drain the water from the cooked vegetables, and transfer them to a large bowl.
+- Use a potato masher, or mortar and pestle to pound the vegetables into a smooth, thick paste. You can also use a stand mixer or food processor for this step.
+- Continue pounding and kneading the mixture until it forms a smooth and stretchy dough-like consistency. This process may take some time and effort, but it is essential for achieving the right texture.
+- Once the fufu has reached the desired consistency, shape it into small balls or serve it as a large mound on a serving platter.
+- Serve with various soups and stews. It can be used as a utensil to scoop up the soup or stew.
+tips:
+- To enhance the flavor, you can add a pinch of salt or other seasonings to the cooked vegetables before pounding.
+- Some people prefer their fufu to be softer, while others prefer it to be firmer. Adjust the amount of pounding and kneading to achieve your desired texture.
+- Leftover fufu can be stored in the refrigerator for up to 2 days. To reheat, steam it or place it in a microwave for a few minutes until warmed through.
+- Fufu is naturally gluten-free and can be enjoyed by those with gluten sensitivities.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALiberian_Fufu&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Liberian Fufu@4618164
+    url: https://en.wikibooks.org/w/index.php?oldid=4618164
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ua-cabbage-rolls-in-tomato-sauce
+title: Cabbage Rolls in Tomato Sauce
+alternate_names:
+- Holubtsi
+summary: Cabbage Rolls in Tomato Sauce.
+origin:
+  country: UA
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: white-cabbage, qty: 12}
+  - {ingredient: onion, unit: cup, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 2}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: milk, unit: cup, qty: 0.5}
+  - {ingredient: beef, unit: g, qty: 454}
+  - {ingredient: long-grain-rice, unit: cup, qty: 0.75}
+  - {ingredient: egg, qty: 1}
+- name: Sauce
+  items:
+  - {ingredient: tomato-paste, unit: can, qty: 1}
+  - {ingredient: tomato, unit: can, qty: 1}
+  - {ingredient: water, unit: cup, qty: 0.5}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 2}
+  - {ingredient: sugar, unit: tbsp, qty: 3}
+  - {ingredient: cornstarch, unit: tbsp, qty: 2}
+steps:
+- Preheat oven to 350°F (175°C).
+- Put cabbage into pot of boiling water, cover, let sit for three minutes, then drain.
+- Combine ground beef, milk, egg, rice, onion, pepper, and salt. Divide into twelve portions.
+- Place 1 meat portion on each cabbage leaf.
+- Roll leaf around filling and fasten with toothpick.
+- Place the rolls in a baking dish.
+- Combine tomato paste, tomatoes, sugar, water, and vinegar, then pour over cabbage rolls.
+- Cover baking dish, and bake at 350°F (175C) for 40 minutes.
+- Remove cabbage rolls from pan, and take out toothpicks. Place on the serving dish
+- Add cornstarch and water to sauce mixture and stir together. Warm, if needed, to allow the cornstarch mixture to thicken the sauce.
+- Pour the completed sauce over the rolls on the serving dish.
+- Garnish as desired and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACabbage_Rolls_in_Tomato_Sauce_%28Holubtsi%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cabbage Rolls in Tomato Sauce (Holubtsi)@4595351
+    url: https://en.wikibooks.org/w/index.php?oldid=4595351
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

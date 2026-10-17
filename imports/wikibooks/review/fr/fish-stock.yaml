@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: fr-fish-stock
+title: Fish Stock
+alternate_names:
+- Fumet de poisson
+summary: Fumet de poisson is a fish stock.
+origin:
+  country: FR
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: fish, unit: g, qty: 1361}
+  - {ingredient: water, qty: 2}
+  - {ingredient: onion, unit: cup, qty: 1}
+  - {ingredient: celery, unit: cup, qty: 0.75, prep: coarsely chopped}
+  - {ingredient: leek, unit: cup, qty: 0.333, prep: sliced and thoroughly washed}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: thyme, unit: sprig, qty: 2, prep: OR 1/2 tsp dried}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: black-peppercorns, qty: 3}
+  - {ingredient: dry-white-wine, unit: cup, qty: 1}
+steps:
+- Wash the fish trimmings. Drain and mash with the back of a large spoon.
+- Place the fish in a stockpot and add the water.
+- Bring to a simmer and simmer for 5 minutes, skimming off any scum.
+- Add the vegetables and seasonings.
+- Partially cover and simmer for 30 minutes, skimming the surface every 10 minutes.
+- Remove from the heat and remove the fish and vegetables with a spider or slotted spoon.
+- Strain through a sieve lined with a double layer of dampened cheesecloth.
+- Cool to room temperature. Refrigerate for 2–3 days, or freeze for longer.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFish_Stock_%28Fumet_de_poisson%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fish Stock (Fumet de poisson)@4509026
+    url: https://en.wikibooks.org/w/index.php?oldid=4509026
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

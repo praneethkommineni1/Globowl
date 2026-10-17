@@ -1,0 +1,70 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 loaf of French bread
+#  - unmapped ingredient: 1/2 tsp Island Spice Scotch Bonnet Soya Sauce
+#  - unmapped ingredient: Beef filling for patties
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: jm-jamaican-patty
+title: Jamaican Patty
+summary: A Jamaican patty is a street food that contains various fillings and spices baked inside a flaky pastry shell. As its name suggests, it is commonly found in Jamaica, and is also eaten in other areas of the Caribbean.
+origin:
+  country: JM
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- name: Filling
+  items:
+  - {ingredient: beef, unit: g, qty: 907}
+  - {ingredient: thyme, qty: 2}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: scallion, unit: g, qty: 57}
+  - {ingredient: salt, unit: tsp, qty: 1}
+- name: Pastry
+  items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: lard, unit: cup, qty: 1}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1}
+  - {ingredient: milk, unit: cup, qty: 0.5}
+steps:
+- Grind together scallion and Island Spice Scotch Bonnet Pepper Soya sauce. Add to ground beef along with salt and thyme.
+- Cook beef.
+- While beef is cooking, pour cold water over bread in a saucepan to cover. Soak for a few minutes, then squeeze dry, saving the water.
+- Pass bread through a mincing mill, and return the ground bread to the water with thyme and cook until bread is dry. Combine meat and cooked bread.
+- Add paprika and cook for 20 minutes.
+- Remove from heat.
+- Allow to cool.
+- Sift flour, turmeric, curry powder, salt and knead in lard.
+- Bind with water to form a firm dough and knead for 2 minutes.
+- Roll pastry ⅛ inch thick.
+- Cut out pastry rounds 6 inches in diameter.
+- Divide beef filling between patties, and brush edges with water.
+- Fold dough over filling, and seal. Brush with milk.
+- Bake on top shelf of oven for about 25 minutes at 450°F until golden brown
+tips:
+- For extra crust flakiness, roll out dough, brush with lard, fold over and roll again. Do this about 3 times.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AJamaican_Patty&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Jamaican Patty@4522768
+    url: https://en.wikibooks.org/w/index.php?oldid=4522768
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

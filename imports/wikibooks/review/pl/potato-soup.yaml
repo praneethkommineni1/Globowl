@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+id: pl-potato-soup
+title: Potato Soup
+summary: Potato Soup.
+origin:
+  country: PL
+course: soup
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–5 people
+time:
+  total_min: 90
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: potato, qty: 6, prep: peeled and diced}
+  - {ingredient: milk, unit: cup, qty: 3}
+  - {ingredient: onion, qty: 1, note: large}
+  - {ingredient: carrot, qty: 2, prep: diced}
+  - {ingredient: butter, unit: cup, qty: 0.25}
+  - {ingredient: water, unit: cup, qty: 3}
+  - {ingredient: bouillon-cube, qty: 2}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 3}
+  - {ingredient: parsley, unit: tbsp, qty: 1}
+  - {ingredient: thyme, unit: tsp, qty: 0.25}
+steps:
+- Cook onion in butter until tender.
+- Bring the diced potatoes, carrots, water and chicken bouillon in another stock pot to a boil. Simmer about 10 minutes or until tender. Add ground black pepper.
+- Add the flour to the cooked onions to make a paste. Stir in the milk. Cook over low heat stirring constantly until warmed through. Add the potato and carrot mixture. Stir in the parsley and thyme and heat through. Serve hot.
+tips:
+- Use vegetable stock instead of chicken bouillon for a vegetarian soup.
+- Add leeks if available.
+- Omit all ingredients except potatoes, water, salt and pepper for a simple and surprisingly pleasing potato soup. High quality, flavorful potatoes are required for this variation, which itself presents an ideal base for an inventive cook to expand upon.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APotato_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Potato Soup@4524034
+    url: https://en.wikibooks.org/w/index.php?oldid=4524034
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

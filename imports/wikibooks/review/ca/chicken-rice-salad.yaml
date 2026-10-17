@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1/4 cup plain yoghurt
+#  - unmapped ingredient: 1/2 cup condensed cream of mushroom soup
+#  - no servings in recipe summary
+id: ca-chicken-rice-salad
+title: Chicken Rice Salad
+summary: Chicken Rice Salad.
+origin:
+  country: CA
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 45
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: mayonnaise, unit: cup, qty: 0.5}
+  - {ingredient: walnuts, unit: cup, qty: 0.5, prep: chopped}
+  - {ingredient: egg, qty: 3, prep: peeled and chopped}
+  - {ingredient: parsley, unit: tbsp, qty: 1}
+  - {ingredient: lemon-juice, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1.5, note: to taste}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 0.25}
+  - {ingredient: long-grain-rice, unit: cup, qty: 3, prep: cooled}
+  - {ingredient: chicken, unit: cup, qty: 2, prep: cooled and chopped}
+  - {ingredient: carrot, unit: cup, qty: 0.25}
+  - {ingredient: scallion, unit: tbsp, qty: 2, prep: chopped}
+  - {ingredient: celery, unit: cup, qty: 0.5, prep: chopped}
+steps:
+- In the serving bowl, whisk or mix mayonnaise, yoghurt, cream of mushroom soup, lemon juice, salt, pepper, and dry mustard until smooth.
+- Add remaining ingredients and mix well using a spoon or fork.
+- Refrigerate for at least half an hour.
+- Top with a sprig of parsley and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Rice_Salad&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chicken Rice Salad@4615189
+    url: https://en.wikibooks.org/w/index.php?oldid=4615189
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

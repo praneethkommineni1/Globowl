@@ -1,0 +1,84 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 Tbsp ajinomoto seasoning
+#  - unmapped ingredient: 2 Tbsp Chinese five-spice powder
+#  - unmapped ingredient: Water to poach chicken in
+#  - unmapped ingredient: Prawn crackers/shrimp chips
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-cantonese-crispy-fried-chicken
+title: Cantonese Crispy Fried Chicken
+summary: Crispy fried chicken is a Hong Kong/Cantonese specialty.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 4
+techniques:
+- boiling
+- deep-frying
+- simmering
+ingredient_groups:
+- name: Pepper salt
+  items:
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: sichuan-peppercorn, unit: tbsp, qty: 3}
+- name: Chicken
+  items:
+  - {ingredient: chicken, qty: 1}
+  - {ingredient: ginger, unit: slice, qty: 3, prep: crushed}
+  - {ingredient: scallion, qty: 2}
+- name: Glaze
+  items:
+  - {ingredient: white-vinegar, unit: tbsp, qty: 3}
+  - {ingredient: sugar, unit: cup, qty: 0.25}
+- name: For Frying
+  items:
+  - {ingredient: vegetable-oil, unit: cup, qty: 4}
+steps:
+- Put salt and peppercorns in a small pan. Heat on medium to low heat until it barely smokes.
+- Remove from heat.
+- Grind well in mortar and pestle, or with a rolling pin.
+- Add ajinomoto and mix well.
+- Clean and rinse off chicken, discarding the giblets.
+- Heat enough water to cover the chicken in a pot until boiling.
+- Put five-spice powder, ginger, and scallions in a cloth and tie it. Add to water, and simmer for 15 minutes.
+- Add chicken, reduce heat, and gently poach for 20 minutes.
+- When chicken is done, remove from heat, then pat dry with paper towels and air dry for a little bit.
+- Put vinegar and sugar in saucepan, and heat until dissolved to make a syrup.
+- Coat the entire chicken on the inside and outside with the syrup.
+- Let chicken dry in a breeze until very dry.
+- Fill deep fryer with oil, and heat oil to 350°F (175°C).
+- Deep fry chicken about 10 minutes per side until brown and done.
+- Remove from oil, and chop with a meat cleaver into 1 x 2-inch pieces.
+- When chicken is done, fry the shrimp chips in deep fryer.
+- Sprinkle shrimp chips with a little salt.
+- Serve chicken adorned with shrimp chips, with pepper salt in a small dish on the side.
+tips:
+- Poaching is not the same as boiling, since the temperature is lower, about instead of at , and is even lower than simmering. If boiled, the meat will come out tough and dry. Also the lower the poaching temperature, the longer it will take to poach.
+- Drying the skin is important, since it helps the syrup to stick. The second drying also is important, since that is what helps to make skin crispy. It can be done the day before, and the chicken kept in the fridge.
+- The caramelized sugar gives the nice brown color. Vinegar lowers the pH, and helps the caramelization.
+- Oil temperature is important, since it imparts the brown color to the skin. If the oil temperature is too low, the sugar will not caramelize, and the chicken will not be brown. If it is too high, the sugar will burn. If you don't have a temperature controlled fryer, use a frying (or candy) thermometer.
+- A deep fryer can hold 2 or 3 liters of oil. Use as much as your deep fryer manual dictates.
+- 'If you don''t have a deep fryer, it can be fried on the stove in a pot or wok with a fry thermometer, but be very careful. WARNING: A wok can easily tip, spilling oil and giving severe burns. If the oil overflows, one can easily have a very dangerous oil fire. Please read warnings in the article on Deep Fat Frying'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACantonese_Crispy_Fried_Chicken&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cantonese Crispy Fried Chicken@4507020
+    url: https://en.wikibooks.org/w/index.php?oldid=4507020
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

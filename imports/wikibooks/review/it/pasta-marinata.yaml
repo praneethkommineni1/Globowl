@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: it-pasta-marinata
+title: Pasta Marinata
+summary: Pasta marinata (Italian for "marinaded dough") is a batter used when frying food. It is good for battering meat, fish, vegetables, or sweets which are to be fried in the Italian manner.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: semolina, unit: g, qty: 57}
+  - {ingredient: egg, qty: 2, prep: separated}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: butter, unit: g, qty: 57}
+  - {ingredient: water}
+steps:
+- Mix the semolina flour, egg yolks, a little salt, and melted butter.
+- Add the water so as to form a liquid substance.
+- Whip the egg whites to soft peaks, and fold into the batter.
+tips:
+- If for meat or vegetables add a few drops of vinegar or a little lemon juice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APasta_Marinata&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pasta Marinata@4587099
+    url: https://en.wikibooks.org/w/index.php?oldid=4587099
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

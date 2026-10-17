@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/4 cup red curry paste
+#  - unmapped ingredient: 1 1/2 tsp freshly-ground white pepper
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-indian-curry-marinade
+title: Indian Curry Marinade
+summary: If you want a bit more flavor in a dish, substitute this for curry paste in a recipe.
+origin:
+  country: IN
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: coriander-seeds, unit: tsp, qty: 1}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 0.25}
+  - {ingredient: yogurt, unit: cup, qty: 0.333}
+  - {ingredient: curry-powder, unit: tbsp, qty: 1}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1.5}
+  - {ingredient: cayenne, unit: tbsp, qty: 1}
+  - {ingredient: ginger, unit: tbsp, qty: 1}
+  - {ingredient: cilantro, unit: tsp, qty: 1}
+steps:
+- Pulse the toasted spices and the bay leaf in a spice grinder until finely ground. Combine remaining ingredients and ground spices.
+- Keep refrigerated for up to 1 ½ weeks. Shake well before using.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIndian_Curry_Marinade&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Indian Curry Marinade@4517542
+    url: https://en.wikibooks.org/w/index.php?oldid=4517542
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

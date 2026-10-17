@@ -1,0 +1,70 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: Sazón
+#  - unmapped ingredient: Good-quality dry white wine
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-panamanian-ropa-vieja
+title: Panamanian Ropa Vieja
+summary: Panamanian Ropa Vieja.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- pressure-cooking
+- sauteing
+- simmering
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 907, prep: cut into large pieces}
+  - {ingredient: salt}
+  - {ingredient: dried-oregano}
+  - {ingredient: garlic-powder}
+  - {ingredient: ground-cumin}
+  - {ingredient: black-pepper}
+  - {ingredient: tomato-paste, unit: can, qty: 1}
+  - {ingredient: chicken-stock, prep: 'vegetable, or beef broth'}
+  - {ingredient: onion, prep: chopped}
+  - {ingredient: red-bell-pepper, prep: cubed}
+  - {ingredient: carrot, prep: sliced}
+  - {ingredient: garlic, unit: clove, qty: [4, 6], prep: cut in quarters}
+  - {ingredient: olives, unit: cup, qty: 0.5, prep: sliced}
+  - {ingredient: bay-leaf}
+  - {ingredient: cilantro}
+steps:
+- Season the beef with salt, sazón, cumin, oregano, garlic powder, and pepper, and coat well.
+- Whisk together the tomato paste, wine, and broth in a medium bowl. If you’re cooking this dish on the stove, use 3 cups of broth—you’ll need more since some of it will evaporate on the stove.
+- 'Sauté the vegetables:'
+- If using an Instant Pot, set it to the sauté setting. Add the oil and then the onions, bell peppers, and garlic. Cook for 3–4 minutes until softened. Then press cancel.
+- If using the stove, sauté the vegetables in a large Dutch oven on medium-high heat.
+- Nestle the meat into the onions so half are on the bottom and half are above the meat. Add the carrots, olives, bay leaves, and cilantro (if using). Pour the tomato mixture over everything.
+- 'Cook:'
+- If using an Instant Pot, put the lid on, and cook on high for 45 minutes. Once done, unplug the pot, and do a natural release.
+- If using the stove, bring the pot to a boil, cover, reduce the heat to low, and simmer until the meat easily shreds. It should take about 1½–2 hours. Add more water if it gets too dry.
+- Shred the beef, discard the bay leaves, and top with more cilantro if desired.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APanamanian_Ropa_Vieja&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Panamanian Ropa Vieja@4514072
+    url: https://en.wikibooks.org/w/index.php?oldid=4514072
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

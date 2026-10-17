@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 4 ripe figs
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-indian-baked-yoghurt-with-saffron-and-cardamom
+title: Indian Baked Yoghurt with Saffron and Cardamom
+summary: Indian Baked Yoghurt with Saffron and Cardamom.
+origin:
+  country: IN
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- boiling
+- simmering
+- whisking
+ingredient_groups:
+- name: Pudding
+  items:
+  - {ingredient: condensed-milk, unit: g, qty: 200}
+  - {ingredient: yogurt, unit: g, qty: 200}
+  - {ingredient: ground-cardamom, unit: pinch, qty: 1}
+  - {ingredient: pistachios, unit: tbsp, qty: 1, prep: cut into slivers}
+  - {ingredient: raisins, unit: tbsp, qty: 1, prep: 'soaked in warm water for 10 minutes, then drained'}
+- name: Figs in syrup
+  items:
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: water, unit: ml, qty: 300}
+  - {ingredient: lemon}
+  - {ingredient: lemon-juice, unit: tsp, qty: 1}
+  - {ingredient: whole-cloves, qty: 2}
+  - {ingredient: cinnamon-stick, qty: 2.5}
+  - {ingredient: star-anise, qty: 1}
+steps:
+- Preheat the oven to 150°C (130°C fan oven), mark 2. Line four ramekins with paper muffin cases.
+- Whisk the condensed milk, yoghurt, and cardamom powder together in a bowl, then fold in the pistachios and raisins. Pour the mixture into the lined ramekins. Stand them in a roasting tin and pour enough warm water into the tin to come almost halfway up the sides of the moulds. Bake in the oven for 40–45 minutes until set.
+- Meanwhile, prepare the figs. Put the sugar, water, lemon zest and juice, and spices into a heavy-based pan. Cook over low heat until the sugar has dissolved, then gradually bring to the boil.
+- In the meantime, cut each fig vertically into four. Add the figs to the sugar syrup and simmer for two minutes, then take the pan off the heat. Leave the figs to cool in syrup.
+- On removing the baked puddings from the oven, take the ramekins out of the water-bath and set aside to cool.
+- To serve, unmould the puddings on to serving plates, arrange the figs on top, and drizzle the poaching syrup around the plates.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIndian_Baked_Yoghurt_with_Saffron_and_Cardamom&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Indian Baked Yoghurt with Saffron and Cardamom@4587412
+    url: https://en.wikibooks.org/w/index.php?oldid=4587412
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

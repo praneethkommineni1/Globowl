@@ -1,0 +1,77 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: et-key-wat
+title: Key Wat
+alternate_names:
+- Ethiopian Red Stew
+summary: Key wat is a flavorful and aromatic Ethiopian stew made with tender beef simmered in a rich and spicy red sauce. This traditional dish is known for its complex flavors and is often enjoyed with injera, the Ethiopian flatbread.
+origin:
+  country: ET
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 60
+difficulty: 3
+equipment:
+- Large pot
+- Wooden spoon or spatula
+- Cutting board
+- Chef's knife
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 500, prep: cut into cubes}
+  - {ingredient: niter-kibbeh, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 2, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: berbere, unit: tbsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 0.5, note: to taste}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cardamom, unit: tsp, qty: 0.25}
+  - {ingredient: ground-coriander, unit: tsp, qty: 0.25}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.25}
+  - {ingredient: ground-ginger, unit: tsp, qty: 0.25}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.25}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: chicken-stock, unit: cup, qty: 2}
+  - {ingredient: cilantro, prep: 'chopped, for garnish'}
+steps:
+- Heat the niter kibbeh or butter in a large pot over medium heat.
+- Add the chopped onions to the pot and sauté until they become soft and translucent.
+- Add the minced garlic and stir for a minute until fragrant.
+- Stir in the berbere spice blend, paprika, cayenne pepper, cumin, cardamom, coriander, cinnamon, ginger, turmeric, and salt. Mix well to coat the onions and garlic with the spices.
+- Add the beef cubes to the pot and cook, stirring occasionally, until they are browned on all sides.
+- Pour the beef or vegetable broth into the pot, ensuring that the beef is fully submerged.
+- Reduce the heat to low, cover the pot, and simmer for about 1.5–2 hours or until the beef is tender and the flavors have melded together.
+- Adjust the seasoning with salt and additional spices if desired.
+- Serve hot, garnished with freshly chopped cilantro or parsley.
+tips:
+- Adjust the amount of berbere spice blend and cayenne pepper according to your preferred level of spiciness.
+- Key wat can be prepared in advance and tastes even better when reheated the next day, allowing the flavors to further develop.
+- For a richer flavor, marinate the beef cubes in a mixture of spices and niter kibbeh for a few hours or overnight before cooking.
+- If you prefer a thicker sauce, you can simmer the stew uncovered for the last 30 minutes to allow the liquid to reduce.
+- You can add other vegetables to the key wat, such as carrots or potatoes, to make it more hearty and nutritious.
+- Some recipes call for the addition of tomato paste or puree to the stew for a tangy flavor.
+- Key wat is traditionally enjoyed with injera, but it can also be served with rice, bread, or other Ethiopian side dishes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKey_Wat_%28Ethiopian_Red_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Key Wat (Ethiopian Red Stew)@4518635
+    url: https://en.wikibooks.org/w/index.php?oldid=4518635
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

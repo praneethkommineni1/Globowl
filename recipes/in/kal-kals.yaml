@@ -1,0 +1,46 @@
+id: in-kal-kals
+title: Kal Kals
+alternate_names:
+- Sweet Curled Fritters
+summary: Kal kals are a fried sweet traditionally made during Christmas in Christian communities of India.
+origin:
+  country: IN
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 25
+  amount: 25–30 kal kals
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- deep-frying
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: baking-powder, unit: tsp, qty: 0.5}
+  - {ingredient: powdered-sugar, unit: cup, qty: 0.5}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 0.5}
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.5}
+steps:
+- Combine flour, egg, baking powder, powdered sugar, and vanilla to make a moist but not sticky dough.
+- Flatten teaspoon-sized balls of dough on the back of a fork (preferably with rounded tines) and roll off, forming small snail-shell-like curls.
+- Deep fry in hot oil (~350°F/180°C), six at a time, until golden brown.
+- Roll in more powdered sugar while still hot to coat.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKal_Kals_%28Sweet_Curled_Fritters%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kal Kals (Sweet Curled Fritters)@4587250
+    url: https://en.wikibooks.org/w/index.php?oldid=4587250
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

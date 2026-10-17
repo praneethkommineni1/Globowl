@@ -1,0 +1,72 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tsp MSG
+#  - unmapped ingredient: 3 slices roma tomato
+id: th-khao-pad-gai
+title: Khao Pad Gai
+alternate_names:
+- Thai Chicken Fried Rice
+summary: Khao pad gai is Thai-style fried rice with chicken, as street vendors in the central region of Thailand make it. Note that this is a very imprecise recipe, and so "cups" means "handfuls". Any measuring tool that holds about the capacity of a large handful will do.
+origin:
+  country: TH
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3 as a meal
+time:
+  total_min: 40
+difficulty: 3
+techniques:
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: chicken, qty: 1, prep: sliced in thin strips, note: large}
+  - {ingredient: egg, qty: 2, prep: unbeaten}
+  - {ingredient: long-grain-rice, unit: cup, qty: 4, prep: refrigerated overnight}
+  - {ingredient: onion, qty: 0.5, prep: chopped into strips}
+  - {ingredient: tomato, qty: 0.75, prep: cut into strips}
+  - {ingredient: scallion, qty: 2, prep: thinly sliced}
+  - {ingredient: cilantro, unit: cup, qty: 0.75, prep: finely chopped}
+  - {ingredient: fish-sauce}
+  - {ingredient: soy-sauce}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced and fried}
+  - {ingredient: white-vinegar}
+- name: Optional
+  items:
+  - {ingredient: chili-paste, unit: tbsp, qty: 2}
+- name: Garnish
+  items:
+  - {ingredient: cucumber, unit: slice, qty: 3, prep: peeled}
+  - {ingredient: scallion, unit: sprig, qty: 3}
+  - {ingredient: lettuce}
+steps:
+- Make sure that all of the ingredients are prepared and set aside in small bowls by the stove.
+- Add about 4 Tbsp peanut oil to the wok, and turn the flame to high heat.
+- When the oil is almost smoking, add the chicken strips and push around vigorously with a wok spoon or spatula.
+- When the chicken seems as if it is starting to brown, push it up the side of the wok and crack the eggs into the wok.
+- Stir the eggs around a bit. When almost fully scrambled, mix in the chicken and stir around for 30 seconds more.
+- Push the eggs/chicken to the side, add some more oil, and throw in the tomato and onion. Stir-fry for about 5 minutes. They will not look done, but in the end, they will be fine.
+- Add the cold cooked rice and mix it all in.
+- Turn the heat to low, then add a few splashes of fish sauce and soy sauce to taste.
+- Add sugar, salt, MSG, a splash of vinegar, and chili sauce if wanted. Lastly, add the fried garlic on top. Stir it all in and turn off the heat.
+- On a large platter, arrange the garnishes on a lettuce leaf, and plate the fried rice next to it.
+- Eat the garnishes with the fried rice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKhao_Pad_Gai_%28Thai_Chicken_Fried_Rice%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Khao Pad Gai (Thai Chicken Fried Rice)@4605286
+    url: https://en.wikibooks.org/w/index.php?oldid=4605286
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

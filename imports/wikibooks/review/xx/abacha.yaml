@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no ingredient lines parsed
+#  - course unknown from categories
+id: xx-abacha
+title: Abacha
+summary: Abacha is a traditional Igbo dish from southeastern Nigeria made from dried shredded cassava. Popularly known as African salad, it is widely consumed as a snack, side dish, or light meal.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 30
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Soak the abacha in warm water for 5–10 minutes, or until softened.
+- Drain the abacha thoroughly and set aside.
+- Dissolve the potash in a small quantity of water and strain to remove any sediment.
+- Pour the palm oil into a mixing bowl. Gradually add the strained potash solution while stirring continuously until the oil thickens and turns yellow.
+- Add the ground crayfish, pepper, salt, and crushed seasoning cubes. Mix well to form a smooth sauce.
+- Add the softened abacha to the sauce and stir until evenly coated.
+- Add the ugba, sliced garden eggs, and sliced utazi leaves. Mix thoroughly.
+- Add the fish or stockfish, if using, and stir gently to combine.
+- Adjust the seasoning to taste.
+- Serve immediately as a main dish or side dish.
+tips:
+- Abacha is best served fresh after preparation, as it can become dry if left for too long.
+- It can be garnished with fish, stockfish, or assorted meat depending on preference.
+- Some variations include the addition of sliced onions, fresh tomatoes, or ugba for extra flavour.
+- Ugba (oil bean seeds) adds a distinctive taste and texture to the dish and is commonly used in Igbo-style preparation.
+- The level of pepper can be adjusted depending on taste preference.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAbacha&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Abacha@4676206
+    url: https://en.wikibooks.org/w/index.php?oldid=4676206
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

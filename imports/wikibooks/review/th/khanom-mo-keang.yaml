@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: th-khanom-mo-keang
+title: Khanom Mo Keang
+alternate_names:
+- Thai Custard
+summary: 'Khanom mo keang (Thai: ขนมหม้อแกง), or khanom khumpamas (Thai: ขนมกุมภมาศ) is a Thai custard dessert. In present-day Thailand, the dessert is prepared in a square aluminum pan.'
+origin:
+  country: TH
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: shallot, qty: 1, prep: peeled and thinly sliced, note: large}
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.333}
+  - {ingredient: coconut, unit: cup, qty: 1}
+  - {ingredient: mung-beans, unit: cup, qty: 1.5}
+  - {ingredient: egg, qty: 4, note: large}
+  - {ingredient: sugar, unit: cup, qty: 0.667}
+  - {ingredient: coconut-cream, unit: cup, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+steps:
+- Put the shallot slices and oil into a small frying pan over medium-low heat. Stir the shallot slices, until they are golden brown and crispy.
+- Grease the bottom and sides of a 9×13-inch baking pan. Preheat the oven to 180°C.
+- Soften the palm or coconut sugar in a pan over medium heat.
+- Blend the mung beans, eggs, both sugars, coconut cream, salt, and any leftover oil from the shallots together until smooth.
+- Let the custard mixture sit for 5 minutes until it becomes less frothy.
+- Pour the custard mixture into the pan. Place the pan on a rack positioned in the upper third of the oven. Bake at 180°C for 35–45 minutes or until the center is slightly firm and the top is golden brown.
+- Put some of the fried shallots over the top of the custard.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKhanom_Mo_Keang_%28Thai_Custard%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Khanom Mo Keang (Thai Custard)@4608512
+    url: https://en.wikibooks.org/w/index.php?oldid=4608512
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

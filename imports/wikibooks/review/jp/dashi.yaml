@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Dried kelp
+#  - unmapped ingredient: Dried bonito flakes
+#  - unmapped ingredient: Dried mackerel flakes
+#  - unmapped ingredient: Clams
+#  - unmapped ingredient: Dried flying fish
+#  - unmapped ingredient: Granulated or powdered instant dashi
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: jp-dashi
+title: Dashi
+alternate_names:
+- Japanese Soup Stock
+summary: Dashi is a traditional Japanese broth that forms the foundation of many Japanese dishes. It is made by extracting umami compounds from ingredients such as kelp (kombu), bonito flakes (katsuobushi), and dried sardines (niboshi).
+origin:
+  country: JP
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: anchovies}
+  - {ingredient: mushroom}
+steps:
+- Wipe kombu gently with a damp cloth (do not wash under running water).
+- Soak the kombu in water for about 30 minutes.
+- Heat slowly and remove kombu just before the water boils.
+- Simmer gently for 5 minutes, then strain.
+- Lightly rinse bonito flakes.
+- Bring water to a boil, add flakes, and simmer for about 1 minute.
+- Remove from heat; once the flakes sink, strain through a fine sieve or cheesecloth.
+- Remove heads and guts from sardines or anchovies.
+- Place in a pot with water and bring to a boil.
+- Simmer gently for 5 minutes, then strain.
+- Prepare both kombu and katsuobushi dashi separately.
+- Combine in desired proportions for a richer flavor.
+- Dissolve the desired amount of granulated or powdered dashi in hot water according to package instructions.
+- Adjust seasoning as needed for taste.
+tips:
+- Both kombu and fish flakes are available in most Asian supermarkets or online.
+- Katsuobushi is often sold in small single-serving packets or mesh bags for easy removal. An 80 g bag yields roughly 4 L of stock.
+- Instant dashi provides convenience but may be saltier than homemade stock. Adjust seasoning accordingly.
+- Homemade dashi results in a richer, more complex flavor than most instant varieties.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADashi_%28Japanese_Soup_Stock%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dashi (Japanese Soup Stock)@4610534
+    url: https://en.wikibooks.org/w/index.php?oldid=4610534
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

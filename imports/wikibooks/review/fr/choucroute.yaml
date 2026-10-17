@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 or so tablespoons of duck fat
+#  - unmapped ingredient: 5 juniper berries
+#  - unmapped ingredient: 3 smoked pork slices, bone in
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: fr-choucroute
+title: Choucroute
+alternate_names:
+- Sauerkraut with Meat and Potatoes
+summary: Choucroute garnie is a dish of Sauerkraut with sausages, salt pork, and potatoes. Being a little picky about your ingredients (especially the sauerkraut) with this recipe makes all the difference.
+origin:
+  country: FR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: medium}
+  - {ingredient: potato, qty: [2, 3], note: small}
+  - {ingredient: whole-cloves, qty: 1}
+  - {ingredient: garlic, qty: [1, 2]}
+  - {ingredient: coriander-seeds, qty: 1}
+  - {ingredient: mustard-seeds, unit: tbsp, qty: 0.5}
+  - {ingredient: bacon, qty: 2, prep: sliced into rough squares}
+  - {ingredient: sauerkraut, unit: g, qty: 454}
+  - {ingredient: sausage, qty: 4}
+  - {ingredient: dry-white-wine, unit: cup, qty: 1}
+steps:
+- In a pot large enough to in the end hold everything, melt the duck fat over medium heat.
+- When hot, add the onions and sauté until translucent (about 5 minutes or so).
+- Then, add the sauerkraut, white wine, juniper berries, clove, coriander seed, mustard seed, and garlic.
+- Add the smoked pork and bacon.
+- Cover, and then simmer for about 2 hours.
+- In other pot, simmer the peeled potatoes and your sausages—don't boil, or your sausages will split open.
+- Simmer until potatoes are done (and by then the sausage will be, too).
+- Serve in a heap—sauerkraut at the bottom, various pig and potato parts on top.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChoucroute_%28Sauerkraut_with_Meat_and_Potatoes%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Choucroute (Sauerkraut with Meat and Potatoes)@4615191
+    url: https://en.wikibooks.org/w/index.php?oldid=4615191
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

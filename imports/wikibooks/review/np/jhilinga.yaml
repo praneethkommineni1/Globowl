@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: np-jhilinga
+title: Jhilinga
+alternate_names:
+- Nepalese Rice Fritters
+summary: Jhilinga is a traditional Nepalese food popular specially during festivals. Jhilinga is super crunchy, and is favoured by people of all age groups.
+origin:
+  country: NP
+course: snack
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- deep-frying
+ingredient_groups:
+- items:
+  - {ingredient: rice-flour}
+  - {ingredient: water}
+  - {ingredient: food-coloring}
+steps:
+- Boil water in a deep pot.
+- Slowly add the required amount rice flour and food color into the boiling water, stirring constantly with a wooden spoon. It is same as the process of making dhindo but without the ghee. The mixture should have a good balance and consistency of flour and water.
+- After it is cooked, process the dough through a noodle machine that can make really thin strips.
+- Shape the dough strips into circles. Set out in the sun for a few days to dry and set.
+- Once evenly set, deep fry them in vegetable oil.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AJhilinga_%28Nepalese_Rice_Fritters%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Jhilinga (Nepalese Rice Fritters)@4517744
+    url: https://en.wikibooks.org/w/index.php?oldid=4517744
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

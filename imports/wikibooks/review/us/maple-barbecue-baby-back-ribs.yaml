@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Rib Rub
+#  - unmapped ingredient: Maple Barbecue Sauce
+#  - unmapped ingredient: Hickory and applewood chunks
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-maple-barbecue-baby-back-ribs
+title: Maple Barbecue Baby Back Ribs
+summary: These ribs have beaten some of the best BBQ joints around, including Famous Dave's and Roscoe's, in local competitions.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: pork, qty: 2}
+steps:
+- Remove membrane on the bottom of the ribs. Season both sides liberally with rib rub and refrigerate at least 1 hour.
+- Place enough hickory and applewood chunks in the firebox of a smoker to keep the temperature around 200 °F (95 °C).
+- Place ribs in smoker and cook, brushing with barbecue sauce every 1½ hours for 4 hours or until very tender, changing chunks as needed.
+- Brush meat side of ribs liberally with sauce and place meat side down on a very, very hot grill until well browned and slightly charred.
+- Slice into one-rib portions and serve with additional sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMaple_Barbecue_Baby_Back_Ribs&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Maple Barbecue Baby Back Ribs@4505870
+    url: https://en.wikibooks.org/w/index.php?oldid=4505870
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

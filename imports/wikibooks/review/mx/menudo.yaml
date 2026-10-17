@@ -1,0 +1,96 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3 lb pigs feet
+#  - unmapped ingredient: 2 cans white hominy, drained
+#  - unmapped ingredient: 3–4 chiles de Arbol
+#  - unmapped ingredient: 2 1/2 lb honeycomb tripe
+#  - unmapped ingredient: 2 tbsp dried Mexican oregano
+#  - no time in recipe summary
+id: mx-menudo
+title: Menudo
+alternate_names:
+- Mexican Tripe and Hominy Soup
+summary: Menudo is a traditional Mexican dish; a spicy soup made with hominy and tripe.
+origin:
+  country: MX
+course: soup
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 4
+techniques:
+- boiling
+ingredient_groups:
+- name: Chili
+  items:
+  - {ingredient: red-chili, qty: 4}
+- name: Posole
+  items:
+  - {ingredient: pork, qty: 2}
+- name: Menudo stew
+  items:
+  - {ingredient: dried-oregano, unit: tbsp, qty: 2}
+  - {ingredient: garlic, unit: clove, qty: 1}
+  - {ingredient: bay-leaf, qty: 2}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+- name: Menudo mix
+  items:
+  - {ingredient: chili-flakes, unit: tbsp, qty: 2}
+- name: Serving
+  items:
+  - {ingredient: lime}
+  - {ingredient: tortilla}
+  - {ingredient: onion}
+  - {ingredient: cilantro}
+steps:
+- Wipe the dried Anchos off with a wet paper towel.
+- If desired, toast dried chilies on each side 15 seconds on a hot griddle (this releases essential oils and enhances the flavor).
+- Place the dried chilies into the small pot of boiling water and boil for 10 minutes, turning frequently in the boiling water to ensure all sides receive their fair share of punishment.
+- Remove the chili pot from the stove and drain off the boiling water. Fill with cold water; let it sit a few minutes to cool.
+- Remove the stems from the chilies, cut chilies longitudinally from stem to tip on one side and open. Flush gently with running cold water to remove the seeds.
+- Place stemless and seedless reconstituted chilies into a blender and purée.
+- Remove pure from the blender and place in the refrigerator overnight.
+- Rinse and drain the white hominy.
+- Place the patas (feet) and ribs into a pot.
+- Place the hominy in the pot with the patas (feet).
+- Put 1 tbsp salt in the pot.
+- Take 3–4 dried Chilis de Arbol, discard the seeds and stems, and snip the chilis into ringlets and put into the pot.
+- Cover with water to a height not exceeding 1 cm above the ingredients and bring to a boil.
+- Cook the posole uncovered until the ribs are finished. Remove from the heat.
+- Remove the meat from the ribs and dice into small cubes, place back into the pot with the posole, discard the bones.
+- Place the cooked patas (feet) into the pressure pot you will use to make the menudo.
+- Place a small pot of water on the stove and set to boil. This will be needed to prepare the chilies.
+- Cut the fat from off of the tripe. If fat clings to the non-honeycombed side of the tripe, use a stiff brush to remove it.
+- Cut tripe into small pieces, about ¾–1 inch. Strong scissors work well here!
+- If the tripe smells overly rank (this is normal), you may want to soak it in clean water for an hour (or possibly boil it in water for five minutes) throwing away the soak (boiling) water.
+- Place cut tripe into the pressure cooker on top of the patas (feet).
+- Add the garlic, bay leaves, and Mexican oregano.
+- Fill pressure cooker with water until about 1 cm. above the height of the stew ingredients.
+- Cook at pressure 35–40 minutes.
+- After the stew has cooked in the pressure cooker at full pressure for 35–40 minutes, remove from the heat and let the pot cool off completely until pressure returns to ambient.
+- Remove the patas from the pot and remove the bones. Put deboned patas into pot with the tripe and discard the bones.
+- Transfer the stew to a large bowl and add the posole, ensure all savory pieces lie below the waterline, and set in the refrigerator overnight.
+- In the morning, skim all hardened fat from the surface of the stew which has probably gelatinized overnight.
+- Reheat a serving portion of the stew in the microwave or on stovetop. When hot, place into a serving bowl.
+- Add a tablespoon of chili to the stew and blend thoroughly.
+- The menudo is ready to serve with hot corn tortillas. The spices (oregano and chili flakes) are traditionally combined before serving and placed at the side of the bowl of menudo with a lime wedge for the diner to add just prior to eating. Along with the spices, diced onion or cilantro are also traditionally added to the stew just prior to enjoying.
+tips:
+- Almost all (but not all) store-bought honeycomb tripe will smell strongly from the bleaching lime as possible. Let your nose be the judge as to whether or not it will require a soaking or boil as described in the steps below.
+- You may use cow feet instead of pig feet.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMenudo_%28Mexican_Tripe_and_Hominy_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Menudo (Mexican Tripe and Hominy Soup)@4518652
+    url: https://en.wikibooks.org/w/index.php?oldid=4518652
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

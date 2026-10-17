@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Various chopped herbs
+#  - no time in recipe summary
+id: bg-gyuveche-bulgarian-casserole
+title: Gyuveche (Bulgarian Casserole)
+summary: Gyuveche is a popular Bulgarian casserole. Bulgarians typically use whatever is left over in the fridge to make this dish
+origin:
+  country: BG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: cheese}
+  - {ingredient: chicken, prep: 'pork, or beef', optional: true}
+  - {ingredient: sausage, optional: true}
+  - {ingredient: tomato, prep: 'such as tomatoes, peppers, small hot pepper, mushrooms, cooked potatoes', optional: true}
+  - {ingredient: parsley, prep: 'such as parsley, dill, celery leaves', optional: true}
+  - {ingredient: egg, qty: 1}
+steps:
+- Chop or dice everything you want to put in.
+- Alternate layers of cheese, meat, and vegetables in a baking dish. Finish with cheese on top.
+- Bake in the oven at 200 °C (375 °F) for 20 minutes or until the cheese is melted.
+- Break the egg on top and put back in the oven for another 5–10 minutes depending on how well-done you like your eggs.
+- Serve with fresh bread or toast. Enjoy!
+tips:
+- You may use as many different kinds of cheese as you like, but make sure to include feta cheese, as it is the traditional one for this dish and is not as oily when it melts.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGyuveche_%28Bulgarian_Casserole%29_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gyuveche (Bulgarian Casserole) II@4517405
+    url: https://en.wikibooks.org/w/index.php?oldid=4517405
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

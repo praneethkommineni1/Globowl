@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 tsp Montreal Steak Seasoning
+#  - unmapped ingredient: Hamburger buns
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-firecracker-burgers
+title: Firecracker Burgers
+summary: Firecracker Burgers.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: mayonnaise, unit: cup, qty: 0.5}
+  - {ingredient: chipotle-in-adobo, qty: 2, prep: finely chopped}
+  - {ingredient: cayenne, unit: tsp, qty: [1, 1.5]}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: beef, unit: g, qty: 454}
+  - {ingredient: olive-oil}
+  - {ingredient: bacon, unit: slice, qty: 8, prep: crisp cooked}
+  - {ingredient: monterey-jack, unit: slice, qty: 4}
+  - {ingredient: lettuce, prep: 'tomato, and onion', optional: true}
+steps:
+- Combine mayonnaise and chipotle. Refrigerate until needed.
+- Combine cayenne, salt, pepper, and steak seasoning. Set aside.
+- Form meat into 4 equal patties, about ½ inch thick. Make an indentation in the center of each one and brush with olive oil.
+- Sprinkle patties on both sides with seasoning mixture. Set aside.
+- Preheat a chimney starter full of charcoal in the bottom of a kettle grill. Once hot, disperse evenly around the bottom of the grill.
+- Add burgers and grill, turning often, until desired doneness is achieved.
+- Place a slice of cheese on each patty once it comes off the grill. Serve on buns with bacon, lettuce, tomato, and the chipotle mayonnaise.
+tips:
+- If you can't stand the heat, you may, of course, reduce the cayenne.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFirecracker_Burgers&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Firecracker Burgers@4518209
+    url: https://en.wikibooks.org/w/index.php?oldid=4518209
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

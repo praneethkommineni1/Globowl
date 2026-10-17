@@ -1,0 +1,73 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-n-gakasse
+title: N'gakasse
+alternate_names:
+- Groundnut Sauce
+summary: N'gakasse is a delicious West African dish made with groundnuts (peanuts) as the main ingredient. This sauce is commonly enjoyed with rice, yams, plantains, or fufu.
+origin:
+  country: XX
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Kitchen towel
+- Blender or food processor
+- Large saucepan or pot
+- Wooden spoon
+- Knife for chopping and dicing
+- Cutting board
+- Measuring cups and spoons
+techniques:
+- roasting
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: roasted-peanuts, unit: cup, qty: 2}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: ginger, qty: 1, prep: grated}
+  - {ingredient: tomato, qty: 2, prep: chopped}
+  - {ingredient: black-pepper, qty: 1, prep: diced}
+  - {ingredient: chicken-stock, unit: cup, qty: 2}
+  - {ingredient: cayenne, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: cilantro}
+steps:
+- If using raw peanuts, roast them in a preheated oven at 350°F (175°C) for 10–15 minutes until golden brown.
+- Remove the skins from the roasted peanuts by rubbing them together in a clean kitchen towel.
+- Place the roasted and peeled peanuts in a blender or food processor. Blend until you achieve a smooth paste consistency. Set aside.
+- Heat the oil in a large saucepan or pot over medium heat. Add the chopped onion and sauté until it becomes translucent.
+- Add the minced garlic and grated ginger, and sauté for another minute until fragrant.
+- Stir in the chopped tomatoes and diced bell pepper. Cook the mixture for about 5 minutes until the vegetables soften.
+- Add the blended groundnut paste to the pot, stirring well to combine it with the vegetables. Allow the mixture to cook for 2–3 minutes, stirring occasionally to prevent sticking.
+- Sprinkle in the ground cayenne pepper, ground paprika, ground coriander, and salt. Adjust the seasonings according to your taste preference.
+- Pour in the vegetable or chicken broth, and stir to combine all the ingredients. Reduce the heat to low, and let the sauce simmer for about 15–20 minutes, allowing the flavors to meld together.
+- Once the sauce has thickened to your desired consistency, remove it from the heat. Garnish with chopped fresh cilantro or parsley, if desired.
+- Serve over cooked rice, yams, plantains, or fufu.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AN%27gakasse_%28Groundnut_Sauce%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:N'gakasse (Groundnut Sauce)@4518980
+    url: https://en.wikibooks.org/w/index.php?oldid=4518980
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

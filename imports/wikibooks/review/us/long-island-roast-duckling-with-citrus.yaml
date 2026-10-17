@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 ea. whole pekin duckling
+#  - no time in recipe summary
+#  - course unknown from categories
+id: us-long-island-roast-duckling-with-citrus
+title: Long Island Roast Duckling with Citrus
+summary: This recipe uses a conventional roasting method based on the one featured on The City Cook website.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3–4
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: lemon, qty: 1, prep: cut into quarters}
+  - {ingredient: orange, qty: 1, prep: cut into quarters or eighths}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Defrost the duck in the fridge if it's frozen.
+- Remove the giblets and any packages from the body cavity.
+- Preheat the oven to 375 °F and place an oven rack in the center of the oven.
+- Rinse the duck and pat it dry both inside and out with paper towels.
+- Pierce the skin every half inch with prongs, pushing the prongs through the skin and into the fat but not into the meat. The fat will escape through these holes as the duck cooks.
+- Rub plenty of salt and freshly ground pepper on the skin. Then, place 2 pieces of lemon and 2–4 pieces of orange inside the duck's cavity.
+- Tie the duck's legs together with a piece of butcher's twine. This will keep the citrus inside the cavity.
+- Place the duck breast side up on a rack that has been placed on a roasting pan. It's important to use a roasting pan that has some depth so the fat drips into the pan and not the oven.
+- Push a meat thermometer into one of the thighs.
+- Place the bird on the center rack of the oven. It will cook in 1–1½ hours depending on its size.
+- Remove the duck every 20 minutes from the oven and drain the excess fat. Rotate the duck each time you return it to the oven to help it crisp evenly. You'll know it's done when the skin is golden brown and crispy. Also, the meat thermometer should read no lower than 165 °F.
+- Remove the bird from the oven. Pour out the liquid from the cavity and discard.
+- Allow the duck to rest for ten minutes before carving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALong_Island_Roast_Duckling_with_Citrus&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Long Island Roast Duckling with Citrus@4510605
+    url: https://en.wikibooks.org/w/index.php?oldid=4510605
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

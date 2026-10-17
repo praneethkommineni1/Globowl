@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: American cheese, sliced
+id: us-red-devils
+title: Red Devils
+summary: Red Devils are hot, open faced sandwiches. They are a great dinner or lunch. They include all the major food groups and taste great. Their ease of preparation makes them suitable for people on the move and the recipe can easily be scaled up or down for family or guests.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–4 people
+time:
+  total_min: 10
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: white-bread, prep: sliced}
+  - {ingredient: tomato, prep: sliced}
+  - {ingredient: onion, prep: diced}
+  - {ingredient: bacon}
+steps:
+- Place bacon in a sheet pan.
+- Set the broiler to 'low'.
+- Pre-cook the bacon under the broiler until it is about halfway done.
+- While bacon cooks, place white bread on a sheet, one slice per diner.
+- Place a slice of American cheese on each slice of bread.
+- Place the tomato slices on each sandwich
+- Sprinkle a small amount of onion onto each sandwich.
+- Place a strip of half-cooked bacon on each sandwich.
+- Place the cookie sheet under broiler, set to maximum temperature, and broil for approximately 3–4 minutes. You must check on them often to prevent burning.
+- Remove once the bread is toasted, the cheese is golden at the edges, and the bacon is fully cooked.
+tips:
+- Often it may be easier to eat with utensils instead of by hand.
+- The bacon is usually too long to fit on the sandwich so cut it in half. One strip of bacon is usually used per sandwich so it will have 2 halves on it when finished.
+- Precooking the bacon may be accomplished while preparing the rest of the food. It is best to cook until between rare and crisp.
+- Red devils usually require one tomato per sheet of sandwiches but may vary depending upon the size of your sheets or the size of your tomato slices.
+- A whole onion is not needed for a tray of Red Devils. A small sprinkling of diced onions is sufficient. Sweet onions or red onions are a good substitution for normal white "storage" onions.
+- As always, you can experiment or change things according to your tastes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARed_Devils&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Red Devils@4518276
+    url: https://en.wikibooks.org/w/index.php?oldid=4518276
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

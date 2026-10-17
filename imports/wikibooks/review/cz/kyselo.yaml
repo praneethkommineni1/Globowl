@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 100 g sourdough starter, ideally made with rye flour
+#  - unmapped ingredient: 15 g dried porcini mushrooms, preferably Central European
+id: cz-kyselo
+title: Kyselo
+alternate_names:
+- Czech Sourdough Mushroom Soup
+summary: Kyselo or krkonošské kyselo is a traditional Bohemian sour soup featuring mushrooms and sourdough. It originates from the Krkonoše mountain region in northern Bohemia.
+origin:
+  country: CZ
+course: soup
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 60
+difficulty: 2
+equipment:
+- Stockpots
+- Bowls
+- Frying pan
+- Mixing spoon
+techniques:
+- boiling
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: potato}
+  - {ingredient: caraway-seeds, unit: tbsp, qty: 1}
+  - {ingredient: water, unit: ml, qty: 1250}
+  - {ingredient: onion, qty: 1, prep: chopped}
+  - {ingredient: butter, unit: g, qty: 20}
+  - {ingredient: egg, qty: 3}
+  - {ingredient: salt}
+  - {ingredient: white-vinegar}
+  - {ingredient: parsley, prep: such as parsley or scallion}
+steps:
+- Boil potatoes with their skins, then peel them, chop onto small pieces and roast it in a pan (without adding grease).
+- Put 250 ml tepid water into a bowl. Stir in the sourdough starter. Cover with a clean cloth, and let rest at room temperature for 30 minutes to 3 hours.
+- Put 1000 ml water into a stockpot. Add the dried mushrooms and caraway, and boil for at least 15 minutes to make a strong broth.
+- Carefully add the sourdough mixture into the broth, stirring well—there is a danger that the sourdough will shrink into small dumplings.
+- Boil the soup, stirring, until the sourdough thickens the mixture. This should take about 10 minutes.
+- Sauté the chopped onion with butter in a pan. Stir it into the soup.
+- Beat the eggs with a pinch of salt, and scramble them in an ungreased pan. Stir the cooked eggs into the soup.
+- Season the soup to taste with salt and vinegar. It should be mildly sour, flavored primarily by the mushrooms and sourdough.
+- Served the soup hot, garnished with the chopped herbs, with the potatoes as a side dish. Individual diners may wish to add additional vinegar and salt to taste.
+tips:
+- The eggs can also be be hard-boiled and chopped instead of scrambled.
+- Sometimes kyselo is made softer by adding cream.
+- 150 g fresh mushrooms may be used instead of the dried ones.
+- 'The potatoes are sometimes boiled directly in the water: added at beginning into the stockpot and then logically not roasted. But, roasted potatoes are crispy and more delicious. There are also variants without potatoes.'
+- Do not the potatoes to the soup; potatoes should be served separately and added by consumer itself just before eating. It preserves the crispness of the potatoes.
+- Sometimes other sour, mushroom-based Czech soups are mistakenly referred to as kyselo. The difference is that kulajda and other such similar soups use sour cream or milk and vinegar instead of sourdough. To avoid confusion, kyselo is often called Krkonošské kyselo, meaning "kyselo from the Krkonoše region".
+- Kyselo is closely related to a traditional Polish sour rye soup called Żurek or Żur, which contains meat and no mushrooms.
+- Sourdough starter can be bought at local food stores in Krkonoše. Elsewhere, it can be purchased at specialty shops and local bakeries. It can also be made at home from water and flour.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKyselo_%28Czech_Sourdough_Mushroom_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kyselo (Czech Sourdough Mushroom Soup)@4610379
+    url: https://en.wikibooks.org/w/index.php?oldid=4610379
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

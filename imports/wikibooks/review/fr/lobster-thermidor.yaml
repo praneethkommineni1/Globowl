@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 lb cooked lobster meat, preferably from the tail; see notes
+#  - unmapped ingredient: 1 cleaned lobster tail shell
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: fr-lobster-thermidor
+title: Lobster Thermidor
+summary: Lobster thermidor is a dish created by stuffing an empty lobster tail with sautéed lobster meat that is cooked with butter, a light wine (often sherry), and cream.
+origin:
+  country: FR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: tbsp, qty: 3}
+  - {ingredient: heavy-cream, unit: cup, qty: 1}
+  - {ingredient: egg-yolk, qty: 2}
+  - {ingredient: sherry, unit: cup, qty: 0.5}
+  - {ingredient: mozzarella, unit: cup, qty: 0.5}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- In a serving bowl, mix together egg yolks and cream, then set aside for later use.
+- In a saucepan large enough to accommodate everything, warm the butter over low heat until it melts.
+- Add the cooked lobster meat and wine to the butter, then sauté over medium-high heat for about 2–3 minutes, or until the meat is warmed through and the wine has been mostly absorbed.
+- Slowly add the cream and egg mixture, stirring all the time to ensure that the sauce is evenly mixed.
+- When the sauce has thickened remove from heat.
+- Set oven to broil or prepare an open flame.
+- Carefully stuff the empty lobster tail with the filling.
+- Top the filling with the grated cheese, salt, and pepper.
+- Place the filled shell underneath the open flame and broil for 3–8 minutes, or until the cheese melts and turns a golden brown.
+- Remove from the oven, and serve on a warmed plate with garnish and appropriate accompaniments.
+tips:
+- Cooking and shelling a fresh lobster can be a time consuming process, so frozen or pre-shelled tail meat is often used as a substitute. If you would like to prepare your own lobster meat, refer to the recipe for boiled lobster.
+- While the base preparation of Lobster Thermidor often remains the same, the type of wine or cheese used, or the way that the lobster is cooked differs.
+- Some preparations include utilizing the broth generated from cooking the lobster with carrots, celery, tarragon, and wine as an additional ingredient to thicken the sauce of cream and sherry.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALobster_Thermidor&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lobster Thermidor@4630361
+    url: https://en.wikibooks.org/w/index.php?oldid=4630361
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

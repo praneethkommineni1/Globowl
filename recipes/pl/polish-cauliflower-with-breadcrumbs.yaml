@@ -1,0 +1,42 @@
+id: pl-polish-cauliflower-with-breadcrumbs
+title: Polish Cauliflower with Breadcrumbs
+summary: Cauliflower with breadcrumbs is a popular dish and side-dish in Poland and many parts of Central Europe. It's really simple to make.
+origin:
+  country: PL
+course: side
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3–4
+time:
+  total_min: 15
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: cauliflower, qty: 1}
+  - {ingredient: butter, unit: ml, qty: 50}
+  - {ingredient: breadcrumbs, unit: tbsp, qty: [2, 3]}
+  - {ingredient: dill, unit: tsp, qty: 0.5, optional: true}
+steps:
+- Boil the cauliflower for about 10 minutes.
+- Melt some butter in the oven or a microwave.
+- Mix the butter with the breadcrumbs, and add dill if using.
+- Drain the cauliflower and add the mixture on top.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APolish_Cauliflower_with_Breadcrumbs&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Polish Cauliflower with Breadcrumbs@4513535
+    url: https://en.wikibooks.org/w/index.php?oldid=4513535
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

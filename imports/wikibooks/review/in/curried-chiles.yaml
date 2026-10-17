@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 tsp nigella seeds
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-curried-chiles
+title: Curried Chiles
+alternate_names:
+- Mirchi ka Salan
+summary: Curried Chiles.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- simmering
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: poppy-seeds, unit: tbsp, qty: 2}
+  - {ingredient: sesame-seeds, unit: tbsp, qty: 2}
+  - {ingredient: coriander-seeds, unit: tbsp, qty: 2}
+  - {ingredient: ground-cumin, unit: tbsp, qty: 1}
+  - {ingredient: coconut, unit: tbsp, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 5}
+  - {ingredient: red-chili, unit: kg, qty: 0.5, note: medium}
+  - {ingredient: red-chili, qty: 6}
+  - {ingredient: ground-fenugreek, qty: 6}
+  - {ingredient: curry-leaves, qty: [6, 7]}
+  - {ingredient: onion, qty: 4, prep: finely chopped, note: large}
+  - {ingredient: red-chili, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tbsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: ginger-garlic-paste, unit: tbsp, qty: 1}
+  - {ingredient: tamarind-paste, unit: cup, qty: 0.5}
+steps:
+- Lightly roast the poppy seed, sesame seeds, coriander seeds, cumin seeds, and desiccated coconut, then grind in a mortar and pestle.
+- Heat oil in frying pan and use to stir fry the green chiles with some salt. Drain the oil from the green chillies and keep aside.
+- Heat some oil in a pan. Add the red chiles, fenugreek seeds, and a couple of curry leaves, and heat until popping. Add chopped onions, and fry until golden brown.
+- Mix in ground spices, chili powder, turmeric, ginger garlic paste, and nigella seeds. Stir well and cook for 2 minutes.
+- Mix in tamarind juice, and cook for a minute.
+- Add the green chillies and remaining curry leaves, and simmer for 15–20 minutes.
+- Serve with any meat accompaniment or rice dish like biryani.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACurried_Chiles_%28Mirchi_ka_Salan%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Curried Chiles (Mirchi ka Salan)@4517535
+    url: https://en.wikibooks.org/w/index.php?oldid=4517535
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

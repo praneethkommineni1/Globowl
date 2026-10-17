@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: de-sauerkraut
+title: Sauerkraut
+summary: Sauerkraut is a traditional fermented vegetable food made from cabbage. This basic recipe produces a tangy sauerkraut with live bacteria. No cooking is required.
+origin:
+  country: DE
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 45
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: white-cabbage, qty: 1, note: large}
+  - {ingredient: salt, unit: tbsp, qty: [2, 3]}
+steps:
+- Clean and dry a large (3 litres) preserves jar or crock, chopping board, and large bowls if needed.
+- Quarter the cabbage and remove the core.
+- Slice the cabbage finely or thickly, as you prefer.
+- If desired, bruise the sliced cabbage by beating with a rolling pin or mortar and pestle.
+- Layer the cabbage in the jar or crock, sprinkling salt in between the layers.
+- Pack tightly into the jar, leaving 1&nbsp;cm space at the top; don't seal the jar yet.
+- Juice should rise to top of jar as you tightly pack the cabbage in; if not, add a little chlorine-free water.
+- Cover the jar with a clean cloth or cling-wrap. Set the jar in a bowl or on a plate, so that any juice that might overflow will be collected and won't make a mess. Don't seal the jar while it is fermenting, as it will build up gas pressure and might break the jar.
+- Every morning and evening, insert a narrow long object into the jar to let the air out, then collect the juice from the plate and re-add it to the jar. Ensure the temperature is kept constant during the fermentation—otherwise the fermentation may not proceed correctly, and the wrong bacteria may grow. If you don't heat your kitchen in winter then you will need to store the jar in your bedroom or another area with a steadier temperature throughout day and night.
+- The sauerkraut will be fermented in three days to about a week. Wipe any excess liquid from around the jar, and put the lid on tightly before moving it to a cool place (e.g. the refrigerator) to mature. It is ready to eat after the first week, but it will improve with age as the bacteria slowly consume the more complex sugars in the cabbage.
+tips:
+- The salt used should be non-iodised, since iodine can slightly inhibit the fermentation. Use what you've got, but best results will be obtained without the iodine.
+- Add other vegetables, fruits, or spices such as juniper berries, cored and sliced apple, diced pineapple, onion, chili, or grated carrot.
+- The cabbage can be quickly sliced to a regular thickness by using a mandoline.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASauerkraut_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sauerkraut I@4525170
+    url: https://en.wikibooks.org/w/index.php?oldid=4525170
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

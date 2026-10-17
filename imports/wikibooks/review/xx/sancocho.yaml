@@ -1,0 +1,75 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Chopped cilantro
+id: xx-sancocho
+title: Sancocho
+alternate_names:
+- Dominican Meat and Vegetable Soup
+summary: Sancocho is popular in the Dominican Republic and called by many its national dish.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 240
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- name: Chicken
+  items:
+  - {ingredient: orange, qty: 1, prep: juiced, note: large}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 1}
+  - {ingredient: parsley, unit: bunch, qty: 0.25, prep: large stems removed}
+  - {ingredient: cilantro, unit: bunch, qty: 0.25, prep: large stems removed}
+  - {ingredient: dried-oregano, unit: tbsp, qty: 2}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: chicken, unit: g, qty: 454, prep: 'skinless chicken breasts, cut into bite-size pieces'}
+- name: Soup
+  items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1, prep: such as canola}
+  - {ingredient: chicken-stock, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 4}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: sweet-potato, qty: 1, prep: peeled and cut into 1/2-inch chunks, note: medium}
+  - {ingredient: potato, qty: 1, prep: unpeeled and cut into bite-size chunks, note: medium}
+  - {ingredient: plantain, qty: 1, prep: peeled and sliced into 1/2-inch thick slices}
+  - {ingredient: corn-kernels, qty: 1, prep: quartered}
+  - {ingredient: green-chili, qty: 1, prep: seeded and minced}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: long-grain-rice, optional: true}
+  - {ingredient: hot-sauce}
+steps:
+- In bowl of a food processor or blender, combine orange juice, lemon juice, parsley, cilantro, oregano, garlic, salt, and pepper, and process until combined.
+- Pour mixture into a non-reactive bowl, add chicken and stir to combine.
+- Cover and refrigerate 1–2 hours.
+- Heat oil in a large soup pot over medium heat. When hot, use a slotted spoon to lift the chicken out of the marinade and place in the pot, reserving marinade. Cook chicken until opaque, stirring occasionally.
+- Add reserved marinade, vegetable stock and water to the pot, and bring to a boil.
+- Add onion, sweet potato, potato, plantain, corn, jalapeño, salt and pepper.
+- Bring back to a boil, reduce to low and cook partially covered for 1–1½ hours.
+tips:
+- To serve, ladle soup into bowls and top with a small scoop of rice, if desired. Pass hot sauce and cilantro at the table.
+- Because this soup has a long simmering time, choose an unripe green plantain rather than a ripe yellow or black-colored plantain, which has a softer texture.
+- Each cook makes his own recipe for sancocho, combining root vegetables with different kinds of meat, some with up to seven meats.
+- To make the soup even more authentic, add a small peeled cubed yuca root to the broth, along with the other vegetables.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASancocho_%28Dominican_Meat_and_Vegetable_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sancocho (Dominican Meat and Vegetable Soup)@4525169
+    url: https://en.wikibooks.org/w/index.php?oldid=4525169
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

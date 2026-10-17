@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 500 g manioc flour or premade farofa mix
+#  - unmapped ingredient: 1–2 tbsp tempero baiano
+#  - course unknown from categories
+id: xx-farofa
+title: Farofa
+summary: Farofa is a typical Brazilian dish made of toasted manioc flour. It's usually served as a side dish along with feijoada or grilled meat.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 600
+  amount: ~600 g
+time:
+  total_min: 10
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: [1, 2], prep: preferably olive oil.}
+  - {ingredient: garlic, qty: 2, prep: minced, note: large}
+  - {ingredient: beef}
+  - {ingredient: onion, qty: 2, prep: chopped}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: cilantro, prep: chopped, optional: true, note: to taste}
+steps:
+- Heat a skillet over medium heat. Add the meat and fry for a minute or so. Depending on how much fat is released from it, add up to 1 tbsp of the oil or butter, enough to fry the garlic and onions.
+- Add the garlic, and stir for a minute or so, making sure not to let it burn.
+- Add the onion and seasonings, and cook for about another minute.
+- Add the flour and any additional ingredients. Stir well and continue toasting for a couple minutes more. If using premade farofa mix, stir until the extra ingredients are well-done. If using raw cassava flour, slowly add the remaining butter or oil and stir until toasted and golden.
+- Turn off the heat, and add chopped cilantro if desired. Serve hot to warm.
+tips:
+- Additional ingredients may be added for taste and texture. Common additions are green olives, fried plantains, ground ginger, dry textured vegetable protein and onion flakes.
+- Tempero baiano (see notes) is a Brazilian spice mix based on cumin, paprika, cilantro and oregano. If you don't have it, you can add the individual components to taste.
+- Manioc flour or premade farofa mix may already be salted, so taste when adding more salt.
+- Coarse corn flour in flakes can be used as a substitute for the cassava flour.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFarofa&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Farofa@4494253
+    url: https://en.wikibooks.org/w/index.php?oldid=4494253
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

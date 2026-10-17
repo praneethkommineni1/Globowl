@@ -1,0 +1,44 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 teaspoon psyllium husk powder or xanthan gum
+#  - course unknown from categories
+id: xx-carrot-fufu
+title: Carrot Fufu
+summary: Carrot fufu is a swallow made from carrot, common in Nigeria due to its low carbohydrate content. It is easy to make once the carrot is blended smoothly.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 15
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: carrot, qty: 4, prep: chopped}
+  - {ingredient: water, unit: cup, qty: 0.5}
+steps:
+- Blend the chopped carrot until smooth.
+- Transfer the carrot to the cheesecloth, and squeeze out all the water from the carrot paste.
+- Cook the carrot paste in a pot over medium heat for 5 minutes.
+- Stir in the psyllium husk to thicken and bind the fufu.
+tips:
+- The function of the psyllium husk is to make the carrot fufu moldable, and this give it the texture of eba.
+- Cut or scrape off any dark marks on the carrot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACarrot_Fufu&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Carrot Fufu@4518750
+    url: https://en.wikibooks.org/w/index.php?oldid=4518750
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

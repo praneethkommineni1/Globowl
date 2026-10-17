@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 cups atyever leaves, rinsed and sliced
+#  - unmapped ingredient: 2 tablespoons chile-tomato purée
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-atyever-soup
+title: Atyever Soup
+summary: Atyever soup is a slippery Nigerian soup made from jute leaves. It is consumed by people from the Tiv tribe, and it is easy to prepare.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: red-palm-oil, unit: tbsp, qty: 2}
+  - {ingredient: stockfish, qty: 1, prep: rinsed}
+  - {ingredient: chicken-bouillon-cube, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 0.25}
+steps:
+- Bring the water to a boil in a saucepan. Add the atyever leaves, and boil for 7 minutes.
+- Stir in the palm oil, catfish, chile pepper and tomatoes. Cook for 4–5 minutes.
+- Add the maggi cube and salt. Stir slowly until the soup is slippery enough.
+- Serve.
+tips:
+- The chile-tomato purée is a product commonly available in Nigerian supermarkets. It consists of puréed tomato and chile pepper, sometimes with onion and/or red bell pepper added. It may also be called something like "tomato stew mix", "tomato mix", "tomato and pepper mix", or ata lilo. You can make it yourself at home by puréeing the ingredients together and simmering to reduce it slightly, though you will have to determine the ratios yourself. One place to start is 40% tomato + 30% bell pepper + 20% onion + 10% scotch bonnet chile, but other recipes do exist.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAtyever_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Atyever Soup@4518346
+    url: https://en.wikibooks.org/w/index.php?oldid=4518346
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

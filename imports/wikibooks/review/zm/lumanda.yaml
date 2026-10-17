@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: zm-lumanda
+title: Lumanda
+alternate_names:
+- Zambian Okra Stew
+summary: Lumanda is a flavorful Zambian okra stew that celebrates the unique taste and texture of okra. This vegetarian stew is made with fresh okra pods, tomatoes, onions, and a blend of aromatic spices. It is a delightful dish often enjoyed with nshima, a popular Zambian staple food.
+origin:
+  country: ZM
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Large pot
+- Cutting board
+- Knife
+- Wooden spoon or spatula
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: black-pepper, qty: 1, prep: chopped}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: ground-coriander, unit: tsp, qty: 0.5}
+  - {ingredient: okra, unit: cup, qty: 2}
+  - {ingredient: tomato, qty: 1, prep: diced}
+  - {ingredient: salt, note: to taste}
+steps:
+- In a large pot, heat the vegetable oil over medium heat.
+- Add the chopped onion, minced garlic, and chopped hot pepper to the pot. Sauté until the onions are soft and translucent.
+- Stir in the ground paprika, ground cumin, ground turmeric, and ground coriander. Cook for a minute or two to release the flavors of the spices.
+- Add the sliced okra and diced tomato to the pot. Stir well to combine the vegetables with the spice mixture.
+- Season the stew with salt to taste. Adjust the seasoning according to your preference.
+- Reduce the heat to low, cover the pot, and let simmer for about 15–20 minutes, or until the okra is tender and cooked through.
+- Stir occasionally during cooking to prevent sticking and to ensure even cooking of the okra and tomatoes.
+- Once the stew is ready, remove the pot from the heat and let rest for a few minutes before serving.
+tips:
+- For a thicker stew, you can add a spoonful of cornmeal or cassava meal to the pot during cooking.
+- Lumanda is traditionally served with nshima, a stiff maize porridge, but it can also be enjoyed with rice or bread.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALumanda_%28Zambian_Okra_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lumanda (Zambian Okra Stew)@4518642
+    url: https://en.wikibooks.org/w/index.php?oldid=4518642
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

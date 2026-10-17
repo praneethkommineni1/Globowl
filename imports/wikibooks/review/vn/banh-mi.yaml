@@ -1,0 +1,92 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Julienned daikon radish
+#  - unmapped ingredient: Sliced pork pâté
+#  - unmapped ingredient: Sliced pork meatloaf
+#  - unmapped ingredient: Meatballs
+#  - unmapped ingredient: Sardines
+#  - unmapped ingredient: Tripe
+#  - unmapped ingredient: Smoked salmon
+#  - unmapped ingredient: Grilled or fried whitefish
+#  - unmapped ingredient: Textured vegetable protein
+#  - unmapped ingredient: Sprout mix
+#  - unmapped ingredient: Maysocha
+#  - unmapped ingredient: Maycha
+#  - unmapped ingredient: Hot Mom
+#  - no time in recipe summary
+id: vn-banh-mi
+title: Bánh Mì
+summary: means 'bread' in Vietnamese, and it often refers to a type of Vietnamese sandwich. It may have started as a 'kitchen sink' recipe in Vietnam, where various leftovers would be tossed into a sandwich to finish them up (like a po' boy).
+origin:
+  country: VN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1 sandwich
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- name: Core ingredients
+  items:
+  - {ingredient: white-bread, qty: 1}
+  - {ingredient: carrot}
+  - {ingredient: salt}
+  - {ingredient: water}
+  - {ingredient: white-vinegar}
+  - {ingredient: sugar}
+- name: Standard bánh mì fillings
+  items:
+  - {ingredient: cilantro}
+  - {ingredient: green-chili}
+  - {ingredient: cucumber}
+- name: Protein fillings
+  items:
+  - {ingredient: pork}
+  - {ingredient: chicken}
+  - {ingredient: ham}
+  - {ingredient: beef}
+  - {ingredient: sausage}
+  - {ingredient: firm-tofu}
+- name: Optional additional fillings
+  items:
+  - {ingredient: turnip}
+  - {ingredient: scallion}
+  - {ingredient: tomato, prep: patted dry tomatoes}
+  - {ingredient: mint}
+  - {ingredient: basil}
+  - {ingredient: white-cabbage}
+  - {ingredient: lettuce}
+- name: Sauces for sandwich
+  items:
+  - {ingredient: mayonnaise}
+  - {ingredient: mayonnaise}
+  - {ingredient: lime}
+  - {ingredient: barbecue-sauce}
+steps:
+- Lightly sprinkle the julienned carrot and radish with salt. Let rest 5 min, then rinse with cold water.
+- Mix equal parts of water, vinegar with sugar. Bring to a boil, cool, and pour over vegetables.
+- Store this mixture in a container in the refrigerator for at least a day before using.
+- Slice a length of baguette lengthwise. Form a trench in each half by either removing the excess bread or compressing it. These depressions are where you will put the filling.
+- Toast the bread if desired.
+- Spread a layer of desired sauce(s) on each half of the bread.
+- Fill the sandwich with any of the desired fillings listed above.
+- Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AB%C3%A1nh_M%C3%AC&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bánh Mì@4605959
+    url: https://en.wikibooks.org/w/index.php?oldid=4605959
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

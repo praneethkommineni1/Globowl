@@ -1,0 +1,56 @@
+id: ng-sinasir
+title: Sinasir
+alternate_names:
+- Nigerian Rice Pancake
+summary: Sinasir is a rice pancake popular in the northern part of Nigeria. It is made from cooked and soaked short-grained rice as used in tuwo shinkafa.
+origin:
+  country: NG
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3–4
+time:
+  total_min: 40
+difficulty: 3
+equipment:
+- Non-stick frying pan
+- Blender
+- Stovetop
+- Bowl
+techniques:
+- fermenting
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 3}
+  - {ingredient: water}
+  - {ingredient: yeast, unit: tbsp, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 0.75}
+  - {ingredient: onion, qty: 2, prep: chopped}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: baking-powder, unit: tsp, qty: 1, optional: true}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+steps:
+- Place the rice in a bowl, and cover it with about 1 inch of water. Soak for several hours.
+- Blend the soaked and parboiled rice in a blender until you get a smooth batter, adding water as necessary.
+- Transfer the batter to a bowl, then mix in the yeast and sugar. Cover and let ferment at room temperature for a few hours.
+- Mix in onion, salt, and baking powder.
+- Heat a non-stick frying pan, and grease with a thin layer of oil.
+- Scoop in enough batter to make a thin layer in the pan. Cook until the bottom is browned and the pancake is cooked through.
+- Remove the pancake, and repeat the greasing and cooking process with the remaining batter.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASinasir_%28Nigerian_Rice_Pancake%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sinasir (Nigerian Rice Pancake)@4540974
+    url: https://en.wikibooks.org/w/index.php?oldid=4540974
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

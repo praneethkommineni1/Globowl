@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-hilbah
+title: Hilbah
+alternate_names:
+- Fenugreek Condiment
+summary: 'Hilbah, (Arabic: حلبة) also spelled holbah, is a condiment or dollop made from ground fenugreek seeds. It is typically consumed with a morsel of bread (sop), or added as flavoring to hot soups. Its preparation is mostly found in Yemen, Israel and other Middle-Eastern countries.'
+origin:
+  country: XX
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: ground-fenugreek, unit: tbsp, qty: 3}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: cilantro, prep: finely chopped}
+  - {ingredient: leek, prep: chopped}
+  - {ingredient: lemon, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: red-bell-pepper, unit: tbsp, qty: 1}
+  - {ingredient: tomato, optional: true}
+steps:
+- Soak ground fenugreek in the water for 3 hours until expanded.
+- Beat with a spatula until paste becomes light and frothy. Gradually add more water if necessary.
+- Mix in coriander leaves and leeks.
+- Mix in salt, lemon juice, and zḥug.
+- Mix in grated tomato if using.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHilbah_%28Fenugreek_Condiment%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Hilbah (Fenugreek Condiment)@4630056
+    url: https://en.wikibooks.org/w/index.php?oldid=4630056
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,69 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: About 1.6 kg flour
+#  - unmapped ingredient: 20 g coarse salt
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: fr-pain-au-levain-naturel
+title: Pain au Levain Naturel
+summary: This is a simplified recipe for pain au levain, a white crusty French sourdough bread. The traditional method of making pain au levain is a long seven stage process.
+origin:
+  country: FR
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 4
+techniques:
+- dough-making
+ingredient_groups:
+- name: Starter culture
+  items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 150}
+  - {ingredient: water, prep: warmed}
+- name: First rise
+  items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 500}
+  - {ingredient: water, unit: g, qty: 300}
+- name: Final assembly
+  items:
+  - {ingredient: water, unit: g, qty: 800}
+steps:
+- Mix the flour with a little warm water to obtain a dough that is neither too wet nor too dry.
+- Transfer to a covered glass or earthenware container, and let rest at a temperature above 20°C (68°F).
+- Allow the culture to stand for 3–4 days, stirring daily with a wooden spoon and adding a little warm water and flour each time.
+- Add flour and water to the yeast culture
+- Work the dough for 5–10 minutes with a wooden spatula.
+- Cover with a clean cloth and allow to stand overnight at a temperature of about 25°C (77°F).
+- If the dough has not risen sufficiently, let stand another 12 hours. When it is ready, save about 3 tablespoons of the dough in the refrigerator as a starter for the next time you make pain au levain.
+- Mix the flour, water, and salt into the dough. Don’t incorporate all of the flour—save some to knead the dough.
+- When the dough becomes difficult to manipulate in the bowl, work it on a flat surface, adding a little flour as necessary. Knead the dough well for about 20 minutes by pulling and folding but without pressing down on it.
+- Cover with a clean cloth and leave to proof for an hour at around 25°C (77°F).
+- Divide the dough into 3 balls.
+- Oil three baking pans and insert the balls of dough after shaping them to the size of the pan. They may also be baked without a pan—in this case, set them on a baking sheet.
+- Cover with a clean cloth, and allow to rise for 2 hours or more at around 25°C (77°F) until the loaves have risen to 1½ to 2 times their original size.
+- When the loaves have risen, cut diagonal incisions along the length of the loaves with a razor blade.
+- Preheat the oven and bake at 260°C (500°F) for ½ hour. Lower the heat to 200°C (400°F) and bake for another ¼–½ hour. Two thirds of the way through baking, sprinkle the loaves with cold water and continue baking. This will give a shiny surface.
+- Remove from the oven and let cool.
+tips:
+- Suitable flour types include complete 110 (high-gluten bread flour) or half-complete type 80 (all-purpose flour).
+- It's best to use chlorine-free water, as the chlorine is bad for the yeast.
+- In an oven with uneven heat distribution it may be necessary to move the loaves around halfway through baking.
+- The bread will keep for one week.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APain_au_Levain_Naturel&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pain au Levain Naturel@4501606
+    url: https://en.wikibooks.org/w/index.php?oldid=4501606
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

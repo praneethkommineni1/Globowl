@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (IE, IT): confirm the country of origin
+#  - no usable introduction for the summary
+id: ie-caramelized-sweet-and-sour-onion-marmalade
+title: Caramelized Sweet and Sour Onion Marmalade
+summary: Caramelized Sweet and Sour Onion Marmalade.
+origin:
+  country: IE
+  also_claimed_by:
+  - IT
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2 cups
+time:
+  total_min: 30
+difficulty: 3
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil, unit: tbsp, qty: 4}
+  - {ingredient: onion, qty: 4, prep: sliced into thin strips, note: large}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: white-vinegar, unit: cup, qty: 0.25}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.125}
+steps:
+- Heat oil in a large frying pan over medium heat. Add onions, and sauté, stirring, for about 15 minutes, or until they begin to brown. Do not cook over high heat, as the outside of the onions will char too quickly before the insides have softened and sweetened.
+- When onions have softened and turned a light golden brown, add sugar. Continue stirring until sugar melts and begins to bubble.
+- As the onions turn a richer brown, clear a space in the center of the pan. Pour balsamic vinegar directly onto the hot pan, then stir it into onions.
+- When vinegar has reduced, leaving a syrupy coating on the onions, turn off the heat.
+- Stir in salt and pepper, and allow onions to cool.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACaramelized_Sweet_and_Sour_Onion_Marmalade&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Caramelized Sweet and Sour Onion Marmalade@4523926
+    url: https://en.wikibooks.org/w/index.php?oldid=4523926
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

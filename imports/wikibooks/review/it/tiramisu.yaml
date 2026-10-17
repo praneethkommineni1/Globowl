@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 500 g mascarpone cheese
+#  - unmapped ingredient: 400 g of lady fingers
+id: it-tiramisu
+title: Tiramisù
+summary: Tiramisù means "cheer me up" in Italian and aptly describes this dessert traditionally made from savoiardi or ladyfingers or sponge cake, espresso coffee, mascarpone cheese, egg whites, yolk and sugar.
+origin:
+  country: IT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8
+time:
+  total_min: 75
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: egg-white, qty: 4}
+  - {ingredient: egg-yolk, qty: 2}
+  - {ingredient: sugar, unit: g, qty: 100}
+  - {ingredient: coffee, qty: 4, note: small}
+  - {ingredient: cocoa-powder}
+steps:
+- Make espresso coffee, and let it cool a bit.
+- Separate the egg yolks and the whites of two eggs in two bowls.
+- Beat sugar into the egg yolks.
+- Beat the mascarpone into the sweetened yolks.
+- Add two more egg whites to the other two and whip until they form stiff peaks.
+- Gently fold egg whites into mascarpone mixture.
+- Quickly dip both sides of the ladyfingers in the espresso.
+- Layer soaked ladyfingers and mascarpone in a large bowl or pan (start with fingers, finish with mascarpone).
+- Refrigerate for one hour or two.
+- Sprinkle unsweetened cocoa powder on top just before to serve.
+tips:
+- Savoiardi are the traditional biscuits used with this recipe, rather than ladyfingers. Sponge cake can also be used.
+- It is common, but not in the original recipe, to use marsala wine (or brandy or cognac) or Amaretto di sarono with the coffee.
+- Cream can be used as an alternative to Mascarpone cheese. Whip 375–500 ml (¾–1 pint) of double cream (heavy cream) until stiff peaks form, then add the sugar and continue from step 2.
+- Full-fat cream cheese can be used as an alternative to mascarpone; add some cream to taste.
+- An Atkins friendly version of this recipe is also available.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATiramis%C3%B9&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tiramisù@4608624
+    url: https://en.wikibooks.org/w/index.php?oldid=4608624
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

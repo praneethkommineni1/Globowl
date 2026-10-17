@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 4 whole pigeons, cleaned and gutted
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: eg-egyptian-grilled-pigeon
+title: Egyptian Grilled Pigeon
+alternate_names:
+- Fattah Meshaltet
+summary: Egyptian grilled pigeon, also known as fattah meshaltet, is a traditional food highly regarded in Egyptian cuisine. This dish features succulent grilled pigeons marinated in a flavorful blend of spices, giving it a rich and aromatic taste.
+origin:
+  country: EG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 30
+difficulty: 2
+equipment:
+- Grill or barbecue
+- Mixing bowl
+- Knife for mincing
+- Measuring spoons
+- Plastic wrap
+techniques:
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: ground-cumin, unit: tbsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tbsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: minced}
+  - {ingredient: lemon}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+steps:
+- In a mixing bowl, combine the ground cumin, ground coriander, ground paprika, ground cinnamon, ground black pepper, salt, minced garlic, lemon juice, and olive oil. Mix well to form a marinade.
+- Place the cleaned and gutted pigeons in the marinade, ensuring they are evenly coated. Massage the marinade into the birds, ensuring they are thoroughly seasoned.
+- Cover the bowl with plastic wrap and let the pigeons marinate in the refrigerator for at least 2 hours or overnight to allow the flavors to penetrate the meat.
+- Preheat the grill or barbecue to medium-high heat.
+- Remove the pigeons from the marinade and shake off any excess. Reserve the marinade for basting.
+- Place the pigeons on the grill and cook for about 6–8 minutes on each side, or until they are cooked through and nicely browned, basting occasionally with the reserved marinade. Ensure the internal temperature of the pigeon reaches a safe temperature of 165°F (74°C) to ensure they are fully cooked.
+- Once cooked, transfer the grilled pigeons to a serving platter and let them rest for a few minutes before serving.
+- Serve hot as a main course, garnished with fresh herbs and accompanied by traditional Egyptian side dishes like rice or bread.
+tips:
+- Ensure that the pigeons are sourced from reputable suppliers and properly cleaned before marinating.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgyptian_Grilled_Pigeon_%28Fattah_Meshaltet%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egyptian Grilled Pigeon (Fattah Meshaltet)@4510087
+    url: https://en.wikibooks.org/w/index.php?oldid=4510087
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - course unknown from categories
+id: es-tortilla-espanola-de-patatas
+title: Tortilla Española de Patatas
+summary: People visiting Spain will sooner or later come face to face with a typical Spanish delicacy called the tortilla. You can find this dish in every bar, pub or restaurant in the country.
+origin:
+  country: ES
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 50
+difficulty: 3
+techniques:
+- stir-frying
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: g, qty: 454, prep: washed}
+  - {ingredient: egg, qty: 10}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: olive-oil, unit: ml, qty: 503}
+  - {ingredient: onion, qty: 2, prep: 'peeled, quartered, and sliced into 1/8–1/4-inch slices'}
+  - {ingredient: cucumber, optional: true}
+steps:
+- Cut the potatoes into thin slices and dab them dry with a dish towel. Heat the olive oil in a pan. Add the potatoes and onions; turn down the heat and stir-fry them for approximately 20 minutes.
+- Crack the eggs into a bowl, add salt and pepper, and whisk them. As soon as the potatoes and the onions are cooked, drain them off, collecting the oil. Then add the whisked eggs to the potato-onion mix.
+- Clean the pan and heat 2 tablespoons of the collected oil in it. Put in the egg-potato-onion mix, reduce the heat and fry the mass for approximately 4 minutes. Make sure that the egg mass covers the potatoes, and be careful not to burn the tortilla.
+- As soon as the bottom of the mass has solidified, and the top jiggles but is not runny, cover the pan with a big plate and turn it over. Then carefully slide the nearly finished tortilla back into the pan (upside down) and cook it for about 4 minutes.
+- Let it rest for 15 minutes, then the dish is ready to serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATortilla_Espa%C3%B1ola_de_Patatas&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tortilla Española de Patatas@4505837
+    url: https://en.wikibooks.org/w/index.php?oldid=4505837
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

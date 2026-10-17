@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: fr-glace-de-viande
+title: Glace de Viande
+alternate_names:
+- Reduced Beef Sauce
+summary: Glace de viande is a sauce made by reducing meat broth or stock until rich and condensed.
+origin:
+  country: FR
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, qty: 2, prep: strained and thoroughly degreased}
+steps:
+- Pour the stock into a heavy non-reactive pot and bring it to a simmer over medium heat.
+- Reduce the heat to low and let the stock cook until it has reduced to 2 cups, stirring from time to time.
+- Transfer the stock to a small, non-reactive pan and heat over the lowest possible heat until it is reduced to ½ cup.
+- Strain the glaze into a jar.
+tips:
+- The meat glaze can be stored in the refrigerator for several months or frozen indefinitely. Thaw in the microwave and mix before use.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGlace_de_Viande_%28Reduced_Beef_Sauce%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Glace de Viande (Reduced Beef Sauce)@4518934
+    url: https://en.wikibooks.org/w/index.php?oldid=4518934
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

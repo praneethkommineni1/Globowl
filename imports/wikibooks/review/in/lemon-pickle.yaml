@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+#  - duplicate id in-lemon-pickle from another Wikibooks page
+id: in-lemon-pickle
+title: Lemon Pickle
+summary: Lemon pickle is a traditional condiment used with Indian food. Many pickle recipes from India have oil to help preserve the pickle, but this recipe uses no oil.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: about 1 pint of pickle
+time:
+  total_min: 20
+difficulty: 1
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: lemon, qty: 8, note: small}
+  - {ingredient: salt, unit: cup, qty: 0.5}
+  - {ingredient: sugar, unit: cup, qty: [0.25, 0.5]}
+  - {ingredient: red-chili, qty: 4, prep: finely chopped, note: small}
+  - {ingredient: mustard-seeds, unit: tbsp, qty: 1}
+  - {ingredient: ground-ginger, unit: tbsp, qty: 1}
+  - {ingredient: ground-fenugreek, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.25}
+  - {ingredient: star-anise, qty: [1, 2]}
+steps:
+- Cut lemons into small pieces, and place in a bowl.
+- Cover with salt and set aside for at least 4 hours (24 is better).
+- Dry-roast the yellow mustard seeds, fenugreek seeds, star anise, and chopped chilis in a pan over high heat, shaking constantly—don't burn them!
+- Strain the juice from the lemons into a small saucepan, add the turmeric, ginger and sugar, and simmer for 2–3 minutes until the sugar has dissolved. If there isn't enough juice, add 1–2 tablespoons water.
+- Add the spices and sugar mixture to the bowl of lemons, and mix together well.
+- Pack into a pint jar, pressing the pieces in if needed, to ensure that the liquid covers all the lemon pieces.
+- Set aside to mature for 1 month.
+tips:
+- If you don't have fresh chilis, add some dried chilis or chili powder. The pickle in the photo has three whole dried chilis in it.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALemon_Pickle_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lemon Pickle II@4615170
+    url: https://en.wikibooks.org/w/index.php?oldid=4615170
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

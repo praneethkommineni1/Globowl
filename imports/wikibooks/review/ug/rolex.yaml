@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 East African chapati
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+#  - duplicate of hand-written recipe ug-rolex
+id: ug-rolex
+title: Rolex
+alternate_names:
+- Ugandan Flatbread-Rolled Omelet
+summary: Rolex ("rolled eggs") is a vegetable-filled omelet wrapped in a chapati flatbread. It is a nourishing and finger licking food item. It is best enjoyed when hot and can be eaten for almost any meal.
+origin:
+  country: UG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 2}
+  - {ingredient: tomato, qty: 1, prep: finely chopped}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: white-cabbage, qty: 1, prep: finely chopped or grated}
+  - {ingredient: cilantro, unit: tbsp, qty: 2}
+  - {ingredient: black-pepper, unit: tbsp, qty: 0.5}
+  - {ingredient: salt, unit: tbsp, qty: 0.5}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+steps:
+- Heat a pan over medium heat.
+- Crack the eggs in a medium sized bowl. Whisk in the onions, tomato, cabbage, coriander, salt, and pepper.
+- Add 1 tablespoon of the oil to the hot pan, and pour in half the egg mixture. Allow it to cook for about 3 minutes.
+- When the top is only a little wet, place a chapati over it.
+- Flip the omelette and chapati over so the chapati is at the bottom. Allow the chapati to warm for 2 minutes.
+- Roll the omelet up with the chapati on the outside.
+- Wrap in foil and serve it immediately.
+- Repeat the steps above with the remaining egg mixture and chapati.
+tips:
+- Red onions are a popular choice.
+- You can add any vegetables of your choice. You can also add chopped ginger.
+- If you can't make the chapati at home and it's otherwise unavailable, you can use ready-made flaky paratha.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARolex_%28Ugandan_Flatbread-Rolled_Omelet%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rolex (Ugandan Flatbread-Rolled Omelet)@4506432
+    url: https://en.wikibooks.org/w/index.php?oldid=4506432
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,61 @@
+id: it-tagliatelle-bake
+title: Tagliatelle Bake
+summary: This recipe for tagliatelle bake is a typical dish prepared traditionally in the South of Italy on Sundays as a way to serve a rich course without spending too much time in the kitchen.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- baking
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: pasta}
+  - {ingredient: olive-oil, unit: tbsp, qty: 5}
+  - {ingredient: onion, qty: 1, prep: chopped}
+  - {ingredient: carrot, qty: 0.5, prep: chopped}
+  - {ingredient: celery, qty: 1, prep: chopped}
+  - {ingredient: beef}
+  - {ingredient: parsley, unit: handful, qty: 1, prep: chopped}
+  - {ingredient: dry-white-wine, unit: cup, qty: 0.375}
+  - {ingredient: tomato}
+  - {ingredient: parmesan, unit: cup, qty: 1.75}
+  - {ingredient: mozzarella}
+  - {ingredient: heavy-cream, unit: cup, qty: 0.75}
+  - {ingredient: nutmeg}
+  - {ingredient: basil}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Preheat the oven to 180°C (160°C convection / 350°F / gas mark 4).
+- Heat 3 tbsp oil in a large pan. Add the onion, carrot and celery. Cook gently until soft but not coloured.
+- Add the minced beef and cook until browned, breaking up the mince as much as possible.
+- Add the parsley. Pour in the white wine and cook for 5 minutes to burn off the alcohol.
+- Season to taste and add the chopped tomatoes. Cook over a low heat for 30 minutes, stirring occasionally.
+- Bring a large pan of water to the boil and salt it. Add the pasta and cook following pack instructions or until the pasta is firm to the bite (al dente). Drain the pasta.
+- Grease an oven dish and thinly cover the bottom with some of the tomato sauce. Fill with half the quantity of the pasta, the diced mozzarella, half of the tomato sauce, half of the cream and cover with half of the grated Parmesan cheese.
+- Fill the oven dish with another layer of tagliatelle, the remaining mozzarella, the tomato sauce, the cream and cover with Parmesan cheese and some freshly grated nutmeg.
+- Bake in the oven for about 30 minutes or until the top of the dish is golden. Remove from the oven and leave to cool for a few minutes.
+- Add a few basil leaves and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATagliatelle_Bake&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tagliatelle Bake@4525546
+    url: https://en.wikibooks.org/w/index.php?oldid=4525546
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 10 njansan seeds
+#  - unmapped ingredient: 6 tablespoons mbongo spice
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-mbong-tchobi
+title: Mbong Tchobi
+alternate_names:
+- Cameroonian Spicy Black Stew
+summary: Mbong tchobi is a popular Cameroonian dish. It has a unique colour and taste. It can be served with ripe plantain or any complimentary dish of your choice.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: fish, unit: g, qty: 1814, prep: cleaned and cut into steaks}
+  - {ingredient: onion, qty: 1, prep: neatly chopped}
+  - {ingredient: onion, qty: 2, prep: neatly chopped}
+  - {ingredient: tomato, qty: 5, prep: neatly chopped, note: large}
+  - {ingredient: garlic, qty: 5, prep: neatly chopped}
+  - {ingredient: basil, unit: cup, qty: 1}
+  - {ingredient: parsley, unit: cup, qty: 0.5}
+  - {ingredient: vegetable-oil, unit: cup, qty: 1}
+  - {ingredient: bouillon-cube, unit: tbsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+steps:
+- Lightly fry the njansan for about 5 minutes. Set aside.
+- Blend the onions, green onions, tomatoes, njansan, garlic, basil, and parsley together in a blender. You can add some water to the blender to facilitate its blending to a purée.
+- Place a saucepan on the fire and heat it with a little oil. Add the blended mixture with very little water and bring it to a boil. Let it simmer for 10 minutes, stirring occasionally.
+- Mix in the mbongo spice, fish, bouillon powder, and salt. Simmer for another 15 minutes or until the fish is fully cooked through. Add a little water if necessary to prevent prevent the stew from getting burnt.
+- Adjust the seasonings as desired. Enjoy warm with boiled plantains or any complementary dish of your choice.
+tips:
+- If using catfish, place the fish in a sink and pour hot water over it. Soak for 60 seconds, then rinse the fish, clean it, and set aside. This removes the sliminess of catfish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMbong_Tchobi_%28Cameroonian_Spicy_Black_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mbong Tchobi (Cameroonian Spicy Black Stew)@4518650
+    url: https://en.wikibooks.org/w/index.php?oldid=4518650
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -6,7 +6,8 @@
 #   category:    data/taxonomy.yaml → ingredient_categories
 #   animal:      animal sources (taxonomy → animal_sources); omit for plant/mineral foods
 #   contains:    allergens it always contains, plus `pork` / `alcohol` / `animal-rennet` / `animal-fat` markers
-#                (`animal-fat` is for products that may hide lard or tallow, used in may_contain)
+#                (`animal-fat` / `animal-product`, used in may_contain, flag products that may hide lard
+#                or other animal ingredients — e.g. stock cubes of unknown flavour)
 #   may_contain: allergens commonly present depending on brand/recipe → "check labels"
 #   aliases:     other names, for search (UK/US/regional)
 #
@@ -423,6 +424,93 @@ vanilla-extract: {name: vanilla extract, category: baking, contains: [alcohol]}
 vanilla-bean: {name: vanilla bean, category: baking, aliases: [vanilla pod]}
 
 instant-yeast: {name: instant yeast, category: baking}
+
+# --- Common ingredients (added for imports) ------------------------------------
+beef: {name: beef, category: meat, animal: [meat]}
+chicken: {name: chicken, category: poultry, animal: [poultry]}
+pork: {name: pork, category: meat, animal: [meat], contains: [pork]}
+lamb: {name: lamb, category: meat, animal: [meat], aliases: [mutton]}
+goat: {name: goat meat, category: meat, animal: [meat]}
+veal: {name: veal, category: meat, animal: [meat]}
+sausage: {name: sausage, category: meat, animal: [meat], may_contain: [pork, gluten, sulphite, milk]}
+fish: {name: fish, category: seafood, animal: [fish], contains: [fish]}
+anchovies: {name: anchovies, category: seafood, animal: [fish], contains: [fish], aliases: [anchovy]}
+stockfish: {name: stockfish, category: seafood, animal: [fish], contains: [fish], aliases: [dryfish, dried fish, okporoko]}
+crayfish: {name: crayfish, category: seafood, animal: [shellfish], contains: [crustacean], aliases: [crawfish]}
+ground-crayfish: {name: ground dried crayfish, category: seafood, animal: [shellfish], contains: [crustacean], note: West African seasoning made from dried shrimp or crayfish.}
+egg-yolk: {name: egg yolk, category: egg, animal: [egg], contains: [egg]}
+honey: {name: honey, category: sweetener, animal: [honey]}
+cheese: {name: cheese, category: dairy, animal: [dairy], contains: [milk], may_contain: [animal-rennet]}
+cream-cheese: {name: cream cheese, category: dairy, animal: [dairy], contains: [milk]}
+monterey-jack: {name: Monterey Jack, category: dairy, animal: [dairy], contains: [milk], may_contain: [animal-rennet]}
+condensed-milk: {name: sweetened condensed milk, category: dairy, animal: [dairy], contains: [milk]}
+evaporated-milk: {name: evaporated milk, category: dairy, animal: [dairy], contains: [milk]}
+margarine: {name: margarine, category: fat, may_contain: [milk, soy]}
+shortening: {name: vegetable shortening, category: fat, may_contain: [animal-fat, soy]}
+cooking-spray: {name: cooking spray, category: fat, may_contain: [soy]}
+pasta: {name: pasta, category: grain, contains: [gluten], may_contain: [egg]}
+noodles: {name: noodles, category: grain, may_contain: [gluten, egg]}
+semolina: {name: semolina, category: grain, contains: [gluten]}
+self-rising-flour: {name: self-rising flour, category: grain, contains: [gluten], aliases: [self-raising flour]}
+tortilla: {name: tortilla, category: grain, may_contain: [gluten]}
+puff-pastry: {name: puff pastry, category: grain, contains: [gluten], may_contain: [milk]}
+croutons: {name: croutons, category: grain, contains: [gluten], may_contain: [milk]}
+taro: {name: taro, category: vegetable, aliases: [taro root, dasheen, eddo, cocoyam]}
+corn-kernels: {name: corn kernels, category: vegetable, aliases: [corn, sweetcorn, maize]}
+mushroom: {name: mushroom, category: vegetable, aliases: [button mushroom]}
+fennel-bulb: {name: fennel bulb, category: vegetable}
+fennel-seeds: {name: fennel seeds, category: spice}
+turnip: {name: turnip, category: vegetable}
+cauliflower: {name: cauliflower, category: vegetable}
+broccoli: {name: broccoli, category: vegetable}
+bean-sprouts: {name: bean sprouts, category: vegetable}
+chipotle-in-adobo: {name: chipotle in adobo, category: condiment, aliases: [chipotle pepper, adobo sauce]}
+lime: {name: lime, category: fruit}
+orange: {name: orange, category: fruit}
+apple: {name: apple, category: fruit}
+mango: {name: mango, category: fruit}
+pineapple: {name: pineapple, category: fruit}
+dates: {name: dates, category: fruit, aliases: [date]}
+olives: {name: olives, category: condiment, aliases: [olive, black olives, kalamata olives]}
+coconut: {name: grated coconut, category: nut-seed, aliases: [fresh coconut]}
+cashews: {name: cashews, category: nut-seed, contains: [tree-nut], aliases: [cashew]}
+almonds: {name: almonds, category: nut-seed, contains: [tree-nut], aliases: [almond]}
+poppy-seeds: {name: poppy seeds, category: nut-seed}
+rosemary: {name: rosemary, category: herb}
+scent-leaf: {name: scent leaf, category: herb, aliases: [efirin, African basil, nchanwu]}
+kaffir-lime-leaf: {name: makrut lime leaf, category: herb, aliases: [kaffir lime leaf, lime leaf]}
+bouquet-garni: {name: bouquet garni, category: herb, may_contain: [celery]}
+green-cardamom-pods: {name: green cardamom pods, category: spice}
+star-anise: {name: star anise, category: spice}
+chili-powder: {name: chili powder, category: spice, note: US chili powder is a blend with cumin and oregano.}
+garlic-powder: {name: garlic powder, category: spice}
+onion-powder: {name: onion powder, category: spice}
+asafoetida: {name: asafoetida, category: spice, may_contain: [gluten], aliases: [hing], note: Usually cut with wheat flour.}
+italian-seasoning: {name: Italian seasoning, category: spice}
+mixed-spice: {name: mixed spice, category: spice}
+ginger-garlic-paste: {name: ginger-garlic paste, category: condiment}
+chili-paste: {name: chili paste, category: condiment, aliases: [sambal oelek]}
+ketchup: {name: ketchup, category: condiment, aliases: [tomato ketchup]}
+barbecue-sauce: {name: barbecue sauce, category: condiment, may_contain: [gluten, mustard, fish]}
+jam: {name: jam, category: condiment, aliases: [preserves]}
+molasses: {name: molasses, category: sweetener, aliases: [treacle]}
+powdered-sugar: {name: powdered sugar, category: sweetener, aliases: [icing sugar, confectioners' sugar]}
+chocolate: {name: chocolate, category: sweetener, may_contain: [milk, soy]}
+cocoa-powder: {name: cocoa powder, category: baking}
+cream-of-tartar: {name: cream of tartar, category: baking}
+yeast: {name: yeast, category: baking, aliases: [active dry yeast]}
+food-coloring: {name: food colouring, category: baking}
+orange-flower-water: {name: orange flower water, category: condiment, aliases: [orange blossom water]}
+iru: {name: iru, category: condiment, aliases: [locust bean, dawadawa, ogiri], note: Fermented locust beans.}
+potash: {name: potash, category: water, aliases: [kaun, akanwu, kanwa], note: Natural mineral salt used as a tenderiser.}
+bouillon-cube: {name: bouillon cube, category: stock, may_contain: [animal-product, gluten, milk, celery, soy], aliases: [seasoning cube, stock cube, dehydrated broth], note: Flavour unknown — may be meat-based.}
+nori: {name: nori, category: vegetable}
+coffee: {name: coffee, category: beverage}
+tea: {name: tea, category: beverage}
+sherry: {name: sherry, category: beverage, contains: [alcohol, sulphite]}
+rum: {name: rum, category: beverage, contains: [alcohol]}
+brandy: {name: brandy, category: beverage, contains: [alcohol]}
+beer: {name: beer, category: beverage, contains: [alcohol, gluten]}
 
 # --- Drinks and water -------------------------------------------------------
 dry-white-wine: {name: dry white wine, category: beverage, contains: [alcohol, sulphite]}

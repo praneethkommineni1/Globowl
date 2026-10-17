@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 leveled tbsp salt
+id: xx-jahnun
+title: Jahnun
+alternate_names:
+- Yemenite Layered Pastry
+summary: Jachnun is a Yemenite pastry made of worked dough (made without the use of yeast) and traditionally eaten hot during the Sabbath morning meal, after being left to bake all throughout the night within a sealed pot in an oven.
+origin:
+  country: XX
+course: snack
+authenticity: unassessed
+yield:
+  servings: 10
+time:
+  total_min: 360
+difficulty: 4
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: kg, qty: 1}
+  - {ingredient: baking-powder, unit: g, qty: 10, optional: true}
+  - {ingredient: sugar, unit: tbsp, qty: [2, 3]}
+  - {ingredient: water, unit: cup, qty: 2.25}
+  - {ingredient: vegetable-oil}
+  - {ingredient: butter, unit: g, qty: 200, prep: 'soft margarine, or shortening'}
+  - {ingredient: egg, qty: 10}
+steps:
+- Combine the flour, baking powder, sugar, and salt. Make a well in the center.
+- Add some of the water to the well, and mix with your hands. Gradually knead in the rest of the water, then continue kneading for 15 minutes. The dough should not be too soft or sticky.
+- Tear off a piece of dough the size of your fist. Flatten and roll it out on your work surface, then shape again into a ball. Repeat this step for the rest of the dough, then brush all the balls with a thin coating of oil.
+- Allow the dough to rest for about 1–2 hours, until they have sunken slightly.
+- Roll and stretch each ball out on a greased surface until it is very thin. Try to make the dough as thin as possible without it tearing.
+- 'Spread some soft butter over the whole surface of the flattened dough. Make a triangular fold lengthwise, like a shirt fold: fold one-third of the dough toward the middle then fold the other side. Make a small fold up and down, and start rolling (with greased hands) from the bottom to the top, like folding a sleeping bag. You should be left with an elongated, slightly fat rolled jachnun. Repeat this shaping step for all the dough balls.'
+- Preheat oven to . Line a pot with slices of bread or pita so that it does not become overly dry while baking in the oven.
+- Place the unbaked jachnun into a cookie bag, with each bag holding a single layer of jachnun. This prevents loss of moisture. Stack the jachnun in the pot, with 2–3 rows stacked one on top of the other in a criss-crossed fashion (horizontally and vertically).
+- Cover the pot with the lid, and bake in the preheated oven for 6–10 hours.
+- Serve with hard-boiled eggs and tomato salsa, with a little zhug over the paste.
+tips:
+- The dough cooks best when left to refrigerate for one day prior to baking.
+- Since hard-boiled eggs are served with the jachnun, they can be simultaneously cooked in a separate pot of water within the same heated oven.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AJahnun_%28Yemenite_Layered_Pastry%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Jahnun (Yemenite Layered Pastry)@4630057
+    url: https://en.wikibooks.org/w/index.php?oldid=4630057
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

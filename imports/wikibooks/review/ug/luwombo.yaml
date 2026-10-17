@@ -1,0 +1,77 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Banana leaves, for wrapping
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ug-luwombo
+title: Luwombo
+alternate_names:
+- Ugandan Steamed Meat and Vegetables
+summary: Luwombo, a quintessential Ugandan dish, showcases the rich flavors and vibrant culinary traditions of the country.
+origin:
+  country: UG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Cutting board
+- Knife
+- Large bowl
+- Steamer or large pot with a steaming rack
+techniques:
+- marinating
+- simmering
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 454, prep: cut into chunks}
+  - {ingredient: onion, unit: cup, qty: 1}
+  - {ingredient: garlic, unit: tbsp, qty: 1}
+  - {ingredient: ginger, unit: tbsp, qty: 1}
+  - {ingredient: cayenne}
+  - {ingredient: peanut-butter, unit: tbsp, qty: 2}
+  - {ingredient: roasted-peanuts, unit: tbsp, qty: 1}
+  - {ingredient: red-palm-oil, unit: tbsp, qty: 2}
+  - {ingredient: sweet-potato, unit: cup, qty: 1}
+  - {ingredient: cassava, unit: cup, qty: 1}
+  - {ingredient: banana, unit: cup, qty: 1}
+  - {ingredient: eggplant, unit: cup, qty: 1}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 2}
+  - {ingredient: coconut-milk, unit: cup, qty: 1}
+  - {ingredient: chicken-stock, unit: cup, qty: 1}
+  - {ingredient: salt, note: to taste}
+steps:
+- In a large bowl, marinate the meat chunks with minced garlic, minced ginger, groundnut paste, groundnut powder, ground crayfish (if using), salt, and cayenne pepper. Allow the meat to marinate for at least 30 minutes to absorb the flavorful blend.
+- Heat palm oil or groundnut oil in a large pot or skillet over medium-high heat. Add the marinated meat and cook until beautifully browned on all sides, releasing an enticing aroma.
+- Stir in the diced onions and cook until they soften and become fragrant.
+- Add the diced sweet potatoes, cassava, green bananas, and eggplant to the pot.
+- Pour in the fresh coconut milk and homemade chicken or vegetable broth, ensuring all the ingredients are immersed in the rich and creamy goodness. Bring the mixture to a gentle simmer.
+- Reduce the heat to low, cover the pot with a lid, and let the ingredients steam for about 1–2 hours until the meat is tender.
+- Meanwhile, prepare the banana leaves by briefly holding them over an open flame to soften and make them pliable for wrapping.
+- Take a portion of the steamed mixture and place it in the center of a banana leaf, folding the leaf around the mixture to create a packet. Repeat with the remaining mixture and banana leaves.
+- Once all the packets are prepared, return them to the steamer or large pot with a steaming rack.
+- Steam the luwombo packets for an additional 30 minutes.
+- Serve the luwombo packets on individual plates.
+tips:
+- Luwombo is often enjoyed with steamed rice or matooke, a dish made from green bananas, to complete the authentic Ugandan dining experience.
+- Luwombo offers a well-rounded nutritional profile, boasting proteins from the meat and an array of vitamins and minerals from the diverse vegetables used.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALuwombo_%28Ugandan_Steamed_Meat_and_Vegetables%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Luwombo (Ugandan Steamed Meat and Vegetables)@4629628
+    url: https://en.wikibooks.org/w/index.php?oldid=4629628
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

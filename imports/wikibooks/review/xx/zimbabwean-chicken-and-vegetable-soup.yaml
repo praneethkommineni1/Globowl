@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1/4 teaspoon crushed red pepper flakes, or more to taste
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-zimbabwean-chicken-and-vegetable-soup
+title: Zimbabwean Chicken and Vegetable Soup
+summary: __notoc__ Zimbabwean chicken and vegetable soup is a delicious soup that combines a variety of vegetables with peanut butter and a few red pepper flakes.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Soup pot
+- Spoon
+- Stovetop
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil, unit: tbsp, qty: 1}
+  - {ingredient: onion, qty: 1, prep: diced}
+  - {ingredient: chicken-stock, unit: cup, qty: 4, prep: divided}
+  - {ingredient: peanut-butter, unit: cup, qty: 0.5}
+  - {ingredient: tomato, unit: cup, qty: 2, prep: with juices}
+  - {ingredient: white-cabbage, unit: cup, qty: 1}
+  - {ingredient: sweet-potato, unit: cup, qty: 1}
+  - {ingredient: carrot, unit: cup, qty: 1}
+  - {ingredient: turnip, unit: cup, qty: 1}
+  - {ingredient: okra, unit: cup, qty: 1}
+  - {ingredient: chicken, unit: cup, qty: 1, note: to taste}
+steps:
+- Heat the olive oil in the pot over medium heat. Add the onion, and sauté for about 5 minutes until translucent.
+- Stir ½ cup of the vegetable stock and the peanut butter into the onions until the mixture looks smooth.
+- Stir in the remaining vegetable stock, diced tomatoes with their liquid, and crushed red pepper flakes; simmer for 30 minutes, stirring frequently.
+- Stir in the cabbage, sweet potato, carrot, and turnip. Simmer, stirring, until the vegetables become soft (about 30 minutes).
+- Stir in the okra and chicken, and simmer for about 30 additional minutes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AZimbabwean_Chicken_and_Vegetable_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Zimbabwean Chicken and Vegetable Soup@4521020
+    url: https://en.wikibooks.org/w/index.php?oldid=4521020
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

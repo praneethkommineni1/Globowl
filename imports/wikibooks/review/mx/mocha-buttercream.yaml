@@ -1,0 +1,42 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+id: mx-mocha-buttercream
+title: Mocha Buttercream
+summary: Mocha Buttercream.
+origin:
+  country: MX
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: Enough for 1 cake
+time:
+  total_min: 10
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: cup, qty: 1, prep: softened}
+  - {ingredient: sugar, unit: cup, qty: 3.5}
+  - {ingredient: cocoa-powder, unit: cup, qty: 0.5}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: coffee, unit: cup, qty: 0.5}
+steps:
+- Combine butter, confectioner's sugar, cocoa, vanilla, and coffee in a medium-large bowl, mixing slowly until everything is moistened.
+- Beat at high speed with an electric mixer until uniform and fluffy.
+- If it seems a little too wet to spread, you can beat in up to ½ cup additional confectioner's sugar.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMocha_Buttercream&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mocha Buttercream@4587357
+    url: https://en.wikibooks.org/w/index.php?oldid=4587357
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

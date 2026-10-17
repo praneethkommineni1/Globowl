@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2–3 tbsp chopped dill
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: bg-snezhanka
+title: Snezhanka
+alternate_names:
+- Bulgarian Cucumber and Yogurt Salad
+summary: Snezhanka.
+origin:
+  country: BG
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: yogurt, unit: l, qty: 1}
+  - {ingredient: cucumber, unit: kg, qty: 0.5}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: [1, 2]}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: [2, 3]}
+  - {ingredient: walnuts, qty: [2, 3]}
+steps:
+- Strain the yogurt, and cut the pickles/cucumbers into tiny cubes.
+- Mix all the ingredients except for the walnuts.
+- Sprinkle the walnuts on top of the salad. Enjoy!
+tips:
+- If you use thick American yogurt, use about ½ liter and skip the straining.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASnezhanka_%28Bulgarian_Cucumber_and_Yogurt_Salad%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Snezhanka (Bulgarian Cucumber and Yogurt Salad)@4518170
+    url: https://en.wikibooks.org/w/index.php?oldid=4518170
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

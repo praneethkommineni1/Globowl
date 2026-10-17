@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 500 grams cottage cheese
+#  - unmapped ingredient: Apple sauce
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ru-sirniki
+title: Sirniki
+alternate_names:
+- Russian Cheese Fritters
+summary: Sirniki are Russian sweet curd fritters, generally eaten after the main course at dinner, but sometimes also at breakfast.
+origin:
+  country: RU
+course: snack
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 2}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 6}
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 1}
+- name: Garnish
+  items:
+  - {ingredient: sour-cream, prep: confiture.}
+steps:
+- Mix cottage cheese, eggs, flour, sugar and salt.
+- Take piece of paste, make round, flat shape and put on warm frying pan with oil or melted butter.
+- Wait until it becomes gold colour and flip.
+- When it is brown on both sides you can eat it.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASirniki_%28Russian_Cheese_Fritters%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sirniki (Russian Cheese Fritters)@4655348
+    url: https://en.wikibooks.org/w/index.php?oldid=4655348
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

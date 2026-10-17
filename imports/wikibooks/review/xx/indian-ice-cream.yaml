@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 cups soapberries
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-indian-ice-cream
+title: Indian Ice Cream
+summary: Indian ice-cream or sxusem (pronounced "s-khushem", with "kh" sound resembling the final sound in the Scottish word 'loch') is a dessert made by native people throughout the Pacific Northwest region of North America.
+origin:
+  country: XX
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: sugar, prep: 'camas bulb or sweet berries such as salal berries, or thimbleberries. Nowadays many people sweeten it with sugar.', optional: true}
+steps:
+- Crush berries to release the liquid/juice.
+- Combine juice with an equal part of water.
+- Add sweetener.
+- Whip it with a whisk until foamy, similar in texture to whipped cream.
+tips:
+- A branch of soapberries can be shaken over a metal or glass container until all of the ripe berries fall off. Oily or plastic containers will prevent frothing.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIndian_Ice_Cream&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Indian Ice Cream@4587407
+    url: https://en.wikibooks.org/w/index.php?oldid=4587407
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

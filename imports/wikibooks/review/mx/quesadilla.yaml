@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (MX, US): confirm the country of origin
+#  - unmapped ingredient: 1/4 cup filling
+#  - unmapped ingredient: Salsa
+#  - unmapped ingredient: Sarza criolla
+#  - unmapped ingredient: Cooked meat or seafood
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: mx-quesadilla
+title: Quesadilla
+summary: Similar to a sandwich, the amount of ingredients for a quesadilla depends on how many you are serving and how big you want to make a particular quesadilla.
+origin:
+  country: MX
+  also_claimed_by:
+  - US
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- name: Base
+  items:
+  - {ingredient: tortilla, qty: 2, prep: 6 inches in diameter}
+  - {ingredient: cheese, unit: cup, qty: 0.333}
+  - {ingredient: cooking-spray}
+- name: Fillings
+  items:
+  - {ingredient: red-chili}
+  - {ingredient: tomato}
+  - {ingredient: spinach, prep: washed and torn into small pieces}
+  - {ingredient: black-beans-canned, prep: rinsed and well drained}
+steps:
+- Warm both tortillas in the microwave to the point of flexibility, keeping one warm.
+- Preheat a frying pan or griddle over medium-low heat. Grease with oil or cooking spray, and place one of the tortillas in the pan.
+- Sprinkle the shredded cheese over the tortilla.
+- Top the cheese with any combination of the fillings, ideally warmed and very well drained. Make sure they are evenly distributed across the tortilla.
+- Allow the cheese to melt. The tortilla may brown in spots but it should not be cooked to the point of changing color substantially.
+- Press the other tortilla over the top of the tortilla in the pan, making sure it sticks a bit.
+- Flip the quesadilla and allow to warm until it joins as a unit.
+- Remove from pan and cut in eight wedges.
+- Eat immediately, or remove to a fairly low-temperature 'keep warm' area, below the melting temperature of the cheese.
+tips:
+- Quesadillas are not usually not very good re-heated.
+- In some regions of Mexico a quesadilla is a simple corn tortilla with cheese, non-fried.
+- One traditional quesadilla filling consists of grilled chicken, beef, or pork, finely minced, sprinkled with a teaspoon of finely minced onion and half of teaspoon of cilantro, with a small amount of some lime squeezed on top.
+- Corn tortillas can be used in a pinch at home, but they may not hold together or work as well as flour tortillas.
+- See Crab Quesadillas with Mango Salsa for a variation.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AQuesadilla&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Quesadilla@4600876
+    url: https://en.wikibooks.org/w/index.php?oldid=4600876
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

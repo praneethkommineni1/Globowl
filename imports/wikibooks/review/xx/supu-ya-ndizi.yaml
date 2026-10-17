@@ -1,0 +1,69 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 6 green cooking bananas, peeled and sliced
+#  - unmapped ingredient: 5 cups water or stock
+#  - course unknown from categories
+id: xx-supu-ya-ndizi
+title: Supu Ya Ndizi
+summary: Supu Ya Ndizi is a traditional East African soup made with green cooking bananas, vegetables, and spices. It is especially popular in Tanzania and among communities along the East African coast. The soup is valued for its rich flavor, nourishing qualities, and versatility.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 45
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 500, prep: 'chicken, or fish', optional: true}
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: tomato, qty: 2, prep: diced}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: ginger, unit: tsp, qty: 1, prep: grated}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: carrot, qty: 1, prep: diced}
+  - {ingredient: potato, qty: 1, prep: diced, optional: true}
+  - {ingredient: curry-powder, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: cilantro, prep: 'chopped, for garnish'}
+steps:
+- Peel and slice the green bananas into medium-sized pieces.
+- If using meat, cook it in a pot with water until tender and reserve the stock.
+- Heat the oil in a large pot over medium heat.
+- Add the onion and cook until soft and translucent.
+- Stir in the garlic and ginger and cook for 1 minute.
+- Add the tomatoes and cook until softened.
+- Stir in the curry powder.
+- Add the bananas, carrot, and potato.
+- Pour in the stock or water and bring to a boil.
+- Reduce the heat and simmer for 30–40 minutes, or until the bananas are very soft.
+- Add the cooked meat or fish if using.
+- Season with salt and black pepper.
+- Mash some of the bananas with a spoon to thicken the soup, if desired.
+- Simmer for an additional 5 minutes.
+- Garnish with fresh coriander and serve hot.
+tips:
+- Vegetarian Supu Ya Ndizi
+- Chicken banana soup
+- Fish banana soup
+- Coconut milk banana soup
+- Spicy banana soup with chili peppers
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASupu_Ya_Ndizi&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Supu Ya Ndizi@4638751
+    url: https://en.wikibooks.org/w/index.php?oldid=4638751
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

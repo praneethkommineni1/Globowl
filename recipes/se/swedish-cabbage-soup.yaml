@@ -1,0 +1,52 @@
+id: se-swedish-cabbage-soup
+title: Swedish Cabbage Soup
+alternate_names:
+- Kålsoppa
+summary: This recipe for Swedish Cabbage Soup (Kålsoppa) is based on 1 kg of white cabbage. Since the cabbage heads usually do not yield exactly 1kg, scale the recipe as needed.
+origin:
+  country: SE
+course: soup
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 45
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: butter}
+  - {ingredient: onion, qty: 1, prep: chopped, optional: true}
+  - {ingredient: white-cabbage, unit: kg, qty: 1}
+  - {ingredient: pork}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: allspice-berries, qty: 12}
+steps:
+- Quarter the head of cabbage. Remove the inner stem.
+- Slice the cabbage across into 3 mm, or thinner, strips.
+- In a cast-iron pot, melt some butter and add the onions. Cook until softened.
+- Add the sliced cabbage, and cook until slightly browned.
+- Add stock, covering the cabbage. Season with salt, white pepper, and 12 whole allspice kernels.
+- Boil the soup gently for 30–45 minutes.
+- Serve with hard flatbread, butter, and cheese.
+tips:
+- The cabbage stem can be used if the tough and hard outer part is removed, or chopped very finely.
+- Frying a chopped onion with the cabbage gives a more savory dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASwedish_Cabbage_Soup_%28K%C3%A5lsoppa%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Swedish Cabbage Soup (Kålsoppa)@4630364
+    url: https://en.wikibooks.org/w/index.php?oldid=4630364
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 green chillies, split lengthwise
+#  - course unknown from categories
+id: in-kashmiri-pulao
+title: Kashmiri Pulao
+summary: This very fancy Kashmiri pulao, or Kashmiri Pallao, is from the Northern Indian state of Kashmir.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 40
+difficulty: 3
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: ghee, unit: tbsp, qty: 3}
+  - {ingredient: whole-cloves, qty: 5}
+  - {ingredient: green-cardamom-pods, qty: 4}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: onion, qty: 1, prep: sliced thin, note: small}
+  - {ingredient: ginger-garlic-paste, unit: tsp, qty: 1.5}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: saffron, qty: [3, 4]}
+  - {ingredient: milk, unit: tbsp, qty: 1}
+  - {ingredient: long-grain-rice, unit: kg, qty: 0.5, prep: cooked and drained}
+  - {ingredient: dates, unit: g, qty: 100, prep: pitted and sliced thin}
+  - {ingredient: raisins, unit: g, qty: 50}
+  - {ingredient: cashews, unit: g, qty: 50}
+  - {ingredient: pistachios, unit: g, qty: 50}
+  - {ingredient: almonds, unit: g, qty: 50, prep: blanched and diced}
+steps:
+- Heat ghee or butter in a large wide pan or wok.
+- Add the cloves, cardamom, and cinnamon tree leaf.
+- Add the chopped onion, and fry until it just begins to turn brown.
+- Add ginger-garlic paste and chillies and fry for about 1 minute before tossing in all of the dried fruits and nuts.
+- Add salt to taste.
+- Turn the flame down to low.
+- Soak the strands of saffron in milk, mixing until the milk turns orange.
+- Pour the cooked rice into the pan and sprinkle the saffron-milk on top.
+- Stir very carefully so as not to break or mash up the rice grains, mixing the flavourings and saffron colour in uniformly and heating the rice.
+- Mix in dried fruits and nuts.
+- Add more ghee according to your preference.
+- Serve with a gravy such as the basic tomato gravy.
+tips:
+- Try adding paneer fried in ghee to the pulao.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKashmiri_Pulao&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kashmiri Pulao@4522413
+    url: https://en.wikibooks.org/w/index.php?oldid=4522413
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 100 grams boiled or fried cow’s snout
+#  - unmapped ingredient: 1 bunch of water spinach, leaves picked and boiled
+#  - unmapped ingredient: 1 slice of fried tempeh
+#  - unmapped ingredient: 1 lontong rice cake, cut into pieces as desired
+#  - unmapped ingredient: 250 grams kerupuk crackers
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: id-rujak-cingur
+title: Rujak Cingur
+alternate_names:
+- Indonesian Cow Snout Salad
+summary: Rujak cingur is a traditional food from Surabaya, Indonesia. This dish is made from cingur (cow's snout) and vegetables, which are drizzled with peanut sauce or petis sauce.
+origin:
+  country: ID
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- name: Sauce
+  items:
+  - {ingredient: roasted-peanuts, unit: tbsp, qty: 2}
+  - {ingredient: garlic, unit: clove, qty: 2}
+  - {ingredient: red-chili, qty: 3, note: to taste}
+  - {ingredient: palm-sugar, unit: tbsp, qty: 1}
+  - {ingredient: shrimp-paste, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: shrimp-paste, unit: tbsp, qty: 2}
+  - {ingredient: tamarind-paste}
+- name: Assembly
+  items:
+  - {ingredient: bean-sprouts, unit: g, qty: 100}
+  - {ingredient: cucumber, qty: 1, prep: sliced}
+  - {ingredient: firm-tofu, unit: slice, qty: 1}
+steps:
+- Prepare all the ingredients in advance.
+- To make the sauce, grind the fried peanuts, garlic, chiles, palm sugar, terasi, and salt together until smooth.
+- Add the petis suace and tamarind water as needed. Mix until well blended.
+- Arrange all the ingredients for assembly onto a serving plate, starting with the cingur, then water spinach, bean sprouts, cucumber, tempeh, tofu, and rice cake.
+- Drizzle the sauce over the ingredients, and top with the crackers.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARujak_Cingur_%28Indonesian_Cow_Snout_Salad%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rujak Cingur (Indonesian Cow Snout Salad)@4541102
+    url: https://en.wikibooks.org/w/index.php?oldid=4541102
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

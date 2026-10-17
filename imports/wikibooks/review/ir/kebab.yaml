@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (IR, TR): confirm the country of origin
+#  - no Ingredients section
+#  - no procedure steps
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: ir-kebab
+title: Kebab
+summary: 'Kebab (Turkish: kebap) means "grilled meat", originally from Persia. There are two types of kebab: * Döner kebab is a type of kebab, preparation method and associated dishes brought by Turkish immigrants into Berlin.'
+origin:
+  country: IR
+  also_claimed_by:
+  - TR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- (missing)
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKebab&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kebab@4371325
+    url: https://en.wikibooks.org/w/index.php?oldid=4371325
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

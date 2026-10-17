@@ -1,0 +1,76 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Eru leaf, cleaned and chopped
+#  - unmapped ingredient: Water leaf, cleaned and chopped
+#  - unmapped ingredient: 1/2 kg cow skin, cut into pieces
+#  - unmapped ingredient: Chilli pepper, ground
+#  - unmapped ingredient: White wrappings of water fufu mixture
+id: cm-eru-and-water-fufu
+title: Eru And Water Fufu
+summary: Eru and water fufu is a common meal in Cameroon. It is very common among the Manyu people of the southwest region of Cameroon.
+origin:
+  country: CM
+course: soup
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 105
+difficulty: 3
+equipment:
+- Pot
+- Knife
+- Stovetop
+- Mortar and pestle
+- Cooking spoon
+techniques:
+- boiling
+ingredient_groups:
+- name: Eru
+  items:
+  - {ingredient: red-palm-oil, unit: l, qty: 0.5}
+  - {ingredient: bouillon-cube}
+  - {ingredient: ground-crayfish, qty: 2}
+  - {ingredient: stockfish}
+  - {ingredient: beef, unit: kg, qty: 0.5}
+  - {ingredient: salt}
+  - {ingredient: green-pepper, prep: ground}
+  - {ingredient: smoked-fish, optional: true}
+  - {ingredient: spinach, optional: true}
+- name: Water fufu
+  items:
+  - {ingredient: water}
+steps:
+- Wash the meat and fish. Combine in a pot with 1 maggi cube and a pinch of salt, then steam for about 30 minutes.
+- Add water leaf to the pot and cook for 3 minutes.
+- Add eru, and stir until the mixture is soft.
+- Serve with water fufu.
+- Soak the eru leaves for 3–6 hours OR soak for 1 hour and boil with baking soda for 30 minutes.
+- Boil the beef skin for 30 minutes, then add the previously cleaned and cut meat. Don't forget to salt it.
+- Boil for 10 minutes or until the desired gravy is achieved.
+- Season with hot pepper if desired.
+- At the very end of cooking, add the soaked fish. The juice must be saved because it will be necessary for the remaining cooking.
+- Stir in the spinach or waterleaf to a saucepan. Cook for 10 minutes.
+- Stir in the eru. Boil, stirring occasionally.
+- Mix in the palm oil, and cook for 15 minutes.
+- Mix in the crayfish, and cook for 5–10 minutes.
+- Serve with water fufu.
+- Place water fufu in a saucepan and stir with water until lumps are gone.
+- Place over a burner and stir with a wooden stick at regular intervals for about 45 minutes.
+- Check to see if it is properly cooked.
+- Shape into desired forms, then serve hot with eru.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEru_And_Water_Fufu&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Eru And Water Fufu@4518401
+    url: https://en.wikibooks.org/w/index.php?oldid=4518401
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

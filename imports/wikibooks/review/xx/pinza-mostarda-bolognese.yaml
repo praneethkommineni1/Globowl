@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no ingredient lines parsed
+#  - course unknown from categories
+id: xx-pinza-mostarda-bolognese
+title: Pinza Mostarda Bolognese
+summary: Pinza Mostarda Bolognese is a jam-filled rolled pastry that originated in Bologna. Serve warm or at room temperature with coffee. Store at room temperature. It keeps well for about a week.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 10
+time:
+  total_min: 150
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Stir together the dry ingredients in a large mixing bowl.
+- Cut the cold butter into smaller pieces.
+- Put the butter pieces into the bowl with the dry ingredients, and blend the ingredients together. You can do this by hand or with an electric mixer.
+- Add the eggs, stirring briefly after each one.
+- Mix gently until dough holds together. Add a splash of milk as needed, until you get a thick dough, similar to what you would expect for scones.
+- Cover the dough tightly and put it in the refrigerator to rest for about an hour.
+- Preheat oven to 350 °F (175 °C, gas mark 4—medium).
+- Turn the dough out onto the counter or a flat board and form into a thick disk.
+- If you are working on a counter or board, sprinkle a large spoonful of flour on the surface before taking the dough out of the mixing bowl, and then another spoonful on top. Use just enough flour to keep the dough from sticking too much.
+- If you cover your work area with plastic cling wrap, you do not need to put any flour on the surface. Cover the top of the dough with another layer of plastic wrap to keep your hands or rolling pin clean.
+- Roll the dough out into a rectangle about ½ inch (1.25 cm) thick.
+- Spread a generous layer of Mostarda Bolognese over the surface, leaving a clear border of 1 inch (2.5 cm) around the edges. This will reduce the risk of the jam leaking during the baking process.
+- Fold the dough along the longer side, letting the edges overlap (see illustration).
+- Put parchment paper on a large, ungreased baking sheet. Place the roll on the baking sheet, seam side down. Tuck the ends underneath to seal in the jam.
+- Brush the top with a little bit of milk, and sprinkle with sugar crystals.
+- Bake at 350 °F (175°C) for 30–35 minutes, until the roll is golden brown and the internal temperature is at least 190&nbsp;°F (about 90 °C).
+tips:
+- Mostarda Bolognese or Marmellata Sapore is a type of preserves or jam from Bologna. Despite the name, and unlike the similarly named Mostarda di Cremona (also called Mostarda di frutti), it contains no mustard at all. The main ingredients are some combination of apples, pears, or quinces with some type of citrus or zest, and it is cooked and pureed until it has a dark, smooth, thick, fine texture similar to apple butter. Cavazza is one brand, but if you can't find it locally, you can substitute plum jam, or take the flavor in a different direction with raspberry jam, or your favorite flavor of thick preserves.
+- You can use gluten-free flour substitutes.
+- White granulated sugar is the most typical, but any type of sugar and most sugar substitutes will work.
+- If you want a sweet cake, you can increase the amount of sugar by up to 50%.
+- Luigi Lepri's cookbook in the Bolognese dialect gives a very similar recipe as the traditional one, with the higher amount of sugar and using yeast instead of baking powder. He also makes his own Mostarda, from equal amounts of quince, grapes, and autumnal fruits (apples, pears, figs, plums, apricots, peaches, etc.), plus a small amount of sugar, cooked for about 8 hours and then bottled hot.
+- The large-crystal sugar may also be called "sanding sugar" or "sparkling sugar".
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APinza_Mostarda_Bolognese&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pinza Mostarda Bolognese@4658395
+    url: https://en.wikibooks.org/w/index.php?oldid=4658395
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

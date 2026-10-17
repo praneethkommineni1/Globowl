@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - course unknown from categories
+id: it-basic-polenta
+title: Basic Polenta
+summary: Basic Polenta.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 2
+equipment:
+- Stove
+- Heavy pot with lid
+- Wooden spoon or similar
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: cup, qty: 3}
+  - {ingredient: cornmeal, unit: cup, qty: 1}
+  - {ingredient: butter, note: to taste}
+  - {ingredient: salt}
+  - {ingredient: parmesan, note: to taste}
+steps:
+- 'Bring the liquid to a boil in a heavy pot. If you''re using milk, keep an eye on it: it can easily boil over and make a mess all over the place in seconds.'
+- When the liquid is at a boil, add a pinch or so of salt. Add the polenta, stirring frequently to avoid lumps and form a stable suspension.
+- Cover pot and turn to low heat, checking on it occasionally. Add more liquid if necessary. The polenta will be finished in approximately 45 minutes.
+- Polenta can be kept on low heat for up to 20 minutes or allowed to cool for future use.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABasic_Polenta&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Basic Polenta@4524011
+    url: https://en.wikibooks.org/w/index.php?oldid=4524011
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

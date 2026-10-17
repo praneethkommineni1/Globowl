@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tbsp curry paste
+#  - unmapped ingredient: 4 apricot halves, finely chopped
+id: gb-coronation-chicken
+title: Coronation Chicken
+summary: Coronation chicken was apparently created by Florist Constance Spry and Rosemary Hume for the banquet of the coronation of Queen Elizabeth II in 1953—see Wikipedia's article on Coronation Chicken for more information.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 45
+difficulty: 3
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 1, prep: poached}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: small}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 1}
+  - {ingredient: red-wine, unit: ml, qty: 100}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: lemon, qty: 0.5, prep: juiced}
+  - {ingredient: mayonnaise, unit: ml, qty: 300}
+  - {ingredient: heavy-cream, unit: ml, qty: 100}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: watercress}
+steps:
+- Skin the chicken if needed, and cut it into small pieces. Traditionally the chicken is cooked whole in advance, but alternatively you can use raw chicken and grill the chicken pieces at this point.
+- In a small saucepan, warm a small amount of vegetable oil.
+- Add the onion to the pan and cook gently until soft (about 3 minutes).
+- Add the curry paste, tomato puree, wine, bay leaf and lemon juice. Simmer uncovered for about 10 minutes until well-reduced. Strain and leave to cool.
+- Purée the chopped apricots in a blender or processor. Beat the cooled sauce into the mayonnaise with the apricot purée.
+- Whip the cream to stiff peaks, and fold into the mixture.
+- Season with salt and pepper, and a little lemon juice if necessary.
+- Fold in the chicken pieces, garnish with watercress, and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACoronation_Chicken&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Coronation Chicken@4517533
+    url: https://en.wikibooks.org/w/index.php?oldid=4517533
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

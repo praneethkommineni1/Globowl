@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - course unknown from categories
+id: xx-chipsi-mayai
+title: Chipsi mayai
+summary: Chipsi Mayai (Swahili for "chips and eggs"), also known as zege, is the most popular street food found all over Tanzania. The dish was invented in the streets of Dar es Salaam. In its most basic form, chipsi mayai is a simple potato-egg omelette.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2-4
+time:
+  total_min: 15
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: potato, qty: 4, prep: peeled and cut into fries, note: medium}
+  - {ingredient: egg, qty: 4, note: large}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped, optional: true, note: small}
+  - {ingredient: tomato, qty: 1, prep: diced, optional: true, note: small}
+  - {ingredient: green-chili, qty: 1, prep: finely chopped, optional: true}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: cilantro, prep: 'chopped, for garnish'}
+steps:
+- Peel the potatoes and cut them into thin fries.
+- Heat oil in a deep frying pan or pot.
+- Fry the potatoes until golden brown and crispy.
+- Remove the fries and drain on paper towels.
+- In a bowl, beat the eggs until well combined.
+- Add salt and black pepper.
+- Stir in the onion, tomato, and chili if using.
+- Add the fried chips to the beaten eggs and mix gently.
+- Heat 2 tablespoons of oil in a frying pan over medium heat.
+- Pour the egg and chips mixture into the pan.
+- Cook for 3–5 minutes until the bottom is golden brown.
+- Carefully flip the omelette using a plate or lid.
+- Cook the other side for another 3–4 minutes.
+- Remove from the heat when fully cooked.
+- Garnish with fresh coriander.
+- Cut into wedges and serve hot.
+tips:
+- Vegetable Chipsi Mayai
+- Cheese Chipsi Mayai
+- Spicy Chipsi Mayai
+- Chicken Chipsi Mayai
+- Chipsi Mayai with bell peppers
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChipsi_mayai&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chipsi mayai@4638743
+    url: https://en.wikibooks.org/w/index.php?oldid=4638743
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

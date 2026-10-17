@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: About 1/2 litre tomato sauce, tomato purée, or similar
+#  - unmapped ingredient: More vegetables according to your taste
+id: mx-mexican-tomato-soup
+title: Mexican Tomato Soup
+summary: Mexican tomato soup is a very simple dish that can be made hot if wanted. It is very nutritious for a soup too.
+origin:
+  country: MX
+course: soup
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 10
+difficulty: 1
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 2, note: large}
+  - {ingredient: red-bell-pepper, qty: 2}
+  - {ingredient: tomato, qty: 2}
+  - {ingredient: leek}
+  - {ingredient: corn-kernels, unit: can, qty: 1}
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.25}
+  - {ingredient: salt}
+  - {ingredient: sugar}
+steps:
+- Cut onion fine and fry lightly in a large saucepan with a bit of oil.
+- Add vegetables, roughly in the order you find logical (ie, tomatoes don't take long, peppers can be there from the start).
+- Add about ½ teaspoon salt, adjusting to taste. The salt will extract water from the vegetables and make them 'stew' faster. You can cover the pot if it goes slowly—once again, this slows the evaporation and allows the vegetables to cook in the water they lose themselves.
+- Add tomato sauce and corn.
+- Add salt and sugar to taste. Be bold; tomato sauce takes a lot of salt and at least a heaping teaspoon of sugar to taste right. If unsure, separate a small amount and try adding more salt—you will see the tastes changes significantly.
+- Serve with tortilla chips, or toasted bread if not available.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMexican_Tomato_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mexican Tomato Soup@4524818
+    url: https://en.wikibooks.org/w/index.php?oldid=4524818
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

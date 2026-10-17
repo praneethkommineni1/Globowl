@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+id: al-hasude
+title: Hasude
+alternate_names:
+- Albanian Cornstarch Pudding
+summary: Hasude is an Albanian dessert.
+origin:
+  country: AL
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–5
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: cornstarch, unit: cup, qty: 1.25}
+  - {ingredient: butter, unit: tbsp, qty: [6, 7]}
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: water, unit: cup, qty: 2}
+steps:
+- Melt butter in pot over medium-high heat. Gradually mix in the cornstarch.
+- Once all the cornstarch is added, cook until the mass becomes yellow. Sweeten with some sugar.
+- Separately prepare a syrup using the remaining sugar and water.
+- After it is done cooking, shape the mass using a spoon or plastic shapes, and pour the syrup on top.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHasude_%28Albanian_Cornstarch_Pudding%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Hasude (Albanian Cornstarch Pudding)@4517923
+    url: https://en.wikibooks.org/w/index.php?oldid=4517923
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

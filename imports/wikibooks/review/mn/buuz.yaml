@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - duplicate of hand-written recipe mn-buuz
+id: mn-buuz
+title: Buuz
+alternate_names:
+- Mongolian Meat Dumplings
+summary: Buuz.
+origin:
+  country: MN
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 35
+difficulty: 4
+techniques:
+- boiling
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 300}
+  - {ingredient: water, unit: g, qty: [200, 300]}
+  - {ingredient: onion, prep: chopped}
+  - {ingredient: beef, prep: minced or ground}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25, optional: true}
+  - {ingredient: water, unit: tbsp, qty: 5}
+  - {ingredient: water, unit: ml, qty: 400}
+steps:
+- Combine beef, salt, onion, pepper, and water in a bowl. Mix together thoroughly and leave covered during the preparation of the dough.
+- In a bowl mix together flour and cold water to make a very soft dough. Cover the bowl and leave the dough for 5 minutes to relax.
+- Knead the dough for a half minute. Cut the dough into 10 pieces, and flatten the dough into discs.
+- Place a fair amount of meat mixture on each disc, and fold the edges together to enclose the filling.
+- Boil a fair amount of water in a steamer. Spread some oil on the steamer pan to protect the buuz buns from getting stuck during cooking.
+- Carefully place the buuz buns on the steamer pan, spacing them 1 cm (0.4 inch) away from one another. Place the pan into the boiling steamer and cover the steamer very well. Cook for 15 minutes.
+- Take out the steamer board and fan the buuz for 30 seconds using steamer cover or any safe, light object.
+- Serve with some cabbage salad, or some chopped kosher cucumbers. Enjoy!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABuuz_%28Mongolian_Meat_Dumplings%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Buuz (Mongolian Meat Dumplings)@4501415
+    url: https://en.wikibooks.org/w/index.php?oldid=4501415
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

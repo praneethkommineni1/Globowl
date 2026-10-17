@@ -1,0 +1,77 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1/2 teaspoon ground caraway seeds
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-tajine-bil-samak
+title: Tajine bil Samak
+alternate_names:
+- Libyan Fish Tajine
+summary: Tajine bil samak is a delicious and fragrant Libyan fish dish cooked in a tajine, a traditional clay pot with a conical lid. This flavorful dish features tender fish fillets cooked in a tomato-based sauce infused with aromatic spices and herbs.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Tajine or deep, wide skillet with a lid
+- Wooden spoon or spatula
+- Knife
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: fish, qty: [4, 6]}
+  - {ingredient: tomato, qty: 2, prep: diced}
+  - {ingredient: tomato, unit: tbsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 0.5}
+  - {ingredient: ground-coriander, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: parsley, prep: 'chopped, for garnish'}
+steps:
+- Heat the olive oil in the tajine over medium heat.
+- Add the chopped onion and minced garlic. Sauté until the onion becomes translucent and fragrant.
+- Place the fish fillets in the tajine, and cook for a few minutes on each side until lightly browned. Remove the fish fillets from the tajine or skillet and set them aside.
+- In the same tajine or skillet, add the diced tomatoes and tomato paste. Stir well to combine.
+- Add the ground cumin, paprika, cayenne pepper, coriander, salt, and pepper. Mix the spices into the tomato mixture. Pour in the water and stir until the sauce is well combined.
+- Return the fish fillets to the tajine, nestling them into the sauce.
+- Cover the tajine with a lid and let the fish simmer in the sauce for about 10–15 minutes, or until the fish is cooked through and flakes easily with a fork.
+- Remove the tajine from the heat.
+- Sprinkle chopped parsley or cilantro on top for garnish.
+- Serve the hot, accompanied by rice or bread.
+tips:
+- Feel free to adjust the spice levels according to your preference. Add more cayenne pepper for extra heat or reduce it for a milder flavor.
+- You can add additional vegetables such as bell peppers or carrots to the tajine for added flavor and nutrition.
+- Experiment with different types of fish fillets based on your preference and availability.
+- If using a tajine, it is recommended to place a heat diffuser between the tajine and the heat source to distribute the heat evenly and prevent the clay from cracking.
+- Check the fish for doneness by gently flaking it with a fork. It should be opaque and easily separated into flakes.
+- Add a squeeze of lemon juice to the sauce before serving for a tangy flavor.
+- For a heartier version, add a can of chickpeas or cooked white beans to the tajine during the simmering process.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATajine_bil_Samak_%28Libyan_Fish_Tajine%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tajine bil Samak (Libyan Fish Tajine)@4518689
+    url: https://en.wikibooks.org/w/index.php?oldid=4518689
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

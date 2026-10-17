@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 200 g oven chips
+#  - course unknown from categories
+id: im-chips-cheese-and-gravy
+title: Chips Cheese and Gravy
+summary: Chips with cheese and gravy is a popular fast food in the Isle of Man and is a common menu in many takeaway restaurants.
+origin:
+  country: IM
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4 people
+time:
+  total_min: 60
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: salt}
+  - {ingredient: cheddar, unit: g, qty: 300}
+  - {ingredient: butter, unit: g, qty: 200}
+  - {ingredient: all-purpose-flour, unit: g, qty: 200}
+  - {ingredient: chicken-stock, unit: can, qty: 4}
+  - {ingredient: black-pepper, unit: g, qty: 10}
+steps:
+- Preheat the oven to 220°C and spread the chips onto an oiled baking tray.
+- Bake the chips for around 15–20 minutes until they are slightly golden.
+- After about 5 minutes add grated cheese on top of the chips and continue cooking.
+- In a small saucepan melt in the butter and flour and mix continuously.
+- Cook on a low heat and slowly add the beef broth and black pepper. Stir continually.
+- When the chips are ready, divide between plates and add the gravy as desired.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChips_Cheese_and_Gravy&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chips Cheese and Gravy@4523947
+    url: https://en.wikibooks.org/w/index.php?oldid=4523947
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

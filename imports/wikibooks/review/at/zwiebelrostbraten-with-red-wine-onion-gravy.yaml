@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 ea. onion, sliced into thin rings
+id: at-zwiebelrostbraten-with-red-wine-onion-gravy
+title: Zwiebelrostbraten with Red Wine Onion Gravy
+summary: Zwiebelrostbraten is a typical Austrian entrée and an all-time favorite dish in Austria. The meat used for Zwiebelrostbraten is traditionally a standing rib roast cut, which is called “Rostbraten” in German.
+origin:
+  country: AT
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 50
+difficulty: 2
+techniques:
+- sauteing
+ingredient_groups:
+- name: Sauce
+  items:
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, qty: 2, prep: minced}
+  - {ingredient: vegetable-oil}
+  - {ingredient: tomato-paste, unit: tsp, qty: 2}
+  - {ingredient: brown-sugar, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: red-wine, unit: ml, qty: 125}
+  - {ingredient: chicken-stock, unit: ml, qty: 500}
+- name: Meat
+  items:
+  - {ingredient: beef, unit: slice, qty: 2}
+  - {ingredient: dijon-mustard, unit: tbsp, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: vegetable-oil}
+steps:
+- Sauté the onion and garlic in oil.
+- Add tomato paste, sugar, and Hungarian paprika, and let it sauté just a little before finally deglazing the pan with red wine.
+- Add broth and let it boil down until it has achieved the desired consistency. This will take about 25 minutes. Do not forget to stir the gravy every once in a while.
+- While the gravy is being reduced, slightly beat the meat with a meat mallet. This helps the meat to stay tender. Then rub it in mustard and add salt and pepper.
+- Sear the meat on both sides and cook it for another 4–5 minutes on medium heat.
+- Add the onion rings to the juices remaining from the meat and let them soak up the delicious flavor. Depending on how much oil and juices there are still left in the frying pan, you might have to add some oil or water in order to let the onions absorb the flavor properly.
+- Finally top the meat with the onion rings, add the gravy, and serve it with the desired side dish. Enjoy!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AZwiebelrostbraten_with_Red_Wine_Onion_Gravy&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Zwiebelrostbraten with Red Wine Onion Gravy@4613397
+    url: https://en.wikibooks.org/w/index.php?oldid=4613397
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

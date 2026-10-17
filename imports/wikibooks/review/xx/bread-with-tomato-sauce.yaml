@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 750 ml puréed tomato
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: xx-bread-with-tomato-sauce
+title: Bread with Tomato Sauce
+alternate_names:
+- Pappa al Pomodoro
+summary: Bread with Tomato Sauce.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: white-bread, qty: 0.5}
+  - {ingredient: garlic, qty: [1, 2], prep: crushed and finely chopped}
+  - {ingredient: vegetable-oil}
+  - {ingredient: basil, unit: handful, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Dip the bread in water for a short time, so that you can crush it with your hands. It should not be soaked.
+- Fry the garlic in a large frying pan with oil until it begins to change color.
+- Add the tomato purée and salt, and cook over medium heat until it comes to a boil.
+- Add pieces of bread in, none smaller than a walnut, after wringing and continue to mix it with the tomato, until it has become completely red.
+- At this point the tomato should still have a fresh aroma.
+- Remove from heat and serve hot in a bowl, seasoned with a drizzle of olive oil, pepper and a basil leaf.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABread_with_Tomato_Sauce_%28Pappa_al_Pomodoro%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bread with Tomato Sauce (Pappa al Pomodoro)@4523689
+    url: https://en.wikibooks.org/w/index.php?oldid=4523689
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

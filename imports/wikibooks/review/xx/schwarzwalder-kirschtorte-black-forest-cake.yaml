@@ -1,0 +1,82 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no ingredient lines parsed
+#  - course unknown from categories
+id: xx-schwarzwalder-kirschtorte-black-forest-cake
+title: Schwarzwälder Kirschtorte (Black Forest Cake)
+summary: Schwarzwälder kirschtorte, or Black Forest cake in English, is a traditional German dessert. This version puts two different kinds of cherries between layers of cocoa torte, filled with a generous amount of whipped cream.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 12
+  amount: 12–16
+time:
+  total_min: 180
+difficulty: 4
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Pit the cherries if needed.
+- Cook everything except the liqueur in a medium-sized saucepan on the stovetop, stirring occasionally to keep it from sticking to the bottom of the pan and to prevent it from boiling over, until the cherries begin softening, about 5 to 10 minutes.
+- Add the liqueur and cook for another 10 minutes over medium heat. The cherries should be soft enough to eat easily, but not cooked so long that they become mushy or lose their shape.
+- Set the cherries aside to cool.
+- Pit the cherries if needed.
+- Cook the cherries and sugar in a medium-sized saucepan on the stovetop, stirring occasionally, until the cherries begin softening, for about 5 to 10 minutes. Because there is no added liquid, you may want to start cooking at a slightly lower temperature and raise it to medium after the sugar has melted.
+- Add the liqueur, and cook for another few minutes until the cherries are soft enough. Set them aside to cool.
+- If you are making the cherries in advance, both kinds can be stored in the refrigerator (in separate containers) at this point for up to several days.
+- After both kinds of cherries have been cooked, drain both types of cherries thoroughly and separately, saving all the drained syrup. The cherries need to be cooled and drained well enough that they won't dissolve the whipped cream filling when the cake is assembled. You will use some of the syrup to moisten the cake layers.
+- Line two 9-inch (23 cm) cake pans with parchment. If you don't have parchment paper, spread a very thin layer of butter only on the bottom of the pans. Do not butter the sides of the pans, and do not coat the pans with flour.
+- Preheat the oven to 350 °F (180 °F or gas mark 4–medium).
+- Separate the eggs.
+- Whip the egg whites until stiff and set aside.
+- Whip the egg yolks and sugar in a large mixing bowl, until very light and fluffy. This will take several minutes with an electric mixer and longer if you are beating them by hand.
+- Sift the cocoa powder and flour together over the egg yolk mixture. Add the stiffly whipped egg whites on top. Gently fold together all ingredients.
+- Scrape the batter into the two pans and bake until done, approximately 20–25 minutes. The internal temperature should be around 185–190 °F. Set the cakes aside to cool.
+- Put the powdered gelatin in a small pan. Add an ounce or so (30 ml) of cool water and let it stand until the gelatin has "bloomed" (absorbed the water and softened). This usually takes at least 5 minutes.
+- Add the kirschwasser to the softened gelatin. If you do not want to use the kirschwasser, you can substitute an equal volume of syrup from the cherries.
+- Heat the gelatin mixture over low heat, stirring constantly. Remove from the heat when the gelatin has dissolved—it will look clear.
+- Set the pan aside to cool down to a warm room temperature. Do not place it in the refrigerator. If you have a cooking thermometer, an ideal temperature might be around 75–80°F (24–26 °C). If the gelatin begins to solidify, gently warm it until it is barely liquid again.
+- In a large mixing bowl, whip the whipping cream, until it begins thickening but has not reached the point of forming soft peaks.
+- Stir a large spoonful of the half-whipped whipping cream into the cooled but still liquid gelatin.
+- Resume whipping the remaining cream, gradually drizzling the gelatin mixture into the bowl while whipping.
+- Once the gelatin has been incorporated, add the powdered sugar and whip until firm but not grainy.
+- 'Collect everything you need:'
+- Both kinds of cooked cherries, completely cooled and well-drained
+- About 2 ounces (60 ml) of cherry syrup from cooking the cherries. Choose your favorite one, or mix them together. You can add an extra ounce (30 ml) of kirschwasser to the syrup if you want. If you want a boozy cake, you can even use kirschwasser instead of the cherry syrups.
+- 2 cake layers, completely cooled
+- Stabilized whipped cream
+- Chocolate shavings or sprinkles (if desired)
+- A large platter (big enough to accommodate whipped cream on the side of the cake if desired)
+- Set aside about a dozen pretty, well-drained cherries for decorating the top layer.
+- Place the first cake layer on the platter.
+- 'Pour some of the reserved cherry syrup over the cake layer. The amount should be in the "pancake topping" range (about 1 oz/30 mL): enough to cover most of the cake, but not enough to make it soggy or to pour off the edges. Use a pastry brush to spread the syrup evenly across the surface. Don''t skip this step, or the cake will be much too dry.'
+- Top the bottom layer with a small amount of whipped cream. Place a single layer of cherries on top of that. Top that with just enough whipped cream to completely fill the spaces between the cherries. Note that the cherries act as a structural element since the whipped cream can't support the weight of the top cake layer on its own. If you put too much whipped cream between the layers, it will squish out the sides when the top cake layer is added.
+- Place the top cake layer on top of the cherries, and repeat the process of covering the cake layer with cherry syrup.
+- Cover the cake with a generous layer of whipped cream (either on top only or on both the top and sides, as you prefer). The whipped cream can be piped with a pastry bag and tips if desired, or it can be spread on with a spoon or spatula. Arrange the reserved cherries in a decorative pattern on top of the cake.
+- If desired, shave a block of semi-sweet chocolate to make chocolate curls. Add chocolate shavings to the top or sides of the cake.
+- Place assembled cake in the refrigerator to rest for 4–12 hours before serving.
+tips:
+- The cherries can be made several days in advance and stored in the refrigerator. You need both the cherries and the syrup.
+- You can use canned cherries (cherries in juice, not cherries in ready-made pie filling). However, they are likely to be very soft even before you cook them to make the flavored syrups. Shorten the first cooking time and stir gently.
+- The cake can be baked the day before or the morning of serving. If made far in advance, it should be frozen—defrost before assembling the cake.
+- If you want to have more cake layers, use a smaller diameter cake pan, and halve the cakes horizontally to make four thin layers. This may change the cooking time for the cakes, and you will need more whipped cream if you want to completely coat the cake on all sides.
+- The remaining cherry syrup can be used on top of pancakes, waffles, yogurt, ice cream, cheesecake, and other desserts, in fizzy drinks and cocktails, or as a glaze or marinade while cooking meat or vegetables.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASchwarzw%C3%A4lder_Kirschtorte_%28Black_Forest_Cake%29_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Schwarzwälder Kirschtorte (Black Forest Cake) II@4658387
+    url: https://en.wikibooks.org/w/index.php?oldid=4658387
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

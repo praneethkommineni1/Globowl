@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1/4 tsp freshly-ground grains of paradise
+#  - unmapped ingredient: 1/4 cup apple jelly
+#  - unmapped ingredient: 1 tbsp apple cider
+#  - unmapped ingredient: 1/4 cup tapioca starch
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-classic-american-apple-pie
+title: Classic American Apple Pie
+summary: A classic apple pie is a double-crusted pie filled with sweetened and spiced apples. The exact spices vary by recipe, but cinnamon is traditional.
+origin:
+  country: XX
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- boiling
+ingredient_groups:
+- name: Dough
+  items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 340}
+  - {ingredient: butter, unit: g, qty: 227, prep: cut into 1/2-inch pieces}
+  - {ingredient: brandy, unit: tbsp, qty: [5, 7]}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+- name: Filling
+  items:
+  - {ingredient: apple, qty: 6, prep: 'peeled, cored, and cut into 12ths'}
+  - {ingredient: sugar, unit: cup, qty: 0.5, prep: divided}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.75}
+  - {ingredient: lemon-juice, unit: tsp, qty: 2}
+steps:
+- Combine dough ingredients to get a mealy dough. Split in half by weight, shape into 2 disks, and chill for 1 hour.
+- Toss apples with ¼ cup sugar and place in a colander set over a large bowl. Let drain for 1 ½ hours.
+- Transfer liquid from bowl into a saucepan, and bring to a boil over medium high heat. Cook until reduced to 2 tbsp. Set aside.
+- Toss apples with remaining filling ingredients. Set aside.
+- Roll out both disks of crust into rough circles. Place one inside a 9 ½–10-inch tart pan and attach.
+- Add apples to the crust in a concentric circle, starting from the outside and working to the inside, making the center slightly taller than the outside. Pour any liquid in the bottom of the bowl over the apples.
+- Top with the second sheet of dough, and seal the edges. Crimp the edges if desired, then snip 3 incisions in the center. Brush top with reduced apple liquid.
+- Bake at 425°F on the floor of the oven in a half sheet pan lined with parchment for 30 minutes. Transfer to the lower rack, and bake for another 20 minutes.
+- Remove and cool for 4 hours. Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AClassic_American_Apple_Pie&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Classic American Apple Pie@4618213
+    url: https://en.wikibooks.org/w/index.php?oldid=4618213
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+id: cu-cuban-picadillo
+title: Cuban Picadillo
+summary: Cuban Picadillo.
+origin:
+  country: CU
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef-mince, unit: g, qty: 907}
+  - {ingredient: olive-oil, unit: cup, qty: 0.25, prep: divided}
+  - {ingredient: onion, unit: cup, qty: 1}
+  - {ingredient: green-pepper, qty: 1, prep: diced}
+  - {ingredient: garlic, unit: tbsp, qty: 1}
+  - {ingredient: canned-tomatoes, unit: can, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 2}
+  - {ingredient: dried-oregano, unit: tsp, qty: 2}
+  - {ingredient: raisins, unit: cup, qty: 0.5}
+  - {ingredient: olives, unit: cup, qty: 0.5}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+steps:
+- In large skillet, brown beef in 2 tablespoons olive oil over high heat; drain and reserve.
+- In same skillet, lightly brown onion, pepper, and garlic in remaining oil.
+- Add tomato sauce, cumin, and oregano; bring to boil.
+- Reduce heat and simmer 20 minutes, stirring occasionally, until mixture has thickened.
+- Stir in beef, raisins, olives and season to taste with salt and pepper.
+- Bring back to boil, simmer 10 minutes, and serve over steamed rice with sautéed sliced ripe plantains and black beans.
+tips:
+- Make a double batch and freeze half for up to three months. Defrost in microwave oven.
+- Use Texmati rice, a hybrid of American long-grain rice with Indian basmati, for perfect, fluffy results.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACuban_Picadillo&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cuban Picadillo@4493948
+    url: https://en.wikibooks.org/w/index.php?oldid=4493948
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

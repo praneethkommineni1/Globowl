@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: hu-goulash
+title: Goulash
+summary: Goulash (Gulyás in Hungarian, meaning cattle stockmen) is a dish from the Hungarian cuisine. Here is one very simple Goulash stew recipe, being pretty close to the idealised version. Make sure to use sweet paprika and not hot paprika.
+origin:
+  country: HU
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil}
+  - {ingredient: onion, qty: 3, prep: chopped}
+  - {ingredient: beef, unit: g, qty: 680, prep: cubed}
+  - {ingredient: red-bell-pepper, qty: 2, prep: chopped}
+  - {ingredient: tomato, qty: 1, prep: chopped}
+  - {ingredient: paprika, unit: tbsp, qty: 2}
+  - {ingredient: black-pepper, qty: 5}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 6}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: potato, qty: 4, prep: chopped}
+steps:
+- Fry half of the onions in a pot with olive oil.
+- Put a layer of meat over the fried onions, then a layer of raw onions, peppers, tomato, whole garlic cloves, spices, and salt. Add another meat layer; continue until you have used all the ingredients except the potato.
+- Cover the meat with water. Put on a lid, and simmer on low heat. Add water only if there is not enough while cooking. It requires almost no stirring.
+- When the meat is cooked and tender, add potatoes. Add additional water to cover it if needed, and cook for further 15 minutes until the potatoes are tender.
+tips:
+- The colour could be even nicer if you add more paprika in the last 10 minutes.
+- You can add ½ pound lean cubed pork after 20 minutes.
+- If you're not afraid of fats, add some bacon to the dish.
+- A pinch of caraway (seeds or ground) is often added.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGoulash&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Goulash@4592335
+    url: https://en.wikibooks.org/w/index.php?oldid=4592335
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

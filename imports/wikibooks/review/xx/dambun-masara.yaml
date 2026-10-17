@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Water as needed
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-dambun-masara
+title: Dambun Masara
+summary: Dambun masara is a traditional Hausa dish made from cornmeal that is steamed and mixed with vegetables and spices. This savory dish has a fluffy, crumbly texture and is a popular choice for a snack or light meal in northern Nigeria.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Mixing bowl
+- Steamer or large pot with a colander and lid (for steaming)
+- Skillet or frying pan
+- Cooking spoon
+- Knife and cutting board
+- Measuring cups and spoons
+techniques:
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: maize-flour, unit: cup, qty: 2}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: small}
+  - {ingredient: spinach, unit: cup, qty: 1, prep: 'moringa leaves, or any leafy greens', optional: true}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+steps:
+- Place the corn flour in a large mixing bowl. Gradually stir in a small amount of water to moisten it slightly. The mixture should be crumbly like couscous, not sticky or dough-like.
+- Place the moistened corn flour in a steamer or colander over a pot of boiling water. Steam for 15–20 minutes until the corn flour becomes fluffy and cooked through.
+- In a large skillet, heat the vegetable oil over medium heat. Add the onions, and cook until they turn a golden brown.
+- Add the steamed corn flour to the pan with the onions. Add the chopped leafy greens (if using), pepper, and salt. Stir everything together to combine the flavors, cooking for an additional 10 minutes.
+- Serve hot with a side of spicy pepper sauce or fresh sliced tomatoes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADambun_Masara&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dambun Masara@4601082
+    url: https://en.wikibooks.org/w/index.php?oldid=4601082
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

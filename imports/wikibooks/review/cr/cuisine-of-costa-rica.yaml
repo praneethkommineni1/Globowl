@@ -1,0 +1,40 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no Ingredients section
+#  - no procedure steps
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: cr-cuisine-of-costa-rica
+title: Cuisine of Costa Rica
+summary: Costa Rican cuisine is known for being tasty, yet fairly mild, with high reliance on fresh fruits and vegetables.
+origin:
+  country: CR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- (missing)
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACuisine_of_Costa_Rica&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cuisine of Costa Rica@3936841
+    url: https://en.wikibooks.org/w/index.php?oldid=3936841
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

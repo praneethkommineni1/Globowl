@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 large Red Delicious apple
+#  - unmapped ingredient: 10 halved maraschino cherries
+id: us-waldorf-salad
+title: Waldorf Salad
+summary: Waldorf salad was created by Oscar Tschirky in 1896 at the Waldorf-Astoria Hotel, New York, New York, in the United States of America.
+origin:
+  country: US
+course: salad
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2 plates
+time:
+  total_min: 45
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: apple, qty: 1, note: large}
+  - {ingredient: lemon, unit: tbsp, qty: 1}
+  - {ingredient: raisins, unit: g, qty: 80}
+  - {ingredient: walnuts, unit: g, qty: 80}
+  - {ingredient: celery, unit: g, qty: 80}
+  - {ingredient: mayonnaise, unit: tbsp, qty: 2}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: lettuce, qty: 6, note: large}
+steps:
+- Slice the apples into wedges, and place in a bowl.
+- Pour lemon juice on the apple wedges, and ensure a light coating to prevent browning.
+- Plump the raisins by placing them in warm water for 5 minutes, then drain well.
+- Mix celery, raisins, and walnuts into the bowl of apple wedges.
+- Mix the mayonnaise and sugar together, then pour into the apple mixture, ensuring a light coating on all items.
+- Chill for at least 30 minutes
+- Place 3 lettuce leaves on a large plate and three on another, place half of the mixture on each set of leaves, and sprinkle 5 cherries on each salad.
+- Serve
+tips:
+- Though the original salad only used apples, celery and mayonnaise; walnuts mixed in have become an integral part of the modern version of the salad and cherries are only used as a sweet addition to further the contrasts within the salad.
+- Instead of raisins, try using grapes to create the same sort of taste but more wholly and not as rich.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AWaldorf_Salad&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Waldorf Salad@4525769
+    url: https://en.wikibooks.org/w/index.php?oldid=4525769
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

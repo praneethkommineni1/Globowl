@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/4 cup grilled liver, diced
+#  - unmapped ingredient: 1/2 kilo of pig's heart, grilled and minced
+#  - unmapped ingredient: 1/2 kilo of pig's lungs, grilled and minced
+#  - unmapped ingredient: 1/2 kilo of pig's intestines, grilled and minced
+#  - unmapped ingredient: 1 1/2 tbsp liquid seasoning
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ph-sizzling-sisig
+title: Sizzling Sisig
+alternate_names:
+- Filipino Pork Sauté
+summary: Sisig, famous for being a food eaten while drinking alcoholic beverages, is a Filipino dish made from pork jowl and ears (maskara), pork belly, and chicken liver, which is usually seasoned with calamansi, onions, and chili peppers.
+origin:
+  country: PH
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: pork, qty: 1.5}
+  - {ingredient: onion, qty: 2, prep: minced, note: small}
+  - {ingredient: red-bell-pepper, qty: 2, prep: minced}
+  - {ingredient: garlic, qty: 1, prep: minced}
+  - {ingredient: red-chili, qty: 6, prep: minced}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: white-vinegar, unit: cup, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: brown-sugar, unit: tsp, qty: 1}
+  - {ingredient: beef, unit: cup, qty: 1}
+steps:
+- Grill pork head to remove hair.
+- Boil pork head until tender.
+- Take out all the meat and dice.
+- In a sauté pan, heat oil and sauté garlic, onion, red pepper, pork meat and liver.
+- Season with liquid seasoning, black pepper, and brown sugar.
+- Pour in beef stock and cook until meat is tender and starts to oil again.
+- Add minced chili pepper last.
+- Serve on a sizzling plate.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASizzling_Sisig_%28Filipino_Pork_Saut%C3%A9%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sizzling Sisig (Filipino Pork Sauté)@4512101
+    url: https://en.wikibooks.org/w/index.php?oldid=4512101
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

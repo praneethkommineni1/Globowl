@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ug-obuwunga
+title: Obuwunga
+alternate_names:
+- Ugandan Traditional Bread
+summary: Obuwunga is a staple food in Ugandan cuisine. This simple and hearty bread is made from millet or corn flour and is commonly enjoyed with various stews and dishes.
+origin:
+  country: UG
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Bowl
+- Mixing stick or spoon
+- Pot with a lid
+- Steaming rack or banana leaves (for steaming)
+techniques:
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: water, prep: as needed}
+steps:
+- In a bowl, combine the millet flour or cornmeal with the salt.
+- Gradually add water to the flour, mixing it with a mixing stick or spoon until it forms a smooth and thick dough. The amount of water needed may vary, so add it gradually until the right consistency is achieved.
+- Once the dough is ready, form it into a round or oval shape, smoothing the surface with wet hands.
+- In a pot, add some water and place a steaming rack at the bottom. Alternatively, you can use banana leaves to line the pot to prevent sticking.
+- Carefully place the shaped dough on the steaming rack or banana leaves.
+- Cover the pot with a lid and steam the bread over medium heat for about 30–40 minutes, or until the bread is cooked and firm.
+- Remove the bread from the pot and let it cool for a few minutes before serving.
+- Serve with various stews and dishes, using the bread to scoop up the stews.
+tips:
+- You can adjust the consistency of the dough by adding more water if it's too dry or more flour if it's too wet.
+- Obuwunga can also be cooked by placing the dough directly on hot coals or on a hot flat surface, like a pan or griddle, to give it a slightly smoky flavor.
+- For a softer texture, some people add a small amount of vegetable oil or butter to the dough before steaming.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AObuwunga_%28Ugandan_Traditional_Bread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Obuwunga (Ugandan Traditional Bread)@4513134
+    url: https://en.wikibooks.org/w/index.php?oldid=4513134
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

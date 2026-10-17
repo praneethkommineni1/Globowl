@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1/2 kg bagoong alamang
+#  - unmapped ingredient: Monosodium glutamate
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-bicol-express
+title: Bicol Express
+summary: Bicol express is a Filipino pork dish with coconut milk and chili peppers. Popularized in Malate, Manila, the dish took its name from a passenger train from Bicol Region going to Manila and vice versa.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- sauteing
+- simmering
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, qty: 1}
+  - {ingredient: onion, qty: 1, prep: chopped}
+  - {ingredient: garlic, qty: 1, prep: minced}
+  - {ingredient: pork, unit: kg, qty: 1}
+  - {ingredient: red-chili, qty: 15}
+  - {ingredient: sugar, qty: 2}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: coconut-milk, unit: can, qty: 1}
+steps:
+- Heat a frying pan over medium heat, then add the cooking oil.
+- When the oil is hot, add the onion and garlic. Sauté until fragrant and aromatic.
+- Add the shrimp paste, siling labuyo and the pork belly. Stir fry the mixture until the pork is browned on all sides.
+- Add the sugar, pepper, and monosodium glutamate if using.
+- Stir in the coconut milk, and simmer until the meat is cooked through.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABicol_Express&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bicol Express@4511534
+    url: https://en.wikibooks.org/w/index.php?oldid=4511534
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

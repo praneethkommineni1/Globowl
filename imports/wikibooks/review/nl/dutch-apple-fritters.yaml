@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: nl-dutch-apple-fritters
+title: Dutch Apple Fritters
+alternate_names:
+- Oliebollen
+summary: 'Oliebollen (literally: oil dumplings) are a type of Dutch apple fritter. They are served at Dutch festivals in the United States, such as the Holland Happening Festival in Oak Harbor, Washington.'
+origin:
+  country: NL
+course: main
+authenticity: unassessed
+yield:
+  servings: 50
+  amount: 50 donuts
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: yeast, qty: 2}
+  - {ingredient: egg, qty: 5}
+  - {ingredient: milk, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 1.5}
+  - {ingredient: margarine, unit: cup, qty: 0.5, prep: softened}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 10}
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1.5}
+  - {ingredient: apple, qty: 3, prep: diced, optional: true}
+  - {ingredient: sugar, unit: cup, qty: 3}
+  - {ingredient: ground-cinnamon, note: to taste}
+  - {ingredient: raisins, unit: cup, qty: 1, optional: true}
+  - {ingredient: vegetable-oil}
+steps:
+- Dissolve sugar in warm water. Sprinkle yeast on top. Let stand for about 10 minutes.
+- In a large mixing bowl, beat eggs until mixed. Add scalded milk, warm water, yeast mixture, and margarine. Beat well.
+- Add flour, sugar, and salt. Mix well. Add diced apple.
+- Let dough rise in a warm place until doubled in size. A lobster pot works well for this.
+- In a separate bowl, mix the sugar with cinnamon to taste. Set aside.
+- Fill a fryer pot with 4 inches of canola oil or melted shortening. Heat to 375°F (190°C).
+- Scoop large spoonfuls of dough into the hot oil. Dipping the spoons in the hot oil before scooping the dough keeps the spoons from getting too sticky.
+- Fry the oliebollen until golden brown, turning them to ensure even cooking.
+- Remove the oliebollen, and place on paper towels on paper bags.
+- Roll oliebollen in the cinnamon sugar mixture, and serve warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADutch_Apple_Fritters_%28Oliebollen%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dutch Apple Fritters (Oliebollen)@4587190
+    url: https://en.wikibooks.org/w/index.php?oldid=4587190
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

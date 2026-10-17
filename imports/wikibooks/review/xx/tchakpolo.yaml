@@ -1,0 +1,75 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-tchakpolo
+title: Tchakpolo
+alternate_names:
+- Togolese Meat and Vegetable Stew
+summary: Tchakpalo or tchakpala, is a popular traditional dish from Togo. It is a flavorful stew made with a combination of meat, vegetables, and spices. The dish is often served with a side of rice or fufu, a starchy staple in West Africa.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large pot or Dutch oven
+- Wooden spoon or spatula
+- Knife
+- Cutting board
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 2, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: beef, unit: g, qty: 500, prep: cut into chunks}
+  - {ingredient: tomato, qty: 2, prep: diced}
+  - {ingredient: red-bell-pepper, qty: 2, prep: diced}
+  - {ingredient: carrot, qty: 2, prep: sliced}
+  - {ingredient: chicken-stock, unit: cup, qty: 2}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 2}
+  - {ingredient: peanut-butter, unit: tbsp, qty: 2}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: ground-cloves, unit: tsp, qty: 1}
+  - {ingredient: nutmeg, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: parsley, prep: chopped}
+steps:
+- Heat the vegetable oil in a large pot or Dutch oven over medium heat. Add the chopped onions and minced garlic, and sauté until they become soft and translucent.
+- Add the meat chunks to the pot and cook until they are browned on all sides. Stir occasionally to ensure even browning.
+- Once the meat is browned, add the diced tomatoes and bell peppers to the pot. Continue cooking for a few minutes until the vegetables begin to soften.
+- In a small bowl, mix the tomato paste with a little water to form a smooth paste. Add the tomato paste mixture to the pot and stir well to combine with the meat and vegetables.
+- Add the ground ginger, ground coriander, ground cloves, ground nutmeg, salt, and pepper to the pot. Stir to evenly distribute the spices.
+- Pour in the water or beef broth, ensuring it covers the meat and vegetables. Bring the mixture to a boil, then reduce the heat to low and let it simmer for about 1–1.5 hours, or until the meat is tender.
+- In a separate bowl, mix the peanut butter with a little water to create a smooth paste. Add the peanut butter mixture to the pot and stir well to incorporate it into the stew. This will thicken the sauce and add a rich flavor.
+- Add the sliced carrots to the pot and continue simmering for an additional 15–20 minutes, or until the carrots are tender.
+- Taste the tchakpalo and adjust the seasoning if needed, adding more salt and pepper to taste.
+- Once the stew is ready, remove it from the heat. Garnish with freshly chopped parsley or cilantro.
+- Serve hot with steamed rice, fufu, or another preferred side dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATchakpolo_%28Togolese_Meat_and_Vegetable_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tchakpolo (Togolese Meat and Vegetable Stew)@4518690
+    url: https://en.wikibooks.org/w/index.php?oldid=4518690
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

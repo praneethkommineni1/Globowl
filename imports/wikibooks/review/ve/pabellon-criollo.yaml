@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: ve-pabellon-criollo
+title: Pabellón Criollo
+alternate_names:
+- Venezuelan Rice and Beans with Steak
+summary: Pabellón criollo is Venezuela's national dish, and no visit to this South American country will be complete unless you try it. This flavorful dish consists of shredded flank steak, black beans, rice, plantains or bananas, onions, tomatoes, and spices.
+origin:
+  country: VE
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 40
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil, unit: tbsp, qty: 3}
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: garlic, unit: tsp, qty: 1}
+  - {ingredient: tomato, unit: g, qty: 400}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: beef, unit: g, qty: 900, prep: ', about 12 mm thick'}
+steps:
+- Heat the oil in a large saucepan, add the onions and garlic and cook over a medium heat for about 5 minutes until the onions are soft and transparent.
+- Add the tomatoes, cumin and salt, mix well, reduce the heat to low and cook uncovered, for about 30 minutes, stirring often, until the tomato juices evaporate and the sauce becomes thick.
+- 15 minutes before the end of the cooking time, preheat the grill to hot, place the steak on the grill pan and cook under the grill for 5 minute on each side.
+- Remove from the grill and cut into pieces about 12mm/ ½-inch long and 6mm/ ¼-inch wide then add the strips of beef to the sauce, mixing well.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APabell%C3%B3n_Criollo_%28Venezuelan_Rice_and_Beans_with_Steak%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pabellón Criollo (Venezuelan Rice and Beans with Steak)@4507356
+    url: https://en.wikibooks.org/w/index.php?oldid=4507356
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

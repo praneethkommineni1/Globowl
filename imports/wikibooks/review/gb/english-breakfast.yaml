@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tin baked beans
+#  - no difficulty in recipe summary
+id: gb-english-breakfast
+title: English Breakfast
+summary: The traditional English breakfast is ubiquitous the world over. Cafés and hotels all around the world offer a version, often far removed from what might be considered conventional.
+origin:
+  country: GB
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 35
+difficulty: 1
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: bacon, qty: 4}
+  - {ingredient: egg, qty: 4}
+  - {ingredient: pork, qty: 4}
+  - {ingredient: tomato, qty: 4, prep: halved around the equator}
+  - {ingredient: mushroom, unit: g, qty: 400, prep: sliced}
+  - {ingredient: white-bread, unit: slice, qty: [4, 8]}
+steps:
+- Heat a broiler to medium heat, and cook the sausages under it, turning frequently. They should take about 10–15 minutes total to cook.
+- Cover the base of a frying pan with about 1cm of water, and heat on a high heat until boiling. When it is boiling, carefully break the eggs into it. If you have cooking rings, you can put these into the water first and then break the eggs into the rings, to prevent the eggs from spreading too much, although really fresh eggs should stay together anyway. Once the eggs are in the pan, wait a few moments for the water to heat up again, then turn the heat down to a very very gently simmer. To ensure the tops of the eggs are cooked, spoon water from around the edge of the pan over the top of the eggs a few times during cooking. When cooked, the egg white should be soft but cooked through and the yolk still runny. They should take about 8–10 minutes to cook.
+- Put the halved tomatoes under the broiler with the sausages. They should take about 6 minutes to cook.
+- If using, put the baked beans into a saucepan and heat through over a medium heat. They should take about 5 minutes to heat through.
+- Heat up a very small amount of oil in a pan, and fry the mushrooms until they are soft. They should take about 4 minutes to cook.
+- Put the bacon under the grill along with the sausages and tomatoes. Cook on one side for about 2 minutes, then turn once and repeat. Cook longer if crispier bacon is preferred. This should take about 4 minutes to cook.
+- Whilst cooking the bacon, toast the bread until golden.
+- Serve the eggs, bacon, mushrooms, sausage, tomato and beans onto piping hot plates, with the toast on a separate plate or toast rack. Serve with butter and jam for the toast, and hot tea with milk.
+- Start toasting the bread before cooking the rest of the food. Assuming 2 slices per person, you should have enough by the time you finish the fried food. Be sure to butter them heavily with real butter rather than low-fat spread. Place 4 plates on the bottom shelf of an oven, and one on the top. Set the oven to its lowest heat.
+- Melt some lard in a large frying pan (enough to make a layer of fat around 1 cm deep) and brown the sausage in it over a high heat. Lower heat and cook the sausage for around 4 minutes, and leave it in the pan. A lot of fat will leak from the sausages. Add the bacon (2 strips per person rather than 1) and cook to taste, flipping regularly (2–3 minutes for pink, 4–6 for a darker red bacon with crispy fat). The bacon will also release a lot of fat. Transfer the bacon to the warmed dish in the top of the oven. Leave the sausage in the pan.
+- Add the mushrooms and tomatoes to the pan. Add the tin of baked beans to a small pot and heat on a separate burner. After 2–4 minutes, transfer the mushrooms to the oven with the bacon. Transfer the tomato then too, or leave it a little longer depending on taste.
+- The sausages should now be dark brown, push them to the side of the pan and break an egg into the fat. Using a spatula, push hot fat over the yolk until it begins to bubble but is still liquid. This should take about 1 minute or so in a hot pan. Set out the 4 warmed plates beforehand and add an egg to each. When done, add the sausage, bacon, and mushrooms. Add the beans last. Serve with the buttered toast on a separate plate.
+- If you are using black pudding, add it to the fat with the bacon and remove it before the eggs.
+- If you desire a fried slice, add a slice of bread (whole or cut diagonally, in half or quarters) and allow it to absorb some of the leftover fat and lightly fry, then flip over and repeat. Alternatively, you can just fry some bread in vegetable oil in a separate pan but it doesn't have the same flavour as bread fried in the leftover fat from cooking a full breakfast in lard. If a whole slice is used it is preferable to place the fried egg on top, so the yolk runs into the bread and can easily be absorbed by the fried slice.
+tips:
+- You can increase the number of eggs per person if desired.
+- If you can't cope with preparing everything all at once (or don't have enough pans / rings), it is possible to keep all of the items warm in a preheated oven, so you can just cook each item in turn and keep it warm until needed. Try not to keep the eggs warm for too long before serving though, as the yolks may harden.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEnglish_Breakfast&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:English Breakfast@4500277
+    url: https://en.wikibooks.org/w/index.php?oldid=4500277
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

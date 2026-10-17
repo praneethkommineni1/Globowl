@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: rs-serbian-flatbread
+title: Serbian Flatbread
+alternate_names:
+- Lepinja
+summary: Serbian Flatbread.
+origin:
+  country: RS
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 350}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: yeast, unit: g, qty: 30}
+  - {ingredient: milk}
+  - {ingredient: water, unit: ml, qty: 237}
+steps:
+- Mix sugar, salt, and yeast into a little warm milk. Let stand for a few minutes until foamy.
+- Mix the yeast mixture into the flour.
+- Add the warm water, and knead the dough until it doesn't stick to your fingers.
+- Cover dough with a cloth, and put it in warm place (for instance near a heater) until doubled in size.
+- Knead the dough again, and let rest until it doubles again.
+- Knead it some more, and sprinkle with some flour.
+- Put the dough in the greased pan in which you plan to bake it, spreading it out until it's about ½ inch thick. Let rest for about half an hour.
+- Bake in a 400–420°F oven until golden an inserted toothpick comes out clean.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASerbian_Flatbread_%28Lepinja%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Serbian Flatbread (Lepinja)@4523273
+    url: https://en.wikibooks.org/w/index.php?oldid=4523273
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

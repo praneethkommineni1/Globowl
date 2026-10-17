@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 200 g red beans
+#  - unmapped ingredient: 1 can fried ghormeh sabzi herbs
+id: ir-ghormeh-sabzi
+title: Ghormeh Sabzi
+alternate_names:
+- Iranian Herb Stew
+summary: Ghormeh sabzi is one of the most popular dishes in the Persian part of Iran. It is relatively easy to prepare and yields food for multiple days. That is why typically a large amount of stew is prepared. The herbs and the dried limes create a unique flavour.
+origin:
+  country: IR
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 300
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 2, prep: finely chopped}
+  - {ingredient: beef, unit: g, qty: 800}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: parsley, unit: bunch, qty: 1, prep: finely chopped}
+  - {ingredient: spinach, unit: bunch, qty: 1, prep: finely chopped}
+  - {ingredient: cilantro, unit: bunch, qty: 1, prep: finely chopped}
+  - {ingredient: lime, qty: 8}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: long-grain-rice, unit: g, qty: 800}
+  - {ingredient: saffron}
+  - {ingredient: sugar, optional: true}
+steps:
+- Boil the red beans for 1 hour.
+- Remove unnecessary fat from the meat, and cut the meat into smaller pieces.
+- Heat a bit of normal olive oil in a big pot with lid. Add the onions, and fry at high temperature for 1–2 minutes.
+- Stir in the meat, and cook for another 1–2 minutes.
+- Reduce the heat to the lowest level. The meat will release a significant amount of juice which will contribute to the flavor of the stew.
+- Stir in the parsley, spinach, coriander leaves, and ghormeh sabzi herbs.
+- Stir in boiling water (about 0.5 L or until the consistency is right).
+- Stir in the cooked, drained beans. Simmer for about ½–3 hours over low heat. The longer the better.
+- Soak the dried limes in hot water for 15 minutes, and puncture each of them with a fork.
+- Add the dried limes, turmeric, pepper, and salt to the stew. Simmer for another ½–1 hour.
+- If desired, for the best taste, let the stew cool down and store it in a fridge. The taste is better over the next two days.
+- Steam the rice.
+- Grind the saffron and sugar together in a mortar. Add about 1 tablespoon boiling water. Toss some of the cooked rice with the saffron water to color it.
+- Serve the stew hot in its own bowl. Serve the plain rice in a separate bowl, topped with the saffron rice.
+tips:
+- Smaller dried limes have a better taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGhormeh_Sabzi_%28Iranian_Herb_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ghormeh Sabzi (Iranian Herb Stew)@4524744
+    url: https://en.wikibooks.org/w/index.php?oldid=4524744
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

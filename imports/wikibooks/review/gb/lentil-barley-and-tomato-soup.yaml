@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 heaped tablespoons barley
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gb-lentil-barley-and-tomato-soup
+title: Lentil, Barley, and Tomato Soup
+summary: Alexandra soup is a puréed vegetable soup, containing lentils, barley, and tomato. It makes for a warming meal.
+origin:
+  country: GB
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: brown-lentils, unit: cup, qty: 1}
+  - {ingredient: butter, unit: tbsp, qty: 1}
+  - {ingredient: onion, qty: 1, prep: diced}
+  - {ingredient: water, unit: cup, qty: 3}
+  - {ingredient: tomato, qty: 2, prep: 'peeled, seeded, and diced'}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Soak the lentils and barley together overnight, then drain. This step is optional.
+- Fry the onion in the butter until soft.
+- Add the lentils, barley, and water.
+- Cook until the lentils are tender—this will take longer if grains are not soaked.
+- Add the tomatoes when the soup is almost ready.
+- Purée with a food mill, blender, or food processor.
+- Reheat and adjust the seasoning.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALentil%2C_Barley%2C_and_Tomato_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lentil, Barley, and Tomato Soup@4518430
+    url: https://en.wikibooks.org/w/index.php?oldid=4518430
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

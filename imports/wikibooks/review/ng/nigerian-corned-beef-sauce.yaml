@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 740 g canned corned beef, minced
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-nigerian-corned-beef-sauce
+title: Nigerian Corned Beef Sauce
+summary: This corned beef sauce is also known as spaghetti sauce in Nigeria, but you can also use it for boiled rice, boiled yam, and boiled potatoes.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: onion, qty: 2, prep: diced, note: medium}
+  - {ingredient: tomato, qty: [6, 10], prep: diced}
+  - {ingredient: scotch-bonnet, qty: [8, 10], prep: diced}
+  - {ingredient: red-bell-pepper, qty: 3, prep: diced, optional: true}
+  - {ingredient: garlic, unit: tbsp, qty: 1}
+  - {ingredient: ginger, unit: tbsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: chicken-bouillon-cube}
+steps:
+- Heat the vegetable oil in a saucepan. Add the onions, tomatoes, peppers, garlic, and ginger. Stir, and fry for about 10 minutes.
+- Mix in the corned beef, and fry for about 10 minutes.
+- Add salt and seasoning cube to taste. Stir, then cover and cook for a few minutes.
+- Adjust seasoning as needed, and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Corned_Beef_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Corned Beef Sauce@4514110
+    url: https://en.wikibooks.org/w/index.php?oldid=4514110
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

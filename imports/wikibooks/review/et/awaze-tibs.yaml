@@ -1,0 +1,75 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tablespoon awaze sauce
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: et-awaze-tibs
+title: Awaze Tibs
+alternate_names:
+- Spicy Ethiopian Meat Stir-Fry
+summary: Awaze tibs is a flavorful and aromatic dish that showcases the vibrant spices of Ethiopian cuisine. This dish is made with tender pieces of meat, such as beef or lamb, stir-fried with a rich and spicy sauce known as awaze.
+origin:
+  country: ET
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large skillet
+- Wooden spoon or spatula
+- Cutting board
+- Chef's knife
+techniques:
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: beef, unit: g, qty: 680, prep: thinly sliced}
+  - {ingredient: onion, qty: 1, prep: thinly sliced, note: large}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: berbere, unit: tbsp, qty: 2}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 1}
+  - {ingredient: paprika, unit: tbsp, qty: 1}
+  - {ingredient: cayenne, unit: tbsp, qty: 1, note: to taste}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 1}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1, note: to taste}
+  - {ingredient: cilantro, prep: 'chopped, for garnish'}
+steps:
+- Heat the vegetable oil in a large skillet or wok over medium-high heat.
+- Add the thinly sliced meat to the hot skillet and stir-fry for 3–4 minutes until browned and cooked through. Remove the cooked meat from the skillet and set it aside.
+- In the same skillet, add the sliced onion and minced garlic. Stir-fry for about 2–3 minutes until the onion becomes translucent and fragrant.
+- Add the berbere spice, tomato paste, paprika, and cayenne pepper to the skillet. Stir well to coat the onions and garlic with the spices.
+- Return the cooked meat to the skillet and toss it with the spiced onion mixture.
+- Add the awaze sauce, soy sauce, vinegar, and salt to the skillet. Stir everything together to combine the flavors and coat the meat evenly.
+- Continue to stir-fry for another 2–3 minutes until the sauce thickens and coats the meat.
+- Taste the dish and adjust the seasoning with salt or additional spices according to your preference.
+- Remove the skillet from the heat and garnish the with freshly chopped cilantro.
+tips:
+- Adjust the spiciness of the dish by adding more or less cayenne pepper and berbere spice, according to your taste preferences.
+- Awaze sauce can be found in Ethiopian grocery stores or made at home using a combination of spices and peppers.
+- Awaze tibs is traditionally served with injera, a sourdough flatbread that complements the spicy flavors of the dish. You can also serve it with rice or bread.
+- Serve the stir-fry with a side of fresh salad or steamed vegetables for a complete and balanced meal.
+- For a tender and flavorful meat, marinate it in the awaze sauce for at least 30 minutes before cooking.
+- Stir-fry the ingredients on high heat for a shorter duration to retain the juiciness of the meat.
+- Add diced bell peppers, carrots, or other vegetables to the stir-fry for added color and texture.
+- Experiment with different protein options like chicken or tofu for a variation in flavors and dietary preferences.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAwaze_Tibs_%28Spicy_Ethiopian_Meat_Stir-Fry%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Awaze Tibs (Spicy Ethiopian Meat Stir-Fry)@4506320
+    url: https://en.wikibooks.org/w/index.php?oldid=4506320
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

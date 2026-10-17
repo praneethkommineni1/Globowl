@@ -1,0 +1,78 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (MX, US): confirm the country of origin
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 small sprig fresh or dried epazote
+id: mx-black-bean-soup-with-tomato-tomatillo-salsa
+title: Black Bean Soup with Tomato-Tomatillo Salsa
+summary: Black Bean Soup with Tomato-Tomatillo Salsa.
+origin:
+  country: MX
+  also_claimed_by:
+  - US
+course: soup
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 120
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- name: Soup
+  items:
+  - {ingredient: black-beans-canned, unit: g, qty: 454}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 2, prep: finely diced, note: large}
+  - {ingredient: garlic, unit: clove, qty: [4, 6], prep: minced}
+  - {ingredient: water, unit: cup, qty: 6}
+  - {ingredient: tomato, unit: cup, qty: 1, prep: 'seeded, and chopped tomato'}
+  - {ingredient: chipotle-in-adobo, unit: tbsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 2}
+- name: Salsa
+  items:
+  - {ingredient: tomato, qty: 1, prep: finely diced, note: large}
+  - {ingredient: tomatillo, qty: 3, prep: husks removed and finely diced, note: medium}
+  - {ingredient: red-onion, qty: 1, prep: very finely diced, note: small}
+  - {ingredient: green-chili, qty: 1, prep: very finely diced}
+  - {ingredient: cilantro, unit: cup, qty: 0.25}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: sour-cream, prep: for garnish}
+steps:
+- Pick over the beans to remove any debris. Soak if desired and drain.
+- In a deep, heavy-based pot, heat oil over medium heat.
+- Add onions and cook until translucent, about 5 minutes.
+- Add beans, garlic and water.
+- Bring to a boil, skimming any foam that rises to the surface.
+- Reduce to a simmer and when the beans are soft, after about 1 hour, add tomato, epazote, chipotle chile, cumin, coriander and salt.
+- Cook until the beans start to break down and broth begins to thicken.
+- Taste for seasoning; add salt and pepper if needed.
+- In a small bowl, combine tomato, tomatillo, onion, jalapeño and cilantro.
+- Taste for seasoning and add salt as needed.
+- Ladle soup into individual serving bowls.
+- Garnish each with a spoonful of crème fraîche and salsa.
+tips:
+- If you're serving this soup immediately, you can thicken it by pureeing a cup or two of the beans in a blender or food processor and then recombining them with the rest of the soup. If refrigerated overnight, the soup will thicken on its own.
+- The salsa will taste best if assembled no more than an hour before serving.
+- Epazote is an herb that looks like a weed and is regularly used in Mexican cooking. If you can't find it, use an equal amount of cilantro.
+- Tomatillos look like rock hard tomatoes with papery skin. Look for them canned in the Hispanic section of your market, if you can't find fresh. They will be perfectly acceptable.
+- Crème fraîche is similar to sour cream, but richer. Look for it in the fancy cheese section.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABlack_Bean_Soup_with_Tomato-Tomatillo_Salsa&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Black Bean Soup with Tomato-Tomatillo Salsa@4518352
+    url: https://en.wikibooks.org/w/index.php?oldid=4518352
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

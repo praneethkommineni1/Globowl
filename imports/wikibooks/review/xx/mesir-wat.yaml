@@ -1,0 +1,77 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-mesir-wat
+title: Mesir Wat
+alternate_names:
+- Spicy Ethiopian Lentil Stew
+summary: Mesir wat is a delicious and spicy Ethiopian lentil stew that is packed with flavor. It is a popular vegetarian dish that is enjoyed as a main course or as a side dish in Ethiopian cuisine. Mesir wat is made with red lentils, aromatic spices, and a rich tomato-based sauce.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large pot
+- Wooden spoon or spatula
+- Cutting board
+- Chef's knife
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: brown-lentils, unit: cup, qty: 2, prep: rinsed}
+  - {ingredient: water, unit: cup, qty: 4}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: minced}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: berbere, unit: tbsp, qty: 2}
+  - {ingredient: tomato, unit: tbsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5, note: to taste}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: parsley, prep: 'chopped, for garnish'}
+steps:
+- Place the rinsed red lentils in a large pot and add the water. Bring to a boil over medium-high heat.
+- Reduce the heat to low and simmer the lentils for about 15–20 minutes or until they are soft and cooked through. Stir occasionally to prevent sticking. Once cooked, remove from heat and set aside.
+- In a separate large pot, heat the olive oil over medium heat.
+- Add the chopped onion to the pot and sauté until it becomes translucent and slightly browned.
+- Add the minced garlic to the pot and sauté for an additional minute until fragrant.
+- Stir in the berbere spice blend, tomato paste, ground cumin, ground turmeric, salt, and black pepper. Mix well to combine the spices with the onions and garlic.
+- Add the cooked lentils to the pot, including any remaining cooking liquid. Stir well to incorporate the lentils with the spices.
+- Bring the mixture to a simmer and cook for an additional 20 minutes, stirring occasionally, to allow the flavors to meld together.
+- Taste the stew and adjust the seasoning with salt and pepper if needed.
+- Remove the pot from the heat and let rest for a few minutes before serving.
+- Garnish with fresh chopped parsley or cilantro. Enjoy hot with injera or bread.
+tips:
+- If you prefer a smoother consistency, you can blend a portion of the cooked lentils before adding them to the pot.
+- Adjust the spiciness of the stew by adding more or less berbere spice blend according to your taste preferences.
+- Lentils can vary in cooking time, so make sure to check for doneness and adjust the cooking time accordingly.
+- For extra richness, you can add a tablespoon of butter or olive oil to the stew towards the end of cooking.
+- Experiment with different lentil varieties such as brown lentils or green lentils for variations in texture and flavor.
+- Add vegetables like carrots, potatoes, or spinach to the stew for additional color and nutrients.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMesir_Wat_%28Spicy_Ethiopian_Lentil_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mesir Wat (Spicy Ethiopian Lentil Stew)@4518654
+    url: https://en.wikibooks.org/w/index.php?oldid=4518654
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

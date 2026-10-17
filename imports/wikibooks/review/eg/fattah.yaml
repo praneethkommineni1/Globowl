@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 4–6 pieces of pita bread or Egyptian flatbread
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: eg-fattah
+title: Fattah
+alternate_names:
+- Egyptian Layered Bread Dish
+summary: Fattah is a popular Egyptian dish that features layers of bread, rice, and meat, topped with a flavorful tomato sauce and garnished with aromatic herbs. It is a hearty and comforting dish that is often enjoyed during festive occasions and celebrations.
+origin:
+  country: EG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Oven
+- Baking dish
+- Mixing bowl
+- Spoon or spatula for spreading
+- Knife for chopping and mincing
+- Cutting board
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: lamb, unit: g, qty: 500, prep: cubed}
+  - {ingredient: tomato, unit: cup, qty: 1}
+  - {ingredient: yogurt, unit: cup, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: minced}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: parsley}
+steps:
+- Preheat the oven to 180°C (350°F).
+- Tear the pita bread or flatbread into bite-sized pieces and spread them in an even layer at the bottom of a baking dish.
+- In a mixing bowl, combine the cooked rice and cubed cooked lamb or beef. Season with ground cumin, ground paprika, salt, and black pepper. Mix well to ensure the flavors are evenly distributed.
+- Spread the rice and meat mixture over the layer of torn bread in the baking dish, creating an even layer.
+- In a separate bowl, mix together the tomato sauce, yogurt, minced garlic, and a pinch of salt.
+- Pour the tomato-yogurt sauce over the rice and meat layer, covering it evenly.
+- Place the baking dish in the preheated oven and bake for approximately 15–20 minutes, or until the dish is heated through and the flavors meld together.
+- Remove the fattah from the oven and let it cool slightly.
+- Garnish the fattah with chopped fresh parsley and mint leaves.
+- Serve the fattah warm as a main dish or as part of a larger meal.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFattah_%28Egyptian_Layered_Bread_Dish%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fattah (Egyptian Layered Bread Dish)@4531799
+    url: https://en.wikibooks.org/w/index.php?oldid=4531799
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

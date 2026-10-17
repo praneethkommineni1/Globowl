@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (IN, PK): confirm the country of origin
+#  - unmapped ingredient: Warm water as required
+id: in-chapati
+title: Chapati
+summary: The chapati, also known as a roti, is the staple flat bread of Northern India and Pakistan. It can be made from many types of grain, but is most commonly made with finely-ground whole wheat flour. Sometimes it is cooked in a little oil.
+origin:
+  country: IN
+  also_claimed_by:
+  - PK
+course: bread
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 45
+difficulty: 3
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: wholemeal-flour, unit: cup, qty: 3}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: ghee}
+steps:
+- Knead together the flour and water, starting with only a slight dribble of water and adding more as you go until the dough becomes smooth but not too sticky.
+- Cover dough, and let rest for at least 5 minutes.
+- Divide dough into balls and roll out into disks, slightly thicker than denim material; sprinkle with flour as you roll.
+- Place a non-oiled pan over moderately high heat and test its surface temperature by holding your hand over it.
+- When very hot, put a chapati on the pan and press it flat with a spatula or dry cloth to make it rise up.
+- Flip and repeat so it becomes lightly browned on both sides.
+- If desired, brush with ghee.
+tips:
+- Regional variations abound in the detail of preparing and cooking roti. In most Indian cooking, for example, the roti is finished by toasting it in the open flame of the cooker. The aim of this process is to encourage the roti to puff up. The hot air which builds inside because the water inside the roti begins to turn into steam and cooks the roti inside out. This may also be achieved under a grill, or by using a microwave (try 30 seconds on high power). Universally, however, the aim in rolling is to get the roti to a perfectly round shape (for aesthetics) and to create uniform thickness, which is vital for successful cooking.
+- There are Caribbean-specific variations of roti, one of which uses boiled and ground yellow split peas in its preparation.
+- Chapatis are usually eaten with cooked dal (lentil soup) or vegetable dishes like Indian curry. Pieces of the chapati are used to wrap and lift bites of the other dishes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChapati&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chapati@4630849
+    url: https://en.wikibooks.org/w/index.php?oldid=4630849
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

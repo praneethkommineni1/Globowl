@@ -1,0 +1,69 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 recipe coarse grain hominy grits, timed to finish when shrimp are ready to serve
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: us-low-country-shrimp-and-grits
+title: Low Country Shrimp and Grits
+summary: Low Country Shrimp and Grits.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: bacon, qty: [3, 4], prep: cut into 1-inch pieces}
+  - {ingredient: onion, qty: 0.5, prep: minced}
+  - {ingredient: garlic, unit: clove, qty: [2, 3], prep: minced}
+  - {ingredient: shrimp, unit: g, qty: 454, prep: peeled, note: large}
+  - {ingredient: salt}
+  - {ingredient: heavy-cream, qty: 1, prep: divided}
+  - {ingredient: shrimp, unit: cup, qty: [2, 2.5]}
+  - {ingredient: butter}
+  - {ingredient: black-pepper}
+  - {ingredient: cayenne}
+  - {ingredient: paprika}
+  - {ingredient: chili-flakes}
+  - {ingredient: lime}
+  - {ingredient: scallion, qty: [3, 4], prep: sliced}
+steps:
+- Fry bacon in a pan until not too crisp; remove and reserve.
+- Sauté onion and garlic in bacon fat until just softened (about 2–3 minutes).
+- Lightly season shrimp with salt and add to the pan; sauté until about half-cooked and just turning pink. Remove and reserve with the bacon.
+- Deglaze pan with sherry.
+- Add 1 cup (250 ml) cream, bring to boil, and reduce.
+- Add 1 cup shrimp stock, bring to a high simmer, and reduce. The liquid should thicken; if necessary, add floured butter at this point (beurre manié).
+- Season sauce with salt, pepper, chili flakes, cayenne, and paprika
+- Add bacon and shrimp to the sauce, and cook gently until shrimp are just done.
+- Add lime juice.
+- Serve over grits, and garnish with scallions.
+tips:
+- Make the shrimp stock with shrimp peels and parts, dried shrimp flakes, mirepoix, and peppercorns.
+- The scallions can be replaced with minced chives.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALow_Country_Shrimp_and_Grits&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Low Country Shrimp and Grits@4511869
+    url: https://en.wikibooks.org/w/index.php?oldid=4511869
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

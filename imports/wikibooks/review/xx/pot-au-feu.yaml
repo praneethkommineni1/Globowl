@@ -1,0 +1,75 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 kg low-cost, tougher beef meat
+#  - unmapped ingredient: Oxtail or marrowbone
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-pot-au-feu
+title: Pot-au-feu
+alternate_names:
+- Boiled Meat and Vegetables
+summary: Pot-au-feu is a typical and rustic French dish made of low-cost beef pieces and vegetables. There are many variants in France and other countries.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- name: Vegetables
+  items:
+  - {ingredient: onion, qty: 2}
+  - {ingredient: carrot, qty: 4}
+  - {ingredient: turnip, qty: 2}
+  - {ingredient: celery, qty: 0.5}
+  - {ingredient: leek, qty: 2}
+  - {ingredient: white-cabbage, qty: 0.25}
+  - {ingredient: bouquet-garni, prep: 'bay leaf, and parsley'}
+- name: Spices
+  items:
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: whole-cloves, qty: [4, 6]}
+  - {ingredient: nutmeg}
+steps:
+- Drive the cloves into the onions, so it will be easier to take them off after cooking.
+- Peel the onions. Cut them in half and burn the cut surface in a frying pan protected with aluminum foil. The cut surface must become completely black. It will bring a slightly "smoked" taste and the typical golden brown color to the broth.
+- While burning the onions, peel and cut the turnips, carrots, celery into large pieces.
+- For the leeks, cut the root, wash well the green part and cut them in 2–3 pieces. Even the green, more fibrous part is used.
+- For the white cabbage, if you took a quarter of a white cabbage, let it in one piece.
+- 'In a pressure cooker, put all the vegetables, ground pepper and the bouquet garni. Try to arrange them so that they take a minimum space. Add enough water to cover the vegetables (warning: a pressure cooker should not be filled more than ⅔ to ¾ of its capacity; check on the user''s guide of your pressure cooker). If you cannot cover the vegetables with water, just add as much water as you can.'
+- Add salt and cook the vegetables under pressure for 20 minutes.
+- Put the pressure cooker under cold water so you can open it, and reserve the vegetables. Throw away the onions and the bouquet garni.
+- Now you should have a golden brown broth. Taste it and add more salt or pepper if necessary. Note that it does not have its final taste since you have not cooked the meat inside it yet.
+- Put the meat inside the broth. Cook for 60–75 minutes under pressure.
+- If you use marrowbones, cook them apart or cook them under pressure for 5 minutes with the meat.
+- Put the pressure cooker under cold water so you can open it. Take the meat off and put the vegetables back into the broth. Allow the broth to boil to warm them up while you are slicing the meat.
+tips:
+- Generally speaking, use approximately 2–2.5 kg vegetables per 1 kg meat.
+- For celery (root or branches), turnips and cabbage, choose in-season vegetables (which are also usually the cheapest). You can also use old-style vegetables (see section Variants below).
+- Pot-au-feu is probably the number one dish to be considered (in France) as tasting better the day after. As such, you can cook it the day before you invite your guests and warm it up when you want to serve it.
+- Also can you deep-freeze the broth as a base for a soup or use the meat (and possibly vegetables) for stuffing. Both are used for the making of Fleischschnacka (a specialty from Alsace).
+- Many people add potatoes to their pot-au-feu but use only potatoes which resist to cooking without falling apart (Amandine, Charlotte or Ratte varieties, for example). Use one small potato per person.
+- 'The pot-au-feu is also a great opportunity to cook old vegetables which have recently regained interest: rutabaga, parsnip, old species of carrots, etc.'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APot-au-feu_%28Boiled_Meat_and_Vegetables%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pot-au-feu (Boiled Meat and Vegetables)@4630342
+    url: https://en.wikibooks.org/w/index.php?oldid=4630342
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

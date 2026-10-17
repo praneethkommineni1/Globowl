@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/4 cup salsa
+#  - unmapped ingredient: 1 1/2 tbsp taco seasoning mix
+#  - course unknown from categories
+id: us-southwest-pasta
+title: Southwest Pasta
+summary: Pasta tossed with spices and vegetables from the Southwest United States.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 15
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: pasta, unit: g, qty: 340}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: chopped}
+  - {ingredient: red-bell-pepper, qty: 1, prep: chopped}
+  - {ingredient: corn-kernels, unit: can, qty: 1, prep: drained}
+  - {ingredient: black-beans-canned, unit: can, qty: 1, prep: drained}
+  - {ingredient: tomato, unit: can, qty: 1}
+  - {ingredient: olives, unit: cup, qty: 0.25, prep: drained}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- In a large pot bring 1 quart of lightly-salted water to a boil.
+- Add pasta and cook for 8–10 minutes until pasta is al dente; drain water.
+- While pasta is cooking, heat olive oil in a large frying pan over medium heat.
+- Cook onions and bell pepper in oil until lightly browned, about 10 minutes.
+- Stir in corn, beans, tomatoes, salsa, olives, taco seasoning, salt and pepper. Cook until thoroughly heated, about 5 minutes.
+- Toss heated vegetables into pasta, mix well and serve.
+- Serve warm or cold.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASouthwest_Pasta&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Southwest Pasta@4534228
+    url: https://en.wikibooks.org/w/index.php?oldid=4534228
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

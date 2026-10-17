@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup fresh or dried flying ants
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: zm-inswa
+title: Inswa
+alternate_names:
+- Zambian Fried Flying Ants
+summary: Inswa is a traditional Zambian delicacy made from fried flying ants. These nutritious and protein-rich insects are a seasonal delicacy and are enjoyed as a crunchy and flavorful snack.
+origin:
+  country: ZM
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Frying pan or skillet
+- Tongs or spatula
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: paprika, prep: for seasoning, optional: true}
+steps:
+- In a frying pan or skillet, heat the vegetable oil over medium heat.
+- Add the flying ants to the pan and fry them until they are crispy and lightly browned.
+- Use tongs or a spatula to stir and flip the flying ants to ensure they are evenly cooked.
+- Once the flying ants are crispy and golden, remove them from the pan and place them on a paper towel-lined plate to remove any excess oil.
+- Season the fried flying ants with salt to taste. For extra flavor, you can sprinkle some ground paprika over them.
+- Serve as a unique and crunchy snack, and enjoy them with your favorite beverage.
+tips:
+- Flying ants are seasonal, so this delicacy is typically enjoyed during specific times of the year.
+- Make sure to clean the flying ants thoroughly before frying them.
+- Inswa is a traditional and sustainable source of protein in Zambia.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AInswa_%28Zambian_Fried_Flying_Ants%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Inswa (Zambian Fried Flying Ants)@4503446
+    url: https://en.wikibooks.org/w/index.php?oldid=4503446
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

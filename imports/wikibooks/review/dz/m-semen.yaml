@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: dz-m-semen
+title: M'semen
+alternate_names:
+- Layered Algerian Flatbread
+summary: Algerians are very fond of m'semen, a flatbread made from basic ingredients like flour, semolina, butter, and water. The dough can be sticky to the touch while folding, so oiling the hands is necessary.
+origin:
+  country: DZ
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: semolina, unit: cup, qty: 1}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: yeast, unit: tsp, qty: 0.25}
+  - {ingredient: water, unit: cup, qty: 1.5}
+  - {ingredient: vegetable-oil}
+steps:
+- Combine both flours, sugar, salt, and yeast in a bowl.
+- Gradually mix in the warm water until you get a soft dough. If it feels too sticky, mix in a little more all-purpose flour. If too dry, mix in some more water.
+- On a lightly-floured surface, knead the dough for 10 minutes or until it is smooth.
+- Divide the dough into smaller pieces, and roll each out into very thin rounds.
+- Brush each dough round with oil.
+- Fold the rounds into square envelope shapes, making 4 folds into the center.
+- Cook each flatbread in a hot, lightly-greased skillet until browned.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AM%27semen_%28Layered_Algerian_Flatbread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:M'semen (Layered Algerian Flatbread)@4504954
+    url: https://en.wikibooks.org/w/index.php?oldid=4504954
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

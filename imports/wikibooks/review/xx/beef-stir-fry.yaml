@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1–2 Thai bird chilis, finely minced
+#  - no time in recipe summary
+id: xx-beef-stir-fry
+title: Beef Stir-Fry
+summary: Beef Stir-Fry is a flavorful dish that combines thin slices of beef with vegetables and spicy aromatics, perfect for serving over rice or noodles.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2 servings
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: beef, qty: 1, prep: sliced thinly across the grain on a bias}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: garlic, unit: tbsp, qty: 1}
+  - {ingredient: onion, qty: 0.5, prep: finely diced, note: large}
+  - {ingredient: vegetable-oil, prep: for frying}
+  - {ingredient: carrot, qty: 0.5, prep: peeled and julienned, note: large}
+  - {ingredient: scallion, unit: cup, qty: 0.25, prep: julienned}
+  - {ingredient: honey, unit: tbsp, qty: 2}
+  - {ingredient: red-wine-vinegar, unit: tbsp, qty: 1}
+  - {ingredient: sesame-seeds, unit: tbsp, qty: 1}
+steps:
+- Lightly oil the bottom of a wok or large skillet and preheat over medium-high heat. Add onion and garlic, and cook, stirring, until the garlic turns golden. Remove from the pan and keep warm.
+- Sprinkle the beef slices with salt and freshly ground black pepper. Add 4 slices to the hot wok and stir-fry until well browned and no longer pink. Remove and repeat with the remaining beef.
+- Add chilis, carrots, soy sauce, honey, vinegar, and scallions to the wok. Stir-fry until the vegetables are lightly browned around the edges.
+- Return the cooked onion, garlic, and beef to the wok. Toss together until heated through.
+- Sprinkle with toasted sesame seeds before serving.
+tips:
+- You may substitute Thai bird chilis with serrano peppers or crushed red pepper flakes for a milder heat.
+- Ribeye steak is flavorful and tender, but flank steak or sirloin can be used as leaner alternatives.
+- Adjust the balance of soy sauce and honey depending on your preference for salty vs. sweet.
+- Ensure beef is sliced thinly against the grain for tenderness.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeef_Stir-Fry&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Beef Stir-Fry@4523801
+    url: https://en.wikibooks.org/w/index.php?oldid=4523801
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,75 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 cup coarse cornmeal
+#  - unmapped ingredient: 500 g clams, cleaned
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-xarem
+title: Xarém
+alternate_names:
+- Porridge dish
+summary: Xarém (also spelled Xerém) is a thick soup or porridge from Algarve, Portugal that is eaten in Cape Verde and Brazil as well. It has a corn flour base combined with other traditional ingredients which vary by region.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: fish, unit: cup, qty: 4, prep: 'chicken stock, or water'}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: medium}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: bacon, unit: g, qty: 100, prep: diced}
+  - {ingredient: sausage, unit: g, qty: 100, prep: sliced}
+  - {ingredient: dry-white-wine, unit: cup, qty: 0.5}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: cilantro, unit: tbsp, qty: 2, prep: chopped}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Rinse the clams thoroughly and discard any damaged shells.
+- Heat the olive oil in a large pot over medium heat.
+- Cook the bacon until lightly browned.
+- Add the sausage and cook for 2–3 minutes.
+- Stir in the onion and cook until softened.
+- Add the garlic and cook for 1 minute.
+- Pour in the white wine and add the bay leaf.
+- Add the clams, cover the pot, and cook until the shells open.
+- Remove the clams and set aside.
+- Strain the cooking liquid and return it to the pot.
+- Add the stock or water and bring to a boil.
+- Gradually add the cornmeal while stirring continuously to prevent lumps.
+- Reduce the heat and cook for 20–25 minutes, stirring frequently.
+- Return the clams, bacon, and sausage to the pot.
+- Stir in the coriander.
+- Season with salt and black pepper.
+- Serve hot.
+tips:
+- Xarém com Conquilhas (with clams)
+- Xarém with shrimp
+- Xarém with mussels
+- Xarém with pork cracklings
+- Vegetarian xarém
+- Xarém with sardines
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AXar%C3%A9m_%28Porridge_dish%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Xarém (Porridge dish)@4638739
+    url: https://en.wikibooks.org/w/index.php?oldid=4638739
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

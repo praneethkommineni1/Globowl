@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: it-smoked-salmon-ravioli-filling
+title: Smoked Salmon Ravioli Filling
+summary: Smoked Salmon Ravioli Filling.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: salmon, unit: g, qty: 227, prep: chopped}
+  - {ingredient: lemon, unit: tbsp, qty: 1}
+  - {ingredient: chives, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: ricotta, unit: cup, qty: 1}
+  - {ingredient: parmesan, unit: cup, qty: 0.5}
+steps:
+- Mix the salmon, chives, lemon zest and seasonings in a bowl until salmon is well coated.
+- Mix the ricotta or cottage cheese, egg, and Parmesan cheese.
+- Add to the salmon and mix until well blended but not homogeneous.
+- Cover and refrigerate until the dough is ready.
+tips:
+- Ravioli with this filling are excellent served with a lemon cream sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASmoked_Salmon_Ravioli_Filling&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Smoked Salmon Ravioli Filling@4516650
+    url: https://en.wikibooks.org/w/index.php?oldid=4516650
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,42 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 cup dehydrated lemon peel
+#  - no time in recipe summary
+id: us-chipotle-bbq-rub
+title: Chipotle BBQ Rub
+summary: This rub is great on pork, steak, fish, and chicken.
+origin:
+  country: US
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: paprika, unit: cup, qty: 1}
+  - {ingredient: salt, unit: cup, qty: 0.25}
+  - {ingredient: chipotle-in-adobo, unit: cup, qty: 0.5}
+  - {ingredient: cayenne, unit: tbsp, qty: 1}
+  - {ingredient: brown-sugar, unit: cup, qty: 0.5}
+  - {ingredient: rosemary, unit: cup, qty: 0.25}
+  - {ingredient: thyme, unit: cup, qty: 0.25}
+steps:
+- Combine all ingredients and keep in airtight container in cool, dark place.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChipotle_BBQ_Rub&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chipotle BBQ Rub@4523946
+    url: https://en.wikibooks.org/w/index.php?oldid=4523946
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

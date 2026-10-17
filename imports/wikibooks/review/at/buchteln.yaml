@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no ingredient lines parsed
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: at-buchteln
+title: Buchteln
+alternate_names:
+- Austrian Sweet Buns
+summary: 'Cuisine of Austria Originally, Buchteln (singular: Buchtel) were a Bohemian sweet dish. However, in the course of time they have become part of the traditional Austrian Cuisine. This dough is yeast-based.'
+origin:
+  country: AT
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Scald milk by bringing it to at least , then let it cool.
+- Put the yeast in a small bowl and add some lukewarm milk to it. Add 1 teaspoon of sugar. Let it rest for a moment, as yeast in general needs some time to ferment.
+- When ready, add the yeast mixture to the bowl with the flour. Put the remaining sugar into the bowl. Make sure the mixture has reached at least room temperature, then mix in the eggs and a pinch of salt. Finally, add ground lemon peel.
+- Knead it until you get nice, smooth dough.
+- Use a cloth to cover the bowl. Let it rest until the dough has risen significantly.
+- In the meantime, thoroughly oil or butter a baking pan, preferably of about 5 to 10 cm height.
+- When ready, take the dough and put it on a clean, floured surface. Roll the dough to 1 cm thickness. Divide it so that you get equal squares of about 4 x 4 square centimeters each.
+- Top each square with a dollop of jam. Pinch together the 4 corners of the square to enclose the filling, then roll the bun in your hands to round it out.
+- Place the buns side-by-side in the greased pan. Cover them with a cloth once more, and let them rest for 20 minutes.
+- Bake the buns in a preheated oven until they are golden brown.
+tips:
+- Try dusting the buns with some powdered sugar.
+- For extra flavor, you may also serve them with some vanilla sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABuchteln_%28Austrian_Sweet_Buns%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Buchteln (Austrian Sweet Buns)@4658359
+    url: https://en.wikibooks.org/w/index.php?oldid=4658359
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

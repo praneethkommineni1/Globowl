@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - course unknown from categories
+id: it-spaghetti-alla-puttanesca
+title: Spaghetti alla Puttanesca
+summary: 'Spaghetti alla puttanesca (Italian: "whore''s spaghetti") is a spicy, tangy and somewhat salty Italian pasta dish.'
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8
+time:
+  total_min: 20
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: spaghetti, unit: g, qty: 600}
+  - {ingredient: olive-oil, unit: tbsp, qty: 4}
+  - {ingredient: anchovies, unit: g, qty: 115, prep: crushed into a paste}
+  - {ingredient: garlic, unit: clove, qty: 5, prep: finely chopped}
+  - {ingredient: olives, unit: g, qty: 200, prep: pitted and chopped}
+  - {ingredient: capers, unit: tbsp, qty: 2, prep: washed well and coarsely chopped}
+  - {ingredient: red-chili, qty: [1, 3], prep: chopped, optional: true, note: small}
+  - {ingredient: tomato, unit: g, qty: 900, prep: peeled and puréed}
+  - {ingredient: parsley, unit: tbsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+steps:
+- Put the olive oil, garlic, and anchovy paste in a skillet over medium heat.
+- Before the garlic browns, add the olives, capers, tomato sauce, and chile peppers.
+- Add 2–3 pinches of salt, mixing over high heat. Then lower the heat and allow to simmer for 15 to 20 minutes.
+- Meanwhile, cook the spaghetti in salted water (at least 4 quarts of water per pound of spaghetti being cooked). Strain it when it's al dente.
+- Place pasta in a large serving bowl, and coat it with sauce. Then, sprinkle it with chopped parsley.
+- Mix and serve hot.
+tips:
+- Italians customarily do not top this dish with grated cheese.
+- This recipe calls for chile peppers. Choosing the right quantity and type of pepper depends on your personal taste and a bit of trial and error. For this dish, most chefs use peppers in the moderate range of the Scoville scale. Use one or one and a half small peppers the first time you make this recipe. Use one and a half or two small peppers if your first attempt at making sugo leaves you craving more pepper heat. Keep increasing the number of peppers until you get it right. Most chefs stop at three.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASpaghetti_alla_Puttanesca&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Spaghetti alla Puttanesca@4622379
+    url: https://en.wikibooks.org/w/index.php?oldid=4622379
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

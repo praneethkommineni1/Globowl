@@ -1,0 +1,47 @@
+id: au-damper
+title: Damper
+alternate_names:
+- Australian Campfire Bread
+summary: Damper is Australian bushman's bread, made while camping or "waltzing matilda" (carrying a swag around looking for work). It is meant to be made outside by a campfire.
+origin:
+  country: AU
+course: bread
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–5
+time:
+  total_min: 50
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, qty: 1, note: large}
+  - {ingredient: salt, qty: 1, note: generous}
+  - {ingredient: water}
+steps:
+- Add salt to flour.
+- Add water, then mix and form into a round loaf.
+- Dig a 1 foot-deep hole near a fire, and fill it with 2 shovels of hot coals and ash.
+- Add damper mixture to a greased camp oven (traditional cast iron round pot with lid).
+- Cook in the hole for a maximum of 40 minutes. If undercooked it will be flat and rubbery.
+- Your first try may be inedible. Keep trying, you'll soon be an expert.
+tips:
+- This cookbook also has a Drover's damper recipe.
+- You can do this in a barbecue grill with the mixture in greased metal foil as well. During cooking, damper increases in volume by ⅓ to ½, so allow room for expansion.
+- If you aren't outdoors, just add mixture to greased oven tray and bake in a moderate oven for 30–40 minutes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADamper_%28Australian_Campfire_Bread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Damper (Australian Campfire Bread)@4601827
+    url: https://en.wikibooks.org/w/index.php?oldid=4601827
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

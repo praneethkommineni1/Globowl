@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Akamu paste, broken into lumps
+#  - course unknown from categories
+id: ng-akamu
+title: Akamu
+alternate_names:
+- Nigerian Pudding
+summary: Akamu, also known as pap or ogi, is a variety of Nigerian pudding usually make from soaked corn. It is often eaten for breakfast.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–3
+time:
+  total_min: 10
+difficulty: 2
+equipment:
+- Big bowl
+- Stovetop
+- Pot
+- Water
+- Spoon
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water}
+  - {ingredient: evaporated-milk}
+  - {ingredient: sugar}
+steps:
+- Fill a large basin halfway with the akamu lumps. Because akamu rises during preparation, use a bowl large enough to hold the meal in its elevated position. If in doubt, use a large bowl and allow plenty of time.
+- Crush the ogi lumps with a spoon into very little pieces. Mix in small amounts of cold water until the mixture is smooth and has the consistency of evaporated milk.
+- Bring a large pot of water to a boil.
+- Stir the mixture thoroughly just before the water boils, as some akamu may have accumulated at the bottom of the basin. Once the water has reached a boil, carefully but steadily stir it into the akamu mixture. Stop stirring as soon as the mixture starts to set, and reduce the flow of water you're pouring to the bare minimum until the akamu has entirely set.
+- Thoroughly whisk the mixture. Add additional water as desired if the mixture is too thick.
+- Stir in evaporated milk and a pinch of sugar to taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAkamu_%28Nigerian_Pudding%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Akamu (Nigerian Pudding)@4525801
+    url: https://en.wikibooks.org/w/index.php?oldid=4525801
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

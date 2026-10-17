@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 16 slices of bologna
+#  - unmapped ingredient: 1 Kaiser bun, sliced in half
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-baloney-sandwich
+title: Baloney Sandwich
+summary: This is a very basic recipe for a bologna (baloney) sandwich. See variations for different ways to prepare it.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: dijon-mustard, unit: g, qty: 28}
+steps:
+- On one slice of the bun, pile the bologna slices in the shape of a Venn diagram, alternating between those on the left and those on the right, so that your Venn diagram is made of bologna that hangs off the edges of the bottom of the Kaiser bun.
+- Smear brown mustard on the soft part of the other half of the bun. Top sandwich with the bun.
+tips:
+- Feel free to use any bread or sliced roll for the sandwich.
+- You can reduce or increase the amount of bologna, as desired.
+- Other sandwich fillings can be used, such as sliced tomato, lettuce, mayonnaise, and sliced cheese.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaloney_Sandwich&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Baloney Sandwich@4613402
+    url: https://en.wikibooks.org/w/index.php?oldid=4613402
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

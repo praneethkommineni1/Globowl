@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Watermelon
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-watermelon-smoothie
+title: Watermelon Smoothie
+summary: Watermelon smoothie is a hydrating and healthful beverage.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+equipment:
+- Blender
+- Knife
+- Sieve
+ingredient_groups:
+- items:
+  - {ingredient: milk}
+steps:
+- Cut the watermelon into small pieces after removing the seeds.
+- Combine all of the ingredients in a blender until smooth. Drain through a sieve.
+- Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AWatermelon_Smoothie&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Watermelon Smoothie@4480496
+    url: https://en.wikibooks.org/w/index.php?oldid=4480496
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

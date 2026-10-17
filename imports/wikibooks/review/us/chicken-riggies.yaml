@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 jar sweet peppers, sliced and seeded
+#  - unmapped ingredient: 3 sliced hot cherry peppers
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-chicken-riggies
+title: Chicken Riggies
+summary: Chicken Riggies (recipe by P.A. Johnson) is a Utica, NY classic. It is well known throughout the greater Mohawk Valley and once a year there is a festival in honor of this dish called Riggiefest, held to benefit the YWCA of the Mohawk Valley.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: margarine, qty: 1, prep: melted}
+  - {ingredient: onion, qty: 1, prep: minced}
+  - {ingredient: garlic, unit: clove, qty: [2, 5], prep: minced}
+  - {ingredient: parmesan, unit: cup, qty: 1}
+  - {ingredient: chicken, unit: g, qty: 907, prep: cubed}
+  - {ingredient: chicken-stock, unit: can, qty: 1}
+  - {ingredient: canned-tomatoes, unit: can, qty: 1}
+  - {ingredient: heavy-cream, qty: 0.5}
+  - {ingredient: olives, qty: 1, note: small}
+  - {ingredient: pasta, unit: g, qty: [454, 680], prep: cooked}
+steps:
+- Sauté onion, peppers, and garlic in the margarine slowly over low/medium heat until the onions are clear.
+- Add the Parmesan, chicken breast, chicken stock, tomato sauce, cream, and olives. Simmer for about an hour.
+- Serve over the cooked pasta.
+tips:
+- It is important to use jarred peppers—the flavor of fresh peppers completely changes the recipe.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Riggies&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chicken Riggies@4514948
+    url: https://en.wikibooks.org/w/index.php?oldid=4514948
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

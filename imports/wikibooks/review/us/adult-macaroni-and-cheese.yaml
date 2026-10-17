@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 cup grated Fontina
+#  - unmapped ingredient: 1/2 cup grated Gruyere
+#  - unmapped ingredient: 1/2 cup mascarpone cheese
+#  - unmapped ingredient: 4 thin slices Swiss cheese, julienned
+id: us-adult-macaroni-and-cheese
+title: Adult Macaroni and Cheese
+summary: This dish was developed as a macaroni and cheese dish for adults. Instead of cheddar, this recipe uses Fontina, mascarpone, Gruyere, cream cheese, and Swiss.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 30
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: macaroni, unit: g, qty: 227}
+  - {ingredient: heavy-cream, unit: ml, qty: 177}
+  - {ingredient: salt, unit: tsp, qty: 0.5, prep: plus more for the water}
+  - {ingredient: cream-cheese, unit: cup, qty: 0.5}
+  - {ingredient: butter, qty: 1.25, prep: divided}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 2}
+  - {ingredient: hot-sauce, unit: tsp, qty: 1}
+steps:
+- In a gallon (~3.8 L) of salted boiling water, cook macaroni to al dente. Strain into a colander and rinse with cold water.
+- While pasta is cooking, in a heavy saucepan, melt 2 tbsp butter over medium heat. Once bubbling ceases, whisk in flour and cook, whisking continuously, until blonde.
+- Add remaining ingredients except butter. Once cheese is melted and sauce is smooth, add 1 tbsp butter, whisking continuously until melted. Repeat until all butter has been used.
+- Gently fold in macaroni and serve warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAdult_Macaroni_and_Cheese&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Adult Macaroni and Cheese@4523666
+    url: https://en.wikibooks.org/w/index.php?oldid=4523666
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

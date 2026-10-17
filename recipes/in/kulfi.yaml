@@ -1,0 +1,48 @@
+id: in-kulfi
+title: Kulfi
+alternate_names:
+- South Asian Frozen Custard
+summary: Kulfi or qulfi is a popular Indian frozen dessert similar to ice cream but denser and creamier.
+origin:
+  country: IN
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 420
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: cup, qty: 4}
+  - {ingredient: sugar, unit: tsp, qty: 8}
+  - {ingredient: ground-cardamom, unit: tsp, qty: 0.5}
+  - {ingredient: pistachios, unit: tbsp, qty: 1, prep: thinly sliced}
+  - {ingredient: almonds, unit: tbsp, qty: 1, prep: thinly sliced, optional: true}
+steps:
+- Put the milk into a wide, heavy pan, and bring to boil over high heat, stirring constantly.
+- Lower the heat and cook the milk, stirring constantly until it has thickened and reduced to ¾ cup—this will take about 40–45 minutes. Stir the sides of the pan constantly to avoid scorching.
+- Stir in the sugar, nuts, and cardamom powder. Set aside to cool.
+- Pour the mixture evenly into kulfi moulds or small ramekins. Cover with plastic wrap or foil, and freeze for about 6 hours until set.
+- To serve, run a sharp knife dipped in hot water along the sides of the moulds, and unmold them onto a serving plate.
+tips:
+- Kulfi can be prepared in many different flavours. This can be done by substituting the ingredients (with the exception of milk and sugar) with rose flavouring or fruits (mango, strawberry, banana, or other tropical fruits). The amount of sugar can also be altered to suit your taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKulfi_%28South_Asian_Frozen_Custard%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kulfi (South Asian Frozen Custard)@4639854
+    url: https://en.wikibooks.org/w/index.php?oldid=4639854
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

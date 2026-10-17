@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - duplicate of hand-written recipe dk-frikadeller
+id: dk-frikadeller
+title: Frikadeller
+alternate_names:
+- Danish Meatballs
+summary: Frikadeller are as Danish as the Dannebrog. This is standard Danish fare, made of ground pork and veal and traditionally served with boiled potatoes, gravy and rødkål (braised red cabbage).
+origin:
+  country: DK
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: veal, unit: g, qty: 250}
+  - {ingredient: pork, unit: g, qty: 250}
+  - {ingredient: egg, qty: 1, note: large}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: breadcrumbs, qty: 20}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: garlic, optional: true}
+  - {ingredient: parsley, note: to taste}
+  - {ingredient: butter}
+steps:
+- Mix all ingredients except butter together.
+- Shape mixture into small patties.
+- Fry in hot skillet with lots of butter.
+tips:
+- These can be frozen and reheated.
+- You can substitute bread crumbs with wheat germ and/or oat bran.
+- Any ingredient will work. Many people add a quantity of milk also, and the mixture is then thickened again with more flour, bread crumbs and/or oat bran.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrikadeller_%28Danish_Meatballs%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Frikadeller (Danish Meatballs)@4513507
+    url: https://en.wikibooks.org/w/index.php?oldid=4513507
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

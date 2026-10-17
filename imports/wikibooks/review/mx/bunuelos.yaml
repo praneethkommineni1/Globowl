@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (MX, US): confirm the country of origin
+#  - unmapped ingredient: 1 cup vegetable oil for frying
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: mx-bunuelos
+title: Buñuelos
+alternate_names:
+- Sweet Fried Pastry
+summary: Buñuelos are a type of Latin-American fried pastry.
+origin:
+  country: MX
+  also_claimed_by:
+  - US
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- dough-making
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 5}
+  - {ingredient: sugar, unit: cup, qty: 0.25}
+  - {ingredient: vegetable-oil, unit: tsp, qty: 1}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: baking-powder, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+steps:
+- In a large bowl combine eggs with ¼ cup sugar, and beat until thick and lemon-colored. Add the oil.
+- Combine 1 ½ cups of the flour, the baking powder, and the salt. Gradually add this to the egg mixture and beat well.
+- Turn dough out onto a floured board (use remaining ½ cup flour) and knead thoroughly until dough is smooth.
+- Shape dough into 16 balls. Roll each one into a circle about 5 inches (13 cm) in diameter. Let stand uncovered on waxed paper for about 10 minutes.
+- Heat oil in a deep frying pan to 350°F (175°C). Fry dough circles until golden brown, turning once. Drain on paper towels.
+- Combine the cinnamon and 1 cup sugar. Sprinkle fried dough with sugar/cinnamon mixture. Store in an airtight container.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABu%C3%B1uelos_%28Sweet_Fried_Pastry%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Buñuelos (Sweet Fried Pastry)@4587389
+    url: https://en.wikibooks.org/w/index.php?oldid=4587389
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

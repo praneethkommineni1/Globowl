@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 kilogram fresh palm fruits
+#  - unmapped ingredient: 1 teaspoons ground ehuru
+#  - unmapped ingredient: 150 grams uziza leaf or bitter leaf, shredded
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-nigerian-ofe-akwu
+title: Nigerian Ofe Akwu
+alternate_names:
+- Palm Fruit Soup
+summary: __notoc__ Ofe Akwu is the Igbo name for palm fruit soup, a deeply flavourful soup made from fresh palm fruit extract. While closely related to Banga soup, the Igbo version has a distinct spice profile, lighter seasoning, and is traditionally served with pounded yam.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Cooking pots
+- Stirring implement
+- Mortar and pestle
+- Sieve or other straining tool
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 700}
+  - {ingredient: onion, qty: 1, prep: diced}
+  - {ingredient: chicken-bouillon-cube, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: stockfish, unit: g, qty: 200, prep: soaked and cleaned}
+  - {ingredient: iru, unit: tbsp, qty: 1}
+  - {ingredient: red-chili, qty: 3, prep: puréed}
+  - {ingredient: stockfish, unit: g, qty: 150, prep: deboned}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 3}
+steps:
+- Boil the palm fruits in water for 20–25 minutes until soft, then drain. Pound the cooked fruits in a mortar to loosen the flesh from the seeds. Add warm water and squeeze the mixture through a sieve. Discard the fibre and seeds. If using canned concentrate, dilute as directed.
+- Season the meat with onion, 1 seasoning cube, and salt. Add stockfish midway through cooking. Cook on medium heat until tender. Reserve the meat stock.
+- Pour palm fruit extract into a pot. Cook on medium heat, stirring occasionally, until it thickens and oil rises to the surface about 15–20 minutes
+- Add ogiri okpei, ehuru, and puréed chiles. Stir well. Add reserved cooked meat and stock, smoked fish, ground crayfish, and the remaining seasoning cube. Stir and simmer on medium heat.
+- Taste and adjust with salt. The soup should be thick, rich, and deeply orange-red. If too thick, add a little warm water and stir.
+- Stir in uziza leaf. Cook for 3–5 minutes only. Serve hot with pounded yam (iyán), eba, or fufu.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Ofe_Akwu_%28Palm_Fruit_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Ofe Akwu (Palm Fruit Soup)@4634156
+    url: https://en.wikibooks.org/w/index.php?oldid=4634156
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Uni roe
+#  - unmapped ingredient: Negitoro
+#  - unmapped ingredient: Quail egg
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: jp-gunkanmaki
+title: Gunkanmaki
+alternate_names:
+- Topped Oval Sushi
+summary: Gunkanmaki ("battleship roll") is a variety of sushi where a oval-shaped piece of sushi rice is wrapped with nori and topped.
+origin:
+  country: JP
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- name: Base
+  items:
+  - {ingredient: cooked-short-grain-rice}
+  - {ingredient: nori}
+- name: Common toppings
+  items:
+  - {ingredient: salmon}
+  - {ingredient: cucumber}
+steps:
+- Cut nori into strips 1 inch wide and long enough to fully surround your sushi rice with at least 1 inch of overlap.
+- Form the sushi rice into oval pieces approximately 1 inch wide by 1¼ inch long by 1 inch high.
+- Starting with one end of a nori strip, fully wrap the nori around the sushi rice. Wet the inside of the overlapping nori, and press over the first end to seal the roll.
+- Stand the rolled rice up, and place the desired topping(s) on top of the roll as shown in the images.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGunkanmaki_%28Topped_Oval_Sushi%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gunkanmaki (Topped Oval Sushi)@4518734
+    url: https://en.wikibooks.org/w/index.php?oldid=4518734
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,75 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Tapioca starch
+#  - unmapped ingredient: 1 tbsp canned pineapple juice
+#  - unmapped ingredient: 1 pinch Vegeta seasoning
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-steamed-tuna-bao-buns
+title: Steamed Tuna Bao Buns
+summary: Steamed tuna bao buns are a type of steamed dumpling from American-Asian cuisine. They are made with a simple yeast leavened dough and steamed until soft and fluffy. They can be eaten plain or stuffed with a variety of fillings. This recipe uses a tuna and pineapple filling.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- steaming
+ingredient_groups:
+- name: Dough
+  items:
+  - {ingredient: all-purpose-flour}
+  - {ingredient: rice-flour}
+  - {ingredient: yeast, qty: 0.5}
+  - {ingredient: honey, unit: tbsp, qty: 1}
+  - {ingredient: milk, prep: warm}
+  - {ingredient: vegetable-oil}
+  - {ingredient: salt}
+  - {ingredient: sugar}
+  - {ingredient: water}
+- name: Filling
+  items:
+  - {ingredient: canned-tuna}
+  - {ingredient: pineapple, prep: cut into small pieces}
+  - {ingredient: barbecue-sauce}
+  - {ingredient: paprika}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 1}
+  - {ingredient: roasted-peanuts}
+steps:
+- Add active dry yeast and honey to around 8 oz warm water and milk. If using instant yeast there is no need to bloom the yeast.
+- Sift in a mix of all purpose flour, rice flour, tapioca starch. It should be mostly AP flour, but the exact mixture is not precise.
+- Add a little salt and sugar. Begin to combine the dough with a oiled spatula, continue adding flour until it starts to come together.
+- Begin kneading—it will be sticky—and continue adding flour. Oil on hands will help.
+- Add a little oil if it is needed (not more than 1 tbsp) and continue kneading until the dough is elastic.
+- Place the dough in a covered food-safe plastic container large enough to accommodate the expanding dough.
+- Allow dough to rise somewhere warm. Check on it in around 2 hours—once it doesn't bounce back when poked, it is ready for filling.
+- Combine tuna, pineapples, peanuts, and seasoning powder, and mix until the tuna has a paste-like consistency. Pineapple pieces should be small.
+- Add a little barbecue sauce; it should be moist but not too wet.
+- Optionally add 1 tbsp pineapple juice, which will make it sweet.
+- Add mustard according to taste.
+- Let rest, uncovered, for around 2 hours
+- Take a piece of dough slightly larger than a golf ball and flatten in your hand. Don't make this too thin.
+- Add filling and fold closed by pinching around the edges (google "folding bao" for help with this step). For plain bao they can be log-shaped.
+- Add to steamer with boiling water, and steam 10–12 minutes.
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASteamed_Tuna_Bao_Buns&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Steamed Tuna Bao Buns@4629061
+    url: https://en.wikibooks.org/w/index.php?oldid=4629061
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

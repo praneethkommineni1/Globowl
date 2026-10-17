@@ -1,0 +1,70 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 oz katsuobushi
+#  - unmapped ingredient: 12 thin slices of sucuk
+#  - unmapped ingredient: 1–2 tbsp red pepper paste
+#  - unmapped ingredient: 1 tbsp miso paste
+#  - unmapped ingredient: 1 package enoki mushrooms
+#  - unmapped ingredient: 1 can good quality sardines
+#  - course unknown from categories
+id: xx-spicy-miso-udon
+title: Spicy Miso Udon
+summary: This is a spicy miso udon soup made with dry udon noodles. This soup may be a little more challenging because the temperature must be controlled. The delicate flavors do not hold up against higher temperatures, so if this soup becomes too hot or reaches a boil it will be ruined.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 45
+difficulty: 4
+techniques:
+- boiling
+- simmering
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: cup, qty: [1, 2]}
+  - {ingredient: wheat-noodles, qty: 1}
+  - {ingredient: red-bell-pepper, qty: 1}
+  - {ingredient: onion}
+  - {ingredient: white-cabbage, unit: cup, qty: 1}
+  - {ingredient: paprika}
+  - {ingredient: bean-sprouts, unit: handful, qty: 1}
+  - {ingredient: honey, unit: tbsp, qty: 0.5}
+  - {ingredient: hot-sauce, note: to taste}
+  - {ingredient: egg, qty: [1, 2]}
+  - {ingredient: scallion}
+steps:
+- Bring the chicken broth to a boil. Add the katsuobushi flakes, remove from heat, and let rest for 1 minute.
+- Strain out and discard the katsuobushi flakes, and set the broth aside.
+- Cook the udon noodles in salted water until al dente. Drain them, rinse with cold water, and set aside.
+- In a medium-sized soup pot, stir fry sucuk, green pepper, and onion in olive oil.
+- Add cabbage, paprika powder, and red pepper paste. Stir to combine.
+- Add reserved broth, and bring to a simmer over low to medium heat; do not let this get too hot because the flavor of the katsuobushi is very delicate.
+- Add bean sprouts. Continue to simmer until vegetables reach desired texture.
+- Add cooked noodles, miso, honey, and tabasco. Do not let the soup reach a boil, as too much heat will destroy the soup's rich flavor.
+- Add enoki and sardines, and simmer just enough to warm through.
+- Crack an egg or two into the broth, and serve when the the yolk is just firm
+- Garnish with scallions.
+tips:
+- This recipe uses dry wheat noodles, and the cooking procedure may be different than with "springy" style noodles that include tapioca and other ingredients.
+- This recipe can be made with chicken, pork, etc; if some type of meat is used instead of canned sardines, then the cooking procedure must be adapted to cook the meat.
+- True dashi is made with kelp broth, not chicken broth.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASpicy_Miso_Udon&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Spicy Miso Udon@4610540
+    url: https://en.wikibooks.org/w/index.php?oldid=4610540
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

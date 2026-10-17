@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+id: th-tom-yum-gai
+title: Tom Yum Gai
+summary: Tom Yum Gai.
+origin:
+  country: TH
+course: soup
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: g, qty: 400, prep: diced}
+  - {ingredient: chicken-stock, unit: cup, qty: 3}
+  - {ingredient: mushroom, unit: g, qty: 100, prep: halved}
+  - {ingredient: tomato, qty: 6}
+  - {ingredient: lemongrass, qty: 1, prep: cut into short lengths}
+  - {ingredient: kaffir-lime-leaf, qty: [2, 3], prep: torn}
+  - {ingredient: fish-sauce, unit: tbsp, qty: 3}
+  - {ingredient: lime, unit: tbsp, qty: 4}
+  - {ingredient: sugar, unit: tsp, qty: 0.5}
+  - {ingredient: red-chili, qty: [5, 6], prep: just broken with pestle}
+steps:
+- Place the stock in a pot, add the lemongrass and kaffir lime leaves, and bring to boil over medium heat.
+- Add the chicken meat, mushroom, fish sauce, lime juice, and sugar; cook slowly and uncovered for 10 minutes. Do not stir.
+- Add the tomatoes and chilies and cook for 5 more minutes. Remove from heat.
+- Serve with steamed jasmine rice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATom_Yum_Gai&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tom Yum Gai@4610516
+    url: https://en.wikibooks.org/w/index.php?oldid=4610516
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

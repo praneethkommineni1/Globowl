@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: se-kroppkakor
+title: Kroppkakor
+alternate_names:
+- Swedish Potato and Pork Dumplings
+summary: Kroppkakor is a traditional Swedish dish of potato dumplings with a pork or bacon filling. They are cooked and served with butter and lingonberry jam. There are some regional variations to the recipe.
+origin:
+  country: SE
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: kg, qty: 1, prep: mashed}
+  - {ingredient: egg-yolk, qty: 2}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1.25}
+  - {ingredient: salt}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: ham, unit: g, qty: 100, prep: diced}
+  - {ingredient: bacon, unit: g, qty: 100, prep: diced}
+  - {ingredient: black-pepper}
+  - {ingredient: allspice, optional: true}
+steps:
+- Mound the mashed potatoes on a work surface and make an indentation in the middle.
+- Put yolks, flour, and salt in the indentation, and quickly work into a dough. Too much kneading will make the dough tough. Let it rest for a few minutes.
+- Fry the onions until translucent. Add the bacon and ham, and cook until it gets colored. Season with pepper.
+- Shape the dough into a thick log. Cut the log into thick slices, and make an indentation in each slice.
+- Place some of the onion and meat filling in the indentation, and top with another dough slice. Press the edges together to seal, and roll into a ball.
+- Lower the balls into boiling salted water, and boil them for about 10–12 minutes or until they float to the surface. Don’t boil too many at a time, as they will then have some difficulty floating to the surface.
+- Remove them with a perforated spoon, and transfer them to a hot serving plate.
+- Serve hot with melted butter and red whortleberry (lingonberry) or cranberry jam.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKroppkakor_%28Swedish_Potato_and_Pork_Dumplings%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kroppkakor (Swedish Potato and Pork Dumplings)@4508259
+    url: https://en.wikibooks.org/w/index.php?oldid=4508259
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - course unknown from categories
+id: xx-zacusca
+title: Zacusca
+alternate_names:
+- Romanian Vegetable Spread
+summary: Zacuscă is a vegetable spread popular in Romania. It is usually eaten with bread. Similar spreads are found in other countries in the Balkan region and bordering regions.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 15
+time:
+  total_min: 180
+difficulty: 3
+techniques:
+- roasting
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: eggplant, unit: kg, qty: 3}
+  - {ingredient: onion, unit: g, qty: 500, prep: finely chopped or grated}
+  - {ingredient: red-bell-pepper, unit: kg, qty: 1}
+  - {ingredient: red-bell-pepper, unit: kg, qty: 1}
+  - {ingredient: tomato, unit: g, qty: 200}
+  - {ingredient: salt, unit: tbsp, qty: 3}
+  - {ingredient: sunflower-oil, unit: ml, qty: 700}
+  - {ingredient: black-pepper, qty: 20}
+  - {ingredient: bay-leaf, qty: [4, 6]}
+steps:
+- Roast the eggplants and peppers until their skins are charred and easily removable by hand. Skin the vegetables. The pepper skins should come off easily in long strips. The eggplant skin might retain some of the flesh; some people like to take the back of the knife over the skin to remove that flesh and use it because it has a smokey flavor, but you can easily discard it if pressed for time.
+- Dice the eggplants and peppers in 1–2 cm cubes. The peppers will retain their shape, but the eggplant flesh is mushy so don't worry if your cubes aren't perfect shapes, they will disintegrate more when cooking and that is the goal.
+- In a large nonstick skillet, sauté the onions in the oil over medium until golden.
+- Add the peppers to the onions. Cook for 15 minutes, stirring occasionally. Make sure it doesn't stick to the bottom of the pan and burn.
+- Stir in the eggplants, tomato paste, bay leaves, salt, and peppercorns. Simmer until the oil comes to the surface.
+- Can the mixture in sterilized jars. Store in a cool place. If you don't want to can, zacusca can be stored in the fridge and consumed within a few days, like any stew. If that is the case, given the large quantity you just made, invite over a few friends and smear the spread on thin-to-medium slices of a baguette. Bon appetite!
+tips:
+- When adding the eggplant and remaining ingredients, you can also add mushrooms, boiled beans, zucchini, hot peppers, carrots, celery etc. This way you can have different spreads over winter with different flavor profiles.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AZacusca_%28Romanian_Vegetable_Spread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Zacusca (Romanian Vegetable Spread)@4514056
+    url: https://en.wikibooks.org/w/index.php?oldid=4514056
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

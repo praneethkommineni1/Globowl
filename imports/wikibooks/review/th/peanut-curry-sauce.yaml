@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 tbsp red curry paste
+id: th-peanut-curry-sauce
+title: Peanut Curry Sauce
+summary: Enjoy this peanut curry sauce as a dip or sauce on most any grilled meat, or thin it with water to marinate or use as a dressing.
+origin:
+  country: TH
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: roasted-peanuts, unit: cup, qty: 0.75}
+  - {ingredient: coconut-milk, unit: cup, qty: 4}
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 3}
+  - {ingredient: fish-sauce, unit: tsp, qty: 3}
+steps:
+- Chop or grind peanuts into a fine meal.
+- Heat half the coconut milk in a medium saucepan on high heat, and add red curry paste. Stir until curry paste is dissolved and then continue to heat on high for 10–12 minutes (not stirring) until the oil from the coconut milk has risen to the top.
+- Decrease heat to medium-high and add ground peanuts. Stir and add the rest of the coconut milk, bring to a full boil then decrease heat, and add the sugar, lemon juice and fish sauce.
+- Continue to cook (stirring occasionally) for 15–20 minutes, until the sauce has thickened and the oil has risen to the surface again.
+- Take off heat and let set for about ½ hour. Stir to blend in the oil that has risen, the sauce should be not quite as thick as peanut butter. If it seems too thick add about a teaspoon of water or coconut milk.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APeanut_Curry_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Peanut Curry Sauce@4518993
+    url: https://en.wikibooks.org/w/index.php?oldid=4518993
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

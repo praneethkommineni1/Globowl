@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-italian-rice-pilaf
+title: Italian Rice Pilaf
+summary: This dish has a lot of Italian flavors, like bay, thyme, rosemary, garlic, and Chianti wine.
+origin:
+  country: IT
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: chicken-stock, unit: cup, qty: 2.5}
+  - {ingredient: red-wine, unit: cup, qty: 1, prep: preferably Chianti}
+  - {ingredient: bay-leaf, qty: 3}
+  - {ingredient: garlic, unit: clove, qty: 7, prep: smashed}
+  - {ingredient: thyme, unit: sprig, qty: 10}
+  - {ingredient: rosemary, unit: sprig, qty: [5, 6]}
+  - {ingredient: onion, qty: 1, prep: finely diced, note: large}
+steps:
+- Melt butter in a large saucepan over medium high heat. Add rice and onion and cook until rice is golden.
+- Meanwhile, combine remaining ingredients. Once rice has toasted, remove from pot and add mixture. Bring to a boil and add rice. Cook, stirring occasionally, 30 minutes or until rice is desired tenderness.
+- Serve warm with a steak, a glass of red wine, and maybe a vegetable sauté.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AItalian_Rice_Pilaf&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Italian Rice Pilaf@4514571
+    url: https://en.wikibooks.org/w/index.php?oldid=4514571
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

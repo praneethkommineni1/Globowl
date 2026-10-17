@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: eg-egyptian-lentil-soup
+title: Egyptian Lentil Soup
+summary: Egyptian lentil soup is a hearty and nutritious soup loved for its simplicity and delicious flavors. Made with red lentils, aromatic spices, and a touch of tanginess from lemon juice, this soup is a popular choice for a comforting meal.
+origin:
+  country: EG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Large pot or Dutch oven
+- Wooden spoon or spatula for stirring
+- Knife for chopping
+- Measuring cups and spoons
+- Immersion or full-size blender
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: brown-lentils, unit: cup, qty: 1, prep: rinsed}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: medium}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 0.5}
+  - {ingredient: paprika, unit: tsp, qty: 0.5}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.25}
+  - {ingredient: chicken-stock, unit: cup, qty: 4}
+  - {ingredient: lemon, unit: tbsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: parsley, prep: chopped}
+steps:
+- In a large pot or Dutch oven, heat the olive oil over medium heat.
+- Add the finely chopped onion to the pot and sauté until it becomes translucent and slightly golden.
+- Stir in the minced garlic and cook for another minute until fragrant.
+- Add the rinsed red lentils to the pot and stir to coat them with the onion and garlic mixture.
+- Sprinkle the ground cumin, ground coriander, ground paprika, and ground turmeric over the lentils. Stir well to combine and coat the lentils with the spices.
+- Pour in the vegetable broth or water, ensuring that the lentils are fully submerged.
+- Bring the mixture to a boil, then reduce the heat to low and cover the pot. Let the soup simmer for about 20–25 minutes or until the lentils are tender and fully cooked.
+- Using a blender, purée the soup until smooth and creamy. If using a regular blender, allow the soup to cool slightly before blending, and be careful when transferring hot liquids.
+- Return the soup to the pot and place it back over low heat.
+- Stir in the lemon juice and season the soup with salt and pepper to taste. Adjust the seasoning according to your preference.
+- Continue to heat the soup for a few more minutes until it is warmed through.
+- Ladle the soup into bowls and garnish with chopped parsley or cilantro. Serve hot.
+tips:
+- Egyptian lentil soup can be served as a light lunch or dinner on its own, or alongside crusty bread or a side salad for a more substantial meal.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgyptian_Lentil_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egyptian Lentil Soup@4518400
+    url: https://en.wikibooks.org/w/index.php?oldid=4518400
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

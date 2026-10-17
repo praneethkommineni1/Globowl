@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 package of dried barberries
+id: ir-zereshk-palau-iranian-rice-with-barberries
+title: Zereshk Palau (Iranian Rice with Barberries)
+summary: Zereshk Palau is an Iranian rice dish cooked with barberries.
+origin:
+  country: IR
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 45
+difficulty: 3
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: onion, qty: 1, prep: chopped}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: chicken, prep: diced chicken}
+  - {ingredient: salt, qty: 1}
+  - {ingredient: saffron}
+steps:
+- Soak dried barberries in water for 20–30 minutes. Strain to remove any stones.
+- Sauté the chopped onion in a frying pan with a dash of oil. Mix in the barberries, and cook over low heat.
+- Cook chicken on top of rice in a rice cooker.
+- When rice is done, fluff and put in a large bowl.
+- Grind saffron with mortar and pestle. Mix in 1 teaspoon of water, then stir in some of the cooked rice.
+- Return the saffron rice to the main dish, and add the onion mixture.
+- Toss rice to mix well with other ingredients.
+- Serve with lavash or barbari bread.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AZereshk_Palau_%28Iranian_Rice_with_Barberries%29_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Zereshk Palau (Iranian Rice with Barberries) I@4525782
+    url: https://en.wikibooks.org/w/index.php?oldid=4525782
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

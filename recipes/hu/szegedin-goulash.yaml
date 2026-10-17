@@ -1,0 +1,55 @@
+id: hu-szegedin-goulash
+title: Szegedin Goulash
+summary: Szegedin goulash is a variety of goulash that adds sauerkraut and sour cream to the traditional ingredients. Most people believe that the name "Szegedin Goulash" derives from Szeged, a town in Hungary.
+origin:
+  country: HU
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 70
+difficulty: 3
+techniques:
+- pan-frying
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: lard, unit: g, qty: 100}
+  - {ingredient: pork, unit: g, qty: 600, prep: cut into bite-sized cubes}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: tomato-paste, unit: tbsp, qty: [1, 2]}
+  - {ingredient: paprika, unit: tsp, qty: 1.5}
+  - {ingredient: chicken-stock}
+  - {ingredient: bay-leaf, qty: 2}
+  - {ingredient: garlic, qty: [1, 2], prep: minced}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: sauerkraut, unit: g, qty: 700}
+  - {ingredient: sour-cream, unit: ml, qty: 125}
+steps:
+- Heat the lard in a pot, then add the pork and sauté it for about 3 minutes. Take out the pork and set it aside on a plate.
+- Put the finely chopped onions into the casserole and fry until they become golden brown.
+- Stir in the tomato purée and paprika, and add some water or stock. Then add the meat, bay leaves and garlic; pour in more water or stock and season with salt and pepper. Reduce the heat and cook for about 30 minutes.
+- Add the sauerkraut, and cook for another 40 minutes.
+- Add the sour cream, mix it thoroughly with the goulash, and serve it on warm plates.
+tips:
+- Uncooked sauerkraut is supposed to be very healthy because it contains many vitamins. To preserve the vitamins, you can set aside 1/5 of the sauerkraut and to just add it by the end of the cooking process.
+- A good side dish for the szegedin goulash is boiled potatoes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASzegedin_Goulash&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Szegedin Goulash@4512108
+    url: https://en.wikibooks.org/w/index.php?oldid=4512108
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

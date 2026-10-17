@@ -1,0 +1,44 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: gh-omo-tuo
+title: Omo tuo
+summary: Omo tuo is a rice dish that may have originated with the Hausa people and is still a favorite among Ghanaians today.
+origin:
+  country: GH
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 2, prep: cleaned}
+  - {ingredient: water, unit: cup, qty: 5}
+  - {ingredient: salt, unit: tsp, qty: 1}
+steps:
+- After properly cleaning the rice, add it to a saucepan of water. When the rice is tender, add salt and bring to a boil. Give it a good five to seven minutes.
+- To make the rice smooth, mash it with a wooden spoon or a small pestle.
+- Pour cold water into a cup and place it near the pan. Transfer the rice to a serving dish after scooping it with wet hands and rolling it into balls.
+tips:
+- Omo tuo is traditionally served with dried okra soup,Palm nut soup or groundnut soup.
+- The rice should be cooked until it became a very soft so it can be easily mashed into a smooth consistency.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AOmo_tuo&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Omo tuo@4612965
+    url: https://en.wikibooks.org/w/index.php?oldid=4612965
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

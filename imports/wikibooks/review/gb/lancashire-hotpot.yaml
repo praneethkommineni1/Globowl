@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Choice of mixed herbs
+id: gb-lancashire-hotpot
+title: Lancashire Hotpot
+summary: Lancashire hotpot, originating from England, is a very easy but delicious baked dish consisting of lamb, onions, potatoes, and herbs.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 80
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: lamb, unit: g, qty: 907}
+  - {ingredient: potato, qty: 2, prep: sliced, note: large}
+  - {ingredient: onion, qty: 1, prep: diced, note: large}
+  - {ingredient: water, unit: ml, qty: 500}
+steps:
+- Dice the lamb and set aside. Preheat oven to 325°F / 170°C / Gas mark 3.
+- Add a layer of the potatoes to the bottom of a casserole dish, and cover with a handful of the diced onion. Layer the diced lamb on top of this, sprinkling with the herbs.
+- Repeat these layers until the dish is full. Top with a final layer of the potatoes.
+- Pour boiling water into the dish until filled—if more water is needed, continue to add until topped.
+- Bake for at least 1 hour, though traditionally the dish was left baking all day. Mutton will require a longer cooking time.
+tips:
+- A handful of mixed vegetables such as parsnips, turnips, leek or carrots can be added to the dish. It is worth experimenting to find out what combination of flavours you prefer.
+- The dish has occasionally been known to be cooked with oysters or with small birds such as snipe, when they were available.
+- Flavour can be improved by adding a stock cube or instant gravy granules to the boiling water.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALancashire_Hotpot&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lancashire Hotpot@4497923
+    url: https://en.wikibooks.org/w/index.php?oldid=4497923
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

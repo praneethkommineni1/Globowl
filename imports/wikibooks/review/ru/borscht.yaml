@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Dill weed
+#  - no difficulty in recipe summary
+id: ru-borscht
+title: Borscht
+summary: Borscht or borshch is a hearty beetroot vegetable soup that originates from Ukraine. The soup is part of the local culinary heritage of many Eastern and Central European nations.
+origin:
+  country: RU
+course: soup
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: about 6
+time:
+  total_min: 75
+difficulty: 1
+techniques:
+- simmering
+ingredient_groups:
+- name: Soup
+  items:
+  - {ingredient: potato, unit: cup, qty: 1.5}
+  - {ingredient: beetroot, unit: cup, qty: 1}
+  - {ingredient: water, unit: cup, qty: 4}
+  - {ingredient: butter, unit: tbsp, qty: [1, 2]}
+  - {ingredient: onion, unit: cup, qty: 1.5}
+  - {ingredient: salt, unit: tsp, qty: 1.5}
+  - {ingredient: celery, unit: stalk, qty: 1, prep: chopped}
+  - {ingredient: carrot, qty: 1, prep: chopped, note: medium}
+  - {ingredient: white-cabbage, unit: cup, qty: [3, 4]}
+  - {ingredient: black-pepper}
+  - {ingredient: dill, unit: tsp, qty: 1}
+  - {ingredient: cider-vinegar, unit: tbsp, qty: [1, 2]}
+  - {ingredient: brown-sugar, unit: tbsp, qty: [1, 2]}
+  - {ingredient: tomato, unit: cup, qty: 1}
+- name: Garnish
+  items:
+  - {ingredient: sour-cream}
+steps:
+- Place the potatoes, beets, and water in a medium-sized saucepan. Cover and cook over medium heat until tender (20–30 minutes). While that is cooking, proceed with the recipe.
+- Melt the butter in a Dutch oven/soup pot. Add the onion and salt. Cook over medium heat, stirring occasionally, until the onions are translucent (8–10 minutes).
+- Add the celery, carrots, cabbage, and 2 cups of the water in which the potatoes and beets are cooking. Cover and cook over medium heat until the vegetables are tender (8–10 minutes).
+- Add the remaining soup ingredients (including the potatoes, beets, and the rest of the water in which they are cooking). Cover and simmer for at least 15 more minutes. Correct the seasonings. If it is too thin, let it simmer uncovered, and maybe add a little more tomato paste.
+- Serve hot, topped with sour cream or yoghurt and sprinkled with dill. If desired the sour cream or yoghurt can be served with the soup and used as a condiment to taste.
+tips:
+- A sour environment is essential for the authentic taste and preservation of the red color, but excessive amount of acetic acid from the vinegar (esp. distilled) causes a sharp restaurant smell and taste. The cider vinegar can be replaced with sauerkraut or extra tomatoes.
+- Ukrainian Cabbage Soup (Kapusniak)
+- Montreal Russian Borscht
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABorscht&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Borscht@4630235
+    url: https://en.wikibooks.org/w/index.php?oldid=4630235
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

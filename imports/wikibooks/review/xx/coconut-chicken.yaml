@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-coconut-chicken
+title: Coconut Chicken
+summary: Coconut Chicken.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- marinating
+ingredient_groups:
+- name: Marinating
+  items:
+  - {ingredient: chicken, prep: 'breasts, or wings'}
+  - {ingredient: coconut, unit: can, qty: 1}
+  - {ingredient: lime, qty: 1, prep: zested and juiced}
+  - {ingredient: mint, unit: bunch, qty: 1, prep: chopped}
+  - {ingredient: paprika, qty: 1, note: large}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: ginger, qty: 1, prep: grated, note: small}
+- name: Rice
+  items:
+  - {ingredient: long-grain-rice, qty: 1}
+  - {ingredient: butter, unit: g, qty: 10, optional: true}
+  - {ingredient: whole-cloves, qty: 3}
+steps:
+- Stab the chicken in various places to a depth of about ½ inch so that they take on the taste from the marinade.
+- Combine all the contents of the marinade together in a dish, and place the chicken into it so that the chicken is covered by the marinade. Let marinate, turning occasionally, for at least 3 hours, or overnight is possible—the longer the better.
+- Place the chicken pieces on a barbecue, an electric grill, or even in the oven. Cook until done, making sure you coat the chicken with plenty of the marinade as you cook. You should aim for a nice crispy skin.
+- In a large saucepan bring some salted water to a boil, and add the cloves.
+- Add the rice, and boil until the rice is cooked. Drain and rinse under hot water to remove excess starch. Take out the cloves and discard.
+- Return the rice to the pan and place over a low heat. Add about ½ cupful of the coconut marinade mixture (or any leftover coconut milk from the tin) to the rice, and heat through slowly.
+- Add the butter at the last minute, and let it melt. If there is any left over, also add a handful of the chopped mint leaves to the rice as well.
+- Fluff up the rice with a fork.
+- Place rice in the middle of your serving plate, place the grilled/barbecued chicken on top, sprinkle with a squeeze of fresh lime juice, and serve with a green salad.
+tips:
+- You can roast some bananas in the same oven to go with this, either in their skins, or in foil with a little cinnamon!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACoconut_Chicken&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Coconut Chicken@4531795
+    url: https://en.wikibooks.org/w/index.php?oldid=4531795
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

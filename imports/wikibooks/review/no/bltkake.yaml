@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tin sliced peaches
+#  - unmapped ingredient: Vanilla custard
+#  - unmapped ingredient: Whipped cream
+#  - unmapped ingredient: Berries or other fruit
+#  - no servings in recipe summary
+id: no-bltkake
+title: Bløtkake
+alternate_names:
+- Norwegian Berries and Cream Cake
+summary: Cuisine of Norway | Desserts Bløtkake is a traditional Norwegian dessert, usually reserved for special occasions such as birthdays. It is also served on Norway's national day, May 17th.
+origin:
+  country: 'NO'
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 60
+difficulty: 3
+ingredient_groups:
+- name: Batter
+  items:
+  - {ingredient: egg, qty: 4}
+  - {ingredient: sugar, unit: g, qty: 100}
+  - {ingredient: all-purpose-flour, unit: g, qty: 100}
+  - {ingredient: baking-powder, unit: tsp, qty: 1}
+- name: Filling
+  items:
+  - {ingredient: jam}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+steps:
+- Whip the eggs and sugar until they form peaks. Sieve the flour and baking powder into the egg mixture and fold in gently.
+- Pour the batter into a greased round tin (about 22 cm in diameter) ,and bake the cake at 170°C for 30–40 minutes.
+- Cool completely on a rack, then unmold the cakes.
+- Slice the cake horizontally into 3 layers. Sprinkle each slice with some of the peach juice from the tin.
+- Cover 2 of the slices with jam, peach slices, and vanilla custard. Place the third layer on top of the other two.
+- Whip the cream with the sugar. Cover the whole cake, including the sides, with the whipped cream.
+- Garnish with berries and/or fruit.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABl%C3%B8tkake_%28Norwegian_Berries_and_Cream_Cake%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bløtkake (Norwegian Berries and Cream Cake)@4587317
+    url: https://en.wikibooks.org/w/index.php?oldid=4587317
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

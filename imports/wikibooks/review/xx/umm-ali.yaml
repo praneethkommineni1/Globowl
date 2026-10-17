@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no Ingredients section
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-umm-ali
+title: Umm Ali
+alternate_names:
+- Egyptian Bread Pudding
+summary: Umm ali is a luscious and indulgent Egyptian dessert that is loved for its rich flavors and creamy texture. Made with layers of soaked bread, nuts, and a sweet milk mixture, this dessert is often enjoyed during festive occasions and family gatherings.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Oven
+- Baking sheet
+- Baking dish
+- Mixing bowl
+- Saucepan
+- Knife for chopping
+- Measuring cups and spoons
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- 4–5 sheets of uncooked puff pastry or 6–8 slices of day-old bread
+- ½ cup pistachios, chopped
+- ½ cup almonds, chopped
+- ¼ cup raisins
+- ¼ cup desiccated coconut
+- 4 cups milk
+- 1 cup heavy cream
+- ½ cup sugar
+- 1 teaspoon vanilla extract
+- Ground cinnamon for sprinkling
+tips:
+- Umm ali can be enjoyed warm or at room temperature. It is often served as is or with a dollop of whipped cream or a sprinkle of additional nuts on top.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AUmm_Ali_%28Egyptian_Bread_Pudding%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Umm Ali (Egyptian Bread Pudding)@4587492
+    url: https://en.wikibooks.org/w/index.php?oldid=4587492
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

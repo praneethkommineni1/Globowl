@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 cup puréed chile pepper mixed with tomatoes
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-nigerian-dodo
+title: Nigerian Dodo
+alternate_names:
+- Fried Ripe Plantain
+summary: Dodo is a Nigerian dish of fried ripe plantain. It is often served with jollof rice, rice and beans, and beans porridge.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- deep-frying
+ingredient_groups:
+- items:
+  - {ingredient: plantain, qty: 4}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.5}
+steps:
+- Cut each ripe plantain into 6 small pieces. Toss with salt and chile-tomato purée to taste.
+- Heat ½ cup of oil in a frying pan. Add the 6 plantain pieces, and deep fry until all sides are golden brown.
+- Serve with jollof rice or bean porridge.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Dodo_%28Fried_Ripe_Plantain%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Dodo (Fried Ripe Plantain)@4503501
+    url: https://en.wikibooks.org/w/index.php?oldid=4503501
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 cup Mexican salsa verde, or to taste
+id: us-black-bean-soup-and-salsa-verde
+title: Black Bean Soup and Salsa Verde
+summary: Black Bean Soup and Salsa Verde.
+origin:
+  country: US
+course: soup
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: black-beans-canned, unit: can, qty: 2, prep: drained}
+  - {ingredient: chicken, unit: cup, qty: 1.5}
+  - {ingredient: cilantro, unit: cup, qty: 0.25, prep: plus extra sprigs for garnish, optional: true}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+steps:
+- Purée all ingredients in a blender until smooth.
+- Pour into a large saucepan or Dutch oven, and bring to a simmer.
+- Simmer, partially covered and stirring frequently, to blend flavors, 5 or 7 minutes.
+- Serve, garnishing each portion with 1 tablespoon of tortilla chips, 1 tablespoon of sour cream and optional cilantro sprigs.
+tips:
+- Garnishes can include ¼ cup crumbled tortilla chips and ¼ cup sour cream.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABlack_Bean_Soup_and_Salsa_Verde&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Black Bean Soup and Salsa Verde@4518350
+    url: https://en.wikibooks.org/w/index.php?oldid=4518350
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

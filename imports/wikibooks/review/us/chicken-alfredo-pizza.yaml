@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: Pizza dough
+#  - unmapped ingredient: 1 large jar of Alfredo sauce
+#  - unmapped ingredient: 1 package of pepperoni
+#  - no time in recipe summary
+id: us-chicken-alfredo-pizza
+title: Chicken Alfredo Pizza
+summary: Chicken Alfredo Pizza.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- grilling
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 2, prep: skinless chicken breasts}
+  - {ingredient: cheese, qty: 1, note: large}
+steps:
+- Cut up the chicken breast, and sear/bake/grill it until it is cooked through.
+- Prepare the pizza crust and spread it on a medium-sized pizza pan.
+- Spread some Alfredo sauce on the crust, and top with cooked chicken. Repeat to make a few layers, then sprinkle shredded cheese on top.
+- Bake in oven at 350°F (175°C) for about 20 minutes or until the crust is done.
+tips:
+- You can add whatever you like if you find this recipe a bit bland.
+- Add more of any of the ingredients if you would like.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Alfredo_Pizza&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chicken Alfredo Pizza@4517833
+    url: https://en.wikibooks.org/w/index.php?oldid=4517833
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: xx-fried-plantain-and-egg
+title: Fried Plantain and Egg
+summary: Fried plantain and egg is a Nigerian dish mostly eaten as breakfast.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 30
+difficulty: 1
+equipment:
+- Frying pan
+- Frying spoon
+- Bowl
+- Knife
+- Fork
+ingredient_groups:
+- items:
+  - {ingredient: plantain}
+  - {ingredient: vegetable-oil}
+  - {ingredient: egg}
+  - {ingredient: salt}
+steps:
+- Peel and slice the plantain. Season with salt and toss to mix.
+- Heat a little oil in a frying pan. When hot, add the plantain. Cook, turning occasionally, until browned. Remove the plantain and set aside.
+- Whisk the egg with a pinch of salt. Add the egg to the pan, and cook like scrambled eggs.
+- Serve the eggs and plantain together.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFried_Plantain_and_Egg&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fried Plantain and Egg@4512197
+    url: https://en.wikibooks.org/w/index.php?oldid=4512197
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

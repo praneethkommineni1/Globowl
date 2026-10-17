@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 L of fresh water
+#  - unmapped ingredient: 1 stick of cinnamon
+#  - no servings in recipe summary
+id: dz-cherbet-mazhar
+title: Cherbet Mazhar
+alternate_names:
+- Algerian Flower Water Drink
+summary: Orange Blossom Cherbet (, Cherbet Mazhar) is a refreshing Algerian drink. It originates from Algiers and is also called Cherbet Khotba (Proposal Cherbet) as it is only served during marriage proposals as per Algiers' traditions.
+origin:
+  country: DZ
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 10
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: orange-flower-water, qty: 1, note: large}
+  - {ingredient: sugar, unit: tbsp, qty: [2, 3]}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+steps:
+- Combine water and orange blossom water in a large saucepan over medium heat. Stir with a wooden spoon.
+- Add the cinnamon powder and stir until it fully dilutes. Then add the sugar, and mix everything well.
+- When the sugar is completely dissolved, transfer the drink to a pitcher and let it cool in the fridge. Serve with quince jam or seasonal fruit.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACherbet_Mazhar_%28Algerian_Flower_Water_Drink%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cherbet Mazhar (Algerian Flower Water Drink)@4513339
+    url: https://en.wikibooks.org/w/index.php?oldid=4513339
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

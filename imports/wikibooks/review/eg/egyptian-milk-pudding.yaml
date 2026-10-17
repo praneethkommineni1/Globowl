@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: eg-egyptian-milk-pudding
+title: Egyptian Milk Pudding
+alternate_names:
+- Mahalabiya
+summary: Egyptian milk pudding, also known as mahalabiya, is a classic and indulgent dessert in Egyptian cuisine. This smooth and creamy pudding is made with milk, sugar, and fragrant ingredients like rosewater and orange blossom water.
+origin:
+  country: EG
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Saucepan
+- Whisk or spoon
+- Serving bowls or dessert cups
+- Small frying pan (for toasting the nuts, if desired)
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: cup, qty: 4}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: cornstarch, unit: cup, qty: 0.25}
+  - {ingredient: rose-water, unit: tsp, qty: 1}
+  - {ingredient: orange-flower-water, unit: tsp, qty: 1}
+  - {ingredient: ground-cinnamon}
+  - {ingredient: pistachios}
+steps:
+- In a saucepan, combine the milk, sugar, and cornstarch. Whisk or stir well to dissolve the cornstarch and sugar.
+- Place the saucepan over medium heat and cook the mixture, stirring constantly, until it thickens and comes to a gentle boil. This will take about 10–15 minutes.
+- Reduce the heat to low and continue cooking for another 2–3 minutes, stirring constantly, until the pudding has a smooth and creamy consistency.
+- Remove the saucepan from the heat and stir in the rosewater and orange blossom water. Mix well to incorporate the flavors.
+- Divide the pudding into serving bowls or dessert cups. Allow the pudding to cool for a few minutes, then refrigerate for at least 2 hours, or until chilled and set.
+- Just before serving, garnish each pudding with a sprinkle of ground cinnamon and a generous amount of crushed pistachios or almonds.
+- Serve the mahalabiya chilled and enjoy its creamy and refreshing taste.
+tips:
+- This pudding is a versatile dessert that can be enjoyed on its own or topped with various garnishes like fresh fruits or a drizzle of honey.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgyptian_Milk_Pudding_%28Mahalabiya%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egyptian Milk Pudding (Mahalabiya)@4517916
+    url: https://en.wikibooks.org/w/index.php?oldid=4517916
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

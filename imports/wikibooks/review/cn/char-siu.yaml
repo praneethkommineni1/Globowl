@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 tbsp light soy sauce
+#  - unmapped ingredient: 2 tbsp Shaoxing rice wine
+#  - unmapped ingredient: 1/2 tsp five spice
+id: cn-char-siu
+title: Char Siu
+alternate_names:
+- Chinese BBQ pork
+summary: Cha shao is a kind of spiced Cantonese honey roast pork. It is often also called by the Cantonese char siu or char siew. Sometimes (usually in America) it is called Chinese BBQ pork.
+origin:
+  country: CN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1 kg
+time:
+  total_min: 510
+difficulty: 3
+techniques:
+- roasting
+ingredient_groups:
+- items:
+  - {ingredient: pork, unit: kg, qty: 1}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: oyster-sauce, unit: tbsp, qty: 2}
+  - {ingredient: honey, unit: tbsp, qty: 2}
+  - {ingredient: hoisin-sauce, unit: tbsp, qty: 4}
+steps:
+- Slice the meat into strips about 1 inch (2.5 cm) wide by 6 inches (15 cm) long. A long thin strip like this will keep its shape better when hanging.
+- Pierce the pork all over thoroughly with a fork. This makes the pork more tender and allows the marinade to penetrate the meat to give flavour all the way through.
+- Mix all other ingredients together to make a marinade.
+- Place pork strips in a tray and cover with marinade. Ensure strips are covered completely in marinade.
+- Cover tightly with cling film and place in the refrigerator for several hours (8–24 hours is preferable).
+- Preheat the oven to 230°C or 420°F and place a pan in the bottom to catch drippings. Line this pan with aluminium foil to make cleaning easier.
+- Hang the meat on hooks in the oven or lay them on a rack. Depending on the method and the size of your oven, it may be easiest to do this in two or three batches, rather than all at once.
+- Roast for 20 minutes, until pork is cooked all the way through. Baste at least twice to build up a good layer of marinade on the outside of the meat. The pork should turn a golden-red colour as it cooks.
+- Allow to cool while still hanging, or lay on wire rack to cool. Avoid laying on top of other meat or on a flat surface until cooled.
+- Cover and refrigerate until needed.
+tips:
+- Serve cold, or use diced in other dishes.
+- Add 1 tbsp of toasted sesame oil for a nuttier flavour
+- Add red food colouring to the marinade to give the traditional deep red hue. This used to be due to the preservative used for the pork. Also, in China, the red colour generally symbolises good fortune. However, due to the strong colour of the marinade described above, a significant quantity of food colouring will be needed.
+- This dish goes very well with ginger and onion.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChar_Siu_%28Chinese_BBQ_pork%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Char Siu (Chinese BBQ pork)@4511499
+    url: https://en.wikibooks.org/w/index.php?oldid=4511499
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

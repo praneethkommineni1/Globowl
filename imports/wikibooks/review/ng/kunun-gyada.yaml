@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-kunun-gyada
+title: Kunun Gyada
+alternate_names:
+- Groundnut and Rice Gruel
+summary: Kunun gyada is a light porridge made from blended raw groundnut and rice, usually eaten in the northern part of Nigeria. It is similar to akamu, except that blended rice is poured into a boiled groundnut milk when the later is made by pouring pap into boiled water.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3 servings
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Blender
+- Pot
+- Turning stick
+- Stovetop
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: roasted-peanuts, unit: cup, qty: 1}
+  - {ingredient: long-grain-rice, unit: cup, qty: 0.5}
+  - {ingredient: water, unit: cup, qty: 0.333}
+  - {ingredient: tamarind-paste, unit: tsp, qty: 0.25}
+steps:
+- Soak the tamarind for 3 hours and extract the juice. Also, soak the rice and raw groundnut in separate bowls for a few hours.
+- Drain the groundnuts. Grind them in a blender with some water and strain the resulting groundnut milk.
+- Drain the rice and grind with a little water.
+- Boil the groundnut milk in a pot, stirring to prevent sticking and lumps. Slowly stir in the blended rice.
+- Stir in the tamarind juice and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKunun_Gyada_%28Groundnut_and_Rice_Gruel%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kunun Gyada (Groundnut and Rice Gruel)@4524340
+    url: https://en.wikibooks.org/w/index.php?oldid=4524340
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

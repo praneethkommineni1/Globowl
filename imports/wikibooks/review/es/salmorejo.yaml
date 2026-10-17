@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: es-salmorejo
+title: Salmorejo
+alternate_names:
+- Spanish Tomato Garlic Purée
+summary: Salmorejo is a purée consisting of tomato and bread, originating from Córdoba, Spain. It is made from tomatoes, bread, oil and garlic. The tomatoes are skinned and then puréed with the other ingredients.
+origin:
+  country: ES
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: tomato, unit: g, qty: 454}
+  - {ingredient: garlic, unit: clove, qty: [1, 2]}
+  - {ingredient: white-bread, unit: g, qty: 28}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 2}
+  - {ingredient: olive-oil}
+  - {ingredient: salt}
+- name: Garnishes
+  items:
+  - {ingredient: ham}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: white-bread}
+steps:
+- Skin the tomatoes and remove their cores. If using canned whole tomatoes, add with their liquid.
+- Using a blender, liquefy the tomatoes and garlic and add the vinegar and salt.
+- Soak the bread in water until tender, then wring excess water out.
+- Add half of the bread and blend until smooth.
+- Continue adding bread and a little olive oil and blending until the soup has a smooth, creamy consistency.
+- Chill the purée and then serve in a shallow bowl, garnished with ham and egg and accompanied by fresh bread.
+tips:
+- To skin tomatoes, you can blanch then and then peel them afterward.
+- The core is simply the tough part at the top of the tomatoes near where it grew on the vine.
+- The recipe can also be made with canned tomatoes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASalmorejo_%28Spanish_Tomato_Garlic_Pur%C3%A9e%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Salmorejo (Spanish Tomato Garlic Purée)@4500855
+    url: https://en.wikibooks.org/w/index.php?oldid=4500855
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

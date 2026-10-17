@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 medium-sized dried smoked fish, cleaned and deboned
+#  - no time in recipe summary
+id: ng-miyan-ridi
+title: Miyan Ridi
+alternate_names:
+- Nigerian Sesame Soup
+summary: __notoc__ Miya Ridi is a traditional toasted sesame seed soup popular among the Hausa people of Northern Nigeria. Rich in flavor and often served with tuwo or other local swallows, it is a nutritious dish commonly prepared during special occasions or family meals.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2-3
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 500, prep: cut into bite-sized pieces}
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: bouillon-cube, qty: 2}
+  - {ingredient: red-bell-pepper, qty: 2, prep: blended, note: large}
+  - {ingredient: sesame-seeds, unit: cup, qty: 2, prep: blended into a paste}
+  - {ingredient: red-palm-oil, unit: tbsp, qty: 3}
+  - {ingredient: onion, qty: 1, prep: sliced, note: small}
+  - {ingredient: spinach, qty: 1}
+  - {ingredient: water, prep: as needed}
+steps:
+- In a pot, boil the beef with the chopped onion, seasoning cubes, and a little water until the meat is tender.
+- Blend the toasted sesame seeds into a smooth paste using a blender or grinding stone.
+- In a separate pot, heat the palm oil over medium heat. Add the sliced onion and blended red bell pepper, then fry for 5–7 minutes until fragrant.
+- Add the cooked beef and some of the beef stock. Stir in the smoked fish and simmer for 5 minutes.
+- Add the ground sesame seed paste. Stir continuously to avoid lumps, and cook for about 10 minutes. Add water as needed to reach desired consistency.
+- Add the chopped spinach, stir, and turn off the heat after 1–2 minutes.
+- Serve hot with tuwo shinkafa, pounded yam, wheat, or other swallow of choice.
+tips:
+- Groundnut (peanut) paste can be added along with sesame paste for a richer flavor.
+- You can substitute spinach with ugu or kale depending on availability.
+- For a vegetarian version, omit the meat and fish, and add mushrooms or tofu.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMiyan_Ridi_%28Nigerian_Sesame_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Miyan Ridi (Nigerian Sesame Soup)@4541007
+    url: https://en.wikibooks.org/w/index.php?oldid=4541007
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

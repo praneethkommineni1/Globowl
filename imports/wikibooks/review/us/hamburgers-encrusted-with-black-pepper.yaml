@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 pound ground chuck steak
+#  - unmapped ingredient: 4 hamburger buns, halved
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-hamburgers-encrusted-with-black-pepper
+title: Hamburgers Encrusted with Black Pepper
+summary: Cracked pepper adds a nice texture difference between the creamy cheese, tender meat, and the toasted bun, and complements the chipotle mayo.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- whisking
+ingredient_groups:
+- name: Chipotle mayo
+  items:
+  - {ingredient: mayonnaise, unit: cup, qty: 0.5}
+  - {ingredient: chipotle-in-adobo, qty: [2, 4], prep: finely minced}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+- name: Burgers
+  items:
+  - {ingredient: salt}
+  - {ingredient: black-peppercorns, unit: cup, qty: 0.25, prep: plus more if needed}
+  - {ingredient: cheese, unit: slice, qty: 4, prep: room temperature, optional: true}
+  - {ingredient: dijon-mustard}
+steps:
+- Whisk together all chipotle mayo ingredients until well combined. Refrigerate until needed.
+- Shape beef into 4 equal patties. Brush with Dijon mustard on both sides and sprinkle liberally with kosher salt on both sides.
+- Place peppercorns in a pie pan. Press patties lightly on both sides into pepper. Set aside.
+- Heat about 25 charcoal briquets in a large chimney starter. Reapply grate.
+- Add burgers and cook, turning often, until internal temperature reaches 143°F for medium rare, 157°F for medium, and 167°F for well/toast.
+- Remove to a plate and let rest for 5 minutes. If using cheese, place one slice on top of each patty. Meanwhile, toast buns on the grill.
+- Spread buns with chipotle mayo. Add a patty on top of the bottom half of a bun and top with the other half. Serve warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHamburgers_Encrusted_with_Black_Pepper&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Hamburgers Encrusted with Black Pepper@4613404
+    url: https://en.wikibooks.org/w/index.php?oldid=4613404
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

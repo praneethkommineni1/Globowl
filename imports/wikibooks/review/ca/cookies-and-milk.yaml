@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Cookies
+id: ca-cookies-and-milk
+title: Cookies and Milk
+summary: Cookies and milk is a common snack in Canada. Many versions are made, varying from the most basic, simply dipping a cookie in milk, to this recipe for one of the more complicated and messy versions.
+origin:
+  country: CA
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 5
+difficulty: 1
+equipment:
+- A glass (diameter must be equal to or larger than that of the cookie)
+ingredient_groups:
+- items:
+  - {ingredient: milk}
+steps:
+- Drop the cookies into the glass, filling it up to roughly ¾ of the glass. You can fill it more if you desire, but usually about 4–6 cookies is good.
+- Fill the cookie-filled glass with milk until the milk covers the top cookie.
+- Wait a couple of minutes for the cookies to absorb the milk and become soft. You can decide how soft you want them
+- Drink milk and cookies from glass.
+tips:
+- Use chocolate milk for a more chocolatey taste.
+- For those who suffer from a lactose intolerance or other milk allergy, soy milk can be used as an alternative, less strong option.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACookies_and_Milk&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cookies and Milk@4600078
+    url: https://en.wikibooks.org/w/index.php?oldid=4600078
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+id: in-egg-rice
+title: Egg Rice
+summary: Egg Rice.
+origin:
+  country: IN
+course: side
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 30
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: onion, qty: 1, prep: chopped, note: small}
+  - {ingredient: red-chili, qty: 2, prep: chopped}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: garlic, unit: tsp, qty: 1}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.25}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: egg, qty: 2, prep: beaten}
+steps:
+- Cook rice and keep it aside.
+- Sweat onions and green chilies in a pan together over medium heat.
+- Add ginger and garlic pastes.
+- Add rice, and mix everything well.
+- Add salt and spice powder.
+- Stir in the beaten eggs.
+- Cook until everything is mixed well.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgg_Rice&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egg Rice@4513017
+    url: https://en.wikibooks.org/w/index.php?oldid=4513017
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

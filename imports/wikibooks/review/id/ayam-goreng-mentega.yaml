@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 tbsp Chinese cooking wine
+#  - no time in recipe summary
+#  - course unknown from categories
+id: id-ayam-goreng-mentega
+title: Ayam Goreng Mentega
+alternate_names:
+- Fried Chicken in Sweet Butter Sauce
+summary: Ayam Goreng is an Indonesian fried chicken dish. This version features an accompanying butter sauce.
+origin:
+  country: ID
+course: main
+authenticity: unassessed
+yield:
+  servings: 5
+  amount: 5–6 servings
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- marinating
+- pan-frying
+- sauteing
+- stir-frying
+ingredient_groups:
+- name: Chicken
+  items:
+  - {ingredient: chicken, qty: 1, prep: cut into small pieces}
+  - {ingredient: lemon}
+  - {ingredient: salt, unit: tsp, qty: 2}
+  - {ingredient: vegetable-oil, unit: cup, qty: 2}
+- name: Sauce
+  items:
+  - {ingredient: garlic, unit: clove, qty: 4, prep: thinly sliced}
+  - {ingredient: onion, qty: 1, prep: thinly sliced, note: small}
+  - {ingredient: butter, unit: tbsp, qty: 4}
+  - {ingredient: worcestershire-sauce, unit: tbsp, qty: 2}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 8}
+- name: Garnish
+  items:
+  - {ingredient: lime}
+steps:
+- Season the chicken pieces with salt. Coat with lemon juice, and let marinate for 15–20 minutes.
+- Heat the oil to about 350°F (180°C), and fry chicken until it is golden. Remove chicken from oil, and set aside to drain.
+- Sauté the garlic and onion for a minute or two. Add the remaining sauce ingredients.
+- Stir fry for a minute and then add chicken pieces. Toss to coat.
+- Serve hot with lime wedges.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAyam_Goreng_Mentega_%28Fried_Chicken_in_Sweet_Butter_Sauce%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ayam Goreng Mentega (Fried Chicken in Sweet Butter Sauce)@4510005
+    url: https://en.wikibooks.org/w/index.php?oldid=4510005
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

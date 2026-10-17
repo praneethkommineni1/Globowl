@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Banana leaves or food- and heat-safe plastic bags
+#  - unmapped ingredient: 3 cigar cups of okpa flour
+#  - unmapped ingredient: 1.2 L lukewarm water
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+id: ng-okpa
+title: Okpa
+alternate_names:
+- Boiled Bambara Bean Pudding
+summary: Okpa is a Nigerian dish made with ground bambara beans.
+origin:
+  country: NG
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 12
+time:
+  total_min: 1
+difficulty: 1
+equipment:
+- Mixing bowl
+- Chef's knife
+- Large pot
+- Stovetop
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: bouillon-cube, qty: 4, prep: crushed, note: small}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: red-palm-oil, unit: tbsp, qty: 15}
+  - {ingredient: scotch-bonnet, note: to taste}
+steps:
+- Thoroughly wash the banana leaves using water and salt.
+- Sift the okpa flour into a large bowl, and mix in the crushed stock cubes and salt. Add the palm oil, and mix very well with a wooden spoon.
+- Start adding the lukewarm water to the mixed okpa flour, mixing very well until there are no lumps. After ensuring that there are no lumps, add enough lukewarm water so that the okpa will not be hard as stone when it is done.
+- Stir in the sliced habanero pepper, and adjust the seasoning as needed.
+- Scoop some okpa mixture into transparent nylon or banana leaves—avoid adding too much—and tie them closed.
+- Set some water to boil on the stove in a big pot. Ensure the water is boiling before putting in your okpa.
+- Boil the okpa for about 1 hour before checking it. The okpa will be solid when fully cooked.
+- Serve with custard, oatmeal, or pap.
+tips:
+- Okpa does not require much seasoning because it has a naturally delicious flavor. There is no need to add ground crayfish or onions.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AOkpa_%28Boiled_Bambara_Bean_Pudding%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Okpa (Boiled Bambara Bean Pudding)@4517933
+    url: https://en.wikibooks.org/w/index.php?oldid=4517933
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup ice cold water
+#  - no time in recipe summary
+id: jp-tempura
+title: Tempura
+summary: Tempura is one of the fried foods of Japan. Various meats, fish, and vegetables are dipped in batter and then deep fried until lightly golden.
+origin:
+  country: JP
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1¾ cups (450 g) batter
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 1}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: vegetable-oil}
+  - {ingredient: beef, prep: 'vegetables, or seafood'}
+steps:
+- Heat oil in a deep pan to 340–350°F (~171–176°C).
+- Beat the egg in a bowl and add ice cold water. Warmer water will produce a sticky batter and more oily tempura.
+- Add flour and mix lightly. Do not overmix batter—a few lumps actually improve the result, adding crispiness.
+- Dip meat or vegetables briefly in the batter, and fry until brown.
+- Remove from the oil and drain.
+- Serve hot.
+tips:
+- If using shrimp, score them a few times crosswise on the underside, to prevent them from curling up during deep frying. Alternatively, skewer them before cooking. Remove the skewers before serving.
+- You may also wish to include 1 tablespoon of cornstarch in the batter.
+- Serve over white rice garnished with black sesame seeds, in a bowl of udon noodle soup, or in a bowl of soba noodle soup. Serving in soup will make the cooked batter get mushy, of course.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATempura&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tempura@4587100
+    url: https://en.wikibooks.org/w/index.php?oldid=4587100
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

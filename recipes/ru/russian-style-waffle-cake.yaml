@@ -1,0 +1,64 @@
+id: ru-russian-style-waffle-cake
+title: Russian-style Waffle Cake
+summary: This recipe is for a Russian-style waffle cake, layered with caramelized sweetened condensed milk.
+origin:
+  country: RU
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1 cake
+time:
+  total_min: 90
+difficulty: 3
+equipment:
+- Soviet-style waffle-iron for making very thin waffles
+- Mixing bowl
+- Ladle
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- name: Waffles
+  items:
+  - {ingredient: egg, qty: 6}
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: butter, unit: g, qty: 200, prep: melted}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+- name: Caramel
+  items:
+  - {ingredient: condensed-milk, unit: can, qty: 1}
+  - {ingredient: butter, unit: g, qty: 150}
+steps:
+- Crack the eggs into a mixing bowl, and add the sugar.
+- Gradually stir the flour into the egg mixture. Then, gradually mix in the melted butter.
+- Heat the waffle iron according to the manufacturer's directions until it is ready.
+- Ladle a sufficient amount of batter onto the waffle iron—it should just barely cover the surface. Close the iron, and cook until the waffle is medium-brown (about 2 minutes). Remove the cooked waffle from the iron.
+- Repeat the waffle cooking process until you have used up all the waffle batter.
+- Let the waffles cool.
+- Place the sealed can of sweetened condensed milk in a pot of water. The water should completely cover the can by several inches.
+- Bring the water to a boil, and simmer for 2–3 hours. Add more water if necessary during the cooking process—the can should always be fully covered with water.
+- Remove the cans from the heat, and let them cool completely. Do not try to open a hot can.
+- Mix the caramelized milk with the butter.
+- Place one waffle on a sheet of foil or plastic wrap. Spread some caramel on the waffle, then place another waffle on top. Repeat this process until you have used up all the waffles and caramel.
+- Wrap the cake up, and put it in the fridge for several hours.
+- Slice the cake along the lines made by the waffle-iron, and serve!
+tips:
+- If you want a big cake, double or triple the mixture. The size of the cake will vary depending on the amount of batter and the size of the waffle iron.
+- The waffles should not be thick. A rectangular waffle-iron is recommended so that the waffles are rectangular and it is easy to put the cake together.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARussian-style_Waffle_Cake&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Russian-style Waffle Cake@4587148
+    url: https://en.wikibooks.org/w/index.php?oldid=4587148
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

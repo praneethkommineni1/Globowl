@@ -1,0 +1,75 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no ingredient lines parsed
+id: de-schwarzwalder-kirschtorte
+title: Schwarzwälder Kirschtorte
+alternate_names:
+- Black Forest Cake
+summary: Schwarzwälder kirschtorte, or Black Forest gateau in English, is a German dessert.
+origin:
+  country: DE
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 12
+time:
+  total_min: 180
+difficulty: 3
+techniques:
+- baking
+- boiling
+- dough-making
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Mix the flour, cocoa and baking powder in a bowl. Mix the egg white with the sugar and vanilla sugar, then pour into a well in the middle of the flour.
+- Mix the liquid into some of the flour until it forms a porridge-like mass
+- Add the cold butter, and rub into the dough.
+- Mix in the rest of the flour and knead briefly into a ball.
+- Rest the dough in the refrigerator for 30 minutes.
+- Roll the dough out to fit the base of a 20 cm (8 inch) springform cake pan.
+- Bake at 160°C (325°F) for 20 minutes.
+- Mix the flour, cornstarch, baking powder and cocoa powder with a whisk.
+- Whisk the 4 egg yolks with the warm water until it is foamy, and little by little add ⅔ of the sugar, the vanilla sugar, almond extract, and cinnamon.
+- Whip the egg whites to stiff peaks, and beat in the rest of the sugar a little at a time.
+- Fold the beaten egg whites into the egg yolk mixture.
+- Sprinkle the flour mixture onto the egg mixture and carefully incorporate.
+- Pour into a 20 cm (8 inch) springform pan lined with parchment paper.
+- Bake at 160°C (325°F) oven for about 35 minutes until a wooden skewer or toothpick comes out clean when the cake is pierced.
+- Cool cake in pan for 15 minutes, then turn out onto a cooling rack to cool completely.
+- Drain the cherries in a sieve. Reserve the juice.
+- Begin heating ¾ of the juice in a saucepan, and mix the cornstarch with the rest.
+- When the juice starts to boil, pour a little hot juice onto the cornstarch. Mix well, then stir it back into the saucepan. Cook until the mixture has thickened.
+- Add the sugar and stir to dissolve. Mix in the cherries in, then remove from the heat and allow to cool.
+- Add the Kirschwasser.
+- Sprinkle the gelatin onto the 3 tablespoons of water, and allow to bloom for 10 minutes, stirring from time to time.
+- Heat the gelatin carefully until melted. Allow to cool to room temperature, but don't let it set.
+- Whip the cream to soft peaks, and fold in the cool but still liquid gelatin. Whip until stiff, adding vanilla sugar to taste. If you don't have vanilla sugar, use 1 tablespoon of vanilla extract and granulated sugar to taste.
+- Spread ½ the cherry mixture then ⅓ of the whipped cream mixture onto the shortcrust base.
+- Cut the cake horizontally into two layers using a length of cotton thread.
+- Press one cake layer onto the filling.
+- Spread the rest of the cherry mixture onto the cake, along with half of the remaining whipped cream.
+- Cover the filling with the last layer of cake, and spread the remaining whipped cream on top.
+- Strew the top of the torte with shaved chocolate, and decorate with glacé or maraschino cherries.
+- Refrigerate for 4 hours or longer before serving.
+tips:
+- The cake layers may optionally be sprinkled with Kirschwasser before assembly.
+- The bitter almond oil can be replaced by 2 tsp almond extract.
+- If possible, use only cherries in real maraschino liqueur, not the imitation maraschino cherries found in grocers and supermarkets.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASchwarzw%C3%A4lder_Kirschtorte_%28Black_Forest_Cake%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Schwarzwälder Kirschtorte (Black Forest Cake)@4658388
+    url: https://en.wikibooks.org/w/index.php?oldid=4658388
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: de-german-potato-salad
+title: German Potato Salad
+summary: German potato salad is a popular variation of potato salad that is generally served warm. It is typically more sour and contains pork or bacon.
+origin:
+  country: DE
+course: side
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: g, qty: 794}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 4}
+  - {ingredient: mayonnaise, unit: tbsp, qty: 1}
+  - {ingredient: cider-vinegar, unit: tbsp, qty: 5}
+  - {ingredient: dry-white-wine, unit: tbsp, qty: 2}
+  - {ingredient: beef, unit: tbsp, qty: 4}
+  - {ingredient: chicken, unit: tbsp, qty: 4}
+  - {ingredient: onion, unit: tbsp, qty: 8}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 1}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: mustard-seeds, unit: tbsp, qty: 1}
+  - {ingredient: scallion, unit: tbsp, qty: 1}
+  - {ingredient: bacon, unit: g, qty: 113}
+steps:
+- Peel, thinly slice, and boil the potatoes about 17 minutes or until done but still somewhat firm. Drain, set aside, and allow to cool.
+- Cook the bacon until crisp. Crumble or chop.
+- Reserve a small amount of bacon grease and mix with flour, breaking up all clumps of flour. Cook briefly, but try to avoid browning.
+- Add chopped bacon and remaining ingredients and mix.
+- Cook for 20 minutes or until smooth at low heat.
+- Pour sauce over potatoes and stir gently.
+- Serve warm, room temperature, or cooled.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGerman_Potato_Salad&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:German Potato Salad@4613709
+    url: https://en.wikibooks.org/w/index.php?oldid=4613709
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 20 g ají amarillo chile
+#  - unmapped ingredient: 5 g togarashi pepper powder
+id: pe-acevichada-sauce
+title: Acevichada Sauce
+summary: Acevichado sauce is a recent contribution to Peruvian cuisine that highlights the country's blend of several cultures, including the Japanese diaspora at the end of the 19th century.
+origin:
+  country: PE
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: About 6
+time:
+  total_min: 30
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: lime, unit: ml, qty: 100}
+  - {ingredient: salt, unit: g, qty: 20}
+  - {ingredient: onion, unit: g, qty: 20}
+  - {ingredient: aji-limo, unit: g, qty: 10}
+  - {ingredient: garlic, unit: g, qty: 10}
+  - {ingredient: cilantro, unit: g, qty: 5}
+  - {ingredient: bouillon-cube, unit: g, qty: 5}
+  - {ingredient: black-pepper, unit: g, qty: 5}
+  - {ingredient: vegetable-oil, unit: ml, qty: 375}
+  - {ingredient: egg, qty: 2}
+steps:
+- Pour the lime juice into a bowl.
+- Add the salt and test the flavor. It should be neither too salty nor too acidic. If needed, rectify by adding more salt or lime juice to find the right balance.
+- Add the onions, chiles, garlic, cilantro, hondashi, black pepper, and togarashi.
+- Cover with plastic wrap and reserve in the fridge for at least 15 minutes, so the flavors from the vegetables and spices can integrate into the lime juice.
+- Crack the eggs into a blender, and start blending at low speed.
+- While running the blender, very gradually start adding 250 ml of the oil until the mixture thickens to a mayonnaise consistency. Use more or less oil as needed.
+- Pause the blender, pour your leche de tigre into the mix, and start blending again.
+- Gradually stream in the remaining 125 ml oil until the mix thickens again.
+- Turn off the blender and taste for salt. If needed, add a little more salt, and blend again until it suits your taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAcevichada_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Acevichada Sauce@4629567
+    url: https://en.wikibooks.org/w/index.php?oldid=4629567
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

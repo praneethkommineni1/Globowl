@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-rugelach
+title: Rugelach
+summary: Rugelach is a Jewish pastry with a variety of fillings, such as raisins, walnuts, and sometimes chocolate.
+origin:
+  country: XX
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: raisins, unit: cup, qty: 1, prep: chopped}
+  - {ingredient: walnuts, unit: cup, qty: 1.25, prep: finely chopped}
+  - {ingredient: butter, unit: tbsp, qty: 16, prep: softened}
+  - {ingredient: cream-cheese, unit: g, qty: 227, prep: softened}
+  - {ingredient: jam, unit: cup, qty: 1}
+  - {ingredient: milk}
+steps:
+- Whisk flour and salt in a medium bowl.
+- Beat butter and cream cheese in a large bowl with a mixer until well combined.
+- Stir in flour until the contents is the consistency of dough.
+- Roll the dough into a ball and wrap in plastic; flatten into a 5 x 7 inch (12 x 17 cm) rectangle.
+- Refrigerate for 12–24 hours.
+- Line a large shallow baking pan with parchment paper. Preheat oven to 350°F (180°C).
+- Cut the chilled dough into 4 even pieces, and return all but 1 to the fridge in plastic wrap. Roll the remaining piece into a 12 x 8 inch (30 x 19 cm) rectangle on a floured surface with a floured rolling pin (to prevent sticking).
+- Put the flattened dough on parchment paper, and then return to the fridge to chill while you repeat the flattening process on all other dough quarters.
+- After you are done flattening the dough, return the last piece to the fridge.
+- Whisk the ½ cup sugar with cinnamon in a medium bowl.
+- Take one dough quarter out of the fridge and spread ¼ cup of the jam over the dough with a spatula. Over the dough, scatter ¼ cup of raisins and then walnuts, finally 2 tablespoons of the whisked cinnamon sugar.
+- Roll the dough quarter up into a tight cylinder. Place the dough cylinder seam-side down in the baking pan and close and tuck the ends.
+- Repeat the same process with the other 3 dough rectangles.
+- Finish the cylinders by brushing with milk, sprinkle each with a teaspoon of sugar. Using a large knife, score the dough cylinders with ¾ inch (2 cm) deep cuts, at one inch intervals.
+- Bake at 350°F (180°C) for 45–50 minutes.
+- Take out of the oven, cool in the pan on a wire rack for 30 minutes. Transfer cylinders to a cutting board and cut slices from the cylinders to make rugelach.
+tips:
+- Instead of using raisins, try substituting mini chocolate chips.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARugelach&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rugelach@4603658
+    url: https://en.wikibooks.org/w/index.php?oldid=4603658
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

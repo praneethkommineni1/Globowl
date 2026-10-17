@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: xx-cola-de-mono
+title: Cola de Mono
+summary: Cola de Mono.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 12
+  amount: 12 persons
+time:
+  total_min: 30
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: brandy, unit: l, qty: 0.25}
+  - {ingredient: nutmeg, qty: 1}
+  - {ingredient: cinnamon-stick, qty: 2}
+  - {ingredient: coffee, qty: 4}
+  - {ingredient: whole-cloves, qty: 4}
+  - {ingredient: water, unit: cup, qty: 0.5}
+  - {ingredient: milk, unit: cup, qty: 9}
+  - {ingredient: sugar, qty: 12}
+steps:
+- Mix the nutmeg, the cloves and the cinnamon in a small pot with the water. Boil the mixture for 10 minutes.
+- If desired, take remove the spices from the water, although it is better to leave them there.
+- Transfer the water into a pot with a capacity of 3 liters.
+- Add the coffee along with some more water and sugar.
+- As soon as the sugar gets dissolved, add the rest of the milk and the Chilean brandy.
+- Bottle the Cola de Mono and put it in the refrigerator.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACola_de_Mono&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cola de Mono@4523981
+    url: https://en.wikibooks.org/w/index.php?oldid=4523981
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

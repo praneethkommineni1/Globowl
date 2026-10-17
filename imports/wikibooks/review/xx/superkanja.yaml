@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 lb smoked catfish or any fish of your choice
+#  - course unknown from categories
+id: xx-superkanja
+title: Superkanja
+alternate_names:
+- Gambian Okra Stew
+summary: Superkanja is a highly nutritious and flavorful stew that brings together an array of leafy greens, including spinach, collards, okra, and sweet potato leaves. This dish has different variations throughout West Africa, such as the Ghanaian kontomire.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 90
+difficulty: 2
+equipment:
+- Pot
+- Stovetop
+- Cooking spoon
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 907, prep: cut into chunks}
+  - {ingredient: onion, qty: 2, prep: chopped, note: medium}
+  - {ingredient: black-pepper}
+  - {ingredient: okra, unit: g, qty: 907, prep: diced into small cubes}
+  - {ingredient: red-palm-oil}
+  - {ingredient: salt, note: to taste}
+steps:
+- Bring a pot of water to a boil and add the meat and fish. Let them boil for 15 minutes, then remove the fish from the pot.
+- To the pot, add salt, onions, pepper, and diced okra. Mix all the ingredients well.
+- Cook the mixture over medium heat for 15 minutes, then incorporate the palm oil.
+- Reduce the heat to low and let it simmer for 20 minutes, stirring occasionally.
+- Afterward, return the fish to the pot and continue simmering for 6–10 minutes on low heat.
+- Serve the superkanja stew with white rice or fufu.
+tips:
+- You can also include crabs and shrimp to enhance the dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASuperkanja_%28Gambian_Okra_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Superkanja (Gambian Okra Stew)@4518688
+    url: https://en.wikibooks.org/w/index.php?oldid=4518688
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 slice of stale french bread, per person
+#  - unmapped ingredient: 3 tbsp red port wine
+#  - unmapped ingredient: 1 cup grated Gruyère cheese
+id: fr-french-onion-soup
+title: French Onion Soup
+summary: French onion soup is a classic French soup prepared, in its most fundamental form, by boiling sliced onions in water. More complex varieties involve bouillon, wine, and spices.
+origin:
+  country: FR
+course: soup
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3–6 persons
+time:
+  total_min: 10
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 3, note: rounded}
+  - {ingredient: butter}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 1}
+  - {ingredient: chicken-stock, unit: l, qty: 1.5}
+  - {ingredient: bouquet-garni, qty: 1}
+  - {ingredient: nutmeg}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Melt the butter in a large saucepan. Stir in the onions, and let the onions blonde on moderate heat (which is to say, let them cook until they are light gold and transparent, but do not let them over-caramelize and become dark).
+- Add the flour to the onions. Stir gently for 3–4 minutes. The flour will seem to have disappeared, but has been absorbed into the butter. This will give the soup its characteristic slight thickness. Scrape up any of the dark brown butter and flour mixture that has stuck to the bottom of the saucepan; it is called fond, and will add flavour to the soup.
+- Pour ⅔ of the beef broth over the onions and mix well. Add the bouquet garni. Bring to a boil, stirring regularly.
+- Season with salt and pepper and a little nutmeg, to taste. Add the rest of the broth, and let the soup simmer gently for 10–15 minutes.
+- If your bread is fresh, then toast it now over low heat.
+- Remove the soup from the heat, and remove the bouquet garni. Add port and stir well.
+- Divide the soup into 6 oven-safe ceramic or glass bowls. Press a slice of bread into the top of each bowl of soup. Generously sprinkle grated Gruyère cheese on top. Broil on low for 10 minutes, or until the cheese is melted and browned.
+- Serve piping hot.
+tips:
+- You can use plain water instead of stock, but it is less tasty.
+- After the flour has had time to mix in butter, you can further brown the mixture in ¾ cup white wine or beer, before adding the broth. If you do this, skip adding the port later on.
+- An alternative to the port wine is dry fino sherry (e.g. Tio Pepe). The flavor will be subtly different.
+- 'In Auvergne, this dish was traditionally eaten by shepherds and drovers. Living nomadically, moving with the herds as they went, it was important for them to keep ingredients that would travel well: onions, lard, and fresh cheese made on the spot from the milk of the cows or ewes. If you would like to make a more traditional recipe, you can replace the butter with lard, and replace the Gruyére with Saint-Nectaire or Tomme cheese. As Auvergne is not wine country, you can replace the wine with a fruit brandy, like plum or pear, for a truly exceptional result.'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrench_Onion_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:French Onion Soup@4518404
+    url: https://en.wikibooks.org/w/index.php?oldid=4518404
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

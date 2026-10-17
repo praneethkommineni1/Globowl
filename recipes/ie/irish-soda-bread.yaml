@@ -1,0 +1,54 @@
+id: ie-irish-soda-bread
+title: Irish Soda Bread
+summary: Conventional bread, containing live yeast, leavens (rises) as the micro-organisms make carbon dioxide gas as a by-product of their metabolism.
+origin:
+  country: IE
+course: bread
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 65
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 3}
+  - {ingredient: baking-powder, unit: tbsp, qty: 1}
+  - {ingredient: baking-soda, unit: tsp, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 0.125}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: egg, qty: 1, prep: lightly beaten}
+  - {ingredient: buttermilk, unit: cup, qty: 2}
+  - {ingredient: butter, unit: cup, qty: 0.25, prep: melted}
+steps:
+- Preheat oven to 325°F (160°C).
+- Grease and flour a 9x5-inch loaf pan.
+- Combine flour, baking powder, baking soda, sugar, and salt in a large mixing bowl.
+- Blend egg and buttermilk together, and add all at once to the flour mixture.
+- Mix until just moistened. Too much mixing will make it tough.
+- Stir in butter; pour into prepared pan.
+- Bake for 65–70 minutes, or until a toothpick inserted in the bread comes out clean. The loaf should sound hollow if you tap the base.
+- Cool on a wire rack.
+- Wrap in tea-towel or foil several hours or overnight for best flavor.
+tips:
+- May serve toasted and buttered.
+- Soda bread rises as a result of acid being mixed with baking soda. The acid is commonly in the form of vinegar, lemon juice, or buttermilk. A tablespoon of lemon juice or vinegar in one cup of milk can be substituted for each cup of buttermilk.
+- For best results, bake it at 375°F (190°C), for about 50 minutes, on a preheated baking stone.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIrish_Soda_Bread&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Irish Soda Bread@4541030
+    url: https://en.wikibooks.org/w/index.php?oldid=4541030
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

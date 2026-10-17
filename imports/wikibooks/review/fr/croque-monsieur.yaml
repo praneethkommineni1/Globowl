@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: fr-croque-monsieur
+title: Croque Monsieur
+summary: A croque-monsieur is a French sandwich made of ham, Gruyère cheese, French bread, and Dijon mustard. Croquer means "to crunch" in French, so the name literally translates to "crunch-mister."
+origin:
+  country: FR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- name: Béchamel sauce
+  items:
+  - {ingredient: butter, unit: g, qty: 12}
+  - {ingredient: all-purpose-flour, unit: g, qty: 12}
+  - {ingredient: milk, unit: ml, qty: 125}
+  - {ingredient: dijon-mustard, unit: tsp, qty: 1}
+  - {ingredient: nutmeg, unit: pinch, qty: 1, optional: true}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+- name: Sandwich
+  items:
+  - {ingredient: white-bread, unit: slice, qty: 2}
+  - {ingredient: ham, unit: slice, qty: 2}
+  - {ingredient: cheese, unit: slice, qty: 2, prep: such as gruyère}
+  - {ingredient: egg, qty: 1}
+steps:
+- Melt the butter in a small saucepan.
+- Add the flour and stir over a medium heat until blended.
+- Gradually add the milk, whisking continuously into a smooth sauce.
+- Simmer gently for 2–3 minutes until the sauce has thickened.
+- Mix in the mustard, nutmeg, salt, and pepper. Set aside.
+- Preheat a grill to high. Lightly toast the bread on both sides under the grill.
+- Arrange slices of ham and cheese on each slice of bread, then top with béchamel sauce.
+- Place back under the grill to brown the béchamel and melt the cheese until golden brown and delicious.
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACroque_Monsieur&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Croque Monsieur@4628600
+    url: https://en.wikibooks.org/w/index.php?oldid=4628600
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

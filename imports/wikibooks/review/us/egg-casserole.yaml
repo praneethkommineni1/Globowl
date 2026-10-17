@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 cups grated Velveeta cheese
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-egg-casserole
+title: Egg Casserole
+summary: Egg casserole is great at any time of the day and is good to serve when family gets together or in other large groups.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: white-bread, unit: slice, qty: 8}
+  - {ingredient: egg, qty: [7, 8]}
+  - {ingredient: milk, unit: cup, qty: 2}
+  - {ingredient: butter, qty: 1, prep: melted}
+  - {ingredient: ham, unit: cup, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: mustard-seeds, unit: tbsp, qty: 1}
+  - {ingredient: red-bell-pepper, qty: 1, prep: 'paprika, and garlic powder'}
+steps:
+- Put bread in a greased 9 x 13-inch pan.
+- Mix melted butter, milk, seasonings, and beaten eggs.
+- Pour mixture over bread.
+- Sprinkle with diced ham and top with grated cheese.
+- Refrigerate overnight.
+- Bake for 1 hour at 350°F.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgg_Casserole&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egg Casserole@4613425
+    url: https://en.wikibooks.org/w/index.php?oldid=4613425
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

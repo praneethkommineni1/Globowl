@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: lr-liberian-jollof-rice
+title: Liberian Jollof Rice
+summary: Liberian Jollof Rice.
+origin:
+  country: LR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 2, prep: cut into cubes, note: large}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: red-chili, note: to taste}
+  - {ingredient: vegetable-oil, unit: cup, qty: 1}
+  - {ingredient: onion, qty: 1, prep: neatly chopped, note: large}
+  - {ingredient: pork, unit: g, qty: 907, prep: cut into cubes}
+  - {ingredient: corn-kernels, qty: 2, prep: thawed and drained}
+  - {ingredient: tomato-paste, qty: 2}
+  - {ingredient: bouillon-cube, qty: 4, prep: crushed}
+  - {ingredient: shrimp, unit: g, qty: 1361, optional: true}
+  - {ingredient: red-bell-pepper, unit: cup, qty: 2}
+  - {ingredient: long-grain-rice, unit: cup, qty: 5, prep: rinsed}
+steps:
+- Season the chicken with salt and red pepper. Leave it to stand for about 5 minutes.
+- In a frying pan, brown the chicken in hot vegetable oil. Then transfer the chicken to a large pot.
+- In the same frying pan, add the onions and beef or pork. Fry lightly and add to the pot with the chicken.
+- Combine the mixed vegetables, tomato paste, bouillon cubes, salt to taste, shrimp, and bell pepper. Leave to simmer for about 10 minutes.
+- Add the rice, stir well, and cook over low heat for about 40–45 minutes.
+- Serve hot.
+tips:
+- Ingredients for this recipe vary between people. Some people might use shrimp, curry powder, or even thyme to prepare it—it just depends on what you like and what you want to see in your food.
+- For the vegetables you can make use of any okay by you (e.g. spring onions, red beans, etc)
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALiberian_Jollof_Rice&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Liberian Jollof Rice@4514098
+    url: https://en.wikibooks.org/w/index.php?oldid=4514098
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

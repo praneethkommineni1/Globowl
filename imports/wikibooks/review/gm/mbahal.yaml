@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 500 g Gambian smoked fish
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: gm-mbahal
+title: Mbahal
+alternate_names:
+- Gambian Fish and Okra
+summary: Mbahal is a traditional Gambian dish that showcases the rich flavors of smoked fish, dried okra, and palm oil. It is a popular delicacy in Gambia, particularly among the Mandinka ethnic group.
+origin:
+  country: GM
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: red-palm-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 2, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: tomato, qty: 2, prep: diced}
+  - {ingredient: red-bell-pepper, qty: 2, prep: diced}
+  - {ingredient: red-chili, qty: 2, prep: finely chopped}
+  - {ingredient: okra, unit: cup, qty: 1, prep: finely ground}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 1}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- If the smoked fish still has bones, carefully debone it and flake the flesh into small pieces. Set aside.
+- In a large pot or saucepan, heat the palm oil over medium heat.
+- Add the chopped onions and minced garlic. Sauté until they become soft and translucent.
+- Add the diced tomatoes, diced bell peppers, and finely chopped Scotch bonnet peppers to the pot. Stir well to combine. Cook for a few minutes until the vegetables begin to soften.
+- Add the dried, ground okra to the pot, stirring continuously to prevent lumps from forming.
+- Stir in the tomato paste, ground ginger, ground coriander, and ground cayenne pepper (if using). Mix well to combine all the ingredients.
+- Reduce the heat to low and cover the pot. Allow the mixture to simmer for about 15–20 minutes, or until the okra is cooked and the flavors have melded together.
+- Add the flaked smoked fish to the pot and gently stir it into the stew. Be careful not to break up the fish too much.
+- Taste the mbahal and adjust the seasoning with salt and pepper according to your preference.
+- Serve hot with a side of steamed rice or couscous.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMbahal_%28Gambian_Fish_and_Okra%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mbahal (Gambian Fish and Okra)@4514100
+    url: https://en.wikibooks.org/w/index.php?oldid=4514100
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

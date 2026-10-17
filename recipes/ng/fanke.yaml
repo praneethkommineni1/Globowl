@@ -1,0 +1,51 @@
+id: ng-fanke
+title: Fanke
+alternate_names:
+- Hausa Puff Puff
+summary: Fanke is a Nigerian fritter made with wheat flour or semovita. It is commonly eaten in the Northern part of Nigeria, especially among the Hausa people.
+origin:
+  country: NG
+course: snack
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3 servings
+time:
+  total_min: 120
+difficulty: 3
+equipment:
+- Pan for deep frying
+- Sieve
+- Mixing Bowl
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 3}
+  - {ingredient: yeast, unit: tbsp, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: baking-powder, unit: tsp, qty: 1.5}
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: vanilla-extract, note: to taste}
+  - {ingredient: vegetable-oil}
+steps:
+- Sift the flour into a clean bowl. Mix in the yeast, sugar, and baking powder.
+- Stir in the warm water and vanilla to make a thick batter.
+- Cover the bowl, and let rise for about 1 hour.
+- Heat enough oil in a pan for deep-frying. Shape the batter into balls, and drop them into the hot oil in batches.
+- Deep fry the fritters until golden brown on all sides.
+- Remove from the oil and let drain.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFanke_%28Hausa_Puff_Puff%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fanke (Hausa Puff Puff)@4603834
+    url: https://en.wikibooks.org/w/index.php?oldid=4603834
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

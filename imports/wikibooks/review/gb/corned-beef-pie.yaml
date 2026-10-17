@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 large tin of corned beef
+#  - no difficulty in recipe summary
+id: gb-corned-beef-pie
+title: Corned Beef Pie
+summary: Corned beef pie is a traditional British pie. It can be eaten hot or cold, making it good for picnics and also as a 'winter warmer'.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8
+time:
+  total_min: 60
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 340}
+  - {ingredient: lard, unit: g, qty: 85}
+  - {ingredient: margarine, unit: g, qty: 85}
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: potato, unit: g, qty: 454}
+  - {ingredient: butter, qty: 1}
+  - {ingredient: milk}
+steps:
+- Preheat the oven to 200°C (400°F, GM 6).
+- Sift the flour into a bowl. Rub in the lard and margarine.
+- Add enough water to bind the mixture into a dough.
+- Roll out half the dough and use it to line a large flan or quiche dish.
+- Boil the potatoes. Drain, add the butter, and mash.
+- Add the chopped onion and corned beef.
+- Spoon potato mixture into the lined dish.
+- Roll out the other half of the pastry mixture.
+- Lay it over the dish sealing at the edges, forming a lid to the pie.
+- Cut some slits in the top of the lid. Brush with a little milk.
+- Cook until golden brown (about 35–40 minutes).
+- Serve with vegetables, gravy, chips, peeled plum tomatoes, waffles, anything you like really.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACorned_Beef_Pie&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Corned Beef Pie@4523289
+    url: https://en.wikibooks.org/w/index.php?oldid=4523289
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

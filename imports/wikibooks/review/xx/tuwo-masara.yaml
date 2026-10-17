@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Corn flour
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-tuwo-masara
+title: Tuwo Masara
+alternate_names:
+- Nigerian Corn Fufu
+summary: Tuwo Masara is a swallow food made from corn popular amongst the hausa and Fulani people. it is also known as Corn Fufu.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Sieve
+- Pot
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Boil water in a pot; In a medium-sized pot, bring about 4 cups of water to a boil. Reserve the remaining 1 cup of water for adjustments.
+- Add corn flour gradually, stirring until it forms a thick and stretchy mix.
+- Add a little water to the mixture until it reaches your desired consistency. Cover the pot and cook for a few minutes.
+- Mould tuwo masara into balls and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATuwo_Masara_%28Nigerian_Corn_Fufu%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tuwo Masara (Nigerian Corn Fufu)@4518769
+    url: https://en.wikibooks.org/w/index.php?oldid=4518769
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

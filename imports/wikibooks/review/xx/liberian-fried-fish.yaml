@@ -1,0 +1,70 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-liberian-fried-fish
+title: Liberian Fried Fish
+summary: Liberian fried fish is a popular and delicious dish in Liberia. Made with fresh fish and a flavorful spice blend, this dish is crispy on the outside and tender on the inside, making it a delightful meal for seafood lovers.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Cutting board
+- Knife
+- Large bowl
+- Deep frying pan or pot
+- Tongs or slotted spoon
+- Paper towels
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: fish, unit: g, qty: 907}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: paprika, unit: tsp, qty: 0.5}
+  - {ingredient: garlic-powder, unit: tsp, qty: 0.5}
+  - {ingredient: onion-powder, unit: tsp, qty: 0.5}
+  - {ingredient: cayenne, unit: tsp, qty: 0.5, optional: true}
+  - {ingredient: buttermilk, unit: cup, qty: 0.5}
+  - {ingredient: vegetable-oil, prep: for frying}
+steps:
+- Clean and gut the fish, removing any scales and innards. Rinse the fish thoroughly under cold running water and pat them dry with paper towels.
+- In a large bowl, mix the all-purpose flour, salt, ground black pepper, paprika, garlic powder, onion powder, and cayenne pepper (if using).
+- Pour the buttermilk into another bowl.
+- Dip each fish into the buttermilk, allowing any excess to drip off, and then coat the fish with the seasoned flour mixture, pressing the flour onto the fish to adhere.
+- Heat about 1 inch of vegetable oil in a deep frying pan or pot over medium-high heat. To test if the oil is hot enough, drop a small piece of bread into the oil; it should sizzle and turn golden brown.
+- Carefully place the coated fish in the hot oil, working in batches if necessary to avoid overcrowding the pan.
+- Fry the fish for about 3–4 minutes per side, or until they are golden brown and cooked through. Use tongs or a slotted spoon to flip the fish during frying.
+- Remove the fried fish from the oil and place them on a plate lined with paper towels to drain any excess oil.
+- Serve the fish hot, with your favorite side dishes like plantains, rice, or salad.
+tips:
+- You can adjust the level of spiciness by increasing or decreasing the amount of cayenne pepper in the seasoning mixture.
+- For a gluten-free version, you can use cornmeal or rice flour instead of all-purpose flour.
+- Make sure the oil is hot enough before frying to ensure that the fish comes out crispy and not greasy.
+- Leftover fried fish can be stored in an airtight container in the refrigerator for up to 2 days. To reheat, place the fish in the oven at 350°F (175°C) for a few minutes until warmed through.
+- Fish is a rich source of protein and essential omega-3 fatty acids.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALiberian_Fried_Fish&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Liberian Fried Fish@4511462
+    url: https://en.wikibooks.org/w/index.php?oldid=4511462
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

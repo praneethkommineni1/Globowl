@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 100 g almond flour
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: fr-gateau-nantais
+title: Gâteau Nantais
+alternate_names:
+- Nantes Cake
+summary: Gâteau nantais is a kind of pound cake made with almond flour and rum.
+origin:
+  country: FR
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- name: Cake
+  items:
+  - {ingredient: butter, unit: g, qty: 125, prep: softened}
+  - {ingredient: sugar, unit: g, qty: 150}
+  - {ingredient: egg, qty: 3}
+  - {ingredient: all-purpose-flour, unit: g, qty: 40}
+  - {ingredient: rum, unit: tbsp, qty: 2}
+- name: Soak
+  items:
+  - {ingredient: rum, unit: tbsp, qty: 2}
+  - {ingredient: water, unit: tbsp, qty: 2}
+- name: Glaze
+  items:
+  - {ingredient: rum, unit: tbsp, qty: 2}
+  - {ingredient: powdered-sugar, unit: g, qty: 50}
+steps:
+- Cream the butter and sugar for 2–3 minutes by hand or using a mixer at low speed.
+- Add almond flour, and mix to combine.
+- In a large bowl, beat the eggs with a fork. Incorporate them into the butter and sugar mixture.
+- Add the flour and 2 tablespoons of rum.
+- Pour the batter into a buttered cake pan.
+- Bake for 45 minutes at gas mark 5 (150 °C).
+- As soon as you take the cake out of the oven, sprinkle the cake with mix of 2 tablespoons of rum and 2 tablespoons of water. Cool completely, then unmold.
+- When the cake is cold, make the icing by combining the icing sugar and rum. Add a few drops of water if necessary, stirring well between each addition of water, to make a thick but flowing glaze.
+- Pour the icing on the cake, and spread it well.
+tips:
+- For this cake, it is best to glaze and serve the day after it is baked and soaked.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AG%C3%A2teau_Nantais_%28Nantes_Cake%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gâteau Nantais (Nantes Cake)@4517001
+    url: https://en.wikibooks.org/w/index.php?oldid=4517001
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

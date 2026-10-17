@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3 cup mini marshmallows
+id: au-rocky-road-confectionery
+title: Rocky Road Confectionery
+summary: Rocky road is a type of confectionery commonly made in Australia. It is made from chunks of marshmallow in a matrix of chocolate. Common optional ingredients include peanuts and blobs of chewy, coloured gelatine-based sweets, similar to jubes.
+origin:
+  country: AU
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 64
+  amount: 64 (1-inch) pieces
+time:
+  total_min: 10
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: chocolate, unit: g, qty: 340}
+  - {ingredient: milk, unit: tbsp, qty: 2}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: walnuts, unit: cup, qty: 0.75, prep: shelled and chopped}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+steps:
+- Measure all ingredients.
+- Butter an 8x8x2-inch square pan. Reserve.
+- Place chocolate morsels, milk and butter into a heavy-bottomed pot. Set heat control dial at 350°F (175°C).
+- Begin stirring immediately. Stir constantly until chocolate is melted and milk and butter are incorporated. Stir in remaining ingredients.
+- Spread the mixture into the prepared pan.
+- Refrigerate until firm, about 2 hours.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARocky_Road_Confectionery_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rocky Road Confectionery I@4523409
+    url: https://en.wikibooks.org/w/index.php?oldid=4523409
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

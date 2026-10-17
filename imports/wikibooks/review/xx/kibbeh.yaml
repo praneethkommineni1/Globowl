@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 0.5 kg coarse bulgur
+#  - unmapped ingredient: replete spoon of salt
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-kibbeh
+title: Kibbeh
+summary: Kibbeh.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- dough-making
+- pan-frying
+ingredient_groups:
+- name: Filling
+  items:
+  - {ingredient: beef, unit: kg, qty: 1}
+  - {ingredient: onion, qty: [6, 7], prep: finely chopped}
+  - {ingredient: salt}
+  - {ingredient: raisins, optional: true}
+  - {ingredient: pine-nuts, optional: true}
+  - {ingredient: paprika, optional: true}
+- name: Dough
+  items:
+  - {ingredient: fine-bulgur, unit: kg, qty: 0.5}
+  - {ingredient: water}
+  - {ingredient: semolina, unit: cup, qty: 2}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1}
+  - {ingredient: egg, qty: 1}
+steps:
+- Fry the onions and the minced meat together. Add salt to taste.
+- Mix in raisins, pine nuts, and spices to taste.
+- Cool filling.
+- Combine the fine and coarse bulgur in a bowl. Cover the bulgur with a few centimeters of warm water. Let the bulgur soak for about 1 hour until it has absorbed some water.
+- Drain the bulgur. Use your hands to squeeze excess water out. Place drained bulgur in a bowl.
+- Combine semolina, turmeric, salt, and egg in a bowl. Knead everything together until the dough gets a little like chewing gum. Add up to ½ cup more more semolina if the dough is not sticky enough.
+- Roll big balls out of the dough and set them aside.
+- Make an opening in the dough balls, insert a spoonful of meat, and close the opening.
+- In a pot, boil water with little salt and a dash of turmeric. When the water is boiling, flatten the stuffed Kibbeh balls into the shape of a flat full moon the size of a little plate. Put each kibbeh gently down into the boiling water, and boil it until it floats. Floating is a sign of the kibbeh being cooked through and ready to eat.
+- Serve immediately after they are cooked, or pan fry on both sides.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKibbeh&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kibbeh@4512849
+    url: https://en.wikibooks.org/w/index.php?oldid=4512849
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

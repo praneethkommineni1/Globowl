@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 500 g turtle meat steak
+#  - no procedure steps
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-bife-de-tartaruga
+title: Bife de tartaruga
+summary: Bife de Tartaruga (Turtle Steak) is a traditional dish historically associated with some coastal communities in Cape Verde. It consists of turtle meat seasoned with garlic, citrus juice, and spices, then grilled or pan-fried.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: lime-juice, unit: tbsp, qty: 2}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 1}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: onion, qty: 1, prep: sliced, note: small}
+  - {ingredient: parsley, prep: chopped}
+steps:
+- (missing)
+tips:
+- Add chili peppers for a spicier version.
+- Use lemon juice instead of lime juice.
+- Marinate overnight for a stronger flavor.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABife_de_tartaruga&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bife de tartaruga@4638938
+    url: https://en.wikibooks.org/w/index.php?oldid=4638938
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

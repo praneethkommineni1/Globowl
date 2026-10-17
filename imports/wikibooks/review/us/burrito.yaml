@@ -1,0 +1,95 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (US, MX): confirm the country of origin
+#  - unmapped ingredient: Large flour tortilla
+#  - unmapped ingredient: Beans
+#  - unmapped ingredient: Picadillo
+#  - unmapped ingredient: Shredded cheese
+#  - unmapped ingredient: Salsa
+#  - unmapped ingredient: Guacamole
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+id: us-burrito
+title: Burrito
+summary: A burrito is a flour tortilla filled with some filling. Generally, the filling includes meat such as pork, beef, or chicken, but also often includes beans and/or rice. Vegetarian burritos are also common.
+origin:
+  country: US
+  also_claimed_by:
+  - MX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- pressure-cooking
+- simmering
+ingredient_groups:
+- name: Base
+  items:
+  - {ingredient: long-grain-rice, optional: true}
+- name: Possible fillings
+  items:
+  - {ingredient: pork}
+  - {ingredient: beef}
+  - {ingredient: chicken}
+  - {ingredient: fish}
+  - {ingredient: shrimp}
+  - {ingredient: chorizo}
+  - {ingredient: refried-beans}
+  - {ingredient: ground-cumin}
+  - {ingredient: tomato}
+  - {ingredient: olives}
+  - {ingredient: lettuce}
+  - {ingredient: cilantro}
+  - {ingredient: avocado}
+  - {ingredient: onion, prep: raw or sautéed}
+  - {ingredient: garlic, prep: raw or sautéed}
+  - {ingredient: mushroom}
+  - {ingredient: red-chili}
+  - {ingredient: sour-cream}
+steps:
+- If using dried beans, wash them and examine them for any rocks, then soak overnight in plenty of water. Discard the soak water before cooking—your pot plants will love it!
+- 'Cook the beans until soft:'
+- If using a stove-top method, simmer them in lots of water until they are very soft. You'll need to cook the beans a very long time on very low heat. You may add salt or black pepper to the water. You may add onion halves or a ham bone, which you can remove at the end. Changing the water from time to time will reduce the risk of gas. Expect the cooking to take at least 3 hours, if not 6 or more.
+- If using a pressure cooker, place the beans and some flavoring (typically salt) in enough water to cover all the beans fully, and bring to pressure. Keep the pressure for about 20 minutes, turn off the heat, and let the pressure fall naturally (about 15 minutes).
+- If desired, smash the beans, perhaps with a potato masher.
+- Season with spices as desired.
+- Get a large wide pot or tall-sided frying pan.
+- Add any uncooked meats to the pan and fry, stirring to ensure it browns all over. If using a ground (minced) meat, break it up as it cooks. Drain any excess grease.
+- Add spices and other flavorings as necessary.
+- If using rice, rinse rice well until the water runs clear.
+- Add 2 cups of water per 1 cup of rice, bring to a boil, then reduce to the lowest heat and simmer for 15–20 minutes.
+- Set aside with the lid secured for at least 5 minutes before use.
+- Soften the tortillas by heating them up. Use a small amount of oil to prevent sticking if heating in a pan that isn't non-stick. If heating them in an oven, cover with aluminium foil to protect the tortillas from moisture loss.
+- Position a tortilla flat on a suitable surface such as a kitchen counter top.
+- Place your desired fillings on the tortilla in any order, leaving a border of at least a couple inches all around.
+- Fold the bottom flap up. A small flap will allow the fillings to escape from the finished burrito.
+- Bring the side up and over your filling. Tucking the edge of the tortilla under your filling is an excellent extra step.
+- Create a small fold with the remaining side of the tortilla. This is the key to maintaining burrito integrity. Failure is a given if you do not follow this step! The small, diagonal flap is an extra "lock" for the bottom flap of the tortilla—without it, the weight of the filling has the power to force the bottom flap right out of itself.
+- Bring the remaining tortilla flap over the filling.
+- Eat with confidence, though the fillings may be very hot.
+tips:
+- 12-inch tortillas are suggested. If you can find bigger tortillas, use them!
+- When using beans alone, you might want to add up to 20% home-rendered lard (lard substitutions are obvious, but will lack flavor).
+- Common ingredients in Mexican burritos include fried pork (carnitas), marinated grilled steak (carne asada), marinated grilled chicken (pollo asado), stewed pork (al pastor), pork in green chile sauce (chile verde), fried fish, beef tongue (lengua), beef brains (cabeza), goat meat (birria), tripe (tripas), and chicharrones (fried pork rinds, stewed).
+- The Mission burrito generally combines whole beans (sometimes refried beans), Mexican rice, traditional Mexican meats (sometimes ground beef), with optional grated cheese, sour cream, guacamole, sliced jalapenos, salsa fresca/salsa cruda, and sometimes shredded lettuce.
+- A smothered ("wet") burrito is generally a Mission burrito with enchilada sauce, either "red" or "green", poured over it, with grated cheese topping it. it is meant to be eaten with a knife and fork, not held in the hand as other burritos can be.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABurrito&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Burrito@4642284
+    url: https://en.wikibooks.org/w/index.php?oldid=4642284
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

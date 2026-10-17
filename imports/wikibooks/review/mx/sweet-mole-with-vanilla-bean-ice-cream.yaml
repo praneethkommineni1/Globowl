@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+id: mx-sweet-mole-with-vanilla-bean-ice-cream
+title: Sweet Mole with Vanilla Bean Ice Cream
+summary: Sweet Mole with Vanilla Bean Ice Cream.
+origin:
+  country: MX
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 30
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: red-chili, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 0.75}
+  - {ingredient: whole-cloves, qty: 1}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.5}
+  - {ingredient: chocolate, unit: g, qty: 113, prep: cut into pieces}
+  - {ingredient: vanilla-extract, unit: cup, qty: 2}
+steps:
+- Wash, devein, and remove seeds from chile ancho.
+- Boil the chile, then blend with the smallest amount of water possible.
+- Strain off water.
+- In a saucepan, add pureed chile, piloncillo, clove, cinnamon and chocolate.
+- Boil for 3 minutes.
+- Remove clove.
+- To serve, allow vanilla ice cream to soften slightly in a bowl and stir in mole.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASweet_Mole_with_Vanilla_Bean_Ice_Cream&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sweet Mole with Vanilla Bean Ice Cream@4587356
+    url: https://en.wikibooks.org/w/index.php?oldid=4587356
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

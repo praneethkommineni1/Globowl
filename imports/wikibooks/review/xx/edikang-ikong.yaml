@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no Ingredients section
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: xx-edikang-ikong
+title: Edikang Ikong
+summary: Edikang Ikong Soup is a Nigerian most popular delicacy that is prepared using Pumpkin Leaf and Water leaf. It is highly nutritional and very easy to prepare. Edikang Ikong translates as Cooked Vegetable Soup in English language.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Add a half spoon of salt to water and Wash your meat and cow skin thoroughly.
+- After washing put into a clean pot, add a pinch of salt, pepper and seasoning cube and onions to taste and place on fire. When it boils, add the unshelled periwinkle, washed dried fish and Stock fish and a half cup of water, cook it till it is done and set aside.
+- While stock is on fire, wash your pumpkin leaf and waterleaf and onions dice them separately.
+- Sieve water from your prepared stock and keep aside.
+- Place the stock on fire, add Palm oil, either half or a full bottle, add crayfish, pepper, salt, seasoning cubes (2knorr depending on the size of soup), stir well to incorporate everything till it boils.
+- Add the waterleaf, stir it add onions and pumpkin leaf, stir and cover the pot to cook for 2 minutes
+- Enjoy with any swallow of your choice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEdikang_Ikong&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Edikang Ikong@4522969
+    url: https://en.wikibooks.org/w/index.php?oldid=4522969
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

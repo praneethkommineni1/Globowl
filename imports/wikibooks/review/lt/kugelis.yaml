@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: lt-kugelis
+title: Kugelis
+alternate_names:
+- Lithuanian Baked Potato Pudding
+summary: Kugelis, also called bulvių plokštainis (literally "flat potato dish") or banda, is a Lithuanian baked potato pudding. Its main ingredients are potatoes, bacon, milk, onions, and eggs. It may be spiced with salt, black pepper, bay leaves, and/or marjoram.
+origin:
+  country: LT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: g, qty: 2268, prep: peeled and grated}
+  - {ingredient: onion, qty: 2, prep: grated, note: medium}
+  - {ingredient: bacon, unit: g, qty: 454, prep: fried and crumbled}
+  - {ingredient: butter, qty: 1, prep: melted}
+  - {ingredient: egg, qty: 6}
+  - {ingredient: evaporated-milk, qty: 1, note: large}
+  - {ingredient: salt, unit: tsp, qty: 4}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Combine the grated potatoes and onions.
+- Fry and crumble bacon. Add to the potato mixture along with ¼ cup bacon fat. Mix well.
+- Beat the eggs, and stir in the evaporated milk, melted butter, salt, and pepper.
+- Mix the egg mixture into the potato mixture.
+- Pour into a well-greased 9x13-inch cake pan—it should just barely fit.
+- Bake at 350°F (175°C) for 90 minutes.
+- Slice into squares, and top with sour cream or applesauce.
+tips:
+- Leftovers are best reheated sliced thin and sautéed in melted butter. Kugelis also reheats well in the microwave and freezes well.
+- Do not drain the liquid from the potatoes and onions.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKugelis_%28Lithuanian_Baked_Potato_Pudding%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kugelis (Lithuanian Baked Potato Pudding)@4517930
+    url: https://en.wikibooks.org/w/index.php?oldid=4517930
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

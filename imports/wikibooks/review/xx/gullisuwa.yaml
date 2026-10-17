@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1/2 cup powdered milk
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: xx-gullisuwa
+title: Gullisuwa
+alternate_names:
+- Nigerian Milk Balls
+summary: Gullisuwa is a type of fritter commonly eaten in the northern part of Nigeria during festive periods and weddings, and as street food.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 50
+difficulty: 2
+equipment:
+- Bowl
+- Wooden spoon
+- Frying pan
+- Sieve
+techniques:
+- deep-frying
+ingredient_groups:
+- items:
+  - {ingredient: sugar, unit: cup, qty: 0.25}
+  - {ingredient: cornstarch, unit: tbsp, qty: 2}
+  - {ingredient: vanilla-extract}
+  - {ingredient: water}
+  - {ingredient: vegetable-oil}
+steps:
+- Combine powdered milk, sugar, cornstarch, and vanilla powder in a bowl. Mix thoroughly.
+- Mix in enough water to form a dough.
+- Grease your hands with vegetable oil, and roll the dough into small balls.
+- Deep fry the dough in a pan of hot vegetable oil until browned all over.
+- Use spoon to remove the fritters from the oil and drain in a sieve.
+- Serve fresh.
+tips:
+- Different variety of gullisuwa can be made by adding chilli pepper, cashew nuts, and coconut.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGullisuwa_%28Nigerian_Milk_Balls%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gullisuwa (Nigerian Milk Balls)@4540972
+    url: https://en.wikibooks.org/w/index.php?oldid=4540972
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

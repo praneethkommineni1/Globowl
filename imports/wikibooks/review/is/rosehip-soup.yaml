@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 litre fresh rosehips
+#  - unmapped ingredient: For each litre, 1 liquid quart of rosehip pulp
+#  - unmapped ingredient: 1 1/2 tablespoon potato flour
+id: is-rosehip-soup
+title: Rosehip Soup
+summary: This is the basic recipe and method for Jewish rosehip soup. It is also popular in Iceland and parts of Scandinavia, where, because of the cold temperatures, it's often used for colds and sore throats.
+origin:
+  country: IS
+course: soup
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8
+time:
+  total_min: 10
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: l, qty: 2}
+  - {ingredient: sugar, unit: tbsp, qty: 1.5}
+  - {ingredient: almonds, unit: cup, qty: 0.25}
+steps:
+- Rinse the rosehips. Crush dried hips. Boil in water till soft.
+- Press through a colander. Measure the pulp and dilute with water if necessary.
+- Bring the pulp to a boil and add sugar. Add more sugar if it is too tart.
+- Mix potato flour with some cold water. Thicken the soup while you stir and bring to a boil. Add blanched and shredded almond.
+tips:
+- Hot soup is often served with vanilla ice cream and/or macaroons.
+- Cold soup can be diluted to make a nice thirst-quencher.
+- The Icelandic recipe differs in that it contains less sugar (approx. 1 tbsp) and cornstarch is used to thicken it, not potato flour.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARosehip_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rosehip Soup@4525539
+    url: https://en.wikibooks.org/w/index.php?oldid=4525539
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Dry ground cayenne pepper
+id: ng-nigerian-pancakes
+title: Nigerian Pancakes
+summary: Nigerian Pancakes are thin, savoury or lightly sweetened pancakes commonly prepared in Nigeria.
+origin:
+  country: NG
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 15
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 500}
+  - {ingredient: milk, unit: cup, qty: 0.5}
+  - {ingredient: sugar, unit: cup, qty: 0.333}
+  - {ingredient: egg, qty: 3}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: water, unit: l, qty: 1}
+  - {ingredient: vegetable-oil}
+steps:
+- Break the eggs into a bowl, beat thoroughly, and mix with part of the water until well combined.
+- Sift the flour into the mixture, stir until smooth, then add the evaporated milk, sugar, and salt.
+- Gradually add the remaining water while mixing continuously to form a smooth, lump-free batter.
+- Heat a lightly oiled frying pan and pour in a thin layer of batter, spreading it evenly across the pan.
+- Cook on medium heat until the top sets, flip to fry the other side until golden brown, then repeat with the remaining batter.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Pancakes&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Pancakes@4638754
+    url: https://en.wikibooks.org/w/index.php?oldid=4638754
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

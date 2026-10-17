@@ -1,0 +1,74 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/4 cup moderately hot water, about 110 °F
+#  - unmapped ingredient: 1 cup crème fraîche, commercial or home made
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: fr-flammekueche
+title: Flammekueche
+alternate_names:
+- Bacon and Onion Flatbread
+summary: Flammkuchen or tarte flambée is a well-known Alsacian speciality. It is like pizza in that a thin crust of dough is baked in a very hot oven, but its topping is primarily crème fraîche, onions, and bacon.
+origin:
+  country: FR
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- pan-frying
+ingredient_groups:
+- name: Starter
+  items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 0.25}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: yeast, qty: 1}
+- name: Dough
+  items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: beer, unit: cup, qty: 0.25}
+  - {ingredient: milk, unit: tbsp, qty: 6}
+- name: Topping
+  items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: medium}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: nutmeg, unit: pinch, qty: 4}
+  - {ingredient: bacon, unit: g, qty: 85, prep: cut into matchsticks}
+steps:
+- Mix the starter ingredients together in a small bowl, cover tightly, and set aside in a warm place for 30 minutes.
+- When the starter is light and bubbly, mix the beer and milk into the mixture.
+- Put the flour and salt into a food processor, then, with the motor running, add the yeast mixture through the feeding tube. Process the dough until it forms a ball. Add very small amounts of additional flour or milk if necessary.
+- Process the ball until it is smooth, elastic, and warm, about 45 seconds to 1 minute.
+- Butter a medium-sized bowl, roll the ball around in the butter, then cover and let rise in a warm place until doubled. Punch down and let rise a second time.
+- While the dough is rising, heat 1 tablespoon of the oil in a nonstick skillet. Add the onion and cook, stirring, over low heat for 5 minutes or until golden brown. Let cool.
+- Combine the crème fraîche, salt, pepper, and nutmeg. Add the cooled onion.
+- Heat the remaining oil in the skillet and fry the bacon until lightly browned, stirring constantly. Remove and drain through a strainer.
+- Preheat the oven to 450 °F (220 °C) or as hot as it will go. If using a pizza stone, preheat the oven for at least 30 minutes.
+- Lightly oil a 14 x 16 inch (35 x 40 cm) baking sheet. Roll the dough until slightly smaller than the baking sheet. Place it on the sheet. If using a pizza stone you may roll the dough onto a sheet of parchment paper.
+- Spread the onion mixture over the dough, leaving a very small raised rim all the way around, then dot with the bacon.
+- Bake for 4 to 20 minutes depending on oven temperature. The tart should is lightly browned and bubbling. Burned/blackened edges are traditional. Serve very hot.
+tips:
+- Some recipes, like the one used by restaurants in Strasbourg, do not use yeast in the dough.
+- To make crème fraîche, combine 1 cup heavy cream with 2 tbsp cultured buttermilk, stir, cover with plastic wrap, and leave at room temperature for 12 to 24 hours, or until it has become very thick. Refrigerate, and it will become even thicker.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFlammekueche_%28Bacon_and_Onion_Flatbread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Flammekueche (Bacon and Onion Flatbread)@4511053
+    url: https://en.wikibooks.org/w/index.php?oldid=4511053
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

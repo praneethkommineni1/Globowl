@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Tartar sauce
+#  - unmapped ingredient: Crushed potato chips
+#  - course unknown from categories
+id: co-mazorca-desgranada
+title: Mazorca Desgranada
+alternate_names:
+- Colombian Beef Salad
+summary: La mazorca desgranada is typical northern Colombian coast fast food recipe. Is is made of sweet corn, beef, cheese, crushed potato chips, and tartar sauce.
+origin:
+  country: CO
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3–4
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 227, prep: cut into thin strips}
+  - {ingredient: allspice}
+  - {ingredient: black-pepper}
+  - {ingredient: salt}
+  - {ingredient: worcestershire-sauce}
+  - {ingredient: lettuce, qty: 0.5, prep: thinly sliced, note: small}
+  - {ingredient: monterey-jack, unit: g, qty: 113}
+  - {ingredient: corn-kernels, unit: can, qty: 1}
+steps:
+- Fry beef in a medium skillet. Season with allspice, pepper, salt, and Worcestershire sauce.
+- Heat corn in warm water, then drain well.
+- Place lettuce into serving dish.
+- Place corn over the lettuce.
+- Add shredded cheese on top of the corn.
+- Top with beef.
+- Cover everything with crushed potato chips.
+- Pour tartar sauce all over the dish, and enjoy.
+tips:
+- This recipe is similar to KFC bowls. You can eliminate beef, or replace it with chicken, bacon, pork, sausage, hot dog, and others. You can also mix tartar sauce with ketchup and/or mustard.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMazorca_Desgranada_%28Colombian_Beef_Salad%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mazorca Desgranada (Colombian Beef Salad)@4515033
+    url: https://en.wikibooks.org/w/index.php?oldid=4515033
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 6 lb tripe, cut into 2-inch squares
+#  - unmapped ingredient: 1 calf's foot, boned and cut into pieces
+#  - unmapped ingredient: 2 lb marrow bone
+id: fr-tripes-a-la-mode-de-caen
+title: Tripes à la mode de Caen
+alternate_names:
+- Norman Stewed Tripe
+summary: Tripes à la mode de Caen.
+origin:
+  country: FR
+course: main
+authenticity: unassessed
+yield:
+  servings: 12
+  amount: 12–14
+time:
+  total_min: 25
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: brandy, unit: cup, qty: 1}
+  - {ingredient: dry-white-wine, unit: cup, qty: 2}
+  - {ingredient: chicken-stock, unit: cup, qty: 4}
+  - {ingredient: carrot, unit: cup, qty: 2}
+  - {ingredient: onion, unit: cup, qty: 2}
+  - {ingredient: garlic, qty: 3, prep: pressed or minced}
+  - {ingredient: shallot, qty: 10, prep: minced}
+  - {ingredient: celery, unit: cup, qty: 0.5}
+  - {ingredient: parsley, unit: cup, qty: 0.25, prep: finely chopped}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Preheat oven to 300°F.
+- Mix all of the ingredients together.
+- Place in a deep casserole or Dutch oven with a tight fitting lid. Then, wrap the casserole completely in foil.
+- Bake for 10–12 hours. Remove bones before serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATripes_%C3%A0_la_mode_de_Caen_%28Norman_Stewed_Tripe%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tripes à la mode de Caen (Norman Stewed Tripe)@4525565
+    url: https://en.wikibooks.org/w/index.php?oldid=4525565
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

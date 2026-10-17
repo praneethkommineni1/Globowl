@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 80 g cassava starch
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-gurudi
+title: Gurudi
+alternate_names:
+- Nigerian Coconut Biscuit
+summary: Gurudi, also called gurundi, is a Nigerian coconut biscuit made from finely-grated coconut, cassava starch, and sugar.
+origin:
+  country: NG
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: coconut, qty: 1}
+  - {ingredient: sugar, unit: g, qty: 65}
+  - {ingredient: nutmeg, unit: pinch, qty: 1}
+steps:
+- Gently crack open the coconut, and separate the meat from the shell. Use a grater or food processor to shred the coconut.
+- Combine the grated coconut, sugar, cassava starch, and nutmeg. Stir in water until it forms a dough ball.
+- Roll out the dough until thin. Cut out square biscuits, and transfer them to a buttered baking tray.
+- Bake the biscuits for about 20–25 minutes at 150°C (300°F) until golden brown and crisped.
+- Remove the biscuits from the oven, and let cool.
+tips:
+- In the absence of cassava starch, potato starch or corn starch can be used as a substitute.
+- If desired, you can also use pre-shredded coconut.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGurudi_%28Nigerian_Coconut_Biscuit%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gurudi (Nigerian Coconut Biscuit)@4618208
+    url: https://en.wikibooks.org/w/index.php?oldid=4618208
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

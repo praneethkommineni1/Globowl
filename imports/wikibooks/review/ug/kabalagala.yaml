@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ug-kabalagala
+title: Kabalagala
+alternate_names:
+- Ugandan Pancakes
+summary: Kabalagala, also known as Ugandan pancakes, are delicious and popular street food in Uganda. These deep-fried pancakes are crispy on the outside and soft on the inside, making them a delightful treat for both kids and adults.
+origin:
+  country: UG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Bowl
+- Whisk or spoon
+- Deep frying pan or pot
+- Slotted spoon or spider strainer
+- Paper towels
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: banana, qty: 2, prep: mashed}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 0.25}
+  - {ingredient: baking-powder, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: milk, unit: cup, qty: 0.5}
+  - {ingredient: vegetable-oil, prep: for deep-frying}
+steps:
+- In a bowl, combine the mashed bananas with the all-purpose flour, sugar, baking powder, and salt.
+- Gradually add the milk to the banana-flour mixture, stirring continuously with a whisk or spoon until a smooth and thick batter forms. The consistency should be similar to that of regular pancake batter.
+- Heat vegetable oil in a deep frying pan or pot over medium-high heat. The oil should be deep enough to fully submerge the Kabalagala.
+- Carefully drop spoonfuls of the batter into the hot oil, working in batches to avoid overcrowding the pan. Each pancake should be about 3–4 inches in diameter.
+- Fry the pancakes until they turn golden brown and become crispy on both sides. This usually takes about 2–3 minutes per side.
+- Use a slotted spoon or spider strainer to remove the fried kabalagala from the oil and transfer them onto a plate lined with paper towels to drain excess oil.
+- Serve the kabalagala while still warm. They can be enjoyed on their own as a tasty snack or paired with a cup of tea or coffee.
+tips:
+- Ripe bananas with black spots or fully yellow with black tips are ideal for making kabalagala, as they are sweeter and easier to mash.
+- For a twist, you can add a pinch of ground cinnamon or nutmeg to the batter for extra flavor.
+- Traditionally, kabalagala is deep-fried, but you can try pan-frying them with a small amount of oil.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKabalagala_%28Ugandan_Pancakes%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kabalagala (Ugandan Pancakes)@4522839
+    url: https://en.wikibooks.org/w/index.php?oldid=4522839
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

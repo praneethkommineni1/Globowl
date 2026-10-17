@@ -1,0 +1,73 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: et-inguday-tibs
+title: Inguday Tibs
+alternate_names:
+- Ethiopian Mushroom Stir-Fry
+summary: Inguday tibs is a flavorful and aromatic dish made with sautéed mushrooms, onions, and a blend of spices. This vegetarian stir-fry is a popular dish in Ethiopian cuisine and is enjoyed as a main course or a side dish.
+origin:
+  country: ET
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Large skillet
+- Wooden spoon or spatula
+- Cutting board
+- Chef's knife
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: thinly sliced, note: large}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: ginger, unit: tbsp, qty: 1}
+  - {ingredient: berbere, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.25}
+  - {ingredient: cayenne, unit: tsp, qty: 0.25, note: to taste}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: mushroom, unit: g, qty: 454, prep: sliced}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 2}
+  - {ingredient: parsley, prep: 'chopped, for garnish'}
+steps:
+- Heat the olive oil in a large skillet or wok over medium heat. Add the thinly sliced onions and sauté until they become translucent.
+- Stir in the minced garlic and grated ginger, and cook for another minute until fragrant.
+- Add the berbere spice blend, paprika, cumin, turmeric, cayenne pepper, salt, and pepper. Mix well to coat the onions, garlic, and ginger with the spices.
+- Add the sliced mushrooms to the skillet and toss to combine them with the spice mixture. Cook for about 5–7 minutes, or until the mushrooms are tender and slightly browned.
+- Drizzle the soy sauce and lemon juice over the mushrooms, and stir to evenly coat the mushrooms with the flavors.
+- Taste and adjust the seasoning with salt and pepper if needed.
+- Remove from heat and garnish with freshly chopped parsley or cilantro.
+- Serve hot as a main course or a side dish, accompanied by injera or rice.
+tips:
+- Adjust the spiciness of the stir-fry by adding more or less cayenne pepper according to your taste preferences.
+- Use a mix of different mushroom varieties for added flavor and texture.
+- Be careful not to overcrowd the skillet or wok when sautéing the mushrooms. Cook them in batches if necessary to ensure they cook evenly
+- You can add other vegetables like bell peppers, carrots, or green beans to the stir-fry for added color and variety.
+- For a more substantial meal, you can add tofu, seitan, or cooked chickpeas to the stir-fry.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AInguday_Tibs_%28Ethiopian_Mushroom_Stir-Fry%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Inguday Tibs (Ethiopian Mushroom Stir-Fry)@4510143
+    url: https://en.wikibooks.org/w/index.php?oldid=4510143
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

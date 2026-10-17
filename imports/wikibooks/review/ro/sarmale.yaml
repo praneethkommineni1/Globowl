@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 can tomato juice
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ro-sarmale
+title: Sarmale
+alternate_names:
+- Romanian Cabbage Rolls
+summary: Sarmale is a small handful of ground up meat (usually pork) mixed with rice and rolled up in pickled cabbage leaves or grape leaves and then boiled. The meat is seasoned to taste of course, including garlic, salt, pepper, etc.
+origin:
+  country: RO
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: white-cabbage, qty: 2, note: large}
+  - {ingredient: long-grain-rice, unit: cup, qty: [0.75, 1]}
+  - {ingredient: bacon, unit: slice, qty: [4, 8]}
+  - {ingredient: pork, unit: kg, qty: [1, 1.5]}
+  - {ingredient: onion, qty: [3, 6], note: medium}
+  - {ingredient: canned-tomatoes, unit: can, qty: 1}
+  - {ingredient: parsley, unit: bunch, qty: 1, note: to taste}
+  - {ingredient: sauerkraut, qty: 1}
+  - {ingredient: water}
+  - {ingredient: olive-oil}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Begin by heating olive oil in a pan; add onions and bacon and sauté until the onions are transparent. Chop parsley and add it to the mix when it is nearly done sauteing. Allow this mixture to cool.
+- In a medium to large bowl, mix ground meat together. Add the onion mixture after it has cooled. Add dry rice, salt and pepper. Let this cool, as it is easier to work with cold meat.
+- 'Begin to boil water in a very large pot, then reduce to a simmer. Make several deep incisions into the cabbage around the stem: this makes it easier to remove the leaves. Submerge the cabbage into the simmering water and cover; allow to steam until the cabbage turns a bright green. Do this for both cabbages. Do not use the tough or too-small innermost leaves; they may be chopped and added to the roasting pan.'
+- As the cabbage steams, remove the outer leaves using a roasting fork; spin the cabbage to find the stem, peel the leaves from the bottom to the top, placing them in a dish to cool and allowing the new "outer leaves" to steam.
+- Sprinkle olive oil into the bottom of a very large roasting pan, then line the pan with the outermost leaves of the cabbage.
+- When the leaves have been steamed and allowed to cool, slice out the tough park of the stem, and follow the incision to the top of the leaf, cutting each leaf into two wraps.
+- 'Begin wrapping the mixture: spoon 1 tbsp of the meat mixture into the wrap, fold in the sides and roll lengthwise. Place rolled cabbage into the roasting pan in lines, layering one on top of another when the bottom of the pan is full. Between layers, sprinkle a few tablespoons of sauerkraut and part of the cans of tomato sauce and juice.'
+- When all the cabbage has been rolled, pour sauerkraut and the remainder of the tomato sauce and juice over the top of the rolls. Add water until the liquid is about an inch or so from the lip of the pan.
+- Bake covered at 350°F for 3–4 hours. The meat should be cooked, the water should have reduced, and the rice should be tender. A roll may be removed and unrolled to test, and then replaced if it is not done yet.
+- Sarmale may be eaten on its own or as a side dish. It may be enjoyed with a dollop of sour cream or plain yogurt.
+tips:
+- Other ground meats may be used, but pork is traditional.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASarmale_%28Romanian_Cabbage_Rolls%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sarmale (Romanian Cabbage Rolls)@4630347
+    url: https://en.wikibooks.org/w/index.php?oldid=4630347
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

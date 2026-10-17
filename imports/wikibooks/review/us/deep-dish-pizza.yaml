@@ -1,0 +1,108 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: ~1 cup warm water
+#  - unmapped ingredient: 1 or more can of prepared or homemade pizza sauce
+#  - unmapped ingredient: 1/4 cup grated Romano cheese
+id: us-deep-dish-pizza
+title: Deep Dish Pizza
+summary: Pizza is a traditional Italian fare that was introduced by immigrants to America in the late 19th and early 20th centuries. In America it has evolved to unique variations, including this Deep Dish Pizza variety.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4 servings
+time:
+  total_min: 90
+difficulty: 3
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- name: Crust
+  items:
+  - {ingredient: yeast, unit: tsp, qty: 1}
+  - {ingredient: water, unit: cup, qty: 0.75}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 3}
+  - {ingredient: cornmeal, unit: tbsp, qty: 4, optional: true}
+- name: Toppings
+  items:
+  - {ingredient: mozzarella}
+  - {ingredient: parmesan, unit: cup, qty: 0.25, optional: true}
+steps:
+- In a mixing bowl or dough mixer, mix the yeast and ¾ cup () warm water. Let this stand for a few minutes to activate the yeast.
+- Mix in the 1 cup () flour, oil, sugar, salt into a smooth batter. Add the remaining flour and water. Mix this until you get a dough with a slightly sticky consistency. Add additional water or flour to adjust the consistency. Knead the dough until it springs slightly when touched.
+- Let this rise in a warm location in a greased bowl until doubled. Punch down the dough in the bowl.
+- Transfer dough to a floured flat surface. Roll or shape the dough to the shape of a pizza pan and make an edge up the side of the pan for the crust. Roll the dough thicker for Deep Dish Pizza and thinner for a crisper and more traditional pizza crust.
+- Preheat the oven to .
+- Spread the pizza sauce on the dough, leaving the edge crust uncoated. Add any optional toppings (pepperoni, sausage, green pepper, etc.). Sprinkle the grated mozzarella cheese evenly across the pizza, leaving the edge crust untouched. If desired, sprinkle the grated Parmesan and Romano cheeses evenly over the toppings.
+- Bake the pizza on a rack of the preheated oven for 25–30 minutes or until the crust and cheese are lightly brown. If the pizza is browning on the outer crust and not in the middle, line the edge with aluminum foil to prevent burning. This rarely happens except on larger diameter pizzas of or more.
+- When removing from the oven, cut into about 8 triangular, pie shaped slices for serving. A pizza cutter with a circular wheel does this nicely.
+tips:
+- A black pan will cook the crust faster and crisper than a light pan.
+- Use a heated baking stone. This is a flat stone which sit in the oven and preheats to the oven temperature. It accelerates the baking and makes the crust more consistently brown. Decrease the baking time by removing the pizza when the crust and cheese center is light brown.
+- Use a professional pizza oven or wood fired stone hearth. This is generally a professional pizza kitchen option.
+- Cornmeal may be used to flour the pan. It provides a unique characteristic to the crust and dries it a bit. It may omitted, or substituted with flour.
+- The olive oil may be substituted by vegetable oil or butter for a different crust characteristic or for oiling the pan. Olive oil makes an Italian bread type of raised crust.
+- If the crust is left to rise 15–30 minutes before it is baked, it will be thicker and more like an Italian bread crust
+- The type of flour used will vary the crust. Bread flour will create a stretchy gluten-rich dough and a thinner crust. Bleached white flour tends to make a thicker and lighter bread crust.
+- If a mozzarella cheese stick or rolled slice of cheese is rolled and sealed into the outer crust with a pinch of the dough, it adds a unique filling of melted cheese to the otherwise bready crust. Some commercial pizza restaurants offer cheese-filled crust.
+- Brush some melted butter on the crust after it has baked.
+- Pinch, slice or form the outer crust into a design before baking, just for the visual appearance.
+- A round aluminum or steel deep-dish pizza pan is generally used. It is inches in diameter and deep. Optionally the side removes to facilitate the cutting and serving.
+- Any flat pan may be substituted by rolling up the crust to form the edges. The edge crust tends to be like an Italian bread and less thick however. A rectangular pan tends to bake uneven.
+- A special wheeled pizza cutter or deep dish pizza pan grip may facilitate handling and serving
+- pepperoni, sliced as thick or thin as one likes
+- bulk (or casing removed) Italian sausage (browned and crumbled)
+- 1 green pepper, cleaned and sliced
+- 1 medium or large onion, sliced or diced
+- ground beef (skillet browned and crumbled)
+- ¼ cup () mushrooms (fresh sliced or canned sliced)
+- cooked bacon
+- ham, prepared any way
+- salami, sliced as thick or thin as one likes
+- ½ cup () pineapple, diced or in rings
+- ½ cup () cooked chicken pieces
+- ¼ cup () anchovies
+- ¼ cup () black olives, pitted and sliced
+- any other ingredient
+- Chicago Style Type Deep Dish (standard recipe noted above)
+- Crust on bottom
+- Add the mozzarella cheese
+- Add the toppings (pepperoni, sausage, etc.)
+- Add the sauce
+- Add the grated cheeses
+- Serve with shakers of red pepper flakes and extra grated cheese
+- Boutique Deep Dish (some "upper crust" restaurants do this)
+- Crust on bottom
+- Add the toppings (pepperoni, sausage, etc.)
+- Add the mozzarella cheese
+- Add the sauce over the cheese (may require more sauce to cover the ingredients)
+- Add the grated cheeses
+- Deep Dish Old World Style (similar to photo)
+- Crust on bottom
+- Add the sauce
+- Add most of the toppings (sausage, green pepper, etc.)
+- Add the mozzarella cheese
+- Add the grated cheeses
+- Add pepperoni or other decorative topping
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADeep_Dish_Pizza&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Deep Dish Pizza@4614747
+    url: https://en.wikibooks.org/w/index.php?oldid=4614747
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

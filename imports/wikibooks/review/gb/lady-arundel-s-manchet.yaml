@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+id: gb-lady-arundel-s-manchet
+title: Lady Arundel's Manchet
+summary: Lady Arundel's Manchet is a variety of British scone made with yeast rather than baking powder.
+origin:
+  country: GB
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 60
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 907}
+  - {ingredient: salt, unit: ml, qty: 15}
+  - {ingredient: butter, unit: g, qty: 57}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: milk, qty: 1}
+  - {ingredient: yeast, unit: g, qty: 28}
+  - {ingredient: caster-sugar, unit: tsp, qty: 1}
+steps:
+- Mix the salt into the flour, then rub in the butter
+- Combine the yeast with the sugar. Add it to 1½ cups of the warm milk.
+- Beat the egg, and mix with the yeast and flour.
+- Make a well in the flour, pour in the yeast mixture, and mix into a dough.
+- Shape the dough into small, flat, round cakes about ¾ inch thick and 3 ½ inches across.
+- Mark manchets with lines to form a diamond pattern. Leave to rise for 30 minutes in a warm place.
+- Bake in a moderate oven (350-375 °F / 180-190 °C) until cooked.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALady_Arundel%27s_Manchet&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lady Arundel's Manchet@4524025
+    url: https://en.wikibooks.org/w/index.php?oldid=4524025
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

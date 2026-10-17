@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 200–300 g guanciale, chopped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-pasta-alla-gricia
+title: Pasta alla Gricia
+alternate_names:
+- Pasta with Guanciale
+summary: Pasta alla gricia is an Italian pasta dish, typical of Rome. The preparation is very simple and quick. There are several versions of the recipe but they are all very similar.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: salt, unit: tbsp, qty: 3}
+  - {ingredient: pasta, unit: g, qty: 400}
+  - {ingredient: pecorino-romano, prep: grated}
+  - {ingredient: black-pepper}
+steps:
+- Heat water and salt in a pot until it starts boiling.
+- Add the pasta, and cook until al dente.
+- Cook the guanciale in a frying pan until fat melts almost completely.
+- Add the cooked pasta to the guanciale pan, and fry for 2 minutes.
+- Add grated pecorino romano and black pepper to the frying pan, and toss to blend the ingredients.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APasta_alla_Gricia_%28Pasta_with_Guanciale%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pasta alla Gricia (Pasta with Guanciale)@4501060
+    url: https://en.wikibooks.org/w/index.php?oldid=4501060
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

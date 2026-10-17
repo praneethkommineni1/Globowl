@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no Ingredients section
+#  - course unknown from categories
+id: ng-achi-jollof
+title: Achi Jollof
+summary: Achi jollof is a traditional Nigerian delicacy associated with the Igbo people of southeastern Nigeria. The dish is prepared using achi powder, a local thickening ingredient made from the seeds of the achi tree.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4-6
+time:
+  total_min: 60
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Cook the meat or fish Season the meat or fish with onions, salt, and seasoning cubes, then boil until tender. Keep the stock.
+- Prepare the achi mixture Mix the achi powder with a little cold water to form a smooth paste without lumps.
+- Prepare the base In a pot, add palm oil, pepper, crayfish, and the cooked meat or fish with stock.
+- Add the achi paste Gradually pour in the achi mixture while stirring continuously.
+- Cook until thickened Allow it to cook and thicken into a smooth consistency.
+- Add vegetables (optional) Stir in leafy vegetables if using.
+- Adjust seasoning Taste and add salt or seasoning if needed.
+- Simmer briefly Let it cook for a few more minutes so the flavors combine well.
+- Serve hot Serve as a hearty traditional meal.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAchi_Jollof&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Achi Jollof@4634713
+    url: https://en.wikibooks.org/w/index.php?oldid=4634713
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

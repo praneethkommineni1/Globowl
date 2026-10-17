@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: eg-mahshi
+title: Mahshi
+alternate_names:
+- Egyptian Stuffed Vegetables
+summary: Mahshi is a delicious Egyptian dish that involves stuffing various vegetables with a flavorful mixture of rice, herbs, and spices. It is a versatile and satisfying dish that can be customized to individual tastes.
+origin:
+  country: EG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Knife for cutting and hollowing out vegetables
+- Spoon for scooping out vegetable seeds and flesh
+- Mixing bowl
+- Baking dish or casserole dish
+- Aluminum foil
+- Oven
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: zucchini, prep: 'such as zucchini, eggplant, bell pepper, and tomato'}
+  - {ingredient: long-grain-rice, unit: cup, qty: 1}
+  - {ingredient: tomato, unit: cup, qty: 0.5}
+  - {ingredient: olive-oil, unit: cup, qty: 0.25}
+  - {ingredient: parsley, unit: cup, qty: 0.25, prep: finely chopped}
+  - {ingredient: mint, unit: cup, qty: 0.25, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: water, prep: as needed}
+steps:
+- Prepare the vegetables for stuffing by carefully cutting off the tops and scooping out the seeds and flesh, creating hollow shells. Set aside the scooped-out vegetable flesh for later use.
+- In a mixing bowl, combine the medium-grain rice, tomato paste, olive oil, finely chopped parsley, finely chopped mint leaves, minced garlic, ground cumin, ground coriander, salt, and black pepper. Mix well until all the ingredients are thoroughly combined.
+- Fill each hollowed vegetable with the rice and herb mixture, packing it firmly and leaving some space at the top for the rice to expand while cooking.
+- Arrange the stuffed vegetables in a baking dish or casserole dish, placing them closely together to support each other.
+- Use the reserved vegetable flesh to fill any empty spaces between the stuffed vegetables. This helps to prevent them from shifting during cooking.
+- Pour enough water into the baking dish to partially cover the stuffed vegetables. This will help create a moist cooking environment.
+- Cover the baking dish with aluminum foil, ensuring it is tightly sealed to retain moisture.
+- Preheat the oven to 180°C (350°F) and bake the mahshi for about 60–75 minutes, or until the vegetables are tender and the rice filling is cooked through.
+- Remove the foil and continue baking for an additional 10–15 minutes to allow the tops of the stuffed vegetables to slightly brown.
+- Once cooked, remove the mahshi from the oven and let it cool slightly before serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMahshi_%28Egyptian_Stuffed_Vegetables%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mahshi (Egyptian Stuffed Vegetables)@4531803
+    url: https://en.wikibooks.org/w/index.php?oldid=4531803
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

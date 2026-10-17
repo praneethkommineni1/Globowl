@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Dried guinea corn
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-nigerian-pito
+title: Nigerian Pito
+summary: Pito is a local drink common in Nigeria. In Lagos specifically, pito is majorly hawked in the street in an earthen pot or drum to keep it chilled.
+origin:
+  country: NG
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: sugar, optional: true}
+steps:
+- Grind guinea corn into a powder.
+- Transfer ground guinea corn into a wide bowl, add enough water to fully cover. Stir well with a spatula.
+- Let the mixture rest until it settles into two phases. Drain the water away.
+- Pour the guinea corn slurry into a pot and bring to a boil.
+- After boiling, cool the mash and leave it to ferment for 1 day.
+- Boil mixture again for a few minutes over medium heat.
+- Set a sieve over a bowl, and pour the guinea corn mixture into it. Discard the solids.
+- Stir in sugar if desired, and allow pito to cool.
+- Serve cold over ice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Pito&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Pito@4512869
+    url: https://en.wikibooks.org/w/index.php?oldid=4512869
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

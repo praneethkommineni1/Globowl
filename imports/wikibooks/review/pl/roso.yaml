@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 celery root
+#  - unmapped ingredient: 1–2 parsley roots
+#  - unmapped ingredient: Juniper seeds
+id: pl-roso
+title: Rosół
+alternate_names:
+- Polish Meat Soup
+summary: Rosó&#322; is a traditional Polish meat broth. The most popular variety is Rosó&#322; z kury, or clear chicken (hen) soup. It is commonly served with fine noodles, often home made, like Jewish lokshen.
+origin:
+  country: PL
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 1}
+  - {ingredient: onion, qty: 1}
+  - {ingredient: leek, qty: 1, note: small}
+  - {ingredient: carrot, qty: 2, prep: peeled and sliced lengthwise}
+  - {ingredient: celery, unit: sprig, qty: [2, 3]}
+  - {ingredient: parsley, unit: bunch, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: white-cabbage, qty: 0.125}
+  - {ingredient: garlic, note: to taste}
+  - {ingredient: bay-leaf, note: to taste}
+  - {ingredient: mushroom}
+  - {ingredient: allspice, note: to taste}
+steps:
+- Quarter the chicken and place in a stock pot with ~1.5 cold water. Do not add salt at this time, as this may harden some meats. Bring to a boil on high heat, then simmer for 30–45 minutes. At this time, remove (skim) the surface flotsam (a mix of protein and some fat).
+- Add peeled garlic clove, carrots, celery root, parsley root similarly prepared, and other vegetables previously washed.
+- Sauté onion halves in minimal oil to caramelize the flesh. Add to the soup. Omitting this step will result in a clearer, less-yellow product.
+- Simmer on low heat for approx 2 hours or more. Rosó&#322; should not boil, as this will result in a cloudy consistency.
+- Season to taste with salt, pepper, bay leaf, allspice, juniper seeds, dried wild mushrooms, etc.
+- Continue simmering. You may skim fat off the surface, if so desired (traditionally it should be as fat as possible)
+- Remove cabbage, parsley, celery root and any "undesired" vegetables. Carrots are usually left in and served with the broth.
+- Serve hot with noodles and fresh parsley. Individuals may season with maggi, soy sauce, freshly ground black pepper and/or chilli flakes.
+tips:
+- Instead of chicken you may use ½ kg (1 lb) of veal or beef.
+- In the traditional Polish way, the chicken is not quartered or cut whatsoever.
+- 'To avoid having to remove surface flotsam use the blanching technique: bring large amount of water (unsalted) to a boil. Remember to leave enough space for the chicken. When in vigorous boil put the chicken in. Let it boil for about a minute. Take the chicken out and put under cold, running water until cold. Now you can add chicken to your rosół, and not worry about the flotsam. It will also make rosół clearer, which is one of the indicators of a good rosół dish.'
+- Adding vegetable stock or a stock cube is a personal choice. Some argue that it is unnecessary, as the vegetable and meat give enough flavour to the broth.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARos%C3%B3%C5%82_%28Polish_Meat_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rosół (Polish Meat Soup)@4523434
+    url: https://en.wikibooks.org/w/index.php?oldid=4523434
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

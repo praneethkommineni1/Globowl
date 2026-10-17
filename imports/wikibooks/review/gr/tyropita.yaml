@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gr-tyropita
+title: Tyropita
+alternate_names:
+- Greek Cheese Pie
+summary: 'Tyropita (Pronounced: tee-ro-pee-ta) is a Greek layered pastry appetizer, made with layers of buttered filo dough, stuffed with cheese and usually shaped like a triangle. It is sold in bakeries throughout Greece, where it is a very popular breakfast and snack.'
+origin:
+  country: GR
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: feta, unit: g, qty: 680}
+  - {ingredient: butter, unit: tbsp, qty: 5}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 8}
+  - {ingredient: milk, unit: cup, qty: 2}
+  - {ingredient: egg, qty: 7, prep: lightly beaten}
+  - {ingredient: phyllo, unit: g, qty: 340}
+  - {ingredient: butter, prep: melted}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Crumble cheese into very small pieces.
+- Melt butter in small pot. Add flour, blend well. Slowly add scalded milk, stirring constantly to make a smooth bechamel sauce. Add a little salt and pepper.
+- Remove from heat and stir until cool. Add crumbled cheese and mix well. Add eggs and mix again.
+- Butter a pan about 2 inches (5 cm) smaller than the phyllo sheets. Use a little more than half of the phyllo sheets to make the bottom layer of the pie. Brush each with melted butter and place it in the pan letting the edges hang over the pan.
+- Pour in the cheese-egg mixture, spreading evenly.
+- Cover mixture with the phyllo that extended beyond pan. This will prevent mixture from leaking out.
+- Carefully cut remaining phyllo to fit pan. Brush each sheet with butter before placing on pita.
+- Brush top with butter and sprinkle with a little water. Score into strips to make cutting the pie easier after it is baked.
+- Bake in a preheated 300°F (150°C) oven for 45 minutes.
+- Cut into pieces and serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATyropita_%28Greek_Cheese_Pie%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tyropita (Greek Cheese Pie)@4587234
+    url: https://en.wikibooks.org/w/index.php?oldid=4587234
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

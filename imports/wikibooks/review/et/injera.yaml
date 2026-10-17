@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup teff flour
+#  - unmapped ingredient: Fermentation starter
+#  - no difficulty in recipe summary
+id: et-injera
+title: Injera
+alternate_names:
+- Ethiopian Teff Flatbread
+summary: Injera is a flatbread eaten in Ethiopia and Eritrea. It is made with teff flour. Teff is a tiny round grain that is grown in the highlands of Eritrea and highlands of Ethiopia.
+origin:
+  country: ET
+course: bread
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8
+time:
+  total_min: 725
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 1.5}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: vegetable-oil}
+steps:
+- Mix the flour with the water, and the salt. Add your fermentation starter if using one.
+- Set aside to ferment overnight, or at least 12 hours. There should be bubbles on the surface from fermenting, before you use it.
+- Heat a large, flat pan until it is hot enough to make a droplet of water sizzle. Oil it very lightly, just enough to make the pan shine.
+- Pour or ladle some batter onto the pan, spiralling outwards from the centre. Only a thin layer is required—a little thicker than a crêpe but not by much.
+- As it cooks, the surface of the injera will become covered in holes or pits. When the entire injera has changed colour and the edges start to lift from the pan, remove it and set aside, then pour the next injera and repeat until finished.
+tips:
+- If you can't get it to ferment by itself, try a good fermentation starter like a teaspoonful of kefir. Baker's yeast alone will not make for good flavour, as bacteria are needed also, but a teaspoonful of yoghurt plus a pinch of yeast might do the trick if you can't get kefir. Note that fermentation starter may contain gluten.
+- Traditional injera is made with teff, but if this is difficult to get, it can be made with sorghum or wheat flour.
+- Since teff is often quite expensive outside of Africa, it is often mixed with wheat flour to give the injera some of the teff flavour but for less expense. Mix ¼ cup of teff flour with ¾ cup of sorghum or wheat flour, for the recipe above.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AInjera_%28Ethiopian_Teff_Flatbread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Injera (Ethiopian Teff Flatbread)@4630269
+    url: https://en.wikibooks.org/w/index.php?oldid=4630269
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

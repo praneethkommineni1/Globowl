@@ -1,0 +1,42 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: dk-carrot-jam
+title: Carrot Jam
+summary: As carrots are fairly sweet, they can often be used in sweet dishes with good results. One such recipe is carrot jam; this is a simple version from Denmark.
+origin:
+  country: DK
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3 cups (800 g)
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: carrot, unit: kg, qty: 1, prep: peeled and finely grated}
+  - {ingredient: water, unit: l, qty: 0.25}
+  - {ingredient: lemon}
+  - {ingredient: sugar, unit: kg, qty: 0.5}
+steps:
+- Boil the water and carrots until tender.
+- Add juice and sugar, and continue to boil for a further 15–20 minutes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACarrot_Jam&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Carrot Jam@4595353
+    url: https://en.wikibooks.org/w/index.php?oldid=4595353
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 jar of grape leaves in brine, rinsed and drained
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: eg-egyptian-stuffed-grape-leaves
+title: Egyptian Stuffed Grape Leaves
+alternate_names:
+- Warak Enab Mahshi
+summary: Egyptian stuffed grape leaves, also known as warak enab mahshi, is a traditional dish in Egyptian cuisine that showcases delicate vine leaves stuffed with a flavorful rice and herb filling. These stuffed grape leaves are often enjoyed as appetizers or as part of a larger meal.
+origin:
+  country: EG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large pot
+- Mixing bowl
+- Knife for chopping
+- Wooden spoon or spatula
+techniques:
+- blanching
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 1}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: medium}
+  - {ingredient: parsley, unit: cup, qty: 0.25, prep: finely chopped}
+  - {ingredient: dill, unit: cup, qty: 0.25, prep: finely chopped}
+  - {ingredient: mint, unit: cup, qty: 0.25, prep: finely chopped}
+  - {ingredient: olive-oil, unit: cup, qty: 0.25}
+  - {ingredient: lemon, unit: tbsp, qty: 2}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- In a large pot, bring water to a boil. Blanch the grape leaves by adding them to the boiling water for about 1–2 minutes. This will soften the leaves and make them more pliable. Drain and set aside.
+- In a mixing bowl, combine the long-grain rice, finely chopped onion, fresh parsley, fresh dill, fresh mint, olive oil, lemon juice, ground cumin, ground coriander, salt, and pepper. Mix well to ensure the ingredients are evenly distributed.
+- Place a grape leaf on a clean surface, shiny side down. Trim the stem if necessary.
+- Take about a tablespoon of the rice mixture and place it in the center of the leaf.
+- Fold the sides of the leaf inward and roll it tightly, similar to rolling a burrito or spring roll.
+- Repeat the process with the remaining grape leaves and rice mixture until all the filling is used.
+- Line the bottom of a large pot with a few grape leaves to prevent the stuffed grape leaves from sticking.
+- Arrange the stuffed grape leaves in layers in the pot, placing them closely together. This will help them hold their shape during cooking.
+- Add enough water to the pot to cover the stuffed grape leaves.
+- Place a heatproof plate or lid on top of the stuffed grape leaves to keep them pressed down while cooking.
+- Cover the pot with a lid and bring it to a gentle simmer over medium-low heat. Cook for about 45 minutes to 1 hour, or until the rice is fully cooked and the grape leaves are tender.
+- Once cooked, carefully remove the stuffed grape leaves from the pot and transfer them to a serving dish.
+- Serve the stuffed grape leaves warm or at room temperature, as an appetizer or part of a larger meal. They can be enjoyed on their own or accompanied by yogurt or a tangy dipping sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgyptian_Stuffed_Grape_Leaves_%28Warak_Enab_Mahshi%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egyptian Stuffed Grape Leaves (Warak Enab Mahshi)@4531805
+    url: https://en.wikibooks.org/w/index.php?oldid=4531805
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

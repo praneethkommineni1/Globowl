@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 teaspoon of kaeng chu chee curry paste
+id: th-chuu-chee-fish
+title: Chuu Chee Fish
+summary: Chu Chee Fish is whole fish in kaeng chuu chee curry sauce with lime leaves. This very tasty distinctly Thai fish dish is great as one of the main courses of a Thai banquet. It is also good on its own with rice.
+origin:
+  country: TH
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: fish, unit: g, qty: 650}
+  - {ingredient: vegetable-oil, qty: 1}
+  - {ingredient: kaffir-lime-leaf, qty: 6}
+  - {ingredient: coconut-milk, qty: 1}
+  - {ingredient: fish-sauce, unit: tbsp, qty: 1}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: cilantro}
+  - {ingredient: red-chili, qty: 1}
+steps:
+- In a wok or large frypan, over high heat, fry fish using most of the vegetable oil, until golden on one side. It will take about 5 minutes.
+- Lower heat and, using tongs, gently turn fish over.
+- Turn up heat again and cook until golden. Using tongs again, lift fish gently onto a serving plate.
+- In the wok, gently stir-fry the curry-paste and lime leaves in remaining tablespoon of oil.
+- Add coconut milk and fish sauce. Simmer for about 5 minutes.
+- Add sugar and simmer for another 5 minutes.
+- Taste to see if extra coconut milk, fish sauce, or sugar is required.
+- Pour sauce over fish and garnish with cilantro and chopped chili peppers.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChuu_Chee_Fish&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chuu Chee Fish@4523461
+    url: https://en.wikibooks.org/w/index.php?oldid=4523461
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

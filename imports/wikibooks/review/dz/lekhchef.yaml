@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+id: dz-lekhchef
+title: Lekhchef
+alternate_names:
+- Algerian Raisin Drink
+summary: Lekhchef () is a refreshing Algerian drink from Constantine.
+origin:
+  country: DZ
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 10
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: l, qty: 1}
+  - {ingredient: cinnamon-stick, qty: 2}
+  - {ingredient: raisins, unit: g, qty: 150, prep: rinsed well}
+  - {ingredient: sugar, note: to taste}
+  - {ingredient: orange-flower-water}
+  - {ingredient: rose-water}
+steps:
+- Combine the water and cinnamon sticks in a saucepan. Bring to a boil.
+- Add the raisins to the boiling water, and simmer over low heat.
+- Sweeten drink to taste with sugar, and stir over very low heat to dissolve sugar.
+- Remove from the heat, remove the cinnamon sticks, and let the drink completely cool down.
+- Flavour with orange blossom water and rose water.
+- Put the beverage in the refrigerator and serve very cold with or without raisins.
+tips:
+- If you decide to blend the final mixture, do not add sugar, as your drink might end up too sweet.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALekhchef_%28Algerian_Raisin_Drink%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lekhchef (Algerian Raisin Drink)@4513340
+    url: https://en.wikibooks.org/w/index.php?oldid=4513340
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

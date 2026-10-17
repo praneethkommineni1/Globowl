@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: xx-misro
+title: Misro
+alternate_names:
+- Indonesian Palm Sugar Cassava Fritters
+summary: Misro.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 45
+difficulty: 3
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: cassava, unit: g, qty: 250}
+  - {ingredient: coconut, unit: g, qty: 75}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: palm-sugar, unit: g, qty: 25, prep: broken into small pieces}
+  - {ingredient: vegetable-oil}
+steps:
+- Combine the cassava, coconut, and salt to form a dough.
+- Take a small scoop of the dough, and use your hands to roll it into a ball.
+- Use your thumb to make a divot in the ball, and pinch around it to make a pocket.
+- Insert a piece of the sugar into the pocket, then pinch the dough around it to fully enclose it.
+- Roll the finished dumpling in your hands to shape it into a ball again.
+- Heat enough oil for shallow- or deep-frying in a skillet or pot over medium heat. If you're monitoring the temperature, 350°F (180°C) is a good target.
+- Gently place the dough balls in the oil, working in batches if needed to avoid crowding the pan. Fry on all sides, turning as necessary, until golden brown all over and cooked through.
+- Use a slotted spoon or spider to remove the fritters from the oil. Drain them on a rack or paper towels.
+tips:
+- The cassava and coconut should be very finely grated in order to properly combine them into a dough—large flakes won't work.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMisro_%28Indonesian_Palm_Sugar_Cassava_Fritters%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Misro (Indonesian Palm Sugar Cassava Fritters)@4540912
+    url: https://en.wikibooks.org/w/index.php?oldid=4540912
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

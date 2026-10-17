@@ -1,0 +1,100 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 tbsp bacon fat
+#  - unmapped ingredient: Fond from meatloaf pan
+#  - unmapped ingredient: 1 tsp freshly-ground black pepper
+#  - unmapped ingredient: Freshly-ground black pepper
+#  - unmapped ingredient: 1/2 each green bell pepper and red bell pepper, cut into 2 1/2-inch strips
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-meatloaf-dinner
+title: Meatloaf Dinner
+summary: Learn to enjoy it when you hear meatloaf is for dinner. Add mashed potatoes, gravy, and roast vegetables, and you've got a big plate of comfort.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- name: Meatloaf
+  items:
+  - {ingredient: beef, unit: g, qty: 227}
+  - {ingredient: beef, unit: g, qty: 227}
+  - {ingredient: croutons, unit: g, qty: 170, prep: coarsely crushed}
+  - {ingredient: salt, unit: tsp, qty: 1.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 1.5}
+  - {ingredient: ketchup, unit: cup, qty: 0.25}
+  - {ingredient: worcestershire-sauce, unit: cup, qty: 0.25}
+  - {ingredient: chili-flakes, unit: tsp, qty: 1.125}
+  - {ingredient: egg, qty: 1, prep: beaten}
+  - {ingredient: rosemary, unit: tsp, qty: 2, prep: finely chopped}
+  - {ingredient: thyme, unit: tbsp, qty: 2, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 6, prep: smashed and chopped}
+  - {ingredient: onion, qty: 0.5, prep: diced, note: large}
+  - {ingredient: carrot, qty: 3, prep: peeled and diced}
+  - {ingredient: red-bell-pepper, qty: 0.5, prep: diced}
+  - {ingredient: bacon, qty: 4, prep: cut into 6 pieces and crisp-cooked}
+- name: Gravy
+  items:
+  - {ingredient: chicken-stock, unit: cup, qty: 1}
+  - {ingredient: heavy-cream, unit: cup, qty: 1}
+  - {ingredient: worcestershire-sauce, unit: tbsp, qty: 2}
+- name: Mashed potatoes
+  items:
+  - {ingredient: potato, unit: g, qty: 680, prep: peeled and cut into 1/2-inch dice}
+  - {ingredient: butter, unit: tbsp, qty: 4}
+  - {ingredient: heavy-cream, unit: cup, qty: 0.25}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: egg-yolk, qty: 1, prep: beaten}
+- name: Roast vegetables
+  items:
+  - {ingredient: carrot, qty: 4, prep: peeled and cut into 1 1/2-inch pieces, note: large}
+  - {ingredient: olive-oil, unit: cup, qty: 0.5}
+  - {ingredient: salt}
+  - {ingredient: garlic, unit: clove, qty: 6, prep: smashed and finely chopped}
+  - {ingredient: onion, qty: 1, prep: wedged, note: large}
+steps:
+- Heat a large stainless steel straight-sided sauté pan over medium high heat.
+- Add the bacon drippings, garlic, and vegetables. Sauté until vegetables are lightly browned around edges. Remove vegetables and set aside until cool.
+- Mix remaining meatloaf ingredients and sautéed vegetables but leave out the bacon. Shape with a loaf pan and place on an ungreased, unlined baking pan.
+- Insert a probe thermometer at a 45 degree angle into the center of the loaf. Bake the loaf at 325°F until internal temperature reaches 155°F.
+- Keep warm on a different pan than the one you used to cook it.
+- In a separate oven, prepare the vegetables. Toss the vegetables with olive oil and garlic. Sprinkle liberally with kosher salt and freshly ground black pepper.
+- Lay vegetables in a single layer on a half-sheet pan.
+- Bake at 450°F, shaking the pan halfway, for about 25 minutes. Keep warm.
+- Heat meatloaf pan over medium-high heat on two burners.
+- Whisk in flour and cook, whisking often, until blond.
+- Deglaze pan with broth and boil until reduced by ⅔.
+- Add cream and Worcestershire sauce, and reduce heat to below a simmer. Cook until slightly thickened and gravy coats the back of a spoon.
+- While broth for the gravy is reducing above, prepare the potatoes. Place potatoes in a medium saucepan and cover with cold water.
+- Set over high heat, cover and bring to a boil. Once boiling, uncover, decrease the heat to maintain a simmer. Cook until tender and easily crushed with tongs, approximately 10–15 minutes.
+- Place the half-and-half and butter into a microwave-safe container and heat in the microwave until warmed through, about 35 seconds.
+- Drain the potatoes in a colander and then return to the saucepan.
+- Mash the potatoes and then add the cream, butter, salt and pepper and continue to mash until smooth. Stir in the yolk until well-combined.
+- Slice meatloaf nice and thick and place a dollop of mashed potatoes on your plate.
+- Top with a few slices of meatloaf and some roast vegetables, then smother the whole thing with gravy.
+- Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMeatloaf_Dinner&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Meatloaf Dinner@4499486
+    url: https://en.wikibooks.org/w/index.php?oldid=4499486
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

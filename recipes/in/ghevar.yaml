@@ -1,0 +1,61 @@
+id: in-ghevar
+title: Ghevar
+alternate_names:
+- Rajasthani Honeycomb Fritter
+summary: Ghevar is an Indian delicacy originally from the state of Rajasthan. It is made with a round mold and has a crispy but porous texture. The following recipe has been entered with inputs from Tarla Dalal recipe book.
+origin:
+  country: IN
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 10
+  amount: 10 pieces
+time:
+  total_min: 120
+difficulty: 3
+techniques:
+- simmering
+- whisking
+ingredient_groups:
+- name: Sugar syrup
+  items:
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: water, unit: cup, qty: 0.5}
+- name: Ghevar
+  items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1.75}
+  - {ingredient: cornstarch, unit: tbsp, qty: 1}
+  - {ingredient: ghee, unit: cup, qty: 0.25, prep: cooled}
+  - {ingredient: pandan-leaf}
+steps:
+- Combine the sugar and water in a saucepan. Simmer until it reaches a 1-string consistency syrup.
+- Remove from the heat and keep warm.
+- Combine the flour, arrowroot, and melted ghee in a bowl.
+- Very gradually add 1 cup of water in a thin stream, whisking continuously and taking care to see that an emulsion is formed and the water and ghee do not separate.
+- Add 2 more cups of water again in a thin stream while whisking continuously. At no point should the ghee and water separate. The batter should be of a very thin coating consistency, a little thinner than crêpe batter. More water can be added if required to achieve the required consistency. Keep the batter in a cool place away from the heat.
+- Add melted ghee to a kadhai or other pot/pan. If desired, place a ghevar mould or other metal ring mould in the pan. The ghee should come up to ¾ of the height of the mould.
+- Heat the pan over medium heat, and gradually pour a ladleful of the batter directly into the centre of the mould in a very thin stream. The batter should froth and migrate towards the edges of the mold.
+- When the froth subsides, gradually add another spoonful to the centre in a thin stream. If the batter builds up in the center, use a skewer to push it towards the edges and maintain a hole in the center. Repeat seven times, adding the batter to the centre hole each time.
+- Increase the heat, and pour a few ladlefuls of hot ghee into the centre to help the ghevar cook.
+- When the centre is firm and cooked and the whole thing is golden brown, pull the ghevar out gently by inserting a wooden skewer in the centre and pulling it out of the ghee. Let any excess ghee drip off.
+- Immerse ghevar in sugar syrup, drain quickly, and place on a serving plate.
+- Repeat the cooking steps, using the remaining batter to make 9 pieces of ghevar.
+tips:
+- A mould is not required to cook the ghevar; if the pot containing the ghee has a small enough diameter, it will act as the mold to shape the ghevar.
+- Usually ghevar is served with piping hot rabri, a variety of very thick sweetened milk.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGhevar_%28Rajasthani_Honeycomb_Fritter%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ghevar (Rajasthani Honeycomb Fritter)@4517736
+    url: https://en.wikibooks.org/w/index.php?oldid=4517736
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

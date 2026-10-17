@@ -1,0 +1,69 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 1/2 tsp whole powdered pepper
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-east-african-beef-pilaf
+title: East African Beef Pilaf
+summary: This beef pilaf is a fragrant East African rice dish made by cooking the rice with meat or vegetables, ginger, garlic, and spices. It is usually served with kachumbari, which is a mixture of tomatoes, onions, and lettuce.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 250, prep: cubed and rinsed}
+  - {ingredient: ginger-garlic-paste, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: tomato, qty: 1, prep: grated}
+  - {ingredient: onion, qty: 1, prep: grated}
+  - {ingredient: vegetable-oil}
+  - {ingredient: ground-cumin, unit: tbsp, qty: 1}
+  - {ingredient: green-cardamom-pods, qty: 2, prep: seeds removed}
+  - {ingredient: cinnamon-stick, qty: 2}
+  - {ingredient: whole-cloves}
+  - {ingredient: onion, qty: 2, prep: finely chopped}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1.5}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1.5}
+  - {ingredient: garlic, unit: tsp, qty: 0.5}
+  - {ingredient: cilantro}
+  - {ingredient: salt}
+  - {ingredient: long-grain-rice, unit: g, qty: 400, prep: washed and soaked for 10 minutes}
+steps:
+- Place beef in a pot with water, ginger-garlic paste, salt, grated tomato, and grated onion. Bring to a boil, and cook until the meat is tender.
+- Remove the meat and set aside. Save the resulting broth for cooking the rice.
+- Heat a layer of cooking oil in a saucepan over medium heat. Add the cumin, cardamom seeds, pepper, cinnamon, and cloves; then, cook until the spices splutter.
+- Add the chopped onion. Cook, stirring, until translucent. If you want a darker pilaf, fry the onions until they are caramelized.
+- Stir in the turmeric and coriander powder. Let fry for a few minutes.
+- Stir in the garlic paste and a bit of chopped fresh coriander.
+- Add the cooked meat, and stir together for 2 minutes.
+- Add the broth, and bring to a simmer. Adjust the seasoning with salt to taste—make sure to add enough salt because you still need to add the rice.
+- Stir in the rice and a little coriander. Cook on high heat for about 3 minutes.
+- Reduce the heat to medium, and cover the pot. Cook, stirring periodically, until the rice has absorbed the water.
+- Reduce the heat to low, and let the rice finish steaming for 5 minutes.
+- Remove from the heat and serve with kachumbari.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEast_African_Beef_Pilaf&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:East African Beef Pilaf@4518798
+    url: https://en.wikibooks.org/w/index.php?oldid=4518798
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

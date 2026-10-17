@@ -1,0 +1,50 @@
+id: co-potato-and-sausage-casserole
+title: Potato and Sausage Casserole
+alternate_names:
+- Papa Turmada
+summary: La papa turmada is a baked potato and criolla sauce with sausage casserole, from Cucuta, Norte de Santander Colombia.
+origin:
+  country: CO
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- baking
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: potato, qty: 6, prep: peeled and sliced, note: large}
+  - {ingredient: egg, qty: 6}
+  - {ingredient: sausage, unit: cup, qty: 1}
+  - {ingredient: white-bread, unit: slice, qty: 3}
+  - {ingredient: milk, unit: cup, qty: 0.5}
+  - {ingredient: mozzarella, unit: cup, qty: 1}
+  - {ingredient: parmesan, unit: cup, qty: 1}
+  - {ingredient: thyme, optional: true}
+steps:
+- Boil potatoes until tender (20 minutes).
+- Cut bread into small squares and wet with milk.
+- Grease a 9 x 13-inch (about 25 x 32-cm) Pyrex baking dish.
+- Put a layer of potato, then a layer of hogao and sausage, a layer of sliced egg, a layer of wet bread and a layer of mozzarella cheese. Optionally, add thyme to the hogao.
+- Repeat with another layer of potato, wet bread, and Parmesan cheese.
+- Bake 30 minutes at 350°F (175°C), and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APotato_and_Sausage_Casserole_%28Papa_Turmada%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Potato and Sausage Casserole (Papa Turmada)@4522443
+    url: https://en.wikibooks.org/w/index.php?oldid=4522443
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

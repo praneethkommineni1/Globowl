@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 3 lb beef marrow bones, sawn into 2-inch lengths
+#  - unmapped ingredient: 2 lb beef short ribs, sawn into 2-inch lengths
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: fr-beef-stock
+title: Beef Stock
+summary: Beef Stock.
+origin:
+  country: FR
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 1361, prep: sawn into 2-inch lengths}
+  - {ingredient: veal, unit: g, qty: 907, prep: sawn into 2-inch lengths}
+  - {ingredient: chicken, unit: g, qty: 454}
+  - {ingredient: onion, unit: g, qty: 227, prep: cut into medium dice}
+  - {ingredient: leek, qty: 2, prep: 'including green part, trimmed and thoroughly washed to remove all sand'}
+  - {ingredient: carrot, unit: g, qty: 57, prep: peeled and cut into medium dice}
+- name: Bouquet garni
+  items:
+  - {ingredient: parsley, qty: 6}
+  - {ingredient: thyme, qty: 2}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: black-peppercorns, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 1}
+steps:
+- Place all the meat and bones in a stock pot and enough water to cover the solids by 2 inches.
+- Bring to a simmer over medium heat, skimming off foam and scum as it rises to the surface.
+- Reduce the heat and simmer uncovered and undisturbed for 30 minutes. Do not let it boil.
+- Skim if necessary and add the vegetables, bouquet garni, and salt.
+- Stir, partially cover, and simmer for 6 to 8 hours.
+- Using tongs or a spider, remove the bones and discard them.
+- Strain the stock into another container and discard the vegetables.
+- Now strain the stock back into the rinsed stock pot through a double layer of dampened cheesecloth.
+- Set the pot in a sink of cold water to cool rapidly then put it into the refrigerator to chill.
+- Remove from the refrigerator, lift the layer of solidified fat off, and discard the fat.
+- Divide the stock into suitably-sized portions and freeze.
+- Brown the bones in the oven at 400°F, turning from time to time and being careful not to burn them.
+- Remove the bones form the oven and place them in the stock pot.
+- Place the baking pan on the stove top and brown the onions and carrots in the pan, adding some oil or fat if necessary. Add them to the stock pot.
+- Deglaze the pan with some water, and add it to the stockpot.
+- Continue as per the white stock recipe above.
+tips:
+- If not frozen, stock should be refrigerated in a covered container, but it must be used within 3 to 4 days or brought to the boil frequently to prevent spoilage.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeef_Stock&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Beef Stock@4506788
+    url: https://en.wikibooks.org/w/index.php?oldid=4506788
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

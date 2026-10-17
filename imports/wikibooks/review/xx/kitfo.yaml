@@ -1,0 +1,72 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 tablespoon mitmita spice blend
+#  - unmapped ingredient: 1 tablespoon spiced clarified butter
+#  - unmapped ingredient: Injera, for serving
+#  - unmapped ingredient: Ayib, crumbled, for serving
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-kitfo
+title: Kitfo
+alternate_names:
+- Ethiopian Minced Raw Meat
+summary: Kitfo is a traditional Ethiopian dish made with minced raw meat that is highly seasoned and spiced. It is a popular dish in Ethiopian cuisine, known for its bold flavors and unique preparation.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 4
+equipment:
+- Large bowl
+- Sharp knife
+- Cutting board
+- Mixing spoon or spatula
+- Skillet
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 500, prep: finely minced}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 1, note: to taste}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: berbere, unit: tsp, qty: 1}
+  - {ingredient: collard-greens, prep: 'blanched and chopped, for serving', optional: true}
+steps:
+- Place the minced beef in a large bowl.
+- In a separate small bowl, combine the mitmita spice blend, salt, black pepper, and berbere spice blend.
+- Sprinkle the spice mixture over the minced beef. Mix well with a spoon or spatula to evenly distribute the spices throughout the meat.
+- Heat the clarified butter or olive oil in a small skillet over low heat until melted.
+- If using niter qibe, add it to the skillet and let it melt with the clarified butter or olive oil.
+- Pour the melted butter or oil over the seasoned minced beef. Mix thoroughly until all the ingredients are well combined.
+- Let the kitfo marinate in the refrigerator for at least 1 hour to allow the flavors to meld and develop.
+- To serve, place the kitfo on a plate and shape it into a mound or individual portions.
+- Accompany the kitfo with injera, collard greens, and crumbled ayib on the side.
+- To eat, tear off a piece of injera, scoop a small portion of kitfo onto it, and wrap it before taking a bite.
+tips:
+- Kitfo is traditionally served raw, but if you prefer, you can lightly cook the minced beef in a skillet over low heat for a few minutes until it is just warmed through.
+- Adjust the level of spiciness by adding more or less mitmita or berbere spice blend to suit your taste preferences.
+- The quality and freshness of the meat are crucial when preparing kitfo. Ensure that the beef is sourced from a reliable and reputable supplier.
+- Use a sharp knife to finely mince the beef. Alternatively, you can ask your butcher to mince it for you.
+- Kitfo is often enjoyed as part of a larger Ethiopian meal, so it is common to have additional dishes such as lentils, potatoes, or salads alongside it.
+- Some variations of kitfo include lightly cooking the minced beef with the spices, which is known as leb leb or tibs kitfo. The beef is quickly seared in a hot pan, giving it a slightly cooked texture while maintaining its tenderness.
+- For a vegetarian version, you can substitute the minced beef with minced mushrooms or tofu and follow the same seasoning and marinating process.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKitfo_%28Ethiopian_Minced_Raw_Meat%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kitfo (Ethiopian Minced Raw Meat)@4502284
+    url: https://en.wikibooks.org/w/index.php?oldid=4502284
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

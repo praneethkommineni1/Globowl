@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/4 cup tamba
+#  - course unknown from categories
+id: ng-kunun-tamba
+title: Kunun Tamba
+alternate_names:
+- Finger Millet Porridge
+summary: Kunun tamba is a porridge made from finger millet. It is common in the northern part of Nigeria.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2 servings
+time:
+  total_min: 40
+difficulty: 2
+equipment:
+- Sieve
+- Bowl
+- Pot
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: ginger}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: milk, unit: cup, qty: 1}
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+steps:
+- Wash the tamba and dry with a clean cloth.
+- Mix tamba with ginger. Grind the mixture until smooth.
+- Allow the ground mixture to cool down, then sieve the chaff to give a fine texture.
+- Boil water in a pot and add the tamba powder gradually, stirring gently to make a smooth mixture.
+- Add milk and sugar, then whisk until smooth and lump-free.
+tips:
+- Finger millet porridge is usually prepared for babies as a weaning food. It is also eaten as breakfast in some regions.
+- Dilute with water to get a thinner porridge
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKunun_Tamba_%28Finger_Millet_Porridge%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kunun Tamba (Finger Millet Porridge)@4513166
+    url: https://en.wikibooks.org/w/index.php?oldid=4513166
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

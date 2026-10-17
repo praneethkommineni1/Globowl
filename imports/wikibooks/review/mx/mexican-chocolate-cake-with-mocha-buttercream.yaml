@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 3 ounces unsweetened chocolate
+#  - unmapped ingredient: Mocha Buttercream
+id: mx-mexican-chocolate-cake-with-mocha-buttercream
+title: Mexican Chocolate Cake with Mocha Buttercream
+summary: Mexican Chocolate Cake with Mocha Buttercream.
+origin:
+  country: MX
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 10
+  amount: 10 servings
+time:
+  total_min: 120
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: cooking-spray}
+  - {ingredient: chocolate, unit: g, qty: 85}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: baking-powder, unit: tsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+  - {ingredient: butter, unit: cup, qty: 1, prep: softened}
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: egg, qty: 4, note: large}
+  - {ingredient: milk, unit: cup, qty: 1}
+  - {ingredient: cocoa-powder, optional: true, prep: 'unsweetened cocoa, and confectioner''s sugar,  toppings'}
+steps:
+- Preheat oven to 350°F.
+- Generously spray a deep 9-inch springform pan with nonstick cooking spray.
+- Melt the chocolates in a double boiler or in a microwave oven at low power.
+- Set aside to cool.
+- Sift together the flour, baking powder, salt, and cinnamon into a medium-size bowl.
+- Place the butter and sugar in a large mixing bowl and cream at high speed with an electric mixer.
+- Add the vanilla and the eggs, one at a time, beating well after each.
+- Pour in the cooled chocolate mixture, and beat well until everything is incorporated.
+- Add ⅓ of the flour mixture, and stir until it is just barely incorporated, then pour in half the milk.
+- Stir briefly, then repeat with another ⅓ of the flour and the remaining milk.
+- Add the rest of the flour mixture and stir just enough to blend. Don't over mix, or the cake will toughen.
+- Spread into the prepared pan and bake for 55 minutes, or until a toothpick inserted into the center comes out clean.
+- Cool completely before assembling and frosting.
+- Cut the cake into 3 equal layers, using a long serrated knife and a gentle sawing motion.
+- Spread mocha buttercream between the layers, and stack them evenly.
+- Spread more buttercream on the sides and the top.
+- Artfully sprinkle the top with extra cinnamon, cocoa, and confectioner's sugar, if desired.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMexican_Chocolate_Cake_with_Mocha_Buttercream&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mexican Chocolate Cake with Mocha Buttercream@4524817
+    url: https://en.wikibooks.org/w/index.php?oldid=4524817
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

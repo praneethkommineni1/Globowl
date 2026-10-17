@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: bg-moussaka
+title: Moussaka
+alternate_names:
+- Bulgarian
+summary: Moussaka is a Bulgarian minced meat dish, resembling a casserole. For the Greek version of this dish, see Greek Moussaka. This recipe is adapted from Ralitsa Roesing's kitchen. It's delicious with cold yogurt on the side.
+origin:
+  country: BG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: beef, unit: kg, qty: 0.5}
+  - {ingredient: potato, unit: kg, qty: 1, prep: peeled and finely chopped}
+  - {ingredient: tomato, qty: 2, prep: finely chopped}
+  - {ingredient: parsley, unit: cup, qty: 0.333, prep: finely chopped}
+  - {ingredient: egg, qty: 3, prep: beaten}
+  - {ingredient: yogurt, unit: cup, qty: 1}
+  - {ingredient: all-purpose-flour, qty: 2}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Fry the onion and the minced meat in a little oil until the meat is cooked. The fattier the meat is, the less oil you need.
+- Combine meat and onions with the potatoes, tomatoes, and parsley. Add salt and pepper to taste.
+- Transfer to a baking dish. Bake for about 1 hour, or until the potatoes are cooked.
+- Stir the eggs, the yogurt and the flour together and pour it over the dish. Bake for 10 more minutes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMoussaka_%28Bulgarian%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Moussaka (Bulgarian)@4517410
+    url: https://en.wikibooks.org/w/index.php?oldid=4517410
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

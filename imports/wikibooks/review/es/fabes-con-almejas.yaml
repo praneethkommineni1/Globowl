@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 24 live littleneck or mahogany clams
+id: es-fabes-con-almejas
+title: Fabes con Almejas
+alternate_names:
+- Spanish Beans with Clams
+summary: Fabes con almejas, sometimes called habas con almejas, (Spanish for beans with clams) is a clam and bean stew that originated in the principality of Asturias in Spain in the 1800s as peasant fare.
+origin:
+  country: ES
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 90
+difficulty: 1
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: dried-white-beans, unit: g, qty: 454}
+  - {ingredient: garlic, unit: clove, qty: 3}
+  - {ingredient: bay-leaf, qty: 2}
+  - {ingredient: olive-oil, unit: tbsp, qty: 3}
+  - {ingredient: onion, qty: 0.5}
+  - {ingredient: saffron, qty: 1, note: generous}
+  - {ingredient: paprika, unit: tbsp, qty: 1}
+  - {ingredient: parsley, unit: cup, qty: 0.25}
+  - {ingredient: white-bread}
+  - {ingredient: salt}
+steps:
+- Rinse the beans and soak overnight.
+- Scrub the clams clean and rinse.
+- Drain the beans and place them in a skillet with the onion, garlic, two pinches of parsley, bay leaves, and olive oil.
+- Add just enough water to cover the ingredients and cook over a high flame.
+- Bring to a boil and then reduce to a simmer. Skim off any foam. Cook them, loosely covered, until done. This should take about 90 minutes. Check the skillet occasionally to add water. Never allow the water to drop below the height of the ingredients.
+- When the beans are almost done, place the clams in a separate skillet and add about an inch of water. Cover the skillet and cook over medium heat, shaking the pan occasionally to help the clams open. Check the clams every minute. Remove them as they open and place them in a separate bowl. This should take no more than 10 minutes. Once you've removed all the clams you'll have clam broth in the skillet. Save the broth, as you'll need it for the next step.
+- Check the broth for bits of dirt and clam shell. If there's a lot, you'll have to strain it through a cloth to remove the grit.
+- Add the broth to the simmering beans along with the saffron (or food coloring), the remaining parsley, paprika and salt to taste.
+- Cover and cook for 5–10 minutes.
+- Ladle the beans and broth into separate bowls and add six clams to each bowl.
+- Serve with crusty bread on the side.
+tips:
+- Be sure to follow the safe handling tips for clams.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFabes_con_Almejas_%28Spanish_Beans_with_Clams%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fabes con Almejas (Spanish Beans with Clams)@4630305
+    url: https://en.wikibooks.org/w/index.php?oldid=4630305
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

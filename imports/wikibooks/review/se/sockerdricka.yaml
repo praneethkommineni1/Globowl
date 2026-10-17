@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: se-sockerdricka
+title: Sockerdricka
+alternate_names:
+- Swedish Ginger Drink
+summary: Sockerdricka (Swedish for "sugar drink") is a soft drink from the 19th century. It is traditionally a fermented drink that contains ginger, but modern commercial versions consist of carbonated water, some sugar, and citric acid.
+origin:
+  country: SE
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- fermenting
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: l, qty: 20}
+  - {ingredient: lemon}
+  - {ingredient: sugar, unit: kg, qty: 1}
+  - {ingredient: yeast, unit: g, qty: 60}
+  - {ingredient: ginger, unit: g, qty: 25}
+  - {ingredient: raisins}
+steps:
+- Boil the sugar, water, lemon and crushed ginger for 15 minutes.
+- Strain the mixture and let it cool.
+- Mix in the yeast and let the mixture ferment for 2 days.
+- Put the drink in bottles, and add a raisin to each bottle.
+- Cork the bottles, and let rest for 5 days. After 5 days the sockerdricka is ready for drinking.
+tips:
+- The recipe above has lots of yeast, and not much ginger. It would work well with just 10 g yeast. More ginger would be good (e.g. 100 g of fresh ginger for 20 litres).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASockerdricka_%28Swedish_Ginger_Drink%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sockerdricka (Swedish Ginger Drink)@4509982
+    url: https://en.wikibooks.org/w/index.php?oldid=4509982
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

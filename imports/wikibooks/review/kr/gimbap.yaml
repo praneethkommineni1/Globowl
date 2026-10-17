@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Yellow pickled daikon radish
+#  - no servings in recipe summary
+id: kr-gimbap
+title: Gimbap
+summary: Gimbap is a popular snack or lunch dish in Korea. Its primary ingredients are gim (sheets of dried seaweed) and bap (rice).
+origin:
+  country: KR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 30
+difficulty: 3
+techniques:
+- boiling
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: spinach}
+  - {ingredient: salt}
+  - {ingredient: sesame-oil}
+  - {ingredient: sesame-seeds}
+  - {ingredient: carrot}
+  - {ingredient: black-pepper}
+  - {ingredient: vegetable-oil}
+  - {ingredient: egg}
+  - {ingredient: long-grain-rice}
+  - {ingredient: nori}
+  - {ingredient: ham, prep: 'ham, sausage, or any other kind of cooked meat'}
+steps:
+- Slice radish lengthwise, about 1 cm thick.
+- Boil water and add spinach. Boil for about 10 seconds, then drain it.
+- Rinse the spinach with cold water, and squeeze all the water out. Season with salt, sesame oil, and sesame seeds.
+- Shred carrots about 2 inches (5 cm) long. Stir-fry it with salt, pepper, and vegetable oil. You don’t have to cook it all the way through.
+- Crack about 4–5 eggs into a little bowl. Mix well, and season with salt and pepper. Transfer beaten eggs to a hot greased skillet, and cook like an omelet until it is solid. Cut lengthwise, about 1 cm thick.
+- Mix rice, 2 tbsp of oil, and sesame seed together.
+- Place the mat on a flat surface and place a sheet of seaweed on top. Spread a layer of seasoned rice on top of the seaweed, and arrange the eggs, carrots, spinach, radish, and meat on top of that in long strips.
+- Use the bamboo mat to tightly roll everything up, with the fillings on the inside and the seaweed on the outside.
+- If desired, slice the roll into rounds.
+tips:
+- Avoid spreading the rice too thick on the seaweed, which will make it hard to roll up.
+- Gimbap is good to pack for lunch or a snack, and it makes great picnic food.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGimbap&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gimbap@4524745
+    url: https://en.wikibooks.org/w/index.php?oldid=4524745
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

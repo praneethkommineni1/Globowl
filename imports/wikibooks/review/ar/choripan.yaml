@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: Chimichurri sauce for serving
+#  - course unknown from categories
+id: ar-choripan
+title: Choripán
+alternate_names:
+- Argentine Chorizo Sandwich
+summary: __notoc__
+origin:
+  country: AR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 40
+difficulty: 2
+equipment:
+- Grill (ideally charcoal)
+- Long tongs for flipping
+- Knives for cutting the bread and chorizo
+techniques:
+- grilling
+ingredient_groups:
+- items:
+  - {ingredient: chorizo, qty: 2}
+  - {ingredient: white-bread, qty: 2}
+  - {ingredient: tomato, optional: true}
+  - {ingredient: lettuce, optional: true}
+  - {ingredient: mayonnaise}
+steps:
+- Fire up your grill. Preheat the grates to medium heat (approximately 350 °F / 175 °C).
+- Grill the chorizo sausages 20 minutes per side.
+- When the chorizos are nearly done, slice the rolls in half and char it slightly on the grill.
+- Remove the chorizo sausages from the grill and slice them lengthwise, "butterfly style."
+- Smear some mayonnaise on the bread halves.
+- Assemble the sandwiches with 1 sausage per roll. Add tomato slices and lettuce to taste. Dress with chimichurri sauce.
+tips:
+- The chorizo sausage used in choripán is typically grilled because of its fat content, and the smoky flavor that it delivers.
+- In Chile, choripán uses marraqueta bread instead of the French-style one used in Argentina.
+- Choripán can also be served with salsa criolla, made by mixing chopped onion, tomato, and bell pepper, with some vinegar and olive oil.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChorip%C3%A1n_%28Argentine_Chorizo_Sandwich%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Choripán (Argentine Chorizo Sandwich)@4536414
+    url: https://en.wikibooks.org/w/index.php?oldid=4536414
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

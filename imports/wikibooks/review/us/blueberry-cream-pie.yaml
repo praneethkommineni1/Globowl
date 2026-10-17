@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 1/2 cups fresh blueberries
+#  - unmapped ingredient: 1 ea. 9-inch unbaked pie shell
+#  - unmapped ingredient: 3 tablespoons pecans, chopped
+id: us-blueberry-cream-pie
+title: Blueberry Cream Pie
+summary: This recipe for blueberry cream pie is from chef Taylor Piercefield.
+origin:
+  country: US
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- name: Pie
+  items:
+  - {ingredient: sour-cream, qty: 1}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 2}
+  - {ingredient: sugar, unit: cup, qty: 0.75}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: egg, qty: 1, prep: beaten}
+- name: Topping
+  items:
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 3}
+  - {ingredient: butter, unit: tbsp, qty: 3}
+steps:
+- Preheat oven to 400°F (200°C).
+- In a mixing bowl, combine sour cream, flour, sugar, vanilla, and egg.
+- Beat until very smooth.
+- Fold in blueberries.
+- Pour filling into pie shell.
+- Bake for 25 minutes.
+- In a small bowl, mix flour, butter and pecans, stirring well.
+- Sprinkle over pie and bake an additional 10 minutes.
+- Remove from oven.
+- Cool on wire rack, then chill.
+tips:
+- A little whipped cream on top is a nice addition.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABlueberry_Cream_Pie&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Blueberry Cream Pie@4587353
+    url: https://en.wikibooks.org/w/index.php?oldid=4587353
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

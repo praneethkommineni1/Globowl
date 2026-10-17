@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 quarts water
+#  - unmapped ingredient: 1–2 cups vegetables, thinly sliced
+id: fr-potage-parmentier
+title: Potage Parmentier
+summary: There are few things more versatile or more satisfying than potage parmentier (leek and potato soup) or one of its myriad variations. It’s good freshly-made and better the next day. Hot or cold, it makes a lovely start to dinner; served with some left-over meat, a great lunch.
+origin:
+  country: FR
+course: soup
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 120
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: leek, unit: cup, qty: [3, 4]}
+  - {ingredient: potato, unit: cup, qty: [3, 4], prep: peeled and thickly sliced}
+  - {ingredient: salt, unit: tbsp, qty: 2}
+  - {ingredient: black-pepper, prep: 'freshly ground, to taste', note: to taste}
+  - {ingredient: heavy-cream, unit: tbsp, qty: [4, 6]}
+  - {ingredient: parsley, unit: handful, qty: [1, 2], prep: rough chopped, optional: true}
+steps:
+- If using leeks, remove the roots and dark green leaves; wash twice as long as you think necessary to remove the grit.
+- Place the vegetables, water and salt in a pot and bring to a boil. Lower the heat and gently simmer (partially covered) for 45–50 minutes. The soup is done when you can easily mash the vegetables against the side of the pot.
+- Puree the soup using a food mill fitted with the fine disc. Optionally, pulse it in a blender just until smooth and pass through a fine sieve.
+- Chill the soup if it is to be served cold, or gently reheat it to a simmer. Refrigerate any left-overs. It will keep for days if refrigerated in a covered container as soon as it cools.
+- Add 1½–2 tsp cream (or whole milk) per portion just before serving. You’ll need more cream if you’re serving the soup hot or if it’s a bit watery; the idea is to create a smooth, silky puree, but you don’t want the taste or mouth feel of the cream to predominate. Taste and adjust for salt and pepper.
+tips:
+- After cooking the soup, leave it to cool in the refrigerator for 1–2 hours. It will taste better when heated up to serve!
+- Raw vegetables should be added to the soup at the beginning of the cooking time; if using left-over vegetables or herbs, add them after the soup has been cooking for 30–40 minutes, so they cook just long enough to completely warm through.
+- If using "regular" table salt instead of kosher salt, reduce the amount of salt to 1–1½ tbsp. A chilled soup usually requires slightly more seasoning than that added to a hot serving; this can be added individually to taste.
+- A combination of young buttery parsnips and a couple of punnets of mustard-and-cress makes the classic French puree pasternak. A teaspoon of potato, rice, or corn starch should be used to stabilise the puree, which should be milled or sieved.
+- Using white pepper is preferable for color. Use fresh-ground black pepper otherwise.
+- A proportion of light chicken or vegetable stock may be used instead of the water.
+- Snipped chives are the classic garnish for leek-and-potato soup. When including asparagus, you can use steamed asparagus tips as a garnish; with broccoli, use steamed broccoli florets—you get the idea. Of course, if you’re just pouring a mid-afternoon mug for yourself, who cares how it looks?
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APotage_Parmentier&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Potage Parmentier@4518488
+    url: https://en.wikibooks.org/w/index.php?oldid=4518488
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

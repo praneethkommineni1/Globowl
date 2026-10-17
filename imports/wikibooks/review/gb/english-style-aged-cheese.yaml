@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 1/2 tsp commercial rennet
+#  - unmapped ingredient: 1/4 cup lukewarm water
+#  - course unknown from categories
+id: gb-english-style-aged-cheese
+title: English Style Aged Cheese
+summary: English Style Aged Cheese.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1 or more
+time:
+  total_min: 5
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: milk, qty: 5}
+  - {ingredient: butter}
+  - {ingredient: salt, unit: tbsp, qty: [2, 3]}
+steps:
+- Gently heat milk and bring it to blood temperature (80 °F/27 °C).
+- Combine rennet and water, then add to milk. Stir for 1 minute.
+- Cover and let it rest or 1½ hours, preferably near a fire where it can stay warm. Maintain a temperature of 80 °F (27 °C) while milk is left to coagulate under a gentle heat.
+- When it reaches the right consistency, stir and then separate the curds from the whey.
+- Cut the curds in a crisscross configuration with a long and flat wooden stick, so as to release the whey from the milk (separate the liquid part of the milk from the solid part of the milk). Do not remove curds from pot.
+- Cover the curds once again and let rest for 1–1½ hour. Gently stir again, and then slowly heat it all again to ; if heated too fast, the heat will create a film or thin skin on the curds and the cheese will remain wet and not age properly.
+- Break up the curds very slowly with your hands. Strain through a fine mesh cloth, separating the curds from the whey.
+- Squeeze out excess water. Open up the cloth, break apart the curds, and add the salt.
+- Put curds into a wooden press (vice) lined with butter and a mesh-like cloth. Press to extract more of the whey from the curds.
+- Leave in the press for 2–3 days; in the interim, flip it over.
+- Remove the curd from the press.
+- Sprinkle a clean shelf in a cool place with a good amount salt. Set the cheese down upside-down. Leave it to age for a minimum of 60 days, flipping over every day to allow for complete drying. The longer it ages, the drier and sharper the cheese becomes.
+tips:
+- If pasteurized milk is used, for every 5 gallons of milk add 1 quart (ca. 1 litre) of cultured buttermilk to restore the enzymes needed for coagulation). Never use ultra-pasteurized milk.
+- The dried bull thistle flower (Cirsium vulgare) can be used for vegetable rennet in cheesemaking, but only with goat or sheep milk. Its dried flower is soaked in water, strained and added to the milk.
+- For cow's milk, the florets of Lady's Bedstraw, also known as Yellow Bedstraw (Galium verum), can be used instead of rennet. The flowers are soaked in lukewarm water and then added to the milk.
+- Whenever a calf rennet is used, a small piece about the size of a US 50-cent piece is cut off of the inner-stomach lining of a calf that has never yet been weaned, tied with a string and soaked in water overnight to release its enzymes. This water is then poured into the milk, heated to blood temperature, etc.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEnglish_Style_Aged_Cheese&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:English Style Aged Cheese@4524737
+    url: https://en.wikibooks.org/w/index.php?oldid=4524737
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

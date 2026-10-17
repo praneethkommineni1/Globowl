@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 pinch ground gingerbread spices
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: de-feuerzangenbowle
+title: Feuerzangenbowle
+alternate_names:
+- German Wine Punch
+summary: Feuerzangenbowle is a traditional German alcoholic drink, often part of a Christmas or New Year's tradition. The name translates literally as "fire-tongs punch". Pay attention to the preparation and don't let drunks light the rum—it can cause nasty burns and you don't want that.
+origin:
+  country: DE
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: red-wine, qty: [2, 3]}
+  - {ingredient: rum, unit: l, qty: 0.4}
+  - {ingredient: orange, qty: 2}
+  - {ingredient: lemon, qty: 2, optional: true}
+  - {ingredient: cinnamon-stick, qty: 1}
+  - {ingredient: whole-cloves, qty: 5}
+  - {ingredient: sugar, qty: 1}
+steps:
+- Put the wine into the feuerzangenbowle bowl, and heat it to about 70 °C.
+- Wash the fruit with hot water.
+- Peel the oranges and lemons into thin strips, and add the peel to the wine along with the spices.
+- Place the feuerzange on the bowl and place the zuckerhut on it.
+- Put the rum into a soup ladle and pour it over the zuckerhut. Then, carefully light it on fire.
+- When the flame on the sugar has stopped burning, repeat the process with a fresh ladle of rum. Add the rum very slowly this time or you will burn your hand.
+- When the sugar has completely dissolved, remove the feuerzange and add another ladle of unburnt rum to the bowl.
+- Remove all solids (oranges, lemons, cloves, and cinnamon stick) from the bowl from the drink.
+tips:
+- The rum has to have at least 50% alcohol; otherwise the flambeing won't work. If the rum has a higher percentage of alcohol (>60%) the flame will be very big. Proceed with caution and add the rum slowly.
+- If you can't obtain a zuckerhut, substitute sugar cubes.
+- If you can't obtain a feuerzange, replace it with a grate.
+- Instead of the feuerzangenbowle bowl and heater, you can also use a big pot on a normal cooking plate. A very appealing solution for a feuerzangenbowle bowl is a large (5 L or so) lab glass beaker (not previously used for its original purpose). It combines heat resistance and transparency, adding to the effect.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFeuerzangenbowle_%28German_Wine_Punch%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Feuerzangenbowle (German Wine Punch)@4541034
+    url: https://en.wikibooks.org/w/index.php?oldid=4541034
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

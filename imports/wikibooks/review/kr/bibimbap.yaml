@@ -1,0 +1,100 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 tbsp ground sesame seeds
+#  - unmapped ingredient: 2 tsp ground sesame seeds
+#  - unmapped ingredient: 1/4 tsp grated garlic
+#  - unmapped ingredient: 1 tsp ground sesame seeds
+#  - unmapped ingredient: 1/4 tsp grated garlic
+#  - unmapped ingredient: 1 tbsp ground sesame seeds
+#  - unmapped ingredient: 1/4 tsp grated garlic
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: kr-bibimbap
+title: Bibimbap
+summary: Bibimbap (also called Bibimba or Bibimbop) is a typical Korean meal that literally means "mixed rice".
+origin:
+  country: KR
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- blanching
+- boiling
+ingredient_groups:
+- name: Carrot namul
+  items:
+  - {ingredient: carrot, qty: 2, note: small}
+  - {ingredient: sesame-oil, unit: tbsp, qty: 2}
+  - {ingredient: garlic, unit: tsp, qty: 0.25}
+  - {ingredient: salt, unit: pinch, qty: [1, 2]}
+- name: Spinach namul
+  items:
+  - {ingredient: spinach, unit: g, qty: 284}
+  - {ingredient: sesame-oil, unit: tbsp, qty: 1}
+- name: Bean sprout namul
+  items:
+  - {ingredient: bean-sprouts, unit: g, qty: 227, prep: with beans attached}
+  - {ingredient: sesame-oil, unit: tsp, qty: 2}
+  - {ingredient: salt, unit: pinch, qty: 1}
+- name: Beef soboro
+  items:
+  - {ingredient: olive-oil, unit: tbsp, qty: 1}
+  - {ingredient: beef, unit: g, qty: 454}
+  - {ingredient: soy-sauce, unit: cup, qty: 0.25}
+  - {ingredient: sesame-oil, unit: tbsp, qty: 1}
+- name: Assembly
+  items:
+  - {ingredient: long-grain-rice, unit: cup, qty: [0.75, 1.5], prep: steamed}
+  - {ingredient: egg, qty: 3, prep: cooked over easy}
+  - {ingredient: kimchi, unit: cup, qty: 0.75}
+  - {ingredient: cucumber, qty: 1, prep: cut into strips}
+  - {ingredient: gochujang}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+steps:
+- Cut the carrots into matchsticks.
+- Boil matchsticks in a covered pot of salted water for a few minutes. Drain.
+- Rinse carrots with cold water until cool. Drain again, then put in a bowl.
+- Add the sesame oil, ground sesame seeds, grated garlic, and salt. Toss together with your fingers.
+- Put the spinach in a large covered pot with 1 inch of water.
+- Bring to a boil and cook as usual. Stir occasionally to keep the spinach from sticking to the pot. The spinach is done when it's dark green and reduced to a small fraction of its original volume.
+- Drain the cooked spinach. Cool by adding cold water to the pot and drain again. Squeeze the spinach in your hands to remove the water.
+- Slice the cooked spinach into 1-inch pieces.
+- Put the cooked spinach in a bowl with the sesame oil, ground sesame seeds, and grated garlic. Mix with your fingers.
+- Blanch the bean sprouts in a pot of salted water until they become clear.
+- Drain the cooked sprouts, and transfer to a bowl.
+- Toss with sesame oil, ground sesame seeds, grated garlic, and salt.
+- Slice the steak thinly, but not paper-thin.
+- Heat the oil in a large frying pan on high heat. When the oil is hot, but not smoking, add the beef. Stir-fry.
+- While the beef is cooking, add the sesame oil, ground sesame seeds, and grated garlic. Cook until the meat is well browned.
+- Add the soy sauce. Continue cooking until the liquid has boiled off.
+- Place rice in each bowl.
+- Arrange the prepared namuls, beef soboro, cucumbers, and egg on top of the rice. They should be arranged separately and attractively. The egg sits in the middle. Gochujang, kimchi, and any other root or leafy vegetable is served on the side in small individual bowls for the table to help themselves.
+- Rub the inside of the dolsots with sesame oil.
+- Spread the cooked rice evenly over the bottom of the dolsots and part way up the sides. Place the namurus and the beef soboro on top of the rice, each in its own area.
+- Cover the dolsots and cook over medium-high heat. Watch carefully near the end to avoid burning the rice on the bottom. To test, use a spoon to scrape the rice from the side. Remember that the bottom cooks more than the sides and that the rice keeps cooking after you remove it from the heat. Do not preheat the dolsots.
+- Add an uncooked egg to the middle of each dolsot.
+- Serve dolsots on small pieces of wood to keep the heat from damaging the table.
+- To eat, start by scraping the rice from the bottom and stirring the ingredients together with a metal spoon. The egg will cook as it breaks up. The rice on the bottom will be crunchy and sometimes hard to remove unless you continue stirring as you eat.
+tips:
+- Sesame seeds expand when ground; 2 or 3 tablespoons of sesame seeds will make ¼ cup of ground sesame seeds.
+- Vegetables that can be served on the side (in small individual bowls) include lettuce, shiitake mushrooms, doraji namul, kong namul, gaji namul, sukju namul, gosari namul, and hobak namul. Other ingredients like dried sesame seeds and gim (seaweed) are added to the mix at varying times, depending on personal taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABibimbap&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bibimbap@4523906
+    url: https://en.wikibooks.org/w/index.php?oldid=4523906
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

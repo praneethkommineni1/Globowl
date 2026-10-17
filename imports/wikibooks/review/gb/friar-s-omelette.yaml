@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 ounce white sugar for decoration
+id: gb-friar-s-omelette
+title: Friar's Omelette
+summary: Friar's Omelette is a traditional Scottish recipe for eggs and apples. However, apple can be substituted by other fruit such as rhubarb, plum (with stones removed), or blackberry.
+origin:
+  country: GB
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 90
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: apple, qty: 6, note: medium}
+  - {ingredient: butter, unit: g, qty: 113}
+  - {ingredient: sugar, unit: g, qty: 57}
+  - {ingredient: egg, qty: 2, prep: well beaten}
+  - {ingredient: breadcrumbs, unit: ml, qty: 118}
+  - {ingredient: water, qty: 0.25}
+  - {ingredient: lemon-juice}
+steps:
+- Peel and core the apples, slice them, and place in a saucepan with the water.
+- Cook until soft (similar to applesauce), then remove from heat and add butter, sugar and lemon juice; mix well.
+- While this is cooling, beat the eggs very well. When the apple mixture is cool, mix in the eggs as well.
+- Butter a deep baking dish and spread the breadcrumbs around it so that they stick to the bottom and the sides, keeping a good amount for the top.
+- Pour the apple and egg mixture into the dish and cover with a thick layer of breadcrumbs.
+- Bake in a moderate oven (350°F / 180°C / Gas Mark 4) for about half an hour.
+- Turn out onto a flat dish and sprinkle with sugar before serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFriar%27s_Omelette&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Friar's Omelette@4524758
+    url: https://en.wikibooks.org/w/index.php?oldid=4524758
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: it-crab-meat-ravioli-filling
+title: Crab Meat Ravioli Filling
+summary: Crab Meat Ravioli Filling.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: tbsp, qty: 1}
+  - {ingredient: onion, unit: cup, qty: 0.5}
+  - {ingredient: celery, unit: cup, qty: 0.25}
+  - {ingredient: crab, unit: g, qty: 255, prep: fresh or canned}
+  - {ingredient: dijon-mustard, unit: tbsp, qty: 2}
+  - {ingredient: heavy-cream, unit: tbsp, qty: 2}
+  - {ingredient: egg, qty: 1, prep: beaten, note: large}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 2}
+  - {ingredient: parsley, unit: tbsp, qty: 2, prep: chopped}
+  - {ingredient: breadcrumbs, unit: cup, qty: 0.25}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+steps:
+- Sauté the onion and garlic in the butter over low heat until soft, about 15 minutes.
+- Combine crab meat, mustard, cream, egg, lemon juice, parsley, bread crumbs and seasonings in a bowl.
+- Add the onion and celery and mix until well blended but not homogeneous.
+- Cover and refrigerate until the pasta dough is ready.
+tips:
+- If using canned crab meat, drain in a sieve and taste. If excessively salty, rinse under running water until palatable.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACrab_Meat_Ravioli_Filling&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Crab Meat Ravioli Filling@4630315
+    url: https://en.wikibooks.org/w/index.php?oldid=4630315
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (MX, US): confirm the country of origin
+id: mx-churros
+title: Churros
+summary: This is a very simple recipe for plain churros. Makes one plateful, suitable for about 4 people. It can easily be doubled or halved, but be warned that attempting to mix more than double this recipe at once is very hard work.
+origin:
+  country: MX
+  also_claimed_by:
+  - US
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4 people
+time:
+  total_min: 75
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 400}
+  - {ingredient: water, unit: ml, qty: 400}
+  - {ingredient: baking-soda, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.25, optional: true}
+  - {ingredient: vegetable-oil}
+steps:
+- Sift the flour, baking soda, and salt into a large mixing bowl.
+- Add the boiling water gradually to the flour, mixing constantly until you get a very thick, smooth paste.
+- Allow to stand for about an hour.
+- Heat up a deep frying pan of oil until it shimmers.
+- Using an icing bag, or a freezer bag with the corner cut out to give a hole about the size of your little finger, squeeze the paste into the pan. Use a pair of scissors to cut the sausage-shaped pieces off after about 10 cm.
+- Fry the churros until golden brown and crunchy. If the pieces are too thick and are still raw in the middle, cut them in half lengthwise and fry again.
+- Remove churros from oil, and drain on a rack or paper towels.
+- Serve dusted liberally with sugar or hot chocolate sauce (or both).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChurros_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Churros I@4587319
+    url: https://en.wikibooks.org/w/index.php?oldid=4587319
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

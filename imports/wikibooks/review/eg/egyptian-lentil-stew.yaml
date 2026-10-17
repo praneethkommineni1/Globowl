@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no difficulty in recipe summary
+id: eg-egyptian-lentil-stew
+title: Egyptian Lentil Stew
+summary: This stew is a lovely stew to make on cold nights for a family. It is also very simple to make. It is an Egyptian lentil stew, and the recipe is used a lot in the Middle East. In Arabic, this stew is called shorbat ads which means "lentil soup" .
+origin:
+  country: EG
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 80
+difficulty: 1
+equipment:
+- Knife
+- Cutting-board
+- Large pot
+- Tablespoon measure
+- Large stirring spoon
+- Measuring cup
+- Juicer
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 2, prep: peeled and chopped}
+  - {ingredient: olive-oil, unit: tbsp, qty: 4}
+  - {ingredient: water, unit: cup, qty: 8}
+  - {ingredient: brown-lentils, unit: g, qty: 227}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: lemon, qty: 1}
+steps:
+- Place the chopped onions into the big pot, along with the 4 tablespoons of olive oil.
+- Sauté the onions on low heat until they turn translucent and slightly golden.
+- Add the 8 cups of water, lentils, soup mix, cumin, and coriander to the pot with the onions.
+- Stir, then turn up the temperature of the stove to about medium heat (you want it to be slightly bubbling, but not boiling).
+- Let it simmer for an hour, stirring every few minutes to make sure that it doesn't burn. You may have to turn the temperature of the stove up or down a little. Taste, and add salt if needed.
+- Turn off the stove and put the pot on a different burner so that it doesn't continue to cook.
+- Take your lemon, and cut it in half. Then, squeeze it on the juicer until there is no more juice in the lemon.
+- Stir the lemon juice into the pot.
+- Taste the soup, and serve! Cumin and more fresh lemon and can be added to the bowl according to preference.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgyptian_Lentil_Stew&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egyptian Lentil Stew@4518607
+    url: https://en.wikibooks.org/w/index.php?oldid=4518607
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

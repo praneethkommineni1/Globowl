@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 tbsp Cajun seasoning
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: us-blackened-sirloin
+title: Blackened Sirloin
+summary: Blackened Sirloin.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: beef, qty: 1}
+  - {ingredient: black-peppercorns, unit: tbsp, qty: 2, prep: cracked}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: olive-oil}
+steps:
+- Brush steak with oil. Season on both sides with seasoning, peppercorns, and salt. Let sit until room temperature, about 30 minutes.
+- 'Preheat grill to 2 settings: very high, and medium high.'
+- Add steak to hottest part and cook 3 minutes per side, rotating 90 degrees halfway through each side to mark.
+- Move steak to medium high heat and cook, turning often, until internal temperature is 5°F (3°C) less than the desired "doneness".
+- Remove to a plate and cover tightly with aluminum foil. Let rest 10 minutes.
+- Before serving, slice thinly across the grain on a 45 degree angle. Serve warm with Bearnaise sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABlackened_Sirloin&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Blackened Sirloin@4505703
+    url: https://en.wikibooks.org/w/index.php?oldid=4505703
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

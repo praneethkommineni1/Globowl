@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - course unknown from categories
+#  - duplicate of hand-written recipe ar-chimichurri
+id: ar-chimichurri
+title: Chimichurri
+summary: Chimichurri is a South American sauce for meats, consisting primarily of oil, vinegar, parsley, red chilli, and herbs. There are many different variants of chimichurri, and every cook will have their own private recipe.
+origin:
+  country: AR
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 75
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil, unit: ml, qty: 100}
+  - {ingredient: red-wine-vinegar, unit: ml, qty: 50}
+  - {ingredient: water, unit: ml, qty: 50}
+  - {ingredient: parsley, unit: bunch, qty: 1, prep: chopped}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: medium}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: finely minced}
+  - {ingredient: chili-flakes, note: to taste}
+  - {ingredient: dried-oregano, unit: tbsp, qty: 1}
+  - {ingredient: paprika, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+- name: Optional ingredients
+  items:
+  - {ingredient: thyme, unit: tbsp, qty: 1, prep: finely chopped}
+  - {ingredient: lemon, unit: tsp, qty: 1}
+  - {ingredient: bay-leaf, unit: tsp, qty: 1, prep: small flakes}
+  - {ingredient: cilantro, unit: tbsp, qty: 1, prep: finely chopped}
+  - {ingredient: red-bell-pepper, qty: 0.5, prep: seeded and finely chopped}
+steps:
+- Combine all the ingredients except the oil, vinegar and water in a large bowl and mix together well, ensuring all the herbs and spices (especially the salt) are distributed evenly.
+- Allow to rest for 30 minutes.
+- Bring the vinegar and water to the boil, add to the other ingredients and mix well. This helps to soften the taste of the onion and garlic.
+- Allow to rest for 30 minutes.
+- Add the oil and mix well. If the liquid part doesn't cover the ingredients add oil water and vinegar in a 2:1:1 ratio to cover them.
+- Transfer to an air-tight container and refrigerate overnight at least, or better, for a few days.
+- When needed, remove from refrigerator about 30 minutes ahead of time to allow the oil to thin out again. Stir well and serve.
+tips:
+- For red chimichurri, use 50 ml red wine vinegar instead of white wine vinegar, and add 1 peeled, seeded, finely chopped tomato and ½ red bell pepper, seeded and finely chopped, instead of green pepper.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChimichurri&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chimichurri@4510054
+    url: https://en.wikibooks.org/w/index.php?oldid=4510054
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

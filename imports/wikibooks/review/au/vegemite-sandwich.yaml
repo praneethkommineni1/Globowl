@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (AU, NZ): confirm the country of origin
+#  - unmapped ingredient: Vegemite
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: au-vegemite-sandwich
+title: Vegemite Sandwich
+summary: The Vegemite sandwich is a simple dish, known to frequent the lunchboxes of school children and the plates of casual breakfasters alike. The lunchbox variety often involves two slices of bread, whereas the breakfast variety usually only involves one, and is often toasted.
+origin:
+  country: AU
+  also_claimed_by:
+  - NZ
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: white-bread, unit: slice, qty: 2}
+  - {ingredient: butter}
+  - {ingredient: cheese, optional: true}
+  - {ingredient: onion, optional: true}
+steps:
+- Toast the bread slices.
+- Spread butter thickly and evenly on bread.
+- Spread Vegemite a little less thickly, and evenly on bread.
+- Add cheese and onion.
+tips:
+- Add avocado for an avocado and Vegemite sandwich.
+- Another variation is to not use butter during the creation and have just the Vegemite and bread.
+- Yet another variation is to spread Vegemite and then place sliced onions and a slice of cheese on toast and then place under a broiler or toaster to melt the cheese.
+- Some consumers assert that white sliced bread will give a superior result.
+- Staples of school lunches, particularly from the Tuck Shop or school canteen, are Vegemite and Lettuce and Vegemite and Cheese Sandwiches. In each case, it's simply a standard Vegemite Sandwich with an additional ingredient added.
+- Try to add ham and cheese as another idea, makes a very nice sandwich.
+- Vegemite on toast is a favourite breakfast food.
+- The reason why some people might search this up is due to the song "Down Under" by Men at Work which briefly mentions it.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AVegemite_Sandwich&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Vegemite Sandwich@4518298
+    url: https://en.wikibooks.org/w/index.php?oldid=4518298
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+id: ve-beef-tongue-with-chiles-corn-and-tomato
+title: Beef Tongue with Chiles, Corn and Tomato
+alternate_names:
+- Lengua de Res
+summary: Lengua de res is a Venezuelan dish of beef tongue with vegetables.
+origin:
+  country: VE
+course: main
+authenticity: unassessed
+yield:
+  servings: 10
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, qty: 1}
+  - {ingredient: red-chili, qty: 5}
+  - {ingredient: olive-oil, unit: tbsp, qty: 1}
+  - {ingredient: onion, qty: 1, prep: sliced thinly}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: minced}
+  - {ingredient: tomato, qty: 4, prep: halved and sliced, note: small}
+  - {ingredient: corn-kernels, unit: can, qty: 2, prep: drained}
+  - {ingredient: salt, note: to taste}
+steps:
+- Wash tongue and place in a large pot of water to cover. Simmer until no longer pink (about 50 minutes per pound of tongue). Remove from water and let rest until cool enough to handle. Peel skin from tongue and trim gristle. Cut into ½-inch slices.
+- Place whole peppers in a skillet over medium-high heat and roast, turning, until all sides are charred. Let cool, rub off skins. Remove stems and seeds.
+- Heat olive oil in a large skillet over medium heat. Sauté chili peppers, onion, and garlic until onion is translucent.
+- Stir in tongue and continue to cook until tongue is brown, 5 to 10 minutes. Stir in tomatoes and cook until limp, 5 minutes. Pour in corn and heat through, 2 to 5 minutes.
+- Season with salt, and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABeef_Tongue_with_Chiles%2C_Corn_and_Tomato_%28Lengua_de_Res%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Beef Tongue with Chiles, Corn and Tomato (Lengua de Res)@4493855
+    url: https://en.wikibooks.org/w/index.php?oldid=4493855
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

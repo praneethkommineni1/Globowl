@@ -1,0 +1,53 @@
+id: tt-macaroni-pie
+title: Macaroni Pie
+summary: Macaroni pie is a side dish that goes well with stewed chicken, callaloo or any stewed peas like pigeon peas or lentils. It can also be enjoyed on its own. It has versions derived from Caribbean, Early American and Scottish origins.
+origin:
+  country: TT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 45
+difficulty: 2
+techniques:
+- baking
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: macaroni, qty: 1}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: cheese, unit: cup, qty: 2}
+  - {ingredient: condensed-milk, unit: cup, qty: 1.5}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: small}
+  - {ingredient: carrot, qty: 1, prep: grated}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 1}
+  - {ingredient: butter, qty: 1, prep: melted}
+  - {ingredient: breadcrumbs}
+steps:
+- Boil macaroni in salted water until tender; drain.
+- Beat eggs until fluffy.
+- Combine macaroni, eggs, cheese, milk, onion, carrot, salt, white pepper, mustard, and butter.
+- Pour into a greased baking dish and sprinkle shredded cheese and bread crumbs evenly on top.
+- Bake at 175°C (350°F) until firm (about 30 minutes). A fork or metal skewer should come out dry when you press it all the way through the pie.
+tips:
+- Macaroni pie can be enhanced further by adding ingredients such as tomato, chopped herbs, minced beef, or roasted onions. Also try using a few varieties of cheese together.
+- Usually best when the surface has browned to an even colour.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMacaroni_Pie&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Macaroni Pie@4654902
+    url: https://en.wikibooks.org/w/index.php?oldid=4654902
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

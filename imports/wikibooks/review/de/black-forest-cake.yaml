@@ -1,0 +1,84 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tin black cherries
+#  - unmapped ingredient: 4 tablespoons black cherry jam
+id: de-black-forest-cake
+title: Black Forest Cake
+summary: Black Forest Cake, sometimes called by the French gateau, gateaux or gâteau (meaning "cake"), is a chocolate cake with a strong cherry element. The recipe originates from Germany, where it is called Schwarzwälder Kirschtorte.
+origin:
+  country: DE
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 8
+  amount: 8 slices
+time:
+  total_min: 180
+difficulty: 4
+ingredient_groups:
+- name: Cake
+  items:
+  - {ingredient: butter, unit: g, qty: 113}
+  - {ingredient: brown-sugar, unit: g, qty: 227}
+  - {ingredient: chocolate, unit: g, qty: 113}
+  - {ingredient: all-purpose-flour, unit: g, qty: 198}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.25}
+  - {ingredient: sour-cream, qty: 0.25}
+  - {ingredient: coffee, unit: tbsp, qty: 3}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: salt, unit: pinch, qty: 1}
+- name: Pastry base
+  items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 113}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: powdered-sugar, unit: g, qty: 57}
+  - {ingredient: butter, unit: g, qty: 57}
+  - {ingredient: egg-yolk, qty: 1}
+  - {ingredient: vanilla-extract}
+- name: Misc.
+  items:
+  - {ingredient: heavy-cream, qty: 1}
+  - {ingredient: brandy}
+  - {ingredient: chocolate, unit: g, qty: 113}
+steps:
+- Cream the butter and sugar together well.
+- Melt the chocolate and beat into the creamed mixture, then beat in the eggs.
+- Sift flour, salt and cinnamon together.
+- Fold the dry mix lightly into the liquids, then fold in the sour cream and cold coffee.
+- Pour the mixture into a lined and greased 9-inch round, deep cake tin, and bake for 1 hour and 25 minutes.
+- Set to cool on a wire rack.
+- Mix all the ingredients together in a bowl and bind until the mixture stiffens.
+- Roll the pastry onto a floured board worktable until pastry is about the same size as the base of the cake tin.
+- Lay out on baking sheet and bake for 20–25 minutes at 350°F, or until a toothpick inserted into the center comes out clean.
+- Whip cream until it holds its shape.
+- Put some whipped cream into pastry piping bag with a star tip attached, and reserve this for the decoration.
+- Slice the cake horizontally into 3 equal-sized layers.
+- Drain the cherries, reserve 8 for decoration and remove the stones from the remainder.
+- Put pastry on serving plate and spread the pastry with black cherry jam.
+- Soak the cakes with brandy or cherry juice.
+- Put one layer of cake on top of coated pastry.
+- Spread a layer of cream on the cake, and top with half the stoned cherries.
+- Add the second layer of cake, then another layer of cream and cherries.
+- Top with the final layer of the cake.
+- Cover the entire cake with the remaining cream, and press on the grated chocolate.
+- Decorate the top with piped rosettes of cream and the reserved whole black cherries.
+tips:
+- Using 3 identical cake pans instead of 1 large one is acceptable.
+- Margarine, vegetable oil or regular butter will substitute for Irish butter.
+- In some countries (e.g. Austria and Australia) the brandy is often replaced by rum, in Germany itself it is almost always replaced by Kirschwasser.
+- Cakes usually work at between 325°F and 400°F (160°C and 205°C). Pastries usually work at between 350°F and 425°F (175°C and 220°C).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABlack_Forest_Cake&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Black Forest Cake@4535456
+    url: https://en.wikibooks.org/w/index.php?oldid=4535456
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

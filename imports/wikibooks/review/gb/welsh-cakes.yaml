@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 170 g castor sugar
+id: gb-welsh-cakes
+title: Welsh Cakes
+summary: 'Welsh cakes (Welsh: picau ar y maen) are a popular cake in Wales that are similar to scones and Cornish Heavy cakes.'
+origin:
+  country: GB
+course: bread
+authenticity: unassessed
+yield:
+  servings: 24
+time:
+  total_min: 30
+difficulty: 2
+equipment:
+- Sieve
+- Mixing bowl
+- Wooden spoon
+- Rolling pin
+- Scone cutter or cookie cutter
+- Griddle
+techniques:
+- dough-making
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 450}
+  - {ingredient: butter, unit: g, qty: 225}
+  - {ingredient: egg, qty: 4}
+  - {ingredient: raisins, unit: g, qty: 85, prep: 'sultanas, raisins or other dried fruit'}
+  - {ingredient: milk}
+  - {ingredient: salt}
+steps:
+- In a large mixing bowl, sift the flour then rub together with the butter and salt until mixture resembles fine breadcrumbs.
+- Mix in sugar and dried fruit.
+- Add eggs one at a time, beating together until mixture forms a thick dough. If dough will not form, add a small amount of milk (i.e. a tablespoon).
+- Knead for two to three minutes until dough becomes cohesive and slightly elastic.
+- Roll dough out on a flat surface.
+- Cut 2–3-inch circles from the dough and fry
+- Preheat a griddle on high than lower it to medium-low (this is important to stop burning)
+- Griddle 2-4 minutes on each side until golden brown.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AWelsh_Cakes&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Welsh Cakes@4656763
+    url: https://en.wikibooks.org/w/index.php?oldid=4656763
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

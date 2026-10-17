@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 small can green salsa
+#  - unmapped ingredient: 1 1/3 cup dried, bulk black bean soup mix
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+id: us-bean-and-green-chili-soup
+title: Bean and Green Chili Soup
+summary: Bean and Green Chili Soup - An easy, surprising soup from easily stored ingredients
+origin:
+  country: US
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: refried-beans, unit: can, qty: 1}
+  - {ingredient: black-beans-canned, unit: can, qty: 1}
+  - {ingredient: sour-cream, optional: true}
+steps:
+- Bring 1 cup (240 ml) dry rice and 2 cups (480 ml) water to a boil.
+- Turn heat to low and steam rice for 25–30 min (or prepare rice using rice cooker).
+- Prepare soup mix by combining with 3 cups (720 ml) boiling water, then simmer about 5 minutes.
+- Add remaining ingredients and rice to soup.
+- Heat through, stirring occasionally.
+- If desired, just before serving, spoon a teaspoon of sour cream in to the middle of the bowl.
+tips:
+- This recipe is surprisingly flavorful for being prepared form preserved ingredients. With a dollop of sour cream for garnish, it is even better.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABean_and_Green_Chili_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bean and Green Chili Soup@4518345
+    url: https://en.wikibooks.org/w/index.php?oldid=4518345
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

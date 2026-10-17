@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - duplicate id jm-jamaican-jerk-spice from another Wikibooks page
+id: jm-jamaican-jerk-spice
+title: Jamaican Jerk Spice
+summary: Jamaican jerk spice is a pungent, hot mixture of spices used to flavor meats before grilling or roasting.
+origin:
+  country: JM
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: allspice, unit: tbsp, qty: 4}
+  - {ingredient: thyme, unit: tbsp, qty: 1}
+  - {ingredient: paprika, unit: tbsp, qty: 1}
+  - {ingredient: red-bell-pepper, unit: tsp, qty: 1}
+  - {ingredient: garlic, unit: tsp, qty: 1}
+  - {ingredient: onion, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+steps:
+- Combine all ingredients.
+- Store in an airtight container.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AJamaican_Jerk_Spice_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Jamaican Jerk Spice II@4516609
+    url: https://en.wikibooks.org/w/index.php?oldid=4516609
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

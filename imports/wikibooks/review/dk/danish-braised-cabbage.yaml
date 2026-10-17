@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: dk-danish-braised-cabbage
+title: Danish Braised Cabbage
+alternate_names:
+- Rødkål
+summary: Rødkål is a dish of Danish braised red cabbage.
+origin:
+  country: DK
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: cup, qty: 0.25}
+  - {ingredient: white-cabbage, unit: g, qty: 2268, prep: finely cut}
+  - {ingredient: white-vinegar, unit: cup, qty: 0.5}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+steps:
+- Brown butter lightly.
+- Add cabbage and stir well.
+- Add vinegar, sugar, and salt.
+- Let simmer for 2–3 hours.
+tips:
+- To reduce cabbage odor, bring the mixture to a boil, then place in a 325°F/160°C oven in a covered container for two hours. The flavor is even better when it is reheated.
+- There is no need to cook the cabbage for more than 20 minutes really. The finished Rødkål will be less mushy and have a much higher nutritional value.
+- Many kinds of spices can be added, according to taste and season. This includes thyme, bay leaves, orange zest, cloves, all spice, cinnamon sticks, star anise and black pepper. Fruits like apples, orange or mandarins can also be added and pairs well with the cabbage. Red wine, black currant juice, or apple juice can also be added with success.
+- For Christmas, duck fat is often used instead of butter.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADanish_Braised_Cabbage_%28R%C3%B8dk%C3%A5l%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Danish Braised Cabbage (Rødkål)@4630335
+    url: https://en.wikibooks.org/w/index.php?oldid=4630335
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: lr-liberian-chicken-gravy
+title: Liberian Chicken Gravy
+summary: Liberian chicken gravy is a delicious African stew. A lot of oil is required to cook most African stews, but when it comes to this dish, you don't need so much.
+origin:
+  country: LR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: g, qty: 1361, prep: cut into medium pieces}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: bouillon-cube, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 2, prep: neatly chopped}
+  - {ingredient: tomato, qty: 4}
+  - {ingredient: red-bell-pepper, qty: 4}
+  - {ingredient: garlic, unit: clove, qty: 5}
+  - {ingredient: basil, unit: cup, qty: 0.5}
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.5}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 2}
+  - {ingredient: fish, unit: g, qty: 907, prep: cleaned}
+  - {ingredient: paprika, optional: true}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, qty: 2, prep: neatly chopped}
+  - {ingredient: shrimp, unit: g, qty: 454, prep: cleaned, note: large}
+steps:
+- In a medium-size saucepan, boil the chicken with salt, pepper, some chopped onions, and 1 tablespoon of the chicken bouillon. Let them cook until tender—the cooking time varies according to the chicken.
+- Remove the chicken to a bowl, reserving the stock.
+- In a blender, purée the tomatoes, red bell pepper, onions, garlic, basil, and parsley.
+- Add ½ cup oil to a pot, then add the blended mixture followed by the tomato paste. Allow it to cook for about 15 minutes, stirring the pot frequently as the sauce simmers.f
+- Add the reserved chicken broth, then the chicken, dried fish, smoked paprika, ginger powder, cayenne pepper, and habanero pepper. Let simmer for about 10 minutes.
+- Add the shrimp and cook for about 5 minutes.
+- Adjust the stew with water, broth, and/or bouillon cubes if needed.
+- Enjoy with any complimentary dish of your choice.
+tips:
+- It is not compulsory to use fish when preparing this stew.
+- You can use any variety of tomatoes such as canned tomatoes, fresh tomatoes, or Roma tomatoes.
+- Use any range of vegetables such as carrot, green beans.
+- You can also make use of extra spices such as curry powder, thyme, and bay leaves as desired.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALiberian_Chicken_Gravy&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Liberian Chicken Gravy@4513963
+    url: https://en.wikibooks.org/w/index.php?oldid=4513963
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 spoonful pandan juice
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-kuih-seri-muka
+title: Kuih Seri Muka
+alternate_names:
+- Malaysian Sticky Rice with Pandan Custard
+summary: Kuih Seri Muka.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- steaming
+ingredient_groups:
+- name: Base
+  items:
+  - {ingredient: long-grain-rice, unit: g, qty: 275}
+  - {ingredient: coconut, unit: ml, qty: 195}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: pandan-leaf, qty: 1, prep: tied in a knot}
+- name: Topping
+  items:
+  - {ingredient: egg, qty: 3}
+  - {ingredient: sugar, unit: g, qty: 170}
+  - {ingredient: coconut-milk, unit: ml, qty: 195}
+steps:
+- Cover the rice with cool water, and leave to soak for 6–12 hours. Drain.
+- Bring several inches of water to a boil in the bottom of a steamer pot.
+- Combine the drained rice, coconut milk, and salt in a pan or dish. Place the pandan leaf on top.
+- Place the pan in the steamer, and steam until the rice has absorbed the liquid and is cooked through.
+- Use a fork to fluff the rice, then press evenly into a pan lined with banana leaf to make an even base.
+- Beat together the eggs and the sugar, then stir in the pandan juice and coconut milk.
+- Strain the egg mixture to remove any air bubbles.
+- Steam the pan of rice for 5 minutes, then remove from the steamer.
+- Gently stir the egg mixture, then pour it over the rice base.
+- Place the pan back in the steamer. Wrap the lid of the steamer with a cloth to prevent water from dripping back down onto the custard.
+- Steam for 15–20 minutes, or until the custard is firm and a skewer inserted into it comes out clean.
+- Remove the pan from the steamer, and allow it to cool completely. To speed cooling, place it in a larger tray of cold water.
+- Unmold the custard, and cut it diagonally into diamonds.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKuih_Seri_Muka_%28Malaysian_Sticky_Rice_with_Pandan_Custard%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kuih Seri Muka (Malaysian Sticky Rice with Pandan Custard)@4587518
+    url: https://en.wikibooks.org/w/index.php?oldid=4587518
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

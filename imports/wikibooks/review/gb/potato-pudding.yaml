@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/4 cup dried currants
+id: gb-potato-pudding
+title: Potato Pudding
+summary: This recipe for a sweetened potato pudding is from Cornwall, England.
+origin:
+  country: GB
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: g, qty: 454}
+  - {ingredient: butter, qty: 1}
+  - {ingredient: heavy-cream, unit: cup, qty: 1}
+  - {ingredient: egg, qty: 6}
+  - {ingredient: sugar, unit: cup, qty: 0.75}
+  - {ingredient: lemon}
+  - {ingredient: nutmeg, qty: 0.5, prep: grated}
+  - {ingredient: brandy, unit: tsp, qty: 1, prep: or more to taste}
+steps:
+- Run the potatoes through a sieve, potato ricer, or mouli-mill.
+- Gently heat butter and cream together until butter is melted. Mix into potatoes.
+- Beat eggs lightly, then mix into potatoes. Mix in the sugar, currants, lemon zest, nutmeg, and brandy.
+- Either transfer to pastry-lined dish and bake in a moderately hot oven until golden-brown OR steam in a mould for about an hour.
+tips:
+- This recipe is dated to 1824 and is from St. Just W.I. in Cornish Recipes, Ancient & Modern, 22nd Edition, The Cornwall Federation of Women's Institutes 1965. First collected & published by Edith Martin, Tregavethan, Truro, 1929, for The Cornwall F.of W. I.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APotato_Pudding&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Potato Pudding@4587364
+    url: https://en.wikibooks.org/w/index.php?oldid=4587364
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

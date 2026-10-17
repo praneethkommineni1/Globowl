@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no time in recipe summary
+id: it-lasagne-with-bean-sauce
+title: Lasagne with Bean Sauce
+summary: Lasagne with Bean Sauce.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+- boiling
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil, unit: tbsp, qty: 0.5}
+  - {ingredient: onion, qty: 0.5, prep: minced, note: small}
+  - {ingredient: dried-white-beans, unit: can, qty: 1, prep: drained and chopped}
+  - {ingredient: dried-oregano, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: noodles, qty: 1}
+  - {ingredient: ricotta, unit: ml, qty: 240}
+  - {ingredient: garlic, unit: clove, qty: 1, prep: minced}
+  - {ingredient: canned-tomatoes, unit: g, qty: 240}
+  - {ingredient: tomato-paste, unit: g, qty: 240}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 1}
+  - {ingredient: basil, unit: tsp, qty: 0.5}
+  - {ingredient: mozzarella, unit: g, qty: [100, 170], prep: grated}
+  - {ingredient: parmesan, unit: ml, qty: 60}
+steps:
+- Boil the lasagna noodles.
+- Preheat the oven to 180°C (350°F).
+- Sauté garlic and onions.
+- Add the chopped beans and cook for 5 minutes.
+- Add tomato sauce, tomato purée, tomato paste, oregano, basil, and pepper, and cook for 5 minutes.
+- In a 30 x 20 cm (13 x 9 in) baking dish, form a layer using half the noodles, sauce, cottage cheese, and mozzarella. Repeat to form a second layer.
+- Sprinkle top with Parmesan cheese.
+- Bake uncovered at 180°C (350°F) for 25 minutes, until noodles are tender and sauce is bubbling.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALasagne_with_Bean_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lasagne with Bean Sauce@4605268
+    url: https://en.wikibooks.org/w/index.php?oldid=4605268
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 jar medium chunky salsa
+#  - unmapped ingredient: 1 jar mild chunky salsa
+#  - unmapped ingredient: 1/4 cup lemon pepper seasoning
+#  - unmapped ingredient: 12 ea. 10-inch flour tortillas
+id: us-pork-burritos-with-green-pepper-sauce
+title: Pork Burritos with Green Pepper Sauce
+summary: Pork Burritos with Green Pepper Sauce.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 12
+  amount: 12 burritos
+time:
+  total_min: 505
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: minced}
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: lime, unit: tbsp, qty: 1}
+  - {ingredient: cilantro, unit: bunch, qty: 1, prep: chopped}
+  - {ingredient: scallion, qty: 8, prep: chopped}
+  - {ingredient: red-bell-pepper, qty: 1, prep: chopped, note: medium}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.25}
+  - {ingredient: chili-powder, unit: cup, qty: 0.25}
+  - {ingredient: pork, qty: 1, prep: tied or netted}
+  - {ingredient: red-chili, unit: can, qty: 1}
+  - {ingredient: monterey-jack, unit: g, qty: 227}
+steps:
+- Heat oil in 12-inch skillet over medium heat.
+- Add garlic and onion and cook until tender.
+- Stir the next 10 ingredients into the skillet.
+- Put the pork roast into a 5-quart slow cooker. Cover roast with salsa mixture.
+- Cover and cook on low for 8–10 hours or until meat is fork-tender.
+- Remove roast and let stand 10 minutes on cutting board.
+- Shred pork with forks.
+- Transfer 5 cups salsa mixture from cooker into 2-quart saucepan. Stir in chiles.
+- Cook over medium heat to a boil.
+- Reduce heat to medium-low.
+- Cook and stir 15 minutes to thicken mixture.
+- Spoon a cup of shredded pork down center of each tortilla.
+- Top with 2 tablespoons green chile sauce.
+- Roll sides of tortilla over and then fold up ends to hold filling.
+- Cover burritos with rest of green chile sauce and cheese.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APork_Burritos_with_Green_Pepper_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pork Burritos with Green Pepper Sauce@4517384
+    url: https://en.wikibooks.org/w/index.php?oldid=4517384
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

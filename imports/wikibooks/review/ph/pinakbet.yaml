@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 ounces bagoong alamang
+#  - unmapped ingredient: 1 ea. bitter melon, halved lengthwise, seeded, and sliced 1/4 inch thick
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ph-pinakbet
+title: Pinakbet
+summary: Pinakbet.
+origin:
+  country: PH
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: garlic, qty: 2, prep: minced, note: medium}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: small}
+  - {ingredient: tomato, qty: 2, prep: cored and chopped}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: sweet-potato, qty: 1, prep: 'peeled, quartered, and cut into 1/4-inch slices', note: small}
+  - {ingredient: green-beans, unit: g, qty: 227, prep: stem ends trimmed and beans cut into 2-inch lengths}
+  - {ingredient: eggplant, qty: 1, prep: 'halved lengthwise, and sliced 1/2 inch thick', note: medium}
+  - {ingredient: okra, unit: g, qty: 227, prep: 'caps trimmed, pods cut in half on the bias'}
+  - {ingredient: long-grain-rice, prep: for serving}
+steps:
+- Heat a skillet over medium heat.
+- Add the oil, then garlic to the pan. Sauté briefly until aromatic.
+- Add the onion, and cook until softened.
+- Add the tomato, bagoong alamang, and salt; simmer for 5 minutes.
+- Add the bitter melon and sweet potato. Cover and cook until almost, but not quite, tender.
+- Add the string beans, eggplant, and okra. Cover and cook for a few minutes until all the vegetables are tender.
+- Serve the vegetables with rice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APinakbet&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pinakbet@4499838
+    url: https://en.wikibooks.org/w/index.php?oldid=4499838
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

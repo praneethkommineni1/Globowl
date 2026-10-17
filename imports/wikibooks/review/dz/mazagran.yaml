@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Ice cubes
+#  - unmapped ingredient: 1 lemon slice or wedge
+#  - no servings in recipe summary
+id: dz-mazagran
+title: Mazagran
+alternate_names:
+- Algerian Iced Coffee
+summary: Mazagran (), also called Café Mazagran, is an iced coffee from Algeria. Often deemed the original iced coffee, mazagran originated from a city in Algeria with the same name. It is said that the drink was created by French colonial troops while in captivity in Mazagran Fortress.
+origin:
+  country: DZ
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 10
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: coffee, unit: cup, qty: 1}
+  - {ingredient: lemon}
+  - {ingredient: sugar}
+steps:
+- Fill a tall, narrow glass with the ice cubes.
+- Pour the coffee over the ice.
+- Add the lemon juice and sugar to taste.
+- Add the lemon slice or wedge as a final touch if desired.
+tips:
+- In some recipes, a sugar syrup is poured into the glass first, then a mixture of water and lemon juice is gently and carefully added afterwards so that the two ingredients don't mix. Ice cubes and black coffee are added later with a sprinkle of lemon zest.
+- Some European variations suggest adding rum.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMazagran_%28Algerian_Iced_Coffee%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mazagran (Algerian Iced Coffee)@4515773
+    url: https://en.wikibooks.org/w/index.php?oldid=4515773
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

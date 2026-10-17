@@ -1,0 +1,60 @@
+id: co-frijoles-antioquenos
+title: Frijoles Antioqueños
+alternate_names:
+- Colombian Bean Stew
+summary: Antioqueño beans is an icon of Colombian food.
+origin:
+  country: CO
+course: soup
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: kidney-beans-canned, unit: g, qty: 454}
+  - {ingredient: tomato, qty: 2}
+  - {ingredient: scallion, unit: cup, qty: 1}
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.25}
+  - {ingredient: ground-cumin, unit: tbsp, qty: 2}
+  - {ingredient: allspice, unit: tbsp, qty: 1}
+  - {ingredient: water, unit: cup, qty: 6}
+  - {ingredient: bouillon-cube, qty: 1}
+  - {ingredient: plantain, qty: 1, note: large}
+  - {ingredient: beef, unit: g, qty: 227, prep: 'pork legs, or pork rinds', optional: true}
+steps:
+- Wash beans and let hydrate overnight by covering with twice its volume of water.
+- The next day, remove any floating beans.
+- Heat the oil in a pressure cooker. Add scallions and let fry until they start to brown. Add tomato, cumin, broth cube, and allspice. This is called "hogao", a basic sauce for many Colombian dishes.
+- Add 6 cups water, the beans, and plantain. Bring to a boil over medium heat.
+- Cover the pressure cooker, and let cook for 30 minutes.
+- Let cool, then open the pressure cooker.
+- Check water level, add the meat if using, and cover again. Cook for another 30 minutes.
+- Taste for salt. If you want a thicker mixture, you can cook uncovered over low heat.
+tips:
+- When serving, you can put additional hogao on top.
+- You can serve with white rice, avocado, ground beef, roasted beef, fried plantain, roasted chicken, corn arepas, and many other combinations.
+- Trasnochado beans, eaten one day after being cooked, are a great option to eat the beans with a delicious concentrated flavor.
+- To make bandeja paisa, serve a portion of Antioqueño beans, a portion of white rice, a portion of ground beef, a slice of avocado, one fried chorizo sausage, fried ripe plantain, one fried blood sausage, pork rind, and one fried egg on top of the rice.
+- 'Another delicious way to serve these beans is with cazuelitas: serve half of a cazuelita with the beans, and add to it corn, shredded beef (ropa vieja), avocado, and ground pork rind.'
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrijoles_Antioque%C3%B1os_%28Colombian_Bean_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Frijoles Antioqueños (Colombian Bean Stew)@4518615
+    url: https://en.wikibooks.org/w/index.php?oldid=4518615
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

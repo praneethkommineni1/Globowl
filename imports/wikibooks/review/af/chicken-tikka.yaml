@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (AF, IN, PK): confirm the country of origin
+id: af-chicken-tikka
+title: Chicken Tikka
+summary: Chicken tikka is a chicken dish originating in the Punjab region of the Indian Subcontinent made by baking chicken which has been marinated in spices and yoghurt. It should not be confused with Chicken Tikka Masala (of which it is an ingredient).
+origin:
+  country: AF
+  also_claimed_by:
+  - IN
+  - PK
+course: starter
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- grilling
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: g, qty: 675, prep: diced into cubes}
+  - {ingredient: mustard-seeds, unit: tbsp, qty: 1}
+  - {ingredient: milk, unit: ml, qty: 50}
+  - {ingredient: yogurt, unit: ml, qty: 150}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 2}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 1}
+  - {ingredient: cilantro, unit: tbsp, qty: 2}
+  - {ingredient: garlic, qty: 4, prep: finely chopped, note: large}
+  - {ingredient: red-chili, qty: [1, 4]}
+  - {ingredient: paprika, unit: tsp, qty: 2}
+  - {ingredient: garam-masala, unit: tsp, qty: 2}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 1}
+steps:
+- Add all of the ingredients except the chicken to a non-metallic mixing bowl, and mix well.
+- Add the chicken and mix until fully coated.
+- Ideally, the chicken should now be left in a refrigerator to marinate for at least 24 hours. It may not be safe to leave chicken which has previously been frozen for longer than 24 hours, but fresh chicken should be left to marinate for 48 hours for best results. If you do not wish to leave the chicken to marinate, simply continue to the next step.
+- For best results, place on skewers and cook in a tandoor or ceramic pot oven. The chicken can also be cooked on skewers under a medium grill for 5–8 minutes on each side or barbecued (cooking times depend on the temperature of the barbecue). Always ensure the chicken is cooked throughout before serving. It should come apart easily when pressed down with the side of a fork.
+- Serve with naan, with rice or use in a Chicken Tikka Masala.
+tips:
+- Mustard seed oil is considered unfit for human consumption in many parts of the world and is therefore not readily available. A poor alternative can be made by crackling 1 tsp of mustard seeds in approximately 2 tbs of very hot vegetable or olive oil. Allow to cool then use in place of mustard seed oil.
+- It is possible to make a tikka with almost any meat, the most commonly used other than chicken being lamb and mutton.
+- Tikka can be served either as main meal or as an appetiser.
+- Powdered or dried ingredients can be substituted for fresh, but at the expense of taste.
+- Some people prefer to make tikka with meat on-the-bone for improved flavour.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Tikka&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chicken Tikka@4615207
+    url: https://en.wikibooks.org/w/index.php?oldid=4615207
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

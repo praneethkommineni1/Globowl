@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: Turmeric powder
+#  - no difficulty in recipe summary
+id: in-buttermilk-curry-soup
+title: Buttermilk Curry Soup
+alternate_names:
+- Kadi Pakora
+summary: Buttermilk Curry Soup.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 35
+difficulty: 1
+techniques:
+- pan-frying
+ingredient_groups:
+- name: Pakora
+  items:
+  - {ingredient: chickpea-flour, unit: cup, qty: 1}
+  - {ingredient: water}
+  - {ingredient: salt}
+  - {ingredient: ground-turmeric}
+  - {ingredient: vegetable-oil}
+- name: Curry
+  items:
+  - {ingredient: buttermilk, qty: 2}
+  - {ingredient: chickpea-flour, unit: tbsp, qty: 1}
+  - {ingredient: asafoetida, unit: pinch, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: mustard-seeds}
+  - {ingredient: garlic, unit: clove, qty: 1, prep: minced}
+  - {ingredient: ginger, qty: 0.25, prep: peeled and minced}
+  - {ingredient: curry-leaves, qty: [4, 5]}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: small}
+steps:
+- Mix besan with water, salt, and turmeric powder until you get a thick batter.
+- Heat oil in big pan.
+- Drop dollops of batter in the pan using a round spoon so that pakoras are round and fluffy.
+- Fry until the pakoras are golden, then remove them from the oil.
+- Mix buttermilk, 1 tbsp besan, turmeric powder, asafoetida, and salt until smooth and lump-free.
+- Heat a little oil in a pan. Add mustard seeds, garlic, ginger, curry leaves, and onion, then fry it until slightly reddish in color.
+- Stir the buttermilk mixture, and mix it into the onions. Continue mixing it over medium heat until it starts bubbling.
+- Add the pakoras, lower the heat, and keep for some time. Close the lid and switch off the flame.
+- Serve hot with rice or roti.
+tips:
+- If you want to make it more spicy, put garam masala and chilli powder in both the pakora and the curry.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AButtermilk_Curry_Soup_%28Kadi_Pakora%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Buttermilk Curry Soup (Kadi Pakora)@4615177
+    url: https://en.wikibooks.org/w/index.php?oldid=4615177
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

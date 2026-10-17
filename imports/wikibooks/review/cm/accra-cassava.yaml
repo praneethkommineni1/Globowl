@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: cm-accra-cassava
+title: Accra Cassava
+alternate_names:
+- Cameroonian Cassava Fritters
+summary: Accra cassava is a popular cassava fritter eaten in Cameroon. It can be eaten as breakfast, lunch, or dinner and is best enjoyed fresh.
+origin:
+  country: CM
+course: snack
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: cassava, unit: g, qty: 1361}
+  - {ingredient: banana, qty: 4, prep: overly ripe bananas, optional: true}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: vegetable-oil}
+steps:
+- Squeeze the grated cassava using a kitchen cloth or cheesecloth (like the one used for preparing homemade pap) to remove as much liquid as possible. The cassava should be very dry with little liquid.
+- Mash the bananas well using a fork, masher, or food processor.
+- Add the cassava and salt to the mashed banana in a medium sized bowl, and mix them together very well. The mixture should be firm enough that it can be rolled into balls.
+- Use your palms to roll about 2 tablespoons of the mixture into bite-size balls.
+- Heat the vegetable oil to 375 °F in a deep skillet or a saucepan. You can check the oil temperature by dropping in a 1-inch square of bread—it should take about 1 minute to brown.
+- Place the cassava balls gently into the hot oil and fry until golden brown. Do not overcrowd the pan—work in batches as necessary.
+- Remove the fritters from the hot oil, drain, and serve fresh.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAccra_Cassava_%28Cameroonian_Cassava_Fritters%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Accra Cassava (Cameroonian Cassava Fritters)@4517731
+    url: https://en.wikibooks.org/w/index.php?oldid=4517731
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

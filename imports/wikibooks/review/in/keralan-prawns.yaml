@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: in-keralan-prawns
+title: Keralan Prawns
+summary: Prawns cooked Kerala style.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: shrimp, unit: kg, qty: 0.5}
+  - {ingredient: red-chili, unit: tbsp, qty: 0.25}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.25}
+  - {ingredient: ground-coriander, unit: tsp, qty: 0.25}
+  - {ingredient: ginger, unit: tbsp, qty: 0.25}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 3}
+  - {ingredient: tamarind-paste}
+  - {ingredient: curry-leaves, qty: 15}
+  - {ingredient: coconut, qty: 20}
+  - {ingredient: red-chili, qty: 1, note: big}
+  - {ingredient: onion, qty: 0.25, note: big}
+  - {ingredient: salt, note: to taste}
+steps:
+- Remove the prawn tails and heads.
+- Cook the prawns in water with ginger, salt, curry leaves, green chillies, kudampuli and coconut. Leave a little water in the vessel at the end of cooking.
+- Heat the oil in a pan and fry the turmeric, chili powder and coriander powder in it until they turn brown.
+- Add the onion and sauté until wilted.
+- Add the cooked shrimp and simmer, stirring, until it reaches a semi-dry consistency.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKeralan_Prawns&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Keralan Prawns@4510751
+    url: https://en.wikibooks.org/w/index.php?oldid=4510751
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

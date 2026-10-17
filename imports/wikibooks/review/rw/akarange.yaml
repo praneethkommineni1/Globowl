@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: rw-akarange
+title: Akarange
+alternate_names:
+- Rwandan Tomato Sauce
+summary: Akarange is a flavorful and versatile Rwandan tomato sauce that can be used as a base for many dishes. Made with ripe tomatoes and aromatic spices, this sauce adds a burst of flavor to various meals.
+origin:
+  country: RW
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Cutting board
+- Knife
+- Large saucepan
+- Wooden spoon
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: black-pepper, qty: 1, prep: diced}
+  - {ingredient: black-pepper, qty: 1, prep: diced}
+  - {ingredient: tomato, qty: 6, prep: diced, note: large}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: ground-coriander, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: water, unit: cup, qty: 1}
+steps:
+- Heat the vegetable oil in a large saucepan over medium heat.
+- Add the chopped onion and minced garlic to the pan. Sauté until the onion becomes translucent and fragrant.
+- Stir in the diced green and red bell peppers. Cook for a few minutes until they begin to soften.
+- Add the diced tomatoes to the pan, along with the ground paprika, ground cumin, ground coriander, and ground black pepper. Stir well to combine the ingredients.
+- Pour in the water and season with salt to taste. Stir again to ensure the spices are evenly distributed.
+- Bring the mixture to a simmer, then reduce the heat to low. Cover the saucepan and let the akarange cook for about 15–20 minutes, or until the tomatoes have softened and the flavors have melded together.
+- Taste the sauce and adjust the seasoning if needed, adding more salt or spices according to your preference.
+- Once the akarange is cooked to your liking, remove the saucepan from the heat.
+tips:
+- For a spicier version, you can add a pinch of cayenne pepper or a finely chopped Scotch bonnet pepper to the sauce.
+- Akarange can be used as a base for various dishes such as stews, soups, and curries. It also pairs well with grilled meats and vegetables.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAkarange_%28Rwandan_Tomato_Sauce%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Akarange (Rwandan Tomato Sauce)@4518844
+    url: https://en.wikibooks.org/w/index.php?oldid=4518844
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

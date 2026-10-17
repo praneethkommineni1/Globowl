@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 250 g malt biscuits
+#  - unmapped ingredient: 180 g Fruit Puffs
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: nz-lolly-cake
+title: Lolly Cake
+summary: Lolly cake is a New Zealand cake which features lollies in the ingredients and thus can be thought of as "candy cake". The traditional candy used is Fruit Puffs which are like firm, slightly chewy marshmallows and are obviously fruity.
+origin:
+  country: NZ
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: ground-cinnamon, unit: pinch, qty: 1, optional: true}
+  - {ingredient: butter, unit: g, qty: 120}
+  - {ingredient: condensed-milk, unit: g, qty: 200}
+  - {ingredient: coconut}
+steps:
+- Crush the biscuits. They don't need to be a fine dust—some pieces can be left partially-crushed to give the cake a nicer texture.
+- Mix in cinnamon, if you want it.
+- Warm the butter and condensed milk in the microwave for 30 seconds until the butter is very soft. It's okay if the butter melts a bit.
+- Cut the fruit puffs in half if you want or leave them whole.
+- Mix the fruit puffs with the crushed biscuits, then add the butter and condensed milk. Mix well.
+- Roll the mixture into a log shape, or roll small amounts into little balls.
+- Roll the log or balls in the shredded coconut until completely covered.
+- Place on a tray and cover with plastic wrap to keep moist. Chill for several hours in the fridge until hardened.
+- Cut cake while still cold before it warms up again
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALolly_Cake&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lolly Cake@4530191
+    url: https://en.wikibooks.org/w/index.php?oldid=4530191
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

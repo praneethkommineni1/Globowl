@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ro-romanian-roasted-eggplant-spread
+title: Romanian Roasted Eggplant Spread
+summary: Romanian Roasted Eggplant Spread.
+origin:
+  country: RO
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Pan
+- Fork
+- Knife
+- Chopping board
+- Bowl
+techniques:
+- roasting
+ingredient_groups:
+- items:
+  - {ingredient: eggplant}
+  - {ingredient: vegetable-oil}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: salt}
+steps:
+- Rub the eggplant with vegetable oil, and prick the skin all over with a fork to make steam vents.
+- Place eggplant in a pan, and broil or roast in a hot oven until the skin is blackened and the flesh is soft. Let cool.
+- Cut the eggplant in half lengthwise. Keep the flesh and discard the burnt skin.
+- Mince the eggplant flesh with a knife to get a purée, keeping the seeds whole. Use a stainless steel or wooden chopper.
+- Transfer the eggplant to a bowl, and mix in ½–1 tbsp oil per whole eggplant used. Mix in the onion, and season to taste with salt.
+- Chill in the fridge until serving.
+tips:
+- It is advisable to use a pan with elevated ridges so that eggplant won't be cooking in its own juices.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARomanian_Roasted_Eggplant_Spread_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Romanian Roasted Eggplant Spread I@4495365
+    url: https://en.wikibooks.org/w/index.php?oldid=4495365
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

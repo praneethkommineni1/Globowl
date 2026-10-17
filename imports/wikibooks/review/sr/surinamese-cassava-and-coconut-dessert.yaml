@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 tablespoon almond essence
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: sr-surinamese-cassava-and-coconut-dessert
+title: Surinamese Cassava and Coconut Dessert
+alternate_names:
+- Bojo
+summary: Surinamese Cassava and Coconut Dessert.
+origin:
+  country: SR
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: cassava, unit: kg, qty: 1}
+  - {ingredient: coconut, qty: 1}
+  - {ingredient: egg, qty: 4}
+  - {ingredient: ground-cinnamon, unit: tbsp, qty: 2}
+  - {ingredient: vanilla-extract, unit: tbsp, qty: 1}
+  - {ingredient: sugar, unit: g, qty: 200}
+  - {ingredient: butter, unit: g, qty: 75}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: milk, qty: 1, note: big}
+  - {ingredient: raisins, unit: g, qty: 100}
+steps:
+- Peel and grate the cassava. Grate the white coconut meat.
+- Beat the eggs and sugar until firm. Add the vanilla and almond essence.
+- Combine the eggs and sugar with the grated coconut and cassava.
+- Add the cinnamon, milk, raisins and salt.
+- Melt the butter and add it to the mixture.
+- Rub the dish you want to use with butter or use Pam.
+- Put the mixture in the dish. Put the dish in a pre-heated oven at 350°F (175°C). Bake the Bojo for about an hour. It needs to be firm on top but not dry on the inside.
+tips:
+- Sprinkle some cinnamon on top of the bojo before serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASurinamese_Cassava_and_Coconut_Dessert_%28Bojo%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Surinamese Cassava and Coconut Dessert (Bojo)@4587351
+    url: https://en.wikibooks.org/w/index.php?oldid=4587351
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

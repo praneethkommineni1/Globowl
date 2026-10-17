@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 400 g Gruyêre cheese, grated
+#  - unmapped ingredient: 400 g Emmenthaler cheese, grated
+#  - unmapped ingredient: 50 ml kirschwasser
+#  - no time in recipe summary
+id: ch-fondue-neuchateloise
+title: Fondue Neuchateloise
+summary: Fondue Neuchateloise.
+origin:
+  country: CH
+course: starter
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: dry-white-wine, unit: ml, qty: 400}
+  - {ingredient: garlic, qty: 1}
+  - {ingredient: cornstarch, unit: tsp, qty: 4}
+  - {ingredient: black-pepper, prep: freshly ground}
+  - {ingredient: nutmeg, prep: freshly grated}
+  - {ingredient: white-bread, unit: g, qty: 454, prep: cut into bite-size cubes}
+steps:
+- Rub a caquelon (fondue pot) with the clove of garlic. Alternatively, if one likes more garlic, chop finely and throw in the caquelon.
+- Add the dry white wine and warm slightly on the stove top, over a low flame.
+- Mix the cornstarch with the cheese so that the cheese particles are well dusted, and add to the warm wine.
+- Melt the cheese, stirring constantly in a figure eight pattern. Stir until the mixture has thickened and starts to boil up.
+- Away from the heat, add the kirschwasser and blend in. Traditionally, the cornstarch is mixed into a slurry with the schnapps and added with it at this point. However, adding the cornstarch with the cheese makes it less likely that the fondue will separate and this method is used in many recipes for fondue.
+- Season with nutmeg and freshly ground pepper (black or white as you prefer).
+- Bring to the boil another 1 or 2 times.
+- Bring the caquelon to the table and place on the stand over a spirit burner. The heat should be regulated carefully so that the fondue stays hot but does not boil.
+- Pour the wine into a cold caquelon with the garlic.
+- Mix the cornstarch to a slurry with the schnapps and add it to the wine.
+- Now heat rapidly while whisking until the wine boils up and thickens.
+- Lower the heat and add the cheese a handful at a time until it melts, stirring constantly.
+tips:
+- It is necessary to use bread of the correct texture and size. The bread should not be too soft and it should be cubed in such a way that each cube retains part of the crust. The cube is then pierced through the crust into the crumb. This prevents the bread from slipping off into the fondue. This sometimes happens anyway, of course, and in Switzerland there is a tradition when eating fondue in a restaurant (optional depending on the crowd), that if one is guilty, one buy a round of schnapps for the whole party.
+- A rule of thumb is to use 200 g (8 oz) cheese per 100 ml (½ cup) wine
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFondue_Neuchateloise&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fondue Neuchateloise@4518917
+    url: https://en.wikibooks.org/w/index.php?oldid=4518917
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

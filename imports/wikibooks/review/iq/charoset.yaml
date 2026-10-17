@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: iq-charoset
+title: Charoset
+alternate_names:
+- Iraqi
+summary: Iraqi charoset is a dried fruit and nut-based paste served during the Jewish celebration of Passover by Jews from Iraq.
+origin:
+  country: IQ
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: dates, unit: ml, qty: 500, prep: chopped and seeded}
+  - {ingredient: water}
+  - {ingredient: salt}
+  - {ingredient: walnuts, unit: ml, qty: 125}
+steps:
+- Boil dates in lightly salted water stirring frequently until it is a thick paste.
+- Mix in finely chopped nuts.
+tips:
+- A traditional variant is made by straining the pulp out of the paste producing a honey-like date syrup. This procedure uses considerably more dates and can take several days to produce sufficient syrup.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACharoset_%28Iraqi%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Charoset (Iraqi)@4630111
+    url: https://en.wikibooks.org/w/index.php?oldid=4630111
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

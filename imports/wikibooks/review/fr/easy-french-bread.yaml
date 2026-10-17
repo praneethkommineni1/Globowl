@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no ingredient lines parsed
+id: fr-easy-french-bread
+title: Easy French Bread
+summary: Easy French Bread.
+origin:
+  country: FR
+course: bread
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2 loaves
+time:
+  total_min: 180
+difficulty: 3
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Scald milk and butter by bringing it to at least , and let it cool to at least .
+- In a large bowl, sprinkle yeast over warm water and let stand for 5 minutes.
+- Stir in cooled butter and milk, and salt.
+- Start adding flour and mix until dough is thick and pulls off spoon like gum.
+- Knead until dough is springy and smooth (about 10 minutes). You may want to do this with a mixer and dough hook.
+- Form into a ball and put in greased bowl, turning to grease top, then cover with a cloth.
+- Rise until doubled (until a finger impression stays), about an hour, depending on temperature.
+- Punch down dough, turn out, and divide in half.
+- Preheat oven to 425°F (220°C).
+- Shape each half of dough into a square.
+- Roll dough into two 10 x 15-inch (25 x 35 cm) oblongs; roll up each, starting on the long side.
+- Place each oblong on a greased baking sheet sprinkled with corn meal.
+- Slash loaf tops ¼ inch (almost 1 cm) diagonally with floured sharp knife or razor blade.
+- Brush loaves with water.
+- Bake 10 minutes, then reduce heat to 375°F (190°C).
+- Brush loaves with water again. Bake another 10 minutes.
+- Brush loaves with water again. Bake another 10 to 15 minutes, until golden brown.
+- Cool on wire racks.
+tips:
+- To get a rapid initial rise, use water about 130–135°F (55-60°C), and pour into bowl with yeast mixed with initial flour and salt, and start mixing.
+- All rising should be in a warm place, like near the refrigerator.
+- A baking stone, ceramic brick, or even an iron skillet or griddle preheated in the oven (to place the baking sheet on) will give a good "spring" or quick rise when the loaves are first placed in the oven.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEasy_French_Bread&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Easy French Bread@4658431
+    url: https://en.wikibooks.org/w/index.php?oldid=4658431
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

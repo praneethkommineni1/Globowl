@@ -1,0 +1,41 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-nigerian-coleslaw
+title: Nigerian Coleslaw
+summary: Coleslaw is a salad dish that mainly consists of raw, finely shredded cabbage mixed with dressing. In Nigeria, coleslaw is usually simple and straightforward—typically made with cabbage, carrots, and mayonnaise.
+origin:
+  country: NG
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: white-cabbage}
+  - {ingredient: carrot, prep: peeled}
+  - {ingredient: mayonnaise}
+steps:
+- Slice cabbage thinly.
+- Use a grater to shred the carrot into a bowl. If possible, use a grater or mandoline that will make long, thin pieces.
+- Combine the cabbage and carrots. Add mayonnaise, and toss to combine.
+- Refrigerate until cold before serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Coleslaw&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Coleslaw@4518155
+    url: https://en.wikibooks.org/w/index.php?oldid=4518155
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

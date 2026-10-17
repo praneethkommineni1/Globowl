@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Homi
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: cm-sangah
+title: Sangah
+alternate_names:
+- Cameroonian Corn and Cassava Leaf
+summary: Sangah is a Cameroonian dish made with corn, cassava leaf, and palm kernel extract.
+origin:
+  country: CM
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Pot with lid
+- Stovetop
+- Mortar and pestle
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: palm-nut-cream, unit: kg, qty: 1}
+  - {ingredient: water}
+  - {ingredient: cassava, unit: g, qty: 500, prep: well-pounded}
+  - {ingredient: corn-kernels}
+steps:
+- Combine the water and palm nut cream in a pot. Boil for a few minutes.
+- Stir in the pounded cassava leaves. Cover with the lid, and boil for 20 minutes.
+- Stir in as much corn as desired. Season to taste with homi.
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASangah_%28Cameroonian_Corn_and_Cassava_Leaf%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sangah (Cameroonian Corn and Cassava Leaf)@4494267
+    url: https://en.wikibooks.org/w/index.php?oldid=4494267
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

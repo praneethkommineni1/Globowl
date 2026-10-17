@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 4 slices of toast
+#  - course unknown from categories
+id: gb-welsh-rarebit
+title: Welsh Rarebit
+summary: There is no small amount of disagreement about what constitutes Welsh Rarebit. Many contend that it is just cheese on toast. At the other end of the spectrum are a variety of recipes in which the bread is steeped in beer or floated in soup.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 10
+difficulty: 1
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 2}
+  - {ingredient: dijon-mustard, unit: tsp, qty: 1}
+  - {ingredient: worcestershire-sauce, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: beer, unit: ml, qty: 59}
+  - {ingredient: heavy-cream, unit: ml, qty: 118}
+  - {ingredient: cheddar, unit: g, qty: 170}
+steps:
+- In a medium saucepan over low heat, melt the butter and whisk in the flour.
+- Cook, whisking constantly for 2–3 minutes, being careful not to brown the flour.
+- Whisk in mustard, Worcestershire sauce, salt, and pepper until smooth.
+- Add beer and whisk to combine.
+- Pour in cream and whisk until well combined and smooth.
+- Gradually add cheese, stirring constantly, until cheese melts and sauce is smooth; this will take 4–5 minutes.
+- Pour over toast and serve immediately.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AWelsh_Rarebit&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Welsh Rarebit@4613377
+    url: https://en.wikibooks.org/w/index.php?oldid=4613377
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

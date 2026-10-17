@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (CO, US): confirm the country of origin
+id: co-latino-scramble
+title: Latino Scramble
+summary: Latino scramble is a delicious breakfast option, to feel in a warm tropical morning. You can have this breakfast with white cheese-topped corn arepas, 100% Colombian coffee, and orange juice.
+origin:
+  country: CO
+  also_claimed_by:
+  - US
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 10
+difficulty: 1
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 6}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: tomato, qty: 1, prep: diced, note: large}
+  - {ingredient: ham, qty: 6, prep: chopped}
+  - {ingredient: mozzarella, unit: g, qty: 100}
+  - {ingredient: butter, unit: tbsp, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: hot-sauce}
+  - {ingredient: ketchup, unit: tbsp, qty: 1}
+  - {ingredient: corn-kernels, unit: g, qty: 425}
+steps:
+- Melt butter in a medium frying pan over medium heat.
+- Add the chopped onions, and fry until they start to brown.
+- Add ham and sweet corn, and let fry for 5 minutes.
+- Add tomato, salt, and pepper. Though not traditional, you can also add one drop of Tabasco per egg.
+- Beat the eggs with ketchup, and add to frying pan. Immediately add mozzarella cheese.
+- Let cook to your desired egg texture.
+tips:
+- You can add cooked white rice (it gives a feeling of a typical calentao) and diced cooked potatoes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALatino_Scramble&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Latino Scramble@4605228
+    url: https://en.wikibooks.org/w/index.php?oldid=4605228
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

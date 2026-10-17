@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 cups ground egusi
+#  - unmapped ingredient: 2 scotch bonnet peppers, blended
+#  - no procedure steps
+#  - course unknown from categories
+id: ng-egusi-soup
+title: Egusi soup
+summary: Egusi Soup is a Nigerian soup made from ground melon seeds (egusi), vegetables, meat, and fish. Some versions include tomatoes, which add a richer flavour and deeper colour to the soup. It is commonly served with pounded yam, eba, fufu, or semolina.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4-5 servings
+time:
+  total_min: 60
+difficulty: 3
+equipment:
+- Large cooking pot
+- Knife
+- Chopping board
+- Mixing bowls
+- Measuring cups and spoons
+- Wooden spoon or ladle
+- Colander or sieve
+- Mortar and pestle or blender
+- Stove or other heat source
+ingredient_groups:
+- items:
+  - {ingredient: red-palm-oil, unit: cup, qty: 0.5}
+  - {ingredient: beef, unit: g, qty: 500}
+  - {ingredient: stockfish, unit: g, qty: 200}
+  - {ingredient: spinach, unit: cup, qty: 2}
+  - {ingredient: crayfish, unit: tbsp, qty: 3}
+  - {ingredient: onion, qty: 1, note: large}
+  - {ingredient: bouillon-cube, qty: 3}
+  - {ingredient: salt, note: to taste}
+steps:
+- (missing)
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgusi_soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egusi soup@4639181
+    url: https://en.wikibooks.org/w/index.php?oldid=4639181
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

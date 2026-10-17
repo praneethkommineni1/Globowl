@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 cup fresh fruit
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-basic-cobbler
+title: Basic Cobbler
+summary: Basic Cobbler.
+origin:
+  country: US
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: cup, qty: 0.5}
+  - {ingredient: salt}
+  - {ingredient: baking-powder, unit: tsp, qty: 1}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: milk, unit: cup, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 1}
+steps:
+- Preheat oven to 350°F (175°C).
+- Place the butter in a deep 9½ x 12-inch baking dish. Put dish in oven to melt butter while preparing other ingredients. If butter is unsalted, add a touch of salt to the pan as well.
+- Add flour and sugar to a bowl and sift together lightly. Create a well in the center of the mixture, and pour the milk into the well. Mix together with a wire whisk until smooth.
+- Remove pan from oven. Pour batter into dish on top of melted butter. Do not stir. Spoon the fresh fruit out evenly across the top, but again, do not stir.
+- Place cobbler in oven and bake uncovered until golden brown.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABasic_Cobbler&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Basic Cobbler@4523330
+    url: https://en.wikibooks.org/w/index.php?oldid=4523330
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

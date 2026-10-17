@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - course unknown from categories
+id: xx-three-sisters-soup
+title: Three Sisters Soup
+summary: 'Three sisters soup is a classic Indigenous recipe steeped in the folklore of the three staples of Indigenous cultures in North America: corn, squash, and beans. This hearty and delicious soup pays homage to the rich heritage and agricultural traditions of Indigenous communities.'
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 45
+difficulty: 2
+techniques:
+- boiling
+- simmering
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: corn-kernels, unit: cup, qty: 2}
+  - {ingredient: green-beans, unit: cup, qty: 2}
+  - {ingredient: butternut-squash, unit: cup, qty: 2}
+  - {ingredient: potato, unit: cup, qty: 1.5, prep: peeled and diced}
+  - {ingredient: water, unit: cup, qty: 5}
+  - {ingredient: bouillon-cube, unit: tbsp, qty: 1.5}
+  - {ingredient: butter, unit: tbsp, qty: 2, prep: melted}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 2}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: salt, note: to taste}
+steps:
+- In a large pot, combine the hominy, green beans, squash, and potatoes.
+- Add water and chicken bouillon.
+- Bring to a boil, then reduce heat to low and simmer until the vegetables are soft (approximately 10 minutes).
+- In a separate pan, melt the butter and whisk in the flour. Stir the mixture into the soup.
+- Increase heat to medium and cook until the soup thickens (approximately 5 minutes).
+- Season with salt and pepper to taste.
+- Serve your delicious three sisters soup. Garnish with fresh herbs or Indigenous spices for added flavor.
+tips:
+- To enhance the Indigenous flavors, consider using traditional Indigenous spices or herbs.
+- Feel free to adjust the vegetable quantities to your preference.
+- See Three Sisters Stew for another variation.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AThree_Sisters_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Three Sisters Soup@4535148
+    url: https://en.wikibooks.org/w/index.php?oldid=4535148
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

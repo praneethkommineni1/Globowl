@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-liberian-butter-rice
+title: Liberian Butter Rice
+summary: Liberian butter rice is a flavorful and comforting dish that is a popular staple in Liberian cuisine. Made with aromatic ingredients and cooked in butter, this rice dish has a rich and delicious taste that pairs well with a variety of proteins and vegetables.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Large pot with a lid
+- Cutting board
+- Knife
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: chicken-stock, unit: cup, qty: 4}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: parsley, prep: chopped}
+steps:
+- Rinse the rice thoroughly under cold water until the water runs clear. Drain the rice and set it aside.
+- In a large pot, melt the butter over medium heat.
+- Add the chopped onion and minced garlic to the pot. Sauté until the onion becomes translucent and the garlic becomes fragrant.
+- Stir in the drained rice and coat it well with the buttery mixture.
+- Pour in the broth and add the bay leaf to the pot. Season with salt and black pepper to taste. Stir well.
+- Bring the mixture to a boil, then reduce the heat to low. Cover the pot with the lid and let the rice simmer for about 15–20 minutes, or until all the liquid is absorbed and the rice is cooked and fluffy.
+- Remove the pot from the heat and let the rice rest for a few minutes before fluffing it with a fork.
+- Garnish with chopped fresh parsley or cilantro before serving.
+tips:
+- For a richer taste, you can use chicken broth instead of vegetable broth.
+- You can add some diced vegetables like carrots or peas to the rice for extra flavor and color.
+- Leftover rice can be stored in an airtight container in the refrigerator for up to 3 days. Reheat before serving.
+- Liberian butter rice complements various proteins and vegetables, making it a versatile and tasty addition to your meals.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALiberian_Butter_Rice&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Liberian Butter Rice@4512953
+    url: https://en.wikibooks.org/w/index.php?oldid=4512953
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

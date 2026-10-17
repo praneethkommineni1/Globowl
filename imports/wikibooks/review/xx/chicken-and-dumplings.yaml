@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-chicken-and-dumplings
+title: Chicken and Dumplings
+summary: Chicken and dumplings is a traditional American comfort food.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- name: Stew
+  items:
+  - {ingredient: chicken-stock}
+  - {ingredient: chicken, prep: cut into bite-sized pieces}
+  - {ingredient: carrot, qty: 1, prep: sliced into rounds}
+  - {ingredient: celery, qty: 1, prep: chopped}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: onion, qty: 1, prep: chopped}
+  - {ingredient: thyme, unit: tsp, qty: 1}
+  - {ingredient: salt, prep: 'pepper, and liquid seasoning to taste', note: to taste}
+- name: Dumplings
+  items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 150}
+  - {ingredient: baking-powder, unit: tsp, qty: 1.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: shortening, unit: g, qty: 20}
+  - {ingredient: milk, unit: ml, qty: 150}
+steps:
+- Combine all the stew ingredients in a large pot and bring to a boil.
+- Reduce heat and allow to simmer while you make the dumplings.
+- For the dumplings, mix the dry ingredients together and cut in the shortening until the mixture is coarse and grainy.
+- Add milk and mix just until combined into a dough.
+- Drop dough by spoonfuls onto the stew.
+- Simmer 5 minutes with the lid off and 15–20 minutes longer with the lid on.
+tips:
+- You can buy chicken stock in cans or jars if you don't want to make it by hand.
+- The stew portion of the recipe is very flexible. You can use whatever vegetables and flavorings you like and have on hand.
+- To make it kosher, use vegetable shortening or schmaltz for the dumplings, and replace the milk with any plant milk.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_and_Dumplings&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chicken and Dumplings@4581551
+    url: https://en.wikibooks.org/w/index.php?oldid=4581551
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

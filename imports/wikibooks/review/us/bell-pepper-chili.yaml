@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Garlic salt
+id: us-bell-pepper-chili
+title: Bell Pepper Chili
+summary: Chili made with bell-peppers, served over white rice.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 12
+time:
+  total_min: 80
+difficulty: 2
+techniques:
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef-mince, unit: g, qty: [1361, 1588]}
+  - {ingredient: onion, qty: [6, 8], prep: coarsely chopped}
+  - {ingredient: red-bell-pepper, qty: [2, 3], prep: coarsely chopped}
+  - {ingredient: chili-powder}
+  - {ingredient: kidney-beans-canned, unit: can, qty: 1}
+  - {ingredient: tomato, unit: can, qty: 2}
+  - {ingredient: long-grain-rice}
+  - {ingredient: cheddar, prep: shredded, optional: true}
+steps:
+- Put beef in a large pot.
+- Fry on medium, breaking up the beef, until it turns brown. Drain grease.
+- Add peppers and onions to the pot.
+- Fry until the onions are transparent. Drain grease if necessary.
+- Add crushed tomatoes. Simmer for 1 hour, stirring occasionally.
+- Add kidney beans. Simmer for an additional 10 minutes.
+- Add chili powder and garlic salt to taste.
+- Serve over white rice. Optionally, top with shredded cheddar cheese.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABell_Pepper_Chili&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bell Pepper Chili@4523904
+    url: https://en.wikibooks.org/w/index.php?oldid=4523904
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

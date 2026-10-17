@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (PE, US): confirm the country of origin
+#  - no difficulty in recipe summary
+id: pe-shrimp-and-sea-bass-ceviche
+title: Shrimp and Sea Bass Ceviche
+summary: Ceviche (or cebiche) is traditional Peruvian/Ecuadorian dish in maritime areas. In its classic form, it is composed of chunks of raw fish, lime juice, chopped onion, and minced ají limo or rocoto, both types of chiles.
+origin:
+  country: PE
+  also_claimed_by:
+  - US
+course: starter
+authenticity: unassessed
+yield:
+  servings: 8
+  amount: 8–12
+time:
+  total_min: 120
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: shrimp, unit: g, qty: 454, prep: peeled and cleaned}
+  - {ingredient: white-fish, unit: g, qty: 907, prep: 'such as sea bass, boned and cut into large dice'}
+  - {ingredient: onion, qty: 1, prep: minced}
+  - {ingredient: ginger, qty: 1, prep: peeled and minced}
+  - {ingredient: garlic, unit: clove, qty: 1, prep: minced}
+  - {ingredient: red-chili, qty: 0.25, prep: seeded and minced}
+  - {ingredient: celery, qty: 1, prep: minced}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: lemon, qty: 5, prep: juiced}
+  - {ingredient: lime, qty: 5, prep: juiced}
+  - {ingredient: cilantro, unit: bunch, qty: 1, prep: chopped}
+  - {ingredient: corn-kernels, qty: 2, prep: grilled with husk on}
+steps:
+- Boil salted water. Have ice water ready on the side. Poach shrimp for just 30 seconds in the hot water, then cool in ice water and drain.
+- Combine shrimp with fish, then toss with onion, ginger, garlic, hot pepper, celery, salt, and black pepper. Allow to cool in the refrigerator at least 30 minutes and up to 2 hours.
+- Add lemon and lime juices and refrigerate 1 additional hour. Finish with cilantro and corn.
+- Check seasoning and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AShrimp_and_Sea_Bass_Ceviche&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Shrimp and Sea Bass Ceviche@4510241
+    url: https://en.wikibooks.org/w/index.php?oldid=4510241
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

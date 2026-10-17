@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: Add cheese, salt, and pepper to your liking
+#  - no time in recipe summary
+id: nl-hutspot
+title: Hutspot
+alternate_names:
+- Dutch Mashed Vegetables
+summary: Hutspot.
+origin:
+  country: NL
+course: side
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: g, qty: 2268, prep: quartered}
+  - {ingredient: carrot, unit: g, qty: 1588, prep: cut into pieces}
+  - {ingredient: onion, unit: g, qty: 907, prep: diced}
+  - {ingredient: ham, unit: cup, qty: 2, prep: cubed}
+steps:
+- Cook potatoes in pan of water, adding salt to taste, until done. Drain.
+- Cook carrots, onions and ham, adding a small amount of salt, until carrots are done. Drain, reserving water from carrot, onion, and ham pot.
+- Mash all ingredients, adding enough of reserved juices from carrots to reach a mashed potato consistency. Add 2 to 3 chunks of butter while mashing, to taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHutspot_%28Dutch_Mashed_Vegetables%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Hutspot (Dutch Mashed Vegetables)@4494488
+    url: https://en.wikibooks.org/w/index.php?oldid=4494488
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

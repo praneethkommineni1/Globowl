@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 100 g vegetable suet
+#  - unmapped ingredient: Custard or cream to serve.
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - duplicate id gb-jam-roly-poly from another Wikibooks page
+id: gb-jam-roly-poly
+title: Jam Roly-Poly
+alternate_names:
+- Steamed
+summary: Jam Roly-Poly.
+origin:
+  country: GB
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: self-rising-flour, unit: g, qty: 200}
+  - {ingredient: lemon}
+  - {ingredient: egg, qty: 1, prep: beaten, note: medium}
+  - {ingredient: milk, unit: tbsp, qty: [2, 4]}
+  - {ingredient: jam, unit: g, qty: 200, prep: 'cherry, raspberry or strawberry'}
+  - {ingredient: salt, unit: pinch, qty: 1}
+steps:
+- Stir the flour, suet, salt and lemon zest together then work to a firm dough with the lemon juice, egg and milk or water.
+- Roll out to a rectangle about 25 x 20.5 cm (10 x 8 in) and spread jam to within 2.5 cm (1 in) of the edges. Roll up starting from a short end and seal the edges well with a little water.
+- Set the roll on a sheet of well buttered foil and wrap, making sure you seal the ends well. If you are feeling traditional use cheesecloth or a shirt sleeve to steam in.
+- Set in a steamer and steam for 2 hours.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AJam_Roly-Poly_%28Steamed%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Jam Roly-Poly (Steamed)@4587484
+    url: https://en.wikibooks.org/w/index.php?oldid=4587484
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

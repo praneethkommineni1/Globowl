@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 cups thick coconut milk
+#  - course unknown from categories
+id: xx-wali-wa-nazi
+title: Wali Wa Nazi
+summary: Wali wa Nazi is a traditional East African rice dish prepared by cooking rice in coconut milk. It is especially popular along the Swahili Coast of Tanzania and Kenya, where coconuts are abundant. The dish is known for its rich aroma, creamy texture, and mild flavor.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 25
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1, optional: true}
+steps:
+- Wash the rice thoroughly until the water runs clear.
+- Soak the rice in water for 20 minutes, then drain.
+- In a cooking pot, combine the coconut milk, water, and salt.
+- Bring the mixture to a gentle boil over medium heat.
+- Add the drained rice and stir once.
+- Reduce the heat to low and cover the pot tightly.
+- Cook for 20–25 minutes, or until the liquid is absorbed and the rice is tender.
+- Remove the pot from the heat and allow it to rest for 5–10 minutes.
+- Fluff the rice gently with a fork before serving.
+tips:
+- Wali wa Nazi with cardamom
+- Wali wa Nazi with cinnamon
+- Brown coconut rice
+- Coconut rice with peas
+- Spiced Swahili coconut rice
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AWali_Wa_Nazi&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Wali Wa Nazi@4638517
+    url: https://en.wikibooks.org/w/index.php?oldid=4638517
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

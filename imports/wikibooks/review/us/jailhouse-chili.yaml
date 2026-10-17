@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-jailhouse-chili
+title: Jailhouse Chili
+summary: This is a modern version of Jailhouse Chili, as served in the Texas prison system.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 11340}
+  - {ingredient: ground-cumin, unit: g, qty: 227}
+  - {ingredient: chili-powder, unit: g, qty: 113}
+  - {ingredient: paprika, unit: g, qty: 57}
+  - {ingredient: red-chili, unit: handful, qty: 2}
+  - {ingredient: garlic, unit: g, qty: 227}
+steps:
+- Sear beef in a little cooking oil (not lard) until lightly browned. Drop the seared beef and chili peppers in a large stock pot, and add enough water to keep the meat from burning. Bring to a boil, then lower heat, cover, and simmer about 30 minutes.
+- Take pot off the stove and add spices and garlic. Put back on the stove, bring to a boil again, lower heat, and simmer another 90 minutes, keeping the lid on as much as possible. Stir when necessary, but remember that too much stirring will tear the meat. Add a little more water if anything seems seriously in danger of burning (but as little water as possible).
+- Take pot off the stove and skim off all or most of the grease. Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AJailhouse_Chili&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Jailhouse Chili@4518557
+    url: https://en.wikibooks.org/w/index.php?oldid=4518557
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

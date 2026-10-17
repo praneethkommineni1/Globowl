@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup tiger nuts
+#  - unmapped ingredient: Sweetener of choice, to taste
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-nigerian-tiger-nut-milk
+title: Nigerian Tiger Nut Milk
+alternate_names:
+- Kunun Aya
+summary: Tiger nut milk, locally known as kunun aya, is a refreshing traditional beverage commonly consumed in Northern Nigeria. It is made from blended tiger nuts and often sweetened with dates or other natural sweeteners.
+origin:
+  country: NG
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+equipment:
+- Blender
+- Fine sieve
+- cheesecloth
+- Bowl
+- Jug or bottle for storage
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 4}
+  - {ingredient: dates, qty: [2, 3], prep: pitted, optional: true}
+  - {ingredient: ginger, qty: 1, prep: peeled}
+steps:
+- Rinse and soak the tiger nuts in 2 cups of water for at least 24 hours to soften.
+- Drain and blend the soaked tiger nuts with the dates and ginger, adding water as needed to form a smooth paste.
+- Strain the blended mixture using a fine mesh sieve or cheesecloth to remove the chaff.
+- Dilute the extracted milk with the remaining water to the desired consistency.
+- Add your preferred sweetener to taste, and stir well.
+- Serve chilled. Refrigerate leftovers and consume within 1–2 days.
+tips:
+- You can blend with coconut or add vanilla for extra flavor.
+- For a more traditional taste, avoid refined sugar and use dates or jaggery.
+- The leftover chaff (tigernut pulp) can be used in baking or as animal feed.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Tiger_Nut_Milk_%28Kunun_Aya%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Tiger Nut Milk (Kunun Aya)@4636105
+    url: https://en.wikibooks.org/w/index.php?oldid=4636105
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

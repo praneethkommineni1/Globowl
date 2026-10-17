@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Mustard greens
+#  - unmapped ingredient: Corn starch
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: cn-salted-mustard-greens-and-shredded-meat-noodle-soup
+title: Salted Mustard Greens and Shredded Meat Noodle Soup
+summary: Salted mustard greens and shredded meat noodle soup (&#38634;&#33756;&#32905;&#32114;&#40629;) is a Chinese dish composed of salted mustard greens (&#38634;&#35041;&#32005;), shredded pork (&#32905;&#32114;), soup stock, and noodles.
+origin:
+  country: CN
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- marinating
+- simmering
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: salt}
+  - {ingredient: pork}
+  - {ingredient: soy-sauce}
+  - {ingredient: sugar}
+  - {ingredient: chicken-stock}
+  - {ingredient: pasta}
+steps:
+- Wash and dry the mustard greens.
+- Add salt to the greens.
+- Seal in a plastic bag and store in the refrigerator for several days.
+- Cut the pork tenderloin meat into tiny strips. Marinate the meat with corn starch, soy sauce, and sugar.
+- Retrieve the semi-pickled mustard greens and dice them.
+- Using a wok, stir-fry the meat until it is slightly brown. Remove the meat from the wok.
+- Stir-fry the salted mustard greens until slightly brown.
+- Place the meat back into the wok and add soup stock and water. Simmer for a couple of minutes.
+- Serve the soup with noodles.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASalted_Mustard_Greens_and_Shredded_Meat_Noodle_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Salted Mustard Greens and Shredded Meat Noodle Soup@4613712
+    url: https://en.wikibooks.org/w/index.php?oldid=4613712
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

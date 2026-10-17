@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: A litte bit of sake
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: jp-teriyaki-sauce
+title: Teriyaki Sauce
+summary: The word teriyaki is a combination of two Japanese words, teri, "luster", and yaki, "to grill or broil". The mirin in the sauce gives a good luster to meat as it is cooked. Traditionally it was used with fish.
+origin:
+  country: JP
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: soy-sauce, unit: cup, qty: 0.25}
+  - {ingredient: mirin, unit: cup, qty: 0.25}
+  - {ingredient: brown-sugar, unit: tbsp, qty: 2}
+  - {ingredient: ginger, unit: tsp, qty: 1, prep: 'peeled, finely-chopped ginger'}
+  - {ingredient: garlic, unit: tsp, qty: 1, prep: 'peeled, finely-chopped garlic'}
+steps:
+- Mix everything in a 1-quart pot over low heat until the sugar dissolves.
+- Use sauce to marinate some raw meat or vegetables overnight in the refrigerator.
+tips:
+- As given, this sauce is thin. Boil 1/2 tsp cornstarch or potato starch or kuzu root starch (for Japanese authenticity) into it if you wish to thicken it.
+- Pineapple juice might be a reasonable mirin substitute.
+- Lime juice may also be added for a tart flavor.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATeriyaki_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Teriyaki Sauce@4536305
+    url: https://en.wikibooks.org/w/index.php?oldid=4536305
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

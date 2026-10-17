@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-steak-and-pepper-stir-fry
+title: Steak and Pepper Stir-Fry
+summary: Steak and Pepper Stir-Fry.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 170, prep: sliced thinly across the grain on a bias}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: red-bell-pepper, qty: 0.5, prep: julienned}
+  - {ingredient: ginger, unit: tbsp, qty: 1}
+  - {ingredient: garlic, unit: tbsp, qty: 1}
+  - {ingredient: red-chili, qty: 1, prep: finely minced}
+steps:
+- Season beef liberally with salt and black pepper. Set aside.
+- Preheat a large stainless steel or cast iron skillet, or a wok, over medium high heat. Add peanut oil and seasoned beef and cook, tossing often, until meat is browned and slightly charred on both sides. Remove and keep warm.
+- Toss remaining ingredients together and place into the wok. Cook, tossing often, until vegetables are slightly browned around edges.
+- Add steak and heat through. Serve warm with soy sauce on the side.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASteak_and_Pepper_Stir-Fry&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Steak and Pepper Stir-Fry@4514113
+    url: https://en.wikibooks.org/w/index.php?oldid=4514113
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ug-eshabwe
+title: Eshabwe
+alternate_names:
+- Ugandan Milk Cream
+summary: Eshabwe is a rich and creamy delicacy that holds a special place in Ugandan cuisine. Made from ghee (clarified butter) and milk, Eshabwe is a luxurious and indulgent accompaniment to traditional Ugandan meals.
+origin:
+  country: UG
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+equipment:
+- Saucepan
+- Wooden spoon or spatula
+- Whisk (optional, for a smoother texture)
+ingredient_groups:
+- items:
+  - {ingredient: ghee, unit: cup, qty: 1}
+  - {ingredient: milk, unit: cup, qty: 1}
+  - {ingredient: salt, unit: pinch, qty: 1}
+steps:
+- In a saucepan, heat the ghee over low to medium heat until it melts completely.
+- Gradually add the whole milk to the melted ghee, stirring constantly with a wooden spoon or spatula. The milk and ghee should blend together to form a smooth and creamy mixture.
+- Continue cooking the mixture over low heat, stirring occasionally, until it thickens and reaches a creamy consistency. This typically takes about 10–15 minutes.
+- Add a pinch of salt and stir to enhance the flavor.
+- For a smoother texture, you can use a whisk to further blend the eshabwe until it becomes velvety and uniform.
+- Remove the saucepan from the heat and let cool slightly before serving.
+tips:
+- To achieve the authentic taste of eshabwe, it's essential to use high-quality ghee and whole milk.
+- The addition of a pinch of salt balances the sweetness of the milk and ghee, enhancing the overall flavor of the dish.
+- Eshabwe can be customized by incorporating additional ingredients like grated cheese, chopped onions, or garlic for a savory twist.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEshabwe_%28Ugandan_Milk_Cream%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Eshabwe (Ugandan Milk Cream)@4522204
+    url: https://en.wikibooks.org/w/index.php?oldid=4522204
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

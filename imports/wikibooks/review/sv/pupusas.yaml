@@ -1,0 +1,69 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Corn masa
+#  - unmapped ingredient: Ground and fried beans
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - duplicate of hand-written recipe sv-pupusas
+id: sv-pupusas
+title: Pupusas
+summary: A pupusa is a stuffed corn-tortilla, usually served with a spicy coleslaw called curtido. Pupusas originated in El Salvador, but immigrants have taken the dish to other Central American countries and beyond. Pupusas are hand-made and thick.
+origin:
+  country: SV
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 4
+techniques:
+- pan-frying
+ingredient_groups:
+- name: Dough
+  items:
+  - {ingredient: water}
+- name: Cheese filling
+  items:
+  - {ingredient: cheese, unit: cup, qty: 3}
+  - {ingredient: heavy-cream, unit: tbsp, qty: [3, 4]}
+  - {ingredient: green-pepper, unit: cup, qty: [0.5, 1]}
+  - {ingredient: salt, note: to taste}
+- name: Chicharron (pork rind filling)
+  items:
+  - {ingredient: bacon, unit: cup, qty: 1}
+  - {ingredient: garlic, prep: minced, optional: true}
+  - {ingredient: tomato, qty: [4, 5]}
+  - {ingredient: green-pepper, qty: 1}
+  - {ingredient: salt, note: to taste}
+steps:
+- Follow the instructions on the bag of masa for making tortilla dough, and make as much dough as needed. One pupusa uses about as much dough as two tortillas.
+- Set the dough aside while you prepare the filling.
+- Make a paste with all of the ingredients. To avoid the paste leaking out of the pupusas, it should not be too soft.
+- Cook the bacon with some garlic. Set fat aside but do not discard.
+- Once cooked, grind bacon with the tomatoes, green pepper, and salt to taste.
+- Mix in some of the bacon fat until it has a soft consistency.
+- Prepare the ground and fried beans as desired.
+- Shape and fill 2 tbsp of the dough per pupusa using one of the two methods below. When filling the pupusas add some of the bean, chicharrón, and/or cheese fillings.
+- 'Beginner method: Shape the dough into a ball, and clap it between your hands until you make a round, thin tortilla about ⅛ in thick. Continue making more tortillas this way. Put some filling on one tortilla, cover with another, and press the sides to seal them.'
+- 'Experienced method: Shape the dough into a ball, then insert your thumb in the ball to make a hole in the center. Fill the hole with some filling, and seal the hole by pushing and pinching the dough on the sides up. Carefully clap the pupusa between your hands to flatten it without pressing out the filling.'
+- Cook the pupusas on a lightly greased griddle, pan, or electric pancake griddler over low-medium heat (325–350°F) on one side, then the other until they are cooked. Each side will be ready when it no longer sticks to the pan (depending on the thickness of the tortillas, this might take 4 minutes or more per side).
+- Top the pupusas with curtido and tomato sauce.
+tips:
+- There are different brands of corn masa to make the dough. MASECA, which can be found in most large American supermarkets in the international section, is one of them but there are others.
+- If you can find it, try replacing the cheese filling with prepared queso con loroco. You won't get the authentic flavor from a pupusa if you use American ingredients.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APupusas&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pupusas@4630343
+    url: https://en.wikibooks.org/w/index.php?oldid=4630343
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

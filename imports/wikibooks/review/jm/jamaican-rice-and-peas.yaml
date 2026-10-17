@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 tbsp all-purpose seasoning
+#  - unmapped ingredient: 2 tbsp seasoning salt
+#  - unmapped ingredient: 1 tbsp chicken seasoning
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: jm-jamaican-rice-and-peas
+title: Jamaican Rice and Peas
+summary: Jamaican Rice and Peas.
+origin:
+  country: JM
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: kidney-beans-canned, unit: cup, qty: 3}
+  - {ingredient: water, unit: cup, qty: 8}
+  - {ingredient: salt, unit: tbsp, qty: 0.5}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: crushed}
+  - {ingredient: coconut-milk, unit: cup, qty: 2}
+  - {ingredient: red-chili, qty: 1}
+  - {ingredient: scallion, unit: bunch, qty: 1, prep: chopped}
+  - {ingredient: thyme, unit: tbsp, qty: 1}
+  - {ingredient: margarine, unit: cup, qty: 0.25}
+  - {ingredient: long-grain-rice, unit: g, qty: 680, prep: rinsed and drained}
+steps:
+- Wash peas with clean water. Place them in a pot with the water, salt, and garlic. Stir and leave to soak overnight.
+- Transfer the entire pot of soaked peas and liquid to the stovetop. Cover and bring to a boil over medium heat. Simmer, stirring occasionally, until the peas become tender (about 20 minutes). Add more hot water if the level drops too low.
+- Lower the heat, then add the coconut milk, scotch bonnet pepper, scallion, thyme, margarine, all-purpose seasoning, seasoning salt, and chicken seasoning. Stir well.
+- Cover and boil over medium heat for 10 minutes.
+- Stir in the rice until evenly distributed. Cover, lower heat, and boil until the rice is soft and liquid is boiled out (about 10–15 minutes).
+- Serve and enjoy!
+tips:
+- The scotch bonnet pepper is extremely spicy, so it can be placed in the pot whole or finely chopped; it all depends on who it is being cooked for and your preferences.
+- This dish can be eaten alone or with main dishes such as fried chicken, stewed pork, curried chicken, stewed beef, etc.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AJamaican_Rice_and_Peas&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Jamaican Rice and Peas@4534246
+    url: https://en.wikibooks.org/w/index.php?oldid=4534246
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

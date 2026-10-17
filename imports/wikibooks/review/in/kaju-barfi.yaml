@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Edible silver leaf/foil
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-kaju-barfi
+title: Kaju Barfi
+alternate_names:
+- Indian Cashew Milk Confection
+summary: Kaju Barfi is an Indian sweet made with cashew nuts.
+origin:
+  country: IN
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 0.75}
+  - {ingredient: sugar}
+  - {ingredient: ghee}
+  - {ingredient: cashews}
+steps:
+- Combine the sugar and water in a saucepan. Bring to a boil.
+- Add saffron to the solution and cook it till it forms a syrup of three-thread consistency.
+- Melt the ghee, and mix this into the syrup.
+- Add cashew nut powder and mix it thoroughly.
+- Allow it to cool slightly.
+- Knead the mixture well, and roll it into a rectangle 0.5 cm thick.
+- Lay the silver foil over the rectangle. Cut it into diamond shapes of approximately 1.5-inch length.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKaju_Barfi_%28Indian_Cashew_Milk_Confection%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kaju Barfi (Indian Cashew Milk Confection)@4517481
+    url: https://en.wikibooks.org/w/index.php?oldid=4517481
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

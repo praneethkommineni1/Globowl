@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - course unknown from categories
+id: xx-com-chien
+title: Com Chien
+alternate_names:
+- Vietnamese Fried Rice
+summary: Com Chien.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 3}
+  - {ingredient: garlic, unit: clove, qty: 3}
+  - {ingredient: leek, qty: 2, prep: chopped finely}
+  - {ingredient: red-chili, qty: 2, prep: chopped finely}
+  - {ingredient: egg, qty: 2, prep: beaten}
+  - {ingredient: carrot, unit: g, qty: 100}
+  - {ingredient: shrimp, unit: g, qty: 200, prep: diced small}
+  - {ingredient: green-peas, unit: g, qty: 100}
+  - {ingredient: long-grain-rice, unit: g, qty: 600}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+  - {ingredient: chicken-stock, unit: tbsp, qty: 2}
+  - {ingredient: egg}
+steps:
+- Heat the oil in a non-stick pan, and stir-fry the garlic, red chile, and leeks for about 1 minute.
+- Add the prawn, carrot, and peas, and then add the beaten eggs. Mix until combined.
+- Add the rice, salt, pepper, and chicken powder. Stir until well-mixed.
+- Serves with a fried egg.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACom_Chien_%28Vietnamese_Fried_Rice%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Com Chien (Vietnamese Fried Rice)@4630396
+    url: https://en.wikibooks.org/w/index.php?oldid=4630396
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

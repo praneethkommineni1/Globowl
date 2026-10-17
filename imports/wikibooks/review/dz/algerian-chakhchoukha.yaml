@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Rougag
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: dz-algerian-chakhchoukha
+title: Algerian Chakhchoukha
+alternate_names:
+- Vegetable and Flatbread Stew
+summary: Chakhchoukha is an Algerian dish prepared for festive celebrations, consisting of a vegetable stew to which small pieces of flatbread or semolina dough are added. Typically the flatbread is either rougag or trid.
+origin:
+  country: DZ
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil}
+  - {ingredient: onion, qty: 1, prep: chopped}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: paprika, unit: tbsp, qty: 1}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 1}
+  - {ingredient: tomato, qty: 2, prep: grated}
+  - {ingredient: chickpeas-canned, unit: cup, qty: 2, prep: soaked and drained}
+  - {ingredient: red-chili, optional: true}
+  - {ingredient: beef, prep: cubed}
+  - {ingredient: water}
+steps:
+- Heat some olive oil in a saucepan over medium heat.
+- Add the onion, garlic, salt, pepper, paprika, and tomato paste, and cook for 5 minutes.
+- Add the tomato, chickpeas, and chili pepper, and cook for 10–15 minutes.
+- Add the meat and enough boiling water to slightly cover everything. Let the mixture cook for approximately 45 minutes, or until the meat and chickpeas are cooked and the sauce is thick.
+- Rip the sheets of rougag with your hands into tiny pieces. Place them in the top of a steamer and steam for 5 minutes, then remove and set aside.
+- Adjust the seasoning of the stew, adding salt if necessary.
+- Place the meat and vegetables over the rougag in a dish, and pour the sauce on top.
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAlgerian_Chakhchoukha_%28Vegetable_and_Flatbread_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Algerian Chakhchoukha (Vegetable and Flatbread Stew)@4515524
+    url: https://en.wikibooks.org/w/index.php?oldid=4515524
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 cups dried or fresh tiger nuts
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-kunun-aduwa
+title: Kunun Aduwa
+alternate_names:
+- Nigerian Tiger Nut Milk
+summary: Kunun aduwa is a traditional Nigerian beverage made from tiger nuts (Cyperus esculentus), known locally as aduwa. It is popular in Northern Nigeria and enjoyed for its natural sweetness and health benefits. The drink is creamy, refreshing, and often served cold.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+time:
+  total_min: 1
+difficulty: 1
+equipment:
+- Blender
+- Fine sieve or cheesecloth
+ingredient_groups:
+- items:
+  - {ingredient: ginger, qty: 1, optional: true, note: small}
+  - {ingredient: dates, qty: [5, 7], prep: pitted}
+  - {ingredient: water, prep: as needed}
+steps:
+- If using dried tiger nuts, soak them in water overnight to soften, then drain and rinse them.
+- In a blender, combine the tiger nuts, ginger, and dates. Blend until smooth and creamy, adding water as needed to aid blending.
+- Strain the blended mixture using a fine sieve or cheesecloth to separate the milk from the chaff.
+- Chill in the refrigerator and serve cold.
+tips:
+- You can flavor the kunun aduwa with coconut milk or vanilla for added taste.
+- The leftover pulp can be sun-dried and used in baking or added to cereals.
+- This is best served fresh but can be refrigerated for 2–3 days.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKunun_Aduwa_%28Nigerian_Tiger_Nut_Milk%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kunun Aduwa (Nigerian Tiger Nut Milk)@4525403
+    url: https://en.wikibooks.org/w/index.php?oldid=4525403
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

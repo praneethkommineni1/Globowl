@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-caprese-salad
+title: Caprese Salad
+summary: Caprese salad is a delicious Italian dish made with tomato and mozzarella cheese. It is quite simple but tastes great and looks attractive.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1–2
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: tomato, qty: 1, note: medium}
+  - {ingredient: basil}
+  - {ingredient: mozzarella, prep: sliced}
+  - {ingredient: olive-oil}
+  - {ingredient: white-vinegar}
+  - {ingredient: italian-seasoning, optional: true}
+steps:
+- Cut the tomato into about 5 slices.
+- Put a slice of mozzarella cheese on top of each tomato slice.
+- Cut a horizontal slit halfway through each slice.
+- Put a basil leaf on top of each one.
+- Sprinkle herbs over each slice.
+- Drizzle some vinegar and olive oil on top. Do not mix the vinegar and olive oil.
+- Eat fresh.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACaprese_Salad&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Caprese Salad@4605277
+    url: https://en.wikibooks.org/w/index.php?oldid=4605277
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,73 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 3 cups cranberry or pinto beans
+#  - unmapped ingredient: 1 sprig fresh sage
+id: it-tuscan-bean-soup
+title: Tuscan Bean Soup
+summary: Tuscan Bean Soup.
+origin:
+  country: IT
+course: soup
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 105
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: wheat-berries, unit: cup, qty: 1}
+  - {ingredient: olive-oil, unit: cup, qty: 0.25, prep: plus more for drizzling}
+  - {ingredient: sausage, unit: g, qty: 227, prep: casings removed}
+  - {ingredient: kale, unit: g, qty: 454, prep: 'preferably Tuscan, coarse stems removed, cut into thick ribbons'}
+  - {ingredient: onion, qty: 1, prep: diced}
+  - {ingredient: carrot, qty: 1, prep: peeled and diced, note: large}
+  - {ingredient: celery, qty: 1, prep: trimmed and diced, note: large}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: thinly sliced}
+  - {ingredient: chicken, unit: cup, qty: 5, prep: 'or canned low-sodium stock, plus more if needed'}
+  - {ingredient: tomato, unit: cup, qty: 1, prep: 'seeded, and diced tomatoes, or drained canned diced tomatoes'}
+  - {ingredient: rosemary, unit: sprig, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: cheese, unit: cup, qty: 0.5}
+steps:
+- Soak beans and spelt overnight in separate bowls of cold water.
+- Drain and set aside.
+- Heat olive oil in a large pot over medium-high heat.
+- Add sausage.
+- Cook stirring occasionally, until meat begins to separate and brown (3–5 minutes).
+- Stir in kale, onion, carrot, celery, and garlic.
+- Cook until softened (about 10 minutes).
+- Add beans, spelt, chicken stock, and tomatoes.
+- Bring to boil.
+- Stir in rosemary and sage.
+- Reduce heat.
+- Simmer mixture for 60–70 minutes, until beans are tender; if soup is too thick, add chicken stock.
+- Season to taste with salt and pepper.
+- Ladle soup into bowls.
+- Drizzle with olive oil, and sprinkle on cheese.
+- Serve immediately.
+tips:
+- Have this soup first with bread, like ciabatta, then finish with some cold cuts, like salami and prosciutto.
+- Instead of using spelt, you can substitute barley.
+- If you can't find Tuscan kale, you can use regular kale, mustard greens, or Swiss chard.
+- This soup tastes even better the next day.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATuscan_Bean_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tuscan Bean Soup@4515570
+    url: https://en.wikibooks.org/w/index.php?oldid=4515570
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

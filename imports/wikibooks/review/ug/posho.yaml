@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ug-posho
+title: Posho
+alternate_names:
+- Ugandan Cornmeal Porridge
+summary: Posho is a staple dish in Ugandan cuisine, cherished for its simplicity and comforting taste. Made from maize flour, this hearty and nutritious porridge is a popular accompaniment to various Ugandan meals and is enjoyed by people of all ages.
+origin:
+  country: UG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+equipment:
+- Cooking pot
+- Wooden spoon or whisk
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 3}
+  - {ingredient: cornmeal, unit: cup, qty: 1}
+  - {ingredient: butter, unit: tbsp, qty: 1}
+steps:
+- In a cooking pot, bring the water to a boil over medium heat.
+- Gradually add the maize flour to the boiling water, stirring constantly with a wooden spoon or whisk to prevent lumps from forming.
+- Continue stirring the mixture until it thickens and begins to pull away from the sides of the pot. This typically takes about 5–10 minutes.
+- Reduce the heat to low, cover the pot with a lid, and let the porridge simmer for an additional 5–10 minutes, allowing the flavors to meld and the porridge to reach the desired consistency.
+- If using, add butter or vegetable oil to the porridge and stir until well incorporated. This step adds a delightful richness to the posho.
+- Remove the pot from the heat and let the posho rest for a few minutes before serving to allow it to set further.
+- Serve the posho warm as a comforting and nourishing side dish with stews, vegetables, or any other Ugandan delicacies.
+tips:
+- Posho is traditionally served with various dishes, such as beans, greens, or meat stews, adding depth and flavor to the meal.
+- Adjust the amount of water and maize flour to achieve your preferred consistency of the porridge. For a thicker porridge, use less water, and for a thinner consistency, add more water.
+- Feel free to garnish the posho with chopped fresh herbs, grated coconut, or a drizzle of honey for a personalized touch.
+- Leftover posho can be refrigerated and reheated the next day, making it a convenient and tasty leftover dish.
+- Posho is a rich source of carbohydrates and dietary fiber.
+- The versatility of posho allows it to complement various dishes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APosho_%28Ugandan_Cornmeal_Porridge%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Posho (Ugandan Cornmeal Porridge)@4517863
+    url: https://en.wikibooks.org/w/index.php?oldid=4517863
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

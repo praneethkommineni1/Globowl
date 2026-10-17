@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: eg-sayadeya
+title: Sayadeya
+alternate_names:
+- Egyptian Fish with Rice
+summary: Sayadeya is a delicious and aromatic Egyptian dish that features fish cooked with rice in a flavorful tomato-based sauce. It is a popular dish along the coastal regions of Egypt, where fresh fish is readily available.
+origin:
+  country: EG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large skillet or frying pan with a lid
+- Mixing bowl
+- Knife for chopping and mincing
+- Cutting board
+- Spoon or spatula for stirring
+- Paper towels
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: fish, unit: g, qty: 500}
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: tomato, unit: cup, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 2}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: parsley}
+  - {ingredient: lemon}
+steps:
+- Rinse the fish fillets under cold water and pat them dry with paper towels. Cut them into medium-sized pieces and set aside.
+- In a mixing bowl, combine the rice with enough water to cover it completely. Let it soak for about 15 minutes, then drain the water.
+- In a large skillet or frying pan, heat the olive oil over medium heat.
+- Add the finely chopped onion and minced garlic to the skillet. Sauté until the onions become translucent and the garlic becomes fragrant.
+- Add the drained rice to the skillet and stir well to coat the rice with the onion and garlic mixture.
+- Pour in the tomato sauce and add the ground cumin, ground paprika, ground coriander, salt, and black pepper. Stir to combine the ingredients and distribute the spices evenly.
+- Place the fish fillets on top of the rice mixture in the skillet. Cover the skillet with a lid and let the dish simmer on low heat for about 20–25 minutes, or until the fish is cooked through and the rice is tender.
+- Once the fish and rice are cooked, remove the skillet from the heat and let it rest for a few minutes.
+- Garnish the sayadeya with chopped fresh parsley. Serve hot, accompanied by lemon wedges for squeezing over the fish and rice.
+tips:
+- Sayadeya is often enjoyed with a side salad or a traditional Egyptian condiment called "dakka" (a mixture of spices, herbs, and nuts).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASayadeya_%28Egyptian_Fish_with_Rice%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sayadeya (Egyptian Fish with Rice)@4513040
+    url: https://en.wikibooks.org/w/index.php?oldid=4513040
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

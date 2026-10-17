@@ -1,0 +1,70 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gm-gambian-superkanja-soup
+title: Gambian Superkanja Soup
+summary: Superkanja soup is a traditional Gambian dish that is known for its rich and flavorful taste. It is a hearty and nutritious soup made with a combination of different leafy greens and protein sources.
+origin:
+  country: GM
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large pot or Dutch oven with a lid
+- Knife
+- Cutting board
+- Measuring spoons
+- Cooking spoon or spatula
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 500, prep: or Gambian smoked fish}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: tomato, qty: 2, prep: diced}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 2}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 1}
+  - {ingredient: okra, unit: cup, qty: 1, prep: sliced}
+  - {ingredient: butternut-squash, unit: cup, qty: 1}
+  - {ingredient: eggplant, unit: cup, qty: 1}
+  - {ingredient: chicken-stock}
+  - {ingredient: spinach, unit: cup, qty: 2, prep: washed and chopped}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- If using meat, cut it into bite-sized pieces and season with salt and pepper.
+- In a large pot or Dutch oven, heat the vegetable oil over medium heat. Add the chopped onion and minced garlic. Sauté until they become soft and translucent.
+- Add the meat or smoked fish to the pot and cook until browned. Stir occasionally to ensure even cooking.
+- Add the diced tomatoes, tomato paste, ground ginger, ground paprika, and ground cayenne pepper (if using) to the pot. Stir well to combine.
+- Mix in the sliced okra, diced pumpkin or squash, and diced eggplant. Stir to incorporate the vegetables into the mixture.
+- Add enough water or broth to the pot to cover the ingredients. The amount of liquid will depend on the desired consistency of the soup. Bring the mixture to a boil, then reduce the heat to low and cover the pot with a lid.
+- Allow the soup to simmer for about 30–45 minutes, or until the meat is tender and the vegetables are cooked through. Stir occasionally to prevent sticking.
+- Add the chopped leafy greens to the pot. Stir well to combine. Continue simmering the soup for an additional 5–10 minutes, or until the greens have wilted and become tender.
+- Taste the soup and adjust the seasoning with salt and pepper according to your preference.
+- Serve hot with a side of rice or bread.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGambian_Superkanja_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gambian Superkanja Soup@4629621
+    url: https://en.wikibooks.org/w/index.php?oldid=4629621
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 cups dried beans
+#  - unmapped ingredient: 1 teaspoon curry powder or turmeric
+#  - unmapped ingredient: Water as needed
+#  - course unknown from categories
+id: xx-githeri
+title: Githeri
+summary: Githeri (also spelled githere, mutheri, or muthere) is a traditional Kenyan dish made by boiling maize and beans together until tender. It is especially associated with the Kikuyu, Meru, Embu, and other communities in Kenya, although it is enjoyed throughout the country.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 60
+difficulty: 2
+equipment:
+- Large cooking pot
+- Knife
+- Cutting board
+- Wooden spoon
+- Bowl
+ingredient_groups:
+- items:
+  - {ingredient: corn-kernels, unit: cup, qty: 2}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: tomato, qty: 2, prep: chopped}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced, optional: true}
+  - {ingredient: carrot, qty: 1, prep: diced, optional: true}
+  - {ingredient: green-pepper, qty: 1, prep: chopped, optional: true}
+  - {ingredient: salt, note: to taste}
+steps:
+- Wash the maize and beans thoroughly. If using dried maize and beans, soak them overnight in separate bowls of water.
+- Drain the soaked maize and beans and place them in a large pot.
+- Add enough water to cover the mixture and boil until both the maize and beans become soft. This may take 1–2 hours depending on the type used.
+- In another pan, heat the vegetable oil over medium heat.
+- Add the chopped onions and cook until soft and lightly golden.
+- Stir in the garlic, tomatoes, carrot, and bell pepper. Cook for several minutes until the tomatoes soften.
+- Add curry powder or turmeric if desired.
+- Add the cooked maize and beans to the vegetable mixture and stir well.
+- Season with salt and simmer for 10–15 minutes, adding a little water if necessary.
+- Serve hot.
+tips:
+- Soaking dried maize and beans overnight reduces cooking time.
+- A pressure cooker can greatly speed up preparation.
+- Fresh maize gives a softer and sweeter flavour.
+- Fried onions improve the flavour significantly.
+- Leftover githeri can be reheated or fried the next day.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGitheri&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Githeri@4637545
+    url: https://en.wikibooks.org/w/index.php?oldid=4637545
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

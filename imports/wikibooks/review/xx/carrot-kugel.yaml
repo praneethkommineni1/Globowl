@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 50 grams potato flour
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: xx-carrot-kugel
+title: Carrot Kugel
+summary: This is a traditional Jewish dish.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 4, prep: separated}
+  - {ingredient: sugar, unit: g, qty: 75}
+  - {ingredient: butter, unit: g, qty: 25}
+  - {ingredient: apple, qty: 1, note: small}
+  - {ingredient: orange}
+  - {ingredient: carrot, unit: g, qty: 225}
+  - {ingredient: orange}
+  - {ingredient: lemon, unit: tsp, qty: 1}
+steps:
+- Preheat the oven to 190°C (375°F).
+- Grease a 1-litre casserole dish.
+- Beat the egg yolks and sugar in a bowl until light and fluffy and pale in color.
+- Very finely grate the carrot and apple, then squeeze out and discard all the liquid.
+- Mix the grated carrot, apple, orange rind, orange and lemon juice, and flour.
+- Combine the egg and carrot mixtures.
+- Whip the egg whites until they are very stiff, and fold into carrot mixture.
+- Spoon mixture into the greased casserole dish.
+- Bake for 35 minutes or until golden brown.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACarrot_Kugel&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Carrot Kugel@4630273
+    url: https://en.wikibooks.org/w/index.php?oldid=4630273
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

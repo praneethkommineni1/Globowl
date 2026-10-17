@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-sesame-ginger-marinade
+title: Sesame Ginger Marinade
+summary: You can use this as a sauce or a marinade for either pork or shortribs.
+origin:
+  country: XX
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: soy-sauce, unit: cup, qty: 0.5}
+  - {ingredient: brown-sugar, unit: cup, qty: 0.25}
+  - {ingredient: sesame-oil, unit: tsp, qty: 2}
+  - {ingredient: sesame-seeds, unit: tbsp, qty: 2}
+  - {ingredient: ginger, unit: tbsp, qty: 3}
+  - {ingredient: garlic, unit: tbsp, qty: 2}
+steps:
+- Give everything a big shake in an 8-ounce mason jar until smooth.
+- Refrigerate for up to two weeks.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASesame_Ginger_Marinade&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sesame Ginger Marinade@4511555
+    url: https://en.wikibooks.org/w/index.php?oldid=4511555
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,63 @@
+id: cu-rice-with-black-beans
+title: Rice with Black Beans
+alternate_names:
+- Arroz con Frijoles Negros
+summary: Arroz con frijoles negros (rice with black beans) is one of the many rice and bean dishes that are extremely popular throughout Latin America, especially in the Caribbean. Most people serve meat or fish with rice and beans.
+origin:
+  country: CU
+course: side
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 120
+difficulty: 2
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: black-beans-canned, unit: g, qty: 454}
+  - {ingredient: red-bell-pepper, qty: 1, prep: cut in half with seeds and stem removed, note: large}
+  - {ingredient: olive-oil, unit: cup, qty: 0.333}
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: smashed and chopped}
+  - {ingredient: green-pepper, qty: 1, prep: 'seeds and stem removed, then chopped', note: large}
+  - {ingredient: salt, unit: tsp, qty: 4}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: dried-oregano, unit: tsp, qty: 1}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: sugar, unit: tbsp, qty: 2}
+  - {ingredient: cider-vinegar, unit: tbsp, qty: 2}
+  - {ingredient: dry-white-wine, unit: tbsp, qty: 2}
+  - {ingredient: olive-oil}
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+steps:
+- The night before you plan to cook, wash the beans and soak them in a large pot with 10 cups of water and one half of a green pepper.
+- The next day, cook them in the same water until they are softer (a low boil, stirring occasionally, about an hour).
+- In a frying pan, heat two tablespoons of oil and sauté the chopped onion, garlic, and green pepper (this is called a sofrito) until soft (about 5–10 minutes).
+- Take a cup of the soft black beans in some liquid and put in a blender. Liquefy the beans. Add this to the frying pan and mix the bean liquid with the sofrito. Then, add the contents of the frying pan to the big pot of beans. Add salt, pepper, oregano, bay leaf, and sugar.
+- Boil about another hour, stirring occasionally. Add vinegar and cooking wine.
+- Boil for about another hour to thicken. Add the 2 tablespoons olive oil and serve.
+- In another large sauce pan, combine rice, 4½ cups water, and 2 tablespoons olive oil.
+- Bring to a boil then reduce to simmer for about 20 minutes.
+- Fluff the rice with a fork once the water has evaporated.
+tips:
+- If the beans are too watery, boil until the right consistency. They keep for about a week in the refrigerator, and they freeze well.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARice_with_Black_Beans_%28Arroz_con_Frijoles_Negros%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rice with Black Beans (Arroz con Frijoles Negros)@4525536
+    url: https://en.wikibooks.org/w/index.php?oldid=4525536
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 fresh peppers
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-ukpo-oka
+title: Ukpo Oka
+alternate_names:
+- Nigerian Corn Pudding
+summary: Ukpo oka is a delicacy made from corn, popular among the Ika-Ibo people of Delta State, Nigeria. It is also known as nni oka, ekoki, sapala and igbankwu oka.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: corn-kernels, qty: 4}
+  - {ingredient: onion, qty: 1}
+  - {ingredient: ground-crayfish, unit: tsp, qty: 0.333}
+  - {ingredient: water, unit: cup, qty: 0.333}
+  - {ingredient: red-palm-oil, unit: cup, qty: 0.25}
+  - {ingredient: salt, unit: tsp, qty: 0.333}
+steps:
+- Blend together the corn, pepper, onion, and crayfish with a small amount of water.
+- Transfer the mixture to a bowl, and stir in salt and palm oil to taste.
+- Pour the mixture into a mold. Place in boiling water, and steam for 45 minutes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AUkpo_Oka_%28Nigerian_Corn_Pudding%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ukpo Oka (Nigerian Corn Pudding)@4508314
+    url: https://en.wikibooks.org/w/index.php?oldid=4508314
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

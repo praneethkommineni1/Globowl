@@ -1,0 +1,82 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 18–24 white onions, small
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-julia-child-s-boeuf-bourguignon
+title: Julia Child's Boeuf Bourguignon
+summary: From Mastering the Art of French Cooking Volume 1.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 4
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: bacon, unit: g, qty: 170}
+  - {ingredient: olive-oil, unit: tbsp, qty: 3.5}
+  - {ingredient: beef, unit: g, qty: 1361, prep: cut into 2-inch cubes}
+  - {ingredient: carrot, qty: 1, prep: sliced}
+  - {ingredient: onion, qty: 1, prep: sliced}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 2}
+  - {ingredient: red-wine, unit: cup, qty: 3, prep: young and full-bodied}
+  - {ingredient: beef-stock, unit: cup, qty: [2.5, 3.5]}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 2}
+  - {ingredient: thyme, unit: tsp, qty: 0.5}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: butter, unit: tbsp, qty: 3.5}
+  - {ingredient: parsley}
+  - {ingredient: mushroom, unit: g, qty: 454, prep: fresh and quartered}
+steps:
+- Remove bacon rind and cut into lardons (sticks ¼-inch thick and 1½ inches long). Simmer rind and lardons for 10 minutes in 1½ quarts water. Drain and dry.
+- Preheat oven to 450°F (230°C).
+- Sauté lardons in 1 tablespoon of the olive oil in a flameproof casserole pan over moderate heat for 2–3 minutes to brown lightly. Remove to a side dish with a slotted spoon.
+- Dry beef in paper towels; it will not brown if it is damp. Heat fat in casserole until almost smoking. Add beef, a few pieces at a time, and sear until nicely browned on all sides. Add it to the lardons.
+- In the same fat, brown the sliced vegetables. Pour out the excess fat.
+- Return the beef and bacon to the casserole and toss with ½ teaspoon of salt and ¼ teaspoon of pepper.
+- Sprinkle on the flour and toss again to coat the beef lightly. Set casserole uncovered in middle position of preheated oven for 4 minutes.
+- Toss the meat again and return to oven for 4 minutes; this browns the flour and covers the meat with a light crust.
+- Remove casserole and turn oven down to 325°F (160°C).
+- Stir in wine and 2–3 cups stock (just enough so that the meat is barely covered).
+- Add the tomato paste, garlic, herbs and bacon rind. Bring to a simmer on top of the stove.
+- Cover casserole and set in lower third of oven. Regulate heat so that liquid simmers very slowly for 3–4 hours. The meat is done when a fork pierces it easily.
+- While the beef is cooking, prepare the onions and mushrooms.
+- Heat 1½ tablespoons butter with 1½ tablespoons of the oil until bubbling in a skillet.
+- Add onions, and sauté over moderate heat for about 10 minutes, rolling them so they will brown as evenly as possible. Be careful not to break their skins. You cannot expect them to brown uniformly.
+- Add ½ cup of the stock, salt and pepper to taste, and the herb bouquet.
+- Cover and simmer slowly for 40–50 minutes until the onions are perfectly tender but hold their shape, and the liquid has evaporated. Remove herb bouquet and set onions aside.
+- Wipe out skillet and heat remaining oil and butter over high heat. As soon as you see butter has begun to subside, indicating it is hot enough, add mushrooms.
+- Toss and shake pan for 4–5 minutes. As soon as they have begun to brown lightly, remove from heat.
+- When the meat is tender, pour the contents of the casserole into a sieve set over a saucepan.
+- Wash out the casserole and return the beef and lardons to it. Distribute the cooked onions and mushrooms on top.
+- Skim fat off sauce in saucepan. Simmer sauce for a minute or two, skimming off additional fat as it rises. You should have about 2½ cups of sauce thick enough to coat a spoon lightly.
+- If too thin, boil it down rapidly. If too thick, mix in a few tablespoons stock. Taste carefully for seasoning.
+- Pour sauce over meat and vegetables. Cover and simmer 2–3 minutes, basting the meat and vegetables with the sauce several times.
+- Serve in casserole, or arrange stew on a platter surrounded with potatoes, noodles or rice, and decorated with parsley.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AJulia_Child%27s_Boeuf_Bourguignon&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Julia Child's Boeuf Bourguignon@4610536
+    url: https://en.wikibooks.org/w/index.php?oldid=4610536
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

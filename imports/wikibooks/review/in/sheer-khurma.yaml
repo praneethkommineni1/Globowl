@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: in-sheer-khurma
+title: Sheer Khurma
+summary: Sheer khurma is a sweet noodle soup served by Muslims in Indian and other South Asian countries to guests during the holy month of Ramadan. The recipe originally comes from Mughal-India.
+origin:
+  country: IN
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 12
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: vermicelli, unit: g, qty: 200}
+  - {ingredient: ghee, unit: cup, qty: 1.25}
+  - {ingredient: dates, unit: g, qty: 100, prep: 'soaked overnight, pitted and chopped thin'}
+  - {ingredient: almonds, unit: g, qty: 100, prep: blanched and slivered}
+  - {ingredient: raisins, unit: g, qty: 100}
+  - {ingredient: cashews, unit: g, qty: 100}
+  - {ingredient: milk, unit: cup, qty: 12}
+  - {ingredient: heavy-cream, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 4}
+  - {ingredient: sugar, unit: cup, qty: 3}
+  - {ingredient: ground-cardamom, unit: tbsp, qty: 2}
+steps:
+- Heat the ghee in a large pot over a low heat.
+- Add the cashew nuts to the ghee, and fry until browned.
+- Turn off the flame and add the raisins. When the raisins swell up, take both them and the cashews out of the ghee with a spoon and set aside.
+- Switch the low heat back on and heat the ghee. Add the vermicelli and fry, stirring so it turns golden-brown. Watch it carefully so it does not burn.
+- Pour in the milk and water. Add the cashews and raisins back into the mixture.
+- Add the sliced dates and almonds. Cook for about 2 minutes, or until the vermicelli starts to get flexible; then add sugar.
+- Keep on the low flame for another 2 minutes, then add cream and cardamom powder.
+- Heat just a little longer and mix well.
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASheer_Khurma&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sheer Khurma@4587249
+    url: https://en.wikibooks.org/w/index.php?oldid=4587249
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

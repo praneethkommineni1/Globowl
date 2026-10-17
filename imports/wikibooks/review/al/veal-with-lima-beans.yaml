@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 1/2 lb of large lima beans
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: al-veal-with-lima-beans
+title: Veal with Lima Beans
+summary: Veal with large lima beans (mish qingjji me barbunja) is an Albanian dish.
+origin:
+  country: AL
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- stir-frying
+ingredient_groups:
+- items:
+  - {ingredient: veal, unit: g, qty: 680, prep: cut into 1-inch cubes}
+  - {ingredient: butter, unit: g, qty: 28}
+  - {ingredient: onion, qty: 1, prep: grated, note: large}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: tomato, unit: can, qty: 1}
+steps:
+- Wash the meat thoroughly with cold water, drain, and place in a pot together with butter and onions. Stir-fry over medium-high heat for a few minutes.
+- Add enough water to cover the meat. Add salt, pepper, and 2–3 tablespoons of the tomatoes. Cover the pot and let the meat boil.
+- In the meantime, cut the ends off the lima beans and clean them well (you also cut them in half if you desire). Add the beans to the meat after it has been boiling for several minutes. Also add water until everything in the pot is covered.
+- When the beans are done boiling, add the rest of the tomatoes. Then let the stew boil for a few more minutes so that the liquid can thicken.
+tips:
+- Please note that tomatoes should not be added all at once in the beginning since they don't allow the lima beans to boil at the right pace. If you would rather use fresh tomatoes, when you add the beans, add whole tomatoes instead of cut ones.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AVeal_with_Lima_Beans&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Veal with Lima Beans@4518696
+    url: https://en.wikibooks.org/w/index.php?oldid=4518696
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

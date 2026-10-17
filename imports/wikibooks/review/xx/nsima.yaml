@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-nsima
+title: Nsima
+alternate_names:
+- Cornmeal Swallow
+summary: Nsima is a traditional staple food in many African countries, particularly in Malawi, Zambia, and parts of Tanzania and Mozambique.
+origin:
+  country: XX
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Large cooking pot with a lid
+- Wooden spoon or a stiff whisk
+- Stovetop
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: maize-flour, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 4}
+steps:
+- Measure out the maize flour and set it aside.
+- In a large cooking pot, bring the water to a boil.
+- Once the water is boiling, reduce the heat to low and gradually add the maize flour to the pot while stirring continuously with a wooden spoon or a stiff whisk. Make sure to pour the flour in a slow, steady stream to prevent clumping.
+- Keep stirring the mixture vigorously to combine the maize flour and water thoroughly. This step is crucial to avoid lumps from forming. Continue stirring for about 5 minutes until the mixture starts to thicken.
+- Increase the heat to medium-low and cover the pot with a lid. Allow the mixture to cook for about 10–15 minutes. This cooking time allows the maize flour to cook fully and eliminates the raw taste.
+- Remove the lid and stir the mixture again, making sure to scrape the sides and bottom of the pot to prevent sticking or burning.
+- Continue cooking the nsima, stirring frequently, for another 10–15 minutes until it reaches the desired consistency. It should have a thick, smooth texture similar to mashed potatoes or stiff porridge. If it's too thick, you can add a little more water and continue stirring until you achieve the desired consistency.
+- Once the nsima is cooked to your liking, remove it from the heat and let it sit for a few minutes to cool slightly before serving.
+- Serve the nsima hot with your choice of relishes such as meat, vegetables, or fish. Popular relishes include chicken stew, beef and vegetable stew, fried fish, or a variety of sautéed greens.
+tips:
+- It's essential to use maize flour specifically made for nsima, as the texture and consistency may differ from regular cornmeal.
+- Nsima is traditionally served by shaping it into a ball or a mound using wet hands. This technique allows you to scoop up small portions and use it as a utensil to pick up the accompanying relishes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANsima_%28Cornmeal_Swallow%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nsima (Cornmeal Swallow)@4518762
+    url: https://en.wikibooks.org/w/index.php?oldid=4518762
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+id: ir-sharbat-bil-loz
+title: Sharbat bil Loz
+summary: Sharbat bil loz is an Iranian beverage.
+origin:
+  country: IR
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 30
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: almonds, unit: cup, qty: 4}
+  - {ingredient: water, unit: cup, qty: 4}
+  - {ingredient: sugar, unit: cup, qty: 3}
+  - {ingredient: orange-flower-water, unit: cup, qty: 0.25}
+steps:
+- Grind the almonds finely in blender.
+- Add the water and continue to grind.
+- Strain the liquid through a sieve lined with cheesecloth, reserving the liquid.
+- When drained, squeeze the remaining pulp to extract as much liquid as possible. Discard the pulp.
+- Pour into a heavy saucepan, then stir in the sugar (optional).
+- Boil, stirring constantly, then lower the heat and simmer very gently for 5–10 minutes.
+- Turn off the heat, add the orange flower water, and let the syrup cool.
+- To serve, pour ¼ cup of syrup into a glass, add ice water, and stir well.
+tips:
+- Instead of throwing away the almond pulp, you can mix it into almond agar jelly.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASharbat_bil_Loz&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Sharbat bil Loz@4525176
+    url: https://en.wikibooks.org/w/index.php?oldid=4525176
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

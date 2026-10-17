@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tbsp Teriyaki sauce
+#  - unmapped ingredient: 1/4 tsp five spice powder
+id: cn-steamed-buns-with-bbq-pork
+title: Steamed Buns with BBQ Pork
+summary: This is a yeast dough bun that is stuffed with a meat filling and steamed until cooked.
+origin:
+  country: CN
+course: main
+authenticity: unassessed
+yield:
+  servings: 12
+  amount: 12 buns
+time:
+  total_min: 140
+difficulty: 3
+techniques:
+- dough-making
+- steaming
+ingredient_groups:
+- name: Bun filling
+  items:
+  - {ingredient: pork, unit: g, qty: 227}
+  - {ingredient: barbecue-sauce, unit: cup, qty: 0.5}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: chili-paste, unit: tsp, qty: 1}
+  - {ingredient: sesame-oil, unit: tsp, qty: 0.25}
+- name: Steamed buns
+  items:
+  - {ingredient: water, unit: cup, qty: 1.5}
+  - {ingredient: yeast, unit: tsp, qty: 3}
+  - {ingredient: sugar, unit: tbsp, qty: 3}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 4}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: baking-powder, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+steps:
+- Place all ingredients in food processor.
+- Process until ingredients are blended and chopped fine.
+- Stir yeast and 1 tablespoon of sugar into 1½ cups of warm water (95°F / 35°C.). Let stand for 15 minutes.
+- Mix yeast water, 2 more tablespoons of sugar, flour, cooking oil, baking powder, and salt in mixing bowl.
+- Stir until dough forms. Knead dough for 10 minutes.
+- Allow dough to rise in a warm place for 1½ hours.
+- Punch dough down and divide into 12 pieces.
+- Roll each piece of dough into a ball, then flatten with rolling pin into a 6-inch (15 cm) circle.
+- Place 1 tablespoon of meat filling in center of each flattened piece of dough.
+- Lift the edges of the flattened dough up around the filling and bring edges together. Pinch edges closed to form filled bun.
+- Place buns on parchment paper. Allow to rise in a warm place 1 hour, until doubled in size.
+- Steam buns in a steamer over boiling water for 20 minutes.
+- Remove from steamer. When cool enough to handle, remove parchment paper from bottom.
+- Serve warm.
+tips:
+- Keep leftovers refrigerated. Reheat in microwave for 30–45 seconds.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASteamed_Buns_with_BBQ_Pork&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Steamed Buns with BBQ Pork@4512779
+    url: https://en.wikibooks.org/w/index.php?oldid=4512779
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: lr-liberian-cassava-leaf-soup
+title: Liberian Cassava Leaf Soup
+summary: Liberian cassava leaf soup is a delicious and hearty dish that is widely enjoyed in Liberia. Made with cassava leaves, meat, and an assortment of vegetables, this soup is a flavorful and nutritious meal that is perfect for gatherings and special occasions.
+origin:
+  country: LR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Cutting board
+- Knife
+- Large pot
+- Wooden spoon
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: cassava, unit: g, qty: 907, prep: fresh or frozen}
+  - {ingredient: beef, unit: g, qty: 454, prep: cut into bite-sized pieces}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: [2, 3], prep: minced}
+  - {ingredient: ginger, qty: 1, prep: grated}
+  - {ingredient: red-chili, qty: [2, 3], prep: finely chopped}
+  - {ingredient: red-palm-oil, unit: tbsp, qty: 2}
+  - {ingredient: chicken-stock, unit: cup, qty: [4, 5]}
+  - {ingredient: sweet-potato, qty: 1, prep: peeled and diced}
+  - {ingredient: plantain, qty: 1, prep: peeled and sliced}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- If using fresh cassava leaves, wash them thoroughly and remove any tough stems. If using frozen cassava leaves, thaw them according to the package instructions.
+- In a large pot, heat the palm oil over medium heat.
+- Add the chopped onion, minced garlic, and grated ginger to the pot. Sauté until the onion becomes translucent and fragrant.
+- Stir in the chopped Scotch bonnet peppers and cook for a few minutes to release the flavors.
+- Add the meat to the pot and cook until it is browned on all sides.
+- Pour in the chicken broth or water and bring the mixture to a simmer. Cover the pot and let the meat cook for about 20–25 minutes, or until it is tender.
+- Add the diced sweet potato and sliced plantain to the pot. Let the soup simmer for another 10–15 minutes, or until the vegetables are cooked through.
+- Stir in the cassava leaves and let the soup simmer for an additional 45 minutes to 1 hour, stirring occasionally to prevent sticking.
+- Season the soup with salt and ground black pepper to taste. Adjust the seasoning according to your preference.
+- Remove the pot from the heat and let the soup rest for a few minutes before serving.
+tips:
+- Cassava leaves can be found in African or international grocery stores. If unavailable, you can substitute with spinach or other leafy greens, but the taste will be different.
+- The longer the cassava leaf soup cooks, the more flavorful it becomes. It is traditionally simmered for several hours to develop its rich taste.
+- This soup is often served with rice or fufu, a starchy side dish made from cassava, plantains, or other ingredients.
+- Cassava leaves are a good source of vitamins A and C, as well as calcium and iron.
+- The meat and vegetables in the soup provide protein, vitamins, and minerals.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALiberian_Cassava_Leaf_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Liberian Cassava Leaf Soup@4518432
+    url: https://en.wikibooks.org/w/index.php?oldid=4518432
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

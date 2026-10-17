@@ -1,0 +1,78 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 cup dried beans, soaked in water overnight
+#  - unmapped ingredient: 3 ounces salted pork fat or bacon
+#  - no time in recipe summary
+id: ua-ukrainian-borscht
+title: Ukrainian Borscht
+summary: Ukrainian borshch is a vegetable soup with beetroots as its characteristic ingredient. It is an everyday and ritual dish, known since at least the early Kyiv Rus times. Borshch is very nourishing, especially if you cook it with meat, so it is normally eaten for dinner.
+origin:
+  country: UA
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: pork, unit: g, qty: [907, 1361]}
+  - {ingredient: water, unit: cup, qty: 3}
+  - {ingredient: beetroot, qty: 1, prep: peeled and julienne, note: large}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: peeled and diced}
+  - {ingredient: carrot, qty: 3, prep: peeled and diced}
+  - {ingredient: red-bell-pepper, prep: diced}
+  - {ingredient: tomato, prep: diced}
+  - {ingredient: potato, qty: 2, prep: cut into thick slices}
+  - {ingredient: salt, prep: 'bay leaf, black pepper, red pepper flakes, thyme'}
+  - {ingredient: white-cabbage, qty: 0.5, prep: thinly sliced, note: small}
+  - {ingredient: garlic, unit: clove, qty: 2}
+  - {ingredient: dill, unit: tbsp, qty: 2}
+  - {ingredient: yogurt, unit: cup, qty: 0.5}
+  - {ingredient: tomato-paste, unit: cup, qty: 0.333}
+  - {ingredient: sour-cream}
+steps:
+- Drain the soaked beans and put aside.
+- Place the meat in a large pot, and add 3 cups of cold water.
+- Bring to a boil slowly and remove scum.
+- Add half of the onion and 2 carrots.
+- Reduce to a simmer, partially cover the pot, and cook for about 1 hour.
+- When done, add the beets and beans, and bring to a boil. Lower the heat, cover, and simmer until the beans are tender.
+- In the vegetable oil, sweat half of the onion, carrots, and green pepper over low heat until the onions are yellow.
+- Scrape into the pot, and simmer for a few minutes. Scrape in tomatoes, potatoes, and spices, and simmer until the potatoes are tender.
+- Add the cabbage and simmer until it has the consistency you like.
+- In the meantime, chop the garlic, dill, and pork fat (or bacon) in the food processor, whisking in the yoghurt at the end.
+- When the cabbage is the way you like it, add tomato paste and the garlic-dill-fat mixture.
+- Return the pot to a simmer, then cover the pot, turn the heat off, and let the flavors mingle for at least 30 minutes.
+- When ready to serve, ladle into bowls and top the soup with a dollop of sour cream on top.
+tips:
+- Use clean filtered or natural water.
+- Cook all vegetables over low heat in a covered pot.
+- Beets can be stewed separately with a little amount of beet kvass and vegetable oil before adding the broth. Then add them to all other ingredients 10 minutes before the end of cooking.
+- The best meat for borshch is fat beef with bones.
+- Often dried white mushrooms are added, but you can use any other dried mushrooms.
+- Garlic can also be mashed with a slice of fat bacon and added to the prepared borshch.
+- Do not be afraid of putting too much cabbage into the pot. Beside the beetroot, it is the main ingredient of Borscht and it makes the soup thick, which is characteristic of good Borscht.
+- Use a large pot for your borscht.
+- If you have leftovers, simply eat them the next day. Your soup will even taste better than the day before.
+- If you are short of time, buy tinned beans instead of soaking the dried ones overnight. They do not need to be cooked; just add them when your borshch is ready.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AUkrainian_Borscht&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ukrainian Borscht@4671618
+    url: https://en.wikibooks.org/w/index.php?oldid=4671618
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

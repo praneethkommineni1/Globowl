@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (MX, US): confirm the country of origin
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: mx-guacamole-dip
+title: Guacamole Dip
+summary: Guacamole Dip is a spicy Mexican dip made from avocado and cream. It is the perfect companion for corn chips, totopos, or potato chips. The ingredients and quantities of this recipe are approximate, and they depend on the desired consistency and "picor".
+origin:
+  country: MX
+  also_claimed_by:
+  - US
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: avocado, qty: 1}
+  - {ingredient: heavy-cream, unit: cup, qty: 1, prep: 'sour cream, or yoghurt'}
+  - {ingredient: garlic, unit: clove, qty: 1}
+  - {ingredient: onion, qty: 0.25, prep: cut in large pieces}
+  - {ingredient: cilantro, qty: 4}
+  - {ingredient: red-chili, qty: 1, optional: true}
+  - {ingredient: milk, prep: as needed}
+  - {ingredient: salt, note: to taste}
+steps:
+- Put the garlic, onion pieces, cilantro and serrano pepper into a blender or food processor. Pulse for a few seconds—don't over do it.
+- Halve the avocado and scoop the flesh into the bowl. Add the cream and pulse the blender for a few seconds.
+- Taste the mixture and add salt or more seasonings as desired.
+- Pulse the blender a little bit more. If the mixture is too thick, add a tablespoon of milk and pulse the blender.
+- Serve immediately or store by covering the mixture with plastic wrap.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGuacamole_Dip&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Guacamole Dip@4523400
+    url: https://en.wikibooks.org/w/index.php?oldid=4523400
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 package store-bought pizza dough
+id: it-calzone
+title: Calzone
+summary: Calzone is a popular Italian form of pizza. The word means sock because the resulting pizza looks similar to a sock.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4 or 5
+time:
+  total_min: 45
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: ricotta, unit: cup, qty: 1}
+  - {ingredient: mozzarella, unit: cup, qty: 1}
+  - {ingredient: ham, unit: g, qty: 113, optional: true}
+  - {ingredient: dried-oregano, unit: tsp, qty: 2}
+steps:
+- Preheat oven to 400°F (200°C).
+- Combine ricotta, mozzarella, toppings, and oregano.
+- Roll the pizza dough between 2 pieces of waxed paper.
+- Spoon the cheese mixture into the center of the dough.
+- Moisten edges of dough slightly. Fold the dough over, and seal edges by pressing with a fork.
+- Bake until golden brown, about 10 or 12 minutes.
+- Serve with marinara sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACalzone&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Calzone@4605278
+    url: https://en.wikibooks.org/w/index.php?oldid=4605278
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

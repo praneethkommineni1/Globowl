@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 60 g toasted hazelnuts
+#  - unmapped ingredient: 2 cured anchovies, salt removed
+#  - unmapped ingredient: 4 pieces scalded nyores
+#  - unmapped ingredient: 2 pieces curly endives
+#  - unmapped ingredient: 100 g salty tuna, salt removed
+#  - unmapped ingredient: 100 g salty ripped cod, salt removed
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: es-xato
+title: Xató
+alternate_names:
+- Catalan Endives and Fish
+summary: Xató is a typical Catalan dish.
+origin:
+  country: ES
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- name: Sauce
+  items:
+  - {ingredient: almonds, unit: g, qty: 100}
+  - {ingredient: garlic, unit: clove, qty: 2}
+  - {ingredient: red-chili, qty: 0.5, optional: true}
+  - {ingredient: white-bread, unit: slice, qty: [2, 3]}
+  - {ingredient: white-vinegar}
+  - {ingredient: olive-oil}
+  - {ingredient: salt}
+- name: Dish
+  items:
+  - {ingredient: anchovies, qty: 12, prep: salt removed}
+  - {ingredient: olives, unit: g, qty: 100}
+steps:
+- In a mortar, crush the almonds, hazelnuts, anchovies, garlic cloves, nyores pulp, chili, salt, bread (you can soak them in vinegar or add the vinegar separately), vinegar, and salt.
+- Mix in the olive oil.
+- Wash and soak the curly endives in water.
+- Take the salt off the anchovies, the salty tuna, and the cod—rip the last two out—and mix them with the curly endive in a bowl.
+- Add the olives.
+- Add the sauce.
+- Mix it up well, so all the ingredients are coated with sauce. Serve, trying to build up some sort of curly endive castle shape.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AXat%C3%B3_%28Catalan_Endives_and_Fish%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Xató (Catalan Endives and Fish)@4518192
+    url: https://en.wikibooks.org/w/index.php?oldid=4518192
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

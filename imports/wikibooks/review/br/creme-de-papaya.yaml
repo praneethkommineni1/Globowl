@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 ripe papaya
+#  - unmapped ingredient: 1 scoop vanilla ice cream
+#  - unmapped ingredient: 1 tbsp blackcurrant liqueur
+#  - no time in recipe summary
+id: br-creme-de-papaya
+title: Creme de Papaya
+summary: This is a delicious, refreshing, and simple Brazilian dessert. It does have some alcohol, but a non-alcoholic blackcurrant syrup could be substituted.
+origin:
+  country: BR
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: mint, unit: sprig, qty: 1, optional: true}
+steps:
+- Peel papaya and remove seeds. Cube the papaya.
+- Put papaya pieces in blender with ice cream and blackcurrant liqueur. Blend well until smooth.
+- Pour into a small bowl and decorate with mint.
+- Peel papaya and remove seeds. Cube the papaya.
+- Put papaya pieces in blender with ice cream and blend until creamy consistency.
+- Pour some blackcurrant liqueur on the bottom of a large dessert glass.
+- Add the cream mixture. Add a swirl of blackcurrant liqueur on the top.
+- Cut papaya in half and remove seeds. Scoop papaya from peel with a spoon (this is easier and cleaner than peeling the fruit).
+- Place approximately equal portions of papaya and vanilla ice cream in a blender. Blend until creamy.
+- Place the mixture into a serving dish and pour about an ounce of Crème de Cassis on top.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACreme_de_Papaya&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Creme de Papaya@4587300
+    url: https://en.wikibooks.org/w/index.php?oldid=4587300
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

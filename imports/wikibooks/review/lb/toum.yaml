@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: lb-toum
+title: Toum
+alternate_names:
+- Lebanese Garlic Sauce
+summary: Toum or thoum is a garlic sauce used in Lebanon. The method below is the traditional way toum is prepared in most parts of Lebanon.
+origin:
+  country: LB
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1 cup
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: garlic, unit: g, qty: [10, 40], prep: peeled garlic}
+  - {ingredient: olive-oil, unit: cup, qty: 0.75}
+  - {ingredient: lemon, qty: 1, prep: juiced and strained}
+  - {ingredient: salt, unit: tsp, qty: [0.25, 0.5]}
+steps:
+- Use a pestle (traditionally wooden) to smash the garlic with salt until very smooth; you can add the salt at the beginning or after the garlic is well smashed.
+- Gradually mix in the oil—start by adding one drop at a time and stirring the oil into the garlic with the pestle. After you've added about 1 tbsp of oil and it's been well incorporated, you can drizzle the oil in rather than adding it drop by drop. After half of the oil is added, alternate a bit of lemon juice with a bit of oil. Don't stop for long while mixing; it's necessary to keep stirring, stopping only for very brief periods. When finished the toum will have a similar consistency to thick mayonnaise.
+tips:
+- You can also crush the garlic and salt to a very smooth paste and then use a blender or food processor to incorporate the oil and lemon juice.
+- The pH of some olive oils can promote breaking of the emulsion.
+- In Lebanon the pestle used is usually wooden; some new one are made of synthetic materials; occasionally you'll see one carved of stone. Carved stone pestles are usually used for kebbeh nayyeh.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AToum_%28Lebanese_Garlic_Sauce%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Toum (Lebanese Garlic Sauce)@4519034
+    url: https://en.wikibooks.org/w/index.php?oldid=4519034
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

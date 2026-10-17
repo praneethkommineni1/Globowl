@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-polenta
+title: Polenta
+summary: Polenta is a dish of cooked cornmeal. It is delicious topped with your favorite tomato sauce or with an assortment of grilled vegetables. Chilled, firm polenta may be served cut into triangles alongside chili or other hearty stews.
+origin:
+  country: IT
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: cornmeal, unit: cup, qty: 1}
+  - {ingredient: water, unit: cup, qty: 4}
+  - {ingredient: salt, note: to taste}
+steps:
+- In a heavy saucepan, bring the water to a boil. Add the salt.
+- Stirring constantly with a stainless steel whisk, pour the cornmeal into the water in a steady stream.
+- Reduce heat to a slow simmer and keep stirring with the whisk until it starts to boil.
+- Cover and continue to cook, stirring every 2–3 minutes with a wooden spoon, always in the same clockwise direction. The time necessary for the porridge to be correctly cooked and thus well-digestible is 45 minutes. If the porridge gets too thick, add some hot water or skimmed milk to obtain a more creamy porridge. Check frequently to see if more salt is needed.
+- For eating polenta hot from the pan, put a tablespoon of water in a deep ceramic dish and scrape the polenta into it. Serve it with a big wooden spoon.
+- Boil the water on the stove, then pour it into a large microwave-safe bowl with the salt.
+- Stirring constantly, pour the cornmeal into the water in a steady stream.
+- Cook the polenta in a microwave oven on medium power for 2&ndash;5 minutes, or longer for a larger serving. Remove from the microwave and stir vigorously. It will not cook evenly, and this stirring helps prevent lumps.
+- Repeat this process until the polenta is thick, then proceed as above.
+- Boil the water, toss in the salt and cornmeal, and microwave on medium power for 5&ndash;8 minutes (depending on quantity).
+- Remove from microwave and stir like crazy to smash all of the lumps.
+- Repeat if you need to thicken it some more, stir, and blend with the few remaining lumps.
+tips:
+- 'Just before you take the polenta off the heat (i.e. when it''s almost done), stir in any of the following:'
+- 2 tablespoons olive oil or butter and ½ cup grated cheese
+- 2 tablespoons olive oil, 2–3 cloves of minced garlic, and ¼ cup chopped sun dried tomatoes (drained if in oil)
+- ½ cup canned sweet corn kernels and ¼ cup sliced green Spanish olives
+- 1 minced seeded jalapeño chili and ½ cup grated cheddar cheese
+- 2 tablespoons butter and ½ cup crumbled gorgonzola cheese, topped with caramelized onions
+- To eat the polenta roasted, scrape the polenta into a non-stick pan or ceramic dish (or some container that will release it when it cools), and cool completely until firm and loaf-like. Cut it into slices, heat it in the oven or grill it, and serve with whatever topping you desire.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APolenta&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Polenta@4517869
+    url: https://en.wikibooks.org/w/index.php?oldid=4517869
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 cups pumpkin leaves, spinach, or kale, chopped
+#  - course unknown from categories
+id: xx-mukimo
+title: Mukimo
+summary: __NOtOC__ Mukimo is a traditional Kenyan dish made by mashing boiled potatoes with green vegetables and legumes such as peas, maize, or beans. It is especially associated with the Kikuyu people of central Kenya and is commonly served as an accompaniment to stews and grilled meat.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 60
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: kg, qty: 1, prep: peeled and chopped}
+  - {ingredient: corn-kernels, unit: cup, qty: 2}
+  - {ingredient: green-peas, unit: cup, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: water, prep: as needed}
+steps:
+- Place the potatoes, maize, and peas in a large pot and cover with water.
+- Bring to a boil and cook until the potatoes are tender.
+- Add the chopped vegetables and continue cooking for 5–10 minutes.
+- Drain excess water if necessary.
+- Mash all the ingredients together until well combined.
+- Season with salt to taste.
+- Serve hot with beef stew, chicken stew, or grilled meat.
+tips:
+- Mukimo is a staple dish in Kenya, particularly in the central highlands.
+- Different regions use different leafy greens depending on local availability.
+- Some versions include beans instead of peas.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMukimo&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mukimo@4638941
+    url: https://en.wikibooks.org/w/index.php?oldid=4638941
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

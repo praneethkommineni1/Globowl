@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Black pepper to taste
+#  - unmapped ingredient: Olives or dried fruits
+#  - no procedure steps
+#  - course unknown from categories
+id: xx-tagine
+title: Tagine
+summary: Tagine is a traditional North African dish from Morocco, Algeria, and Tunisia. It is a slow-cooked stew made with meat, vegetables, and spices, and it is named after the special clay pot used for cooking it.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3-4 servings
+time:
+  total_min: 60
+difficulty: 3
+equipment:
+- Tagine pot (traditional clay cooking vessel) or heavy-bottomed cooking pot
+- Knife
+- Chopping board
+- Mixing bowl
+- Measuring cups and spoons
+- Wooden spoon or spatula
+- Small bowl for spices
+- Stove or heat source
+- Serving dish
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: g, qty: 500, prep: 'lamb, or beef'}
+  - {ingredient: onion, qty: 2, prep: chopped}
+  - {ingredient: garlic, unit: clove, qty: [2, 3], prep: minced}
+  - {ingredient: tomato, qty: 2, prep: chopped or blended}
+  - {ingredient: carrot, qty: 2, prep: chopped}
+  - {ingredient: potato, qty: 2, prep: chopped, optional: true}
+  - {ingredient: olive-oil, unit: tbsp, qty: [2, 3]}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1, optional: true}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: water, unit: cup, qty: 1}
+steps:
+- (missing)
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATagine&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tagine@4639165
+    url: https://en.wikibooks.org/w/index.php?oldid=4639165
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 celery root
+#  - unmapped ingredient: 1 parsnip root
+id: pl-zupa-ogorkowa
+title: Zupa Ogórkowa
+alternate_names:
+- Polish Cucumber Soup
+summary: Zupa ogórkowa is a traditional Polish soup made out of sour, salted cucumbers.
+origin:
+  country: PL
+course: soup
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- boiling
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 4}
+  - {ingredient: leek, qty: 1, note: small}
+  - {ingredient: carrot, qty: 2}
+  - {ingredient: potato, qty: 3, note: medium}
+  - {ingredient: cucumber, qty: 3, note: big}
+  - {ingredient: butter, unit: tbsp, qty: 1}
+  - {ingredient: all-purpose-flour, unit: tsp, qty: 1}
+  - {ingredient: bay-leaf, qty: 2}
+  - {ingredient: allspice-berries, qty: 3}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: heavy-cream, unit: tbsp, qty: [1, 2]}
+steps:
+- Put the chicken wings, salt, pepper, bay leaves and pimentos into a saucepan or stock pot with 1.5 L (1½ quarts) cold water. After bringing it to a boil, let it simmer for 25 minutes on low heat.
+- Add the peeled carrots, celery root, parsnip root, and leek, and boil it for 10 more minutes. During that time peel the potatoes and dice them into 6 mm x 6 mm/quarter inch cubes (0.25 x 0.25 inches).
+- Take out the leek, and add the potatoes to the pot. Boil them for 10–12 minutes and make sure the potatoes are cooked through.
+- Grate the sour-salted (pickled) cucumbers and put them into a sauté pan with the melted butter. Sauté for 2 minutes, and add the flour and constantly stir it over low heat.
+- Add ½–⅓ cups (120-80 ml) of water to the sauté pan and continue stirring.
+- When the potatoes are cooked, add the prepared sour cucumber preparation to the stock pot and mix them well. Boil for 3–5 minutes and season the soup to taste. If you like, mix some soup with cream or sour cream in a small cup and add it to the pan, or a smaller amount to each individual serving.
+- Bon appétit! Smacznego!
+tips:
+- It is very important to add the potatoes first, and then the sour cucumbers. If you add them in reverse order, the potatoes will not be cooked through.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AZupa_Og%C3%B3rkowa_%28Polish_Cucumber_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Zupa Ogórkowa (Polish Cucumber Soup)@4631505
+    url: https://en.wikibooks.org/w/index.php?oldid=4631505
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

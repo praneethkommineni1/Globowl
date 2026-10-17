@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 200 ml dried adzuki beans
+#  - unmapped ingredient: Water as needed for soaking and boiling
+#  - course unknown from categories
+id: cn-red-bean-paste
+title: Red Bean Paste
+summary: 'Red bean paste (in simplified Chinese: 红豆沙, in traditional Chinese: 紅豆沙, Pinyin: hóngdòushā, meaning "red bean sand", due to its texture) is a sweet paste used for many things in Chinese, Japanese and Korean cuisine.'
+origin:
+  country: CN
+course: main
+authenticity: unassessed
+yield:
+  servings: 500
+  amount: 500&nbsp;ml
+time:
+  total_min: 345
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: sugar, unit: ml, qty: 150}
+  - {ingredient: vegetable-oil, unit: ml, qty: 75}
+steps:
+- Wash the beans, checking for and removing any that are damaged or diseased. Soak the beans in cold water for at least 4 hours or, preferably, overnight. This softens the beans slightly and reduces the cooking time greatly.
+- Drain the beans and rinse once soaked.
+- Place into a small saucepan and cover with water. Bring to the boil.
+- Simmer the beans for 1½–2 hours, until soft and disintegrating slightly. Longer boiling will result in a smoother paste. Remember to top up the water occasionally so the beans don't boil dry and burn.
+- Drain away the water.
+- Depending on the desired texture, mash the beans by hand (coarse) or in a blender (fine) until they are as you want. Note that the paste is very thick, so if using a blender, it is easier to do it a bit at a time.
+- Stir in the sugar. You should now have a thick but damp paste.
+- Preheat the oil in a frying pan or wok, and fry the bean paste, using a spatula or spoon to stir, until the water has been driven off. The bean paste will now be quite dry, with a slightly grainy texture.
+- Cool, and store in an airtight container until needed. This paste will keep for at least a week in the fridge.
+tips:
+- 75 ml sounds like a lot of oil, but it is required to drive out the water properly.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARed_Bean_Paste&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Red Bean Paste@4541039
+    url: https://en.wikibooks.org/w/index.php?oldid=4541039
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

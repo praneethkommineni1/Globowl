@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 kg vellam
+#  - unmapped ingredient: 1/2 kg maida mavu
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: in-deep-fried-chickpea-dough-balls
+title: Deep Fried Chickpea Dough Balls
+alternate_names:
+- Chyueeam
+summary: Cheyeeam are deep-fried balls of ground chickpeas.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 500
+difficulty: 3
+techniques:
+- boiling
+- deep-frying
+- pressure-cooking
+ingredient_groups:
+- items:
+  - {ingredient: chickpeas-canned, unit: kg, qty: 0.5}
+  - {ingredient: ground-cardamom, qty: 10}
+  - {ingredient: water}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: vegetable-oil, unit: l, qty: 1}
+steps:
+- Soak kadalai paruppu in clean water for at least 8 hours. They will double in size, so allow extra water for them to soak up.
+- Boil kadalai paruppu. This should take about 40 minutes in a regular pot on the stove, or about 9 minutes in a pressure cooker (plus 10 minutes to depressurise).
+- Grind boiled kadalai paruppu with the jaggery and elachi, without adding any water, to make a dough.
+- Make small balls with the dough.
+- Make a thin batter with the maida and water. Add salt as needed.
+- Dip the dough balls in the batter.
+- Pour the oil in a pan. Heat until a small piece of dough floats and bubbles when added.
+- Add a few battered dough balls. Deep fry individually until golden.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADeep_Fried_Chickpea_Dough_Balls_%28Chyueeam%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Deep Fried Chickpea Dough Balls (Chyueeam)@4515538
+    url: https://en.wikibooks.org/w/index.php?oldid=4515538
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

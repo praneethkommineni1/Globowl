@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Fresh pepper
+id: ng-owo-soup
+title: Owo Soup
+summary: Owo soup, also known as oghwo ofigbo or ogwofibo, is a traditional soup native to southern Nigeria.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2-3
+time:
+  total_min: 35
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: tomato}
+  - {ingredient: goat, unit: g, qty: 500, prep: 'bushmeat, or assorted meat, washed'}
+  - {ingredient: onion, qty: 1, prep: chopped, note: small}
+  - {ingredient: bouillon-cube}
+  - {ingredient: salt}
+  - {ingredient: stockfish, unit: handful, qty: 1, prep: washed with hot water}
+  - {ingredient: ground-crayfish}
+  - {ingredient: potash, unit: tsp, qty: 0.5, prep: ground to a powder}
+  - {ingredient: red-palm-oil}
+steps:
+- Blend the tomatoes and pepper to a paste.
+- Combine the meat, onions, seasoning cube, and salt in a pot. Cook for about 3 minutes in its own juices.
+- Cover meat with water, and simmer until tender.
+- Add the dried fish, tomato-pepper paste, and ground crayfish to the meat. Add about a cup of water and stir. Let simmer for 10 minutes, stirring to prevent burning.
+- Dissolve the potash powder in 4 tablespoons of hot water. Strain the mixture carefully, and mix the liquid into the soup.
+- Turn off the heat, and allow the soup to cool for about 10 minutes.
+- Return to the heat, and gradually stir in the palm oil.
+- Remove from the heat, and serve with plantains, yam, or any swallow of choice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AOwo_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Owo Soup@4518476
+    url: https://en.wikibooks.org/w/index.php?oldid=4518476
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

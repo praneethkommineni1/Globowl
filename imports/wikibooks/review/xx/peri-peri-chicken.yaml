@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-peri-peri-chicken
+title: Peri-Peri Chicken
+summary: Peri-peri chicken is a mouth-watering and spicy African chicken dish. It is very easy to prepare and can be made using an oven or grill. It goes well with fried plantains, mashed potatoes, and salad.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: red-bell-pepper, qty: 2, note: small}
+  - {ingredient: red-chili, qty: 5, note: small}
+  - {ingredient: garlic, qty: 5}
+  - {ingredient: onion, qty: 1}
+  - {ingredient: thyme, unit: tbsp, qty: 2}
+  - {ingredient: black-pepper, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 3}
+  - {ingredient: paprika, unit: tbsp, qty: 3}
+  - {ingredient: white-vinegar, unit: cup, qty: 0.5}
+  - {ingredient: lemon, qty: 1, prep: juiced}
+  - {ingredient: olive-oil, unit: cup, qty: 0.75}
+  - {ingredient: bouillon-cube, qty: 2, prep: crushed}
+  - {ingredient: chicken, unit: g, qty: 1134}
+steps:
+- Blend together the red bell pepper, bird's eye chillies, garlic cloves, onion, thyme, black pepper, salt or to your taste, paprika, vinegar, lemon juice, olive oil, and bouillon cubes to make a marinade.
+- Pour the marinade over the chicken in a large bowl. Use your hands to massage the marinade into the chicken, then cover the bowl and leave it in the fridge for at least 1 hour and up to overnight. The longer it marinates, the better the flavor.
+- Arrange the chicken in a baking pan, and pour the marinade over it.
+- Bake in a preheated 350 °F oven for 30 minutes, basting the chicken periodically. Flip the chicken over and bake for another 30 minutes.
+- Turn on the broiler of your oven, and broil the chicken for about 3–5 minutes to char it.
+- Serve hot.
+tips:
+- You can wear disposable gloves when mixing the marinade with the chicken, especially it your hands are very sensitive to hot pepper.
+- If desired, you can use a grill to cook the chicken.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APeri-Peri_Chicken&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Peri-Peri Chicken@4513999
+    url: https://en.wikibooks.org/w/index.php?oldid=4513999
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

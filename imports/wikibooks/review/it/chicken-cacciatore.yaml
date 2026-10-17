@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 tsp liquid gravy browner
+#  - no time in recipe summary
+id: it-chicken-cacciatore
+title: Chicken Cacciatore
+summary: Chicken cacciatore is a classic Italian chicken dish. It is reddish, and the tomato adds a distinct flavor.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: onion, unit: cup, qty: 1.5}
+  - {ingredient: chicken, unit: g, qty: 1361}
+  - {ingredient: tomato, unit: g, qty: 397}
+  - {ingredient: tomato-paste, unit: g, qty: 156}
+  - {ingredient: mushroom, unit: g, qty: 284, prep: drained}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: garlic-powder, unit: tsp, qty: 0.25}
+  - {ingredient: dried-oregano, unit: tsp, qty: 1}
+  - {ingredient: basil, unit: tsp, qty: 0.5}
+  - {ingredient: dry-white-wine, unit: cup, qty: 0.25, prep: 'chicken broth, or alcohol-free white wine'}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+steps:
+- Place onion and chicken in 3 ½ quart (3.5 L) slow cooker.
+- Combine remaining ingredients in a bowl. Stir.
+- Pour over chicken and cover the chicken.
+- Cook on low for 6–8 hours or on high for 3–4 hours.
+- Discard bay leaf and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Cacciatore&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chicken Cacciatore@4540895
+    url: https://en.wikibooks.org/w/index.php?oldid=4540895
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

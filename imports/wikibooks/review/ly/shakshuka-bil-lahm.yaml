@@ -1,0 +1,74 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ly-shakshuka-bil-lahm
+title: Shakshuka bil Lahm
+alternate_names:
+- Libyan Meat Shakshuka
+summary: Shakshuka bil Lahm, also known as Libyan Meat Shakshuka, is a delicious and hearty dish that is popular in Libyan cuisine. This dish features a flavorful tomato-based sauce with tender chunks of meat, traditionally beef or lamb, and poached eggs.
+origin:
+  country: LY
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large skillet with a lid
+- Wooden spoon or spatula
+- Knife
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: beef, unit: g, qty: 500, prep: cut into small cubes}
+  - {ingredient: red-bell-pepper, qty: 2, prep: diced}
+  - {ingredient: tomato, qty: 4, prep: diced}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: egg, qty: [4, 6]}
+  - {ingredient: parsley, prep: chopped}
+steps:
+- Heat the olive oil in a large skillet or frying pan over medium heat.
+- Add the chopped onion and minced garlic. Sauté until the onion becomes translucent and fragrant.
+- Add the cubed meat to the skillet and cook until browned on all sides.
+- Add the diced bell peppers and tomatoes to the skillet. Stir well to combine.
+- Sprinkle the cumin, paprika, cayenne pepper (if using), salt, and pepper over the ingredients in the skillet. Stir to evenly distribute the spices.
+- Reduce the heat to low, cover the skillet with a lid, and let the mixture simmer for about 15–20 minutes, or until the meat is tender and the flavors have melded together.
+- Using a spoon, create small wells in the sauce and carefully crack the eggs into each well.
+- Cover the skillet again and let the shakshuka cook for an additional 5–7 minutes, or until the eggs are cooked to your desired level of doneness.
+- Garnish with freshly chopped parsley or cilantro.
+tips:
+- Adjust the spice level by adding more or less cayenne pepper according to your preference.
+- Serve directly from the skillet or transfer to individual serving plates.
+- This dish is traditionally enjoyed with crusty bread or pita for dipping.
+- Ensure that the meat is well-browned before adding the vegetables. This step adds depth of flavor to the dish.
+- For a vegetarian version, you can omit the meat and increase the quantity of bell peppers or add other vegetables like mushrooms or zucchini.
+- Add a sprinkle of crumbled feta cheese or goat cheese on top of the shakshuka before serving.
+- If you prefer a spicier shakshuka, you can add a few dashes of hot sauce or chili flakes to the sauce.
+- Experiment with different herbs and spices such as oregano or smoked paprika to enhance the flavor profile.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AShakshuka_bil_Lahm_%28Libyan_Meat_Shakshuka%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Shakshuka bil Lahm (Libyan Meat Shakshuka)@4518681
+    url: https://en.wikibooks.org/w/index.php?oldid=4518681
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - duplicate id xx-maffe-west-african-peanut-stew from another Wikibooks page
+id: xx-maffe-west-african-peanut-stew
+title: Maffé (West African Peanut Stew)
+summary: Maafe is a stew made from groundnuts. It originated from the Madinkwa and Bambara people of Mali.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–5 servings
+time:
+  total_min: 55
+difficulty: 2
+equipment:
+- Blender
+- Pots
+- Bowl
+- Frying pan
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 907}
+  - {ingredient: peanut-butter, unit: cup, qty: 0.5}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1}
+  - {ingredient: garlic, optional: true}
+steps:
+- Boil meat in a pot with salt and onion.
+- Fry the meat in a pan of oil.
+- Blend together the tomato, pepper, and garlic until smooth.
+- Pour the blended mixture into a pot and add the peanut paste. Stir until thick.
+tips:
+- Maafe is usually eaten with white rice, tuwo, fonio, fufu and sweet potatoes
+- It is usually made with vegetables in Ivory Coast, and the stew is cooked with boiled egg in Ghana.
+- When using beef to make maafe, use chuck, short ribs, or oxtail.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMaff%C3%A9_%28West_African_Peanut_Stew%29_III&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Maffé (West African Peanut Stew) III@4518792
+    url: https://en.wikibooks.org/w/index.php?oldid=4518792
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

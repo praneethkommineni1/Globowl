@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 45 ml juniper berries
+#  - unmapped ingredient: 300 ml gin
+#  - no time in recipe summary
+id: se-gravlax
+title: Gravlax
+summary: Gravlax is salmon that is cured in salt and sugar. It is a common dish throughout Scandinavia. Gravlax is easy to make and makes a festive dish that is an excellent to serve at parties with many people.
+origin:
+  country: SE
+course: starter
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: salmon, unit: g, qty: 800, prep: approximately 2–5 cm thick}
+  - {ingredient: salt, unit: ml, qty: 30}
+  - {ingredient: sugar, unit: ml, qty: 30}
+  - {ingredient: black-pepper, unit: ml, qty: 5}
+  - {ingredient: dill, unit: g, qty: [20, 40]}
+steps:
+- Cut the salmon filet into two equally-sized parts (if you are making gravlax for many people it is fine to use two filets instead). Freeze the salmon for at least 4 days at -18°C or colder to kill any parasites.
+- After deep freezing the salmon remove it from the freezer and let it thaw, preferably overnight in the refrigerator. The salmon does not have to be completely thawed for the next steps.
+- Combine the salt and sugar. Place the salmon, skin down, on a table. Rub the salt and sugar mix onto the pieces, then apply the juniper berries and pepper. Finally, cover with dill.
+- Put one salmon piece on top of another, flesh side to flesh side so the skin it outside on both pieces, and place in a plastic bag. Add any leftover ingredients to the bag along with the gin.
+- Seal the bag and place it in the refrigerator. Let the salmon cure in the mixture, turning the bag over once, preferably twice, a day for 4 days.
+- After 4 days, the salmon is ready to serve. If you are not going to eat it immediately (it lasts a couple of days) move it to a fresh plastic bag or jar, removing the salty liquid that has formed in the original bag. If you keep it in the original bag the risk is that it may be too salty once you are about to serve it.
+- Use a sharp knife to slice thin slices from the salmon at an angle. During slicing, also remove any remaining bones. The larger the piece of salmon the larger the angle and the larger surface area for the produced slices. Large slices look better when served.
+- As a main dish, serve with potato stew, boiled potatoes and gravlax sauce, or in a salad. As an appetizer, serve on crispbread or toast. Potato stew with some additional Dijon mustard is excellent addition to gravlax.
+tips:
+- Use the thick part of the salmon filet found towards the head. Don't use the part closest to the tail, since it is not thick enough.
+- The gin can be substituted by lemon or lime juice (like a ceviche).
+- The time can be greatly shortened by slicing the salmon thinly before curing it. It can be ready with as little as 4 hours of curing time. However, using this method means it should also be eaten sooner.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGravlax&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gravlax@4508844
+    url: https://en.wikibooks.org/w/index.php?oldid=4508844
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - course unknown from categories
+id: ng-faten-wake
+title: Faten Wake
+alternate_names:
+- Hausa Bean Porridge
+summary: Faten wake is a traditional Hausa bean porridge from Northern Nigeria. This hearty and nutritious dish is made with soft-cooked beans, vegetables, and spices, and it is typically served as a main meal for lunch or dinner.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3–4
+time:
+  total_min: 75
+difficulty: 3
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: black-eyed-peas, unit: cup, qty: 2}
+  - {ingredient: water}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: tomato, qty: [2, 3], prep: chopped}
+  - {ingredient: scotch-bonnet, qty: [1, 2]}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: [1, 2]}
+  - {ingredient: spinach, qty: 1, prep: 'such as spinach, sorrel, ugu, amaranth, or bitterleaf, chopped', optional: true, note: small}
+  - {ingredient: bouillon-cube, qty: [1, 2], optional: true}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: ground-crayfish, optional: true}
+steps:
+- Rinse the beans thoroughly, removing any dirt or stones.
+- Place the beans in a pot, cover with enough water, and simmer over medium heat until soft and the water is almost absorbed (about 40–60 minutes).
+- Add chopped onions, tomatoes, chile, and oil to the cooked beans. Stir and allow to simmer for 10–15 minutes, until the mixture thickens and the flavors combine.
+- Stir in chopped leafy vegetables, ground crayfish, seasoning cubes, and salt. Continue cooking for another 5–10 minutes, stirring occasionally until the porridge thickens and is well blended.
+- Serve hot.
+tips:
+- If using brown beans, you may need a slightly longer cooking time than for black-eyed peas.
+- Palm oil gives a more traditional taste, while groundnut oil offers a lighter flavor.
+- Adding crayfish enhances the savory taste, especially if no meat is used.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFaten_Wake_%28Hausa_Bean_Porridge%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Faten Wake (Hausa Bean Porridge)@4524793
+    url: https://en.wikibooks.org/w/index.php?oldid=4524793
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

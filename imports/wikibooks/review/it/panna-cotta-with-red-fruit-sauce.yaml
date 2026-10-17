@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 15 g gelatin
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-panna-cotta-with-red-fruit-sauce
+title: Panna Cotta with Red Fruit Sauce
+summary: Panna cotta is an Italian dessert, the name of which means cooked cream. It consists of cream and/or milk, sweetened and then set with gelatin. Similar dishes are also found in France and Greece.
+origin:
+  country: IT
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- name: Panna cotta
+  items:
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: heavy-cream, unit: cup, qty: 2}
+  - {ingredient: sugar, unit: g, qty: 200}
+  - {ingredient: milk, unit: cup, qty: 2}
+- name: Red fruit sauce
+  items:
+  - {ingredient: strawberries, unit: g, qty: 100}
+  - {ingredient: sugar, unit: g, qty: 100}
+steps:
+- Stir the gelatin into the water, and let bloom for about 5 minutes.
+- In a pot, place the milk, cream, sugar, and soaked gelatin. Heat the pot to a gentle boil (stirring regularly to prevent scorching) and remove from heat.
+- Pour the mixture into molds suited to a small portion for dessert, and let cool for 2–3 hours in the refrigerator.
+- While waiting, liquidize the berries, combining with the sugar to make the fruit sauce.
+- When ready to serve, unmold the dessert onto a plate, and decorate with red fruit sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APanna_Cotta_with_Red_Fruit_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Panna Cotta with Red Fruit Sauce@4587321
+    url: https://en.wikibooks.org/w/index.php?oldid=4587321
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

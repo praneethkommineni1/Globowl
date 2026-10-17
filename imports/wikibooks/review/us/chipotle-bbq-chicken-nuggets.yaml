@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 3 tbsp Chipotle BBQ Rub
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-chipotle-bbq-chicken-nuggets
+title: Chipotle BBQ Chicken Nuggets
+summary: Chipotle BBQ Chicken Nuggets.
+origin:
+  country: US
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 4, prep: cut into 1 1/2 in pieces}
+  - {ingredient: cornmeal}
+  - {ingredient: lemon}
+  - {ingredient: vegetable-oil}
+  - {ingredient: black-pepper}
+steps:
+- Place cornmeal in a pie pan and lemon juice in another pie pan.
+- Dip chicken pieces in lemon juice then season with BBQ rub. Dip again in lemon juice.
+- Dredge pieces, three at a time, in the cornmeal, then dip in lemon juice again then dredge again in cornmeal.
+- Heat oil to 350°F and fry pieces in batches for 6 minutes. Drain on a cooling rack but not paper towels.
+- Sprinkle with black pepper and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChipotle_BBQ_Chicken_Nuggets&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chipotle BBQ Chicken Nuggets@4513101
+    url: https://en.wikibooks.org/w/index.php?oldid=4513101
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

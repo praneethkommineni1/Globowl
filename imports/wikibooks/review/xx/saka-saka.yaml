@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 tablespoon dried shrimp
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-saka-saka
+title: Saka-Saka
+alternate_names:
+- Cassava Leaf Stew
+summary: Saka-saka is a popular West African dish that features tender cassava leaves cooked with a flavorful blend of spices and ingredients. This nutritious stew is commonly enjoyed in countries such as Nigeria, Ghana, Cameroon, and Congo.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large pot or Dutch oven
+- Wooden spoon or spatula for stirring
+- Cutting board
+- Knife
+- Blender or food processor
+- Bowl for washing cassava leaves
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: cassava, unit: g, qty: 907}
+  - {ingredient: red-palm-oil, unit: tbsp, qty: [2, 3]}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: [4, 5], prep: minced}
+  - {ingredient: chicken, unit: g, qty: 454, prep: cut into bite-sized pieces}
+  - {ingredient: tomato, qty: [1, 2], prep: diced}
+  - {ingredient: red-chili, qty: [1, 2]}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 1}
+  - {ingredient: stockfish, qty: 1, prep: deboned and flaked}
+  - {ingredient: chicken-stock, unit: cup, qty: [1, 2]}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Wash the cassava leaves thoroughly in a bowl of water to remove any dirt or debris. Drain and set aside.
+- Using a blender or food processor, blend the cassava leaves until they are finely chopped. Set aside.
+- Heat the palm oil in a large pot or Dutch oven over medium heat. Add the chopped onions and minced garlic to the pot, and sauté until they become translucent and fragrant.
+- Add the meat to the pot and cook until it is browned on all sides.
+- Add the diced tomatoes, Scotch bonnet peppers, ground crayfish, and dried shrimp to the pot. Stir well to combine, then allow the mixture to cook for a few minutes until the tomatoes start to soften.
+- Add the blended cassava leaves to the pot, along with the flaked smoked fish. Stir everything together to ensure the leaves are well coated with the flavors.
+- Pour in enough chicken or vegetable broth to cover the mixture. If you prefer a thicker stew, add less broth.
+- Reduce the heat to low, cover the pot, and let the stew simmer for about 1–2 hours. Stir occasionally to prevent sticking and to ensure even cooking.
+- After the stew has simmered and the flavors have melded together, taste and adjust the seasoning with salt and pepper as desired.
+- Serve hot with a side of cooked rice, fufu, or plantains. Enjoy!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASaka-Saka_%28Cassava_Leaf_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Saka-Saka (Cassava Leaf Stew)@4518677
+    url: https://en.wikibooks.org/w/index.php?oldid=4518677
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

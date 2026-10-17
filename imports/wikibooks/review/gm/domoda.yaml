@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - duplicate of hand-written recipe gm-domoda
+id: gm-domoda
+title: Domoda
+alternate_names:
+- Gambian Peanut Stew
+summary: Domoda is a popular Gambian and Senegalese dish known for its rich and creamy peanut stew. It is often prepared with meat such as beef, lamb, or chicken, combined with an assortment of vegetables.
+origin:
+  country: GM
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: beef, unit: g, qty: 500, prep: cut into bite-sized pieces}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: peanut-butter, unit: cup, qty: 1, prep: unsweetened peanut butter}
+  - {ingredient: chicken-stock, unit: cup, qty: 4}
+  - {ingredient: carrot, qty: 2, prep: peeled and sliced}
+  - {ingredient: potato, qty: 2, prep: peeled and cubed}
+  - {ingredient: white-cabbage, qty: 1, prep: chopped, note: small}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Heat the vegetable oil in a large pot or saucepan over medium heat. Add the chopped onions and minced garlic. Sauté until they become translucent and fragrant.
+- Add the meat to the pot and cook until it browns on all sides. Stir occasionally to ensure even browning.
+- Stir in the tomato paste, ground cayenne pepper, and paprika. Cook for an additional minute to allow the flavors to meld.
+- Add the peanut butter to the pot and mix well with the other ingredients. Gradually pour in the water or broth while stirring continuously to create a smooth and consistent stew base.
+- Reduce the heat to low and cover the pot. Allow the stew to simmer for about 30 minutes, or until the meat is tender. Stir occasionally and add more water or broth if needed to maintain the desired consistency.
+- Add the sliced carrots, cubed potatoes, and chopped cabbage to the pot. Continue to simmer the stew for an additional 15–20 minutes, or until the vegetables are cooked to your liking.
+- Taste the stew and season with salt and pepper according to your preference.
+- Serve the domoda hot with steamed rice or couscous.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADomoda_%28Gambian_Peanut_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Domoda (Gambian Peanut Stew)@4525131
+    url: https://en.wikibooks.org/w/index.php?oldid=4525131
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

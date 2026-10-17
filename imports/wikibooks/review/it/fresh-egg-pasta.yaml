@@ -1,0 +1,69 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: A few drops of water
+#  - no difficulty in recipe summary
+id: it-fresh-egg-pasta
+title: Fresh Egg Pasta
+alternate_names:
+- Pasta Fresca All'uovo
+summary: Fresh Egg Pasta.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+time:
+  total_min: 65
+difficulty: 1
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 300}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: egg, qty: 3}
+  - {ingredient: olive-oil, unit: tbsp, qty: 1}
+steps:
+- Pour the flour and salt into a food processor.
+- Beat the eggs with the oil. With the processor running, slowly pour the egg through the feed tube.
+- Continue to mix until the dough comes together and forms a ball. If it doesn't form a ball, add a little water through the feed tube 1 teaspoon at a time until it does.
+- Remove the dough from the food processor and knead for 10 minutes on a floured work surface. If the dough is too sticky, work in a little extra flour.
+- Wrap the dough in some cling wrap and let it rest in the refrigerator for 30 minutes.
+- Remove from the fridge and knead it some more until it has warmed to room temperature.
+- Divide the dough into 2 balls.
+- Roll each ball out on a floured surface or pastry cloth in the shape of a rectangle.
+- Rotate the dough 90º and roll across its width.
+- Rotate 90º and roll some more. Keep turning and rolling until the dough is paper thin.
+- If at any time the dough begins to stick, lift it carefully and flour the work surface.
+- Dust the rectangle of rolled dough lightly and let it rest for 10 minutes.
+- Roll it up from the shorter side into a roulade (jelly-roll) shape.
+- 'With a sharp knife, slice the roll into even strips as follows:'
+- 3 mm (⅛ inch) wide (tagliarini)
+- 6 mm (¼ inch) wide (fetuccine and tagliatelle)
+- 100 mm (4 inches) wide (lasagna)
+- Cut the dough into roughly 3 equal pieces.
+- On its widest setting, feed each piece of dough through the machine 5 or 6 times, folding it in thirds between each rolling, until smooth, shiny and elastic.
+- Set the machine to the second setting and feed a portion of the dough through.
+- Set the machine to the third setting and roll the dough through again.
+- Keep changing the setting and rolling until the dough is about 1 mm (1/16 inch) thick.
+- Use the appropriate attachment to cut the pasta into strips.
+- Hang the pasta over a clean broomstick handle to dry, supported on the backs of two chairs. Or place on waxed paper or clean tea towels.
+- Homemade pasta may be cooked immediately or wrapped, well floured, in cling wrap and refrigerated for up to 24 hours.
+- Cook fresh pasta in 6–8 litres of water for 5–10 minutes or until al dente.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFresh_Egg_Pasta_%28Pasta_Fresca_All%27uovo%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fresh Egg Pasta (Pasta Fresca All'uovo)@4501508
+    url: https://en.wikibooks.org/w/index.php?oldid=4501508
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

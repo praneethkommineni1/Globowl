@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-tamate-ka-kut
+title: Tamate Ka Kut
+alternate_names:
+- Hyderabadi Tomato Curry
+summary: Tamate Ka Kut is a tomato curry of Hyderabadi cuisine.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: tomato, qty: 10, prep: 'ripe tomatoes, washed and quartered'}
+  - {ingredient: chickpea-flour, unit: cup, qty: 0.333}
+  - {ingredient: salt, unit: tsp, qty: 1.5}
+  - {ingredient: chili-powder, unit: tsp, qty: 1.5}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 1}
+  - {ingredient: coriander-seeds, unit: tsp, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 1}
+  - {ingredient: curry-leaves, qty: 8}
+  - {ingredient: garlic, qty: 2, prep: crushed}
+  - {ingredient: red-chili, qty: 2, prep: each split into two}
+  - {ingredient: cilantro, unit: cup, qty: 1, prep: finely chopped}
+  - {ingredient: mint}
+  - {ingredient: heavy-cream, qty: 1, optional: true}
+  - {ingredient: egg, qty: 4}
+steps:
+- Put the quartered tomato pieces in a large non-stick saucepan on medium low heat. Add a cup of water to it, mix, and cover with the lid. Let it cook till the tomatoes are mushy and soft, giving it a stir every once in a while. Let it cool.
+- Once cooled, pour the tomatoes into a blender container and add the gram flour. Blend until puréed. If you are using canned crushed tomato, add the gram flour to it and mix well.
+- Strain this mixture through a wire mesh strainer back into the saucepan. Throw away the leftover seeds and skin in the strainer. Add 2 cups water to it and let it simmer.
+- Pour oil into a small frying pan at medium heat and add the cumin seeds, whole red chillies, garlic pod, and curry leaves when the oil heats up. As they start to splutter, remove from heat and add this to the tomato sauce being cooked in the saucepan.
+- Add the cumin and coriander seed powder, red chilli powder and salt to the sauce and mix well. Bring it to a boil, and let it cook at medium low heat until the raw aroma of gram flour is gone. You can add a little water to it if required. Taste and adjust the salt and chilli powder.
+- Make light slits on all 4 sides of the eggs, making sure the slits are just on the surface and not deep into the yolk. Add these to the simmering tomato sauce. Cook the tomato sauce until the raw smell of the gram flour is gone, about 30 minutes. Keep stirring it occasionally.
+- Stir in the chopped cilantro and mint just before serving.
+- Pour it into a warm bowl and serve it warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATamate_Ka_Kut_%28Hyderabadi_Tomato_Curry%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tamate Ka Kut (Hyderabadi Tomato Curry)@4531787
+    url: https://en.wikibooks.org/w/index.php?oldid=4531787
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

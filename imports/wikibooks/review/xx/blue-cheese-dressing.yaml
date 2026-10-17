@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 4 oz any variety of blue cheese
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-blue-cheese-dressing
+title: Blue Cheese Dressing
+summary: Adapted from the Buttermilk Ranch Dressing recipe.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3 cups (770 g)
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: lemon-juice, unit: tbsp, qty: 2}
+  - {ingredient: buttermilk, unit: cup, qty: 0.667}
+  - {ingredient: mayonnaise, unit: cup, qty: 1}
+  - {ingredient: sour-cream, unit: cup, qty: 0.75}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: garlic-powder, unit: tsp, qty: 0.5}
+  - {ingredient: onion-powder, unit: tsp, qty: 0.5}
+steps:
+- Combine all ingredients except the blue cheese and whisk until smooth and homogeneous.
+- Dice the blue cheese into approximately ½ inch (1 cm) cubes. Most blue cheese is crumbly, so you'll wind up with a lot of crumbs as well as larger chunks.
+- Pour the mayonnaise mixture into a serving container and stir in the cubes and crumbs of cheese.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABlue_Cheese_Dressing&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Blue Cheese Dressing@4516379
+    url: https://en.wikibooks.org/w/index.php?oldid=4516379
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

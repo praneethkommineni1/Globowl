@@ -1,0 +1,111 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/4 lb ham steak
+#  - unmapped ingredient: 1 package smoked pork chops
+#  - unmapped ingredient: Jerked beef
+#  - unmapped ingredient: 1 cup sliced bacon
+#  - unmapped ingredient: 2 cups white toasted cassava flour
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: br-brazilian-feijoada
+title: Brazilian Feijoada
+summary: Brazilian feijoada or "Feijoada Brasileira" usually includes a bean stew with a spicy sauce, pork meat, white rice, farofa, kale and sliced oranges.
+origin:
+  country: BR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 4
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- name: Bean stew
+  items:
+  - {ingredient: pork, unit: g, qty: 227}
+  - {ingredient: salt}
+  - {ingredient: beef, qty: 2}
+  - {ingredient: sausage, qty: 1}
+  - {ingredient: onion, qty: 1, prep: chopped}
+  - {ingredient: parsley, prep: chopped}
+  - {ingredient: chives, prep: minced}
+  - {ingredient: black-beans-canned, unit: can, qty: [2, 3]}
+- name: Rice
+  items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 3}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: onion, qty: 0.25}
+- name: Collard greens
+  items:
+  - {ingredient: collard-greens}
+  - {ingredient: bacon, optional: true}
+  - {ingredient: onion}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: sugar, unit: pinch, qty: 1}
+- name: Farofa
+  items:
+  - {ingredient: olives, unit: cup, qty: 0.25}
+  - {ingredient: olive-oil, unit: cup, qty: 0.25}
+  - {ingredient: onion, qty: 0.25, prep: chopped}
+  - {ingredient: bouillon-cube, unit: tsp, qty: 2}
+- name: Spicy bean sauce
+  items:
+  - {ingredient: cilantro}
+  - {ingredient: chives}
+  - {ingredient: salt}
+  - {ingredient: olive-oil}
+  - {ingredient: white-vinegar}
+  - {ingredient: red-chili, qty: 1, prep: finely chopped}
+- name: Additional
+  items:
+  - {ingredient: orange}
+  - {ingredient: hot-sauce}
+steps:
+- Three days before serving, place the pork ribs in a large stock pot, and cover them thoroughly with salt. Cut off one of the salted ribs, place in a plastic bag, and set aside in the fridge. Cover the stockpot containing the remaining ribs, and store it in the fridge.
+- One day before serving, remove the stockpot with the ribs from the fridge. Start the process of withdrawing the excess salt, soaking the ribs in cold water and changing the water three times in intervals of 6 hours. Each time you change the water, return the covered stockpot with water and ribs back to the fridge. After the third and last time, fill again the stockpot with the ribs and water and leave it in the fridge until the time to start the cooking process.
+- On the day of cooking and serving, cut the filet mignon into 1-inch cubes. Slice the smoked sausage as thick as you wish. Cut the bacon into small cubes. Cut the ham steak into 1-inch cubes. Cut the smoked pork chops into small pieces. Do not cast away the bone yet; leave some meat on it to be cooked altogether. If you are also using jerked beef, cut the pieces proportionally to the rest of the meat. If any part of the meat has bones, leave part of the meat on the bones to be cooked altogether.
+- Take the stockpot with the ribs out of the fridge and throw out the water. Divide the ribs; if you think they are too big, cut each in half.
+- 'In a large pan, put ¼ cup olive oil and heat it. Then add the sliced bacon together with the ribs, including the salted rib you left aside in the fridge (note: the salt on this specific piece of rib will be the basic salt enough for the preparation).'
+- Put the lid on, and cook all together for 10–15 minutes over medium heat, stirring occasionally.
+- Add the sliced onion, the parsley, and the chives. Add the rest of the sliced meat and cook for 15 more minutes.
+- Then, add 2–3 cans of black beans, plus one can of water, and cook for more 30 minutes. When it starts boiling, decrease the heat to medium-low temperature. Stir occasionally.
+- Taste for salt. It should be enough. If you want to add more salt, be careful. Do not salt your feijoada too much.
+- Watch the water. Add more (hot) water, if you want your feijoada more liquid. Your feijoada will be ready when the meat becomes soft and loosens from the bones. Now you can take out the bones, if you wish. Serve it warm.
+- Wash the rice and drain.
+- In a medium pan, put olive oil and chopped onion. Cook until it gets soft. Add garlic if you want.
+- Add the rice previously washed and dry. Add a pinch of salt and stir.
+- Add hot water (for each cup of rice, use 2 cups of water) and cook until it starts boiling.
+- Reduce the heat. Put the lid on and finish cooking. The rice is be ready when the water is fully evaporated and the rice is soft.
+- In a pan, fry 1 cup of sliced bacon until it becomes golden brown.
+- Add black olives and cook.
+- Add olive oil and onion. Cook until it becomes soft.
+- When heated, pour the cassava/manioc flour and stir until you get the desired consistency. The amount of flour will determine the consistency. Be careful with the heat; your farofa should not be burnt in the bottom.
+- Wash the collard greens leaf by leaf, then slice them in very thin strips and set it aside.
+- In a pan or a skillet, put enough olive oil and sliced onion for the amount of collard greens you use. If using, add sliced bacon.
+- Add the thinly-sliced collard greens with a pinch of salt and a pinch of sugar (this will help your collard greens remain green).
+- Put the lid on and cook for 15 minutes, stirring occasionally.
+- Peel the oranges you have already set aside.
+- Cut them in round slices and put them in a ceramic bowl or on a plate.
+- In a ceramic or metal bowl, put the cilantro, chives, salt, olive oil, a little bit of vinegar, and one finely chopped red hot finger pepper, and add a cup of warm bean broth, and stir altogether.
+- Use a teaspoon to serve. This sauce can be used on top of the feijoada and is added individually.
+- Serve the bean stew with accompanying sides and orange slices.
+tips:
+- Feijoada can be eaten the same day, but it will be much more tasty when served the next day.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABrazilian_Feijoada&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Brazilian Feijoada@4518581
+    url: https://en.wikibooks.org/w/index.php?oldid=4518581
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

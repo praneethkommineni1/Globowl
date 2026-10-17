@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (IL, PS): confirm the country of origin
+#  - unmapped ingredient: Baharat
+id: il-rice-and-lentils
+title: Rice and Lentils
+alternate_names:
+- Mejadra
+summary: Extremely simple to cook, mejadra is a fundamental component of Middle Eastern cuisine. It provides carbohydrates, proteins, and a full stomach. It also tastes great. The most common recipe uses rice. Bulgur can be substituted for rice, using the exact same procedure.
+origin:
+  country: IL
+  also_claimed_by:
+  - PS
+course: side
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3–4
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: brown-lentils, unit: cup, qty: 1}
+  - {ingredient: olive-oil}
+  - {ingredient: salt}
+  - {ingredient: ground-cumin}
+  - {ingredient: ground-cardamom}
+  - {ingredient: water, unit: cup, qty: 4, prep: divided}
+  - {ingredient: long-grain-rice, unit: cup, qty: 1}
+  - {ingredient: black-pepper}
+  - {ingredient: onion, qty: 1, note: medium}
+steps:
+- Fry the lentils in oil for 3–4 minutes, stirring continuously, until the first beans show signs of scorching.
+- Add salt, baharat, cumin, and ground cardamom to taste.
+- Add 2 cups water and cover. Bring to a boil, lower to a simmer. Cook for 20 minutes or until all the water is absorbed by the lentils.
+- Fry the rice in oil for 3–4 minutes, stirring continuously, until the grains change colour.
+- Add salt, black or white pepper, and ground cardamom.
+- Add 2 cups water and cover. Bring to a boil, lower to a simmer. After 5 minutes turn the heat off, and leave standing for another 10 minutes.
+- Cut the onion into thin strips (about 0.5x4 cm / 0.2x1.6 in).
+- Fry the onion in olive oil until crisp and deeply golden brown (this may take a while but will result in much fuller flavor).
+- Mix the lentils and rice, and top with the fried onion. Use 2 parts lentils to 1 part rice for a moist consistency.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARice_and_Lentils_%28Mejadra%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rice and Lentils (Mejadra)@4656171
+    url: https://en.wikibooks.org/w/index.php?oldid=4656171
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

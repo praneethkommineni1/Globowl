@@ -123,15 +123,23 @@ def fetch(max_depth=3):
 
 # --- Wikitext helpers ----------------------------------------------------------
 
-LINK = re.compile(r"\[\[(?:Cookbook:)?([^\]|]+)(?:\|([^\]]*))?\]\]")
+LINK = re.compile(r"\[\[(?:[Cc]ookbook:)?([^\]|]+)(?:\|([^\]]*))?\]\]")
+
+
+def strip_templates(text: str) -> str:
+    for _ in range(10):
+        text, n = re.subn(r"\{\{[^{}]*\}\}", "", text)
+        if not n:
+            break
+    return text
 
 
 def plain(text: str) -> str:
     """Strip wiki markup to readable plain text."""
     text = re.sub(r"<ref[^>]*?/>|<ref.*?</ref>", "", text, flags=re.S)
     text = re.sub(r"<!--.*?-->", "", text, flags=re.S)
-    for _ in range(3):
-        text = re.sub(r"\{\{[^{}]*\}\}", "", text)
+    text = strip_templates(text)
+    text = re.sub(r"__[A-Z]+__", "", text)
     text = re.sub(r"\[\[(?:File|Image|Category):[^\]]*\]\]", "", text, flags=re.I)
     text = LINK.sub(lambda m: m.group(2) if m.group(2) is not None else m.group(1), text)
     text = re.sub(r"\[https?://\S+\s+([^\]]+)\]", r"\1", text)
@@ -141,14 +149,42 @@ def plain(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def split_params(body: str) -> list[str]:
+    """Split template parameters on top-level pipes (not those inside [[links]] or {{templates}})."""
+    parts, buf, depth, i = [], [], 0, 0
+    while i < len(body):
+        two = body[i:i + 2]
+        if two in ("[[", "{{"):
+            depth += 1; buf.append(two); i += 2; continue
+        if two in ("]]", "}}") and depth:
+            depth -= 1; buf.append(two); i += 2; continue
+        if body[i] == "|" and depth == 0:
+            parts.append("".join(buf)); buf = []
+        else:
+            buf.append(body[i])
+        i += 1
+    parts.append("".join(buf))
+    return parts
+
+
 def summary_params(wikitext: str) -> dict:
-    m = re.search(r"\{\{\s*recipe summary(.*?)\}\}", wikitext, flags=re.I | re.S)
+    """Parameters of the {{recipe summary}} box (also written {{recipesummary}}), keys lower-cased."""
+    m = re.search(r"\{\{\s*recipe\s*summary\s*\|", wikitext, flags=re.I)
     out = {}
-    if m:
-        for part in m.group(1).split("|"):
-            if "=" in part:
-                k, v = part.split("=", 1)
-                out[k.strip().lower()] = v.strip()
+    if not m:
+        return out
+    depth, i = 1, m.end()
+    while i < len(wikitext) and depth:
+        if wikitext.startswith("{{", i):
+            depth += 1; i += 2
+        elif wikitext.startswith("}}", i):
+            depth -= 1; i += 2
+        else:
+            i += 1
+    for part in split_params(wikitext[m.end():i - 2]):
+        if "=" in part:
+            k, v = part.split("=", 1)
+            out[k.strip().lower()] = v.strip()
     return out
 
 
@@ -179,11 +215,21 @@ def slugify(text: str) -> str:
 
 
 def parse_minutes(text: str) -> int | None:
+    """Total minutes from a free-text time. Labelled parts ("Prep: 15 min<br>Baking: 50 min") are
+    summed; for a range ("50-70 minutes") the lower bound is used."""
     if not text:
         return None
+    parts = [p for p in re.split(r"<br\s*/?>|;|\+|\n|,(?=\s*[a-z]+\s*:)", text, flags=re.I) if p.strip()]
+    if len(parts) > 1:
+        found = [parse_minutes(p) for p in parts]
+        found = [f for f in found if f]
+        return sum(found) or None
     t = plain(text).lower()
-    hours = re.search(r"(\d+(?:\.\d+)?)\s*(?:h|hr|hrs|hour|hours)\b", t)
-    mins = re.search(r"(\d+)\s*(?:m|min|mins|minute|minutes)\b", t)
+    for k, v in UNICODE_FRACTIONS.items():
+        t = re.sub(rf"(\d)\s*{k}", lambda m: str(int(m.group(1)) + float(Fraction(v))), t).replace(k, str(float(Fraction(v))))
+    rng = r"(?:\s*(?:-|–|to)\s*\d+(?:\.\d+)?)?"  # ranges: keep the lower bound
+    hours = re.search(rf"(\d+(?:\.\d+)?){rng}\s*(?:h|hr|hrs|hour|hours)\b", t)
+    mins = re.search(rf"(\d+){rng}\s*(?:m|min|mins|minute|minutes)\b", t)
     if not hours and not mins:
         return None
     total = (float(hours.group(1)) * 60 if hours else 0) + (int(mins.group(1)) if mins else 0)
@@ -226,7 +272,12 @@ NON_INGREDIENT_LINKS = {
     "blanching", "steaming", "knead", "kneading", "melt", "melting", "cup", "teaspoon", "tablespoon", "gram",
     "kilogram", "ounce", "pound", "litre", "liter", "millilitre", "milliliter", "pinch", "dash", "can",
     "pots and pans", "knife", "cutting board", "frying pan", "saucepan", "measuring cup", "units of measurement",
+    "g", "kg", "ml", "l", "quart", "pint", "inch", "tsp", "tbsp", "liter", "litre", "gallon", "grater", "ingredients",
+    "fluid ounce", "centimetre", "centimeter", "degree", "oven", "skillet", "wok", "pot", "bowl", "blender",
 }
+# Generic Wikibooks pages whose link text, not target, names the ingredient.
+GENERIC_LINKS = {"meat and poultry", "oil and fat", "broth and stock", "spices and herbs", "vegetable", "fruit",
+                 "cheese", "dairy products", "seafood", "fish", "nuts and seeds", "legumes", "grains", "herbs", "spices"}
 TECHNIQUE_LINKS = {
     "sautéing": "sauteing", "sauteing": "sauteing", "sauté": "sauteing", "simmering": "simmering",
     "simmer": "simmering", "boiling": "boiling", "boil": "boiling", "frying": "pan-frying",
@@ -285,7 +336,7 @@ class IngredientMatcher:
             seeds, ground = rule["seeds"], rule["ground"]
             if "fresh" in rule and re.search(r"\b(fresh|grated|minced|chopped|sliced|leaves|sprigs?|bunch|handful)\b", text):
                 return rule["fresh"]
-            if "seed" in text and "ground" not in text:
+            if re.search(r"\b(seeds?|sticks?|pods?|whole|berries|quills?|pieces?|bark)\b", text) and "ground" not in text:
                 return seeds
             if unit in ("tsp", "tbsp", "pinch") or "ground" in text:
                 return ground
@@ -298,6 +349,19 @@ class IngredientMatcher:
         return None
 
 
+LIQUID_HINT = re.compile(r"juice|vinegar|milk|cream|sauce|syrup|oil|wine|water|stock|broth|beer|rum|brandy|sherry|extract|molasses|honey")
+
+
+LIQUID_DAIRY = {"milk", "buttermilk", "heavy-cream", "evaporated-milk", "kefir"}
+
+
+def is_liquid(iid: str, ing: dict) -> bool:
+    """Whether "oz" on this ingredient means fluid ounces."""
+    if ing["category"] in ("beverage", "stock", "water") or iid in LIQUID_DAIRY:
+        return True
+    return ing["category"] != "dairy" and bool(LIQUID_HINT.search(iid))
+
+
 def parse_ingredient_line(raw: str, matcher: IngredientMatcher):
     """Return (line dict | None, issue | None, unmatched name | None)."""
     links = [(m.group(1).strip(), (m.group(2) or m.group(1)).strip()) for m in LINK.finditer(raw)]
@@ -307,6 +371,8 @@ def parse_ingredient_line(raw: str, matcher: IngredientMatcher):
     if not text:
         return None, None, None
 
+    optional_aside = bool(re.search(r"\(\s*optional\s*\)", text, flags=re.I))
+    text = re.sub(r"\s*\([^)]*\)", "", text).strip()  # drop "(240 g)"-style equivalents and asides
     line, rest = {}, text
     m = QTY.match(rest)
     if m:
@@ -321,11 +387,8 @@ def parse_ingredient_line(raw: str, matcher: IngredientMatcher):
             unit, mult = UNIT_WORDS.get(w.group(1).lower(), (None, 1)) if w else (None, 1)
             if unit:
                 rest = rest[w.end():]
-        lo *= mult
-        hi = hi * mult if hi is not None else None
-        if mult != 1:  # converted from imperial: round sensibly
-            lo, hi = round(lo), round(hi) if hi is not None else None
-        line["qty"] = [tidy_qty(lo), tidy_qty(hi)] if hi is not None and hi > lo else tidy_qty(lo)
+        rest = re.sub(r"^each\s+", "", rest)
+        line["qty"], line["_mult"] = (lo, hi), mult
         if unit:
             line["unit"] = unit
     rest = rest.strip(" ,")
@@ -338,7 +401,13 @@ def parse_ingredient_line(raw: str, matcher: IngredientMatcher):
         first, head = head.split(" ", 1)
         size.append(first.lower())
 
-    candidates = [t for t, _ in links if normalize_name(t) not in NON_INGREDIENT_LINKS] + [head]
+    candidates = []
+    for target, label in links:
+        t = normalize_name(target.split("#")[0])
+        if t in NON_INGREDIENT_LINKS:
+            continue
+        candidates += [label, t] if t in GENERIC_LINKS else [t, label]
+    candidates.append(head)
     iid = None
     for cand in candidates:
         iid = matcher.match(cand, line.get("unit"), text)
@@ -347,6 +416,18 @@ def parse_ingredient_line(raw: str, matcher: IngredientMatcher):
     if not iid:
         return None, f"unmapped ingredient: {text}", normalize_name(candidates[0]) if candidates else text
 
+    # Scale quantities now that we know the ingredient: weight ounces of a liquid are fluid ounces.
+    if "qty" in line:
+        (lo, hi), mult = line.pop("qty"), line.pop("_mult")
+        if line.get("unit") == "g" and mult == 28.35 and is_liquid(iid, matcher.catalog[iid]):
+            line["unit"], mult = "ml", 29.57
+        lo *= mult
+        hi = hi * mult if hi is not None else None
+        if mult != 1:  # converted from imperial: round sensibly
+            lo, hi = round(lo), round(hi) if hi is not None else None
+        line["qty"] = [tidy_qty(lo), tidy_qty(hi)] if hi is not None and hi > lo else tidy_qty(lo)
+    if line.get("unit") == "clove" and iid != "garlic":  # "4 cloves" of the spice: a count, not a unit
+        del line["unit"]
     line = {"ingredient": iid, **line}
     lower = text.lower()
     notes = []
@@ -362,7 +443,7 @@ def parse_ingredient_line(raw: str, matcher: IngredientMatcher):
                 line["prep"] = prep
         else:
             line["prep"] = prep
-    if re.search(r"\(optional\)|^optional\b", lower):
+    if optional_aside or re.search(r"^optional\b", lower):
         line["optional"] = True
     if "qty" not in line and "to taste" in lower and "to taste" not in notes:
         notes.append("to taste")
@@ -379,15 +460,24 @@ def load_config():
     return cfg, IngredientMatcher(catalog, cfg.get("ingredients") or {})
 
 
-def page_country(page, cfg):
+def page_countries(page, cfg):
+    """Return (country, other_countries). The summary box wins; otherwise categories, which the API
+    returns alphabetically — so several distinct countries means the choice needs a human."""
     cuisines = cfg["cuisines"]
-    summary_cat = summary_params(page["wikitext"]).get("category", "")
-    ordered = [f"Category:{summary_cat}"] + page.get("categories", [])
-    for cat in ordered:
+    params = summary_params(page["wikitext"])
+    preferred = [plain(params.get("category", "")), f"{plain(params.get('cuisine', ''))} recipes"]
+    from_cats = []
+    for cat in page.get("categories", []):
         code = cuisines.get(cat.removeprefix("Category:"))
-        if code:
-            return code
-    return None
+        if code and code not in from_cats:
+            from_cats.append(code)
+    for name in preferred:
+        if name in cuisines:
+            main = cuisines[name]
+            return main, [c for c in from_cats if c != main]
+    if not from_cats:
+        return None, []
+    return from_cats[0], from_cats[1:]
 
 
 def page_course(page, cfg):
@@ -407,14 +497,23 @@ def convert_page(page, cfg, matcher):
     title_full = page["title"].removeprefix("Cookbook:")
     paren = re.match(r"^(.*?)\s*\((.+)\)\s*$", title_full)
     title, subtitle = (paren.group(1), paren.group(2)) if paren else (title_full, None)
+    title = re.sub(r"\s+(?:I|II|III|IV|V|VI)$", "", title)  # Wikibooks numbers variants: "Anzac Biscuits I"
 
-    country = page_country(page, cfg)
+    country, other_countries = page_countries(page, cfg)
     if not country:
         issues.append("no country: cuisine category not mapped")
+    elif other_countries and not summary_params(wt).get("cuisine"):
+        issues.append(f"several cuisines ({', '.join([country, *other_countries])}): confirm the country of origin")
     params = summary_params(wt)
     secs = sections(wt)
 
-    intro = plain(secs.get("", ""))
+    intro_lines = []
+    for line in strip_templates(secs.get("", "")).splitlines():
+        bare = LINK.sub("", re.sub(r"__[A-Z]+__", "", line))
+        if re.fullmatch(r"[\s|•·,;:-]*", bare):  # breadcrumb/navigation lines: only links and separators
+            continue
+        intro_lines.append(line)
+    intro = re.sub(r"^[\s|]+", "", plain("\n".join(intro_lines)))
     sentences = re.split(r"(?<=[.!?])\s+", intro)
     summary = ""
     for s in sentences:
@@ -509,7 +608,7 @@ def convert_page(page, cfg, matcher):
         "title": title,
         **({"alternate_names": [subtitle]} if subtitle else {}),
         "summary": summary or f"{title}.",
-        "origin": {"country": country or "XX"},
+        "origin": {"country": country or "XX", **({"also_claimed_by": other_countries} if other_countries else {})},
         "course": course or "main",
         "authenticity": "unassessed",
         "yield": yield_ or {"servings": 1},
@@ -546,6 +645,27 @@ def dump_recipe(recipe) -> str:
     return yaml.dump(recipe, Dumper=Dumper, allow_unicode=True, sort_keys=False, width=1000)
 
 
+def dish_key(name: str) -> str:
+    return slugify(re.sub(r"\s+(?:I|II|III|IV|V|VI)$", "", re.sub(r"\(.*?\)", "", name)))
+
+
+def handwritten_index():
+    """Normalised dish names of hand-written recipes, per country, for duplicate detection."""
+    index = {}
+    for p in (ROOT / "recipes").glob("*/*.yaml"):
+        r = yaml.safe_load(p.read_text(encoding="utf-8"))
+        if r["credit"]["source_type"] == "imported":
+            continue
+        names = [r["title"], *r.get("alternate_names", [])]
+        if r.get("native_name"):
+            names += [r["native_name"]["text"], r["native_name"].get("romanized", "")]
+        for country in [r["origin"]["country"], *r["origin"].get("also_claimed_by", [])]:
+            for n in names:
+                if dish_key(n):
+                    index.setdefault((country, dish_key(n)), r["id"])
+    return index
+
+
 def convert():
     cfg, matcher = load_config()
     pages_path = CACHE / "pages.jsonl"
@@ -562,6 +682,7 @@ def convert():
     promoted, queued, skipped = [], [], Counter()
     unmatched_all, issue_kinds = Counter(), Counter()
     seen_ids = set()
+    dishes = handwritten_index()
     for page in sorted(pages, key=lambda p: p["title"]):
         recipe, issues, unmatched = convert_page(page, cfg, matcher)
         if recipe is None:
@@ -570,6 +691,11 @@ def convert():
         rid = recipe["id"]
         if rid in existing_ids:
             issues.append(f"duplicate of hand-written recipe {rid}")
+        names = [recipe["title"], *recipe.get("alternate_names", [])]
+        dup = next((dishes[(recipe["origin"]["country"], dish_key(n))] for n in names
+                    if (recipe["origin"]["country"], dish_key(n)) in dishes), None)
+        if dup and dup != rid:
+            issues.append(f"possible duplicate of hand-written recipe {dup} — merge or keep as a variant")
         if rid in seen_ids:
             issues.append(f"duplicate id {rid} from another Wikibooks page")
         seen_ids.add(rid)

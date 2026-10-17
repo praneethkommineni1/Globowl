@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-masa
+title: Masa
+alternate_names:
+- Hausa Rice Pancake
+summary: Rice masa, or rice waina, is a type of Nigerian masa from the Hausa people of Nigeria, especially in Northern Nigeria. The recipe varies across households, but it is traditionally made in an oval shape. You can add ginger or onions if desired.
+origin:
+  country: NG
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Blender
+- Mixing bowl
+- Spoon or ladle
+- Non-stick frying pan or masa pan
+- Stove
+- Sieve (optional)
+- Onion
+- Ginger
+- Cooked rice
+- Milk
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 2}
+  - {ingredient: yeast, unit: tsp, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: salt}
+  - {ingredient: baking-powder, unit: tsp, qty: 1, optional: true}
+  - {ingredient: vegetable-oil, prep: for cooking}
+steps:
+- Soak the rice in water for at least 8 hours, and up to overnight. Drain the rice.
+- Take a few tablespoons of the soaked rice, and boil it until tender.
+- Combine the cooked rice and uncooked rice. Blend until smooth, adding only as much water as you need to get a paste—don’t let it become watery.
+- Mix yeast and sugar with a small amount of warm water in a small bowl. Leave for a few minutes to foam.
+- In a large bowl, mix the blended rice with the yeast mixture and baking powder. Cover, and let rest for 6–8 hours.
+- Season the batter with salt and sugar to taste.
+- Heat a small amount of oil in a non-stick pan. Pour small dollops of batter into the pan, and fry like pancakes. They should come out fluffy and light.
+- Serve with hot sauce, and enjoy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMasa_%28Hausa_Rice_Pancake%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Masa (Hausa Rice Pancake)@4636106
+    url: https://en.wikibooks.org/w/index.php?oldid=4636106
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,44 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Ground pepper
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-nigerian-roasted-yam
+title: Nigerian Roasted Yam
+summary: Roasted yam, also known as Ìṣu sisun in the Yoruba language, is a typical Nigerian street food mostly eaten as a snack. It is prepared just like roasted corn and eaten with groundnuts or boli (roasted plantain).
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- roasting
+ingredient_groups:
+- items:
+  - {ingredient: yam}
+  - {ingredient: water}
+steps:
+- Cut yam into suitably-sized pieces, then peel them.
+- Soak the yam in water overnight.
+- Rinse the yam and roast it, making sure all sides are deeply roasted.
+- Serve the roasted yam with groundnuts or roasted plantain.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Roasted_Yam&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Roasted Yam@4494022
+    url: https://en.wikibooks.org/w/index.php?oldid=4494022
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

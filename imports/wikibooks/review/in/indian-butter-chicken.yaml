@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 50 g tandoori masala powder
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: in-indian-butter-chicken
+title: Indian Butter Chicken
+summary: Butter chicken or murgh makhani is an Indian dish popular in countries all over the world where Indian restaurants are found. The dish was invented by accident at Moti Mahal Restaurant in Daryaganj, New Delhi.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4 to 6
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- pan-frying
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: g, qty: [400, 500], prep: boneless chicken thighs or breasts}
+  - {ingredient: yogurt, unit: cup, qty: 0.5}
+  - {ingredient: lemon, qty: 1, prep: juiced, note: small}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: sliced finely, note: large}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.25, optional: true}
+  - {ingredient: garlic, unit: clove, qty: [2, 3]}
+  - {ingredient: ginger, unit: tsp, qty: 2}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tbsp, qty: 1}
+  - {ingredient: red-chili, unit: tsp, qty: [2, 3]}
+  - {ingredient: tomato-paste, unit: g, qty: [100, 200]}
+  - {ingredient: heavy-cream, unit: g, qty: 100}
+steps:
+- Trim and cut the chicken into small cubes. If you prefer chicken on the bone, cut long thin slices laterally into the chicken.
+- In a big bowl combine the tandoori powder, yogurt, lemon juice, and chicken. Massage this well with your hands so that all the chicken is evenly covered in the Tandoori powder. Cover and put aside for at least ½ an hour.
+- Heat a large saucepan or frying pan until evenly hot.
+- In the pan melt 2 tablespoons of butter until it is frothy. Add the onions and the cinnamon to the pan and fry lightly. When the onions are soft and starting to brown, stir in the crushed garlic and ginger. Then add the turmeric, chili, and coriander, and sauté over a medium heat.
+- Add the chicken and sauté, stirring constantly until the chicken has turned white. This doesn't take long, so make sure you don't overcook the chicken.
+- Mix in the tomato paste. Add the cream and heat through. After adding the cream and stirring, you may add additional tandoori masala. About 3–5 tablespoons is generally sufficient.
+- Cover and simmer for just over 10 minutes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIndian_Butter_Chicken_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Indian Butter Chicken I@4510142
+    url: https://en.wikibooks.org/w/index.php?oldid=4510142
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

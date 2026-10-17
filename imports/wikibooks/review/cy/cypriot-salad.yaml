@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: cy-cypriot-salad
+title: Cypriot Salad
+summary: Traditional salad (Χωριάτικη σαλάτα) is a salad that can be served together with most foods in Cyprus.
+origin:
+  country: CY
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: tomato, qty: 1}
+  - {ingredient: cucumber, qty: 1}
+  - {ingredient: lettuce, unit: leaf, qty: 3}
+  - {ingredient: onion, qty: 1, note: small}
+  - {ingredient: feta, qty: 1, prep: cut into small pieces}
+  - {ingredient: olives, qty: [5, 6]}
+  - {ingredient: olive-oil, qty: 3}
+  - {ingredient: lemon-juice, qty: 2}
+steps:
+- Cut the vegetables into pieces.
+- Put them in a bowl and decorate them with onions, feta cheese and olives. If you want you can decorate your bowl with every way!
+- Before serving, add salad and olive oil with lemon and shake.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACypriot_Salad&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cypriot Salad@4518126
+    url: https://en.wikibooks.org/w/index.php?oldid=4518126
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

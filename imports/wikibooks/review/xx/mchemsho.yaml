@@ -1,0 +1,81 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 4 green cooking bananas, peeled and sliced
+#  - unmapped ingredient: 5 cups beef stock or water
+#  - unmapped ingredient: Juice of 1 lime or lemon
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-mchemsho
+title: Mchemsho
+alternate_names:
+- Tanzanian cuisine
+summary: Mchemsho is a traditional Tanzanian mixed stew consisting of meat, vegetables, green bananas, and aromatic spices simmered together in a flavorful broth. The name mchemsho comes from the Swahili word chemsha, meaning "to boil".
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 500, prep: cut into cubes}
+  - {ingredient: potato, qty: 3, prep: peeled and cubed, note: medium}
+  - {ingredient: carrot, qty: 2, prep: sliced}
+  - {ingredient: green-beans, unit: cup, qty: 1, prep: trimmed}
+  - {ingredient: white-cabbage, qty: 1, prep: chopped, note: small}
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: ginger, unit: tbsp, qty: 1, prep: grated}
+  - {ingredient: tomato, qty: 2, prep: diced}
+  - {ingredient: black-pepper, qty: 1, prep: sliced}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: cilantro, prep: 'chopped, for garnish'}
+steps:
+- Place the beef in a large pot and cover with water.
+- Add half of the onion, half of the ginger, and a pinch of salt.
+- Simmer until the meat becomes tender, about 1–1½ hours.
+- Reserve the cooking stock.
+- Heat the oil in a separate large pot.
+- Sauté the remaining onion until soft.
+- Add the garlic and remaining ginger and cook for 1 minute.
+- Stir in the tomatoes and cook until softened.
+- Add the cumin, coriander, and turmeric.
+- Add the potatoes, carrots, green bananas, green beans, cabbage, and bell pepper.
+- Pour in the reserved stock.
+- Add the cooked beef.
+- Bring to a boil, then reduce the heat and simmer for 30–40 minutes.
+- Cook until all vegetables are tender.
+- Season with salt, black pepper, and lime juice.
+- Garnish with chopped coriander.
+- Serve hot.
+tips:
+- Chicken mchemsho
+- Fish mchemsho
+- Vegetarian mchemsho
+- Mchemsho with eggplant
+- Mchemsho with coconut milk
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMchemsho_%28Tanzanian_cuisine%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mchemsho (Tanzanian cuisine)@4638744
+    url: https://en.wikibooks.org/w/index.php?oldid=4638744
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

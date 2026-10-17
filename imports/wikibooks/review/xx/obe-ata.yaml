@@ -1,0 +1,78 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 6–10 fresh tomatoes
+#  - unmapped ingredient: 2–6 scotch bonnet peppers
+#  - course unknown from categories
+id: xx-obe-ata
+title: Obe Ata
+summary: Obe Ata is a traditional Yoruba stew widely eaten in Nigeria, especially in the southwestern region. The name means “pepper sauce” in Yoruba. It is a versatile base sauce used for many Nigerian dishes such as rice, yam, plantain, beans, and swallows.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4-6
+time:
+  total_min: 60
+difficulty: 2
+equipment:
+- Cooking pot or saucepan
+- Blender or food processor
+- Wooden spoon or stirring spoon
+- Knife and chopping board
+- Frying spoon (optional for frying meat)
+- Bowls for mixing ingredients
+techniques:
+- pan-frying
+ingredient_groups:
+- name: Pepper base
+  items:
+  - {ingredient: black-pepper, qty: [2, 4]}
+  - {ingredient: onion, qty: 2, note: medium}
+- name: Protein (optional)
+  items:
+  - {ingredient: beef, prep: 'chicken, goat meat, or fish'}
+  - {ingredient: egg, qty: [2, 4], optional: true}
+- name: Other ingredients
+  items:
+  - {ingredient: red-palm-oil, unit: cup, qty: 0.5}
+  - {ingredient: bouillon-cube, qty: [2, 3]}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: crayfish, unit: tsp, qty: [1, 2], optional: true}
+  - {ingredient: thyme, unit: tsp, qty: 1, optional: true}
+  - {ingredient: chicken-stock, unit: cup, qty: [1, 2]}
+steps:
+- Wash and blend tomatoes, peppers, scotch bonnet, and one onion.
+- The blend can be smooth or slightly coarse depending on preference.
+- Season meat with salt, onions, and seasoning cubes.
+- Cook until tender and set aside.
+- Fry lightly if a richer flavour is desired.
+- Pour oil into a pot and heat gently.
+- If using palm oil, allow it to heat until it becomes slightly clear but not burnt.
+- Add chopped onions to the oil and fry lightly.
+- Pour in the blended pepper mix and cook on medium heat until water reduces and oil begins to separate (20–30 minutes).
+- Add cooked meat or fish, seasoning cubes, crayfish, and spices.
+- Stir well and allow to simmer for 10–15 minutes.
+- Taste and adjust salt and seasoning.
+- Add boiled eggs if using and simmer briefly.
+tips:
+- Obe Ata Dindin – fried pepper stew version commonly found in buka restaurants
+- Ofada sauce – a thicker, more local version with locust beans (iru)
+- Tomato stew base – used as foundation for jollof rice
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AObe_Ata&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Obe Ata@4639141
+    url: https://en.wikibooks.org/w/index.php?oldid=4639141
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

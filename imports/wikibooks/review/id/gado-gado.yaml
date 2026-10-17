@@ -1,0 +1,86 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Deep fried tempeh
+id: id-gado-gado
+title: Gado-gado
+alternate_names:
+- Indonesian Salad with Peanut Sauce
+summary: Gado-gado is a vegetable salad with a peanut sauce dressing.
+origin:
+  country: ID
+course: salad
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 40
+difficulty: 4
+techniques:
+- blanching
+- boiling
+- deep-frying
+- pan-frying
+- simmering
+ingredient_groups:
+- name: Peanut sauce
+  items:
+  - {ingredient: shrimp-paste, unit: g, qty: 1}
+  - {ingredient: vegetable-oil}
+  - {ingredient: roasted-peanuts, unit: g, qty: 300}
+  - {ingredient: red-chili}
+  - {ingredient: garlic, unit: clove, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: palm-sugar, unit: g, qty: 125}
+  - {ingredient: shallot, qty: 4}
+  - {ingredient: sugar}
+  - {ingredient: lime}
+- name: Salad
+  items:
+  - {ingredient: egg, prep: sliced}
+  - {ingredient: potato, prep: steamed or boiled}
+  - {ingredient: white-cabbage}
+  - {ingredient: firm-tofu}
+  - {ingredient: prawn-crackers}
+  - {ingredient: shallot}
+steps:
+- Fry prawn paste with vegetable oil until fragrant.
+- Fry the peanuts until golden brown. Remove from the pan and leave to cool, then drain off all but a little of the excess oil.
+- Grind the peanuts to a paste.
+- Add ground chili pepper, garlic, salt, sugar, and prawn paste to the peanut paste. Grind to mix.
+- Put peanut paste in a pan, add some water to dissolve (use coconut milk for a richer taste).
+- Add additional sugar into the peanut sauce to taste, and bring to the boil.
+- Simmer peanut sauce until thick, and season with the lime juice or vinegar.
+- Remove the skin from the boiled potatoes. Deep fry the potatoes until golden brown, then slice.
+- Wash, shred, or chop cabbage, spinach, and water spinach.
+- Boil water in a pan. Add cabbage, and cook until tender. Drain.
+- Use strained boiling water to boil the spinach and water spinach, one after another. Drain.
+- Blanch bean sprouts for about 30 seconds. Drain.
+- Peel chayote, wash, slice, and boil until tender.
+- Wash and slice cucumber.
+- Place the salad, sliced potatoes, fried tofu, fried tempeh, and eggs in a large plate, either randomly or in layers.
+- Pour the peanut sauce over the salad.
+- Spread deep fried shallots on top, and serve with kerupuk.
+tips:
+- Prawn crackers are non-vegetarian. You can substitute them with kerupuk sayur or emping if you wish this dish to be completely vegetarian.
+- Add some kecap manis (Malay/Indonesian sweet soy sauce) to taste.
+- You may substitute the peanut sauce recipe for the procedure here.
+- cashew nuts is secret ingredient to make peanut sauce tastes richer.
+- Some cooks like to blanche or steam the cabbage, cauliflower, and carrots rather than serve them raw.
+- Use chunky peanut butter as substitute for ground peanuts.
+- Use chili sauce to substitute fresh or dried chili pepper.
+- Cauliflower, green beans, watercress, carrots, tomatoes, or peas are sometimes included but less common.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGado-gado_%28Indonesian_Salad_with_Peanut_Sauce%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Gado-gado (Indonesian Salad with Peanut Sauce)@4582316
+    url: https://en.wikibooks.org/w/index.php?oldid=4582316
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

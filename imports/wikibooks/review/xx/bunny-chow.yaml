@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - course unknown from categories
+id: xx-bunny-chow
+title: Bunny Chow
+summary: __NOtOC__ Bunny chow is a South African street food consisting of a hollowed-out loaf of bread filled with curry. Originating in Durban, it is commonly prepared with mutton, chicken, beef, or bean curry.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- simmering
+ingredient_groups:
+- name: Curry
+  items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: ginger, unit: tsp, qty: 1}
+  - {ingredient: tomato, qty: 2, prep: chopped}
+  - {ingredient: curry-powder, unit: tbsp, qty: 2}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: beef, unit: g, qty: 500, prep: 'mutton, chicken, or mixed vegetables, cut in pieces'}
+  - {ingredient: potato, qty: 2, prep: cubed, note: medium}
+  - {ingredient: chicken-stock, unit: cup, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+- name: Serving
+  items:
+  - {ingredient: white-bread, qty: 1, prep: unsliced loaf of white bread}
+  - {ingredient: cilantro, optional: true}
+steps:
+- Heat the oil in a large pot over medium heat.
+- Add the onion and cook until softened.
+- Stir in the garlic and ginger and cook for 1 minute.
+- Add the curry powder, turmeric, and paprika. Stir until fragrant.
+- Add the meat or vegetables and cook until lightly browned.
+- Add the tomatoes and cook until softened.
+- Add the potatoes and water, and season with a little salt and pepper.
+- Simmer for 30–40 minutes, or until the meat and potatoes are tender and the sauce has thickened. Adjust the seasoning as necessary.
+- Cut the loaf of bread into halves or quarters, and remove part of the soft interior from each piece to create a cavity.
+- Fill the bread cavity generously with hot curry.
+- Garnish with coriander if desired and serve immediately.
+tips:
+- The curry may be refrigerated in an airtight container for up to 3 days. Assemble the bunny chow shortly before serving to prevent the bread from becoming soggy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABunny_Chow&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bunny Chow@4639073
+    url: https://en.wikibooks.org/w/index.php?oldid=4639073
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

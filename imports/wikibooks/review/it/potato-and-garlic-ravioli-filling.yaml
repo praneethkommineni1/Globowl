@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: it-potato-and-garlic-ravioli-filling
+title: Potato and Garlic Ravioli Filling
+summary: Potato and Garlic Ravioli Filling.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: potato, qty: 3, note: large}
+  - {ingredient: olive-oil, unit: tbsp, qty: 4}
+  - {ingredient: garlic, unit: clove, qty: 6, prep: grated with a micro plane or finely chopped}
+  - {ingredient: chives, unit: tbsp, qty: 1, prep: finely sliced}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+steps:
+- Boil the potatoes in their skins until tender when pierced with a fork.
+- Peel them as soon as they are cool enough to handle and mash in a bowl.
+- Sauté the garlic in the oil for 1 minute.
+- Add the potatoes and mix well.
+- Add the chives, lemon juice and seasoning and mix well.
+- Cover and allow to cool while you prepare the pasta dough.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APotato_and_Garlic_Ravioli_Filling&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Potato and Garlic Ravioli Filling@4516649
+    url: https://en.wikibooks.org/w/index.php?oldid=4516649
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

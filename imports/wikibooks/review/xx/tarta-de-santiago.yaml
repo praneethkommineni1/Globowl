@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Zest of 1 clementine
+#  - unmapped ingredient: 1 1/2 cup almond meal
+#  - course unknown from categories
+id: xx-tarta-de-santiago
+title: Tarta de Santiago
+summary: Tarta de Santiago is a Spanish almond cake from Galicia. It is an easy cake to make, with only 3 main ingredients, and it is well-suited for the holiday season. This cake is dusted with icing sugar, with an imprint of Santiago’s cross on its top surface.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 110
+difficulty: 2
+equipment:
+- Mixing bowl
+- Whisk
+- Rubber spatula
+- 7-inch (18 cm) springform pan
+- Oven
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 3}
+  - {ingredient: sugar, unit: cup, qty: 0.75}
+  - {ingredient: lemon}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: powdered-sugar}
+steps:
+- Add eggs and sugar to a bowl, and whisk rapidly until mixture turns pale.
+- Whisk in the citrus zests.
+- Combine the almond meal, cinnamon, and salt in a separate bowl. Transfer to the egg mixture, and use a rubber spatula to gently fold everything together until well combined.
+- Butter and flour the springform pan, then pour in the batter. Smooth the top if necessary.
+- Bake in preheated oven at 360ºF (180ºC) for 40 minutes or until golden brown and fully cooked in the center.
+- Cool completely, and unmold the cake.
+- Place a Santiago cross cut-out on top of the cake, then dust generous amount of icing sugar all over cake.
+- Carefully remove the cross cut-out. Slice and serve.
+tips:
+- One can also make an imprint of a scallop shell or no imprint at all on top of the cake.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATarta_de_Santiago&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tarta de Santiago@4516963
+    url: https://en.wikibooks.org/w/index.php?oldid=4516963
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

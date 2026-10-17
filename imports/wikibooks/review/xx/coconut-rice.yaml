@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-coconut-rice
+title: Coconut Rice
+alternate_names:
+- Indonesian
+summary: Coconut Rice.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: g, qty: 300}
+  - {ingredient: coconut-milk, unit: ml, qty: 400}
+  - {ingredient: shallot, qty: 2}
+  - {ingredient: ginger, unit: slice, qty: 2}
+  - {ingredient: ground-fenugreek, qty: 1}
+  - {ingredient: pandan-leaf, qty: 2}
+steps:
+- Rinse and drain the rice.
+- Put all ingredients in a skillet or saucepan; make sure the rice is submerged in the coconut milk by 2 cm.
+- Cover the pan and allow to cook over medium-low heat until the liquid is absorbed.
+- Remove the pandan leaves.
+- Pour the rest of the coconut milk over the rice.
+- Allow to rest for 15 minutes at room temperature, then serve.
+tips:
+- Depending on the thickness of the coconut milk, 2 deciliters coconut milk and 2 deciliters water may also be used. Also, instead of 300 grams of rice, 350 grams may be used depending on the thickness of the milk, whether or not the rice has been soaked a longtime prior to frying, personal preference, etc.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACoconut_Rice_%28Indonesian%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Coconut Rice (Indonesian)@4512915
+    url: https://en.wikibooks.org/w/index.php?oldid=4512915
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

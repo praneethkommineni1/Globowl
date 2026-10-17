@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3 cups dried beans, picked free of debris
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: tg-ewa-aganyin
+title: Ewa Aganyin
+alternate_names:
+- Togolese Mashed Beans and Special Sauce
+summary: Ewa aganyin is a popular street food eaten on the streets of Togo, although it is not only eaten by Togolese people. It has a unique and delicious taste and can be eaten with bread, garri, or fried plantain.
+origin:
+  country: TG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 4, prep: finely chopped}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: red-chili, unit: g, qty: 100, prep: soaked in warm water for at least 3 hours or preferably overnight}
+  - {ingredient: red-palm-oil}
+  - {ingredient: bouillon-cube}
+steps:
+- Put a pot on a medium heat, then add the rinsed beans, enough water to cook it, half of the finely cut onions, and salt to taste. Boil together until they become tender. This will take a while using a regular pot; if you want the cooking process to be faster, you can use a pressure cooking pot. Check regularly to avoid the beans drying out, and add water when needed.
+- While waiting for the beans to cook, start preparing the sauce below.
+- Once the beans becomes tender, mash until almost smooth.
+- Drain the soaked crushed chillies, and blend with some onions to a purée; you can add a little bit of water when blending if needed.
+- Place a clean dry pan on medium heat, pour in the palm oil, and leave to bleach for about 2 minutes. Add the remaining chopped onions and fry until the onions are brown but not burnt.
+- Add the blended pepper and cook on low heat. Once the pepper starts changing colour from bright red to brown, add salt and the bouillon cubes to taste. If you feel the sauce is soaking up the oil, you can add more palm oil, but do not add water at all. You will need to keep an eye on the sauce so that it does not get burnt, but it might get burnt a little.
+- Continue to cook on low heat until the oil floats on the top.
+- When it is fully done, serve the beans and sauce together.
+tips:
+- You can cook the sauce and the beans simultaneously, if you have more than one stove burner. If not, make do with what you have.
+- When cooking, the sauce tends to soak up the palm oil, so it is advisable you cook on low heat. Cooking the sauce requires a lot of patience because you will keep stirring it frequently; be ready to use a lot of palm oil.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEwa_Aganyin_%28Togolese_Mashed_Beans_and_Special_Sauce%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ewa Aganyin (Togolese Mashed Beans and Special Sauce)@4513606
+    url: https://en.wikibooks.org/w/index.php?oldid=4513606
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

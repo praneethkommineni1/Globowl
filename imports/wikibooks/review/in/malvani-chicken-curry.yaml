@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 8 green chillies, chopped
+#  - unmapped ingredient: 2 tsps Malvani Special Masala
+id: in-malvani-chicken-curry
+title: Malvani Chicken Curry
+summary: Kombdi vade is a Malvani dish, which is quite popular in Maharashtra.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- marinating
+- pan-frying
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: ground-ginger, unit: tbsp, qty: 2}
+  - {ingredient: garlic, unit: tbsp, qty: 2}
+  - {ingredient: chicken, unit: g, qty: 800}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: coconut, qty: 1, prep: flesh grated}
+  - {ingredient: onion, qty: 4, prep: chopped}
+  - {ingredient: red-chili, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: garam-masala, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: cilantro}
+steps:
+- Grind half of the green chillies to a paste and mix it well with the ginger and garlic pastes.
+- Make cuts on the chicken pieces, rub this mixture on to them well, and marinate for about an hour at least.
+- Toast coconut shavings in a pan with a little hot oil until light brown. Cool and grind along with half the onions to a paste.
+- Heat oil in a heavy-bottomed pan and sauté the onions on medium level for about 2 minute(s) or until they are light brown in color.
+- Add the remaining chopped green chillies and spice powders and fry for a few seconds. Add the marinated chicken pieces and fry on medium level for about 3 minutes or until they are lightly browned.
+- Add the paste and salt, then mix well. Add water according to the desired level of consistency and bring to a boil. Cover and cook on low level for about 25 minute(s) or until the chicken pieces are tender and fully cooked.
+- Garnish with finely-chopped coriander leaves.
+tips:
+- If it is difficult to obtain fresh coconut, it can be replaced by desiccated coconut shavings. For this recipe, there is no need to soak it in warm water. Roast it directly.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMalvani_Chicken_Curry&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Malvani Chicken Curry@4517550
+    url: https://en.wikibooks.org/w/index.php?oldid=4517550
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

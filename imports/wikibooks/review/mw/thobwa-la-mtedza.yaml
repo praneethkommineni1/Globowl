@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: mw-thobwa-la-mtedza
+title: Thobwa la Mtedza
+alternate_names:
+- Malawian Sesame Seed Drink
+summary: Thobwa la mtedza is a traditional Malawian drink made from sesame seeds. This nutritious and refreshing beverage is a popular choice during hot days and is enjoyed by people of all ages.
+origin:
+  country: MW
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Blender
+- Nut milk bag or fine mesh strainer
+- Frying pan or skillet
+ingredient_groups:
+- items:
+  - {ingredient: sesame-seeds, unit: cup, qty: 1}
+  - {ingredient: roasted-peanuts, unit: cup, qty: 0.25}
+  - {ingredient: honey, unit: tbsp, qty: 2}
+  - {ingredient: water, unit: cup, qty: 4}
+steps:
+- In a dry frying pan or skillet, toast the sesame seeds and peanut over medium heat. Stir them continuously to prevent burning until they turn golden brown and release their aroma.
+- Remove the pan from the heat and let the toasted seeds and peanuts cool for a few minutes.
+- In a blender, combine the toasted sesame seeds and peanuts with the water.
+- Blend the mixture until it becomes smooth and creamy.
+- Pour the mixture through a nut milk bag or fine mesh strainer into a large bowl to separate the liquid from the solids.
+- Squeeze or press the bag to extract as much liquid as possible.
+- Sweeten with the honey. Stir well to dissolve the sweetener.
+- Chill the drink in the refrigerator for at least an hour before serving.
+- Stir before serving, as it may naturally separate over time.
+tips:
+- For a creamier texture, you can add a small amount of coconut milk or cow's milk to the drink.
+- Adjust the sweetness of thobwa la mtedza by adding more or less honey or sugar, depending on your preference.
+- Some variations of this drink include adding spices like cinnamon, nutmeg, or vanilla for extra flavor.
+- Sesame seeds and peanuts are excellent sources of protein, healthy fats, and various essential nutrients, including calcium and iron.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AThobwa_la_Mtedza_%28Malawian_Sesame_Seed_Drink%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Thobwa la Mtedza (Malawian Sesame Seed Drink)@4541074
+    url: https://en.wikibooks.org/w/index.php?oldid=4541074
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

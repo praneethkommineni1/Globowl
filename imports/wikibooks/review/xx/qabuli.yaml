@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-qabuli
+title: Qabuli
+alternate_names:
+- Central Asian Rice Pilaf
+summary: Qabuli.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: chickpeas-canned, unit: g, qty: 500}
+  - {ingredient: salt}
+  - {ingredient: red-bell-pepper}
+  - {ingredient: ginger-garlic-paste, unit: tsp, qty: 0.5}
+  - {ingredient: long-grain-rice, unit: kg, qty: 1}
+  - {ingredient: shortening}
+  - {ingredient: onion, qty: 3, prep: chopped}
+  - {ingredient: chili-powder}
+  - {ingredient: tomato-paste}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.25}
+  - {ingredient: cilantro, unit: cup, qty: 0.5}
+  - {ingredient: red-chili, qty: [4, 5], prep: cut in half}
+steps:
+- Soak the chickpeas for half an hour.
+- Boil the chickpeas with salt, red pepper, and ginger garlic paste. Be mindful that after the chickpeas have been cooked, there should not be any water remaining.
+- If there is water remaining, continue cooking until the water has been mostly absorbed.
+- In the meantime, bring the rice to a full boil. Reduce heat to a minimum and cover. Allow to cook for 8–10 minutes, then turn off the heat and allow to rest for a similar amount of time.
+- Also, in the meantime, heat some shortening in a pan. Fry the onions until they are light brown, then add tomato paste, salt, red chile powder, and turmeric powder.
+- Arrange the fried onion with the spices, boiled chickpeas, and rice in a large serving dish pot.
+- Garnish with chopped cilantro and green chillies and serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AQabuli_%28Central_Asian_Rice_Pilaf%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Qabuli (Central Asian Rice Pilaf)@4515561
+    url: https://en.wikibooks.org/w/index.php?oldid=4515561
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

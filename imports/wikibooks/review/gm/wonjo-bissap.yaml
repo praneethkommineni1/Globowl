@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 cups dried hibiscus petals
+#  - unmapped ingredient: Juice of 1–2 fresh lemons
+#  - unmapped ingredient: Ice cubes
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gm-wonjo-bissap
+title: Wonjo Bissap
+alternate_names:
+- Gambian Hibiscus Beverage
+summary: Wonjo bissap is a refreshing traditional drink popular in Gambia, made from the vibrant petals of the hibiscus flower. Also known as hibiscus tea or sorrel drink, it is enjoyed for its tangy flavor and bright red color.
+origin:
+  country: GM
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+equipment:
+- Large pot
+- Wooden spoon or spatula
+- Fine mesh strainer or cheesecloth
+- Pitcher or jug
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 8}
+  - {ingredient: sugar, unit: cup, qty: 1}
+steps:
+- In a large pot, bring the water to a boil.
+- Add the dried hibiscus petals to the boiling water and remove the pot from heat.
+- Let the petals steep in the water for about 20–30 minutes, allowing them to release their flavor and color.
+- Strain the liquid through a fine mesh strainer or cheesecloth, removing the hibiscus petals and collecting the infused liquid in a pitcher or jug.
+- While the liquid is still warm, stir in the sugar until it dissolves completely. Adjust the amount of sugar according to your desired sweetness.
+- Allow the liquid to cool to room temperature, and then refrigerate it for a few hours or until chilled.
+- Once chilled, you can add the freshly squeezed lemon juice for an extra tangy flavor, if desired.
+- Serve the wonjo bissap over ice cubes in glasses.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AWonjo_Bissap_%28Gambian_Hibiscus_Beverage%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Wonjo Bissap (Gambian Hibiscus Beverage)@4510293
+    url: https://en.wikibooks.org/w/index.php?oldid=4510293
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

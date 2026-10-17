@@ -1,0 +1,83 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-coconut-cream-filled-cake-with-meringue
+title: Coconut Cream Filled Cake with Meringue
+alternate_names:
+- Bienmesabe
+summary: This popular and tasty dessert recipe is from the original contributor's grandmother.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 10
+time:
+  total_min: 1
+difficulty: 4
+techniques:
+- boiling
+- whisking
+ingredient_groups:
+- name: Cake
+  items:
+  - {ingredient: egg, qty: 3, note: large}
+  - {ingredient: sugar, unit: cup, qty: 0.5}
+  - {ingredient: self-rising-flour, unit: cup, qty: 0.5}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+- name: Coconut cream filling
+  items:
+  - {ingredient: milk, unit: cup, qty: 2}
+  - {ingredient: sugar, unit: cup, qty: 1.5}
+  - {ingredient: coconut-milk, unit: cup, qty: 2}
+  - {ingredient: egg-yolk, qty: 4, note: large}
+  - {ingredient: coconut, unit: cup, qty: 0.75, prep: shredded coconut}
+  - {ingredient: cornstarch, unit: cup, qty: 0.333}
+- name: Cake syrup
+  items:
+  - {ingredient: coconut-milk, unit: cup, qty: 0.5}
+  - {ingredient: rum, unit: cup, qty: 0.25}
+- name: Meringue
+  items:
+  - {ingredient: egg-white, qty: 4, note: large}
+  - {ingredient: sugar, unit: tbsp, qty: 12}
+steps:
+- Preheat the oven to 350°F. Butter a 9 x 13-inch cake pan.
+- In the bowl of an electric mixer, beat the eggs and sugar until pale and fluffy.
+- Add the flour, baking powder, and vanilla extract; mix until just combined.
+- Transfer the batter to the prepared pan. Bake 30–35 minutes at 350°F or until a toothpick inserted in the center tests clean.
+- Cool cake completely on a wire rack. Meanwhile, make coconut cream filling.
+- In a large bowl, whisk together sugar, coconut milk, yolks, shredded coconut, and cornstarch.
+- In a large saucepan, combine milk and remaining 1 cup sugar; heat over medium until sugar dissolves and milk is steaming.
+- Gradually whisk the hot milk into egg mixture; return the custard mixture to the saucepan.
+- Cook, stirring, until custard thickens, 3 to 4 minutes.
+- Pour the custard into a heat-proof bowl. Cover the surface directly with plastic wrap. Set aside to cool completely, about 1 hour (or up to overnight in the refrigerator).
+- While coconut cream and cake cool, make cake syrup.
+- Combine water and sugar in a medium saucepan; bring to a boil.
+- Transfer to a bowl with coconut milk and rum; stir to combine.
+- Combine sugar and water in a small saucepan and bring to a boil. Boil, stirring to dissolve the sugar, for 4 minutes.
+- In the bowl of an electric mixer, beat the egg whites and remaining 1 tablespoon sugar.
+- With the motor running, gradually beat in the syrup mixture in a slow, steady stream.
+- Preheat the oven to 400°F.
+- Use a serrated knife to cut cake horizontally into 2 layers.
+- Brush the bottom layer with syrup and spread with coconut cream.
+- Add the second cake layer and repeat with syrup and coconut cream.
+- Spread the meringue over the cake.
+- Transfer the cake to the oven for 2 to 3 minutes or until the meringue is toasted.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACoconut_Cream_Filled_Cake_with_Meringue_%28Bienmesabe%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Coconut Cream Filled Cake with Meringue (Bienmesabe)@4522444
+    url: https://en.wikibooks.org/w/index.php?oldid=4522444
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

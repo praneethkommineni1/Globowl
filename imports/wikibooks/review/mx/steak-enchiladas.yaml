@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/4 cup malt vinegar
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: mx-steak-enchiladas
+title: Steak Enchiladas
+summary: Tender, juicy, marinated steak rolled with Monterrey Jack cheese sauce in a corn tortilla, baked and topped with more cheese sauce and green chile sauce.
+origin:
+  country: MX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- boiling
+- simmering
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: beef, qty: 1, prep: cut into 2 equal pieces and 1 smaller piece}
+  - {ingredient: olive-oil, unit: cup, qty: 0.5}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: chipotle-in-adobo, qty: 4}
+  - {ingredient: chipotle-in-adobo, unit: cup, qty: 0.25}
+  - {ingredient: lime}
+  - {ingredient: monterey-jack, unit: g, qty: 142}
+  - {ingredient: red-chili, qty: 4, prep: minced}
+  - {ingredient: tortilla, qty: 24}
+  - {ingredient: butter, unit: tbsp, qty: 3}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 3}
+steps:
+- Combine oil, lime, chipotles, adobo, salt, pepper, and cumin in a blender. Pour into a gallon size zip-top bag and add steak. Refrigerate for at least 1 hour.
+- Heat a charcoal grill, but use a chimney or else you will have a solvent flavored steak. Ditch the grate and place the steak right on the coals and cook 60 seconds per side for medium rare.
+- Remove and wrap tightly with aluminum foil. Keep warm.
+- Meanwhile, purée the chiles with the vinegar in a blender until smooth. Pour into a large saucepan and bring to a boil over medium high heat until reduced by ⅓. Keep warm over low heat.
+- Melt butter in a saucier over medium heat. Cook until bubbling ceases. Add the flour and whisk continuously until it looks like blonde library paste.
+- Melt in cheese. Heat to just below a simmer then reduce heat to low and cook until slightly thickened. Set aside.
+- Slice steak as thinly as possible across the grain. Place a nice handful into each tortilla and top with some cheese sauce. Roll and place seam side down on a parchment-lined sheet pan. Repeat until all tortillas have been used up. While you're at it, eat any remaining steak.
+- Pour remaining cheese sauce evenly over the tortillas and bake at 375°F for 45 minutes or until browned and bubbly on top. Remove to serving platters.
+- Drizzle the chile purée over each enchilada and serve warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASteak_Enchiladas&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Steak Enchiladas@4517671
+    url: https://en.wikibooks.org/w/index.php?oldid=4517671
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

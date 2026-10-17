@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 cups dried yanrin
+#  - unmapped ingredient: 1 tablespoon ground pepper soup spice
+#  - unmapped ingredient: A handful of scent leaves or basil leaves
+#  - course unknown from categories
+id: ng-nigerian-yanrin
+title: Nigerian Yanrin
+summary: Yanrin is a traditional Yoruba delicacy made from tiny freshwater crustaceans that resemble miniature crayfish or shrimp. It is especially associated with riverine communities in southwestern Nigeria and is considered both a soup ingredient and a protein-rich side dish.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4-8
+time:
+  total_min: 60
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: onion, qty: 1, prep: sliced, note: medium}
+  - {ingredient: black-pepper, qty: 3}
+  - {ingredient: bouillon-cube, qty: 2}
+  - {ingredient: crayfish, unit: tbsp, qty: 1}
+  - {ingredient: iru, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: water, unit: cup, qty: 6}
+  - {ingredient: red-palm-oil, unit: tbsp, qty: 2, optional: true}
+steps:
+- Rinse the yanrin thoroughly several times to remove sand.
+- Blend or pound the peppers roughly.
+- Put water, onions, peppers, seasoning, spice, and iru into a pot.
+- Bring to a boil for about 10 minutes.
+- Add the yanrin and cook for another 10–15 minutes.
+- Add scent leaves last.
+- Taste and adjust salt/spices.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Yanrin&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Yanrin@4635394
+    url: https://en.wikibooks.org/w/index.php?oldid=4635394
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

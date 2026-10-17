@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 dash Mexican seasoning
+#  - unmapped ingredient: Corn tortilla chips
+#  - no time in recipe summary
+id: mx-simple-nachos
+title: Simple Nachos
+summary: Simple Nachos.
+origin:
+  country: MX
+course: starter
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–12
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 454}
+  - {ingredient: tomato, unit: can, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 2}
+  - {ingredient: sour-cream, unit: tbsp, qty: 2}
+steps:
+- In a skillet, brown ground beef with Mexican seasoning and Taco Mix.
+- When beef is browned add the can of diced tomatoes with green chiles, cover and allow to simmer an additional 5 minutes.
+- Put tortilla chips on a large plate. Place 2 tablespoons of sour cream on plate. Sprinkle beef and diced tomato mixture over top of the chips.
+- Serve and enjoy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASimple_Nachos&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Simple Nachos@4510918
+    url: https://en.wikibooks.org/w/index.php?oldid=4510918
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - course unknown from categories
+#  - possible duplicate of hand-written recipe es-tortilla-de-patatas — merge or keep as a variant
+id: es-spanish-potato-omelette
+title: Spanish Potato Omelette
+summary: Tortilla de patatas is considered by some the most typically Spanish dish, and is locally known as "Tortilla española" (Spanish omelette). Is frequently served in any bar as a tapa. It can also be cooked without onions.
+origin:
+  country: ES
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 20
+difficulty: 3
+equipment:
+- Skillet
+- Dish bigger than the skillet
+- Bowl
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 8}
+  - {ingredient: potato, unit: kg, qty: 1}
+  - {ingredient: onion, qty: 1}
+  - {ingredient: olive-oil, unit: ml, qty: 500}
+  - {ingredient: salt, unit: pinch, qty: 1}
+steps:
+- Peel the potatoes, wash them, and dry them with a cloth. Cut them into 1 cm cubes or 2 mm slices. Wash and dry them again. Add some salt to your taste and mix them.
+- Heat the oil; when hot, fry the potatoes, but do not let them get brown. Once they're done, drain the oil and store the potatoes.
+- Dice or slice the onion; fry it until it is translucent.
+- Beat the 8 eggs in a bowl with a small amount of salt until the mix is homogenous. Then, mix in the potatoes and the onion.
+- Heat 3 tablespoons of olive oil in an empty pan – you can use the previous pan after removing most of the oil.
+- Once the pan is hot, add the egg with the onion and the potatoes.
+- After 7–8 minutes, the bottom part should be done. Put the dish over the pan and carefully turn it around so that the undone part rests on the dish. This is the most difficult step of the recipe. After that, put the pan on the fire again and slowly slide the mix into the pan to cook the other side.
+- After a couple of additional minutes, it should be done and ready to serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASpanish_Potato_Omelette&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Spanish Potato Omelette@4500599
+    url: https://en.wikibooks.org/w/index.php?oldid=4500599
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

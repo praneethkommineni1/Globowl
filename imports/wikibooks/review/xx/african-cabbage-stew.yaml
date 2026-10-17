@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-african-cabbage-stew
+title: African Cabbage Stew
+summary: This is a delicious and nutritious stew. It is very easy to prepare and does not require any special skills, although preparing it can take a lot of time.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 2, prep: neatly chopped}
+  - {ingredient: garlic, qty: 4, prep: minced}
+  - {ingredient: celery, qty: 3, prep: minced}
+  - {ingredient: white-cabbage, qty: 1, prep: neatly cut}
+  - {ingredient: potato, qty: 2, prep: neatly cut}
+  - {ingredient: carrot, qty: 3, prep: neatly chopped}
+  - {ingredient: italian-seasoning, unit: tsp, qty: 2}
+  - {ingredient: onion-powder, unit: tsp, qty: 2}
+  - {ingredient: garlic-powder, unit: tsp, qty: 2}
+  - {ingredient: bouillon-cube, unit: tbsp, qty: 3}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: water, unit: cup, qty: [1, 2]}
+steps:
+- Heat the avocado oil in a large saucepan over a medium heat. Add the neatly chopped onions and cook until tender for about 2 minutes.
+- Stir in the garlic and celery and cook until fragrant.
+- Add the cabbage, potatoes, carrots, Italian seasonings, onion powder, garlic powder, bouillon cubes, smoked paprika, and water. Cover the saucepan and bring to a boil.
+- Reduce the heat and let simmer for about 20 minutes.
+- Check the seasonings and adjust where necessary.
+- Remove and serve warm with any complimentary dish of your choice.
+tips:
+- For this recipe, you can purchase any type of cabbage, but the red cabbage is preferred because it adds a nice colour to the dish and pairs well with other vegetables.
+- Make sure that the cabbage is fresh and free from any brown leaves or holes.
+- Leftovers can be stored in an airtight container in the refrigerator for up to 3 days. If you would prefer to reheat, simply put the leftover in a saucepan over low heat and cook until warmed through. You can also reheat the leftover in the microwave.
+- You can decide to add other ingredients that suites your taste to this recipe, such as cooked beans if you want some extra proteins.
+- For a variety of ingredients you can use any type of vegetables while cooking such as kale leaves, mushrooms and spinach to boost the nutrients in the meal.
+- If you are a spice lover you might want to include some curry powder, chilli pepper, cumin, fresh herbs like rosemary or thyme, and cayenne pepper.
+- If you would like your vegetables to be more tender, you may decide to cook them for a longer period of time but don't overcook bit so that the vegetables will not lose their nutrients.
+- You can boil some potatoes and mash them into the stew, which will help to thicken the stew.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAfrican_Cabbage_Stew&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:African Cabbage Stew@4518569
+    url: https://en.wikibooks.org/w/index.php?oldid=4518569
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

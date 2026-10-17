@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 100 g assorted raw nuts
+#  - unmapped ingredient: 10 rolls of either Arabic village bread or spring roll pastry
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+#  - duplicate of hand-written recipe ps-musakhan
+id: ps-musakhan
+title: Musakhan
+alternate_names:
+- Palestinian Spiced Chicken
+summary: Musakhan is a Palestinian dish of spiced chicken flavored with sumac and served with bread.
+origin:
+  country: PS
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- deep-frying
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: g, qty: 200}
+  - {ingredient: onion, unit: g, qty: 300}
+  - {ingredient: sumac, unit: g, qty: 100}
+  - {ingredient: black-pepper}
+  - {ingredient: white-pepper}
+  - {ingredient: salt}
+steps:
+- Fry the chicken with the onion.
+- Add the salt and the peppers before the chicken is done, and add the sumac 5 minutes from the end of cooking.
+- Fry the raw nuts until they are golden. Add them to the chicken and onions
+- Roll the mixture in the spring roll pastry, and deep fry them.
+- Take the spring rolls out of the oil and let them dry on cooking paper.
+- Serve them hot or cold.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMusakhan_%28Palestinian_Spiced_Chicken%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Musakhan (Palestinian Spiced Chicken)@4497364
+    url: https://en.wikibooks.org/w/index.php?oldid=4497364
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

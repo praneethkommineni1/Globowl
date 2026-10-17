@@ -1,0 +1,112 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 200–300 ml lukewarm water
+#  - unmapped ingredient: 1 pack vanilla sugar
+#  - unmapped ingredient: Grated lemon peel
+#  - unmapped ingredient: 2 eggs or 3 egg yolks, mixed well
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: si-prekmurska-gibanica
+title: Prekmurska Gibanica
+alternate_names:
+- Slovenian Layered Strudel Cake
+summary: Prekmurska gibanica is a pastry similar to Strudel, with poppy seeds, curd cheese, walnuts, and apples. It is a national specialty of Slovenia.
+origin:
+  country: SI
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 4
+equipment:
+- A fireproof earthenware baking mould (preferably round, diameter 32–35 cm, height 7–9 cm)
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- name: Strudel dough
+  items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 500}
+  - {ingredient: sunflower-oil, unit: g, qty: 40}
+  - {ingredient: salt}
+- name: Short pastry dough (base)
+  items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 150}
+  - {ingredient: butter, unit: g, qty: 100}
+  - {ingredient: egg-yolk, qty: 1}
+  - {ingredient: powdered-sugar, unit: g, qty: 50}
+  - {ingredient: vanilla-extract, qty: 1}
+- name: Walnut filling
+  items:
+  - {ingredient: walnuts, unit: g, qty: 250}
+  - {ingredient: sugar, unit: g, qty: 80}
+  - {ingredient: ground-cinnamon}
+  - {ingredient: lemon}
+- name: Curd cheese filling
+  items:
+  - {ingredient: raisins, unit: g, qty: 80}
+  - {ingredient: rum}
+  - {ingredient: twarog, unit: g, qty: 1000}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: sugar, unit: g, qty: 100}
+  - {ingredient: salt}
+- name: Poppy seed filling
+  items:
+  - {ingredient: poppy-seeds, unit: g, qty: 150}
+  - {ingredient: sugar, unit: g, qty: 80}
+  - {ingredient: ground-cinnamon}
+- name: Apple filling
+  items:
+  - {ingredient: apple, unit: kg, qty: 1}
+  - {ingredient: sugar, unit: g, qty: 100}
+  - {ingredient: ground-cinnamon}
+- name: Assembly
+  items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: sour-cream, unit: ml, qty: 700}
+  - {ingredient: butter, unit: g, qty: 250, prep: cut in very small cubes}
+steps:
+- Sift the flour onto a working surface, and make a well in the middle. Add a pinch of salt, oil, and water, and mix everything together.
+- Knead for about 10 minutes until the dough is smooth and elastic.
+- Shape the dough into a ball, coat with oil, cover, and leave to rest for 30 minutes on a floured board.
+- Sift the flour onto a working surface, and make a well in the middle.
+- Add the butter, sugar, egg yolk, and vanilla sugar. Knead together quickly.
+- Thoroughly combine ground walnuts, sugar, vanilla sugar, and cinnamon.
+- Soak the raisins in rum until softened.
+- Mash the curd cheese. Thoroughly mix in the egg, vanilla sugar, sugar, some salt, and grated lemon peel until the filling spreads nicely.
+- Mix in the softened raisins.
+- Thoroughly combine the ground poppy seeds, sugar, vanilla sugar, cinnamon, and grated lemon peel.
+- Peel and slice the apples.
+- Mix the apples with sugar and cinnamon.
+- Combine the sour cream and eggs.
+- Grease the baking mould well. Roll out the short pastry dough and line the base of the baking mould with it, then prick it gently with a fork.
+- Stretch the strudel dough out, and brush it with oil.
+- Pull the strudel though thinly over the baking mould so that the thick edges hang down over the mould. Cut off the edges to make 8 equal-sized sheets of strudel dough.
+- Place the first sheet of strudel dough on the short pastry dough, then spread with some poppy seed filling. Spread some of the sour cream mixture on top, and dot with a few pieces of butter.
+- Place the second sheet of strudel pastry on top, spread with some curd cheese filling, and top with sour cream mixture and some butter pieces as previously.
+- Cover with the next sheet of strudel dough, spread with some walnut filling, and again top with sour cream mixture and butter.
+- Add the fourth sheet of strudel dough, spread with the apple filling, and top with sour cream mixture and butter. The gibanica is now half-assembled.
+- Repeat steps 5 through 8 until you end up with 8 uniform layers.
+- Cover with a sheet of strudel dough and pull it over the edge of the baking mould. Top with butter and sour cream mixture.
+- Prick the gibanica with a long needle. Bake in a pre-heated oven at 175°C for about 75 minutes.
+- Coat with sour cream and allow it to cool a little.
+- Cut into triangles, sprinkle with icing sugar and serve.
+tips:
+- You can also assemble the individual layers of the gibanica in a different order. The only important point is that moist (curd cheese, apple) and drier (poppy seed, walnut) fillings should alternate.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APrekmurska_Gibanica_%28Slovenian_Layered_Strudel_Cake%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Prekmurska Gibanica (Slovenian Layered Strudel Cake)@4587216
+    url: https://en.wikibooks.org/w/index.php?oldid=4587216
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 unbaked 9-inch pie shell
+#  - unmapped ingredient: Whipped cream
+id: us-pumpkin-pie
+title: Pumpkin Pie
+summary: Serve your pumpkin pie warm or cold, topped with whipped cream or not!
+origin:
+  country: US
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 120
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: sugar, unit: cup, qty: 0.75}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+  - {ingredient: ground-ginger, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cloves, unit: tsp, qty: 0.25}
+  - {ingredient: egg, qty: 2, note: large}
+  - {ingredient: butternut-squash, unit: can, qty: 1}
+  - {ingredient: condensed-milk, unit: can, qty: 1}
+steps:
+- Preheat oven to 425°F (210°C)
+- Mix sugar, salt, cinnamon, ginger, and cloves in small bowl. Beat eggs in large bowl; stir in pumpkin and sugar spice mixture. Gradually stir in evaporated milk.
+- Pour into the unbaked pie shell.
+- Bake at 425°F (210°C) for 15 minutes. Reduce temperature to 350°F (180°C), and bake for 40–50 minutes or until knife inserted near center come out clean.
+- Cool on wire rack for 2 hours.
+- Top with whipped cream before serving.
+tips:
+- Make the filling ahead, if you wish, but pour it into the pie shell just before baking to keep the crust crisp.
+- The baking instructions start with a high oven temperature, then direct you to reduce the heat partway through baking. This is an important step which allows the crust time to crisp.
+- Insert a knife near but not exactly in the center of the pie to test for doneness, as the center will still cook after you take the pie out of the oven.
+- 1¾ teaspoons pumpkin pie spice may be substituted for the cinnamon, ginger, and cloves; however, the taste will be slightly different.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APumpkin_Pie_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pumpkin Pie II@4587340
+    url: https://en.wikibooks.org/w/index.php?oldid=4587340
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

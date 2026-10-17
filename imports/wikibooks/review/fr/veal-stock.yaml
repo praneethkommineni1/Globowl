@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 lb veal shin bones, sawn into 2-inch lengths
+#  - unmapped ingredient: 1 lb veal marrow bones
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: fr-veal-stock
+title: Veal Stock
+summary: Veal Stock.
+origin:
+  country: FR
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: veal, unit: g, qty: 2268, prep: sawn into 2-inch lengths}
+  - {ingredient: chicken, unit: g, qty: 907}
+  - {ingredient: onion, unit: g, qty: 227, prep: in medium dice}
+  - {ingredient: carrot, unit: g, qty: 113, prep: peeled and in medium dice}
+  - {ingredient: celery, unit: g, qty: 113, prep: sliced}
+  - {ingredient: leek, unit: g, qty: 113, prep: sliced and washed thoroughly}
+  - {ingredient: garlic, qty: 1, prep: crushed, note: large}
+  - {ingredient: parsley, unit: sprig, qty: 10, prep: bruised}
+  - {ingredient: thyme, unit: sprig, qty: 2}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: black-peppercorns, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: tomato, qty: 2, prep: 'peeled, seeded, juiced, and diced', note: medium}
+  - {ingredient: tomato-paste, unit: cup, qty: 0.5}
+steps:
+- Put the veal and chicken bones into a stock pot, and add enough water to cover the bones by 2 inches.
+- Bring to a simmer over medium heat, and skim off any scum as it forms. Simmer for 30 minutes—do not boil.
+- Add the vegetables and seasonings and simmer for 6 to 8 hours.
+- Remove the bones with tongs or a spider and strain into another container. Rinse the pot.
+- Strain the stock back into the stock pot through a double layer of damp cheesecloth.
+- Place the pot in a sink of cold water and allow to cool. Refrigerate.
+- Remove from the refrigerator and lift off the layer of fat.
+- Divide into suitably sized portions and freeze.
+- Brown the bones and vegetables in a 400°F (180°C) oven in 2 tablespoons of butter, turning from time to time. Do not allow them to burn.
+- Add bones and vegetables to the stock pot, then deglaze the browning pan with water, and add it to the pot.
+- Simmer for 30 minutes, removing scum as it forms.
+- Add the tomato and the tomato purée and proceed with the recipe as above.
+tips:
+- If the stock is not frozen it may be kept covered in the refrigerator for 3–4 days.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AVeal_Stock&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Veal Stock@4494400
+    url: https://en.wikibooks.org/w/index.php?oldid=4494400
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

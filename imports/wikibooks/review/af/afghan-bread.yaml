@@ -1,0 +1,41 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no ingredient lines parsed
+id: af-afghan-bread
+title: Afghan Bread
+summary: Afghan bread or Nan-i-Afghani is the national bread of Afghanistan. It is a flatbread and can be oval or rectangular. It is baked in a tandoor, the primary cooking equipment of the sub-continent region.
+origin:
+  country: AF
+course: bread
+authenticity: unassessed
+yield:
+  servings: 8
+  amount: 8 pieces
+time:
+  total_min: 150
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Mix ½ cup water, yeast, and sugar. Let it sit for 10 minutes until foamy.
+- Place flour in a mixing bowl and sprinkle in the salt. Make a well, then add oil and yeast mixture. Stir in add small amounts of the remaining water until it forms a soft dough that can be moulded. Knead for 5 mins. Cover with paper and let rise for 1½ hours.
+- Mix together the egg yolk and 1 tablespoon of water to make egg wash. Set aside.
+- Divide dough into eight parts and roll each into a ball. Roll each bread into an oval shape 20 cm long and 5 cm thick.
+- Make lines in top of dough. Brush on egg wash, and sprinkle with black cumin seeds.
+- Bake in a preheated 350°F (175°C) oven for 25 mins. Total cooking time is around 2½ hours.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAfghan_Bread&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Afghan Bread@4657899
+    url: https://en.wikibooks.org/w/index.php?oldid=4657899
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

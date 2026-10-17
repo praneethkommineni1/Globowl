@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 250 g white crustless bread, finely diced
+id: at-cheese-dumplings
+title: Cheese Dumplings
+summary: Cheese dumplings (kaspressknödel) are a typical Austrian dish, originally eaten by farmers throughout Austria. Bread, potatoes, and flour were used for the dough. In addition eggs, butter, left-over meats, bacon, or fruits from the garden were used to fill them.
+origin:
+  country: AT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 12
+difficulty: 2
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: ml, qty: 250}
+  - {ingredient: egg, qty: [2, 3]}
+  - {ingredient: cheese, unit: g, qty: 250}
+  - {ingredient: butter, unit: g, qty: 50}
+  - {ingredient: onion, qty: 1, prep: thinly-sliced}
+  - {ingredient: salt, unit: pinch, qty: 1, prep: 'pepper, parsley, and caraway seeds'}
+  - {ingredient: all-purpose-flour}
+steps:
+- Mix the eggs with the milk.
+- Soak the white bread in the egg mixture. Knead and then let it rest.
+- Brown the onions with the butter in a pan.
+- Add the cooked onions, salt, pepper, parsley, caraway seeds, and grated cheese to the white bread. Add the flour and let the mixture rest for a further 10 minutes.
+- Form dumplings that are approximately the size of a golf ball, then press them flat (about 2–3 cm / 0.8–1.2 inch thick). Forming them is easiest when your hands are slightly wet.
+- Heat some butter or oil in a pan, and put in the pressed cheese dumplings. Cook them on one side and then the other until golden brown.
+- Place the dumplings on a paper towel to absorb the excess fat.
+- Serve the dumplings in a beef broth, with sauerkraut or a green salad. Enjoy!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACheese_Dumplings&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cheese Dumplings@4522783
+    url: https://en.wikibooks.org/w/index.php?oldid=4522783
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

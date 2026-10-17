@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-spaghetti-sauce
+title: Spaghetti Sauce
+summary: This is a simple spaghetti sauce that works well for everyday meals, even with picky eaters. It is best served hot at the table, to be poured over lightly-cooked pasta. Shredded mozzarella cheese may be added on top.
+origin:
+  country: IT
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: tomato-paste, unit: g, qty: 822}
+  - {ingredient: dried-oregano, unit: tsp, qty: 1}
+  - {ingredient: basil, unit: tsp, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: mushroom, optional: true}
+  - {ingredient: beef}
+steps:
+- For more efficient use of the herbs, you should grind them well with the salt. The salt helps to grind the herbs. If you skip this step, increase the amount of herbs. Also double the herbs if you prefer.
+- Mix everything in a pot.
+- Bring to a boil while stirring to prevent the sauce from burning to the bottom of the pan.
+- Immediately remove from the heat and serve. Hot tomato products lose tomato flavor, so don't delay.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASpaghetti_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Spaghetti Sauce@4610528
+    url: https://en.wikibooks.org/w/index.php?oldid=4610528
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 large water yam
+#  - unmapped ingredient: 500 g assorted fish
+#  - no procedure steps
+#  - course unknown from categories
+id: xx-ikokore
+title: Ikokore
+summary: Ikokore is a traditional Nigerian dish native to the Ijebu and Ilaje communities of southwestern Nigeria, particularly in Ondo State. It is prepared from grated water yam cooked in a richly seasoned broth containing fish, seafood, palm oil, and spices.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3-4 servings
+time:
+  total_min: 120
+difficulty: 3
+equipment:
+- Grater
+- Knife
+- Chopping board
+- Mixing bowl
+- Large cooking pot
+- Wooden spoon
+- Measuring cups and spoons
+- Colander or sieve
+- Stove or other heat source
+ingredient_groups:
+- items:
+  - {ingredient: crayfish, unit: cup, qty: 1}
+  - {ingredient: red-palm-oil, unit: cup, qty: 0.5}
+  - {ingredient: black-pepper, unit: tbsp, qty: [2, 3]}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: bouillon-cube, qty: [2, 3]}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: chicken-stock, unit: cup, qty: 4}
+  - {ingredient: shrimp, optional: true}
+steps:
+- (missing)
+tips:
+- Some versions include crab, prawns, or other seafood.
+- Smoked fish may be used in place of fresh fish.
+- Additional peppers can be added for a spicier dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIkokore&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ikokore@4639597
+    url: https://en.wikibooks.org/w/index.php?oldid=4639597
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

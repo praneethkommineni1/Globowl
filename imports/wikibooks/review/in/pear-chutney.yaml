@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 4 1/2 lb firm ripe pears
+#  - unmapped ingredient: 1 cup crystallised ginger, cut small
+#  - unmapped ingredient: 1/2 cup liquid pectin
+#  - no time in recipe summary
+id: in-pear-chutney
+title: Pear Chutney
+summary: Pear chutney is served as a side dish for many Indian foods. It can be mild to extra hot depending on the individual preference.
+origin:
+  country: IN
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3 pints (approximately seven 5-inch jars)
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: red-chili, qty: 1, note: large}
+  - {ingredient: raisins, unit: cup, qty: 1.5}
+  - {ingredient: sugar, unit: cup, qty: 4}
+  - {ingredient: white-vinegar, unit: cup, qty: 3}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: ground-cloves, unit: tsp, qty: 0.25}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.5}
+  - {ingredient: nutmeg, unit: tsp, qty: 0.25}
+  - {ingredient: allspice, unit: tsp, qty: 0.25}
+  - {ingredient: bay-leaf, qty: 6}
+steps:
+- Pare, core, and slice pears.
+- Chop pepper finely.
+- Mix pears, pepper, raisins, sugar, crystallised ginger, white vinegar, salt, and water in a pot.
+- Use string to tie spices in a cheesecloth bag and add to pears
+- Simmer mixture until thick, about 2 hours.
+- Remove spice bag.
+- Add liquid pectin and boil for 1 minute.
+- Pour immediately into hot, sterilised jars, and seal straight away.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APear_Chutney&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pear Chutney@4508266
+    url: https://en.wikibooks.org/w/index.php?oldid=4508266
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

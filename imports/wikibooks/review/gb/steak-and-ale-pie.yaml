@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+id: gb-steak-and-ale-pie
+title: Steak and Ale Pie
+summary: Steak and Ale Pie.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 120
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 900, prep: at room temperature}
+  - {ingredient: vegetable-oil}
+  - {ingredient: onion, qty: 1, prep: peeled and diced, note: medium}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 1}
+  - {ingredient: worcestershire-sauce}
+  - {ingredient: thyme, unit: handful, qty: 1, prep: marjoram and chopped parsley}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 1}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: chicken-stock, unit: ml, qty: 150}
+  - {ingredient: beer, unit: ml, qty: 125}
+  - {ingredient: puff-pastry}
+steps:
+- Cut the beef into cubes about square.
+- Heat oil in a saucepan and fry the onion, without letting it colour.
+- Add beef, making sure the meat is at room temperature first, and cook until medium brown.
+- Stir in the flour and cook until dark brown (about 1 minute)
+- Add Worcestershire sauce, thyme, marjoram, mustard, bay leaf and seasoning.
+- Slowly add beef stock and ale, then bring to the boil.
+- Simmer gently until beef is almost tender, approximately 1 ½ hours.
+- Preheat oven to .
+- Remove meat from heat, skim off any fat, adjust seasoning and add fresh chopped parsley.
+- Place in pie dish or individual dishes. Cover pie dish (or dishes) with the pastry and trim edges.
+- Bake for 20–25 minutes or until pastry is well-risen and golden brown.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASteak_and_Ale_Pie&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Steak and Ale Pie@4613702
+    url: https://en.wikibooks.org/w/index.php?oldid=4613702
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

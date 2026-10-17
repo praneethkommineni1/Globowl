@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Moi-moi leaves, cleaned
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-ebiripo
+title: Ebiripo
+alternate_names:
+- Nigerian Mashed Taro
+summary: Ebiripo is an Ijebu dish of mashed cocoyam. It is often eaten with egusi soup or pepper sauce, but you can eat it with any soup of your choice.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Grater or blender
+- Cooking pot
+- Knife
+- Bowl
+- Steamer
+techniques:
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: taro, prep: peeled}
+  - {ingredient: salt}
+  - {ingredient: black-pepper, optional: true}
+  - {ingredient: water}
+steps:
+- Wash the cocoyam thoroughly with salt and water. Grate or blend it into a paste.
+- Season the paste with salt and pepper, and mix well.
+- Scoop the paste into the moi-moi leaves, and wrap them to seal in the mixture.
+- Place a pot on medium heat, and arrange the wrapped parcels in the pot. Add a small amount of water to the pot.
+- Cover the pot, and cook over medium heat for about an hour to steam the ebiripo.
+- Remove, and serve with egusi soup, pepper sauce, or palm oil.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEbiripo_%28Nigerian_Mashed_Taro%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ebiripo (Nigerian Mashed Taro)@4638634
+    url: https://en.wikibooks.org/w/index.php?oldid=4638634
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

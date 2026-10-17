@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+#  - course unknown from categories
+id: al-tirana-fergese-with-veal
+title: Tirana Fërgesë with Veal
+summary: Fërgesë of Tirana with veal (Fergesë e Tiranës me Mish Viçi) is an Albanian dish.
+origin:
+  country: AL
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: veal, unit: g, qty: 454, prep: cubed}
+  - {ingredient: feta, unit: g, qty: 227}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 1}
+  - {ingredient: butter, unit: g, qty: 113}
+  - {ingredient: olive-oil, unit: tbsp, qty: 3}
+  - {ingredient: onion, qty: 1, prep: diced}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: red-chili}
+steps:
+- In a saucepan, preheat the olive oil. Sauté the meat and onion for 15 minutes.
+- In another saucepan, melt the butter and add flour, cottage cheese, and black pepper, salt and chili pepper to taste.
+- Mix all the ingredients together (adding the sautéed meat and onions) in the saucepan.
+- Bake in a preheated 350 °F oven for 15 minutes.
+- Take out and serve immediately.
+tips:
+- Instead of veal cutlets, beef liver can be used in the same quantity, following the same instructions as above.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATirana_F%C3%ABrges%C3%AB_with_Veal&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tirana Fërgesë with Veal@4515095
+    url: https://en.wikibooks.org/w/index.php?oldid=4515095
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 4 hamburger buns, split in half and toasted
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-smokehouse-burgers
+title: Smokehouse Burgers
+summary: Smokehouse Burgers.
+origin:
+  country: US
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 454}
+  - {ingredient: paprika, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+  - {ingredient: garlic-powder, unit: tbsp, qty: 1}
+  - {ingredient: olive-oil}
+  - {ingredient: cheese, unit: slice, qty: 4}
+steps:
+- Form meat into 4 equal patties, about ¾ inch thick. Make a depression in the center with your thumb and set aside.
+- Brush patties with oil. Sprinkle on both sides with seasonings.
+- Preheat grill. Add patties and cook, turning often, until desired "doneness" is achieved. Remove to a plate, top each with a slice of cheese, and cover tightly with aluminum foil. Let rest until cheese is melted.
+- Brush cut sides of bread with oil. Add a patty onto the bottom half of a bun, then top with the upper half. Repeat with remaining meat and serve immediately.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASmokehouse_Burgers&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Smokehouse Burgers@4600880
+    url: https://en.wikibooks.org/w/index.php?oldid=4600880
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

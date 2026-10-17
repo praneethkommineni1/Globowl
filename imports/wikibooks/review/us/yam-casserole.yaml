@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 tablespoon grated orange rind
+#  - unmapped ingredient: 1/2 cup bourbon
+#  - unmapped ingredient: 1 cup pecans, chopped
+#  - no time in recipe summary
+id: us-yam-casserole
+title: Yam Casserole
+summary: Yam Casserole.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 10
+  amount: 10–12
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: yam, unit: can, qty: 2, prep: drained}
+  - {ingredient: orange, unit: cup, qty: 0.667}
+  - {ingredient: salt, unit: tsp, qty: 2}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: butter, unit: tbsp, qty: 4, prep: melted}
+  - {ingredient: sugar, unit: cup, qty: 0.333}
+  - {ingredient: egg, qty: 3}
+  - {ingredient: black-pepper, note: to taste}
+- name: Topping
+  items:
+  - {ingredient: brown-sugar, unit: cup, qty: 0.667}
+  - {ingredient: butter, unit: g, qty: 113, prep: melted}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+steps:
+- In mixing bowl with electric mixer, beat yams. Add in remaining main ingredients, beating until mixture is light and fluffy. Butter a 12-inch porcelain quiche dish or a shallow 2 quart casserole dish (7x11 inches / 18 x 28 cm). Pour in yam mixture, smoothing top evenly.
+- Make praline topping by mixing all ingredients together in small bowl. Spread evenly over the yams. May be refrigerated covered overnight.
+- Bake at 350°F (180°C) for 45–50 minutes or until golden brown and bubbly.
+- Remove from oven and let stand 10 minutes before serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AYam_Casserole&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Yam Casserole@4517443
+    url: https://en.wikibooks.org/w/index.php?oldid=4517443
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

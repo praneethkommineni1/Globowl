@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-chickpea-curry
+title: Chickpea Curry
+alternate_names:
+- Masaledaar Chole
+summary: Masaladaar chole is a dish of chickpeas in spicy gravy.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pressure-cooking
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: chickpeas-canned, unit: cup, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: tomato, qty: 1, prep: medium chopped}
+  - {ingredient: chili-powder, unit: tsp, qty: 1}
+  - {ingredient: curry-powder, unit: tsp, qty: 1.5}
+  - {ingredient: garam-masala, unit: tsp, qty: 0.25}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.25}
+  - {ingredient: garlic, unit: tsp, qty: 1}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: cilantro, prep: for garnishing}
+steps:
+- Soak the chickpeas overnight in water.
+- Pressure cook the chickpeas until done (3 whistles).
+- Heat the cooking oil in a pot. Add the onions and sauté until golden brown.
+- Add the turmeric powder, chilli powder, garam masala, and Madras curry powder.
+- Add the tomatoes, ginger, and garlic paste and stir for about 1 minute.
+- Add the boiled chickpeas and some water.
+- Add salt to taste. Cook for about 10 minutes on medium heat.
+- Garnish with cilantro and serve with chapattis or paratha.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChickpea_Curry_%28Masaledaar_Chole%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chickpea Curry (Masaledaar Chole)@4518589
+    url: https://en.wikibooks.org/w/index.php?oldid=4518589
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

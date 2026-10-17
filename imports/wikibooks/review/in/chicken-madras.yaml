@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: in-chicken-madras
+title: Chicken Madras
+summary: This is a recipe for a chicken madras. It is a popular curry in the UK.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 4, prep: diced}
+  - {ingredient: onion, qty: 2, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 4, prep: minced}
+  - {ingredient: tomato-paste, qty: 1, prep: mixed with an equal volume of water}
+  - {ingredient: cayenne, unit: tsp, qty: 2}
+  - {ingredient: garam-masala, unit: tsp, qty: 3}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1}
+  - {ingredient: green-cardamom-pods, qty: 8}
+  - {ingredient: ground-ginger, unit: tsp, qty: 0.5}
+  - {ingredient: ground-coriander, unit: tsp, qty: 0.5}
+  - {ingredient: lemon}
+- name: Garnish
+  items:
+  - {ingredient: red-chili}
+  - {ingredient: garam-masala, unit: pinch, qty: 1}
+  - {ingredient: cilantro}
+steps:
+- Heat a large skillet or saucepan over medium heat, and add a liberal amount of cooking oil. When at temperature add the chopped onions. Cook the onions for a couple of minutes until they start to brown slightly.
+- Add the minced garlic, cayenne pepper, and garam masala. Stir for 2 to 3 minutes.
+- Add the ground cumin, ground turmeric, ground ginger, and ground coriander. Stir in for about 30 seconds.
+- Add the diced chicken. Cook, stirring, until the chicken is cooked through.
+- Add the diluted tomato puree and the seeds from the 8 cardamom pods. Stir, then lower the heat and place a lid on the saucepan.
+- Simmer for 30 minutes stirring occasionally. If the sauce starts to stick to the pan add some water.
+- Remove the lid and squeeze the juice of half a lemon into the pan along with a pinch of salt. Stir and let simmer uncovered for 10 to 15 minutes.
+- Serve with garnishes.
+tips:
+- Other meats can be substituted for the chicken.
+- This dish currently has a heat level of a hot masala. To bring the heat up to about a madras level, add approx ½ teaspoon of chili powder when adding the cayenne pepper.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChicken_Madras&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chicken Madras@4518587
+    url: https://en.wikibooks.org/w/index.php?oldid=4518587
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

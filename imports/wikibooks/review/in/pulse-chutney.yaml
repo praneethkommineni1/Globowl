@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-pulse-chutney
+title: Pulse Chutney
+summary: Pulse chutney is an vegan Indian recipe. Use fewer chili peppers if you do not want it so hot.
+origin:
+  country: IN
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: mung-beans, unit: g, qty: 57}
+  - {ingredient: ginger, qty: 1.5}
+  - {ingredient: red-chili, qty: 4}
+  - {ingredient: salt}
+  - {ingredient: lemon-juice}
+steps:
+- Soak the green mung beans for 3–4 hours. Allow to sprout.
+- Mince the green chilies, fresh ginger, and salt.
+- Grind to a paste in a mortar and pestle or food processor.
+- Season with lemon juice to taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APulse_Chutney&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pulse Chutney@4515443
+    url: https://en.wikibooks.org/w/index.php?oldid=4515443
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

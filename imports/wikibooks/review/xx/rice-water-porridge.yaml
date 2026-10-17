@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - course unknown from categories
+id: xx-rice-water-porridge
+title: Rice Water Porridge
+summary: A typical Ghanaian morning dish is rice water porridge, made with evaporated or powdered milk. It is comparable to rice pudding but lighter because the cooking process uses water.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 32
+difficulty: 1
+equipment:
+- Stove
+- Spoon
+- Pot/saucepan
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: sugar}
+  - {ingredient: milk}
+  - {ingredient: nutmeg}
+steps:
+- Wash the rice, then put it in a saucepan with a few cups of water. Bring to a boil.
+- Boil the rice for about 20 minutes, or until it has absorbed the water and become soft. If necessary, add the salt and an additional cup of water.
+- Beat the rice against the saucepan with a spoon to create a smooth, pudding-like consistency.
+- Add the nutmeg, and then let it boil for about 5 minutes. Add the sugar or honey.
+- Serve with your preferred milk, and garnish with a tiny touch of nutmeg.
+tips:
+- Soak the unprepared rice in water overnight for a very smooth rice water porridge.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARice_Water_Porridge&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rice Water Porridge@4541055
+    url: https://en.wikibooks.org/w/index.php?oldid=4541055
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

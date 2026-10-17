@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 1/2 teaspoons seasoned salt
+#  - unmapped ingredient: 3 cups corn cereal squares
+#  - unmapped ingredient: 3 cups rice cereal squares
+#  - unmapped ingredient: 3 cups wheat cereal squares
+#  - unmapped ingredient: 1 cup mixed nuts
+#  - unmapped ingredient: 1 cup bite-size pretzels
+#  - unmapped ingredient: 1 cup garlic-flavor bite-size bagel chips or regular-size bagel chips, broken into 1-inch pieces
+id: us-party-mix
+title: Party Mix
+summary: Party mix is a great recipe for when you have company over. It stores great in a sealed container, and if you're not too picky you can keep it out overnight. Adjust seasonings to your preference.
+origin:
+  country: US
+course: snack
+authenticity: unassessed
+yield:
+  servings: 24
+  amount: 24 servings (½ cup each)
+time:
+  total_min: 90
+difficulty: 1
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: butter, unit: tbsp, qty: 6}
+  - {ingredient: worcestershire-sauce, unit: tbsp, qty: 2}
+  - {ingredient: garlic, unit: tsp, qty: 0.75}
+  - {ingredient: onion-powder, unit: tsp, qty: 0.5}
+steps:
+- Heat oven to 250°F (120°C).
+- In an ungreased large roasting pan, melt butter in oven.
+- Stir in seasonings.
+- Gradually stir in remaining ingredients until evenly coated.
+- Bake for 1 hour, stirring every 15 minutes.
+- Spread on paper towels to cool, about 15 minutes.
+- Store in airtight container.
+- In large microwavable bowl, microwave butter uncovered on high about 40 seconds or until melted.
+- Stir in seasonings.
+- Gradually stir in remaining ingredients until evenly coated.
+- Microwave uncovered on high 5–6 minutes, thoroughly stirring every 2 minutes.
+- Spread on paper towels to cool.
+- Store in airtight container.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AParty_Mix&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Party Mix@4502850
+    url: https://en.wikibooks.org/w/index.php?oldid=4502850
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 10 small apricots
+id: at-austrian-apricot-dumplings
+title: Austrian Apricot Dumplings
+alternate_names:
+- Marillenknödel
+summary: Marillenknödel are a typical Austrian dish, consisting of sweet apricot-filled dumplings. They represent social, cultural, historical and geographical aspects of Austria.
+origin:
+  country: AT
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: twarog, unit: cup, qty: 1}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: semolina, unit: tbsp, qty: [3, 4]}
+  - {ingredient: salt}
+  - {ingredient: all-purpose-flour}
+  - {ingredient: sugar, qty: 10}
+  - {ingredient: butter, unit: tbsp, qty: 5}
+  - {ingredient: breadcrumbs, unit: cup, qty: 2}
+  - {ingredient: sugar, unit: tbsp, qty: 5}
+  - {ingredient: ground-cinnamon}
+  - {ingredient: powdered-sugar}
+steps:
+- Mix the curd with the egg in a wide bowl. Add the semolina and a pinch of salt.
+- Wait for about 20 minutes to allow the semolina to soak. Then, mix in as much flour as is necessary to make a smooth dough. In order to form fine dumplings later on, it is very important that the dough is not sticky. Again, wait for about 10 minutes.
+- In the meantime, cut the apricots into two halves. Remove the pits and replace them with a sugar cube. Then, put the halves of the apricots together again.
+- Pour water and some salt into a big pot, and bring it to a boil.
+- 'Form the dumplings: divide the dough into 10 equal pieces, and mould them into flat, round disks. Flouring your hands will prevent the dough from sticking onto them. Wrap each apricot with one disk of dough, then roll the dumpling between your hands. Make sure that there are no holes in the dough and that the dough sticks to the apricots. Try to form evenly round dumplings. Don’t worry if this does not work out perfectly the first time you prepare dumplings. The breadcrumbs and the sugar, which the dumplings will be covered with later on, will conceal any irregularities.'
+- Carefully put the dumplings into the boiling water. The water usually ceases to boil for a short while after the dumplings have been placed into the pot. Wait until it boils again, and then reduce heat. Let the dumplings boil slowly until they start rising to the surface of the water. Now cover the pot and wait for about another 4 minutes. The dumplings will gain size during this period.
+- In the meantime, heat the butter in a pan and add bread crumbs along with sugar and a bit of cinnamon. Fry the breadcrumbs until they turn light brown.
+- Drain the dumplings, then roll them in the toasted bread crumbs until they are covered all over.
+- Serve the Marillenknödel together with the remaining bread crumbs, and coat them with much powdered sugar.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAustrian_Apricot_Dumplings_%28Marillenkn%C3%B6del%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Austrian Apricot Dumplings (Marillenknödel)@4540875
+    url: https://en.wikibooks.org/w/index.php?oldid=4540875
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

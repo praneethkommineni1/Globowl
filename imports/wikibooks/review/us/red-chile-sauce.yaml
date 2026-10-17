@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3 oz dried chile peppers, such as New Mexico chile
+#  - no time in recipe summary
+id: us-red-chile-sauce
+title: Red Chile Sauce
+summary: Dried red chiles can be soaked and pureed to make red chile sauce. It can be used in many ways, including as an enchilada sauce, chicken marinade, or in huevos rancheros.
+origin:
+  country: US
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2 cups
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: onion, qty: 0.5, prep: chopped}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: dried-oregano, unit: tbsp, qty: 1}
+steps:
+- Wipe chile peppers with a damp cloth to clean. See warning for handling instructions.
+- Break off stems, and remove seeds.
+- Soak chili peppers in hot water until softened, about an hour.
+- Taste the soaking water. If it is bitter, replace it with fresh water.
+- Purée chili pepper and water mixture in a blender
+- Heat the oil in a pan, add onion, garlic, and seasonings.
+- Once the onions are cooked, add the chili purée to the pan. Simmer for 15 minutes.
+- Return mixture to the blender, and purée. See warning.
+- Pour sauce through a sieve. Use a spoon to stir and press the mixture against the sieve to extract all the sauce.
+- Add salt to taste. If the sauce is a little bitter, some sugar can be added to compensate.
+tips:
+- This sauce freezes well.
+- The sauce may stain certain materials, including some plastics. Store in glass to avoid staining.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARed_Chile_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Red Chile Sauce@4519003
+    url: https://en.wikibooks.org/w/index.php?oldid=4519003
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

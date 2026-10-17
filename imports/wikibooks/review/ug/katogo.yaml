@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 medium-size green pepper, neatly chopped
+#  - unmapped ingredient: 250 g boiled beans
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ug-katogo
+title: Katogo
+alternate_names:
+- Ugandan Mixed Breakfast Vegetables
+summary: Katogo is a traditional Ugandan dish usually eaten for breakfast. It was mostly regarded to as a poor man's food, but with time and creativity, even the rich love to eat it too.
+origin:
+  country: UG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: banana, unit: g, qty: 500}
+  - {ingredient: vegetable-oil}
+  - {ingredient: onion, qty: 1, prep: neatly chopped}
+  - {ingredient: tomato, qty: 3}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: curry-powder, unit: tsp, qty: 1}
+steps:
+- Chop the green bananas and set aside.
+- Sauté the onions in a pot of cooking oil until lightly browned.
+- Add the pepper and tomatoes, then season to taste with salt. Cook, stirring, for 1 minute.
+- Add the banana, and stir for another minute.
+- Add the water and cook for 10 minutes over medium heat.
+- Stir in the cumin, curry powder, and black pepper. Make sure all the spices are well-incorporated. Simmer for 2 minutes, and adjust the spices to taste.
+- Rinse the cooked beans with clean water, then drain them well. Stir into the pot, and simmer for another 10 minutes.
+- Serve hot, garnished with coriander.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKatogo_%28Ugandan_Mixed_Breakfast_Vegetables%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Katogo (Ugandan Mixed Breakfast Vegetables)@4513295
+    url: https://en.wikibooks.org/w/index.php?oldid=4513295
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

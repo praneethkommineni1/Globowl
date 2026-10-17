@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 2 tablespoons baobab leaf flour
+#  - course unknown from categories
+id: xx-danwake
+title: Danwake
+summary: Danwake is a popular Nigerian dish, particularly in the northern regions, made from ground beans (usually black-eyed peas), flour, and spices. It's often served with a variety of sauces or soups, and it is both nutritious and filling.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+time:
+  total_min: 45
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: potash, unit: tsp, qty: 0.5}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 3}
+  - {ingredient: onion, qty: 0.5, prep: chopped}
+  - {ingredient: white-cabbage}
+steps:
+- Dissolve potash in a small bowl with a little water and set aside.
+- In a large bowl, mix wheat flour (or chosen flour) with baobab leaf flour.
+- Add the dissolved potash solution gradually into the flour mix.
+- Slowly add water while stirring until you form a thick, smooth batter.
+- Bring a large volume of water to a boil in a pot. Using a spoon or hand, scoop small portions of the batter and drop them into the boiling water.
+- Let the dumplings cook for 10–15 minutes, or until they float and are firm to the touch.
+- Drain the dumplings and drizzle with vegetable oil.
+- Garnish with chopped onions and cabbage.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADanwake&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Danwake@4518751
+    url: https://en.wikibooks.org/w/index.php?oldid=4518751
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

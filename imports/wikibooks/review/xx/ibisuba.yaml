@@ -1,0 +1,69 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-ibisuba
+title: Ibisuba
+alternate_names:
+- Rwandan Bean Salad
+summary: Ibisuba is a refreshing and nutritious bean salad from Rwanda. Made with cooked beans, fresh vegetables, and a tangy dressing, this salad is a popular side dish that complements a variety of main courses.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Mixing bowl
+- Mixing spoon or spatula
+- Whisk
+ingredient_groups:
+- items:
+  - {ingredient: black-eyed-peas, unit: cup, qty: 2}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: medium}
+  - {ingredient: tomato, qty: 1, prep: diced, note: large}
+  - {ingredient: cucumber, qty: 1, prep: diced, note: medium}
+  - {ingredient: red-bell-pepper, qty: 1, prep: diced}
+  - {ingredient: carrot, qty: 1, prep: grated}
+  - {ingredient: cilantro, prep: chopped}
+  - {ingredient: lemon}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- In a mixing bowl, combine the cooked beans, chopped onion, diced tomato, diced cucumber, diced green bell pepper, grated carrot, and chopped parsley or cilantro.
+- In a separate small bowl, whisk together the lemon juice, olive oil, salt, and black pepper to create the dressing.
+- Pour the dressing over the bean and vegetable mixture, and gently toss to combine, ensuring all the ingredients are evenly coated.
+- Adjust the seasoning with additional salt and black pepper, if needed.
+- Let the salad marinate in the refrigerator for at least 30 minutes to allow the flavors to meld together.
+- Before serving, give the salad a final toss and transfer it to a serving dish.
+- Garnish with additional chopped parsley or cilantro, if desired.
+- Serve chilled as a side dish with grilled meats, fish, or other Rwandan dishes.
+tips:
+- You can use any type of cooked beans for this salad, such as kidney beans, navy beans, or black-eyed peas. Canned beans can also be used as a time-saving option, just be sure to rinse them thoroughly before using.
+- Feel free to customize the salad by adding other vegetables like diced avocado, sliced radishes, or chopped bell peppers of different colors.
+- For added flavor, you can incorporate herbs like mint or basil into the salad.
+- Ibisuba can be made ahead of time and stored in the refrigerator for up to 2 days. Allow it to come to room temperature before serving.
+- Adjust the lemon juice and olive oil quantities according to your taste preference for the dressing.
+- This salad can be enjoyed on its own as a light and healthy meal or served as a side dish at barbecues, picnics, or family gatherings.
+- Beans are a good source of plant-based protein, dietary fiber, and various vitamins and minerals. This salad is low in fat and provides a good balance of carbohydrates and proteins. The vegetables in the salad contribute to its nutritional value, providing vitamins, minerals, and antioxidants.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIbisuba_%28Rwandan_Bean_Salad%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ibisuba (Rwandan Bean Salad)@4534250
+    url: https://en.wikibooks.org/w/index.php?oldid=4534250
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

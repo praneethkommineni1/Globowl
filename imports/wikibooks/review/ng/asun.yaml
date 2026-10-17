@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: ng-asun
+title: Asun
+alternate_names:
+- Goat in Pepper Sauce
+summary: Asun is a Nigerian dish of grilled goat meat in pepper sauce. It is a Yoruba delicacy often found at Nigerian parties.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- marinating
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: goat, prep: washed and cut into smaller pieces}
+  - {ingredient: salt}
+  - {ingredient: bouillon-cube}
+  - {ingredient: onion, qty: 2}
+  - {ingredient: scotch-bonnet}
+  - {ingredient: red-bell-pepper, prep: chopped}
+  - {ingredient: onion, qty: 1, prep: chopped}
+steps:
+- Place goat meat in a clean bowl. Add salt and stock cubes, and give a good massage. Marinate for at least 2 hours to properly season the meat.
+- Place the marinated goat meat on an electric barbecue grill or oven grill. Rub some vegetable oil on the meat.
+- Cover the grill, and grill for about 20 minutes. If you are using an oven grill, grill it for about 40 minutes at 180˚C.
+- In a food processor, blend the habanero pepper, and onions to a chunky paste.
+- Place a pan on medium heat. Add the grilled meat along with about ¾ cup water to introduce moisture. Let cook for about 5–10 minutes.
+- Stir in the pepper and onion mixture, and let cook for about 5–7 minutes.
+- Add the chopped bell pepper and onion. Combine thoroughly, and add salt to taste.
+- Add a tablespoon of vegetable oil, and combine very well. Leave to simmer for about 2 minutes.
+- Serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAsun_%28Goat_in_Pepper_Sauce%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Asun (Goat in Pepper Sauce)@4514035
+    url: https://en.wikibooks.org/w/index.php?oldid=4514035
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

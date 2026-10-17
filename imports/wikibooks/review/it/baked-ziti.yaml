@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 1/2 cups marinara sauce
+#  - course unknown from categories
+id: it-baked-ziti
+title: Baked Ziti
+summary: Baked ziti is a type of casserole in Italian-American cuisine. It consists primarily of pasta and various cheeses in a tomato-based sauce.
+origin:
+  country: IT
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 45
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: pasta, unit: g, qty: 454}
+  - {ingredient: mozzarella, unit: g, qty: 454}
+  - {ingredient: ricotta, unit: g, qty: 227}
+  - {ingredient: parmesan, unit: g, qty: 113}
+  - {ingredient: egg, qty: 1, prep: beaten}
+  - {ingredient: basil, unit: tbsp, qty: 3, prep: chopped fine}
+  - {ingredient: dried-oregano, unit: tbsp, qty: 2, prep: chopped fine}
+  - {ingredient: parsley, unit: tbsp, qty: 3, prep: chopped fine}
+  - {ingredient: breadcrumbs, unit: cup, qty: 0.5}
+  - {ingredient: chili-flakes, unit: pinch, qty: 1, optional: true}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Preheat oven to 425 °F (225 °C). Coat a large baking dish with olive oil.
+- Mix ricotta, egg, basil, oregano, parsley and about half of the mozzarella and Parmesan in a large bowl until well incorporated. Season with salt and pepper.
+- Cook ziti in a large pot of salted water until al dente. Drain well.
+- In a large bowl or pot, toss ziti with marinara sauce and red pepper flakes until noodles are covered. Stir in ricotta mixture and fold until it begins to melt. Pour mixture into greased dish and spread it out with a spoon.
+- Sprinkle remaining mozzarella and Parmesan over the top, then sprinkle bread crumbs over cheese.
+- Bake at 425 °F (225 °C) for 20 minutes or until cheese on top turns golden and begins to bubble.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABaked_Ziti&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Baked Ziti@4605227
+    url: https://en.wikibooks.org/w/index.php?oldid=4605227
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 4 oz dried fruit
+#  - unmapped ingredient: Glacé cherries, chopped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-welsh-fruit-bread-bara-brith
+title: Welsh Fruit Bread (Bara Brith)
+summary: This variation for bara brith is also popular and uses baking powder and bicarbonate of soda as raising agents, rather than yeast. Soaking of the dried fruit in tea for several hours is essential to the taste and succulence of the loaf.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: tea}
+  - {ingredient: all-purpose-flour, unit: g, qty: [340, 397]}
+  - {ingredient: brown-sugar, unit: g, qty: [85, 113]}
+  - {ingredient: mixed-spice, unit: tsp, qty: 1}
+  - {ingredient: baking-powder, unit: tsp, qty: 1}
+  - {ingredient: baking-soda, unit: tsp, qty: 0.5}
+  - {ingredient: egg, qty: 1}
+steps:
+- Soak the fruit in tea for several hours. Strain, retain both fruit and tea.
+- Mix the flour, sugar, spice, baking powder and bicarb.
+- Add soaked fruit to the dry ingredients, then start to mix.
+- Add the egg, and continue to mix.
+- Add the black tea in small amounts, mixing as you go.
+- Continue to add the tea until the mixture is thick but runny—it should cling to a spoon, but any excess should drop off easily. If you have used up all your tea, a drop of milk can be added instead to achieve this consistency.
+- Add the chopped glace cherries, which will further increase the moisture of the batter.
+- Pour into a greased baking tin, and bake at 190°C for approximately 90 minutes. Loosely cover the top with foil for the first hour, to avoid burning. Once cooked, turn out and cool.
+- Serve sliced with butter and a cup of tea.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AWelsh_Fruit_Bread_%28Bara_Brith%29_III&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Welsh Fruit Bread (Bara Brith) III@4516972
+    url: https://en.wikibooks.org/w/index.php?oldid=4516972
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

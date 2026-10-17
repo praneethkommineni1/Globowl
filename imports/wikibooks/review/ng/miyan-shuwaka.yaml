@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 100 g bitterleaf
+id: ng-miyan-shuwaka
+title: Miyan Shuwaka
+alternate_names:
+- Hausa Bitter Leaf Soup
+summary: Miyan shuwaka is a bitterleaf soup eaten in the northern part of Nigeria.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2-3
+time:
+  total_min: 15
+difficulty: 3
+equipment:
+- Cooking pot
+- Knife
+- Cutting board
+- Blender or grinding stone
+- Bowl
+- Cooking spoon
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, qty: 2, note: large}
+  - {ingredient: onion, qty: 1, prep: chopped}
+  - {ingredient: red-chili, qty: 2, prep: puréed}
+  - {ingredient: tomato, qty: 2, prep: puréed}
+  - {ingredient: red-palm-oil, unit: tsp, qty: 1}
+  - {ingredient: iru, unit: cup, qty: 4}
+  - {ingredient: salt, unit: tsp, qty: 1}
+steps:
+- If using fresh bitter leaf, wash with salt and squeeze to reduce the bitterness.
+- Boil the meat in a pot of water for a few minutes until cooked through. Remove the meat and set aside.
+- Heat a skillet over medium heat, and add the palm oil. Add the onion, pepper, and tomatoes, and simmer for 5 minutes.
+- Combine the cooked purée, meat, and bitterleaf in a pot. Add enough water to cover everything.
+- Add the daddawa, stir the soup well, and cook for 3 more minutes over low heat.
+- Season with salt to taste and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMiyan_Shuwaka_%28Hausa_Bitter_Leaf_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Miyan Shuwaka (Hausa Bitter Leaf Soup)@4636103
+    url: https://en.wikibooks.org/w/index.php?oldid=4636103
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

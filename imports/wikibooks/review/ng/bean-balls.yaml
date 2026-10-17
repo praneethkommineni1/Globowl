@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - course unknown from categories
+id: ng-bean-balls
+title: Bean Balls
+summary: Akara are a Nigerian snack of fried beans. In Ghana, it is also known as koose or black-eyed pea fritters. Akara can be considered one of the simplest vegetarian or vegan-friendly Nigerian dishes.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 24
+  amount: 24 balls
+time:
+  total_min: 90
+difficulty: 2
+equipment:
+- Mixing bowl
+- Sieve
+- Blender or food processor
+- Knife
+- Chopping board
+- Whisk
+- Cooking spoons
+- Deep frying pan
+- Spatula for frying
+techniques:
+- deep-frying
+ingredient_groups:
+- items:
+  - {ingredient: black-eyed-peas, unit: cup, qty: 2}
+  - {ingredient: red-chili, qty: [3, 4]}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: chicken-bouillon-cube}
+  - {ingredient: salt}
+  - {ingredient: vegetable-oil}
+steps:
+- Pick over the beans to remove any dirt or debris.
+- Soak the beans in lukewarm water for 30–40 minutes, then drain.
+- Cover the beans with water and gently rub the beans together with your hands to remove the outer skins. The skins should separate and floats to the water's surface.
+- Carefully scoop off the floating skins, then drain the beans. To remove any leftover skin or impurities, rinse the beans under running water while swishing them around with your hands.
+- Transfer the washed beans to a blender or food processor with the chopped onions and scotch bonnet peppers. Add a small amount of water to aid in blending, then blend the mixture until a smooth batter-like consistency is achieved. The batter should be thick but easily pourable.
+- Pour the batter into a bowl. Add salt and seasoning to taste, and mix well.
+- Place a deep frying pan or pot over medium heat and pour in enough vegetable oil for deep frying. Allow the oil to heat up.
+- To shape the akara, take a spoonful of the batter and carefully drop it into the hot oil. Fry the akara until golden brown and crisp, turning once or twice to ensure uniform cooking. This usually takes 2–3 minutes per side.
+- Serve hot with corn pap, bread, or any other accompaniment you desire.
+tips:
+- To avoid burns, use caution when handling hot oil.
+- It is up to individual preference which vegetable oil is used for deep frying.
+- Individual spice preferences should be considered when adjusting pepper quantity.
+- Refrigerate leftovers in an airtight container for 2–3 days.
+- Nowadays, especially in private homes, the skin of the beans is no longer removed so as to get the maximum nutritional benefit from the beans.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABean_Balls&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bean Balls@4515510
+    url: https://en.wikibooks.org/w/index.php?oldid=4515510
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

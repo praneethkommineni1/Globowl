@@ -1,0 +1,69 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - course unknown from categories
+id: ng-asaro
+title: Asaro
+summary: __notoc__ Asaro, also known as yam porridge is a traditional Nigerian dish made by cooking yam in a richly seasoned sauce of tomatoes, peppers, onions, and oil. It is particularly popular among the Yoruba people of southwestern Nigeria but is enjoyed throughout the country.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3–4
+time:
+  total_min: 60
+difficulty: 3
+equipment:
+- Cooking pot
+- Knife
+- Chopping board
+- Blender or food processor
+- Mixing bowls
+- Measuring cups and spoons
+- Wooden spoon
+- Colander or sieve
+- Stove or other heat source
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: tomato, qty: 3, note: medium}
+  - {ingredient: red-bell-pepper, qty: 2}
+  - {ingredient: red-chili, qty: 2}
+  - {ingredient: onion, qty: 1, note: medium}
+  - {ingredient: red-palm-oil, unit: cup, qty: 0.5}
+  - {ingredient: bouillon-cube, qty: [2, 3]}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: fish, unit: g, qty: 200, prep: 'such as fresh fish, meat, or smoked fish', optional: true}
+  - {ingredient: chicken-stock, unit: cup, qty: 4}
+  - {ingredient: yam, qty: 1, prep: peeled and cubed, note: medium}
+  - {ingredient: spinach, optional: true}
+steps:
+- Blend the tomatoes, peppers, and onion into a smooth purée.
+- Heat the oil in a pot and add the purée. Cook for about 10 minutes, stirring occasionally.
+- Stir in seasoning cubes, salt, and any protein being used.
+- Stir in the water and bring to a boil.
+- Gently stir in the cubed yam. Cover and simmer, stirring occasionally, until the yam becomes soft and some of it has broken down to thicken the dish.
+- Add leafy vegetables if desired and cook for an additional 3–5 minutes.
+- Adjust seasoning and remove from heat.
+tips:
+- Do not over-stir during cooking, as this may cause all the yam pieces to break apart. The dish should be thick and creamy but still contain visible yam chunks.
+- Fresh stock can be used to enhance flavor.
+- The amount of chile pepper can be adjusted according to personal taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAsaro&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Asaro@4640471
+    url: https://en.wikibooks.org/w/index.php?oldid=4640471
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

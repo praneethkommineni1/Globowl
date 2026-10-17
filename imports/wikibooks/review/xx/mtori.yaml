@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 kg beef with bones
+#  - unmapped ingredient: 6 cups water or beef stock
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-mtori
+title: Mtori
+alternate_names:
+- Tanzanian stew
+summary: Mtori is a traditional Tanzanian stew made from green bananas (plantains) and meat, usually beef. It originated among the Chagga people of the Kilimanjaro region in northern Tanzania and has become popular throughout the country.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: banana, qty: [6, 8], prep: peeled and sliced}
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: carrot, qty: 1, prep: diced}
+  - {ingredient: black-pepper, qty: 1, prep: chopped}
+  - {ingredient: potato, qty: 1, prep: peeled and cubed, optional: true}
+  - {ingredient: ginger, unit: tbsp, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: cilantro, prep: 'chopped, for garnish'}
+  - {ingredient: lime, prep: for serving, optional: true}
+steps:
+- Place the beef and water in a large pot.
+- Bring to a boil, then reduce the heat and simmer until the meat is tender, about 1–1½ hours.
+- Remove the meat from the stock and set aside.
+- Add the bananas, onion, carrot, bell pepper, and potato to the stock.
+- Cook until the bananas become very soft.
+- Return the cooked meat to the pot.
+- Add the ginger, garlic, salt, and black pepper.
+- Simmer for 10 minutes.
+- Mash the bananas using a wooden spoon or potato masher until a thick, creamy consistency is achieved.
+- Stir in the butter or margarine.
+- Adjust seasoning to taste.
+- Simmer for another 5 minutes.
+- Garnish with fresh coriander and serve hot.
+tips:
+- Chicken mtori
+- Goat meat mtori
+- Coconut milk mtori
+- Vegetarian mtori
+- Spicy mtori with chili peppers
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMtori_%28Tanzanian_stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mtori (Tanzanian stew)@4638740
+    url: https://en.wikibooks.org/w/index.php?oldid=4638740
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

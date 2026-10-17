@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup okazi or uziza leaves, thinly sliced
+#  - unmapped ingredient: 2 cups ugu leaves, chopped
+id: ng-ofe-owerri
+title: Ofe Owerri
+summary: Ofe owerri is a popular Igbo soup indigenous to the people of Owerri, Nigeria. It is made from either ugu or okazi vegetables. Many different recipes and variations are possible.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8
+time:
+  total_min: 10
+difficulty: 2
+equipment:
+- Cooking pot
+- Sieve
+- Stirring spoon
+- Kitchen knife
+- Chopping board
+- Bowls
+- Mortar and pestle
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: kg, qty: 1}
+  - {ingredient: bouillon-cube, qty: [4, 6]}
+  - {ingredient: water, unit: cup, qty: [3, 4]}
+  - {ingredient: stockfish, unit: g, qty: 500, prep: 'smoked fish, or stockfish'}
+  - {ingredient: taro, unit: cup, qty: 1}
+  - {ingredient: red-palm-oil, unit: cup, qty: 1}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 3}
+  - {ingredient: iru, unit: tbsp, qty: 2}
+  - {ingredient: red-bell-pepper}
+steps:
+- Clean the meats and dryfish, and cut into pieces.
+- Simmer the meat with seasoning cubes and water in a pot until tender. Add stockfish and dried fish.
+- Stir in the cocoyam paste to thicken the soup, making sure it's well incorporated.
+- Stir in the palm oil, crayfish, ogiri, and pepper. Simmer for 5–10 minutes.
+- Add okazi leaves, and simmer for 3 minutes.
+- Stir in ugu leaves, and simmer for 2–3 minutes.
+- Taste and adjust seasoning. Serve hot with pounded yam or fufu.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AOfe_Owerri&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ofe Owerri@4524801
+    url: https://en.wikibooks.org/w/index.php?oldid=4524801
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

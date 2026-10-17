@@ -1,0 +1,70 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 3/4 cup chopped pecans
+#  - course unknown from categories
+id: xx-pumpkin-roll
+title: Pumpkin Roll
+summary: Pumpkin roll is a traditional holiday dessert that's lovely to serve. The filling keeps the cake moist. This dessert can be prepared and kept frozen before the holidays.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 10
+time:
+  total_min: 15
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: egg, qty: 3, prep: beaten}
+  - {ingredient: butternut-squash, unit: cup, qty: 0.667}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 0.75}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+  - {ingredient: baking-soda, unit: tsp, qty: 1}
+  - {ingredient: cream-cheese, qty: 1}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: powdered-sugar, unit: cup, qty: 1}
+steps:
+- Preheat oven to .
+- Mix sugar, eggs, and canned pumpkin in a large bowl until well blended.
+- Using a second bowl, mix flour, salt, cinnamon, and baking soda.
+- Fold dry mixture into larger bowl with pumpkin mixture.
+- Line rectangular cookie sheet with greased parchment paper or waxed paper. Make sure to extend over the sides of the cookie sheet.
+- Pour batter evenly onto the lined cookie sheet.
+- Sprinkle batter with the chopped pecans.
+- Bake at for 15 minutes.
+- Set aside ⅛ cup (15 g / 0.53 oz) of the powdered sugar; it will be used later.
+- Whip cream cheese, vanilla, butter, and remaining powdered sugar until smooth.
+- Set aside.
+- Lay a clean dish towel on a flat kitchen surface.
+- Evenly sprinkle towel with the powdered sugar that was set aside earlier.
+- Once the cake has been completely baked and before cooled, flip onto the towel with the powdered sugar.
+- Loosely roll cake, then cool completely to allow cake to set.
+- Once cooled, unroll cake.
+- Spread filling over cake.
+- Roll cake and filling up in a spiral.
+- Wrap in foil or plastic wrap and freeze.
+- Once frozen, remove foil and cut into slices while still frozen.
+tips:
+- Any chopped nuts may be substituted for the pecans.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APumpkin_Roll&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pumpkin Roll@4587427
+    url: https://en.wikibooks.org/w/index.php?oldid=4587427
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

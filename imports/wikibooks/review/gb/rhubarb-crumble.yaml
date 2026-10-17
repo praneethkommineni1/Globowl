@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 400 g rhubarb, cut into pieces roughly 1.5 cm long
+id: gb-rhubarb-crumble
+title: Rhubarb Crumble
+summary: Rhubarb crumble is a traditional British dessert. Served traditionally with custard (though you can of course serve with cream or ice cream) it is a hearty, filling, and warm feast, best served after a light meal.
+origin:
+  country: GB
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 75
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: sugar, unit: g, qty: 15}
+  - {ingredient: butter, unit: g, qty: 75, prep: cut in pieces}
+  - {ingredient: all-purpose-flour, unit: g, qty: 100}
+  - {ingredient: all-purpose-flour, unit: g, qty: 50}
+  - {ingredient: sugar, unit: g, qty: 50}
+  - {ingredient: ground-cinnamon, unit: pinch, qty: 1, optional: true}
+steps:
+- Preheat the oven to 200°C (180°C fan).
+- Rinse and drain the rhubarb pieces, and place them in a deep ovenproof dish. Add the light brown sugar and mix briefly.
+- Put the flours in a mixing bowl. Add the butter. With your fingers (not the palms of your hands), rub the butter into the flour until it resembles breadcrumbs.
+- Sprinkle the sugar and cinnamon over this mixture, and mix them in briefly.
+- Sprinkle the crumble mixture over the fruit, making a complete layer. Do not press the topping down—you want it light and crumbly.
+- Put the dish in the oven (no lid) for 35–45 minutes until crisp and a bit brown.
+- Serve with custard.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARhubarb_Crumble_I&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rhubarb Crumble I@4587314
+    url: https://en.wikibooks.org/w/index.php?oldid=4587314
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

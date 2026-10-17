@@ -1,0 +1,44 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: in-homemade-paneer
+title: Homemade Paneer
+summary: Paneer is a fresh curd cheese of Indian origin made by curdling milk with an acid and pressing out the water and whey.
+origin:
+  country: IN
+course: side
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: l, qty: 3}
+  - {ingredient: lemon-juice, unit: tbsp, qty: 6}
+steps:
+- Bring milk to a boil in a large pan.
+- Just before the milk starts to boil, add the lemon juice or vinegar to coagulate the milk.
+- Pour the coagulated milk through a cheese cloth to discard most of the water within.
+- Press the water out firmly and place a weight on top of the paneer.
+- Allow to rest and harden for 2–3 hours in the refrigerator.
+tips:
+- Sometimes the hardening in the refrigerator may not work. You may find that the paneer may breakdown into small granules while cooking. The alternate way to make it firm is by steaming it for about 15 minutes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHomemade_Paneer&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Homemade Paneer@4600837
+    url: https://en.wikibooks.org/w/index.php?oldid=4600837
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 tbsp split peas
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-lemon-rice
+title: Lemon Rice
+summary: Lemon rice is a specialty of the South Indian coastal state of Tamil Nadu.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 4}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 1}
+  - {ingredient: sesame-oil, unit: tbsp, qty: 3}
+  - {ingredient: roasted-peanuts, unit: tbsp, qty: 2}
+  - {ingredient: asafoetida, unit: tsp, qty: 0.5}
+  - {ingredient: red-chili, qty: [3, 4], prep: broken into pieces}
+  - {ingredient: curry-leaves, qty: [4, 5]}
+  - {ingredient: lemon, qty: 2, prep: 'juiced, or 4 tbsp lemon concentrate'}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 0.75}
+steps:
+- Heat the oil in a pan.
+- Add groundnuts and split-peas, and fry until golden brown.
+- Add mustard seeds, asafoetida, curry leaves, and red chillies. Wait until the mustard seeds sputter.
+- Mix in a little salt, turmeric powder and lemon concentrate.
+- Let it boil and reduce.
+- Remove pan from stove, add to the rice, and mix well.
+tips:
+- Add a little oil to the raw rice before cooking it. This gives it a better texture.
+- Serve with potato chips or pickles.
+- 1 tsp sesame seeds can be roasted and added for more taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALemon_Rice&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lemon Rice@4615196
+    url: https://en.wikibooks.org/w/index.php?oldid=4615196
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

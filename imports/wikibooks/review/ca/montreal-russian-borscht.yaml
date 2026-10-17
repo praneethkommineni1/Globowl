@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (CA, RU): confirm the country of origin
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ca-montreal-russian-borscht
+title: Montreal Russian Borscht
+summary: Montreal Russian borscht was a prize winner in Montreal, Canada's Russian community
+origin:
+  country: CA
+  also_claimed_by:
+  - RU
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: l, qty: 7}
+  - {ingredient: tomato, unit: can, qty: 1, prep: or an equivalent amount of fresh tomatoes}
+  - {ingredient: tomato-paste, qty: 1, note: small}
+  - {ingredient: sugar, note: to taste}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: onion, qty: 1, prep: thinly sliced, note: large}
+  - {ingredient: garlic, unit: clove, qty: [1, 2]}
+  - {ingredient: beetroot, qty: [5, 6], prep: peeled and julienned, note: medium}
+  - {ingredient: carrot, qty: 3, prep: peeled and julienned, note: medium}
+  - {ingredient: potato, qty: 1, prep: julienned, optional: true}
+  - {ingredient: white-cabbage, prep: shredded}
+steps:
+- Fill large stock pot with water. Add can stewed tomatoes, tomato paste, sugar, salt, onion, garlic, and beets, and boil for 20 minutes.
+- Add carrots, cabbage, and potato.
+- Return to a boil and cook for 1.5 hours
+tips:
+- It's very important to remember that this particular recipe is somewhat like wine. The older it gets, the better it gets. It is recommended to let sit in refrigerator for at least two days, before serving. The difference is truly remarkable.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMontreal_Russian_Borscht&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Montreal Russian Borscht@4630340
+    url: https://en.wikibooks.org/w/index.php?oldid=4630340
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

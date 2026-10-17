@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+id: xx-taboon-bread
+title: Taboon Bread
+summary: Taboon bread, also spelled tabun bread, is one of the various baked flatbreads found primarily in the areas surrounding the Palestinian village of Al-Jabal. It is traditionally baked in a clay oven called a taboon oven, the bottom of which is lined with smooth beach stones.
+origin:
+  country: XX
+course: bread
+authenticity: unassessed
+yield:
+  servings: 10
+time:
+  total_min: 8
+difficulty: 1
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: wholemeal-flour, unit: cup, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: yeast, unit: tsp, qty: 1}
+  - {ingredient: olive-oil, unit: tbsp, qty: 1}
+  - {ingredient: water}
+steps:
+- Mix the dry ingredients together.
+- Add olive oil, then gradually knead in enough water to make a dough. Knead for 10 minutes.
+- Divide the dough into balls, and allow them to rest for an hour until risen.
+- Sprinkle a flat working surface with flour, and roll the dough balls into flat, circular-shaped patties.
+- Preheat an oven containing a bed of smooth beach stones to 200°C (400°F). Alternatively, you can place the stones on a tray or pan in the oven.
+- Place the flat dough upon the stones, and bake for about 8 minutes until it produces bubbles.
+- Serve hot.
+tips:
+- Taboon bread can be served by topping the bread with a spicy condiment, cheese, or sweet drizzle of grape syrup or honey.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATaboon_Bread&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Taboon Bread@4525544
+    url: https://en.wikibooks.org/w/index.php?oldid=4525544
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

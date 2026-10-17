@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 small bunch ikong ubong
+id: ng-otong-soup
+title: Otong Soup
+summary: Otong soup is a popular soup amongst the Efik tribe of the Southern part of Nigeria. It is made from ugu leaves, uziza leaves, and okra. It is similar to the Yoruba ila alasepo and the Igbo okwuru.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2-3
+time:
+  total_min: 25
+difficulty: 2
+equipment:
+- Cooking spoon
+- Stovetop
+- Blender
+- Bowl
+- Pot
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: okra, qty: 20}
+  - {ingredient: red-chili, qty: 4}
+  - {ingredient: beef, qty: 10}
+  - {ingredient: onion, qty: 1, prep: puréed}
+  - {ingredient: bouillon-cube, qty: 1, note: small}
+  - {ingredient: red-palm-oil, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: water, unit: cup, qty: 2}
+steps:
+- Purée the okra and chile pepper with a blender.
+- Boil the meat with the blended onion, stock cube, and other spices to taste.
+- Add the okra purée and a little palm oil. Cook the mixture until it boils.
+- Stir in the uziza and ugu leaves.
+- Remove from the heat, and let rest for 2 minutes.
+- Season with salt to taste, and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AOtong_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Otong Soup@4518472
+    url: https://en.wikibooks.org/w/index.php?oldid=4518472
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

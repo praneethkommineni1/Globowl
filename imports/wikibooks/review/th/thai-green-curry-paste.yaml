@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no time in recipe summary
+id: th-thai-green-curry-paste
+title: Thai Green Curry Paste
+summary: Thai Green Curry Paste.
+origin:
+  country: TH
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3–4 tablespoons paste
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: red-chili, qty: 16, prep: chopped}
+  - {ingredient: lemongrass, qty: 2, prep: smashed}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: pressed}
+  - {ingredient: scallion, qty: 3, prep: chopped}
+  - {ingredient: ginger, unit: tbsp, qty: 1}
+  - {ingredient: coriander-seeds, unit: tbsp, qty: 1}
+  - {ingredient: caraway-seeds, unit: tbsp, qty: 1}
+  - {ingredient: whole-cloves, qty: 4}
+  - {ingredient: nutmeg, unit: tbsp, qty: 1}
+  - {ingredient: shrimp-paste, unit: tbsp, qty: 1}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 3}
+steps:
+- Grind the green chilli peppers, garlic, lemongrass, and scallions in a mortar.
+- Add the remaining ingredients except for the oil, and keep grinding to a fluid paste.
+- Mix in the oil.
+- Store in an airtight container in the refrigerator for up to 1 month.
+tips:
+- Alternatively, instead of using a mortar and pestle, you can add all ingredients to a food processor or blender and process until smooth. Thin with water or oil as necessary.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AThai_Green_Curry_Paste&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Thai Green Curry Paste@4517570
+    url: https://en.wikibooks.org/w/index.php?oldid=4517570
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

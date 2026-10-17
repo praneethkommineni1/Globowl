@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: mw-mbatata-a-matenda
+title: Mbatata a Matenda
+alternate_names:
+- Malawian Cassava Fritters
+summary: Mbatata a matenda is a popular Malawian snack made from cassava. These cassava fritters are crispy on the outside, soft on the inside, and bursting with flavor. They are a delightful treat that can be enjoyed on their own or with a side of hot tea.
+origin:
+  country: MW
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Mixing bowl
+- Frying pan
+- Slotted spoon
+- Paper towels
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: cassava, unit: cup, qty: 2}
+  - {ingredient: egg, qty: 1, prep: lightly beaten}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: red-chili, qty: 2, prep: finely chopped}
+  - {ingredient: cornmeal, unit: tbsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: vegetable-oil, prep: for frying}
+steps:
+- In a mixing bowl, combine the grated cassava, beaten egg, finely chopped onion, and finely chopped green chilies (if using).
+- Add the cornmeal to the mixture and mix well until everything is evenly combined.
+- Season the mixture with salt to taste. Adjust the seasoning according to your preference.
+- In a frying pan, heat vegetable oil over medium-high heat.
+- Take spoonfuls of the cassava mixture and carefully drop them into the hot oil. Flatten the fritters slightly with the back of the spoon.
+- Fry the fritters until they are golden brown and crispy on both sides. Use a slotted spoon to remove them from the oil and place them on paper towels to drain any excess oil.
+- Repeat the frying process with the remaining cassava mixture.
+- Allow the fritters to cool slightly before serving.
+tips:
+- You can add grated coconut or grated sweet potato to the cassava mixture for additional flavor and texture.
+- For a sweeter version, you can add a bit of sugar to the mixture.
+- These fritters can be served with a dipping sauce or enjoyed on their own.
+- Mbatata a matenda goes well with a cup of hot tea or as a side snack during gatherings and celebrations.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMbatata_a_Matenda_%28Malawian_Cassava_Fritters%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mbatata a Matenda (Malawian Cassava Fritters)@4517755
+    url: https://en.wikibooks.org/w/index.php?oldid=4517755
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

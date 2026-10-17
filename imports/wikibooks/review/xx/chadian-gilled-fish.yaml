@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-chadian-gilled-fish
+title: Chadian Gilled Fish
+summary: Chadian grilled fish is a popular dish in Chad known for its simplicity and flavorful taste. Fresh fish is marinated with local spices, then grilled to perfection, resulting in a delicious and aromatic meal.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Grill
+- Mixing bowl
+- Basting brush
+- Tongs or spatula
+- Aluminum foil (optional)
+- Paper towels
+techniques:
+- marinating
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: ground-ginger, unit: tsp, qty: 1}
+  - {ingredient: garlic, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: fish, qty: 2, prep: cleaned and scaled}
+  - {ingredient: lemon, prep: for serving}
+steps:
+- Preheat your grill or barbecue to medium-high heat.
+- In a mixing bowl, combine the vegetable oil, paprika, ginger, garlic, cumin, coriander, salt, and black pepper. Mix well to form a smooth marinade.
+- Pat dry the fish with paper towels and place them on a plate or tray. Using a basting brush, generously coat both sides of the fish with the marinade. Make sure to cover the fish thoroughly for maximum flavor.
+- If desired, you can let the fish marinate in the refrigerator for about 30 minutes to allow the flavors to penetrate. However, this step is optional, and you can proceed directly to grilling if you're short on time.
+- Once the grill is heated, lightly oil the grates to prevent sticking. You use a folded paper towel soaked in vegetable oil and held with tongs to do so.
+- Carefully place the marinated fish on the grill and close the lid. Cook for about 4–5 minutes per side, depending on the thickness of the fish, or until the flesh is opaque and easily flakes with a fork. While grilling, you can baste the fish with any remaining marinade using a basting brush for added flavor and moisture.
+- Once the fish is cooked through and nicely charred, remove from the grill using tongs or a spatula. Be careful not to break the delicate flesh.
+- Serve hot with lemon wedges on the side for squeezing over the fish. It pairs well with a side of rice or millet and can be accompanied by a fresh salad or steamed vegetables.
+tips:
+- Cooking times may vary depending on the size and thickness of the fish, as well as the heat of your grill. Adjust accordingly to ensure the fish is cooked to your desired doneness.
+- If desired, you can place the fish on a sheet of aluminum foil on the grill to prevent direct contact with the grates and facilitate easier flipping.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChadian_Gilled_Fish&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chadian Gilled Fish@4510313
+    url: https://en.wikibooks.org/w/index.php?oldid=4510313
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

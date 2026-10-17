@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 3 1/2 pounds lamb or mutton breast chops, chopped into portions
+#  - unmapped ingredient: 2 tablespoons cake flour
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-tomato-bredie
+title: Tomato Bredie
+summary: Tomato bredie is a South African meal and it is good during the winter fare. Tomato Bredie is an old Cape name for a dish of meat and vegetables stewed together.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Saucepan
+- Spoon
+- Mixing Bowl
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: tomato, unit: g, qty: 1021, prep: chopped}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 1}
+  - {ingredient: bay-leaf, qty: 2}
+  - {ingredient: bouillon-cube, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: brown-sugar, unit: tsp, qty: 1}
+  - {ingredient: black-peppercorns, qty: 6}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.5}
+  - {ingredient: worcestershire-sauce, qty: 1}
+  - {ingredient: potato, qty: 2, prep: quartered, optional: true, note: medium}
+steps:
+- Heat oil in a large, heavy-bottomed saucepan
+- Dredge lamb in flour; shake off excess.
+- Then, cook the lamb in hot oil until it is brown. pour lamb into a plate, and reserve drip in the pan.
+- Cook and stir onion in drippings until soft for like 5 minutes, then mix tomatoes with it, return lamb chops to the saucepan; season with bay leaves, salt, brown sugar, black pepper, Worcestershire sauce, white peppercorns and bouillon, cover it, reduce the heat and simmer it for 1 hour and 15 minutes. Stir occasionally so that it wont sticks to the bottom of the pan.
+- Stir in potatoes; continue cooking until potatoes are cooked and meat is tender, about 45 minutes more.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATomato_Bredie&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tomato Bredie@4573208
+    url: https://en.wikibooks.org/w/index.php?oldid=4573208
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

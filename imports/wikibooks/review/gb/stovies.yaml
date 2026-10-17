@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Seasoning salt
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gb-stovies
+title: Stovies
+summary: Stovies is a traditional Scottish dish originating mainly from the North Eastern counties of Angus and Aberdeenshire where even today the dish is still most commonly found and served.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: kg, qty: 1}
+  - {ingredient: butter, unit: g, qty: 50}
+  - {ingredient: onion, qty: 3, prep: roughly chopped, note: medium}
+  - {ingredient: beef, unit: g, qty: [125, 250]}
+  - {ingredient: parsley, unit: tbsp, qty: [2, 3], prep: 'chives, or spring onions'}
+  - {ingredient: black-pepper, optional: true}
+  - {ingredient: allspice, optional: true}
+steps:
+- Peel potatoes if they are "main crop", but leave the skins on new potatoes. Slice about 5 mm (¼-inch) thick. Or, slice roughly in different thickness so that the thin make a mush when cooked, while the others stay whole.
+- Heat fat in a large heavy-base pot (one with a tight-fitting lid) and add the onions. Cook until lightly brown. Add the potatoes and stir well, coating all sides with the fat.
+- Put the lid on and cook over a very low heat, shaking the pot once or twice to prevent sticking, until the potatoes are cooked.
+- Add the meat, mix through, and turn up the heat to brown a little.
+- Serve with brown sauce, parsley, and optional seasonings.
+tips:
+- The same recipe can be adapted to use steak, beef or pork sausages instead of leftover meat. If making stovies this way, brown the sausages with the onions at the start.
+- Recipes vary but mince is used most commonly, not only in the East but all over Scotland
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AStovies&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Stovies@4506504
+    url: https://en.wikibooks.org/w/index.php?oldid=4506504
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 cups fine cassava flour or tapioca flour
+#  - no time in recipe summary
+id: br-cheese-puffs
+title: Cheese Puffs
+alternate_names:
+- Pão de Queijo
+summary: Pães de queijo are Brazilian cheese puffs made of tapioca. They are similar to gougères and are typically served at breakfast or as a snack.
+origin:
+  country: BR
+course: starter
+authenticity: unassessed
+yield:
+  servings: 20
+  amount: 20 puffs
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: cup, qty: 0.667}
+  - {ingredient: vegetable-oil, unit: cup, qty: 0.333}
+  - {ingredient: cheese, unit: g, qty: 170}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Mix the milk and oil together in a saucepan, and boil until a white foam appears.
+- Gradually add flour to this hot mixture; mix well to form a firm dough with no lumps.
+- Let the dough rest for 15 minutes.
+- Preheat the oven to 375°F (190°C).
+- Mix the eggs, cheese, salt, and pepper into the dough. The dough will become sticky and wet. If the dough is too wet, add more flour and cheese in order to make firmer balls (instead of cookies).
+- Grease your hands, and form small balls 1–2 inches in diameter.
+- Place the balls on a greased baking tray. Bake for 15–20 minutes, until the top begins to brown.
+- Cool slightly.
+tips:
+- Ensure you use a fine flour, and not the coarser grain type of flour used to make farofa. This recipe should produce small cheesy bread rolls, so a finer flour consistency is required.
+- An egg substitute like Egg Beaters is fine.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACheese_Puffs_%28P%C3%A3o_de_Queijo%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cheese Puffs (Pão de Queijo)@4618203
+    url: https://en.wikibooks.org/w/index.php?oldid=4618203
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

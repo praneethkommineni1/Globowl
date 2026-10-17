@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (US, MX): confirm the country of origin
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-tacos
+title: Tacos
+summary: A taco is a traditional Mexican food consisting of a small hand-sized corn- or wheat-based tortilla topped with a filling.
+origin:
+  country: US
+  also_claimed_by:
+  - MX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- deep-frying
+ingredient_groups:
+- name: Base ingredients
+  items:
+  - {ingredient: beef, prep: 'finely sliced, or chopped beef'}
+  - {ingredient: tortilla}
+  - {ingredient: ground-cumin, unit: tsp, qty: [1, 4]}
+  - {ingredient: chili-powder, note: to taste}
+- name: Optional ingredients
+  items:
+  - {ingredient: olives}
+  - {ingredient: cheddar, prep: if desired}
+  - {ingredient: tomato}
+  - {ingredient: cilantro}
+  - {ingredient: spinach, prep: shredded or diced}
+  - {ingredient: mushroom}
+  - {ingredient: hot-sauce, prep: 'or hot sauce, as hot as you would like'}
+  - {ingredient: sour-cream}
+  - {ingredient: lettuce}
+  - {ingredient: tomato}
+  - {ingredient: onion}
+steps:
+- If you would like to have 'build-your-own' tacos, dice the optional ingredients your desire as needed and place in separate bowls for use on the table.
+- Place the beef in a wide pan on a large burner. Ground beef will need to be broken up as it cooks; chopped or sliced beef needs to be stir-fried and may require oil. When using high-fat ground beef, you may wish to drain and very, very lightly rinse the beef in a colander, or add water to float the fat, cool to solidify the fat, remove the fat, drain the water, and reheat. If you are using ground beef, which is quite alright, also see the Taco Meat recipe.
+- Add lots of cumin to the beef. Cumin is the magic ingredient that makes a taco taste like a taco. You may also add a bit of salt, a bit of chili powder and/or diced onion.
+- 'Prepare the outside covering:'
+- Pre-made shells can be reheated in the microwave as the package directs.
+- Plain corn tortillas can be used for soft tacos, although, for soft tacos, either a double layer of corn tortillas or a single layer of flour tortilla works best. The tortillas should be microwaved, covered, in 15+ second stages, flipping between stages, until warm, and kept covered and warm prior to use.
+- You could make your own hard taco shells from corn tortillas, but rest very well assured that soft corn tortilla tacos are absolutely the most traditional. If you need hard shells and can not find them pre-made, you may, with great effort and use of your time, use a deep-fat process, going one at a time and using a large spoon to form the shells into the normal U shape. Pan frying in ¼ inch to ½ inch of oil will also work; be sure not to let the tortillas stiffen prior to being bent into the U shape you desire.
+- Place hot beef into a hard shell or down the middle of a warm soft tortilla (two for corn). A very simple, and quite authentic, taco would be to then add a sprinkling of finely diced onion and cilantro into the inside of the taco, fold the tortilla over (if soft) and serve with lime quarters for squeezing into the taco. See Tacos de Bistec.
+- You may also continue on to place cheese onto the beef. The heat of the beef should slightly melt the cheese. You may wish to microwave the taco a bit, especially if the cheese is cold or if you are using low-fat cheese.
+- Add other toppings as the cook desires.
+- Serve the tacos with a small or large assortment of items that people can add. Traditionally, in a restaurant, this would amount to only pico de gallo or a hot sauce. However, 'build-your-own' tacos with a good assortment of items to add can add a bit of fun to a gathering or family dinner.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATacos&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tacos@4518778
+    url: https://en.wikibooks.org/w/index.php?oldid=4518778
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: es-spanish-omelet
+title: Spanish Omelet
+summary: The Spanish omelet (tortilla) is one of the best-known Spanish dishes, and it would be very rare to find a tapas bar that does not offer the Spanish tortilla. This tapa is versatile, and other ingredients such as mushrooms, tomatoes, and peppers can be added to create variety.
+origin:
+  country: ES
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: g, qty: 454}
+  - {ingredient: onion, qty: 1, optional: true, note: large}
+  - {ingredient: vegetable-oil}
+  - {ingredient: egg, qty: 6}
+  - {ingredient: salt, unit: pinch, qty: 1}
+steps:
+- Peel and slice potatoes. The slices should be quite thin.
+- Meanwhile, heat the oil on a low heat in a large sauté pan
+- Add the potatoes to the sauté pan, and fry until soft and cooked through, but not browned. This can take quite a while—don't rush it. It is a good idea to keep the pan covered so the steam from the potatoes at the bottom of the pan helps cook the ones at the top.
+- Slice the onion thinly. Fry it lightly in frying pan, stirring frequently for a few minutes or until sweet. Or you can simply add them to the potatoes for the last five minutes of cooking.
+- Beat the eggs in a large bowl and add salt.
+- Add the hot cooked potatoes and onion to the egg in the bowl, gently mix the potatoes and onion into the egg and leave it for five minutes. This starts the egg cooking and helps cover the potato slices in egg so it all sticks together nicely.
+- Drain oil, reserving oil for another time.
+- Pour the potatoes, onion and egg mix back into the pan, and cook for about 5 minutes on a low heat. Keep the pan moving so the mix doesn't stick to the pan. A non-stick pan makes this much easier.
+- When the edge of the tortilla looks cooked place a large, flat plate over the pan (like a lid), put one hand on the plate to hold it in place and turn the whole thing over (the first few times you do this it is best do this over the sink—can be very messy).
+- You should now have an up-side-down omelette on your plate, cooked on top and raw underneath. Check the pan is clean and scrape any bits that have stuck in the pan off and add a bit of oil if it is looking dry. Now slide the omelette back into the pan to cook the bottom.
+- Cook for another few minutes,
+- Repeat the turning trick a couple of times (practice makes perfect) to make sure it is cooked evenly.
+- Transfer to a large plate, cut into wedges, and serve with more tapas.
+tips:
+- Sliced tomatoes, fresh bread, and mayonnaise make this into a great meal.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASpanish_Omelet&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Spanish Omelet@4517807
+    url: https://en.wikibooks.org/w/index.php?oldid=4517807
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

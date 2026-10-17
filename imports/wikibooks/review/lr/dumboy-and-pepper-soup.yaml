@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: lr-dumboy-and-pepper-soup
+title: Dumboy and Pepper Soup
+summary: Dumboy is the national dish of Liberia. It is similar in appearance to pounded yam and fufu. It requires a lot of time and patience to prepare. It is usually enjoyed with pepper soup but can also be combined with any complimentary soup of your choice or even broth like soup.
+origin:
+  country: LR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: cassava, prep: peeled and cut into chunks}
+  - {ingredient: goat, unit: g, qty: 1361, prep: 'chicken, or beef, cut into bite-size pieces'}
+  - {ingredient: onion, qty: 1, prep: neatly chopped, note: large}
+  - {ingredient: bay-leaf, qty: 3}
+  - {ingredient: scotch-bonnet, qty: 2, prep: neatly chopped}
+  - {ingredient: salt, unit: tbsp, qty: 3, note: to taste}
+  - {ingredient: bouillon-cube, qty: 3, prep: crushed}
+  - {ingredient: shrimp, unit: g, qty: 1361}
+  - {ingredient: okra, qty: 4, prep: finely chopped}
+steps:
+- Rinse the cassava chunks, then boil in a saucepan of water for 20 minutes. Drain and cool.
+- If desired, slice the boiled cassava into smaller chunks.
+- Mash the cassava in a mortar until it begins to form a sticky dough. Occasionally, you can moisten the pestle with a little water if necessary.
+- When the desired consistency is reached, mould the dough into nicely shaped balls, and set them aside.
+- Combine the meat, onions, bay leaves, and habanero pepper in a large dutch oven. Add a reasonable amount of water and season with a generous pinch of salt and crushed bouillon cubes.
+- Cover the pot and boil for about 30 minutes until the meat becomes tender.
+- Add the shrimp and okra to the soup. Stir and simmer for another 10 minutes over medium heat.
+- Serve the soup with the prepared dumboy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADumboy_and_Pepper_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dumboy and Pepper Soup@4518752
+    url: https://en.wikibooks.org/w/index.php?oldid=4518752
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-pupuru
+title: Pupuru
+alternate_names:
+- Nigerian Cassava Swallow
+summary: Pupuru, also known as cassava poundo, is a typical Nigerian swallow made from cassava flour. It is majorly consumed by people of Ondo State, and it is served with soups such as okro soup, egusi soup, ogbono soup, and many others.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: cassava}
+  - {ingredient: water}
+steps:
+- Boil water in a pot.
+- Gradually mix the cassava flour into the boiling water, stirring with a spatula until it forms a smooth and lump-free dough.
+- Cook for a few minutes.
+- Serve with your soup of choice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APupuru_%28Nigerian_Cassava_Swallow%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pupuru (Nigerian Cassava Swallow)@4518767
+    url: https://en.wikibooks.org/w/index.php?oldid=4518767
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

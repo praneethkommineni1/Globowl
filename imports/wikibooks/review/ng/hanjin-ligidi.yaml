@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Flavoring of choice
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-hanjin-ligidi
+title: Hanjin Ligidi
+alternate_names:
+- Nigerian Lollipops
+summary: Hanjin ligidi, also called ekana gowon, is a cone-shaped Nigerian confection mostly enjoyed by children. It is similar to a lollipop.
+origin:
+  country: NG
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: tamarind-paste}
+  - {ingredient: water}
+  - {ingredient: sugar}
+steps:
+- Shape food-safe paper or aluminum foil into cones.
+- Clean any dirt or dust from the tsamiya.
+- Wash the tsamiya in a clean bowl of water and drain it thoroughly.
+- Soak the tsamiya in hot water for about 5 minutes.
+- Transfer the tsamiya soaking liquid to a pot over medium heat.
+- Gradually stir in sugar, making sure it dissolves, until it becomes very thick.
+- Stir in your desired flavoring and/or coloring.
+- Divide the syrup between the prepared cones. Let cool slightly, then insert a toothpick or other stick.
+- Let set and harden completely. Unmold and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHanjin_Ligidi_%28Nigerian_Lollipops%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Hanjin Ligidi (Nigerian Lollipops)@4517479
+    url: https://en.wikibooks.org/w/index.php?oldid=4517479
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

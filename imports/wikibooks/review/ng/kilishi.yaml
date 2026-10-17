@@ -1,0 +1,68 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tsp suya spice
+#  - no time in recipe summary
+#  - course unknown from categories
+#  - possible duplicate of hand-written recipe ne-kilishi — merge or keep as a variant
+id: ng-kilishi
+title: Kilishi
+alternate_names:
+- Nigerian Beef Jerky
+summary: __notoc__ Kilishi is a spicy, thinly sliced beef jerky popular in northern Nigeria. It is made by marinating meat in a spiced peanut-based paste and then drying it. Traditionally sun-dried, modern versions are often oven-baked for convenience.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 10
+  amount: 10 pieces
+time:
+  total_min: 1
+difficulty: 1
+equipment:
+- Knife
+- Oven
+- Baking sheet
+- Mortar or blender
+- Tongs or spatula
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: [250, 300], prep: trimmed of fat and sliced very thin}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: ginger, qty: 1, note: small}
+  - {ingredient: garlic, unit: clove, qty: 3}
+  - {ingredient: chicken-bouillon-cube, qty: 1}
+  - {ingredient: ground-cloves, unit: tsp, qty: 1}
+  - {ingredient: water, unit: tbsp, qty: [2, 3]}
+  - {ingredient: cayenne, unit: tsp, qty: 1}
+steps:
+- Rub salt on both sides of the beef slices and let sit for 10 minutes.
+- Lay the slices flat on a baking sheet. Bake in a preheated oven at 250°C (482°F) for 15 minutes, turning every 5 minutes.
+- Pound or blend the ginger and garlic into a paste. In a bowl, mix the paste with the stock cube, cloves, cayenne seeds, suya spice, and a few tablespoons of water to form a marinade.
+- Rub the marinade onto the partially baked meat slices, coating them well.
+- Return the slices to the oven and bake for another 10–15 minutes, flipping occasionally until fully dry and slightly crispy.
+- Remove from the oven and let cool before serving or storing.
+tips:
+- Traditionally, kilishi is sun-dried before roasting. The oven method provides a hygienic and faster alternative.
+- For even drying, use a wire rack placed over a baking tray.
+- Adjust spice levels by reducing or increasing cayenne and suya spice.
+- Store in an airtight container for up to 1 week; refrigerate for longer shelf life.
+- You can substitute beef with goat or chicken for different flavors.
+- If available, ground roasted peanuts can be added to the spice mix for a richer, authentic taste.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKilishi_%28Nigerian_Beef_Jerky%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kilishi (Nigerian Beef Jerky)@4513620
+    url: https://en.wikibooks.org/w/index.php?oldid=4513620
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

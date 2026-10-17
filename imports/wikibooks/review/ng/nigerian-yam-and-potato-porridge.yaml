@@ -1,0 +1,85 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 6 pieces of ponmo, properly cleaned and cut into small pieces
+#  - unmapped ingredient: 2 teaspoons of ginger/garlic/onion paste
+#  - no time in recipe summary
+id: ng-nigerian-yam-and-potato-porridge
+title: Nigerian Yam and Potato Porridge
+summary: Yam and potato porridge with peppered ponmo is an upgraded version of yam porridge, a popular dish in southern Nigeria, particularly among the Yoruba people. The porridge is served with peppered ponmo due to the fact that people like to chew something while eating the porridge.
+origin:
+  country: NG
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Non-stick pot
+- Wooden stirring rod
+- Cooking spoon
+- Stovetop
+- Knife
+- Chopping board
+techniques:
+- boiling
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 1.5}
+  - {ingredient: bouillon-cube, qty: 4}
+  - {ingredient: garlic, prep: minced}
+  - {ingredient: red-chili, qty: 15}
+  - {ingredient: red-palm-oil, qty: 3}
+  - {ingredient: vegetable-oil, qty: 2}
+  - {ingredient: onion, qty: 6, prep: 3 chopped and 3 sliced}
+  - {ingredient: curry-powder, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1.25}
+  - {ingredient: yam, qty: 1, prep: peeled and sliced into 4 pieces of 10 cm diameter and 2–2.5-inch thickness}
+  - {ingredient: sweet-potato, qty: 5, prep: peeled and sliced 2–2.5-inch thick}
+  - {ingredient: tomato-paste, qty: 1}
+  - {ingredient: ground-crayfish, unit: tsp, qty: 4}
+steps:
+- Place the ponmo in a pot with water, 2 seasoning cubes, garlic, and salt to taste. Boil until the ponmo becomes soft, which should take about 10 minutes.
+- Blend the chile peppers until about 70% smooth.
+- Heat a dry frying pan over medium heat. Pour 1 cooking spoon of palm oil and ½ spoon of vegetable oil into the pan, and heat them for about 2 minutes.
+- Add one-third of the finely chopped onions to the pan and fry them, stirring continuously for approximately 2 minutes.
+- Add the blended peppers, curry powder, ½ teaspoon of salt, and pepper. Let the mixture fry for about 8 minutes.
+- Add the cooked ponmo to the pan and stir to combine. Reduce the heat to low and simmer, covered, for approximately 5 minutes.
+- Keep warm until time to serve.
+- In a large pot, combine 1 cup of water and 1 teaspoon of salt. Add the yam, sweet potato, and sliced onions.
+- Boil the yam and sweet potatoes until they are about 60% softened (approximately halfway done). This process usually takes around 12 minutes. Do not drain.
+- Blend the ginger-garlic paste, remaining seasoning cubes, and tomato paste together until smooth.
+- Heat a dry frying pan over medium heat. Add 2 spoons of palm oil and 1½ spoons of vegetable oil to the pan, and heat them for about 2 minutes
+- Add half the remaining finely chopped onions to the pan and fry them, stirring continuously for approximately 2 minutes.
+- Add the tomato mixture and salt to taste. Stir continuously until the mixture fries and has lost some liquid.
+- Stir the fried tomato mixture into the pot with the yam and potatoes. Add the crayfish and remaining chopped onions. Stir well and cover the pot, allowing it to cook for 5 minutes.
+- Using a wooden stirring rod, stir and mash the yam and potato, leaving some chunks for texture.
+- Reduce the heat to low and simmer, covered, for an additional 5 minutes.
+- Stir the porridge and remove it from the heat, allowing it to steam. Serve the hot porridge on a plate with the peppered ponmo.
+tips:
+- Use a non-stick cooking pot to prevent the yam from sticking to the bottom and a non-stick frying pan to cook the peppered ponmo.
+- Gradually add water as needed to prevent the yam/sweet potatoes from becoming too runny.
+- If palm oil and vegetable oil are not available, you can substitute canola oil or any other type of cooking oil.
+- As a vegetarian option, you can add vegetables such as carrots, green beans, or spinach to the porridge.
+- Clean brown or white ponmo with an iron sponge and warm salty water.
+- Crayfish can also be added to the peppered ponmo for extra flavor.
+- If you don't prefer scotch bonnet peppers, you can use dried chili peppers instead.
+- This meal can be served with various proteins such as fish, meat, or turkey. You can also pair it with refreshing drinks like sobo or blended fruit juice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Yam_and_Potato_Porridge&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Yam and Potato Porridge@4517859
+    url: https://en.wikibooks.org/w/index.php?oldid=4517859
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

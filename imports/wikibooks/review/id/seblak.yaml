@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 250 grams of raw crackers
+#  - unmapped ingredient: 2 packs of instant noodles
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: id-seblak
+title: Seblak
+summary: Seblak is a traditional snack from Sunda. This food is commonly found in West Java Province, especially in Bandung, Garut, and Tasikmalaya. It is made mainly from crackers with kencur (aromatic ginger) and chili as the main spices.
+origin:
+  country: ID
+course: main
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 1
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 2}
+  - {ingredient: chicken, unit: kg, qty: 0.25}
+  - {ingredient: ginger, qty: 2}
+  - {ingredient: shallot, qty: 2}
+  - {ingredient: whole-cloves, qty: 2}
+  - {ingredient: red-chili, unit: g, qty: 100}
+  - {ingredient: chicken-stock, unit: tbsp, qty: 1}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: water, unit: ml, qty: 200}
+steps:
+- Prepare all the ingredients.
+- Blend kencur (aromatic ginger), shallots, and garlic. Add a little salt.
+- Blend the chili separately.
+- Heat the oil in a pan.
+- Sauté the blended kencur, shallots, and garlic until fragrant and cooked.
+- Add the blended chili, then stir until it smells fragrant.
+- Next, pour in the water.
+- Add salt, chicken broth powder, and sugar to taste.
+- Put in the crackers and boiled chicken pieces, then stir until cooked.
+- Add the instant noodles, and stir again until everything is well-cooked.
+- Pour it into a bowl according to your preferred portion.
+- Seblak is ready to serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASeblak&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Seblak@4630576
+    url: https://en.wikibooks.org/w/index.php?oldid=4630576
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

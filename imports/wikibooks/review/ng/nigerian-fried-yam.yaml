@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-nigerian-fried-yam
+title: Nigerian Fried Yam
+summary: Nigerian fried yam is usually eaten with a pepper sauce.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Stovetop
+- Frying pan
+- Sieve
+- Bowl
+ingredient_groups:
+- items:
+  - {ingredient: yam, prep: peeled and sliced into sticks}
+  - {ingredient: salt}
+  - {ingredient: vegetable-oil}
+steps:
+- Rinse the cut yam and place in a bowl. Season with salt.
+- Heat oil in a pan or pot. Add the cut yam little by little to avoid overcrowding.
+- Stir, and cook until the yam is golden. Flip and cook until golden on all sides.
+- Remove fried yam from pan, and drain away any excess oil.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Fried_Yam&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Fried Yam@4494020
+    url: https://en.wikibooks.org/w/index.php?oldid=4494020
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

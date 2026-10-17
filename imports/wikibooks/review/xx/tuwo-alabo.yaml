@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Cassava flour
+#  - course unknown from categories
+id: xx-tuwo-alabo
+title: Tuwo Alabo
+alternate_names:
+- Nigerian Cassava Swallow
+summary: Tuwo alabo or tuwon taiba is a Nigerian swallow made from cassava flour, locally called garin kwaki, which is gotten by sun-drying and milling fermented peeled cassava. It is a substitute for tuwo masara and is the Hausa version of lafun.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2 servings
+time:
+  total_min: 20
+difficulty: 2
+equipment:
+- Sieve
+- Turning stick (mu iya)
+- Mixing bowl
+techniques:
+- boiling
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Sift the cassava flour to remove debris.
+- Boil the water in a pot, and gradually stir in the flour until it forms a smooth mixture.
+- Use the wooden spatula to mix and mash the dough until smooth and thick.
+- Cover the pot and allow the mixture to steam on low heat for 3–5 minutes.
+- Stir again until well-cooked and smooth.
+tips:
+- Use clean, fine cassava flour for the best results.
+- Continuous stirring helps achieve a lump-free texture.
+- The dish has a slightly fermented taste if the cassava flour is traditionally processed.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATuwo_Alabo_%28Nigerian_Cassava_Swallow%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tuwo Alabo (Nigerian Cassava Swallow)@4518772
+    url: https://en.wikibooks.org/w/index.php?oldid=4518772
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

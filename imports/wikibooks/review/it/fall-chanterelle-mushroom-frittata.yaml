@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no time in recipe summary
+id: it-fall-chanterelle-mushroom-frittata
+title: Fall Chanterelle Mushroom Frittata
+summary: Fall Chanterelle Mushroom Frittata.
+origin:
+  country: IT
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: egg-white, qty: 6}
+  - {ingredient: egg-yolk, qty: 2}
+  - {ingredient: milk, unit: cup, qty: 0.5}
+  - {ingredient: mushroom, unit: cup, qty: 0.5}
+  - {ingredient: cheddar, unit: cup, qty: 0.5}
+  - {ingredient: lemon-juice, unit: tsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+steps:
+- Preheat oven to 350°F (175°C).
+- Combine the whites and yolks in a medium bowl.
+- Add milk, lemon juice, salt, and pepper.
+- Whisk the egg mixture until slightly frothy (the more whisking, the fluffier the eggs will be).
+- Pour the eggs into a pan or muffin tin sprayed with nonstick canola cooking spray. Add chanterelles and cheese.
+- Bake for 15–20 minutes. Poke with fork or knife to see if middle is cooked.
+- Serve and enjoy.
+tips:
+- More vegetables can be added to the mix.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFall_Chanterelle_Mushroom_Frittata&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fall Chanterelle Mushroom Frittata@4522463
+    url: https://en.wikibooks.org/w/index.php?oldid=4522463
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

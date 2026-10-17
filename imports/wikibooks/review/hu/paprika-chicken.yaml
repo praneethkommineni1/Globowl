@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: &frac12; red bell pepper
+id: hu-paprika-chicken
+title: Paprika Chicken
+summary: Paprika chicken is a dish of Hungarian origin traditionally made with chicken, paprika, and lard, served over pasta. There is no official recipe. Preparations of this dish often vary between families. In this Americanized version, sour cream is used in place of lard.
+origin:
+  country: HU
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8 as main course
+time:
+  total_min: 80
+difficulty: 3
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 1}
+  - {ingredient: onion, qty: 2, prep: chopped, note: medium}
+  - {ingredient: paprika, unit: tbsp, qty: [2, 4]}
+  - {ingredient: olive-oil, unit: tbsp, qty: [5, 7]}
+  - {ingredient: sour-cream, unit: cup, qty: 1}
+  - {ingredient: heavy-cream, unit: cup, qty: [0.25, 0.5]}
+  - {ingredient: salt}
+  - {ingredient: parsley}
+  - {ingredient: black-peppercorns, qty: [6, 7]}
+  - {ingredient: red-bell-pepper, qty: 1, optional: true}
+  - {ingredient: carrot, qty: 1, prep: thinly sliced, optional: true}
+  - {ingredient: onion, qty: 1, prep: thinly sliced, optional: true}
+steps:
+- Cut the chicken into eight pieces.
+- Add the oil to a medium sauté pan. Sauté the onions for about 3–4 minutes or until they turn yellow.
+- Add the chicken, peppercorns, salt, and paprika, and stir it rapidly. It is a lot of paprika, but it is not hot and this is a Paprikash. Add water immediately to cover the meat.
+- Simmer over low heat. If using, add peppers and carrots after 10 minutes of simmering. Stir occasionally until the chicken is tender. If necessary add more water, but very sparingly. Do not boil the chicken—it should be almost fried in the end. This takes about 45–50 minutes. During the last 15 minutes, stop adding water and wait until the liquid is almost boiled off. Keep about a half finger's width of gravy on the bottom of the pan
+- Add the sour cream and heavy cream to the gravy and stir. Add fresh chopped parsley on the top.
+- Serve with dumplings, rice or mashed potatoes and salad.
+tips:
+- It is important not to use hot paprika, as this would make the soup too spicy and of the wrong consistency. In the United States, paprika is typically mild and sweet unless otherwise indicated.
+- If desired, for every carrot used add ⅓ parsnip, thinly sliced. This takes away the slight sweetness of the carrot.
+- If you want to avoid the heavy cream, use more sour cream.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APaprika_Chicken&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Paprika Chicken@4494451
+    url: https://en.wikibooks.org/w/index.php?oldid=4494451
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Assorted salad greens
+#  - no servings in recipe summary
+id: it-balsamic-dressing
+title: Balsamic Dressing
+summary: Balsamic vinegar adds a tangy sweetness that complements the rich, fruity, buttery flavor of extra-virgin olive oil.
+origin:
+  country: IT
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 5
+difficulty: 1
+techniques:
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: white-vinegar, unit: tbsp, qty: 2}
+  - {ingredient: olive-oil, unit: tbsp, qty: 6}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Whisk together vinegar and seasonings.
+- Slowly whisk in oil.
+- Serve over assorted salad greens.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABalsamic_Dressing&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Balsamic Dressing@4527286
+    url: https://en.wikibooks.org/w/index.php?oldid=4527286
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

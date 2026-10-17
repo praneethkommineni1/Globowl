@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: my-arisa
+title: Arisa
+alternate_names:
+- Malaysian Blended Chicken
+summary: Arisa is a unique dish only found in state of Johor, Malaysia. It is very rare nowadays, normally only served to royalty and social elites of Johor at formal functions and celebrations. This rarity reflects its passing as an oral tradition between mother to daughter.
+origin:
+  country: MY
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 2}
+  - {ingredient: rolled-oats, unit: g, qty: 500}
+  - {ingredient: onion, qty: 4}
+  - {ingredient: garlic, unit: clove, qty: 15}
+  - {ingredient: green-cardamom-pods, qty: 15}
+  - {ingredient: whole-cloves, qty: 10}
+  - {ingredient: cinnamon-stick, qty: 50}
+  - {ingredient: ginger, qty: 100}
+  - {ingredient: black-pepper, unit: tbsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: ghee, unit: g, qty: 340}
+  - {ingredient: onion, prep: chopped}
+steps:
+- Clean the chicken, and cut into fourths.
+- Place the chicken in a stock pot.
+- Blend the ginger and garlic. Cut red onion into quarters, and put the blended ingredients and onion into the stock pot.
+- Add 12 glasses of water, salt, cardamon seeds, cinnamon sticks and cloves.
+- Bring the chicken to boil.
+- Take out the chicken, debone it, and blend it into puree.
+- Sieve the chicken stock, bring it to boil again, add in the chicken puree, oats, white pepper, and salt to taste.
+- Stir nonstop until it thickens. Add in half of the ghee, and stir until the mixture is smooth.
+- Pour the mixture into a square mold, and make a depression in the middle.
+- Use the rest of the ghee to fry the onions. Place the fried onions into the depression.
+- Sprinkle additional fried onions on top to garnish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AArisa_%28Malaysian_Blended_Chicken%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Arisa (Malaysian Blended Chicken)@4513173
+    url: https://en.wikibooks.org/w/index.php?oldid=4513173
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3 cups cornbread, crumbled finely
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-cornbread-and-chicken-casserole
+title: Cornbread and Chicken Casserole
+summary: If you like, you can substitute turkey, beef, or even tuna for the chicken.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: cup, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: garlic, unit: tbsp, qty: 1}
+  - {ingredient: onion, qty: 0.5, prep: finely diced, note: large}
+  - {ingredient: monterey-jack, unit: cup, qty: 2, prep: divided}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: olive-oil, unit: tsp, qty: 1}
+  - {ingredient: breadcrumbs, unit: cup, qty: 0.667}
+  - {ingredient: butter, unit: cup, qty: 0.25}
+steps:
+- In a large straight-sided stainless steel sauté pan set over medium-high heat, melt butter with olive oil. Add onion and cook until onion is translucent.
+- Add garlic and sauté until golden. Remove and set aside until cool.
+- Combine chicken with onion mixture along with the salt, pepper, and 1 cup cheese. Set aside.
+- Place enough cornbread in the bottom of a parchment-lined high-sided roasting pan to lightly coat the bottom. Place a layer of chicken mixture on top and repeat until all has been used up.
+- Combine remaining ingredients and sprinkle over top layer. Cover with foil and place in the center of a 375°F oven 20 minutes.
+- Remove foil and bake for 15 more minutes or until browned and bubbly on top. Serve warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACornbread_and_Chicken_Casserole&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cornbread and Chicken Casserole@4517397
+    url: https://en.wikibooks.org/w/index.php?oldid=4517397
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

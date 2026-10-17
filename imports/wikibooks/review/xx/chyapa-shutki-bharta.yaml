@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no ingredient lines parsed
+#  - course unknown from categories
+id: xx-chyapa-shutki-bharta
+title: Chyapa Shutki Bharta
+summary: __notoc__ Chapa shutki bharta is a famous bharta from North Bengal that has become popular in almost all parts of the country.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3–4
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: water}
+steps:
+- Clean and wash the fish. If you want, you can remove the scales and extra thorns.
+- Fry the flat dried fish in a dry pan over low heat until the aroma comes out. Some people fry it with a little oil, but the taste is stronger when fried dry. Remove from the heat, and let cool.
+- Grind the fish well in a mortar or bowl.
+- Grind the chiles, garlic, and salt together.
+- Lightly crush the onion with a fork to release the juice.
+- Combine all the ingredients together, and serve.
+tips:
+- Open the doors and windows while frying the shutki because its aroma can be very strong.
+- If you want, dry chilies can be used instead of raw chilies, which creates a different aroma.
+- Adding a little more onion makes the bharta soft and juicy, while increasing the amount of garlic increases the spiciness.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChyapa_Shutki_Bharta&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chyapa Shutki Bharta@4630282
+    url: https://en.wikibooks.org/w/index.php?oldid=4630282
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

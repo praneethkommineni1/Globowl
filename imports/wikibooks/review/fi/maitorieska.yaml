@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: fi-maitorieska
+title: Maitorieska
+alternate_names:
+- Finnish Barley Flatbread
+summary: Maitorieska (milk rieska, pronounced "RE-ehskuh") is a barley-based flatbread that is a local specialty and a very traditional food in the Ylivieska area of Finland.
+origin:
+  country: FI
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: ml, qty: 250}
+  - {ingredient: salt, unit: tsp, qty: 0.333}
+  - {ingredient: all-purpose-flour, unit: ml, qty: [250, 330]}
+steps:
+- Preheat oven to 300°C (570°F), or as high as it will go.
+- Combine milk and salt, and add flour. Mix the ingredients well to make a dough.
+- Knead into a flat, round bread (about 0.5 cm / ¼ inch thick).
+- Bake on an oven tray for about 10 minutes or until the surface gets some darker spots. Alternatively, fry it in a pan on the stove or on open fire.
+- Eat fresh with butter and cold milk.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMaitorieska_%28Finnish_Barley_Flatbread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Maitorieska (Finnish Barley Flatbread)@4513087
+    url: https://en.wikibooks.org/w/index.php?oldid=4513087
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

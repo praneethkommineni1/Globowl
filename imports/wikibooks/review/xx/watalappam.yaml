@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-watalappam
+title: Watalappam
+alternate_names:
+- Sri Lankan Coconut Custard
+summary: Watalappam is a Sri Lankan steamed coconut custard.
+origin:
+  country: XX
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: coconut-milk, unit: cup, qty: 2}
+  - {ingredient: brown-sugar, unit: g, qty: 227}
+  - {ingredient: egg, qty: 4}
+  - {ingredient: ground-cardamom, unit: pinch, qty: 1, optional: true}
+  - {ingredient: whole-cloves, qty: 3, optional: true}
+  - {ingredient: cashews, qty: 12}
+steps:
+- Beat the eggs in a mixer. Add the milk, brown sugar, cardamom, and cloves to the beaten eggs. Mix well.
+- Transfer the mixture to a pot and steam for 20 minutes. Add the cashews.
+tips:
+- One can also vary or enhance the aroma and flavour by adding thick pandan juice or vanilla pod gratings.
+- Alternatively, the mixture can be poured into multiple small aluminum baking foils and then steamed for about 5–10 minutes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AWatalappam_%28Sri_Lankan_Coconut_Custard%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Watalappam (Sri Lankan Coconut Custard)@4587428
+    url: https://en.wikibooks.org/w/index.php?oldid=4587428
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

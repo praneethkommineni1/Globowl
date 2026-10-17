@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 can water chestnuts
+id: us-peas-supreme
+title: Peas Supreme
+summary: Peas Supreme.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+  amount: 6–8
+time:
+  total_min: 30
+difficulty: 1
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: green-peas, qty: 1}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: mushroom, unit: can, qty: 1, prep: juice reserved}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 1}
+  - {ingredient: cooking-spray}
+  - {ingredient: breadcrumbs, unit: cup, qty: 0.25, optional: true}
+steps:
+- Preheat oven to 350°F.
+- Cook peas according to package instructions, then drain.
+- In a separate pan, melt butter.
+- Add mushroom juice and flour to melted butter. Stir until thickened.
+- Add mixture to peas, then add water chestnuts and mushrooms.
+- Place in medium baking pan coated with cooking spray.
+- Sprinkle breadcrumbs on top if desired.
+- Bake for 12–15 minutes, or until heated through.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APeas_Supreme&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Peas Supreme@4517414
+    url: https://en.wikibooks.org/w/index.php?oldid=4517414
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

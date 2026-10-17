@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 16 wonton wrappers or 24 egg roll wrappers
+#  - unmapped ingredient: Sweet and sour sauce
+#  - no time in recipe summary
+id: xx-cream-cheese-wontons
+title: Cream Cheese Wontons
+summary: Cream Cheese Wontons.
+origin:
+  country: XX
+course: starter
+authenticity: unassessed
+yield:
+  servings: 16
+  amount: 16–24 wontons
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- deep-frying
+ingredient_groups:
+- items:
+  - {ingredient: cream-cheese, unit: cup, qty: 1}
+  - {ingredient: vegetable-oil}
+steps:
+- Heat oil in a deep-fat fryer or pour into a deep skillet on high temperature.
+- While oil is heating, lay out as many wrappers as you plan to use. Have a small bowl of water nearby to wet your fingers.
+- Put a small dab of cream cheese in one corner of each wrapper, about ½ inch from the edges. Use about 2 tsp for larger egg roll wrappers or 1 tsp for smaller wonton wrappers.
+- Using your fingers, wet the two edges nearest the cream cheese, then fold the other half down and seal the edges, making a triangle shape. Seal the edges tightly, but try to leave small gaps at the corners so the triangles will not expand so much that they burst.
+- Drop several wontons into hot oil at a time. Turn over when the edges start to brown and cook for another minute or two.
+- Set on paper towels to drain, then serve hot with sweet-and-sour sauce.
+tips:
+- Vegetable oil or peanut oil works best.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACream_Cheese_Wontons&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cream Cheese Wontons@4514745
+    url: https://en.wikibooks.org/w/index.php?oldid=4514745
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

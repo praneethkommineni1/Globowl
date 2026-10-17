@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+#  - possible duplicate of hand-written recipe my-nasi-lemak — merge or keep as a variant
+id: my-coconut-rice
+title: Coconut Rice
+alternate_names:
+- Nasi Lemak
+summary: Coconut Rice.
+origin:
+  country: MY
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 6}
+  - {ingredient: coconut-milk, unit: cup, qty: 7}
+  - {ingredient: salt}
+  - {ingredient: pandan-leaf, qty: [1, 2], optional: true}
+  - {ingredient: ginger, optional: true}
+steps:
+- Rinse the rice and set it aside.
+- Meanwhile put the coconut milk on the stove, and add the salt.
+- Add the rice, pandan leaves, and ginger. Let it simmer until the coconut milk evaporates.
+- Cover it with lid and let it sit for about 15 minutes until it is well cooked.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACoconut_Rice_%28Nasi_Lemak%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Coconut Rice (Nasi Lemak)@4513018
+    url: https://en.wikibooks.org/w/index.php?oldid=4513018
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

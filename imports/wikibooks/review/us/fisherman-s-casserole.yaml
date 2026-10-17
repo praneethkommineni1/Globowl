@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+id: us-fisherman-s-casserole
+title: Fisherman's Casserole
+summary: Fisherman's Casserole.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: macaroni, qty: 1}
+  - {ingredient: cheddar, unit: g, qty: 227}
+  - {ingredient: milk, unit: cup, qty: 0.667}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 0.5}
+  - {ingredient: onion, unit: cup, qty: 0.5}
+  - {ingredient: celery, unit: can, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: salmon, unit: can, qty: 1}
+  - {ingredient: green-peas, qty: 1}
+  - {ingredient: breadcrumbs, unit: cup, qty: 1}
+  - {ingredient: butter, unit: tbsp, qty: 2, prep: melted}
+steps:
+- Preheat oven to 350°F (175°C).
+- Cook macaroni according to package directions; drain.
+- In a large bowl, combine cheese, macaroni, milk, dry mustard, onion, soup, and salt.
+- Add salmon and frozen peas.
+- Place in a greased 9 x 13-inch pan.
+- Cover mixture with bread crumbs; drizzle with melted butter.
+- Bake for 45 minutes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFisherman%27s_Casserole&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fisherman's Casserole@4615179
+    url: https://en.wikibooks.org/w/index.php?oldid=4615179
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

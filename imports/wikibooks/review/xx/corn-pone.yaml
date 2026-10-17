@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-corn-pone
+title: Corn Pone
+summary: Corn pone is a small simple corn cake, similar to a johnnycake. It was originally cooked in ashes, and introduced to early European settlers by indigenous Americans.
+origin:
+  country: XX
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water, qty: 1}
+  - {ingredient: cornmeal}
+  - {ingredient: butter, unit: g, qty: 28}
+  - {ingredient: salt, optional: true}
+steps:
+- Put on the water in a pot, and as soon as it boils stir in enough cornmeal to make a very thin batter.
+- Beat it frequently while it is boiling for 10 minutes; remove from the heat, pour it in a pan, and add the butter and salt to taste.
+- When the batter is lukewarm, stir in enough corn meal to make it quite thick.
+- Let rise overnight.
+- Pat the dough out into small cakes.
+- Butter a baking tin and bake in a moderate oven or butter a cake pan, fill it ¾ full, and bake.
+tips:
+- This recipe did not originally have an oven temperature; 350°F is probably safe.
+- To prevent lumping, mix some cool water into corn meal first, before adding boiling water. See details at Mixing flours or dry meal with hot liquids.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACorn_Pone&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Corn Pone@4513108
+    url: https://en.wikibooks.org/w/index.php?oldid=4513108
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

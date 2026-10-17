@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-eggplant-and-tahini
+title: Eggplant and Tahini
+alternate_names:
+- Moutabbal
+summary: Moutabbal (baba ghanouzh) is an eggplant and tahini dip.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+- roasting
+ingredient_groups:
+- items:
+  - {ingredient: eggplant, qty: 1, note: large}
+  - {ingredient: tahini, unit: tbsp, qty: [2, 3]}
+  - {ingredient: lemon, qty: [1, 2], prep: juiced and strained}
+  - {ingredient: whole-cloves, qty: [2, 3]}
+  - {ingredient: salt}
+  - {ingredient: olive-oil}
+steps:
+- Roast the eggplant on open flame. If your stove is electric, split the eggplant lengthwise, place face down on a cookie sheet, and bake in a hot oven on the top rack 30–45 minutes. For open flame roasting, use a fork to turn often. The skin should wrinkle and char, and flesh will shrivel and become soft. When eggplant is completely soft all over, remove to a bowl, slash once or twice to drain out bitter juice, and let rest until cool enough to handle. Some cooks suggest cooling the eggplant inside a brown paper bag.
+- Cut off stem and peel away skin. Scrape flesh into bowl of food processor or blender. Add garlic, tahini, lemon juice and process. Quantities depend upon size of eggplant and your preferences–please taste frequently. Salt to taste.
+- Serve at room temperature, drizzled with olive oil, and garnished with a black or green Mediterranean olive or sprigs of cilantro or parsley.
+tips:
+- If you don't have a food processor or blender, the eggplant is quite easy to mash by hand. Mash the garlic with the flat of a broad knife, then mince it fine. Some cooks prefer mashing by hand to mechanical means as the blades of food processors can break the seeds, which releases undesirable bitter flavours. If you have a mortar and pestle, mash the garlic with salt into a paste. A large mortar and pestle can be used to mash all ingredients.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEggplant_and_Tahini_%28Moutabbal%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Eggplant and Tahini (Moutabbal)@4629612
+    url: https://en.wikibooks.org/w/index.php?oldid=4629612
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

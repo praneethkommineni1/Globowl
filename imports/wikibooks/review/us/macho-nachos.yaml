@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Cayenne pepper sauce
+#  - unmapped ingredient: 1 can prepared bean dip
+#  - unmapped ingredient: Tortilla chips
+#  - unmapped ingredient: Guacamole
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-macho-nachos
+title: Macho Nachos
+summary: This recipe is attributed to Jack Cochran.
+origin:
+  country: US
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: cheddar}
+  - {ingredient: sour-cream}
+  - {ingredient: green-chili}
+steps:
+- Stir cayenne pepper into the bean dip to taste. Spread this mixture on chips, and transfer to a baking sheet.
+- Sprinkle chips with cheese, and bake at 400°F for 2 minutes or until cheese melts.
+- Top with guacamole dip and sour cream; garnish liberally with sliced jalapeño peppers.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMacho_Nachos&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Macho Nachos@4515178
+    url: https://en.wikibooks.org/w/index.php?oldid=4515178
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

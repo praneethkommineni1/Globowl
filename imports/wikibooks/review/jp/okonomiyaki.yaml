@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Okonomiyaki sauce
+#  - unmapped ingredient: Dried bonito flakes
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: jp-okonomiyaki
+title: Okonomiyaki
+alternate_names:
+- Japanese Savory Pancake
+summary: Okonomiyaki is a popular savory pancake dish in Japan. It consists of a batter made of flour, eggs, cabbage and green onions and other ingredients of your choice. The name means "as you like it" or "what you want" in Japanese.
+origin:
+  country: JP
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- pan-frying
+- whisking
+ingredient_groups:
+- name: Base
+  items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: chicken-stock, unit: cup, qty: 1}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: white-cabbage, unit: cup, qty: 0.75}
+  - {ingredient: scallion, qty: [2, 3], prep: chopped into 1/4" rounds}
+  - {ingredient: mozzarella, unit: cup, qty: 0.25}
+  - {ingredient: chicken, qty: 10, prep: bacon or beef, note: small}
+- name: Toppings
+  items:
+  - {ingredient: nori}
+steps:
+- Mix flour, water and eggs until smooth (about 25–30 strokes with a spoon or whisk; do not overmix.)
+- Gently fold in cabbage, green onions and cheese.
+- Heat a griddle or non-stick frying pan over medium heat. When pan is hot, add 1 tablespoon oil.
+- Add ⅓ cup of batter and flatten slightly. Fry for 2–3 minutes.
+- When pancake is golden brown on bottom, add toppings (chicken, bacon or beef, or other topping of your choice), and press into the batter slightly. Turn the pancake and fry for five minutes or until golden brown on other side.
+- Turn once more and fry topping side up for another minute.
+- To serve, place the okonomiyaki on a plate, top with bottled sauce, nori, and/or bonito flakes. Enjoy!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AOkonomiyaki_%28Japanese_Savory_Pancake%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Okonomiyaki (Japanese Savory Pancake)@4605252
+    url: https://en.wikibooks.org/w/index.php?oldid=4605252
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

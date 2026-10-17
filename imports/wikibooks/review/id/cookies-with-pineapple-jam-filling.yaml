@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 beaten egg yolks, for brushing the top of the cookies
+id: id-cookies-with-pineapple-jam-filling
+title: Cookies with Pineapple Jam Filling
+alternate_names:
+- Nastar
+summary: Nastar, or tananas, are pineapple jam-filled cookies. These are popular treats for Eid ul-Fitr and Christmas celebrations in Indonesia.
+origin:
+  country: ID
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 36
+time:
+  total_min: 75
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- name: Jam
+  items:
+  - {ingredient: pineapple, qty: 2}
+  - {ingredient: sugar, unit: g, qty: 300}
+  - {ingredient: cinnamon-stick, qty: 1}
+- name: Cookie
+  items:
+  - {ingredient: margarine, unit: g, qty: 500}
+  - {ingredient: all-purpose-flour, unit: g, qty: 500}
+  - {ingredient: egg, qty: 6}
+  - {ingredient: sugar, unit: g, qty: 28}
+  - {ingredient: vanilla-extract, unit: g, qty: 5}
+  - {ingredient: cheddar, unit: g, qty: 28}
+  - {ingredient: raisins, unit: g, qty: 14}
+steps:
+- Peel pineapple, wash, and blend into a purée.
+- Put pineapple purée in a pan, add sugar and cinnamon, and stir over medium heat until thick.
+- If the jam still tastes sour, add more sugar to taste.
+- Let cool until thick enough to roll into small marbles.
+- Beat the 6 egg yolks with margarine and sugar.
+- Mix in the grated cheese.
+- Add flour and vanilla little by little to make a dough.
+- Pinch off pieces of dough, and roll into balls a little smaller than golf balls.
+- Flatten each piece of dough slightly, and place a pineapple jam marble on the cookie. Fold the dough around the jam enclose it, and pinch to seal the cookie. Roll it between your hands until round again.
+- Place the cookies on a parchment-lined baking sheet, flattening them very slightly.
+- Halve raisins, then put on top of the cookies.
+- Brush the cookies with beaten egg yolk.
+- Bake in oven for 30 minutes or until golden yellow and cooked through.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACookies_with_Pineapple_Jam_Filling_%28Nastar%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cookies with Pineapple Jam Filling (Nastar)@4541028
+    url: https://en.wikibooks.org/w/index.php?oldid=4541028
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

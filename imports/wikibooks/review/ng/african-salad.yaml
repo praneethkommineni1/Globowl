@@ -1,0 +1,74 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 cups ugba
+#  - unmapped ingredient: 2 teaspoons ground Ehu seeds
+#  - unmapped ingredient: Other meat and vegetables for the Abacha
+#  - unmapped ingredient: Ponmo/kanda
+#  - unmapped ingredient: 3 fresh utazi leaves
+#  - unmapped ingredient: Garden egg leaves
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-african-salad
+title: African Salad
+summary: African Salad.
+origin:
+  country: NG
+course: salad
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: cassava, unit: handful, qty: 3}
+  - {ingredient: red-palm-oil, qty: 30}
+  - {ingredient: potash, unit: tbsp, qty: 2}
+  - {ingredient: scotch-bonnet, note: to taste}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 4}
+  - {ingredient: bouillon-cube, qty: 2, prep: crushed}
+  - {ingredient: onion, qty: 2, prep: diced}
+  - {ingredient: iru}
+  - {ingredient: fish}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: eggplant}
+steps:
+- Soak the shredded abacha in cold water for 10 minutes until it softens. Pour boiling water over it and drain.
+- Rinse the ugba with warm water.
+- Dissolve the potash in water and sieve out any residual solids.
+- Stir the potash water with the palm oil in a pot until it forms a yellowish paste. Place on the heat, and stir in the ground ehu, pepper, crayfish, and seasoning.
+- Stir in the crushed stock cubes, diced onions, and ugba. Take off the heat.
+- Mix in the ogiri, then add meat and fish if using.
+- Mix in the abacha, allowing the ingredients to blend.
+- Add sliced utazi and salt to taste.
+- Garnish with chopped garden egg leaves and sliced onions.
+tips:
+- Abacha is made by boiling and grating/shredding cassava tubers.
+- Ukpaka or ugba is shredded oil bean seeds. It is optional, and if not added it won't affect the end result.
+- Red palm oil must be used when preparing abacha.
+- If garden egg leaves are not available, baby spinach leaves are a good alternative.
+- At least one type of fish must be used in preparing abacha. You can use stockfish, dryfish (e.g. catfish, mangala), fried mackerel, and/or smoked fish.
+- Crayfish much be added.
+- Pepper must be used—you can either add habanero pepper (recommended) or dry cayenne pepper. Habanero pepper is atarodo, atarugu or ose oyibo. Black pepper is not a good fit for abacha.
+- Add ogiri for the classic traditional taste, but if not available you should add stock cubes.
+- Edible potash (akanwu, kaun, keun) is what makes palm oil curdle and it is a must. If you do not have it or you do not want to eat edible potash, baking soda (bicarbonate of soda) has similar properties.
+- Be careful when adding salt, since the dish contains lots of ingredients that already have salt (stockfish, stock cubes, crayfish, etc).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAfrican_Salad_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:African Salad II@4629555
+    url: https://en.wikibooks.org/w/index.php?oldid=4629555
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

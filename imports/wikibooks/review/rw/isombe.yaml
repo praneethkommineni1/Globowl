@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: rw-isombe
+title: Isombe
+alternate_names:
+- Rwandan Cassava Leaves with Eggplant
+summary: Isombe is a flavorful and nutritious dish from Rwanda. Made with tender cassava leaves and eggplant, this dish is often enjoyed as a main course and is typically served with Rwandan staple foods like ugali or steamed rice.
+origin:
+  country: RW
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Large pot
+- Cutting board
+- Knife
+techniques:
+- sauteing
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: cassava, unit: bunch, qty: 2}
+  - {ingredient: eggplant, qty: 1, prep: diced, note: medium}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: tomato, qty: 1, prep: diced}
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: salt, note: to taste}
+steps:
+- Remove the tough stems from the cassava leaves, and wash them thoroughly under running water. Chop the leaves into smaller pieces.
+- In a large pot, heat the vegetable oil over medium heat. Add the chopped onion and minced garlic, and sauté until the onion is translucent and fragrant.
+- Add the diced eggplant to the pot and cook for about 5 minutes, until slightly softened.
+- Add the chopped cassava leaves and diced tomato to the pot. Stir well to combine all the ingredients.
+- Pour in the water and season with salt to taste. Stir again to ensure even distribution of the ingredients.
+- Reduce the heat to low, cover the pot, and let the mixture simmer for about 1 hour, or until the cassava leaves are tender and cooked through.
+- Stir occasionally during cooking, and add more water if necessary to prevent sticking and to achieve the desired consistency.
+- Taste and adjust the seasoning if needed, adding more salt or other spices according to your preference.
+- Remove the pot from the heat and let the isombe rest for a few minutes before serving.
+tips:
+- If cassava leaves are not available, you can substitute with spinach or collard greens for a similar taste and texture.
+- It is important to thoroughly wash the cassava leaves to remove any dirt or impurities.
+- Leftover isombe can be stored in an airtight container in the refrigerator for up to 3 days. Reheat gently before serving.
+- This dish pairs well with grilled meats, fish, or other Rwandan side dishes such as agatogo (steamed cassava leaves) or amatobe (steamed squash).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIsombe_%28Rwandan_Cassava_Leaves_with_Eggplant%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Isombe (Rwandan Cassava Leaves with Eggplant)@4629623
+    url: https://en.wikibooks.org/w/index.php?oldid=4629623
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

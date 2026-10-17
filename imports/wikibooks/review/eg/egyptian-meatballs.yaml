@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: eg-egyptian-meatballs
+title: Egyptian Meatballs
+alternate_names:
+- Kofta
+summary: Egyptian meatballs, also known as kofta, are a popular and savory dish in Egyptian cuisine. These delicious meatballs are typically made from ground beef or lamb mixed with a variety of herbs and spices, resulting in a flavorful and juicy texture.
+origin:
+  country: EG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Mixing bowl
+- Skewers (metal or wooden)
+- Grill or stovetop grill pan
+- Knife
+- Brush
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 500}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: small}
+  - {ingredient: garlic, qty: 2, prep: minced}
+  - {ingredient: parsley, unit: cup, qty: 0.25, prep: finely chopped}
+  - {ingredient: cilantro, unit: cup, qty: 0.25, prep: finely chopped}
+  - {ingredient: ground-cumin, unit: tsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 0.5}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: olive-oil, prep: for brushing}
+steps:
+- In a mixing bowl, combine the ground beef or lamb, finely chopped onion, minced garlic, fresh parsley, fresh cilantro, ground cumin, ground paprika, ground cayenne pepper (if using), salt, and pepper. Mix well until all the ingredients are evenly incorporated.
+- Take a small portion of the meat mixture and shape it into a cylindrical or oval meatball shape. Repeat the process with the remaining meat mixture, shaping them into uniform-sized meatballs.
+- If using wooden skewers, soak them in water for about 30 minutes to prevent them from burning on the grill.
+- Preheat your grill or stovetop grill pan over medium heat.
+- Thread the meatballs onto the skewers, leaving a bit of space between each meatball.
+- Brush the grill or grill pan with olive oil to prevent sticking.
+- Place the meatball skewers on the grill or grill pan and cook for about 10–12 minutes, turning them occasionally to ensure even cooking. The meatballs should be browned and cooked through.
+- Once cooked, remove the meatball skewers from the grill or grill pan and transfer them to a serving platter.
+- Serve the kofta hot, garnished with fresh parsley or cilantro. They can be enjoyed on their own as a main course or used in sandwiches, wraps, or other dishes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEgyptian_Meatballs_%28Kofta%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Egyptian Meatballs (Kofta)@4507315
+    url: https://en.wikibooks.org/w/index.php?oldid=4507315
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

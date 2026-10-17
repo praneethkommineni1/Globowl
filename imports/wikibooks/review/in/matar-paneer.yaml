@@ -1,0 +1,73 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 8 oz paneer, cut in 1” cubes
+#  - course unknown from categories
+id: in-matar-paneer
+title: Matar Paneer
+summary: Matar Paneer.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+time:
+  total_min: 40
+difficulty: 2
+techniques:
+- pan-frying
+- steaming
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 6}
+  - {ingredient: ginger-garlic-paste, unit: tsp, qty: 1}
+  - {ingredient: onion, unit: cup, qty: 1}
+  - {ingredient: tomato, unit: cup, qty: 1}
+  - {ingredient: red-chili, qty: 3, prep: seeded and finely chopped}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 0.5}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.25}
+  - {ingredient: chili-powder, unit: tsp, qty: 0.5}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1}
+  - {ingredient: garam-masala}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: green-peas, unit: cup, qty: 0.5}
+  - {ingredient: water, unit: cup, qty: 0.75}
+  - {ingredient: cilantro, unit: tbsp, qty: 1}
+steps:
+- Heat some oil in a deep pan.
+- Add paneer cubes in it. Fry on all the sides over medium-low heat until golden brown.
+- Remove paneer from the pan, and drain on paper towels.
+- Remove excess oil from the same pan, and add ginger-garlic paste.
+- Add chopped onion to it. Cook, stirring, until onion becomes translucent.
+- Add chopped tomatoes and mix. Cook well over medium heat.
+- Turn off the heat when tomatoes have left all the water. Let cool.
+- Transfer mixture to a blender, and add the chiles.
+- Blend until smooth.
+- Heat oil in a pan.
+- Add cumin seeds, and fry until they start to crackle.
+- Add turmeric, chilli powder, coriander powder, and garam masala. Mix well over low heat.
+- Add the blended purée, and mix well over medium heat.
+- Season with salt, then mix in the peas.
+- Add some water, cover, and steam until the peas are fully cooked.
+- Uncover and add the fried paneer. Mix well, adding more water if required.
+- Heat a small pan/tadka pan.
+- Add 1 tsp oil and ½ tsp red chilli powder. Mix well.
+- Turn off the gas and add to the matar paneer while serving.
+tips:
+- Paneer is a pressed uncured cheese usually made fresh. It can be bought in Indian or specialty grocery stores or substituted by tofu if unavailable.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMatar_Paneer&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Matar Paneer@4514693
+    url: https://en.wikibooks.org/w/index.php?oldid=4514693
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

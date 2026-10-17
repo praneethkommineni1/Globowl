@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (MX, US): confirm the country of origin
+#  - unmapped ingredient: 2 cups masa
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: mx-homemade-corn-tortillas
+title: Homemade Corn Tortillas
+summary: Tortillas are a type of flatbread popular in Mexico and Central America, commonly made from wheat flour or masa. This recipe is for the masa (corn) variety; see Flour Tortilla for the wheat flour version.
+origin:
+  country: MX
+  also_claimed_by:
+  - US
+course: bread
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: salt, unit: tsp, qty: 1}
+steps:
+- In a large bowl, stir together the masa and salt.
+- Add the water, and mix together well to form a dough.
+- Turn out onto a lightly floured board and knead for 5 minutes.
+- Divide the dough into ¼ cup (3 oz / 90 g) portions, and form them into balls.
+- Roll each ball into a flat round about 6 inches (10 cm) in diameter and ⅛ inches (0.25 cm) thick.
+- Heat a large heavy skillet over medium high heat.
+- Place the tortillas one at a time into the dry hot skillet; cook until brown on one side, then turn and brown the other side.
+- Remove from the skillet and keep warm in cloth towel.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHomemade_Corn_Tortillas&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Homemade Corn Tortillas@4495057
+    url: https://en.wikibooks.org/w/index.php?oldid=4495057
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

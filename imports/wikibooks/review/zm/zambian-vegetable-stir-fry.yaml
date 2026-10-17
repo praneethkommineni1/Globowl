@@ -1,0 +1,64 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup chibwabwa, chopped
+#  - unmapped ingredient: 1 cup masau slices
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: zm-zambian-vegetable-stir-fry
+title: Zambian Vegetable Stir-Fry
+summary: Zambian vegetable stir-fry is a flavorful and nutritious dish that showcases a medley of fresh vegetables cooked to perfection. This quick and easy stir-fry is a delightful way to enjoy the vibrant colors and flavors of Zambian produce.
+origin:
+  country: ZM
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Wok or large skillet
+- Cutting board
+- Knife
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: onion, qty: 1, prep: thinly sliced}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: minced}
+  - {ingredient: carrot, qty: 1, prep: julienned}
+  - {ingredient: red-bell-pepper, qty: 1, prep: thinly sliced}
+  - {ingredient: red-bell-pepper, qty: 1, prep: thinly sliced}
+  - {ingredient: red-bell-pepper, qty: 1, prep: thinly sliced}
+  - {ingredient: white-cabbage, unit: cup, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 1}
+  - {ingredient: sesame-oil, unit: tbsp, qty: 1}
+steps:
+- Heat the vegetable oil in a wok or large skillet over medium-high heat.
+- Add the thinly sliced onion and minced garlic to the hot oil. Stir-fry until the onions are translucent and fragrant.
+- Toss in the julienned carrot, thinly sliced red bell pepper, green bell pepper, and yellow bell pepper. Stir-fry for a few minutes until the vegetables are slightly tender but still retain their crispness.
+- Add the shredded cabbage, chibwabwa (or other indigenous greens), and masau (if using) to the wok. Continue stir-frying for another few minutes until the vegetables are cooked to your desired level of doneness.
+- Season the stir-fry with salt and ground black pepper to taste. Be mindful not to over-salt, as the soy sauce will also contribute to the dish's saltiness.
+- Drizzle the soy sauce over the stir-fry and toss the vegetables to coat them evenly. If using sesame oil, add it now for an extra layer of flavor.
+- Stir-fry for another minute or so to allow the flavors to meld.
+- Remove the wok from the heat and serve the Zambian vegetable stir-fry hot as a delightful and nutritious side dish.
+tips:
+- Feel free to add other vegetables of your choice, such as snow peas, bok choy, or mushrooms, to customize the stir-fry according to your preferences.
+- For a heartier version, you can add cooked tofu, tempeh, or chicken to the stir-fry for added protein.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AZambian_Vegetable_Stir-Fry&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Zambian Vegetable Stir-Fry@4494307
+    url: https://en.wikibooks.org/w/index.php?oldid=4494307
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

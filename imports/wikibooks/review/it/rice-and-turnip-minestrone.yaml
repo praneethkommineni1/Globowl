@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1/4 cup gravy
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: it-rice-and-turnip-minestrone
+title: Rice and Turnip Minestrone
+summary: Rice and Turnip Minestrone.
+origin:
+  country: IT
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: turnip, qty: 3, prep: sliced}
+  - {ingredient: salt}
+  - {ingredient: butter}
+  - {ingredient: tomato, unit: g, qty: 227}
+  - {ingredient: chicken, unit: cup, qty: 4, prep: 'beef, or vegetable stock, brought to a boil'}
+  - {ingredient: long-grain-rice, unit: cup, qty: 0.333, prep: washed}
+steps:
+- Arrange the turnip slices on a rack over a cookie sheet. Sprinkle with salt, cover them with a dish, and let them stand for about 2 hours until the water has run out of them.
+- Put the slices in a frying pan, and fry them slightly in butter until softened.
+- Add the gravy and tomatoes. Cook for a few minutes, then pour it into the boiling stock.
+- Boil for 30 minutes. Serve hot.
+tips:
+- Minestra loses its flavour if it is boiled too long. In Lombardy, however, rice, macaroni, etc., are rarely boiled enough for English tastes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ARice_and_Turnip_Minestrone&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Rice and Turnip Minestrone@4518503
+    url: https://en.wikibooks.org/w/index.php?oldid=4518503
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

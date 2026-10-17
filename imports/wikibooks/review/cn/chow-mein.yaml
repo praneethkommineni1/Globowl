@@ -1,0 +1,75 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 15 ounces seitan
+#  - unmapped ingredient: 1/4 cup finely-chopped shiitake mushrooms
+id: cn-chow-mein
+title: Chow Mein
+summary: Chow mein is a generic Chinese term for a dish of stir-fried noodles, of which there are many varieties. Authentic chow mein is generally made of soft noodles, whereas chow mein in Westernized Chinese Cuisine may also be made from thin crispy noodles.
+origin:
+  country: CN
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- marinating
+- whisking
+ingredient_groups:
+- items:
+  - {ingredient: bean-sprouts, unit: g, qty: 454}
+  - {ingredient: noodles, unit: g, qty: 227}
+  - {ingredient: celery, qty: 2, note: medium}
+  - {ingredient: broccoli, unit: g, qty: 454}
+  - {ingredient: mushroom, unit: g, qty: 227}
+  - {ingredient: red-bell-pepper, qty: 1}
+  - {ingredient: red-onion, qty: 0.5}
+  - {ingredient: scallion, qty: 1}
+  - {ingredient: vegetable-oil, prep: as needed}
+  - {ingredient: sesame-seeds, unit: cup, qty: 0.25}
+- name: Marinade
+  items:
+  - {ingredient: sesame-oil, unit: tsp, qty: 2}
+  - {ingredient: soy-sauce, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: cornstarch, unit: tsp, qty: 0.5}
+- name: Sauce
+  items:
+  - {ingredient: chicken-stock, unit: cup, qty: 0.25}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: cornstarch, unit: tbsp, qty: 1}
+  - {ingredient: water, unit: tbsp, qty: 4}
+steps:
+- 1–2 hours before cooking, rinse the mung bean sprouts so that they have time to drain thoroughly.
+- Cut the seitan into thin strips. Add the marinade ingredients, adding the cornstarch last. Marinate the seitan for 20 to 25 minutes.
+- 'The following 3 steps can be completed while the seitan is marinating:'
+- To prepare the sauce, in a small bowl dissolve the 1 tablespoon cornstarch with the 4 tablespoons water. Whisk the water or vegetable broth with the oyster sauce, soy sauce, salt, pepper and cornstarch and water mixture and set aside.
+- Soften the noodles by placing them in boiling salted water. Plunge into cold water to stop the cooking process and drain thoroughly.
+- Wash all the vegetables as needed. Cut the celery and the bok choy into ½-inch pieces on the diagonal. If substituting broccoli for bok choy, peel the stalks until no more strings come out, and slice thinly on the diagonal. Wipe the mushrooms clean with a damp cloth and slice. Cut the red bell pepper in half, remove the seeds and cut into chunks. Peel and chop the onion. Dice the green onion.
+- Heat a wok or frying pan over medium-high to high heat. Add 2 tablespoons oil. When the oil is hot, add the noodles. Fry in batches until golden. Remove the noodles from the pan.
+- Heat 2 tablespoons oil. Add the onion and the seitan, keeping remaining marinade aside for later use. Let the seitan brown briefly, then stir-fry until the redness is gone and the seitan is nearly cooked through. Remove the cooked seitan and onion from the pan.
+- Cook the rest of the vegetables separately, except for the green onion, seasoning each with a bit of salt while stir-frying if desired. When cooking the bok choy or broccoli, add ¼ cup of water and cover while cooking. Remove each of the vegetables from the pan when finished stir-frying. Add more oil as needed.
+- Give the sauce a quick re-stir. Add all the ingredients back into the wok, making a "well" in the middle of the wok for the sauce. Add the sauce and any remaining marinade, stirring quickly to thicken. Mix everything together. Stir in the green onions. Pour the cooked vegetable and sauce mixture on top of the noodles. Garnish the chow mein with the toasted sesame seeds. Serve hot.
+tips:
+- For crispy chow mein noodles, add more oil than the recipe calls for and cook the noodles longer to dry them out.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChow_Mein&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chow Mein@4513940
+    url: https://en.wikibooks.org/w/index.php?oldid=4513940
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

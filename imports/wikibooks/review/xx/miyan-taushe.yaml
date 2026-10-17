@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - course unknown from categories
+id: xx-miyan-taushe
+title: Miyan Taushe
+alternate_names:
+- Hausa Pumpkin Soup
+summary: __notoc__ Miyan taushe is a traditional, popular soup in Hausa homes, especially during festive seasons or when pumpkins are in season. It reflects the Hausa people's creative use of local ingredients to prepare nourishing, flavorful meals.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2–3
+time:
+  total_min: 45
+difficulty: 2
+equipment:
+- Cooking pot
+- Knife and cutting board
+- Cooking spoon
+- Measuring cups and spoons
+- Mixing bowl (optional, for dissolving groundnut paste or soaking dried fish)
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 500}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: bouillon-cube, qty: [2, 3]}
+  - {ingredient: salt}
+  - {ingredient: water}
+  - {ingredient: butternut-squash, unit: cup, qty: 2}
+  - {ingredient: roasted-peanuts, unit: tbsp, qty: 2, optional: true}
+  - {ingredient: iru, unit: tbsp, qty: 1}
+  - {ingredient: red-palm-oil, unit: tbsp, qty: [2, 3]}
+  - {ingredient: red-chili, unit: tsp, qty: [1, 2]}
+  - {ingredient: stockfish, qty: [1, 2], optional: true}
+  - {ingredient: spinach, unit: cup, qty: 1, prep: 'ugu leaf, or yakuwa leaf', optional: true}
+steps:
+- Place the meat in a pot. Add chopped onion, seasoning cubes, salt, and enough water to cover everything. Simmer until the meat is cooked through and tender to your taste—this can take a while for tough cuts of meat.
+- Add pumpkin chunks to the pot. Cook until they become soft (about 10–15 minutes), then gently mash some of the pumpkin to thicken the soup.
+- Add groundnut paste if using, daddawa, palm oil, chile pepper, and fish. Stir well and simmer for another 10 minutes.
+- Add your leafy vegetables and cook for an additional 5 minutes.
+- Add water if needed to get your desired soup thickness.
+tips:
+- Daddawa is fermented locust beans used to add deep flavor.
+- Groundnut paste adds richness but can be omitted for a lighter version.
+- The soup can be sweet, spicy, or both, depending on the pumpkin and chili quantity.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMiyan_Taushe_%28Hausa_Pumpkin_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Miyan Taushe (Hausa Pumpkin Soup)@4524342
+    url: https://en.wikibooks.org/w/index.php?oldid=4524342
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

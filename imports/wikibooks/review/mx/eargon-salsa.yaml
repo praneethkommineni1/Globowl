@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 can unsalted tomato paste
+id: mx-eargon-salsa
+title: Eärgon Salsa
+summary: Vegan recipes | Sauce recipes Eärgon salsa is an easy-to-make, low sodium hot sauce that nicely complements fresh vegetables like broccoli, carrots, and celery. Easy variations using hotter peppers such as seranos and habaneros are given below.
+origin:
+  country: MX
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 5
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: green-chili, qty: 4}
+  - {ingredient: white-vinegar, unit: tbsp, qty: 4}
+  - {ingredient: garlic, unit: tbsp, qty: 4}
+steps:
+- Slice peppers crosswise to form small rings, and put in a small container.
+- Add garlic, vinegar, and tomato paste.
+- Stir and serve.
+tips:
+- 4 seranno peppers can be substituted for the 4 jalapeños for a spicier sauce.
+- To try the habanero version, use 2 finely-chopped habanero peppers and increase tomato paste from 12 oz to 18 oz. Be careful.
+- This recipe is easy to customize. Some options include adding spinach, cilantro, black pepper, and chopped onions.
+- The peppers, vinegar, and garlic can be combined beforehand and stored in an airtight container in the fridge for several days.
+- Can be easily stored in a closed container in refrigerator for a week or ten days.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AE%C3%A4rgon_Salsa&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Eärgon Salsa@4518824
+    url: https://en.wikibooks.org/w/index.php?oldid=4518824
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

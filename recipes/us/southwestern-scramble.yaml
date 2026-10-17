@@ -1,0 +1,53 @@
+id: us-southwestern-scramble
+title: Southwestern Scramble
+summary: A Southwestern Scramble is a scrambled eggs recipe with many spicy ingredients, such as onions and chilis. For a complete breakfast, serve with sliced, fried wiejska (Polish sausage), toast, and orange juice.
+origin:
+  country: US
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 15
+difficulty: 2
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: egg, qty: 8}
+  - {ingredient: milk, unit: tbsp, qty: 2}
+  - {ingredient: butter, prep: 'margarine, or cooking spray, for frying pan'}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: red-chili, qty: 1, prep: 'such as jalapeño, seeded and chopped', note: medium}
+  - {ingredient: red-bell-pepper, qty: 1, prep: seeded and sliced}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: hot-sauce, prep: such as Tabasco sauce}
+steps:
+- Crack the eggs into a large mixing bowl, add the milk, and beat until well combined.
+- Place a large frying pan over medium heat, add the butter, margarine, or cooking spray, and allow to melt. Add the onions, chili, and bell pepper, and sauté for 2–4 minutes.
+- Add the eggs to the pan, and allow to cook for 30 seconds to 1 minute, until they just begin to set.
+- Turn the heat up to high, and begin scrambling the eggs by scraping the bottom of the pan with a spatula and folding the cooked egg into the egg mixture.
+- When the eggs are still moist, but mostly cooked, remove from the fire and plate.
+- Serve while still hot.
+tips:
+- To adjust the spiciness, use more or fewer chili peppers, or use types varying levels of heat.
+- The chilis are seeded because of the intense heat in the seeds, where the majority of the spicy capsaicin is. The seeds can be left in, but the scramble will be much hotter.
+- Be sure to scrape the entire bottom of the pan, as well as the sides. Otherwise, those areas where the egg is not scraped will burn.
+- Carryover heat will continue to cook the eggs, so they should be removed from the fire while still slightly underdone, or they will be overcooked.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASouthwestern_Scramble&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Southwestern Scramble@4523445
+    url: https://en.wikibooks.org/w/index.php?oldid=4523445
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

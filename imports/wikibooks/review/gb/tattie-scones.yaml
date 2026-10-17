@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gb-tattie-scones
+title: Tattie Scones
+summary: Tattie scones, also called potato scones or potato bread, are a regional variant of the savoury "griddle scone" which is especially popular in Scotland. Many variations of recipe exist, however they generally include liberal quantities of boiled Tatties (potatoes) and salt.
+origin:
+  country: GB
+course: breakfast
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: potato, unit: kg, qty: 1}
+  - {ingredient: butter}
+  - {ingredient: salt}
+  - {ingredient: all-purpose-flour}
+steps:
+- Cook potatoes in salted boiling water until tender, drain them well and put them back into the hot pot to dry them out a bit.
+- Mash them well with lots of butter and salt and pepper, but no milk or other liquid. Let them cool.
+- When the potatoes are cold, stir in flour and a little more melted butter to make a smooth dough. Roll out to a thickness of about 5 mm, and cut into 3-inch (7.5 cm) wedges.
+- Cook in a lightly-buttered frying pan until golden, about 1–2 minutes a side.
+- Serve the potato scones right away with cold butter to spread on top, or store them in the fridge until you want to use them, reheating them in a well-buttered frying pan.
+- Some people are content to eat them cold with butter, or heat them in a toaster for buttering. They also freeze very, very well.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATattie_Scones&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tattie Scones@4518310
+    url: https://en.wikibooks.org/w/index.php?oldid=4518310
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

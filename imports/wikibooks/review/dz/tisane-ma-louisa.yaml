@@ -1,0 +1,46 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 g dried verbena leaves
+#  - no servings in recipe summary
+id: dz-tisane-ma-louisa
+title: Tisane ma Louisa
+alternate_names:
+- Algerian Lemon Herb Tea
+summary: Tisane ma Louisa (, Louisa's Water Remedy Tea) is an Algerian herbal remedy tea.
+origin:
+  country: DZ
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 15
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: ml, qty: 250}
+  - {ingredient: lemon, qty: 0.5, prep: juiced}
+  - {ingredient: sugar, optional: true, note: to taste}
+steps:
+- Heat the water in a saucepan and bring it to a boil.
+- Add the verbena leaves to the boiling water.
+- Let the verbena leaves steep in water for about 10 minutes.
+- Stir the leaves in the water (attempt to crush them as small as possible), then strain out the leaves.
+- Add the lemon juice and sugar.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATisane_ma_Louisa_%28Algerian_Lemon_Herb_Tea%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tisane ma Louisa (Algerian Lemon Herb Tea)@4510281
+    url: https://en.wikibooks.org/w/index.php?oldid=4510281
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

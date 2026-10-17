@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 bunch of fluted pumpkin leaves
+#  - unmapped ingredient: 1/4 bottle of red oil
+id: ng-white-bean-and-pumpkin-leaf-soup
+title: White Bean and Pumpkin Leaf Soup
+summary: This recipe for white bean soup is a blend of beans and vegetables.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 12
+time:
+  total_min: 120
+difficulty: 3
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: dried-white-beans, unit: cup, qty: 6}
+  - {ingredient: red-bell-pepper, qty: 1, prep: diced}
+  - {ingredient: green-pepper, qty: 1, prep: diced}
+  - {ingredient: red-chili, unit: tsp, qty: 1}
+  - {ingredient: chicken-bouillon-cube, qty: 4}
+  - {ingredient: garlic, unit: clove, qty: 7, prep: minced}
+  - {ingredient: crayfish, unit: cup, qty: 1, prep: finely-chopped or ground}
+  - {ingredient: onion, qty: 1.5, prep: diced, note: large}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: beef}
+steps:
+- Pick over the beans to remove any debris. Transfer to a large pot, and add enough water to cover by at least 2 inches (2.5 cm).
+- Soak for several hours. Drain, then add fresh water.
+- Pound the beans for some time until you're sure it's all in little pieces.
+- Bring beans to a boil. Reduce heat, then simmer until beans start to soften (around ½ hour).
+- Add pumpkin leaves, bell peppers, any soup seasoning of your choice, chili powder, garlic, stock cubes, onions, and red oil. Season with salt and pepper to taste.
+- Simmer for ½–1 hour, until beans are soft and it's thick to your satisfaction.
+- Stir in cooked meat.
+- Serve and enjoy!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AWhite_Bean_and_Pumpkin_Leaf_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:White Bean and Pumpkin Leaf Soup@4515418
+    url: https://en.wikibooks.org/w/index.php?oldid=4515418
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Seasoning
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: mx-homemade-tortilla-chips
+title: Homemade Tortilla Chips
+summary: A tortilla chip is a snack food made from corn tortillas, which are cut into wedges and then fried, alternatively they may be discs pressed out of corn masa then fried or baked. Corn tortillas are made of corn, vegetable oil, salt and water.
+origin:
+  country: MX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: tortilla, qty: 1}
+  - {ingredient: vegetable-oil}
+steps:
+- Fill a pot with 2 inches of oil.
+- Clip a frying thermometer to the side of the pot so that the tip is submerged in the oil but not touching the bottom.
+- Heat the oil to 360°F (180°C).
+- Slice a pile of tortillas in half through the centre.
+- Stack the two piles together and cut across the center again to form quarters.
+- Stack the quarters and cut through to form eighths
+- Gently drop the tortilla pieces into the hot oil, a handful at a time.
+- After the initial vapour has boiled off, agitate gently with a slotted spoon to fry evenly
+- When tortilla chips are golden brown (about 2 minutes), remove with a spider or slotted spoon.
+- Drain on paper towels and season lightly with salt or seasoned salt.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHomemade_Tortilla_Chips&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Homemade Tortilla Chips@4343796
+    url: https://en.wikibooks.org/w/index.php?oldid=4343796
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,54 @@
+id: in-basic-indian-tomato-gravy
+title: Basic Indian Tomato Gravy
+summary: This traditional Indian tomato gravy can be used as a base for all sorts of vegetables, boiled eggs, cubed paneer or chicken. This is often referred to as a "curry". It is usually eaten with plain white rice or rice mixtures.
+origin:
+  country: IN
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 20
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: tomato, qty: 5, prep: diced large}
+  - {ingredient: onion, qty: 1, prep: diced small}
+  - {ingredient: ghee, unit: tbsp, qty: 1}
+  - {ingredient: ground-ginger, unit: tsp, qty: 0.5}
+  - {ingredient: garlic, unit: clove, qty: 5, prep: pounded}
+  - {ingredient: red-chili, unit: tsp, qty: 1}
+  - {ingredient: ground-coriander, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.25}
+  - {ingredient: salt, note: to taste}
+steps:
+- Fry the onions in hot ghee until they start to brown.
+- Add the ginger and garlic and stir, then add the powdered spices. Blend well.
+- Throw in the tomatoes and salt to taste.
+- Turn the flame down to medium and cover for ten minutes. This will form a spicy gravy to which you can add any mixture of vegetables or boiled eggs or fried fish or chicken or lamb/goat.
+tips:
+- If adding cooked vegetables, keep the pot on the flame until they are uniformly heated; for uncooked vegetables, cook as long as necessary.
+- With chicken/lamb/goat, add the marinated poultry/meat after frying the ginger garlic paste and adding the dry spice powders. Sear the poultry/meat on high heat, turning the pieces continuously for about 10–15 minutes until the juices get sealed inside. Add the tomatoes after this step. Continue cooking as per above recipe. Alternatively, you have the option of frying /roasting/grilling the marinated poultry/meat separately, before adding to the curry, then letting it simmer for at least 20 minutes.
+- You can add a little cayenne and cumin and leave out the chili powder (though "chili powder" in Indian recipes is cayenne/powdered chilis)
+- Depending on the freshness of your spices, you may want to add extra spices in the same ratio to achieve a stronger flavour.
+- Generally, in Indian cuisine, for lamb or goat (known locally as 'mutton'), you can use all the above ingredients to make the gravy (curry). Some recipes use curd/yogurt, while some use tomatoes for the balancing tart flavour. With chicken, lamb and goat, marination is preferred. Also, various spice powders and spices (sabut garam masala) are added depending on the recipe. For example, cloves and cinnamon can be added to the hot oil, to give an excellent flavour.
+- For a vegan version of this recipe, substitute the ghee with coconut oil or other vegetable oil.
+- You can also use a pressure cooker instead of the stovetop; in this case, cook it for 6−7 whistles on a medium flame. This is especially useful when cooking lamb or goat as the meat is tougher than chicken.
+- You can also use fried onions as garnish to get a gravy with a different flavor. This is used frequently in chicken recipes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABasic_Indian_Tomato_Gravy&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Basic Indian Tomato Gravy@4630288
+    url: https://en.wikibooks.org/w/index.php?oldid=4630288
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

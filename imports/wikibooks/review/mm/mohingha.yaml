@@ -1,0 +1,47 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 30 ml lemonade
+#  - unmapped ingredient: 70 g Mohingha soup powder
+id: mm-mohingha
+title: Mohingha
+alternate_names:
+- Burmese Fish Noodle Soup
+summary: Mohingha is a traditional Burmese dish made of colored soup with rice vermicelli. Here is a modern-day recipe.
+origin:
+  country: MM
+course: soup
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 20
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: sunflower-oil, unit: tsp, qty: 5}
+  - {ingredient: garlic, qty: 10}
+  - {ingredient: water, unit: cup, qty: 0.875}
+  - {ingredient: green-chili, unit: g, qty: 100, prep: diced}
+  - {ingredient: ketchup, unit: tbsp, qty: 2}
+  - {ingredient: vermicelli, unit: g, qty: 60}
+steps:
+- In a large bowl, mix sunflower oil, garlic cloves, soup powder, and lemonade for 3 minutes.
+- In a small bowl, mix boiling water, diced jalapeño peppers, and ketchup for 5 minutes.
+- Combine both mixtures, and continue mixing for 2 ½ minutes.
+- Add rice vermicelli to the bowl; cover it and wait for 10 minutes.
+- Top it with toppings as desired.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMohingha_%28Burmese_Fish_Noodle_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mohingha (Burmese Fish Noodle Soup)@4518452
+    url: https://en.wikibooks.org/w/index.php?oldid=4518452
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

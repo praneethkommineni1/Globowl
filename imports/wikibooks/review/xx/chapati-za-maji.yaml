@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - course unknown from categories
+id: xx-chapati-za-maji
+title: Chapati Za Maji
+alternate_names:
+- Tanzanian Pancakes
+summary: Chapati za maji (literally "water bread/pancakes") are thin Tanzanian pancakes very similar to crêpes.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 30
+difficulty: 2
+equipment:
+- Mixing bowls
+- Whisk
+- Frying pan
+- Stovetop
+- Spatula
+ingredient_groups:
+- items:
+  - {ingredient: milk, unit: cup, qty: 1}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: water, unit: cup, qty: 0.5}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 0.333}
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: vegetable-oil}
+steps:
+- Combine the milk, eggs, and water.
+- Combine the flour, sugar, and salt.
+- Gradually whisk the wet mixture into the dry mixture until you get a thin batter similar to crêpe batter. If it feels too thick, add some additional water.
+- Cover the batter and let rest for 30–60 minutes.
+- Preheat a frying pan over medium heat.
+- Grease the pan with a small amount of canola oil, swirling the pan to coat the entire surface.
+- Scoop or pour a small amount of batter into the pan. Immediately tilt the pan in all directions to coat the whole surface with a thin film of batter.
+- Cook the pancake for about 1 minute. Then, carefully raise the edge with a spatula, flip it over, and cook for another minute. The pancake should be faintly browned on both sides.
+- Remove the pancake and set aside.
+- Repeat the greasing and frying process until all the batter is used up.
+- Serve hot.
+tips:
+- You can sprinkle the pancakes with cinnamon and honey and roll them up to eat them.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChapati_Za_Maji_%28Tanzanian_Pancakes%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chapati Za Maji (Tanzanian Pancakes)@4535128
+    url: https://en.wikibooks.org/w/index.php?oldid=4535128
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

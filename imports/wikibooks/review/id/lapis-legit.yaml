@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 125 g castor sugar
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: id-lapis-legit
+title: Lapis Legit
+alternate_names:
+- Many-Layered Spiced Cake
+summary: 'Lapis legit (Dutch: spekkoek) is a spice-flavored multilayered cake. A legacy of Dutch occupation in Indonesia, the cake is enjoyed during Eid ul-Fitr and Christmas celebrations. In the Netherlands, the sliced cake is served as dessert in Rijsttafel (Indonesian rice table).'
+origin:
+  country: ID
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: ground-cloves, qty: 10, prep: ground}
+  - {ingredient: ground-cardamom, qty: 10, prep: ground}
+  - {ingredient: nutmeg, unit: tsp, qty: 2}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 1}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: egg-yolk, qty: 10}
+  - {ingredient: egg-white, qty: 4}
+  - {ingredient: condensed-milk, unit: g, qty: 195}
+  - {ingredient: butter, unit: g, qty: 500}
+  - {ingredient: all-purpose-flour, unit: g, qty: 125}
+steps:
+- Mix and sift cloves, cardamom, nutmeg, and cinnamon.
+- Beat butter until smooth and creamy.
+- Whip egg yolks with sugar until fluffy.
+- Whip egg whites in separate mixing bowl until fluffy, then mix with egg yolks.
+- Combine the spices, condensed milk, flour, and butter.
+- Grease a cake pan.
+- Using a small cup, spread 30–35 ml batter into the pan to make a layer.
+- Bake in preheated 350°F oven, heated from the top, until golden (4–5 minutes).
+- Remove from oven, brush with butter for flavoring, and top with another 30–35 ml batter to make another layer.
+- Repeat the baking and layering to make around 30–40 layers.
+tips:
+- Adding to the complexity of the baking process, some cake shops add dried plums (prunes) inside and on top of the cake.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALapis_Legit_%28Many-Layered_Spiced_Cake%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lapis Legit (Many-Layered Spiced Cake)@4517054
+    url: https://en.wikibooks.org/w/index.php?oldid=4517054
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

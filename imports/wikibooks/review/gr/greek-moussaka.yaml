@@ -1,0 +1,78 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gr-greek-moussaka
+title: Greek Moussaka
+summary: Greek Moussaka.
+origin:
+  country: GR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+- boiling
+- pan-frying
+- sauteing
+ingredient_groups:
+- name: Eggplant
+  items:
+  - {ingredient: eggplant, qty: 1, note: large}
+  - {ingredient: salt}
+  - {ingredient: olive-oil}
+- name: Meat sauce
+  items:
+  - {ingredient: onion, qty: 1, prep: chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 6, prep: chopped}
+  - {ingredient: olive-oil, unit: tbsp, qty: 3}
+  - {ingredient: beef, unit: kg, qty: 1}
+  - {ingredient: tomato, qty: 1, note: large}
+  - {ingredient: red-wine, unit: cup, qty: 1}
+  - {ingredient: parsley, unit: tbsp, qty: 2}
+  - {ingredient: basil, unit: tbsp, qty: 2, optional: true}
+  - {ingredient: bay-leaf, qty: 2}
+  - {ingredient: sugar, unit: tsp, qty: 1}
+  - {ingredient: cinnamon-stick, qty: 1}
+  - {ingredient: black-pepper}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 2}
+- name: Cheese sauce
+  items:
+  - {ingredient: butter, unit: tbsp, qty: 3}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 4}
+  - {ingredient: milk, unit: cup, qty: 2}
+  - {ingredient: nutmeg, prep: 'cinnamon, and black pepper'}
+  - {ingredient: parmesan, unit: cup, qty: 0.5}
+  - {ingredient: cheese, unit: cup, qty: 1}
+  - {ingredient: egg, qty: 1}
+steps:
+- Cut eggplant into 5 mm slices. Lay the slices out and sprinkle liberally with salt. This leaches out the bitterness. Leave these for at least an hour.
+- Heat olive oil in a saucepan and add onion and garlic. Sauté these until the onion starts to change colour. Add the meat and brown thoroughly.
+- Add bay leaves and cinnamon stick, and continue to stir the meat until all the moisture from the meat is gone.
+- Add tomatoes, herbs and sauces. Mix through and allow to cook for 15 minutes, stirring occasionally.
+- Add wine and continue to cook until the sauce is very thick. It should have very little moisture in it all. Remove the bay leaves and cinnamon stick, and allow to cool.
+- In another saucepan, melt butter over a low heat. Remove from heat and add the flour. Blend this through thoroughly, then return to the heat and cook gently for 3 minutes, stirring continuously so that it does not catch (burn). Remove from heat and add the milk. Mix this through then return to the heat and allow mixture to boil. Allow sauce to cook gently for one minute, stirring continuously. Remove from heat, add cheeses, nutmeg, cinnamon and pepper and mix through. Allow to cool.
+- Rinse the slices of eggplant under running water and dry on paper towels. Heat olive oil in a frying pan. Place slices of eggplant in the pan and quickly turn to coat both sides in the hot oil. Fry until the slices are cooked (when they change colour and become soft). Drain and repeat with remaining slices.
+- In a large casserole dish, lay slices of eggplant to cover the bottom. Cover with a layer of the meat sauce. Repeat layering eggplant and meat sauce until within 3 cm of the top of the dish.
+- Add the egg to the cool, cheese sauce and mix through thoroughly. Spoon this on the top layer in the casserole dish and sprinkle with extra grated cheese. Bake at 200 °C (400 °F) for 45 minutes. Remove from oven and allow to cool and set for 10 minutes.
+- Serve with a tossed Greek salad, red wine and crusty garlic bread.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGreek_Moussaka&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Greek Moussaka@4522774
+    url: https://en.wikibooks.org/w/index.php?oldid=4522774
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

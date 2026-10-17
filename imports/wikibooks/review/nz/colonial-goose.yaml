@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 125 g dried apricots, finely diced
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: nz-colonial-goose
+title: Colonial Goose
+summary: Colonial goose is the name for a surprisingly effective preparation of roast leg of lamb. Early colonial pioneers in New Zealand had sheep aplenty, but goose was relatively scarce. To prepare dishes similar to those they had back home in England the pioneers were very inventive.
+origin:
+  country: NZ
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- name: Meat and stuffing
+  items:
+  - {ingredient: lamb, qty: 1, note: large}
+  - {ingredient: butter, unit: g, qty: 30}
+  - {ingredient: honey, qty: 1, note: large}
+  - {ingredient: onion, qty: 1, prep: finely diced}
+  - {ingredient: breadcrumbs, unit: cup, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.25}
+  - {ingredient: thyme, unit: tsp, qty: 0.25}
+  - {ingredient: black-pepper}
+  - {ingredient: egg, qty: 1}
+- name: Marinade
+  items:
+  - {ingredient: carrot, unit: g, qty: 250}
+  - {ingredient: onion, qty: 2, prep: sliced, note: large}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: parsley, qty: [3, 4]}
+  - {ingredient: red-wine, qty: 1}
+steps:
+- To prepare the stuffing, melt the butter and honey over low heat, add the other ingredients, and combine well.
+- Force the stuffing into the cavity in the meat, and sew it up with fine string.
+- Combine all marinade ingredients.
+- Place the leg into a plastic bag in a large bowl, and add the marinade mixture to the bag. Let marinate for 8 hours.
+- Bake mutton in oven at 180 °C for 2 hours, checking on progress at 90 minutes. If the meat looks like it is over-browning, it can be covered by foil.
+- Remove the string before carving.
+- Strain the marinade and use 3–4 tablespoons of the liquor to make gravy.
+tips:
+- The meat is best prepared just after breakfast, so it can then be regularly turned over in the marinade throughout the day.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AColonial_Goose&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Colonial Goose@4513489
+    url: https://en.wikibooks.org/w/index.php?oldid=4513489
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

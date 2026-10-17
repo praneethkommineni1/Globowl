@@ -1,0 +1,55 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: gb-hot-water-crust-pastry
+title: Hot Water Crust Pastry
+summary: Hot water crust is a type of pastry dough used for savory pies, such as pork pie and steak and kidney pie. As it contains lard, it is unsuitable for vegetarians.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 170}
+  - {ingredient: water, unit: ml, qty: 170}
+  - {ingredient: lard, unit: g, qty: 85}
+  - {ingredient: salt, unit: pinch, qty: 1}
+steps:
+- Sift the flour and salt into a bowl. Make a well in the centre.
+- Place the water and lard into a saucepan over low heat. When the lard has melted, bring to a boil.
+- Pour the mixture into the centre of the flour.
+- Working very quickly, mix with a wooden spoon.
+- Knead briefly with hands to produce a smooth dough.
+- Sift the flour and salt into a bowl.
+- Place the water and lard into a saucepan over low heat. When the lard has melted, bring to a boil.
+- Quickly pour the flour into the saucepan.
+- Stir vigorously with a wooden spoon. It will form a smooth dough in seconds
+tips:
+- Sometimes an egg yolk is added to the flour and salt mixture.
+- To shape the dough for a small pie, the bottom of a jam jar works well.
+- This pastry must be used while still warm; otherwise it will become brittle and hard to mould.
+- Hot water pastry takes longer to cook than short crust or flaky pastry. It should be cooked until it colours.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AHot_Water_Crust_Pastry&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Hot Water Crust Pastry@4516043
+    url: https://en.wikibooks.org/w/index.php?oldid=4516043
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

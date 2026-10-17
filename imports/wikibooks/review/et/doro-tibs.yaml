@@ -1,0 +1,71 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: et-doro-tibs
+title: Doro Tibs
+alternate_names:
+- Ethiopian Sauteed Chicken
+summary: Doro tibs is a delicious Ethiopian dish featuring sautéed chicken cooked with flavorful spices and served with injera, the traditional Ethiopian flatbread. This mouthwatering dish is easy to make and perfect for showcasing the rich and aromatic flavors of Ethiopian cuisine.
+origin:
+  country: ET
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Large skillet or frying pan
+- Mixing bowl
+- Wooden spoon or spatula
+- Cutting board
+- Chef's knife
+techniques:
+- marinating
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: g, qty: 500, prep: 'skinless chicken thighs, cut into bite-sized pieces'}
+  - {ingredient: onion, qty: 1, prep: finely chopped, note: large}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: berbere, unit: tbsp, qty: 1}
+  - {ingredient: paprika, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cumin, unit: tsp, qty: 0.5}
+  - {ingredient: ground-coriander, unit: tsp, qty: 0.5}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.25}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: lemon}
+  - {ingredient: cilantro, prep: 'chopped, for garnish'}
+steps:
+- In a mixing bowl, combine the chicken pieces, minced garlic, berbere spice blend, paprika, cumin, coriander, turmeric, and salt. Mix well to ensure the chicken is coated with the spices. Allow the chicken to marinate for at least 30 minutes to enhance the flavors.
+- Heat the olive oil in a large skillet or frying pan over medium-high heat.
+- Add the chopped onion to the pan and sauté until it becomes translucent and slightly browned.
+- Add the marinated chicken to the pan and spread it out in a single layer. Allow the chicken to cook undisturbed for a few minutes to develop a golden crust.
+- Use a wooden spoon or spatula to stir and flip the chicken pieces, ensuring all sides are evenly cooked. Continue cooking until the chicken is cooked through and no longer pink in the center.
+- Squeeze the lemon juice over the cooked chicken and stir well to incorporate.
+- Remove the pan from heat and garnish with freshly chopped cilantro or parsley.
+- Serve hot with injera or any other bread of your choice.
+tips:
+- Adjust the amount of berbere spice blend according to your desired level of spiciness. You can increase or decrease the quantity to suit your taste preferences.
+- Doro tibs can be served with traditional injera, but it also pairs well with rice, couscous, or bread.
+- For an extra burst of flavor, you can add diced bell peppers or tomatoes to the dish during the sautéing process.
+- If you prefer a milder version, you can reduce the amount of berbere spice blend and cayenne pepper.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADoro_Tibs_%28Ethiopian_Sauteed_Chicken%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Doro Tibs (Ethiopian Sauteed Chicken)@4510082
+    url: https://en.wikibooks.org/w/index.php?oldid=4510082
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

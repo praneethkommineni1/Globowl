@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: Pierogi filling, such as sauerkraut filling or cheese filling
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-pierogi
+title: Pierogi
+summary: Pierogi.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 2}
+  - {ingredient: egg, qty: 1, optional: true}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: water}
+  - {ingredient: butter}
+steps:
+- Sift and measure flour with salt into a large bowl.
+- Slightly beat egg with fork, and add egg to flour mixture.
+- Mix in enough water to make a dough that's soft enough to roll out with a rolling pin but not so dry that it spits and cracks.
+- Roll out dough on a floured bread board to about the thickness of a cracker.
+- Use a large rimmed glass or a big biscuit cutter to cut rounds approximately 3–4 inches in diameter.
+- Fill each round with a generous spoonful of filling, and fold dough in half to make a half-moon.
+- Pinch and seal the edge of the dough with fingers then gently fold and pinch edge to make a ruffled edge with about ¼-inch folds.
+- Drop each pierogi into a large pot of boiling salted water and boil until they float to the top. Remove each carefully with a slotted spoon.
+- Fry the pierogi in a skillet with melted butter until golden brown.
+- Serve warm or cold.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APierogi_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pierogi II@4505491
+    url: https://en.wikibooks.org/w/index.php?oldid=4505491
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

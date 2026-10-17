@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: Batch of thin, freshly-picked grape leaves
+#  - course unknown from categories
+id: xx-stuffed-grape-leaves
+title: Stuffed Grape Leaves
+summary: 'Grape leaves (stuffed), (Arabic: ورق دوالي); (Hebrew: עלי גפן ממולאים), are an appetizer popular in Middle Eastern countries, including Turkey and Persia, where it is usually eaten with stuffed rice that has been seasoned with a multitude of spices.'
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 20
+  amount: 20 +
+time:
+  total_min: 60
+difficulty: 2
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: kg, qty: 1, prep: rinsed}
+  - {ingredient: ground-turmeric}
+  - {ingredient: black-pepper}
+  - {ingredient: salt, unit: tsp, qty: 2}
+  - {ingredient: mint}
+  - {ingredient: raisins, unit: cup, qty: 1}
+  - {ingredient: dill, prep: finely chopped}
+  - {ingredient: parsley}
+  - {ingredient: scallion}
+  - {ingredient: vegetable-oil}
+  - {ingredient: lemon, qty: 2}
+steps:
+- Soak leaves in boiling hot water to soften, about 15 minutes.
+- Combine the rice, turmeric, pepper, salt, mint, raisins, dill, parsley and green onions.
+- Place some of the rice mixture on a leaf, close to one end. Fold the three smaller ends of the leaf over the filling, then roll up the remainder like a sleeping bag or mat. Repeat with remaining rice and leaves.
+- Place stuffed leaves in pot with a little water, oil, and lemon juice—the liquid should just barely cover the stuffed leaves.
+- Cover pot with lid. First bring to a boil, then lower heat.
+- Cook over low heat until the rice is cooked.
+- Place sliced lemon on top of stuffed grape leaves for added flavour, and serve.
+tips:
+- Arabs have a practice to place the fatty tail of a sheep on top of the grape leaves while cooking, so that the melted fat is absorbed in the rice and leaves; in this manner it imparts its good flavour.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AStuffed_Grape_Leaves&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Stuffed Grape Leaves@4630130
+    url: https://en.wikibooks.org/w/index.php?oldid=4630130
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

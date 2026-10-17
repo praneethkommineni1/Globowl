@@ -1,0 +1,50 @@
+id: fr-le-tourin
+title: Le Tourin
+alternate_names:
+- Garlic Soup
+summary: Le tourin is a type of garlic soup. This recipe is from the village of Le Fleix in Dordogne.
+origin:
+  country: FR
+course: soup
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 30
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: garlic, unit: clove, qty: [10, 12], prep: chopped}
+  - {ingredient: olive-oil, unit: tbsp, qty: 1}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 1}
+  - {ingredient: water, unit: cup, qty: 4, prep: or as needed}
+  - {ingredient: egg, qty: 1, prep: separated}
+  - {ingredient: black-pepper, note: to taste}
+  - {ingredient: white-vinegar, unit: tsp, qty: 1}
+  - {ingredient: salt, note: to taste}
+steps:
+- In a frying pan, brown the chopped garlic in the olive oil.
+- Add the flour. Mix well, then cook for a few minutes to remove the floury taste.
+- Gradually stir in the water, and cook for 10 minutes.
+- Beat the egg white in a small bowl. Gradually whisk in a ladleful of the soup to temper it, then stir the mixture back into the soup pot.
+- Combine the egg yolk, pepper, and vinegar in a small bowl. Like before, gradually temper the yolks with a ladleful of soup.
+- Remove the soup from the heat, and stir in the egg yolk mixture. Season to taste with salt.
+- Place thin slices of bread in each soup bowl, and pour the soup on top. Serve hot.
+tips:
+- You can optionally use an equal mixture of chopped onions and garlic.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALe_Tourin_%28Garlic_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Le Tourin (Garlic Soup)@4518429
+    url: https://en.wikibooks.org/w/index.php?oldid=4518429
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

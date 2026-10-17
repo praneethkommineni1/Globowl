@@ -1,0 +1,57 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 cup fresh or dried mopane worms
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: zm-ifinkubala
+title: Ifinkubala
+alternate_names:
+- Zambian Fried Caterpillars
+summary: Ifinkubala is a traditional Zambian delicacy made from fried mopane worms. These protein-rich caterpillars are a popular snack and are often enjoyed with a cold beverage. Fried to a crisp, they offer a unique and crunchy texture.
+origin:
+  country: ZM
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Frying pan or skillet
+- Tongs or spatula
+- Paper towels
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: paprika, prep: for seasoning, optional: true}
+steps:
+- In a frying pan or skillet, heat the vegetable oil over medium heat.
+- Add the caterpillars to the pan and fry them until they are golden brown and crispy.
+- Use tongs or a spatula to flip the caterpillars and fry them on the other side, ensuring they are evenly cooked.
+- Once the caterpillars are crispy and golden, remove them from the pan and place them on a paper towel-lined plate to absorb any excess oil.
+- Season the fried caterpillars with salt to taste. For extra flavor, you can sprinkle some ground paprika over them.
+- Serve the ifinkubala as a crunchy and unique snack, and enjoy them with a refreshing beverage of your choice.
+tips:
+- Mopane worms can be found in some Zambian markets, or you can also harvest them locally if they are available in your region.
+- Make sure to cook the caterpillars thoroughly to ensure they are safe to eat.
+- This unique snack is best enjoyed when freshly fried, as it may lose its crispiness over time.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIfinkubala_%28Zambian_Fried_Caterpillars%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ifinkubala (Zambian Fried Caterpillars)@4503441
+    url: https://en.wikibooks.org/w/index.php?oldid=4503441
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

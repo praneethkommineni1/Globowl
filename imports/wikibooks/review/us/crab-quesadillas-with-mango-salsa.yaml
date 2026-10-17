@@ -1,0 +1,70 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (US, MX): confirm the country of origin
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1/4 cup sweet red pepper, minced
+#  - unmapped ingredient: 1 package of 6-inch round flour tortillas
+#  - unmapped ingredient: 8 oz mascarpone cheese
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-crab-quesadillas-with-mango-salsa
+title: Crab Quesadillas with Mango Salsa
+summary: Crab Quesadillas with Mango Salsa.
+origin:
+  country: US
+  also_claimed_by:
+  - MX
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- name: Salsa
+  items:
+  - {ingredient: mango, unit: cup, qty: 2, prep: diced fine}
+  - {ingredient: tomato, unit: cup, qty: 1, prep: diced fine}
+  - {ingredient: lime, unit: tbsp, qty: 3}
+  - {ingredient: cilantro, unit: tbsp, qty: 1, prep: chopped fine}
+- name: Quesadilla
+  items:
+  - {ingredient: crab, unit: g, qty: 454}
+  - {ingredient: red-bell-pepper, qty: 1, prep: cut into thin strips, note: medium}
+  - {ingredient: red-bell-pepper, qty: 1, prep: cut into thin strips, note: medium}
+  - {ingredient: onion, qty: 0.5, prep: cut into strips}
+  - {ingredient: olive-oil, unit: tbsp, qty: 1}
+  - {ingredient: cayenne, unit: tsp, qty: 0.25}
+  - {ingredient: cilantro, unit: cup, qty: 0.25, prep: finely chopped}
+  - {ingredient: monterey-jack, unit: cup, qty: 1, prep: shredded}
+  - {ingredient: cooking-spray}
+steps:
+- Combine all ingredients together.
+- Chill for at least 2 hours before serving.
+- Preheat the oven to 450 °F (230 °C).
+- Heat the olive oil in a frying pan. To that, add the onions and peppers. Cook for about 5 minutes or until onions are translucent.
+- Meanwhile, sift through the crab meat and remove any shell fragments. Stir into the crab the marscapone cheese, cayenne pepper, and cilantro. Mix well.
+- Spray half of the tortillas with cooking spray. Lay them flat (sprayed side down) on baking sheets.
+- Add equal portions of the crab meat and then equal portions of the onions and peppers. Sprinkle with the Monterey Jack cheese.
+- Place the remaining tortillas on top and spray with cooking spray.
+- Bake for about 10 minutes or until golden in color.
+- After removing from the oven, allow to sit for a minute. Then, cut each tortilla into quarters.
+- Serve with mango salsa (recipe follows).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACrab_Quesadillas_with_Mango_Salsa&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Crab Quesadillas with Mango Salsa@4630317
+    url: https://en.wikibooks.org/w/index.php?oldid=4630317
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

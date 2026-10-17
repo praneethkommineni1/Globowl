@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-yam-and-egg-sauce
+title: Yam and Egg Sauce
+summary: Yam and egg sauce is a dish eaten mostly as breakfast
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Frying pan
+- Pot
+- Cooking spoon
+- Bowl
+- Knife
+- Blender
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: yam}
+  - {ingredient: tomato}
+  - {ingredient: black-pepper}
+  - {ingredient: egg}
+  - {ingredient: salt}
+  - {ingredient: vegetable-oil}
+steps:
+- Peel and slice the yam. Boil yam in water until soft, then drain.
+- Blend the tomatoes and peppers together. Whisk together with the egg and a pinch of salt.
+- Cook the egg mixture in a hot pan with a little oil.
+- Serve the eggs with the yam.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AYam_and_Egg_Sauce&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Yam and Egg Sauce@4494028
+    url: https://en.wikibooks.org/w/index.php?oldid=4494028
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

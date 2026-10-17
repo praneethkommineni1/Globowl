@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 tsp Chinese five spice powder
+#  - unmapped ingredient: 3–6 lb whole duck or goose
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: cn-cantonese-roast-duck
+title: Cantonese Roast Duck
+summary: This is a recipe for Cantonese roast duck or goose (燒鴨\燒鵝).
+origin:
+  country: CN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- roasting
+ingredient_groups:
+- name: Marinade
+  items:
+  - {ingredient: soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: dark-soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: sherry, unit: cup, qty: 2, prep: 'sherry, or Chinese cooking wine'}
+- name: Glaze
+  items:
+  - {ingredient: hoisin-sauce, unit: tbsp, qty: 2}
+  - {ingredient: dark-soy-sauce, unit: tbsp, qty: 2}
+- name: Duck
+  items:
+  - {ingredient: scallion, qty: 3}
+steps:
+- Mix all marinade ingredients together.
+- Mix all glaze ingredients together.
+- Brush the marinade mixture all over the duck, inside and outside.
+- Brush some glaze mixture inside the duck cavity.
+- Sit duck breast-up on a rack in an open container.
+- Put in the refrigerator to chill overnight.
+- Preheat oven to 450°F (220°C)
+- Put ½–1 inch (2.5 cm) of water in a roasting pan—this catches the grease that comes out from the duck while roasting and prevents it from smoking.
+- Place green onions inside the duck cavity.
+- Place the duck on a roasting rack in the roasting pan. Roast the duck for 15 minutes.
+- Turn the duck breast-up, and roast for another 15 minutes.
+- Turn oven heat to 375°F (190°C), and roast the duck until the internal temperature reaches a minimum of 180°F (test between the thigh, the thickest part of the duck/goose, being careful not to touch the bone)
+- Brush the duck with glaze, turn oven up to 450°F (200°C), and roast again for about 10 minutes.
+- Carve and serve!
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACantonese_Roast_Duck&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Cantonese Roast Duck@4511498
+    url: https://en.wikibooks.org/w/index.php?oldid=4511498
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

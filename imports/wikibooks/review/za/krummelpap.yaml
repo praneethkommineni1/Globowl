@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 250 ml hot/boiling water, or more as needed
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: za-krummelpap
+title: Krummelpap
+alternate_names:
+- South African Maize Porridge
+summary: Krummelpap is a type of slowly-cooked maize porridge. It is traditionally eaten at breakfast, mostly with a bit of milk, butter, and sugar, or at dinner, where it is served with a sauce like gravy.
+origin:
+  country: ZA
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: salt, unit: tsp, qty: 1}
+  - {ingredient: cornmeal, unit: ml, qty: 700}
+steps:
+- Combine maize and salt in a large pot (like the one used for rice).
+- Add a third of the hot water, mixing with a fork to make little balls or crumbs.
+- Very gradually stir in more water. Don't add too much water.
+- Put the pot over low heat, and cover with a lid. Cook, stirring with a fork every 10 minutes. Keep the lid on; it is the steam that cooks the maize.
+- Taste after 35 minutes to test if it is done. If it still tastes like maize, continue cooking—the wonder of this porridge is that you can't overcook it, though you can burn it. It takes approximately 50 minutes to cook.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKrummelpap_%28South_African_Maize_Porridge%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Krummelpap (South African Maize Porridge)@4495016
+    url: https://en.wikibooks.org/w/index.php?oldid=4495016
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,48 @@
+id: jm-jamaican-banana-fritters
+title: Jamaican Banana Fritters
+summary: Jamaican banana fritters are a traditional dessert and snack dish in the Caribbean. They can be served by themselves, in a platter along with other fritters, or with different toppings, like cinnamon, coconut, or even ice cream.
+origin:
+  country: JM
+course: snack
+authenticity: unassessed
+yield:
+  servings: 25
+  amount: 25 fritters
+time:
+  total_min: 20
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: banana, qty: 3}
+  - {ingredient: all-purpose-flour, unit: g, qty: 200}
+  - {ingredient: milk, unit: ml, qty: 60}
+  - {ingredient: baking-powder, unit: tsp, qty: 2}
+  - {ingredient: sugar, unit: tbsp, qty: 3}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: vegetable-oil}
+steps:
+- Peel the bananas and mash them in a bowl until runny.
+- Heat oil in a deep frying pan at medium heat.
+- Add the sugar, milk, vanilla, salt, and flour to the bananas and mix until approximately the consistency of pancake batter or a bit thinner.
+- Drop tablespoons of the mixture into the heated oil, and fry until edges are firm, then flip to cook other side until golden brown.
+- Drain on a towel and serve hot.
+tips:
+- Sprinkling sugar, nutmeg, cinnamon or coconut on the fritters after frying.
+- Serving with a scoop of ice cream.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AJamaican_Banana_Fritters&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Jamaican Banana Fritters@4522752
+    url: https://en.wikibooks.org/w/index.php?oldid=4522752
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

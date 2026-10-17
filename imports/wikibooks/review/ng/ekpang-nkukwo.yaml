@@ -1,0 +1,69 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Fresh cocoyam leaves
+#  - unmapped ingredient: Fresh fish, Washed and cut into pieces
+#  - unmapped ingredient: Dry fish
+#  - unmapped ingredient: Periwinkle
+#  - course unknown from categories
+id: ng-ekpang-nkukwo
+title: Ekpang Nkukwo
+summary: Ekpang Nkukwo is a traditional dish of the Efik and Ibibio people of southern Nigeria. It is made from grated cocoyam wrapped in cocoyam leaves and cooked with palm oil, fish, meat, periwinkle, and seasonings. It is commonly served during special occasions and family gatherings.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6 people
+time:
+  total_min: 120
+difficulty: 5
+equipment:
+- Grater
+- Knife
+- Bowl
+- Cooking pot
+- Wooden spatula
+- Cutting board
+ingredient_groups:
+- items:
+  - {ingredient: taro}
+  - {ingredient: red-palm-oil}
+  - {ingredient: stockfish}
+  - {ingredient: crayfish, prep: ground}
+  - {ingredient: black-pepper, prep: ground}
+  - {ingredient: onion, prep: chopped}
+  - {ingredient: bouillon-cube}
+  - {ingredient: salt}
+  - {ingredient: water}
+steps:
+- Peel and wash the cocoyam thoroughly.
+- Grate the cocoyam into a smooth paste.
+- Wash the cocoyam leaves and cut off any hard stalks.
+- Place a small quantity of the cocoyam paste in each leaf and wrap it securely.
+- pour plam oil into the cooking pot
+- Arrange the wrapped cocoyam parcels in the cooking pot that already contains plam oil.
+- Add the fish, stockfish, dry fish into the pot
+- pour in your pepper, onions, crayfish, seasoning cubes.
+- In a separate pot boil hot water that will be enough for the food.
+- put your cooking pot on fire and pour in the already boiled water into the cooking pot that contains your cocoyam parcels and ingredients and stir gently using a wooden spatula.
+- Cover the pot and let it cook on medium heat for 2-3 minutes, then you pour in your periwinkles and stri gently.
+- Cover and cook over medium heat for about 1-2 hours, adding water if necessary.
+- Stir carefully from time to time to prevent burning.
+- Continue cooking until the cocoyam is soft and the sauce is thick.
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEkpang_Nkukwo&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ekpang Nkukwo@4639155
+    url: https://en.wikibooks.org/w/index.php?oldid=4639155
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

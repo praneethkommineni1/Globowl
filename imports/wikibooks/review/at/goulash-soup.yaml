@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (AT, HU): confirm the country of origin
+#  - unmapped ingredient: 1 tsp powdered hot paprika
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: at-goulash-soup
+title: Goulash Soup
+summary: The Austrian version of the Goulash soup is an easy to prepare, inexpensive, tasty and filling dish well suited for cold winter days. This thick, sweet-spicy soup of Hungarian origin is served in inns and restaurants across Austria.
+origin:
+  country: AT
+  also_claimed_by:
+  - HU
+course: soup
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, unit: g, qty: 500}
+  - {ingredient: onion, qty: 2, note: large}
+  - {ingredient: potato, qty: 2, prep: peeled, note: large}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: paprika, unit: tbsp, qty: 3}
+  - {ingredient: caraway-seeds, unit: tsp, qty: 1}
+  - {ingredient: thyme, unit: tsp, qty: 1}
+  - {ingredient: bay-leaf, qty: 1}
+  - {ingredient: dried-marjoram, unit: tsp, qty: 1}
+  - {ingredient: tomato, unit: cup, qty: 0.5}
+  - {ingredient: white-vinegar, unit: ml, qty: 50}
+  - {ingredient: beef, unit: l, qty: 1}
+  - {ingredient: black-pepper}
+steps:
+- Cut the beef and potatoes into 1.5 cm cubes. Cut the caraway seeds into rough chunks with a kitchen knife. Chop onions into thin slices. Warm the beef stock.
+- Heat 1 tbsp of oil in a cooking pan to medium/high heat. Fry the beef cubes until medium brown and crispy, remove and drain on a kitchen towel.
+- Turn to medium heat. Add another tbsp of vegetable oil and roast the caraway seeds for 1 min. Add the onions and turn to low heat. Gently cook the onions until they turn yellowish.
+- Add the beef cubes and cook for another 2 min. Slowly add the vinegar, beef stock, potatoes and tomato puree. Add the sweet paprika, and stir well to disperse clumps.
+- Season with marjoram, thyme, hot paprika, the bay leaf and a pinch of black pepper. Simmer for 30 minutes.
+tips:
+- Garnish each dish with a tbsp of sour cream or creme fraiche and sprinkle with freshly-cut chives before serving.
+- Add 100 ml red wine after frying beef/onions.
+- For a more nutritious meal, fry 2 green peppers, 3 tomatoes, 1 carrot, and 1 leek (all chopped) with the onions.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGoulash_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Goulash Soup@4518414
+    url: https://en.wikibooks.org/w/index.php?oldid=4518414
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

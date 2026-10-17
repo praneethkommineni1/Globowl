@@ -1,0 +1,66 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: zm-chishimba
+title: Chishimba
+alternate_names:
+- Zambian Cassava Cake
+summary: Chishimba is a Zambian dessert made from cassava, showcasing the unique flavor of this root vegetable in a sweet and moist cake. This traditional treat is a favorite in Zambian cuisine, often enjoyed on special occasions and gatherings.
+origin:
+  country: ZM
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+equipment:
+- Mixing bowl
+- 9-inch round cake pan
+- Mixing spoon
+- Oven
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: cassava, unit: cup, qty: 2}
+  - {ingredient: coconut-milk, unit: cup, qty: 1}
+  - {ingredient: coconut, unit: cup, qty: 1}
+  - {ingredient: brown-sugar, unit: cup, qty: 1}
+  - {ingredient: egg, qty: 2, prep: beaten, note: large}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.5}
+  - {ingredient: nutmeg, unit: tsp, qty: 0.5}
+  - {ingredient: baking-powder, unit: tsp, qty: 0.5}
+  - {ingredient: salt, unit: pinch, qty: 1}
+steps:
+- Preheat your oven to 350°F (175°C) and grease a 9-inch round cake pan with vegetable oil.
+- In a mixing bowl, combine the grated cassava, shredded coconut, and brown sugar. Mix well to evenly distribute the ingredients.
+- Add the beaten eggs, coconut milk, vegetable oil, and vanilla extract to the bowl. Mix thoroughly until all the ingredients are well combined.
+- Sprinkle in the ground cinnamon, ground nutmeg, baking powder, and a pinch of salt. Stir the mixture until the spices and baking powder are fully incorporated.
+- Pour the batter into the greased cake pan, smoothing the top with a spatula or the back of a spoon.
+- Place the cake pan in the preheated oven and bake for approximately 40–45 minutes, or until the cake is golden brown and a toothpick inserted into the center comes out clean.
+- Once the chishimba is fully baked, remove it from the oven and let it cool in the cake pan for a few minutes.
+- After cooling slightly, transfer the cake to a wire rack to cool completely before slicing and serving.
+tips:
+- You can enhance the flavor of the chishimba by adding chopped nuts or dried fruits to the batter before baking.
+- This dessert can be enjoyed on its own or served with a scoop of ice cream or a dollop of whipped cream for a delightful treat.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AChishimba_%28Zambian_Cassava_Cake%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Chishimba (Zambian Cassava Cake)@4587498
+    url: https://en.wikibooks.org/w/index.php?oldid=4587498
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 6 dl water
+#  - course unknown from categories
+id: xx-farikal
+title: Fårikål
+alternate_names:
+- Norwegian Lamb and Cabbage Stew
+summary: Fårikål is a stew using cabbage and mutton shoulder or sometimes lamb. It is the national dish of Norway.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–5
+time:
+  total_min: 210
+difficulty: 2
+techniques:
+- boiling
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: lamb, unit: kg, qty: 2}
+  - {ingredient: white-cabbage, unit: kg, qty: 2}
+  - {ingredient: black-pepper, unit: tsp, qty: 5}
+  - {ingredient: salt, unit: tsp, qty: 3}
+steps:
+- Cut the cabbage in half, then cut the halves into roughly even boat-shaped pieces.
+- Cover the bottom of the pot with a layer of meat, laying it with the fattier side down.
+- Add a layer of cabbage on top of the meat, then another layer of meat on top of the cabbage. Add salt and pepper between each layer. Continue until you have placed all the cabbage and meat into the pot.
+- Pour in the water, and slowly bring it to a boil. Reduce the heat until the stew is at a slight simmer.
+- Let the meat simmer until it is tender and easily falls off the bone. This should take around 3 hours. Let it simmer for a little shorter when using lamb meat.
+- Serve straight from the pot with boiled potatoes.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AF%C3%A5rik%C3%A5l_%28Norwegian_Lamb_and_Cabbage_Stew%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Fårikål (Norwegian Lamb and Cabbage Stew)@4630337
+    url: https://en.wikibooks.org/w/index.php?oldid=4630337
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

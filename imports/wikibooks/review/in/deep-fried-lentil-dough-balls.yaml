@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 cup urad dal
+#  - unmapped ingredient: 1 cup rice rava
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: in-deep-fried-lentil-dough-balls
+title: Deep Fried Lentil Dough Balls
+alternate_names:
+- Punugu
+summary: Deep Fried Lentil Dough Balls.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- deep-frying
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: onion, prep: chopped}
+  - {ingredient: red-chili, prep: chopped}
+  - {ingredient: salt, note: to taste}
+steps:
+- Soak the urad dal in water for several hours.
+- Soak the rava in water.
+- Grind the soaked urad dal to make a somewhat loose batter. Mix in the soaked rava.
+- Mix in the flour, then add enough water to thin it if necessary.
+- Mix in onions, chillies, and salt to the batter. Allow to ferment and rise.
+- Make small balls and deep fry them in hot oil.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADeep_Fried_Lentil_Dough_Balls_%28Punugu%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Deep Fried Lentil Dough Balls (Punugu)@4501850
+    url: https://en.wikibooks.org/w/index.php?oldid=4501850
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

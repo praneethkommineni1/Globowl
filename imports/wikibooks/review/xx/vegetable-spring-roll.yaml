@@ -1,0 +1,76 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: xx-vegetable-spring-roll
+title: Vegetable Spring Roll
+summary: Vegetable Spring Roll.
+origin:
+  country: XX
+course: starter
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- deep-frying
+- stir-frying
+ingredient_groups:
+- name: Batter
+  items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 250}
+  - {ingredient: egg, qty: 1}
+  - {ingredient: salt}
+  - {ingredient: water}
+  - {ingredient: vegetable-oil}
+- name: Filling
+  items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: carrot, qty: [2, 3], prep: grated}
+  - {ingredient: leek, unit: cup, qty: 1, optional: true}
+  - {ingredient: ginger, unit: tsp, qty: 0.5}
+  - {ingredient: garlic, unit: tsp, qty: 0.5}
+  - {ingredient: white-cabbage, unit: g, qty: 100}
+  - {ingredient: mushroom, unit: g, qty: 50}
+  - {ingredient: bean-sprouts, unit: g, qty: 75}
+  - {ingredient: red-chili, qty: 3, prep: chopped}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: black-pepper, unit: tbsp, qty: 0.5}
+- name: Assembly
+  items:
+  - {ingredient: all-purpose-flour}
+  - {ingredient: water}
+  - {ingredient: vegetable-oil}
+steps:
+- Sift the flour, then mix in salt, egg, and enough water to make a smooth batter.
+- Heat little oil in a flat non-stick pan and add enough batter so that it covers the base of the pan.
+- Cook both sides of the pancake until golden.
+- Repeat the cooking process until all the batter is used up.
+- Heat 2–3 tbsp oil in a wok, then add ginger, garlic, and mushrooms, and stir fry for 10–15 seconds.
+- Add leeks, and stir fry for about 1 minute. Add carrots and cabbage, then cook, tossing the vegetables until they are crisp-tender.
+- Add the bean sprouts, salt, pepper, and soya sauce. Cook, stirring, for 2 minutes.
+- Set the filling aside to cool.
+- Place 2–3 tbsp of the filling in the center of each pancake.
+- Fold in the sides and form a tight roll, sealing the edge with a little flour and water paste.
+- Deep fry in hot oil until golden.
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AVegetable_Spring_Roll&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Vegetable Spring Roll@4610531
+    url: https://en.wikibooks.org/w/index.php?oldid=4610531
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,56 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 thumb-sized pieces of osumade stick, washed
+id: ng-osumade-soup
+title: Osumade Soup
+summary: Osumade soup is a dish native to the Agbor people of Nigeria. It features palm nut extract and osumade (licorice) stick, and it is very aromatic with a sweet flavor. This soup is very light and similar to nsala soup.
+origin:
+  country: NG
+course: soup
+authenticity: unassessed
+yield:
+  servings: 2
+  amount: 2-3
+time:
+  total_min: 30
+difficulty: 2
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: yam, unit: slice, qty: [1, 2]}
+  - {ingredient: beef, prep: washed and cubed}
+  - {ingredient: salt}
+  - {ingredient: chicken-bouillon-cube}
+  - {ingredient: black-pepper, unit: tbsp, qty: 2}
+  - {ingredient: stockfish}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: [2, 3]}
+  - {ingredient: iru, qty: 1, note: medium}
+  - {ingredient: red-palm-oil, unit: cup, qty: 0.25}
+  - {ingredient: stockfish}
+steps:
+- Soak the osumade stick in a small bowl of water.
+- Peel the soaked osumade stick. Grind it in a blender or mortar, and then sieve it to extract the infused water. Reserve for later.
+- Wash the yam, and cut into small pieces.
+- Place yam pieces in a medium-sized pot. Cover with water, and cook over medium-high heat until tender. Do not salt at this point.
+- Drain the yam. Use a mortar and pestle to pound the yam until it is well-mashed and stretchy.
+- Place the meat in a pot. Season with salt, black pepper, and one stock cube. Cook meat over medium-high heat in its own juices
+- Cover the meat with water, and bring to a simmer.
+- Add the osumade water, stockfish, ground crayfish, ogili, palm oil, and seasoning cube to the boiling meat. Stir, then cover and cook for 15 minutes. Add additional water as necessary.
+- Introduce the pounded yam and the dryfish. Cook for about 5 minutes, or until it reaches the desired consistency.
+- Serve the soup with pounded yam or any other swallow of your choice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AOsumade_Soup&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Osumade Soup@4518471
+    url: https://en.wikibooks.org/w/index.php?oldid=4518471
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

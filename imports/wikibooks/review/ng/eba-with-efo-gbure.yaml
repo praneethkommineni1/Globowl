@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: A medium-sized bowl full of waterleaf
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-eba-with-efo-gbure
+title: Eba with Efo Gbure
+alternate_names:
+- Cassava Flake Swallow with Waterleaf Soup
+summary: Eba with efo gbure is a Nigerian dish that pairs a starchy swallow with a vegetable soup. It is a native meal of the Yoruba people of southwestern Nigeria and other parts of Yorubaland, and it can be served along with a meat or seafood of choice.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Bowls
+- Pots
+- Knife
+- Chopping board
+techniques:
+- boiling
+ingredient_groups:
+- name: Soup
+  items:
+  - {ingredient: red-palm-oil, unit: cup, qty: 0.25}
+  - {ingredient: tomato, unit: cup, qty: 1}
+  - {ingredient: red-chili, unit: cup, qty: 0.5}
+  - {ingredient: water, unit: ml, qty: 250}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: bouillon-cube, qty: 2, prep: crushed}
+- name: Eba
+  items:
+  - {ingredient: water, unit: l, qty: 1}
+  - {ingredient: cassava, qty: 2}
+steps:
+- Thoroughly rinse the waterleaf in water to ensure it is free of dirt. Drain well, and chop the waterleaf very finely.
+- Place a heavy-bottomed pot over medium-high heat. Add the palm oil, and let it heat up before carefully adding the tomato and chile purées.
+- Allow the purées to boil for about 2 minutes. If necessary, lower the heat to prevent scorching.
+- Stir in the waterleaf and water, and let boil for another 5 minutes.
+- Stir in the salt and seasoning cube, and let boil for another 2 minutes.
+- Remove from the heat and keep warm.
+- Bring the water to a boil in a pot.
+- Gradually stir in the cassava flakes, and cook until the mixture forms a smooth dough.
+- Serve the eba as a swallow alongside your soup.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEba_with_Efo_Gbure_%28Cassava_Flake_Swallow_with_Waterleaf_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Eba with Efo Gbure (Cassava Flake Swallow with Waterleaf Soup)@4518753
+    url: https://en.wikibooks.org/w/index.php?oldid=4518753
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

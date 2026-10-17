@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no time in recipe summary
+id: th-yellow-curry-paste
+title: Yellow Curry Paste
+summary: Yellow Curry Paste.
+origin:
+  country: TH
+course: main
+authenticity: unassessed
+yield:
+  servings: 5
+  amount: 5–6 tablespoons
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: coriander-seeds, unit: tbsp, qty: 2}
+  - {ingredient: cumin-seeds, unit: tbsp, qty: 2}
+  - {ingredient: lemongrass, qty: 3, prep: chopped}
+  - {ingredient: ginger, unit: tbsp, qty: 1}
+  - {ingredient: red-chili, qty: 6, prep: seeded and chopped}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: smashed}
+  - {ingredient: shallot, qty: 1, prep: chopped}
+  - {ingredient: ground-turmeric, unit: tbsp, qty: 1}
+  - {ingredient: shrimp-paste, unit: tbsp, qty: 1}
+steps:
+- Toast the cumin and coriander seeds in a pan for 3–4 minutes. Set aside.
+- Grind lemongrass and ginger in a mortar, add chilli-peppers and salt, and grind for 4 minutes.
+- Add garlic and shallot and keep grinding.
+- Add the roasted cumin and coriander seeds and turmeric.
+- Add the trassi and grind to a fluid paste.
+- Store in an airtight container in the refrigerator for storage (lasts 1 month).
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AYellow_Curry_Paste&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Yellow Curry Paste@4517579
+    url: https://en.wikibooks.org/w/index.php?oldid=4517579
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

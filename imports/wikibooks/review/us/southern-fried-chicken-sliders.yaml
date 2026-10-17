@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: Poultry shake
+#  - unmapped ingredient: 6 ea. 1-inch buns, split in half
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-southern-fried-chicken-sliders
+title: Southern Fried Chicken Sliders
+summary: Southern Fried Chicken Sliders.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: chicken, qty: 4}
+  - {ingredient: cornmeal}
+  - {ingredient: butter}
+  - {ingredient: vegetable-oil, qty: 2.5}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+steps:
+- Brush cut sides of buns with melted butter, and season with salt and freshly ground black pepper. Toast cut side down in a hot pan. Set aside.
+- Coat chicken with melted butter. Season liberally with poultry shake and dredge in cornmeal. Let rest 2–3 minutes.
+- Heat oil to 350°F. Add chicken breasts and fry, 1 at a time, about 10 minutes. Drain on a cooling rack.
+- Cut chicken into portions that fit the buns. Place 1 chicken piece on each bottom half of a bun and top with the other half. Serve warm.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASouthern_Fried_Chicken_Sliders&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Southern Fried Chicken Sliders@4518286
+    url: https://en.wikibooks.org/w/index.php?oldid=4518286
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

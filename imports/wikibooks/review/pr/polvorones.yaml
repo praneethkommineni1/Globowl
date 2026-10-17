@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - several cuisines (PR, ES): confirm the country of origin
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: pr-polvorones
+title: Polvorones
+alternate_names:
+- Spanish Shortbread
+summary: Polvorones are a type of Spanish shortbread quite popular in Latin America.
+origin:
+  country: PR
+  also_claimed_by:
+  - ES
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: margarine, unit: cup, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 4}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+steps:
+- Preheat oven to 350°F (180°C)
+- Mix the margarine and the sugar in a mixing bowl until it reaches a creamy consistency.
+- Mix in the vanilla extract, salt, and eggs.
+- While mixing the ingredients, add the flour and stir until it becomes hard to stir the mix.
+- Make small balls and place on a flat baking sheet without grease.
+- Bake for 15–20 minutes in the preheated oven, or until golden.
+- Let cool.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APolvorones_%28Spanish_Shortbread%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Polvorones (Spanish Shortbread)@4517181
+    url: https://en.wikibooks.org/w/index.php?oldid=4517181
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

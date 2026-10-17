@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1–2 green chillies, slit lengthwise
+#  - no time in recipe summary
+#  - duplicate id in-tadka-dhal-spiced-lentil-curry from another Wikibooks page
+id: in-tadka-dhal-spiced-lentil-curry
+title: Tadka Dhal (Spiced Lentil Curry)
+summary: Tadka dhal is an everyday staple across South India.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- simmering
+ingredient_groups:
+- name: Dhal
+  items:
+  - {ingredient: mung-beans, unit: cup, qty: 0.5, prep: washed}
+  - {ingredient: water, unit: cup, qty: 2}
+- name: Seasoning
+  items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: [2, 3]}
+  - {ingredient: onion, unit: tbsp, qty: [3, 4]}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: chopped}
+  - {ingredient: ginger, qty: 1, prep: 'chopped, or 1/4 teaspoon ginger paste', note: small}
+  - {ingredient: curry-leaves, qty: [4, 5]}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 0.25}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 0.25}
+  - {ingredient: ground-fenugreek, unit: tsp, qty: 0.25}
+  - {ingredient: asafoetida, unit: tsp, qty: 0.25, optional: true}
+  - {ingredient: tomato, qty: [1, 2], prep: cut into eighths}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.25}
+  - {ingredient: chili-powder, unit: tsp, qty: 0.25}
+  - {ingredient: salt, unit: pinch, qty: 1}
+steps:
+- Set the dhal and water in an open pot on moderate heat until quite mushy, adding water if it becomes dry and stirring occasionally. This may take 30 minutes to an hour. A pressure cooker may be used to speed up this part of the process; this should take about 10–12 minutes at 5 psi.
+- Heat the oil in a pan. Add mustard seed, standing well back (they tend to spatter).
+- Add cumin seed, fenugreek, curry leaves, green chillies and onions
+- Wait for the onions to turn translucent. Add garlic and ginger, turn the heat low until the garlic changes to a darker shade. Avoid caramelizing the garlic. Add turmeric, red chilli and asafoetida powder.
+- Throw in tomatoes, and wait for 2–3 minutes, letting the tomatoes fry in the hot oil. This lets the tomatoes pick up the flavors from the spices and also lets the oil-spice (tadka) mixture cool down, stopping the hot frying process that has chilli powder in it. Pour in the mushy dhal, addding salt to taste.
+- Simmer until the tomatoes become soft (5–10 minutes), stirring occasionally.
+- Serve with rice or chapatis.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATadka_Dhal_%28Spiced_Lentil_Curry%29_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tadka Dhal (Spiced Lentil Curry) II@4615201
+    url: https://en.wikibooks.org/w/index.php?oldid=4615201
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

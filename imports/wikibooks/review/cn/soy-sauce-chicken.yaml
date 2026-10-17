@@ -1,0 +1,49 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2–3 tbsp cooking wine
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: cn-soy-sauce-chicken
+title: Soy Sauce Chicken
+summary: Soy sauce chicken (醬油雞) is a northern Chinese dish.
+origin:
+  country: CN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: chicken}
+  - {ingredient: scallion}
+  - {ingredient: vegetable-oil}
+  - {ingredient: soy-sauce, unit: tbsp, qty: [2, 3]}
+  - {ingredient: ginger}
+  - {ingredient: sugar}
+  - {ingredient: water}
+steps:
+- Fry the chicken parts in a pan with green onions and oil until the outside of the chicken parts are brown.
+- Add soy sauce, cooking wine, chopped ginger, and sugar. Add enough water to cover the chicken.
+- Simmer, uncovered, over low heat until most of the liquid has evaporated.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ASoy_Sauce_Chicken&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Soy Sauce Chicken@4514587
+    url: https://en.wikibooks.org/w/index.php?oldid=4514587
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

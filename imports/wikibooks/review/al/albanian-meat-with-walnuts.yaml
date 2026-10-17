@@ -1,0 +1,45 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+id: al-albanian-meat-with-walnuts
+title: Albanian Meat with Walnuts
+summary: Gjellë me arra is an Albanian dish of meat with walnuts. It is often made with veal or chicken.
+origin:
+  country: AL
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 2}
+  - {ingredient: walnuts, qty: 15, prep: finely crushed}
+  - {ingredient: egg-yolk, qty: 2, prep: beaten}
+  - {ingredient: garlic, qty: 1, prep: minced}
+  - {ingredient: butter, unit: g, qty: 113}
+  - {ingredient: veal, unit: g, qty: [907, 1361], prep: cut into 1-inch cubes}
+steps:
+- Place the meat or chicken in a saucepan, and cook over medium heat until tender.
+- Remove the meat, and set it aside in a dish while leaving the remaining juices in the saucepan.
+- In another saucepan, add the flour and stir over heat until it becomes light brown in color—do not overcook! Then, add half the butter.
+- Add the walnuts, garlic, and egg yolks, stirring constantly.
+- Add the meat juices from the other saucepan, and stir until all the ingredients thicken. Immediately remove from the heat to avoid solidifying the egg yolks. Fold in the meat.
+- Pan fry the remaining half stick of butter until brown, and pour over the dish before serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAlbanian_Meat_with_Walnuts&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Albanian Meat with Walnuts@4525797
+    url: https://en.wikibooks.org/w/index.php?oldid=4525797
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

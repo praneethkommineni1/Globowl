@@ -1,0 +1,58 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Whipped cream or buttercream
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gb-victoria-sandwich
+title: Victoria Sandwich
+summary: The Victoria sandwich (also known as the Victoria sponge) is a Victorian cake that is popular in the UK.
+origin:
+  country: GB
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- 1 mixing bowl
+- 1 wooden spoon
+- 1 table knife
+- 1 palette knife
+- 2 ea. 18 cm (7 in) circular cake pans
+- 1 cooling rack
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: self-rising-flour, unit: g, qty: 170}
+  - {ingredient: butter, unit: g, qty: 170}
+  - {ingredient: caster-sugar, unit: g, qty: 170}
+  - {ingredient: egg, qty: 3}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 1}
+  - {ingredient: jam}
+steps:
+- Preheat the oven to 200°C (400°F or Gas Mark 6).
+- Cream the butter and sugar into a bowl and mix with a wooden spoon until softened.
+- Add the 3 eggs, the vanilla essence, and the flour and mix until smooth.
+- Divide the mixture between the two greased cake pans.
+- Bake in the oven for 20–30 minutes (10–15 in a fan-assisted oven) until firm to the touch.
+- Leave to cool completely on a cooling rack.
+- Turn one cake upside down and spread jam and whipped cream over it. Then, place the second cake on top.
+- Cut into wedges, and serve.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AVictoria_Sandwich&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Victoria Sandwich@4516968
+    url: https://en.wikibooks.org/w/index.php?oldid=4516968
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

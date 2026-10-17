@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - duplicate id us-grilled-cheese-sandwich from another Wikibooks page
+id: us-grilled-cheese-sandwich
+title: Grilled Cheese Sandwich
+summary: ':See: Grilled Cheese Sandwich A toasted cheese sandwich works well as an everyday lunch. It goes well with soda (pop) or tomato soup. Quality greatly depends on ingredient selection and cooking temperature. A good toasted cheese sandwich has a crispy outside and is not mushy.'
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: cheddar}
+  - {ingredient: butter}
+  - {ingredient: white-bread}
+steps:
+- Slice the cheese ⅛-inch thick.
+- Butter the two slices of bread on one side each.
+- Cover a bread slice with cheese, over the unbuttered side. If you leave gaps, distribute them evenly throughout the middle.
+- Finish the sandwich with the other slice of bread; again, buttered side out.
+- Place the sandwich into a cool 2-sided contact-based cooking device, like a sandwich-iron, waffle iron, or a grill intended for cooking burgers. Heat the sandwich.
+- Remove the sandwich when all the cheese has melted and the outside is medium-dark brown and crispy.
+- Eat immediately. If you must set this sandwich down, use a heated plate or a loose paper towel to avoid letting condensation ruin the surface.
+tips:
+- Use low-moisture cheese. When buying cheese, most likely you will find that the cheeses are labeled for fat, protein, and total weight. Consider the unmentioned part to be moisture, and choose the cheese which minimizes this. For any given amount of protein per weight, choose the cheese with the highest fat content. Likewise, for any given amount of fat per weight, choose the cheese with the highest protein content.
+- Multi-grain bread tends to work well. Sourdough and English toasting bread should also work okay.
+- Add relatively dry tuna, bacon, or pastrami. After cooking, you may pry open the sandwich to add sauerkraut, pickles, or sweet chilli sauce.
+- A bit of Worcestershire Sauce poured on the cheese before cooking also works well.
+- Instead of butter/margarine on the outside of the bread, you can substitute mayonnaise for a tangier sandwich.
+- Thinly-sliced tomato is a nice addition to the sandwich, as are wilted spinach or roasted red peppers. You can also add sliced onion with the tomato to give a more exotic feel.
+- Remember to cool the cooking device a bit before cooking another sandwich.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AGrilled_Cheese_Sandwich_II&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Grilled Cheese Sandwich II@4518252
+    url: https://en.wikibooks.org/w/index.php?oldid=4518252
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,74 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-basbousa
+title: Basbousa
+alternate_names:
+- Egyptian Semolina Cake
+summary: Basbousa is a delightful Middle Eastern dessert that is known for its rich and moist texture. Made with semolina, coconut, and sweet syrup, this cake is a popular treat enjoyed across many cultures.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Mixing bowl
+- 9x9-inch baking pan
+- Knife
+- Measuring cups and spoons
+- Saucepan
+- Oven
+techniques:
+- baking
+- boiling
+ingredient_groups:
+- name: Cake
+  items:
+  - {ingredient: semolina, unit: cup, qty: 1}
+  - {ingredient: coconut, unit: cup, qty: 0.5}
+  - {ingredient: butter, unit: cup, qty: 0.5, prep: melted}
+  - {ingredient: sugar, unit: cup, qty: 0.75}
+  - {ingredient: yogurt, unit: cup, qty: 1}
+  - {ingredient: baking-powder, unit: tsp, qty: 1}
+  - {ingredient: vanilla-extract, unit: tsp, qty: 0.5}
+  - {ingredient: almonds, prep: chopped}
+- name: Syrup
+  items:
+  - {ingredient: water, unit: cup, qty: 1}
+  - {ingredient: sugar, unit: cup, qty: 1}
+  - {ingredient: lemon, unit: tbsp, qty: 1}
+steps:
+- Preheat the oven to 180°C (350°F).
+- In a mixing bowl, combine the fine semolina, desiccated coconut, melted unsalted butter, granulated sugar, plain yogurt, baking powder, and vanilla extract. Stir well until all the ingredients are thoroughly combined and form a smooth batter.
+- Grease a 9x9 inch baking pan and pour the batter into it, spreading it out evenly.
+- Using a knife, score the surface of the batter into diamond or square shapes. This will help the syrup to penetrate the cake.
+- Bake the basbousa in the preheated oven for about 30–35 minutes or until the top is golden brown and a toothpick inserted into the center comes out clean.
+- While the basbousa is baking, prepare the syrup by the water, granulated sugar, and lemon juice in a saucepan. Bring the mixture to a boil, stirring occasionally, until the sugar is fully dissolved. Remove the syrup from heat and set it aside to cool.
+- Once the basbousa is baked, remove it from the oven and let it cool for a few minutes.
+- Pour the prepared syrup evenly over the warm basbousa, allowing it to soak into the cake.
+- Garnish the basbousa with chopped almonds or pistachios for added texture and presentation.
+- Allow the basbousa to cool completely before cutting and serving.
+tips:
+- Basbousa can be enjoyed warm or at room temperature. It is a versatile dessert that can be served on its own or accompanied by a dollop of whipped cream or a scoop of ice cream.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABasbousa_%28Egyptian_Semolina_Cake%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Basbousa (Egyptian Semolina Cake)@4587491
+    url: https://en.wikibooks.org/w/index.php?oldid=4587491
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

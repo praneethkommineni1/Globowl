@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - course unknown from categories
+id: in-pohe
+title: Pohe
+alternate_names:
+- Spiced Flattened Rice
+summary: Pohe is a very popular breakfast dish in the Indian states of Maharashtra, Gujarat and Madhya Pradesh.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1–2
+time:
+  total_min: 15
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: g, qty: 200}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 2}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 1}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.25}
+  - {ingredient: asafoetida, unit: pinch, qty: 1}
+  - {ingredient: red-chili, qty: 2, prep: finely chopped}
+  - {ingredient: onion, qty: 0.5, prep: finely chopped}
+  - {ingredient: cilantro, unit: sprig, qty: 2}
+  - {ingredient: salt, note: to taste}
+steps:
+- Moisten the pohe with cold water by putting in a bowl and holding under a slow running tap. Mix by hand, then drain excess water and set aside (take care not to soak too long or the pohe would turn pasty).
+- Heat the oil in a frying pan until medium hot. Add the mustard seeds and let them crackle for a few seconds
+- Add the turmeric powder and asafoetida and fry for a few seconds (take care not to burn the turmeric).
+- Add the green chillies and fry for a few seconds.
+- Add the chopped onion and lower the heat. Cover and cook for 2 minutes. The onions should turn soft but not brown.
+- The pohe that was kept aside should have absorbed the excess moisture by now.
+- Mix the pohe by hand so that the flakes do not stick together and add to the frying pan.
+- Add salt to taste and stir the contents of the fry pay so that the yellow color of the turmeric is spread evenly through the pohe.
+- Cover and cook for 5 minutes on low heat. Do not uncover during this time, as the pohe must cook in the steam.
+- Stir and cook for another 1 minute uncovered.
+- Serve in a bowl garnished with chopped coriander leaves.
+tips:
+- When adding onions, you may also add fresh green peas and or peanuts. If adding peanuts, take care to fry them well with the onions.
+- For garnishing, sprinkle some grated or dry coconut along with coriander. For colourful garnish try adding small amount of grated carrot and or beet, but don't add too much, as it will be overpowering.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APohe_%28Spiced_Flattened_Rice%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pohe (Spiced Flattened Rice)@4633573
+    url: https://en.wikibooks.org/w/index.php?oldid=4633573
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

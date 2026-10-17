@@ -1,0 +1,62 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 1 tablespoon ground dried pepper
+#  - unmapped ingredient: 1 cup ukpaka
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-ugba-stew
+title: Ugba Stew
+summary: The recipe is a modern spin on the traditional ugba stew, and the use of parsley gives it a fresh taste.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Pot
+- Knife
+- Stove
+- Bowl /plate
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: stockfish, qty: [2, 3]}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 2}
+  - {ingredient: salt}
+  - {ingredient: bouillon-cube, qty: 2}
+  - {ingredient: potash, unit: tbsp, qty: 0.5}
+  - {ingredient: red-palm-oil, unit: cup, qty: 0.667}
+  - {ingredient: iru}
+  - {ingredient: iru, unit: tsp, qty: 0.25}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+steps:
+- Soak the dried stockfish in water for 2–3 hours at a minimum, and preferably overnight.
+- Combine the soaked fish, 3–4 cups of water, pepper, crayfish, seasoning cube, and salt in a pot.
+- Cover, and cook over medium heat for about 2 hours, or until the fish is very tender. Add more water if needed.
+- When the fish is cooked and very tender, take a wooden spoon and separate the fish into tiny little bits. Let it cook for another 15–20 minutes.
+- Add the ukpaka, and simmer for 10 minutes
+- Add the akanwu, and let it dissolve. This takes about 2–5 minutes.
+- Add palm oil and ogiri. Reduce heat, and cook for 10 minutes.
+- Remove from the heat, and serve with chopped vegetables and onions.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AUgba_Stew&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ugba Stew@4518693
+    url: https://en.wikibooks.org/w/index.php?oldid=4518693
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,80 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 3–4 Italian frying peppers
+#  - unmapped ingredient: 10–12 ajices dulces
+#  - unmapped ingredient: 10 leaves of culantro, or another handful of cilantro
+#  - unmapped ingredient: 1 1/2 cup sofrito
+#  - unmapped ingredient: 2 tablespoons Alcaparrado
+#  - unmapped ingredient: 1 can Vienna sausage, sliced with liquid saved
+#  - unmapped ingredient: 3 cups medium grain rice
+#  - unmapped ingredient: 1 banana leaf or plantain leaf
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: pr-arroz-con-maiz
+title: Arroz con Maiz
+alternate_names:
+- Rice with Corn
+summary: Arroz con Maiz.
+origin:
+  country: PR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- name: Sofrito
+  items:
+  - {ingredient: onion, qty: 2, prep: cut into large chunks, note: medium}
+  - {ingredient: garlic, unit: clove, qty: [16, 20], prep: peeled}
+  - {ingredient: cilantro, qty: 1, prep: washed, note: large}
+  - {ingredient: tomato, qty: [3, 4], prep: 'seeded, cored, and cut into chunks'}
+  - {ingredient: red-bell-pepper, qty: 1, prep: 'cored, seeded, and cut into large chunks', note: large}
+- name: Rice
+  items:
+  - {ingredient: olive-oil, unit: cup, qty: 0.333}
+  - {ingredient: annatto, unit: tsp, qty: 2}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: tsp, qty: 1}
+  - {ingredient: ground-cumin, unit: tsp, qty: 3}
+  - {ingredient: ground-coriander, unit: tsp, qty: 1.5}
+  - {ingredient: corn-kernels, unit: cup, qty: 0.25, prep: 'canned, or fresh corn kernels. If using fresh corn, cook and remove corn from cob ahead of time'}
+  - {ingredient: chicken-stock, unit: cup, qty: 2}
+  - {ingredient: dry-white-wine, unit: cup, qty: 1}
+  - {ingredient: bay-leaf, qty: 2}
+steps:
+- Chop the onion and add to blender. Blend until liquefied.
+- With the motor running, add the remaining ingredients one at a time and process until smooth.
+- Remove 1½ cup of sofrito for the rice. The sofrito will keep in the refrigerator for up to 3 days. Alternatively, freeze in ice trays and it will last a month.
+- Heat the oil and annatto seeds in a small skillet over medium heat just until the seeds give off a lively, steady sizzle. Don't overheat the mixture or the seeds will turn black and the oil green. Once they're sizzling away, pull the pan from the heat and let stand until the sizzling stops.
+- Strain as much of the oil as you can into a heavy pot or Dutch and let it stand for at least 5 minutes.
+- Lightly toast the cumin and coriander seeds in a small skillet over low heat for a few minutes. Keep an eye on them, they turn dark fast.
+- Remove seeds from the heat and grind in a little spice grinder or coffee mill.
+- Re-heat the annatto oil over high heat until rippling. Stir in vienna sausage and brown. Add sofrito, alcaparrado, squash, salt, bay leaves, coriander, cumin, and pepper. Cook until sofrito stops boiling and sizzles, about 5 minutes.
+- Stir in the rice until everything is mixed together and rice is coated with oil all over.
+- Stir in wine, liquid from vienna sausage and enough broth or water to cover the rice by the width of two fingers. Top with banana leaf (or pan lid), folding it up or cutting it as necessary to fit over rice.
+- Bring to a boil, then boil without stirring until the level of liquid meets the rice.
+- Remove the banana leaf, give the rice a big stir, and put leaf back on top. Reduce the heat to low, cover the pot with lid, and cook until the water has been absorbed and the rice is tender (about 20 minutes).
+- Once rice is fully cooked mix in corn and cook with lid for an additional minute.
+tips:
+- You can add 5–6 leaves of orégano brujo when making the sofrito.
+- Try adding 1 cup mashed cooked squash (e.g. butternut, acorn, delicata, kabocha, or honeynut) with the alcaparrado mixture.
+- Try mixing 1 teaspoon ground turmeric or smoked paprika in with the rice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AArroz_con_Maiz_%28Rice_with_Corn%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Arroz con Maiz (Rice with Corn)@4599105
+    url: https://en.wikibooks.org/w/index.php?oldid=4599105
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

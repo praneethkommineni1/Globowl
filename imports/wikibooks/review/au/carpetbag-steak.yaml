@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 Scotch fillet steak
+#  - unmapped ingredient: 3–4 oysters
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: au-carpetbag-steak
+title: Carpetbag Steak
+summary: Carpetbag steak is a uniquely Australian dish that was first popularised in Sydney around 1950.
+origin:
+  country: AU
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- grilling
+ingredient_groups:
+- items:
+  - {ingredient: salt, optional: true}
+  - {ingredient: black-pepper, optional: true}
+  - {ingredient: cayenne, optional: true}
+  - {ingredient: lemon-juice, optional: true}
+  - {ingredient: olive-oil, optional: true}
+  - {ingredient: worcestershire-sauce}
+  - {ingredient: lime, optional: true}
+  - {ingredient: cheese, optional: true}
+steps:
+- Cut a small pocket, approximately 6 cm (2.5 inches) in length and about the same depth, in the edge of the thick steak.
+- If desired, season the inside of the pocket with some of salt, pepper, cayenne pepper, lemon juice, and olive oil.
+- Dip the oysters into the Worcestershire sauce, and then insert them in the pocket in the steak.
+- If desired, add lime pulp or some shredded cheese into the pocket.
+- Seal the pocket with a moistened skewer.
+- Barbecue, grill, or broil the steak to your desired level of doneness. Alternatively, cook over a moderate heat in a heavy-based frying pan.
+tips:
+- Substitutes for Worcestershire sauce include teriyaki sauce, oyster sauce or red wine vinegar marinades, or the steak has the marinade or sauce.
+- Substitutes for oysters include mushrooms, yabbies, and prawns.
+- Some recipes poach or sauté the oysters first a little, if the diners prefer rare steak but not raw oysters.
+- Some recipes wrap the steak in bacon or pancetta.
+- If applicable and desired, you can deglaze the cooking pan with sherry or brandy, or make a reduction of oyster liquid and wine with chopped parsley.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACarpetbag_Steak&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Carpetbag Steak@4511340
+    url: https://en.wikibooks.org/w/index.php?oldid=4511340
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

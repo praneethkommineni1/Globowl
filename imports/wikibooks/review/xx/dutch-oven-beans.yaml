@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1 large can pork and beans
+#  - unmapped ingredient: 1 can lima beans
+#  - unmapped ingredient: 1 can red beans
+#  - unmapped ingredient: 1 can butter beans
+#  - unmapped ingredient: 1 teaspoon liquid smoke
+id: xx-dutch-oven-beans
+title: Dutch Oven Beans
+summary: Dutch Oven Beans.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+  amount: 8–12
+time:
+  total_min: 60
+difficulty: 3
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: bacon, unit: g, qty: 454}
+  - {ingredient: beef, unit: g, qty: 454}
+  - {ingredient: onion, qty: 1, note: large}
+  - {ingredient: dried-borlotti-beans, unit: can, qty: 1}
+  - {ingredient: ketchup, unit: cup, qty: 0.5}
+  - {ingredient: brown-sugar, unit: tbsp, qty: 2}
+  - {ingredient: mustard-seeds, unit: tsp, qty: 1}
+  - {ingredient: molasses, unit: tbsp, qty: 2}
+  - {ingredient: worcestershire-sauce, unit: tbsp, qty: 2}
+steps:
+- Cut bacon into bite-sized pieces and begin cooking in heated Dutch oven.
+- Chop onion into ½-inch pieces.
+- When bacon is nearly cooked, crumble ground beef and chopped onion into Dutch oven. Cook until onion is translucent.
+- Add all the beans, ketchup, brown sugar, mustard, molasses, and Worcestershire sauce. Stir mixture.
+- Heat to a simmer and let bubble lightly for 10 or 15 minutes or as long as you can stand it.
+- Stir in liquid smoke.
+- Taste and adjust with additional ketchup, brown sugar, mustard, molasses, and Liquid Smoke or whatever it takes.
+tips:
+- About two dozen charcoal briquettes, started earlier until covered with white ash, with a dozen below and a dozen on top of the Dutch oven should bear sufficient heat. If dried beans are used, many more will be needed over the hours, as the original briquettes are exhausted.
+- Crowder peas or black-eyed peas may also be used.
+- If dried beans are used, add 12 cups of soaked beans to cooked bacon, hamburger, and onions, add the ketchup, brown sugar, mustard, molasses, and Worcestershire sauce, add enough water to make a thick soup and cook until beans are soft-maybe 6 to 8 hours, longer at higher altitudes.
+- Avoid eating this for too many consecutive days or your camp mates will move your campsite downwind.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ADutch_Oven_Beans&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Dutch Oven Beans@4613357
+    url: https://en.wikibooks.org/w/index.php?oldid=4613357
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

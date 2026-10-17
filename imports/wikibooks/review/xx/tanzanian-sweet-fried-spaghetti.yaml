@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-tanzanian-sweet-fried-spaghetti
+title: Tanzanian Sweet Fried Spaghetti
+summary: Tambi za kukaanga na sukari ("fried noodles with sugar") is a Tanzanian or Swahili recipe of sweet fried noodles. It is easy to cook and can be eaten with egg sauce, chicken, etc.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil}
+  - {ingredient: spaghetti, unit: g, qty: 454}
+  - {ingredient: water, unit: cup, qty: 3}
+  - {ingredient: sugar, unit: cup, qty: 0.75}
+  - {ingredient: ground-cardamom, note: to taste}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: raisins, optional: true}
+steps:
+- Heat a few tablespoons of oil in a frying pan.
+- Add the spaghetti and fry it until golden.
+- Add the water, sugar, cardamom, salt, and raisins.
+- Cover the pan and cook until the pasta has absorbed the water, stirring occasionally. If necessary, add more water.
+- Serve hot.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATanzanian_Sweet_Fried_Spaghetti&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tanzanian Sweet Fried Spaghetti@4508058
+    url: https://en.wikibooks.org/w/index.php?oldid=4508058
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

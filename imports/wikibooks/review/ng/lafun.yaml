@@ -1,0 +1,48 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: ng-lafun
+title: Lafun
+alternate_names:
+- Nigerian Cassava Swallow
+summary: Lafun, also known as white amala, is a typical Nigerian swallow made from cassava flour. It is commonly consumed by the Yoruba tribe, and it is served with various soups, such as ewedu soup, okro soup, ẹfọ riro and ẹgusi soup.
+origin:
+  country: NG
+course: side
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: cup, qty: 2}
+  - {ingredient: cassava, unit: cup, qty: 1}
+  - {ingredient: water, unit: cup, qty: 0.25}
+steps:
+- Boil the 2 cups of water in a pot, then stir in cassava flour.
+- Stir in the ¼ cup hot water, and allow the mixture to steam for a few minutes.
+- Stir until the mixture is smooth and lump free.
+- Serve the lafun with your choice of soup.
+tips:
+- Although tapioca is derived from cassava, you must use cassava flour not tapioca flour/starch in this recipe.
+- The quantity of water needed may depend on the brand of cassava flour you use.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ALafun_%28Nigerian_Cassava_Swallow%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Lafun (Nigerian Cassava Swallow)@4638631
+    url: https://en.wikibooks.org/w/index.php?oldid=4638631
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

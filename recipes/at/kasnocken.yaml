@@ -1,0 +1,53 @@
+id: at-kasnocken
+title: Kasnocken
+alternate_names:
+- Austrian Cheese Dumplings
+summary: Kasnocken are small dumplings combined with melted cheese. In Germany, "Nocken" are called "Spaetzle". They have their origins in Schwaben, a region in Southern Germany, and are served as a side dish to roasts.
+origin:
+  country: AT
+course: main
+authenticity: unassessed
+yield:
+  servings: 3
+  amount: 3–4
+time:
+  total_min: 25
+difficulty: 2
+techniques:
+- boiling
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: water, unit: l, qty: 0.25}
+  - {ingredient: egg, qty: 2}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 1}
+  - {ingredient: butter, unit: cup, qty: 0.25}
+  - {ingredient: cheese, unit: g, qty: 120}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: onion, qty: 1, prep: cut into rings, note: big}
+  - {ingredient: chives, unit: bunch, qty: 1, prep: finely chopped}
+steps:
+- Mix flour, eggs, water, and salt carefully to get a dough; it should neither be stiff nor too soft.
+- Pass the dough through a special press for dumplings into boiling, salted water.
+- Boil the small dumplings for about 3 minutes, then drain and rinse them with cold water.
+- Melt the butter in a pan, add the dumplings, and season them with salt and pepper.
+- Gradually add the grated cheese and stir vigorously.
+- When all of the cheese has melted, heat butter in another pan, add the onion rings, and fry them until they become golden brown.
+- Top the dumplings with the onion rings and chives.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKasnocken_%28Austrian_Cheese_Dumplings%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kasnocken (Austrian Cheese Dumplings)@4511373
+    url: https://en.wikibooks.org/w/index.php?oldid=4511373
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

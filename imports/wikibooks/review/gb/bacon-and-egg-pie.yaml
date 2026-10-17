@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 225 g shortcrust pastry
+#  - unmapped ingredient: 1 pinch mixed herbs
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: gb-bacon-and-egg-pie
+title: Bacon and Egg Pie
+summary: Bacon and Egg Pie.
+origin:
+  country: GB
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: bacon, unit: g, qty: 225, prep: rinds removed and chopped}
+  - {ingredient: egg, qty: 3}
+  - {ingredient: salt}
+  - {ingredient: black-pepper}
+  - {ingredient: milk}
+steps:
+- Preheat the oven to 190°C (370°F or gas mark 5)
+- Divide the pastry into two equal portions, roll it out, and line a 20 cm (8-inch) oven-proof dish with one portion.
+- Combine the bacon and eggs, then mix in any seasoning or herbs.
+- Pour the egg mixture into the lined dish. Moisten the edge of the pastry then cover the dish with the second portion of rolled-out pastry.
+- Seal the edges. Make a small hole in the centre to allow steam to escape. If desired, the pastry can be brushed with a beaten egg or milk to improve the browning.
+- Bake for about 35–40 minutes in the preheated oven.
+tips:
+- The bacon can be fried or grilled if desired.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABacon_and_Egg_Pie&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bacon and Egg Pie@4523288
+    url: https://en.wikibooks.org/w/index.php?oldid=4523288
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

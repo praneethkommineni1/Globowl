@@ -1,0 +1,59 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 2 Pillsbury pie crusts
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: us-pork-pot-pie
+title: Pork Pot Pie
+summary: Pork Pot Pie.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- baking
+ingredient_groups:
+- items:
+  - {ingredient: margarine, unit: cup, qty: 0.333}
+  - {ingredient: onion, unit: cup, qty: 0.333, prep: chopped}
+  - {ingredient: all-purpose-flour, unit: cup, qty: 0.333}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tsp, qty: 0.25}
+  - {ingredient: chicken-stock, unit: cup, qty: 1.5}
+  - {ingredient: milk, unit: cup, qty: 0.667}
+  - {ingredient: pork, unit: cup, qty: 3, prep: cooked}
+  - {ingredient: corn-kernels, unit: cup, qty: 1, prep: thawed}
+  - {ingredient: green-peas, unit: cup, qty: 1, prep: thawed}
+steps:
+- Heat oven to 425°F.
+- Prepare pie crusts as directed on package for two-crust pie using 9-inch pie pan.
+- In a medium saucepan, melt margarine over medium heat.
+- Add onion; cook 2 minutes or until tender.
+- Stir in flour, salt, and pepper until well-blended.
+- Gradually stir in broth and milk; cook, stirring constantly, until bubbly and thickened.
+- Add pork, corn, and peas; remove from heat.
+- Spoon pork mixture into crust-lined pan.
+- Top with second crust and flute; cut three slits on top.
+- Bake for 30–40 minutes or until crust is golden-brown.
+- Let stand 5 minutes before serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APork_Pot_Pie&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pork Pot Pie@4522449
+    url: https://en.wikibooks.org/w/index.php?oldid=4522449
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

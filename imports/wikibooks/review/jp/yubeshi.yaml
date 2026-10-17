@@ -1,0 +1,53 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: jp-yubeshi
+title: Yubeshi
+alternate_names:
+- Japanese Walnut Mochi Confection
+summary: Yubeshi.
+origin:
+  country: JP
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: cornstarch, prep: as needed}
+  - {ingredient: sugar, unit: g, qty: 80}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 0.5}
+  - {ingredient: water, unit: ml, qty: 200}
+  - {ingredient: rice-flour, unit: g, qty: 120}
+  - {ingredient: walnuts, unit: g, qty: 50, prep: coarsely chopped}
+steps:
+- Generously dust a cookie sheet with cornstarch.
+- Combine the sugar, soy sauce, and water in a saucepan. Simmer until the sugar fully dissolves, stirring so as not to burn.
+- Add the rice flour, and stir well to form a cohesive dough.
+- Transfer the dough to a microwave-safe container. Heat it in the microwave for 30–40 seconds, then take it out and mix well. Repeat this process until it is thoroughly brown.
+- Mix the walnuts into the dough.
+- Pat the dough evenly onto the prepared cookie sheet in a layer about 5 cm (2 in) thick. If it's too hot, let it cool a bit first.
+- Dust the top of the dough with additional starch. Let cool fully.
+- Cut the confection into pieces.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AYubeshi_%28Japanese_Walnut_Mochi_Confection%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Yubeshi (Japanese Walnut Mochi Confection)@4517505
+    url: https://en.wikibooks.org/w/index.php?oldid=4517505
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

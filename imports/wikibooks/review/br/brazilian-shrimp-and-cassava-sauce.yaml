@@ -1,0 +1,63 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: br-brazilian-shrimp-and-cassava-sauce
+title: Brazilian Shrimp and Cassava Sauce
+alternate_names:
+- Bobó de Camarao
+summary: Brazilian Shrimp and Cassava Sauce.
+origin:
+  country: BR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: shrimp, unit: g, qty: 1361, note: medium}
+  - {ingredient: cassava, unit: g, qty: 1361}
+  - {ingredient: onion, unit: cup, qty: 2, prep: chopped}
+  - {ingredient: garlic, unit: clove, qty: 3, prep: chopped}
+  - {ingredient: olive-oil, unit: cup, qty: 0.5}
+  - {ingredient: tomato, qty: 6, prep: peeled and seeded, note: medium}
+  - {ingredient: cilantro, unit: cup, qty: 0.25, prep: chopped}
+  - {ingredient: coconut-milk, unit: cup, qty: 2}
+  - {ingredient: red-palm-oil, unit: cup, qty: 0.25}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: black-pepper, note: to taste}
+steps:
+- Peel and cut the manioc and put in a pan with cold water and salt.
+- Cook until tender, drain and reserve both the cooked manioc and the liquid.
+- Discard any manioc fiber.
+- Using a fork, mash the manioc while still hot. Use some of the liquid to help in the process. Do not use a blender or food processor.
+- Peel and de-vein the shrimp.
+- Sauté the onion and garlic in the olive oil until wilted.
+- Add ½ of the chopped cilantro and the tomatoes, stirring well.
+- Add the shrimp, and cook it for about 15 minutes.
+- Add the puréed manioc. Check the amount of liquid and add more of the reserved manioc liquid to thin the mixture, if necessary.
+- Add the coconut milk, the remaining cilantro and the palm oil.
+- Check for salt and pepper.
+- Serve over Brazilian white rice.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABrazilian_Shrimp_and_Cassava_Sauce_%28Bob%C3%B3_de_Camarao%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Brazilian Shrimp and Cassava Sauce (Bobó de Camarao)@4630392
+    url: https://en.wikibooks.org/w/index.php?oldid=4630392
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

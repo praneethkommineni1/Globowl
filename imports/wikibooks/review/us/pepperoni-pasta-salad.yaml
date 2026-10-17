@@ -1,0 +1,41 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 1/2 cup Italian dressing
+#  - unmapped ingredient: 4 ounces sliced pepperoni
+#  - course unknown from categories
+id: us-pepperoni-pasta-salad
+title: Pepperoni Pasta Salad
+summary: Pepperoni Pasta Salad.
+origin:
+  country: US
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 30
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: orzo, unit: g, qty: 170, prep: cooked and well drained}
+  - {ingredient: mozzarella, unit: g, qty: 113}
+  - {ingredient: tomato, qty: 2}
+steps:
+- Combine all of the ingredients in a large bowl and toss well to combine.
+- Serve warm or chill before serving.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APepperoni_Pasta_Salad&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Pepperoni Pasta Salad@4605251
+    url: https://en.wikibooks.org/w/index.php?oldid=4605251
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,69 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - unmapped ingredient: 3 cups ewedu leaves
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-ewedu-soup
+title: Ewedu Soup
+alternate_names:
+- Yoruba Style
+summary: __notoc__ Ewedu soup is a traditional Yoruba soup made from the leaves of the jute plant, which gives it a slippery, mucilaginous texture. It is a beloved dish in Nigeria, often served with fufu, pounded yam, or amala.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 1
+difficulty: 2
+equipment:
+- Knife
+- Pot or saucepan
+- Spoon or stirrer
+- Blender (if using fresh peppers)
+- Mortar and pestle (if grinding crayfish yourself)
+techniques:
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: beef, qty: [2, 3], prep: 'goat meat, or fish'}
+  - {ingredient: onion, qty: 1, prep: chopped, note: medium}
+  - {ingredient: bouillon-cube, qty: [2, 3]}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: water}
+  - {ingredient: red-bell-pepper, qty: [1, 2], optional: true}
+  - {ingredient: black-pepper, unit: tbsp, qty: [1, 2]}
+  - {ingredient: red-palm-oil, unit: tbsp, qty: 2}
+  - {ingredient: ground-crayfish, unit: tbsp, qty: 1, optional: true}
+steps:
+- Combine the meat, onion, stock cube, and salt in a pot. Cover with water, and simmer until tender to your taste—for tough meat, this will take longer.
+- Wash the ewedu leaves thoroughly if fresh. If using dried ewedu, soak it in warm water for 30 minutes until it softens.
+- In a second pot, add the washed ewedu leaves and a little water. Cook over medium heat, stirring occasionally. It will begin to produce a slimy texture as it cooks.
+- Blend the red bell peppers and ground pepper until you get a smooth purée. Add the blended pepper to the pot of cooking ewedu.
+- Stir in the ground crayfish, palm oil, and any additional seasoning (stock cubes, salt, and pepper) to taste.
+- Continue cooking for another 5–10 minutes, stirring frequently until the soup thickens and becomes smooth.
+- Serve the ewedu soup hot, paired with your choice of fufu, pounded yam, or amala.
+tips:
+- The slippery texture of ewedu is its most distinct characteristic. If you want a thicker texture, use more leaves.
+- You can substitute ground okra or ground melon seeds (egusi) for additional thickness if needed.
+- The soup can be made vegetarian by omitting the meat and using only fish or plant-based proteins like tofu.
+- Adjust the spice level by adding more or less fresh pepper.
+- Ewedu soup can be stored in the fridge for up to 3 days and reheated for later meals.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AEwedu_Soup_%28Yoruba_Style%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ewedu Soup (Yoruba Style)@4611996
+    url: https://en.wikibooks.org/w/index.php?oldid=4611996
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

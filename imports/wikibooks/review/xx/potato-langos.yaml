@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: xx-potato-langos
+title: Potato Lángos
+summary: Potato Lángos.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- dough-making
+- pan-frying
+ingredient_groups:
+- items:
+  - {ingredient: potato, qty: 2, prep: peeled, note: large}
+  - {ingredient: yeast}
+  - {ingredient: all-purpose-flour, unit: g, qty: 1134}
+  - {ingredient: salt}
+  - {ingredient: caraway-seeds}
+  - {ingredient: vegetable-oil}
+  - {ingredient: garlic, optional: true}
+  - {ingredient: jam, optional: true}
+steps:
+- Cook potatoes until soft. Mash them fine and let them cool.
+- Mix fresh yeast with warm water and set aside.
+- In a deep dish mix together flour, mashed potatoes, salt, and a generous amount of caraway seeds.
+- Make a well in the middle and add the yeast mixture slowly. Start kneading, adding lukewarm water and flour as needed. The texture of the dough should be soft yet resilient.
+- Knead until dough does not stick to knuckles, about 20–25 minutes.
+- Generously flour bottom of a deep dish, place dough on top and sprinkle it with flour. Cover with a clean cloth, then let rise overnight in a warm place.
+- The next morning, turn dough onto a floured board, knead it gently, and flatten it with a rolling pin to about ¼ inch thick. Let it rest.
+- Cut the dough into squares, and with the tip of a knife, make 2–3 small incisions in each, nicking the surface only and not cutting through the dough. Let it rest again.
+- Heat the oil in a pan, and carefully place the squares in it. They will start puffing up instantly. Fry until golden brown and then turn to the other side.
+- Serve hot, rubbed with fresh garlic cloves, jam, or freshly-sprinkled salt.
+tips:
+- You can use potato flour instead of mashed potatoes. In this case, you will need to add more water to the dough.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APotato_L%C3%A1ngos&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Potato Lángos@4517761
+    url: https://en.wikibooks.org/w/index.php?oldid=4517761
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

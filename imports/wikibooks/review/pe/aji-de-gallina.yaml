@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 3 hot yellow South American chilis: Adjust quantity for individual taste.
+#  - unmapped ingredient: 110 g of chopped pecans
+#  - course unknown from categories
+id: pe-aji-de-gallina
+title: Ají de Gallina
+alternate_names:
+- Peruvian Chili Chicken
+summary: (Spanish for chili pepper chicken) is a traditional Peruvian dish which has its roots in the social upheaval of the French Revolution in 1789. Chefs working for wealthy families lost their jobs after French aristocrats were imprisoned and executed.
+origin:
+  country: PE
+course: main
+authenticity: unassessed
+yield:
+  servings: 8
+time:
+  total_min: 45
+difficulty: 2
+techniques:
+- boiling
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: chicken, unit: g, qty: 1300}
+  - {ingredient: olive-oil, unit: ml, qty: 120}
+  - {ingredient: onion, qty: 1, note: large}
+  - {ingredient: garlic, unit: clove, qty: 8}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: chicken-stock, qty: 1}
+  - {ingredient: white-bread, qty: 0.25}
+  - {ingredient: parmesan, unit: g, qty: 110}
+  - {ingredient: evaporated-milk, unit: can, qty: 1}
+  - {ingredient: long-grain-rice, unit: kg, qty: 1.6}
+  - {ingredient: egg, qty: 4}
+  - {ingredient: potato, qty: 6}
+  - {ingredient: olives, unit: g, qty: 120}
+steps:
+- Boil chicken in salted water together with the stock cube. Remove bones and break into bite size pieces, keeping the resulting chicken stock.
+- In a saucepan, heat oil and sauté the onion, garlic, and finely chopped chili peppers and add salt and pepper. Fry this until the onions are cooked and golden.
+- Soak the bread in two cups of the stock from the boiled chicken and place in a blender for a couple of minutes and then add the resulting liquid to the saucepan.
+- Cook slowly for ten minutes. Cook slowly, stirring to thicken.
+- 'While the Ají de Gallina is cooking slowly, boil the rice: first fry the garlic for a couple of seconds, then add the rice and the salt, then add the water. When the water starts to boil, let the rice cook in a closed pot very slowly for about 20 minutes or until the water has completely evaporated (hint: to cook "peruvian" rice: cook a cup of rice in two cups of water).'
+- 'Back to the Ají de Gallina: add the chopped pecans, grated cheese, and chicken pieces. Cook until it has a thick creamy texture. About five minutes before serving, add the evaporated milk and continue cooking on low heat.'
+- Serve over the boiled rice and garnish with halved potatoes, eggs quartered lengthwise, and olives.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AAj%C3%AD_de_Gallina_%28Peruvian_Chili_Chicken%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Ají de Gallina (Peruvian Chili Chicken)@4673506
+    url: https://en.wikibooks.org/w/index.php?oldid=4673506
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

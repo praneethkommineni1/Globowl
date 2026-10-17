@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+#  - course unknown from categories
+id: ng-nigerian-jollof-rice
+title: Nigerian Jollof Rice
+summary: Nigerian jollof rice is a dish of rice cooked with peppers, onions, and tomatoes, which gives the rice a red-orange color.
+origin:
+  country: NG
+course: main
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 1
+difficulty: 2
+techniques:
+- boiling
+- deep-frying
+ingredient_groups:
+- items:
+  - {ingredient: tomato, qty: 5, note: large}
+  - {ingredient: red-bell-pepper, qty: 4, note: large}
+  - {ingredient: red-chili, qty: 4, note: large}
+  - {ingredient: onion, qty: 2, note: large}
+  - {ingredient: beef, qty: [5, 10]}
+  - {ingredient: vegetable-oil, unit: ml, qty: 300}
+  - {ingredient: onion, qty: 1, prep: diced, note: medium}
+  - {ingredient: tomato-paste, unit: g, qty: 150}
+  - {ingredient: bouillon-cube, qty: [2, 4]}
+  - {ingredient: bay-leaf, qty: 4}
+  - {ingredient: curry-powder, unit: tsp, qty: 0.5}
+  - {ingredient: thyme, unit: tsp, qty: 0.333}
+  - {ingredient: ground-cinnamon}
+  - {ingredient: ginger}
+  - {ingredient: garlic}
+  - {ingredient: ground-crayfish}
+  - {ingredient: long-grain-rice, unit: g, qty: 500}
+  - {ingredient: salt, note: to taste}
+steps:
+- Blend together the tomatoes, peppers, and the 2 large onions and set aside.
+- Boil, then deep-fry the meat. Set aside.
+- Put a 2-liter pot on the fire and allow any residual water in it to dry. Add the groundnut oil and let it heat up.
+- Add the diced onion and tomato purée. Stir constantly for 3–5 minutes then add the blended pepper mixture.
+- Add about 200 ml of the reserved meat stock, stock cubes, bay leaves, curry powder, thyme, cinnamon, ginger, garlic, and crayfish. Stir for about 10 minutes.
+- Add about 1.2 liters of water and allow to boil.
+- While waiting for the mixture to boil, wash the rice about 3–4 times or until the water is clear, then drain in a sieve.
+- When the pot boils, add the rice and season with salt. Use a wooden spatula to mix everything until you are sure that the rice is not just resting on one spot. Depending on the rice, you may need to add a little more water but remember to stir constantly with the wooden spatula in order to minimize the rice sticking to the bottom of the pot.
+- When you have attained your desired texture for the rice, reduce the heat to allow any residual water to be absorbed.
+- Serve and garnish with the fried beef/chicken.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANigerian_Jollof_Rice&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nigerian Jollof Rice@4514107
+    url: https://en.wikibooks.org/w/index.php?oldid=4514107
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

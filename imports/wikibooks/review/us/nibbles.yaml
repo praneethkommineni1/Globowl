@@ -1,0 +1,61 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 2 boxes rice Chex cereal
+#  - unmapped ingredient: 1 box wheat Chex cereal
+#  - unmapped ingredient: 2/3 box Cheerios
+#  - unmapped ingredient: 1 bag thin pretzels
+#  - unmapped ingredient: 1 lb pecans
+#  - unmapped ingredient: Heaping 1/2 teaspoon Accent seasoning
+id: us-nibbles
+title: Nibbles
+summary: This party food, or just anytime snack recipe originated in Rocky Mount, North Carolina.
+origin:
+  country: US
+course: starter
+authenticity: unassessed
+yield:
+  servings: 20
+time:
+  total_min: 120
+difficulty: 2
+techniques:
+- baking
+ingredient_groups:
+- name: Dry ingredients
+  items:
+  - {ingredient: roasted-peanuts, unit: g, qty: 454}
+  - {ingredient: cashews, unit: can, qty: 1}
+  - {ingredient: salt, note: to taste}
+- name: Sauce
+  items:
+  - {ingredient: margarine, qty: 3}
+  - {ingredient: bacon, note: heaping}
+  - {ingredient: garlic, unit: tbsp, qty: [1.75, 2]}
+  - {ingredient: worcestershire-sauce, unit: tbsp, qty: 2}
+  - {ingredient: peanut-butter, qty: 2, note: heaping}
+steps:
+- Melt and combine the sauce ingredients.
+- Combine all dry ingredients except salt in a large canning pot.
+- Sprinkle a little of the sauce mixture over dry ingredients, and shake well. Repeat until sauce is gone.
+- Salt the mixture by sprinkling and shaking in the same way.
+- Bake 1½–2 hours at 200 °F (95 °C) in covered canning pot.
+- Remove frequently to shake.
+tips:
+- Put the sauce in a canning jar, and punch several holes in the lid. Sprinkle by turning the jar upside down.
+- It took up to seven times of sprinkling and shaking to salt the mixture.
+- It is possible to substitute some vegetable oil for the bacon grease, but the result is less authentic.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ANibbles&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Nibbles@4524825
+    url: https://en.wikibooks.org/w/index.php?oldid=4524825
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

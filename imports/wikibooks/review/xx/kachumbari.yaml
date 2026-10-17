@@ -1,0 +1,52 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - course unknown from categories
+id: xx-kachumbari
+title: Kachumbari
+summary: Kachumbari is a fresh East African salad made from tomatoes, onions, and chile peppers, often served as a side dish with grilled meats, rice dishes, bread, or stews.
+origin:
+  country: XX
+course: main
+authenticity: unassessed
+yield:
+  servings: 4
+time:
+  total_min: 15
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: tomato, qty: 4, prep: diced, note: large}
+  - {ingredient: onion, qty: 1, prep: thinly sliced, note: large}
+  - {ingredient: cucumber, qty: 1, prep: peeled and diced, optional: true}
+  - {ingredient: red-chili, qty: [1, 2], prep: finely chopped, optional: true}
+  - {ingredient: cilantro, unit: tbsp, qty: 2}
+  - {ingredient: lemon}
+  - {ingredient: salt, unit: tbsp, qty: 0.5}
+  - {ingredient: black-pepper, unit: tbsp, qty: 0.25, optional: true}
+steps:
+- Gently toss together all the ingredients in a mixing bowl until well-distributed.
+- Allow the salad to rest for 5–10 minutes.
+- Taste the salad and adjust the seasoning as needed.
+- Serve fresh.
+tips:
+- If desired, additional ingredients such as avocado, mango, or bell pepper can be added.
+- The quantity of chiles can be adjusted to taste, depending on spice preference. Fresh lemon or lime juice gives a brighter flavor than bottled juice.
+- Select tomatoes that are fully ripe but still firm.
+- To reduce the sharp flavor of the onions, try soaking them for a few minutes in cold water before draining and incorporating them into the salad.
+- Prepare kachumbari shortly before serving to keep it fresh and crisp. Do not refrigerate for long periods, as the tomatoes may become watery.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AKachumbari&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Kachumbari@4640040
+    url: https://en.wikibooks.org/w/index.php?oldid=4640040
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

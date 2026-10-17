@@ -1,0 +1,54 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no country: cuisine category not mapped
+#  - no usable introduction for the summary
+id: xx-vegetable-salad
+title: Vegetable Salad
+summary: Vegetable Salad.
+origin:
+  country: XX
+course: salad
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 60
+difficulty: 2
+ingredient_groups:
+- name: Salad
+  items:
+  - {ingredient: bean-sprouts, unit: g, qty: 300, prep: washed in hot water}
+  - {ingredient: lettuce, qty: 6, prep: washed and cut into 6 pieces}
+  - {ingredient: onion, qty: 1, prep: cut into rings, note: big}
+  - {ingredient: tomato, qty: 3, prep: diced into 1 cm pieces}
+  - {ingredient: white-cabbage, unit: g, qty: 250, prep: diced}
+  - {ingredient: cucumber, qty: 6, prep: peeled and sliced 1 cm thick}
+  - {ingredient: egg, qty: 4, prep: each cut into 4 pieces}
+- name: Dressing
+  items:
+  - {ingredient: mayonnaise, unit: tbsp, qty: 8}
+  - {ingredient: mustard-seeds, unit: tbsp, qty: 3}
+  - {ingredient: canned-tomatoes, unit: tbsp, qty: 3.5}
+  - {ingredient: sugar, unit: tbsp, qty: 1}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+steps:
+- Mix all the vegetables ingredients on a bowl, and allow to rest for until 5 minutes.
+- Mix all the sauce ingredients with spoon.
+- Place the sauce, reserving 2 tbsp, into the vegetable mixture, and then mix again.
+- Top with egg quarters, then top eggs with reserved sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AVegetable_Salad&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Vegetable Salad@4613376
+    url: https://en.wikibooks.org/w/index.php?oldid=4613376
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

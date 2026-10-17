@@ -1,0 +1,50 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 10 g chilli powder
+id: in-curry-fried-rice
+title: Curry Fried Rice
+summary: Curry Fried Rice.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 40
+difficulty: 2
+ingredient_groups:
+- items:
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 3}
+  - {ingredient: sesame-oil, unit: tbsp, qty: 2}
+  - {ingredient: garlic, unit: clove, qty: 2, prep: crushed and minced}
+  - {ingredient: scallion, qty: 2, prep: cut into 2 cm pieces}
+  - {ingredient: beef, unit: g, qty: 200}
+  - {ingredient: bean-sprouts, unit: g, qty: 100, prep: soaked in hot water}
+  - {ingredient: chicken, unit: g, qty: 200, prep: diced}
+  - {ingredient: long-grain-rice, unit: cup, qty: 1, prep: cooked}
+  - {ingredient: curry-powder, unit: g, qty: 20}
+  - {ingredient: soy-sauce, unit: tbsp, qty: 2}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+steps:
+- Heat the oils in a non-stick frying pan. Add the garlic and scallion, and fry until fragrant.
+- Add sukiyaki beef and chicken. Cook, stirring, for 1 minute until golden brown.
+- Add bean sprouts, basmati rice, chilli powder and curry powder.
+- Add soy sauce, salt, and pepper. Stir until well-mixed.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ACurry_Fried_Rice&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Curry Fried Rice@4517682
+    url: https://en.wikibooks.org/w/index.php?oldid=4517682
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,74 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: Finely sliced white onion
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: vn-pho-bo
+title: Phở Bò
+alternate_names:
+- Vietnamese Beef Noodle Soup
+summary: Along with phở gà, phở bò (Vietnamese beef noodle soup) could easily be called Vietnam's national dish.
+origin:
+  country: VN
+course: condiment
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+- simmering
+ingredient_groups:
+- name: Broth
+  items:
+  - {ingredient: onion, qty: 2, prep: cut into quarters, note: large}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 1}
+  - {ingredient: beef, unit: g, qty: 2268}
+  - {ingredient: ginger, qty: 1, prep: chopped, note: small}
+  - {ingredient: cinnamon-stick, qty: 1, note: small}
+  - {ingredient: green-cardamom-pods, qty: 2}
+  - {ingredient: whole-cloves, qty: 4}
+  - {ingredient: star-anise, qty: 1}
+  - {ingredient: black-pepper, unit: tbsp, qty: 1}
+- name: Serving
+  items:
+  - {ingredient: noodles, prep: soaked in hot water until soft and drained}
+  - {ingredient: scallion}
+  - {ingredient: cilantro}
+  - {ingredient: beef}
+- name: Condiments
+  items:
+  - {ingredient: red-chili}
+  - {ingredient: bean-sprouts}
+  - {ingredient: lime, prep: cut into wedges}
+  - {ingredient: basil}
+  - {ingredient: fish-sauce}
+  - {ingredient: hot-sauce}
+  - {ingredient: hoisin-sauce}
+  - {ingredient: black-pepper}
+steps:
+- Fry onions in oil until lightly browned. Remove and drain.
+- Rinse the beef bones, place in a stockpot, cover with cold water, and bring slowly to a boil. Reduce heat and simmer, uncovered, for 10–15 minutes. For a clear broth skim off foam.
+- After this initial cooking, add cooked onions, ginger, cinnamon, cardamom, star anise, cloves, garlic and peppercorns. Bring to a boil again and gently simmer the stock, partially covered, for a minimum of 6 hours but up to 12 hours if you can, skimming regularly. If necessary, add more water to keep the bones covered.
+- Strain stock to remove the vegetable and spices and discard them. Return the broth to the stove to keep it boiling hot.
+- In a large soup bowl, place a handful of cooked phở noodles, top with thinly sliced raw beef, and ladle on generous amounts of very hot broth, which will cook the raw beef. Garnish with sliced onions, scallions and coriander, and serve immediately.
+tips:
+- Traditionally, the Vietnamese prefer fatty meat in their soup. Some other serving ingredients include beef tendon, beef shank, beef tripe and meatballs.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APh%E1%BB%9F_B%C3%B2_%28Vietnamese_Beef_Noodle_Soup%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Phở Bò (Vietnamese Beef Noodle Soup)@4518483
+    url: https://en.wikibooks.org/w/index.php?oldid=4518483
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

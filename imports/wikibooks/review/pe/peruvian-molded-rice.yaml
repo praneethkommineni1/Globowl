@@ -1,0 +1,60 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - course unknown from categories
+id: pe-peruvian-molded-rice
+title: Peruvian Molded Rice
+alternate_names:
+- Arroz Tapado
+summary: Arroz tapado (Spanish for molded rice) is very popular in Peru and is a favorite among children because the recipe calls for molding rice and minced beef into a shape.
+origin:
+  country: PE
+course: main
+authenticity: unassessed
+yield:
+  servings: 6
+time:
+  total_min: 45
+difficulty: 2
+techniques:
+- boiling
+- sauteing
+ingredient_groups:
+- items:
+  - {ingredient: garlic, unit: clove, qty: 3, prep: minced}
+  - {ingredient: olive-oil, unit: tbsp, qty: 2}
+  - {ingredient: lemon-juice}
+  - {ingredient: salt}
+  - {ingredient: water, unit: cup, qty: 4}
+  - {ingredient: long-grain-rice, unit: g, qty: 454}
+  - {ingredient: onion, qty: 1, prep: finely chopped}
+  - {ingredient: beef-mince, unit: g, qty: 907}
+  - {ingredient: tomato, qty: 2, prep: finely chopped}
+  - {ingredient: tomato-paste, unit: tbsp, qty: 1}
+  - {ingredient: raisins, unit: tbsp, qty: 4}
+  - {ingredient: olives, qty: 5, prep: chopped}
+  - {ingredient: egg, qty: 3, prep: 1 whole}
+  - {ingredient: parsley, unit: tbsp, qty: 1, prep: finely minced}
+steps:
+- Sauté the garlic in oil, add a few drops of lemon juice, salt and the water, and bring to a boil.
+- Add rice and cook until tender. This should take 20–25 minutes.
+- In another pan, stir in onions and sauté.
+- Add meat, tomatoes, tomato paste, raisins, olives, egg and parsley.
+- Take an 8-ounce measuring cup and coat the inside with a little oil. Fill halfway with rice, add some meat filling and add more rice to top of cup. Invert onto a plate and carefully remove cup.
+- Cut the remaining hard-boiled egg in half and serve the two halves along side the arroz tapado on the same plate.
+tips:
+- Use only the egg whites from the hard boiled egg and mince a low-fat cut of beef to reduce the fat at cholesterol in this dish.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3APeruvian_Molded_Rice_%28Arroz_Tapado%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Peruvian Molded Rice (Arroz Tapado)@4512977
+    url: https://en.wikibooks.org/w/index.php?oldid=4512977
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

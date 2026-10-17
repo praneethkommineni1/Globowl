@@ -1,0 +1,51 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no time in recipe summary
+#  - no difficulty in recipe summary
+#  - course unknown from categories
+id: id-tahu-gejrot
+title: Tahu Gejrot
+summary: Tahu gejrot is a traditional dish from Cirebon, West Java, Indonesia. The dish is made from the main ingredient of fried Sumedang tofu or tofu pong, drizzled with a sweet and sour sauce and crushed chili peppers.
+origin:
+  country: ID
+course: main
+authenticity: unassessed
+yield:
+  servings: 5
+time:
+  total_min: 1
+difficulty: 1
+techniques:
+- boiling
+ingredient_groups:
+- items:
+  - {ingredient: red-chili, qty: 12}
+  - {ingredient: garlic, unit: clove, qty: 3}
+  - {ingredient: shallot, qty: 4}
+  - {ingredient: palm-sugar, unit: g, qty: 100, prep: thinly sliced}
+  - {ingredient: tamarind-paste, qty: 3}
+  - {ingredient: water, unit: ml, qty: 300}
+  - {ingredient: firm-tofu, qty: 15}
+  - {ingredient: kecap-manis, unit: tbsp, qty: 4}
+  - {ingredient: salt, note: to taste}
+steps:
+- Grind the chiles, garlic, and shallots together, then set aside.
+- Combine the palm sugar, tamarind, and water in a saucepan. Boil the mixture until all the ingredients dissolve and form a syrup.
+- Pour the syrup over the ground chile mixture. Mix well until evenly combined.
+- Cut the tofu diagonally, then press lightly until the center of the tofu is slightly crushed.
+- Arrange the tofu on a plate, then drizzle with the spicy and sweet sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ATahu_Gejrot&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Tahu Gejrot@4656173
+    url: https://en.wikibooks.org/w/index.php?oldid=4656173
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

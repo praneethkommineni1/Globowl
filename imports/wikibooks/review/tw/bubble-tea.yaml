@@ -1,0 +1,43 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1/2 cup cooked boba tapioca pearls
+#  - unmapped ingredient: 1 cup crushed ice
+id: tw-bubble-tea
+title: Bubble Tea
+summary: Bubble tea is a tea beverage with black tapioca pearls mixed in.
+origin:
+  country: TW
+course: drink
+authenticity: unassessed
+yield:
+  servings: 1
+  amount: 1–2
+time:
+  total_min: 30
+difficulty: 1
+ingredient_groups:
+- items:
+  - {ingredient: tea, unit: cup, qty: 1}
+  - {ingredient: milk, unit: cup, qty: 1, note: to taste}
+  - {ingredient: honey, note: to taste}
+steps:
+- Place pearls in a large glass.
+- Combine all remaining ingredients in a cocktail shaker. Shake vigorously until mixture is frothy.
+- Pour into glass and serve with large-diameter straws.
+tips:
+- If you don't want the drink to be frothy, simply stir the ingredients together instead of shaking.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABubble_Tea&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bubble Tea@4523994
+    url: https://en.wikibooks.org/w/index.php?oldid=4523994
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,51 @@
+id: in-indian-hard-tack
+title: Indian Hard Tack
+alternate_names:
+- Baati
+summary: Baati is a hard, unleavened bread cooked in desert areas of Rajasthan, Malwa, and Gujarat in North India. It is prized there for its exceptionally long life and high energy content, as well as the minimal quantity of water required in its preparation.
+origin:
+  country: IN
+course: bread
+authenticity: unassessed
+yield:
+  servings: 4
+  amount: 4–6
+time:
+  total_min: 20
+difficulty: 2
+techniques:
+- dough-making
+ingredient_groups:
+- items:
+  - {ingredient: all-purpose-flour, unit: g, qty: 454}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: vegetable-oil, unit: tbsp, qty: 3}
+  - {ingredient: water}
+  - {ingredient: ghee, unit: tsp, qty: 1.5}
+steps:
+- Mix the flour and salt.
+- Put about 1 cup of flour mixture in a small bowl and add a little oil, mixing it in well and breaking up any lumps.
+- Add water about 1 tablespoon at a time and keep kneading with your hands. You only need 3–4 tablespoons, but you must knead the dough very hard to make it stick together in a ball. The more compact the dough, the better and denser the baati will be.
+- Let the balls sit for 5 minutes.
+- Flatten out each ball with first your hands and then a rolling pin until they are smooth discs 4 inches (10 cm) across and ½ inch (1.25 cm) thick.
+- Cook in a dry metal pan on a low flame. Flip once when the bottom begins to harden, then pinch all over with two fingers so the dough is not too thick and has a bumpy texture on one side.
+- Check the bottom until it browns in spots, then remove the baati and place it upside-down on a grate or pan with holes in it. This will blacken the top a little, especially on the tops of the pinched bumps.
+- To serve, drizzle liberally with ghee and accompany with a dhal or vegetable.
+tips:
+- Sprinkle powdered sugar on after the ghee for a sweet snack.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AIndian_Hard_Tack_%28Baati%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Indian Hard Tack (Baati)@4523442
+    url: https://en.wikibooks.org/w/index.php?oldid=4523442
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,65 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - no usable introduction for the summary
+#  - unmapped ingredient: 16 large frog legs
+#  - unmapped ingredient: Fat, for deep frying
+#  - no servings in recipe summary
+#  - no time in recipe summary
+#  - course unknown from categories
+id: fr-frog-s-legs-a-la-parisienne
+title: Frog's Legs à la Parisienne
+summary: Frog's Legs à la Parisienne.
+origin:
+  country: FR
+course: main
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+techniques:
+- blanching
+ingredient_groups:
+- name: Onion cream sauce
+  items:
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: all-purpose-flour, unit: tbsp, qty: 2}
+  - {ingredient: heavy-cream, unit: cup, qty: 1.5}
+  - {ingredient: salt, unit: tsp, qty: 0.5}
+  - {ingredient: onion, unit: tbsp, qty: 2}
+  - {ingredient: parsley, unit: tbsp, qty: 1}
+  - {ingredient: egg, qty: 1, prep: well-beaten}
+- name: Cooking
+  items:
+  - {ingredient: water}
+  - {ingredient: lemon}
+  - {ingredient: salt, unit: pinch, qty: 1}
+  - {ingredient: egg, qty: 2, prep: well-beaten}
+  - {ingredient: breadcrumbs}
+steps:
+- Melt the butter in a saucepan over medium heat.
+- Stir flour into melted butter. Cook for a few minutes, stirring, until the mixture loses its floury taste. Do not let the mixture brown.
+- Gradually stir the cream into the flour mixture, taking care to prevent lumps. Cook, stirring, until mixture has thickened.
+- Mix in the salt, onion, and parsley.
+- Temper the beaten egg with some of the sauce, taking care not to curdle the egg. Stir this mixture back into the sauce.
+- Remove from heat and let cool slightly.
+- Blanch frog legs in boiling water with lemon juice and salt and pepper.
+- Drain legs and pat dry.
+- Dip legs into eggs and roll in bread crumbs. Deep fry at 370°F (190°C) for 2 to 3 minutes until legs are tender (check the temperature of the fat with a thermometer).
+- Serve with onion cream sauce.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AFrog%27s_Legs_%C3%A0_la_Parisienne&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Frog's Legs à la Parisienne@4513509
+    url: https://en.wikibooks.org/w/index.php?oldid=4513509
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

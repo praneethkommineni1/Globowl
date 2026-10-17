@@ -1,0 +1,74 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 4 cups water for boiling
+#  - course unknown from categories
+id: in-bhuna-khichuri
+title: Bhuna Khichuri
+alternate_names:
+- Bengali Rice and Lentils
+summary: Khichuri is a Bengali dish once considered comfort food for the poor but now a delicacy served warm in the monsoon rain.
+origin:
+  country: IN
+course: main
+authenticity: unassessed
+yield:
+  servings: 2
+time:
+  total_min: 50
+difficulty: 3
+techniques:
+- boiling
+- pan-frying
+- roasting
+- simmering
+ingredient_groups:
+- items:
+  - {ingredient: long-grain-rice, unit: cup, qty: 1}
+  - {ingredient: mung-beans, unit: cup, qty: 1}
+  - {ingredient: chickpeas-canned, unit: cup, qty: 0.5}
+  - {ingredient: green-peas, unit: cup, qty: 0.5, optional: true}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: ground-turmeric, unit: tsp, qty: 0.5}
+  - {ingredient: red-chili, qty: 2, prep: slit in the middle and optionally de-seeded}
+  - {ingredient: salt, note: to taste}
+  - {ingredient: bay-leaf, qty: 2}
+  - {ingredient: green-cardamom-pods, qty: 4}
+  - {ingredient: whole-cloves, qty: 4}
+  - {ingredient: cinnamon-stick, qty: 2}
+  - {ingredient: cumin-seeds, unit: tsp, qty: 0.25}
+  - {ingredient: ginger, qty: 2, prep: finely chopped}
+  - {ingredient: onion, qty: 1, prep: thinly sliced, note: medium}
+  - {ingredient: butter, unit: tbsp, qty: 2}
+  - {ingredient: cilantro, unit: bunch, qty: 1}
+steps:
+- Rinse rice, lentils, and chickpeas separately in cold water.
+- Dry rice in a colander or on a flat surface.
+- Leave lentils and chickpeas to soak in water for 30 minutes.
+- Drain lentils and chickpeas, then roast them briefly until they emit an aroma; set aside to cool.
+- Heat water in a kettle to use later. Keep warm but not boiling.
+- Semi-crush cardamom, cinnamon, and cloves.
+- Heat 2 tbsp butter in a heavy-based pan over medium heat. Add bay leaf and semi-crushed spices in; once they start to sputter, add sliced ginger and cumin. Stir for 1–2 minutes until ginger has a nutty aroma.
+- Add green chili and garden peas, and stir once or twice.
+- Add rice to the mixture and stir gently for 2–3 minutes, making sure the oil coats it thoroughly.
+- Add lentils, chickpeas and salt; stir again for 1–2 more minutes
+- Add hot water to the pan. The level of water should be about 1 inch above the mixture. Lower the heat slightly, cover, and simmer until done. Check regularly to make sure rice does not burn at the bottom. Rice and lentils are done when there is no hard part in rice, it is medium firm, each one is easily separable, but not very soft or sticky. This should take around 10 minutes.
+- While the rice is simmering, heat the remaining butter in a separate frying pan. Fry the onion on a medium heat until it starts to brown.
+- When rice mixture is done, top with onion and accompanying oil. Garnish with coriander.
+- Turn down the heat to the lowest and cover until served which should not take long.
+tips:
+- You may replace the butter with vegetable oil or omit it altogether. For an oil-free alternative dry toast the spices. Pour hot water over rice and lentil mix, then add onion, ginger and spices.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3ABhuna_Khichuri_%28Bengali_Rice_and_Lentils%29&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Bhuna Khichuri (Bengali Rice and Lentils)@4630283
+    url: https://en.wikibooks.org/w/index.php?oldid=4630283
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.

@@ -1,0 +1,67 @@
+# Import issues — fix these, then move the file to recipes/:
+#  - unmapped ingredient: 1 lb currants
+#  - unmapped ingredient: 1/2 lb finely-ground beef suet
+#  - unmapped ingredient: 1/2 lb candied citron
+#  - unmapped ingredient: Shortcrust pastry dough, homemade or store-bought
+#  - no servings in recipe summary
+#  - no time in recipe summary
+id: gb-mincemeat-tart
+title: Mincemeat Tart
+summary: Mincemeat is a spiced fruit preserve that does not in fact contain meat, although it may contain animal suet.
+origin:
+  country: GB
+course: dessert
+authenticity: unassessed
+yield:
+  servings: 1
+time:
+  total_min: 1
+difficulty: 3
+ingredient_groups:
+- name: Mincemeat
+  items:
+  - {ingredient: raisins, unit: g, qty: 454}
+  - {ingredient: lemon}
+  - {ingredient: orange, unit: g, qty: 227}
+  - {ingredient: sugar, unit: g, qty: 340}
+  - {ingredient: apple, unit: g, qty: 907, prep: peeled}
+  - {ingredient: nutmeg, unit: tsp, qty: 0.5}
+  - {ingredient: ground-cinnamon, unit: tsp, qty: 0.5}
+  - {ingredient: brandy, unit: cup, qty: 0.5}
+  - {ingredient: salt, unit: tbsp, qty: 1}
+- name: Assembly
+  items:
+  - {ingredient: milk}
+  - {ingredient: egg, optional: true}
+steps:
+- Wash and dry currants. Set aside.
+- Put citron, orange peel, lemon rind, raisins, apples, and suet through a meat grinder using the coarse grinder blade.
+- Mix in the currants, brandy, and spices.
+- Store in a tightly-covered plastic container in the refrigerator (do not freeze) for up to 1 year.
+- Let the pastry warm slightly to almost room temperature. Place on a floured cutting board and roll it out as necessary.
+- Use a doughnut cutter with the center removed or a 2½ inch round cookie cutter to cut out tart shells. Gently press into 1½-inch (4 cm) tart pans.
+- Fill shells with mincemeat and top with a 1-inch (2.5 cm) round piece of pastry cut with the doughnut hole cutter. For added decoration, cut or press a design into the 1 inch pastry round before placing in the center of the filled tart.
+- Lightly brush the pastry lids with milk, or a mixture of milk and beaten egg.
+- Bake at 425 °F (220 °C) for approximately 20 minutes or until pastry is lightly browned at the edges.
+- Allow to cool on a wire rack, and dust with icing sugar.
+tips:
+- If you don't want to make your own pastry, store-bought pie crust will work well.
+- Candied orange peel and citron can be found in most markets around Thanksgiving.
+- Suet is pure beef fat and can be obtained from a butcher (they will grind it on request.) Vegetarians can substitute a solid vegetable fat such as Pura vegetable suet.
+- People wanting a more alcoholic kick to their mince pie may also want to inject them with a little extra brandy.
+credit:
+  source_type: imported
+  contributors:
+  - name: Wikibooks contributors
+    role: written-by
+    url: https://en.wikibooks.org/w/index.php?title=Cookbook%3AMincemeat_Tart&action=history
+  dataset:
+    name: Wikibooks Cookbook
+    record_id: Cookbook:Mincemeat Tart@4523269
+    url: https://en.wikibooks.org/w/index.php?oldid=4523269
+    license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0
+  notes: Converted automatically into Globowl's structured format (ingredients mapped to the catalog, imperial weights converted to metric). Text adapted from the source revision.
+review:
+  status: draft
+  notes: Imported from Wikibooks; not yet reviewed or tested.
