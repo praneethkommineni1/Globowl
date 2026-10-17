@@ -237,6 +237,42 @@
    "khao niao"
   ]
  },
+ "orzo": {
+  "name": "orzo",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ],
+  "aliases": [
+   "risoni",
+   "lisan asfour"
+  ]
+ },
+ "pearl-barley": {
+  "name": "pearl barley",
+  "category": "grain",
+  "contains": [
+   "gluten"
+  ]
+ },
+ "dried-hominy": {
+  "name": "dried hominy",
+  "category": "grain",
+  "aliases": [
+   "maize for cachupa",
+   "pozole corn",
+   "samp"
+  ]
+ },
+ "glass-noodles": {
+  "name": "glass noodles",
+  "category": "grain",
+  "aliases": [
+   "mung bean vermicelli",
+   "cellophane noodles",
+   "bean thread"
+  ]
+ },
  "red-lentils": {
   "name": "red lentils",
   "category": "legume",
@@ -340,6 +376,15 @@
   "aliases": [
    "gungo peas",
    "gandules"
+  ]
+ },
+ "fava-beans-canned": {
+  "name": "canned fava beans",
+  "category": "legume",
+  "aliases": [
+   "ful",
+   "foul medames",
+   "broad beans"
   ]
  },
  "onion": {
@@ -607,6 +652,27 @@
  },
  "leek": {
   "name": "leek",
+  "category": "vegetable"
+ },
+ "okra": {
+  "name": "okra",
+  "category": "vegetable",
+  "aliases": [
+   "lady's fingers",
+   "bamia",
+   "gombo"
+  ]
+ },
+ "green-beans": {
+  "name": "green beans",
+  "category": "vegetable",
+  "aliases": [
+   "string beans",
+   "haricots verts"
+  ]
+ },
+ "spinach": {
+  "name": "spinach",
   "category": "vegetable"
  },
  "lemon": {
@@ -959,6 +1025,10 @@
   "name": "caraway seeds",
   "category": "spice"
  },
+ "sumac": {
+  "name": "sumac",
+  "category": "spice"
+ },
  "soy-sauce": {
   "name": "soy sauce",
   "category": "condiment",
@@ -1282,6 +1352,14 @@
   "contains": [
    "tree-nut"
   ]
+ },
+ "pine-nuts": {
+  "name": "pine nuts",
+  "category": "nut-seed",
+  "contains": [
+   "tree-nut"
+  ],
+  "note": "Botanically seeds but treated as tree nuts for allergen labelling."
  },
  "vegetable-oil": {
   "name": "vegetable oil",

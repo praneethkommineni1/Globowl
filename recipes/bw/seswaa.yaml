@@ -1,0 +1,36 @@
+id: bw-seswaa
+title: Seswaa
+native_name: {text: Seswaa, lang: tn}
+summary: Beef boiled slowly with just salt and onion until it falls apart, then pounded into tender shreds — Botswana's national dish.
+origin:
+  country: BW
+course: main
+dish_types: [boiled-meat]
+occasions: [Weddings, Funerals, Independence Day]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 10, cook_min: 180}
+difficulty: 1
+techniques: [simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: beef-shank, qty: 1.5, unit: kg, note: "on the bone; brisket or chuck also work"}
+      - {ingredient: onion, qty: 1, prep: "halved"}
+      - {ingredient: salt, qty: 2, unit: tsp}
+      - {ingredient: water, note: "enough to cover"}
+  - name: To serve
+    items:
+      - {ingredient: maize-flour, qty: 300, unit: g, note: "cooked into pap"}
+steps:
+  - text: Put the beef, onion and salt in a heavy pot, cover with water and simmer, topping up the water, until the meat falls off the bone.
+    timer_min: 180
+  - Remove the bones. Let most of the liquid evaporate.
+  - Pound and stir the meat with a wooden spoon until it breaks into fine, tender shreds coated in its own juices. Season.
+serving: With pap (stiff maize porridge) and morogo (wild spinach) or beans.
+culture: Traditionally cooked by men in three-legged iron pots and pounded with a wooden pestle at big gatherings.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

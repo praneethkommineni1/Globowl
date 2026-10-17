@@ -1,0 +1,41 @@
+id: er-tsebhi-zigni
+title: Tsebhi Zigni
+native_name: {text: ጸብሒ ዝግኒ, lang: ti, romanized: tsebhi zigni}
+summary: Tender beef in a deep, spicy berbere and onion sauce — Eritrea's most celebrated stew, eaten with injera.
+origin:
+  country: ER
+  also_claimed_by: [ET]
+course: main
+dish_types: [stew]
+authenticity: traditional
+yield: {servings: 5}
+time: {prep_min: 15, cook_min: 90}
+difficulty: 2
+techniques: [sauteing, stewing]
+ingredient_groups:
+  - items:
+      - {ingredient: red-onion, qty: 3, prep: "very finely chopped"}
+      - {ingredient: vegetable-oil, qty: 80, unit: ml, alt: [niter-kibbeh]}
+      - {ingredient: berbere, qty: 3, unit: tbsp}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "minced"}
+      - {ingredient: tomato-paste, qty: 2, unit: tbsp}
+      - {ingredient: tomato, qty: 2, prep: "finely chopped"}
+      - {ingredient: beef-chuck, qty: 800, unit: g, prep: "cut into 2 cm cubes"}
+      - {ingredient: water, qty: 400, unit: ml}
+      - {ingredient: ground-cardamom, qty: 1, unit: pinch}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - text: Cook the onions in a dry pot over medium heat, stirring, until soft and lightly coloured.
+    timer_min: 10
+  - Add the oil and berbere and cook, stirring and adding splashes of water, for 10 minutes until dark red and fragrant.
+  - Add the garlic, tomato paste and tomato and cook 5 minutes.
+  - text: Add the beef and water. Cover and simmer gently until the beef is tender and the sauce thick.
+    timer_min: 60
+  - Stir in the cardamom and season.
+serving: On injera, often with a hard-boiled egg added to the sauce for special occasions.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

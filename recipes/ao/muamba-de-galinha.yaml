@@ -1,0 +1,42 @@
+id: ao-muamba-de-galinha
+title: Muamba de Galinha
+native_name: {text: Muamba de galinha, lang: pt}
+summary: Chicken stewed in red palm oil with okra, squash, tomato and garlic — Angola's national dish, eaten with funge.
+origin:
+  country: AO
+  also_claimed_by: [CD, CG]
+course: main
+dish_types: [stew]
+authenticity: traditional
+yield: {servings: 5}
+time: {prep_min: 20, cook_min: 60, inactive_min: 30}
+difficulty: 2
+techniques: [marinating, stewing]
+ingredient_groups:
+  - items:
+      - {ingredient: chicken-thigh, qty: 1.2, unit: kg, prep: "bone-in pieces"}
+      - {ingredient: lemon-juice, qty: 2, unit: tbsp}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "crushed"}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: red-palm-oil, qty: 100, unit: ml}
+      - {ingredient: onion, qty: 2, prep: "chopped"}
+      - {ingredient: tomato, qty: 3, prep: "chopped"}
+      - {ingredient: red-chili, qty: [1, 2], prep: "chopped", note: "or piri-piri"}
+      - {ingredient: water, qty: 300, unit: ml}
+      - {ingredient: butternut-squash, qty: 300, unit: g, prep: "cubed"}
+      - {ingredient: okra, qty: 200, unit: g, prep: "trimmed"}
+steps:
+  - text: Season the chicken with lemon juice, garlic and salt and marinate.
+    timer_min: 30
+  - Heat the palm oil over medium heat (don't let it smoke). Brown the chicken, then add the onions and cook until soft.
+  - text: Add the tomatoes, chili and water, cover and simmer.
+    timer_min: 25
+  - text: Add the squash and okra and simmer until the chicken and vegetables are tender and the sauce has thickened.
+    timer_min: 25
+serving: With funge (a stiff cassava- or corn-flour porridge) and beans.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

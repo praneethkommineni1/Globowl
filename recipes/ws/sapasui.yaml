@@ -1,0 +1,41 @@
+id: ws-sapasui
+title: Sapasui
+native_name: {text: Sapasui, lang: sm}
+alternate_names: [Samoan chop suey]
+summary: Glass noodles soaked up in a garlicky soy and ginger braise with beef — a Samoan party staple.
+origin:
+  country: WS
+course: main
+dish_types: [noodles]
+occasions: [Celebrations, White Sunday (Lotu Tamaiti)]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 20, cook_min: 30, inactive_min: 30}
+difficulty: 1
+techniques: [stir-frying, simmering]
+ingredient_groups:
+  - items:
+      - {ingredient: glass-noodles, qty: 250, unit: g}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "sliced"}
+      - {ingredient: garlic, qty: 4, unit: clove, prep: "minced"}
+      - {ingredient: ginger, qty: 3, unit: cm, prep: "grated"}
+      - {ingredient: beef-chuck, qty: 500, unit: g, prep: "thinly sliced", note: "or chicken"}
+      - {ingredient: soy-sauce, qty: 80, unit: ml}
+      - {ingredient: sugar, qty: 1, unit: tbsp}
+      - {ingredient: water, qty: 500, unit: ml}
+      - {ingredient: white-cabbage, qty: 150, unit: g, prep: "shredded", optional: true}
+steps:
+  - text: Soak the noodles in warm water until soft, then drain and cut into shorter lengths with scissors.
+    timer_min: 30
+  - Fry the onion, garlic and ginger in the oil until fragrant. Add the beef and stir-fry until browned.
+  - text: Add the soy sauce, sugar and water and simmer until the beef is tender.
+    timer_min: 15
+  - Add the noodles and cabbage and toss over the heat until the noodles have absorbed most of the liquid.
+culture: Introduced by Chinese labourers who came to Samoa in the early 1900s and since adopted as a fixture of every Samoan feast.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

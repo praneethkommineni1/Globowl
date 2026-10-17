@@ -1,0 +1,49 @@
+id: cm-poulet-dg
+title: Poulet DG
+native_name: {text: Poulet DG, lang: fr}
+alternate_names: [Poulet Directeur Général]
+summary: Fried chicken and sweet ripe plantains tossed in a colourful sauté of carrots, green beans, peppers and tomato.
+origin:
+  country: CM
+course: main
+dish_types: [braise]
+occasions: [Celebrations]
+authenticity: home-style
+yield: {servings: 5}
+time: {prep_min: 25, cook_min: 50}
+difficulty: 3
+techniques: [pan-frying, braising]
+ingredient_groups:
+  - name: Chicken and plantains
+    items:
+      - {ingredient: chicken-thigh, qty: 1, unit: kg, prep: "bone-in pieces"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "crushed"}
+      - {ingredient: ginger, qty: 3, unit: cm, prep: "grated"}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: plantain, qty: 3, prep: "ripe, peeled and cut into thick rounds"}
+      - {ingredient: vegetable-oil, qty: 250, unit: ml, note: "for frying"}
+  - name: Vegetables
+    items:
+      - {ingredient: onion, qty: 2, prep: "sliced"}
+      - {ingredient: carrot, qty: 2, prep: "sliced"}
+      - {ingredient: green-beans, qty: 150, unit: g, prep: "cut in half"}
+      - {ingredient: green-pepper, qty: 1, prep: "sliced"}
+      - {ingredient: red-bell-pepper, qty: 1, prep: "sliced"}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: chicken-stock, qty: 250, unit: ml}
+      - {ingredient: scotch-bonnet, qty: 1, note: "whole", optional: true}
+      - {ingredient: parsley, qty: 1, unit: handful, prep: "chopped"}
+steps:
+  - Season the chicken with the garlic, ginger and salt. Fry it in the hot oil in batches until golden; set aside.
+  - Fry the plantain until caramelised in the same oil; set aside. Pour off all but 3 tablespoons of oil.
+  - Cook the onions in the oil until soft. Add the carrots, beans and peppers and stir-fry for 5 minutes.
+  - text: Add the tomatoes, stock, Scotch bonnet and chicken. Cover and simmer until the chicken is cooked and the vegetables tender.
+    timer_min: 25
+  - Fold in the plantain and parsley and heat for 5 minutes.
+culture: Named "Directeur Général" because it was once considered a dish fit for company bosses.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

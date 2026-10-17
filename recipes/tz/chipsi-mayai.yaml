@@ -1,0 +1,40 @@
+id: tz-chipsi-mayai
+title: Chipsi Mayai
+native_name: {text: Chipsi mayai, lang: sw}
+alternate_names: [Chips omelette, Zege]
+summary: Freshly fried chips set into an omelette — Tanzania's beloved street food, served with kachumbari salad.
+origin:
+  country: TZ
+course: snack
+dish_types: [street-food, eggs]
+authenticity: home-style
+yield: {servings: 2}
+time: {prep_min: 15, cook_min: 20}
+difficulty: 1
+techniques: [deep-frying, pan-frying]
+ingredient_groups:
+  - name: Chipsi mayai
+    items:
+      - {ingredient: potato, qty: 500, unit: g, prep: "cut into thin chips"}
+      - {ingredient: vegetable-oil, qty: 500, unit: ml, note: "for frying"}
+      - {ingredient: egg, qty: 4}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+  - name: Kachumbari
+    items:
+      - {ingredient: tomato, qty: 2, prep: "diced"}
+      - {ingredient: red-onion, qty: 0.5, prep: "finely sliced"}
+      - {ingredient: cilantro, qty: 1, unit: handful, prep: "chopped"}
+      - {ingredient: lime-juice, qty: 1, unit: tbsp}
+      - {ingredient: green-chili, qty: 1, prep: "chopped", optional: true}
+steps:
+  - Mix the kachumbari ingredients with a pinch of salt.
+  - Fry the chips until golden and cooked through. Drain and salt.
+  - Put half the chips in a small, lightly oiled non-stick pan over medium heat. Beat 2 eggs with a pinch of salt and pour over the chips.
+  - Cook until the base is set, then flip (using a plate) and cook 1–2 minutes more. Repeat.
+serving: With kachumbari, ketchup and chili sauce.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

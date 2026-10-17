@@ -1,0 +1,44 @@
+id: gm-domoda
+title: Domoda
+alternate_names: [Gambian peanut stew]
+summary: Beef stewed in a rich, tomato-red peanut sauce with squash and Scotch bonnet — the Gambia's national dish.
+origin:
+  country: GM
+  also_claimed_by: [SN]
+course: main
+dish_types: [stew]
+authenticity: traditional
+yield: {servings: 5}
+time: {prep_min: 20, cook_min: 90}
+difficulty: 2
+techniques: [sauteing, stewing]
+ingredient_groups:
+  - items:
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: beef-chuck, qty: 600, unit: g, prep: "cubed", note: "or chicken"}
+      - {ingredient: onion, qty: 2, prep: "chopped"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "crushed"}
+      - {ingredient: tomato-paste, qty: 3, unit: tbsp}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: water, qty: 1, unit: l}
+      - {ingredient: peanut-butter, qty: 200, unit: g, note: "smooth and unsweetened"}
+      - {ingredient: butternut-squash, qty: 300, unit: g, prep: "cubed"}
+      - {ingredient: scotch-bonnet, qty: 1, note: "whole"}
+      - {ingredient: chicken-bouillon-cube, qty: 1, optional: true}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - Brown the beef in the oil. Add the onions and garlic and cook until soft.
+  - Stir in the tomato paste and tomatoes and fry for 5 minutes.
+  - text: Add the water, cover and simmer until the beef is nearly tender.
+    timer_min: 45
+  - Whisk the peanut butter with a ladle of broth until smooth and stir it in, with the squash, Scotch bonnet and bouillon.
+  - text: Simmer, stirring often, until the squash is soft and oil glistens on the surface.
+    timer_min: 30
+  - Season and remove the Scotch bonnet before serving.
+serving: Over white rice.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

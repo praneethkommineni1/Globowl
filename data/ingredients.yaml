@@ -46,6 +46,11 @@ masa-harina: {name: masa harina, category: grain, aliases: [nixtamalized corn fl
 cornmeal: {name: cornmeal, category: grain, aliases: [polenta, mălai, harina de maíz]}
 glutinous-rice: {name: glutinous rice, category: grain, aliases: [sticky rice, sweet rice, khao niao]}
 
+orzo: {name: orzo, category: grain, contains: [gluten], aliases: [risoni, lisan asfour]}
+pearl-barley: {name: pearl barley, category: grain, contains: [gluten]}
+dried-hominy: {name: dried hominy, category: grain, aliases: [maize for cachupa, pozole corn, samp]}
+glass-noodles: {name: glass noodles, category: grain, aliases: [mung bean vermicelli, cellophane noodles, bean thread]}
+
 # --- Legumes and soy --------------------------------------------------------
 red-lentils: {name: red lentils, category: legume, aliases: [masoor dal, split red lentils]}
 brown-lentils: {name: brown lentils, category: legume}
@@ -63,6 +68,8 @@ fermented-black-beans: {name: fermented black beans, category: condiment, contai
 
 refried-beans: {name: refried beans, category: legume, may_contain: [pork, animal-fat], note: Traditional refried beans are often made with lard; check the can.}
 pigeon-peas-canned: {name: canned pigeon peas, category: legume, aliases: [gungo peas, gandules]}
+
+fava-beans-canned: {name: canned fava beans, category: legume, aliases: [ful, foul medames, broad beans]}
 
 # --- Vegetables -------------------------------------------------------------
 onion: {name: onion, category: vegetable}
@@ -111,6 +118,10 @@ green-plantain: {name: green plantain, category: fruit, aliases: [unripe plantai
 capers: {name: capers, category: condiment}
 
 leek: {name: leek, category: vegetable}
+
+okra: {name: okra, category: vegetable, aliases: [lady's fingers, bamia, gombo]}
+green-beans: {name: green beans, category: vegetable, aliases: [string beans, haricots verts]}
+spinach: {name: spinach, category: vegetable}
 
 # --- Fruit ------------------------------------------------------------------
 lemon: {name: lemon, category: fruit}
@@ -192,6 +203,8 @@ khmeli-suneli: {name: khmeli suneli, category: spice, note: Georgian blend of dr
 dried-marjoram: {name: dried marjoram, category: spice}
 caraway-seeds: {name: caraway seeds, category: spice}
 
+sumac: {name: sumac, category: spice}
+
 # --- Condiments, sauces, pastes ---------------------------------------------
 soy-sauce: {name: soy sauce, category: condiment, contains: [soy, gluten], note: Tamari is usually wheat-free.}
 dark-soy-sauce: {name: dark soy sauce, category: condiment, contains: [soy, gluten]}
@@ -234,6 +247,8 @@ coconut-milk: {name: coconut milk, category: nut-seed}
 coconut-cream: {name: coconut cream, category: nut-seed}
 
 pistachios: {name: pistachios, category: nut-seed, contains: [tree-nut]}
+
+pine-nuts: {name: pine nuts, category: nut-seed, contains: [tree-nut], note: Botanically seeds but treated as tree nuts for allergen labelling.}
 
 # --- Fats -------------------------------------------------------------------
 vegetable-oil: {name: vegetable oil, category: fat}

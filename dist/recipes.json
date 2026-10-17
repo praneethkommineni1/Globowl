@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "count": 78,
+ "count": 95,
  "recipes": [
   {
    "id": "af-kabuli-palaw",
@@ -249,6 +249,412 @@
      "in_optional_ingredients": [
       "tree-nut"
      ]
+    }
+   }
+  },
+  {
+   "id": "am-spas",
+   "title": "Spas",
+   "native_name": {
+    "text": "Սպաս",
+    "lang": "hy",
+    "romanized": "spas"
+   },
+   "alternate_names": [
+    "Armenian yogurt soup"
+   ],
+   "summary": "A soothing soup of tangy yogurt and hulled wheat, stabilised with egg and finished with butter-fried onion and dried mint.",
+   "origin": {
+    "country": "AM",
+    "country_name": "Armenia",
+    "continent": "Asia",
+    "subregion": "Western Asia"
+   },
+   "course": "soup",
+   "dish_types": [
+    "soup"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 10,
+    "cook_min": 50,
+    "total_min": 60
+   },
+   "difficulty": 2,
+   "techniques": [
+    "simmering",
+    "whisking",
+    "sauteing"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "pearl-barley",
+       "qty": 100,
+       "unit": "g",
+       "note": "or hulled wheat (korkot)",
+       "name": "pearl barley"
+      },
+      {
+       "ingredient": "water",
+       "qty": 500,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "yogurt",
+       "qty": 1,
+       "unit": "l",
+       "note": "Armenian matsoun or plain yogurt",
+       "name": "plain yogurt"
+      },
+      {
+       "ingredient": "egg",
+       "qty": 1,
+       "name": "egg"
+      },
+      {
+       "ingredient": "all-purpose-flour",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "all-purpose flour"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "butter",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "butter"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "finely chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "dried-mint",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "dried mint"
+      },
+      {
+       "ingredient": "cilantro",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "optional": true,
+       "name": "cilantro"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Simmer the barley in the water until tender.",
+     "timer_min": 35
+    },
+    {
+     "text": "Whisk the yogurt, egg, flour and salt until smooth in a pot."
+    },
+    {
+     "text": "Heat the yogurt mixture over medium heat, stirring constantly in one direction, until it comes to a simmer — the egg and flour stop it curdling."
+    },
+    {
+     "text": "Add the barley with its water and simmer 5 minutes."
+    },
+    {
+     "text": "Fry the onion in the butter until golden, add the mint off the heat, and pour over the soup. Add the herbs."
+    }
+   ],
+   "serving": "Hot in winter or chilled in summer.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegetarian",
+     "pescatarian",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "butter",
+       "egg",
+       "plain yogurt"
+      ]
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "all-purpose flour",
+       "pearl barley"
+      ]
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "butter",
+       "plain yogurt"
+      ]
+     },
+     "egg-free": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "egg",
+      "gluten",
+      "milk"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "ao-muamba-de-galinha",
+   "title": "Muamba de Galinha",
+   "native_name": {
+    "text": "Muamba de galinha",
+    "lang": "pt"
+   },
+   "summary": "Chicken stewed in red palm oil with okra, squash, tomato and garlic — Angola's national dish, eaten with funge.",
+   "origin": {
+    "country": "AO",
+    "also_claimed_by": [
+     "CD",
+     "CG"
+    ],
+    "country_name": "Angola",
+    "continent": "Africa",
+    "subregion": "Middle Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 5
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 60,
+    "inactive_min": 30,
+    "total_min": 110
+   },
+   "difficulty": 2,
+   "techniques": [
+    "marinating",
+    "stewing"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "chicken-thigh",
+       "qty": 1.2,
+       "unit": "kg",
+       "prep": "bone-in pieces",
+       "name": "chicken thigh"
+      },
+      {
+       "ingredient": "lemon-juice",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "lemon juice"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "red-palm-oil",
+       "qty": 100,
+       "unit": "ml",
+       "name": "red palm oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 3,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "red-chili",
+       "qty": [
+        1,
+        2
+       ],
+       "prep": "chopped",
+       "note": "or piri-piri",
+       "name": "fresh red chili"
+      },
+      {
+       "ingredient": "water",
+       "qty": 300,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "butternut-squash",
+       "qty": 300,
+       "unit": "g",
+       "prep": "cubed",
+       "name": "butternut squash"
+      },
+      {
+       "ingredient": "okra",
+       "qty": 200,
+       "unit": "g",
+       "prep": "trimmed",
+       "name": "okra"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Season the chicken with lemon juice, garlic and salt and marinate.",
+     "timer_min": 30
+    },
+    {
+     "text": "Heat the palm oil over medium heat (don't let it smoke). Brown the chicken, then add the onions and cook until soft."
+    },
+    {
+     "text": "Add the tomatoes, chili and water, cover and simmer.",
+     "timer_min": 25
+    },
+    {
+     "text": "Add the squash and okra and simmer until the chicken and vegetables are tender and the sauce has thickened.",
+     "timer_min": 25
+    }
+   ],
+   "serving": "With funge (a stiff cassava- or corn-flour porridge) and beans.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": []
     }
    }
   },
@@ -787,6 +1193,384 @@
     "allergens": {
      "contains": [
       "gluten",
+      "milk"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "az-qutab",
+   "title": "Qutab",
+   "native_name": {
+    "text": "Qutab",
+    "lang": "az"
+   },
+   "alternate_names": [
+    "Kutab"
+   ],
+   "summary": "Paper-thin half-moon flatbreads stuffed with a mountain of fresh herbs and greens, cooked on a dry griddle and brushed with butter.",
+   "origin": {
+    "country": "AZ",
+    "country_name": "Azerbaijan",
+    "continent": "Asia",
+    "subregion": "Western Asia"
+   },
+   "course": "snack",
+   "dish_types": [
+    "flatbread"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4,
+    "amount": "12 qutab"
+   },
+   "time": {
+    "prep_min": 40,
+    "cook_min": 25,
+    "inactive_min": 30,
+    "total_min": 95
+   },
+   "difficulty": 3,
+   "equipment": [
+    "Rolling pin",
+    "Large dry frying pan or saj"
+   ],
+   "techniques": [
+    "dough-making",
+    "pan-frying"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Dough",
+     "items": [
+      {
+       "ingredient": "all-purpose-flour",
+       "qty": 300,
+       "unit": "g",
+       "name": "all-purpose flour"
+      },
+      {
+       "ingredient": "water",
+       "qty": 170,
+       "unit": "ml",
+       "note": "warm",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      }
+     ]
+    },
+    {
+     "name": "Filling",
+     "items": [
+      {
+       "ingredient": "spinach",
+       "qty": 200,
+       "unit": "g",
+       "prep": "finely chopped",
+       "name": "spinach"
+      },
+      {
+       "ingredient": "cilantro",
+       "qty": 1,
+       "unit": "bunch",
+       "prep": "finely chopped",
+       "name": "cilantro"
+      },
+      {
+       "ingredient": "dill",
+       "qty": 1,
+       "unit": "bunch",
+       "prep": "finely chopped",
+       "name": "dill"
+      },
+      {
+       "ingredient": "scallion",
+       "qty": 4,
+       "prep": "finely chopped",
+       "name": "scallion"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "sumac",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "sumac"
+      }
+     ]
+    },
+    {
+     "name": "To finish",
+     "items": [
+      {
+       "ingredient": "butter",
+       "qty": 50,
+       "unit": "g",
+       "prep": "melted",
+       "name": "butter"
+      },
+      {
+       "ingredient": "yogurt",
+       "qty": 200,
+       "unit": "ml",
+       "optional": true,
+       "name": "plain yogurt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Knead the dough ingredients until smooth, cover and rest for 30 minutes."
+    },
+    {
+     "text": "Mix the greens with the salt, squeeze lightly, and drain off excess liquid. Add the sumac."
+    },
+    {
+     "text": "Divide the dough into 12 balls and roll each into a very thin 18 cm circle."
+    },
+    {
+     "text": "Spread a thin layer of filling over half of each circle, fold over and press the edges to seal."
+    },
+    {
+     "text": "Cook on a hot dry pan for 1–2 minutes per side until speckled brown. Brush generously with butter and stack."
+    }
+   ],
+   "serving": "With yogurt and an extra sprinkle of sumac.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegetarian",
+     "pescatarian",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "butter"
+      ]
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "all-purpose flour"
+      ]
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "butter"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "gluten",
+      "milk"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "bb-cou-cou",
+   "title": "Cou-Cou",
+   "summary": "A smooth, firm cornmeal and okra \"pudding\" stirred until it holds its shape, traditionally served with flying fish in a spicy Bajan sauce.",
+   "origin": {
+    "country": "BB",
+    "country_name": "Barbados",
+    "continent": "Americas",
+    "subregion": "Caribbean"
+   },
+   "course": "side",
+   "dish_types": [
+    "porridge"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 10,
+    "cook_min": 30,
+    "total_min": 40
+   },
+   "difficulty": 3,
+   "techniques": [
+    "boiling"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "okra",
+       "qty": 200,
+       "unit": "g",
+       "prep": "thinly sliced",
+       "name": "okra"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "cornmeal",
+       "qty": 250,
+       "unit": "g",
+       "note": "fine yellow cornmeal, mixed with 250 ml cold water",
+       "name": "cornmeal"
+      },
+      {
+       "ingredient": "butter",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "butter"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Boil the okra in the salted water until tender.",
+     "timer_min": 8
+    },
+    {
+     "text": "Lift out the okra with a slotted spoon and keep about half the water in the pot."
+    },
+    {
+     "text": "Stir the soaked cornmeal into the simmering water and return the okra. Stir constantly with a flat wooden spoon (a cou-cou stick), adding okra water a little at a time."
+    },
+    {
+     "text": "Keep stirring and turning over low heat until the mixture is smooth and stiff and pulls away from the pot.",
+     "timer_min": 15
+    },
+    {
+     "text": "Stir in the butter, then shape in a buttered bowl and turn out."
+    }
+   ],
+   "serving": "With steamed flying fish in a tomato, onion and pepper sauce — Barbados's national dish.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegetarian",
+     "pescatarian",
+     "gluten-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "butter"
+      ]
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "butter"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
       "milk"
      ],
      "may_contain": [],
@@ -1599,6 +2383,166 @@
    }
   },
   {
+   "id": "bw-seswaa",
+   "title": "Seswaa",
+   "native_name": {
+    "text": "Seswaa",
+    "lang": "tn"
+   },
+   "summary": "Beef boiled slowly with just salt and onion until it falls apart, then pounded into tender shreds — Botswana's national dish.",
+   "origin": {
+    "country": "BW",
+    "country_name": "Botswana",
+    "continent": "Africa",
+    "subregion": "Southern Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "boiled-meat"
+   ],
+   "occasions": [
+    "Weddings",
+    "Funerals",
+    "Independence Day"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 10,
+    "cook_min": 180,
+    "total_min": 190
+   },
+   "difficulty": 1,
+   "techniques": [
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "beef-shank",
+       "qty": 1.5,
+       "unit": "kg",
+       "note": "on the bone; brisket or chuck also work",
+       "name": "beef shank"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "halved",
+       "name": "onion"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 2,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "water",
+       "note": "enough to cover",
+       "name": "water"
+      }
+     ]
+    },
+    {
+     "name": "To serve",
+     "items": [
+      {
+       "ingredient": "maize-flour",
+       "qty": 300,
+       "unit": "g",
+       "note": "cooked into pap",
+       "name": "white maize flour"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Put the beef, onion and salt in a heavy pot, cover with water and simmer, topping up the water, until the meat falls off the bone.",
+     "timer_min": 180
+    },
+    {
+     "text": "Remove the bones. Let most of the liquid evaporate."
+    },
+    {
+     "text": "Pound and stir the meat with a wooden spoon until it breaks into fine, tender shreds coated in its own juices. Season."
+    }
+   ],
+   "serving": "With pap (stiff maize porridge) and morogo (wild spinach) or beans.",
+   "culture": "Traditionally cooked by men in three-legged iron pots and pounded with a wooden pestle at big gatherings.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "beef shank"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "beef shank"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "beef shank"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "ca-poutine",
    "title": "Poutine",
    "native_name": {
@@ -2327,6 +3271,245 @@
     "allergens": {
      "contains": [],
      "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "cm-poulet-dg",
+   "title": "Poulet DG",
+   "native_name": {
+    "text": "Poulet DG",
+    "lang": "fr"
+   },
+   "alternate_names": [
+    "Poulet Directeur Général"
+   ],
+   "summary": "Fried chicken and sweet ripe plantains tossed in a colourful sauté of carrots, green beans, peppers and tomato.",
+   "origin": {
+    "country": "CM",
+    "country_name": "Cameroon",
+    "continent": "Africa",
+    "subregion": "Middle Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "braise"
+   ],
+   "occasions": [
+    "Celebrations"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 5
+   },
+   "time": {
+    "prep_min": 25,
+    "cook_min": 50,
+    "total_min": 75
+   },
+   "difficulty": 3,
+   "techniques": [
+    "pan-frying",
+    "braising"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Chicken and plantains",
+     "items": [
+      {
+       "ingredient": "chicken-thigh",
+       "qty": 1,
+       "unit": "kg",
+       "prep": "bone-in pieces",
+       "name": "chicken thigh"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "ginger",
+       "qty": 3,
+       "unit": "cm",
+       "prep": "grated",
+       "name": "fresh ginger"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "plantain",
+       "qty": 3,
+       "prep": "ripe, peeled and cut into thick rounds",
+       "name": "plantain"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 250,
+       "unit": "ml",
+       "note": "for frying",
+       "name": "vegetable oil"
+      }
+     ]
+    },
+    {
+     "name": "Vegetables",
+     "items": [
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "sliced",
+       "name": "onion"
+      },
+      {
+       "ingredient": "carrot",
+       "qty": 2,
+       "prep": "sliced",
+       "name": "carrot"
+      },
+      {
+       "ingredient": "green-beans",
+       "qty": 150,
+       "unit": "g",
+       "prep": "cut in half",
+       "name": "green beans"
+      },
+      {
+       "ingredient": "green-pepper",
+       "qty": 1,
+       "prep": "sliced",
+       "name": "green pepper"
+      },
+      {
+       "ingredient": "red-bell-pepper",
+       "qty": 1,
+       "prep": "sliced",
+       "name": "red bell pepper"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "chicken-stock",
+       "qty": 250,
+       "unit": "ml",
+       "name": "chicken stock"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 1,
+       "note": "whole",
+       "optional": true,
+       "name": "Scotch bonnet chili"
+      },
+      {
+       "ingredient": "parsley",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "name": "flat-leaf parsley"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Season the chicken with the garlic, ginger and salt. Fry it in the hot oil in batches until golden; set aside."
+    },
+    {
+     "text": "Fry the plantain until caramelised in the same oil; set aside. Pour off all but 3 tablespoons of oil."
+    },
+    {
+     "text": "Cook the onions in the oil until soft. Add the carrots, beans and peppers and stir-fry for 5 minutes."
+    },
+    {
+     "text": "Add the tomatoes, stock, Scotch bonnet and chicken. Cover and simmer until the chicken is cooked and the vegetables tender.",
+     "timer_min": 25
+    },
+    {
+     "text": "Fold in the plantain and parsley and heat for 5 minutes."
+    }
+   ],
+   "culture": "Named \"Directeur Général\" because it was once considered a dish fit for company bosses.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "chicken stock",
+       "chicken thigh"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "chicken stock",
+       "chicken thigh"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "chicken stock",
+       "chicken thigh"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [
+      "celery"
+     ],
      "in_optional_ingredients": []
     }
    }
@@ -3198,6 +4381,233 @@
    }
   },
   {
+   "id": "cv-cachupa",
+   "title": "Cachupa",
+   "native_name": {
+    "text": "Cachupa",
+    "lang": "pt"
+   },
+   "summary": "Cabo Verde's national dish — a slow stew of hominy corn and beans with pork, sausage, squash, sweet potato and cabbage.",
+   "origin": {
+    "country": "CV",
+    "country_name": "Cabo Verde",
+    "continent": "Africa",
+    "subregion": "Western Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew",
+    "one-pot"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 8
+   },
+   "time": {
+    "prep_min": 30,
+    "cook_min": 180,
+    "inactive_min": 720,
+    "total_min": 930
+   },
+   "difficulty": 3,
+   "techniques": [
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "dried-hominy",
+       "qty": 500,
+       "unit": "g",
+       "note": "soaked overnight",
+       "name": "dried hominy"
+      },
+      {
+       "ingredient": "dried-red-kidney-beans",
+       "qty": 250,
+       "unit": "g",
+       "note": "soaked overnight; a mix of beans is traditional",
+       "name": "dried red kidney beans"
+      },
+      {
+       "ingredient": "water",
+       "qty": 4,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "bay-leaf",
+       "qty": 2,
+       "name": "bay leaf"
+      },
+      {
+       "ingredient": "pork-belly",
+       "qty": 300,
+       "unit": "g",
+       "prep": "cut into chunks",
+       "name": "pork belly"
+      },
+      {
+       "ingredient": "chorizo",
+       "qty": 200,
+       "unit": "g",
+       "prep": "thickly sliced",
+       "name": "chorizo"
+      },
+      {
+       "ingredient": "olive-oil",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "olive oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "sweet-potato",
+       "qty": 1,
+       "prep": "cubed",
+       "name": "sweet potato"
+      },
+      {
+       "ingredient": "butternut-squash",
+       "qty": 400,
+       "unit": "g",
+       "prep": "cubed",
+       "name": "butternut squash"
+      },
+      {
+       "ingredient": "white-cabbage",
+       "qty": 300,
+       "unit": "g",
+       "prep": "cut into wedges",
+       "name": "white cabbage"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Drain the hominy and beans and simmer them in the water with the bay leaves. Boil hard for the first 10 minutes.",
+     "timer_min": 90
+    },
+    {
+     "text": "Add the pork belly and simmer 30 minutes more."
+    },
+    {
+     "text": "Meanwhile fry the onion and garlic in the oil until soft, add the tomatoes and cook to a sauce; stir it into the pot."
+    },
+    {
+     "text": "Add the sausage, sweet potato, squash and cabbage, season, and simmer until everything is tender and the stew is thick.",
+     "timer_min": 45
+    }
+   ],
+   "tips": [
+    "Leftovers are fried the next morning with an egg as cachupa guisada — many say it's even better."
+   ],
+   "culture": "\"Cachupa rica\" with plenty of meat is for celebrations; \"cachupa pobre\" uses only corn, beans and vegetables.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "chorizo",
+       "pork belly"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "chorizo",
+       "pork belly"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "chorizo",
+       "pork belly"
+      ]
+     },
+     "gluten-free": {
+      "status": "check-labels",
+      "check": [
+       "chorizo"
+      ]
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "no",
+      "because": [
+       "chorizo",
+       "pork belly"
+      ]
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [
+      "gluten",
+      "sulphite"
+     ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "cz-bramboraky",
    "title": "Bramboráky",
    "native_name": {
@@ -3998,6 +5408,208 @@
    }
   },
   {
+   "id": "dz-loubia",
+   "title": "Loubia",
+   "native_name": {
+    "text": "لوبيا",
+    "lang": "ar",
+    "romanized": "lūbya"
+   },
+   "alternate_names": [
+    "Algerian white bean stew"
+   ],
+   "summary": "White beans stewed in a garlicky tomato sauce with cumin and paprika — a warming everyday Algerian dish.",
+   "origin": {
+    "country": "DZ",
+    "also_claimed_by": [
+     "MA"
+    ],
+    "country_name": "Algeria",
+    "continent": "Africa",
+    "subregion": "Northern Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew",
+    "beans"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 90,
+    "inactive_min": 720,
+    "total_min": 825
+   },
+   "difficulty": 1,
+   "techniques": [
+    "sauteing",
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "dried-white-beans",
+       "qty": 400,
+       "unit": "g",
+       "note": "soaked overnight",
+       "name": "dried white beans"
+      },
+      {
+       "ingredient": "olive-oil",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "olive oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "tomato-paste",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "tomato paste"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 1,
+       "prep": "grated",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "sweet-paprika",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "sweet paprika"
+      },
+      {
+       "ingredient": "ground-cumin",
+       "qty": 1.5,
+       "unit": "tsp",
+       "name": "ground cumin"
+      },
+      {
+       "ingredient": "harissa",
+       "qty": 1,
+       "unit": "tsp",
+       "optional": true,
+       "name": "harissa"
+      },
+      {
+       "ingredient": "bay-leaf",
+       "qty": 1,
+       "name": "bay leaf"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1.5,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      },
+      {
+       "ingredient": "cilantro",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "name": "cilantro"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Soften the onion in the oil, then add the garlic, tomato paste, tomato, paprika, cumin and harissa and cook for 3 minutes."
+    },
+    {
+     "text": "Add the drained beans, bay leaf and water and simmer, partly covered, until the beans are tender and the sauce is thick.",
+     "timer_min": 80
+    },
+    {
+     "text": "Season with salt (add it near the end) and finish with cilantro."
+    }
+   ],
+   "serving": "With bread and a drizzle of olive oil; sometimes with a little extra cumin and a squeeze of lemon.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegan",
+     "vegetarian",
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "yes"
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "eg-koshari",
    "title": "Koshari",
    "native_name": {
@@ -4271,6 +5883,200 @@
      "may_contain": [
       "egg"
      ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "er-tsebhi-zigni",
+   "title": "Tsebhi Zigni",
+   "native_name": {
+    "text": "ጸብሒ ዝግኒ",
+    "lang": "ti",
+    "romanized": "tsebhi zigni"
+   },
+   "summary": "Tender beef in a deep, spicy berbere and onion sauce — Eritrea's most celebrated stew, eaten with injera.",
+   "origin": {
+    "country": "ER",
+    "also_claimed_by": [
+     "ET"
+    ],
+    "country_name": "Eritrea",
+    "continent": "Africa",
+    "subregion": "Eastern Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 5
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 90,
+    "total_min": 105
+   },
+   "difficulty": 2,
+   "techniques": [
+    "sauteing",
+    "stewing"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "red-onion",
+       "qty": 3,
+       "prep": "very finely chopped",
+       "name": "red onion"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 80,
+       "unit": "ml",
+       "alt": [
+        "niter-kibbeh"
+       ],
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "berbere",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "berbere"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "tomato-paste",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "tomato paste"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "finely chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "beef-chuck",
+       "qty": 800,
+       "unit": "g",
+       "prep": "cut into 2 cm cubes",
+       "name": "beef chuck"
+      },
+      {
+       "ingredient": "water",
+       "qty": 400,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "ground-cardamom",
+       "qty": 1,
+       "unit": "pinch",
+       "name": "ground cardamom"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Cook the onions in a dry pot over medium heat, stirring, until soft and lightly coloured.",
+     "timer_min": 10
+    },
+    {
+     "text": "Add the oil and berbere and cook, stirring and adding splashes of water, for 10 minutes until dark red and fragrant."
+    },
+    {
+     "text": "Add the garlic, tomato paste and tomato and cook 5 minutes."
+    },
+    {
+     "text": "Add the beef and water. Cover and simmer gently until the beef is tender and the sauce thick.",
+     "timer_min": 60
+    },
+    {
+     "text": "Stir in the cardamom and season."
+    }
+   ],
+   "serving": "On injera, often with a hard-boiled egg added to the sauce for special occasions.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
      "in_optional_ingredients": []
     }
    }
@@ -5909,6 +7715,226 @@
      "in_optional_ingredients": [
       "fish"
      ]
+    }
+   }
+  },
+  {
+   "id": "gm-domoda",
+   "title": "Domoda",
+   "alternate_names": [
+    "Gambian peanut stew"
+   ],
+   "summary": "Beef stewed in a rich, tomato-red peanut sauce with squash and Scotch bonnet — the Gambia's national dish.",
+   "origin": {
+    "country": "GM",
+    "also_claimed_by": [
+     "SN"
+    ],
+    "country_name": "Gambia",
+    "continent": "Africa",
+    "subregion": "Western Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 5
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 90,
+    "total_min": 110
+   },
+   "difficulty": 2,
+   "techniques": [
+    "sauteing",
+    "stewing"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "beef-chuck",
+       "qty": 600,
+       "unit": "g",
+       "prep": "cubed",
+       "note": "or chicken",
+       "name": "beef chuck"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "tomato-paste",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "tomato paste"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "peanut-butter",
+       "qty": 200,
+       "unit": "g",
+       "note": "smooth and unsweetened",
+       "name": "peanut butter"
+      },
+      {
+       "ingredient": "butternut-squash",
+       "qty": 300,
+       "unit": "g",
+       "prep": "cubed",
+       "name": "butternut squash"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 1,
+       "note": "whole",
+       "name": "Scotch bonnet chili"
+      },
+      {
+       "ingredient": "chicken-bouillon-cube",
+       "qty": 1,
+       "optional": true,
+       "name": "chicken bouillon cube"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Brown the beef in the oil. Add the onions and garlic and cook until soft."
+    },
+    {
+     "text": "Stir in the tomato paste and tomatoes and fry for 5 minutes."
+    },
+    {
+     "text": "Add the water, cover and simmer until the beef is nearly tender.",
+     "timer_min": 45
+    },
+    {
+     "text": "Whisk the peanut butter with a ladle of broth until smooth and stir it in, with the squash, Scotch bonnet and bouillon."
+    },
+    {
+     "text": "Simmer, stirring often, until the squash is soft and oil glistens on the surface.",
+     "timer_min": 30
+    },
+    {
+     "text": "Season and remove the Scotch bonnet before serving."
+    }
+   ],
+   "serving": "Over white rice.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "egg-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "gluten-free": {
+      "status": "check-labels",
+      "check": [
+       "chicken bouillon cube"
+      ]
+     },
+     "dairy-free": {
+      "status": "check-labels",
+      "check": [
+       "chicken bouillon cube"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "no",
+      "because": [
+       "peanut butter"
+      ]
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "peanut"
+     ],
+     "may_contain": [
+      "celery",
+      "gluten",
+      "milk",
+      "soy"
+     ],
+     "in_optional_ingredients": []
     }
    }
   },
@@ -7861,6 +9887,187 @@
    }
   },
   {
+   "id": "jo-galayet-bandora",
+   "title": "Galayet Bandora",
+   "native_name": {
+    "text": "قلاية بندورة",
+    "lang": "ar",
+    "romanized": "qallāyet banadūra"
+   },
+   "alternate_names": [
+    "Jordanian tomato stew"
+   ],
+   "summary": "Ripe tomatoes fried down in olive oil with garlic and hot green chili until jammy — a quick, rustic dish scooped up with bread.",
+   "origin": {
+    "country": "JO",
+    "also_claimed_by": [
+     "PS"
+    ],
+    "country_name": "Jordan",
+    "continent": "Asia",
+    "subregion": "Western Asia"
+   },
+   "course": "breakfast",
+   "dish_types": [
+    "stew",
+    "one-pan"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 10,
+    "cook_min": 20,
+    "total_min": 30
+   },
+   "difficulty": 1,
+   "techniques": [
+    "sauteing",
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "olive-oil",
+       "qty": 4,
+       "unit": "tbsp",
+       "name": "olive oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "optional": true,
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "prep": "sliced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "green-chili",
+       "qty": [
+        1,
+        2
+       ],
+       "prep": "sliced",
+       "name": "fresh green chili"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 1,
+       "unit": "kg",
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "black-pepper",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground black pepper"
+      },
+      {
+       "ingredient": "pine-nuts",
+       "qty": 2,
+       "unit": "tbsp",
+       "prep": "toasted",
+       "optional": true,
+       "name": "pine nuts"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Fry the onion (if using), garlic and chili in the olive oil until fragrant."
+    },
+    {
+     "text": "Add the tomatoes, salt and pepper and cook over medium-high heat, stirring, until the tomatoes collapse into a thick, glossy stew.",
+     "timer_min": 15
+    },
+    {
+     "text": "Top with pine nuts and a drizzle of olive oil."
+    }
+   ],
+   "serving": "From the pan, with warm flatbread and olives.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegan",
+     "vegetarian",
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "yes"
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "adaptable",
+      "changes": [
+       "omit pine nuts"
+      ]
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": [
+      "tree-nut"
+     ]
+    }
+   }
+  },
+  {
    "id": "jp-oyakodon",
    "title": "Oyakodon",
    "native_name": {
@@ -9308,6 +11515,235 @@
    }
   },
   {
+   "id": "ly-shorba-libiya",
+   "title": "Shorba Libiya",
+   "native_name": {
+    "text": "شربة ليبية",
+    "lang": "ar",
+    "romanized": "shurba lībiyya"
+   },
+   "alternate_names": [
+    "Libyan lamb soup"
+   ],
+   "summary": "A spiced tomato soup with lamb, chickpeas and tiny orzo pasta, finished with dried mint — the dish that breaks the fast in Ramadan.",
+   "origin": {
+    "country": "LY",
+    "country_name": "Libya",
+    "continent": "Africa",
+    "subregion": "Northern Africa"
+   },
+   "course": "soup",
+   "dish_types": [
+    "soup"
+   ],
+   "occasions": [
+    "Ramadan iftar"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 75,
+    "total_min": 90
+   },
+   "difficulty": 2,
+   "techniques": [
+    "sauteing",
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "olive-oil",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "olive oil"
+      },
+      {
+       "ingredient": "lamb-shoulder",
+       "qty": 400,
+       "unit": "g",
+       "prep": "cut into 1.5 cm cubes",
+       "name": "lamb shoulder"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "finely chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "tomato-paste",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "tomato paste"
+      },
+      {
+       "ingredient": "ground-turmeric",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground turmeric"
+      },
+      {
+       "ingredient": "paprika",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "paprika"
+      },
+      {
+       "ingredient": "cayenne",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "cayenne pepper"
+      },
+      {
+       "ingredient": "black-pepper",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground black pepper"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1.5,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "chickpeas-canned",
+       "qty": 1,
+       "unit": "can",
+       "note": "400 g can, drained",
+       "name": "canned chickpeas"
+      },
+      {
+       "ingredient": "orzo",
+       "qty": 100,
+       "unit": "g",
+       "name": "orzo"
+      },
+      {
+       "ingredient": "dried-mint",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "dried mint"
+      },
+      {
+       "ingredient": "parsley",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "name": "flat-leaf parsley"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      },
+      {
+       "ingredient": "lemon",
+       "qty": 1,
+       "prep": "cut into wedges",
+       "name": "lemon"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Brown the lamb in the oil, then add the onion and cook until soft."
+    },
+    {
+     "text": "Stir in the tomato paste and spices and fry for 2 minutes."
+    },
+    {
+     "text": "Add the water and simmer, covered, until the lamb is tender.",
+     "timer_min": 50
+    },
+    {
+     "text": "Add the chickpeas and orzo and cook until the pasta is soft, stirring so it doesn't stick.",
+     "timer_min": 12
+    },
+    {
+     "text": "Rub the dried mint between your palms into the soup, add the parsley and season."
+    }
+   ],
+   "serving": "With lemon wedges and bread, before the main iftar meal.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "lamb shoulder"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "lamb shoulder"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "lamb shoulder"
+      ]
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "orzo"
+      ]
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "gluten"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "ma-chicken-tagine-preserved-lemon",
    "title": "Chicken Tagine with Preserved Lemon and Olives",
    "alternate_names": [
@@ -9525,6 +11961,219 @@
     "allergens": {
      "contains": [],
      "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "mu-rougaille",
+   "title": "Rougaille Saucisse",
+   "native_name": {
+    "text": "Rougaille",
+    "lang": "mfe"
+   },
+   "summary": "Sausages simmered in a fragrant Creole tomato sauce with ginger, garlic, thyme and green chili.",
+   "origin": {
+    "country": "MU",
+    "also_claimed_by": [
+     "SC"
+    ],
+    "country_name": "Mauritius",
+    "continent": "Africa",
+    "subregion": "Eastern Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 35,
+    "total_min": 50
+   },
+   "difficulty": 1,
+   "techniques": [
+    "sauteing",
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "smoked-sausage",
+       "qty": 400,
+       "unit": "g",
+       "prep": "sliced",
+       "alt": [
+        "shrimp"
+       ],
+       "note": "or salted fish or prawns",
+       "name": "smoked sausage"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "sliced",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "ginger",
+       "qty": 2,
+       "unit": "cm",
+       "prep": "grated",
+       "name": "fresh ginger"
+      },
+      {
+       "ingredient": "thyme",
+       "qty": 3,
+       "unit": "sprig",
+       "name": "thyme"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 800,
+       "unit": "g",
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "green-chili",
+       "qty": 2,
+       "prep": "slit",
+       "name": "fresh green chili"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      },
+      {
+       "ingredient": "scallion",
+       "qty": 2,
+       "prep": "sliced",
+       "name": "scallion"
+      },
+      {
+       "ingredient": "cilantro",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "name": "cilantro"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Brown the sausages lightly in the oil; set aside."
+    },
+    {
+     "text": "Cook the onions in the same pan until soft, then add garlic, ginger and thyme for 1 minute."
+    },
+    {
+     "text": "Add the tomatoes and chilies and cook down until thick and jammy.",
+     "timer_min": 15
+    },
+    {
+     "text": "Return the sausages, season and simmer to blend the flavours.",
+     "timer_min": 10
+    },
+    {
+     "text": "Finish with scallion and cilantro."
+    }
+   ],
+   "serving": "With rice, lentils (dal) and chutneys.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "egg-free",
+     "nut-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "smoked sausage"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "smoked sausage"
+      ]
+     },
+     "pescatarian": {
+      "status": "adaptable",
+      "changes": [
+       "use shrimp instead of smoked sausage"
+      ]
+     },
+     "gluten-free": {
+      "status": "check-labels",
+      "check": [
+       "smoked sausage"
+      ]
+     },
+     "dairy-free": {
+      "status": "check-labels",
+      "check": [
+       "smoked sausage"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "adaptable",
+      "changes": [
+       "use shrimp instead of smoked sausage"
+      ]
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [
+      "gluten",
+      "milk",
+      "sulphite"
+     ],
      "in_optional_ingredients": []
     }
    }
@@ -12910,6 +15559,204 @@
    }
   },
   {
+   "id": "sd-ful-medames",
+   "title": "Ful Medames",
+   "native_name": {
+    "text": "فول مدمس",
+    "lang": "ar",
+    "romanized": "fūl midammis"
+   },
+   "alternate_names": [
+    "Ful"
+   ],
+   "summary": "Mashed fava beans dressed Sudanese-style with sesame oil, cumin and lime, topped with white cheese, tomato and onion.",
+   "origin": {
+    "country": "SD",
+    "also_claimed_by": [
+     "EG"
+    ],
+    "country_name": "Sudan",
+    "continent": "Africa",
+    "subregion": "Northern Africa"
+   },
+   "course": "breakfast",
+   "dish_types": [
+    "beans"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 3
+   },
+   "time": {
+    "prep_min": 10,
+    "cook_min": 10,
+    "total_min": 20
+   },
+   "difficulty": 1,
+   "techniques": [
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "fava-beans-canned",
+       "qty": 2,
+       "unit": "can",
+       "note": "400 g cans with their liquid",
+       "name": "canned fava beans"
+      },
+      {
+       "ingredient": "ground-cumin",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground cumin"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 2,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "sesame-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "note": "untoasted (light) sesame oil is traditional",
+       "name": "toasted sesame oil"
+      },
+      {
+       "ingredient": "lime-juice",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "lime juice"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 1,
+       "prep": "diced",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 0.5,
+       "prep": "finely chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "green-chili",
+       "qty": 1,
+       "prep": "chopped",
+       "optional": true,
+       "name": "fresh green chili"
+      },
+      {
+       "ingredient": "feta",
+       "qty": 80,
+       "unit": "g",
+       "prep": "crumbled",
+       "note": "Sudanese gibna beyda",
+       "optional": true,
+       "name": "feta"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Simmer the beans with their liquid until hot and soft.",
+     "timer_min": 8
+    },
+    {
+     "text": "Mash roughly with the cumin, garlic and salt."
+    },
+    {
+     "text": "Spoon into a bowl, pour over the sesame oil and lime, and top with tomato, onion, chili and cheese."
+    }
+   ],
+   "serving": "Shared from one bowl with bread, often with ta'amiya (falafel) on top.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "adaptable",
+      "changes": [
+       "omit feta"
+      ]
+     },
+     "vegetarian": {
+      "status": "check-labels",
+      "check": [
+       "feta"
+      ]
+     },
+     "pescatarian": {
+      "status": "check-labels",
+      "check": [
+       "feta"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "adaptable",
+      "changes": [
+       "omit feta"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "sesame"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": [
+      "milk"
+     ]
+    }
+   }
+  },
+  {
    "id": "se-kottbullar",
    "title": "Swedish Meatballs",
    "native_name": {
@@ -15312,6 +18159,195 @@
    }
   },
   {
+   "id": "tz-chipsi-mayai",
+   "title": "Chipsi Mayai",
+   "native_name": {
+    "text": "Chipsi mayai",
+    "lang": "sw"
+   },
+   "alternate_names": [
+    "Chips omelette",
+    "Zege"
+   ],
+   "summary": "Freshly fried chips set into an omelette — Tanzania's beloved street food, served with kachumbari salad.",
+   "origin": {
+    "country": "TZ",
+    "country_name": "Tanzania",
+    "continent": "Africa",
+    "subregion": "Eastern Africa"
+   },
+   "course": "snack",
+   "dish_types": [
+    "street-food",
+    "eggs"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 2
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 20,
+    "total_min": 35
+   },
+   "difficulty": 1,
+   "techniques": [
+    "deep-frying",
+    "pan-frying"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Chipsi mayai",
+     "items": [
+      {
+       "ingredient": "potato",
+       "qty": 500,
+       "unit": "g",
+       "prep": "cut into thin chips",
+       "name": "potato"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 500,
+       "unit": "ml",
+       "note": "for frying",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "egg",
+       "qty": 4,
+       "name": "egg"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "Kachumbari",
+     "items": [
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "diced",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "red-onion",
+       "qty": 0.5,
+       "prep": "finely sliced",
+       "name": "red onion"
+      },
+      {
+       "ingredient": "cilantro",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "name": "cilantro"
+      },
+      {
+       "ingredient": "lime-juice",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "lime juice"
+      },
+      {
+       "ingredient": "green-chili",
+       "qty": 1,
+       "prep": "chopped",
+       "optional": true,
+       "name": "fresh green chili"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Mix the kachumbari ingredients with a pinch of salt."
+    },
+    {
+     "text": "Fry the chips until golden and cooked through. Drain and salt."
+    },
+    {
+     "text": "Put half the chips in a small, lightly oiled non-stick pan over medium heat. Beat 2 eggs with a pinch of salt and pour over the chips."
+    },
+    {
+     "text": "Cook until the base is set, then flip (using a plate) and cook 1–2 minutes more. Repeat."
+    }
+   ],
+   "serving": "With kachumbari, ketchup and chili sauce.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegetarian",
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "egg"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "ua-borshch",
    "title": "Borshch",
    "native_name": {
@@ -16654,6 +19690,208 @@
    }
   },
   {
+   "id": "ws-sapasui",
+   "title": "Sapasui",
+   "native_name": {
+    "text": "Sapasui",
+    "lang": "sm"
+   },
+   "alternate_names": [
+    "Samoan chop suey"
+   ],
+   "summary": "Glass noodles soaked up in a garlicky soy and ginger braise with beef — a Samoan party staple.",
+   "origin": {
+    "country": "WS",
+    "country_name": "Samoa",
+    "continent": "Oceania",
+    "subregion": "Polynesia"
+   },
+   "course": "main",
+   "dish_types": [
+    "noodles"
+   ],
+   "occasions": [
+    "Celebrations",
+    "White Sunday (Lotu Tamaiti)"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 30,
+    "inactive_min": 30,
+    "total_min": 80
+   },
+   "difficulty": 1,
+   "techniques": [
+    "stir-frying",
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "glass-noodles",
+       "qty": 250,
+       "unit": "g",
+       "name": "glass noodles"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "sliced",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "ginger",
+       "qty": 3,
+       "unit": "cm",
+       "prep": "grated",
+       "name": "fresh ginger"
+      },
+      {
+       "ingredient": "beef-chuck",
+       "qty": 500,
+       "unit": "g",
+       "prep": "thinly sliced",
+       "note": "or chicken",
+       "name": "beef chuck"
+      },
+      {
+       "ingredient": "soy-sauce",
+       "qty": 80,
+       "unit": "ml",
+       "name": "soy sauce"
+      },
+      {
+       "ingredient": "sugar",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "sugar"
+      },
+      {
+       "ingredient": "water",
+       "qty": 500,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "white-cabbage",
+       "qty": 150,
+       "unit": "g",
+       "prep": "shredded",
+       "optional": true,
+       "name": "white cabbage"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Soak the noodles in warm water until soft, then drain and cut into shorter lengths with scissors.",
+     "timer_min": 30
+    },
+    {
+     "text": "Fry the onion, garlic and ginger in the oil until fragrant. Add the beef and stir-fry until browned."
+    },
+    {
+     "text": "Add the soy sauce, sugar and water and simmer until the beef is tender.",
+     "timer_min": 15
+    },
+    {
+     "text": "Add the noodles and cabbage and toss over the heat until the noodles have absorbed most of the liquid."
+    }
+   ],
+   "culture": "Introduced by Chinese labourers who came to Samoa in the early 1900s and since adopted as a fixture of every Samoan feast.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "gluten-free": {
+      "status": "no",
+      "because": [
+       "soy sauce"
+      ]
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "gluten",
+      "soy"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "za-bobotie",
    "title": "Bobotie",
    "summary": "Gently curried minced beef with fruit and almonds, baked under a savoury egg custard — a Cape Malay classic.",
@@ -16912,6 +20150,215 @@
      "in_optional_ingredients": [
       "tree-nut"
      ]
+    }
+   }
+  },
+  {
+   "id": "zw-dovi",
+   "title": "Dovi",
+   "native_name": {
+    "text": "Dovi",
+    "lang": "sn"
+   },
+   "alternate_names": [
+    "Zimbabwean peanut butter stew"
+   ],
+   "summary": "Chicken simmered with tomato, onion and peppers in a rich peanut butter sauce, served with sadza.",
+   "origin": {
+    "country": "ZW",
+    "country_name": "Zimbabwe",
+    "continent": "Africa",
+    "subregion": "Eastern Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 50,
+    "total_min": 65
+   },
+   "difficulty": 2,
+   "techniques": [
+    "sauteing",
+    "stewing"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "chicken-thigh",
+       "qty": 1,
+       "unit": "kg",
+       "prep": "bone-in pieces",
+       "name": "chicken thigh"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 2,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "green-pepper",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "green pepper"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "water",
+       "qty": 500,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "peanut-butter",
+       "qty": 120,
+       "unit": "g",
+       "note": "smooth and unsweetened",
+       "name": "peanut butter"
+      },
+      {
+       "ingredient": "kale",
+       "qty": 200,
+       "unit": "g",
+       "prep": "shredded",
+       "optional": true,
+       "name": "kale"
+      }
+     ]
+    },
+    {
+     "name": "Sadza",
+     "items": [
+      {
+       "ingredient": "maize-flour",
+       "qty": 300,
+       "unit": "g",
+       "note": "cooked as for ugali (see the Kenyan recipe)",
+       "name": "white maize flour"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Brown the chicken in the oil. Add the onion, garlic and pepper and cook until soft."
+    },
+    {
+     "text": "Add the tomatoes, water and salt, cover and simmer until the chicken is nearly cooked.",
+     "timer_min": 25
+    },
+    {
+     "text": "Mix the peanut butter with a ladle of hot liquid until smooth, then stir it into the pot."
+    },
+    {
+     "text": "Simmer gently, stirring often so it doesn't catch, until the sauce is thick. Add the greens for the last 5 minutes.",
+     "timer_min": 15
+    },
+    {
+     "text": "Serve with sadza."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "no",
+      "because": [
+       "peanut butter"
+      ]
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "peanut"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
     }
    }
   }
