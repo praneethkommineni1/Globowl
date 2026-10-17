@@ -57,10 +57,10 @@ Each recipe has a `credit.license` from `taxonomy.licenses`:
 - **`CC0-1.0`** — public domain.
 - **`contributor-grant`** — a contributor grants Globowl a licence but not the public.
 
-**This is a business decision for you:** CC BY makes the database a public good and easier
-to grow with partners; a contributor grant keeps it proprietary. Whatever you choose, the
-contributor terms must be accepted at submission time. Changing licences later requires
-contributors' consent.
+**Decision (2026-10-17): Globowl-written recipes are CC BY 4.0.** This makes the database a
+public good that partners can build on. Contributors submitting their own recipes must accept
+contributor terms that license their submission under CC BY 4.0. Changing the licence later
+requires contributors' consent.
 
 Media (photos) carry their own `credit` and `license`, separate from the recipe text.
 
