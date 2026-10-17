@@ -1,0 +1,46 @@
+id: ne-kilishi
+title: Kilishi
+alternate_names: [Spiced dried beef]
+summary: Paper-thin sheets of beef dried, coated in a spicy peanut paste, then dried again and flashed over a fire.
+origin:
+  country: NE
+  community: Hausa
+  also_claimed_by: [NG, TD]
+course: snack
+dish_types: [dried-meat]
+authenticity: traditional
+yield: {servings: 6}
+time: {prep_min: 40, cook_min: 30, inactive_min: 360}
+difficulty: 3
+equipment: [Oven or dehydrator]
+techniques: [roasting]
+ingredient_groups:
+  - name: Beef
+    items:
+      - {ingredient: beef-steak, qty: 1, unit: kg, note: "lean topside, partially frozen so it can be sliced paper-thin"}
+  - name: Spice paste
+    items:
+      - {ingredient: roasted-peanuts, qty: 150, unit: g, prep: "finely ground", note: "kuli-kuli is traditional"}
+      - {ingredient: onion, qty: 1, prep: "blended"}
+      - {ingredient: ginger, qty: 3, unit: cm, prep: "grated"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "crushed"}
+      - {ingredient: cayenne, qty: 2, unit: tsp}
+      - {ingredient: paprika, qty: 1, unit: tbsp}
+      - {ingredient: sugar, qty: 1, unit: tbsp}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: water, qty: 120, unit: ml}
+steps:
+  - Slice the beef into wide sheets 2–3 mm thick, flattening with the knife.
+  - text: Dry the sheets on racks in a 70 °C oven (door ajar) or a dehydrator until leathery but still flexible.
+    timer_min: 180
+  - Mix the spice paste ingredients to a thick, spreadable paste.
+  - text: Coat both sides of each sheet with paste and dry again until firm.
+    timer_min: 180
+  - Grill briefly over hot coals or under a hot grill until aromatic and just crisp at the edges.
+serving: As a snack, kept in a jar for days.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

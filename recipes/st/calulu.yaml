@@ -1,0 +1,42 @@
+id: st-calulu
+title: Calulu
+native_name: {text: Calulu, lang: pt}
+summary: São Tomé's national dish — fish slowly stewed with okra, eggplant, tomato, greens and palm oil.
+origin:
+  country: ST
+  also_claimed_by: [AO]
+course: main
+dish_types: [stew, seafood]
+authenticity: traditional
+yield: {servings: 5}
+time: {prep_min: 20, cook_min: 60}
+difficulty: 2
+techniques: [stewing]
+ingredient_groups:
+  - items:
+      - {ingredient: red-palm-oil, qty: 80, unit: ml}
+      - {ingredient: onion, qty: 2, prep: "sliced"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "minced"}
+      - {ingredient: tomato, qty: 3, prep: "chopped"}
+      - {ingredient: eggplant, qty: 1, prep: "cubed"}
+      - {ingredient: okra, qty: 200, unit: g, prep: "sliced"}
+      - {ingredient: water, qty: 500, unit: ml}
+      - {ingredient: smoked-fish, qty: 200, unit: g, prep: "flaked"}
+      - {ingredient: white-fish, qty: 600, unit: g, prep: "cut into chunks"}
+      - {ingredient: spinach, qty: 200, unit: g, note: "local greens and herbs (such as folha ponto) are traditional"}
+      - {ingredient: red-chili, qty: 1, prep: "chopped"}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - Soften the onions and garlic in the palm oil. Add the tomatoes, eggplant and okra and cook for 10 minutes.
+  - text: Add the water and smoked fish and simmer until the vegetables are very soft.
+    timer_min: 25
+  - text: Add the fresh fish, greens and chili and simmer gently until the fish flakes.
+    timer_min: 15
+  - Season.
+serving: With angu (mashed banana) or rice.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

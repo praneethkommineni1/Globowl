@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "count": 133,
+ "count": 155,
  "recipes": [
   {
    "id": "ae-luqaimat",
@@ -2654,6 +2654,242 @@
    }
   },
   {
+   "id": "bf-riz-gras",
+   "title": "Riz Gras",
+   "native_name": {
+    "text": "Riz gras",
+    "lang": "fr"
+   },
+   "alternate_names": [
+    "Burkinabè rice with meat and vegetables"
+   ],
+   "summary": "Rice cooked in a rich tomato and meat stock with carrots, cabbage and eggplant — a festive dish across Burkina Faso.",
+   "origin": {
+    "country": "BF",
+    "also_claimed_by": [
+     "ML",
+     "CI"
+    ],
+    "country_name": "Burkina Faso",
+    "continent": "Africa",
+    "subregion": "Western Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "rice-dish",
+    "one-pot"
+   ],
+   "occasions": [
+    "Celebrations",
+    "Tabaski"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 80,
+    "total_min": 100
+   },
+   "difficulty": 3,
+   "techniques": [
+    "braising",
+    "rice-cooking"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 4,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "beef-chuck",
+       "qty": 600,
+       "unit": "g",
+       "prep": "cubed",
+       "note": "or chicken or mutton",
+       "name": "beef chuck"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "tomato-paste",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "tomato paste"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1.5,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "chicken-bouillon-cube",
+       "qty": 1,
+       "optional": true,
+       "name": "chicken bouillon cube"
+      },
+      {
+       "ingredient": "carrot",
+       "qty": 2,
+       "prep": "thickly sliced",
+       "name": "carrot"
+      },
+      {
+       "ingredient": "white-cabbage",
+       "qty": 300,
+       "unit": "g",
+       "prep": "cut into wedges",
+       "name": "white cabbage"
+      },
+      {
+       "ingredient": "eggplant",
+       "qty": 1,
+       "prep": "cut into chunks",
+       "name": "eggplant"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 1,
+       "note": "whole",
+       "name": "Scotch bonnet chili"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 2,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "long-grain-rice",
+       "qty": 500,
+       "unit": "g",
+       "prep": "rinsed",
+       "name": "long-grain rice"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Brown the meat in the oil. Add the onions and garlic and cook until soft, then the paste and tomatoes for 5 minutes."
+    },
+    {
+     "text": "Add the water, bouillon and salt and simmer until the meat is nearly tender.",
+     "timer_min": 40
+    },
+    {
+     "text": "Add the vegetables and Scotch bonnet and simmer until just tender. Lift them out with the meat and keep warm.",
+     "timer_min": 15
+    },
+    {
+     "text": "Measure about 900 ml of the sauce back into the pot, add the rice, cover tightly and cook on low until tender.",
+     "timer_min": 25
+    },
+    {
+     "text": "Serve the rice topped with the meat and vegetables."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "gluten-free": {
+      "status": "check-labels",
+      "check": [
+       "chicken bouillon cube"
+      ]
+     },
+     "dairy-free": {
+      "status": "check-labels",
+      "check": [
+       "chicken bouillon cube"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [
+      "celery",
+      "gluten",
+      "milk",
+      "soy"
+     ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "bg-shopska-salad",
    "title": "Shopska Salad",
    "native_name": {
@@ -2831,6 +3067,371 @@
      "may_contain": [
       "sulphite"
      ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "bi-ibiharage",
+   "title": "Ibiharage",
+   "native_name": {
+    "text": "Ibiharage",
+    "lang": "rn"
+   },
+   "alternate_names": [
+    "Burundian fried beans"
+   ],
+   "summary": "Tender red beans fried with onion, garlic and chili until lightly crisp — an everyday Burundian staple.",
+   "origin": {
+    "country": "BI",
+    "country_name": "Burundi",
+    "continent": "Africa",
+    "subregion": "Eastern Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "beans"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 10,
+    "cook_min": 20,
+    "total_min": 30
+   },
+   "difficulty": 1,
+   "techniques": [
+    "pan-frying"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "kidney-beans-canned",
+       "qty": 2,
+       "unit": "can",
+       "note": "400 g cans, drained — or 250 g dried, soaked and boiled",
+       "name": "canned red kidney beans"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 3,
+       "unit": "tbsp",
+       "alt": [
+        "red-palm-oil"
+       ],
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 2,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "green-chili",
+       "qty": 1,
+       "prep": "chopped",
+       "optional": true,
+       "name": "fresh green chili"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Fry the onion in the oil until golden, then add the garlic and chili for 1 minute."
+    },
+    {
+     "text": "Add the beans and salt and fry over medium-high heat, stirring occasionally, until the beans are hot and some have crisped.",
+     "timer_min": 10
+    }
+   ],
+   "serving": "With boiled green bananas, plantain, rice or ugali.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegan",
+     "vegetarian",
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "yes"
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "bj-amiwo",
+   "title": "Amiwo",
+   "native_name": {
+    "text": "Amiwo",
+    "lang": "fon"
+   },
+   "alternate_names": [
+    "Pâte rouge",
+    "Red cornmeal paste"
+   ],
+   "summary": "Cornmeal cooked in a spicy tomato and chicken broth into a smooth, red paste, served with the chicken — a Beninese celebration dish.",
+   "origin": {
+    "country": "BJ",
+    "also_claimed_by": [
+     "TG"
+    ],
+    "country_name": "Benin",
+    "continent": "Africa",
+    "subregion": "Western Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "porridge"
+   ],
+   "occasions": [
+    "Celebrations",
+    "Weddings"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 5
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 60,
+    "total_min": 75
+   },
+   "difficulty": 3,
+   "techniques": [
+    "simmering",
+    "pan-frying"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Chicken and broth",
+     "items": [
+      {
+       "ingredient": "chicken-thigh",
+       "qty": 1,
+       "unit": "kg",
+       "prep": "bone-in pieces",
+       "name": "chicken thigh"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1.2,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "1 chopped, 1 blended",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "ginger",
+       "qty": 2,
+       "unit": "cm",
+       "prep": "grated",
+       "name": "fresh ginger"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 2,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 4,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "tomato-paste",
+       "qty": 4,
+       "unit": "tbsp",
+       "name": "tomato paste"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 3,
+       "prep": "blended",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 1,
+       "prep": "blended",
+       "name": "Scotch bonnet chili"
+      }
+     ]
+    },
+    {
+     "name": "Amiwo",
+     "items": [
+      {
+       "ingredient": "cornmeal",
+       "qty": 300,
+       "unit": "g",
+       "note": "fine white or yellow",
+       "name": "cornmeal"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Simmer the chicken in the water with the chopped onion, garlic, ginger and salt until cooked. Lift out the chicken and keep the broth.",
+     "timer_min": 35
+    },
+    {
+     "text": "Fry the chicken pieces in the oil until golden; set aside. In the same oil fry the blended onion, tomato paste, tomatoes and chili until thick and darkened (10 minutes)."
+    },
+    {
+     "text": "Add 1 litre of the broth and bring to a boil."
+    },
+    {
+     "text": "Gradually whisk in the cornmeal, then switch to a wooden spoon and stir hard over low heat until smooth, thick and pulling from the sides (about 10 minutes)."
+    },
+    {
+     "text": "Serve the red paste with the chicken and a little extra sauce."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
      "in_optional_ingredients": []
     }
    }
@@ -3860,6 +4461,388 @@
       "celery"
      ],
      "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "cd-poulet-moambe",
+   "title": "Poulet à la Moambé",
+   "native_name": {
+    "text": "Poulet à la moambé",
+    "lang": "fr"
+   },
+   "alternate_names": [
+    "Moambe chicken"
+   ],
+   "summary": "Chicken simmered in a rich, orange sauce of palm nut pulp with tomato, onion and chili — the national dish of the Congo.",
+   "origin": {
+    "country": "CD",
+    "also_claimed_by": [
+     "CG",
+     "AO"
+    ],
+    "country_name": "DR Congo",
+    "continent": "Africa",
+    "subregion": "Middle Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 5
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 60,
+    "total_min": 75
+   },
+   "difficulty": 2,
+   "techniques": [
+    "pan-frying",
+    "stewing"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "chicken-thigh",
+       "qty": 1.2,
+       "unit": "kg",
+       "prep": "bone-in pieces",
+       "name": "chicken thigh"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "palm-nut-cream",
+       "qty": 400,
+       "unit": "g",
+       "note": "canned palm butter / sauce graine",
+       "name": "palm nut cream"
+      },
+      {
+       "ingredient": "water",
+       "qty": 300,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 1,
+       "note": "whole",
+       "name": "Scotch bonnet chili"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Season the chicken with salt and brown it in the oil. Add the onions and garlic and cook until soft."
+    },
+    {
+     "text": "Add the tomatoes and cook for 5 minutes."
+    },
+    {
+     "text": "Stir in the palm nut cream, water and Scotch bonnet. Simmer, partly covered and stirring occasionally, until the chicken is tender and the sauce is thick and glossy with red oil on top.",
+     "timer_min": 45
+    }
+   ],
+   "serving": "With rice, fufu or pondu (cassava leaves).",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "cg-saka-saka",
+   "title": "Saka-Saka",
+   "native_name": {
+    "text": "Saka-saka",
+    "lang": "fr"
+   },
+   "alternate_names": [
+    "Pondu",
+    "Cassava leaf stew"
+   ],
+   "summary": "Pounded cassava leaves slowly stewed with palm oil, onion, garlic and smoked fish until rich and silky.",
+   "origin": {
+    "country": "CG",
+    "also_claimed_by": [
+     "CD",
+     "AO"
+    ],
+    "country_name": "Republic of the Congo",
+    "continent": "Africa",
+    "subregion": "Middle Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "greens",
+    "stew"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 5
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 120,
+    "total_min": 135
+   },
+   "difficulty": 2,
+   "techniques": [
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "cassava-leaves",
+       "qty": 900,
+       "unit": "g",
+       "note": "frozen ground cassava leaves, thawed",
+       "name": "cassava leaves"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "red-palm-oil",
+       "qty": 120,
+       "unit": "ml",
+       "name": "red palm oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "green-pepper",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "green pepper"
+      },
+      {
+       "ingredient": "eggplant",
+       "qty": 1,
+       "prep": "cubed",
+       "optional": true,
+       "name": "eggplant"
+      },
+      {
+       "ingredient": "smoked-fish",
+       "qty": 150,
+       "unit": "g",
+       "prep": "flaked",
+       "optional": true,
+       "name": "smoked fish"
+      },
+      {
+       "ingredient": "peanut-butter",
+       "qty": 2,
+       "unit": "tbsp",
+       "optional": true,
+       "name": "peanut butter"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Simmer the cassava leaves in the water, covered and stirring occasionally, until they lose their bitterness and darken. Cassava leaves must be cooked thoroughly.",
+     "timer_min": 60
+    },
+    {
+     "text": "Add the palm oil, onions, garlic, pepper and eggplant."
+    },
+    {
+     "text": "Simmer, stirring often, until thick and the leaves are very tender. Add the smoked fish and peanut butter for the last 15 minutes.",
+     "timer_min": 50
+    },
+    {
+     "text": "Season with salt."
+    }
+   ],
+   "serving": "With fufu, chikwangue (cassava bread) or rice.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "adaptable",
+      "changes": [
+       "omit smoked fish"
+      ]
+     },
+     "vegetarian": {
+      "status": "adaptable",
+      "changes": [
+       "omit smoked fish"
+      ]
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "adaptable",
+      "changes": [
+       "omit peanut butter"
+      ]
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": [
+      "fish",
+      "peanut"
+     ]
     }
    }
   },
@@ -6308,6 +7291,225 @@
    }
   },
   {
+   "id": "dj-skoudehkaris",
+   "title": "Skoudehkaris",
+   "alternate_names": [
+    "Djiboutian lamb and rice"
+   ],
+   "summary": "Djibouti's national dish — lamb and rice cooked together with tomato, cardamom, cumin and cinnamon.",
+   "origin": {
+    "country": "DJ",
+    "country_name": "Djibouti",
+    "continent": "Africa",
+    "subregion": "Eastern Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "rice-dish",
+    "one-pot"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 5
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 75,
+    "inactive_min": 20,
+    "total_min": 110
+   },
+   "difficulty": 3,
+   "techniques": [
+    "braising",
+    "rice-cooking"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "basmati-rice",
+       "qty": 400,
+       "unit": "g",
+       "name": "basmati rice"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "lamb-shoulder",
+       "qty": 600,
+       "unit": "g",
+       "prep": "cut into 3 cm pieces",
+       "name": "lamb shoulder"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "tomato-paste",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "tomato paste"
+      },
+      {
+       "ingredient": "ground-cardamom",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground cardamom"
+      },
+      {
+       "ingredient": "ground-cumin",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "ground cumin"
+      },
+      {
+       "ingredient": "cinnamon-stick",
+       "qty": 1,
+       "name": "cinnamon stick"
+      },
+      {
+       "ingredient": "whole-cloves",
+       "qty": 3,
+       "name": "whole cloves"
+      },
+      {
+       "ingredient": "green-chili",
+       "qty": 1,
+       "prep": "chopped",
+       "optional": true,
+       "name": "fresh green chili"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1.1,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 2,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "cilantro",
+       "qty": 1,
+       "unit": "handful",
+       "prep": "chopped",
+       "name": "cilantro"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Rinse and soak the rice.",
+     "timer_min": 20
+    },
+    {
+     "text": "Brown the lamb in the oil, add the onions and cook until golden, then the garlic, tomato, paste, spices and chili for 3 minutes."
+    },
+    {
+     "text": "Add 500 ml water and half the salt, cover and simmer until the lamb is tender.",
+     "timer_min": 45
+    },
+    {
+     "text": "Add the drained rice, remaining water and salt, bring to a boil, then cover tightly and cook on low until tender.",
+     "timer_min": 20
+    },
+    {
+     "text": "Fluff and serve topped with cilantro."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "lamb shoulder"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "lamb shoulder"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "lamb shoulder"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "dk-frikadeller",
    "title": "Frikadeller",
    "native_name": {
@@ -8735,6 +9937,194 @@
    }
   },
   {
+   "id": "ga-poulet-nyembwe",
+   "title": "Poulet Nyembwe",
+   "native_name": {
+    "text": "Poulet nyembwe",
+    "lang": "fr"
+   },
+   "summary": "Gabon's national dish — chicken braised in palm nut sauce with okra and a little chili.",
+   "origin": {
+    "country": "GA",
+    "also_claimed_by": [
+     "CG",
+     "CD"
+    ],
+    "country_name": "Gabon",
+    "continent": "Africa",
+    "subregion": "Middle Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 5
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 60,
+    "total_min": 75
+   },
+   "difficulty": 2,
+   "techniques": [
+    "pan-frying",
+    "stewing"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "chicken-thigh",
+       "qty": 1.2,
+       "unit": "kg",
+       "prep": "bone-in pieces",
+       "name": "chicken thigh"
+      },
+      {
+       "ingredient": "lemon-juice",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "lemon juice"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "palm-nut-cream",
+       "qty": 400,
+       "unit": "g",
+       "name": "palm nut cream"
+      },
+      {
+       "ingredient": "water",
+       "qty": 300,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "okra",
+       "qty": 150,
+       "unit": "g",
+       "prep": "sliced",
+       "optional": true,
+       "name": "okra"
+      },
+      {
+       "ingredient": "red-chili",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "fresh red chili"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Season the chicken with lemon and salt, then brown it in the oil with the onion and garlic."
+    },
+    {
+     "text": "Add the palm nut cream, water and chili, and simmer until the chicken is tender.",
+     "timer_min": 40
+    },
+    {
+     "text": "Add the okra for the last 10 minutes."
+    }
+   ],
+   "serving": "With rice or plantain.",
+   "culture": "Nyembwe is the Gabonese name for the palm nut sauce shared across Central Africa (moambé in the Congos).",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "chicken thigh"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "gb-shepherds-pie",
    "title": "Shepherd's Pie",
    "summary": "Minced lamb slowly cooked with vegetables in a rich gravy, under a thick, golden layer of mashed potato.",
@@ -9648,6 +11038,224 @@
    }
   },
   {
+   "id": "gn-fonio-sauce-gombo",
+   "title": "Fonio with Sauce Gombo",
+   "native_name": {
+    "text": "Fonio sauce gombo",
+    "lang": "fr"
+   },
+   "alternate_names": [
+    "Fonio with okra sauce"
+   ],
+   "summary": "Fluffy steamed fonio — an ancient West African grain — served with a beefy okra and palm oil sauce.",
+   "origin": {
+    "country": "GN",
+    "region": "Fouta Djallon",
+    "also_claimed_by": [
+     "ML",
+     "SN"
+    ],
+    "country_name": "Guinea",
+    "continent": "Africa",
+    "subregion": "Western Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "grain",
+    "stew"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 60,
+    "total_min": 75
+   },
+   "difficulty": 2,
+   "techniques": [
+    "stewing",
+    "steaming"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Sauce gombo",
+     "items": [
+      {
+       "ingredient": "red-palm-oil",
+       "qty": 4,
+       "unit": "tbsp",
+       "name": "red palm oil"
+      },
+      {
+       "ingredient": "beef-chuck",
+       "qty": 400,
+       "unit": "g",
+       "prep": "cubed",
+       "name": "beef chuck"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "water",
+       "qty": 750,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "okra",
+       "qty": 300,
+       "unit": "g",
+       "prep": "finely chopped",
+       "name": "okra"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 1,
+       "note": "whole",
+       "name": "Scotch bonnet chili"
+      },
+      {
+       "ingredient": "smoked-fish",
+       "qty": 80,
+       "unit": "g",
+       "prep": "flaked",
+       "optional": true,
+       "name": "smoked fish"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "Fonio",
+     "items": [
+      {
+       "ingredient": "fonio",
+       "qty": 300,
+       "unit": "g",
+       "prep": "rinsed",
+       "name": "fonio"
+      },
+      {
+       "ingredient": "water",
+       "qty": 450,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Brown the beef in the palm oil with the onion, then add the tomato and cook 5 minutes."
+    },
+    {
+     "text": "Add the water and simmer until the beef is tender.",
+     "timer_min": 40
+    },
+    {
+     "text": "Add the okra, Scotch bonnet and smoked fish and simmer until the sauce is thick and slightly stretchy.",
+     "timer_min": 15
+    },
+    {
+     "text": "Meanwhile bring the water and salt to a boil, stir in the fonio, cover and take off the heat for 5 minutes. Fluff with a fork."
+    },
+    {
+     "text": "Serve the fonio with the sauce."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": [
+      "fish"
+     ]
+    }
+   }
+  },
+  {
    "id": "gr-fasolada",
    "title": "Fasolada",
    "native_name": {
@@ -10104,6 +11712,184 @@
     "allergens": {
      "contains": [
       "sesame"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "gw-caldo-de-chabeu",
+   "title": "Caldo de Chabéu",
+   "native_name": {
+    "text": "Caldo de chabéu",
+    "lang": "pt"
+   },
+   "alternate_names": [
+    "Palm nut soup with fish"
+   ],
+   "summary": "Fish or chicken simmered in a rich palm-nut sauce with onion, tomato, lime and chili — Guinea-Bissau's national dish.",
+   "origin": {
+    "country": "GW",
+    "country_name": "Guinea-Bissau",
+    "continent": "Africa",
+    "subregion": "Western Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 5
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 50,
+    "total_min": 65
+   },
+   "difficulty": 2,
+   "techniques": [
+    "stewing"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "palm-nut-cream",
+       "qty": 400,
+       "unit": "g",
+       "name": "palm nut cream"
+      },
+      {
+       "ingredient": "water",
+       "qty": 500,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "sliced",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 1,
+       "note": "whole",
+       "name": "Scotch bonnet chili"
+      },
+      {
+       "ingredient": "white-fish",
+       "qty": 800,
+       "unit": "g",
+       "prep": "thick steaks",
+       "note": "or chicken pieces",
+       "name": "firm white fish"
+      },
+      {
+       "ingredient": "lime-juice",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "lime juice"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Season the fish with lime and salt."
+    },
+    {
+     "text": "Simmer the palm nut cream with the water, onions, garlic, tomatoes and Scotch bonnet, stirring, until thickened and red oil rises.",
+     "timer_min": 30
+    },
+    {
+     "text": "Add the fish and simmer gently until cooked.",
+     "timer_min": 12
+    }
+   ],
+   "serving": "With white rice.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "firm white fish"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "firm white fish"
+      ]
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "fish"
      ],
      "may_contain": [],
      "in_optional_ingredients": []
@@ -13556,6 +15342,189 @@
    }
   },
   {
+   "id": "km-langouste-a-la-vanille",
+   "title": "Langouste à la Vanille",
+   "native_name": {
+    "text": "Langouste à la vanille",
+    "lang": "fr"
+   },
+   "alternate_names": [
+    "Lobster in vanilla sauce"
+   ],
+   "summary": "Lobster tails in a fragrant sauce of coconut milk and Comorian vanilla — the islands' celebration dish.",
+   "origin": {
+    "country": "KM",
+    "country_name": "Comoros",
+    "continent": "Africa",
+    "subregion": "Eastern Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "seafood"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 20,
+    "total_min": 35
+   },
+   "difficulty": 2,
+   "techniques": [
+    "sauteing",
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "lobster-tail",
+       "qty": 4,
+       "note": "split lengthwise",
+       "name": "lobster tail"
+      },
+      {
+       "ingredient": "butter",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "butter"
+      },
+      {
+       "ingredient": "shallot",
+       "qty": 2,
+       "prep": "finely chopped",
+       "name": "shallot"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 1,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "vanilla-bean",
+       "qty": 1,
+       "prep": "split and seeds scraped",
+       "name": "vanilla bean"
+      },
+      {
+       "ingredient": "coconut-milk",
+       "qty": 200,
+       "unit": "ml",
+       "name": "coconut milk"
+      },
+      {
+       "ingredient": "lime-juice",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "lime juice"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      },
+      {
+       "ingredient": "white-pepper",
+       "note": "to taste",
+       "name": "ground white pepper"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Sear the lobster tails flesh-side down in the butter for 2 minutes. Set aside."
+    },
+    {
+     "text": "Soften the shallot and garlic in the same pan. Add the vanilla seeds and pod and the coconut milk and simmer for 5 minutes."
+    },
+    {
+     "text": "Return the lobster, cover and simmer gently until the flesh is just opaque.",
+     "timer_min": 5
+    },
+    {
+     "text": "Remove the vanilla pod, add the lime juice and season."
+    }
+   ],
+   "serving": "With white rice.",
+   "culture": "The Comoros are among the world's leading vanilla producers.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "pescatarian",
+     "gluten-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "butter",
+       "lobster tail"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "lobster tail"
+      ]
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "butter"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "crustacean",
+      "milk"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "kr-kimchi-jjigae",
    "title": "Kimchi Jjigae",
    "native_name": {
@@ -14615,6 +16584,368 @@
      "contains": [
       "mustard"
      ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "lr-rice-bread",
+   "title": "Liberian Rice Bread",
+   "summary": "A moist, banana-sweetened quick bread made with rice flour and warm spices — a Liberian favourite.",
+   "origin": {
+    "country": "LR",
+    "country_name": "Liberia",
+    "continent": "Africa",
+    "subregion": "Western Africa"
+   },
+   "course": "bread",
+   "dish_types": [
+    "quick-bread",
+    "cake"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 10,
+    "amount": "1 loaf"
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 50,
+    "total_min": 65
+   },
+   "difficulty": 1,
+   "equipment": [
+    "23 × 13 cm loaf tin"
+   ],
+   "techniques": [
+    "baking"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "rice-flour",
+       "qty": 300,
+       "unit": "g",
+       "note": "cream of rice is traditional",
+       "name": "rice flour"
+      },
+      {
+       "ingredient": "baking-powder",
+       "qty": 2,
+       "unit": "tsp",
+       "name": "baking powder"
+      },
+      {
+       "ingredient": "nutmeg",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "nutmeg"
+      },
+      {
+       "ingredient": "ground-ginger",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground ginger"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "banana",
+       "qty": 3,
+       "prep": "very ripe, mashed",
+       "name": "banana"
+      },
+      {
+       "ingredient": "sugar",
+       "qty": 100,
+       "unit": "g",
+       "name": "sugar"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 120,
+       "unit": "ml",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "milk",
+       "qty": 250,
+       "unit": "ml",
+       "name": "milk"
+      },
+      {
+       "ingredient": "egg",
+       "qty": 2,
+       "name": "egg"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Heat the oven to 175 °C and grease the tin."
+    },
+    {
+     "text": "Mix the dry ingredients. In another bowl beat the bananas, sugar, oil, milk and eggs."
+    },
+    {
+     "text": "Combine into a thick, smooth batter and pour into the tin."
+    },
+    {
+     "text": "Bake until golden and a skewer comes out clean.",
+     "timer_min": 50
+    },
+    {
+     "text": "Cool before slicing."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegetarian",
+     "pescatarian",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "egg",
+       "milk"
+      ]
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "check-labels",
+      "check": [
+       "baking powder"
+      ]
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "milk"
+      ]
+     },
+     "egg-free": {
+      "status": "no",
+      "because": [
+       "egg"
+      ]
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "egg",
+      "milk"
+     ],
+     "may_contain": [
+      "gluten"
+     ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "ls-papa-le-moroho",
+   "title": "Papa le Moroho",
+   "native_name": {
+    "text": "Papa le moroho",
+    "lang": "st"
+   },
+   "summary": "Stiff maize porridge served with moroho — greens cooked down with onion and tomato — the backbone of Basotho meals.",
+   "origin": {
+    "country": "LS",
+    "also_claimed_by": [
+     "ZA"
+    ],
+    "country_name": "Lesotho",
+    "continent": "Africa",
+    "subregion": "Southern Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "porridge",
+    "greens"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 10,
+    "cook_min": 30,
+    "total_min": 40
+   },
+   "difficulty": 1,
+   "techniques": [
+    "boiling",
+    "sauteing"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Papa",
+     "items": [
+      {
+       "ingredient": "water",
+       "qty": 1,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "maize-flour",
+       "qty": 350,
+       "unit": "g",
+       "name": "white maize flour"
+      }
+     ]
+    },
+    {
+     "name": "Moroho",
+     "items": [
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "spinach",
+       "qty": 500,
+       "unit": "g",
+       "prep": "chopped",
+       "note": "or cabbage or wild greens",
+       "name": "spinach"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Make the papa as for sishwala or ugali — boiling water, a third of the flour for a thin porridge, then the rest, stirred until stiff. Cover and steam on low for 15 minutes."
+    },
+    {
+     "text": "For the moroho, fry the onion in the oil, add the tomatoes and cook down, then add the greens and salt and cook until tender."
+    },
+    {
+     "text": "Serve the papa with the moroho."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegan",
+     "vegetarian",
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "yes"
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
      "may_contain": [],
      "in_optional_ingredients": []
     }
@@ -16036,6 +18367,221 @@
    }
   },
   {
+   "id": "ml-maafe",
+   "title": "Maafe",
+   "native_name": {
+    "text": "Tigadèguèna",
+    "lang": "bm"
+   },
+   "alternate_names": [
+    "Mafé",
+    "Groundnut stew"
+   ],
+   "summary": "Lamb or beef stewed in a thick tomato and peanut sauce with root vegetables — a West African classic with Malian roots.",
+   "origin": {
+    "country": "ML",
+    "community": "Bambara and Mandinka",
+    "also_claimed_by": [
+     "SN",
+     "GM",
+     "GN"
+    ],
+    "country_name": "Mali",
+    "continent": "Africa",
+    "subregion": "Western Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 5
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 90,
+    "total_min": 110
+   },
+   "difficulty": 2,
+   "techniques": [
+    "sauteing",
+    "stewing"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "lamb-shoulder",
+       "qty": 700,
+       "unit": "g",
+       "prep": "cubed",
+       "note": "or beef",
+       "name": "lamb shoulder"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "tomato-paste",
+       "qty": 3,
+       "unit": "tbsp",
+       "name": "tomato paste"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "peanut-butter",
+       "qty": 200,
+       "unit": "g",
+       "note": "smooth and unsweetened",
+       "name": "peanut butter"
+      },
+      {
+       "ingredient": "carrot",
+       "qty": 2,
+       "prep": "chunked",
+       "name": "carrot"
+      },
+      {
+       "ingredient": "sweet-potato",
+       "qty": 1,
+       "prep": "chunked",
+       "name": "sweet potato"
+      },
+      {
+       "ingredient": "white-cabbage",
+       "qty": 200,
+       "unit": "g",
+       "prep": "wedges",
+       "optional": true,
+       "name": "white cabbage"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 1,
+       "note": "whole",
+       "name": "Scotch bonnet chili"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Brown the meat in the oil, add the onions and garlic, then the tomato paste, and fry for 3 minutes."
+    },
+    {
+     "text": "Add the water and simmer until the meat is nearly tender.",
+     "timer_min": 45
+    },
+    {
+     "text": "Whisk the peanut butter with a ladle of broth and stir it in, then add the vegetables and Scotch bonnet."
+    },
+    {
+     "text": "Simmer, stirring regularly, until the vegetables are tender and the sauce is thick with oil on the surface.",
+     "timer_min": 30
+    }
+   ],
+   "serving": "With white rice or fonio.",
+   "culture": "Gambian domoda and Senegalese mafé are close cousins of this dish.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "lamb shoulder"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "lamb shoulder"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "lamb shoulder"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "no",
+      "because": [
+       "peanut butter"
+      ]
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "peanut"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "mm-mohinga",
    "title": "Mohinga",
    "native_name": {
@@ -16513,6 +19059,248 @@
     "allergens": {
      "contains": [
       "gluten"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "mr-thieb",
+   "title": "Thieb",
+   "alternate_names": [
+    "Thieboudienne",
+    "Mauritanian fish and rice"
+   ],
+   "summary": "Fish stuffed with a parsley-garlic-chili paste, cooked in tomato broth with vegetables, then rice cooked in the same broth.",
+   "origin": {
+    "country": "MR",
+    "also_claimed_by": [
+     "SN"
+    ],
+    "country_name": "Mauritania",
+    "continent": "Africa",
+    "subregion": "Western Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "rice-dish",
+    "seafood"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 30,
+    "cook_min": 90,
+    "total_min": 120
+   },
+   "difficulty": 4,
+   "techniques": [
+    "pan-frying",
+    "simmering",
+    "rice-cooking"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Stuffing (roff)",
+     "items": [
+      {
+       "ingredient": "parsley",
+       "qty": 1,
+       "unit": "bunch",
+       "name": "flat-leaf parsley"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 4,
+       "unit": "clove",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 0.5,
+       "name": "Scotch bonnet chili"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "Fish and broth",
+     "items": [
+      {
+       "ingredient": "white-fish",
+       "qty": 1,
+       "unit": "kg",
+       "note": "thick steaks of grouper or similar",
+       "name": "firm white fish"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 120,
+       "unit": "ml",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "tomato-paste",
+       "qty": 4,
+       "unit": "tbsp",
+       "name": "tomato paste"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1.5,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "carrot",
+       "qty": 2,
+       "prep": "halved",
+       "name": "carrot"
+      },
+      {
+       "ingredient": "eggplant",
+       "qty": 1,
+       "prep": "quartered",
+       "name": "eggplant"
+      },
+      {
+       "ingredient": "white-cabbage",
+       "qty": 300,
+       "unit": "g",
+       "prep": "wedges",
+       "name": "white cabbage"
+      },
+      {
+       "ingredient": "sweet-potato",
+       "qty": 1,
+       "prep": "chunked",
+       "name": "sweet potato"
+      },
+      {
+       "ingredient": "dried-red-chili",
+       "qty": 1,
+       "optional": true,
+       "name": "dried red chili"
+      }
+     ]
+    },
+    {
+     "name": "Rice",
+     "items": [
+      {
+       "ingredient": "long-grain-rice",
+       "qty": 600,
+       "unit": "g",
+       "note": "broken rice is traditional",
+       "name": "long-grain rice"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Pound or blend the stuffing ingredients. Cut deep slits in the fish and pack them with the paste."
+    },
+    {
+     "text": "Fry the fish in the oil until golden on both sides; set aside. Fry the onions in the same oil, add the tomato paste and fry until darkened."
+    },
+    {
+     "text": "Add the water, vegetables and chili and simmer until just tender. Return the fish for the last 15 minutes.",
+     "timer_min": 35
+    },
+    {
+     "text": "Lift out the fish and vegetables and keep warm. Measure about 1 litre of the broth back into the pot."
+    },
+    {
+     "text": "Add the rinsed rice, season, cover tightly and cook on low until tender. Let the bottom crisp a little.",
+     "timer_min": 30
+    },
+    {
+     "text": "Serve the rice on a large platter with the fish and vegetables on top."
+    }
+   ],
+   "culture": "Shared along both banks of the Senegal River; Senegal considers thieboudienne its national dish, and it is equally loved in Mauritania.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "firm white fish"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "firm white fish"
+      ]
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "fish"
      ],
      "may_contain": [],
      "in_optional_ingredients": []
@@ -18212,6 +21000,214 @@
     },
     "allergens": {
      "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "ne-kilishi",
+   "title": "Kilishi",
+   "alternate_names": [
+    "Spiced dried beef"
+   ],
+   "summary": "Paper-thin sheets of beef dried, coated in a spicy peanut paste, then dried again and flashed over a fire.",
+   "origin": {
+    "country": "NE",
+    "community": "Hausa",
+    "also_claimed_by": [
+     "NG",
+     "TD"
+    ],
+    "country_name": "Niger",
+    "continent": "Africa",
+    "subregion": "Western Africa"
+   },
+   "course": "snack",
+   "dish_types": [
+    "dried-meat"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 40,
+    "cook_min": 30,
+    "inactive_min": 360,
+    "total_min": 430
+   },
+   "difficulty": 3,
+   "equipment": [
+    "Oven or dehydrator"
+   ],
+   "techniques": [
+    "roasting"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Beef",
+     "items": [
+      {
+       "ingredient": "beef-steak",
+       "qty": 1,
+       "unit": "kg",
+       "note": "lean topside, partially frozen so it can be sliced paper-thin",
+       "name": "beef steak"
+      }
+     ]
+    },
+    {
+     "name": "Spice paste",
+     "items": [
+      {
+       "ingredient": "roasted-peanuts",
+       "qty": 150,
+       "unit": "g",
+       "prep": "finely ground",
+       "note": "kuli-kuli is traditional",
+       "name": "roasted peanuts"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "blended",
+       "name": "onion"
+      },
+      {
+       "ingredient": "ginger",
+       "qty": 3,
+       "unit": "cm",
+       "prep": "grated",
+       "name": "fresh ginger"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "cayenne",
+       "qty": 2,
+       "unit": "tsp",
+       "name": "cayenne pepper"
+      },
+      {
+       "ingredient": "paprika",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "paprika"
+      },
+      {
+       "ingredient": "sugar",
+       "qty": 1,
+       "unit": "tbsp",
+       "name": "sugar"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "water",
+       "qty": 120,
+       "unit": "ml",
+       "name": "water"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Slice the beef into wide sheets 2–3 mm thick, flattening with the knife."
+    },
+    {
+     "text": "Dry the sheets on racks in a 70 °C oven (door ajar) or a dehydrator until leathery but still flexible.",
+     "timer_min": 180
+    },
+    {
+     "text": "Mix the spice paste ingredients to a thick, spreadable paste."
+    },
+    {
+     "text": "Coat both sides of each sheet with paste and dry again until firm.",
+     "timer_min": 180
+    },
+    {
+     "text": "Grill briefly over hot coals or under a hot grill until aromatic and just crisp at the edges."
+    }
+   ],
+   "serving": "As a snack, kept in a jar for days.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "beef steak"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "beef steak"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "beef steak"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "no",
+      "because": [
+       "roasted peanuts"
+      ]
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "peanut"
+     ],
      "may_contain": [],
      "in_optional_ingredients": []
     }
@@ -22132,6 +25128,208 @@
    }
   },
   {
+   "id": "sc-kari-zourit",
+   "title": "Kari Zourit",
+   "native_name": {
+    "text": "Kari zourit",
+    "lang": "crs"
+   },
+   "alternate_names": [
+    "Seychellois octopus curry"
+   ],
+   "summary": "Tender octopus simmered in a coconut milk curry with ginger, cinnamon and curry leaves — a Creole classic of the Seychelles.",
+   "origin": {
+    "country": "SC",
+    "country_name": "Seychelles",
+    "continent": "Africa",
+    "subregion": "Eastern Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "curry",
+    "seafood"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 90,
+    "total_min": 105
+   },
+   "difficulty": 3,
+   "techniques": [
+    "boiling",
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "octopus",
+       "qty": 1,
+       "unit": "kg",
+       "note": "cleaned; frozen octopus is often more tender",
+       "name": "octopus"
+      },
+      {
+       "ingredient": "vegetable-oil",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "vegetable oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "ginger",
+       "qty": 2,
+       "unit": "cm",
+       "prep": "grated",
+       "name": "fresh ginger"
+      },
+      {
+       "ingredient": "curry-leaves",
+       "qty": 8,
+       "name": "curry leaves"
+      },
+      {
+       "ingredient": "cinnamon-stick",
+       "qty": 1,
+       "name": "cinnamon stick"
+      },
+      {
+       "ingredient": "curry-powder",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "curry powder"
+      },
+      {
+       "ingredient": "ground-turmeric",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "ground turmeric"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "coconut-milk",
+       "qty": 400,
+       "unit": "ml",
+       "name": "coconut milk"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Simmer the octopus in unsalted water until tender when pierced. Drain and cut into pieces.",
+     "timer_min": 60
+    },
+    {
+     "text": "Fry the onion, garlic, ginger, curry leaves and cinnamon in the oil until soft. Add the curry powder and turmeric and fry 1 minute."
+    },
+    {
+     "text": "Add the tomato, octopus and coconut milk and simmer until the sauce thickens.",
+     "timer_min": 20
+    },
+    {
+     "text": "Season with salt."
+    }
+   ],
+   "serving": "With rice and a green papaya or mango chutney.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "octopus"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "octopus"
+      ]
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "mollusc"
+     ],
+     "may_contain": [
+      "celery",
+      "mustard"
+     ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "sd-ful-medames",
    "title": "Ful Medames",
    "native_name": {
@@ -23289,6 +26487,211 @@
    }
   },
   {
+   "id": "sl-cassava-leaf-stew",
+   "title": "Cassava Leaf Stew",
+   "alternate_names": [
+    "Plasas",
+    "Cassava leaves"
+   ],
+   "summary": "Pounded cassava leaves simmered for hours with palm oil, meat, smoked fish and a little peanut — Sierra Leone's best-loved stew.",
+   "origin": {
+    "country": "SL",
+    "also_claimed_by": [
+     "LR",
+     "GN"
+    ],
+    "country_name": "Sierra Leone",
+    "continent": "Africa",
+    "subregion": "Western Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "greens",
+    "stew"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 6
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 120,
+    "total_min": 140
+   },
+   "difficulty": 2,
+   "techniques": [
+    "stewing"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "beef-chuck",
+       "qty": 500,
+       "unit": "g",
+       "prep": "cubed",
+       "note": "or chicken",
+       "name": "beef chuck"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "water",
+       "qty": 1.2,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "cassava-leaves",
+       "qty": 900,
+       "unit": "g",
+       "note": "frozen pounded cassava leaves, thawed",
+       "name": "cassava leaves"
+      },
+      {
+       "ingredient": "red-palm-oil",
+       "qty": 120,
+       "unit": "ml",
+       "name": "red palm oil"
+      },
+      {
+       "ingredient": "smoked-fish",
+       "qty": 150,
+       "unit": "g",
+       "prep": "flaked",
+       "name": "smoked fish"
+      },
+      {
+       "ingredient": "peanut-butter",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "peanut butter"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "Scotch bonnet chili"
+      },
+      {
+       "ingredient": "chicken-bouillon-cube",
+       "qty": 1,
+       "optional": true,
+       "name": "chicken bouillon cube"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Simmer the meat with half the onion, the salt and water until partly tender.",
+     "timer_min": 30
+    },
+    {
+     "text": "Add the cassava leaves and the rest of the onion and simmer, covered, stirring often. Cassava leaves must be cooked thoroughly.",
+     "timer_min": 50
+    },
+    {
+     "text": "Add the palm oil, smoked fish, peanut butter, chili and bouillon and simmer, stirring, until thick and the oil glistens.",
+     "timer_min": 30
+    }
+   ],
+   "serving": "Over white rice.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "egg-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "beef chuck",
+       "smoked fish"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "beef chuck",
+       "smoked fish"
+      ]
+     },
+     "pescatarian": {
+      "status": "no",
+      "because": [
+       "beef chuck"
+      ]
+     },
+     "gluten-free": {
+      "status": "check-labels",
+      "check": [
+       "chicken bouillon cube"
+      ]
+     },
+     "dairy-free": {
+      "status": "check-labels",
+      "check": [
+       "chicken bouillon cube"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "no",
+      "because": [
+       "peanut butter"
+      ]
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "fish",
+      "peanut"
+     ],
+     "may_contain": [
+      "celery",
+      "gluten",
+      "milk",
+      "soy"
+     ],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "sn-chicken-yassa",
    "title": "Chicken Yassa",
    "alternate_names": [
@@ -23778,6 +27181,353 @@
    }
   },
   {
+   "id": "ss-kisra",
+   "title": "Kisra",
+   "alternate_names": [
+    "Sorghum flatbread"
+   ],
+   "summary": "Thin, tangy flatbread made from fermented sorghum batter, spread paper-thin on a hot griddle — eaten with stews across South Sudan and Sudan.",
+   "origin": {
+    "country": "SS",
+    "also_claimed_by": [
+     "SD"
+    ],
+    "country_name": "South Sudan",
+    "continent": "Africa",
+    "subregion": "Eastern Africa"
+   },
+   "course": "bread",
+   "dish_types": [
+    "flatbread"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4,
+    "amount": "about 12 sheets"
+   },
+   "time": {
+    "prep_min": 10,
+    "cook_min": 40,
+    "inactive_min": 720,
+    "total_min": 770
+   },
+   "difficulty": 3,
+   "equipment": [
+    "Large flat griddle",
+    "A flexible spatula or straight-edged scraper"
+   ],
+   "techniques": [
+    "fermenting",
+    "pan-frying"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "sorghum-flour",
+       "qty": 300,
+       "unit": "g",
+       "name": "sorghum flour"
+      },
+      {
+       "ingredient": "water",
+       "qty": 600,
+       "unit": "ml",
+       "note": "lukewarm",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Whisk the flour and water into a thin batter. Cover and leave at warm room temperature to ferment until bubbly and sour-smelling.",
+     "timer_min": 720
+    },
+    {
+     "text": "Stir in the salt; the batter should be like thin crêpe batter."
+    },
+    {
+     "text": "Heat the ungreased griddle until a drop of water dances. Pour a ladle of batter at one side and spread it across in one quick sweep with the scraper, as thin as possible."
+    },
+    {
+     "text": "Cook until the edges lift and the top is dry and lacy (about 1 minute), on one side only. Peel off and stack."
+    }
+   ],
+   "serving": "With mullah (stew) — such as okra, lentils or meat sauce.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegan",
+     "vegetarian",
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "yes"
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "st-calulu",
+   "title": "Calulu",
+   "native_name": {
+    "text": "Calulu",
+    "lang": "pt"
+   },
+   "summary": "São Tomé's national dish — fish slowly stewed with okra, eggplant, tomato, greens and palm oil.",
+   "origin": {
+    "country": "ST",
+    "also_claimed_by": [
+     "AO"
+    ],
+    "country_name": "Sao Tome and Principe",
+    "continent": "Africa",
+    "subregion": "Middle Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew",
+    "seafood"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 5
+   },
+   "time": {
+    "prep_min": 20,
+    "cook_min": 60,
+    "total_min": 80
+   },
+   "difficulty": 2,
+   "techniques": [
+    "stewing"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "red-palm-oil",
+       "qty": 80,
+       "unit": "ml",
+       "name": "red palm oil"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 2,
+       "prep": "sliced",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 3,
+       "unit": "clove",
+       "prep": "minced",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 3,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "eggplant",
+       "qty": 1,
+       "prep": "cubed",
+       "name": "eggplant"
+      },
+      {
+       "ingredient": "okra",
+       "qty": 200,
+       "unit": "g",
+       "prep": "sliced",
+       "name": "okra"
+      },
+      {
+       "ingredient": "water",
+       "qty": 500,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "smoked-fish",
+       "qty": 200,
+       "unit": "g",
+       "prep": "flaked",
+       "name": "smoked fish"
+      },
+      {
+       "ingredient": "white-fish",
+       "qty": 600,
+       "unit": "g",
+       "prep": "cut into chunks",
+       "name": "firm white fish"
+      },
+      {
+       "ingredient": "spinach",
+       "qty": 200,
+       "unit": "g",
+       "note": "local greens and herbs (such as folha ponto) are traditional",
+       "name": "spinach"
+      },
+      {
+       "ingredient": "red-chili",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "fresh red chili"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Soften the onions and garlic in the palm oil. Add the tomatoes, eggplant and okra and cook for 10 minutes."
+    },
+    {
+     "text": "Add the water and smoked fish and simmer until the vegetables are very soft.",
+     "timer_min": 25
+    },
+    {
+     "text": "Add the fresh fish, greens and chili and simmer gently until the fish flakes.",
+     "timer_min": 15
+    },
+    {
+     "text": "Season."
+    }
+   ],
+   "serving": "With angu (mashed banana) or rice.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "firm white fish",
+       "smoked fish"
+      ]
+     },
+     "vegetarian": {
+      "status": "no",
+      "because": [
+       "firm white fish",
+       "smoked fish"
+      ]
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "fish"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
    "id": "sv-pupusas",
    "title": "Pupusas",
    "native_name": {
@@ -24220,6 +27970,549 @@
       "soy"
      ],
      "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "sz-sishwala-with-emasi",
+   "title": "Sishwala with Emasi",
+   "native_name": {
+    "text": "Sishwala nemasi",
+    "lang": "ss"
+   },
+   "summary": "A firm maize porridge eaten with cool, tangy fermented milk — a simple, beloved Swazi staple.",
+   "origin": {
+    "country": "SZ",
+    "also_claimed_by": [
+     "ZA",
+     "LS"
+    ],
+    "country_name": "Eswatini",
+    "continent": "Africa",
+    "subregion": "Southern Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "porridge"
+   ],
+   "authenticity": "traditional",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 5,
+    "cook_min": 25,
+    "total_min": 30
+   },
+   "difficulty": 2,
+   "techniques": [
+    "boiling"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "water",
+       "qty": 1,
+       "unit": "l",
+       "name": "water"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 0.5,
+       "unit": "tsp",
+       "name": "salt"
+      },
+      {
+       "ingredient": "maize-flour",
+       "qty": 350,
+       "unit": "g",
+       "name": "white maize flour"
+      },
+      {
+       "ingredient": "kefir",
+       "qty": 500,
+       "unit": "ml",
+       "note": "emasi (amasi) is thick fermented milk; kefir or buttermilk are the closest substitutes",
+       "name": "kefir"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Bring the salted water to a boil. Sprinkle in a third of the maize flour and stir to a thin porridge; cook 3 minutes."
+    },
+    {
+     "text": "Add the rest of the flour gradually, stirring and pressing with a wooden spoon, then cover and cook on low, stirring occasionally, until stiff and crumbly-smooth.",
+     "timer_min": 20
+    },
+    {
+     "text": "Serve the sishwala in bowls with chilled emasi poured over or alongside."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegetarian",
+     "pescatarian",
+     "gluten-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "no",
+      "because": [
+       "kefir"
+      ]
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "no",
+      "because": [
+       "kefir"
+      ]
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "milk"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "td-daraba",
+   "title": "Daraba",
+   "alternate_names": [
+    "Chadian okra and peanut stew"
+   ],
+   "summary": "Okra, eggplant, tomato and greens cooked down in a peanut sauce — Chad's everyday stew, eaten with boule.",
+   "origin": {
+    "country": "TD",
+    "country_name": "Chad",
+    "continent": "Africa",
+    "subregion": "Middle Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "stew"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 40,
+    "total_min": 55
+   },
+   "difficulty": 1,
+   "techniques": [
+    "simmering"
+   ],
+   "ingredient_groups": [
+    {
+     "name": "Daraba",
+     "items": [
+      {
+       "ingredient": "water",
+       "qty": 750,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "okra",
+       "qty": 300,
+       "unit": "g",
+       "prep": "sliced",
+       "name": "okra"
+      },
+      {
+       "ingredient": "eggplant",
+       "qty": 1,
+       "prep": "cubed",
+       "name": "eggplant"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 3,
+       "prep": "chopped",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "spinach",
+       "qty": 200,
+       "unit": "g",
+       "prep": "chopped",
+       "name": "spinach"
+      },
+      {
+       "ingredient": "peanut-butter",
+       "qty": 120,
+       "unit": "g",
+       "name": "peanut butter"
+      },
+      {
+       "ingredient": "red-chili",
+       "qty": 1,
+       "prep": "chopped",
+       "optional": true,
+       "name": "fresh red chili"
+      },
+      {
+       "ingredient": "salt",
+       "qty": 1,
+       "unit": "tsp",
+       "name": "salt"
+      }
+     ]
+    },
+    {
+     "name": "Boule",
+     "items": [
+      {
+       "ingredient": "maize-flour",
+       "qty": 300,
+       "unit": "g",
+       "note": "millet or sorghum flour is traditional; cook as for ugali",
+       "name": "white maize flour"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Simmer the okra, eggplant, tomatoes and onion in the water until very soft.",
+     "timer_min": 20
+    },
+    {
+     "text": "Whisk the peanut butter with a ladle of the liquid and stir it in with the spinach, chili and salt."
+    },
+    {
+     "text": "Simmer, stirring, until thick.",
+     "timer_min": 15
+    },
+    {
+     "text": "Serve with boule."
+    }
+   ],
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "vegan",
+     "vegetarian",
+     "pescatarian",
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "yes"
+     },
+     "vegetarian": {
+      "status": "yes"
+     },
+     "pescatarian": {
+      "status": "yes"
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "no",
+      "because": [
+       "peanut butter"
+      ]
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [
+      "peanut"
+     ],
+     "may_contain": [],
+     "in_optional_ingredients": []
+    }
+   }
+  },
+  {
+   "id": "tg-gboma-dessi",
+   "title": "Gboma Dessi",
+   "alternate_names": [
+    "Togolese spinach stew"
+   ],
+   "summary": "Greens stewed with tomato, onion, palm oil and beef or smoked fish — a staple Togolese sauce served with akoumé or fufu.",
+   "origin": {
+    "country": "TG",
+    "also_claimed_by": [
+     "GH",
+     "BJ"
+    ],
+    "country_name": "Togo",
+    "continent": "Africa",
+    "subregion": "Western Africa"
+   },
+   "course": "main",
+   "dish_types": [
+    "greens",
+    "stew"
+   ],
+   "authenticity": "home-style",
+   "yield": {
+    "servings": 4
+   },
+   "time": {
+    "prep_min": 15,
+    "cook_min": 50,
+    "total_min": 65
+   },
+   "difficulty": 2,
+   "techniques": [
+    "stewing"
+   ],
+   "ingredient_groups": [
+    {
+     "items": [
+      {
+       "ingredient": "red-palm-oil",
+       "qty": 80,
+       "unit": "ml",
+       "name": "red palm oil"
+      },
+      {
+       "ingredient": "beef-chuck",
+       "qty": 400,
+       "unit": "g",
+       "prep": "cubed",
+       "optional": true,
+       "name": "beef chuck"
+      },
+      {
+       "ingredient": "onion",
+       "qty": 1,
+       "prep": "chopped",
+       "name": "onion"
+      },
+      {
+       "ingredient": "garlic",
+       "qty": 2,
+       "unit": "clove",
+       "prep": "crushed",
+       "name": "garlic"
+      },
+      {
+       "ingredient": "ginger",
+       "qty": 2,
+       "unit": "cm",
+       "prep": "grated",
+       "name": "fresh ginger"
+      },
+      {
+       "ingredient": "tomato-paste",
+       "qty": 2,
+       "unit": "tbsp",
+       "name": "tomato paste"
+      },
+      {
+       "ingredient": "tomato",
+       "qty": 2,
+       "prep": "blended",
+       "name": "tomato"
+      },
+      {
+       "ingredient": "scotch-bonnet",
+       "qty": 1,
+       "prep": "blended",
+       "name": "Scotch bonnet chili"
+      },
+      {
+       "ingredient": "water",
+       "qty": 400,
+       "unit": "ml",
+       "name": "water"
+      },
+      {
+       "ingredient": "smoked-fish",
+       "qty": 100,
+       "unit": "g",
+       "prep": "flaked",
+       "optional": true,
+       "name": "smoked fish"
+      },
+      {
+       "ingredient": "spinach",
+       "qty": 800,
+       "unit": "g",
+       "prep": "chopped",
+       "note": "gboma (African eggplant leaves) is traditional",
+       "name": "spinach"
+      },
+      {
+       "ingredient": "salt",
+       "note": "to taste",
+       "name": "salt"
+      }
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "text": "Brown the beef (if using) in the palm oil, then add the onion, garlic and ginger."
+    },
+    {
+     "text": "Add the tomato paste, blended tomato and chili and fry until thick (10 minutes)."
+    },
+    {
+     "text": "Add the water and smoked fish and simmer until the meat is tender.",
+     "timer_min": 30
+    },
+    {
+     "text": "Stir in the greens and simmer until wilted and the sauce is thick.",
+     "timer_min": 8
+    }
+   ],
+   "serving": "With akoumé (fermented corn dough), fufu or rice.",
+   "credit": {
+    "source_type": "traditional",
+    "contributors": [
+     {
+      "name": "Globowl Editorial",
+      "role": "written-by"
+     }
+    ],
+    "license": "CC-BY-4.0",
+    "ai_assisted": true
+   },
+   "review": {
+    "status": "draft"
+   },
+   "dietary": {
+    "tags": [
+     "gluten-free",
+     "dairy-free",
+     "egg-free",
+     "nut-free",
+     "pork-free",
+     "alcohol-free"
+    ],
+    "diets": {
+     "vegan": {
+      "status": "adaptable",
+      "changes": [
+       "omit beef chuck",
+       "omit smoked fish"
+      ]
+     },
+     "vegetarian": {
+      "status": "adaptable",
+      "changes": [
+       "omit beef chuck",
+       "omit smoked fish"
+      ]
+     },
+     "pescatarian": {
+      "status": "adaptable",
+      "changes": [
+       "omit beef chuck"
+      ]
+     },
+     "gluten-free": {
+      "status": "yes"
+     },
+     "dairy-free": {
+      "status": "yes"
+     },
+     "egg-free": {
+      "status": "yes"
+     },
+     "nut-free": {
+      "status": "yes"
+     },
+     "pork-free": {
+      "status": "yes"
+     },
+     "alcohol-free": {
+      "status": "yes"
+     }
+    },
+    "allergens": {
+     "contains": [],
+     "may_contain": [],
+     "in_optional_ingredients": [
+      "fish"
+     ]
     }
    }
   },

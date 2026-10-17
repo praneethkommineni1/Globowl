@@ -1,0 +1,31 @@
+id: sz-sishwala-with-emasi
+title: Sishwala with Emasi
+native_name: {text: Sishwala nemasi, lang: ss}
+summary: A firm maize porridge eaten with cool, tangy fermented milk — a simple, beloved Swazi staple.
+origin:
+  country: SZ
+  also_claimed_by: [ZA, LS]
+course: main
+dish_types: [porridge]
+authenticity: traditional
+yield: {servings: 4}
+time: {prep_min: 5, cook_min: 25}
+difficulty: 2
+techniques: [boiling]
+ingredient_groups:
+  - items:
+      - {ingredient: water, qty: 1, unit: l}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+      - {ingredient: maize-flour, qty: 350, unit: g}
+      - {ingredient: kefir, qty: 500, unit: ml, note: "emasi (amasi) is thick fermented milk; kefir or buttermilk are the closest substitutes"}
+steps:
+  - Bring the salted water to a boil. Sprinkle in a third of the maize flour and stir to a thin porridge; cook 3 minutes.
+  - text: Add the rest of the flour gradually, stirring and pressing with a wooden spoon, then cover and cook on low, stirring occasionally, until stiff and crumbly-smooth.
+    timer_min: 20
+  - Serve the sishwala in bowls with chilled emasi poured over or alongside.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -1,0 +1,38 @@
+id: lr-rice-bread
+title: Liberian Rice Bread
+summary: A moist, banana-sweetened quick bread made with rice flour and warm spices — a Liberian favourite.
+origin:
+  country: LR
+course: bread
+dish_types: [quick-bread, cake]
+authenticity: home-style
+yield: {servings: 10, amount: 1 loaf}
+time: {prep_min: 15, cook_min: 50}
+difficulty: 1
+equipment: [23 × 13 cm loaf tin]
+techniques: [baking]
+ingredient_groups:
+  - items:
+      - {ingredient: rice-flour, qty: 300, unit: g, note: "cream of rice is traditional"}
+      - {ingredient: baking-powder, qty: 2, unit: tsp}
+      - {ingredient: nutmeg, qty: 0.5, unit: tsp}
+      - {ingredient: ground-ginger, qty: 0.5, unit: tsp}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+      - {ingredient: banana, qty: 3, prep: "very ripe, mashed"}
+      - {ingredient: sugar, qty: 100, unit: g}
+      - {ingredient: vegetable-oil, qty: 120, unit: ml}
+      - {ingredient: milk, qty: 250, unit: ml}
+      - {ingredient: egg, qty: 2}
+steps:
+  - Heat the oven to 175 °C and grease the tin.
+  - Mix the dry ingredients. In another bowl beat the bananas, sugar, oil, milk and eggs.
+  - Combine into a thick, smooth batter and pour into the tin.
+  - text: Bake until golden and a skewer comes out clean.
+    timer_min: 50
+  - Cool before slicing.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

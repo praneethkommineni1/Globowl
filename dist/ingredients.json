@@ -321,6 +321,29 @@
    "kore"
   ]
  },
+ "fonio": {
+  "name": "fonio",
+  "category": "grain",
+  "aliases": [
+   "acha",
+   "findi"
+  ]
+ },
+ "rice-flour": {
+  "name": "rice flour",
+  "category": "grain",
+  "aliases": [
+   "cream of rice"
+  ]
+ },
+ "sorghum-flour": {
+  "name": "sorghum flour",
+  "category": "grain",
+  "aliases": [
+   "dura",
+   "jowar flour"
+  ]
+ },
  "red-lentils": {
   "name": "red lentils",
   "category": "legume",
@@ -808,6 +831,17 @@
    "kislo zelje",
    "kapusta kiszona"
   ]
+ },
+ "cassava-leaves": {
+  "name": "cassava leaves",
+  "category": "vegetable",
+  "aliases": [
+   "saka-saka",
+   "pondu",
+   "plasas",
+   "mpondu"
+  ],
+  "note": "Must be cooked thoroughly; usually sold frozen and pounded."
  },
  "lemon": {
   "name": "lemon",
@@ -1572,6 +1606,17 @@
    "sesame"
   ]
  },
+ "palm-nut-cream": {
+  "name": "palm nut cream",
+  "category": "fat",
+  "aliases": [
+   "palm butter",
+   "sauce graine",
+   "moambé",
+   "nyembwe",
+   "banga"
+  ]
+ },
  "vegetable-oil": {
   "name": "vegetable oil",
   "category": "fat"
@@ -2204,6 +2249,33 @@
   ],
   "contains": [
    "fish"
+  ]
+ },
+ "lobster-tail": {
+  "name": "lobster tail",
+  "category": "seafood",
+  "animal": [
+   "shellfish"
+  ],
+  "contains": [
+   "crustacean"
+  ],
+  "aliases": [
+   "langouste",
+   "rock lobster"
+  ]
+ },
+ "octopus": {
+  "name": "octopus",
+  "category": "seafood",
+  "animal": [
+   "shellfish"
+  ],
+  "contains": [
+   "mollusc"
+  ],
+  "aliases": [
+   "zourit"
   ]
  },
  "sugar": {

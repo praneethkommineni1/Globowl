@@ -57,6 +57,10 @@ chickpea-flour: {name: chickpea flour, category: legume, aliases: [gram flour, b
 
 phyllo: {name: phyllo pastry, category: grain, contains: [gluten], aliases: [filo, yufka, kore]}
 
+fonio: {name: fonio, category: grain, aliases: [acha, findi]}
+rice-flour: {name: rice flour, category: grain, aliases: [cream of rice]}
+sorghum-flour: {name: sorghum flour, category: grain, aliases: [dura, jowar flour]}
+
 # --- Legumes and soy --------------------------------------------------------
 red-lentils: {name: red lentils, category: legume, aliases: [masoor dal, split red lentils]}
 brown-lentils: {name: brown lentils, category: legume}
@@ -143,6 +147,8 @@ watercress: {name: watercress, category: vegetable}
 paracress: {name: paracress, category: vegetable, aliases: [brèdes mafana, toothache plant, jambu]}
 
 sauerkraut: {name: sauerkraut, category: vegetable, may_contain: [sulphite], aliases: [kislo zelje, kapusta kiszona]}
+
+cassava-leaves: {name: cassava leaves, category: vegetable, aliases: [saka-saka, pondu, plasas, mpondu], note: Must be cooked thoroughly; usually sold frozen and pounded.}
 
 # --- Fruit ------------------------------------------------------------------
 lemon: {name: lemon, category: fruit}
@@ -286,6 +292,8 @@ raw-peanuts: {name: raw peanuts, category: nut-seed, contains: [peanut]}
 pumpkin-seeds: {name: pumpkin seeds, category: nut-seed, aliases: [pepitas]}
 sesame-seeds: {name: sesame seeds, category: nut-seed, contains: [sesame]}
 
+palm-nut-cream: {name: palm nut cream, category: fat, aliases: [palm butter, sauce graine, moambé, nyembwe, banga]}
+
 # --- Fats -------------------------------------------------------------------
 vegetable-oil: {name: vegetable oil, category: fat}
 sunflower-oil: {name: sunflower oil, category: fat}
@@ -358,6 +366,9 @@ rabbit: {name: rabbit, category: meat, animal: [meat]}
 smoked-pork-collar: {name: smoked pork collar, category: meat, animal: [meat], contains: [pork], may_contain: [sulphite], aliases: [Judd, smoked pork neck]}
 tilapia: {name: tilapia, category: seafood, animal: [fish], contains: [fish], aliases: [chambo]}
 canned-tuna: {name: canned tuna, category: seafood, animal: [fish], contains: [fish]}
+
+lobster-tail: {name: lobster tail, category: seafood, animal: [shellfish], contains: [crustacean], aliases: [langouste, rock lobster]}
+octopus: {name: octopus, category: seafood, animal: [shellfish], contains: [mollusc], aliases: [zourit]}
 
 # --- Sweeteners and baking --------------------------------------------------
 sugar: {name: sugar, category: sweetener, note: Some cane sugar is refined with bone char; strict vegans may prefer certified sugar.}

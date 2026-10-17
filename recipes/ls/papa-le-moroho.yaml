@@ -1,0 +1,37 @@
+id: ls-papa-le-moroho
+title: Papa le Moroho
+native_name: {text: Papa le moroho, lang: st}
+summary: Stiff maize porridge served with moroho — greens cooked down with onion and tomato — the backbone of Basotho meals.
+origin:
+  country: LS
+  also_claimed_by: [ZA]
+course: main
+dish_types: [porridge, greens]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 10, cook_min: 30}
+difficulty: 1
+techniques: [boiling, sauteing]
+ingredient_groups:
+  - name: Papa
+    items:
+      - {ingredient: water, qty: 1, unit: l}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+      - {ingredient: maize-flour, qty: 350, unit: g}
+  - name: Moroho
+    items:
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: spinach, qty: 500, unit: g, prep: "chopped", note: "or cabbage or wild greens"}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - Make the papa as for sishwala or ugali — boiling water, a third of the flour for a thin porridge, then the rest, stirred until stiff. Cover and steam on low for 15 minutes.
+  - For the moroho, fry the onion in the oil, add the tomatoes and cook down, then add the greens and salt and cook until tender.
+  - Serve the papa with the moroho.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -1,0 +1,38 @@
+id: cd-poulet-moambe
+title: Poulet à la Moambé
+native_name: {text: Poulet à la moambé, lang: fr}
+alternate_names: [Moambe chicken]
+summary: Chicken simmered in a rich, orange sauce of palm nut pulp with tomato, onion and chili — the national dish of the Congo.
+origin:
+  country: CD
+  also_claimed_by: [CG, AO]
+course: main
+dish_types: [stew]
+authenticity: traditional
+yield: {servings: 5}
+time: {prep_min: 15, cook_min: 60}
+difficulty: 2
+techniques: [pan-frying, stewing]
+ingredient_groups:
+  - items:
+      - {ingredient: chicken-thigh, qty: 1.2, unit: kg, prep: "bone-in pieces"}
+      - {ingredient: salt, qty: 1.5, unit: tsp}
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: onion, qty: 2, prep: "chopped"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "minced"}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: palm-nut-cream, qty: 400, unit: g, note: "canned palm butter / sauce graine"}
+      - {ingredient: water, qty: 300, unit: ml}
+      - {ingredient: scotch-bonnet, qty: 1, note: "whole"}
+steps:
+  - Season the chicken with salt and brown it in the oil. Add the onions and garlic and cook until soft.
+  - Add the tomatoes and cook for 5 minutes.
+  - text: Stir in the palm nut cream, water and Scotch bonnet. Simmer, partly covered and stirring occasionally, until the chicken is tender and the sauce is thick and glossy with red oil on top.
+    timer_min: 45
+serving: With rice, fufu or pondu (cassava leaves).
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

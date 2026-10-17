@@ -1,0 +1,42 @@
+id: tg-gboma-dessi
+title: Gboma Dessi
+alternate_names: [Togolese spinach stew]
+summary: Greens stewed with tomato, onion, palm oil and beef or smoked fish — a staple Togolese sauce served with akoumé or fufu.
+origin:
+  country: TG
+  also_claimed_by: [GH, BJ]
+course: main
+dish_types: [greens, stew]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 50}
+difficulty: 2
+techniques: [stewing]
+ingredient_groups:
+  - items:
+      - {ingredient: red-palm-oil, qty: 80, unit: ml}
+      - {ingredient: beef-chuck, qty: 400, unit: g, prep: "cubed", optional: true}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: garlic, qty: 2, unit: clove, prep: "crushed"}
+      - {ingredient: ginger, qty: 2, unit: cm, prep: "grated"}
+      - {ingredient: tomato-paste, qty: 2, unit: tbsp}
+      - {ingredient: tomato, qty: 2, prep: "blended"}
+      - {ingredient: scotch-bonnet, qty: 1, prep: "blended"}
+      - {ingredient: water, qty: 400, unit: ml}
+      - {ingredient: smoked-fish, qty: 100, unit: g, prep: "flaked", optional: true}
+      - {ingredient: spinach, qty: 800, unit: g, prep: "chopped", note: "gboma (African eggplant leaves) is traditional"}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - Brown the beef (if using) in the palm oil, then add the onion, garlic and ginger.
+  - Add the tomato paste, blended tomato and chili and fry until thick (10 minutes).
+  - text: Add the water and smoked fish and simmer until the meat is tender.
+    timer_min: 30
+  - text: Stir in the greens and simmer until wilted and the sauce is thick.
+    timer_min: 8
+serving: With akoumé (fermented corn dough), fufu or rice.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -1,0 +1,41 @@
+id: td-daraba
+title: Daraba
+alternate_names: [Chadian okra and peanut stew]
+summary: Okra, eggplant, tomato and greens cooked down in a peanut sauce — Chad's everyday stew, eaten with boule.
+origin:
+  country: TD
+course: main
+dish_types: [stew]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 40}
+difficulty: 1
+techniques: [simmering]
+ingredient_groups:
+  - name: Daraba
+    items:
+      - {ingredient: water, qty: 750, unit: ml}
+      - {ingredient: okra, qty: 300, unit: g, prep: "sliced"}
+      - {ingredient: eggplant, qty: 1, prep: "cubed"}
+      - {ingredient: tomato, qty: 3, prep: "chopped"}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: spinach, qty: 200, unit: g, prep: "chopped"}
+      - {ingredient: peanut-butter, qty: 120, unit: g}
+      - {ingredient: red-chili, qty: 1, prep: "chopped", optional: true}
+      - {ingredient: salt, qty: 1, unit: tsp}
+  - name: Boule
+    items:
+      - {ingredient: maize-flour, qty: 300, unit: g, note: "millet or sorghum flour is traditional; cook as for ugali"}
+steps:
+  - text: Simmer the okra, eggplant, tomatoes and onion in the water until very soft.
+    timer_min: 20
+  - Whisk the peanut butter with a ladle of the liquid and stir it in with the spinach, chili and salt.
+  - text: Simmer, stirring, until thick.
+    timer_min: 15
+  - Serve with boule.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

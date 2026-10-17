@@ -1,0 +1,47 @@
+id: gn-fonio-sauce-gombo
+title: Fonio with Sauce Gombo
+native_name: {text: Fonio sauce gombo, lang: fr}
+alternate_names: [Fonio with okra sauce]
+summary: Fluffy steamed fonio — an ancient West African grain — served with a beefy okra and palm oil sauce.
+origin:
+  country: GN
+  region: Fouta Djallon
+  also_claimed_by: [ML, SN]
+course: main
+dish_types: [grain, stew]
+authenticity: home-style
+yield: {servings: 4}
+time: {prep_min: 15, cook_min: 60}
+difficulty: 2
+techniques: [stewing, steaming]
+ingredient_groups:
+  - name: Sauce gombo
+    items:
+      - {ingredient: red-palm-oil, qty: 4, unit: tbsp}
+      - {ingredient: beef-chuck, qty: 400, unit: g, prep: "cubed"}
+      - {ingredient: onion, qty: 1, prep: "chopped"}
+      - {ingredient: tomato, qty: 2, prep: "chopped"}
+      - {ingredient: water, qty: 750, unit: ml}
+      - {ingredient: okra, qty: 300, unit: g, prep: "finely chopped"}
+      - {ingredient: scotch-bonnet, qty: 1, note: "whole"}
+      - {ingredient: smoked-fish, qty: 80, unit: g, prep: "flaked", optional: true}
+      - {ingredient: salt, note: "to taste"}
+  - name: Fonio
+    items:
+      - {ingredient: fonio, qty: 300, unit: g, prep: "rinsed"}
+      - {ingredient: water, qty: 450, unit: ml}
+      - {ingredient: salt, qty: 0.5, unit: tsp}
+steps:
+  - Brown the beef in the palm oil with the onion, then add the tomato and cook 5 minutes.
+  - text: Add the water and simmer until the beef is tender.
+    timer_min: 40
+  - text: Add the okra, Scotch bonnet and smoked fish and simmer until the sauce is thick and slightly stretchy.
+    timer_min: 15
+  - Meanwhile bring the water and salt to a boil, stir in the fonio, cover and take off the heat for 5 minutes. Fluff with a fork.
+  - Serve the fonio with the sauce.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}

@@ -1,0 +1,45 @@
+id: ml-maafe
+title: Maafe
+native_name: {text: Tigadèguèna, lang: bm}
+alternate_names: [Mafé, Groundnut stew]
+summary: Lamb or beef stewed in a thick tomato and peanut sauce with root vegetables — a West African classic with Malian roots.
+origin:
+  country: ML
+  community: Bambara and Mandinka
+  also_claimed_by: [SN, GM, GN]
+course: main
+dish_types: [stew]
+authenticity: traditional
+yield: {servings: 5}
+time: {prep_min: 20, cook_min: 90}
+difficulty: 2
+techniques: [sauteing, stewing]
+ingredient_groups:
+  - items:
+      - {ingredient: vegetable-oil, qty: 2, unit: tbsp}
+      - {ingredient: lamb-shoulder, qty: 700, unit: g, prep: "cubed", note: "or beef"}
+      - {ingredient: onion, qty: 2, prep: "chopped"}
+      - {ingredient: garlic, qty: 3, unit: clove, prep: "crushed"}
+      - {ingredient: tomato-paste, qty: 3, unit: tbsp}
+      - {ingredient: water, qty: 1, unit: l}
+      - {ingredient: peanut-butter, qty: 200, unit: g, note: "smooth and unsweetened"}
+      - {ingredient: carrot, qty: 2, prep: "chunked"}
+      - {ingredient: sweet-potato, qty: 1, prep: "chunked"}
+      - {ingredient: white-cabbage, qty: 200, unit: g, prep: "wedges", optional: true}
+      - {ingredient: scotch-bonnet, qty: 1, note: "whole"}
+      - {ingredient: salt, note: "to taste"}
+steps:
+  - Brown the meat in the oil, add the onions and garlic, then the tomato paste, and fry for 3 minutes.
+  - text: Add the water and simmer until the meat is nearly tender.
+    timer_min: 45
+  - Whisk the peanut butter with a ladle of broth and stir it in, then add the vegetables and Scotch bonnet.
+  - text: Simmer, stirring regularly, until the vegetables are tender and the sauce is thick with oil on the surface.
+    timer_min: 30
+serving: With white rice or fonio.
+culture: Gambian domoda and Senegalese mafé are close cousins of this dish.
+credit:
+  source_type: traditional
+  contributors: [{name: Globowl Editorial, role: written-by}]
+  license: CC-BY-4.0
+  ai_assisted: true
+review: {status: draft}
